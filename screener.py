@@ -408,6 +408,7 @@ def load_candidates():
         ticker=str(row.get("Code","")).zfill(6)
         market=str(row.get("market","KOSPI"))
         if not name or not ticker or name in seen or is_etf(name): continue
+        if name.endswith("우") or name.endswith("우B") or name.endswith("우C"): continue  # 우선주 제외
         seen.add(name)
         result.append({"ticker":ticker,"name":name,"market":market})
         if len(result)>=CAND_N: break
