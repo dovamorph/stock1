@@ -1,6 +1,4 @@
-# .github/workflows/daily_screener.yml
-
-name: 📊 StockPilot 자동 스크리닝
+name: StockPilot KR Screener
 
 on:
   schedule:
@@ -13,33 +11,38 @@ permissions:
 jobs:
   run-screener:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
-
     steps:
-      - name: 📥 저장소 체크아웃
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: 🐍 Python 3.11 설정
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip'
 
-      - name: 📦 패키지 설치
-        run: pip install -r requirements.txt
+      - name: Install dependencies
+        run: pip install requests pandas finance-datareader yfinance
 
-      - name: 🔍 스크리닝 실행
-        run: python screener.py
+      - name: Run screener
         env:
-          KIS_APP_KEY:     ${{ secrets.KIS_APP_KEY }}
-          KIS_APP_SECRET:  ${{ secrets.KIS_APP_SECRET }}
-          KIS_ACCOUNT:     ${{ secrets.KIS_ACCOUNT }}
+          KIS_APP_KEY:    ${{ secrets.KIS_APP_KEY }}
+          KIS_APP_SECRET: ${{ secrets.KIS_APP_SECRET }}
+          KIS_ACCOUNT_NO: ${{ secrets.KIS_ACCOUNT_NO }}
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: python screener.py
 
-      - name: 💾 results.json 커밋
+      - name: Run trader (모의투자)
+        env:
+          KIS_APP_KEY_MOCK:    ${{ secrets.KIS_APP_KEY_MOCK }}
+          KIS_APP_SECRET_MOCK: ${{ secrets.KIS_APP_SECRET_MOCK }}
+          KIS_ACCOUNT_MOCK:    ${{ secrets.KIS_ACCOUNT_MOCK }}
+          DISCORD_WEBHOOK:     ${{ secrets.DISCORD_WEBHOOK }}
+          KIS_MOCK:            "true"
+        run: python trader.py
+
+      - name: Commit results
         run: |
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name  "github-actions[bot]"
-          git add results.json
-          git diff --staged --quiet || git commit -m "📊 스크리닝 업데이트 $(date +'%Y-%m-%d %H:%M KST' -d '+9 hours')"
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add results.json positions.json index.html
+          git diff --cached --quiet || git commit -m "auto: screener+trader $(date +'%Y%m%d %H%M')"
           git push
