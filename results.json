@@ -1,6 +1,6 @@
 {
   "date": "20260507",
-  "generated_at": "2026-05-07T23:26:32.389597",
+  "generated_at": "2026-05-07T23:53:36.844095",
   "total": 40,
   "market_signal": {
     "signal": "⚖️ 관망",
@@ -289,6 +289,41 @@
     },
     {
       "rank": 8,
+      "ticker": "047040",
+      "name": "대우건설",
+      "market": "KOSPI",
+      "tvol": 7785,
+      "per": -15.13,
+      "pbr": 4.07,
+      "eps": -2195.0,
+      "bps": 8148.0,
+      "roe": -26.9,
+      "close": 33200.0,
+      "eps_trend": "부진",
+      "eps_growth": 0.0,
+      "debt_ratio": 284.5,
+      "ch20": 47.2,
+      "ch5": -10.0,
+      "vol_trend": -54.7,
+      "rsi": 63.5,
+      "is_dividend": false,
+      "filters": {
+        "roe_ok": false,
+        "per_ok": false,
+        "eps_ok": false,
+        "eps_up": false,
+        "debt_ok": false,
+        "is_finance": false,
+        "score": 0,
+        "grade": "F",
+        "recommended": false
+      },
+      "grade": "F",
+      "score": 0,
+      "recommended": false
+    },
+    {
+      "rank": 9,
       "ticker": "001440",
       "name": "대한전선",
       "market": "KOSPI",
@@ -323,7 +358,7 @@
       "recommended": false
     },
     {
-      "rank": 9,
+      "rank": 10,
       "ticker": "079550",
       "name": "LIG디펜스앤에어로스페이스",
       "market": "KOSPI",
@@ -358,7 +393,7 @@
       "recommended": false
     },
     {
-      "rank": 10,
+      "rank": 11,
       "ticker": "010120",
       "name": "LS ELECTRIC",
       "market": "KOSPI",
@@ -393,7 +428,7 @@
       "recommended": false
     },
     {
-      "rank": 11,
+      "rank": 12,
       "ticker": "009150",
       "name": "삼성전기",
       "market": "KOSPI",
@@ -428,7 +463,7 @@
       "recommended": false
     },
     {
-      "rank": 12,
+      "rank": 13,
       "ticker": "329180",
       "name": "HD현대중공업",
       "market": "KOSPI",
@@ -463,7 +498,7 @@
       "recommended": true
     },
     {
-      "rank": 13,
+      "rank": 14,
       "ticker": "454910",
       "name": "두산로보틱스",
       "market": "KOSPI",
@@ -498,7 +533,7 @@
       "recommended": false
     },
     {
-      "rank": 14,
+      "rank": 15,
       "ticker": "006800",
       "name": "미래에셋증권",
       "market": "KOSPI",
@@ -533,7 +568,7 @@
       "recommended": false
     },
     {
-      "rank": 15,
+      "rank": 16,
       "ticker": "005490",
       "name": "POSCO홀딩스",
       "market": "KOSPI",
@@ -568,7 +603,7 @@
       "recommended": false
     },
     {
-      "rank": 16,
+      "rank": 17,
       "ticker": "042700",
       "name": "한미반도체",
       "market": "KOSPI",
@@ -603,7 +638,7 @@
       "recommended": true
     },
     {
-      "rank": 17,
+      "rank": 18,
       "ticker": "028260",
       "name": "삼성물산",
       "market": "KOSPI",
@@ -638,7 +673,7 @@
       "recommended": false
     },
     {
-      "rank": 18,
+      "rank": 19,
       "ticker": "011790",
       "name": "SKC",
       "market": "KOSPI",
@@ -673,7 +708,7 @@
       "recommended": false
     },
     {
-      "rank": 19,
+      "rank": 20,
       "ticker": "006340",
       "name": "대원전선",
       "market": "KOSPI",
@@ -708,7 +743,7 @@
       "recommended": false
     },
     {
-      "rank": 20,
+      "rank": 21,
       "ticker": "012450",
       "name": "한화에어로스페이스",
       "market": "KOSPI",
@@ -743,7 +778,7 @@
       "recommended": false
     },
     {
-      "rank": 21,
+      "rank": 22,
       "ticker": "006400",
       "name": "삼성SDI",
       "market": "KOSPI",
@@ -778,7 +813,7 @@
       "recommended": false
     },
     {
-      "rank": 22,
+      "rank": 23,
       "ticker": "298040",
       "name": "효성중공업",
       "market": "KOSPI",
@@ -811,41 +846,6 @@
       "grade": "B",
       "score": 4,
       "recommended": true
-    },
-    {
-      "rank": 23,
-      "ticker": "178320",
-      "name": "서진시스템",
-      "market": "KOSDAQ",
-      "tvol": 3696,
-      "per": -37.83,
-      "pbr": 5.19,
-      "eps": -1800.0,
-      "bps": 13127.0,
-      "roe": -13.7,
-      "close": 68100.0,
-      "eps_trend": "부진",
-      "eps_growth": 0.0,
-      "debt_ratio": 212.6,
-      "ch20": 53.6,
-      "ch5": 20.1,
-      "vol_trend": 17.1,
-      "rsi": 73.3,
-      "is_dividend": false,
-      "filters": {
-        "roe_ok": false,
-        "per_ok": false,
-        "eps_ok": false,
-        "eps_up": false,
-        "debt_ok": false,
-        "is_finance": false,
-        "score": 0,
-        "grade": "F",
-        "recommended": false
-      },
-      "grade": "F",
-      "score": 0,
-      "recommended": false
     },
     {
       "rank": 24,
@@ -1585,7 +1585,7 @@
       "recommended": true
     },
     {
-      "rank": 12,
+      "rank": 13,
       "ticker": "329180",
       "name": "HD현대중공업",
       "market": "KOSPI",
@@ -1620,7 +1620,7 @@
       "recommended": true
     },
     {
-      "rank": 16,
+      "rank": 17,
       "ticker": "042700",
       "name": "한미반도체",
       "market": "KOSPI",
@@ -1655,7 +1655,7 @@
       "recommended": true
     },
     {
-      "rank": 22,
+      "rank": 23,
       "ticker": "298040",
       "name": "효성중공업",
       "market": "KOSPI",
