@@ -410,7 +410,8 @@ def load_candidates():
         if not name or not ticker or name in seen or is_etf(name): continue
         if name.endswith("우") or name.endswith("우B") or name.endswith("우C"): continue  # 우선주 제외
         seen.add(name)
-        result.append({"ticker":ticker,"name":name,"market":market})
+        sector=str(row.get("Sector","") or row.get("Industry","") or row.get("업종","") or "").strip()
+        result.append({"ticker":ticker,"name":name,"market":market,"sector":sector})
         if len(result)>=CAND_N: break
     print(f"  → {len(result)}개 후보 확정")
     return result
@@ -768,7 +769,7 @@ def main():
             is_div = check_dividend(tk, t.get("market","KOSPI"))
             time.sleep(0.2)
 
-            data={**t,**eps_tr,**price,"is_dividend":is_div}
+            data={**t,**eps_tr,**price,"is_dividend":is_div,"sector":t.get("sector","")}
             f=judge(data)
             data.update({
                 "filters":f,"grade":f["grade"],"score":f["score"],"recommended":f["recommended"],
