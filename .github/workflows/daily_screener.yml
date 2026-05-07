@@ -2,7 +2,8 @@ name: StockPilot KR Screener
 
 on:
   schedule:
-    - cron: '0,30 0-10 * * 1-5'  # 평일 09:00~19:30 KST, 30분마다
+    - cron: '30 23 * * 0-4'    # 월~금 08:30 KST
+    - cron: '0,30 0-8 * * 1-5' # 월~금 09:00~17:30 KST
   workflow_dispatch:
 
 permissions:
