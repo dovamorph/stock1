@@ -508,7 +508,7 @@ def fetch_eps_trend(tok, ticker, cur_eps):
 
 # ── 6단계: 20일 등락 + 5일 등락 ──────────────────────────────────
 def fetch_ch20(tok, ticker):
-    r={"ch20":0.,"ch5":0.,"vol_trend":0.,"rsi":50.0}
+    r={"ch20":0.,"ch5":0.,"vol_trend":0.,"rsi":50.0,"macd_line":0.,"signal_line":0.,"macd_bull":None}
     try:
         now=datetime.now()
         s=(now-timedelta(days=60)).strftime("%Y%m%d"); e=now.strftime("%Y%m%d")
@@ -539,6 +539,27 @@ def fetch_ch20(tok, ticker):
             else:
                 rs=avg_gain/avg_loss
                 r["rsi"]=round(100-(100/(1+rs)),1)
+        # MACD(12,26,9) 계산 — prices는 최신순, 최소 35개 필요
+        if len(prices)>=35:
+            p_asc=prices[:35][::-1]  # 오래된순 35개
+            def ema(data, n):
+                k=2/(n+1); e=data[0]
+                for p in data[1:]: e=p*k+e*(1-k)
+                return e
+            # EMA12, EMA26 (마지막 값)
+            ema12=ema(p_asc,12); ema26=ema(p_asc,26)
+            macd_line=ema12-ema26
+            # 시그널선: MACD 최근 9일치 EMA → 간이 계산
+            macd_vals=[]
+            for i in range(9,35):
+                e12=ema(p_asc[:i+1],12); e26=ema(p_asc[:i+1],26)
+                macd_vals.append(e12-e26)
+            signal_line=ema(macd_vals,9)
+            r["macd_line"]=round(macd_line,2)
+            r["signal_line"]=round(signal_line,2)
+            r["macd_bull"]=(macd_line>signal_line)  # True: 매수 우위
+        else:
+            r["macd_line"]=0.; r["signal_line"]=0.; r["macd_bull"]=None
     except: pass
     return r
 
