@@ -123,8 +123,13 @@ def main():
 
     # 2. 토큰
     print("\n  KIS 토큰 발급 중...")
-    token = get_token()
-    print("  ✅ 토큰 발급 완료")
+    try:
+        token = get_token()
+        print("  ✅ 토큰 발급 완료")
+    except Exception as e:
+        print(f"  ⚠️ KIS 서버 연결 실패: {e}")
+        print("  모의투자 서버 운영시간: 평일 08:30~23:30 KST")
+        return
 
     # 3. 포지션 로드
     pos_data = load_positions()
