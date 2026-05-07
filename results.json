@@ -1,6 +1,6 @@
 {
   "date": "20260507",
-  "generated_at": "2026-05-07T18:30:49.826893",
+  "generated_at": "2026-05-07T18:39:24.077395",
   "total": 40,
   "market_signal": {
     "signal": "⚖️ 관망",
@@ -62,7 +62,6 @@
       "vol_trend": 30.9,
       "rsi": 81.7,
       "is_dividend": true,
-      "sector": "전기,전자",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -98,7 +97,6 @@
       "vol_trend": 17.5,
       "rsi": 92.6,
       "is_dividend": true,
-      "sector": "전기,전자",
       "filters": {
         "roe_ok": true,
         "per_ok": false,
@@ -134,7 +132,6 @@
       "vol_trend": 16.7,
       "rsi": 55.3,
       "is_dividend": false,
-      "sector": "통신장비",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -170,7 +167,6 @@
       "vol_trend": 70.2,
       "rsi": 97.6,
       "is_dividend": true,
-      "sector": "",
       "filters": {
         "roe_ok": true,
         "per_ok": false,
@@ -206,7 +202,6 @@
       "vol_trend": 18.7,
       "rsi": 65.8,
       "is_dividend": true,
-      "sector": "운수장비",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -242,7 +237,6 @@
       "vol_trend": -0.3,
       "rsi": 86.9,
       "is_dividend": false,
-      "sector": "기계",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -278,7 +272,6 @@
       "vol_trend": 11.0,
       "rsi": 69.1,
       "is_dividend": true,
-      "sector": "서비스업",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -314,7 +307,6 @@
       "vol_trend": -54.7,
       "rsi": 63.5,
       "is_dividend": false,
-      "sector": "건설업",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -350,7 +342,6 @@
       "vol_trend": 57.9,
       "rsi": 78.5,
       "is_dividend": false,
-      "sector": "전기,전자",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -386,7 +377,6 @@
       "vol_trend": -4.2,
       "rsi": 47.5,
       "is_dividend": true,
-      "sector": "",
       "filters": {
         "roe_ok": true,
         "per_ok": false,
@@ -422,7 +412,6 @@
       "vol_trend": 16.9,
       "rsi": 96.9,
       "is_dividend": true,
-      "sector": "전기,전자",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -458,7 +447,6 @@
       "vol_trend": 9.6,
       "rsi": 86.5,
       "is_dividend": true,
-      "sector": "전기,전자",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -494,7 +482,6 @@
       "vol_trend": 10.2,
       "rsi": 84.7,
       "is_dividend": true,
-      "sector": "",
       "filters": {
         "roe_ok": true,
         "per_ok": false,
@@ -512,42 +499,6 @@
     },
     {
       "rank": 14,
-      "ticker": "454910",
-      "name": "두산로보틱스",
-      "market": "KOSPI",
-      "tvol": 5438,
-      "per": -115.77,
-      "pbr": 18.43,
-      "eps": -856.0,
-      "bps": 5378.0,
-      "roe": -15.9,
-      "close": 99100.0,
-      "eps_trend": "부진",
-      "eps_growth": 0.0,
-      "debt_ratio": 14.6,
-      "ch20": 11.7,
-      "ch5": -3.0,
-      "vol_trend": 182.6,
-      "rsi": 58.3,
-      "is_dividend": false,
-      "sector": "",
-      "filters": {
-        "roe_ok": false,
-        "per_ok": false,
-        "eps_ok": false,
-        "eps_up": false,
-        "debt_ok": true,
-        "is_finance": false,
-        "score": 1,
-        "grade": "F",
-        "recommended": false
-      },
-      "grade": "F",
-      "score": 1,
-      "recommended": false
-    },
-    {
-      "rank": 15,
       "ticker": "006800",
       "name": "미래에셋증권",
       "market": "KOSPI",
@@ -566,7 +517,6 @@
       "vol_trend": 82.5,
       "rsi": 62.9,
       "is_dividend": true,
-      "sector": "증권",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -583,7 +533,7 @@
       "recommended": false
     },
     {
-      "rank": 16,
+      "rank": 15,
       "ticker": "005490",
       "name": "POSCO홀딩스",
       "market": "KOSPI",
@@ -602,7 +552,6 @@
       "vol_trend": 30.7,
       "rsi": 91.1,
       "is_dividend": true,
-      "sector": "철강및금속",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -619,7 +568,7 @@
       "recommended": false
     },
     {
-      "rank": 17,
+      "rank": 16,
       "ticker": "042700",
       "name": "한미반도체",
       "market": "KOSPI",
@@ -638,7 +587,6 @@
       "vol_trend": 26.3,
       "rsi": 82.0,
       "is_dividend": true,
-      "sector": "기계",
       "filters": {
         "roe_ok": true,
         "per_ok": false,
@@ -655,7 +603,7 @@
       "recommended": true
     },
     {
-      "rank": 18,
+      "rank": 17,
       "ticker": "028260",
       "name": "삼성물산",
       "market": "KOSPI",
@@ -674,7 +622,6 @@
       "vol_trend": 74.5,
       "rsi": 80.0,
       "is_dividend": true,
-      "sector": "",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -691,7 +638,7 @@
       "recommended": false
     },
     {
-      "rank": 19,
+      "rank": 18,
       "ticker": "011790",
       "name": "SKC",
       "market": "KOSPI",
@@ -710,7 +657,6 @@
       "vol_trend": 74.4,
       "rsi": 80.8,
       "is_dividend": false,
-      "sector": "화학",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -727,7 +673,7 @@
       "recommended": false
     },
     {
-      "rank": 20,
+      "rank": 19,
       "ticker": "006340",
       "name": "대원전선",
       "market": "KOSPI",
@@ -746,7 +692,6 @@
       "vol_trend": 49.5,
       "rsi": 91.0,
       "is_dividend": false,
-      "sector": "전기,전자",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -763,7 +708,7 @@
       "recommended": false
     },
     {
-      "rank": 21,
+      "rank": 20,
       "ticker": "012450",
       "name": "한화에어로스페이스",
       "market": "KOSPI",
@@ -782,7 +727,6 @@
       "vol_trend": 20.6,
       "rsi": 31.0,
       "is_dividend": true,
-      "sector": "의료정밀",
       "filters": {
         "roe_ok": true,
         "per_ok": false,
@@ -799,7 +743,7 @@
       "recommended": false
     },
     {
-      "rank": 22,
+      "rank": 21,
       "ticker": "006400",
       "name": "삼성SDI",
       "market": "KOSPI",
@@ -818,7 +762,6 @@
       "vol_trend": -12.4,
       "rsi": 81.9,
       "is_dividend": true,
-      "sector": "전기,전자",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -835,43 +778,7 @@
       "recommended": false
     },
     {
-      "rank": 23,
-      "ticker": "298040",
-      "name": "효성중공업",
-      "market": "KOSPI",
-      "tvol": 3745,
-      "per": 82.52,
-      "pbr": 18.22,
-      "eps": 55755.0,
-      "bps": 252555.0,
-      "roe": 22.1,
-      "close": 4601000.0,
-      "eps_trend": "상승",
-      "eps_growth": 50.7,
-      "debt_ratio": 190.3,
-      "ch20": 57.0,
-      "ch5": 15.5,
-      "vol_trend": 17.5,
-      "rsi": 95.1,
-      "is_dividend": true,
-      "sector": "",
-      "filters": {
-        "roe_ok": true,
-        "per_ok": false,
-        "eps_ok": true,
-        "eps_up": true,
-        "debt_ok": true,
-        "is_finance": false,
-        "score": 4,
-        "grade": "B",
-        "recommended": true
-      },
-      "grade": "B",
-      "score": 4,
-      "recommended": true
-    },
-    {
-      "rank": 24,
+      "rank": 22,
       "ticker": "178320",
       "name": "서진시스템",
       "market": "KOSDAQ",
@@ -890,7 +797,6 @@
       "vol_trend": 17.1,
       "rsi": 73.3,
       "is_dividend": false,
-      "sector": "",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -907,7 +813,7 @@
       "recommended": false
     },
     {
-      "rank": 25,
+      "rank": 23,
       "ticker": "064350",
       "name": "현대로템",
       "market": "KOSPI",
@@ -926,7 +832,6 @@
       "vol_trend": 36.4,
       "rsi": 61.8,
       "is_dividend": true,
-      "sector": "",
       "filters": {
         "roe_ok": true,
         "per_ok": false,
@@ -943,7 +848,7 @@
       "recommended": false
     },
     {
-      "rank": 26,
+      "rank": 24,
       "ticker": "050890",
       "name": "쏠리드",
       "market": "KOSDAQ",
@@ -962,7 +867,6 @@
       "vol_trend": 31.1,
       "rsi": 54.8,
       "is_dividend": false,
-      "sector": "통신장비",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -979,7 +883,7 @@
       "recommended": false
     },
     {
-      "rank": 27,
+      "rank": 25,
       "ticker": "010140",
       "name": "삼성중공업",
       "market": "KOSPI",
@@ -998,7 +902,6 @@
       "vol_trend": -2.4,
       "rsi": 73.9,
       "is_dividend": false,
-      "sector": "운수장비",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -1015,7 +918,7 @@
       "recommended": false
     },
     {
-      "rank": 28,
+      "rank": 26,
       "ticker": "0011T0",
       "name": "채비",
       "market": "KOSDAQ",
@@ -1034,7 +937,6 @@
       "vol_trend": 0.0,
       "rsi": 50.0,
       "is_dividend": false,
-      "sector": "",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -1051,7 +953,7 @@
       "recommended": false
     },
     {
-      "rank": 29,
+      "rank": 27,
       "ticker": "267260",
       "name": "HD현대일렉트릭",
       "market": "KOSPI",
@@ -1070,7 +972,6 @@
       "vol_trend": 6.9,
       "rsi": 81.9,
       "is_dividend": true,
-      "sector": "",
       "filters": {
         "roe_ok": true,
         "per_ok": false,
@@ -1087,7 +988,7 @@
       "recommended": true
     },
     {
-      "rank": 30,
+      "rank": 28,
       "ticker": "138080",
       "name": "오이솔루션",
       "market": "KOSDAQ",
@@ -1106,7 +1007,6 @@
       "vol_trend": 86.4,
       "rsi": 64.8,
       "is_dividend": false,
-      "sector": "",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -1123,7 +1023,7 @@
       "recommended": false
     },
     {
-      "rank": 31,
+      "rank": 29,
       "ticker": "086520",
       "name": "에코프로",
       "market": "KOSDAQ",
@@ -1142,7 +1042,6 @@
       "vol_trend": 5.6,
       "rsi": 61.6,
       "is_dividend": false,
-      "sector": "화학",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -1159,7 +1058,7 @@
       "recommended": false
     },
     {
-      "rank": 32,
+      "rank": 30,
       "ticker": "066570",
       "name": "LG전자",
       "market": "KOSPI",
@@ -1178,7 +1077,6 @@
       "vol_trend": 89.7,
       "rsi": 71.5,
       "is_dividend": true,
-      "sector": "전기,전자",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -1195,7 +1093,7 @@
       "recommended": false
     },
     {
-      "rank": 33,
+      "rank": 31,
       "ticker": "278470",
       "name": "에이피알",
       "market": "KOSPI",
@@ -1214,7 +1112,6 @@
       "vol_trend": 22.4,
       "rsi": 45.7,
       "is_dividend": true,
-      "sector": "",
       "filters": {
         "roe_ok": true,
         "per_ok": false,
@@ -1231,7 +1128,7 @@
       "recommended": true
     },
     {
-      "rank": 34,
+      "rank": 32,
       "ticker": "247540",
       "name": "에코프로비엠",
       "market": "KOSDAQ",
@@ -1250,7 +1147,6 @@
       "vol_trend": 35.3,
       "rsi": 70.9,
       "is_dividend": true,
-      "sector": "",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -1267,7 +1163,7 @@
       "recommended": false
     },
     {
-      "rank": 35,
+      "rank": 33,
       "ticker": "006910",
       "name": "보성파워텍",
       "market": "KOSDAQ",
@@ -1286,7 +1182,6 @@
       "vol_trend": 124.6,
       "rsi": 82.2,
       "is_dividend": false,
-      "sector": "일반전기전자",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -1303,7 +1198,7 @@
       "recommended": false
     },
     {
-      "rank": 36,
+      "rank": 34,
       "ticker": "000720",
       "name": "현대건설",
       "market": "KOSPI",
@@ -1322,7 +1217,6 @@
       "vol_trend": -24.5,
       "rsi": 37.3,
       "is_dividend": true,
-      "sector": "건설업",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -1339,7 +1233,7 @@
       "recommended": false
     },
     {
-      "rank": 37,
+      "rank": 35,
       "ticker": "000270",
       "name": "기아",
       "market": "KOSPI",
@@ -1358,7 +1252,6 @@
       "vol_trend": -5.5,
       "rsi": 58.8,
       "is_dividend": true,
-      "sector": "운수장비",
       "filters": {
         "roe_ok": false,
         "per_ok": true,
@@ -1375,7 +1268,7 @@
       "recommended": true
     },
     {
-      "rank": 38,
+      "rank": 36,
       "ticker": "032820",
       "name": "우리기술",
       "market": "KOSDAQ",
@@ -1394,7 +1287,6 @@
       "vol_trend": -46.0,
       "rsi": 44.3,
       "is_dividend": false,
-      "sector": "일반전기전자",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -1411,7 +1303,7 @@
       "recommended": false
     },
     {
-      "rank": 39,
+      "rank": 37,
       "ticker": "007660",
       "name": "이수페타시스",
       "market": "KOSPI",
@@ -1430,7 +1322,6 @@
       "vol_trend": -20.5,
       "rsi": 64.6,
       "is_dividend": true,
-      "sector": "전기,전자",
       "filters": {
         "roe_ok": true,
         "per_ok": false,
@@ -1447,7 +1338,7 @@
       "recommended": true
     },
     {
-      "rank": 40,
+      "rank": 38,
       "ticker": "373220",
       "name": "LG에너지솔루션",
       "market": "KOSPI",
@@ -1466,7 +1357,6 @@
       "vol_trend": -7.4,
       "rsi": 72.1,
       "is_dividend": false,
-      "sector": "",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -1481,6 +1371,76 @@
       "grade": "F",
       "score": 1,
       "recommended": false
+    },
+    {
+      "rank": 39,
+      "ticker": "068270",
+      "name": "셀트리온",
+      "market": "KOSPI",
+      "tvol": 2178,
+      "per": 45.54,
+      "pbr": 2.57,
+      "eps": 4447.0,
+      "bps": 78721.0,
+      "roe": 5.6,
+      "close": 202500.0,
+      "eps_trend": "상승",
+      "eps_growth": 105.6,
+      "debt_ratio": 28.7,
+      "ch20": 0.2,
+      "ch5": -0.7,
+      "vol_trend": 38.2,
+      "rsi": 50.5,
+      "is_dividend": true,
+      "filters": {
+        "roe_ok": false,
+        "per_ok": false,
+        "eps_ok": true,
+        "eps_up": true,
+        "debt_ok": true,
+        "is_finance": false,
+        "score": 3,
+        "grade": "C",
+        "recommended": false
+      },
+      "grade": "C",
+      "score": 3,
+      "recommended": false
+    },
+    {
+      "rank": 40,
+      "ticker": "105560",
+      "name": "KB금융",
+      "market": "KOSPI",
+      "tvol": 2156,
+      "per": 10.66,
+      "pbr": 0.98,
+      "eps": 15116.0,
+      "bps": 164669.0,
+      "roe": 9.2,
+      "close": 161200.0,
+      "eps_trend": "상승",
+      "eps_growth": 14.3,
+      "debt_ratio": 1211.7,
+      "ch20": 3.3,
+      "ch5": 0.4,
+      "vol_trend": 26.3,
+      "rsi": 57.7,
+      "is_dividend": true,
+      "filters": {
+        "roe_ok": false,
+        "per_ok": true,
+        "eps_ok": true,
+        "eps_up": true,
+        "debt_ok": true,
+        "is_finance": true,
+        "score": 4,
+        "grade": "B",
+        "recommended": true
+      },
+      "grade": "B",
+      "score": 4,
+      "recommended": true
     }
   ],
   "recommended": [
@@ -1504,7 +1464,6 @@
       "vol_trend": 17.5,
       "rsi": 92.6,
       "is_dividend": true,
-      "sector": "전기,전자",
       "filters": {
         "roe_ok": true,
         "per_ok": false,
@@ -1540,7 +1499,6 @@
       "vol_trend": 70.2,
       "rsi": 97.6,
       "is_dividend": true,
-      "sector": "",
       "filters": {
         "roe_ok": true,
         "per_ok": false,
@@ -1576,7 +1534,6 @@
       "vol_trend": 10.2,
       "rsi": 84.7,
       "is_dividend": true,
-      "sector": "",
       "filters": {
         "roe_ok": true,
         "per_ok": false,
@@ -1593,7 +1550,7 @@
       "recommended": true
     },
     {
-      "rank": 17,
+      "rank": 16,
       "ticker": "042700",
       "name": "한미반도체",
       "market": "KOSPI",
@@ -1612,7 +1569,6 @@
       "vol_trend": 26.3,
       "rsi": 82.0,
       "is_dividend": true,
-      "sector": "기계",
       "filters": {
         "roe_ok": true,
         "per_ok": false,
@@ -1629,43 +1585,7 @@
       "recommended": true
     },
     {
-      "rank": 23,
-      "ticker": "298040",
-      "name": "효성중공업",
-      "market": "KOSPI",
-      "tvol": 3745,
-      "per": 82.52,
-      "pbr": 18.22,
-      "eps": 55755.0,
-      "bps": 252555.0,
-      "roe": 22.1,
-      "close": 4601000.0,
-      "eps_trend": "상승",
-      "eps_growth": 50.7,
-      "debt_ratio": 190.3,
-      "ch20": 57.0,
-      "ch5": 15.5,
-      "vol_trend": 17.5,
-      "rsi": 95.1,
-      "is_dividend": true,
-      "sector": "",
-      "filters": {
-        "roe_ok": true,
-        "per_ok": false,
-        "eps_ok": true,
-        "eps_up": true,
-        "debt_ok": true,
-        "is_finance": false,
-        "score": 4,
-        "grade": "B",
-        "recommended": true
-      },
-      "grade": "B",
-      "score": 4,
-      "recommended": true
-    },
-    {
-      "rank": 29,
+      "rank": 27,
       "ticker": "267260",
       "name": "HD현대일렉트릭",
       "market": "KOSPI",
@@ -1684,7 +1604,6 @@
       "vol_trend": 6.9,
       "rsi": 81.9,
       "is_dividend": true,
-      "sector": "",
       "filters": {
         "roe_ok": true,
         "per_ok": false,
@@ -1701,7 +1620,7 @@
       "recommended": true
     },
     {
-      "rank": 33,
+      "rank": 31,
       "ticker": "278470",
       "name": "에이피알",
       "market": "KOSPI",
@@ -1720,7 +1639,6 @@
       "vol_trend": 22.4,
       "rsi": 45.7,
       "is_dividend": true,
-      "sector": "",
       "filters": {
         "roe_ok": true,
         "per_ok": false,
@@ -1737,7 +1655,7 @@
       "recommended": true
     },
     {
-      "rank": 37,
+      "rank": 35,
       "ticker": "000270",
       "name": "기아",
       "market": "KOSPI",
@@ -1756,7 +1674,6 @@
       "vol_trend": -5.5,
       "rsi": 58.8,
       "is_dividend": true,
-      "sector": "운수장비",
       "filters": {
         "roe_ok": false,
         "per_ok": true,
@@ -1773,7 +1690,7 @@
       "recommended": true
     },
     {
-      "rank": 39,
+      "rank": 37,
       "ticker": "007660",
       "name": "이수페타시스",
       "market": "KOSPI",
@@ -1792,7 +1709,6 @@
       "vol_trend": -20.5,
       "rsi": 64.6,
       "is_dividend": true,
-      "sector": "전기,전자",
       "filters": {
         "roe_ok": true,
         "per_ok": false,
@@ -1800,6 +1716,41 @@
         "eps_up": true,
         "debt_ok": true,
         "is_finance": false,
+        "score": 4,
+        "grade": "B",
+        "recommended": true
+      },
+      "grade": "B",
+      "score": 4,
+      "recommended": true
+    },
+    {
+      "rank": 40,
+      "ticker": "105560",
+      "name": "KB금융",
+      "market": "KOSPI",
+      "tvol": 2156,
+      "per": 10.66,
+      "pbr": 0.98,
+      "eps": 15116.0,
+      "bps": 164669.0,
+      "roe": 9.2,
+      "close": 161200.0,
+      "eps_trend": "상승",
+      "eps_growth": 14.3,
+      "debt_ratio": 1211.7,
+      "ch20": 3.3,
+      "ch5": 0.4,
+      "vol_trend": 26.3,
+      "rsi": 57.7,
+      "is_dividend": true,
+      "filters": {
+        "roe_ok": false,
+        "per_ok": true,
+        "eps_ok": true,
+        "eps_up": true,
+        "debt_ok": true,
+        "is_finance": true,
         "score": 4,
         "grade": "B",
         "recommended": true
