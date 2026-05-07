@@ -588,7 +588,7 @@ def judge(d):
     ticker=d.get("ticker","")
 
     c1=roe>=15                      # ROE ≥ 15%
-    c2=0<per<=15                    # PER ≤ 15배 (흑자)
+    c2=0<per<=25                    # PER ≤ 25배 (흑자)
     c3=eps>=1                       # EPS ≥ 1원
     c4=eps_trend=="상승"             # EPS 상승추세
 
@@ -649,7 +649,7 @@ def send_discord(results, date, recs, market_signal):
         f"S&P500 {sp5:,.2f} (5일 {sp5_ch5:+.1f}%) | NASDAQ {ndx:,.2f} (5일 {ndx_ch5:+.1f}%) | VIX {us.get('vix_close',0):.1f} [{us.get('vix_level','?')}]",
         f"{'─'*30}",
         f"",
-        f"거래대금 상위{TOP_N} | ROE≥15% · PER≤15배 · EPS≥1 · EPS상승",
+        f"거래대금 상위{TOP_N} | ROE≥15% · PER≤25배 · EPS≥1 · EPS상승",
         f"✅ 추천(A·B): **{len(recs)}종목**","",
         "⭐ **추천 종목**" if recs else "📊 **상위 종목** (추천 기준 미달)","─"*30,
     ]
@@ -694,7 +694,7 @@ def main():
     now_kst = now_utc + timedelta(hours=9)
     date = now_kst.strftime("%Y%m%d")
     print(f"  기준일: {date} ({now_kst.strftime('%H:%M')} KST)")
-    print(f"  등급: ROE≥15% PER≤15배 EPS≥1 EPS상승 부채비율≤200% → 5개 기준 / 4개이상=추천")
+    print(f"  등급: ROE≥15% PER≤25배 EPS≥1 EPS상승 부채비율≤200% → 5개 기준 / 4개이상=추천")
 
     print("\n[0] KIS 토큰 발급 중...")
     try: tok=get_token()
