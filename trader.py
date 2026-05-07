@@ -115,8 +115,8 @@ def main():
     with open(RESULTS_FILE, "r", encoding="utf-8") as f:
         results = json.load(f)
 
-    signal_raw = results.get("signal", "")
-    # "📈 강한 매수", "📈 매수 우위" 등에서 핵심 키워드 추출
+    market = results.get("market_signal", {})
+    signal_raw = market.get("final_signal", results.get("signal", ""))
     can_buy = any(s in signal_raw for s in BUY_SIGNALS)
     print(f"  시장 시그널: {signal_raw}")
     print(f"  매수 가능: {'✅' if can_buy else '❌ (관망/매도 우위)'}")
@@ -147,6 +147,12 @@ def main():
             reason = f"손절 {pnl_str}"
         elif pnl >= TAKE_PROFIT:
             reason = f"익절 {pnl_str}"
+        else:
+            # 시간 손절: 매수 후 10거래일 경과 + 수익률 < 0%
+            buy_date = datetime.datetime.strptime(p.get("buy_date","19000101"), "%Y%m%d")
+            days_held = (now.replace(tzinfo=None) - buy_date).days
+            if days_held >= 14 and pnl < 0:  # 14일 ≈ 10거래일
+                reason = f"시간손절 ({days_held}일 보유, {pnl_str})"
 
         if reason:
             ok, msg = order(token, ticker, p["qty"], "sell")
@@ -170,9 +176,16 @@ def main():
         save_positions(pos_data)
         return
 
-    # A등급 종목 추출
-    stocks = results.get("stocks", [])
-    a_grade = [s for s in stocks if s.get("grade") == "A" and s["ticker"] not in positions]
+    # A등급 + 타이밍 필터 (RSI≤65, 20일등락≤+30%, 거래대금추세≥0%)
+    stocks = results.get("stocks", results.get("results", []))
+    a_grade = [
+        s for s in stocks
+        if s.get("grade") == "A"
+        and s["ticker"] not in positions
+        and (+s.get("rsi", 99)) <= 65
+        and (+s.get("ch20", 999)) <= 30
+        and (+s.get("vol_trend", -999)) >= 0
+    ]
 
     print(f"\n  [매수 후보] A등급: {len(a_grade)}개")
 
