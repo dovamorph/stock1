@@ -1,6 +1,6 @@
 {
   "date": "20260507",
-  "generated_at": "2026-05-07T18:26:39.438988",
+  "generated_at": "2026-05-07T18:30:49.826893",
   "total": 40,
   "market_signal": {
     "signal": "⚖️ 관망",
@@ -62,7 +62,7 @@
       "vol_trend": 30.9,
       "rsi": 81.7,
       "is_dividend": true,
-      "sector": "",
+      "sector": "전기,전자",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -98,7 +98,7 @@
       "vol_trend": 17.5,
       "rsi": 92.6,
       "is_dividend": true,
-      "sector": "",
+      "sector": "전기,전자",
       "filters": {
         "roe_ok": true,
         "per_ok": false,
@@ -134,7 +134,7 @@
       "vol_trend": 16.7,
       "rsi": 55.3,
       "is_dividend": false,
-      "sector": "",
+      "sector": "통신장비",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -206,7 +206,7 @@
       "vol_trend": 18.7,
       "rsi": 65.8,
       "is_dividend": true,
-      "sector": "",
+      "sector": "운수장비",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -242,7 +242,7 @@
       "vol_trend": -0.3,
       "rsi": 86.9,
       "is_dividend": false,
-      "sector": "",
+      "sector": "기계",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -278,7 +278,7 @@
       "vol_trend": 11.0,
       "rsi": 69.1,
       "is_dividend": true,
-      "sector": "",
+      "sector": "서비스업",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -314,7 +314,7 @@
       "vol_trend": -54.7,
       "rsi": 63.5,
       "is_dividend": false,
-      "sector": "",
+      "sector": "건설업",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -350,7 +350,7 @@
       "vol_trend": 57.9,
       "rsi": 78.5,
       "is_dividend": false,
-      "sector": "",
+      "sector": "전기,전자",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -422,7 +422,7 @@
       "vol_trend": 16.9,
       "rsi": 96.9,
       "is_dividend": true,
-      "sector": "",
+      "sector": "전기,전자",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -458,7 +458,7 @@
       "vol_trend": 9.6,
       "rsi": 86.5,
       "is_dividend": true,
-      "sector": "",
+      "sector": "전기,전자",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -566,7 +566,7 @@
       "vol_trend": 82.5,
       "rsi": 62.9,
       "is_dividend": true,
-      "sector": "",
+      "sector": "증권",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -602,7 +602,7 @@
       "vol_trend": 30.7,
       "rsi": 91.1,
       "is_dividend": true,
-      "sector": "",
+      "sector": "철강및금속",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -638,7 +638,7 @@
       "vol_trend": 26.3,
       "rsi": 82.0,
       "is_dividend": true,
-      "sector": "",
+      "sector": "기계",
       "filters": {
         "roe_ok": true,
         "per_ok": false,
@@ -710,7 +710,7 @@
       "vol_trend": 74.4,
       "rsi": 80.8,
       "is_dividend": false,
-      "sector": "",
+      "sector": "화학",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -746,7 +746,7 @@
       "vol_trend": 49.5,
       "rsi": 91.0,
       "is_dividend": false,
-      "sector": "",
+      "sector": "전기,전자",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -782,7 +782,7 @@
       "vol_trend": 20.6,
       "rsi": 31.0,
       "is_dividend": true,
-      "sector": "",
+      "sector": "의료정밀",
       "filters": {
         "roe_ok": true,
         "per_ok": false,
@@ -818,7 +818,7 @@
       "vol_trend": -12.4,
       "rsi": 81.9,
       "is_dividend": true,
-      "sector": "",
+      "sector": "전기,전자",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -962,7 +962,7 @@
       "vol_trend": 31.1,
       "rsi": 54.8,
       "is_dividend": false,
-      "sector": "",
+      "sector": "통신장비",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -998,7 +998,7 @@
       "vol_trend": -2.4,
       "rsi": 73.9,
       "is_dividend": false,
-      "sector": "",
+      "sector": "운수장비",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -1142,7 +1142,7 @@
       "vol_trend": 5.6,
       "rsi": 61.6,
       "is_dividend": false,
-      "sector": "",
+      "sector": "화학",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -1178,7 +1178,7 @@
       "vol_trend": 89.7,
       "rsi": 71.5,
       "is_dividend": true,
-      "sector": "",
+      "sector": "전기,전자",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -1286,7 +1286,7 @@
       "vol_trend": 124.6,
       "rsi": 82.2,
       "is_dividend": false,
-      "sector": "",
+      "sector": "일반전기전자",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -1322,7 +1322,7 @@
       "vol_trend": -24.5,
       "rsi": 37.3,
       "is_dividend": true,
-      "sector": "",
+      "sector": "건설업",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -1358,7 +1358,7 @@
       "vol_trend": -5.5,
       "rsi": 58.8,
       "is_dividend": true,
-      "sector": "",
+      "sector": "운수장비",
       "filters": {
         "roe_ok": false,
         "per_ok": true,
@@ -1394,7 +1394,7 @@
       "vol_trend": -46.0,
       "rsi": 44.3,
       "is_dividend": false,
-      "sector": "",
+      "sector": "일반전기전자",
       "filters": {
         "roe_ok": false,
         "per_ok": false,
@@ -1430,7 +1430,7 @@
       "vol_trend": -20.5,
       "rsi": 64.6,
       "is_dividend": true,
-      "sector": "",
+      "sector": "전기,전자",
       "filters": {
         "roe_ok": true,
         "per_ok": false,
@@ -1504,7 +1504,7 @@
       "vol_trend": 17.5,
       "rsi": 92.6,
       "is_dividend": true,
-      "sector": "",
+      "sector": "전기,전자",
       "filters": {
         "roe_ok": true,
         "per_ok": false,
@@ -1612,7 +1612,7 @@
       "vol_trend": 26.3,
       "rsi": 82.0,
       "is_dividend": true,
-      "sector": "",
+      "sector": "기계",
       "filters": {
         "roe_ok": true,
         "per_ok": false,
@@ -1756,7 +1756,7 @@
       "vol_trend": -5.5,
       "rsi": 58.8,
       "is_dividend": true,
-      "sector": "",
+      "sector": "운수장비",
       "filters": {
         "roe_ok": false,
         "per_ok": true,
@@ -1792,7 +1792,7 @@
       "vol_trend": -20.5,
       "rsi": 64.6,
       "is_dividend": true,
-      "sector": "",
+      "sector": "전기,전자",
       "filters": {
         "roe_ok": true,
         "per_ok": false,
