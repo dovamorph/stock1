@@ -190,6 +190,7 @@ def main():
         and (+s.get("rsi", 99)) <= 65
         and (+s.get("ch20", 999)) <= 30
         and (+s.get("vol_trend", -999)) >= 0
+        and s.get("macd_bull") is not False   # MACD선 > 시그널선 (매수 우위)
     ]
 
     print(f"\n  [매수 후보] A등급: {len(a_grade)}개")
