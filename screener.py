@@ -613,76 +613,9 @@ def judge(d):
 
 # ── Discord ───────────────────────────────────────────────────────
 def send_discord(results, date, recs, market_signal):
-    if not DISCORD: print("  ℹ️ DISCORD 미설정"); return
-    dt=f"{date[:4]}.{date[4:6]}.{date[6:]}"
-    ei={"상승":"📈","유지":"➡️","부진":"📉","데이터없음":"❓"}
-    ge={"A":"🟢","B":"🔵","C":"🟡","D":"🔴"}
-    display=recs[:5] if recs else sorted(results,key=lambda x:x.get("score",0),reverse=True)[:5]
+    pass  # Discord 알림 비활성화 (trader.py에서만 발송)
 
-    sig      = market_signal.get("signal","⚖️ 관망")
-    reason   = market_signal.get("reason","")
-    kospi    = market_signal.get("kospi_close",0)
-    ch5      = market_signal.get("kospi_ch5",0)
-    aligned  = market_signal.get("aligned","")
-    ma5      = market_signal.get("ma5",0)
-    ma20     = market_signal.get("ma20",0)
-    ma60     = market_signal.get("ma60",0)
-    final_sig = market_signal.get("final_signal","⚖️ 관망")
-    final_reason = market_signal.get("final_reason","")
-    us = market_signal.get("us",{})
-    sp5  = us.get("sp500_close",0); sp5_ch5 = us.get("sp500_ch5",0)
-    ndx  = us.get("ndx_close",0);  ndx_ch5 = us.get("ndx_ch5",0)
-    us_sig = us.get("us_signal","⚖️ 혼조")
 
-    lines=[
-        f"📊 **StockPilot KR — {dt}** (KIS 실시간)",
-        f"",
-        f"{'─'*30}",
-        f"🌐 **최종 시그널: {final_sig}**",
-        f"→ {final_reason}",
-        f"",
-        f"🇰🇷 한국: {sig}  [{aligned}]",
-        f"KOSPI {kospi:,.2f} (5일 {ch5:+.1f}%) | RSI {market_signal.get('rsi_14',50):.0f} | 베이시스 {market_signal.get('basis_signal','조회불가')}",
-        f"MA5 {ma5:,.0f} MA20 {ma20:,.0f} MA60 {ma60:,.0f} | 근거: {reason}",
-        f"",
-        f"🇺🇸 미국: {us_sig}",
-        f"S&P500 {sp5:,.2f} (5일 {sp5_ch5:+.1f}%) | NASDAQ {ndx:,.2f} (5일 {ndx_ch5:+.1f}%) | VIX {us.get('vix_close',0):.1f} [{us.get('vix_level','?')}]",
-        f"{'─'*30}",
-        f"",
-        f"거래대금 상위{TOP_N} | ROE≥15% · PER≤25배 · EPS≥1 · EPS상승",
-        f"✅ 추천(A·B): **{len(recs)}종목**","",
-        "⭐ **추천 종목**" if recs else "📊 **상위 종목** (추천 기준 미달)","─"*30,
-    ]
-    for r in display:
-        f=r.get("filters",{}); g=r.get("grade","D"); sc=r.get("score",0)
-        star="⭐ " if r.get("recommended") else ""
-        eps_t=r.get("eps_trend","데이터없음"); eps_g=r.get("eps_growth",0)
-        div_str="  💰" if r.get("is_dividend") else ""
-        lines.append(f"{ge.get(g,'⚪')} {star}**{r['name']}** ({r['market']}) — {g}등급{div_str}")
-        lines.append(f"  ROE {r.get('roe',0):.1f}%{'✅' if f.get('roe_ok') else '❌'}"
-                     f"  PER {r.get('per',0):.1f}배{'✅' if f.get('per_ok') else '❌'}"
-                     f"  PBR {r.get('pbr',0):.2f}")
-        lines.append(f"  {ei.get(eps_t,'❓')} EPS {r.get('eps',0):,.0f}원"
-                     f"{f'({eps_g:+.1f}%)' if eps_g else ''} ({eps_t})"
-                     f"{'✅' if f.get('eps_ok') and f.get('eps_up') else '❌'}")
-        lines.append(f"  {'📈' if r.get('ch20',0)>0 else '📉'} 20일 {r.get('ch20',0):+.1f}%"
-                     f"  5일 {r.get('ch5',0):+.1f}%"
-                     f"  거래대금 {r.get('tvol',0):,}억")
-        lines.append("")
-    lines.append("⚠️ 투자 손실 책임은 본인에게 있습니다.")
-    msg="\n".join(lines)
-    chunks=[]
-    while len(msg)>1900: si=msg[:1900].rfind("\n"); chunks.append(msg[:si]); msg=msg[si:]
-    chunks.append(msg)
-    try:
-        for c in chunks:
-            res=requests.post(DISCORD,json={"content":c},timeout=10)
-            if res.status_code not in (200,204): print(f"  ⚠️ Discord {res.status_code}")
-            time.sleep(0.3)
-        print(f"  ✅ Discord 전송 완료 ({len(chunks)}개)")
-    except Exception as e: print(f"  ❌ Discord 실패: {e}")
-
-# ── 메인 ──────────────────────────────────────────────────────────
 def main():
     print("╔══════════════════════════════════╗")
     print("║   StockPilot KR  KIS 스크리닝   ║")
