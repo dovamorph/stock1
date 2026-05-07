@@ -416,6 +416,29 @@ def load_candidates():
     print(f"  → {len(result)}개 후보 확정")
     return result
 
+
+# ── 업종 조회 (종목 기본정보) ─────────────────────────────────────
+def fetch_sector(tok, ticker):
+    """KIS search-stock-info로 업종명 조회"""
+    try:
+        headers = {
+            "authorization": f"Bearer {tok}",
+            "appkey": APP_KEY, "appsecret": APP_SECRET,
+            "tr_id": "CTPF1002R"
+        }
+        params = {
+            "PRDT_TYPE_CD": "300",
+            "PDNO": ticker
+        }
+        res = requests.get(
+            f"{BASE}/uapi/domestic-stock/v1/quotations/search-stock-info",
+            headers=headers, params=params, timeout=5
+        )
+        o = res.json().get("output", {})
+        return str(o.get("idx_bztp_scls_cd_name","") or o.get("bstp_kor_isnm","") or o.get("idx_bztp_mcls_cd_name","")).strip()
+    except:
+        return ""
+
 # ── 2단계: KIS 현재가 ────────────────────────────────────────────
 def fetch_price_info(tok, ticker):
     r={"per":0.,"pbr":0.,"eps":0.,"bps":0.,"roe":0.,
@@ -433,7 +456,6 @@ def fetch_price_info(tok, ticker):
         r["eps"]  = sf(o.get("eps"))
         r["bps"]  = sf(o.get("bps"))
         if r["bps"]>0: r["roe"]=round(r["eps"]/r["bps"]*100,1)
-        r["sector"] = str(o.get("bstp_kor_isnm","")).strip()
     except Exception as e: print(f"    현재가오류({ticker}):{e}")
     return r
 
@@ -770,7 +792,8 @@ def main():
             is_div = check_dividend(tk, t.get("market","KOSPI"))
             time.sleep(0.2)
 
-            data={**t,**eps_tr,**price,"is_dividend":is_div,"sector":price.get("sector","") or t.get("sector","")}
+            sector = fetch_sector(tok, t["ticker"])
+            data={**t,**eps_tr,**price,"is_dividend":is_div,"sector":sector}
             f=judge(data)
             data.update({
                 "filters":f,"grade":f["grade"],"score":f["score"],"recommended":f["recommended"],
