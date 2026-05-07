@@ -1,0 +1,242 @@
+#!/usr/bin/env python3
+"""
+StockPilot KR — 자동매매 (trader.py)
+조건: A등급 + 시장 매수 우위/강한 매수
+자금: 100만원 균등 분배
+청산: 손절 -7% / 익절 +25%
+"""
+import os, json, time, datetime, requests
+from zoneinfo import ZoneInfo
+
+# ── 설정 ──────────────────────────────────────────────────────────────
+BUDGET          = 1_000_000   # 총 한도
+STOP_LOSS       = -0.10       # -10%
+TAKE_PROFIT     = +0.15       # +15%
+BUY_SIGNALS     = {"강한 매수", "매수 우위"}  # 매수 허용 시그널
+MAX_POSITIONS   = 5           # 최대 보유 종목 수
+RESULTS_FILE    = "results.json"
+POSITIONS_FILE  = "positions.json"
+
+# MOCK=True면 모의투자, False면 실전
+MOCK       = os.environ.get("KIS_MOCK", "true").lower() == "true"
+
+APP_KEY    = os.environ["KIS_APP_KEY_MOCK"]    if MOCK else os.environ["KIS_APP_KEY"]
+APP_SECRET = os.environ["KIS_APP_SECRET_MOCK"] if MOCK else os.environ["KIS_APP_SECRET"]
+ACCOUNT_NO = os.environ.get("KIS_ACCOUNT_MOCK", "5018662201") if MOCK else os.environ.get("KIS_ACCOUNT_NO", "44457068")
+DISCORD_WH = os.environ.get("DISCORD_WEBHOOK", "")
+BASE_URL   = "https://openapivts.koreainvestment.com:29443" if MOCK else "https://openapi.koreainvestment.com:9443"
+KST        = ZoneInfo("Asia/Seoul")
+
+# ── 토큰 ──────────────────────────────────────────────────────────────
+def get_token():
+    r = requests.post(f"{BASE_URL}/oauth2/tokenP", json={
+        "grant_type": "client_credentials",
+        "appkey": APP_KEY, "appsecret": APP_SECRET
+    }, timeout=10)
+    return r.json()["access_token"]
+
+# ── 현재가 조회 ────────────────────────────────────────────────────────
+def get_price(token, ticker):
+    headers = {
+        "authorization": f"Bearer {token}",
+        "appkey": APP_KEY, "appsecret": APP_SECRET,
+        "tr_id": "FHKST01010100"
+    }
+    params = {"fid_cond_mrkt_div_code": "J", "fid_input_iscd": ticker}
+    r = requests.get(f"{BASE_URL}/uapi/domestic-stock/v1/quotations/inquire-price",
+                     headers=headers, params=params, timeout=10)
+    d = r.json().get("output", {})
+    price = int(d.get("stck_prpr", 0))
+    return price
+
+# ── 주문 (매수/매도) ───────────────────────────────────────────────────
+def order(token, ticker, qty, side):
+    """side: 'buy' or 'sell'"""
+    # 모의투자: VTTC0802U/VTTC0801U, 실전: TTTC0802U/TTTC0801U
+    if MOCK:
+        tr_id = "VTTC0802U" if side == "buy" else "VTTC0801U"
+    else:
+        tr_id = "TTTC0802U" if side == "buy" else "TTTC0801U"
+    ord_dvsn = "01"  # 시장가
+    headers = {
+        "authorization": f"Bearer {token}",
+        "appkey": APP_KEY, "appsecret": APP_SECRET,
+        "tr_id": tr_id, "content-type": "application/json"
+    }
+    body = {
+        "CANO": ACCOUNT_NO[:8],
+        "ACNT_PRDT_CD": ACCOUNT_NO[8:] if len(ACCOUNT_NO) > 8 else "01",
+        "PDNO": ticker,
+        "ORD_DVSN": ord_dvsn,
+        "ORD_QTY": str(qty),
+        "ORD_UNPR": "0"
+    }
+    r = requests.post(f"{BASE_URL}/uapi/domestic-stock/v1/trading/order-cash",
+                      headers=headers, json=body, timeout=10)
+    result = r.json()
+    ok = result.get("rt_cd") == "0"
+    msg = result.get("msg1", "")
+    return ok, msg
+
+# ── positions.json 로드/저장 ──────────────────────────────────────────
+def load_positions():
+    if os.path.exists(POSITIONS_FILE):
+        with open(POSITIONS_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {"budget": BUDGET, "used": 0, "positions": {}}
+
+def save_positions(data):
+    with open(POSITIONS_FILE, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+# ── Discord 알림 ──────────────────────────────────────────────────────
+def discord(msg):
+    mode_tag = "[모의] " if MOCK else "[실전] "
+    if not DISCORD_WH:
+        return
+    try:
+        requests.post(DISCORD_WH, json={"content": mode_tag + msg}, timeout=10)
+    except Exception:
+        pass
+
+# ── 메인 ──────────────────────────────────────────────────────────────
+def main():
+    now = datetime.datetime.now(KST)
+    mode_str = "🧪 모의투자" if MOCK else "💰 실전투자"
+    print(f"\n{'='*50}")
+    print(f"  StockPilot KR — 자동매매  {now.strftime('%Y%m%d %H:%M KST')}  [{mode_str}]")
+    print(f"{'='*50}")
+
+    # 1. results.json 로드
+    if not os.path.exists(RESULTS_FILE):
+        print("  ⚠️  results.json 없음 — screener 먼저 실행 필요")
+        return
+
+    with open(RESULTS_FILE, "r", encoding="utf-8") as f:
+        results = json.load(f)
+
+    signal_raw = results.get("signal", "")
+    # "📈 강한 매수", "📈 매수 우위" 등에서 핵심 키워드 추출
+    can_buy = any(s in signal_raw for s in BUY_SIGNALS)
+    print(f"  시장 시그널: {signal_raw}")
+    print(f"  매수 가능: {'✅' if can_buy else '❌ (관망/매도 우위)'}")
+
+    # 2. 토큰
+    print("\n  KIS 토큰 발급 중...")
+    token = get_token()
+    print("  ✅ 토큰 발급 완료")
+
+    # 3. 포지션 로드
+    pos_data = load_positions()
+    positions = pos_data["positions"]  # {ticker: {name, buy_price, qty, amount, buy_date}}
+
+    # ── 4. 보유 종목 손절/익절 체크 ───────────────────────────────────
+    print(f"\n  [보유 종목 체크] {len(positions)}개")
+    sold_tickers = []
+    for ticker, p in list(positions.items()):
+        cur_price = get_price(token, ticker)
+        if cur_price == 0:
+            print(f"    {p['name']} ({ticker}) — 현재가 조회 실패, 스킵")
+            continue
+        buy_price = p["buy_price"]
+        pnl = (cur_price - buy_price) / buy_price
+        pnl_str = f"{pnl*100:+.1f}%"
+        reason = None
+
+        if pnl <= STOP_LOSS:
+            reason = f"손절 {pnl_str}"
+        elif pnl >= TAKE_PROFIT:
+            reason = f"익절 {pnl_str}"
+
+        if reason:
+            ok, msg = order(token, ticker, p["qty"], "sell")
+            if ok:
+                profit = (cur_price - buy_price) * p["qty"]
+                pos_data["used"] -= p["amount"]
+                sold_tickers.append(ticker)
+                del positions[ticker]
+                log = f"📤 **매도** [{reason}] {p['name']} ({ticker})\n   매수가 {buy_price:,}원 → 현재가 {cur_price:,}원 | 손익 {profit:+,}원"
+                print(f"    ✅ {log}")
+                discord(log)
+            else:
+                print(f"    ❌ 매도 실패 {p['name']}: {msg}")
+        else:
+            print(f"    {p['name']} ({ticker}) — {cur_price:,}원 ({pnl_str}) 유지")
+        time.sleep(0.3)
+
+    # ── 5. 매수 로직 ──────────────────────────────────────────────────
+    if not can_buy:
+        print("\n  매수 시그널 없음 — 매도 체크만 완료")
+        save_positions(pos_data)
+        return
+
+    # A등급 종목 추출
+    stocks = results.get("stocks", [])
+    a_grade = [s for s in stocks if s.get("grade") == "A" and s["ticker"] not in positions]
+
+    print(f"\n  [매수 후보] A등급: {len(a_grade)}개")
+
+    # 보유 가능한 슬롯 수
+    slots = MAX_POSITIONS - len(positions)
+    if slots <= 0:
+        print("  최대 보유 종목 도달 — 매수 스킵")
+        save_positions(pos_data)
+        return
+
+    # 남은 예산
+    remaining = BUDGET - pos_data["used"]
+    if remaining < 10_000:
+        print(f"  예산 부족 ({remaining:,}원) — 매수 스킵")
+        save_positions(pos_data)
+        return
+
+    # 균등 분배: 슬롯 수와 후보 수 중 작은 값으로
+    buy_count = min(slots, len(a_grade))
+    if buy_count == 0:
+        print("  A등급 신규 후보 없음")
+        save_positions(pos_data)
+        return
+
+    per_stock = remaining // buy_count
+    print(f"  슬롯: {slots}개 | 후보: {len(a_grade)}개 | 종목당 {per_stock:,}원")
+
+    bought = 0
+    for stock in a_grade[:buy_count]:
+        ticker = stock["ticker"]
+        name   = stock["name"]
+        cur_price = get_price(token, ticker)
+        if cur_price == 0:
+            print(f"    {name} — 현재가 조회 실패, 스킵")
+            continue
+
+        qty = per_stock // cur_price
+        if qty < 1:
+            print(f"    {name} ({ticker}) — 현재가 {cur_price:,}원, 수량 부족 스킵")
+            continue
+
+        actual_amount = cur_price * qty
+        ok, msg = order(token, ticker, qty, "buy")
+        if ok:
+            positions[ticker] = {
+                "name": name, "buy_price": cur_price,
+                "qty": qty, "amount": actual_amount,
+                "buy_date": now.strftime("%Y%m%d")
+            }
+            pos_data["used"] += actual_amount
+            bought += 1
+            log = f"📥 **매수** {name} ({ticker})\n   {cur_price:,}원 × {qty}주 = {actual_amount:,}원 | A등급"
+            print(f"    ✅ {log}")
+            discord(log)
+        else:
+            print(f"    ❌ 매수 실패 {name}: {msg}")
+        time.sleep(0.3)
+
+    print(f"\n  매수 {bought}건 완료 | 총 사용 {pos_data['used']:,}원 / {BUDGET:,}원")
+
+    # 6. 저장
+    save_positions(pos_data)
+    print(f"  💾 positions.json 저장 완료")
+    print(f"\n✅ 자동매매 완료!")
+
+if __name__ == "__main__":
+    main()
