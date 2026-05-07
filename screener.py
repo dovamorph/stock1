@@ -419,7 +419,7 @@ def load_candidates():
 # ── 2단계: KIS 현재가 ────────────────────────────────────────────
 def fetch_price_info(tok, ticker):
     r={"per":0.,"pbr":0.,"eps":0.,"bps":0.,"roe":0.,
-       "close":0.,"acml_tr_pbmn":0.,"tvol_today":0}
+       "close":0.,"acml_tr_pbmn":0.,"tvol_today":0,"sector":""}
     try:
         res=requests.get(f"{BASE}/uapi/domestic-stock/v1/quotations/inquire-price",
             headers=H(tok,"FHKST01010100"),timeout=10,
@@ -433,6 +433,7 @@ def fetch_price_info(tok, ticker):
         r["eps"]  = sf(o.get("eps"))
         r["bps"]  = sf(o.get("bps"))
         if r["bps"]>0: r["roe"]=round(r["eps"]/r["bps"]*100,1)
+        r["sector"] = str(o.get("bstp_kor_isnm","")).strip()
     except Exception as e: print(f"    현재가오류({ticker}):{e}")
     return r
 
@@ -769,7 +770,7 @@ def main():
             is_div = check_dividend(tk, t.get("market","KOSPI"))
             time.sleep(0.2)
 
-            data={**t,**eps_tr,**price,"is_dividend":is_div,"sector":t.get("sector","")}
+            data={**t,**eps_tr,**price,"is_dividend":is_div,"sector":price.get("sector","") or t.get("sector","")}
             f=judge(data)
             data.update({
                 "filters":f,"grade":f["grade"],"score":f["score"],"recommended":f["recommended"],
