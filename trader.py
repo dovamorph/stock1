@@ -111,9 +111,9 @@ def main():
     with open(RESULTS_FILE, "r", encoding="utf-8") as f:
         results = json.load(f)
 
-    market = results.get("market_signal", {})
+    market     = results.get("market_signal", {})
     signal_raw = market.get("final_signal", results.get("signal", ""))
-    can_buy = any(s in signal_raw for s in BUY_SIGNALS)
+    can_buy    = any(s in signal_raw for s in BUY_SIGNALS)
     print(f"  시장 시그널: {signal_raw}")
     print(f"  매수 가능: {'✅' if can_buy else '❌'}")
 
@@ -130,7 +130,6 @@ def main():
 
     # ── 보유 종목 체크 (분할 매도 / 손절 / 시간손절) ──────────────────
     print(f"\n  [보유 종목 체크] {len(positions)}개")
-    fully_sold = []
 
     for ticker, p in list(positions.items()):
         cur_price = get_price(token, ticker)
@@ -139,8 +138,8 @@ def main():
             continue
 
         buy_price     = p["buy_price"]
-        remaining_qty = p.get("remaining_qty", p["qty"])  # 남은 수량
-        sold_stage    = p.get("sold_stage", 0)            # 완료된 분할 단계
+        remaining_qty = p.get("remaining_qty", p["qty"])
+        sold_stage    = p.get("sold_stage", 0)
         pnl           = (cur_price - buy_price) / buy_price
         pnl_str       = f"{pnl*100:+.1f}%"
 
@@ -150,9 +149,9 @@ def main():
             if ok:
                 profit = (cur_price - buy_price) * remaining_qty
                 pos_data["used"] -= p["amount"]
-                fully_sold.append(ticker)
                 del positions[ticker]
-                log = f"📤 **손절** {p['name']} ({ticker})\n   매수가 {buy_price:,}원 → {cur_price:,}원 ({pnl_str}) | 손익 {profit:+,}원"
+                log = (f"📤 **손절** {p['name']} ({ticker})\n"
+                       f"   매수가 {buy_price:,}원 → {cur_price:,}원 ({pnl_str}) | 손익 {profit:+,}원")
                 print(f"    ✅ {log}")
                 discord(log)
             else:
@@ -168,9 +167,9 @@ def main():
             if ok:
                 profit = (cur_price - buy_price) * remaining_qty
                 pos_data["used"] -= p["amount"]
-                fully_sold.append(ticker)
                 del positions[ticker]
-                log = f"📤 **시간손절** {p['name']} ({ticker})\n   {days_held}일 보유 ({pnl_str}) | 손익 {profit:+,}원"
+                log = (f"📤 **시간손절** {p['name']} ({ticker})\n"
+                       f"   {days_held}일 보유 ({pnl_str}) | 손익 {profit:+,}원")
                 print(f"    ✅ {log}")
                 discord(log)
             else:
@@ -184,14 +183,13 @@ def main():
             if sold_stage > stage_idx:
                 continue  # 이미 완료된 단계
             if pnl < target_pnl:
-                break      # 아직 목표 수익률 미달
+                break      # 목표 수익률 미달
 
             # 매도 수량 계산
             if stage_idx == len(PARTIAL_SELLS) - 1:
                 sell_qty = remaining_qty  # 마지막 단계: 전량
             else:
-                original_qty = p["qty"]
-                sell_qty = max(1, int(original_qty * sell_ratio))
+                sell_qty = max(1, int(p["qty"] * sell_ratio))
                 sell_qty = min(sell_qty, remaining_qty)
 
             if sell_qty < 1:
@@ -200,23 +198,22 @@ def main():
 
             ok, msg = order(token, ticker, sell_qty, "sell")
             if ok:
-                profit = (cur_price - buy_price) * sell_qty
+                profit        = (cur_price - buy_price) * sell_qty
                 remaining_qty -= sell_qty
-                sold_stage = stage_idx + 1
+                sold_stage     = stage_idx + 1
                 p["remaining_qty"] = remaining_qty
                 p["sold_stage"]    = sold_stage
 
-                stage_label = f"{int(target_pnl*100)}% 도달 ({int(sell_ratio*100)}% 매도)"
+                stage_label = f"+{int(target_pnl*100)}% 도달 ({int(sell_ratio*100)}% 매도)"
                 log = (f"📤 **분할매도 {stage_idx+1}차** [{stage_label}] {p['name']} ({ticker})\n"
                        f"   {cur_price:,}원 × {sell_qty}주 | 손익 {profit:+,}원 | 잔여 {remaining_qty}주")
                 print(f"    ✅ {log}")
                 discord(log)
                 partial_done = True
 
-                # 마지막 단계면 포지션 종료
+                # 마지막 단계 or 잔여 수량 없으면 포지션 종료
                 if remaining_qty <= 0 or stage_idx == len(PARTIAL_SELLS) - 1:
                     pos_data["used"] -= p["amount"]
-                    fully_sold.append(ticker)
                     del positions[ticker]
             else:
                 print(f"    ❌ 분할매도 실패 {p['name']}: {msg}")
@@ -238,9 +235,9 @@ def main():
         s for s in stocks
         if s.get("grade") == "A"
         and s["ticker"] not in positions
-        and float(s.get("rsi", 99))      <= 65
-        and float(s.get("ch20", 999))    <= 30
-        and float(s.get("vol_trend",-999)) >= 0
+        and float(s.get("rsi", 99))        <= 65
+        and float(s.get("ch20", 999))      <= 30
+        and float(s.get("vol_trend", -999)) >= 0
         and s.get("macd_bull") is not False
     ]
 
