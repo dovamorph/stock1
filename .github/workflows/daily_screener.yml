@@ -1,7 +1,7 @@
 name: StockPilot KR Screener
 
 on:
-    schedule:
+  schedule:
     - cron: '30,40,50 23 * * 0-4'
     - cron: '0,10,20,30 0 * * 1-5'
     - cron: '0,30 1-8 * * 1-5'
@@ -26,13 +26,13 @@ jobs:
 
       - name: Run screener
         env:
-          KIS_APP_KEY:    ${{ secrets.KIS_APP_KEY }}
-          KIS_APP_SECRET: ${{ secrets.KIS_APP_SECRET }}
-          KIS_ACCOUNT_NO: ${{ secrets.KIS_ACCOUNT_NO }}
+          KIS_APP_KEY:     ${{ secrets.KIS_APP_KEY }}
+          KIS_APP_SECRET:  ${{ secrets.KIS_APP_SECRET }}
+          KIS_ACCOUNT_NO:  ${{ secrets.KIS_ACCOUNT_NO }}
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         run: python screener.py
 
-      - name: Run trader (모의투자)
+      - name: Run trader
         env:
           KIS_APP_KEY_MOCK:    ${{ secrets.KIS_APP_KEY_MOCK }}
           KIS_APP_SECRET_MOCK: ${{ secrets.KIS_APP_SECRET_MOCK }}
@@ -43,7 +43,7 @@ jobs:
 
       - name: Commit results
         run: |
-          git config user.name  "github-actions[bot]"
+          git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add results.json positions.json index.html
           git diff --cached --quiet || git commit -m "auto: screener+trader $(date +'%Y%m%d %H%M')"
