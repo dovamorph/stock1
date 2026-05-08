@@ -9,7 +9,7 @@ import os, json, time, datetime, requests
 from zoneinfo import ZoneInfo
 
 # ── 설정 ──────────────────────────────────────────────────────────────
-BUDGET          = 1_000_000   # 총 한도
+BUDGET          = 5_000_000   # 총 한도
 STOP_LOSS       = -0.10       # -10%
 TAKE_PROFIT     = +0.15       # +15%
 BUY_SIGNALS     = {"강한 매수", "매수 우위"}  # 매수 허용 시그널
