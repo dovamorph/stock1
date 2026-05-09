@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-09 19:58",
+  "updated": "2026-05-09 22:50",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -17,7 +17,7 @@
     "Iran accuses US of 'reckless military adventure'",
     "Anger and resignation in Tenerife as hantavirus ship approaches",
     "Hovering objects and flashing lights: what we learned from UFO documents released by the Pentagon",
-    "Hungary's new PM to be sworn in during 'regime change' party"
+    "Hungary's new PM sworn in during 'regime change' party"
   ],
   "categories": {
     "geopolitical": {
@@ -26,8 +26,8 @@
       "signal": "⚠️",
       "summary": "Iran accuses US of 'reckless military adventu...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 14,
-      "score": 21.8
+      "matched": 13,
+      "score": 20.4
     },
     "macro": {
       "level": "안전",
@@ -39,13 +39,13 @@
       "score": 0
     },
     "disaster": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "⚠️",
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
       "summary": "Anger and resignation in Tenerife as hantavir...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 4,
-      "score": 5.8
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 5,
+      "score": 1.4
     },
     "trade": {
       "level": "주의",
@@ -53,23 +53,23 @@
       "signal": "⚠️",
       "summary": "Iran accuses US of 'reckless military adventu...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 7,
-      "score": 1.5
+      "matched": 9,
+      "score": 3.0
     },
     "policy": {
-      "level": "안전",
-      "color": "green",
-      "signal": "✅",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "⚠️",
+      "summary": "[프로야구 창원전적] 삼성 5-4 NC",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 1,
+      "score": 1.5
     }
   },
   "overall": {
-    "level": "안전",
-    "color": "green",
-    "summary": "전반적 안정. 정상 운용 유지",
-    "action": "정상 운용 유지"
+    "level": "주의",
+    "color": "yellow",
+    "summary": "주의 필요: 환경·대규모 재난",
+    "action": "신규 매수 자제 / 추이 관찰"
   }
 }
