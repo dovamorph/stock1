@@ -11,7 +11,6 @@ from zoneinfo import ZoneInfo
 # ── 설정 ──────────────────────────────────────────────────────────────
 BUDGET          = 5_000_000
 STOP_LOSS       = -0.10
-# 분할 매도: (수익률 기준, 매도 비율)
 PARTIAL_SELLS   = [
     (0.10, 0.40),   # +10% 도달 시 40% 매도
     (0.18, 0.35),   # +18% 도달 시 35% 매도
@@ -40,16 +39,20 @@ def get_token():
 
 # ── 현재가 조회 ────────────────────────────────────────────────────────
 def get_price(token, ticker):
-    headers = {
-        "authorization": f"Bearer {token}",
-        "appkey": APP_KEY, "appsecret": APP_SECRET,
-        "tr_id": "FHKST01010100"
-    }
-    params = {"fid_cond_mrkt_div_code": "J", "fid_input_iscd": ticker}
-    r = requests.get(f"{BASE_URL}/uapi/domestic-stock/v1/quotations/inquire-price",
-                     headers=headers, params=params, timeout=10)
-    d = r.json().get("output", {})
-    return int(d.get("stck_prpr", 0))
+    try:
+        headers = {
+            "authorization": f"Bearer {token}",
+            "appkey": APP_KEY, "appsecret": APP_SECRET,
+            "tr_id": "FHKST01010100"
+        }
+        params = {"fid_cond_mrkt_div_code": "J", "fid_input_iscd": ticker}
+        r = requests.get(f"{BASE_URL}/uapi/domestic-stock/v1/quotations/inquire-price",
+                         headers=headers, params=params, timeout=15)
+        d = r.json().get("output", {})
+        return int(d.get("stck_prpr", 0))
+    except Exception as e:
+        print(f"    ⚠️ 현재가 조회 타임아웃 ({ticker}): {e}")
+        return 0
 
 # ── 주문 ──────────────────────────────────────────────────────────────
 def order(token, ticker, qty, side):
@@ -80,11 +83,37 @@ def load_positions():
     if os.path.exists(POSITIONS_FILE):
         with open(POSITIONS_FILE, "r", encoding="utf-8") as f:
             return json.load(f)
-    return {"budget": BUDGET, "used": 0, "positions": {}}
+    return {"budget": BUDGET, "used": 0, "positions": {}, "trade_history": []}
 
 def save_positions(data):
     with open(POSITIONS_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+
+# ── 거래내역 기록 ─────────────────────────────────────────────────────
+def log_trade(pos_data, ticker, pos, sell_price, sell_qty, reason, now):
+    """매매 내역을 positions.json의 trade_history에 기록"""
+    buy_price = pos["buy_price"]
+    pnl       = round((sell_price - buy_price) * sell_qty)
+    pnl_pct   = round((sell_price - buy_price) / buy_price * 100, 2)
+
+    trade = {
+        "ticker":     ticker,
+        "name":       pos["name"],
+        "buy_price":  buy_price,
+        "sell_price": sell_price,
+        "qty":        sell_qty,
+        "buy_date":   pos.get("buy_date", ""),
+        "sell_date":  now.strftime("%Y%m%d"),
+        "sell_time":  now.strftime("%H:%M"),
+        "pnl":        pnl,
+        "pnl_pct":    pnl_pct,
+        "reason":     reason
+    }
+
+    if "trade_history" not in pos_data:
+        pos_data["trade_history"] = []
+    pos_data["trade_history"].insert(0, trade)       # 최신순 정렬
+    pos_data["trade_history"] = pos_data["trade_history"][:30]  # 최근 30건 유지
 
 # ── Discord ───────────────────────────────────────────────────────────
 def discord(msg):
@@ -148,6 +177,7 @@ def main():
         if pnl <= STOP_LOSS:
             ok, msg = order(token, ticker, remaining_qty, "sell")
             if ok:
+                log_trade(pos_data, ticker, p, cur_price, remaining_qty, "손절", now)
                 profit = (cur_price - buy_price) * remaining_qty
                 pos_data["used"] -= p["amount"]
                 del positions[ticker]
@@ -166,6 +196,7 @@ def main():
         if days_held >= 14 and pnl < 0:
             ok, msg = order(token, ticker, remaining_qty, "sell")
             if ok:
+                log_trade(pos_data, ticker, p, cur_price, remaining_qty, f"시간손절({days_held}일)", now)
                 profit = (cur_price - buy_price) * remaining_qty
                 pos_data["used"] -= p["amount"]
                 del positions[ticker]
@@ -182,13 +213,12 @@ def main():
         partial_done = False
         for stage_idx, (target_pnl, sell_ratio) in enumerate(PARTIAL_SELLS):
             if sold_stage > stage_idx:
-                continue  # 이미 완료된 단계
+                continue
             if pnl < target_pnl:
-                break      # 목표 수익률 미달
+                break
 
-            # 매도 수량 계산
             if stage_idx == len(PARTIAL_SELLS) - 1:
-                sell_qty = remaining_qty  # 마지막 단계: 전량
+                sell_qty = remaining_qty
             else:
                 sell_qty = max(1, int(p["qty"] * sell_ratio))
                 sell_qty = min(sell_qty, remaining_qty)
@@ -205,6 +235,9 @@ def main():
                 p["remaining_qty"] = remaining_qty
                 p["sold_stage"]    = sold_stage
 
+                reason_str = f"분할매도{stage_idx+1}차(+{int(target_pnl*100)}%)"
+                log_trade(pos_data, ticker, p, cur_price, sell_qty, reason_str, now)
+
                 stage_label = f"+{int(target_pnl*100)}% 도달 ({int(sell_ratio*100)}% 매도)"
                 log = (f"📤 **분할매도 {stage_idx+1}차** [{stage_label}] {p['name']} ({ticker})\n"
                        f"   {cur_price:,}원 × {sell_qty}주 | 손익 {profit:+,}원 | 잔여 {remaining_qty}주")
@@ -212,14 +245,13 @@ def main():
                 discord(log)
                 partial_done = True
 
-                # 마지막 단계 or 잔여 수량 없으면 포지션 종료
                 if remaining_qty <= 0 or stage_idx == len(PARTIAL_SELLS) - 1:
                     pos_data["used"] -= p["amount"]
                     del positions[ticker]
             else:
                 print(f"    ❌ 분할매도 실패 {p['name']}: {msg}")
             time.sleep(0.3)
-            break  # 한 번에 한 단계씩만
+            break
 
         if ticker in positions and not partial_done:
             stage_info = f" (분할{sold_stage}차 완료)" if sold_stage > 0 else ""
@@ -231,7 +263,7 @@ def main():
         save_positions(pos_data)
         return
 
-    stocks  = results.get("stocks", results.get("results", []))
+    stocks  = results.get("results", results.get("stocks", []))
     a_grade = [
         s for s in stocks
         if s.get("grade") == "A"
