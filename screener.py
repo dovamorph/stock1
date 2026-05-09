@@ -21,6 +21,7 @@ DISCORD    = os.environ.get("DISCORD_WEBHOOK","")
 BASE       = "https://openapi.koreainvestment.com:9443"
 TOP_N      = 40
 CAND_N     = 500
+RESULTS_FILE = "results.json"
 
 ETF_KW = ["ETF","ETN","KODEX","TIGER","KBSTAR","ARIRANG","HANARO","SOL","ACE",
           "RISE","레버리지","인버스","선물","PLUS","TIMEFOLIO"]
@@ -46,14 +47,8 @@ def H(tok, tr_id):
 
 def is_etf(name): return any(k in name for k in ETF_KW)
 
-# ── 0단계: KOSPI 시장 시그널 (MA5/MA20/MA60 기반) ─────────────────
+# ── 0단계: KOSPI 시장 시그널 ─────────────────────────────────────
 def fetch_market_signal(tok) -> dict:
-    """
-    정배열: 현재가 > MA5 > MA20 > MA60 → 매수 우위
-    역배열: 현재가 < MA5 < MA20 < MA60 → 매도 우위
-    그 외: 관망
-    신뢰도 보강: 골든크로스(MA5>MA20) + 중기선(MA60) 동시 확인
-    """
     result = {
         "signal": "⚖️ 관망", "signal_en": "WATCH",
         "reason": "데이터 없음",
@@ -63,14 +58,12 @@ def fetch_market_signal(tok) -> dict:
         "rsi_14": 50.0, "basis": None, "basis_signal": "조회불가",
     }
     try:
-        reasons = []  # 전체 try 블록에서 공유
-        # FDR로 KOSPI/KOSDAQ 지수 (MA60 계산에 충분한 데이터)
+        reasons = []
         now = datetime.now()
         s   = (now - timedelta(days=120)).strftime("%Y-%m-%d")
         e   = now.strftime("%Y-%m-%d")
         df  = fdr.DataReader("KS11", s, e)
 
-        # KOSDAQ 지수도 조회
         try:
             df_kq = fdr.DataReader("KQ11", s, e)
             if df_kq is not None and len(df_kq) >= 2:
@@ -80,7 +73,6 @@ def fetch_market_signal(tok) -> dict:
         except: pass
 
         if df is None or len(df) < 20:
-            # KIS API fallback
             s2 = (now - timedelta(days=120)).strftime("%Y%m%d")
             e2 = now.strftime("%Y%m%d")
             res = requests.get(
@@ -93,7 +85,7 @@ def fetch_market_signal(tok) -> dict:
             prices_raw = [sf(x.get("bstp_nmix_prpr", x.get("stck_clpr",0))) for x in items]
             prices = [p for p in prices_raw if p > 0]
         else:
-            prices = list(df["Close"].dropna())[::-1]  # 최신순
+            prices = list(df["Close"].dropna())[::-1]
 
         if len(prices) < 20:
             return result
@@ -103,17 +95,14 @@ def fetch_market_signal(tok) -> dict:
         ma20  = sum(prices[:20]) / 20
         ma60  = sum(prices[:60]) / 60 if len(prices) >= 60 else sum(prices) / len(prices)
 
-        # RSI 14일 계산 (prices는 최신순)
-        rsi_14 = 50.0  # 기본값
+        rsi_14 = 50.0
         if len(prices) >= 15:
-            # 오래된 순으로 정렬해서 계산
             p_asc = prices[:15][::-1]
             gains = [max(p_asc[i]-p_asc[i-1], 0) for i in range(1,15)]
             losses= [max(p_asc[i-1]-p_asc[i], 0) for i in range(1,15)]
             avg_gain = sum(gains) / 14
             avg_loss = sum(losses) / 14
-            if avg_loss == 0:
-                rsi_14 = 100.0
+            if avg_loss == 0: rsi_14 = 100.0
             else:
                 rs = avg_gain / avg_loss
                 rsi_14 = round(100 - (100 / (1 + rs)), 1)
@@ -128,23 +117,10 @@ def fetch_market_signal(tok) -> dict:
             "rsi_14":      rsi_14,
         })
 
-        # RSI 신호 반영
-        if rsi_14 > 70:
-            reasons.append(f"RSI {rsi_14:.0f} 과매수(조정주의)")
-        elif rsi_14 < 30:
-            reasons.append(f"RSI {rsi_14:.0f} 과매도(반등가능)")
-        elif rsi_14 >= 50:
-            reasons.append(f"RSI {rsi_14:.0f} 상승모멘텀")
-        else:
-            reasons.append(f"RSI {rsi_14:.0f} 하락모멘텀")
-
-        # ── 정배열/역배열 판단 ──
-        is_golden   = ma5 > ma20           # 단기 골든크로스
-        is_above_60 = ma20 > ma60          # 중기 상승추세
-
-        above_all   = close > ma5 > ma20 > ma60   # 완전 정배열
-        below_all   = close < ma5 < ma20 < ma60   # 완전 역배열
-
+        is_golden   = ma5 > ma20
+        is_above_60 = ma20 > ma60
+        above_all   = close > ma5 > ma20 > ma60
+        below_all   = close < ma5 < ma20 < ma60
         reasons = []
 
         if above_all:
@@ -156,37 +132,29 @@ def fetch_market_signal(tok) -> dict:
         else:
             result["aligned"] = "혼조"
 
-        if is_golden and not above_all:
-            reasons.append("MA5>MA20 골든크로스")
-        elif not is_golden and not below_all:
-            reasons.append("MA5<MA20 데드크로스")
-
-        if is_above_60:
-            reasons.append("MA20>MA60 중기 상승")
-        else:
-            reasons.append("MA20<MA60 중기 하락")
+        if is_golden and not above_all: reasons.append("MA5>MA20 골든크로스")
+        elif not is_golden and not below_all: reasons.append("MA5<MA20 데드크로스")
+        if is_above_60: reasons.append("MA20>MA60 중기 상승")
+        else: reasons.append("MA20<MA60 중기 하락")
 
         ch5 = result["kospi_ch5"]
-        if ch5 >= 2:   reasons.append(f"5일 +{ch5:.1f}%↑")
+        if ch5 >= 2: reasons.append(f"5일 +{ch5:.1f}%↑")
         elif ch5 <= -2: reasons.append(f"5일 {ch5:.1f}%↓")
 
-        # ── 종합 점수제 시그널 결정 ──
-        # MA 배열 점수
         kr_score = 0
-        if above_all:           kr_score += 2   # 완전 정배열
-        elif close > ma5:       kr_score += 1   # 현가>MA5
-        if below_all:           kr_score -= 2   # 완전 역배열
-        elif close < ma5:       kr_score -= 1   # 현가<MA5
-        if is_golden:           kr_score += 1   # 골든크로스
-        else:                   kr_score -= 1   # 데드크로스
-        if is_above_60:         kr_score += 1   # 중기 상승
-        else:                   kr_score -= 1   # 중기 하락
+        if above_all:     kr_score += 2
+        elif close > ma5: kr_score += 1
+        if below_all:     kr_score -= 2
+        elif close < ma5: kr_score -= 1
+        if is_golden:     kr_score += 1
+        else:             kr_score -= 1
+        if is_above_60:   kr_score += 1
+        else:             kr_score -= 1
 
-        # RSI 점수 반영
-        if rsi_14 > 75:         kr_score -= 2   # 강한 과매수 → 조정 위험
-        elif rsi_14 > 70:       kr_score -= 1   # 과매수 → 주의
-        elif rsi_14 < 25:       kr_score += 2   # 강한 과매도 → 반등 기대
-        elif rsi_14 < 30:       kr_score += 1   # 과매도 → 매수 기회
+        if rsi_14 > 75:   kr_score -= 2
+        elif rsi_14 > 70: kr_score -= 1
+        elif rsi_14 < 25: kr_score += 2
+        elif rsi_14 < 30: kr_score += 1
 
         result["kr_score"] = kr_score
 
@@ -202,17 +170,12 @@ def fetch_market_signal(tok) -> dict:
 
         result["reason"] = " · ".join(reasons) if reasons else "중립"
 
-        # 선물 베이시스 조회 (KOSPI200 선물)
         try:
-            # 가장 가까운 분기 만기월 계산 (3/6/9/12월)
-            now_m = datetime.now().month
-            now_y = datetime.now().year
+            now_m = datetime.now().month; now_y = datetime.now().year
             exp_months = [3, 6, 9, 12]
             front_m = next(m for m in exp_months if m >= now_m)
             front_y = now_y
-            if front_m < now_m:
-                front_y += 1
-            # KIS 선물 종목코드: 101W + 만기연도(2자리) + 만기월(2자리)
+            if front_m < now_m: front_y += 1
             fut_code = f"101W{str(front_y)[-2:]}{str(front_m).zfill(2)}"
             res_fut = requests.get(
                 f"{BASE}/uapi/domestic-stock/v1/quotations/inquire-price",
@@ -223,29 +186,19 @@ def fetch_market_signal(tok) -> dict:
             fut_data = res_fut.json()
             if fut_data.get("rt_cd") == "0":
                 fut_price = sf(fut_data.get("output",{}).get("stck_prpr", 0))
-                # KOSPI200 현물 지수 (KOSPI의 약 1/5 수준)
-                kospi200 = close / 5  # 근사값
+                kospi200 = close / 5
                 if fut_price > 0:
                     basis = round(fut_price - kospi200, 2)
                     result["basis"] = basis
-                    if basis > 1.5:
-                        result["basis_signal"] = f"강세(+{basis:.1f})"
-                    elif basis > 0:
-                        result["basis_signal"] = f"약강세(+{basis:.1f})"
-                    elif basis > -1.5:
-                        result["basis_signal"] = f"약약세({basis:.1f})"
-                    else:
-                        result["basis_signal"] = f"약세({basis:.1f})"
+                    if basis > 1.5:   result["basis_signal"] = f"강세(+{basis:.1f})"
+                    elif basis > 0:   result["basis_signal"] = f"약강세(+{basis:.1f})"
+                    elif basis > -1.5:result["basis_signal"] = f"약약세({basis:.1f})"
+                    else:             result["basis_signal"] = f"약세({basis:.1f})"
                     print(f"  선물({fut_code}) {fut_price:.2f} | 베이시스 {basis:+.2f} → {result['basis_signal']}")
         except Exception as eb:
             print(f"  선물 베이시스 조회 실패: {eb}")
 
-        print(
-            f"  KOSPI {close:,.2f} | "
-            f"MA5 {ma5:,.2f} MA20 {ma20:,.2f} MA60 {ma60:,.2f} | "
-            f"RSI {rsi_14:.0f} | "
-            f"{result['aligned']} → {result['signal']}"
-        )
+        print(f"  KOSPI {close:,.2f} | MA5 {ma5:,.2f} MA20 {ma20:,.2f} MA60 {ma60:,.2f} | RSI {rsi_14:.0f} | {result['aligned']} → {result['signal']}")
         print(f"  근거: {result['reason']}")
 
     except Exception as e:
@@ -253,12 +206,8 @@ def fetch_market_signal(tok) -> dict:
 
     return result
 
-# ── 미국 시장 시그널 (S&P500 / NASDAQ) ──────────────────────────
+# ── 미국 시장 시그널 ──────────────────────────────────────────────
 def fetch_us_signal() -> dict:
-    """
-    S&P500, 나스닥 MA5/MA20 분석
-    미장은 한국 전날 마감 데이터 기준
-    """
     result = {
         "sp500_close": 0, "sp500_ch5": 0, "sp500_ch20": 0,
         "sp500_ma5": 0,   "sp500_ma20": 0,
@@ -272,115 +221,67 @@ def fetch_us_signal() -> dict:
         now = datetime.now()
         s   = (now - timedelta(days=90)).strftime("%Y-%m-%d")
         e   = now.strftime("%Y-%m-%d")
-
-        scores = []
-        reasons = []
+        scores = []; reasons = []
 
         for ticker, key in [("^GSPC","sp500"), ("^IXIC","ndx")]:
             try:
-                # yf.download 대신 Ticker.history 사용 (^기호 파싱 오류 회피)
                 t_obj = yf.Ticker(ticker)
                 df = t_obj.history(start=s, end=e)
-                if df is None or len(df) < 5:
-                    continue
-                prices = list(df["Close"].dropna())  # 오래된순
+                if df is None or len(df) < 5: continue
+                prices = list(df["Close"].dropna())
                 close = float(prices[-1])
                 ma5   = sum(float(p) for p in prices[-5:])  / 5
                 ma20  = sum(float(p) for p in prices[-20:]) / 20 if len(prices)>=20 else ma5
                 ch5   = round((float(prices[-1])-float(prices[-5]))/float(prices[-5])*100, 2) if len(prices)>=5 else 0
                 ch20  = round((float(prices[-1])-float(prices[-20]))/float(prices[-20])*100, 2) if len(prices)>=20 else 0
-
                 result[f"{key}_close"] = round(close, 2)
                 result[f"{key}_ma5"]   = round(ma5, 2)
                 result[f"{key}_ma20"]  = round(ma20, 2)
                 result[f"{key}_ch5"]   = ch5
                 result[f"{key}_ch20"]  = ch20
-
-                # 개별 시그널
-                above_ma5  = close > ma5
-                golden     = ma5 > ma20
                 label = "SP500" if key=="sp500" else "NASDAQ"
-
-                if above_ma5 and golden:
-                    scores.append(1)
-                    reasons.append(f"{label} 상승추세")
-                elif not above_ma5 and not golden:
-                    scores.append(-1)
-                    reasons.append(f"{label} 하락추세")
+                if close > ma5 and ma5 > ma20:
+                    scores.append(1); reasons.append(f"{label} 상승추세")
+                elif close < ma5 and ma5 < ma20:
+                    scores.append(-1); reasons.append(f"{label} 하락추세")
                 else:
-                    scores.append(0)
-                    reasons.append(f"{label} 혼조")
-
+                    scores.append(0); reasons.append(f"{label} 혼조")
             except Exception as e:
                 print(f"  {ticker} 조회 오류: {e}")
 
-        # VIX 공포지수 조회
-        vix_close = 0; vix_level = "보통"; vix_score = 0
+        vix_close = 0; vix_level = "보통"
         try:
             vix_obj = yf.Ticker("^VIX")
             df_vix = vix_obj.history(start=s, end=e)
             if df_vix is not None and len(df_vix) >= 1:
                 vix_close = round(float(list(df_vix["Close"].dropna())[-1]), 2)
-                # VIX 해석
-                # < 15: 과도한 낙관 (역발상 주의)
-                # 15~20: 안정적 (정상)
-                # 20~25: 불안감 상승
-                # 25~30: 공포 (변동성 높음)
-                # > 30: 극도의 공포 (역발상 매수 기회 가능)
-                if vix_close < 15:
-                    vix_level = "과열낙관"; vix_score = 0   # 너무 낙관적 → 주의
-                    reasons.append(f"VIX {vix_close:.1f} 과열낙관 (조심)")
-                elif vix_close < 20:
-                    vix_level = "안정"; vix_score = 1       # 정상 → 긍정적
-                    reasons.append(f"VIX {vix_close:.1f} 안정")
-                    scores.append(1)
-                elif vix_close < 25:
-                    vix_level = "불안"; vix_score = -1      # 불안 → 부정적
-                    reasons.append(f"VIX {vix_close:.1f} 불안")
-                    scores.append(-1)
-                elif vix_close < 35:
-                    vix_level = "공포"; vix_score = -1      # 공포 → 신중
-                    reasons.append(f"VIX {vix_close:.1f} 공포구간")
-                    scores.append(-1)
-                else:
-                    vix_level = "극공포"; vix_score = 0    # 극공포 → 역발상 가능
-                    reasons.append(f"VIX {vix_close:.1f} 극공포 (역발상주의)")
+                if vix_close < 15:    vix_level = "과열낙관"; reasons.append(f"VIX {vix_close:.1f} 과열낙관 (조심)")
+                elif vix_close < 20:  vix_level = "안정"; scores.append(1); reasons.append(f"VIX {vix_close:.1f} 안정")
+                elif vix_close < 25:  vix_level = "불안"; scores.append(-1); reasons.append(f"VIX {vix_close:.1f} 불안")
+                elif vix_close < 35:  vix_level = "공포"; scores.append(-1); reasons.append(f"VIX {vix_close:.1f} 공포구간")
+                else:                 vix_level = "극공포"; reasons.append(f"VIX {vix_close:.1f} 극공포 (역발상주의)")
         except Exception as e:
             print(f"  VIX 조회 오류: {e}")
 
         result["vix_close"] = vix_close
         result["vix_level"] = vix_level
 
-        # 종합 시그널
         total = sum(scores)
-        if total >= 2:
-            result["us_signal"]    = "📈 상승장"
-            result["us_signal_en"] = "BUY"
-        elif total <= -2:
-            result["us_signal"]    = "📉 하락장"
-            result["us_signal_en"] = "SELL"
-        elif total == 1:
-            result["us_signal"]    = "📈 약한 상승"
-            result["us_signal_en"] = "BUY"
-        elif total == -1:
-            result["us_signal"]    = "📉 약한 하락"
-            result["us_signal_en"] = "SELL"
-        else:
-            result["us_signal"]    = "⚖️ 혼조"
-            result["us_signal_en"] = "WATCH"
+        if total >= 2:    result["us_signal"] = "📈 상승장";    result["us_signal_en"] = "BUY"
+        elif total <= -2: result["us_signal"] = "📉 하락장";    result["us_signal_en"] = "SELL"
+        elif total == 1:  result["us_signal"] = "📈 약한 상승"; result["us_signal_en"] = "BUY"
+        elif total == -1: result["us_signal"] = "📉 약한 하락"; result["us_signal_en"] = "SELL"
+        else:             result["us_signal"] = "⚖️ 혼조";      result["us_signal_en"] = "WATCH"
 
         result["us_reason"] = " · ".join(reasons) if reasons else "데이터 없음"
-        print(f"  S&P500 {result['sp500_close']:,.2f} (5일{result['sp500_ch5']:+.1f}%) | "
-              f"NASDAQ {result['ndx_close']:,.2f} (5일{result['ndx_ch5']:+.1f}%) | "
-              f"VIX {vix_close:.1f} [{vix_level}] → {result['us_signal']}")
+        print(f"  S&P500 {result['sp500_close']:,.2f} (5일{result['sp500_ch5']:+.1f}%) | NASDAQ {result['ndx_close']:,.2f} (5일{result['ndx_ch5']:+.1f}%) | VIX {vix_close:.1f} [{vix_level}] → {result['us_signal']}")
 
     except Exception as e:
         print(f"  미국 시장 오류: {e}")
 
     return result
 
-
-# ── 1단계: FDR 시총 상위 후보 ────────────────────────────────────
+# ── 1단계: 후보 로드 ──────────────────────────────────────────────
 def load_candidates():
     print(f"\n[1/3] 후보 {CAND_N}종목 로드 중...")
     rows=[]
@@ -408,16 +309,14 @@ def load_candidates():
         ticker=str(row.get("Code","")).zfill(6)
         market=str(row.get("market","KOSPI"))
         if not name or not ticker or name in seen or is_etf(name): continue
-        if name.endswith("우") or name.endswith("우B") or name.endswith("우C"): continue  # 우선주 제외
+        if name.endswith("우") or name.endswith("우B") or name.endswith("우C"): continue
         seen.add(name)
         result.append({"ticker":ticker,"name":name,"market":market})
         if len(result)>=CAND_N: break
     print(f"  → {len(result)}개 후보 확정")
     return result
 
-
-
-# ── 2단계: KIS 현재가 ────────────────────────────────────────────
+# ── 2단계: KIS 현재가 ─────────────────────────────────────────────
 def fetch_price_info(tok, ticker):
     r={"per":0.,"pbr":0.,"eps":0.,"bps":0.,"roe":0.,
        "close":0.,"acml_tr_pbmn":0.,"tvol_today":0}
@@ -437,8 +336,8 @@ def fetch_price_info(tok, ticker):
     except Exception as e: print(f"    현재가오류({ticker}):{e}")
     return r
 
-# ── 3단계: 거래대금 상위 30 (병렬) ──────────────────────────────
-def select_top30(tok, candidates):
+# ── 3단계: 거래대금 상위 40 (병렬) ──────────────────────────────
+def select_top40(tok, candidates):
     print(f"\n[2/3] {len(candidates)}종목 거래대금 동시 조회 중...")
     enriched=[]; done_count=[0]
 
@@ -484,8 +383,6 @@ def fetch_eps_trend(tok, ticker, cur_eps):
             headers=H(tok,"FHKST66430300"),timeout=10,
             params={"fid_cond_mrkt_div_code":"J","fid_input_iscd":ticker,"fid_div_cls_code":"1"})
         items=res.json().get("output",[])
-
-        # EPS 추세
         ev=[sf(x.get("eps")) for x in items[:3] if sf(x.get("eps"))!=0]
         if len(ev)>=2:
             growing=all(ev[i]>=ev[i+1] for i in range(len(ev)-1))
@@ -495,18 +392,15 @@ def fetch_eps_trend(tok, ticker, cur_eps):
             elif ev[0]>=1: r["eps_trend"]="유지"
             else: r["eps_trend"]="부진"
         else: r["eps_trend"]="유지" if cur_eps>=1 else "부진"
-
-        # 부채비율 (lblt_rate) — 최근 연간 기준
         for item in items[:1]:
             v = sf(item.get("lblt_rate", 0))
             if v > 0:
                 r["debt_ratio"] = round(v, 1)
                 break
-
     except: r["eps_trend"]="유지" if cur_eps>=1 else "부진"
     return r
 
-# ── 6단계: 20일 등락 + 5일 등락 ──────────────────────────────────
+# ── 6단계: 20일 등락 + RSI + MACD ───────────────────────────────
 def fetch_ch20(tok, ticker):
     r={"ch20":0.,"ch5":0.,"vol_trend":0.,"rsi":50.0,"macd_line":0.,"signal_line":0.,"macd_bull":None}
     try:
@@ -523,33 +417,27 @@ def fetch_ch20(tok, ticker):
             r["ch20"]=round((prices[0]-prices[19])/prices[19]*100,1) if prices[19]>0 else 0.
         if len(prices)>=5:
             r["ch5"]=round((prices[0]-prices[4])/prices[4]*100,1) if prices[4]>0 else 0.
-        # 거래대금 추세: 최근 5일 평균 vs 20일 평균
         vols=[sf(x.get("acml_vol")) for x in items]
         if len(vols)>=20:
             avg5=sum(vols[:5])/5; avgA=sum(vols[:20])/20
             r["vol_trend"]=round((avg5-avgA)/avgA*100,1) if avgA>0 else 0.
-        # RSI(14) 계산 — prices는 최신순이므로 역순으로
         if len(prices)>=15:
-            p_asc=prices[:15][::-1]  # 오래된순 15개
+            p_asc=prices[:15][::-1]
             gains=[max(p_asc[i]-p_asc[i-1],0) for i in range(1,15)]
             losses=[max(p_asc[i-1]-p_asc[i],0) for i in range(1,15)]
             avg_gain=sum(gains)/14; avg_loss=sum(losses)/14
-            if avg_loss==0:
-                r["rsi"]=100.0
+            if avg_loss==0: r["rsi"]=100.0
             else:
                 rs=avg_gain/avg_loss
                 r["rsi"]=round(100-(100/(1+rs)),1)
-        # MACD(12,26,9) 계산 — prices는 최신순, 최소 35개 필요
         if len(prices)>=35:
-            p_asc=prices[:35][::-1]  # 오래된순 35개
+            p_asc=prices[:35][::-1]
             def ema(data, n):
                 k=2/(n+1); e=data[0]
                 for p in data[1:]: e=p*k+e*(1-k)
                 return e
-            # EMA12, EMA26 (마지막 값)
             ema12=ema(p_asc,12); ema26=ema(p_asc,26)
             macd_line=ema12-ema26
-            # 시그널선: MACD 최근 9일치 EMA → 간이 계산
             macd_vals=[]
             for i in range(9,35):
                 e12=ema(p_asc[:i+1],12); e26=ema(p_asc[:i+1],26)
@@ -557,71 +445,27 @@ def fetch_ch20(tok, ticker):
             signal_line=ema(macd_vals,9)
             r["macd_line"]=round(macd_line,2)
             r["signal_line"]=round(signal_line,2)
-            r["macd_bull"]=(macd_line>signal_line)  # True: 매수 우위
+            r["macd_bull"]=(macd_line>signal_line)
         else:
             r["macd_line"]=0.; r["signal_line"]=0.; r["macd_bull"]=None
     except: pass
     return r
 
-# ── 추천 등급 판단 ─────────────────────────────────────────────────
-# 금융업종 티커 목록
-# 은행/증권/보험/카드사는 고객 예금·보험료가 부채로 잡혀
-# 구조적으로 부채비율이 1,000% 이상 → 부채비율 기준 적용 시 왜곡 발생
-# 따라서 금융업종은 부채비율 조건 면제
+# ── 금융업종 ──────────────────────────────────────────────────────
 FINANCE_TICKERS = {
-    # 은행지주
-    "105560",  # KB금융
-    "055550",  # 신한지주
-    "086790",  # 하나금융지주
-    "316140",  # 우리금융지주
-    "138930",  # BNK금융지주
-    "139130",  # DGB금융지주
-    "175330",  # JB금융지주
-    # 증권
-    "039490",  # 키움증권
-    "006800",  # 미래에셋증권
-    "001510",  # SK증권
-    "071050",  # 한국금융지주
-    "003540",  # 대신증권
-    "016360",  # 삼성증권
-    "030200",  # KB증권
-    "005940",  # NH투자증권
-    "078020",  # 이베스트투자증권
-    "008560",  # 메리츠증권
-    "001290",  # 상상인증권
-    "023150",  # MBK파트너스
-    "007770",  # 에스엘
-    "011370",  # 교보증권
-    "012510",  # 더존비즈온
-    # 보험
-    "000810",  # 삼성화재
-    "032830",  # 삼성생명
-    "088350",  # 한화생명
-    "005830",  # DB손해보험
-    # 카드/캐피탈
-    "029780",  # 삼성카드
+    "105560","055550","086790","316140","138930","139130","175330",
+    "039490","006800","001510","071050","003540","016360","030200",
+    "005940","078020","008560","001290","023150","007770","011370",
+    "012510","000810","032830","088350","005830","029780",
 }
 
 def judge(d):
     roe=d.get("roe",0) or 0; per=d.get("per",0) or 0
     eps=d.get("eps",0) or 0; eps_trend=d.get("eps_trend","")
-    debt=d.get("debt_ratio",None)
-    ticker=d.get("ticker","")
-
-    c1=roe>=15                      # ROE ≥ 15%
-    c2=0<per<=25                    # PER ≤ 25배 (흑자)
-    c3=eps>=1                       # EPS ≥ 1원
-    c4=eps_trend=="상승"             # EPS 상승추세
-
-    # 부채비율 ≤ 200% (금융업종 면제)
-    # 금융사는 고객 예금·보험료가 부채에 포함되어 구조적으로 1,000% 초과
-    # 이는 실제 재무 위험이 아니므로 부채비율 기준 적용 제외
+    debt=d.get("debt_ratio",None); ticker=d.get("ticker","")
+    c1=roe>=15; c2=0<per<=25; c3=eps>=1; c4=eps_trend=="상승"
     is_finance = ticker in FINANCE_TICKERS
-    if is_finance:
-        c5 = True   # 금융업종 면제
-    else:
-        c5 = debt is not None and debt <= 200
-
+    c5 = True if is_finance else (debt is not None and debt <= 200)
     score=sum([c1,c2,c3,c4,c5])
     if score==5: grade="A"
     elif score==4: grade="B"
@@ -629,13 +473,10 @@ def judge(d):
     elif score==2: grade="D"
     else: grade="F"
     return {"roe_ok":c1,"per_ok":c2,"eps_ok":c3,"eps_up":c4,"debt_ok":c5,
-            "is_finance":is_finance,
-            "score":score,"grade":grade,"recommended":score>=4}
+            "is_finance":is_finance,"score":score,"grade":grade,"recommended":score>=4}
 
-# ── Discord ───────────────────────────────────────────────────────
 def send_discord(results, date, recs, market_signal):
-    pass  # Discord 알림 비활성화 (trader.py에서만 발송)
-
+    pass
 
 def main():
     print("╔══════════════════════════════════╗")
@@ -650,11 +491,24 @@ def main():
     print(f"  기준일: {date} ({now_kst.strftime('%H:%M')} KST)")
     print(f"  등급: ROE≥15% PER≤25배 EPS≥1 EPS상승 부채비율≤200% → 5개 기준 / 4개이상=추천")
 
+    # ── 이전 순위 로드 (거래대금 순위 변동 추적) ──────────────────
+    prev_ranks = {}   # {ticker: 이전순위}
+    try:
+        if os.path.exists(RESULTS_FILE):
+            with open(RESULTS_FILE, "r", encoding="utf-8") as pf:
+                prev_data = json.load(pf)
+            prev_date = prev_data.get("date", "")
+            for s in prev_data.get("results", []):
+                prev_ranks[s["ticker"]] = s.get("rank", 0)
+            if prev_ranks:
+                print(f"  📊 이전 순위 로드: {len(prev_ranks)}종목 (기준일: {prev_date})")
+    except Exception as e:
+        print(f"  이전 순위 로드 실패: {e}")
+
     print("\n[0] KIS 토큰 발급 중...")
     try: tok=get_token()
     except Exception as e: print(f"❌ 토큰 실패: {e}"); return
 
-    # 시장 시그널
     print("\n[시장] KOSPI MA5/MA20/MA60 분석 중...")
     market_signal = fetch_market_signal(tok)
 
@@ -662,30 +516,28 @@ def main():
     us_signal = fetch_us_signal()
     market_signal["us"] = us_signal
 
-    # ── 한국+미국 종합 최종 점수제 ──
     kr_score = market_signal.get("kr_score", 0)
     us_score = 0
     us_en    = us_signal.get("us_signal_en","WATCH")
     if us_en == "BUY":    us_score =  2
     elif us_en == "SELL": us_score = -2
 
-    # VIX 반영
     vix_val = us_signal.get("vix_close", 0)
     if vix_val > 0:
-        if vix_val < 15:    us_score -= 1   # 과도한 낙관 주의
-        elif vix_val < 20:  us_score += 1   # 안정
-        elif vix_val < 25:  us_score -= 1   # 불안
-        elif vix_val < 35:  us_score -= 2   # 공포
+        if vix_val < 15:    us_score -= 1
+        elif vix_val < 20:  us_score += 1
+        elif vix_val < 25:  us_score -= 1
+        elif vix_val < 35:  us_score -= 2
 
     total_score = kr_score + us_score
     reasons_final = []
-    if kr_score >= 3:  reasons_final.append("한국 상승추세")
-    elif kr_score <= -3: reasons_final.append("한국 하락추세")
-    else:              reasons_final.append("한국 혼조")
-    if us_en == "BUY": reasons_final.append("미국 상승장")
-    elif us_en == "SELL": reasons_final.append("미국 하락장")
-    if vix_val > 25:   reasons_final.append(f"VIX {vix_val:.0f} 공포")
-    elif vix_val < 15 and vix_val > 0: reasons_final.append(f"VIX {vix_val:.0f} 과열낙관")
+    if kr_score >= 3:      reasons_final.append("한국 상승추세")
+    elif kr_score <= -3:   reasons_final.append("한국 하락추세")
+    else:                  reasons_final.append("한국 혼조")
+    if us_en == "BUY":     reasons_final.append("미국 상승장")
+    elif us_en == "SELL":  reasons_final.append("미국 하락장")
+    if vix_val > 25:       reasons_final.append(f"VIX {vix_val:.0f} 공포")
+    elif 0 < vix_val < 15: reasons_final.append(f"VIX {vix_val:.0f} 과열낙관")
 
     if total_score >= 4:
         market_signal["final_signal"]    = "📈 강한 매수"
@@ -710,14 +562,24 @@ def main():
     candidates=load_candidates()
     if not candidates: print("❌ 후보 로드 실패"); return
 
-    top30=select_top30(tok,candidates)
-    if not top30: print("❌ 거래대금 계산 실패"); return
+    top40=select_top40(tok,candidates)
+    if not top40: print("❌ 거래대금 계산 실패"); return
 
-    print(f"\n[3/3] {len(top30)}종목 상세 분석 중...\n")
+    # ── 순위 변동 계산 ─────────────────────────────────────────────
+    for item in top40:
+        prev_rank = prev_ranks.get(item["ticker"], 0)
+        if prev_rank == 0:
+            item["rank_change"] = None        # 신규 진입
+        else:
+            item["rank_change"] = prev_rank - item["rank"]  # 양수=상승, 음수=하락, 0=유지
+
+    print(f"\n[3/3] {len(top40)}종목 상세 분석 중...\n")
     results=[]; ge_map={"A":"🟢","B":"🔵","C":"🟡","D":"🔴"}
-    for t in top30:
+    for t in top40:
         tk=t["ticker"]
-        print(f"  [{t['rank']:2d}] {t['name']:14s} ({tk})",end=" ... ",flush=True)
+        rc = t.get("rank_change")
+        rc_str = " NEW" if rc is None else (f" ▲{rc}" if rc > 0 else (f" ▼{abs(rc)}" if rc < 0 else " →"))
+        print(f"  [{t['rank']:2d}]{rc_str:6s} {t['name']:14s} ({tk})",end=" ... ",flush=True)
         try:
             eps_tr = fetch_eps_trend(tok,tk,t.get("eps",0))
             price  = fetch_ch20(tok,tk)
@@ -726,9 +588,7 @@ def main():
 
             data={**t,**eps_tr,**price,"is_dividend":is_div}
             f=judge(data)
-            data.update({
-                "filters":f,"grade":f["grade"],"score":f["score"],"recommended":f["recommended"],
-            })
+            data.update({"filters":f,"grade":f["grade"],"score":f["score"],"recommended":f["recommended"]})
             results.append(data)
 
             div_str = "  💰" if is_div else ""
@@ -739,11 +599,8 @@ def main():
                 f"  ROE:{t.get('roe',0):.1f}%{'✅' if f['roe_ok'] else '❌'}"
                 f"  PER:{t.get('per',0):.1f}{'✅' if f['per_ok'] else '❌'}"
                 f"  EPS:{t.get('eps',0):,.0f}({eps_tr['eps_trend']}){'✅' if f['eps_ok'] and f['eps_up'] else '❌'}"
-                f"{debt_str}"
-                f"  5일:{price.get('ch5',0):+.1f}%"
-                f"  20일:{price.get('ch20',0):+.1f}%"
-                f"{div_str}"
-                f"{'  ⭐' if f['recommended'] else ''}"
+                f"{debt_str}  5일:{price.get('ch5',0):+.1f}%  20일:{price.get('ch20',0):+.1f}%"
+                f"{div_str}{'  ⭐' if f['recommended'] else ''}"
             )
         except Exception: print("오류"); traceback.print_exc()
         time.sleep(0.3)
@@ -765,7 +622,7 @@ def main():
         "market_signal": market_signal,
         "results":       results,
         "recommended":   recs,
-    }, open("results.json","w",encoding="utf-8"), ensure_ascii=False, indent=2, default=str)
+    }, open(RESULTS_FILE,"w",encoding="utf-8"), ensure_ascii=False, indent=2, default=str)
     print("\n  💾 results.json 저장 완료")
     send_discord(results, date, recs, market_signal)
     print("\n✅ 완료!")
