@@ -22,7 +22,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests pandas finance-datareader yfinance
+        run: pip install requests pandas finance-datareader yfinance beautifulsoup4
 
       - name: Run screener
         env:
@@ -47,16 +47,14 @@ jobs:
           KIS_APP_SECRET: ${{ secrets.KIS_APP_SECRET }}
           KIS_ACCOUNT_NO: ${{ secrets.KIS_ACCOUNT_NO }}
         run: python expiry.py
-        
-        - name: Run geo analysis
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: pip install beautifulsoup4 --break-system-packages -q && python geo_analysis.py
-        
+
+      - name: Run geo analysis
+        run: python geo_analysis.py
+
       - name: Commit results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add results.json positions.json expiry_result.json index.html geo_result.json
+          git add results.json positions.json expiry_result.json geo_result.json index.html
           git diff --cached --quiet || git commit -m "auto: screener+trader $(date +'%Y%m%d %H%M')"
           git push
