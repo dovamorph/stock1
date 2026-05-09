@@ -1,0 +1,68 @@
+{
+  "updated": "2026-05-09 19:27",
+  "news_count": 44,
+  "source_stats": {
+    "연합뉴스": 30,
+    "한국경제": 0,
+    "매일경제": 0,
+    "네이버금융": 0,
+    "Reuters": 0,
+    "StockPlus": 14
+  },
+  "news_sample": [
+    "연합뉴스 최신기사",
+    "정청래, 또 부산 찾아 \"전재수, 李대통령 닮아\"…PK민심 공략(종합)",
+    "엘리베이터서 마주친 위층 이웃 흉기로 살해…20대 체포",
+    "친러 불가리아 총리 취임…제2의 오르반 될까",
+    "여자골프 세계 3위 김효주, 5년 만의 국내 대회 우승 기회"
+  ],
+  "categories": {
+    "geopolitical": {
+      "level": "주의",
+      "color": "yellow",
+      "signal": "⚠️",
+      "summary": "\"해수면 붙어 떼지어 출동\" 美군함 괴롭히는 이란 '모기 함대'",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 1,
+      "score": 1.5
+    },
+    "macro": {
+      "level": "안전",
+      "color": "green",
+      "signal": "✅",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0
+    },
+    "disaster": {
+      "level": "안전",
+      "color": "green",
+      "signal": "✅",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0
+    },
+    "trade": {
+      "level": "안전",
+      "color": "green",
+      "signal": "✅",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0
+    },
+    "policy": {
+      "level": "안전",
+      "color": "green",
+      "signal": "✅",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0
+    }
+  },
+  "overall": {
+    "level": "안전",
+    "color": "green",
+    "summary": "전반적 안정. 정상 운용",
+    "action": "정상 운용 유지"
+  }
+}
