@@ -40,16 +40,20 @@ def get_token():
 
 # ── 현재가 조회 ────────────────────────────────────────────────────────
 def get_price(token, ticker):
-    headers = {
-        "authorization": f"Bearer {token}",
-        "appkey": APP_KEY, "appsecret": APP_SECRET,
-        "tr_id": "FHKST01010100"
-    }
-    params = {"fid_cond_mrkt_div_code": "J", "fid_input_iscd": ticker}
-    r = requests.get(f"{BASE_URL}/uapi/domestic-stock/v1/quotations/inquire-price",
-                     headers=headers, params=params, timeout=10)
-    d = r.json().get("output", {})
-    return int(d.get("stck_prpr", 0))
+    try:
+        headers = {
+            "authorization": f"Bearer {token}",
+            "appkey": APP_KEY, "appsecret": APP_SECRET,
+            "tr_id": "FHKST01010100"
+        }
+        params = {"fid_cond_mrkt_div_code": "J", "fid_input_iscd": ticker}
+        r = requests.get(f"{BASE_URL}/uapi/domestic-stock/v1/quotations/inquire-price",
+                         headers=headers, params=params, timeout=15)
+        d = r.json().get("output", {})
+        return int(d.get("stck_prpr", 0))
+    except Exception as e:
+        print(f"    ⚠️ 현재가 조회 타임아웃 ({ticker}): {e}")
+        return 0
 
 # ── 주문 ──────────────────────────────────────────────────────────────
 def order(token, ticker, qty, side):
