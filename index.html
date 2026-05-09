@@ -524,7 +524,7 @@ async function load(){
     const el=document.getElementById(id);if(el)el.style.display="none";
   });
   try{
-    const res=await fetch("https://dovamorph.github.io/stock1/expiry_result.json?t="+Date.now())
+    const res=await fetch("results.json?t="+Date.now())
     if(!res.ok)throw new Error("HTTP "+res.status);
     const d=await res.json();
     if(d.error){document.getElementById("err").textContent="⚠️ "+d.error;document.getElementById("err").style.display="block";}
