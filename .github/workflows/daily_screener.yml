@@ -48,6 +48,11 @@ jobs:
           KIS_ACCOUNT_NO: ${{ secrets.KIS_ACCOUNT_NO }}
         run: python expiry.py
         
+        - name: Run geo analysis
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: pip install beautifulsoup4 --break-system-packages -q && python geo_analysis.py
+        
       - name: Commit results
         run: |
           git config user.name "github-actions[bot]"
