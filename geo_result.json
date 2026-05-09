@@ -1,30 +1,33 @@
 {
-  "updated": "2026-05-09 19:27",
-  "news_count": 44,
+  "updated": "2026-05-09 19:58",
+  "news_count": 101,
+  "intl_count": 56,
+  "domestic_count": 45,
   "source_stats": {
+    "BBC World": 30,
+    "Al Jazeera": 26,
     "연합뉴스": 30,
-    "한국경제": 0,
+    "한국경제": 1,
     "매일경제": 0,
-    "네이버금융": 0,
-    "Reuters": 0,
+    "파이낸셜뉴스": 0,
     "StockPlus": 14
   },
   "news_sample": [
-    "연합뉴스 최신기사",
-    "정청래, 또 부산 찾아 \"전재수, 李대통령 닮아\"…PK민심 공략(종합)",
-    "엘리베이터서 마주친 위층 이웃 흉기로 살해…20대 체포",
-    "친러 불가리아 총리 취임…제2의 오르반 될까",
-    "여자골프 세계 3위 김효주, 5년 만의 국내 대회 우승 기회"
+    "Putin denounces Nato at scaled back Victory Day parade",
+    "Iran accuses US of 'reckless military adventure'",
+    "Anger and resignation in Tenerife as hantavirus ship approaches",
+    "Hovering objects and flashing lights: what we learned from UFO documents released by the Pentagon",
+    "Hungary's new PM to be sworn in during 'regime change' party"
   ],
   "categories": {
     "geopolitical": {
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "\"해수면 붙어 떼지어 출동\" 美군함 괴롭히는 이란 '모기 함대'",
+      "summary": "Iran accuses US of 'reckless military adventu...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "matched": 14,
+      "score": 21.8
     },
     "macro": {
       "level": "안전",
@@ -32,23 +35,26 @@
       "signal": "✅",
       "summary": "관련 이슈 없음",
       "action": "정상 운용 유지",
-      "matched": 0
+      "matched": 0,
+      "score": 0
     },
     "disaster": {
-      "level": "안전",
-      "color": "green",
-      "signal": "✅",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "⚠️",
+      "summary": "Anger and resignation in Tenerife as hantavir...",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 4,
+      "score": 5.8
     },
     "trade": {
-      "level": "안전",
-      "color": "green",
-      "signal": "✅",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "⚠️",
+      "summary": "Iran accuses US of 'reckless military adventu...",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 7,
+      "score": 1.5
     },
     "policy": {
       "level": "안전",
@@ -56,13 +62,14 @@
       "signal": "✅",
       "summary": "관련 이슈 없음",
       "action": "정상 운용 유지",
-      "matched": 0
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
     "level": "안전",
     "color": "green",
-    "summary": "전반적 안정. 정상 운용",
+    "summary": "전반적 안정. 정상 운용 유지",
     "action": "정상 운용 유지"
   }
 }
