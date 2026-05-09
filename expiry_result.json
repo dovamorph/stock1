@@ -1,0 +1,18 @@
+{
+  "updated": "2026-05-09 18:10",
+  "expiry_date": "2026-05-14",
+  "d_day": 5,
+  "active": true,
+  "indicators": {
+    "basis": null,
+    "foreign": null,
+    "pcr": null,
+    "oi": null
+  },
+  "judgment": {
+    "level": "알 수 없음",
+    "color": "gray",
+    "action": "데이터 부족",
+    "score": 0
+  }
+}
