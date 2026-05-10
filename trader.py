@@ -235,6 +235,11 @@ def main():
                 p["remaining_qty"] = remaining_qty
                 p["sold_stage"]    = sold_stage
 
+                # 분할매도 시 매도한 수량만큼 cost basis 차감
+                sold_cost = round(buy_price * sell_qty)
+                pos_data["used"] -= sold_cost
+                p["amount"] = max(0, p.get("amount", 0) - sold_cost)
+
                 reason_str = f"분할매도{stage_idx+1}차(+{int(target_pnl*100)}%)"
                 log_trade(pos_data, ticker, p, cur_price, sell_qty, reason_str, now)
 
@@ -246,7 +251,8 @@ def main():
                 partial_done = True
 
                 if remaining_qty <= 0 or stage_idx == len(PARTIAL_SELLS) - 1:
-                    pos_data["used"] -= p["amount"]
+                    # 남은 amount 잔여분 최종 차감 후 포지션 종료
+                    pos_data["used"] = max(0, pos_data["used"] - p.get("amount", 0))
                     del positions[ticker]
             else:
                 print(f"    ❌ 분할매도 실패 {p['name']}: {msg}")
