@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 04:10",
+  "updated": "2026-05-11 05:53",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,9 +13,9 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Countries airlift nationals evacuated from virus-hit cruise ship",
-    "Army parachutes onto remote island to help Briton with suspected hantavirus",
-    "Iran sends response to US proposals to end war",
+    "Trump calls Iran response to US proposal to end war 'totally unacceptable'",
+    "His father had just been buried. Then West Bank settlers forced him to dig up the body",
+    "French national shows symptoms on return from hantavirus-hit ship",
     "Putin says he thinks Ukraine conflict 'coming to an end'",
     "Lebanon says Israeli strikes killed 39"
   ],
@@ -24,19 +24,19 @@
       "level": "경고",
       "color": "orange",
       "signal": "🟠",
-      "summary": "Iran sends response to US proposals to end wa...",
+      "summary": "Trump calls Iran response to US proposal to e...",
       "action": "포지션 축소 검토 / 모니터링 강화",
-      "matched": 26,
+      "matched": 23,
       "score": 1.5
     },
     "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "Food inflation hammers households in war-hit ...",
+      "summary": "How hotels are stopping the 'dawn dash' for s...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 2,
-      "score": 4.2
+      "matched": 3,
+      "score": 5.7
     },
     "disaster": {
       "level": "안전",
@@ -51,10 +51,10 @@
       "level": "신호",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "Iran sends response to US proposals to end wa...",
+      "summary": "Trump calls Iran response to US proposal to e...",
       "action": "관련 지표 추가 확인 후 판단",
-      "matched": 11,
-      "score": 15.7
+      "matched": 10,
+      "score": 14.3
     },
     "policy": {
       "level": "안전",
