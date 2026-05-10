@@ -491,17 +491,23 @@ def main():
     print(f"  기준일: {date} ({now_kst.strftime('%H:%M')} KST)")
     print(f"  등급: ROE≥15% PER≤25배 EPS≥1 EPS상승 부채비율≤200% → 5개 기준 / 4개이상=추천")
 
-    # ── 이전 순위 로드 (거래대금 순위 변동 추적) ──────────────────
-    prev_ranks = {}   # {ticker: 이전순위}
+    # ── 이전 거래일 순위 로드 (같은 날 여러번 실행해도 기준 고정) ──
+    prev_ranks = {}
     try:
         if os.path.exists(RESULTS_FILE):
             with open(RESULTS_FILE, "r", encoding="utf-8") as pf:
                 prev_data = json.load(pf)
             prev_date = prev_data.get("date", "")
-            for s in prev_data.get("results", []):
-                prev_ranks[s["ticker"]] = s.get("rank", 0)
-            if prev_ranks:
-                print(f"  📊 이전 순위 로드: {len(prev_ranks)}종목 (기준일: {prev_date})")
+
+            if prev_date != date:
+                # 날짜가 바뀐 경우 → 어제 결과가 새 기준
+                for s in prev_data.get("results", []):
+                    prev_ranks[s["ticker"]] = s.get("rank", 0)
+                print(f"  📊 이전 거래일 순위 로드: {len(prev_ranks)}종목 (기준일: {prev_date})")
+            else:
+                # 같은 날 재실행 → 저장된 기준 순위 사용 (어제 기준 유지)
+                prev_ranks = prev_data.get("reference_ranks", {})
+                print(f"  📊 기준 순위 유지: {len(prev_ranks)}종목 (기준일: {prev_data.get('reference_date', prev_date)})")
     except Exception as e:
         print(f"  이전 순위 로드 실패: {e}")
 
@@ -615,13 +621,35 @@ def main():
               f"  EPS {r.get('eps',0):,.0f}원({r.get('eps_trend','?')})"
               f"{'  💰' if r.get('is_dividend') else ''}")
 
+    # reference_ranks: 날짜 바뀔 때만 갱신 (같은 날 재실행해도 기준 고정)
+    try:
+        if os.path.exists(RESULTS_FILE):
+            with open(RESULTS_FILE, "r", encoding="utf-8") as pf:
+                _pd = json.load(pf)
+            if _pd.get("date", "") != date:
+                # 날짜 바뀜 → 어제 결과를 새 기준으로
+                reference_ranks = {s["ticker"]: s.get("rank", 0) for s in _pd.get("results", [])}
+                reference_date  = _pd.get("date", "")
+            else:
+                # 같은 날 → 기존 기준 유지
+                reference_ranks = _pd.get("reference_ranks", {})
+                reference_date  = _pd.get("reference_date", date)
+        else:
+            reference_ranks = {}
+            reference_date  = date
+    except:
+        reference_ranks = {}
+        reference_date  = date
+
     json.dump({
-        "date":          date,
-        "generated_at":  now_kst.isoformat(),
-        "total":         len(results),
-        "market_signal": market_signal,
-        "results":       results,
-        "recommended":   recs,
+        "date":            date,
+        "generated_at":    now_kst.isoformat(),
+        "reference_date":  reference_date,
+        "reference_ranks": reference_ranks,
+        "total":           len(results),
+        "market_signal":   market_signal,
+        "results":         results,
+        "recommended":     recs,
     }, open(RESULTS_FILE,"w",encoding="utf-8"), ensure_ascii=False, indent=2, default=str)
     print("\n  💾 results.json 저장 완료")
     send_discord(results, date, recs, market_signal)
