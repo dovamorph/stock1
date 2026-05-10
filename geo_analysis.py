@@ -119,22 +119,26 @@ CATEGORIES = {
         "down": "공급망 노출 기업·항공·여행",
         "keywords": {
             "위험": [
-                "팬데믹", "감염병 확산", "대유행", "봉쇄 조치", "공장 폐쇄",
-                "pandemic", "lockdown", "epidemic declared", "outbreak",
-                "대규모 홍수", "강진", "쓰나미", "원전 사고", "nuclear accident"
+                # 주가에 실제 영향을 주는 대형 재난만 포함
+                "팬데믹", "감염병 대유행", "봉쇄 조치", "국경 봉쇄", "공장 폐쇄",
+                "pandemic", "lockdown", "global outbreak", "epidemic declared",
+                "원전 사고", "nuclear accident", "방사능 유출", "radiation leak",
+                "대규모 공급망 붕괴", "supply chain collapse"
             ],
             "경고": [
-                "신종 바이러스", "변이 바이러스", "집단감염", "공급망 차질",
-                "new variant", "supply chain disruption", "태풍 상륙",
-                "폭염 비상", "가뭄 심화", "drought", "heatwave emergency"
+                # 확산 가능성 있는 신종 질병
+                "신종 바이러스", "변이 바이러스", "집단감염", "감염병 확산",
+                "new virus", "new variant", "outbreak spreading", "quarantine zone",
+                # 극단적 기상이변 (공급망 영향 수준)
+                "초대형 태풍", "슈퍼 태풍", "mega typhoon", "category 5",
+                "대규모 산불", "wildfire spreading", "대가뭄", "severe drought",
+                "엘니뇨 심화", "La Nina severe"
             ],
             "주의": [
-                "바이러스", "감염", "전염병", "홍수", "태풍", "지진",
-                "virus", "flood", "typhoon", "earthquake", "climate change",
-                "이상기후", "자연재해", "재난 경보", "El Nino", "엘니뇨"
-            ],
-            "신호": [
-                "마스크", "백신", "방역", "quarantine", "evacuation"
+                # 일반적으로 매년 발생하는 수준 - 모니터링만
+                "태풍", "typhoon", "홍수", "flood", "지진", "earthquake",
+                "폭염", "heatwave", "가뭄", "drought", "산불", "wildfire",
+                "이상기후", "climate", "자연재해", "natural disaster"
             ]
         }
     },
