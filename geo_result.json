@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-10 22:27",
+  "updated": "2026-05-10 23:56",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -15,7 +15,7 @@
   "news_sample": [
     "First passengers fly home from virus-hit cruise ship",
     "Army parachutes onto remote island to help Briton with suspected hantavirus",
-    "Iran warns against complying with US sanctions as Gulf attacks reported",
+    "Iran sends response to US proposals to end war",
     "Putin says he thinks Ukraine conflict 'coming to an end'",
     "Lebanon says Israeli strikes killed 39"
   ],
@@ -24,10 +24,10 @@
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "Iran warns against complying with US sanction...",
+      "summary": "Iran sends response to US proposals to end wa...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 22,
-      "score": 33.5
+      "matched": 23,
+      "score": 34.8
     },
     "macro": {
       "level": "주의",
@@ -48,13 +48,13 @@
       "score": 0
     },
     "trade": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
-      "summary": "Iran warns against complying with US sanction...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
+      "level": "신호",
+      "color": "yellow",
+      "signal": "⚠️",
+      "summary": "Iran sends response to US proposals to end wa...",
+      "action": "관련 지표 추가 확인 후 판단",
       "matched": 9,
-      "score": 1.5
+      "score": 12.9
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "주의",
-    "color": "yellow",
-    "summary": "주의 필요: 보호무역·공급망",
-    "action": "신규 매수 자제 / 추이 관찰"
+    "level": "안전",
+    "color": "green",
+    "summary": "전반적 안정. 정상 운용 유지",
+    "action": "정상 운용 유지"
   }
 }
