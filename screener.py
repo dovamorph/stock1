@@ -141,6 +141,10 @@ def fetch_market_signal(tok) -> dict:
         if ch5 >= 2: reasons.append(f"5일 +{ch5:.1f}%↑")
         elif ch5 <= -2: reasons.append(f"5일 {ch5:.1f}%↓")
 
+        # RSI 이유 추가
+        if rsi_14 > 70:   reasons.append(f"RSI {rsi_14:.0f} 과매수")
+        elif rsi_14 < 30: reasons.append(f"RSI {rsi_14:.0f} 과매도")
+
         kr_score = 0
         if above_all:     kr_score += 2
         elif close > ma5: kr_score += 1
