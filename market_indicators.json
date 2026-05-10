@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-10 20:39",
+  "updated": "2026-05-10 20:46",
   "indicators": {
     "usdkrw": {
       "label": "USD/KRW",
@@ -12,12 +12,12 @@
     },
     "bitcoin": {
       "label": "BTC/USD",
-      "value": 80792.0,
+      "value": 80829.0,
       "unit": "$",
-      "change": 127.0,
-      "change_pct": 0.16,
+      "change": 165.0,
+      "change_pct": 0.2,
       "signal": "🟡",
-      "desc": "$80,792"
+      "desc": "$80,829"
     },
     "wti": {
       "label": "WTI 유가",
