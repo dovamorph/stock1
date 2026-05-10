@@ -1,13 +1,13 @@
 {
   "date": "20260510",
-  "generated_at": "2026-05-10T20:28:23.811674",
+  "generated_at": "2026-05-10T20:37:03.807355",
   "reference_date": "20260510",
   "reference_ranks": {},
   "total": 40,
   "market_signal": {
     "signal": "⚖️ 관망",
     "signal_en": "WATCH",
-    "reason": "정배열 (현가>MA5>MA20>MA60) · MA20>MA60 중기 상승 · 5일 +13.6%↑",
+    "reason": "정배열 (현가>MA5>MA20>MA60) · MA20>MA60 중기 상승 · 5일 +13.6%↑ · RSI 92 과매수",
     "kospi_close": 7498.0,
     "ma5": 7181.69,
     "ma20": 6487.75,
