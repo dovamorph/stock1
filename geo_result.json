@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-10 23:56",
+  "updated": "2026-05-11 01:59",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,7 +13,7 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "First passengers fly home from virus-hit cruise ship",
+    "Countries airlift nationals evacuated from virus-hit cruise ship",
     "Army parachutes onto remote island to help Briton with suspected hantavirus",
     "Iran sends response to US proposals to end war",
     "Putin says he thinks Ukraine conflict 'coming to an end'",
@@ -27,16 +27,16 @@
       "summary": "Iran sends response to US proposals to end wa...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 23,
-      "score": 34.8
+      "score": 36.1
     },
     "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "Can central banks curb inflation as energy co...",
+      "summary": "Food inflation hammers households in war-hit ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 2.8
+      "matched": 2,
+      "score": 4.2
     },
     "disaster": {
       "level": "안전",
@@ -53,8 +53,8 @@
       "signal": "⚠️",
       "summary": "Iran sends response to US proposals to end wa...",
       "action": "관련 지표 추가 확인 후 판단",
-      "matched": 9,
-      "score": 12.9
+      "matched": 10,
+      "score": 14.3
     },
     "policy": {
       "level": "안전",
