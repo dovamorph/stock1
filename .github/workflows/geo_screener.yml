@@ -1,0 +1,34 @@
+name: Geo Analysis
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'   # 매 2시간마다 (24/7, 주말 포함)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run-geo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Run geo analysis
+        run: python geo_analysis.py
+
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add geo_result.json
+          git diff --cached --quiet || git commit -m "geo: $(date +'%Y%m%d %H%M')"
+          git push
