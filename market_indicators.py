@@ -258,7 +258,7 @@ def main():
         else:
             print("실패")
     else:
-        print("  [KIS] API 키 없음 — 선물 지표 스킵")
+        print("  [KIS] KIS 서버 연결 실패 (장외/주말) — 선물 지표 스킵")
 
     with open(OUT_FILE, "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
