@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 01:59",
+  "updated": "2026-05-11 04:10",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -21,13 +21,13 @@
   ],
   "categories": {
     "geopolitical": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "⚠️",
+      "level": "경고",
+      "color": "orange",
+      "signal": "🟠",
       "summary": "Iran sends response to US proposals to end wa...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 23,
-      "score": 36.1
+      "action": "포지션 축소 검토 / 모니터링 강화",
+      "matched": 26,
+      "score": 1.5
     },
     "macro": {
       "level": "주의",
@@ -53,8 +53,8 @@
       "signal": "⚠️",
       "summary": "Iran sends response to US proposals to end wa...",
       "action": "관련 지표 추가 확인 후 판단",
-      "matched": 10,
-      "score": 14.3
+      "matched": 11,
+      "score": 15.7
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "안전",
-    "color": "green",
-    "summary": "전반적 안정. 정상 운용 유지",
-    "action": "정상 운용 유지"
+    "level": "신호",
+    "color": "yellow",
+    "summary": "주의 필요: 지정학적 충돌",
+    "action": "관련 지표 추가 확인 후 판단"
   }
 }
