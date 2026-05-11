@@ -150,47 +150,51 @@ def fetch_pcr_krx():
         url = "http://data.krx.co.kr/comm/bldAttendant/getJsonData.cmd"
         headers = {
             "Accept": "application/json, text/javascript, */*; q=0.01",
-            "Accept-Language": "ko-KR,ko;q=0.9",
             "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
             "Origin": "http://data.krx.co.kr",
             "Referer": "http://data.krx.co.kr/contents/MDC/MDI/mdiLoader/index.cmd?menuId=MDC0201050403",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
             "X-Requested-With": "XMLHttpRequest",
         }
-        # 오늘 → 전일 순서로 시도
+        bld_list = [
+            "dbms/MDC/STAT/standard/MDCSTAT13601",
+            "dbms/MDC/STAT/standard/MDCSTAT13602",
+            "dbms/MDC/STAT/standard/MDCSTAT13501",
+            "dbms/MDC/STAT/standard/MDCSTAT12501",
+        ]
         for date_str in [today_str, prev_str]:
-            for bld in ["MDCSTAT12401", "MDCSTAT12402", "MDCSTAT12403"]:
+            for bld in bld_list:
                 try:
-                    data = {"bld": f"dbms/MDC/STAT/standard/{bld}", "locale": "ko_KR",
+                    data = {"bld": bld, "locale": "ko_KR",
                             "trdDd": date_str, "share": "1", "money": "1", "csvxls_isNo": "false"}
-                    res = req_lib.post(url, headers=headers, data=data, timeout=12)
-                    print(f"    [{bld} {date_str}] status={res.status_code}", end=" ")
+                    res = req_lib.post(url, headers=headers, data=data, timeout=10)
+                    print(f"    [{bld.split('/')[-1]} {date_str}] {res.status_code}", end=" ")
                     if res.status_code != 200:
-                        print("→ skip")
+                        print("skip")
                         continue
                     output = res.json().get("output", [])
-                    print(f"→ {len(output)}건")
+                    print(f"-> {len(output)}건")
                     if not output:
                         continue
+                    print(f"    keys: {list(output[0].keys())[:8]}")
                     for item in output:
-                        for key in ["PCR", "PUT_CALL_RATIO", "pcr"]:
+                        for key in ["PCR","PUT_CALL_RATIO","pcr","PC_RATIO","PCRAT"]:
                             if key in item:
-                                pcr = float(str(item[key]).replace(",", "") or 0)
+                                pcr = float(str(item[key]).replace(",","") or 0)
                                 if 0.1 < pcr < 10:
-                                    label = f"({date_str[:4]}-{date_str[4:6]}-{date_str[6:]} 기준)" if date_str == prev_str else ""
-                                    if pcr > 1.5:   sig, desc = "🔴", f"P/C {pcr:.2f} 풋우세·약세 {label}"
-                                    elif pcr > 1.0: sig, desc = "🟡", f"P/C {pcr:.2f} 중립 {label}"
-                                    else:           sig, desc = "🟢", f"P/C {pcr:.2f} 콜우세·강세 {label}"
-                                    return {"signal": sig, "desc": desc.strip()}
+                                    label = f" ({date_str[4:6]}/{date_str[6:]}기준)" if date_str == prev_str else ""
+                                    if pcr > 1.5:   sig, desc = "🔴", f"P/C {pcr:.2f} 풋우세·약세{label}"
+                                    elif pcr > 1.0: sig, desc = "🟡", f"P/C {pcr:.2f} 중립{label}"
+                                    else:           sig, desc = "🟢", f"P/C {pcr:.2f} 콜우세·강세{label}"
+                                    return {"signal": sig, "desc": desc}
                 except Exception as e2:
-                    print(f"    [{bld}] 오류: {e2}")
+                    print(f"    오류: {e2}")
                     continue
         return None
     except Exception as e:
         print(f"  P/C KRX 실패: {e}")
         return None
 
-# ── ③ 미결제약정 (KRX, 장 마감 후) ──────────────────────────────
 def fetch_oi_krx():
     try:
         import requests as req_lib
