@@ -16,29 +16,6 @@ except ImportError:
 KST      = ZoneInfo("Asia/Seoul")
 OUT_FILE = "market_indicators.json"
 
-APP_KEY    = os.environ.get("KIS_APP_KEY", "")
-APP_SECRET = os.environ.get("KIS_APP_SECRET", "")
-BASE_KIS   = "https://openapi.koreainvestment.com:9443"
-
-def H(tok, tr_id):
-    return {
-        "Content-Type": "application/json",
-        "authorization": f"Bearer {tok}",
-        "appkey": APP_KEY, "appsecret": APP_SECRET,
-        "tr_id": tr_id, "custtype": "P"
-    }
-
-def get_token():
-    if not APP_KEY or not APP_SECRET:
-        return None
-    try:
-        r = requests.post(f"{BASE_KIS}/oauth2/tokenP", timeout=10,
-            json={"grant_type": "client_credentials",
-                  "appkey": APP_KEY, "appsecret": APP_SECRET})
-        return r.json().get("access_token", "")
-    except:
-        return None
-
 def sf(v, d=0.0):
     try:
         s = str(v).replace(",", "").strip()
@@ -222,43 +199,42 @@ def main():
         print("실패")
     time.sleep(0.3)
 
-    # ── 5. KIS API (외국인 선물 + KOSPI200 선물) ──────────────────
-    tok = get_token()
-    if tok:
-        print("  [KIS] 토큰 발급 완료")
-
-        print("  [외국인 선물] ...", end=" ", flush=True)
-        ff = fetch_foreign_futures(tok)
-        if ff:
-            inds["foreign_futures"] = {
-                "label": "외국인 선물",
-                "net_qty": ff["net_qty"],
-                "direction": ff["direction"],
-                "signal": ff["signal"],
-                "desc": f"{ff['net_qty']:+,}계약 ({ff['direction']})"
-            }
-            print(f"{ff['net_qty']:+,}계약 ({ff['direction']})")
-        else:
-            print("실패")
-        time.sleep(0.3)
-
-        print("  [KOSPI200 선물] ...", end=" ", flush=True)
-        kf = fetch_kospi_futures_price(tok)
-        if kf:
-            inds["kospi_futures"] = {
-                "label": "KOSPI200선물",
-                "value": kf["value"],
-                "unit": "pt",
-                "change": kf["change"],
-                "change_pct": kf["change_pct"],
-                "signal": "🟢" if kf["change_pct"] > 0.5 else ("🔴" if kf["change_pct"] < -0.5 else "🟡"),
-                "desc": f"{kf['value']:.2f}pt"
-            }
-            print(f"{kf['value']:.2f}pt ({kf['change']:+.2f})")
-        else:
-            print("실패")
+    # ── 5. 금 (Gold) ──────────────────────────────────────────────
+    print("  [금] Gold ...", end=" ", flush=True)
+    d = fetch_yf("GC=F", "금")
+    if d:
+        inds["gold"] = {
+            "label": "금",
+            "value": round(d["value"], 1),
+            "unit": "$/oz",
+            "change": round(d["change"], 1),
+            "change_pct": d["change_pct"],
+            # 금 급등 = 지정학 리스크 또는 달러 약세 신호
+            "signal": "🔴" if d["change_pct"] > 1.5 else ("🟢" if d["change_pct"] < -1.5 else "🟡"),
+            "desc": f"${d['value']:,.0f}/oz"
+        }
+        print(f"${d['value']:,.1f} ({d['change_pct']:+.2f}%)")
     else:
-        print("  [KIS] KIS 서버 연결 실패 (장외/주말) — 선물 지표 스킵")
+        print("실패")
+    time.sleep(0.3)
+
+    # ── 6. KOSPI200 선물 (yfinance) ───────────────────────────────
+    print("  [KOSPI200선물] ...", end=" ", flush=True)
+    d = fetch_yf("^KS200", "KOSPI200")
+    if d:
+        inds["kospi_futures"] = {
+            "label": "KOSPI200",
+            "value": round(d["value"], 2),
+            "unit": "pt",
+            "change": round(d["change"], 2),
+            "change_pct": d["change_pct"],
+            "signal": "🟢" if d["change_pct"] > 0.5 else ("🔴" if d["change_pct"] < -0.5 else "🟡"),
+            "desc": f"{d['value']:.2f}pt"
+        }
+        print(f"{d['value']:.2f}pt ({d['change_pct']:+.2f}%)")
+    else:
+        print("실패 (장외/주말)")
+    time.sleep(0.3)
 
     with open(OUT_FILE, "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
