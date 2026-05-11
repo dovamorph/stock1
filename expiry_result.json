@@ -3,7 +3,7 @@
   "d_day": 3,
   "active": true,
   "in_market": false,
-  "updated": "2026-05-11 22:22",
+  "updated": "2026-05-11 22:43",
   "indicators": {
     "basis": {
       "signal": "—",
@@ -18,8 +18,8 @@
       "desc": "조회 실패"
     },
     "foreign": {
-      "signal": "📱",
-      "desc": "증권앱에서 직접 확인"
+      "signal": "🟡",
+      "desc": "외국인 +0계약 (매도)"
     }
   },
   "judgment": {
