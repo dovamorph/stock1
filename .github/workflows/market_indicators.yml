@@ -1,0 +1,34 @@
+name: Market Indicators
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'   # 매 30분마다 (24/7, 주말 포함)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run-indicators:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests yfinance
+
+      - name: Run market indicators
+        run: python market_indicators.py
+
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add market_indicators.json
+          git diff --cached --quiet || git commit -m "market: $(date +'%Y%m%d %H%M')"
+          git push
