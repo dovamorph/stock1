@@ -3,11 +3,11 @@
   "d_day": 3,
   "active": true,
   "in_market": false,
-  "updated": "2026-05-11 15:41",
+  "updated": "2026-05-11 15:57",
   "indicators": {
     "basis": {
       "signal": "🟢",
-      "desc": "KOSPI200 1213.3pt (+5.40%) 강세"
+      "desc": "KOSPI200 1209.8pt (+5.09%) 강세"
     },
     "pcr": {
       "signal": "—",
