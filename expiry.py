@@ -68,7 +68,7 @@ def fetch_basis(session):
         prev = today - datetime.timedelta(days=1)
         while prev.weekday() >= 5: prev -= datetime.timedelta(days=1)
         end_str   = prev.strftime("%Y%m%d")
-        start_str = (prev - datetime.timedelta(days=7)).strftime("%Y%m%d")
+        start_str = (prev - datetime.timedelta(days=30)).strftime("%Y%m%d")
         url = "https://data.krx.co.kr/comm/bldAttendant/getJsonData.cmd"
         headers = {
             "Accept": "application/json, text/javascript, */*; q=0.01",
@@ -256,7 +256,7 @@ def fetch_foreign_futures_krx(session):
         prev = today - datetime.timedelta(days=1)
         while prev.weekday() >= 5: prev -= datetime.timedelta(days=1)
         end_str   = prev.strftime("%Y%m%d")
-        start_str = (prev - datetime.timedelta(days=7)).strftime("%Y%m%d")
+        start_str = (prev - datetime.timedelta(days=30)).strftime("%Y%m%d")
 
         url = "https://data.krx.co.kr/comm/bldAttendant/getJsonData.cmd"
         headers = {
@@ -271,7 +271,7 @@ def fetch_foreign_futures_krx(session):
             "bld":          "dbms/MDC/STAT/standard/MDCSTAT13101",
             "locale":       "ko_KR",
             "isuCd":        "KR__FUK2I",
-            "inqTpCd":      "1",
+            "inqTpCd":      "2",
             "prtType":      "AMT",
             "prtCheck":     "SUN",
             "aggBasTpCd":   "",
@@ -305,8 +305,17 @@ def fetch_foreign_futures_krx(session):
                 sig = "🟢" if net > 1000 else ("🔴" if net < -1000 else "🟡")
                 return {"signal": sig, "desc": f"외국인 {net:+,.0f}계약 ({direction})"}
 
-        # 전체 row에서 외국인 행 찾기
+        # 일별추이에서 가장 최근 날짜의 외국인 행 찾기
+        # 날짜별로 그룹화 - 첫 번째(최신) 날짜만 사용
+        latest_date = None
         for row in output:
+            d = row.get("TRD_DD","")
+            if d and (latest_date is None or d > latest_date):
+                latest_date = d
+
+        for row in output:
+            if row.get("TRD_DD","") != latest_date:
+                continue
             name = str(row.get("INVST_TP_NM", row.get("invst_tp_nm", ""))).strip()
             if "외국인" in name or "foreign" in name.lower():
                 for key in ["NETBID_TRDVOL", "NET_BUY_QTY", "NETBUY", "NET_QTY"]:
@@ -314,7 +323,7 @@ def fetch_foreign_futures_krx(session):
                         net = float(str(row[key]).replace(",","") or 0)
                         direction = "매수" if net > 0 else "매도"
                         sig = "🟢" if net > 1000 else ("🔴" if net < -1000 else "🟡")
-                        return {"signal": sig, "desc": f"외국인 {net:+,.0f}계약 ({direction})"}
+                        return {"signal": sig, "desc": f"외국인 {net:+,.0f}계약 ({direction}, {latest_date})"}
 
         return None
     except Exception as e:
@@ -328,7 +337,7 @@ def fetch_oi_krx(session):
         prev = today - datetime.timedelta(days=1)
         while prev.weekday() >= 5: prev -= datetime.timedelta(days=1)
         end_str   = prev.strftime("%Y%m%d")
-        start_str = (prev - datetime.timedelta(days=7)).strftime("%Y%m%d")
+        start_str = (prev - datetime.timedelta(days=30)).strftime("%Y%m%d")
 
         url = "https://data.krx.co.kr/comm/bldAttendant/getJsonData.cmd"
         headers = {
