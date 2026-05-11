@@ -72,49 +72,81 @@ def fetch_basis():
 
 # ── ② 풋/콜 비율 (네이버 금융) ───────────────────────────────────
 def fetch_pcr_naver():
+    """네이버 금융 옵션 시장에서 P/C비율 + 미결제약정 스크래핑 (디버그 모드)"""
     try:
+        import requests as req_lib
+        from bs4 import BeautifulSoup
+
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0",
+            "Referer": "https://finance.naver.com/futureoption/",
+            "Accept-Language": "ko-KR,ko;q=0.9",
+        }
+
         urls = [
-            "https://finance.naver.com/futureoption/optionDealing.naver?marketCode=K2",
             "https://finance.naver.com/futureoption/market.naver?type=OPTION&futureId=K2&menuType=market",
+            "https://finance.naver.com/futureoption/market.naver?type=OPTION&futureId=K2",
         ]
+
         for url in urls:
             try:
-                req = urllib.request.Request(url, headers={
-                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-                    "Referer": "https://finance.naver.com/"
-                })
-                with urllib.request.urlopen(req, timeout=12) as resp:
-                    html = resp.read().decode("euc-kr", errors="ignore")
+                res = req_lib.get(url, headers=headers, timeout=12)
+                html = res.content.decode("euc-kr", errors="ignore")
+                soup = BeautifulSoup(html, "html.parser")
+                text = soup.get_text(" ", strip=True)
 
-                # P/C 비율 패턴들 시도
-                patterns = [
-                    r'P/C비율[^<]*<[^>]+>([0-9.]+)',
-                    r'풋콜비율[^<]*<[^>]+>([0-9.]+)',
-                    r'pc_ratio[^>]*>([0-9.]+)',
-                    r'P/C[^0-9]*([0-9]+\.[0-9]+)',
+                # 디버그: 텍스트 앞 500자 출력
+                print(f"\n    [Naver HTML텍스트]: {text[:500]}")
+
+                pcr_patterns = [
+                    r'P/C\s*비율\s*([\d.]+)',
+                    r'풋콜\s*비율\s*([\d.]+)',
+                    r'P/C\s*Ratio\s*([\d.]+)',
+                    r'P/C\s*([\d]+\.\d+)',
                 ]
-                for pat in patterns:
-                    m = re.search(pat, html, re.IGNORECASE)
+                for pat in pcr_patterns:
+                    m = re.search(pat, text, re.IGNORECASE)
                     if m:
                         pcr = float(m.group(1))
                         if 0.1 < pcr < 10:
+                            print(f"    ✅ P/C비율 발견: {pcr}")
                             if pcr > 1.5:   sig, desc = "🔴", f"P/C {pcr:.2f} (풋우세·약세)"
                             elif pcr > 1.0: sig, desc = "🟡", f"P/C {pcr:.2f} (중립)"
                             else:           sig, desc = "🟢", f"P/C {pcr:.2f} (콜우세·강세)"
-                            return {"signal": sig, "desc": desc}
-            except:
+                            return {"type": "pcr", "signal": sig, "desc": desc}
+
+                oi_patterns = [r'미결제\s*약정\s*([\d,]+)', r'미결제\s*([\d,]+)']
+                for pat in oi_patterns:
+                    m = re.search(pat, text)
+                    if m:
+                        oi = int(m.group(1).replace(",", ""))
+                        if oi > 100:
+                            print(f"    ✅ 미결제약정 발견: {oi:,}")
+                            return {"type": "oi", "signal": "🟡", "desc": f"{oi:,}계약"}
+
+            except Exception as e:
+                print(f"    [URL 오류]: {e}")
                 continue
+
         return None
     except Exception as e:
-        print(f"  P/C 네이버 실패: {e}")
+        print(f"  네이버 크롤링 실패: {e}")
         return None
 
 # ── ② 풋/콜 비율 (KRX, 장 마감 후) ──────────────────────────────
+def get_prev_trading_date():
+    """오늘 데이터 없을 때 쓸 직전 거래일"""
+    today = datetime.date.today()
+    d = today - datetime.timedelta(days=1)
+    while d.weekday() >= 5:   # 토·일 건너뜀
+        d -= datetime.timedelta(days=1)
+    return d.strftime("%Y%m%d")
+
 def fetch_pcr_krx():
     try:
         import requests as req_lib
-        today = datetime.date.today()
-        date_str = today.strftime("%Y%m%d")
+        today_str = datetime.date.today().strftime("%Y%m%d")
+        prev_str  = get_prev_trading_date()
         url = "http://data.krx.co.kr/comm/bldAttendant/getJsonData.cmd"
         headers = {
             "Accept": "application/json, text/javascript, */*; q=0.01",
@@ -125,31 +157,34 @@ def fetch_pcr_krx():
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
             "X-Requested-With": "XMLHttpRequest",
         }
-        bld_list = [
-            {"bld": "dbms/MDC/STAT/standard/MDCSTAT12401", "locale": "ko_KR", "trdDd": date_str, "share": "1", "money": "1", "csvxls_isNo": "false"},
-            {"bld": "dbms/MDC/STAT/standard/MDCSTAT12402", "locale": "ko_KR", "trdDd": date_str, "share": "1", "money": "1", "csvxls_isNo": "false"},
-            {"bld": "dbms/MDC/STAT/standard/MDCSTAT12403", "locale": "ko_KR", "trdDd": date_str, "prodId": "201VX06", "share": "1", "money": "1", "csvxls_isNo": "false"},
-        ]
-        for data in bld_list:
-            try:
-                res = req_lib.post(url, headers=headers, data=data, timeout=12)
-                if res.status_code != 200:
+        # 오늘 → 전일 순서로 시도
+        for date_str in [today_str, prev_str]:
+            for bld in ["MDCSTAT12401", "MDCSTAT12402", "MDCSTAT12403"]:
+                try:
+                    data = {"bld": f"dbms/MDC/STAT/standard/{bld}", "locale": "ko_KR",
+                            "trdDd": date_str, "share": "1", "money": "1", "csvxls_isNo": "false"}
+                    res = req_lib.post(url, headers=headers, data=data, timeout=12)
+                    print(f"    [{bld} {date_str}] status={res.status_code}", end=" ")
+                    if res.status_code != 200:
+                        print("→ skip")
+                        continue
+                    output = res.json().get("output", [])
+                    print(f"→ {len(output)}건")
+                    if not output:
+                        continue
+                    for item in output:
+                        for key in ["PCR", "PUT_CALL_RATIO", "pcr"]:
+                            if key in item:
+                                pcr = float(str(item[key]).replace(",", "") or 0)
+                                if 0.1 < pcr < 10:
+                                    label = f"({date_str[:4]}-{date_str[4:6]}-{date_str[6:]} 기준)" if date_str == prev_str else ""
+                                    if pcr > 1.5:   sig, desc = "🔴", f"P/C {pcr:.2f} 풋우세·약세 {label}"
+                                    elif pcr > 1.0: sig, desc = "🟡", f"P/C {pcr:.2f} 중립 {label}"
+                                    else:           sig, desc = "🟢", f"P/C {pcr:.2f} 콜우세·강세 {label}"
+                                    return {"signal": sig, "desc": desc.strip()}
+                except Exception as e2:
+                    print(f"    [{bld}] 오류: {e2}")
                     continue
-                output = res.json().get("output", [])
-                if not output:
-                    continue
-                for item in output:
-                    for key in ["PCR", "PUT_CALL_RATIO", "pcr", "pcratio"]:
-                        if key in item:
-                            pcr = float(str(item[key]).replace(",", "") or 0)
-                            if 0.1 < pcr < 10:
-                                if pcr > 1.5:   sig, desc = "🔴", f"P/C {pcr:.2f} (풋우세·약세)"
-                                elif pcr > 1.0: sig, desc = "🟡", f"P/C {pcr:.2f} (중립)"
-                                else:           sig, desc = "🟢", f"P/C {pcr:.2f} (콜우세·강세)"
-                                return {"signal": sig, "desc": desc}
-            except Exception as e2:
-                print(f"    bld 시도 실패: {e2}")
-                continue
         return None
     except Exception as e:
         print(f"  P/C KRX 실패: {e}")
@@ -159,8 +194,8 @@ def fetch_pcr_krx():
 def fetch_oi_krx():
     try:
         import requests as req_lib
-        today = datetime.date.today()
-        date_str = today.strftime("%Y%m%d")
+        today_str = datetime.date.today().strftime("%Y%m%d")
+        prev_str  = get_prev_trading_date()
         url = "http://data.krx.co.kr/comm/bldAttendant/getJsonData.cmd"
         headers = {
             "Accept": "application/json, text/javascript, */*; q=0.01",
@@ -171,37 +206,39 @@ def fetch_oi_krx():
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
             "X-Requested-With": "XMLHttpRequest",
         }
-        bld_list = [
-            {"bld": "dbms/MDC/STAT/standard/MDCSTAT12301", "locale": "ko_KR", "trdDd": date_str, "share": "1", "money": "1", "csvxls_isNo": "false"},
-            {"bld": "dbms/MDC/STAT/standard/MDCSTAT12302", "locale": "ko_KR", "trdDd": date_str, "share": "1", "money": "1", "csvxls_isNo": "false"},
-        ]
-        for data in bld_list:
-            try:
-                res = req_lib.post(url, headers=headers, data=data, timeout=12)
-                if res.status_code != 200:
-                    continue
-                output = res.json().get("output", [])
-                if not output:
-                    continue
-                for item in output:
-                    name = str(item.get("ITEM_NAME","") or item.get("ISU_NM","") or "")
-                    if "200" not in name and "코스피" not in name.upper() and "KOSPI" not in name.upper():
+        for date_str in [today_str, prev_str]:
+            for bld in ["MDCSTAT12301", "MDCSTAT12302"]:
+                try:
+                    data = {"bld": f"dbms/MDC/STAT/standard/{bld}", "locale": "ko_KR",
+                            "trdDd": date_str, "share": "1", "money": "1", "csvxls_isNo": "false"}
+                    res = req_lib.post(url, headers=headers, data=data, timeout=12)
+                    print(f"    [{bld} {date_str}] status={res.status_code}", end=" ")
+                    if res.status_code != 200:
+                        print("→ skip")
                         continue
-                    for key in ["OI","OPNINT_QTY","REMA_QTY","OPNINT"]:
-                        if key in item:
-                            oi = int(str(item[key]).replace(",","") or 0)
-                            prev_key = "PREV_"+key
-                            prev = int(str(item.get(prev_key,0)).replace(",","") or 0)
-                            if oi > 0:
-                                chg = oi - prev
-                                if chg < -5000:   sig, desc = "🔴", f"{oi:,}계약 (↓{abs(chg):,} 청산압력)"
-                                elif chg < 0:     sig, desc = "🟡", f"{oi:,}계약 (↓{abs(chg):,} 소폭감소)"
-                                elif chg > 5000:  sig, desc = "🟢", f"{oi:,}계약 (↑{chg:,} 포지션확대)"
-                                else:             sig, desc = "🟡", f"{oi:,}계약 (보합)"
-                                return {"signal": sig, "desc": desc}
-            except Exception as e2:
-                print(f"    bld 시도 실패: {e2}")
-                continue
+                    output = res.json().get("output", [])
+                    print(f"→ {len(output)}건")
+                    if not output:
+                        continue
+                    for item in output:
+                        name = str(item.get("ITEM_NAME","") or item.get("ISU_NM","") or "")
+                        if "200" not in name and "코스피" not in name.upper() and "KOSPI" not in name.upper():
+                            continue
+                        for key in ["OI","OPNINT_QTY","REMA_QTY","OPNINT"]:
+                            if key in item:
+                                oi = int(str(item[key]).replace(",","") or 0)
+                                prev = int(str(item.get("PREV_"+key,0)).replace(",","") or 0)
+                                if oi > 0:
+                                    chg = oi - prev
+                                    label = f" ({date_str[4:6]}/{date_str[6:]} 기준)" if date_str == prev_str else ""
+                                    if chg < -5000:  sig, desc = "🔴", f"{oi:,}계약 ↓{abs(chg):,} 청산압력{label}"
+                                    elif chg < 0:    sig, desc = "🟡", f"{oi:,}계약 ↓{abs(chg):,} 소폭감소{label}"
+                                    elif chg > 5000: sig, desc = "🟢", f"{oi:,}계약 ↑{chg:,} 포지션확대{label}"
+                                    else:            sig, desc = "🟡", f"{oi:,}계약 보합{label}"
+                                    return {"signal": sig, "desc": desc}
+                except Exception as e2:
+                    print(f"    [{bld}] 오류: {e2}")
+                    continue
         return None
     except Exception as e:
         print(f"  미결제약정 KRX 실패: {e}")
