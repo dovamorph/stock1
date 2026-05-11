@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-12 00:19",
+  "updated": "2026-05-12 02:58",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -14,10 +14,10 @@
   },
   "news_sample": [
     "US and French nationals test positive for hantavirus after leaving ship",
+    "US passengers from ship quarantined as officials say public risk 'very low'",
     "Portrait looted by Nazis found in home of Dutch SS leader's descendants",
     "Washington dinner shooting suspect pleads not guilty",
-    "Whales could be harmed by diverted ships avoiding Middle East, scientists warn",
-    "Trump calls Iran response to US proposal to end war 'totally unacceptable'"
+    "Whales could be harmed by diverted ships avoiding Middle East, scientists warn"
   ],
   "categories": {
     "geopolitical": {
@@ -27,7 +27,7 @@
       "summary": "Trump calls Iran response to US proposal to e...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 20,
-      "score": 30.5
+      "score": 31.9
     },
     "macro": {
       "level": "주의",
@@ -53,17 +53,17 @@
       "signal": "⚠️",
       "summary": "Trump calls Iran response to US proposal to e...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 17,
-      "score": 8.9
+      "matched": 12,
+      "score": 2.9
     },
     "policy": {
       "level": "신호",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "[속보] 트럼프 \"해방 프로젝트, 더 큰 규모로 재개 검토\"",
+      "summary": "트럼프 \"이란과의 휴전 간신히 유지…해방 프로젝트 재개 검토\"(종합)",
       "action": "관련 지표 추가 확인 후 판단",
-      "matched": 1,
-      "score": 1.5
+      "matched": 3,
+      "score": 4.5
     }
   },
   "overall": {
