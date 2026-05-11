@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-12 02:58",
+  "updated": "2026-05-12 04:59",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -14,20 +14,20 @@
   },
   "news_sample": [
     "US and French nationals test positive for hantavirus after leaving ship",
-    "US passengers from ship quarantined as officials say public risk 'very low'",
-    "Portrait looted by Nazis found in home of Dutch SS leader's descendants",
-    "Washington dinner shooting suspect pleads not guilty",
-    "Whales could be harmed by diverted ships avoiding Middle East, scientists warn"
+    "US passengers quarantining in Nebraska as officials say public hantavirus risk 'very low'",
+    "Trump says Iran ceasefire is on 'massive life support'",
+    "Elon Musk and Tim Cook among CEOs expected to accompany Trump on China trip",
+    "Portrait looted by Nazis found in home of Dutch SS leader's descendants"
   ],
   "categories": {
     "geopolitical": {
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "Trump calls Iran response to US proposal to e...",
+      "summary": "Trump says Iran ceasefire is on 'massive life...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 20,
-      "score": 31.9
+      "matched": 18,
+      "score": 30.5
     },
     "macro": {
       "level": "주의",
@@ -35,8 +35,8 @@
       "signal": "⚠️",
       "summary": "Philippine VP Sara Duterte impeached for a se...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 3,
-      "score": 4.4
+      "matched": 4,
+      "score": 5.9
     },
     "disaster": {
       "level": "안전",
@@ -48,13 +48,13 @@
       "score": 0
     },
     "trade": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "⚠️",
-      "summary": "Trump calls Iran response to US proposal to e...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 12,
-      "score": 2.9
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
+      "summary": "Trump says Iran ceasefire is on 'massive life...",
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 13,
+      "score": 2.8
     },
     "policy": {
       "level": "신호",
@@ -62,14 +62,14 @@
       "signal": "⚠️",
       "summary": "트럼프 \"이란과의 휴전 간신히 유지…해방 프로젝트 재개 검토\"(종합)",
       "action": "관련 지표 추가 확인 후 판단",
-      "matched": 3,
-      "score": 4.5
+      "matched": 2,
+      "score": 3.0
     }
   },
   "overall": {
-    "level": "안전",
-    "color": "green",
-    "summary": "전반적 안정. 정상 운용 유지",
-    "action": "정상 운용 유지"
+    "level": "주의",
+    "color": "yellow",
+    "summary": "주의 필요: 보호무역·공급망",
+    "action": "신규 매수 자제 / 추이 관찰"
   }
 }
