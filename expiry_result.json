@@ -1,18 +1,17 @@
 {
-  "updated": "2026-05-11 14:02",
   "expiry_date": "2026-05-14",
   "d_day": 3,
   "active": true,
+  "updated": "2026-05-11 15:29",
   "indicators": {
-    "basis": null,
-    "foreign": null,
-    "pcr": null,
-    "oi": null
+    "foreign": {
+      "signal": "📱",
+      "desc": "증권앱에서 직접 확인"
+    }
   },
   "judgment": {
     "level": "알 수 없음",
     "color": "gray",
-    "action": "데이터 부족",
-    "score": 0
+    "action": "데이터 부족"
   }
 }
