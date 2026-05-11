@@ -322,6 +322,65 @@ def fetch_foreign_futures_krx():
         print(f"  외국인선물 KRX 실패: {e}")
         return None
 
+def fetch_oi_krx():
+    """KRX 최근월물 시세 추이(선물) - 미결제약정 - MDCSTAT12701"""
+    try:
+        import requests as req_lib
+        today     = datetime.date.today()
+        end_str   = today.strftime("%Y%m%d")
+        start_str = (today - datetime.timedelta(days=7)).strftime("%Y%m%d")
+
+        url = "http://data.krx.co.kr/comm/bldAttendant/getJsonData.cmd"
+        headers = {
+            "Accept": "application/json, text/javascript, */*; q=0.01",
+            "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+            "Origin": "http://data.krx.co.kr",
+            "Referer": "http://data.krx.co.kr/contents/MDC/MDI/mdiLoader/index.cmd?menuId=MDC0201050103",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+            "X-Requested-With": "XMLHttpRequest",
+        }
+        data = {
+            "bld":         "dbms/MDC/STAT/standard/MDCSTAT12701",
+            "locale":      "ko_KR",
+            "prodId":      "KR__FUK2I",
+            "strtDd":      start_str,
+            "endDd":       end_str,
+            "aggBasTpCd":  "",
+            "share":       "1",
+            "money":       "3",
+            "csvxls_isNo": "false"
+        }
+        res = req_lib.post(url, headers=headers, data=data, timeout=12)
+        print(f"    [미결제 KRX] status={res.status_code}", end=" ")
+        if res.status_code != 200:
+            print("실패"); return None
+
+        output = res.json().get("output", [])
+        print(f"→ {len(output)}건")
+        if not output:
+            return None
+
+        # 가장 최근 2개 데이터로 변화량 계산
+        latest = output[0]
+        prev   = output[1] if len(output) > 1 else None
+        print(f"    keys: {list(latest.keys())[:10]}")
+
+        for key in ["OPNINT_QTY", "OI", "OPNINT", "opnint_qty", "REMA_QTY"]:
+            if key in latest:
+                oi      = int(str(latest[key]).replace(",","") or 0)
+                prev_oi = int(str(prev[key]).replace(",","") or 0) if prev else 0
+                chg     = oi - prev_oi
+                if oi > 0:
+                    if chg < -5000:  sig, desc = "🔴", f"{oi:,}계약 ↓{abs(chg):,} 청산압력"
+                    elif chg < 0:    sig, desc = "🟡", f"{oi:,}계약 ↓{abs(chg):,} 소폭감소"
+                    elif chg > 5000: sig, desc = "🟢", f"{oi:,}계약 ↑{chg:,} 포지션확대"
+                    else:            sig, desc = "🟡", f"{oi:,}계약 보합"
+                    return {"signal": sig, "desc": desc}
+        return None
+    except Exception as e:
+        print(f"  미결제약정 KRX 실패: {e}")
+        return None
+
 def judge_expiry(d_day, indicators, active, in_market):
     if not active:
         return {"level": "대기", "color": "gray",
