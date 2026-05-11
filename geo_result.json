@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-12 04:59",
+  "updated": "2026-05-12 06:25",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,10 +13,10 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "US and French nationals test positive for hantavirus after leaving ship",
+    "Last passengers leave virus-hit cruise ship as three more test positive",
     "US passengers quarantining in Nebraska as officials say public hantavirus risk 'very low'",
+    "Watch: Alaska town sees its last sunset until August",
     "Trump says Iran ceasefire is on 'massive life support'",
-    "Elon Musk and Tim Cook among CEOs expected to accompany Trump on China trip",
     "Portrait looted by Nazis found in home of Dutch SS leader's descendants"
   ],
   "categories": {
@@ -26,8 +26,8 @@
       "signal": "⚠️",
       "summary": "Trump says Iran ceasefire is on 'massive life...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 18,
-      "score": 30.5
+      "matched": 14,
+      "score": 24.6
     },
     "macro": {
       "level": "주의",
@@ -35,8 +35,8 @@
       "signal": "⚠️",
       "summary": "Philippine VP Sara Duterte impeached for a se...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 4,
-      "score": 5.9
+      "matched": 3,
+      "score": 4.4
     },
     "disaster": {
       "level": "안전",
@@ -53,17 +53,17 @@
       "signal": "🔴",
       "summary": "Trump says Iran ceasefire is on 'massive life...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 13,
-      "score": 2.8
+      "matched": 12,
+      "score": 4.2
     },
     "policy": {
-      "level": "신호",
-      "color": "yellow",
-      "signal": "⚠️",
-      "summary": "트럼프 \"이란과의 휴전 간신히 유지…해방 프로젝트 재개 검토\"(종합)",
-      "action": "관련 지표 추가 확인 후 판단",
-      "matched": 2,
-      "score": 3.0
+      "level": "안전",
+      "color": "green",
+      "signal": "✅",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
