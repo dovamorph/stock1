@@ -22,7 +22,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests pandas finance-datareader yfinance beautifulsoup4
+        run: pip install requests pandas finance-datareader yfinance beautifulsoup4 pykrx
 
       - name: Run screener
         env:
