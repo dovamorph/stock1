@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 20:28",
+  "updated": "2026-05-12 00:19",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -14,20 +14,20 @@
   },
   "news_sample": [
     "US and French nationals test positive for hantavirus after leaving ship",
-    "Trump calls Iran response to US proposal to end war 'totally unacceptable'",
     "Portrait looted by Nazis found in home of Dutch SS leader's descendants",
-    "Philippine VP Sara Duterte impeached for a second time",
-    "His father had just been buried. Then West Bank settlers forced him to dig up the body"
+    "Washington dinner shooting suspect pleads not guilty",
+    "Whales could be harmed by diverted ships avoiding Middle East, scientists warn",
+    "Trump calls Iran response to US proposal to end war 'totally unacceptable'"
   ],
   "categories": {
     "geopolitical": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
+      "level": "주의",
+      "color": "yellow",
+      "signal": "⚠️",
       "summary": "Trump calls Iran response to US proposal to e...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 18,
-      "score": 1.5
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 20,
+      "score": 30.5
     },
     "macro": {
       "level": "주의",
@@ -35,8 +35,8 @@
       "signal": "⚠️",
       "summary": "Philippine VP Sara Duterte impeached for a se...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 4,
-      "score": 5.9
+      "matched": 3,
+      "score": 4.4
     },
     "disaster": {
       "level": "안전",
@@ -53,23 +53,23 @@
       "signal": "⚠️",
       "summary": "Trump calls Iran response to US proposal to e...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 14,
-      "score": 5.8
+      "matched": 17,
+      "score": 8.9
     },
     "policy": {
-      "level": "안전",
-      "color": "green",
-      "signal": "✅",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "신호",
+      "color": "yellow",
+      "signal": "⚠️",
+      "summary": "[속보] 트럼프 \"해방 프로젝트, 더 큰 규모로 재개 검토\"",
+      "action": "관련 지표 추가 확인 후 판단",
+      "matched": 1,
+      "score": 1.5
     }
   },
   "overall": {
-    "level": "주의",
-    "color": "yellow",
-    "summary": "주의 필요: 지정학적 충돌",
-    "action": "신규 매수 자제 / 추이 관찰"
+    "level": "안전",
+    "color": "green",
+    "summary": "전반적 안정. 정상 운용 유지",
+    "action": "정상 운용 유지"
   }
 }
