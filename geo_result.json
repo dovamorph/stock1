@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 16:49",
+  "updated": "2026-05-11 20:28",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,30 +13,30 @@
     "StockPlus": 14
   },
   "news_sample": [
+    "US and French nationals test positive for hantavirus after leaving ship",
     "Trump calls Iran response to US proposal to end war 'totally unacceptable'",
-    "US national on repatriation flight tests positive for hantavirus",
-    "His father had just been buried. Then West Bank settlers forced him to dig up the body",
-    "French national shows symptoms on return from hantavirus-hit ship",
-    "Ailing Iran Nobel laureate given bail and hospital transfer"
+    "Portrait looted by Nazis found in home of Dutch SS leader's descendants",
+    "Philippine VP Sara Duterte impeached for a second time",
+    "His father had just been buried. Then West Bank settlers forced him to dig up the body"
   ],
   "categories": {
     "geopolitical": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "⚠️",
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
       "summary": "Trump calls Iran response to US proposal to e...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 17,
-      "score": 25.9
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 18,
+      "score": 1.5
     },
     "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "How hotels are stopping the 'dawn dash' for s...",
+      "summary": "Philippine VP Sara Duterte impeached for a se...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 4,
-      "score": 5.8
+      "score": 5.9
     },
     "disaster": {
       "level": "안전",
@@ -54,7 +54,7 @@
       "summary": "Trump calls Iran response to US proposal to e...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 14,
-      "score": 4.4
+      "score": 5.8
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "안전",
-    "color": "green",
-    "summary": "전반적 안정. 정상 운용 유지",
-    "action": "정상 운용 유지"
+    "level": "주의",
+    "color": "yellow",
+    "summary": "주의 필요: 지정학적 충돌",
+    "action": "신규 매수 자제 / 추이 관찰"
   }
 }
