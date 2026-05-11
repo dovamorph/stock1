@@ -1,13 +1,21 @@
 {
-  "budget": 5000000,
-  "used": 757500,
-  "positions": {
-    "086280": {
-      "name": "현대글로비스",
-      "buy_price": 252500,
-      "qty": 3,
-      "amount": 757500,
-      "buy_date": "20260508"
+  "long": {
+    "budget": 3500000,
+    "used": 757500,
+    "positions": {
+      "086280": {
+        "name": "현대글로비스",
+        "buy_price": 252500,
+        "qty": 3,
+        "amount": 757500,
+        "buy_date": "20260508"
+      }
     }
-  }
+  },
+  "short": {
+    "budget": 1500000,
+    "used": 0,
+    "positions": {}
+  },
+  "trade_history": []
 }
