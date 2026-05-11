@@ -5,7 +5,7 @@ KIS 파생 계좌 불필요 / 무료 공개 데이터 활용
 ① 베이시스    : market_indicators.json 활용
 ② 풋/콜 비율  : 네이버 금융 or KRX (장 마감 후 제공)
 ③ 미결제약정  : KRX (장 마감 후 제공)
-④ 외국인선물  : 증권앱 직접 확인
+④ 외국인선물  : KRX (장 마감 후 제공)
 """
 import json, datetime, re, os
 import urllib.request
@@ -52,9 +52,9 @@ def get_krx_session():
     })
     try:
         # 메인 페이지 방문으로 세션 쿠키 획득
-        session.get("http://data.krx.co.kr/contents/MDC/MAIN/main/index.cmd", timeout=10)
+        session.get("https://data.krx.co.kr/contents/MDC/MAIN/main/index.cmd", timeout=10)
         # 파생상품 메뉴 페이지도 방문
-        session.get("http://data.krx.co.kr/contents/MDC/MDI/mdiLoader/index.cmd?menuId=MDC0201050403", timeout=10)
+        session.get("https://data.krx.co.kr/contents/MDC/MDI/mdiLoader/index.cmd?menuId=MDC0201050403", timeout=10)
     except:
         pass
     return session
@@ -65,12 +65,12 @@ def fetch_basis(session):
         today     = datetime.date.today()
         end_str   = today.strftime("%Y%m%d")
         start_str = (today - datetime.timedelta(days=7)).strftime("%Y%m%d")
-        url = "http://data.krx.co.kr/comm/bldAttendant/getJsonData.cmd"
+        url = "https://data.krx.co.kr/comm/bldAttendant/getJsonData.cmd"
         headers = {
             "Accept": "application/json, text/javascript, */*; q=0.01",
             "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
-            "Origin": "http://data.krx.co.kr",
-            "Referer": "http://data.krx.co.kr/contents/MDC/MDI/mdiLoader/index.cmd?menuId=MDC0201050401",
+            "Origin": "https://data.krx.co.kr",
+            "Referer": "https://data.krx.co.kr/contents/MDC/MDI/mdiLoader/index.cmd?menuId=MDC0201050401",
             "X-Requested-With": "XMLHttpRequest",
         }
         data = {
@@ -110,6 +110,7 @@ def fetch_basis(session):
 def fetch_pcr_naver():
     """네이버 금융 옵션 시장에서 P/C비율 + 미결제약정 스크래핑 (디버그 모드)"""
     try:
+        import requests as req_lib
         from bs4 import BeautifulSoup
 
         headers = {
@@ -184,12 +185,12 @@ def fetch_pcr_krx(session):
         # 조회 시작일: 5영업일 전 (주말 포함 7일 여유)
         start_str = (today - datetime.timedelta(days=7)).strftime("%Y%m%d")
 
-        url = "http://data.krx.co.kr/comm/bldAttendant/getJsonData.cmd"
+        url = "https://data.krx.co.kr/comm/bldAttendant/getJsonData.cmd"
         headers = {
             "Accept": "application/json, text/javascript, */*; q=0.01",
             "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
-            "Origin": "http://data.krx.co.kr",
-            "Referer": "http://data.krx.co.kr/contents/MDC/MDI/mdiLoader/index.cmd?menuId=MDC0201050403",
+            "Origin": "https://data.krx.co.kr",
+            "Referer": "https://data.krx.co.kr/contents/MDC/MDI/mdiLoader/index.cmd?menuId=MDC0201050403",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
             "X-Requested-With": "XMLHttpRequest",
         }
@@ -251,12 +252,12 @@ def fetch_foreign_futures_krx(session):
         end_str   = today.strftime("%Y%m%d")
         start_str = (today - datetime.timedelta(days=7)).strftime("%Y%m%d")
 
-        url = "http://data.krx.co.kr/comm/bldAttendant/getJsonData.cmd"
+        url = "https://data.krx.co.kr/comm/bldAttendant/getJsonData.cmd"
         headers = {
             "Accept": "application/json, text/javascript, */*; q=0.01",
             "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
-            "Origin": "http://data.krx.co.kr",
-            "Referer": "http://data.krx.co.kr/contents/MDC/MDI/mdiLoader/index.cmd?menuId=MDC0201050302",
+            "Origin": "https://data.krx.co.kr",
+            "Referer": "https://data.krx.co.kr/contents/MDC/MDI/mdiLoader/index.cmd?menuId=MDC0201050302",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
             "X-Requested-With": "XMLHttpRequest",
         }
@@ -321,12 +322,12 @@ def fetch_oi_krx(session):
         end_str   = today.strftime("%Y%m%d")
         start_str = (today - datetime.timedelta(days=7)).strftime("%Y%m%d")
 
-        url = "http://data.krx.co.kr/comm/bldAttendant/getJsonData.cmd"
+        url = "https://data.krx.co.kr/comm/bldAttendant/getJsonData.cmd"
         headers = {
             "Accept": "application/json, text/javascript, */*; q=0.01",
             "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
-            "Origin": "http://data.krx.co.kr",
-            "Referer": "http://data.krx.co.kr/contents/MDC/MDI/mdiLoader/index.cmd?menuId=MDC0201050103",
+            "Origin": "https://data.krx.co.kr",
+            "Referer": "https://data.krx.co.kr/contents/MDC/MDI/mdiLoader/index.cmd?menuId=MDC0201050103",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
             "X-Requested-With": "XMLHttpRequest",
         }
