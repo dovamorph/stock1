@@ -2,16 +2,29 @@
   "expiry_date": "2026-05-14",
   "d_day": 3,
   "active": true,
-  "updated": "2026-05-11 15:29",
+  "in_market": false,
+  "updated": "2026-05-11 15:41",
   "indicators": {
+    "basis": {
+      "signal": "🟢",
+      "desc": "KOSPI200 1213.3pt (+5.40%) 강세"
+    },
+    "pcr": {
+      "signal": "—",
+      "desc": "조회 실패"
+    },
+    "oi": {
+      "signal": "—",
+      "desc": "조회 실패"
+    },
     "foreign": {
       "signal": "📱",
       "desc": "증권앱에서 직접 확인"
     }
   },
   "judgment": {
-    "level": "알 수 없음",
-    "color": "gray",
-    "action": "데이터 부족"
+    "level": "중립",
+    "color": "yellow",
+    "action": "방향 불분명 (⚠️ D-3 경계강화)"
   }
 }
