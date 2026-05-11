@@ -137,7 +137,7 @@ def main():
             "unit": "$",
             "change": round(d["change"], 0),
             "change_pct": d["change_pct"],
-            "signal": "🟢" if d["change_pct"] > 2 else ("🔴" if d["change_pct"] < -2 else "🟡"),
+            "signal": "🟢" if d["change_pct"] > 1 else ("🔴" if d["change_pct"] < -1 else "🟡"),
             "desc": f"${d['value']:,.0f}"
         }
         print(f"${d['value']:,.0f} ({d['change_pct']:+.2f}%)")
@@ -157,7 +157,7 @@ def main():
             "unit": "원",
             "change": round(d["change"], 1),
             "change_pct": d["change_pct"],
-            "signal": "🔴" if d["change_pct"] > 0.5 else ("🟢" if d["change_pct"] < -0.5 else "🟡"),
+            "signal": "🔴" if d["change_pct"] > 0.3 else ("🟢" if d["change_pct"] < -0.3 else "🟡"),
             "desc": "원화 약세" if d["change_pct"] > 0.5 else ("원화 강세" if d["change_pct"] < -0.5 else "안정")
         }
         print(f"{d['value']:,.0f}원 ({d['change_pct']:+.2f}%)")
@@ -175,7 +175,7 @@ def main():
             "unit": "$/배럴",
             "change": round(d["change"], 2),
             "change_pct": d["change_pct"],
-            "signal": "🔴" if d["change_pct"] > 2 else ("🟢" if d["change_pct"] < -2 else "🟡"),
+            "signal": "🔴" if d["change_pct"] > 1 else ("🟢" if d["change_pct"] < -1 else "🟡"),
             "desc": f"${d['value']:.1f}/배럴"
         }
         print(f"${d['value']:.2f} ({d['change_pct']:+.2f}%)")
@@ -195,7 +195,7 @@ def main():
             "unit": "%",
             "change": chg,
             "change_pct": d["change_pct"],
-            "signal": "🔴" if val >= 4.5 else ("🟡" if val >= 4.0 else "🟢"),
+            "signal": "🔴" if chg > 0.05 else ("🟢" if chg < -0.05 else "🟡"),
             "desc": f"{val:.2f}% ({'위험' if val >= 4.5 else '주의' if val >= 4.0 else '안정'})"
         }
         print(f"{val:.3f}% ({chg:+.3f}%p)")
@@ -213,7 +213,7 @@ def main():
             "unit": "$/oz",
             "change": round(d["change"], 1),
             "change_pct": d["change_pct"],
-            "signal": "🔴" if d["change_pct"] > 1.5 else ("🟢" if d["change_pct"] < -1.5 else "🟡"),
+            "signal": "🔴" if d["change_pct"] > 0.5 else ("🟢" if d["change_pct"] < -0.5 else "🟡"),
             "desc": f"${d['value']:,.0f}/oz"
         }
         print(f"${d['value']:,.1f} ({d['change_pct']:+.2f}%)")
