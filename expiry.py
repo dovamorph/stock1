@@ -50,10 +50,12 @@ def get_krx_session():
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
         "Accept-Language": "ko-KR,ko;q=0.9",
     })
+    # 브라우저 로그인 쿠키 직접 주입
+    session.cookies.set("JSESSIONID", "w2eoLIdyBu1UTE1aethNHQwpa13Dk8Ny8ytacSLoUp1FRxSOTwpgYss85VcvmXha.bWRjX2RvbWFpbi9tZGNvd2FwMi1tZGNhcHAwMQ==", domain="data.krx.co.kr")
+    session.cookies.set("mdc.client_session", "true", domain="data.krx.co.kr")
+    session.cookies.set("lang", "ko_KR", domain="data.krx.co.kr")
     try:
-        # 메인 페이지 방문으로 세션 쿠키 획득
         session.get("https://data.krx.co.kr/contents/MDC/MAIN/main/index.cmd", timeout=10)
-        # 파생상품 메뉴 페이지도 방문
         session.get("https://data.krx.co.kr/contents/MDC/MDI/mdiLoader/index.cmd?menuId=MDC0201050403", timeout=10)
     except:
         pass
@@ -63,8 +65,10 @@ def fetch_basis(session):
     """KRX 베이시스 추이(선물) - MDCSTAT13401"""
     try:
         today     = datetime.date.today()
-        end_str   = today.strftime("%Y%m%d")
-        start_str = (today - datetime.timedelta(days=7)).strftime("%Y%m%d")
+        prev = today - datetime.timedelta(days=1)
+        while prev.weekday() >= 5: prev -= datetime.timedelta(days=1)
+        end_str   = prev.strftime("%Y%m%d")
+        start_str = (prev - datetime.timedelta(days=7)).strftime("%Y%m%d")
         url = "https://data.krx.co.kr/comm/bldAttendant/getJsonData.cmd"
         headers = {
             "Accept": "application/json, text/javascript, */*; q=0.01",
@@ -249,8 +253,10 @@ def fetch_foreign_futures_krx(session):
     """KRX 투자자별 거래실적 - 외국인 코스피200 선물 순매수"""
     try:
         today     = datetime.date.today()
-        end_str   = today.strftime("%Y%m%d")
-        start_str = (today - datetime.timedelta(days=7)).strftime("%Y%m%d")
+        prev = today - datetime.timedelta(days=1)
+        while prev.weekday() >= 5: prev -= datetime.timedelta(days=1)
+        end_str   = prev.strftime("%Y%m%d")
+        start_str = (prev - datetime.timedelta(days=7)).strftime("%Y%m%d")
 
         url = "https://data.krx.co.kr/comm/bldAttendant/getJsonData.cmd"
         headers = {
@@ -292,7 +298,7 @@ def fetch_foreign_futures_krx(session):
         print(f"    keys: {list(latest.keys())[:10]}")
 
         # 외국인 순매수 수량 찾기
-        for key in ["FRGN_NET_BUY", "frgn_netbuy", "FOREIGN_NET", "NET_BUY"]:
+        for key in ["NETBID_TRDVOL", "FRGN_NET_BUY", "frgn_netbuy", "FOREIGN_NET", "NET_BUY"]:
             if key in latest:
                 net = float(str(latest[key]).replace(",","") or 0)
                 direction = "매수" if net > 0 else "매도"
@@ -303,7 +309,7 @@ def fetch_foreign_futures_krx(session):
         for row in output:
             name = str(row.get("INVST_TP_NM", row.get("invst_tp_nm", ""))).strip()
             if "외국인" in name or "foreign" in name.lower():
-                for key in ["NET_BUY_QTY", "NETBUY", "NET_QTY", "SELN_WTNM_NETBUY_QTY"]:
+                for key in ["NETBID_TRDVOL", "NET_BUY_QTY", "NETBUY", "NET_QTY"]:
                     if key in row:
                         net = float(str(row[key]).replace(",","") or 0)
                         direction = "매수" if net > 0 else "매도"
@@ -319,8 +325,10 @@ def fetch_oi_krx(session):
     """KRX 최근월물 시세 추이(선물) - 미결제약정 - MDCSTAT12701"""
     try:
         today     = datetime.date.today()
-        end_str   = today.strftime("%Y%m%d")
-        start_str = (today - datetime.timedelta(days=7)).strftime("%Y%m%d")
+        prev = today - datetime.timedelta(days=1)
+        while prev.weekday() >= 5: prev -= datetime.timedelta(days=1)
+        end_str   = prev.strftime("%Y%m%d")
+        start_str = (prev - datetime.timedelta(days=7)).strftime("%Y%m%d")
 
         url = "https://data.krx.co.kr/comm/bldAttendant/getJsonData.cmd"
         headers = {
