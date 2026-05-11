@@ -270,10 +270,21 @@ def process_buys(token, data, stocks, ptype, max_pos, budget, partial_sells,
 
         qty = per_stock // cur_price
         if qty < 1:
-            print(f"    {name} ({ticker}) — {cur_price:,}원 수량 부족 스킵"); continue
+            print(f"    {name} ({ticker}) — {cur_price:,}원 수량 부족, 다음 후보로")
+            buy_count = min(buy_count + 1, len(candidates))  # 슬롯 보존
+            continue
 
         actual_amount = cur_price * qty
-        ok, msg = order(token, ticker, qty, "buy")
+        ok, msg = None, ""
+        for attempt in range(2):  # 최대 2회 시도
+            try:
+                ok, msg = order(token, ticker, qty, "buy")
+                break
+            except Exception as e:
+                print(f"    {name} 연결 오류 (시도{attempt+1}): {e}")
+                time.sleep(2)
+        if ok is None:
+            print(f"    {name} 연결 실패, 스킵"); time.sleep(1); continue
         if ok:
             positions[ticker] = {
                 "name": name, "grade": stock.get("grade", "?"),
@@ -290,7 +301,7 @@ def process_buys(token, data, stocks, ptype, max_pos, budget, partial_sells,
             print(f"    ✅ {log}"); discord(log)
         else:
             print(f"    ❌ 매수 실패 {name}: {msg}")
-        time.sleep(0.3)
+        time.sleep(1.0)
 
     if bought > 0:
         print(f"  [{ptype}] 매수 {bought}건 | 사용 {port['used']:,}원 / {budget:,}원")
