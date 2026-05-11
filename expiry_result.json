@@ -3,11 +3,11 @@
   "d_day": 3,
   "active": true,
   "in_market": false,
-  "updated": "2026-05-11 15:57",
+  "updated": "2026-05-11 16:22",
   "indicators": {
     "basis": {
-      "signal": "🟢",
-      "desc": "KOSPI200 1209.8pt (+5.09%) 강세"
+      "signal": "—",
+      "desc": "데이터 없음"
     },
     "pcr": {
       "signal": "—",
@@ -23,8 +23,8 @@
     }
   },
   "judgment": {
-    "level": "중립",
-    "color": "yellow",
-    "action": "방향 불분명 (⚠️ D-3 경계강화)"
+    "level": "알 수 없음",
+    "color": "gray",
+    "action": "데이터 부족 (⚠️ D-3 경계강화)"
   }
 }
