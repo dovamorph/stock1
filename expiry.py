@@ -43,34 +43,75 @@ def get_expiry_dates(n=2):
 
 # ── ① 베이시스 (market_indicators.json 활용) ──────────────────────
 def fetch_basis():
-    """
-    market_indicators.json의 KOSPI200(^KS200)을 현물로 사용
-    실제 선물 가격은 별도 조회가 어려우므로 생략 → 현재 지수 변동률로 대체
-    """
+    """KRX 베이시스 추이(선물) - MDCSTAT13401"""
     try:
-        if not os.path.exists(MI_FILE):
+        import requests as req_lib
+        today     = datetime.date.today()
+        end_str   = today.strftime("%Y%m%d")
+        start_str = (today - datetime.timedelta(days=7)).strftime("%Y%m%d")
+
+        url = "http://data.krx.co.kr/comm/bldAttendant/getJsonData.cmd"
+        headers = {
+            "Accept": "application/json, text/javascript, */*; q=0.01",
+            "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+            "Origin": "http://data.krx.co.kr",
+            "Referer": "http://data.krx.co.kr/contents/MDC/MDI/mdiLoader/index.cmd?menuId=MDC0201050401",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+            "X-Requested-With": "XMLHttpRequest",
+        }
+        data = {
+            "bld":          "dbms/MDC/STAT/standard/MDCSTAT13401",
+            "locale":       "ko_KR",
+            "secugrpId":    "1",
+            "aggBasTpCd":   "0",
+            "prodid":       "KR__FUK2I",
+            "expmmNo":      "1",
+            "isuCd":        "",
+            "isuCd2":       "",
+            "strtDd":       start_str,
+            "endDd":        end_str,
+            "csvxls_isNo":  "false"
+        }
+        res = req_lib.post(url, headers=headers, data=data, timeout=12)
+        print(f"    [베이시스 KRX] status={res.status_code}", end=" ")
+        if res.status_code != 200:
+            print("실패"); return None
+
+        output = res.json().get("output", [])
+        print(f"→ {len(output)}건")
+        if not output:
             return None
-        with open(MI_FILE, "r", encoding="utf-8") as f:
-            mi = json.load(f)
-        ind = mi.get("indicators", {})
-        kp = ind.get("kospi_futures", {})
-        spot   = kp.get("value", 0)
-        ch_pct = kp.get("change_pct", 0)
-        if not spot:
-            return None
-        # 변동률 기반 신호 (선물 별도 없으므로 현물 강약으로 판단)
-        if ch_pct >= 1.0:
-            signal = "🟢"; desc = f"KOSPI200 {spot:.1f}pt ({ch_pct:+.2f}%) 강세"
-        elif ch_pct <= -1.0:
-            signal = "🔴"; desc = f"KOSPI200 {spot:.1f}pt ({ch_pct:+.2f}%) 약세"
-        else:
-            signal = "🟡"; desc = f"KOSPI200 {spot:.1f}pt ({ch_pct:+.2f}%) 중립"
-        return {"signal": signal, "desc": desc}
+
+        latest = output[0]
+        print(f"    keys: {list(latest.keys())[:8]}")
+
+        # 베이시스 값 추출 (여러 키 시도)
+        for key in ["BASIS", "basis", "BAS", "SPOT_BAS"]:
+            if key in latest:
+                basis_val = float(str(latest[key]).replace(",","") or 0)
+                if basis_val != 0:
+                    if basis_val > 1:    sig, desc = "🟢", f"베이시스 +{basis_val:.2f} (강세)"
+                    elif basis_val > 0:  sig, desc = "🟡", f"베이시스 +{basis_val:.2f} (약강세)"
+                    elif basis_val > -1: sig, desc = "🟡", f"베이시스 {basis_val:.2f} (약약세)"
+                    else:                sig, desc = "🔴", f"베이시스 {basis_val:.2f} (약세)"
+                    return {"signal": sig, "desc": desc}
+
+        # 선물가 - 현물가로 직접 계산
+        fut  = float(str(latest.get("FUTURES_PRICE", latest.get("FUT_PRC",  0))).replace(",","") or 0)
+        spot = float(str(latest.get("SPOT_PRICE",    latest.get("SPOT_PRC", 0))).replace(",","") or 0)
+        if fut > 0 and spot > 0:
+            basis_val = round(fut - spot, 2)
+            if basis_val > 1:    sig, desc = "🟢", f"베이시스 +{basis_val:.2f} (강세)"
+            elif basis_val > 0:  sig, desc = "🟡", f"베이시스 +{basis_val:.2f} (약강세)"
+            elif basis_val > -1: sig, desc = "🟡", f"베이시스 {basis_val:.2f} (약약세)"
+            else:                sig, desc = "🔴", f"베이시스 {basis_val:.2f} (약세)"
+            return {"signal": sig, "desc": desc}
+
+        return None
     except Exception as e:
         print(f"  베이시스 실패: {e}")
         return None
 
-# ── ② 풋/콜 비율 (네이버 금융) ───────────────────────────────────
 def fetch_pcr_naver():
     """네이버 금융 옵션 시장에서 P/C비율 + 미결제약정 스크래핑 (디버그 모드)"""
     try:
@@ -210,60 +251,77 @@ def fetch_pcr_krx():
         print(f"  P/C KRX 실패: {e}")
         return None
 
-def fetch_oi_krx():
+def fetch_foreign_futures_krx():
+    """KRX 투자자별 거래실적 - 외국인 코스피200 선물 순매수"""
     try:
         import requests as req_lib
-        today_str = datetime.date.today().strftime("%Y%m%d")
-        prev_str  = get_prev_trading_date()
+        today     = datetime.date.today()
+        end_str   = today.strftime("%Y%m%d")
+        start_str = (today - datetime.timedelta(days=7)).strftime("%Y%m%d")
+
         url = "http://data.krx.co.kr/comm/bldAttendant/getJsonData.cmd"
         headers = {
             "Accept": "application/json, text/javascript, */*; q=0.01",
-            "Accept-Language": "ko-KR,ko;q=0.9",
             "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
             "Origin": "http://data.krx.co.kr",
-            "Referer": "http://data.krx.co.kr/contents/MDC/MDI/mdiLoader/index.cmd?menuId=MDC0201050402",
+            "Referer": "http://data.krx.co.kr/contents/MDC/MDI/mdiLoader/index.cmd?menuId=MDC0201050302",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
             "X-Requested-With": "XMLHttpRequest",
         }
-        for date_str in [today_str, prev_str]:
-            for bld in ["MDCSTAT12301", "MDCSTAT12302"]:
-                try:
-                    data = {"bld": f"dbms/MDC/STAT/standard/{bld}", "locale": "ko_KR",
-                            "trdDd": date_str, "share": "1", "money": "1", "csvxls_isNo": "false"}
-                    res = req_lib.post(url, headers=headers, data=data, timeout=12)
-                    print(f"    [{bld} {date_str}] status={res.status_code}", end=" ")
-                    if res.status_code != 200:
-                        print("→ skip")
-                        continue
-                    output = res.json().get("output", [])
-                    print(f"→ {len(output)}건")
-                    if not output:
-                        continue
-                    for item in output:
-                        name = str(item.get("ITEM_NAME","") or item.get("ISU_NM","") or "")
-                        if "200" not in name and "코스피" not in name.upper() and "KOSPI" not in name.upper():
-                            continue
-                        for key in ["OI","OPNINT_QTY","REMA_QTY","OPNINT"]:
-                            if key in item:
-                                oi = int(str(item[key]).replace(",","") or 0)
-                                prev = int(str(item.get("PREV_"+key,0)).replace(",","") or 0)
-                                if oi > 0:
-                                    chg = oi - prev
-                                    label = f" ({date_str[4:6]}/{date_str[6:]} 기준)" if date_str == prev_str else ""
-                                    if chg < -5000:  sig, desc = "🔴", f"{oi:,}계약 ↓{abs(chg):,} 청산압력{label}"
-                                    elif chg < 0:    sig, desc = "🟡", f"{oi:,}계약 ↓{abs(chg):,} 소폭감소{label}"
-                                    elif chg > 5000: sig, desc = "🟢", f"{oi:,}계약 ↑{chg:,} 포지션확대{label}"
-                                    else:            sig, desc = "🟡", f"{oi:,}계약 보합{label}"
-                                    return {"signal": sig, "desc": desc}
-                except Exception as e2:
-                    print(f"    [{bld}] 오류: {e2}")
-                    continue
+        data = {
+            "bld":          "dbms/MDC/STAT/standard/MDCSTAT13101",
+            "locale":       "ko_KR",
+            "isuCd":        "KR__FUK2I",
+            "inqTpCd":      "1",
+            "prtType":      "AMT",
+            "prtCheck":     "SUN",
+            "aggBasTpCd":   "",
+            "strtDd":       start_str,
+            "endDd":        end_str,
+            "strtDdBox1":   start_str,
+            "endDdBox1":    end_str,
+            "share":        "1",
+            "money":        "3",
+            "csvxls_isNo":  "false"
+        }
+        res = req_lib.post(url, headers=headers, data=data, timeout=12)
+        print(f"    [외국인선물 KRX] status={res.status_code}", end=" ")
+        if res.status_code != 200:
+            print("실패"); return None
+
+        output = res.json().get("output", [])
+        print(f"→ {len(output)}건")
+        if not output:
+            return None
+
+        # 가장 최근 날짜 데이터에서 외국인 찾기
+        latest = output[0]
+        print(f"    keys: {list(latest.keys())[:10]}")
+
+        # 외국인 순매수 수량 찾기
+        for key in ["FRGN_NET_BUY", "frgn_netbuy", "FOREIGN_NET", "NET_BUY"]:
+            if key in latest:
+                net = float(str(latest[key]).replace(",","") or 0)
+                direction = "매수" if net > 0 else "매도"
+                sig = "🟢" if net > 1000 else ("🔴" if net < -1000 else "🟡")
+                return {"signal": sig, "desc": f"외국인 {net:+,.0f}계약 ({direction})"}
+
+        # 전체 row에서 외국인 행 찾기
+        for row in output:
+            name = str(row.get("INVST_TP_NM", row.get("invst_tp_nm", ""))).strip()
+            if "외국인" in name or "foreign" in name.lower():
+                for key in ["NET_BUY_QTY", "NETBUY", "NET_QTY", "SELN_WTNM_NETBUY_QTY"]:
+                    if key in row:
+                        net = float(str(row[key]).replace(",","") or 0)
+                        direction = "매수" if net > 0 else "매도"
+                        sig = "🟢" if net > 1000 else ("🔴" if net < -1000 else "🟡")
+                        return {"signal": sig, "desc": f"외국인 {net:+,.0f}계약 ({direction})"}
+
         return None
     except Exception as e:
-        print(f"  미결제약정 KRX 실패: {e}")
+        print(f"  외국인선물 KRX 실패: {e}")
         return None
 
-# ── 종합 판단 ─────────────────────────────────────────────────────
 def judge_expiry(d_day, indicators, active, in_market):
     if not active:
         return {"level": "대기", "color": "gray",
@@ -376,9 +434,20 @@ def main():
                 indicators["oi"] = {"signal": "—", "desc": "조회 실패"}
                 print("조회 실패")
 
-        # ④ 외국인 선물
-        indicators["foreign"] = {"signal": "📱", "desc": "증권앱에서 직접 확인"}
-        print(f"  [④ 외국인선물] 증권앱 직접 확인")
+        # ③ 외국인 선물 순매수 (KRX)
+        print(f"  [③ 외국인선물]", end=" ", flush=True)
+        if in_market:
+            indicators["foreign"] = {"signal": "🕐", "desc": "장 마감 후 제공 (~16:00)"}
+            print("장 마감 후 제공")
+        else:
+            ff = fetch_foreign_futures_krx()
+            if ff:
+                indicators["foreign"] = {"signal": ff["signal"], "desc": ff["desc"]}
+                print(ff["desc"])
+            else:
+                indicators["foreign"] = {"signal": "📱", "desc": "증권앱에서 직접 확인"}
+                print("조회 실패 → 증권앱 확인")
+
 
     judgment = judge_expiry(d_day, indicators, active, in_market)
     print(f"\n  📊 종합 판단: {judgment['level']} → {judgment['action']}")
