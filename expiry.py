@@ -5,7 +5,7 @@ KIS 파생 계좌 불필요 / 무료 공개 데이터 활용
 ① 베이시스    : market_indicators.json 활용
 ② 풋/콜 비율  : 네이버 금융 or KRX (장 마감 후 제공)
 ③ 미결제약정  : KRX (장 마감 후 제공)
-④ 외국인선물  : KRX (장 마감 후 제공)
+④ 외국인선물  : 증권앱 직접 확인
 """
 import json, datetime, re, os
 import urllib.request
@@ -82,7 +82,7 @@ def fetch_basis(session):
         }
         res = session.post(url, headers=headers, data=data, timeout=12)
         print(f"    [베이시스] status={res.status_code}", end=" ")
-        if res.status_code != 200: print("실패"); return None
+        if res.status_code != 200: print(f"실패 ({res.text[:200]})"); return None
         output = res.json().get("output", [])
         print(f"→ {len(output)}건")
         if not output: return None
@@ -207,7 +207,7 @@ def fetch_pcr_krx(session):
         res = session.post(url, headers=headers, data=data, timeout=12)
         print(f"    [PCR KRX] status={res.status_code}", end=" ")
         if res.status_code != 200:
-            print("실패"); return None
+            print(f"실패 응답: {res.text[:200]}"); return None
 
         output = res.json().get("output", [])
         print(f"→ {len(output)}건")
@@ -280,7 +280,7 @@ def fetch_foreign_futures_krx(session):
         res = session.post(url, headers=headers, data=data, timeout=12)
         print(f"    [외국인선물 KRX] status={res.status_code}", end=" ")
         if res.status_code != 200:
-            print("실패"); return None
+            print(f"실패 응답: {res.text[:200]}"); return None
 
         output = res.json().get("output", [])
         print(f"→ {len(output)}건")
@@ -345,7 +345,7 @@ def fetch_oi_krx(session):
         res = session.post(url, headers=headers, data=data, timeout=12)
         print(f"    [미결제 KRX] status={res.status_code}", end=" ")
         if res.status_code != 200:
-            print("실패"); return None
+            print(f"실패 응답: {res.text[:200]}"); return None
 
         output = res.json().get("output", [])
         print(f"→ {len(output)}건")
