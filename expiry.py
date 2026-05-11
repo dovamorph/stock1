@@ -112,32 +112,34 @@ def fetch_pcr_naver():
 # ── ② 풋/콜 비율 (KRX, 장 마감 후) ──────────────────────────────
 def fetch_pcr_krx():
     try:
+        import requests as req_lib
         today = datetime.date.today()
         date_str = today.strftime("%Y%m%d")
-        url = "https://data.krx.co.kr/comm/bldAttendant/getJsonData.cmd"
-
-        # 여러 파라미터 조합 시도
-        param_list = [
-            f"bld=dbms/MDC/STAT/standard/MDCSTAT12401&locale=ko_KR&trdDd={date_str}&share=1&money=1&csvxls_isNo=false",
-            f"bld=dbms/MDC/STAT/standard/MDCSTAT12401&locale=ko_KR&trdDd={date_str}&prodId=201VX06&csvxls_isNo=false",
-            f"bld=dbms/MDC/STAT/standard/MDCSTAT12401&locale=ko_KR&trdDd={date_str}&mktId=KRX&prodId=201V06&csvxls_isNo=false",
+        url = "http://data.krx.co.kr/comm/bldAttendant/getJsonData.cmd"
+        headers = {
+            "Accept": "application/json, text/javascript, */*; q=0.01",
+            "Accept-Language": "ko-KR,ko;q=0.9",
+            "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+            "Origin": "http://data.krx.co.kr",
+            "Referer": "http://data.krx.co.kr/contents/MDC/MDI/mdiLoader/index.cmd?menuId=MDC0201050403",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+            "X-Requested-With": "XMLHttpRequest",
+        }
+        bld_list = [
+            {"bld": "dbms/MDC/STAT/standard/MDCSTAT12401", "locale": "ko_KR", "trdDd": date_str, "share": "1", "money": "1", "csvxls_isNo": "false"},
+            {"bld": "dbms/MDC/STAT/standard/MDCSTAT12402", "locale": "ko_KR", "trdDd": date_str, "share": "1", "money": "1", "csvxls_isNo": "false"},
+            {"bld": "dbms/MDC/STAT/standard/MDCSTAT12403", "locale": "ko_KR", "trdDd": date_str, "prodId": "201VX06", "share": "1", "money": "1", "csvxls_isNo": "false"},
         ]
-        for params in param_list:
+        for data in bld_list:
             try:
-                req = urllib.request.Request(
-                    url, data=params.encode("utf-8"),
-                    headers={"Content-Type": "application/x-www-form-urlencoded",
-                             "User-Agent": "Mozilla/5.0",
-                             "Referer": "https://data.krx.co.kr/"},
-                    method="POST"
-                )
-                with urllib.request.urlopen(req, timeout=12) as resp:
-                    data = json.loads(resp.read().decode("utf-8"))
-                output = data.get("output", [])
+                res = req_lib.post(url, headers=headers, data=data, timeout=12)
+                if res.status_code != 200:
+                    continue
+                output = res.json().get("output", [])
                 if not output:
                     continue
                 for item in output:
-                    for key in ["PCR", "PUT_CALL_RATIO", "pcr"]:
+                    for key in ["PCR", "PUT_CALL_RATIO", "pcr", "pcratio"]:
                         if key in item:
                             pcr = float(str(item[key]).replace(",", "") or 0)
                             if 0.1 < pcr < 10:
@@ -145,7 +147,8 @@ def fetch_pcr_krx():
                                 elif pcr > 1.0: sig, desc = "🟡", f"P/C {pcr:.2f} (중립)"
                                 else:           sig, desc = "🟢", f"P/C {pcr:.2f} (콜우세·강세)"
                                 return {"signal": sig, "desc": desc}
-            except:
+            except Exception as e2:
+                print(f"    bld 시도 실패: {e2}")
                 continue
         return None
     except Exception as e:
@@ -155,44 +158,49 @@ def fetch_pcr_krx():
 # ── ③ 미결제약정 (KRX, 장 마감 후) ──────────────────────────────
 def fetch_oi_krx():
     try:
+        import requests as req_lib
         today = datetime.date.today()
         date_str = today.strftime("%Y%m%d")
-        url = "https://data.krx.co.kr/comm/bldAttendant/getJsonData.cmd"
-
-        param_list = [
-            f"bld=dbms/MDC/STAT/standard/MDCSTAT12301&locale=ko_KR&trdDd={date_str}&share=1&money=1&csvxls_isNo=false",
-            f"bld=dbms/MDC/STAT/standard/MDCSTAT12301&locale=ko_KR&trdDd={date_str}&prodId=201VX06&csvxls_isNo=false",
+        url = "http://data.krx.co.kr/comm/bldAttendant/getJsonData.cmd"
+        headers = {
+            "Accept": "application/json, text/javascript, */*; q=0.01",
+            "Accept-Language": "ko-KR,ko;q=0.9",
+            "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+            "Origin": "http://data.krx.co.kr",
+            "Referer": "http://data.krx.co.kr/contents/MDC/MDI/mdiLoader/index.cmd?menuId=MDC0201050402",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+            "X-Requested-With": "XMLHttpRequest",
+        }
+        bld_list = [
+            {"bld": "dbms/MDC/STAT/standard/MDCSTAT12301", "locale": "ko_KR", "trdDd": date_str, "share": "1", "money": "1", "csvxls_isNo": "false"},
+            {"bld": "dbms/MDC/STAT/standard/MDCSTAT12302", "locale": "ko_KR", "trdDd": date_str, "share": "1", "money": "1", "csvxls_isNo": "false"},
         ]
-        for params in param_list:
+        for data in bld_list:
             try:
-                req = urllib.request.Request(
-                    url, data=params.encode("utf-8"),
-                    headers={"Content-Type": "application/x-www-form-urlencoded",
-                             "User-Agent": "Mozilla/5.0",
-                             "Referer": "https://data.krx.co.kr/"},
-                    method="POST"
-                )
-                with urllib.request.urlopen(req, timeout=12) as resp:
-                    data = json.loads(resp.read().decode("utf-8"))
-                output = data.get("output", [])
+                res = req_lib.post(url, headers=headers, data=data, timeout=12)
+                if res.status_code != 200:
+                    continue
+                output = res.json().get("output", [])
                 if not output:
                     continue
                 for item in output:
-                    name = str(item.get("ITEM_NAME", "") or item.get("ISU_NM", ""))
-                    if "200" not in name and "KOSPI" not in name.upper():
+                    name = str(item.get("ITEM_NAME","") or item.get("ISU_NM","") or "")
+                    if "200" not in name and "코스피" not in name.upper() and "KOSPI" not in name.upper():
                         continue
-                    for key in ["OI", "OPNINT_QTY", "REMA_QTY", "OPNINT"]:
+                    for key in ["OI","OPNINT_QTY","REMA_QTY","OPNINT"]:
                         if key in item:
-                            oi = int(str(item[key]).replace(",", "") or 0)
-                            prev_oi = int(str(item.get("PREV_"+key, 0)).replace(",", "") or 0)
+                            oi = int(str(item[key]).replace(",","") or 0)
+                            prev_key = "PREV_"+key
+                            prev = int(str(item.get(prev_key,0)).replace(",","") or 0)
                             if oi > 0:
-                                chg = oi - prev_oi
-                                if chg < -5000:    sig, desc = "🔴", f"{oi:,}계약 (↓{abs(chg):,} 청산압력)"
-                                elif chg < 0:      sig, desc = "🟡", f"{oi:,}계약 (↓{abs(chg):,} 소폭감소)"
-                                elif chg > 5000:   sig, desc = "🟢", f"{oi:,}계약 (↑{chg:,} 포지션확대)"
-                                else:              sig, desc = "🟡", f"{oi:,}계약 (보합)"
+                                chg = oi - prev
+                                if chg < -5000:   sig, desc = "🔴", f"{oi:,}계약 (↓{abs(chg):,} 청산압력)"
+                                elif chg < 0:     sig, desc = "🟡", f"{oi:,}계약 (↓{abs(chg):,} 소폭감소)"
+                                elif chg > 5000:  sig, desc = "🟢", f"{oi:,}계약 (↑{chg:,} 포지션확대)"
+                                else:             sig, desc = "🟡", f"{oi:,}계약 (보합)"
                                 return {"signal": sig, "desc": desc}
-            except:
+            except Exception as e2:
+                print(f"    bld 시도 실패: {e2}")
                 continue
         return None
     except Exception as e:
