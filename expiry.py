@@ -145,8 +145,11 @@ def get_prev_trading_date():
 def fetch_pcr_krx():
     try:
         import requests as req_lib
-        today_str = datetime.date.today().strftime("%Y%m%d")
-        prev_str  = get_prev_trading_date()
+        today     = datetime.date.today()
+        end_str   = today.strftime("%Y%m%d")
+        # 조회 시작일: 5영업일 전 (주말 포함 7일 여유)
+        start_str = (today - datetime.timedelta(days=7)).strftime("%Y%m%d")
+
         url = "http://data.krx.co.kr/comm/bldAttendant/getJsonData.cmd"
         headers = {
             "Accept": "application/json, text/javascript, */*; q=0.01",
@@ -156,40 +159,52 @@ def fetch_pcr_krx():
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
             "X-Requested-With": "XMLHttpRequest",
         }
-        bld_list = [
-            "dbms/MDC/STAT/standard/MDCSTAT13601",
-            "dbms/MDC/STAT/standard/MDCSTAT13602",
-            "dbms/MDC/STAT/standard/MDCSTAT13501",
-            "dbms/MDC/STAT/standard/MDCSTAT12501",
-        ]
-        for date_str in [today_str, prev_str]:
-            for bld in bld_list:
-                try:
-                    data = {"bld": bld, "locale": "ko_KR",
-                            "trdDd": date_str, "share": "1", "money": "1", "csvxls_isNo": "false"}
-                    res = req_lib.post(url, headers=headers, data=data, timeout=10)
-                    print(f"    [{bld.split('/')[-1]} {date_str}] {res.status_code}", end=" ")
-                    if res.status_code != 200:
-                        print("skip")
-                        continue
-                    output = res.json().get("output", [])
-                    print(f"-> {len(output)}건")
-                    if not output:
-                        continue
-                    print(f"    keys: {list(output[0].keys())[:8]}")
-                    for item in output:
-                        for key in ["PCR","PUT_CALL_RATIO","pcr","PC_RATIO","PCRAT"]:
-                            if key in item:
-                                pcr = float(str(item[key]).replace(",","") or 0)
-                                if 0.1 < pcr < 10:
-                                    label = f" ({date_str[4:6]}/{date_str[6:]}기준)" if date_str == prev_str else ""
-                                    if pcr > 1.5:   sig, desc = "🔴", f"P/C {pcr:.2f} 풋우세·약세{label}"
-                                    elif pcr > 1.0: sig, desc = "🟡", f"P/C {pcr:.2f} 중립{label}"
-                                    else:           sig, desc = "🟢", f"P/C {pcr:.2f} 콜우세·강세{label}"
-                                    return {"signal": sig, "desc": desc}
-                except Exception as e2:
-                    print(f"    오류: {e2}")
-                    continue
+        data = {
+            "bld":        "dbms/MDC/STAT/standard/MDCSTAT13601",
+            "locale":     "ko_KR",
+            "prodId":     "KR__OPK2I",
+            "strtDd":     start_str,
+            "endDd":      end_str,
+            "aggBasTpCd": "",
+            "share":      "1",
+            "csvxls_isNo": "false"
+        }
+        res = req_lib.post(url, headers=headers, data=data, timeout=12)
+        print(f"    [PCR KRX] status={res.status_code}", end=" ")
+        if res.status_code != 200:
+            print("실패"); return None
+
+        output = res.json().get("output", [])
+        print(f"→ {len(output)}건")
+        if not output:
+            return None
+
+        # 가장 최근 데이터 사용
+        latest = output[0]
+        print(f"    keys: {list(latest.keys())}")
+
+        # PUT/CALL 거래량으로 P/C 비율 계산
+        put_vol  = float(str(latest.get("PUT",  latest.get("put_trdvol",  0))).replace(",", "") or 0)
+        call_vol = float(str(latest.get("CALL", latest.get("call_trdvol", 0))).replace(",", "") or 0)
+
+        # 직접 PCR 필드가 있으면 사용
+        for key in ["PCR", "pcr", "PC_RATIO", "PUT_CALL_RATIO"]:
+            if key in latest:
+                pcr = float(str(latest[key]).replace(",","") or 0)
+                if 0.1 < pcr < 10:
+                    if pcr > 1.5:   sig, desc = "🔴", f"P/C {pcr:.2f} (풋우세·약세)"
+                    elif pcr > 1.0: sig, desc = "🟡", f"P/C {pcr:.2f} (중립)"
+                    else:           sig, desc = "🟢", f"P/C {pcr:.2f} (콜우세·강세)"
+                    return {"signal": sig, "desc": desc}
+
+        # PUT/CALL 거래량으로 직접 계산
+        if call_vol > 0 and put_vol > 0:
+            pcr = round(put_vol / call_vol, 2)
+            if pcr > 1.5:   sig, desc = "🔴", f"P/C {pcr:.2f} (풋우세·약세)"
+            elif pcr > 1.0: sig, desc = "🟡", f"P/C {pcr:.2f} (중립)"
+            else:           sig, desc = "🟢", f"P/C {pcr:.2f} (콜우세·강세)"
+            return {"signal": sig, "desc": desc}
+
         return None
     except Exception as e:
         print(f"  P/C KRX 실패: {e}")
