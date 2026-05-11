@@ -125,30 +125,14 @@ def main():
     result = {"updated": now.strftime("%Y-%m-%d %H:%M"), "indicators": {}}
     inds = result["indicators"]
 
-    # ── 1. 환율 (USD/KRW) ─────────────────────────────────────────
-    print("  [환율] USD/KRW ...", end=" ", flush=True)
-    d = fetch_yf("KRW=X", "환율")
-    if d:
-        inds["usdkrw"] = {
-            "label": "USD/KRW",
-            "value": round(d["value"], 0),
-            "unit": "원",
-            "change": round(d["change"], 1),
-            "change_pct": d["change_pct"],
-            "signal": "🔴" if d["change_pct"] > 0.5 else ("🟢" if d["change_pct"] < -0.5 else "🟡"),
-            "desc": "원화 약세 (달러 강세)" if d["change_pct"] > 0.5 else ("원화 강세" if d["change_pct"] < -0.5 else "안정")
-        }
-        print(f"{d['value']:,.0f}원 ({d['change_pct']:+.2f}%)")
-    else:
-        print("실패")
-    time.sleep(0.3)
+    # ── ↑ 올라가면 주식에 좋음 ────────────────────────────────────
 
-    # ── 2. 비트코인 (BTC/USD) ─────────────────────────────────────
+    # 1. 비트코인 — 위험선호 심리, 올라가면 긍정
     print("  [비트코인] BTC/USD ...", end=" ", flush=True)
     d = fetch_yf("BTC-USD", "비트코인")
     if d:
         inds["bitcoin"] = {
-            "label": "BTC/USD",
+            "label": "비트코인",
             "value": round(d["value"], 0),
             "unit": "$",
             "change": round(d["change"], 0),
@@ -161,7 +145,27 @@ def main():
         print("실패")
     time.sleep(0.3)
 
-    # ── 3. 유가 WTI ───────────────────────────────────────────────
+    # ── ↓ 내려가면 주식에 좋음 ────────────────────────────────────
+
+    # 2. 환율 — 내려가면 원화강세, 외국인 유입
+    print("  [환율] USD/KRW ...", end=" ", flush=True)
+    d = fetch_yf("KRW=X", "환율")
+    if d:
+        inds["usdkrw"] = {
+            "label": "USD/KRW",
+            "value": round(d["value"], 0),
+            "unit": "원",
+            "change": round(d["change"], 1),
+            "change_pct": d["change_pct"],
+            "signal": "🔴" if d["change_pct"] > 0.5 else ("🟢" if d["change_pct"] < -0.5 else "🟡"),
+            "desc": "원화 약세" if d["change_pct"] > 0.5 else ("원화 강세" if d["change_pct"] < -0.5 else "안정")
+        }
+        print(f"{d['value']:,.0f}원 ({d['change_pct']:+.2f}%)")
+    else:
+        print("실패")
+    time.sleep(0.3)
+
+    # 3. WTI 유가 — 내려가면 인플레 완화
     print("  [유가] WTI ...", end=" ", flush=True)
     d = fetch_yf("CL=F", "WTI")
     if d:
@@ -179,7 +183,7 @@ def main():
         print("실패")
     time.sleep(0.3)
 
-    # ── 4. 미국 10년물 금리 ───────────────────────────────────────
+    # 4. 미국 10년물 금리 — 내려가면 긴축 완화
     print("  [금리] US 10Y ...", end=" ", flush=True)
     d = fetch_yf("^TNX", "US10Y")
     if d:
@@ -199,7 +203,7 @@ def main():
         print("실패")
     time.sleep(0.3)
 
-    # ── 5. 금 (Gold) ──────────────────────────────────────────────
+    # 5. 금 — 내려가면 안전자산 수요↓, 위험선호
     print("  [금] Gold ...", end=" ", flush=True)
     d = fetch_yf("GC=F", "금")
     if d:
@@ -209,31 +213,12 @@ def main():
             "unit": "$/oz",
             "change": round(d["change"], 1),
             "change_pct": d["change_pct"],
-            # 금 급등 = 지정학 리스크 또는 달러 약세 신호
             "signal": "🔴" if d["change_pct"] > 1.5 else ("🟢" if d["change_pct"] < -1.5 else "🟡"),
             "desc": f"${d['value']:,.0f}/oz"
         }
         print(f"${d['value']:,.1f} ({d['change_pct']:+.2f}%)")
     else:
         print("실패")
-    time.sleep(0.3)
-
-    # ── 6. KOSPI200 선물 (yfinance) ───────────────────────────────
-    print("  [KOSPI200선물] ...", end=" ", flush=True)
-    d = fetch_yf("^KS200", "KOSPI200")
-    if d:
-        inds["kospi_futures"] = {
-            "label": "KOSPI200",
-            "value": round(d["value"], 2),
-            "unit": "pt",
-            "change": round(d["change"], 2),
-            "change_pct": d["change_pct"],
-            "signal": "🟢" if d["change_pct"] > 0.5 else ("🔴" if d["change_pct"] < -0.5 else "🟡"),
-            "desc": f"{d['value']:.2f}pt"
-        }
-        print(f"{d['value']:.2f}pt ({d['change_pct']:+.2f}%)")
-    else:
-        print("실패 (장외/주말)")
     time.sleep(0.3)
 
     with open(OUT_FILE, "w", encoding="utf-8") as f:
