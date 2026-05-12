@@ -43,50 +43,36 @@ def get_expiry_dates(n=2):
 
 # ── ① 베이시스 (market_indicators.json 활용) ──────────────────────
 def get_krx_session():
-    """KRX 자동 로그인 후 세션 반환"""
+    """KRX 세션 초기화 + 연장"""
     import requests as req_lib
-    krx_id = os.environ.get("KRX_ID", "")
-    krx_pw = os.environ.get("KRX_PW", "")
-
     session = req_lib.Session()
     session.headers.update({
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
         "Accept-Language": "ko-KR,ko;q=0.9",
     })
 
-    if not krx_id or not krx_pw:
-        print("  ⚠️ KRX_ID/KRX_PW 환경변수 없음 — 비로그인 세션")
+    jsessionid = os.environ.get("KRX_SESSION", "")
+    if not jsessionid:
+        print("  ⚠️ KRX_SESSION 환경변수 없음")
         return session
 
+    session.cookies.set("JSESSIONID", jsessionid, domain="data.krx.co.kr")
+    session.cookies.set("mdc.client_session", "true", domain="data.krx.co.kr")
+    session.cookies.set("lang", "ko_KR", domain="data.krx.co.kr")
+
     try:
-        # 메인 페이지 방문 (기본 쿠키 수집)
-        session.get("https://data.krx.co.kr/contents/MDC/MAIN/main/index.cmd", timeout=10)
-
-        # 로그인 요청
-        login_url = "https://data.krx.co.kr/contents/MDC/MAIN/main/MdcMainLoad.cmd"
-        login_data = {
-            "menuId": "LOGIN",
-            "userId": krx_id,
-            "userPw": krx_pw,
-        }
-        res = session.post(login_url, data=login_data, timeout=10,
-                          headers={"Referer": "https://data.krx.co.kr/contents/MDC/MAIN/main/index.cmd"})
-
-        # 로그인 성공 여부 확인
-        if "JSESSIONID" in session.cookies.get_dict():
-            print(f"  ✅ KRX 자동 로그인 성공")
+        # 세션 연장 호출 (브라우저가 자동으로 하는 것과 동일)
+        res = session.post(
+            "https://data.krx.co.kr/contents/MDC/MAIN/main/extendSession.cmd",
+            headers={"Referer": "https://data.krx.co.kr/contents/MDC/MAIN/main/index.cmd"},
+            timeout=10
+        )
+        if res.status_code == 200:
+            print(f"  ✅ KRX 세션 연장 성공")
         else:
-            # 대안 로그인 URL 시도
-            login_url2 = "https://data.krx.co.kr/comm/sessionMng/SessionMng.cmd"
-            login_data2 = {"userId": krx_id, "userPw": krx_pw, "type": "login"}
-            session.post(login_url2, data=login_data2, timeout=10)
-            print(f"  🔄 KRX 로그인 시도2 완료")
-
-        # 파생상품 페이지 방문 (세션 활성화)
-        session.get("https://data.krx.co.kr/contents/MDC/MDI/mdiLoader/index.cmd?menuId=MDC0201050403", timeout=10)
-
+            print(f"  ⚠️ KRX 세션 연장 실패: {res.status_code}")
     except Exception as e:
-        print(f"  ⚠️ KRX 로그인 실패: {e}")
+        print(f"  ⚠️ KRX 세션 연장 오류: {e}")
 
     return session
 
