@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-13 06:22",
+  "updated": "2026-05-13 08:05",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -21,13 +21,13 @@
   ],
   "categories": {
     "geopolitical": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "⚠️",
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
       "summary": "Trump says Iran ceasefire is on 'massive life...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 13,
-      "score": 21.5
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 17,
+      "score": 1.5
     },
     "macro": {
       "level": "주의",
@@ -35,8 +35,8 @@
       "signal": "⚠️",
       "summary": "US inflation jumps to 3.8% as energy costs su...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 5,
-      "score": 8.7
+      "matched": 4,
+      "score": 7.2
     },
     "disaster": {
       "level": "안전",
@@ -53,23 +53,23 @@
       "signal": "🔴",
       "summary": "Trump says Iran ceasefire is on 'massive life...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 13,
+      "matched": 14,
       "score": 2.9
     },
     "policy": {
-      "level": "안전",
-      "color": "green",
-      "signal": "✅",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "신호",
+      "color": "yellow",
+      "signal": "⚠️",
+      "summary": "지역사회 변화 이끌 인문의 힘…'인문실천 프로젝트' 단체 공모",
+      "action": "관련 지표 추가 확인 후 판단",
+      "matched": 1,
+      "score": 1.5
     }
   },
   "overall": {
     "level": "주의",
     "color": "yellow",
-    "summary": "주의 필요: 보호무역·공급망",
+    "summary": "주의 필요: 지정학적 충돌, 보호무역·공급망",
     "action": "신규 매수 자제 / 추이 관찰"
   }
 }
