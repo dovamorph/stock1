@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-13 03:03",
+  "updated": "2026-05-13 06:22",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -15,7 +15,7 @@
   "news_sample": [
     "No sign of larger hantavirus outbreak, says UN health agency",
     "Trump says Iran ceasefire is on 'massive life support'",
-    "Lebanon says two paramedics among 10 killed in Israeli strikes",
+    "Lebanon says two paramedics among 13 killed in Israeli strikes",
     "Zelensky's ex-chief of staff in court as Ukraine corruption probe escalates",
     "US inflation jumps to 3.8% as energy costs surge from Iran war"
   ],
@@ -26,8 +26,8 @@
       "signal": "⚠️",
       "summary": "Trump says Iran ceasefire is on 'massive life...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 15,
-      "score": 23.2
+      "matched": 13,
+      "score": 21.5
     },
     "macro": {
       "level": "주의",
@@ -35,8 +35,8 @@
       "signal": "⚠️",
       "summary": "US inflation jumps to 3.8% as energy costs su...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 6,
-      "score": 8.9
+      "matched": 5,
+      "score": 8.7
     },
     "disaster": {
       "level": "안전",
