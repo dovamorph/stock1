@@ -429,14 +429,21 @@ def main():
     with open(RESULTS_FILE, "r", encoding="utf-8") as f:
         results = json.load(f)
 
+    # 매수는 장중(09:00~15:30)에만 허용
+    now_time = now.time()
+    import datetime as dt
+    is_market_open = dt.time(9, 0) <= now_time <= dt.time(15, 30)
+
     market     = results.get("market_signal", {})
     signal_raw = market.get("final_signal", results.get("signal", ""))
     rsi_14     = float(market.get("rsi_14", 50))
     kospi_ch5  = float(market.get("kospi_ch5", 0))
     can_buy    = any(s in signal_raw for s in BUY_SIGNALS)
 
-    # 당일 KOSPI 5일 등락이 아닌, 오늘 흐름이 하락 중이면 신규 매수 중단
-    # kospi_ch5가 음수면 최근 5일 하락 중
+    if can_buy and not is_market_open:
+        can_buy = False
+        print(f"  ⚠️ 장 마감 후 ({now_time.strftime('%H:%M')}) — 신규 매수 중단")
+
     if can_buy and kospi_ch5 < 0:
         can_buy = False
         print(f"  ⚠️ KOSPI 5일 하락 중 ({kospi_ch5:+.1f}%) — 신규 매수 중단")
