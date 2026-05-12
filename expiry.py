@@ -51,9 +51,9 @@ def get_krx_session():
         "Accept-Language": "ko-KR,ko;q=0.9",
     })
 
-    jsessionid = os.environ.get("KRX_SESSION", "")
+    jsessionid = os.environ.get("KRX_SESSION", "3x2HaR11dT7N1vqSk59HBzgX1wCC0zYnEOpxgnQUUIFIBai7T2KF9Wy3YuImuu7l.bWRjX2RvbWFpbi9tZGNvd2FwMi1tZGNhcHAxMQ==")
     if not jsessionid:
-        print("  ⚠️ KRX_SESSION 환경변수 없음")
+        print("  ⚠️ KRX_SESSION 없음")
         return session
 
     session.cookies.set("JSESSIONID", jsessionid, domain="data.krx.co.kr")
