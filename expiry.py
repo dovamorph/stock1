@@ -87,8 +87,9 @@ def fetch_basis(session):
         res = session.post(url, headers=headers, data=data, timeout=12)
         print(f"    [베이시스] status={res.status_code}", end=" ")
         if res.status_code != 200: print(f"실패 ({res.text[:200]})"); return None
-        output = res.json().get("output", [])
-        print(f"→ {len(output)}건")
+        j = res.json()
+        output = j.get("output", j.get("output1", j.get("OutBlock", [])))
+        print(f"→ {len(output)}건 | 응답키: {list(j.keys())}")
         if not output: return None
         latest = output[0]
         for key in ["BASIS","basis","BAS"]:
