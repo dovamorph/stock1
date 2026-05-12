@@ -14,8 +14,29 @@
   },
   "short": {
     "budget": 1500000,
-    "used": 0,
-    "positions": {}
+    "used": 682300,
+    "positions": {
+      "000270": {
+        "name": "기아",
+        "grade": "B",
+        "buy_price": 168900,
+        "qty": 2,
+        "remaining_qty": 2,
+        "sold_stage": 0,
+        "amount": 337800,
+        "buy_date": "20260512"
+      },
+      "108490": {
+        "name": "로보티즈",
+        "grade": "C",
+        "buy_price": 344500,
+        "qty": 1,
+        "remaining_qty": 1,
+        "sold_stage": 0,
+        "amount": 344500,
+        "buy_date": "20260512"
+      }
+    }
   },
   "trade_history": []
 }
