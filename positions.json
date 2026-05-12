@@ -14,7 +14,7 @@
   },
   "short": {
     "budget": 1500000,
-    "used": 682300,
+    "used": 1493000,
     "positions": {
       "000270": {
         "name": "기아",
@@ -34,6 +34,16 @@
         "remaining_qty": 1,
         "sold_stage": 0,
         "amount": 344500,
+        "buy_date": "20260512"
+      },
+      "006800": {
+        "name": "미래에셋증권",
+        "grade": "C",
+        "buy_price": 73700,
+        "qty": 11,
+        "remaining_qty": 11,
+        "sold_stage": 0,
+        "amount": 810700,
         "buy_date": "20260512"
       }
     }
