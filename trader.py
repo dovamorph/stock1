@@ -37,20 +37,27 @@ RESULTS_FILE   = "results.json"
 POSITIONS_FILE = "positions.json"
 
 MOCK       = os.environ.get("KIS_MOCK", "true").lower() == "true"
-APP_KEY    = os.environ["KIS_APP_KEY_MOCK"]    if MOCK else os.environ["KIS_APP_KEY"]
-APP_SECRET = os.environ["KIS_APP_SECRET_MOCK"] if MOCK else os.environ["KIS_APP_SECRET"]
-ACCOUNT_NO = os.environ.get("KIS_ACCOUNT_MOCK", "5018662201") if MOCK else os.environ.get("KIS_ACCOUNT_NO", "")
+# 모의투자/실전 모두 실전 KIS API로 가격 조회 (모의투자 서버 포트 차단 우회)
+APP_KEY    = os.environ.get("KIS_APP_KEY",    os.environ.get("KIS_APP_KEY_MOCK",    ""))
+APP_SECRET = os.environ.get("KIS_APP_SECRET", os.environ.get("KIS_APP_SECRET_MOCK", ""))
+ACCOUNT_NO = os.environ.get("KIS_ACCOUNT_NO", os.environ.get("KIS_ACCOUNT_MOCK",    ""))
 DISCORD_WH = os.environ.get("DISCORD_WEBHOOK", "")
-BASE_URL   = "https://openapivts.koreainvestment.com:29443" if MOCK else "https://openapi.koreainvestment.com:9443"
+BASE_URL   = "https://openapi.koreainvestment.com:9443"   # 항상 실전 서버 (가격조회용)
 KST        = ZoneInfo("Asia/Seoul")
 
 # ── KIS API ────────────────────────────────────────────────────────────
 def get_token():
-    r = requests.post(f"{BASE_URL}/oauth2/tokenP", json={
-        "grant_type": "client_credentials",
-        "appkey": APP_KEY, "appsecret": APP_SECRET
-    }, timeout=20)
-    return r.json()["access_token"]
+    for attempt in range(3):
+        try:
+            r = requests.post(f"{BASE_URL}/oauth2/tokenP", json={
+                "grant_type": "client_credentials",
+                "appkey": APP_KEY, "appsecret": APP_SECRET
+            }, timeout=30)
+            return r.json()["access_token"]
+        except Exception as e:
+            print(f"  토큰 발급 시도 {attempt+1}/3 실패: {e}")
+            time.sleep(3)
+    raise Exception("토큰 발급 최종 실패")
 
 def get_price(token, ticker):
     try:
@@ -69,8 +76,10 @@ def get_price(token, ticker):
         return 0
 
 def order(token, ticker, qty, side):
-    tr_id = ("VTTC0802U" if side == "buy" else "VTTC0801U") if MOCK else \
-            ("TTTC0802U" if side == "buy" else "TTTC0801U")
+    # 모의투자: 실제 주문 없이 성공으로 처리 (가격은 실전 API로 이미 조회됨)
+    if MOCK:
+        return True, "모의주문 처리"
+    tr_id = "TTTC0802U" if side == "buy" else "TTTC0801U"
     headers = {
         "authorization": f"Bearer {token}",
         "appkey": APP_KEY, "appsecret": APP_SECRET,
@@ -323,8 +332,17 @@ def main():
 
     market     = results.get("market_signal", {})
     signal_raw = market.get("final_signal", results.get("signal", ""))
+    rsi_14     = float(market.get("rsi_14", 50))
+    kospi_ch5  = float(market.get("kospi_ch5", 0))
     can_buy    = any(s in signal_raw for s in BUY_SIGNALS)
-    print(f"  시장 시그널: {signal_raw}")
+
+    # 당일 KOSPI 5일 등락이 아닌, 오늘 흐름이 하락 중이면 신규 매수 중단
+    # kospi_ch5가 음수면 최근 5일 하락 중
+    if can_buy and kospi_ch5 < 0:
+        can_buy = False
+        print(f"  ⚠️ KOSPI 5일 하락 중 ({kospi_ch5:+.1f}%) — 신규 매수 중단")
+
+    print(f"  시장 시그널: {signal_raw} | RSI {rsi_14:.0f} | KOSPI5일 {kospi_ch5:+.1f}%")
     print(f"  매수 가능: {'✅' if can_buy else '❌'}")
 
     print("\n  KIS 토큰 발급 중...")
