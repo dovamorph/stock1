@@ -1,9 +1,9 @@
 {
   "expiry_date": "2026-05-14",
-  "d_day": 3,
+  "d_day": 2,
   "active": true,
   "in_market": false,
-  "updated": "2026-05-11 22:50",
+  "updated": "2026-05-12 23:08",
   "indicators": {
     "basis": {
       "signal": "—",
@@ -18,13 +18,13 @@
       "desc": "조회 실패"
     },
     "foreign": {
-      "signal": "🟡",
-      "desc": "외국인 +0계약 (매도)"
+      "signal": "📱",
+      "desc": "증권앱에서 직접 확인"
     }
   },
   "judgment": {
     "level": "알 수 없음",
     "color": "gray",
-    "action": "데이터 부족 (⚠️ D-3 경계강화)"
+    "action": "데이터 부족 (🚨 D-2 변동성주의)"
   }
 }
