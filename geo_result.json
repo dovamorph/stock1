@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-12 07:58",
+  "updated": "2026-05-12 12:37",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,11 +13,11 @@
     "StockPlus": 14
   },
   "news_sample": [
+    "Trump says Iran ceasefire is on 'massive life support'",
+    "How the Trump-Xi summit could set superpower relations for many years to come",
     "Last passengers leave virus-hit cruise ship as three more test positive",
-    "US passengers quarantining in Nebraska as officials say public hantavirus risk 'very low'",
-    "South African president says he will not step down after impeachment call",
-    "Watch: Alaska town sees its last sunset until August",
-    "Trump says Iran ceasefire is on 'massive life support'"
+    "US in closely-guarded talks to open new bases in Greenland",
+    "EU agrees sanctions on Israeli settlers over West Bank violence"
   ],
   "categories": {
     "geopolitical": {
@@ -26,8 +26,8 @@
       "signal": "⚠️",
       "summary": "Trump says Iran ceasefire is on 'massive life...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 15,
-      "score": 26.1
+      "matched": 10,
+      "score": 20.2
     },
     "macro": {
       "level": "주의",
@@ -35,17 +35,17 @@
       "signal": "⚠️",
       "summary": "Philippine VP Sara Duterte impeached for a se...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 4,
-      "score": 5.9
+      "matched": 3,
+      "score": 4.4
     },
     "disaster": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "⚠️",
-      "summary": "서초구 폭염대책 가동…'서리풀양산 대여 서비스' 확대",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "level": "안전",
+      "color": "green",
+      "signal": "✅",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     },
     "trade": {
       "level": "위험",
@@ -53,17 +53,17 @@
       "signal": "🔴",
       "summary": "Trump says Iran ceasefire is on 'massive life...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 13,
-      "score": 4.2
+      "matched": 14,
+      "score": 5.7
     },
     "policy": {
-      "level": "신호",
-      "color": "yellow",
-      "signal": "⚠️",
-      "summary": "트럼프 \"이란과의 휴전 간신히 유지…해방 프로젝트 재개 검토\"(종합2보)",
-      "action": "관련 지표 추가 확인 후 판단",
-      "matched": 1,
-      "score": 1.5
+      "level": "안전",
+      "color": "green",
+      "signal": "✅",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
