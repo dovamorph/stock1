@@ -70,10 +70,29 @@ def get_price(token, ticker):
         r = requests.get(f"{BASE_URL}/uapi/domestic-stock/v1/quotations/inquire-price",
                          headers=headers, params=params, timeout=15)
         d = r.json().get("output", {})
-        return int(d.get("stck_prpr", 0))
+        cur   = int(d.get("stck_prpr", 0))   # 현재가
+        open_ = int(d.get("stck_oprc", 0))   # 시가
+        high  = int(d.get("stck_hgpr", 0))   # 고가
+        low   = int(d.get("stck_lwpr", 0))   # 저가
+        return cur, open_, high, low
     except Exception as e:
         print(f"    현재가 조회 실패 ({ticker}): {e}")
-        return 0
+        return 0, 0, 0, 0
+
+def is_good_candle(cur, open_, high, low):
+    """
+    매수 적합한 캔들인지 판단 (방법2)
+    ① 상승 캔들: 현재가 >= 시가
+    ② 반등 캔들: 하락 중이지만 저점 대비 20% 이상 반등
+    """
+    if cur <= 0 or open_ <= 0:
+        return True  # 데이터 없으면 통과
+    if cur >= open_:
+        return True  # 상승 캔들
+    rng = high - low
+    if rng > 0 and (cur - low) / rng >= 0.2:
+        return True  # 저점 대비 20% 이상 반등 중
+    return False
 
 def order(token, ticker, qty, side):
     # 모의투자: 실제 주문 없이 성공으로 처리 (가격은 실전 API로 이미 조회됨)
@@ -154,7 +173,7 @@ def process_sells(token, data, ptype, partial_sells, stop_loss, time_stop, now):
     print(f"\n  [{ptype} 보유종목 체크] {len(positions)}개")
 
     for ticker, p in list(positions.items()):
-        cur_price = get_price(token, ticker)
+        cur_price, _, _, _ = get_price(token, ticker)
         if cur_price == 0:
             print(f"    {p['name']} — 현재가 조회 실패, 스킵")
             continue
@@ -233,7 +252,42 @@ def process_sells(token, data, ptype, partial_sells, stop_loss, time_stop, now):
 
         if ticker in positions and not partial_done:
             stage_info = f" 분할{sold_stage}차완료" if sold_stage > 0 else ""
-            print(f"    {p['name']} ({ticker}) — {cur_price:,}원 ({pnl_str}){stage_info} 유지")
+
+            # ── 장투 2차 매수 체크 ────────────────────────────────
+            if ptype == "long" and not p.get("stage2_done", True):
+                s1_price  = p.get("stage1_price", buy_price)
+                s2_budget = p.get("stage2_budget", 0)
+                trigger   = s1_price * 0.95   # 1차 대비 -5%
+
+                if cur_price <= trigger and s2_budget >= cur_price:
+                    if is_good_candle(cur_price, *([0,0,0] if True else [])):
+                        # 현재가 재조회해서 캔들 확인
+                        cur2, open2, high2, low2 = get_price(token, ticker)
+                        if is_good_candle(cur2, open2, high2, low2) and cur2 > 0:
+                            qty2 = s2_budget // cur2
+                            if qty2 >= 1:
+                                ok2, _ = order(token, ticker, qty2, "buy")
+                                if ok2:
+                                    amt2 = cur2 * qty2
+                                    # 평균 매수가 재계산
+                                    total_qty  = p["qty"] + qty2
+                                    avg_price  = round((buy_price * p["qty"] + cur2 * qty2) / total_qty)
+                                    p["qty"]          = total_qty
+                                    p["remaining_qty"]= p.get("remaining_qty", p["qty"] - qty2) + qty2
+                                    p["buy_price"]    = avg_price
+                                    p["amount"]       = p.get("amount", 0) + amt2
+                                    p["stage2_done"]  = True
+                                    port["used"]     += amt2
+                                    log = (f"📥 **[장투] 2차매수** {p['name']} ({ticker})\n"
+                                           f"   {cur2:,}원 × {qty2}주 = {amt2:,}원\n"
+                                           f"   평균단가 {avg_price:,}원 (1차 {s1_price:,}원 대비 -{(1-cur2/s1_price)*100:.1f}%)")
+                                    print(f"    ✅ {log}"); discord(log)
+                                    time.sleep(1.0)
+                        else:
+                            print(f"    {p['name']} 2차매수 대기 — 아직 반등 미확인 ({cur_price:,}원 트리거{trigger:,}원)")
+                    
+            stage_info2 = " [2차완료]" if p.get("stage2_done") else (" [2차대기]" if not p.get("stage2_done", True) and ptype=="long" else "")
+            print(f"    {p['name']} ({ticker}) — {cur_price:,}원 ({pnl_str}){stage_info}{stage_info2} 유지")
 
 # ── 포트폴리오 매수 처리 ───────────────────────────────────────────────
 def process_buys(token, data, stocks, ptype, max_pos, budget, partial_sells,
@@ -273,19 +327,64 @@ def process_buys(token, data, stocks, ptype, max_pos, budget, partial_sells,
     for stock in candidates[:buy_count]:
         ticker    = stock["ticker"]
         name      = stock["name"]
-        cur_price = get_price(token, ticker)
+        cur_price, open_, high, low = get_price(token, ticker)
         if cur_price == 0:
             print(f"    {name} — 현재가 조회 실패, 스킵"); continue
 
         qty = per_stock // cur_price
         if qty < 1:
             print(f"    {name} ({ticker}) — {cur_price:,}원 수량 부족, 다음 후보로")
-            buy_count = min(buy_count + 1, len(candidates))  # 슬롯 보존
+            buy_count = min(buy_count + 1, len(candidates))
             continue
 
+        # ── 캔들 방향 체크 ────────────────────────────────────────
+        if not is_good_candle(cur_price, open_, high, low):
+            candle_info = f"현재{cur_price:,} 시가{open_:,} 저가{low:,} 고가{high:,}"
+            print(f"    {name} — 하락 캔들 진입 보류 ({candle_info})")
+            continue
+
+        # ── 장투: 1차 60% 매수 ───────────────────────────────────
+        if ptype == "long":
+            qty1 = max(1, int(qty * 0.6))
+            amt1 = cur_price * qty1
+            ok, msg = None, ""
+            for attempt in range(2):
+                try:
+                    ok, msg = order(token, ticker, qty1, "buy")
+                    break
+                except Exception as e:
+                    print(f"    {name} 연결 오류 (시도{attempt+1}): {e}")
+                    time.sleep(2)
+            if ok is None:
+                print(f"    {name} 연결 실패, 스킵"); time.sleep(1); continue
+            if ok:
+                positions[ticker] = {
+                    "name": name, "grade": stock.get("grade", "?"),
+                    "buy_price": cur_price, "qty": qty1, "remaining_qty": qty1,
+                    "sold_stage": 0, "amount": amt1,
+                    "buy_date": now.strftime("%Y%m%d"),
+                    # 분할매수 정보
+                    "buy_stage": 1,
+                    "stage1_price": cur_price,
+                    "stage1_qty": qty1,
+                    "stage2_done": False,
+                    "stage2_budget": per_stock - amt1   # 2차용 남은 예산
+                }
+                port["used"] += amt1
+                bought += 1
+                log = (f"📥 **[장투] 1차매수** {name} ({ticker}) {stock.get('grade','')}등급\n"
+                       f"   {cur_price:,}원 × {qty1}주 = {amt1:,}원 (전체예산의 60%)\n"
+                       f"   2차매수: 1차 대비 -5% + 반등 확인 시")
+                print(f"    ✅ {log}"); discord(log)
+            else:
+                print(f"    ❌ 매수 실패 {name}: {msg}")
+            time.sleep(1.0)
+            continue
+
+        # ── 단타: 단번 매수 ──────────────────────────────────────
         actual_amount = cur_price * qty
         ok, msg = None, ""
-        for attempt in range(2):  # 최대 2회 시도
+        for attempt in range(2):
             try:
                 ok, msg = order(token, ticker, qty, "buy")
                 break
