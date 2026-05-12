@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-12 19:35",
+  "updated": "2026-05-13 03:03",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,30 +13,30 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Trump says Iran ceasefire is on 'massive life support'",
-    "Texas accuses Netflix of spying on users, including children",
-    "Snack giant switches to black and white packaging as Iran war hits ink supplies",
     "No sign of larger hantavirus outbreak, says UN health agency",
-    "France seeks to move beyond colonial ties by meeting African leaders in Kenya"
+    "Trump says Iran ceasefire is on 'massive life support'",
+    "Lebanon says two paramedics among 10 killed in Israeli strikes",
+    "Zelensky's ex-chief of staff in court as Ukraine corruption probe escalates",
+    "US inflation jumps to 3.8% as energy costs surge from Iran war"
   ],
   "categories": {
     "geopolitical": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
+      "level": "주의",
+      "color": "yellow",
+      "signal": "⚠️",
       "summary": "Trump says Iran ceasefire is on 'massive life...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 10,
-      "score": 3.0
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 15,
+      "score": 23.2
     },
     "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "Ex-Philippine leader Duterte's drug war enfor...",
+      "summary": "US inflation jumps to 3.8% as energy costs su...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 2,
-      "score": 3.0
+      "matched": 6,
+      "score": 8.9
     },
     "disaster": {
       "level": "안전",
@@ -53,8 +53,8 @@
       "signal": "🔴",
       "summary": "Trump says Iran ceasefire is on 'massive life...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 10,
-      "score": 1.5
+      "matched": 13,
+      "score": 2.9
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
-    "summary": "주의 필요: 지정학적 충돌, 보호무역·공급망",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "level": "주의",
+    "color": "yellow",
+    "summary": "주의 필요: 보호무역·공급망",
+    "action": "신규 매수 자제 / 추이 관찰"
   }
 }
