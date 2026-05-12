@@ -549,6 +549,16 @@ def main():
     if vix_val > 25:       reasons_final.append(f"VIX {vix_val:.0f} 공포")
     elif 0 < vix_val < 15: reasons_final.append(f"VIX {vix_val:.0f} 과열낙관")
 
+    # ── RSI 과매수 강제 하향 ──────────────────────────────────────
+    # RSI 90 이상: 극단적 과매수 → 신호 상관없이 관망 강제
+    # RSI 80 이상: 매수 신호가 나와도 "매수 우위" 이상 못 올라감
+    if rsi_14 >= 90:
+        total_score = min(total_score, 0)   # 최대 관망
+        reasons_final.append(f"RSI {rsi_14:.0f} 극과매수→매수중단")
+    elif rsi_14 >= 80:
+        total_score = min(total_score, 1)   # 최대 약한 매수
+        reasons_final.append(f"RSI {rsi_14:.0f} 과매수→매수제한")
+
     if total_score >= 4:
         market_signal["final_signal"]    = "📈 강한 매수"
         market_signal["final_signal_en"] = "STRONG_BUY"
