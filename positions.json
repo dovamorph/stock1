@@ -1,14 +1,16 @@
 {
   "long": {
     "budget": 3500000,
-    "used": 757500,
+    "used": 505000,
     "positions": {
       "086280": {
         "name": "현대글로비스",
         "buy_price": 252500,
         "qty": 3,
-        "amount": 757500,
-        "buy_date": "20260508"
+        "amount": 505000,
+        "buy_date": "20260508",
+        "remaining_qty": 2,
+        "sold_stage": 1
       }
     }
   },
@@ -48,5 +50,20 @@
       }
     }
   },
-  "trade_history": []
+  "trade_history": [
+    {
+      "ticker": "086280",
+      "name": "현대글로비스",
+      "type": "long",
+      "buy_price": 252500,
+      "sell_price": 284500,
+      "qty": 1,
+      "buy_date": "20260508",
+      "sell_date": "20260513",
+      "sell_time": "12:51",
+      "pnl": 32000,
+      "pnl_pct": 12.67,
+      "reason": "분할매도1차(+10%)"
+    }
+  ]
 }
