@@ -1,30 +1,30 @@
 {
   "expiry_date": "2026-05-14",
-  "d_day": 2,
+  "d_day": 1,
   "active": true,
-  "in_market": false,
-  "updated": "2026-05-12 23:49",
+  "in_market": true,
+  "updated": "2026-05-13 10:25",
   "indicators": {
     "basis": {
       "signal": "—",
       "desc": "데이터 없음"
     },
     "pcr": {
-      "signal": "—",
-      "desc": "조회 실패"
+      "signal": "🕐",
+      "desc": "장 마감 후 제공 (~16:00)"
     },
     "oi": {
-      "signal": "—",
-      "desc": "조회 실패"
+      "signal": "🕐",
+      "desc": "장 마감 후 제공 (~16:00)"
     },
     "foreign": {
-      "signal": "📱",
-      "desc": "증권앱에서 직접 확인"
+      "signal": "🕐",
+      "desc": "장 마감 후 제공 (~16:00)"
     }
   },
   "judgment": {
-    "level": "알 수 없음",
-    "color": "gray",
-    "action": "데이터 부족 (🚨 D-2 변동성주의)"
+    "level": "장중 (🚨 D-1 최고경계)",
+    "color": "yellow",
+    "action": "장 마감 후 지표 업데이트 예정 (16:00~)"
   }
 }
