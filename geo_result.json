@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-13 15:51",
+  "updated": "2026-05-13 19:32",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -15,9 +15,9 @@
   "news_sample": [
     "A decade on, Trump returns to a stronger and more assertive China",
     "Australia has some of the world's costliest homes. Will scrapping tax breaks help?",
+    "Ghana to evacuate 300 from South Africa over anti-immigrant protests",
     "Air India crisis deepens ahead of final Ahmedabad crash report",
-    "Jason Collins, NBA's first openly gay player, dies aged 47",
-    "Lebanon says two paramedics among 13 killed in Israeli strikes"
+    "Jason Collins, NBA's first openly gay player, dies aged 47"
   ],
   "categories": {
     "geopolitical": {
@@ -26,8 +26,8 @@
       "signal": "🔴",
       "summary": "Trump's 'Golden Dome' will cost $1.2tn and mi...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 11,
-      "score": 1.5
+      "matched": 9,
+      "score": 4.5
     },
     "macro": {
       "level": "주의",
@@ -35,8 +35,8 @@
       "signal": "⚠️",
       "summary": "Australia has some of the world's costliest h...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 2,
-      "score": 3.0
+      "matched": 3,
+      "score": 7.5
     },
     "disaster": {
       "level": "안전",
@@ -53,8 +53,8 @@
       "signal": "⚠️",
       "summary": "Snack giant switches to black and white packa...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 7,
-      "score": 2.9
+      "matched": 4,
+      "score": 2.8
     },
     "policy": {
       "level": "안전",
