@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-13 19:32",
+  "updated": "2026-05-13 23:43",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,48 +13,48 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "A decade on, Trump returns to a stronger and more assertive China",
-    "Australia has some of the world's costliest homes. Will scrapping tax breaks help?",
-    "Ghana to evacuate 300 from South Africa over anti-immigrant protests",
-    "Air India crisis deepens ahead of final Ahmedabad crash report",
-    "Jason Collins, NBA's first openly gay player, dies aged 47"
+    "Trump arrives in China for high-stakes meeting with Xi Jinping",
+    "Woman isolating on British island in South Pacific after hantavirus contact",
+    "What to know as Trump visits Xi in China",
+    "Philippine Senate in lockdown after gunshots fired",
+    "Israeli strikes on cars in southern Lebanon kill 12, health ministry says"
   ],
   "categories": {
     "geopolitical": {
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "Trump's 'Golden Dome' will cost $1.2tn and mi...",
+      "summary": "Russian drone attacks kill nine in Ukraine af...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 9,
-      "score": 4.5
+      "matched": 12,
+      "score": 1.5
     },
     "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "Australia has some of the world's costliest h...",
+      "summary": "Philippine Senate in lockdown after gunshots ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 3,
-      "score": 7.5
+      "matched": 7,
+      "score": 10.4
     },
     "disaster": {
-      "level": "안전",
-      "color": "green",
-      "signal": "✅",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
+      "summary": "Philippine Senate in lockdown after gunshots ...",
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 1,
+      "score": 1.5
     },
     "trade": {
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "Snack giant switches to black and white packa...",
+      "summary": "Amid US-Israel war on Iran, Arizona awaits Ir...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 4,
-      "score": 2.8
+      "matched": 9,
+      "score": 4.4
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
-    "summary": "주의 필요: 지정학적 충돌",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "level": "주의",
+    "color": "yellow",
+    "summary": "주의 필요: 지정학적 충돌, 환경·대규모 재난",
+    "action": "신규 매수 자제 / 추이 관찰"
   }
 }
