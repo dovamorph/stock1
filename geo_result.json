@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-14 03:04",
+  "updated": "2026-05-14 06:27",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -26,23 +26,23 @@
       "signal": "🔴",
       "summary": "Trade, Iran and Taiwan on the agenda as Trump...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 15,
-      "score": 4.5
+      "matched": 14,
+      "score": 1.5
     },
     "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "Philippine Senate in lockdown after gunshots ...",
+      "summary": "Lockdown in Philippine Senate after gunshots ...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 5,
-      "score": 7.4
+      "score": 10.3
     },
     "disaster": {
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "Philippine Senate in lockdown after gunshots ...",
+      "summary": "Lockdown in Philippine Senate after gunshots ...",
       "action": "포지션 현금화 고려 / 즉각 대응",
       "matched": 1,
       "score": 1.5
@@ -53,8 +53,8 @@
       "signal": "⚠️",
       "summary": "Trade, Iran and Taiwan on the agenda as Trump...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 6,
-      "score": 3.0
+      "matched": 7,
+      "score": 5.9
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
+    "level": "주의",
+    "color": "yellow",
     "summary": "주의 필요: 지정학적 충돌, 환경·대규모 재난",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "action": "신규 매수 자제 / 추이 관찰"
   }
 }
