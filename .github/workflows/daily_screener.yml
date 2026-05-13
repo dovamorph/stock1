@@ -45,9 +45,6 @@ jobs:
         run: python trader.py
 
       - name: Run expiry analysis
-        env:
-          KRX_ID: ${{ secrets.KRX_ID }}
-          KRX_PW: ${{ secrets.KRX_PW }}
         run: python expiry.py
 
       - name: Commit results
