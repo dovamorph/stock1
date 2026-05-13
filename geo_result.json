@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-13 08:05",
+  "updated": "2026-05-13 12:46",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,30 +13,30 @@
     "StockPlus": 14
   },
   "news_sample": [
+    "A decade on, Trump returns to a stronger and more assertive China",
     "No sign of larger hantavirus outbreak, says UN health agency",
-    "Trump says Iran ceasefire is on 'massive life support'",
-    "Lebanon says two paramedics among 13 killed in Israeli strikes",
-    "Zelensky's ex-chief of staff in court as Ukraine corruption probe escalates",
-    "US inflation jumps to 3.8% as energy costs surge from Iran war"
+    "Australia has some of the world's costliest homes. Will scrapping tax breaks help?",
+    "Trump's 'Golden Dome' will cost $1.2tn and might not stop all-out missile attack",
+    "Air India crisis deepens ahead of final Ahmedabad crash report"
   ],
   "categories": {
     "geopolitical": {
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "Trump says Iran ceasefire is on 'massive life...",
+      "summary": "Trump's 'Golden Dome' will cost $1.2tn and mi...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 17,
+      "matched": 10,
       "score": 1.5
     },
     "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "US inflation jumps to 3.8% as energy costs su...",
+      "summary": "Australia has some of the world's costliest h...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 4,
-      "score": 7.2
+      "score": 7.3
     },
     "disaster": {
       "level": "안전",
@@ -48,28 +48,28 @@
       "score": 0
     },
     "trade": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
-      "summary": "Trump says Iran ceasefire is on 'massive life...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 14,
+      "level": "주의",
+      "color": "yellow",
+      "signal": "⚠️",
+      "summary": "Snack giant switches to black and white packa...",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 8,
       "score": 2.9
     },
     "policy": {
-      "level": "신호",
-      "color": "yellow",
-      "signal": "⚠️",
-      "summary": "지역사회 변화 이끌 인문의 힘…'인문실천 프로젝트' 단체 공모",
-      "action": "관련 지표 추가 확인 후 판단",
-      "matched": 1,
-      "score": 1.5
+      "level": "안전",
+      "color": "green",
+      "signal": "✅",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
     "level": "주의",
     "color": "yellow",
-    "summary": "주의 필요: 지정학적 충돌, 보호무역·공급망",
+    "summary": "주의 필요: 지정학적 충돌",
     "action": "신규 매수 자제 / 추이 관찰"
   }
 }
