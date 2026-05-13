@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-14 06:27",
+  "updated": "2026-05-14 08:07",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -26,7 +26,7 @@
       "signal": "🔴",
       "summary": "Trade, Iran and Taiwan on the agenda as Trump...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 14,
+      "matched": 15,
       "score": 1.5
     },
     "macro": {
@@ -35,8 +35,8 @@
       "signal": "⚠️",
       "summary": "Lockdown in Philippine Senate after gunshots ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 5,
-      "score": 10.3
+      "matched": 3,
+      "score": 5.8
     },
     "disaster": {
       "level": "위험",
@@ -54,7 +54,7 @@
       "summary": "Trade, Iran and Taiwan on the agenda as Trump...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 7,
-      "score": 5.9
+      "score": 4.4
     },
     "policy": {
       "level": "안전",
