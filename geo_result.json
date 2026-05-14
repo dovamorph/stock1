@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-14 19:22",
+  "updated": "2026-05-14 23:23",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,21 +13,21 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Trade, Iran and Taiwan on the agenda as Trump arrives in China for high-stakes talks with Xi",
-    "Watch: What happened on day one of Trump's China visit?",
-    "Court overturns Alex Murdaugh's murder convictions and orders new trial",
-    "'They shot my neighbour in the head' - the lakeside city traumatised by war",
-    "Israeli strikes in southern Lebanon kill 22 people, health ministry says"
+    "Flattery and fanfare as Trump welcomed to China - but thorny issues remain",
+    "'Floating armoury' ship reportedly seized by Iran",
+    "Warning of record global temperatures as chance of very strong El Niño grows",
+    "Former Nigerian minister sentenced to 75 years in rare corruption verdict",
+    "Latvian PM resigns after row over stray Ukrainian drones"
   ],
   "categories": {
     "geopolitical": {
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "Trade, Iran and Taiwan on the agenda as Trump...",
+      "summary": "'Floating armoury' ship reportedly seized by ...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 12,
-      "score": 1.5
+      "matched": 14,
+      "score": 3.0
     },
     "macro": {
       "level": "주의",
@@ -35,8 +35,8 @@
       "signal": "⚠️",
       "summary": "Gunshots fired in Philippine Senate where law...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 5,
-      "score": 7.2
+      "matched": 3,
+      "score": 4.4
     },
     "disaster": {
       "level": "안전",
@@ -51,10 +51,10 @@
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "Trade, Iran and Taiwan on the agenda as Trump...",
+      "summary": "'Floating armoury' ship reportedly seized by ...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 12,
-      "score": 2.8
+      "matched": 8,
+      "score": 1.4
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "주의",
-    "color": "yellow",
+    "level": "위험",
+    "color": "red",
     "summary": "주의 필요: 지정학적 충돌, 보호무역·공급망",
-    "action": "신규 매수 자제 / 추이 관찰"
+    "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
