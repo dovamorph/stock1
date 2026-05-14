@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-14 23:23",
+  "updated": "2026-05-15 03:01",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -15,9 +15,9 @@
   "news_sample": [
     "Flattery and fanfare as Trump welcomed to China - but thorny issues remain",
     "'Floating armoury' ship reportedly seized by Iran",
-    "Warning of record global temperatures as chance of very strong El Niño grows",
-    "Former Nigerian minister sentenced to 75 years in rare corruption verdict",
-    "Latvian PM resigns after row over stray Ukrainian drones"
+    "Ukraine rescuers pull dead from rubble of Kyiv flats after massive Russian strikes",
+    "Giant new dinosaur identified from fossils in Thailand",
+    "Cuba considers $100m US aid offer as energy crisis worsens"
   ],
   "categories": {
     "geopolitical": {
@@ -26,8 +26,8 @@
       "signal": "🔴",
       "summary": "'Floating armoury' ship reportedly seized by ...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 14,
-      "score": 3.0
+      "matched": 12,
+      "score": 1.5
     },
     "macro": {
       "level": "주의",
@@ -35,8 +35,8 @@
       "signal": "⚠️",
       "summary": "Gunshots fired in Philippine Senate where law...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 3,
-      "score": 4.4
+      "matched": 1,
+      "score": 1.5
     },
     "disaster": {
       "level": "안전",
@@ -48,28 +48,28 @@
       "score": 0
     },
     "trade": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
+      "level": "주의",
+      "color": "yellow",
+      "signal": "⚠️",
       "summary": "'Floating armoury' ship reportedly seized by ...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 8,
-      "score": 1.4
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 7,
+      "score": 3.0
     },
     "policy": {
-      "level": "안전",
-      "color": "green",
-      "signal": "✅",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "⚠️",
+      "summary": "\"우크라 드론에 자포리자 원전 직원 2명 부상\"",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 1,
+      "score": 1.5
     }
   },
   "overall": {
     "level": "위험",
     "color": "red",
-    "summary": "주의 필요: 지정학적 충돌, 보호무역·공급망",
+    "summary": "주의 필요: 지정학적 충돌",
     "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
