@@ -2,3 +2,6 @@ requests>=2.31.0
 pandas>=2.0.0
 finance-datareader>=0.9.50
 yfinance>=0.2.40
+numpy>=1.24.0
+beautifulsoup4>=4.12.0
+pykrx>=1.0.0
