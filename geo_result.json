@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-15 06:14",
+  "updated": "2026-05-15 08:00",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -15,9 +15,9 @@
   "news_sample": [
     "Flattery and fanfare as Trump welcomed to China - but thorny issues remain",
     "'Floating armoury' ship reportedly seized by Iran",
+    "Cuba says CIA chief visited Havana as energy crisis worsens",
     "Ukraine rescuers pull dead from rubble of Kyiv flats after massive Russian strikes",
-    "Giant new dinosaur identified from fossils in Thailand",
-    "Cuba tells US to lift blockade instead of offering aid as energy crisis worsens"
+    "Giant new dinosaur identified from fossils in Thailand"
   ],
   "categories": {
     "geopolitical": {
@@ -26,7 +26,7 @@
       "signal": "🔴",
       "summary": "'Floating armoury' ship reportedly seized by ...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 10,
+      "matched": 13,
       "score": 1.5
     },
     "macro": {
@@ -35,8 +35,8 @@
       "signal": "⚠️",
       "summary": "Gunshots fired in Philippine Senate where law...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 3,
-      "score": 4.4
+      "matched": 2,
+      "score": 2.9
     },
     "disaster": {
       "level": "안전",
@@ -53,17 +53,17 @@
       "signal": "⚠️",
       "summary": "'Floating armoury' ship reportedly seized by ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 10,
-      "score": 5.9
+      "matched": 11,
+      "score": 4.4
     },
     "policy": {
-      "level": "안전",
+      "level": "기회",
       "color": "green",
       "signal": "✅",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "summary": "美상원 은행위, 가상화폐 규제체계 법안 통과",
+      "action": "관련 섹터 매수 기회 탐색",
+      "matched": 1,
+      "score": 1.5
     }
   },
   "overall": {
