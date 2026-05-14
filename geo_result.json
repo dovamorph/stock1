@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-14 12:44",
+  "updated": "2026-05-14 15:48",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -15,9 +15,9 @@
   "news_sample": [
     "Trade, Iran and Taiwan on the agenda as Trump arrives in China for high-stakes talks with Xi",
     "Court overturns Alex Murdaugh's murder convictions and orders new trial",
-    "Dozens of dogs rescued and suspect arrested in Uganda after BBC investigation",
     "Woman isolating on British island in South Pacific after hantavirus contact",
-    "What to know as Trump visits Xi in China"
+    "'They shot my neighbour in the head' - the lakeside city traumatised by war",
+    "Israeli strikes in southern Lebanon kill 22 people, health ministry says"
   ],
   "categories": {
     "geopolitical": {
@@ -26,7 +26,7 @@
       "signal": "🔴",
       "summary": "Trade, Iran and Taiwan on the agenda as Trump...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 16,
+      "matched": 13,
       "score": 1.5
     },
     "macro": {
@@ -36,7 +36,7 @@
       "summary": "Gunshots fired in Philippine Senate where law...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 3,
-      "score": 5.8
+      "score": 4.4
     },
     "disaster": {
       "level": "안전",
@@ -48,13 +48,13 @@
       "score": 0
     },
     "trade": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
+      "level": "주의",
+      "color": "yellow",
+      "signal": "⚠️",
       "summary": "Trade, Iran and Taiwan on the agenda as Trump...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
+      "action": "신규 매수 자제 / 추이 관찰",
       "matched": 12,
-      "score": 1.5
+      "score": 7.3
     },
     "policy": {
       "level": "안전",
@@ -69,7 +69,7 @@
   "overall": {
     "level": "주의",
     "color": "yellow",
-    "summary": "주의 필요: 지정학적 충돌, 보호무역·공급망",
+    "summary": "주의 필요: 지정학적 충돌",
     "action": "신규 매수 자제 / 추이 관찰"
   }
 }
