@@ -1,5 +1,13 @@
 {
   "expiry_date": "2026-05-14",
   "d_day": 0,
-  "updated": "2026-05-14 13:38"
+  "updated": "2026-05-14 14:05",
+  "guard": {
+    "allow_new_longterm": false,
+    "allow_new_daytrend": false,
+    "sell_priority": true,
+    "score_penalty": 3,
+    "pos_mult_adj": -0.5,
+    "note": "만기일 14:00 이후 — 익절 우선, 신규매수 금지"
+  }
 }
