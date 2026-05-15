@@ -16,7 +16,7 @@
   },
   "short": {
     "budget": 1500000,
-    "used": 1493000,
+    "used": 682300,
     "positions": {
       "000270": {
         "name": "기아",
@@ -37,20 +37,24 @@
         "sold_stage": 0,
         "amount": 344500,
         "buy_date": "20260512"
-      },
-      "006800": {
-        "name": "미래에셋증권",
-        "grade": "C",
-        "buy_price": 73700,
-        "qty": 11,
-        "remaining_qty": 11,
-        "sold_stage": 0,
-        "amount": 810700,
-        "buy_date": "20260512"
       }
     }
   },
   "trade_history": [
+    {
+      "ticker": "006800",
+      "name": "미래에셋증권",
+      "type": "short",
+      "buy_price": 73700,
+      "sell_price": 69800,
+      "qty": 11,
+      "buy_date": "20260512",
+      "sell_date": "20260515",
+      "sell_time": "13:44",
+      "pnl": -42900,
+      "pnl_pct": -5.29,
+      "reason": "손절"
+    },
     {
       "ticker": "086280",
       "name": "현대글로비스",
