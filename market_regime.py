@@ -102,7 +102,7 @@ def _save_cache(data: dict):
 
 # ── KOSPI 데이터 로드 ──────────────────────────────────────────────────
 def _get_kospi_df(period="3mo") -> pd.DataFrame:
-    """yfinance로 KOSPI 일봉 DataFrame 반환"""
+    """yfinance로 KOSPI 일봉 DataFrame 반환. 실패 시 results.json fallback."""
     try:
         ticker = yf.Ticker("^KS11")
         df = ticker.history(period=period)
@@ -111,8 +111,35 @@ def _get_kospi_df(period="3mo") -> pd.DataFrame:
         df.index = pd.to_datetime(df.index).tz_localize(None)
         return df
     except Exception as e:
-        print(f"[market_regime] KOSPI 데이터 로드 실패: {e}")
+        print(f"[market_regime] KOSPI yfinance 실패: {e}")
         return pd.DataFrame()
+
+def _get_kospi_from_results() -> dict:
+    """
+    yfinance 실패 시 screener가 저장한 results.json에서 KOSPI 값 추출.
+    반환: {"close": float, "ma5": float, "ma20": float, "ma60": float,
+            "rsi": float, "ch5": float, "ch1": float} 또는 {}
+    """
+    for fname in ["results.json", "../results.json"]:
+        try:
+            with open(fname, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            ms = data.get("market_signal", {})
+            close = float(ms.get("kospi_close", 0))
+            if close <= 0:
+                continue
+            return {
+                "close": close,
+                "ma5":   float(ms.get("ma5",  0)),
+                "ma20":  float(ms.get("ma20", 0)),
+                "ma60":  float(ms.get("ma60", 0)),
+                "rsi":   float(ms.get("rsi_14", 50)),
+                "ch5":   float(ms.get("kospi_ch5", 0)),
+                "ch1":   float(ms.get("kospi_ch1", 0)),
+            }
+        except Exception:
+            continue
+    return {}
 
 # ── VKOSPI 근사치 계산 ─────────────────────────────────────────────────
 def _estimate_vkospi(df: pd.DataFrame) -> float:
@@ -223,7 +250,48 @@ def get_market_regime(force_refresh: bool = False) -> dict:
 
     df = _get_kospi_df("3mo")
     if df.empty or len(df) < 60:
-        # 데이터 없을 때 안전 기본값
+        # ── fallback: results.json에서 KOSPI 값 읽기 ─────────────────
+        fb = _get_kospi_from_results()
+        if fb and fb["close"] > 0:
+            print(f"[market_regime] yfinance 실패 → results.json fallback (KOSPI {fb['close']:,.0f})")
+            current = fb["close"]
+            ma20    = fb["ma20"] or current
+            ma60    = fb["ma60"] or current
+            ret_5d  = fb["ch5"]
+            ret_20d = ret_5d * 4   # 20일 수익률 근사 (부정확하지만 방향은 맞음)
+            vkospi  = 20.0
+            vol_trend = False
+
+            regime = _judge_regime(current, ma20, ma60, ret_5d, ret_20d, vkospi, vol_trend)
+            cycle  = _get_cycle_stage(current)
+            params = REGIME_PARAMS[regime].copy()
+            effective_mult = max(0.0, min(1.3,
+                params["position_multiplier"] + cycle["multiplier_adj"]
+            ))
+            longterm_ok = params["allow_new_longterm"] and cycle["longterm_new_buy"]
+
+            result = {
+                "regime":                      regime,
+                "label":                       params["label"],
+                "kospi":                       round(current, 2),
+                "ma20":                        round(ma20, 2),
+                "ma60":                        round(ma60, 2),
+                "ret_5d":                      round(ret_5d, 2),
+                "ret_20d":                     round(ret_20d, 2),
+                "vkospi_est":                  vkospi,
+                "vol_trend":                   vol_trend,
+                "cycle_stage":                 cycle["stage"],
+                "cycle_multiplier_adj":        cycle["multiplier_adj"],
+                "longterm_new_buy_ok":         longterm_ok,
+                "daytrend_new_buy_ok":         params["allow_new_daytrend"],
+                "params":                      params,
+                "effective_position_multiplier": round(effective_mult, 2),
+                "source":                      "results.json_fallback",
+            }
+            _save_cache(result)
+            return result
+
+        # 완전 실패 시 기본값
         result = {
             "regime": "UNKNOWN",
             "label": REGIME_PARAMS["UNKNOWN"]["label"],
