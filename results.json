@@ -1,6 +1,6 @@
 {
   "date": "20260515",
-  "generated_at": "2026-05-15T18:13:31.118213",
+  "generated_at": "2026-05-15T18:31:38.667566",
   "reference_date": "20260514",
   "reference_ranks": {
     "000660": 1,
@@ -46,9 +46,9 @@
   },
   "total": 40,
   "market_signal": {
-    "signal": "⚖️ 관망",
-    "signal_en": "WATCH",
-    "reason": "MA5>MA20 골든크로스 · MA20>MA60 중기 상승 · 5일 -4.2%↓ · RSI 70 과매수",
+    "signal": "📉 매도 우위",
+    "signal_en": "SELL",
+    "reason": "MA5>MA20 골든크로스 · MA20>MA60 중기 상승 · 5일 -4.2%↓ · 당일 -6.1% · RSI 70 과매수",
     "kospi_close": 7493.18,
     "ma5": 7756.8,
     "ma20": 6951.72,
@@ -61,7 +61,9 @@
     "rsi_14": 70.1,
     "basis": null,
     "basis_signal": "조회불가",
-    "kr_score": 0,
+    "kospi_ch1": -6.12,
+    "kospi_ch2": -4.47,
+    "kr_score": -4,
     "us": {
       "sp500_close": 7501.24,
       "sp500_ch5": 1.38,
@@ -79,10 +81,10 @@
       "us_signal_en": "BUY",
       "us_reason": "SP500 상승추세 · NASDAQ 상승추세 · VIX 17.3 안정"
     },
-    "final_signal": "📈 매수 우위",
-    "final_signal_en": "BUY",
-    "final_reason": "한국 혼조 · 미국 상승장",
-    "total_score": 3
+    "final_signal": "📉 강한 매도",
+    "final_signal_en": "STRONG_SELL",
+    "final_reason": "한국 하락추세 · 미국 상승장 · 당일 -6.1% · 주간 -4.2%",
+    "total_score": -4
   },
   "results": [
     {
@@ -1530,6 +1532,45 @@
     },
     {
       "rank": 38,
+      "ticker": "036540",
+      "name": "SFA반도체",
+      "market": "KOSDAQ",
+      "tvol": 2847,
+      "per": -74.22,
+      "pbr": 2.99,
+      "eps": -116.0,
+      "bps": 2884.0,
+      "roe": -4.0,
+      "close": 8610.0,
+      "rank_change": null,
+      "eps_trend": "부진",
+      "eps_growth": 0.0,
+      "debt_ratio": 16.2,
+      "ch20": 17.9,
+      "ch5": 2.1,
+      "vol_trend": 1.8,
+      "rsi": 55.9,
+      "macd_line": 0.0,
+      "signal_line": 0.0,
+      "macd_bull": null,
+      "is_dividend": false,
+      "filters": {
+        "roe_ok": false,
+        "per_ok": false,
+        "eps_ok": false,
+        "eps_up": false,
+        "debt_ok": true,
+        "is_finance": false,
+        "score": 1,
+        "grade": "F",
+        "recommended": false
+      },
+      "grade": "F",
+      "score": 1,
+      "recommended": false
+    },
+    {
+      "rank": 39,
       "ticker": "196170",
       "name": "알테오젠",
       "market": "KOSDAQ",
@@ -1540,7 +1581,7 @@
       "bps": 8257.0,
       "roe": 31.9,
       "close": 369000.0,
-      "rank_change": -18,
+      "rank_change": -19,
       "eps_trend": "상승",
       "eps_growth": 95.5,
       "debt_ratio": 53.8,
@@ -1568,7 +1609,7 @@
       "recommended": true
     },
     {
-      "rank": 39,
+      "rank": 40,
       "ticker": "298040",
       "name": "효성중공업",
       "market": "KOSPI",
@@ -1579,7 +1620,7 @@
       "bps": 252555.0,
       "roe": 22.1,
       "close": 3745000.0,
-      "rank_change": -5,
+      "rank_change": -6,
       "eps_trend": "상승",
       "eps_growth": 50.7,
       "debt_ratio": 190.3,
@@ -1605,45 +1646,6 @@
       "grade": "B",
       "score": 4,
       "recommended": true
-    },
-    {
-      "rank": 40,
-      "ticker": "012450",
-      "name": "한화에어로스페이스",
-      "market": "KOSPI",
-      "tvol": 2589,
-      "per": 42.56,
-      "pbr": 6.46,
-      "eps": 28573.0,
-      "bps": 188244.0,
-      "roe": 15.2,
-      "close": 1216000.0,
-      "rank_change": -4,
-      "eps_trend": "상승",
-      "eps_growth": 79.0,
-      "debt_ratio": 221.4,
-      "ch20": -19.9,
-      "ch5": -7.5,
-      "vol_trend": -3.3,
-      "rsi": 28.7,
-      "macd_line": 0.0,
-      "signal_line": 0.0,
-      "macd_bull": null,
-      "is_dividend": true,
-      "filters": {
-        "roe_ok": true,
-        "per_ok": false,
-        "eps_ok": true,
-        "eps_up": true,
-        "debt_ok": false,
-        "is_finance": false,
-        "score": 3,
-        "grade": "C",
-        "recommended": false
-      },
-      "grade": "C",
-      "score": 3,
-      "recommended": false
     }
   ],
   "recommended": [
@@ -2038,7 +2040,7 @@
       "recommended": true
     },
     {
-      "rank": 38,
+      "rank": 39,
       "ticker": "196170",
       "name": "알테오젠",
       "market": "KOSDAQ",
@@ -2049,7 +2051,7 @@
       "bps": 8257.0,
       "roe": 31.9,
       "close": 369000.0,
-      "rank_change": -18,
+      "rank_change": -19,
       "eps_trend": "상승",
       "eps_growth": 95.5,
       "debt_ratio": 53.8,
@@ -2077,7 +2079,7 @@
       "recommended": true
     },
     {
-      "rank": 39,
+      "rank": 40,
       "ticker": "298040",
       "name": "효성중공업",
       "market": "KOSPI",
@@ -2088,7 +2090,7 @@
       "bps": 252555.0,
       "roe": 22.1,
       "close": 3745000.0,
-      "rank_change": -5,
+      "rank_change": -6,
       "eps_trend": "상승",
       "eps_growth": 50.7,
       "debt_ratio": 190.3,
