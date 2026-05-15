@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-16 02:43",
-  "news_count": 63,
-  "intl_count": 48,
+  "updated": "2026-05-16 04:43",
+  "news_count": 64,
+  "intl_count": 49,
   "domestic_count": 15,
   "source_stats": {
-    "BBC World": 22,
+    "BBC World": 23,
     "Al Jazeera": 26,
     "연합뉴스": 0,
     "한국경제": 1,
@@ -13,30 +13,30 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Trump says he 'made no commitment either way' to Xi on Taiwan",
+    "Trump warns Taiwan against declaring independence, hours after summit with China's Xi",
     "Trump and Xi conclude 'very successful' talks but no deals confirmed",
+    "Israel and Lebanon agree to extend ceasefire, US state department says",
     "Prisoner swap goes ahead as Kyiv mourns 24 killed in Russian strike on flats",
-    "AI vigilante trap snares alleged paedophile ex-teacher in France",
-    "New York Times defends journalist after Israel threatens to sue"
+    "AI vigilante trap snares alleged paedophile ex-teacher in France"
   ],
   "categories": {
     "geopolitical": {
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "Trump says he 'made no commitment either way'...",
+      "summary": "Trump warns Taiwan against declaring independ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 8,
-      "score": 11.3
+      "matched": 11,
+      "score": 17.0
     },
     "macro": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "⚠️",
-      "summary": "Philippines vows to hand fugitive senator to ...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.4
+      "level": "안전",
+      "color": "green",
+      "signal": "✅",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     },
     "disaster": {
       "level": "안전",
@@ -51,7 +51,7 @@
       "level": "신호",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "BRICS talks end without joint statement as di...",
+      "summary": "Trump departs China touting deals, but little...",
       "action": "관련 지표 추가 확인 후 판단",
       "matched": 5,
       "score": 7.0
