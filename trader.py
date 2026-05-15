@@ -1,19 +1,14 @@
 #!/usr/bin/env python3
 """
-StockPilot KR — 자동매매 (trader.py) [통합 버전]
-장투 포트폴리오: 350만원 / A등급만 / 익절 10%·18%·25% / 손절 -10% / 시간손절 14일
-단타 포트폴리오: 150만원 / A·B·C등급 / 익절 7%·10%·13% / 손절 -5% / 시간손절 5일
+StockPilot KR — 자동매매 (trader.py) [풀 통합 버전]
+장투 포트폴리오: 350만원 / A등급만 / 시간손절 14일
+단타 포트폴리오: 150만원 / A·B·C등급 / 시간손절 5일
 
-[변경 이력]
-- market_regime / defense / expiry.py guard 연동
-- can_buy 변수명 충돌 수정 → allow_buy
-- is_good_candle 데드코드 제거
-- buy_count 슬라이스 버그 수정 (전체 후보 순회 방식으로 변경)
-- stage2 remaining_qty 계산 순서 수정
-- port['used'] 중복 차감 수정
-- import datetime 재선언 제거
-- 매도 후 defense record_trade_result 호출
-- 매수 전 defense can_buy / 만기일 / 국면 통합 체크
+[통합 모듈]
+- market_regime : 시장 국면(BULL/SIDEWAYS/BEAR) → 익절/손절/포지션배율 동적 조정
+- defense       : 갭다운/연속손실/서킷브레이커/블랙리스트 방어
+- expiry.py     : 옵션만기일 guard → 매수 제한/익절 우선 모드
+- analytics     : ATR 기반 손절/익절 자동조정 + 매수 점수제 + 베타 포지션 사이징
 """
 import os, json, time, datetime, requests
 from zoneinfo import ZoneInfo
@@ -28,6 +23,7 @@ from defense import (
     check_gap_down,
     check_circuit_breaker,
 )
+from analytics import analyze_before_buy
 
 # ── 장투 기본 설정 ────────────────────────────────────────────────────
 LONG_BUDGET        = 3_500_000
@@ -232,14 +228,16 @@ def build_regime_params(regime: dict) -> dict:
     short_sells = [(pct, ratio) for pct, (_, ratio) in zip(short_tp_pcts, SHORT_PARTIAL_SELLS)]
 
     return {
-        "regime_label":  regime.get("label", "?"),
-        "long_sells":    long_sells,
-        "short_sells":   short_sells,
-        "long_sl":       long_sl,
-        "short_sl":      short_sl,
-        "pos_mult":      pos_mult,
-        "allow_longterm": regime.get("longterm_new_buy_ok", True),
-        "allow_daytrend": regime.get("daytrend_new_buy_ok", True),
+        "regime_label":    regime.get("label", "?"),
+        "long_sells":      long_sells,
+        "short_sells":     short_sells,
+        "long_sells_pct":  long_tp_pcts,    # analytics용 퍼센트만
+        "short_sells_pct": short_tp_pcts,   # analytics용 퍼센트만
+        "long_sl":         long_sl,
+        "short_sl":        short_sl,
+        "pos_mult":        pos_mult,
+        "allow_longterm":  regime.get("longterm_new_buy_ok", True),
+        "allow_daytrend":  regime.get("daytrend_new_buy_ok", True),
     }
 
 # ── 포트폴리오 매도 처리 ──────────────────────────────────────────────
@@ -260,11 +258,31 @@ def process_sells(token, data, ptype, partial_sells, stop_loss, time_stop, now):
         pnl           = (cur_price - buy_price) / buy_price
         pnl_str       = f"{pnl*100:+.1f}%"
 
+        # ── 포지션별 저장된 ATR 조정 레벨 우선 사용 ─────────────────
+        # 매수 시 analytics가 계산해 저장한 sl/tp가 있으면 그걸 쓰고,
+        # 없으면 국면 기본값(partial_sells/stop_loss) 사용
+        sl         = p.get("sl", stop_loss)
+        tp_levels  = p.get("tp", [ps[0] for ps in partial_sells])
+        # 매도 비율은 기본 설정 유지 (tp_levels는 퍼센트만 교체)
+        sell_ratios = [ps[1] for ps in partial_sells]
+        dyn_sells  = list(zip(tp_levels, sell_ratios))
+
+    for ticker, p in list(positions.items()):
+        cur_price, open_, high, low, prev_close = get_price(token, ticker)
+        if cur_price == 0:
+            print(f"    {p['name']} — 현재가 조회 실패, 스킵")
+            continue
+
+        buy_price     = p["buy_price"]
+        remaining_qty = p.get("remaining_qty", p["qty"])
+        sold_stage    = p.get("sold_stage", 0)
+        pnl           = (cur_price - buy_price) / buy_price
+        pnl_str       = f"{pnl*100:+.1f}%"
+
         # ── [신규] 개별 종목 급락 감지 (전일 종가 기준) ──────────────
         if prev_close > 0:
             crash = check_stock_crash(ticker, cur_price, prev_close)
             if crash["hard_crash"]:
-                # 즉시 시장가 손절
                 ok, msg = order(token, ticker, remaining_qty, "sell")
                 if ok:
                     profit = (cur_price - buy_price) * remaining_qty
@@ -279,16 +297,16 @@ def process_sells(token, data, ptype, partial_sells, stop_loss, time_stop, now):
                 time.sleep(0.3)
                 continue
 
-        # ── 손절 ─────────────────────────────────────────────────────
-        if pnl <= stop_loss:
+        # ── 손절 (ATR 조정 sl 적용) ───────────────────────────────────
+        if pnl <= sl:
             ok, msg = order(token, ticker, remaining_qty, "sell")
             if ok:
                 profit = (cur_price - buy_price) * remaining_qty
                 log_trade(data, ticker, p, cur_price, remaining_qty, "손절", now, ptype)
-                record_trade_result(is_loss=True, amount=profit, ticker=ticker)  # ← 신규
+                record_trade_result(is_loss=True, amount=profit, ticker=ticker)
                 port["used"] = max(0, port["used"] - p.get("amount", 0))
                 del positions[ticker]
-                log = f"📤 **[{ptype}] 손절** {p['name']} ({pnl_str}) | {profit:+,}원"
+                log = f"📤 **[{ptype}] 손절** {p['name']} ({pnl_str} / 설정:{sl*100:.1f}%) | {profit:+,}원"
                 print(f"    ✅ {log}"); discord(log)
             else:
                 print(f"    ❌ 손절 실패 {p['name']}: {msg}")
@@ -306,7 +324,7 @@ def process_sells(token, data, ptype, partial_sells, stop_loss, time_stop, now):
             if ok:
                 profit = (cur_price - buy_price) * remaining_qty
                 log_trade(data, ticker, p, cur_price, remaining_qty, f"시간손절({days_held}일)", now, ptype)
-                record_trade_result(is_loss=True, amount=profit, ticker=ticker)  # ← 신규
+                record_trade_result(is_loss=True, amount=profit, ticker=ticker)
                 port["used"] = max(0, port["used"] - p.get("amount", 0))
                 del positions[ticker]
                 log = f"📤 **[{ptype}] 시간손절** {p['name']} {days_held}일 ({pnl_str}) | {profit:+,}원"
@@ -315,9 +333,9 @@ def process_sells(token, data, ptype, partial_sells, stop_loss, time_stop, now):
                 print(f"    ❌ 시간손절 실패 {p['name']}: {msg}")
             time.sleep(0.3); continue
 
-        # ── 분할 익절 ─────────────────────────────────────────────────
+        # ── 분할 익절 (ATR 조정 tp 적용) ─────────────────────────────
         partial_done = False
-        for idx, (target_pnl, sell_ratio) in enumerate(partial_sells):
+        for idx, (target_pnl, sell_ratio) in enumerate(dyn_sells):
             if sold_stage > idx: continue
             if pnl < target_pnl: break
             is_last  = (idx == len(partial_sells) - 1)
@@ -484,15 +502,38 @@ def process_buys(token, data, stocks, ptype, max_pos, budget, partial_sells,
             # ── BUG FIX: continue로 다음 후보 시도 (buy_count 조작 제거) ──
             continue
 
+        # ── [통합] analytics: ATR/점수/베타/포지션사이징 ──────────────
+        analysis = analyze_before_buy(
+            token        = token,
+            stock        = stock,
+            trade_type   = ptype,
+            regime_sl    = regime_params["long_sl"] if ptype == "long" else regime_params["short_sl"],
+            regime_tp    = regime_params["long_sells_pct"] if ptype == "long" else regime_params["short_sells_pct"],
+            base_capital = LONG_BUDGET if ptype == "long" else SHORT_BUDGET,
+            effective_mult = pos_mult,
+            min_score    = 4 if ptype == "short" else 5,
+        )
+        if not analysis["ok"]:
+            print(f"    {name} — 분석 스킵: {analysis['reason']}")
+            continue
+
+        # analytics가 계산한 포지션 금액 사용
+        per_stock_actual = analysis["sizing"]["total"]
+        if per_stock_actual < cur_price:
+            print(f"    {name} — 포지션 금액({per_stock_actual:,}원) < 현재가({cur_price:,}원), 스킵")
+            continue
+
         # ── 캔들 체크 ─────────────────────────────────────────────────
         if not is_good_candle(cur_price, open_, high, low):
             print(f"    {name} — 하락캔들 진입 보류 (현재:{cur_price:,} 시가:{open_:,})")
             continue
 
-        # ── 장투: 1차 60% 매수 ───────────────────────────────────────
+        # ── 장투: 분할 매수 (점수 기반 1차 비중) ─────────────────────
         if ptype == "long":
-            qty1 = max(1, int(qty * 0.6))
-            amt1 = cur_price * qty1
+            first_ratio = analysis["sizing"]["first_ratio"]
+            qty_total   = per_stock_actual // cur_price
+            qty1        = max(1, int(qty_total * first_ratio))
+            amt1        = cur_price * qty1
             ok, msg = None, ""
             for attempt in range(2):
                 try:
@@ -513,12 +554,21 @@ def process_buys(token, data, stocks, ptype, max_pos, budget, partial_sells,
                     "stage1_price": cur_price,
                     "stage1_qty": qty1,
                     "stage2_done": False,
-                    "stage2_budget": per_stock - amt1,
+                    "stage2_budget": per_stock_actual - amt1,
+                    # ── analytics 저장 ──
+                    "sl":       analysis["sl"],
+                    "tp":       analysis["tp"],
+                    "score":    analysis["score"],
+                    "beta":     analysis["beta"],
+                    "atr_pct":  analysis["atr_pct"],
                 }
                 port["used"] += amt1
                 bought += 1
+                tp_str = [f"{t*100:.1f}%" for t in analysis["tp"]]
                 log = (f"📥 **[장투] 1차매수** {name} ({ticker}) {stock.get('grade','')}등급\n"
-                       f"   {cur_price:,}원 × {qty1}주 = {amt1:,}원 (60%)\n"
+                       f"   {cur_price:,}원 × {qty1}주 = {amt1:,}원 ({int(first_ratio*100)}%)\n"
+                       f"   점수:{analysis['score']}점 β:{analysis['beta']:.1f} ATR:{analysis['atr_pct']*100:.1f}%\n"
+                       f"   손절:{analysis['sl']*100:.1f}% 익절:{tp_str}\n"
                        f"   국면:{regime_params['regime_label']} | 2차: 1차 대비 -5%+반등 시")
                 print(f"    ✅ {log}"); discord(log)
             else:
@@ -527,6 +577,9 @@ def process_buys(token, data, stocks, ptype, max_pos, budget, partial_sells,
             continue
 
         # ── 단타: 단번 매수 ──────────────────────────────────────────
+        qty           = per_stock_actual // cur_price
+        if qty < 1:
+            print(f"    {name} — 수량 부족, 스킵"); continue
         actual_amount = cur_price * qty
         ok, msg = None, ""
         for attempt in range(2):
@@ -544,13 +597,21 @@ def process_buys(token, data, stocks, ptype, max_pos, budget, partial_sells,
                 "buy_price": cur_price, "qty": qty, "remaining_qty": qty,
                 "sold_stage": 0, "amount": actual_amount,
                 "buy_date": now.strftime("%Y%m%d"),
+                # ── analytics 저장 ──
+                "sl":      analysis["sl"],
+                "tp":      analysis["tp"],
+                "score":   analysis["score"],
+                "beta":    analysis["beta"],
+                "atr_pct": analysis["atr_pct"],
             }
             port["used"] += actual_amount
             bought += 1
-            sells_str = " → ".join([f"+{int(p*100)}%({int(r*100)}%)" for p, r in partial_sells])
+            tp_str2 = [f"{t*100:.1f}%" for t in analysis["tp"]]
             log = (f"📥 **[{ptype}] 매수** {name} ({ticker}) {stock.get('grade','')}등급\n"
                    f"   {cur_price:,}원 × {qty}주 = {actual_amount:,}원\n"
-                   f"   익절: {sells_str} | 국면:{regime_params['regime_label']}")
+                   f"   점수:{analysis['score']}점 β:{analysis['beta']:.1f} ATR:{analysis['atr_pct']*100:.1f}%\n"
+                   f"   손절:{analysis['sl']*100:.1f}% 익절:{tp_str2}\n"
+                   f"   국면:{regime_params['regime_label']}")
             print(f"    ✅ {log}"); discord(log)
         else:
             print(f"    ❌ 매수 실패 {name}: {msg}")
