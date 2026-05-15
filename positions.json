@@ -16,7 +16,7 @@
   },
   "short": {
     "budget": 1500000,
-    "used": 682300,
+    "used": 337800,
     "positions": {
       "000270": {
         "name": "기아",
@@ -27,20 +27,24 @@
         "sold_stage": 0,
         "amount": 337800,
         "buy_date": "20260512"
-      },
-      "108490": {
-        "name": "로보티즈",
-        "grade": "C",
-        "buy_price": 344500,
-        "qty": 1,
-        "remaining_qty": 1,
-        "sold_stage": 0,
-        "amount": 344500,
-        "buy_date": "20260512"
       }
     }
   },
   "trade_history": [
+    {
+      "ticker": "108490",
+      "name": "로보티즈",
+      "type": "short",
+      "buy_price": 344500,
+      "sell_price": 316500,
+      "qty": 1,
+      "buy_date": "20260512",
+      "sell_date": "20260515",
+      "sell_time": "15:02",
+      "pnl": -28000,
+      "pnl_pct": -8.13,
+      "reason": "손절"
+    },
     {
       "ticker": "006800",
       "name": "미래에셋증권",
