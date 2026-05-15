@@ -114,6 +114,9 @@ def fetch_market_signal(tok) -> dict:
             "ma60":        round(ma60, 2),
             "kospi_ch5":   round((close - prices[4]) / prices[4] * 100, 2) if len(prices) >= 5 and prices[4] > 0 else 0,
             "kospi_ch20":  round((close - prices[19]) / prices[19] * 100, 2) if len(prices) >= 20 and prices[19] > 0 else 0,
+            # ── 단기 지표 추가 ──────────────────────────────────────
+            "kospi_ch1":   round((close - prices[1]) / prices[1] * 100, 2) if len(prices) >= 2 and prices[1] > 0 else 0,
+            "kospi_ch2":   round((close - prices[2]) / prices[2] * 100, 2) if len(prices) >= 3 and prices[2] > 0 else 0,
             "rsi_14":      rsi_14,
         })
 
@@ -138,14 +141,19 @@ def fetch_market_signal(tok) -> dict:
         else: reasons.append("MA20<MA60 중기 하락")
 
         ch5 = result["kospi_ch5"]
+        ch1 = result["kospi_ch1"]
+        ch2 = result["kospi_ch2"]
+
         if ch5 >= 2: reasons.append(f"5일 +{ch5:.1f}%↑")
         elif ch5 <= -2: reasons.append(f"5일 {ch5:.1f}%↓")
+        if abs(ch1) >= 1: reasons.append(f"당일 {ch1:+.1f}%")
 
         # RSI 이유 추가
         if rsi_14 > 70:   reasons.append(f"RSI {rsi_14:.0f} 과매수")
         elif rsi_14 < 30: reasons.append(f"RSI {rsi_14:.0f} 과매도")
 
         kr_score = 0
+        # ── MA 구조 (장기 추세) ───────────────────────────────────
         if above_all:     kr_score += 2
         elif close > ma5: kr_score += 1
         if below_all:     kr_score -= 2
@@ -155,10 +163,27 @@ def fetch_market_signal(tok) -> dict:
         if is_above_60:   kr_score += 1
         else:             kr_score -= 1
 
+        # ── RSI ──────────────────────────────────────────────────
         if rsi_14 > 75:   kr_score -= 2
         elif rsi_14 > 70: kr_score -= 1
         elif rsi_14 < 25: kr_score += 2
         elif rsi_14 < 30: kr_score += 1
+
+        # ── ① 5일 수익률 (주간 추세) ─────────────────────────────
+        if ch5 <= -5:     kr_score -= 2   # 주간 급락
+        elif ch5 <= -2:   kr_score -= 1   # 주간 하락
+        elif ch5 >= 5:    kr_score += 2   # 주간 급등
+        elif ch5 >= 2:    kr_score += 1   # 주간 상승
+
+        # ── ② 당일 등락률 (가장 최신 반응) ─────────────────────────
+        if ch1 <= -3:     kr_score -= 2   # 오늘 급락
+        elif ch1 <= -1:   kr_score -= 1   # 오늘 하락
+        elif ch1 >= 3:    kr_score += 1   # 오늘 급등
+        # 오늘 +1~+3%는 점수 없음 (과매수 방지)
+
+        # ── ③ 2일 수익률 (단기 모멘텀) ──────────────────────────────
+        if ch2 <= -4:     kr_score -= 1   # 이틀 연속 하락
+        elif ch2 >= 4:    kr_score += 1   # 이틀 연속 상승
 
         result["kr_score"] = kr_score
 
@@ -539,6 +564,22 @@ def main():
         elif vix_val < 25:  us_score -= 1
         elif vix_val < 35:  us_score -= 2
 
+    # ── ① 한국 하락 시 미국 영향 제한 ────────────────────────────────
+    # 한국이 강하게 하락 중이면 미국 강세가 신호를 뒤집지 못하도록 제한
+    # kr_score <= -3: 미국 최대 +1점만 허용 (완전 상쇄 불가)
+    # kr_score <= -1: 미국 최대 +2점만 허용 (약한 제한)
+    if kr_score <= -3:
+        us_score = min(us_score, 1)
+    elif kr_score <= -1:
+        us_score = min(us_score, 2)
+
+    # ── ② 당일 KOSPI 급락 시 추가 페널티 ────────────────────────────
+    # 오늘 실제로 많이 빠진 날은 미국 상승 기대를 낮춤
+    ch1 = float(market_signal.get("kospi_ch1", 0))
+    ch5 = float(market_signal.get("kospi_ch5", 0))
+    if ch1 <= -2 and us_score > 0:
+        us_score -= 1   # 오늘 -2% 이상 빠졌으면 미국 기대치 1점 차감
+
     total_score = kr_score + us_score
     reasons_final = []
     if kr_score >= 3:      reasons_final.append("한국 상승추세")
@@ -548,6 +589,8 @@ def main():
     elif us_en == "SELL":  reasons_final.append("미국 하락장")
     if vix_val > 25:       reasons_final.append(f"VIX {vix_val:.0f} 공포")
     elif 0 < vix_val < 15: reasons_final.append(f"VIX {vix_val:.0f} 과열낙관")
+    if ch1 <= -2:          reasons_final.append(f"당일 {ch1:+.1f}%")
+    if ch5 <= -3:          reasons_final.append(f"주간 {ch5:+.1f}%")
 
     # ── RSI 과매수 강제 하향 ──────────────────────────────────────
     _rsi = float(market_signal.get("rsi_14", 50))
