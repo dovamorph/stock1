@@ -34,17 +34,21 @@ def get_guard(d_day: int, now_time: datetime.time) -> dict:
         }
     if d_day == 0:
         if datetime.time(9, 0) <= now_time < datetime.time(10, 30):
-            note = "만기일 09:00~10:30 프로그램 매물 — 매수 전면 금지"
-            allow_dt = False
+            note        = "만기일 오전 — 프로그램 매물 집중"
+            action_note = "🔴 신규진입 금지. 프로그램 매물이 쏟아지는 구간입니다. 매수하면 하락에 그대로 노출됩니다."
+            allow_dt    = False
         elif datetime.time(10, 30) <= now_time < datetime.time(13, 0):
-            note = "만기일 10:30~13:00 방향 확인 — 관망"
-            allow_dt = False
+            note        = "만기일 오전장 후반 — 방향 확인 중"
+            action_note = "🟡 관망하세요. 방향이 정해지지 않은 구간입니다. 기존 보유 유지, 신규는 13시 이후 확인 후 판단하세요."
+            allow_dt    = False
         elif datetime.time(13, 0) <= now_time < datetime.time(14, 0):
-            note = "만기일 13:00~14:00 — 단타 소규모만 허용"
-            allow_dt = True
+            note        = "만기일 오후 — 방향 확인 후 소규모 단타 가능"
+            action_note = "🟡 방향이 잡혔다면 단타 소규모만 가능합니다. 무리한 진입은 금물, 빠른 익절이 원칙입니다."
+            allow_dt    = True
         else:
-            note = "만기일 14:00 이후 — 익절 우선, 신규매수 금지"
-            allow_dt = False
+            note        = "만기일 마감 전 — 익절 청산 구간"
+            action_note = "🔴 신규진입 금지. 지금 들어가면 마감 변동성에 휘말립니다. 보유 중이라면 익절 가능한 것부터 정리하세요."
+            allow_dt    = False
         return {
             "allow_new_longterm": False,
             "allow_new_daytrend": allow_dt,
@@ -52,6 +56,7 @@ def get_guard(d_day: int, now_time: datetime.time) -> dict:
             "score_penalty":      3,
             "pos_mult_adj":       -0.5,
             "note":               note,
+            "action_note":        action_note,
         }
     if d_day <= 2:
         return {
@@ -60,7 +65,8 @@ def get_guard(d_day: int, now_time: datetime.time) -> dict:
             "sell_priority":      False,
             "score_penalty":      2,
             "pos_mult_adj":       -0.4,
-            "note":               f"만기일 D-{d_day} — 신규매수 금지",
+            "note":               f"만기일 D-{d_day} — 변동성 최고조",
+            "action_note":        f"🔴 관망하세요. 만기일 {d_day}일 전으로 기관/외인 포지션 조정이 집중됩니다. 신규진입 시 예상치 못한 방향으로 튈 수 있습니다.",
         }
     if d_day <= 5:
         return {
@@ -69,7 +75,8 @@ def get_guard(d_day: int, now_time: datetime.time) -> dict:
             "sell_priority":      False,
             "score_penalty":      1,
             "pos_mult_adj":       -0.2,
-            "note":               f"만기일 D-{d_day} — 장투 보류, 단타 소극적",
+            "note":               f"만기일 D-{d_day} — 경계 구간",
+            "action_note":        f"🟡 장투 신규매수는 자제하세요. 단타는 소규모로만 접근 가능합니다. 만기일이 {d_day}일 남아 변동성이 서서히 높아지는 구간입니다.",
         }
     return {
         "allow_new_longterm": True,
@@ -78,6 +85,7 @@ def get_guard(d_day: int, now_time: datetime.time) -> dict:
         "score_penalty":      0,
         "pos_mult_adj":       0.0,
         "note":               f"만기일 D-{d_day} — 영향 없음",
+        "action_note":        f"✅ 전략대로 진행하세요. 만기일까지 {d_day}일 여유가 있어 만기 영향은 없습니다.",
     }
 
 def main():
