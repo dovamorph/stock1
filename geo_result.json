@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-15 12:50",
+  "updated": "2026-05-15 15:58",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -26,8 +26,8 @@
       "signal": "⚠️",
       "summary": "'Floating armoury' ship reportedly seized by ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 11,
-      "score": 17.1
+      "matched": 14,
+      "score": 21.4
     },
     "macro": {
       "level": "주의",
@@ -35,8 +35,8 @@
       "signal": "⚠️",
       "summary": "Gunshots fired in Philippine Senate where law...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 2,
-      "score": 2.9
+      "matched": 1,
+      "score": 1.5
     },
     "disaster": {
       "level": "안전",
@@ -53,17 +53,17 @@
       "signal": "⚠️",
       "summary": "'Floating armoury' ship reportedly seized by ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 14,
-      "score": 11.9
+      "matched": 15,
+      "score": 7.3
     },
     "policy": {
-      "level": "안전",
-      "color": "green",
-      "signal": "✅",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "⚠️",
+      "summary": "[프로필] 문성요 새만금개발청장 …도시개발 분야 정통 관료",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 1,
+      "score": 1.5
     }
   },
   "overall": {
