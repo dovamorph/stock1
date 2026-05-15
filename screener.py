@@ -431,7 +431,8 @@ def fetch_eps_trend(tok, ticker, cur_eps):
 
 # ── 6단계: 20일 등락 + RSI + MACD ───────────────────────────────
 def fetch_ch20(tok, ticker):
-    r={"ch20":0.,"ch5":0.,"vol_trend":0.,"rsi":50.0,"macd_line":0.,"signal_line":0.,"macd_bull":None}
+    r={"ch20":0.,"ch5":0.,"ch1":0.,"vol_trend":0.,"vol_char":"혼조","vol_char_score":0.,
+       "rsi":50.0,"macd_line":0.,"signal_line":0.,"macd_bull":None}
     try:
         now=datetime.now()
         s=(now-timedelta(days=60)).strftime("%Y%m%d"); e=now.strftime("%Y%m%d")
@@ -446,10 +447,27 @@ def fetch_ch20(tok, ticker):
             r["ch20"]=round((prices[0]-prices[19])/prices[19]*100,1) if prices[19]>0 else 0.
         if len(prices)>=5:
             r["ch5"]=round((prices[0]-prices[4])/prices[4]*100,1) if prices[4]>0 else 0.
+        # ── 당일 등락률 ─────────────────────────────────────────────
+        if len(prices)>=2:
+            r["ch1"]=round((prices[0]-prices[1])/prices[1]*100,1) if prices[1]>0 else 0.
         vols=[sf(x.get("acml_vol")) for x in items]
         if len(vols)>=20:
             avg5=sum(vols[:5])/5; avgA=sum(vols[:20])/20
             r["vol_trend"]=round((avg5-avgA)/avgA*100,1) if avgA>0 else 0.
+        # ── 거래대금 성격: 당일 등락률 × 거래량 과다 여부 ──────────
+        ch1 = r["ch1"]
+        vol_ratio = (vols[0] / (sum(vols[1:21])/20)) if len(vols)>=21 and sum(vols[1:21])>0 else 1.0
+        r["vol_char_score"] = round(ch1 * min(vol_ratio, 3.0), 2)  # 등락방향 × 거래량 강도
+        if ch1 >= 2.0:
+            r["vol_char"] = "매수주도 🟢"
+        elif ch1 >= 0.3:
+            r["vol_char"] = "상승동반 🟡"
+        elif ch1 <= -2.0:
+            r["vol_char"] = "매도주도 🔴"
+        elif ch1 <= -0.3:
+            r["vol_char"] = "하락동반 🟠"
+        else:
+            r["vol_char"] = "혼조 ⚪"
         if len(prices)>=15:
             p_asc=prices[:15][::-1]
             gains=[max(p_asc[i]-p_asc[i-1],0) for i in range(1,15)]
@@ -662,6 +680,7 @@ def main():
                 f"  PER:{t.get('per',0):.1f}{'✅' if f['per_ok'] else '❌'}"
                 f"  EPS:{t.get('eps',0):,.0f}({eps_tr['eps_trend']}){'✅' if f['eps_ok'] and f['eps_up'] else '❌'}"
                 f"{debt_str}  5일:{price.get('ch5',0):+.1f}%  20일:{price.get('ch20',0):+.1f}%"
+                f"  [{price.get('vol_char','혼조 ⚪')}]"
                 f"{div_str}{'  ⭐' if f['recommended'] else ''}"
             )
         except Exception: print("오류"); traceback.print_exc()
