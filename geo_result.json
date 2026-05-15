@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-15 19:28",
-  "news_count": 101,
-  "intl_count": 56,
+  "updated": "2026-05-15 23:15",
+  "news_count": 100,
+  "intl_count": 55,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 30,
+    "BBC World": 29,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -13,30 +13,30 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Xi takes Trump on tour of Communist Party's seat of power as China visit ends",
+    "Trump and Xi conclude 'very successful' talks but no deals confirmed",
     "CIA chief visits Cuba as energy crisis worsens",
     "New outbreak of Ebola kills 65 in eastern DR Congo",
     "Five Italians die during cave scuba dive in Maldives",
-    "India's Adanis agree to pay $18m to settle civil fraud case in the US"
+    "Boy, 15, shot dead in France as prosecutors blame drug war"
   ],
   "categories": {
     "geopolitical": {
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "Ukraine rescuers pull dead from rubble of Kyi...",
+      "summary": "'Floating armoury' ship reportedly seized by ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 10,
-      "score": 14.4
+      "matched": 7,
+      "score": 10.0
     },
     "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "Australia has some of the world's costliest h...",
+      "summary": "Philippines vows to hand fugitive senator to ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "matched": 2,
+      "score": 2.9
     },
     "disaster": {
       "level": "안전",
@@ -53,8 +53,8 @@
       "signal": "⚠️",
       "summary": "'Pretty miraculous' - 11 rescued after pilot ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 10,
-      "score": 2.9
+      "matched": 6,
+      "score": 1.5
     },
     "policy": {
       "level": "안전",
