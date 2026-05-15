@@ -1,15 +1,15 @@
 {
-  "expiry_date": "2026-05-14",
-  "d_day": 0,
-  "updated": "2026-05-14 18:38",
+  "expiry_date": "2026-06-11",
+  "d_day": 27,
+  "updated": "2026-05-15 10:22",
   "deadline_time": "15:20",
-  "deadline_str": "오늘 만기 마감 완료 (15:20)",
+  "deadline_str": "",
   "guard": {
-    "allow_new_longterm": false,
-    "allow_new_daytrend": false,
-    "sell_priority": true,
-    "score_penalty": 3,
-    "pos_mult_adj": -0.5,
-    "note": "만기일 14:00 이후 — 익절 우선, 신규매수 금지"
+    "allow_new_longterm": true,
+    "allow_new_daytrend": true,
+    "sell_priority": false,
+    "score_penalty": 0,
+    "pos_mult_adj": 0.0,
+    "note": "만기일 D-27 — 영향 없음"
   }
 }
