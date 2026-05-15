@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-15 15:58",
+  "updated": "2026-05-15 19:28",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,27 +13,27 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Flattery and fanfare as Trump welcomed to China - but thorny issues remain",
-    "'Floating armoury' ship reportedly seized by Iran",
+    "Xi takes Trump on tour of Communist Party's seat of power as China visit ends",
     "CIA chief visits Cuba as energy crisis worsens",
-    "Ukraine rescuers pull dead from rubble of Kyiv flats after massive Russian strikes",
-    "Giant new dinosaur identified from fossils in Thailand"
+    "New outbreak of Ebola kills 65 in eastern DR Congo",
+    "Five Italians die during cave scuba dive in Maldives",
+    "India's Adanis agree to pay $18m to settle civil fraud case in the US"
   ],
   "categories": {
     "geopolitical": {
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "'Floating armoury' ship reportedly seized by ...",
+      "summary": "Ukraine rescuers pull dead from rubble of Kyi...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 14,
-      "score": 21.4
+      "matched": 10,
+      "score": 14.4
     },
     "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "Gunshots fired in Philippine Senate where law...",
+      "summary": "Australia has some of the world's costliest h...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 1,
       "score": 1.5
@@ -51,19 +51,19 @@
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "'Floating armoury' ship reportedly seized by ...",
+      "summary": "'Pretty miraculous' - 11 rescued after pilot ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 15,
-      "score": 7.3
+      "matched": 10,
+      "score": 2.9
     },
     "policy": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "⚠️",
-      "summary": "[프로필] 문성요 새만금개발청장 …도시개발 분야 정통 관료",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "level": "안전",
+      "color": "green",
+      "signal": "✅",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
