@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-16 06:07",
+  "updated": "2026-05-16 07:58",
   "news_count": 64,
   "intl_count": 49,
   "domestic_count": 15,
@@ -14,10 +14,10 @@
   },
   "news_sample": [
     "Trump warns Taiwan against declaring independence, hours after summit with China's Xi",
-    "Trump and Xi conclude 'very successful' talks but no deals confirmed",
+    "Trump and Xi conclude 'very successful' talks but few deals confirmed",
+    "Trump says 20-year nuclear programme suspension by Iran would be enough",
     "Israel and Lebanon agree to extend ceasefire, US state department says",
-    "Prisoner swap goes ahead as Kyiv mourns 24 killed in Russian strike on flats",
-    "AI vigilante trap snares alleged paedophile ex-teacher in France"
+    "Prisoner swap goes ahead as Kyiv mourns 24 killed in Russian strike on flats"
   ],
   "categories": {
     "geopolitical": {
@@ -26,8 +26,8 @@
       "signal": "⚠️",
       "summary": "Trump warns Taiwan against declaring independ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 11,
-      "score": 17.0
+      "matched": 13,
+      "score": 20.0
     },
     "macro": {
       "level": "안전",
@@ -51,10 +51,10 @@
       "level": "신호",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "Trump calls journalist’s Iran reporting ‘trea...",
+      "summary": "Trump says 20-year nuclear programme suspensi...",
       "action": "관련 지표 추가 확인 후 판단",
-      "matched": 5,
-      "score": 7.0
+      "matched": 6,
+      "score": 8.5
     },
     "policy": {
       "level": "안전",
