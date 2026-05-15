@@ -22,6 +22,10 @@ from defense import (
     check_stock_crash,
     check_gap_down,
     check_circuit_breaker,
+    add_to_watchlist,
+    get_watchlist,
+    remove_from_watchlist,
+    check_market_adjusted_stop,
 )
 from analytics import analyze_before_buy
 
@@ -297,13 +301,30 @@ def process_sells(token, data, ptype, partial_sells, stop_loss, time_stop, now):
                 time.sleep(0.3)
                 continue
 
-        # ── 손절 (ATR 조정 sl 적용) ───────────────────────────────────
+        # ── 손절 (시장 하락 시 우량종목 완화 적용) ───────────────────
         if pnl <= sl:
+            stop_check = check_market_adjusted_stop(
+                pnl       = pnl,
+                base_sl   = sl,
+                grade     = p.get("grade", "C"),
+                kospi_ch5 = float(data.get("_kospi_ch5", 0)),
+                regime    = data.get("_regime", "UNKNOWN"),
+            )
+            if not stop_check["should_stop"]:
+                # 손절 유예 — 손절선 완화값으로 업데이트
+                p["sl"] = stop_check.get("relaxed_sl", sl)
+                print(f"    ⏸ {p['name']} 손절 유예: {stop_check['reason']}")
+                continue
             ok, msg = order(token, ticker, remaining_qty, "sell")
             if ok:
                 profit = (cur_price - buy_price) * remaining_qty
                 log_trade(data, ticker, p, cur_price, remaining_qty, "손절", now, ptype)
                 record_trade_result(is_loss=True, amount=profit, ticker=ticker)
+                # A/B 등급이고 시장 하락이면 watchlist 등록 (재매수 후보)
+                if p.get("grade") in ("A", "B") and stop_check.get("market_driven"):
+                    add_to_watchlist(ticker, p["name"], cur_price,
+                                     p.get("grade", "B"), "시장하락손절")
+                    print(f"    📋 {p['name']} Watchlist 등록 (재매수 후보)")
                 port["used"] = max(0, port["used"] - p.get("amount", 0))
                 del positions[ticker]
                 log = f"📤 **[{ptype}] 손절** {p['name']} ({pnl_str} / 설정:{sl*100:.1f}%) | {profit:+,}원"
@@ -492,6 +513,13 @@ def process_buys(token, data, stocks, ptype, max_pos, budget, partial_sells,
             print(f"    {name} — 방어차단: {d_check['reason']}, 스킵")
             continue
 
+        # ── Watchlist 종목이면 최소 점수 1점 완화 ───────────────────────
+        watchlist = get_watchlist()
+        is_watchlist = ticker in watchlist
+        score_bonus  = 1 if is_watchlist else 0
+        if is_watchlist:
+            print(f"    📋 {name} — Watchlist 재매수 후보 (이전 손절가 {watchlist[ticker]['sold_price']:,}원)")
+
         cur_price, open_, high, low, prev_close = get_price(token, ticker)
         if cur_price == 0:
             print(f"    {name} — 현재가 조회 실패, 스킵"); continue
@@ -511,8 +539,15 @@ def process_buys(token, data, stocks, ptype, max_pos, budget, partial_sells,
             regime_tp    = regime_params["long_sells_pct"] if ptype == "long" else regime_params["short_sells_pct"],
             base_capital = LONG_BUDGET if ptype == "long" else SHORT_BUDGET,
             effective_mult = pos_mult,
-            min_score    = 4 if ptype == "short" else 5,
+            min_score    = max(1, (4 if ptype == "short" else 5) - score_bonus),
         )
+        if not analysis["ok"]:
+            print(f"    {name} — 분석 스킵: {analysis['reason']}")
+            continue
+
+        # watchlist 재매수 확정 시 watchlist에서 제거
+        if is_watchlist:
+            remove_from_watchlist(ticker)
         if not analysis["ok"]:
             print(f"    {name} — 분석 스킵: {analysis['reason']}")
             continue
@@ -704,6 +739,10 @@ def main():
     data = load_positions()
 
     # ── 매도 체크 (국면별 동적 손절/익절 적용) ────────────────────────
+    # ── 매도 체크 전 국면/KOSPI 정보 data에 주입 (손절 완화 판단용) ──
+    data["_kospi_ch5"] = kospi_ch5
+    data["_regime"]    = regime.get("regime", "UNKNOWN")
+
     process_sells(token, data, "long",
                   regime_params["long_sells"],
                   regime_params["long_sl"],
@@ -712,6 +751,14 @@ def main():
                   regime_params["short_sells"],
                   regime_params["short_sl"],
                   SHORT_TIME_STOP, now)
+
+    # ── Watchlist 재매수 후보 출력 ─────────────────────────────────────
+    watchlist = get_watchlist()
+    if watchlist:
+        print(f"\n  📋 재매수 Watchlist ({len(watchlist)}종목) — 다음 매수 시 우선 검토:")
+        for t, info in watchlist.items():
+            print(f"    {info['grade']}등급 {info['name']}({t}) | "
+                  f"손절가 {info['sold_price']:,}원 | {info['reason']}")
 
     # ── 매수 ──────────────────────────────────────────────────────────
     if not allow_buy:
