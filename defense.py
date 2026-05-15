@@ -508,5 +508,109 @@ if __name__ == "__main__":
             remove_from_blacklist(ticker)
             print(f"블랙리스트 해제: {ticker}")
 
+    elif cmd == "watchlist":
+        wl = get_watchlist()
+        if wl:
+            print("\n  재매수 watchlist:")
+            for t, info in wl.items():
+                print(f"    {info['grade']}등급 {info['name']}({t}) | "
+                      f"손절가 {info['sold_price']:,}원 | 사유: {info['reason']}")
+        else:
+            print("  watchlist 없음")
+
     else:
-        print("사용법: python defense.py [status|resume|blacklist|unblacklist]")
+        print("사용법: python defense.py [status|resume|blacklist|unblacklist|watchlist]")
+
+
+# ════════════════════════════════════════════════════════════════════════
+# ⑩ 재매수 Watchlist — 시장 하락으로 손절된 우량 종목 재진입 후보
+# ════════════════════════════════════════════════════════════════════════
+def add_to_watchlist(ticker: str, name: str, sold_price: float,
+                     grade: str, reason: str):
+    """
+    A/B 등급 종목이 시장 하락으로 손절됐을 때 재매수 후보로 등록.
+    다음 매수 사이클에서 우선 검토.
+    """
+    if grade not in ("A", "B"):
+        return
+    state = load_state()
+    state.setdefault("watchlist", {})[ticker] = {
+        "name":        name,
+        "sold_price":  sold_price,
+        "grade":       grade,
+        "reason":      reason,
+        "added_at":    datetime.now().isoformat(),
+    }
+    _log_event(state, f"Watchlist 추가: {name}({ticker}) {grade}등급 {reason}")
+    save_state(state)
+
+
+def remove_from_watchlist(ticker: str):
+    state = load_state()
+    if ticker in state.get("watchlist", {}):
+        del state["watchlist"][ticker]
+        save_state(state)
+
+
+def get_watchlist() -> dict:
+    """현재 watchlist 반환. 7일 지난 항목 자동 제거."""
+    state = load_state()
+    wl    = state.get("watchlist", {})
+    now   = datetime.now()
+    clean = {}
+    for t, info in wl.items():
+        try:
+            added = datetime.fromisoformat(info["added_at"])
+            if (now - added).days <= 7:
+                clean[t] = info
+        except Exception:
+            pass
+    if len(clean) != len(wl):
+        state["watchlist"] = clean
+        save_state(state)
+    return clean
+
+
+# ════════════════════════════════════════════════════════════════════════
+# ⑪ 시장 하락 시 손절 완화 판단
+# ════════════════════════════════════════════════════════════════════════
+def check_market_adjusted_stop(
+    pnl:        float,    # 개별 종목 현재 수익률 (예: -0.07)
+    base_sl:    float,    # 기본 손절선 (예: -0.10)
+    grade:      str,      # 종목 등급
+    kospi_ch5:  float,    # KOSPI 5일 수익률 (예: -4.2)
+    regime:     str,      # 시장 국면 ("BULL"/"SIDEWAYS"/"BEAR"/"UNKNOWN")
+) -> dict:
+    """
+    시장 전체 하락장에서 우량 종목(A/B)이 억울하게 손절되는 것을 방지.
+
+    적용 조건:
+      - A 또는 B 등급
+      - KOSPI 5일 -3% 이상 하락
+      - 국면이 BULL이 아님 (시장 하락 중)
+
+    완화 방식:
+      손절선을 1.5배 확장 (예: -10% → -15%)
+      단, 절대 손실 -20% 초과 시 무조건 손절 (무한 버티기 방지)
+    """
+    hard_limit = -0.20   # 어떤 상황에서도 이 이상 손실 허용 안 함
+
+    if pnl <= hard_limit:
+        return {"should_stop": True, "reason": f"절대 손실 한도 초과 ({pnl:.1%})"}
+
+    if grade in ("A", "B") and kospi_ch5 <= -3.0 and regime != "BULL":
+        relaxed_sl = base_sl * 1.5
+        relaxed_sl = max(relaxed_sl, hard_limit)
+        if pnl > relaxed_sl:
+            return {
+                "should_stop": False,
+                "reason": (f"시장하락 손절 유예 — {grade}등급 KOSPI{kospi_ch5:.1f}% "
+                           f"완화손절 {relaxed_sl:.1%} (기본 {base_sl:.1%})"),
+                "relaxed_sl": relaxed_sl,
+                "market_driven": True,
+            }
+
+    if pnl <= base_sl:
+        return {"should_stop": True, "reason": f"기본 손절 ({pnl:.1%} ≤ {base_sl:.1%})"}
+
+    return {"should_stop": False, "reason": "정상 보유"}
