@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-16 15:25",
-  "news_count": 94,
-  "intl_count": 49,
+  "updated": "2026-05-16 18:44",
+  "news_count": 100,
+  "intl_count": 55,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 23,
+    "BBC World": 29,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -13,21 +13,21 @@
     "StockPlus": 14
   },
   "news_sample": [
+    "Senior IS leader killed by US and Nigerian forces",
     "Trump warns Taiwan against declaring independence, hours after summit with China's Xi",
     "Trump and Xi conclude 'very successful' talks but few deals confirmed",
-    "Trump says 20-year nuclear programme suspension by Iran would be enough",
-    "Lebanon says six killed in Israeli strike as US announces ceasefire extension",
-    "Prisoner swap goes ahead as Kyiv mourns 24 killed in Russian strike on flats"
+    "Switzerland to open secret files on Auschwitz 'Angel of Death' Mengele",
+    "Man killed by 13ft great white shark in Western Australia"
   ],
   "categories": {
     "geopolitical": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "⚠️",
+      "level": "경고",
+      "color": "orange",
+      "signal": "🟠",
       "summary": "Trump warns Taiwan against declaring independ...",
-      "action": "신규 매수 자제 / 추이 관찰",
+      "action": "포지션 축소 검토 / 모니터링 강화",
       "matched": 13,
-      "score": 20.0
+      "score": 1.5
     },
     "macro": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "안전",
-    "color": "green",
-    "summary": "전반적 안정. 정상 운용 유지",
-    "action": "정상 운용 유지"
+    "level": "신호",
+    "color": "yellow",
+    "summary": "주의 필요: 지정학적 충돌",
+    "action": "관련 지표 추가 확인 후 판단"
   }
 }
