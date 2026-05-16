@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-16 20:04",
+  "updated": "2026-05-16 22:40",
   "news_count": 100,
   "intl_count": 55,
   "domestic_count": 45,
@@ -17,17 +17,17 @@
     "Trump warns Taiwan against declaring independence, hours after summit with China's Xi",
     "Trump and Xi conclude 'very successful' talks but few deals confirmed",
     "Switzerland to open secret files on Auschwitz 'Angel of Death' Mengele",
-    "Man killed by 13ft great white shark in Western Australia"
+    "Rescue diver dies during search for bodies of Italians who drowned in Maldives caves"
   ],
   "categories": {
     "geopolitical": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
+      "level": "주의",
+      "color": "yellow",
+      "signal": "⚠️",
       "summary": "Trump warns Taiwan against declaring independ...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 14,
-      "score": 1.5
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 11,
+      "score": 17.5
     },
     "macro": {
       "level": "안전",
@@ -48,28 +48,28 @@
       "score": 0
     },
     "trade": {
-      "level": "신호",
+      "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
       "summary": "Trump says 20-year nuclear programme suspensi...",
-      "action": "관련 지표 추가 확인 후 판단",
-      "matched": 4,
-      "score": 5.7
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 5,
+      "score": 3.0
     },
     "policy": {
-      "level": "안전",
-      "color": "green",
-      "signal": "✅",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "⚠️",
+      "summary": "[프로야구 창원전적] NC 9-2 키움",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 1,
+      "score": 1.5
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
-    "summary": "주의 필요: 지정학적 충돌",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "level": "안전",
+    "color": "green",
+    "summary": "전반적 안정. 정상 운용 유지",
+    "action": "정상 운용 유지"
   }
 }
