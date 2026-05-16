@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-17 00:00",
-  "news_count": 96,
-  "intl_count": 51,
+  "updated": "2026-05-17 02:02",
+  "news_count": 97,
+  "intl_count": 52,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 25,
+    "BBC World": 26,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -26,8 +26,8 @@
       "signal": "⚠️",
       "summary": "Trump warns Taiwan against declaring independ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 8,
-      "score": 11.6
+      "matched": 7,
+      "score": 10.1
     },
     "macro": {
       "level": "안전",
@@ -51,7 +51,7 @@
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "Iran war day 78: Trump, Tehran signal talks a...",
+      "summary": "Iran warns of readiness for war and economic ...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 5,
       "score": 4.5
