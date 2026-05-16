@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-16 07:58",
+  "updated": "2026-05-16 12:32",
   "news_count": 64,
   "intl_count": 49,
   "domestic_count": 15,
@@ -16,7 +16,7 @@
     "Trump warns Taiwan against declaring independence, hours after summit with China's Xi",
     "Trump and Xi conclude 'very successful' talks but few deals confirmed",
     "Trump says 20-year nuclear programme suspension by Iran would be enough",
-    "Israel and Lebanon agree to extend ceasefire, US state department says",
+    "Lebanon says six killed in Israeli strike as US announces ceasefire extension",
     "Prisoner swap goes ahead as Kyiv mourns 24 killed in Russian strike on flats"
   ],
   "categories": {
@@ -26,8 +26,8 @@
       "signal": "⚠️",
       "summary": "Trump warns Taiwan against declaring independ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 13,
-      "score": 20.0
+      "matched": 14,
+      "score": 21.4
     },
     "macro": {
       "level": "안전",
