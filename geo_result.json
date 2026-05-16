@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-17 02:02",
+  "updated": "2026-05-17 04:10",
   "news_count": 97,
   "intl_count": 52,
   "domestic_count": 45,
@@ -13,21 +13,21 @@
     "StockPlus": 14
   },
   "news_sample": [
+    "Taiwan insists it is independent after Trump warning",
     "Senior IS leader killed in joint operation, US and Nigeria say",
     "Rescue diver dies during search for bodies of Italians who drowned in Maldives caves",
-    "US planning to charge ex-Cuban leader Raúl Castro",
-    "Toddlers among more than 50 schoolchildren kidnapped in Nigeria",
-    "Trump warns Taiwan against declaring independence, hours after summit with China's Xi"
+    "Whale found dead near Danish island after German rescue operation",
+    "US planning to charge ex-Cuban leader Raúl Castro"
   ],
   "categories": {
     "geopolitical": {
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "Trump warns Taiwan against declaring independ...",
+      "summary": "Taiwan insists it is independent after Trump ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 7,
-      "score": 10.1
+      "matched": 6,
+      "score": 8.8
     },
     "macro": {
       "level": "안전",
@@ -53,8 +53,8 @@
       "signal": "⚠️",
       "summary": "Iran warns of readiness for war and economic ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 5,
-      "score": 4.5
+      "matched": 3,
+      "score": 3.0
     },
     "policy": {
       "level": "안전",
