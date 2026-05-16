@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-17 04:10",
-  "news_count": 97,
-  "intl_count": 52,
+  "updated": "2026-05-17 05:54",
+  "news_count": 95,
+  "intl_count": 50,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 26,
+    "BBC World": 24,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -14,10 +14,10 @@
   },
   "news_sample": [
     "Taiwan insists it is independent after Trump warning",
+    "Man drives car into pedestrians in Italy, injuring eight",
     "Senior IS leader killed in joint operation, US and Nigeria say",
     "Rescue diver dies during search for bodies of Italians who drowned in Maldives caves",
-    "Whale found dead near Danish island after German rescue operation",
-    "US planning to charge ex-Cuban leader Raúl Castro"
+    "Whale found dead near Danish island after German rescue operation"
   ],
   "categories": {
     "geopolitical": {
@@ -26,17 +26,17 @@
       "signal": "⚠️",
       "summary": "Taiwan insists it is independent after Trump ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 6,
-      "score": 8.8
+      "matched": 5,
+      "score": 7.3
     },
     "macro": {
-      "level": "안전",
-      "color": "green",
-      "signal": "✅",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "⚠️",
+      "summary": "[고금리 온다] '이자이익' 기대에 4대금융 올해 순익 전망 20조 육박",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 5,
+      "score": 7.5
     },
     "disaster": {
       "level": "안전",
@@ -48,13 +48,13 @@
       "score": 0
     },
     "trade": {
-      "level": "주의",
+      "level": "신호",
       "color": "yellow",
       "signal": "⚠️",
       "summary": "Iran warns of readiness for war and economic ...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 3,
-      "score": 3.0
+      "action": "관련 지표 추가 확인 후 판단",
+      "matched": 1,
+      "score": 1.4
     },
     "policy": {
       "level": "안전",
