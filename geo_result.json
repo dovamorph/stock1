@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-16 22:40",
-  "news_count": 100,
-  "intl_count": 55,
+  "updated": "2026-05-17 00:00",
+  "news_count": 96,
+  "intl_count": 51,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 29,
+    "BBC World": 25,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -14,10 +14,10 @@
   },
   "news_sample": [
     "Senior IS leader killed in joint operation, US and Nigeria say",
-    "Trump warns Taiwan against declaring independence, hours after summit with China's Xi",
-    "Trump and Xi conclude 'very successful' talks but few deals confirmed",
-    "Switzerland to open secret files on Auschwitz 'Angel of Death' Mengele",
-    "Rescue diver dies during search for bodies of Italians who drowned in Maldives caves"
+    "Rescue diver dies during search for bodies of Italians who drowned in Maldives caves",
+    "US planning to charge ex-Cuban leader Raúl Castro",
+    "Toddlers among more than 50 schoolchildren kidnapped in Nigeria",
+    "Trump warns Taiwan against declaring independence, hours after summit with China's Xi"
   ],
   "categories": {
     "geopolitical": {
@@ -26,8 +26,8 @@
       "signal": "⚠️",
       "summary": "Trump warns Taiwan against declaring independ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 11,
-      "score": 17.5
+      "matched": 8,
+      "score": 11.6
     },
     "macro": {
       "level": "안전",
@@ -51,19 +51,19 @@
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "Trump says 20-year nuclear programme suspensi...",
+      "summary": "Iran war day 78: Trump, Tehran signal talks a...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 5,
-      "score": 3.0
+      "score": 4.5
     },
     "policy": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "⚠️",
-      "summary": "[프로야구 창원전적] NC 9-2 키움",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "level": "안전",
+      "color": "green",
+      "signal": "✅",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
