@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-17 05:54",
+  "updated": "2026-05-17 07:52",
   "news_count": 95,
   "intl_count": 50,
   "domestic_count": 45,
@@ -27,16 +27,16 @@
       "summary": "Taiwan insists it is independent after Trump ...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 5,
-      "score": 7.3
+      "score": 7.2
     },
     "macro": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "⚠️",
-      "summary": "[고금리 온다] '이자이익' 기대에 4대금융 올해 순익 전망 20조 육박",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 5,
-      "score": 7.5
+      "level": "안전",
+      "color": "green",
+      "signal": "✅",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     },
     "disaster": {
       "level": "안전",
