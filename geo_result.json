@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-17 20:11",
+  "updated": "2026-05-17 22:39",
   "news_count": 96,
   "intl_count": 51,
   "domestic_count": 45,
@@ -21,13 +21,13 @@
   ],
   "categories": {
     "geopolitical": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "⚠️",
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
       "summary": "Taiwan insists it is independent after Trump ...",
-      "action": "신규 매수 자제 / 추이 관찰",
+      "action": "포지션 현금화 고려 / 즉각 대응",
       "matched": 10,
-      "score": 14.5
+      "score": 1.5
     },
     "macro": {
       "level": "주의",
@@ -53,23 +53,23 @@
       "signal": "⚠️",
       "summary": "Al Jazeera reports from Strait of Hormuz on I...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 6,
+      "matched": 5,
       "score": 1.5
     },
     "policy": {
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "UAE원전, 드론 공격에 화재…\"안전에 영향 없어\"",
+      "summary": "'한국인 근무' UAE원전, 드론 피격화재…한전 \"직원피해 없어\"(종합2보)",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 2,
       "score": 3.0
     }
   },
   "overall": {
-    "level": "안전",
-    "color": "green",
-    "summary": "전반적 안정. 정상 운용 유지",
-    "action": "정상 운용 유지"
+    "level": "위험",
+    "color": "red",
+    "summary": "주의 필요: 지정학적 충돌",
+    "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
