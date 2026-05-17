@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-17 22:39",
-  "news_count": 96,
-  "intl_count": 51,
+  "updated": "2026-05-18 00:00",
+  "news_count": 97,
+  "intl_count": 52,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 25,
+    "BBC World": 26,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -13,21 +13,21 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "WHO declares Ebola outbreak in DR Congo a global health emergency",
+    "WHO declares Ebola outbreak in DR Congo an international emergency",
+    "How worrying is the Ebola outbreak in DR Congo?",
     "Large-scale Ukrainian drone attack kills three in Moscow region, says Russia",
     "Man drives car into pedestrians in Italy, injuring eight",
-    "Hezbollah drone strike videos show evolving tactics against Israel",
-    "Taiwan insists it is independent after Trump warning"
+    "Hezbollah drone strike videos show evolving tactics against Israel"
   ],
   "categories": {
     "geopolitical": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
+      "level": "주의",
+      "color": "yellow",
+      "signal": "⚠️",
       "summary": "Taiwan insists it is independent after Trump ...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
+      "action": "신규 매수 자제 / 추이 관찰",
       "matched": 10,
-      "score": 1.5
+      "score": 14.5
     },
     "macro": {
       "level": "주의",
@@ -53,23 +53,23 @@
       "signal": "⚠️",
       "summary": "Al Jazeera reports from Strait of Hormuz on I...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 5,
-      "score": 1.5
+      "matched": 9,
+      "score": 10.5
     },
     "policy": {
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "'한국인 근무' UAE원전, 드론 피격화재…한전 \"직원피해 없어\"(종합2보)",
+      "summary": "UAE \"원전 공격한 드론, 서쪽 국경 방향서 진입\"",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 2,
-      "score": 3.0
+      "matched": 3,
+      "score": 4.5
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
-    "summary": "주의 필요: 지정학적 충돌",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "level": "안전",
+    "color": "green",
+    "summary": "전반적 안정. 정상 운용 유지",
+    "action": "정상 운용 유지"
   }
 }
