@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-17 15:47",
-  "news_count": 95,
-  "intl_count": 50,
+  "updated": "2026-05-17 18:49",
+  "news_count": 96,
+  "intl_count": 51,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 24,
+    "BBC World": 25,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -16,8 +16,8 @@
     "WHO declares Ebola outbreak in DR Congo a global health emergency",
     "Hezbollah drone strike videos show evolving tactics against Israel",
     "Taiwan insists it is independent after Trump warning",
-    "Man drives car into pedestrians in Italy, injuring eight",
-    "Senior IS leader killed in joint operation, US and Nigeria say"
+    "Large-scale Ukrainian drone attack kills three in Moscow region, says Russia",
+    "Man drives car into pedestrians in Italy, injuring eight"
   ],
   "categories": {
     "geopolitical": {
@@ -26,17 +26,17 @@
       "signal": "⚠️",
       "summary": "Taiwan insists it is independent after Trump ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 6,
-      "score": 8.7
+      "matched": 13,
+      "score": 18.9
     },
     "macro": {
-      "level": "안전",
-      "color": "green",
-      "signal": "✅",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "⚠️",
+      "summary": "Al Jazeera reports from Strait of Hormuz on I...",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 2,
+      "score": 2.8
     },
     "disaster": {
       "level": "안전",
@@ -51,19 +51,19 @@
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "Iraq’s new PM Ali al-Zaidi formally takes ove...",
+      "summary": "Al Jazeera reports from Strait of Hormuz on I...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 3,
+      "matched": 7,
       "score": 1.5
     },
     "policy": {
-      "level": "안전",
-      "color": "green",
-      "signal": "✅",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "⚠️",
+      "summary": "[프로야구 수원전적] kt 8-7 한화",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 1,
+      "score": 1.5
     }
   },
   "overall": {
