@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-17 07:52",
+  "updated": "2026-05-17 12:50",
   "news_count": 95,
   "intl_count": 50,
   "domestic_count": 45,
@@ -13,11 +13,11 @@
     "StockPlus": 14
   },
   "news_sample": [
+    "Hezbollah drone strike videos show evolving tactics against Israel",
     "Taiwan insists it is independent after Trump warning",
     "Man drives car into pedestrians in Italy, injuring eight",
     "Senior IS leader killed in joint operation, US and Nigeria say",
-    "Rescue diver dies during search for bodies of Italians who drowned in Maldives caves",
-    "Whale found dead near Danish island after German rescue operation"
+    "Rescue diver dies during search for bodies of Italians who drowned in Maldives caves"
   ],
   "categories": {
     "geopolitical": {
@@ -51,10 +51,10 @@
       "level": "신호",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "Iran warns of readiness for war and economic ...",
+      "summary": "Iraq’s new PM Ali al-Zaidi formally takes ove...",
       "action": "관련 지표 추가 확인 후 판단",
-      "matched": 1,
-      "score": 1.4
+      "matched": 2,
+      "score": 2.8
     },
     "policy": {
       "level": "안전",
