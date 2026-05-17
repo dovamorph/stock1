@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-18 04:14",
+  "updated": "2026-05-18 05:58",
   "news_count": 98,
   "intl_count": 53,
   "domestic_count": 45,
@@ -26,8 +26,8 @@
       "signal": "⚠️",
       "summary": "Taiwan insists it is independent after Trump ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 12,
-      "score": 17.4
+      "matched": 17,
+      "score": 24.7
     },
     "macro": {
       "level": "안전",
@@ -51,16 +51,16 @@
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "Iranian civilians get defence training",
+      "summary": "‘Won’t be anything left’: Trump issues threat...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 12,
-      "score": 19.5
+      "matched": 6,
+      "score": 9.0
     },
     "policy": {
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "UAE원전, 드론 피격화재…한전 \"파견 직원 피해 없어\"(종합3보)",
+      "summary": "사우디, UAE 원전 드론 피격에 \"역내 안보 위협\"",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 2,
       "score": 3.0
