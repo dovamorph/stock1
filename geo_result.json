@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-17 12:50",
+  "updated": "2026-05-17 15:47",
   "news_count": 95,
   "intl_count": 50,
   "domestic_count": 45,
@@ -13,11 +13,11 @@
     "StockPlus": 14
   },
   "news_sample": [
+    "WHO declares Ebola outbreak in DR Congo a global health emergency",
     "Hezbollah drone strike videos show evolving tactics against Israel",
     "Taiwan insists it is independent after Trump warning",
     "Man drives car into pedestrians in Italy, injuring eight",
-    "Senior IS leader killed in joint operation, US and Nigeria say",
-    "Rescue diver dies during search for bodies of Italians who drowned in Maldives caves"
+    "Senior IS leader killed in joint operation, US and Nigeria say"
   ],
   "categories": {
     "geopolitical": {
@@ -26,8 +26,8 @@
       "signal": "⚠️",
       "summary": "Taiwan insists it is independent after Trump ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 5,
-      "score": 7.2
+      "matched": 6,
+      "score": 8.7
     },
     "macro": {
       "level": "안전",
@@ -48,13 +48,13 @@
       "score": 0
     },
     "trade": {
-      "level": "신호",
+      "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
       "summary": "Iraq’s new PM Ali al-Zaidi formally takes ove...",
-      "action": "관련 지표 추가 확인 후 판단",
-      "matched": 2,
-      "score": 2.8
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 3,
+      "score": 1.5
     },
     "policy": {
       "level": "안전",
