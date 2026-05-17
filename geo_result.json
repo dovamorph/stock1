@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-18 00:00",
-  "news_count": 97,
-  "intl_count": 52,
+  "updated": "2026-05-18 02:00",
+  "news_count": 98,
+  "intl_count": 53,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 26,
+    "BBC World": 27,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -16,8 +16,8 @@
     "WHO declares Ebola outbreak in DR Congo an international emergency",
     "How worrying is the Ebola outbreak in DR Congo?",
     "Large-scale Ukrainian drone attack kills three in Moscow region, says Russia",
-    "Man drives car into pedestrians in Italy, injuring eight",
-    "Hezbollah drone strike videos show evolving tactics against Israel"
+    "UAE reports strike near Abu Dhabi nuclear power plant",
+    "Man drives car into pedestrians in Italy, injuring eight"
   ],
   "categories": {
     "geopolitical": {
@@ -26,17 +26,17 @@
       "signal": "⚠️",
       "summary": "Taiwan insists it is independent after Trump ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 10,
-      "score": 14.5
+      "matched": 11,
+      "score": 15.9
     },
     "macro": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "⚠️",
-      "summary": "Al Jazeera reports from Strait of Hormuz on I...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 2,
-      "score": 2.8
+      "level": "안전",
+      "color": "green",
+      "signal": "✅",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     },
     "disaster": {
       "level": "안전",
@@ -51,16 +51,16 @@
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "Al Jazeera reports from Strait of Hormuz on I...",
+      "summary": "Iranian civilians get defence training",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 9,
-      "score": 10.5
+      "matched": 11,
+      "score": 15.0
     },
     "policy": {
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "UAE \"원전 공격한 드론, 서쪽 국경 방향서 진입\"",
+      "summary": "UAE원전, 드론 피격화재…한전 \"파견 직원 피해 없어\"(종합3보)",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 3,
       "score": 4.5
