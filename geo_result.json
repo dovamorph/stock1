@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-18 05:58",
+  "updated": "2026-05-18 07:56",
   "news_count": 98,
   "intl_count": 53,
   "domestic_count": 45,
@@ -21,22 +21,22 @@
   ],
   "categories": {
     "geopolitical": {
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
+      "summary": "Taiwan insists it is independent after Trump ...",
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 13,
+      "score": 1.5
+    },
+    "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "Taiwan insists it is independent after Trump ...",
+      "summary": "은행권 예금 금리 줄인상…'머니무브'에 고객 붙잡기 경쟁",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 17,
-      "score": 24.7
-    },
-    "macro": {
-      "level": "안전",
-      "color": "green",
-      "signal": "✅",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "matched": 2,
+      "score": 3.0
     },
     "disaster": {
       "level": "안전",
@@ -53,23 +53,23 @@
       "signal": "⚠️",
       "summary": "‘Won’t be anything left’: Trump issues threat...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 6,
-      "score": 9.0
+      "matched": 3,
+      "score": 1.5
     },
     "policy": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "⚠️",
-      "summary": "사우디, UAE 원전 드론 피격에 \"역내 안보 위협\"",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 2,
-      "score": 3.0
+      "level": "안전",
+      "color": "green",
+      "signal": "✅",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
-    "level": "안전",
-    "color": "green",
-    "summary": "전반적 안정. 정상 운용 유지",
-    "action": "정상 운용 유지"
+    "level": "위험",
+    "color": "red",
+    "summary": "주의 필요: 지정학적 충돌",
+    "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
