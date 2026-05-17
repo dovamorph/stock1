@@ -1,22 +1,22 @@
 {
-  "updated": "2026-05-18 04:50",
+  "updated": "2026-05-18 06:08",
   "indicators": {
     "bitcoin": {
       "label": "비트코인",
-      "value": 78417.0,
+      "value": 78217.0,
       "unit": "$",
-      "change": 286.0,
-      "change_pct": 0.37,
+      "change": 85.0,
+      "change_pct": 0.11,
       "signal": "🟡",
-      "desc": "$78,417"
+      "desc": "$78,217"
     },
     "usdkrw": {
       "label": "USD/KRW",
       "value": 1498.0,
       "unit": "원",
-      "change": 4.4,
-      "change_pct": 0.3,
-      "signal": "🟡",
+      "change": 4.6,
+      "change_pct": 0.31,
+      "signal": "🔴",
       "desc": "안정"
     },
     "wti": {
