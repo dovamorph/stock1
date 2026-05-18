@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-18 07:56",
+  "updated": "2026-05-18 13:02",
   "news_count": 98,
   "intl_count": 53,
   "domestic_count": 45,
@@ -13,30 +13,30 @@
     "StockPlus": 14
   },
   "news_sample": [
+    "Trump warns 'clock is ticking' for Iran as peace progress stalls",
     "WHO declares Ebola outbreak in DR Congo an international emergency",
     "How worrying is the Ebola outbreak in DR Congo?",
-    "Large-scale Ukrainian drone attack kills three in Moscow region, says Russia",
-    "UAE reports strike near Abu Dhabi nuclear power plant",
-    "Man drives car into pedestrians in Italy, injuring eight"
+    "'This may be the last time you hear my voice': Political executions surge in Iran since start of war",
+    "Moment two fighter jets collide mid-air at US air show"
   ],
   "categories": {
     "geopolitical": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
-      "summary": "Taiwan insists it is independent after Trump ...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 13,
-      "score": 1.5
-    },
-    "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "은행권 예금 금리 줄인상…'머니무브'에 고객 붙잡기 경쟁",
+      "summary": "Trump warns 'clock is ticking' for Iran as pe...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 2,
-      "score": 3.0
+      "matched": 15,
+      "score": 21.6
+    },
+    "macro": {
+      "level": "안전",
+      "color": "green",
+      "signal": "✅",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     },
     "disaster": {
       "level": "안전",
@@ -48,28 +48,28 @@
       "score": 0
     },
     "trade": {
+      "level": "신호",
+      "color": "yellow",
+      "signal": "⚠️",
+      "summary": "Trump warns 'clock is ticking' for Iran as pe...",
+      "action": "관련 지표 추가 확인 후 판단",
+      "matched": 6,
+      "score": 8.6
+    },
+    "policy": {
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "‘Won’t be anything left’: Trump issues threat...",
+      "summary": "[쇼츠] 韓수출 1호 UAE 원전 드론 피격",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 3,
+      "matched": 1,
       "score": 1.5
-    },
-    "policy": {
-      "level": "안전",
-      "color": "green",
-      "signal": "✅",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
-    "summary": "주의 필요: 지정학적 충돌",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "level": "안전",
+    "color": "green",
+    "summary": "전반적 안정. 정상 운용 유지",
+    "action": "정상 운용 유지"
   }
 }
