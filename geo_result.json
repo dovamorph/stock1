@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-18 13:02",
-  "news_count": 98,
-  "intl_count": 53,
+  "updated": "2026-05-18 19:12",
+  "news_count": 101,
+  "intl_count": 56,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 27,
+    "BBC World": 30,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -14,10 +14,10 @@
   },
   "news_sample": [
     "Trump warns 'clock is ticking' for Iran as peace progress stalls",
-    "WHO declares Ebola outbreak in DR Congo an international emergency",
-    "How worrying is the Ebola outbreak in DR Congo?",
-    "'This may be the last time you hear my voice': Political executions surge in Iran since start of war",
-    "Moment two fighter jets collide mid-air at US air show"
+    "Israeli forces boarding Gaza-bound flotilla near Cyprus, activists say",
+    "Strike over high fuel prices paralyses transport in Kenya",
+    "Driver of crashed train tested positive for drugs, Thai police say",
+    "WHO declares Ebola outbreak in DR Congo an international emergency"
   ],
   "categories": {
     "geopolitical": {
@@ -26,17 +26,17 @@
       "signal": "⚠️",
       "summary": "Trump warns 'clock is ticking' for Iran as pe...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 15,
-      "score": 21.6
+      "matched": 18,
+      "score": 26.1
     },
     "macro": {
-      "level": "안전",
-      "color": "green",
-      "signal": "✅",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "⚠️",
+      "summary": "은행권 예금 금리 줄인상…'머니무브'에 고객 붙잡기 경쟁(종합)",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 1,
+      "score": 1.5
     },
     "disaster": {
       "level": "안전",
@@ -48,28 +48,28 @@
       "score": 0
     },
     "trade": {
-      "level": "신호",
-      "color": "yellow",
-      "signal": "⚠️",
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
       "summary": "Trump warns 'clock is ticking' for Iran as pe...",
-      "action": "관련 지표 추가 확인 후 판단",
-      "matched": 6,
-      "score": 8.6
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 8,
+      "score": 1.4
     },
     "policy": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "⚠️",
-      "summary": "[쇼츠] 韓수출 1호 UAE 원전 드론 피격",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "level": "안전",
+      "color": "green",
+      "signal": "✅",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
-    "level": "안전",
-    "color": "green",
-    "summary": "전반적 안정. 정상 운용 유지",
-    "action": "정상 운용 유지"
+    "level": "주의",
+    "color": "yellow",
+    "summary": "주의 필요: 보호무역·공급망",
+    "action": "신규 매수 자제 / 추이 관찰"
   }
 }
