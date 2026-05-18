@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-19 03:03",
+  "updated": "2026-05-19 06:15",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,20 +13,20 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "At least 100 deaths reported in Ebola outbreak in DR Congo as six Americans exposed",
+    "Trump says he called off new Iran attack at request of Gulf states",
+    "At least 100 dead in Ebola outbreak in DR Congo, official says",
     "What is Ebola and why is stopping this outbreak so difficult?",
-    "Death toll from Israeli strikes on Lebanon passes 3,000, officials say",
-    "Judge rules gun and writings are admissible in Luigi Mangione's New York murder trial",
-    "Two men arrested over stunt at enclosure of famous monkey Punch"
+    "Selling children to survive: Afghan fathers forced to make impossible choices",
+    "Death toll from Israeli strikes on Lebanon passes 3,000, officials say"
   ],
   "categories": {
     "geopolitical": {
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "Israeli forces board Gaza-bound flotilla near...",
+      "summary": "Trump says he called off new Iran attack at r...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 25,
+      "matched": 14,
       "score": 1.5
     },
     "macro": {
@@ -35,28 +35,10 @@
       "signal": "⚠️",
       "summary": "What is Ebola and why is stopping this outbre...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 4,
-      "score": 7.4
+      "matched": 2,
+      "score": 2.9
     },
     "disaster": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
-      "summary": "Ebola, hantavirus: Is the world prepared for ...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 1,
-      "score": 1.4
-    },
-    "trade": {
-      "level": "신호",
-      "color": "yellow",
-      "signal": "⚠️",
-      "summary": "Shakira wins £50m tax refund from Spanish gov...",
-      "action": "관련 지표 추가 확인 후 판단",
-      "matched": 12,
-      "score": 17.1
-    },
-    "policy": {
       "level": "안전",
       "color": "green",
       "signal": "✅",
@@ -64,12 +46,30 @@
       "action": "정상 운용 유지",
       "matched": 0,
       "score": 0
+    },
+    "trade": {
+      "level": "주의",
+      "color": "yellow",
+      "signal": "⚠️",
+      "summary": "Trump says he called off new Iran attack at r...",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 10,
+      "score": 1.5
+    },
+    "policy": {
+      "level": "신호",
+      "color": "yellow",
+      "signal": "⚠️",
+      "summary": "배양육·인공장기 산업화 단계로…미래기술 프로젝트 7년 결실",
+      "action": "관련 지표 추가 확인 후 판단",
+      "matched": 1,
+      "score": 1.5
     }
   },
   "overall": {
-    "level": "신호",
-    "color": "yellow",
-    "summary": "주의 필요: 지정학적 충돌, 환경·대규모 재난",
-    "action": "관련 지표 추가 확인 후 판단"
+    "level": "위험",
+    "color": "red",
+    "summary": "주의 필요: 지정학적 충돌",
+    "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
