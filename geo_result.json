@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-19 00:40",
+  "updated": "2026-05-19 03:03",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,21 +13,21 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Judge rules gun, writings are admissible in Luigi Mangione's New York murder trial",
-    "Two men arrested over stunt at enclosure of famed monkey Punch",
-    "Former Google CEO Eric Schmidt booed by graduates at mention of AI",
+    "At least 100 deaths reported in Ebola outbreak in DR Congo as six Americans exposed",
     "What is Ebola and why is stopping this outbreak so difficult?",
-    "At least 100 deaths reported in Ebola outbreak in DR Congo as six Americans exposed"
+    "Death toll from Israeli strikes on Lebanon passes 3,000, officials say",
+    "Judge rules gun and writings are admissible in Luigi Mangione's New York murder trial",
+    "Two men arrested over stunt at enclosure of famous monkey Punch"
   ],
   "categories": {
     "geopolitical": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "⚠️",
-      "summary": "Trump warns 'clock is ticking' for Iran as pe...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 19,
-      "score": 27.4
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
+      "summary": "Israeli forces board Gaza-bound flotilla near...",
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 25,
+      "score": 1.5
     },
     "macro": {
       "level": "주의",
@@ -35,8 +35,8 @@
       "signal": "⚠️",
       "summary": "What is Ebola and why is stopping this outbre...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 2,
-      "score": 4.5
+      "matched": 4,
+      "score": 7.4
     },
     "disaster": {
       "level": "위험",
@@ -48,13 +48,13 @@
       "score": 1.4
     },
     "trade": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
+      "level": "신호",
+      "color": "yellow",
+      "signal": "⚠️",
       "summary": "Shakira wins £50m tax refund from Spanish gov...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
+      "action": "관련 지표 추가 확인 후 판단",
       "matched": 12,
-      "score": 1.4
+      "score": 17.1
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "주의",
+    "level": "신호",
     "color": "yellow",
-    "summary": "주의 필요: 환경·대규모 재난, 보호무역·공급망",
-    "action": "신규 매수 자제 / 추이 관찰"
+    "summary": "주의 필요: 지정학적 충돌, 환경·대규모 재난",
+    "action": "관련 지표 추가 확인 후 판단"
   }
 }
