@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-18 19:12",
+  "updated": "2026-05-19 00:40",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,11 +13,11 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Trump warns 'clock is ticking' for Iran as peace progress stalls",
-    "Israeli forces boarding Gaza-bound flotilla near Cyprus, activists say",
-    "Strike over high fuel prices paralyses transport in Kenya",
-    "Driver of crashed train tested positive for drugs, Thai police say",
-    "WHO declares Ebola outbreak in DR Congo an international emergency"
+    "Judge rules gun, writings are admissible in Luigi Mangione's New York murder trial",
+    "Two men arrested over stunt at enclosure of famed monkey Punch",
+    "Former Google CEO Eric Schmidt booed by graduates at mention of AI",
+    "What is Ebola and why is stopping this outbreak so difficult?",
+    "At least 100 deaths reported in Ebola outbreak in DR Congo as six Americans exposed"
   ],
   "categories": {
     "geopolitical": {
@@ -26,34 +26,34 @@
       "signal": "⚠️",
       "summary": "Trump warns 'clock is ticking' for Iran as pe...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 18,
-      "score": 26.1
+      "matched": 19,
+      "score": 27.4
     },
     "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "은행권 예금 금리 줄인상…'머니무브'에 고객 붙잡기 경쟁(종합)",
+      "summary": "What is Ebola and why is stopping this outbre...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "matched": 2,
+      "score": 4.5
     },
     "disaster": {
-      "level": "안전",
-      "color": "green",
-      "signal": "✅",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
+      "summary": "Ebola, hantavirus: Is the world prepared for ...",
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 1,
+      "score": 1.4
     },
     "trade": {
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "Trump warns 'clock is ticking' for Iran as pe...",
+      "summary": "Shakira wins £50m tax refund from Spanish gov...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 8,
+      "matched": 12,
       "score": 1.4
     },
     "policy": {
@@ -69,7 +69,7 @@
   "overall": {
     "level": "주의",
     "color": "yellow",
-    "summary": "주의 필요: 보호무역·공급망",
+    "summary": "주의 필요: 환경·대규모 재난, 보호무역·공급망",
     "action": "신규 매수 자제 / 추이 관찰"
   }
 }
