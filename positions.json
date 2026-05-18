@@ -1,36 +1,43 @@
 {
   "long": {
     "budget": 3500000,
-    "used": 505000,
-    "positions": {
-      "086280": {
-        "name": "현대글로비스",
-        "buy_price": 252500,
-        "qty": 3,
-        "amount": 505000,
-        "buy_date": "20260508",
-        "remaining_qty": 2,
-        "sold_stage": 1
-      }
-    }
+    "used": 0,
+    "positions": {}
   },
   "short": {
     "budget": 1500000,
-    "used": 337800,
-    "positions": {
-      "000270": {
-        "name": "기아",
-        "grade": "B",
-        "buy_price": 168900,
-        "qty": 2,
-        "remaining_qty": 2,
-        "sold_stage": 0,
-        "amount": 337800,
-        "buy_date": "20260512"
-      }
-    }
+    "used": 0,
+    "positions": {}
   },
   "trade_history": [
+    {
+      "ticker": "000270",
+      "name": "기아",
+      "type": "short",
+      "buy_price": 168900,
+      "sell_price": 162300,
+      "qty": 2,
+      "buy_date": "20260512",
+      "sell_date": "20260518",
+      "sell_time": "10:28",
+      "pnl": -13200,
+      "pnl_pct": -3.91,
+      "reason": "시간손절(6일)"
+    },
+    {
+      "ticker": "086280",
+      "name": "현대글로비스",
+      "type": "long",
+      "buy_price": 252500,
+      "sell_price": 232000,
+      "qty": 2,
+      "buy_date": "20260508",
+      "sell_date": "20260518",
+      "sell_time": "10:28",
+      "pnl": -41000,
+      "pnl_pct": -8.12,
+      "reason": "손절"
+    },
     {
       "ticker": "108490",
       "name": "로보티즈",
@@ -74,6 +81,6 @@
       "reason": "분할매도1차(+10%)"
     }
   ],
-  "_kospi_ch5": -4.21,
+  "_kospi_ch5": -3.5,
   "_regime": "SIDEWAYS"
 }
