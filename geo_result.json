@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-19 06:15",
+  "updated": "2026-05-19 08:06",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -15,28 +15,28 @@
   "news_sample": [
     "Trump says he called off new Iran attack at request of Gulf states",
     "At least 100 dead in Ebola outbreak in DR Congo, official says",
-    "What is Ebola and why is stopping this outbreak so difficult?",
     "Selling children to survive: Afghan fathers forced to make impossible choices",
+    "Trump v Massie: Could president's Republican nemesis survive $20m attack to oust him?",
     "Death toll from Israeli strikes on Lebanon passes 3,000, officials say"
   ],
   "categories": {
     "geopolitical": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
+      "level": "주의",
+      "color": "yellow",
+      "signal": "⚠️",
       "summary": "Trump says he called off new Iran attack at r...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
+      "action": "신규 매수 자제 / 추이 관찰",
       "matched": 14,
-      "score": 1.5
+      "score": 20.7
     },
     "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "What is Ebola and why is stopping this outbre...",
+      "summary": "'FedEx says your parcel has drugs': The scam ...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 2,
-      "score": 2.9
+      "score": 3.0
     },
     "disaster": {
       "level": "안전",
@@ -48,28 +48,28 @@
       "score": 0
     },
     "trade": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "⚠️",
-      "summary": "Trump says he called off new Iran attack at r...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 10,
-      "score": 1.5
-    },
-    "policy": {
       "level": "신호",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "배양육·인공장기 산업화 단계로…미래기술 프로젝트 7년 결실",
+      "summary": "Trump says he called off new Iran attack at r...",
       "action": "관련 지표 추가 확인 후 판단",
-      "matched": 1,
-      "score": 1.5
+      "matched": 8,
+      "score": 11.6
+    },
+    "policy": {
+      "level": "안전",
+      "color": "green",
+      "signal": "✅",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
-    "summary": "주의 필요: 지정학적 충돌",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "level": "안전",
+    "color": "green",
+    "summary": "전반적 안정. 정상 운용 유지",
+    "action": "정상 운용 유지"
   }
 }
