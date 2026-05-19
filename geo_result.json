@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-20 00:33",
+  "updated": "2026-05-20 03:08",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -27,7 +27,7 @@
       "summary": "Trump says he called off new Iran attack at r...",
       "action": "포지션 현금화 고려 / 즉각 대응",
       "matched": 11,
-      "score": 3.0
+      "score": 1.5
     },
     "macro": {
       "level": "주의",
@@ -35,8 +35,8 @@
       "signal": "⚠️",
       "summary": "'FedEx says your parcel has drugs': The scam ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 5,
-      "score": 7.5
+      "matched": 3,
+      "score": 4.4
     },
     "disaster": {
       "level": "안전",
@@ -53,23 +53,23 @@
       "signal": "🔴",
       "summary": "Trump says he called off new Iran attack at r...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 9,
-      "score": 1.4
+      "matched": 7,
+      "score": 2.8
     },
     "policy": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "⚠️",
-      "summary": "UAE 국방부 \"바라카 원전 타격 드론, 이라크서 발사돼\"",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "level": "안전",
+      "color": "green",
+      "signal": "✅",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
-    "level": "주의",
-    "color": "yellow",
+    "level": "위험",
+    "color": "red",
     "summary": "주의 필요: 지정학적 충돌, 보호무역·공급망",
-    "action": "신규 매수 자제 / 추이 관찰"
+    "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
