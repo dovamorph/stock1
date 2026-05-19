@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-20 06:23",
+  "updated": "2026-05-20 08:06",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -26,8 +26,8 @@
       "signal": "⚠️",
       "summary": "Trump says he called off new Iran attack at r...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 10,
-      "score": 14.3
+      "matched": 11,
+      "score": 15.8
     },
     "macro": {
       "level": "주의",
@@ -53,7 +53,7 @@
       "signal": "🔴",
       "summary": "Trump says he called off new Iran attack at r...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 6,
+      "matched": 7,
       "score": 1.4
     },
     "policy": {
