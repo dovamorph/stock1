@@ -849,13 +849,12 @@ def main():
         allow_short_today  = True
         short_grade_filter = {"A", "B"}
         short_grade_label  = "A/B (반등 감지 — 소규모 진입)"
-        # 반등 진입임을 표시 → process_buys에서 포지션/손절 절반 적용
-        data["_is_reversal"] = True
+        _is_reversal_flag  = True
         print(f"  📈 반등 감지 (진짜 가능성↑) — 단타 A·B 소규모 허용")
         print(f"     ch5:{kospi_ch5:+.1f}% | 당일:{kospi_ch1:+.1f}% | VIX:{vix_val if 'vix_val' in dir() else '?'} | 미국:{us_signal_ok}")
         print(f"     ⚡ 포지션 50% 축소 + 손절 -3%로 타이트하게 적용")
     else:
-        data["_is_reversal"] = False
+        _is_reversal_flag  = False
 
     # ── [신규] 만기일 익절 우선 알림 ─────────────────────────────────
     if expiry_guard.get("sell_priority"):
@@ -877,12 +876,12 @@ def main():
 
     data = load_positions()
 
-    # ── 매도 체크 (국면별 동적 손절/익절 적용) ────────────────────────
-    # ── 매도 체크 전 국면/KOSPI 정보 data에 주입 (손절 완화 판단용) ──
+    # ── 매도 체크 전 국면/KOSPI/반등 정보 data에 주입 ─────────────────
     data["_kospi_ch5"]     = kospi_ch5
     data["_kospi_ch1"]     = kospi_ch1
     data["_regime"]        = regime.get("regime", "UNKNOWN")
     data["_signal"]        = signal_raw
+    data["_is_reversal"]   = _is_reversal_flag   # ← 로컬 변수에서 주입
 
     process_sells(token, data, "long",
                   regime_params["long_sells"],
