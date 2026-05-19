@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-19 20:24",
+  "updated": "2026-05-20 00:33",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,11 +13,11 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Ebola may be spreading faster than first thought, WHO doctor warns",
-    "Teen suspects fatally shoot three in suspected hate crime at San Diego mosque",
+    "Ebola outbreak may be spreading faster than first thought, WHO doctor warns",
+    "Father-of-eight killed in San Diego mosque shooting hailed as hero",
     "Victim or enabler? Epstein girlfriend who could face questions despite plea deal",
-    "Selling children to survive: Afghan fathers forced to make impossible choices",
-    "Two dead in Spain shooting, with babies reportedly among injured"
+    "Son of Mango boss arrested over father's fatal fall from cliff",
+    "Selling children to survive: Afghan fathers forced to make impossible choices"
   ],
   "categories": {
     "geopolitical": {
@@ -26,7 +26,7 @@
       "signal": "🔴",
       "summary": "Trump says he called off new Iran attack at r...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 12,
+      "matched": 11,
       "score": 3.0
     },
     "macro": {
@@ -35,8 +35,8 @@
       "signal": "⚠️",
       "summary": "'FedEx says your parcel has drugs': The scam ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "matched": 5,
+      "score": 7.5
     },
     "disaster": {
       "level": "안전",
@@ -48,28 +48,28 @@
       "score": 0
     },
     "trade": {
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
+      "summary": "Trump says he called off new Iran attack at r...",
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 9,
+      "score": 1.4
+    },
+    "policy": {
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "Trump says he called off new Iran attack at r...",
+      "summary": "UAE 국방부 \"바라카 원전 타격 드론, 이라크서 발사돼\"",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 9,
-      "score": 3.0
-    },
-    "policy": {
-      "level": "안전",
-      "color": "green",
-      "signal": "✅",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "matched": 1,
+      "score": 1.5
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
-    "summary": "주의 필요: 지정학적 충돌",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "level": "주의",
+    "color": "yellow",
+    "summary": "주의 필요: 지정학적 충돌, 보호무역·공급망",
+    "action": "신규 매수 자제 / 추이 관찰"
   }
 }
