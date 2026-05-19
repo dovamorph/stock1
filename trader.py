@@ -592,6 +592,16 @@ def process_buys(token, data, stocks, ptype, max_pos, budget, partial_sells,
             print(f"    {name} — 분석 스킵: {analysis['reason']}")
             continue
 
+        # ── 반등 진입 시 추가 조정 ────────────────────────────────────
+        # 가짜 반등 가능성 있으므로: 포지션 50% + 손절 -3% (더 타이트)
+        is_reversal_entry = data.get("_is_reversal", False) and ptype == "short"
+        if is_reversal_entry:
+            analysis["sizing"]["total"]  = analysis["sizing"]["total"] // 2
+            analysis["sizing"]["first"]  = analysis["sizing"]["first"] // 2
+            analysis["sizing"]["second"] = analysis["sizing"]["second"] // 2
+            analysis["sl"]               = max(analysis["sl"], -0.03)   # 손절 -3% 이내
+            print(f"    ⚡ 반등진입 보정: 포지션 50% + 손절 {analysis['sl']*100:.0f}%")
+
         # watchlist 재매수 확정 시 watchlist에서 제거
         if is_watchlist:
             remove_from_watchlist(ticker)
@@ -763,8 +773,19 @@ def main():
         print(f"  ⚠️ 장 마감 후 ({now_time.strftime('%H:%M')}) — 신규 매수 중단")
 
     if allow_buy and kospi_ch5 < 0:
-        allow_buy = False
-        print(f"  ⚠️ KOSPI 5일 하락 중 ({kospi_ch5:+.1f}%) — 신규 매수 중단")
+        # ── 반등 감지: ch5 마이너스여도 단기 강한 반등이면 허용 ──────────
+        # 조건: 당일 +2% 이상 + 2일 수익률 +1% 이상 = 반등 초기 진입 허용
+        # 단, 단타만 허용 (장투는 ch5 양수 확인 필요)
+        kospi_ch2 = float(market.get("kospi_ch2", 0))
+        is_reversal = kospi_ch1 >= 2.0 and kospi_ch2 >= 1.0
+        if is_reversal:
+            print(f"  📈 반등 감지 — ch5:{kospi_ch5:+.1f}% 이나 당일:{kospi_ch1:+.1f}% 2일:{kospi_ch2:+.1f}%")
+            print(f"     장투 차단 유지 / 단타 A·B등급만 소규모 허용")
+            # allow_buy는 False 유지 (장투 차단)
+            # allow_short_today는 아래서 별도 처리
+        else:
+            allow_buy = False
+            print(f"  ⚠️ KOSPI 5일 하락 중 ({kospi_ch5:+.1f}%) — 신규 매수 중단")
 
     # ── ① KOSPI 당일 등락률 체크 ─────────────────────────────────────
     # 오늘 KOSPI가 -1.5% 이상 빠지는 날은 단타 신규매수 금지
@@ -778,9 +799,6 @@ def main():
         print(f"  ⚠️ KOSPI 당일 {kospi_ch1:+.1f}% 급락 — 장투 포함 전체 매수 차단")
 
     # ── ② 시장 시그널별 단타 등급 제한 ──────────────────────────────
-    # 강한 매수: A/B/C 허용 (현재와 동일)
-    # 매수 우위: A/B만 허용 (C등급 단타는 하락장 초입에 취약)
-    # 관망 이하: 단타 매수 자체 차단 (allow_short_today=False)
     if "강한 매수" in signal_raw:
         short_grade_filter = {"A", "B", "C"}
         short_grade_label  = "A/B/C"
@@ -793,6 +811,51 @@ def main():
         if allow_short_today:
             allow_short_today = False
             print(f"  ⚠️ 시장 시그널 {signal_raw} — 단타 신규매수 차단")
+
+    # ── 반등 감지: ch5 마이너스여도 단기 강한 반등이면 단타 A·B 허용 ──
+    kospi_ch2 = float(market.get("kospi_ch2", 0))
+
+    # ── 가짜 반등 필터 추가 ───────────────────────────────────────────
+    # VIX 확인 (market_indicators.json)
+    vix_ok = True
+    try:
+        import json as _json
+        if os.path.exists("market_indicators.json"):
+            mi = _json.load(open("market_indicators.json", encoding="utf-8"))
+            vix_val = mi.get("indicators", {}).get("vix", {}).get("value", 0)
+            vix_chg = mi.get("indicators", {}).get("vix", {}).get("change_pct", 0)
+            # VIX 25 이상이면 공포 지속 → 가짜 반등 가능성 높음
+            # VIX가 하락 중이어야 진짜 반등
+            if vix_val > 0:
+                vix_ok = vix_val < 25 and vix_chg <= 0
+                if not vix_ok:
+                    print(f"  ⚠️ VIX {vix_val:.1f} ({vix_chg:+.1f}%) — 공포 지속, 가짜반등 가능성")
+    except Exception:
+        pass
+
+    # 미국 시장도 상승 중이어야 (한국 혼자 튀는 건 가짜 가능성)
+    us_signal_ok = "BUY" in results.get("market_signal", {}).get("us", {}).get("us_signal_en", "")
+
+    is_reversal = (
+        kospi_ch1 >= 2.0 and       # 당일 +2% 이상
+        kospi_ch2 >= 1.0 and       # 2일 수익률 +1% 이상
+        kospi_ch5 >= -8.0 and      # 폭락장 아님
+        vix_ok and                  # VIX 하락 중 (공포 완화)
+        us_signal_ok and            # 미국도 상승 중
+        is_market_open
+    )
+
+    if is_reversal and not allow_short_today:
+        allow_short_today  = True
+        short_grade_filter = {"A", "B"}
+        short_grade_label  = "A/B (반등 감지 — 소규모 진입)"
+        # 반등 진입임을 표시 → process_buys에서 포지션/손절 절반 적용
+        data["_is_reversal"] = True
+        print(f"  📈 반등 감지 (진짜 가능성↑) — 단타 A·B 소규모 허용")
+        print(f"     ch5:{kospi_ch5:+.1f}% | 당일:{kospi_ch1:+.1f}% | VIX:{vix_val if 'vix_val' in dir() else '?'} | 미국:{us_signal_ok}")
+        print(f"     ⚡ 포지션 50% 축소 + 손절 -3%로 타이트하게 적용")
+    else:
+        data["_is_reversal"] = False
 
     # ── [신규] 만기일 익절 우선 알림 ─────────────────────────────────
     if expiry_guard.get("sell_priority"):
