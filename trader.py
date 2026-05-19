@@ -81,26 +81,41 @@ def get_token():
             time.sleep(3)
     raise Exception("토큰 발급 최종 실패")
 
-def get_price(token, ticker):
-    try:
-        headers = {
-            "authorization": f"Bearer {token}",
-            "appkey": APP_KEY, "appsecret": APP_SECRET,
-            "tr_id": "FHKST01010100"
-        }
-        params = {"fid_cond_mrkt_div_code": "J", "fid_input_iscd": ticker}
-        r = requests.get(f"{BASE_URL}/uapi/domestic-stock/v1/quotations/inquire-price",
-                         headers=headers, params=params, timeout=15)
-        d = r.json().get("output", {})
-        cur   = int(d.get("stck_prpr", 0))
-        open_ = int(d.get("stck_oprc", 0))
-        high  = int(d.get("stck_hgpr", 0))
-        low   = int(d.get("stck_lwpr", 0))
-        prev  = int(d.get("stck_sdpr", 0))   # ← 전일 종가 (방어 모듈용)
-        return cur, open_, high, low, prev
-    except Exception as e:
-        print(f"    현재가 조회 실패 ({ticker}): {e}")
-        return 0, 0, 0, 0, 0
+def get_price(token, ticker, retries: int = 3):
+    """
+    현재가 조회. 실패 시 최대 retries회 재시도.
+    3회 모두 실패 시 Discord 알림 후 0 반환.
+    """
+    for attempt in range(retries):
+        try:
+            headers = {
+                "authorization": f"Bearer {token}",
+                "appkey": APP_KEY, "appsecret": APP_SECRET,
+                "tr_id": "FHKST01010100"
+            }
+            params = {"fid_cond_mrkt_div_code": "J", "fid_input_iscd": ticker}
+            r = requests.get(f"{BASE_URL}/uapi/domestic-stock/v1/quotations/inquire-price",
+                             headers=headers, params=params, timeout=15)
+            d = r.json().get("output", {})
+            cur   = int(d.get("stck_prpr", 0))
+            open_ = int(d.get("stck_oprc", 0))
+            high  = int(d.get("stck_hgpr", 0))
+            low   = int(d.get("stck_lwpr", 0))
+            prev  = int(d.get("stck_sdpr", 0))
+            if cur > 0:
+                return cur, open_, high, low, prev
+            # cur==0 이면 재시도
+            if attempt < retries - 1:
+                time.sleep(2)
+        except Exception as e:
+            if attempt < retries - 1:
+                print(f"    현재가 조회 재시도 {attempt+1}/{retries} ({ticker}): {e}")
+                time.sleep(2)
+            else:
+                msg = f"⚠️ 현재가 조회 {retries}회 실패 [{ticker}] — 손절/익절 판단 불가"
+                print(f"    {msg}")
+                discord(msg)
+    return 0, 0, 0, 0, 0
 
 def is_good_candle(cur, open_, high, low):
     """
@@ -251,9 +266,22 @@ def process_sells(token, data, ptype, partial_sells, stop_loss, time_stop, now):
     print(f"\n  [{ptype} 보유종목 체크] {len(positions)}개")
 
     for ticker, p in list(positions.items()):
+        # ── 날짜 기반 보유일 계산 (현재가 조회 전) ────────────────────
+        try:
+            buy_dt    = datetime.datetime.strptime(p.get("buy_date", "19000101"), "%Y%m%d")
+            days_held = (now.replace(tzinfo=None) - buy_dt).days
+        except Exception:
+            days_held = 0
+
         cur_price, open_, high, low, prev_close = get_price(token, ticker)
         if cur_price == 0:
-            print(f"    {p['name']} — 현재가 조회 실패, 스킵")
+            # 현재가 조회 실패 — 시간손절 초과 여부만 Discord 알림
+            if days_held >= time_stop:
+                msg = (f"⚠️ **[{ptype}] 현재가 조회 실패 + 시간손절 {days_held}일 초과**\n"
+                       f"   {p['name']}({ticker}) — 수동 확인 후 손절하세요!")
+                print(f"    {msg}"); discord(msg)
+            else:
+                print(f"    {p['name']} — 현재가 조회 실패 (보유 {days_held}일), 스킵")
             continue
 
         buy_price     = p["buy_price"]
@@ -262,26 +290,11 @@ def process_sells(token, data, ptype, partial_sells, stop_loss, time_stop, now):
         pnl           = (cur_price - buy_price) / buy_price
         pnl_str       = f"{pnl*100:+.1f}%"
 
-        # ── 포지션별 저장된 ATR 조정 레벨 우선 사용 ─────────────────
-        # 매수 시 analytics가 계산해 저장한 sl/tp가 있으면 그걸 쓰고,
-        # 없으면 국면 기본값(partial_sells/stop_loss) 사용
-        sl         = p.get("sl", stop_loss)
-        tp_levels  = p.get("tp", [ps[0] for ps in partial_sells])
-        # 매도 비율은 기본 설정 유지 (tp_levels는 퍼센트만 교체)
+        # ── 포지션별 ATR 조정 sl/tp 적용 (없으면 기본값) ─────────────
+        sl          = p.get("sl", stop_loss)
+        tp_levels   = p.get("tp", [ps[0] for ps in partial_sells])
         sell_ratios = [ps[1] for ps in partial_sells]
-        dyn_sells  = list(zip(tp_levels, sell_ratios))
-
-    for ticker, p in list(positions.items()):
-        cur_price, open_, high, low, prev_close = get_price(token, ticker)
-        if cur_price == 0:
-            print(f"    {p['name']} — 현재가 조회 실패, 스킵")
-            continue
-
-        buy_price     = p["buy_price"]
-        remaining_qty = p.get("remaining_qty", p["qty"])
-        sold_stage    = p.get("sold_stage", 0)
-        pnl           = (cur_price - buy_price) / buy_price
-        pnl_str       = f"{pnl*100:+.1f}%"
+        dyn_sells   = list(zip(tp_levels, sell_ratios))
 
         # ── [신규] 개별 종목 급락 감지 (전일 종가 기준) ──────────────
         if prev_close > 0:
@@ -334,12 +347,6 @@ def process_sells(token, data, ptype, partial_sells, stop_loss, time_stop, now):
             time.sleep(0.3); continue
 
         # ── 시간손절 ──────────────────────────────────────────────────
-        try:
-            buy_dt    = datetime.datetime.strptime(p.get("buy_date", "19000101"), "%Y%m%d")
-            days_held = (now.replace(tzinfo=None) - buy_dt).days
-        except Exception:
-            days_held = 0
-
         if days_held >= time_stop and pnl < 0:
             ok, msg = order(token, ticker, remaining_qty, "sell")
             if ok:
