@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-20 03:08",
+  "updated": "2026-05-20 06:23",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,21 +13,21 @@
     "StockPlus": 14
   },
   "news_sample": [
+    "'Ebola has tortured us': Fear grips eastern DR Congo as deadly virus spreads",
     "Ebola outbreak may be spreading faster than first thought, WHO doctor warns",
+    "Key people smuggler arrested after BBC uncovered identity",
     "Father-of-eight killed in San Diego mosque shooting hailed as hero",
-    "Victim or enabler? Epstein girlfriend who could face questions despite plea deal",
-    "Son of Mango boss arrested over father's fatal fall from cliff",
-    "Selling children to survive: Afghan fathers forced to make impossible choices"
+    "Estonia says Nato jet shot down drone over its territory"
   ],
   "categories": {
     "geopolitical": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
+      "level": "주의",
+      "color": "yellow",
+      "signal": "⚠️",
       "summary": "Trump says he called off new Iran attack at r...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 11,
-      "score": 1.5
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 10,
+      "score": 14.3
     },
     "macro": {
       "level": "주의",
@@ -36,7 +36,7 @@
       "summary": "'FedEx says your parcel has drugs': The scam ...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 3,
-      "score": 4.4
+      "score": 4.5
     },
     "disaster": {
       "level": "안전",
@@ -53,8 +53,8 @@
       "signal": "🔴",
       "summary": "Trump says he called off new Iran attack at r...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 7,
-      "score": 2.8
+      "matched": 6,
+      "score": 1.4
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
-    "summary": "주의 필요: 지정학적 충돌, 보호무역·공급망",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "level": "주의",
+    "color": "yellow",
+    "summary": "주의 필요: 보호무역·공급망",
+    "action": "신규 매수 자제 / 추이 관찰"
   }
 }
