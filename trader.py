@@ -442,14 +442,23 @@ def process_sells(token, data, ptype, partial_sells, stop_loss, time_stop, now):
 # ── 포트폴리오 매수 처리 ──────────────────────────────────────────────
 def process_buys(token, data, stocks, ptype, max_pos, budget, partial_sells,
                  grade_filter, rsi_min, rsi_max, now,
-                 regime_params: dict, expiry_guard: dict):
+                 regime_params: dict, expiry_guard: dict,
+                 allow_override: bool = True,
+                 max_new_today: int = 3):
     """
     regime_params: build_regime_params() 반환값
     expiry_guard:  load_expiry_guard() 반환값
+    allow_override: 외부 조건(당일 등락률 등)으로 매수 차단 시 False
+    max_new_today:  당일 최대 신규매수 종목 수 (단타 기본 1, 장투 기본 3)
     """
     port        = data[ptype]
     positions   = port["positions"]
     all_tickers = set(data["long"]["positions"]) | set(data["short"]["positions"])
+
+    # ── allow_override 체크 (당일 등락률/시그널로 외부에서 차단) ─────
+    if not allow_override:
+        print(f"  [{ptype}] 외부 조건으로 신규매수 차단")
+        return
 
     # ── 국면/만기일 기반 신규매수 허용 여부 ───────────────────────────
     if ptype == "long":
@@ -471,6 +480,17 @@ def process_buys(token, data, stocks, ptype, max_pos, budget, partial_sells,
     pos_mult         = max(0.0, min(1.3, regime_params["pos_mult"] + expiry_guard["pos_mult_adj"]))
     effective_budget = int(budget * pos_mult)
     remaining_budget = effective_budget - port["used"]
+
+    # ── ③ 하루 최대 신규매수 제한 적용 ───────────────────────────────
+    today_str  = now.strftime("%Y%m%d")
+    bought_today = sum(
+        1 for p in positions.values()
+        if p.get("buy_date") == today_str
+    )
+    slots = min(slots, max(0, max_new_today - bought_today))
+    if slots <= 0 and bought_today >= max_new_today:
+        print(f"  [{ptype}] 당일 최대 신규매수 {max_new_today}종목 도달 — 추가 매수 없음")
+        return
 
     if slots <= 0:
         print(f"  [{ptype}] 최대 종목 도달 — 매수 스킵"); return
@@ -707,8 +727,8 @@ def main():
     signal_raw = market.get("final_signal", results.get("signal", ""))
     rsi_14     = float(market.get("rsi_14", 50))
     kospi_ch5  = float(market.get("kospi_ch5", 0))
+    kospi_ch1  = float(market.get("kospi_ch1", 0))   # ① 당일 등락률
 
-    # ── BUG FIX: can_buy → allow_buy (defense.can_buy 함수와 충돌 방지) ──
     allow_buy = any(s in signal_raw for s in BUY_SIGNALS)
 
     if allow_buy and not is_market_open:
@@ -719,13 +739,42 @@ def main():
         allow_buy = False
         print(f"  ⚠️ KOSPI 5일 하락 중 ({kospi_ch5:+.1f}%) — 신규 매수 중단")
 
-    # ── [신규] 만기일 익절 우선 알림 ────────────────────────────────
+    # ── ① KOSPI 당일 등락률 체크 ─────────────────────────────────────
+    # 오늘 KOSPI가 -1.5% 이상 빠지는 날은 단타 신규매수 금지
+    # 장투는 중장기 전략이므로 허용 (단, 당일 -3% 이상이면 장투도 차단)
+    allow_short_today = allow_buy
+    if allow_short_today and kospi_ch1 <= -1.5:
+        allow_short_today = False
+        print(f"  ⚠️ KOSPI 당일 {kospi_ch1:+.1f}% — 단타 당일 신규매수 차단")
+    if allow_buy and kospi_ch1 <= -3.0:
+        allow_buy = False
+        print(f"  ⚠️ KOSPI 당일 {kospi_ch1:+.1f}% 급락 — 장투 포함 전체 매수 차단")
+
+    # ── ② 시장 시그널별 단타 등급 제한 ──────────────────────────────
+    # 강한 매수: A/B/C 허용 (현재와 동일)
+    # 매수 우위: A/B만 허용 (C등급 단타는 하락장 초입에 취약)
+    # 관망 이하: 단타 매수 자체 차단 (allow_short_today=False)
+    if "강한 매수" in signal_raw:
+        short_grade_filter = {"A", "B", "C"}
+        short_grade_label  = "A/B/C"
+    elif "매수 우위" in signal_raw:
+        short_grade_filter = {"A", "B"}
+        short_grade_label  = "A/B (매수우위 → C등급 제한)"
+    else:
+        short_grade_filter = {"A", "B"}
+        short_grade_label  = "A/B (관망 이하 → C등급 제한)"
+        if allow_short_today:
+            allow_short_today = False
+            print(f"  ⚠️ 시장 시그널 {signal_raw} — 단타 신규매수 차단")
+
+    # ── [신규] 만기일 익절 우선 알림 ─────────────────────────────────
     if expiry_guard.get("sell_priority"):
         print(f"  ⚠️ {expiry_guard['note']} — 익절 우선 모드")
         discord(f"⚠️ {expiry_guard['note']}")
 
-    print(f"  시장 시그널: {signal_raw} | RSI {rsi_14:.0f} | KOSPI5일 {kospi_ch5:+.1f}%")
-    print(f"  매수 가능:   {'✅' if allow_buy else '❌'}")
+    print(f"  시장 시그널: {signal_raw} | RSI {rsi_14:.0f} | KOSPI5일 {kospi_ch5:+.1f}% | 당일 {kospi_ch1:+.1f}%")
+    print(f"  매수 가능:   {'✅' if allow_buy else '❌'} (장투)  {'✅' if allow_short_today else '❌'} (단타)")
+    print(f"  단타 허용등급: {short_grade_label}")
     print(f"  국면:        {regime_params['regime_label']}")
     print(f"  만기:        {expiry_guard['note']}")
 
@@ -740,8 +789,10 @@ def main():
 
     # ── 매도 체크 (국면별 동적 손절/익절 적용) ────────────────────────
     # ── 매도 체크 전 국면/KOSPI 정보 data에 주입 (손절 완화 판단용) ──
-    data["_kospi_ch5"] = kospi_ch5
-    data["_regime"]    = regime.get("regime", "UNKNOWN")
+    data["_kospi_ch5"]     = kospi_ch5
+    data["_kospi_ch1"]     = kospi_ch1
+    data["_regime"]        = regime.get("regime", "UNKNOWN")
+    data["_signal"]        = signal_raw
 
     process_sells(token, data, "long",
                   regime_params["long_sells"],
@@ -771,13 +822,17 @@ def main():
                  LONG_MAX_POS, LONG_BUDGET,
                  regime_params["long_sells"],
                  {"A"}, 0, 65, now,
-                 regime_params, expiry_guard)
+                 regime_params, expiry_guard,
+                 allow_override=allow_buy)
 
+    # ── ③ 단타: 당일 신규매수 허용 + 등급 제한 + 하루 1종목 제한 ──────
     process_buys(token, data, stocks, "short",
                  SHORT_MAX_POS, SHORT_BUDGET,
                  regime_params["short_sells"],
-                 {"A", "B", "C"}, SHORT_RSI_MIN, SHORT_RSI_MAX, now,
-                 regime_params, expiry_guard)
+                 short_grade_filter, SHORT_RSI_MIN, SHORT_RSI_MAX, now,
+                 regime_params, expiry_guard,
+                 allow_override=allow_short_today,
+                 max_new_today=1)   # ← 하루 1종목만
 
     save_positions(data)
     print(f"\n  💾 positions.json 저장 완료")
