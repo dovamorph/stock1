@@ -43,12 +43,12 @@ LONG_PARTIAL_SELLS = [
 # ── 단타 기본 설정 ────────────────────────────────────────────────────
 SHORT_BUDGET        = 1_500_000
 SHORT_STOP_LOSS     = -0.05
-SHORT_TIME_STOP     = 5
-SHORT_MAX_POS       = 3
+SHORT_TIME_STOP     = 3          # ← 5일 → 3일 (빠른 손절)
+SHORT_MAX_POS       = 2          # ← 3 → 2종목 (집중)
 SHORT_PARTIAL_SELLS = [
-    (0.07, 0.33),
-    (0.10, 0.50),
-    (0.13, 1.00),
+    (0.05, 0.33),   # ← 7%→5%  (빠른 1차 익절)
+    (0.08, 0.50),   # ← 10%→8%
+    (0.10, 1.00),   # ← 13%→10%
 ]
 SHORT_RSI_MIN = 45
 SHORT_RSI_MAX = 65
@@ -407,6 +407,26 @@ def process_sells(token, data, ptype, partial_sells, stop_loss, time_stop, now):
         if ticker in positions and not partial_done:
             sold_stage = p.get("sold_stage", 0)
             stage_info = f" 분할{sold_stage}차완료" if sold_stage > 0 else ""
+
+            # ── 트레일링 스탑: 1차 익절 완료 후 원금 보장선으로 손절 상향 ──
+            if sold_stage >= 1 and pnl > 0:
+                trailing_floor = buy_price  # 원금 보장
+                trailing_pct   = p.get("trailing_stop_pct", 0.03)
+                trailing_price = cur_price * (1 - trailing_pct)
+                new_sl_price   = max(trailing_floor, trailing_price)
+                new_sl_pct     = (new_sl_price - buy_price) / buy_price
+                old_sl         = p.get("sl", stop_loss)
+                if new_sl_pct > old_sl:   # 스탑은 올라가기만 함
+                    p["sl"] = round(new_sl_pct, 3)
+
+            # ── 보유 손실 경고 Discord (단타 2일 이상 손실 중) ────────────
+            if ptype == "short" and days_held >= 2 and pnl < -0.03:
+                days_to_stop = time_stop - days_held
+                if days_to_stop <= 1:
+                    msg = (f"⚠️ **[단타] 손절 임박** {p['name']} "
+                           f"{pnl_str} | 보유 {days_held}일 | "
+                           f"내일 시간손절 예정")
+                    discord(msg)
 
             # ── 장투 2차 매수 체크 ────────────────────────────────────
             if ptype == "long" and not p.get("stage2_done", True):
@@ -843,7 +863,48 @@ def main():
 
     save_positions(data)
     print(f"\n  💾 positions.json 저장 완료")
+
+    # ── 장 마감 후 일일 리포트 (15:30~16:00 실행 시) ─────────────────
+    if datetime.time(6, 30) <= now_time <= datetime.time(7, 0):   # 15:30~16:00 KST
+        _send_daily_report(data)
+
     print(f"\n✅ 자동매매 완료!")
+
+
+def _send_daily_report(data: dict):
+    """장 마감 후 보유 종목 손익 현황 Discord 리포트"""
+    lines = ["📊 **StockPilot KR — 일일 리포트**"]
+    total_pnl = 0
+    history   = data.get("trade_history", [])
+
+    # 오늘 거래내역
+    today = datetime.datetime.now(ZoneInfo("Asia/Seoul")).strftime("%Y%m%d")
+    today_trades = [h for h in history if h.get("sell_date") == today]
+    if today_trades:
+        lines.append(f"\n**오늘 거래 {len(today_trades)}건**")
+        for t in today_trades:
+            sign = "✅" if t["pnl"] > 0 else "❌"
+            lines.append(f"  {sign} {t['name']} {t['pnl_pct']:+.1f}% {t['pnl']:+,}원 ({t['reason']})")
+
+    # 보유 현황
+    all_pos = {**data["long"]["positions"], **data["short"]["positions"]}
+    if all_pos:
+        lines.append(f"\n**보유 {len(all_pos)}종목**")
+        for ticker, p in all_pos.items():
+            ptype  = "장투" if ticker in data["long"]["positions"] else "단타"
+            days   = (datetime.datetime.now() - datetime.datetime.strptime(
+                      p.get("buy_date", "20260101"), "%Y%m%d")).days
+            pnl_pct = 0   # 현재가 없으면 0
+            lines.append(f"  [{ptype}] {p['name']} | 매수 {p['buy_price']:,}원 | {days}일째")
+    else:
+        lines.append("\n**보유 없음 — 현금 100%**")
+
+    # 누적 손익
+    total = sum(h["pnl"] for h in history)
+    wins  = sum(1 for h in history if h["pnl"] > 0)
+    lines.append(f"\n**누적** 총 {len(history)}건 | 승률 {wins/len(history)*100:.0f}% | {total:+,}원" if history else "\n**거래없음**")
+
+    discord("\n".join(lines))
 
 if __name__ == "__main__":
     main()
