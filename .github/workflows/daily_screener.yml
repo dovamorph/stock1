@@ -1,26 +1,50 @@
 name: StockPilot KR Screener
 on:
   schedule:
-    - cron: '30,40,50 23 * * 0-4'
-    - cron: '0,10,20,30,40,50 0 * * 1-5'
-    - cron: '0,10,20,30,40,50 1 * * 1-5'
-    - cron: '0,10,20,30,40,50 2 * * 1-5'
-    - cron: '0,10,20,30 3 * * 1-5'
-    - cron: '0,30 4-8 * * 1-5'
+    # KST = UTC+9
+    # 장 전 (08:30~08:55) — 5분마다
+    - cron: '30,35,40,45,50,55 23 * * 0-4'
+
+    # 09:00~09:55 KST — 5분마다
+    - cron: '0,5,10,15,20,25,30,35,40,45,50,55 0 * * 1-5'
+
+    # 10:00~10:55 KST — 5분마다
+    - cron: '0,5,10,15,20,25,30,35,40,45,50,55 1 * * 1-5'
+
+    # 11:00~11:55 KST — 5분마다
+    - cron: '0,5,10,15,20,25,30,35,40,45,50,55 2 * * 1-5'
+
+    # 12:00~12:30 KST — 5분마다
+    - cron: '0,5,10,15,20,25,30 3 * * 1-5'
+
+    # 13:00~13:55 KST — 5분마다
+    - cron: '0,5,10,15,20,25,30,35,40,45,50,55 4 * * 1-5'
+
+    # 14:00~14:55 KST — 5분마다
+    - cron: '0,5,10,15,20,25,30,35,40,45,50,55 5 * * 1-5'
+
+    # 15:00~15:30 KST — 5분마다 (장 마감 15:30)
+    - cron: '0,5,10,15,20,25,30 6 * * 1-5'
+
   workflow_dispatch:
+
 permissions:
   contents: write
+
 jobs:
   run-screener:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+
       - name: Install dependencies
-        run: pip install requests pandas finance-datareader yfinance beautifulsoup4 pykrx
+        run: pip install requests pandas finance-datareader yfinance beautifulsoup4 pykrx numpy
+
       - name: Run screener
         env:
           KIS_APP_KEY:     ${{ secrets.KIS_APP_KEY }}
@@ -28,8 +52,10 @@ jobs:
           KIS_ACCOUNT_NO:  ${{ secrets.KIS_ACCOUNT_NO }}
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         run: python screener.py
+
       - name: Run expiry analysis
         run: python expiry.py
+
       - name: Run trader
         env:
           KIS_APP_KEY_MOCK:    ${{ secrets.KIS_APP_KEY_MOCK }}
@@ -38,11 +64,12 @@ jobs:
           DISCORD_WEBHOOK:     ${{ secrets.DISCORD_WEBHOOK }}
           KIS_MOCK:            "true"
         run: python trader.py
+
       - name: Commit results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add results.json positions.json expiry_result.json index.html
+          git add results.json positions.json expiry_result.json
           git diff --cached --quiet || git commit -m "auto: screener+trader $(date +'%Y%m%d %H%M')"
           git pull --rebase origin main
           git push
