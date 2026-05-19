@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-19 16:53",
+  "updated": "2026-05-19 20:24",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,21 +13,21 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Trump says he called off new Iran attack at request of Gulf states",
+    "Ebola may be spreading faster than first thought, WHO doctor warns",
     "Teen suspects fatally shoot three in suspected hate crime at San Diego mosque",
-    "At least 131 dead in Ebola outbreak in DR Congo, official says",
+    "Victim or enabler? Epstein girlfriend who could face questions despite plea deal",
     "Selling children to survive: Afghan fathers forced to make impossible choices",
-    "The Republican who stood up to Trump is hoping for a big win against president"
+    "Two dead in Spain shooting, with babies reportedly among injured"
   ],
   "categories": {
     "geopolitical": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "⚠️",
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
       "summary": "Trump says he called off new Iran attack at r...",
-      "action": "신규 매수 자제 / 추이 관찰",
+      "action": "포지션 현금화 고려 / 즉각 대응",
       "matched": 12,
-      "score": 17.5
+      "score": 3.0
     },
     "macro": {
       "level": "주의",
@@ -35,8 +35,8 @@
       "signal": "⚠️",
       "summary": "'FedEx says your parcel has drugs': The scam ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 3,
-      "score": 4.5
+      "matched": 1,
+      "score": 1.5
     },
     "disaster": {
       "level": "안전",
@@ -53,8 +53,8 @@
       "signal": "⚠️",
       "summary": "Trump says he called off new Iran attack at r...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 11,
-      "score": 1.5
+      "matched": 9,
+      "score": 3.0
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "안전",
-    "color": "green",
-    "summary": "전반적 안정. 정상 운용 유지",
-    "action": "정상 운용 유지"
+    "level": "위험",
+    "color": "red",
+    "summary": "주의 필요: 지정학적 충돌",
+    "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
