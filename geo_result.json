@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-21 06:59",
+  "updated": "2026-05-21 08:23",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -35,8 +35,8 @@
       "signal": "⚠️",
       "summary": "Far-right Israeli minister condemned for taun...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 3,
-      "score": 4.5
+      "matched": 2,
+      "score": 3.0
     },
     "disaster": {
       "level": "안전",
@@ -48,13 +48,13 @@
       "score": 0
     },
     "trade": {
-      "level": "신호",
+      "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "Controlled reopening ends Iran’s lengthy stoc...",
-      "action": "관련 지표 추가 확인 후 판단",
-      "matched": 2,
-      "score": 2.8
+      "summary": "US condemns Israel’s Ben-Gvir while sanctioni...",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 3,
+      "score": 1.4
     },
     "policy": {
       "level": "안전",
