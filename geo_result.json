@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-21 03:21",
-  "news_count": 100,
-  "intl_count": 55,
+  "updated": "2026-05-21 06:59",
+  "news_count": 101,
+  "intl_count": 56,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 29,
+    "BBC World": 30,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -13,21 +13,21 @@
     "StockPlus": 14
   },
   "news_sample": [
+    "US charges Cuba's Raúl Castro with murder over 1996 downing of two planes",
     "Rosenberg: Putin enjoys Xi's Chinese welcome but heads home without pipeline deal",
     "Far-right Israeli minister condemned for taunting handcuffed Gaza flotilla activists",
     "Ebola vaccine could take nine months as death toll rises further, WHO warns",
-    "Murder or accident? Mystery of Mango tycoon's hiking death after son's arrest",
-    "US military jets and drones tracked near Cuba as tensions rise"
+    "Murder or accident? Mystery of Mango tycoon's hiking death after son's arrest"
   ],
   "categories": {
     "geopolitical": {
-      "level": "경고",
-      "color": "orange",
-      "signal": "🟠",
+      "level": "주의",
+      "color": "yellow",
+      "signal": "⚠️",
       "summary": "Far-right Israeli minister condemned for taun...",
-      "action": "포지션 축소 검토 / 모니터링 강화",
-      "matched": 9,
-      "score": 3.0
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 4,
+      "score": 5.7
     },
     "macro": {
       "level": "주의",
@@ -35,8 +35,8 @@
       "signal": "⚠️",
       "summary": "Far-right Israeli minister condemned for taun...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 2,
-      "score": 3.0
+      "matched": 3,
+      "score": 4.5
     },
     "disaster": {
       "level": "안전",
@@ -48,13 +48,13 @@
       "score": 0
     },
     "trade": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
+      "level": "신호",
+      "color": "yellow",
+      "signal": "⚠️",
       "summary": "Controlled reopening ends Iran’s lengthy stoc...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 7,
-      "score": 1.4
+      "action": "관련 지표 추가 확인 후 판단",
+      "matched": 2,
+      "score": 2.8
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "경고",
-    "color": "orange",
-    "summary": "주의 필요: 지정학적 충돌, 보호무역·공급망",
-    "action": "포지션 축소 검토 / 모니터링 강화"
+    "level": "안전",
+    "color": "green",
+    "summary": "전반적 안정. 정상 운용 유지",
+    "action": "정상 운용 유지"
   }
 }
