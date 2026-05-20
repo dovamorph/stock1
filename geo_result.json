@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-21 00:31",
-  "news_count": 101,
-  "intl_count": 56,
+  "updated": "2026-05-21 03:21",
+  "news_count": 100,
+  "intl_count": 55,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 30,
+    "BBC World": 29,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -13,30 +13,30 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Xi basks in spotlight as he hosts Putin days after Trump",
-    "Trump exerts iron grip on Republican Party with Massie defeated",
-    "Ebola vaccine could take nine months as death toll rise further, WHO warns",
-    "Lithuania's leaders take shelter during drone air alert",
-    "Man who murdered teen TikTok star in Pakistan gets death sentence"
+    "Rosenberg: Putin enjoys Xi's Chinese welcome but heads home without pipeline deal",
+    "Far-right Israeli minister condemned for taunting handcuffed Gaza flotilla activists",
+    "Ebola vaccine could take nine months as death toll rises further, WHO warns",
+    "Murder or accident? Mystery of Mango tycoon's hiking death after son's arrest",
+    "US military jets and drones tracked near Cuba as tensions rise"
   ],
   "categories": {
     "geopolitical": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
-      "summary": "Will Trump kill the $14bn Taiwan arms deal?",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 7,
+      "level": "경고",
+      "color": "orange",
+      "signal": "🟠",
+      "summary": "Far-right Israeli minister condemned for taun...",
+      "action": "포지션 축소 검토 / 모니터링 강화",
+      "matched": 9,
       "score": 3.0
     },
     "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "What is Ebola and why is stopping the latest ...",
+      "summary": "Far-right Israeli minister condemned for taun...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 2,
-      "score": 2.9
+      "score": 3.0
     },
     "disaster": {
       "level": "안전",
@@ -51,10 +51,10 @@
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "US imposes sanctions on Gaza flotilla organis...",
+      "summary": "Controlled reopening ends Iran’s lengthy stoc...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 4,
-      "score": 2.8
+      "matched": 7,
+      "score": 1.4
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
+    "level": "경고",
+    "color": "orange",
     "summary": "주의 필요: 지정학적 충돌, 보호무역·공급망",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "action": "포지션 축소 검토 / 모니터링 강화"
   }
 }
