@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-20 12:56",
+  "updated": "2026-05-20 16:52",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,11 +13,11 @@
     "StockPlus": 14
   },
   "news_sample": [
+    "Trump's Greenland envoy faces uphill battle on mission to make 'friends'",
+    "Man who murdered teen TikTok star in Pakistan gets death sentence",
     "'Ebola has tortured us': Fear grips eastern DR Congo as deadly virus spreads",
-    "Ebola outbreak may be spreading faster than first thought, WHO doctor warns",
-    "Key people smuggler arrested after BBC uncovered identity",
-    "Father-of-eight killed in San Diego mosque shooting hailed as hero",
-    "Estonia says Nato jet shot down drone over its territory"
+    "Woman dies after falling into uncovered New York City manhole",
+    "Key people smuggler arrested after BBC uncovered identity"
   ],
   "categories": {
     "geopolitical": {
@@ -26,8 +26,8 @@
       "signal": "⚠️",
       "summary": "Trump says he called off new Iran attack at r...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 11,
-      "score": 15.7
+      "matched": 8,
+      "score": 11.4
     },
     "macro": {
       "level": "주의",
@@ -53,8 +53,8 @@
       "signal": "⚠️",
       "summary": "Trump says he called off new Iran attack at r...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 10,
-      "score": 4.5
+      "matched": 8,
+      "score": 1.5
     },
     "policy": {
       "level": "안전",
