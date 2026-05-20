@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-20 16:52",
+  "updated": "2026-05-20 19:55",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,27 +13,27 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Trump's Greenland envoy faces uphill battle on mission to make 'friends'",
+    "Trump exerts iron grip on Republican Party with Massie defeated",
     "Man who murdered teen TikTok star in Pakistan gets death sentence",
     "'Ebola has tortured us': Fear grips eastern DR Congo as deadly virus spreads",
-    "Woman dies after falling into uncovered New York City manhole",
-    "Key people smuggler arrested after BBC uncovered identity"
+    "Trump's Greenland envoy faces uphill battle on mission to make 'friends'",
+    "Woman dies after falling into uncovered New York City manhole"
   ],
   "categories": {
     "geopolitical": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "⚠️",
-      "summary": "Trump says he called off new Iran attack at r...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 8,
-      "score": 11.4
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
+      "summary": "US and Israel planned to install Ahmadinejad ...",
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 9,
+      "score": 1.5
     },
     "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "'FedEx says your parcel has drugs': The scam ...",
+      "summary": "What is Ebola and why is stopping the latest ...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 2,
       "score": 3.0
@@ -51,10 +51,10 @@
       "level": "주의",
       "color": "yellow",
       "signal": "⚠️",
-      "summary": "Trump says he called off new Iran attack at r...",
+      "summary": "US and Israel planned to install Ahmadinejad ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 8,
-      "score": 1.5
+      "matched": 6,
+      "score": 4.5
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "안전",
-    "color": "green",
-    "summary": "전반적 안정. 정상 운용 유지",
-    "action": "정상 운용 유지"
+    "level": "주의",
+    "color": "yellow",
+    "summary": "주의 필요: 지정학적 충돌",
+    "action": "신규 매수 자제 / 추이 관찰"
   }
 }
