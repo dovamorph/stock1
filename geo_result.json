@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-20 08:06",
+  "updated": "2026-05-20 12:56",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -27,7 +27,7 @@
       "summary": "Trump says he called off new Iran attack at r...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 11,
-      "score": 15.8
+      "score": 15.7
     },
     "macro": {
       "level": "주의",
@@ -35,8 +35,8 @@
       "signal": "⚠️",
       "summary": "'FedEx says your parcel has drugs': The scam ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 3,
-      "score": 4.5
+      "matched": 2,
+      "score": 3.0
     },
     "disaster": {
       "level": "안전",
@@ -48,13 +48,13 @@
       "score": 0
     },
     "trade": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
+      "level": "주의",
+      "color": "yellow",
+      "signal": "⚠️",
       "summary": "Trump says he called off new Iran attack at r...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 7,
-      "score": 1.4
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 10,
+      "score": 4.5
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "주의",
-    "color": "yellow",
-    "summary": "주의 필요: 보호무역·공급망",
-    "action": "신규 매수 자제 / 추이 관찰"
+    "level": "안전",
+    "color": "green",
+    "summary": "전반적 안정. 정상 운용 유지",
+    "action": "정상 운용 유지"
   }
 }
