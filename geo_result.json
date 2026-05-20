@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-20 19:55",
+  "updated": "2026-05-21 00:31",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,21 +13,21 @@
     "StockPlus": 14
   },
   "news_sample": [
+    "Xi basks in spotlight as he hosts Putin days after Trump",
     "Trump exerts iron grip on Republican Party with Massie defeated",
-    "Man who murdered teen TikTok star in Pakistan gets death sentence",
-    "'Ebola has tortured us': Fear grips eastern DR Congo as deadly virus spreads",
-    "Trump's Greenland envoy faces uphill battle on mission to make 'friends'",
-    "Woman dies after falling into uncovered New York City manhole"
+    "Ebola vaccine could take nine months as death toll rise further, WHO warns",
+    "Lithuania's leaders take shelter during drone air alert",
+    "Man who murdered teen TikTok star in Pakistan gets death sentence"
   ],
   "categories": {
     "geopolitical": {
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "US and Israel planned to install Ahmadinejad ...",
+      "summary": "Will Trump kill the $14bn Taiwan arms deal?",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 9,
-      "score": 1.5
+      "matched": 7,
+      "score": 3.0
     },
     "macro": {
       "level": "주의",
@@ -36,7 +36,7 @@
       "summary": "What is Ebola and why is stopping the latest ...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 2,
-      "score": 3.0
+      "score": 2.9
     },
     "disaster": {
       "level": "안전",
@@ -48,13 +48,13 @@
       "score": 0
     },
     "trade": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "⚠️",
-      "summary": "US and Israel planned to install Ahmadinejad ...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 6,
-      "score": 4.5
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
+      "summary": "US imposes sanctions on Gaza flotilla organis...",
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 4,
+      "score": 2.8
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "주의",
-    "color": "yellow",
-    "summary": "주의 필요: 지정학적 충돌",
-    "action": "신규 매수 자제 / 추이 관찰"
+    "level": "위험",
+    "color": "red",
+    "summary": "주의 필요: 지정학적 충돌, 보호무역·공급망",
+    "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
