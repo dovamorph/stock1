@@ -592,8 +592,12 @@ def process_buys(token, data, stocks, ptype, max_pos, budget, partial_sells,
             continue
 
         # ── 반등 진입 시 추가 조정 ────────────────────────────────────
-        # 가짜 반등 가능성 있으므로: 포지션 50% + 손절 -3% (더 타이트)
-        is_reversal_entry = data.get("_is_reversal", False) and ptype == "short"
+        # 기회포착모드(ADR 80%+)이면 반등감지 축소 미적용 (충돌 방지)
+        is_reversal_entry = (
+            data.get("_is_reversal", False) and
+            ptype == "short" and
+            not data.get("_opportunity_mode", False)
+        )
         if is_reversal_entry:
             analysis["sizing"]["total"]  = analysis["sizing"]["total"] // 2
             analysis["sizing"]["first"]  = analysis["sizing"]["first"] // 2
@@ -900,11 +904,12 @@ def main():
     data = load_positions()
 
     # ── 매도 체크 전 국면/KOSPI/반등 정보 data에 주입 ─────────────────
-    data["_kospi_ch5"]     = kospi_ch5
-    data["_kospi_ch1"]     = kospi_ch1
-    data["_regime"]        = regime.get("regime", "UNKNOWN")
-    data["_signal"]        = signal_raw
-    data["_is_reversal"]   = _is_reversal_flag   # ← 로컬 변수에서 주입
+    data["_kospi_ch5"]         = kospi_ch5
+    data["_kospi_ch1"]         = kospi_ch1
+    data["_regime"]            = regime.get("regime", "UNKNOWN")
+    data["_signal"]            = signal_raw
+    data["_is_reversal"]       = _is_reversal_flag
+    data["_opportunity_mode"]  = is_opportunity_mode
 
     process_sells(token, data, "long",
                   regime_params["long_sells"],
