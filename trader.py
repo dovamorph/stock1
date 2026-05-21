@@ -599,8 +599,17 @@ def process_buys(token, data, stocks, ptype, max_pos, budget, partial_sells,
             analysis["sizing"]["total"]  = analysis["sizing"]["total"] // 2
             analysis["sizing"]["first"]  = analysis["sizing"]["first"] // 2
             analysis["sizing"]["second"] = analysis["sizing"]["second"] // 2
-            analysis["sl"]               = max(analysis["sl"], -0.03)   # 손절 -3% 이내
+            analysis["sl"]               = max(analysis["sl"], -0.03)
             print(f"    ⚡ 반등진입 보정: 포지션 50% + 손절 {analysis['sl']*100:.0f}%")
+
+        # ── 단타 손절 최대 -7% 제한 ──────────────────────────────────
+        if ptype == "short":
+            analysis["sl"] = max(analysis["sl"], -0.07)
+
+        # ── 단타 거래량 0.8x 미만 → 스킵 ────────────────────────────
+        if ptype == "short" and analysis.get("vol_ratio", 1.0) < 0.8:
+            print(f"    {name} — 거래량 부족 ({analysis.get('vol_ratio',0):.1f}x < 0.8x) 스킵")
+            continue
 
         # watchlist 재매수 확정 시 watchlist에서 제거
         if is_watchlist:
