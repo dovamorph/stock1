@@ -182,6 +182,23 @@ def fetch_market_signal(tok) -> dict:
         elif rsi_14 < 25: kr_score += 2
         elif rsi_14 < 30: kr_score += 1
 
+        # ── 단기 수익률 반영 ─────────────────────────────────────────
+        ch5  = result.get("kospi_ch5", 0)
+        ch1  = result.get("kospi_ch1", 0)
+        ch2  = result.get("kospi_ch2", 0)
+        if ch5 <= -5:    kr_score -= 2
+        elif ch5 <= -2:  kr_score -= 1
+        elif ch5 >= 5:   kr_score += 2
+        elif ch5 >= 2:   kr_score += 1
+        if ch1 <= -3:    kr_score -= 2
+        elif ch1 <= -1:  kr_score -= 1
+        elif ch1 >= 3:   kr_score += 1
+        if ch2 <= -4:    kr_score -= 1
+        elif ch2 >= 4:   kr_score += 1
+
+        # ch1 reasons
+        if abs(ch1) >= 1: reasons.append(f"당일 {ch1:+.1f}%")
+
         result["kr_score"] = kr_score
 
         if kr_score >= 3:
@@ -567,7 +584,8 @@ def main():
 
     kr_score = market_signal.get("kr_score", 0)
     us_score = 0
-    us_en    = us_signal.get("us_signal_en","WATCH")
+    us_en    = us_signal.get("us_signal_en", "WATCH")
+
     if us_en == "BUY":    us_score =  2
     elif us_en == "SELL": us_score = -2
 
@@ -577,6 +595,17 @@ def main():
         elif vix_val < 20:  us_score += 1
         elif vix_val < 25:  us_score -= 1
         elif vix_val < 35:  us_score -= 2
+
+    # ── 한국 하락 시 미국 영향 제한 ───────────────────────────────────
+    if kr_score <= -3:
+        us_score = min(us_score, 1)
+    elif kr_score <= -1:
+        us_score = min(us_score, 2)
+
+    # ── 당일 KOSPI 급락 시 추가 페널티 ──────────────────────────────
+    ch1_now = float(market_signal.get("kospi_ch1", 0))
+    if ch1_now <= -2 and us_score > 0:
+        us_score -= 1
 
     total_score = kr_score + us_score
     reasons_final = []
