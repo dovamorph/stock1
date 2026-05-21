@@ -114,9 +114,6 @@ def fetch_market_signal(tok) -> dict:
             "ma60":        round(ma60, 2),
             "kospi_ch5":   round((close - prices[4]) / prices[4] * 100, 2) if len(prices) >= 5 and prices[4] > 0 else 0,
             "kospi_ch20":  round((close - prices[19]) / prices[19] * 100, 2) if len(prices) >= 20 and prices[19] > 0 else 0,
-            # ── 단기 지표 추가 ──────────────────────────────────────
-            "kospi_ch1":   round((close - prices[1]) / prices[1] * 100, 2) if len(prices) >= 2 and prices[1] > 0 else 0,
-            "kospi_ch2":   round((close - prices[2]) / prices[2] * 100, 2) if len(prices) >= 3 and prices[2] > 0 else 0,
             "rsi_14":      rsi_14,
         })
 
@@ -141,19 +138,14 @@ def fetch_market_signal(tok) -> dict:
         else: reasons.append("MA20<MA60 중기 하락")
 
         ch5 = result["kospi_ch5"]
-        ch1 = result["kospi_ch1"]
-        ch2 = result["kospi_ch2"]
-
         if ch5 >= 2: reasons.append(f"5일 +{ch5:.1f}%↑")
         elif ch5 <= -2: reasons.append(f"5일 {ch5:.1f}%↓")
-        if abs(ch1) >= 1: reasons.append(f"당일 {ch1:+.1f}%")
 
         # RSI 이유 추가
         if rsi_14 > 70:   reasons.append(f"RSI {rsi_14:.0f} 과매수")
         elif rsi_14 < 30: reasons.append(f"RSI {rsi_14:.0f} 과매도")
 
         kr_score = 0
-        # ── MA 구조 (장기 추세) ───────────────────────────────────
         if above_all:     kr_score += 2
         elif close > ma5: kr_score += 1
         if below_all:     kr_score -= 2
@@ -163,27 +155,10 @@ def fetch_market_signal(tok) -> dict:
         if is_above_60:   kr_score += 1
         else:             kr_score -= 1
 
-        # ── RSI ──────────────────────────────────────────────────
         if rsi_14 > 75:   kr_score -= 2
         elif rsi_14 > 70: kr_score -= 1
         elif rsi_14 < 25: kr_score += 2
         elif rsi_14 < 30: kr_score += 1
-
-        # ── ① 5일 수익률 (주간 추세) ─────────────────────────────
-        if ch5 <= -5:     kr_score -= 2   # 주간 급락
-        elif ch5 <= -2:   kr_score -= 1   # 주간 하락
-        elif ch5 >= 5:    kr_score += 2   # 주간 급등
-        elif ch5 >= 2:    kr_score += 1   # 주간 상승
-
-        # ── ② 당일 등락률 (가장 최신 반응) ─────────────────────────
-        if ch1 <= -3:     kr_score -= 2   # 오늘 급락
-        elif ch1 <= -1:   kr_score -= 1   # 오늘 하락
-        elif ch1 >= 3:    kr_score += 1   # 오늘 급등
-        # 오늘 +1~+3%는 점수 없음 (과매수 방지)
-
-        # ── ③ 2일 수익률 (단기 모멘텀) ──────────────────────────────
-        if ch2 <= -4:     kr_score -= 1   # 이틀 연속 하락
-        elif ch2 >= 4:    kr_score += 1   # 이틀 연속 상승
 
         result["kr_score"] = kr_score
 
@@ -348,7 +323,8 @@ def load_candidates():
 # ── 2단계: KIS 현재가 ─────────────────────────────────────────────
 def fetch_price_info(tok, ticker):
     r={"per":0.,"pbr":0.,"eps":0.,"bps":0.,"roe":0.,
-       "close":0.,"acml_tr_pbmn":0.,"tvol_today":0}
+       "close":0.,"acml_tr_pbmn":0.,"tvol_today":0,
+       "prdy_ctrt":0.}   # ← 전일대비 등락률 추가 (ADR용)
     try:
         res=requests.get(f"{BASE}/uapi/domestic-stock/v1/quotations/inquire-price",
             headers=H(tok,"FHKST01010100"),timeout=10,
@@ -361,6 +337,7 @@ def fetch_price_info(tok, ticker):
         r["pbr"]  = sf(o.get("pbr"))
         r["eps"]  = sf(o.get("eps"))
         r["bps"]  = sf(o.get("bps"))
+        r["prdy_ctrt"] = sf(o.get("prdy_ctrt"))   # 전일대비 등락률(%)
         if r["bps"]>0: r["roe"]=round(r["eps"]/r["bps"]*100,1)
     except Exception as e: print(f"    현재가오류({ticker}):{e}")
     return r
@@ -372,7 +349,7 @@ def select_top40(tok, candidates):
 
     def query(c):
         try: return {**c,**fetch_price_info(tok,c["ticker"])}
-        except: return {**c,"tvol_today":0,"acml_tr_pbmn":0}
+        except: return {**c,"tvol_today":0,"acml_tr_pbmn":0,"prdy_ctrt":0.}
 
     with ThreadPoolExecutor(max_workers=10) as ex:
         futures={ex.submit(query,c):c for c in candidates}
@@ -382,6 +359,20 @@ def select_top40(tok, candidates):
             if done_count[0]%30==0: print(f"  {done_count[0]}/{len(candidates)} 완료...")
 
     print(f"  {len(enriched)}/{len(candidates)} 완료")
+
+    # ── ADR 계산 (전체 500종목 기반) ─────────────────────────────
+    valid   = [s for s in enriched if s.get("prdy_ctrt") != 0 or s.get("close",0) > 0]
+    adv     = sum(1 for s in valid if s.get("prdy_ctrt", 0) > 0)
+    dec     = sum(1 for s in valid if s.get("prdy_ctrt", 0) < 0)
+    total_v = adv + dec
+    adr_val = round(adv / total_v * 100, 1) if total_v > 0 else 50.0
+    adr_data = {"adr": adr_val, "adr_advances": adv, "adr_declines": dec}
+    if adr_val >= 80:   adr_data["adr_signal"] = "🟢"; adr_data["adr_desc"] = f"건강 ({adr_val:.0f}%) — 지수 상승이 진짜"
+    elif adr_val >= 70: adr_data["adr_signal"] = "🟡"; adr_data["adr_desc"] = f"경계 ({adr_val:.0f}%) — 이탈 징후 점검"
+    elif adr_val >= 50: adr_data["adr_signal"] = "🟠"; adr_data["adr_desc"] = f"약세 ({adr_val:.0f}%) — 속에서 썩는 중"
+    else:               adr_data["adr_signal"] = "🔴"; adr_data["adr_desc"] = f"투매권 ({adr_val:.0f}%) — 바닥 근접 가능"
+    print(f"  ADR 등락비율: {adr_val:.1f}% ({adv}↑ / {dec}↓) {adr_data['adr_signal']}")
+
     df=(pd.DataFrame(enriched).sort_values("acml_tr_pbmn",ascending=False)
         .head(TOP_N).reset_index(drop=True))
     result=[]
@@ -394,7 +385,7 @@ def select_top40(tok, candidates):
         })
     print(f"\n  거래대금 상위 {len(result)}종목:")
     for r in result[:5]: print(f"    {r['rank']:2d}. {r['name']} ({r['market']}) — {r['tvol']:,}억")
-    return result
+    return result, adr_data
 
 # ── 4단계: 배당여부 ──────────────────────────────────────────────
 def check_dividend(ticker, market):
@@ -431,8 +422,7 @@ def fetch_eps_trend(tok, ticker, cur_eps):
 
 # ── 6단계: 20일 등락 + RSI + MACD ───────────────────────────────
 def fetch_ch20(tok, ticker):
-    r={"ch20":0.,"ch5":0.,"ch1":0.,"vol_trend":0.,"vol_char":"혼조","vol_char_score":0.,
-       "rsi":50.0,"macd_line":0.,"signal_line":0.,"macd_bull":None}
+    r={"ch20":0.,"ch5":0.,"vol_trend":0.,"rsi":50.0,"macd_line":0.,"signal_line":0.,"macd_bull":None}
     try:
         now=datetime.now()
         s=(now-timedelta(days=60)).strftime("%Y%m%d"); e=now.strftime("%Y%m%d")
@@ -447,27 +437,10 @@ def fetch_ch20(tok, ticker):
             r["ch20"]=round((prices[0]-prices[19])/prices[19]*100,1) if prices[19]>0 else 0.
         if len(prices)>=5:
             r["ch5"]=round((prices[0]-prices[4])/prices[4]*100,1) if prices[4]>0 else 0.
-        # ── 당일 등락률 ─────────────────────────────────────────────
-        if len(prices)>=2:
-            r["ch1"]=round((prices[0]-prices[1])/prices[1]*100,1) if prices[1]>0 else 0.
         vols=[sf(x.get("acml_vol")) for x in items]
         if len(vols)>=20:
             avg5=sum(vols[:5])/5; avgA=sum(vols[:20])/20
             r["vol_trend"]=round((avg5-avgA)/avgA*100,1) if avgA>0 else 0.
-        # ── 거래대금 성격: 당일 등락률 × 거래량 과다 여부 ──────────
-        ch1 = r["ch1"]
-        vol_ratio = (vols[0] / (sum(vols[1:21])/20)) if len(vols)>=21 and sum(vols[1:21])>0 else 1.0
-        r["vol_char_score"] = round(ch1 * min(vol_ratio, 3.0), 2)  # 등락방향 × 거래량 강도
-        if ch1 >= 2.0:
-            r["vol_char"] = "매수주도 🟢"
-        elif ch1 >= 0.3:
-            r["vol_char"] = "상승동반 🟡"
-        elif ch1 <= -2.0:
-            r["vol_char"] = "매도주도 🔴"
-        elif ch1 <= -0.3:
-            r["vol_char"] = "하락동반 🟠"
-        else:
-            r["vol_char"] = "혼조 ⚪"
         if len(prices)>=15:
             p_asc=prices[:15][::-1]
             gains=[max(p_asc[i]-p_asc[i-1],0) for i in range(1,15)]
@@ -582,22 +555,6 @@ def main():
         elif vix_val < 25:  us_score -= 1
         elif vix_val < 35:  us_score -= 2
 
-    # ── ① 한국 하락 시 미국 영향 제한 ────────────────────────────────
-    # 한국이 강하게 하락 중이면 미국 강세가 신호를 뒤집지 못하도록 제한
-    # kr_score <= -3: 미국 최대 +1점만 허용 (완전 상쇄 불가)
-    # kr_score <= -1: 미국 최대 +2점만 허용 (약한 제한)
-    if kr_score <= -3:
-        us_score = min(us_score, 1)
-    elif kr_score <= -1:
-        us_score = min(us_score, 2)
-
-    # ── ② 당일 KOSPI 급락 시 추가 페널티 ────────────────────────────
-    # 오늘 실제로 많이 빠진 날은 미국 상승 기대를 낮춤
-    ch1 = float(market_signal.get("kospi_ch1", 0))
-    ch5 = float(market_signal.get("kospi_ch5", 0))
-    if ch1 <= -2 and us_score > 0:
-        us_score -= 1   # 오늘 -2% 이상 빠졌으면 미국 기대치 1점 차감
-
     total_score = kr_score + us_score
     reasons_final = []
     if kr_score >= 3:      reasons_final.append("한국 상승추세")
@@ -607,8 +564,6 @@ def main():
     elif us_en == "SELL":  reasons_final.append("미국 하락장")
     if vix_val > 25:       reasons_final.append(f"VIX {vix_val:.0f} 공포")
     elif 0 < vix_val < 15: reasons_final.append(f"VIX {vix_val:.0f} 과열낙관")
-    if ch1 <= -2:          reasons_final.append(f"당일 {ch1:+.1f}%")
-    if ch5 <= -3:          reasons_final.append(f"주간 {ch5:+.1f}%")
 
     # ── RSI 과매수 강제 하향 ──────────────────────────────────────
     _rsi = float(market_signal.get("rsi_14", 50))
@@ -642,8 +597,91 @@ def main():
     candidates=load_candidates()
     if not candidates: print("❌ 후보 로드 실패"); return
 
-    top40=select_top40(tok,candidates)
+    top40, adr_data = select_top40(tok, candidates)
     if not top40: print("❌ 거래대금 계산 실패"); return
+
+    # ── VKOSPI: regime_cache.json에서 읽기 (market_regime.py가 계산) ──
+    vkospi_est = 20.0
+    try:
+        if os.path.exists("regime_cache.json"):
+            with open("regime_cache.json", encoding="utf-8") as f:
+                rc = json.load(f)
+            vkospi_est = float(rc.get("vkospi_est", 20.0))
+            print(f"  VKOSPI 추정: {vkospi_est:.1f} (regime_cache 기반)")
+    except Exception:
+        pass
+
+    # VKOSPI 신호 판정
+    vkospi_data = {"vkospi_est": vkospi_est}
+    if vkospi_est >= 30:
+        vkospi_data["vkospi_signal"] = "🔴"
+        vkospi_data["vkospi_desc"]   = f"{vkospi_est:.1f} — 공포 극단 (반등 신호 또는 지속 하락)"
+    elif vkospi_est >= 25:
+        vkospi_data["vkospi_signal"] = "🟠"
+        vkospi_data["vkospi_desc"]   = f"{vkospi_est:.1f} — 불안 구간 (변동성 주의)"
+    elif vkospi_est >= 15:
+        vkospi_data["vkospi_signal"] = "🟡"
+        vkospi_data["vkospi_desc"]   = f"{vkospi_est:.1f} — 정상 범위"
+    else:
+        vkospi_data["vkospi_signal"] = "🟡"
+        vkospi_data["vkospi_desc"]   = f"{vkospi_est:.1f} — 과도한 낙관 (조정 가능)"
+
+    # market_signal에 ADR + VKOSPI 추가
+    market_signal.update(adr_data)
+    market_signal.update(vkospi_data)
+
+    # ── 복합 시장 신호 (진짜/가짜 판단) ─────────────────────────────
+    adr_v    = adr_data["adr"]
+    kospi_up = float(market_signal.get("kospi_ch1", 0)) > 0
+    oi_raw   = market_signal.get("oi_change", None)
+    oi_up    = float(oi_raw) > 0 if oi_raw is not None else None
+    basis_v  = market_signal.get("basis", 0) or 0
+
+    # 보조 점수 (ADR + VKOSPI + 베이시스)
+    aux_score = 0
+    if adr_v >= 70:      aux_score += 1
+    elif adr_v < 50:     aux_score -= 1
+    if vkospi_est >= 30: aux_score -= 1   # 공포 극단은 조심
+    if basis_v > 1:      aux_score += 1
+    elif basis_v < -1:   aux_score -= 1
+
+    if kospi_up and oi_up is True:
+        comp_label = "🟢 진짜 상승"; comp_type = "real_rally"
+        comp_desc  = "신규 매수 세력 유입 확인. 추세 지속 가능성 높음."
+        comp_action= "추세 추종 가능. 분할 매수 고려."
+    elif kospi_up and oi_up is False:
+        if aux_score >= 1:
+            comp_label = "🟡 숏커버링 → 전환 가능성"; comp_type = "reversal"
+            comp_desc  = "하락 세력 청산 중. 보조지표가 강세라 진짜 상승 전환 가능."
+            comp_action= "OI 증가 전환 확인 후 진입. 지금 추격 매수는 위험."
+        else:
+            comp_label = "🟡 가짜 상승 (숏커버링)"; comp_type = "fake_rally"
+            comp_desc  = "하락 세력이 손절하며 나가는 것. 새 매수 세력 아님."
+            comp_action= "추격 매수 자제. 보유분 익절 기회로 활용."
+    elif not kospi_up and oi_up is True:
+        comp_label = "🔴 진짜 하락"; comp_type = "real_drop"
+        comp_desc  = "새 하락 세력 진입 확인. 추가 하락 위험."
+        comp_action= "매수 금지. 보유분 손절 기준 재점검."
+    elif not kospi_up and oi_up is False:
+        if vkospi_est >= 28 and adr_v < 50:
+            comp_label = "🟡 바닥 근접 신호"; comp_type = "near_bottom"
+            comp_desc  = "공포 극단 + 하락 세력 청산 + 투매권. 반등 준비 구간."
+            comp_action= "섣불리 매수 금지. 바닥 확인 후 소량 분할 진입 검토."
+        else:
+            comp_label = "🟠 조정 or 가짜 하락"; comp_type = "fake_drop"
+            comp_desc  = "기존 매수 세력이 나가는 하락. 방향 불확실."
+            comp_action= "방향 확인 대기. OI 변화 추이 관찰."
+    else:
+        comp_label = "⚪ 판단 보류"; comp_type = "neutral"
+        comp_desc  = "선물 미결제약정 데이터 미수신."
+        comp_action= "베이시스·ADR 기준으로 판단."
+
+    market_signal["composite"] = {
+        "label": comp_label, "type": comp_type,
+        "desc":  comp_desc,  "action": comp_action,
+        "aux_score": aux_score,
+    }
+    print(f"  복합신호: {comp_label}")
 
     # ── 순위 변동 계산 ─────────────────────────────────────────────
     for item in top40:
@@ -680,7 +718,6 @@ def main():
                 f"  PER:{t.get('per',0):.1f}{'✅' if f['per_ok'] else '❌'}"
                 f"  EPS:{t.get('eps',0):,.0f}({eps_tr['eps_trend']}){'✅' if f['eps_ok'] and f['eps_up'] else '❌'}"
                 f"{debt_str}  5일:{price.get('ch5',0):+.1f}%  20일:{price.get('ch20',0):+.1f}%"
-                f"  [{price.get('vol_char','혼조 ⚪')}]"
                 f"{div_str}{'  ⭐' if f['recommended'] else ''}"
             )
         except Exception: print("오류"); traceback.print_exc()
