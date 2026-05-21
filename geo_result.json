@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-21 18:50",
+  "updated": "2026-05-21 21:46",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -14,20 +14,20 @@
   },
   "news_sample": [
     "US charges Cuba's Raúl Castro with murder over 1996 downing of two planes",
-    "Rosenberg: Putin enjoys Xi's Chinese welcome but heads home without pipeline deal",
-    "DR Congo cancels World Cup training camp over Ebola outbreak",
-    "Sierra Leone becomes latest African country to receive deportees from US",
-    "Nvidia's record result fails to impress investors"
+    "Air France and Airbus found guilty of manslaughter over 2009 plane crash",
+    "China says US should stop 'threats' against Cuba after ex-leader charged",
+    "Gonorrhoea and syphilis hit record levels in Europe",
+    "Dozens of vehicles burnt as Mali jihadists enforce blockade"
   ],
   "categories": {
     "geopolitical": {
-      "level": "경고",
-      "color": "orange",
-      "signal": "🟠",
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
       "summary": "Far-right Israeli minister condemned for taun...",
-      "action": "포지션 축소 검토 / 모니터링 강화",
-      "matched": 11,
-      "score": 1.4
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 13,
+      "score": 1.5
     },
     "macro": {
       "level": "주의",
@@ -36,7 +36,7 @@
       "summary": "Far-right Israeli minister condemned for taun...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 3,
-      "score": 4.5
+      "score": 4.4
     },
     "disaster": {
       "level": "안전",
@@ -48,13 +48,13 @@
       "score": 0
     },
     "trade": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
-      "summary": "The crises caused by the Iran war will hit th...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 5,
-      "score": 1.4
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "How Chinese, Iranian companies profit in Russ...",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 7,
+      "score": 3.0
     },
     "policy": {
       "level": "안전",
@@ -69,7 +69,7 @@
   "overall": {
     "level": "주의",
     "color": "yellow",
-    "summary": "주의 필요: 지정학적 충돌, 보호무역·공급망",
+    "summary": "주의 필요: 지정학적 충돌",
     "action": "신규 매수 자제 / 추이 관찰"
   }
 }
