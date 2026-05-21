@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-22 01:40",
+  "updated": "2026-05-22 04:58",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -15,9 +15,9 @@
   "news_sample": [
     "Iran steps up claim to control Strait of Hormuz",
     "Gaza flotilla activists deported from Israel as backlash over treatment grows",
-    "China says US should stop 'threats' against Cuba after ex-leader charged",
-    "Air France and Airbus found guilty of manslaughter over 2009 plane crash",
-    "Charges dismissed against official at school where 6-year-old shot teacher"
+    "Russia and China condemn US over indictment of former Cuban leader",
+    "Pair arrested after boys abandoned by road in Portugal",
+    "Air France and Airbus found guilty of manslaughter over 2009 plane crash"
   ],
   "categories": {
     "geopolitical": {
@@ -26,7 +26,7 @@
       "signal": "🔴",
       "summary": "Iran steps up claim to control Strait of Horm...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 17,
+      "matched": 18,
       "score": 1.5
     },
     "macro": {
@@ -35,8 +35,8 @@
       "signal": "🟡",
       "summary": "What is Ebola and why is stopping the latest ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "matched": 2,
+      "score": 4.5
     },
     "disaster": {
       "level": "안전",
@@ -48,13 +48,13 @@
       "score": 0
     },
     "trade": {
-      "level": "신호",
+      "level": "주의",
       "color": "yellow",
       "signal": "🟡",
       "summary": "Iran steps up claim to control Strait of Horm...",
-      "action": "관련 지표 추가 확인 후 판단",
-      "matched": 4,
-      "score": 5.7
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 6,
+      "score": 3.0
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
+    "level": "주의",
+    "color": "yellow",
     "summary": "주의 필요: 지정학적 충돌",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "action": "신규 매수 자제 / 추이 관찰"
   }
 }
