@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-21 08:23",
+  "updated": "2026-05-21 13:05",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -21,13 +21,13 @@
   ],
   "categories": {
     "geopolitical": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "⚠️",
+      "level": "경고",
+      "color": "orange",
+      "signal": "🟠",
       "summary": "Far-right Israeli minister condemned for taun...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 4,
-      "score": 5.7
+      "action": "포지션 축소 검토 / 모니터링 강화",
+      "matched": 8,
+      "score": 2.9
     },
     "macro": {
       "level": "주의",
@@ -48,12 +48,12 @@
       "score": 0
     },
     "trade": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "⚠️",
-      "summary": "US condemns Israel’s Ben-Gvir while sanctioni...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 3,
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
+      "summary": "US lifts sanctions on Francesca Albanese, UN ...",
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 4,
       "score": 1.4
     },
     "policy": {
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "안전",
-    "color": "green",
-    "summary": "전반적 안정. 정상 운용 유지",
-    "action": "정상 운용 유지"
+    "level": "경고",
+    "color": "orange",
+    "summary": "주의 필요: 지정학적 충돌, 보호무역·공급망",
+    "action": "포지션 축소 검토 / 모니터링 강화"
   }
 }
