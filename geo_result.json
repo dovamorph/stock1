@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-22 06:43",
+  "updated": "2026-05-22 08:06",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,8 +13,8 @@
     "StockPlus": 14
   },
   "news_sample": [
+    "Rubio says Cuba is threat to US as Havana accuses him of 'lies'",
     "Angry crowd sets Ebola hospital tents on fire in DR Congo",
-    "Russia and China condemn US over indictment of former Cuban leader",
     "Iran steps up claim to control Strait of Hormuz",
     "Gaza flotilla activists deported from Israel as backlash over treatment grows",
     "Pair arrested after boys abandoned by road in Portugal"
@@ -26,8 +26,8 @@
       "signal": "🟡",
       "summary": "Iran steps up claim to control Strait of Horm...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 9,
-      "score": 13.1
+      "matched": 10,
+      "score": 14.6
     },
     "macro": {
       "level": "주의",
@@ -35,8 +35,8 @@
       "signal": "🟡",
       "summary": "What is Ebola and why is stopping the latest ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 2,
-      "score": 3.0
+      "matched": 3,
+      "score": 4.5
     },
     "disaster": {
       "level": "안전",
@@ -53,7 +53,7 @@
       "signal": "🔴",
       "summary": "Iran steps up claim to control Strait of Horm...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 6,
+      "matched": 4,
       "score": 1.4
     },
     "policy": {
