@@ -885,6 +885,9 @@ def main():
     else:
         short_max_new = 1
         short_pos_mult_override = None
+
+    # ── 만기일 익절 우선 알림 (sell_priority일 때만) ─────────────────
+    if expiry_guard.get("sell_priority"):
         print(f"  ⚠️ {expiry_guard['note']} — 익절 우선 모드")
         discord(f"⚠️ {expiry_guard['note']}")
 
