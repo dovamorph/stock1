@@ -112,8 +112,6 @@ def main():
     print(f"{'='*50}")
     print(f"  다음 만기일 : {expiry_date} (D-{d_day})")
     print(f"  매매 제한   : {guard['note']}")
-    print(f"  장투 허용   : {guard['allow_new_longterm']}")
-    print(f"  단타 허용   : {guard['allow_new_daytrend']}")
     if deadline_str:
         print(f"  마감까지    : {deadline_str}")
 
