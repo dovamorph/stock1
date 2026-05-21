@@ -668,16 +668,16 @@ def main():
     vkospi_data = {"vkospi_est": vkospi_est}
     if vkospi_est >= 30:
         vkospi_data["vkospi_signal"] = "🔴"
-        vkospi_data["vkospi_desc"]   = f"{vkospi_est:.1f} — 공포 극단 (반등 신호 또는 지속 하락)"
+        vkospi_data["vkospi_desc"]   = f"{vkospi_est:.1f} — 시장이 극도로 불안합니다. 방향에 따라 반등 또는 추가 하락"
     elif vkospi_est >= 25:
         vkospi_data["vkospi_signal"] = "🟠"
-        vkospi_data["vkospi_desc"]   = f"{vkospi_est:.1f} — 불안 구간 (변동성 주의)"
+        vkospi_data["vkospi_desc"]   = f"{vkospi_est:.1f} — 투자자들이 긴장하고 있습니다. 신중하게 접근하세요"
     elif vkospi_est >= 15:
-        vkospi_data["vkospi_signal"] = "🟡"
-        vkospi_data["vkospi_desc"]   = f"{vkospi_est:.1f} — 정상 범위"
+        vkospi_data["vkospi_signal"] = "🟢"
+        vkospi_data["vkospi_desc"]   = f"{vkospi_est:.1f} — 시장이 안정적입니다. 투자 심리 양호"
     else:
         vkospi_data["vkospi_signal"] = "🟡"
-        vkospi_data["vkospi_desc"]   = f"{vkospi_est:.1f} — 과도한 낙관 (조정 가능)"
+        vkospi_data["vkospi_desc"]   = f"{vkospi_est:.1f} — 지나치게 낙관적입니다. 조정이 올 수 있습니다"
 
     # market_signal에 ADR + VKOSPI 추가
     market_signal.update(adr_data)
