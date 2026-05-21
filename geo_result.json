@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-21 13:05",
+  "updated": "2026-05-21 18:50",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -15,9 +15,9 @@
   "news_sample": [
     "US charges Cuba's Raúl Castro with murder over 1996 downing of two planes",
     "Rosenberg: Putin enjoys Xi's Chinese welcome but heads home without pipeline deal",
-    "Far-right Israeli minister condemned for taunting handcuffed Gaza flotilla activists",
-    "Ebola vaccine could take nine months as death toll rises further, WHO warns",
-    "Murder or accident? Mystery of Mango tycoon's hiking death after son's arrest"
+    "DR Congo cancels World Cup training camp over Ebola outbreak",
+    "Sierra Leone becomes latest African country to receive deportees from US",
+    "Nvidia's record result fails to impress investors"
   ],
   "categories": {
     "geopolitical": {
@@ -26,22 +26,22 @@
       "signal": "🟠",
       "summary": "Far-right Israeli minister condemned for taun...",
       "action": "포지션 축소 검토 / 모니터링 강화",
-      "matched": 8,
-      "score": 2.9
+      "matched": 11,
+      "score": 1.4
     },
     "macro": {
       "level": "주의",
       "color": "yellow",
-      "signal": "⚠️",
+      "signal": "🟡",
       "summary": "Far-right Israeli minister condemned for taun...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 2,
-      "score": 3.0
+      "matched": 3,
+      "score": 4.5
     },
     "disaster": {
       "level": "안전",
       "color": "green",
-      "signal": "✅",
+      "signal": "🟢",
       "summary": "관련 이슈 없음",
       "action": "정상 운용 유지",
       "matched": 0,
@@ -51,15 +51,15 @@
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "US lifts sanctions on Francesca Albanese, UN ...",
+      "summary": "The crises caused by the Iran war will hit th...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 4,
+      "matched": 5,
       "score": 1.4
     },
     "policy": {
       "level": "안전",
       "color": "green",
-      "signal": "✅",
+      "signal": "🟢",
       "summary": "관련 이슈 없음",
       "action": "정상 운용 유지",
       "matched": 0,
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "경고",
-    "color": "orange",
+    "level": "주의",
+    "color": "yellow",
     "summary": "주의 필요: 지정학적 충돌, 보호무역·공급망",
-    "action": "포지션 축소 검토 / 모니터링 강화"
+    "action": "신규 매수 자제 / 추이 관찰"
   }
 }
