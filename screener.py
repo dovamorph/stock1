@@ -422,6 +422,7 @@ def select_top40(tok, candidates):
             "tvol":int(row.get("tvol_today",0)),"per":row.get("per",0.),
             "pbr":row.get("pbr",0.),"eps":row.get("eps",0.),"bps":row.get("bps",0.),
             "roe":row.get("roe",0.),"close":row.get("close",0.),
+            "prdy_ctrt":row.get("prdy_ctrt",0.),   # 실시간 전일대비 등락률 (vol_char용)
         })
     print(f"\n  거래대금 상위 {len(result)}종목:")
     for r in result[:5]: print(f"    {r['rank']:2d}. {r['name']} ({r['market']}) — {r['tvol']:,}억")
