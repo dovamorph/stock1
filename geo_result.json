@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-21 21:46",
+  "updated": "2026-05-22 01:40",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,30 +13,30 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "US charges Cuba's Raúl Castro with murder over 1996 downing of two planes",
-    "Air France and Airbus found guilty of manslaughter over 2009 plane crash",
+    "Iran steps up claim to control Strait of Hormuz",
+    "Gaza flotilla activists deported from Israel as backlash over treatment grows",
     "China says US should stop 'threats' against Cuba after ex-leader charged",
-    "Gonorrhoea and syphilis hit record levels in Europe",
-    "Dozens of vehicles burnt as Mali jihadists enforce blockade"
+    "Air France and Airbus found guilty of manslaughter over 2009 plane crash",
+    "Charges dismissed against official at school where 6-year-old shot teacher"
   ],
   "categories": {
     "geopolitical": {
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "Far-right Israeli minister condemned for taun...",
+      "summary": "Iran steps up claim to control Strait of Horm...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 13,
+      "matched": 17,
       "score": 1.5
     },
     "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Far-right Israeli minister condemned for taun...",
+      "summary": "What is Ebola and why is stopping the latest ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 3,
-      "score": 4.4
+      "matched": 1,
+      "score": 1.5
     },
     "disaster": {
       "level": "안전",
@@ -48,13 +48,13 @@
       "score": 0
     },
     "trade": {
-      "level": "주의",
+      "level": "신호",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "How Chinese, Iranian companies profit in Russ...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 7,
-      "score": 3.0
+      "summary": "Iran steps up claim to control Strait of Horm...",
+      "action": "관련 지표 추가 확인 후 판단",
+      "matched": 4,
+      "score": 5.7
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "주의",
-    "color": "yellow",
+    "level": "위험",
+    "color": "red",
     "summary": "주의 필요: 지정학적 충돌",
-    "action": "신규 매수 자제 / 추이 관찰"
+    "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
