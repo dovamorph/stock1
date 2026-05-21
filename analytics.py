@@ -414,7 +414,9 @@ def analyze_before_buy(
 
     # 순위 변동
     rank_change = stock.get("rank_change", 0)
-    if isinstance(rank_change, str):
+    if rank_change is None:                          # 신규 진입 종목
+        rank_change = 3                              # NEW = 약한 상승으로 간주
+    elif isinstance(rank_change, str):
         rank_change = {"NEW": 3, "→": 0}.get(rank_change, 0)
 
     # ── 매수 점수 ─────────────────────────────────────────────────────
