@@ -115,8 +115,29 @@ def fetch_market_signal(tok) -> dict:
             "ma60":        round(ma60, 2),
             "kospi_ch5":   round((close - prices[4]) / prices[4] * 100, 2) if len(prices) >= 5 and prices[4] > 0 else 0,
             "kospi_ch20":  round((close - prices[19]) / prices[19] * 100, 2) if len(prices) >= 20 and prices[19] > 0 else 0,
+            "kospi_ch1":   round((close - prices[1]) / prices[1] * 100, 2) if len(prices) >= 2 and prices[1] > 0 else 0,
+            "kospi_ch2":   round((close - prices[2]) / prices[2] * 100, 2) if len(prices) >= 3 and prices[2] > 0 else 0,
             "rsi_14":      rsi_14,
         })
+
+        # ── 실시간 KOSPI 현재가로 ch1 덮어쓰기 (장 중 정확도 향상) ──────
+        try:
+            rt = requests.get(
+                f"{BASE}/uapi/domestic-stock/v1/quotations/inquire-index-price",
+                headers=H(tok, "FHKUP03500100"), timeout=5,
+                params={"fid_cond_mrkt_div_code": "U", "fid_input_iscd": "0001"}
+            )
+            rt_data  = rt.json().get("output", {})
+            rt_close = sf(rt_data.get("bstp_nmix_prpr", 0))
+            rt_prev  = sf(rt_data.get("bstp_nmix_prdy_prpr", 0))
+            rt_ctrt  = sf(rt_data.get("bstp_nmix_prdy_ctrt", 0))
+            if rt_close > 0:
+                result["kospi_close"] = round(rt_close, 2)
+                result["kospi_ch1"]   = round(rt_ctrt, 2) if rt_ctrt != 0 else (
+                    round((rt_close - rt_prev) / rt_prev * 100, 2) if rt_prev > 0 else result["kospi_ch1"]
+                )
+        except Exception:
+            pass   # 실패 시 DataReader 값 유지
 
         is_golden   = ma5 > ma20
         is_above_60 = ma20 > ma60
