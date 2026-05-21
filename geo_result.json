@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-22 04:58",
+  "updated": "2026-05-22 06:43",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,21 +13,21 @@
     "StockPlus": 14
   },
   "news_sample": [
+    "Angry crowd sets Ebola hospital tents on fire in DR Congo",
+    "Russia and China condemn US over indictment of former Cuban leader",
     "Iran steps up claim to control Strait of Hormuz",
     "Gaza flotilla activists deported from Israel as backlash over treatment grows",
-    "Russia and China condemn US over indictment of former Cuban leader",
-    "Pair arrested after boys abandoned by road in Portugal",
-    "Air France and Airbus found guilty of manslaughter over 2009 plane crash"
+    "Pair arrested after boys abandoned by road in Portugal"
   ],
   "categories": {
     "geopolitical": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
       "summary": "Iran steps up claim to control Strait of Horm...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 18,
-      "score": 1.5
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 9,
+      "score": 13.1
     },
     "macro": {
       "level": "주의",
@@ -36,7 +36,7 @@
       "summary": "What is Ebola and why is stopping the latest ...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 2,
-      "score": 4.5
+      "score": 3.0
     },
     "disaster": {
       "level": "안전",
@@ -48,13 +48,13 @@
       "score": 0
     },
     "trade": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
       "summary": "Iran steps up claim to control Strait of Horm...",
-      "action": "신규 매수 자제 / 추이 관찰",
+      "action": "포지션 현금화 고려 / 즉각 대응",
       "matched": 6,
-      "score": 3.0
+      "score": 1.4
     },
     "policy": {
       "level": "안전",
@@ -69,7 +69,7 @@
   "overall": {
     "level": "주의",
     "color": "yellow",
-    "summary": "주의 필요: 지정학적 충돌",
+    "summary": "주의 필요: 보호무역·공급망",
     "action": "신규 매수 자제 / 추이 관찰"
   }
 }
