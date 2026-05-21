@@ -674,9 +674,24 @@ def main():
             comp_desc  = "기존 매수 세력이 나가는 하락. 방향 불확실."
             comp_action= "방향 확인 대기. OI 변화 추이 관찰."
     else:
-        comp_label = "⚪ 판단 보류"; comp_type = "neutral"
-        comp_desc  = "선물 미결제약정 데이터 미수신."
-        comp_action= "베이시스·ADR 기준으로 판단."
+        # OI 없을 때 ADR + VKOSPI + 베이시스로 판단
+        if adr_v >= 70 and aux_score >= 1:
+            if kospi_up:
+                comp_label = "🟢 상승 우세 (보조지표 확인)"; comp_type = "real_rally"
+                comp_desc  = f"ADR {adr_v:.0f}% 건강 + VKOSPI {vkospi_est:.0f} 정상. 미결제 데이터 미수신이나 보조지표는 긍정적."
+                comp_action= "추세 방향으로 접근 가능. 단, OI 확인 시까지 분할 진입 권장."
+            else:
+                comp_label = "🟠 혼조 (보조지표 판단)"; comp_type = "fake_drop"
+                comp_desc  = f"ADR {adr_v:.0f}% 보통. 미결제 데이터 미수신."
+                comp_action= "방향 확인 대기."
+        elif adr_v < 50 or aux_score <= -1:
+            comp_label = "🔴 하락 우세 (보조지표 확인)"; comp_type = "real_drop"
+            comp_desc  = f"ADR {adr_v:.0f}% 투매권 또는 VKOSPI {vkospi_est:.0f} 공포. 미결제 미수신이나 보조지표 부정적."
+            comp_action= "신규 매수 자제. 추이 관찰."
+        else:
+            comp_label = "🟡 중립 (보조지표 판단)"; comp_type = "neutral"
+            comp_desc  = f"ADR {adr_v:.0f}% 보통 · VKOSPI {vkospi_est:.0f}. 미결제약정 데이터 미수신."
+            comp_action= "ADR·VKOSPI 기준으로 판단."
 
     market_signal["composite"] = {
         "label": comp_label, "type": comp_type,
