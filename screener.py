@@ -70,6 +70,7 @@ def fetch_market_signal(tok) -> dict:
                 kq_prices = list(df_kq["Close"].dropna())[::-1]
                 result["kosdaq_close"] = round(kq_prices[0], 2)
                 result["kosdaq_ch5"]   = round((kq_prices[0]-kq_prices[4])/kq_prices[4]*100, 2) if len(kq_prices)>=5 and kq_prices[4]>0 else 0
+                result["kosdaq_ch1"]   = round((kq_prices[0]-kq_prices[1])/kq_prices[1]*100, 2) if len(kq_prices)>=2 and kq_prices[1]>0 else 0
         except: pass
 
         if df is None or len(df) < 20:
@@ -243,6 +244,7 @@ def fetch_us_signal() -> dict:
                 result[f"{key}_ma20"]  = round(ma20, 2)
                 result[f"{key}_ch5"]   = ch5
                 result[f"{key}_ch20"]  = ch20
+                result[f"{key}_ch1"]   = round((float(prices[-1])-float(prices[-2]))/float(prices[-2])*100, 2) if len(prices)>=2 else 0
                 label = "SP500" if key=="sp500" else "NASDAQ"
                 if close > ma5 and ma5 > ma20:
                     scores.append(1); reasons.append(f"{label} 상승추세")
