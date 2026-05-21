@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 StockPilot KR — 자동매매 (trader.py) [풀 통합 버전]
-장투 포트폴리오: 350만원 / A등급만 / 시간손절 14일
-단타 포트폴리오: 150만원 / A·B·C등급 / 시간손절 5일
+장투 포트폴리오: 200만원 / A등급만 / 시간손절 14일
+단타 포트폴리오: 300만원 / A·B·C등급 / 시간손절 5일
 
 [통합 모듈]
 - market_regime : 시장 국면(BULL/SIDEWAYS/BEAR) → 익절/손절/포지션배율 동적 조정
@@ -30,7 +30,7 @@ from defense import (
 from analytics import analyze_before_buy
 
 # ── 장투 기본 설정 ────────────────────────────────────────────────────
-LONG_BUDGET        = 3_500_000
+LONG_BUDGET        = 2_000_000   # 장투 200만
 LONG_STOP_LOSS     = -0.10
 LONG_TIME_STOP     = 14
 LONG_MAX_POS       = 3
@@ -41,7 +41,7 @@ LONG_PARTIAL_SELLS = [
 ]
 
 # ── 단타 기본 설정 ────────────────────────────────────────────────────
-SHORT_BUDGET        = 1_500_000
+SHORT_BUDGET        = 3_000_000   # 단타 300만
 SHORT_STOP_LOSS     = -0.05
 SHORT_TIME_STOP     = 3          # ← 5일 → 3일 (빠른 손절)
 SHORT_MAX_POS       = 2          # ← 3 → 2종목 (집중)
@@ -471,12 +471,10 @@ def process_buys(token, data, stocks, ptype, max_pos, budget, partial_sells,
                  grade_filter, rsi_min, rsi_max, now,
                  regime_params: dict, expiry_guard: dict,
                  allow_override: bool = True,
-                 max_new_today: int = 3):
+                 max_new_today: int = 3,
+                 pos_mult_override: float = None):
     """
-    regime_params: build_regime_params() 반환값
-    expiry_guard:  load_expiry_guard() 반환값
-    allow_override: 외부 조건(당일 등락률 등)으로 매수 차단 시 False
-    max_new_today:  당일 최대 신규매수 종목 수 (단타 기본 1, 장투 기본 3)
+    pos_mult_override: 기회 포착 모드 시 배율 강제 지정 (None이면 국면 배율 사용)
     """
     port        = data[ptype]
     positions   = port["positions"]
@@ -504,7 +502,8 @@ def process_buys(token, data, stocks, ptype, max_pos, budget, partial_sells,
             return
 
     slots            = max_pos - len(positions)
-    pos_mult         = max(0.0, min(1.3, regime_params["pos_mult"] + expiry_guard["pos_mult_adj"]))
+    pos_mult         = pos_mult_override if pos_mult_override is not None else \
+                       max(0.0, min(1.3, regime_params["pos_mult"] + expiry_guard["pos_mult_adj"]))
     effective_budget = int(budget * pos_mult)
     remaining_budget = effective_budget - port["used"]
 
@@ -865,8 +864,23 @@ def main():
     else:
         _is_reversal_flag  = False
 
-    # ── [신규] 만기일 익절 우선 알림 ─────────────────────────────────
-    if expiry_guard.get("sell_priority"):
+    # ── 기회 포착 모드 ────────────────────────────────────────────────
+    # 강한 매수 신호 + ADR 80% 이상 동시 충족 시
+    # → 국면 배율 무시하고 1.0x, 단타 2종목 허용, 손절 -3% 타이트
+    adr_val = float(results.get("market_signal", {}).get("adr", 0))
+    is_opportunity_mode = (
+        "강한 매수" in signal_raw and
+        adr_val >= 80 and
+        allow_short_today and
+        is_market_open
+    )
+    if is_opportunity_mode:
+        print(f"  🚀 기회 포착 모드 — 강한매수 + ADR {adr_val:.0f}% → 배율 1.0x / 단타 2종목")
+        short_max_new = 2
+        short_pos_mult_override = 1.0
+    else:
+        short_max_new = 1
+        short_pos_mult_override = None
         print(f"  ⚠️ {expiry_guard['note']} — 익절 우선 모드")
         discord(f"⚠️ {expiry_guard['note']}")
 
@@ -930,7 +944,8 @@ def main():
                  short_grade_filter, SHORT_RSI_MIN, SHORT_RSI_MAX, now,
                  regime_params, expiry_guard,
                  allow_override=allow_short_today,
-                 max_new_today=1)   # ← 하루 1종목만
+                 max_new_today=short_max_new,
+                 pos_mult_override=short_pos_mult_override)
 
     save_positions(data)
     print(f"\n  💾 positions.json 저장 완료")
