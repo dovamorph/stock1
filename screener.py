@@ -745,6 +745,16 @@ def main():
             data={**t,**eps_tr,**price,"is_dividend":is_div}
             f=judge(data)
             data.update({"filters":f,"grade":f["grade"],"score":f["score"],"recommended":f["recommended"]})
+            # vol_char: prdy_ctrt(실시간 등락률) 기반 거래성격
+            ch1_rt = float(t.get("prdy_ctrt", 0))
+            if ch1_rt >= 2.0:    vc = "매수주도 🟢"
+            elif ch1_rt >= 0.3:  vc = "상승동반 🟡"
+            elif ch1_rt <= -2.0: vc = "매도주도 🔴"
+            elif ch1_rt <= -0.3: vc = "하락동반 🟠"
+            else:                vc = "혼조 ⚪"
+            data["vol_char"] = vc
+            data["ch1"]      = ch1_rt
+
             results.append(data)
 
             div_str = "  💰" if is_div else ""
@@ -756,6 +766,7 @@ def main():
                 f"  PER:{t.get('per',0):.1f}{'✅' if f['per_ok'] else '❌'}"
                 f"  EPS:{t.get('eps',0):,.0f}({eps_tr['eps_trend']}){'✅' if f['eps_ok'] and f['eps_up'] else '❌'}"
                 f"{debt_str}  5일:{price.get('ch5',0):+.1f}%  20일:{price.get('ch20',0):+.1f}%"
+                f"  [{vc}]"
                 f"{div_str}{'  ⭐' if f['recommended'] else ''}"
             )
         except Exception: print("오류"); traceback.print_exc()
