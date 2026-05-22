@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-22 21:24",
+  "updated": "2026-05-23 01:28",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,30 +13,30 @@
     "StockPlus": 14
   },
   "news_sample": [
+    "Ebola risk raised to 'very high' in DR Congo",
+    "Rubio tries to reassure Nato allies over US troop deployments",
+    "Waymo pauses robotaxis in five US cities after cars drive into flooded roads",
     "Cubans grapple with fuel shortages and blackouts as US steps up pressure",
-    "US navy chief says $14bn arms sale to Taiwan paused due to Iran war",
-    "Turkish opposition fights court ousting of leaders in ruling boosting Erdogan",
-    "Rubio says Cuba is threat to US as Havana accuses him of 'lies'",
-    "AI used to fake evidence that ended Korean actor's career, say police"
+    "UK scientists developing Ebola vaccine that could be ready for trials in months"
   ],
   "categories": {
     "geopolitical": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
       "summary": "US navy chief says $14bn arms sale to Taiwan ...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 11,
-      "score": 1.5
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 12,
+      "score": 19.2
     },
     "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "What is Ebola and why is stopping the latest ...",
+      "summary": "Kevin Warsh sworn in as new US Fed chair",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 2,
-      "score": 3.0
+      "matched": 4,
+      "score": 5.9
     },
     "disaster": {
       "level": "안전",
@@ -53,7 +53,7 @@
       "signal": "🔴",
       "summary": "US navy chief says $14bn arms sale to Taiwan ...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 7,
+      "matched": 5,
       "score": 1.5
     },
     "policy": {
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
-    "summary": "주의 필요: 지정학적 충돌, 보호무역·공급망",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "level": "주의",
+    "color": "yellow",
+    "summary": "주의 필요: 보호무역·공급망",
+    "action": "신규 매수 자제 / 추이 관찰"
   }
 }
