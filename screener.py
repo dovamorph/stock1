@@ -62,6 +62,30 @@ def fetch_market_signal(tok) -> dict:
         now = datetime.now()
         s   = (now - timedelta(days=120)).strftime("%Y-%m-%d")
         e   = now.strftime("%Y-%m-%d")
+        # ── 1순위: KIS 실시간 지수 API ─────────────────────────────
+        rt_success = False
+        try:
+            rt = requests.get(
+                f"{BASE}/uapi/domestic-stock/v1/quotations/inquire-index-price",
+                headers=H(tok, "FHKUP03500100"), timeout=5,
+                params={"fid_cond_mrkt_div_code": "U", "fid_input_iscd": "0001"}
+            )
+            rt_out   = rt.json().get("output", {})
+            rt_close = sf(rt_out.get("bstp_nmix_prpr",    0))  # 현재 지수
+            rt_prev  = sf(rt_out.get("prdy_nmix",          0))  # 전일 지수
+            rt_ctrt  = sf(rt_out.get("bstp_nmix_prdy_ctrt",0))  # 전일대비 등락률
+            if rt_close > 0:
+                result["kospi_close"] = round(rt_close, 2)
+                if rt_ctrt != 0:
+                    result["kospi_ch1"] = round(rt_ctrt, 2)
+                elif rt_prev > 0:
+                    result["kospi_ch1"] = round((rt_close - rt_prev) / rt_prev * 100, 2)
+                rt_success = True
+                print(f"  KOSPI 실시간: {rt_close:,.2f} (당일 {result['kospi_ch1']:+.2f}%)")
+        except Exception as e:
+            print(f"  ⚠️ KOSPI 실시간 API 오류: {e}")
+
+        # ── 2순위: MA/RSI 계산용 과거 가격 배열 (DataReader + KIS 일별) ──
         df  = fdr.DataReader("KS11", s, e)
 
         try:
@@ -82,11 +106,28 @@ def fetch_market_signal(tok) -> dict:
                 params={"fid_cond_mrkt_div_code":"U","fid_input_iscd":"0001",
                         "fid_input_date_1":s2,"fid_input_date_2":e2,"fid_period_div_code":"D"}
             )
-            items = res.json().get("output2", res.json().get("output",[]))
+            rjson = res.json()
+            items = rjson.get("output2", rjson.get("output",[]))
             prices_raw = [sf(x.get("bstp_nmix_prpr", x.get("stck_clpr",0))) for x in items]
             prices = [p for p in prices_raw if p > 0]
+            # ── 당일 등락률: 이미 성공한 이 API 응답에서 직접 추출 ──
+            if not rt_success and items:
+                today_str = now.strftime("%Y%m%d")
+                today_item = items[0]  # 가장 최신 (오늘)
+                item_date  = today_item.get("stck_bsop_date","")
+                item_ctrt  = sf(today_item.get("bstp_nmix_prdy_ctrt", 0))
+                item_close = sf(today_item.get("bstp_nmix_prpr", 0))
+                if item_date == today_str and item_ctrt != 0:
+                    result["kospi_ch1"]   = round(item_ctrt, 2)
+                    result["kospi_close"] = round(item_close, 2)
+                    rt_success = True
         else:
             prices = list(df["Close"].dropna())[::-1]
+            # ── 당일 등락률: DataReader 성공 시 prices[0]/prices[1]로 계산 ──
+            if not rt_success and len(prices) >= 2 and prices[1] > 0:
+                today_change = round((prices[0] - prices[1]) / prices[1] * 100, 2)
+                result["kospi_ch1"]   = today_change
+                result["kospi_close"] = round(prices[0], 2)
 
         if len(prices) < 20:
             return result
@@ -120,24 +161,6 @@ def fetch_market_signal(tok) -> dict:
             "rsi_14":      rsi_14,
         })
 
-        # ── 실시간 KOSPI 현재가로 ch1 덮어쓰기 (장 중 정확도 향상) ──────
-        try:
-            rt = requests.get(
-                f"{BASE}/uapi/domestic-stock/v1/quotations/inquire-index-price",
-                headers=H(tok, "FHKUP03500100"), timeout=5,
-                params={"fid_cond_mrkt_div_code": "U", "fid_input_iscd": "0001"}
-            )
-            rt_data  = rt.json().get("output", {})
-            rt_close = sf(rt_data.get("bstp_nmix_prpr", 0))
-            rt_prev  = sf(rt_data.get("bstp_nmix_prdy_prpr", 0))
-            rt_ctrt  = sf(rt_data.get("bstp_nmix_prdy_ctrt", 0))
-            if rt_close > 0:
-                result["kospi_close"] = round(rt_close, 2)
-                result["kospi_ch1"]   = round(rt_ctrt, 2) if rt_ctrt != 0 else (
-                    round((rt_close - rt_prev) / rt_prev * 100, 2) if rt_prev > 0 else result["kospi_ch1"]
-                )
-        except Exception:
-            pass   # 실패 시 DataReader 값 유지
 
         is_golden   = ma5 > ma20
         is_above_60 = ma20 > ma60
