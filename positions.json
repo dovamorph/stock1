@@ -6,16 +6,16 @@
   },
   "short": {
     "budget": 1500000,
-    "used": 455400,
+    "used": 379500,
     "positions": {
       "064400": {
         "name": "LG씨엔에스",
         "grade": "A",
         "buy_price": 75900,
         "qty": 6,
-        "remaining_qty": 6,
-        "sold_stage": 0,
-        "amount": 455400,
+        "remaining_qty": 5,
+        "sold_stage": 1,
+        "amount": 379500,
         "buy_date": "20260521",
         "sl": -0.09,
         "tp": [
@@ -29,9 +29,24 @@
       }
     }
   },
-  "trade_history": [],
-  "_kospi_ch5": 4.34,
-  "_kospi_ch1": 0.34,
+  "trade_history": [
+    {
+      "ticker": "064400",
+      "name": "LG씨엔에스",
+      "type": "short",
+      "buy_price": 75900,
+      "sell_price": 84200,
+      "qty": 1,
+      "buy_date": "20260521",
+      "sell_date": "20260522",
+      "sell_time": "14:06",
+      "pnl": 8300,
+      "pnl_pct": 10.94,
+      "reason": "분할매도1차(+10%)"
+    }
+  ],
+  "_kospi_ch5": 4.29,
+  "_kospi_ch1": 0.3,
   "_regime": "SIDEWAYS",
   "_signal": "📈 강한 매수",
   "_is_reversal": false,
