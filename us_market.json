@@ -1,0 +1,19 @@
+{
+  "updated": "2026-05-23 00:43",
+  "sp500": {
+    "close": 7494.46,
+    "change": 48.74,
+    "change_pct": 0.65
+  },
+  "nasdaq": {
+    "close": 26461.53,
+    "change": 168.43,
+    "change_pct": 0.64
+  },
+  "vix": {
+    "close": 16.58,
+    "level": "안정"
+  },
+  "us_signal": "📈 약한 상승",
+  "us_signal_en": "BUY"
+}
