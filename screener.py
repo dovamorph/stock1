@@ -62,43 +62,7 @@ def fetch_market_signal(tok) -> dict:
         now = datetime.now()
         s   = (now - timedelta(days=120)).strftime("%Y-%m-%d")
         e   = now.strftime("%Y-%m-%d")
-        # ── 1순위: KIS 실시간 지수 API ─────────────────────────────
-        rt_success = False
-        try:
-            rt = requests.get(
-                f"{BASE}/uapi/domestic-stock/v1/quotations/inquire-index-price",
-                headers=H(tok, "FHKUP03500100"), timeout=5,
-                params={"fid_cond_mrkt_div_code": "U", "fid_input_iscd": "0001"}
-            )
-            rjson = rt.json()
-            # output 또는 output1 모두 시도
-            rt_out = rjson.get("output", rjson.get("output1", {}))
-            # 실제 응답 키 출력 (1회성 디버그)
-            if rt_out:
-                keys = list(rt_out.keys())[:8]
-                print(f"  [DEBUG] KIS 응답 키: {keys}")
-            # 다양한 필드명 시도
-            rt_close = sf(rt_out.get("bstp_nmix_prpr",
-                          rt_out.get("kospi_prpr",
-                          rt_out.get("prpr", 0))))
-            rt_ctrt  = sf(rt_out.get("bstp_nmix_prdy_ctrt",
-                          rt_out.get("prdy_ctrt", 0)))
-            rt_prev  = sf(rt_out.get("prdy_nmix",
-                          rt_out.get("prdy_prpr", 0)))
-            if rt_close > 0:
-                result["kospi_close"] = round(rt_close, 2)
-                if rt_ctrt != 0:
-                    result["kospi_ch1"] = round(rt_ctrt, 2)
-                elif rt_prev > 0:
-                    result["kospi_ch1"] = round((rt_close - rt_prev) / rt_prev * 100, 2)
-                rt_success = True
-                print(f"  KOSPI 실시간: {rt_close:,.2f} (당일 {result['kospi_ch1']:+.2f}%)")
-            else:
-                print(f"  ⚠️ KOSPI 실시간 rt_close=0, 응답: {str(rjson)[:200]}")
-        except Exception as e:
-            print(f"  ⚠️ KOSPI 실시간 API 오류: {e}")
-
-        # ── 2순위: MA/RSI 계산용 과거 가격 배열 (DataReader + KIS 일별) ──
+        # ── MA/RSI 계산용 과거 가격 배열 ─────────────────────────────
         df  = fdr.DataReader("KS11", s, e)
 
         try:
@@ -110,9 +74,10 @@ def fetch_market_signal(tok) -> dict:
                 result["kosdaq_ch1"]   = round((kq_prices[0]-kq_prices[1])/kq_prices[1]*100, 2) if len(kq_prices)>=2 and kq_prices[1]>0 else 0
         except: pass
 
-        if df is None or len(df) < 20:
-            s2 = (now - timedelta(days=120)).strftime("%Y%m%d")
-            e2 = now.strftime("%Y%m%d")
+        # ── KIS 일별 차트 API: 당일 ch1 확보 (항상 호출) ─────────────
+        s2 = (now - timedelta(days=60)).strftime("%Y%m%d")
+        e2 = now.strftime("%Y%m%d")
+        try:
             res = requests.get(
                 f"{BASE}/uapi/domestic-stock/v1/quotations/inquire-daily-indexchartprice",
                 headers=H(tok,"FHKUP03500100"), timeout=10,
@@ -121,25 +86,31 @@ def fetch_market_signal(tok) -> dict:
             )
             rjson = res.json()
             items = rjson.get("output2", rjson.get("output",[]))
-            prices_raw = [sf(x.get("bstp_nmix_prpr", x.get("stck_clpr",0))) for x in items]
-            prices = [p for p in prices_raw if p > 0]
-            # ── 당일 등락률: 이미 성공한 이 API 응답에서 직접 추출 ──
-            if not rt_success and items:
-                today_str = now.strftime("%Y%m%d")
-                today_item = items[0]  # 가장 최신 (오늘)
-                item_date  = today_item.get("stck_bsop_date","")
-                item_ctrt  = sf(today_item.get("bstp_nmix_prdy_ctrt", 0))
-                item_close = sf(today_item.get("bstp_nmix_prpr", 0))
-                if item_date == today_str and item_ctrt != 0:
+            if items:
+                today_str  = now.strftime("%Y%m%d")
+                latest     = items[0]
+                item_date  = latest.get("stck_bsop_date","")
+                item_ctrt  = sf(latest.get("bstp_nmix_prdy_ctrt", 0))
+                item_close = sf(latest.get("bstp_nmix_prpr", 0))
+                # 오늘 데이터가 있으면 ch1 직접 사용, 없으면 prices로 계산
+                if item_date == today_str and item_ctrt != 0 and item_close > 0:
                     result["kospi_ch1"]   = round(item_ctrt, 2)
                     result["kospi_close"] = round(item_close, 2)
-                    rt_success = True
+                    print(f"  KOSPI 당일: {item_close:,.2f} ({item_ctrt:+.2f}%) [KIS]")
+                # MA/RSI용 가격 배열
+                prices_raw = [sf(x.get("bstp_nmix_prpr",0)) for x in items]
+                kis_prices = [p for p in prices_raw if p > 0]
+        except Exception as e:
+            print(f"  ⚠️ KIS 일별 차트 오류: {e}")
+            items = []; kis_prices = []
+
+        if df is None or len(df) < 20:
+            prices = kis_prices if len(kis_prices) >= 20 else []
         else:
             prices = list(df["Close"].dropna())[::-1]
-            # ── 당일 등락률: DataReader 성공 시 prices[0]/prices[1]로 계산 ──
-            if not rt_success and len(prices) >= 2 and prices[1] > 0:
-                today_change = round((prices[0] - prices[1]) / prices[1] * 100, 2)
-                result["kospi_ch1"]   = today_change
+            # DataReader 사용 시 ch1이 아직 0이면 prices로 계산
+            if result.get("kospi_ch1", 0) == 0 and len(prices) >= 2 and prices[1] > 0:
+                result["kospi_ch1"]   = round((prices[0]-prices[1])/prices[1]*100, 2)
                 result["kospi_close"] = round(prices[0], 2)
 
         if len(prices) < 20:
