@@ -257,6 +257,7 @@ def fetch_us_signal() -> dict:
         "ndx_close": 0,   "ndx_ch5": 0,   "ndx_ch20": 0,
         "ndx_ma5": 0,     "ndx_ma20": 0,
         "vix_close": 0,   "vix_level": "데이터없음",
+        "sp500_rsi": 50.0,
         "us_signal": "⚖️ 관망", "us_signal_en": "WATCH",
         "us_reason": "데이터 없음",
     }
@@ -283,6 +284,20 @@ def fetch_us_signal() -> dict:
                 result[f"{key}_ch5"]   = ch5
                 result[f"{key}_ch20"]  = ch20
                 result[f"{key}_ch1"]   = round((float(prices[-1])-float(prices[-2]))/float(prices[-2])*100, 2) if len(prices)>=2 else 0
+
+                # ── RSI 계산 (sp500만) ───────────────────────────────
+                if key == "sp500" and len(prices) >= 15:
+                    deltas = [float(prices[i])-float(prices[i-1]) for i in range(1, len(prices))]
+                    gains  = [d if d > 0 else 0 for d in deltas[-14:]]
+                    losses = [-d if d < 0 else 0 for d in deltas[-14:]]
+                    avg_gain = sum(gains) / 14
+                    avg_loss = sum(losses) / 14
+                    if avg_loss == 0:
+                        sp500_rsi = 100.0
+                    else:
+                        rs = avg_gain / avg_loss
+                        sp500_rsi = round(100 - (100 / (1 + rs)), 1)
+                    result["sp500_rsi"] = sp500_rsi
                 label = "SP500" if key=="sp500" else "NASDAQ"
                 if close > ma5 and ma5 > ma20:
                     scores.append(1); reasons.append(f"{label} 상승추세")
