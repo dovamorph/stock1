@@ -17,7 +17,7 @@
         "sold_stage": 1,
         "amount": 379500,
         "buy_date": "20260521",
-        "sl": -0.09,
+        "sl": 0.061,
         "tp": [
           0.108,
           0.162,
@@ -45,8 +45,8 @@
       "reason": "분할매도1차(+10%)"
     }
   ],
-  "_kospi_ch5": 4.29,
-  "_kospi_ch1": 0.3,
+  "_kospi_ch5": 4.59,
+  "_kospi_ch1": 0.58,
   "_regime": "SIDEWAYS",
   "_signal": "📈 강한 매수",
   "_is_reversal": false,
