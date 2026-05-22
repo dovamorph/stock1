@@ -70,10 +70,21 @@ def fetch_market_signal(tok) -> dict:
                 headers=H(tok, "FHKUP03500100"), timeout=5,
                 params={"fid_cond_mrkt_div_code": "U", "fid_input_iscd": "0001"}
             )
-            rt_out   = rt.json().get("output", {})
-            rt_close = sf(rt_out.get("bstp_nmix_prpr",    0))  # 현재 지수
-            rt_prev  = sf(rt_out.get("prdy_nmix",          0))  # 전일 지수
-            rt_ctrt  = sf(rt_out.get("bstp_nmix_prdy_ctrt",0))  # 전일대비 등락률
+            rjson = rt.json()
+            # output 또는 output1 모두 시도
+            rt_out = rjson.get("output", rjson.get("output1", {}))
+            # 실제 응답 키 출력 (1회성 디버그)
+            if rt_out:
+                keys = list(rt_out.keys())[:8]
+                print(f"  [DEBUG] KIS 응답 키: {keys}")
+            # 다양한 필드명 시도
+            rt_close = sf(rt_out.get("bstp_nmix_prpr",
+                          rt_out.get("kospi_prpr",
+                          rt_out.get("prpr", 0))))
+            rt_ctrt  = sf(rt_out.get("bstp_nmix_prdy_ctrt",
+                          rt_out.get("prdy_ctrt", 0)))
+            rt_prev  = sf(rt_out.get("prdy_nmix",
+                          rt_out.get("prdy_prpr", 0)))
             if rt_close > 0:
                 result["kospi_close"] = round(rt_close, 2)
                 if rt_ctrt != 0:
@@ -82,6 +93,8 @@ def fetch_market_signal(tok) -> dict:
                     result["kospi_ch1"] = round((rt_close - rt_prev) / rt_prev * 100, 2)
                 rt_success = True
                 print(f"  KOSPI 실시간: {rt_close:,.2f} (당일 {result['kospi_ch1']:+.2f}%)")
+            else:
+                print(f"  ⚠️ KOSPI 실시간 rt_close=0, 응답: {str(rjson)[:200]}")
         except Exception as e:
             print(f"  ⚠️ KOSPI 실시간 API 오류: {e}")
 
