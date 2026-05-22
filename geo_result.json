@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-22 13:00",
+  "updated": "2026-05-22 18:34",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,21 +13,21 @@
     "StockPlus": 14
   },
   "news_sample": [
+    "US navy chief says $14bn arms sale to Taiwan paused due to Iran war",
     "Rubio says Cuba is threat to US as Havana accuses him of 'lies'",
     "Three ways Cuba crisis could play out  after US indictment of Raúl Castro",
-    "'No means no': Greenlanders protest against Trump outside new US consulate",
-    "Angry crowd sets Ebola hospital tents on fire in DR Congo",
-    "Alberta to hold referendum on whether to remain in Canada"
+    "Alberta to hold referendum on whether to remain in Canada",
+    "Africa summit in India postponed over Ebola outbreak fears"
   ],
   "categories": {
     "geopolitical": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Iran steps up claim to control Strait of Horm...",
+      "summary": "US navy chief says $14bn arms sale to Taiwan ...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 9,
-      "score": 14.3
+      "score": 15.9
     },
     "macro": {
       "level": "주의",
@@ -35,8 +35,8 @@
       "signal": "🟡",
       "summary": "What is Ebola and why is stopping the latest ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 2,
-      "score": 3.0
+      "matched": 1,
+      "score": 1.5
     },
     "disaster": {
       "level": "안전",
@@ -51,10 +51,10 @@
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "Iran steps up claim to control Strait of Horm...",
+      "summary": "US navy chief says $14bn arms sale to Taiwan ...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 7,
-      "score": 1.4
+      "matched": 8,
+      "score": 1.5
     },
     "policy": {
       "level": "안전",
