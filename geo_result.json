@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-23 06:15",
+  "updated": "2026-05-23 08:05",
   "news_count": 93,
   "intl_count": 48,
   "domestic_count": 45,
@@ -26,7 +26,7 @@
       "signal": "🔴",
       "summary": "Russia's Putin vows retaliation after accusin...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 14,
+      "matched": 12,
       "score": 1.5
     },
     "macro": {
@@ -35,8 +35,8 @@
       "signal": "🟡",
       "summary": "Decades-old photos show ‘joyful’ Gaza in happ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 3,
-      "score": 5.8
+      "matched": 1,
+      "score": 1.4
     },
     "disaster": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "주의",
-    "color": "yellow",
+    "level": "위험",
+    "color": "red",
     "summary": "주의 필요: 지정학적 충돌, 보호무역·공급망",
-    "action": "신규 매수 자제 / 추이 관찰"
+    "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
