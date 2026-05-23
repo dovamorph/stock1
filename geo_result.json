@@ -1,11 +1,11 @@
 {
-  "updated": "2026-05-23 12:37",
-  "news_count": 97,
-  "intl_count": 52,
+  "updated": "2026-05-23 15:36",
+  "news_count": 100,
+  "intl_count": 55,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 27,
-    "Al Jazeera": 25,
+    "BBC World": 29,
+    "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
     "매일경제": 0,
@@ -13,30 +13,30 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Russia's Putin vows retaliation after accusing Ukraine of hitting student dormitory",
+    "At least 90 dead in Chinese coal mine explosion, state media reports",
+    "Putin vows retaliation after accusing Ukraine of hitting student dormitory",
     "SpaceX launches massive Starship V3 rocket on test flight",
     "Rubio tries to reassure Nato allies over US troop deployments",
-    "Ebola risk raised to 'very high' in DR Congo",
-    "Gaza flotilla activists allege abuse by Israeli forces while detained"
+    "Ebola risk raised to 'very high' in DR Congo"
   ],
   "categories": {
     "geopolitical": {
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "Russia's Putin vows retaliation after accusin...",
+      "summary": "Putin vows retaliation after accusing Ukraine...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 12,
+      "matched": 11,
       "score": 1.5
     },
     "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Decades-old photos show ‘joyful’ Gaza in happ...",
+      "summary": "Some fear US-Philippines war games are drawin...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.4
+      "matched": 2,
+      "score": 2.8
     },
     "disaster": {
       "level": "안전",
@@ -53,7 +53,7 @@
       "signal": "🔴",
       "summary": "Rubio visits India to sell energy as Iran oil...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 6,
+      "matched": 7,
       "score": 1.4
     },
     "policy": {
