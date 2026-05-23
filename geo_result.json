@@ -1,12 +1,12 @@
 {
-  "updated": "2026-05-23 20:19",
-  "news_count": 101,
+  "updated": "2026-05-23 22:43",
+  "news_count": 71,
   "intl_count": 56,
-  "domestic_count": 45,
+  "domestic_count": 15,
   "source_stats": {
     "BBC World": 30,
     "Al Jazeera": 26,
-    "연합뉴스": 30,
+    "연합뉴스": 0,
     "한국경제": 1,
     "매일경제": 0,
     "파이낸셜뉴스": 0,
@@ -16,8 +16,8 @@
     "At least 90 killed in Chinese coal mine explosion, state media reports",
     "Putin vows retaliation after accusing Ukraine of hitting student dormitory",
     "SpaceX launches massive Starship V3 rocket on test flight",
-    "Race for French presidency sees ex-PM Philippe as early favourite to beat populists",
-    "Senegal's president sacks prime minister Sonko after months of tensions"
+    "French pair held until trial after boys abandoned by road in Portugal",
+    "Rubio meets Modi during India visit with energy high on agenda"
   ],
   "categories": {
     "geopolitical": {
@@ -26,14 +26,14 @@
       "signal": "🟡",
       "summary": "Putin vows retaliation after accusing Ukraine...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 12,
-      "score": 18.7
+      "matched": 7,
+      "score": 10.1
     },
     "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Some fear US-Philippines war games are drawin...",
+      "summary": "Massive fire engulfs residential area in the ...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 1,
       "score": 1.4
@@ -51,19 +51,19 @@
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "Rubio visits India to sell energy as Iran oil...",
+      "summary": "Iran steps up claim to control Strait of Horm...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 6,
+      "matched": 4,
       "score": 1.4
     },
     "policy": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "[프로야구 수원전적] kt 10-5 NC",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
