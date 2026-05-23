@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-23 22:43",
+  "updated": "2026-05-24 00:04",
   "news_count": 71,
   "intl_count": 56,
   "domestic_count": 15,
@@ -15,9 +15,9 @@
   "news_sample": [
     "At least 90 killed in Chinese coal mine explosion, state media reports",
     "Putin vows retaliation after accusing Ukraine of hitting student dormitory",
-    "SpaceX launches massive Starship V3 rocket on test flight",
-    "French pair held until trial after boys abandoned by road in Portugal",
-    "Rubio meets Modi during India visit with energy high on agenda"
+    "French mum and partner held until trial after sons abandoned by road in Portugal",
+    "Rubio meets Modi during India visit with energy high on agenda",
+    "SpaceX launches massive Starship V3 rocket on test flight"
   ],
   "categories": {
     "geopolitical": {
@@ -26,8 +26,8 @@
       "signal": "🟡",
       "summary": "Putin vows retaliation after accusing Ukraine...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 7,
-      "score": 10.1
+      "matched": 6,
+      "score": 8.7
     },
     "macro": {
       "level": "주의",
