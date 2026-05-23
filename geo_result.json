@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-24 00:04",
+  "updated": "2026-05-24 04:16",
   "news_count": 71,
   "intl_count": 56,
   "domestic_count": 15,
@@ -13,21 +13,21 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "At least 90 killed in Chinese coal mine explosion, state media reports",
-    "Putin vows retaliation after accusing Ukraine of hitting student dormitory",
+    "Iran 'getting a lot closer' to agreement with US, Trump says",
+    "At least 82 killed in Chinese coal mine explosion",
+    "Red Cross volunteers die from suspected Ebola in DR Congo",
     "French mum and partner held until trial after sons abandoned by road in Portugal",
-    "Rubio meets Modi during India visit with energy high on agenda",
-    "SpaceX launches massive Starship V3 rocket on test flight"
+    "Putin vows retaliation after accusing Ukraine of hitting student dormitory"
   ],
   "categories": {
     "geopolitical": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Putin vows retaliation after accusing Ukraine...",
+      "summary": "Iran 'getting a lot closer' to agreement with...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 6,
-      "score": 8.7
+      "matched": 11,
+      "score": 15.8
     },
     "macro": {
       "level": "주의",
@@ -48,13 +48,13 @@
       "score": 0
     },
     "trade": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
-      "summary": "Iran steps up claim to control Strait of Horm...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 4,
-      "score": 1.4
+      "level": "신호",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "Iran 'getting a lot closer' to agreement with...",
+      "action": "관련 지표 추가 확인 후 판단",
+      "matched": 5,
+      "score": 7.2
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "주의",
-    "color": "yellow",
-    "summary": "주의 필요: 보호무역·공급망",
-    "action": "신규 매수 자제 / 추이 관찰"
+    "level": "안전",
+    "color": "green",
+    "summary": "전반적 안정. 정상 운용 유지",
+    "action": "정상 운용 유지"
   }
 }
