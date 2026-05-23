@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-24 04:16",
+  "updated": "2026-05-24 05:57",
   "news_count": 71,
   "intl_count": 56,
   "domestic_count": 15,
@@ -13,7 +13,7 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Iran 'getting a lot closer' to agreement with US, Trump says",
+    "Trump says deal with Iran 'largely negotiated' and would include opening Strait of Hormuz",
     "At least 82 killed in Chinese coal mine explosion",
     "Red Cross volunteers die from suspected Ebola in DR Congo",
     "French mum and partner held until trial after sons abandoned by road in Portugal",
@@ -24,19 +24,19 @@
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Iran 'getting a lot closer' to agreement with...",
+      "summary": "Trump says deal with Iran 'largely negotiated...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 11,
-      "score": 15.8
+      "matched": 12,
+      "score": 17.2
     },
     "macro": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "Massive fire engulfs residential area in the ...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.4
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     },
     "disaster": {
       "level": "안전",
@@ -51,10 +51,10 @@
       "level": "신호",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Iran 'getting a lot closer' to agreement with...",
+      "summary": "Trump says deal with Iran 'largely negotiated...",
       "action": "관련 지표 추가 확인 후 판단",
-      "matched": 5,
-      "score": 7.2
+      "matched": 6,
+      "score": 8.6
     },
     "policy": {
       "level": "안전",
