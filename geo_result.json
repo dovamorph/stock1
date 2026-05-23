@@ -1,12 +1,12 @@
 {
-  "updated": "2026-05-23 18:57",
-  "news_count": 71,
+  "updated": "2026-05-23 20:19",
+  "news_count": 101,
   "intl_count": 56,
-  "domestic_count": 15,
+  "domestic_count": 45,
   "source_stats": {
     "BBC World": 30,
     "Al Jazeera": 26,
-    "연합뉴스": 0,
+    "연합뉴스": 30,
     "한국경제": 1,
     "매일경제": 0,
     "파이낸셜뉴스": 0,
@@ -16,8 +16,8 @@
     "At least 90 killed in Chinese coal mine explosion, state media reports",
     "Putin vows retaliation after accusing Ukraine of hitting student dormitory",
     "SpaceX launches massive Starship V3 rocket on test flight",
-    "Rubio tries to reassure Nato allies over US troop deployments",
-    "Ebola risk raised to 'very high' in DR Congo"
+    "Race for French presidency sees ex-PM Philippe as early favourite to beat populists",
+    "Senegal's president sacks prime minister Sonko after months of tensions"
   ],
   "categories": {
     "geopolitical": {
@@ -26,8 +26,8 @@
       "signal": "🟡",
       "summary": "Putin vows retaliation after accusing Ukraine...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 11,
-      "score": 17.2
+      "matched": 12,
+      "score": 18.7
     },
     "macro": {
       "level": "주의",
@@ -48,28 +48,28 @@
       "score": 0
     },
     "trade": {
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
+      "summary": "Rubio visits India to sell energy as Iran oil...",
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 6,
+      "score": 1.4
+    },
+    "policy": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Rubio visits India to sell energy as Iran oil...",
+      "summary": "[프로야구 수원전적] kt 10-5 NC",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 6,
+      "matched": 1,
       "score": 1.5
-    },
-    "policy": {
-      "level": "안전",
-      "color": "green",
-      "signal": "🟢",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
     }
   },
   "overall": {
-    "level": "안전",
-    "color": "green",
-    "summary": "전반적 안정. 정상 운용 유지",
-    "action": "정상 운용 유지"
+    "level": "주의",
+    "color": "yellow",
+    "summary": "주의 필요: 보호무역·공급망",
+    "action": "신규 매수 자제 / 추이 관찰"
   }
 }
