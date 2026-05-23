@@ -1,19 +1,19 @@
 {
-  "updated": "2026-05-23 15:36",
-  "news_count": 100,
-  "intl_count": 55,
-  "domestic_count": 45,
+  "updated": "2026-05-23 18:57",
+  "news_count": 71,
+  "intl_count": 56,
+  "domestic_count": 15,
   "source_stats": {
-    "BBC World": 29,
+    "BBC World": 30,
     "Al Jazeera": 26,
-    "연합뉴스": 30,
+    "연합뉴스": 0,
     "한국경제": 1,
     "매일경제": 0,
     "파이낸셜뉴스": 0,
     "StockPlus": 14
   },
   "news_sample": [
-    "At least 90 dead in Chinese coal mine explosion, state media reports",
+    "At least 90 killed in Chinese coal mine explosion, state media reports",
     "Putin vows retaliation after accusing Ukraine of hitting student dormitory",
     "SpaceX launches massive Starship V3 rocket on test flight",
     "Rubio tries to reassure Nato allies over US troop deployments",
@@ -21,13 +21,13 @@
   ],
   "categories": {
     "geopolitical": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
       "summary": "Putin vows retaliation after accusing Ukraine...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
+      "action": "신규 매수 자제 / 추이 관찰",
       "matched": 11,
-      "score": 1.5
+      "score": 17.2
     },
     "macro": {
       "level": "주의",
@@ -35,8 +35,8 @@
       "signal": "🟡",
       "summary": "Some fear US-Philippines war games are drawin...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 2,
-      "score": 2.8
+      "matched": 1,
+      "score": 1.4
     },
     "disaster": {
       "level": "안전",
@@ -48,13 +48,13 @@
       "score": 0
     },
     "trade": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
       "summary": "Rubio visits India to sell energy as Iran oil...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 7,
-      "score": 1.4
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 6,
+      "score": 1.5
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
-    "summary": "주의 필요: 지정학적 충돌, 보호무역·공급망",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "level": "안전",
+    "color": "green",
+    "summary": "전반적 안정. 정상 운용 유지",
+    "action": "정상 운용 유지"
   }
 }
