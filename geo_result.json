@@ -1,11 +1,11 @@
 {
-  "updated": "2026-05-23 08:05",
-  "news_count": 93,
-  "intl_count": 48,
+  "updated": "2026-05-23 12:37",
+  "news_count": 97,
+  "intl_count": 52,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 22,
-    "Al Jazeera": 26,
+    "BBC World": 27,
+    "Al Jazeera": 25,
     "연합뉴스": 30,
     "한국경제": 1,
     "매일경제": 0,
@@ -14,10 +14,10 @@
   },
   "news_sample": [
     "Russia's Putin vows retaliation after accusing Ukraine of hitting student dormitory",
+    "SpaceX launches massive Starship V3 rocket on test flight",
     "Rubio tries to reassure Nato allies over US troop deployments",
     "Ebola risk raised to 'very high' in DR Congo",
-    "Gaza flotilla activists allege abuse by Israeli forces while detained",
-    "Bodies of Italian divers did not have optimal equipment, says rescuer"
+    "Gaza flotilla activists allege abuse by Israeli forces while detained"
   ],
   "categories": {
     "geopolitical": {
@@ -51,7 +51,7 @@
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "Iran steps up claim to control Strait of Horm...",
+      "summary": "Rubio visits India to sell energy as Iran oil...",
       "action": "포지션 현금화 고려 / 즉각 대응",
       "matched": 6,
       "score": 1.4
