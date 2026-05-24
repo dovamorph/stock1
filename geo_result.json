@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-24 16:28",
+  "updated": "2026-05-24 18:58",
   "news_count": 71,
   "intl_count": 56,
   "domestic_count": 15,
@@ -15,19 +15,19 @@
   "news_sample": [
     "Suspect killed after opening fire on Secret Service near White House",
     "Rosenberg: Luhansk strike sparks Russian accusations and vow to retaliate",
-    "At least 82 killed in Chinese coal mine explosion",
-    "Four dead and dozens injured in wave of Russian strikes on Kyiv",
-    "California declares emergency as fire crews race to contain toxic leak"
+    "Large-scale Russian attack on Ukraine leaves four dead and dozens injured",
+    "Man killed in shark attack off Australia's north-east coast",
+    "Blast targeting train kills at least 20 in Pakistan"
   ],
   "categories": {
     "geopolitical": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Trump says Iran deal 'largely negotiated' inc...",
+      "summary": "Large-scale Russian attack on Ukraine leaves ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 12,
-      "score": 17.1
+      "matched": 13,
+      "score": 18.6
     },
     "macro": {
       "level": "주의",
