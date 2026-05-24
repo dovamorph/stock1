@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-24 18:58",
+  "updated": "2026-05-24 20:23",
   "news_count": 71,
   "intl_count": 56,
   "domestic_count": 15,
@@ -14,10 +14,10 @@
   },
   "news_sample": [
     "Suspect killed after opening fire on Secret Service near White House",
-    "Rosenberg: Luhansk strike sparks Russian accusations and vow to retaliate",
     "Large-scale Russian attack on Ukraine leaves four dead and dozens injured",
-    "Man killed in shark attack off Australia's north-east coast",
-    "Blast targeting train kills at least 20 in Pakistan"
+    "BBC at the site of China's worst mining disaster in more than a decade",
+    "Blast targeting train kills at least 20 in Pakistan",
+    "Man killed in shark attack off Australia's north-east coast"
   ],
   "categories": {
     "geopolitical": {
@@ -26,8 +26,8 @@
       "signal": "🟡",
       "summary": "Large-scale Russian attack on Ukraine leaves ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 13,
-      "score": 18.6
+      "matched": 14,
+      "score": 20.0
     },
     "macro": {
       "level": "주의",
