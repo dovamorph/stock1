@@ -1,14 +1,14 @@
 {
-  "updated": "2026-05-25 00:20",
+  "updated": "2026-05-25 01:42",
   "indicators": {
     "bitcoin": {
       "label": "비트코인",
-      "value": 76364.0,
+      "value": 76416.0,
       "unit": "$",
-      "change": -309.0,
-      "change_pct": -0.4,
+      "change": -258.0,
+      "change_pct": -0.34,
       "signal": "🟡",
-      "desc": "$76,364"
+      "desc": "$76,416"
     },
     "usdkrw": {
       "label": "USD/KRW",
