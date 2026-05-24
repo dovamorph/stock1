@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-25 06:01",
+  "updated": "2026-05-25 08:00",
   "news_count": 71,
   "intl_count": 56,
   "domestic_count": 15,
@@ -16,8 +16,8 @@
     "Trump tells US negotiators 'not to rush' into deal with Iran",
     "Large-scale Russian attack on Ukraine leaves four dead and dozens injured",
     "Turkish riot police storm opposition offices after leaders ousted",
-    "BBC at the site of China's worst mining disaster in more than a decade",
-    "Blast targeting train kills at least 20 in Pakistan"
+    "She was told to marry in a country which bans girls' education. So she got in a taxi and fled",
+    "BBC at the site of China's worst mining disaster in more than a decade"
   ],
   "categories": {
     "geopolitical": {
@@ -26,8 +26,8 @@
       "signal": "🟡",
       "summary": "Trump tells US negotiators 'not to rush' into...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 13,
-      "score": 20.1
+      "matched": 12,
+      "score": 18.7
     },
     "macro": {
       "level": "주의",
@@ -48,13 +48,13 @@
       "score": 0
     },
     "trade": {
-      "level": "신호",
+      "level": "주의",
       "color": "yellow",
       "signal": "🟡",
       "summary": "Trump tells US negotiators 'not to rush' into...",
-      "action": "관련 지표 추가 확인 후 판단",
+      "action": "신규 매수 자제 / 추이 관찰",
       "matched": 8,
-      "score": 11.4
+      "score": 1.4
     },
     "policy": {
       "level": "안전",
