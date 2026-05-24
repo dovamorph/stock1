@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-25 04:22",
+  "updated": "2026-05-25 06:01",
   "news_count": 71,
   "intl_count": 56,
   "domestic_count": 15,
@@ -21,13 +21,13 @@
   ],
   "categories": {
     "geopolitical": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
       "summary": "Trump tells US negotiators 'not to rush' into...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 14,
-      "score": 1.4
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 13,
+      "score": 20.1
     },
     "macro": {
       "level": "주의",
@@ -53,8 +53,8 @@
       "signal": "🟡",
       "summary": "Trump tells US negotiators 'not to rush' into...",
       "action": "관련 지표 추가 확인 후 판단",
-      "matched": 9,
-      "score": 12.8
+      "matched": 8,
+      "score": 11.4
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "신호",
-    "color": "yellow",
-    "summary": "주의 필요: 지정학적 충돌",
-    "action": "관련 지표 추가 확인 후 판단"
+    "level": "안전",
+    "color": "green",
+    "summary": "전반적 안정. 정상 운용 유지",
+    "action": "정상 운용 유지"
   }
 }
