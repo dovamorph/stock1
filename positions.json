@@ -6,7 +6,7 @@
   },
   "short": {
     "budget": 1500000,
-    "used": 379500,
+    "used": 3295500,
     "positions": {
       "064400": {
         "name": "LG씨엔에스",
@@ -26,6 +26,25 @@
         "score": 5,
         "beta": 0.88,
         "atr_pct": 0.0875
+      },
+      "196170": {
+        "name": "알테오젠",
+        "grade": "B",
+        "buy_price": 364500,
+        "qty": 8,
+        "remaining_qty": 8,
+        "sold_stage": 0,
+        "amount": 2916000,
+        "buy_date": "20260524",
+        "sl": -0.07,
+        "tp": [
+          0.108,
+          0.162,
+          0.216
+        ],
+        "score": 4,
+        "beta": 0.58,
+        "atr_pct": 0.0788
       }
     }
   },
@@ -50,5 +69,5 @@
   "_regime": "SIDEWAYS",
   "_signal": "📈 강한 매수",
   "_is_reversal": false,
-  "_opportunity_mode": false
+  "_opportunity_mode": true
 }
