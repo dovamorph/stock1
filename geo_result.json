@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-25 02:07",
+  "updated": "2026-05-25 04:22",
   "news_count": 71,
   "intl_count": 56,
   "domestic_count": 15,
@@ -13,20 +13,20 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Suspect killed after opening fire on Secret Service near White House",
+    "Trump tells US negotiators 'not to rush' into deal with Iran",
     "Large-scale Russian attack on Ukraine leaves four dead and dozens injured",
+    "Turkish riot police storm opposition offices after leaders ousted",
     "BBC at the site of China's worst mining disaster in more than a decade",
-    "Blast targeting train kills at least 20 in Pakistan",
-    "Turkish riot police storm opposition offices after leaders ousted"
+    "Blast targeting train kills at least 20 in Pakistan"
   ],
   "categories": {
     "geopolitical": {
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "Large-scale Russian attack on Ukraine leaves ...",
+      "summary": "Trump tells US negotiators 'not to rush' into...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 16,
+      "matched": 14,
       "score": 1.4
     },
     "macro": {
@@ -51,10 +51,10 @@
       "level": "신호",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Trump says Iran deal 'largely negotiated' inc...",
+      "summary": "Trump tells US negotiators 'not to rush' into...",
       "action": "관련 지표 추가 확인 후 판단",
-      "matched": 10,
-      "score": 14.1
+      "matched": 9,
+      "score": 12.8
     },
     "policy": {
       "level": "안전",
