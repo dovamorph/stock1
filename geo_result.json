@@ -1,12 +1,12 @@
 {
-  "updated": "2026-05-24 12:59",
-  "news_count": 101,
+  "updated": "2026-05-24 16:28",
+  "news_count": 71,
   "intl_count": 56,
-  "domestic_count": 45,
+  "domestic_count": 15,
   "source_stats": {
     "BBC World": 30,
     "Al Jazeera": 26,
-    "연합뉴스": 30,
+    "연합뉴스": 0,
     "한국경제": 1,
     "매일경제": 0,
     "파이낸셜뉴스": 0,
@@ -14,29 +14,29 @@
   },
   "news_sample": [
     "Suspect killed after opening fire on Secret Service near White House",
-    "Trump says Iran deal 'largely negotiated' including reopening Strait of Hormuz",
     "Rosenberg: Luhansk strike sparks Russian accusations and vow to retaliate",
-    "I survived a missile strike in the Strait of Hormuz, but my friend has not been found",
-    "At least 82 killed in Chinese coal mine explosion"
+    "At least 82 killed in Chinese coal mine explosion",
+    "Four dead and dozens injured in wave of Russian strikes on Kyiv",
+    "California declares emergency as fire crews race to contain toxic leak"
   ],
   "categories": {
     "geopolitical": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
       "summary": "Trump says Iran deal 'largely negotiated' inc...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 19,
-      "score": 3.0
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 12,
+      "score": 17.1
     },
     "macro": {
-      "level": "안전",
-      "color": "green",
-      "signal": "🟢",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "19 feared trapped after building collapse in ...",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 1,
+      "score": 1.4
     },
     "disaster": {
       "level": "안전",
@@ -53,8 +53,8 @@
       "signal": "🟡",
       "summary": "Trump says Iran deal 'largely negotiated' inc...",
       "action": "관련 지표 추가 확인 후 판단",
-      "matched": 8,
-      "score": 11.3
+      "matched": 9,
+      "score": 12.7
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
-    "summary": "주의 필요: 지정학적 충돌",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "level": "안전",
+    "color": "green",
+    "summary": "전반적 안정. 정상 운용 유지",
+    "action": "정상 운용 유지"
   }
 }
