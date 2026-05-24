@@ -1,14 +1,14 @@
 {
-  "updated": "2026-05-24 16:40",
+  "updated": "2026-05-24 18:31",
   "indicators": {
     "bitcoin": {
       "label": "비트코인",
-      "value": 76764.0,
+      "value": 76826.0,
       "unit": "$",
-      "change": 91.0,
-      "change_pct": 0.12,
+      "change": 152.0,
+      "change_pct": 0.2,
       "signal": "🟡",
-      "desc": "$76,764"
+      "desc": "$76,826"
     },
     "usdkrw": {
       "label": "USD/KRW",
@@ -39,12 +39,12 @@
     },
     "gold": {
       "label": "금",
-      "value": 4521.0,
+      "value": 4523.2,
       "unit": "$/oz",
-      "change": -18.8,
-      "change_pct": -0.41,
+      "change": -16.6,
+      "change_pct": -0.37,
       "signal": "🟡",
-      "desc": "$4,521/oz"
+      "desc": "$4,523/oz"
     }
   }
 }
