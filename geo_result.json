@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-25 13:11",
+  "updated": "2026-05-25 19:17",
   "news_count": 71,
   "intl_count": 56,
   "domestic_count": 15,
@@ -13,21 +13,21 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Trump tells US negotiators 'not to rush' into deal with Iran",
+    "Deal with US not imminent, Iran says",
+    "Oil prices slide on hopes of US-Iran peace deal",
     "She was told to marry in a country which bans girls' education. So she got in a taxi and fled",
     "Large-scale Russian attack on Ukraine leaves four dead and dozens injured",
-    "Turkish riot police storm opposition offices after leaders ousted",
-    "Blast targeting train kills at least 20 in Pakistan"
+    "Turkish riot police storm opposition offices after leaders ousted"
   ],
   "categories": {
     "geopolitical": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Trump tells US negotiators 'not to rush' into...",
+      "summary": "Deal with US not imminent, Iran says",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 11,
-      "score": 15.9
+      "matched": 12,
+      "score": 17.3
     },
     "macro": {
       "level": "주의",
@@ -48,13 +48,13 @@
       "score": 0
     },
     "trade": {
-      "level": "주의",
+      "level": "신호",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Trump tells US negotiators 'not to rush' into...",
-      "action": "신규 매수 자제 / 추이 관찰",
+      "summary": "Deal with US not imminent, Iran says",
+      "action": "관련 지표 추가 확인 후 판단",
       "matched": 8,
-      "score": 1.4
+      "score": 11.5
     },
     "policy": {
       "level": "안전",
