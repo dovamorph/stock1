@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-26 04:46",
-  "news_count": 67,
-  "intl_count": 52,
+  "updated": "2026-05-26 06:13",
+  "news_count": 70,
+  "intl_count": 55,
   "domestic_count": 15,
   "source_stats": {
-    "BBC World": 26,
+    "BBC World": 29,
     "Al Jazeera": 26,
     "연합뉴스": 0,
     "한국경제": 1,
@@ -16,8 +16,8 @@
     "Deal with US not imminent, Iran says",
     "Oil prices slide on hopes of US-Iran peace deal",
     "Russia threatens more Kyiv strikes and tells foreign nationals to leave",
-    "White House gunman had previous run-ins with Secret Service, court documents show",
-    "Three killed in Uganda after crashing into elephant"
+    "Netanyahu says Israel will intensify strikes against Hezbollah",
+    "White House gunman had previous run-ins with Secret Service, court documents show"
   ],
   "categories": {
     "geopolitical": {
@@ -26,7 +26,7 @@
       "signal": "🔴",
       "summary": "Deal with US not imminent, Iran says",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 12,
+      "matched": 11,
       "score": 1.4
     },
     "macro": {
@@ -54,7 +54,7 @@
       "summary": "Deal with US not imminent, Iran says",
       "action": "관련 지표 추가 확인 후 판단",
       "matched": 8,
-      "score": 11.4
+      "score": 11.5
     },
     "policy": {
       "level": "안전",
