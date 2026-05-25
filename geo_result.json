@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-26 00:15",
-  "news_count": 67,
-  "intl_count": 52,
+  "updated": "2026-05-26 02:46",
+  "news_count": 68,
+  "intl_count": 53,
   "domestic_count": 15,
   "source_stats": {
-    "BBC World": 26,
+    "BBC World": 27,
     "Al Jazeera": 26,
     "연합뉴스": 0,
     "한국경제": 1,
@@ -15,9 +15,9 @@
   "news_sample": [
     "Deal with US not imminent, Iran says",
     "Oil prices slide on hopes of US-Iran peace deal",
-    "She was told to marry in a country which bans girls' education. So she got in a taxi and fled",
-    "Large-scale Russian attack on Ukraine leaves four dead and dozens injured",
-    "Anger grows after China's deadliest coal mining disaster in years"
+    "Russia threatens more Kyiv strikes and tells foreign nationals to leave",
+    "White House gunman had previous run-ins with Secret Service, court documents show",
+    "Three killed in Uganda after crashing into elephant"
   ],
   "categories": {
     "geopolitical": {
@@ -26,8 +26,8 @@
       "signal": "🟡",
       "summary": "Deal with US not imminent, Iran says",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 12,
-      "score": 17.1
+      "matched": 9,
+      "score": 12.8
     },
     "macro": {
       "level": "주의",
@@ -35,8 +35,8 @@
       "signal": "🟡",
       "summary": "One killed and many feared trapped under coll...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "matched": 2,
+      "score": 2.9
     },
     "disaster": {
       "level": "안전",
@@ -53,8 +53,8 @@
       "signal": "🟡",
       "summary": "Deal with US not imminent, Iran says",
       "action": "관련 지표 추가 확인 후 판단",
-      "matched": 9,
-      "score": 12.8
+      "matched": 8,
+      "score": 11.4
     },
     "policy": {
       "level": "안전",
