@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-25 08:00",
+  "updated": "2026-05-25 13:11",
   "news_count": 71,
   "intl_count": 56,
   "domestic_count": 15,
@@ -14,10 +14,10 @@
   },
   "news_sample": [
     "Trump tells US negotiators 'not to rush' into deal with Iran",
+    "She was told to marry in a country which bans girls' education. So she got in a taxi and fled",
     "Large-scale Russian attack on Ukraine leaves four dead and dozens injured",
     "Turkish riot police storm opposition offices after leaders ousted",
-    "She was told to marry in a country which bans girls' education. So she got in a taxi and fled",
-    "BBC at the site of China's worst mining disaster in more than a decade"
+    "Blast targeting train kills at least 20 in Pakistan"
   ],
   "categories": {
     "geopolitical": {
@@ -26,8 +26,8 @@
       "signal": "🟡",
       "summary": "Trump tells US negotiators 'not to rush' into...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 12,
-      "score": 18.7
+      "matched": 11,
+      "score": 15.9
     },
     "macro": {
       "level": "주의",
@@ -35,8 +35,8 @@
       "signal": "🟡",
       "summary": "One killed and many feared trapped under coll...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "matched": 2,
+      "score": 2.9
     },
     "disaster": {
       "level": "안전",
