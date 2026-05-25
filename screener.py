@@ -469,7 +469,8 @@ def fetch_eps_trend(tok, ticker, cur_eps):
         ev=[sf(x.get("eps")) for x in items[:3] if sf(x.get("eps"))!=0]
         if len(ev)>=2:
             growing=all(ev[i]>=ev[i+1] for i in range(len(ev)-1))
-            if growing and ev[0]>=1:
+            turnaround = ev[1]<0 and ev[0]>=1  # 적자→흑자 전환
+            if (growing or turnaround) and ev[0]>=1:
                 r["eps_trend"]="상승"
                 r["eps_growth"]=round((ev[0]-ev[1])/abs(ev[1])*100,1) if ev[1]!=0 else 0.
             elif ev[0]>=1: r["eps_trend"]="유지"
@@ -546,7 +547,7 @@ def judge(d):
     roe=d.get("roe",0) or 0; per=d.get("per",0) or 0
     eps=d.get("eps",0) or 0; eps_trend=d.get("eps_trend","")
     debt=d.get("debt_ratio",None); ticker=d.get("ticker","")
-    c1=roe>=15; c2=0<per<=25; c3=eps>=1; c4=eps_trend=="상승"
+    c1=roe>=15; c2=0<per<=35; c3=eps>=1; c4=eps_trend=="상승"
     is_finance = ticker in FINANCE_TICKERS
     c5 = True if is_finance else (debt is not None and debt <= 200)
     score=sum([c1,c2,c3,c4,c5])
@@ -572,7 +573,7 @@ def main():
     now_kst = now_utc + timedelta(hours=9)
     date = now_kst.strftime("%Y%m%d")
     print(f"  기준일: {date} ({now_kst.strftime('%H:%M')} KST)")
-    print(f"  등급: ROE≥15% PER≤25배 EPS≥1 EPS상승 부채비율≤200% → 5개 기준 / 4개이상=추천")
+    print(f"  등급: ROE≥15% PER≤35배 EPS≥1 EPS상승 부채비율≤200% → 5개 기준 / 4개이상=추천")
 
     # ── 이전 거래일 순위 로드 (같은 날 여러번 실행해도 기준 고정) ──
     prev_ranks = {}
