@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-26 02:46",
-  "news_count": 68,
-  "intl_count": 53,
+  "updated": "2026-05-26 04:46",
+  "news_count": 67,
+  "intl_count": 52,
   "domestic_count": 15,
   "source_stats": {
-    "BBC World": 27,
+    "BBC World": 26,
     "Al Jazeera": 26,
     "연합뉴스": 0,
     "한국경제": 1,
@@ -21,13 +21,13 @@
   ],
   "categories": {
     "geopolitical": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
       "summary": "Deal with US not imminent, Iran says",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 9,
-      "score": 12.8
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 12,
+      "score": 1.4
     },
     "macro": {
       "level": "주의",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "안전",
-    "color": "green",
-    "summary": "전반적 안정. 정상 운용 유지",
-    "action": "정상 운용 유지"
+    "level": "신호",
+    "color": "yellow",
+    "summary": "주의 필요: 지정학적 충돌",
+    "action": "관련 지표 추가 확인 후 판단"
   }
 }
