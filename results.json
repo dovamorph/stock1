@@ -1,6 +1,6 @@
 {
   "date": "20260525",
-  "generated_at": "2026-05-25T09:03:41.827426",
+  "generated_at": "2026-05-25T11:41:58.931039",
   "reference_date": "20260524",
   "reference_ranks": {
     "000660": 1,
@@ -89,9 +89,9 @@
     "final_signal_en": "STRONG_BUY",
     "final_reason": "한국 상승추세 · 미국 상승장",
     "total_score": 9,
-    "adr": 87.9,
-    "adr_advances": 430,
-    "adr_declines": 59,
+    "adr": 87.7,
+    "adr_advances": 429,
+    "adr_declines": 60,
     "adr_signal": "🟢",
     "adr_desc": "건강 (88%) — 지수 상승이 진짜",
     "vkospi_est": 20.0,
