@@ -260,7 +260,7 @@ def fetch_market_signal(tok) -> dict:
 def fetch_us_signal() -> dict:
     result = {
         "sp500_close": 0, "sp500_ch5": 0, "sp500_ch20": 0,
-        "sp500_ma5": 0,   "sp500_ma20": 0,
+        "sp500_ma5": 0,   "sp500_ma20": 0, "sp500_ma60": 0, "sp500_aligned": "혼조",
         "ndx_close": 0,   "ndx_ch5": 0,   "ndx_ch20": 0,
         "ndx_ma5": 0,     "ndx_ma20": 0,
         "vix_close": 0,   "vix_level": "데이터없음",
@@ -283,14 +283,25 @@ def fetch_us_signal() -> dict:
                 close = float(prices[-1])
                 ma5   = sum(float(p) for p in prices[-5:])  / 5
                 ma20  = sum(float(p) for p in prices[-20:]) / 20 if len(prices)>=20 else ma5
+                ma60  = sum(float(p) for p in prices[-60:]) / 60 if len(prices)>=60 else ma20
                 ch5   = round((float(prices[-1])-float(prices[-5]))/float(prices[-5])*100, 2) if len(prices)>=5 else 0
                 ch20  = round((float(prices[-1])-float(prices[-20]))/float(prices[-20])*100, 2) if len(prices)>=20 else 0
                 result[f"{key}_close"] = round(close, 2)
                 result[f"{key}_ma5"]   = round(ma5, 2)
                 result[f"{key}_ma20"]  = round(ma20, 2)
+                result[f"{key}_ma60"]  = round(ma60, 2)
                 result[f"{key}_ch5"]   = ch5
                 result[f"{key}_ch20"]  = ch20
                 result[f"{key}_ch1"]   = round((float(prices[-1])-float(prices[-2]))/float(prices[-2])*100, 2) if len(prices)>=2 else 0
+
+                # ── MA 배열 (sp500만) ─────────────────────────────────
+                if key == "sp500":
+                    if close > ma5 > ma20 > ma60:
+                        result["sp500_aligned"] = "정배열"
+                    elif close < ma5 < ma20 < ma60:
+                        result["sp500_aligned"] = "역배열"
+                    else:
+                        result["sp500_aligned"] = "혼조"
 
                 # ── RSI 계산 (sp500만) ───────────────────────────────
                 if key == "sp500" and len(prices) >= 15:
