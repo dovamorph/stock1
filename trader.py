@@ -549,7 +549,8 @@ def process_buys(token, data, stocks, ptype, max_pos, budget, partial_sells,
         and s["ticker"] not in all_tickers
         and rsi_min <= float(s.get("rsi", 0)) <= rsi_max
         and float(s.get("vol_trend", -999)) >= vol_trend_min
-        and s.get("macd_bull") is not False
+        and "매도주도" not in s.get("vol_char", "")   # 하락하면서 거래 많은 종목 제외
+        and s.get("macd_bull") in (True, None)         # True=매수신호 / None=데이터없음(허용) / False=차단
     ]
 
     surge_str = f" 🚀 급등장(vol≥{vol_trend_min:.0f}%)" if kospi_ch5 >= 5.0 else f" vol≥{vol_trend_min:.0f}%"
