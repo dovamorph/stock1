@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-26 08:08",
+  "updated": "2026-05-26 12:56",
   "news_count": 70,
   "intl_count": 55,
   "domestic_count": 15,
@@ -13,20 +13,20 @@
     "StockPlus": 14
   },
   "news_sample": [
+    "US military says it has launched new strikes on southern Iran",
     "Deal with US not imminent, Iran says",
     "Oil prices slide on hopes of US-Iran peace deal",
     "Russia threatens more Kyiv strikes and tells foreign nationals to leave",
-    "Netanyahu says Israel will intensify strikes against Hezbollah",
-    "White House gunman had previous run-ins with Secret Service, court documents show"
+    "Netanyahu says Israel will intensify strikes against Hezbollah"
   ],
   "categories": {
     "geopolitical": {
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "Deal with US not imminent, Iran says",
+      "summary": "US military says it has launched new strikes ...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 10,
+      "matched": 13,
       "score": 1.4
     },
     "macro": {
@@ -35,8 +35,8 @@
       "signal": "🟡",
       "summary": "One killed and many feared trapped under coll...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 2,
-      "score": 2.9
+      "matched": 1,
+      "score": 1.5
     },
     "disaster": {
       "level": "안전",
@@ -51,10 +51,10 @@
       "level": "신호",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Deal with US not imminent, Iran says",
+      "summary": "US military says it has launched new strikes ...",
       "action": "관련 지표 추가 확인 후 판단",
-      "matched": 7,
-      "score": 10.1
+      "matched": 9,
+      "score": 13.0
     },
     "policy": {
       "level": "안전",
