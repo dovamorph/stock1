@@ -25,10 +25,10 @@ DISCORD_WEBHOOK = os.environ.get("DISCORD_WEBHOOK", "")
 # 기존 기준(3300이 경계)은 2021년 수준 → KOSPI 7,000대 기준으로 재조정
 KOSPI_CYCLE_BASE_YEAR = 2020
 KOSPI_LEVELS = {
-    "recovery":   (0,    5000),   # 저점 회복: 공격적 매수 (전고점 미돌파 구간)
-    "uptrend":    (5000, 7000),   # 정상 상승: 기본 전략
-    "overheated": (7000, 8500),   # 과열: 포지션 축소 (현재 구간 7,493)
-    "caution":    (8500, 99999),  # 경계: 장투 신규매수 금지
+    "recovery":   (0,    5000),   # 저점 회복: 공격적 매수
+    "uptrend":    (5000, 8500),   # 정상 상승: 기본 전략 (7,000→8,500으로 상향 조정)
+    "overheated": (8500, 10000),  # 과열: 포지션 축소
+    "caution":    (10000, 99999), # 경계: 장투 신규매수 금지
 }
 
 # ── 국면별 전략 파라미터 ───────────────────────────────────────────────
@@ -47,9 +47,9 @@ REGIME_PARAMS = {
     },
     "SIDEWAYS": {
         "label":               "횡보장 🟡",
-        "allow_new_longterm":  False,      # 장투 신규 보류
-        "allow_new_daytrend":  True,
-        "position_multiplier": 0.7,
+        "allow_new_longterm":  True,       # 장투 허용 (단타 폐기 → 장투만 운용, 배율로 제어)
+        "allow_new_daytrend":  False,      # 단타 폐기
+        "position_multiplier": 0.6,        # 횡보장 배율 (0.7→0.6으로 보수적 조정)
         "long_tp":             [0.08, 0.15, 0.22],
         "short_tp":            [0.06, 0.09, 0.12],
         "long_sl":             -0.08,
