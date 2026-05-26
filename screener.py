@@ -838,7 +838,7 @@ def main():
 
     recs=[r for r in results if r.get("recommended")]
     print(f"\n{'─'*70}")
-    print(f"  시장: {market_signal['signal']} | {market_signal['aligned']} | {market_signal['reason']}")
+    print(f"  시장: {market_signal['signal']} | {market_signal['reason']}")
     print(f"  분석:{len(results)}종목  추천(A·B):{len(recs)}종목")
     for r in recs:
         print(f"  {ge_map.get(r['grade'],'⚪')}{r['grade']}등급 – {r['name']} ({r['market']})"
