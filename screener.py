@@ -54,7 +54,7 @@ def fetch_market_signal(tok) -> dict:
         "reason": "데이터 없음",
         "kospi_close": 0, "ma5": 0, "ma20": 0, "ma60": 0,
         "kospi_ch5": 0, "kospi_ch20": 0, "aligned": "",
-        "kosdaq_close": 0, "kosdaq_ch5": 0,
+        "kosdaq_close": 0, "kosdaq_ch5": 0, "kosdaq_aligned": "혼조", "kosdaq_rsi": 50.0,
         "rsi_14": 50.0, "basis": None, "basis_signal": "조회불가",
     }
     try:
@@ -72,6 +72,22 @@ def fetch_market_signal(tok) -> dict:
                 result["kosdaq_close"] = round(kq_prices[0], 2)
                 result["kosdaq_ch5"]   = round((kq_prices[0]-kq_prices[4])/kq_prices[4]*100, 2) if len(kq_prices)>=5 and kq_prices[4]>0 else 0
                 result["kosdaq_ch1"]   = round((kq_prices[0]-kq_prices[1])/kq_prices[1]*100, 2) if len(kq_prices)>=2 and kq_prices[1]>0 else 0
+                # ── KOSDAQ MA 정배열 ──────────────────────────────────
+                if len(kq_prices) >= 20:
+                    kq_c   = kq_prices[0]
+                    kq_ma5 = sum(kq_prices[:5])  / 5
+                    kq_ma20= sum(kq_prices[:20]) / 20
+                    kq_ma60= sum(kq_prices[:60]) / 60 if len(kq_prices)>=60 else sum(kq_prices)/len(kq_prices)
+                    if kq_c > kq_ma5 > kq_ma20 > kq_ma60:   result["kosdaq_aligned"] = "정배열"
+                    elif kq_c < kq_ma5 < kq_ma20 < kq_ma60: result["kosdaq_aligned"] = "역배열"
+                    else:                                      result["kosdaq_aligned"] = "혼조"
+                # ── KOSDAQ RSI ────────────────────────────────────────
+                if len(kq_prices) >= 15:
+                    p_asc  = kq_prices[:15][::-1]
+                    gains  = [max(p_asc[i]-p_asc[i-1], 0) for i in range(1,15)]
+                    losses = [max(p_asc[i-1]-p_asc[i], 0) for i in range(1,15)]
+                    avg_g  = sum(gains)/14; avg_l = sum(losses)/14
+                    result["kosdaq_rsi"] = 100.0 if avg_l==0 else round(100-(100/(1+avg_g/avg_l)),1)
         except: pass
 
         # ── KIS 일별 차트 API: 당일 ch1 확보 (항상 호출) ─────────────
@@ -262,7 +278,7 @@ def fetch_us_signal() -> dict:
         "sp500_close": 0, "sp500_ch5": 0, "sp500_ch20": 0,
         "sp500_ma5": 0,   "sp500_ma20": 0, "sp500_ma60": 0, "sp500_aligned": "혼조",
         "ndx_close": 0,   "ndx_ch5": 0,   "ndx_ch20": 0,
-        "ndx_ma5": 0,     "ndx_ma20": 0,
+        "ndx_ma5": 0,     "ndx_ma20": 0,  "ndx_aligned": "혼조", "ndx_rsi": 50.0,
         "vix_close": 0,   "vix_level": "데이터없음",
         "sp500_rsi": 50.0,
         "us_signal": "⚖️ 관망", "us_signal_en": "WATCH",
@@ -294,28 +310,22 @@ def fetch_us_signal() -> dict:
                 result[f"{key}_ch20"]  = ch20
                 result[f"{key}_ch1"]   = round((float(prices[-1])-float(prices[-2]))/float(prices[-2])*100, 2) if len(prices)>=2 else 0
 
-                # ── MA 배열 (sp500만) ─────────────────────────────────
-                if key == "sp500":
-                    if close > ma5 > ma20 > ma60:
-                        result["sp500_aligned"] = "정배열"
-                    elif close < ma5 < ma20 < ma60:
-                        result["sp500_aligned"] = "역배열"
-                    else:
-                        result["sp500_aligned"] = "혼조"
+                # ── MA 정배열 (sp500, ndx 각각) ──────────────────────
+                if close > ma5 > ma20 > ma60:   result[f"{key}_aligned"] = "정배열"
+                elif close < ma5 < ma20 < ma60: result[f"{key}_aligned"] = "역배열"
+                else:                            result[f"{key}_aligned"] = "혼조"
 
-                # ── RSI 계산 (sp500만) ───────────────────────────────
-                if key == "sp500" and len(prices) >= 15:
-                    deltas = [float(prices[i])-float(prices[i-1]) for i in range(1, len(prices))]
-                    gains  = [d if d > 0 else 0 for d in deltas[-14:]]
-                    losses = [-d if d < 0 else 0 for d in deltas[-14:]]
-                    avg_gain = sum(gains) / 14
-                    avg_loss = sum(losses) / 14
-                    if avg_loss == 0:
-                        sp500_rsi = 100.0
-                    else:
-                        rs = avg_gain / avg_loss
-                        sp500_rsi = round(100 - (100 / (1 + rs)), 1)
-                    result["sp500_rsi"] = sp500_rsi
+                # ── RSI 계산 (sp500, ndx 각각) ───────────────────────
+                if len(prices) >= 15:
+                    deltas   = [float(prices[i])-float(prices[i-1]) for i in range(1, len(prices))]
+                    gains    = [d if d > 0 else 0 for d in deltas[-14:]]
+                    losses   = [-d if d < 0 else 0 for d in deltas[-14:]]
+                    avg_gain = sum(gains)/14; avg_loss = sum(losses)/14
+                    rsi_val  = 100.0 if avg_loss==0 else round(100-(100/(1+avg_gain/avg_loss)),1)
+                    result[f"{key}_rsi"] = rsi_val
+                    # 하위 호환: sp500_rsi 별도 유지
+                    if key == "sp500":
+                        result["sp500_rsi"] = rsi_val
                 label = "SP500" if key=="sp500" else "NASDAQ"
                 if close > ma5 and ma5 > ma20:
                     scores.append(1); reasons.append(f"{label} 상승추세")
