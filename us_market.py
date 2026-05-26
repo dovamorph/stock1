@@ -28,34 +28,61 @@ def fetch_us_data() -> dict:
         "sp500":  {"close": 0, "change": 0, "change_pct": 0},
         "nasdaq": {"close": 0, "change": 0, "change_pct": 0},
         "vix":    {"close": 0, "level": ""},
+        "sp500_aligned": "혼조", "sp500_rsi": 50.0,
+        "ndx_aligned":   "혼조", "ndx_rsi":   50.0,
         "us_signal": "", "us_signal_en": "WATCH",
     }
     if not HAS_YF:
         return result
 
-    tickers = {"sp500": "^GSPC", "nasdaq": "^IXIC", "vix": "^VIX"}
+    key_map = {"sp500": "^GSPC", "nasdaq": "^IXIC", "vix": "^VIX"}
     data = {}
 
-    for key, sym in tickers.items():
+    for key, sym in key_map.items():
         try:
             tk = yf.Ticker(sym)
-            df = tk.history(period="2d", interval="1d")
+            df = tk.history(period="3mo", interval="1d")
             if df.empty or len(df) < 1:
                 continue
-            close  = float(df["Close"].iloc[-1])
-            prev   = float(df["Close"].iloc[-2]) if len(df) >= 2 else close
+            prices = list(df["Close"].dropna())
+            close  = float(prices[-1])
+            prev   = float(prices[-2]) if len(prices) >= 2 else close
             ch     = close - prev
             ch_pct = ch / prev * 100 if prev > 0 else 0
             data[key] = {"close": round(close, 2), "change": round(ch, 2),
-                         "change_pct": round(ch_pct, 2)}
+                         "change_pct": round(ch_pct, 2), "prices": prices}
             time.sleep(0.3)
         except Exception as e:
             print(f"  [{sym}] 조회 실패: {e}")
 
     if "sp500" in data:
-        result["sp500"] = data["sp500"]
+        result["sp500"] = {k: v for k, v in data["sp500"].items() if k != "prices"}
     if "nasdaq" in data:
-        result["nasdaq"] = data["nasdaq"]
+        result["nasdaq"] = {k: v for k, v in data["nasdaq"].items() if k != "prices"}
+
+    # ── S&P500 / NASDAQ 각각 MA정배열 + RSI ──────────────────────────
+    for key, result_key in [("sp500", "sp500"), ("nasdaq", "ndx")]:
+        if key not in data:
+            continue
+        prices = data[key]["prices"]
+        close  = float(prices[-1])
+        ma5    = sum(float(p) for p in prices[-5:])  / 5  if len(prices) >= 5  else close
+        ma20   = sum(float(p) for p in prices[-20:]) / 20 if len(prices) >= 20 else ma5
+        ma60   = sum(float(p) for p in prices[-60:]) / 60 if len(prices) >= 60 else ma20
+
+        # MA 정배열
+        if close > ma5 > ma20 > ma60:   result[f"{result_key}_aligned"] = "정배열"
+        elif close < ma5 < ma20 < ma60: result[f"{result_key}_aligned"] = "역배열"
+        else:                            result[f"{result_key}_aligned"] = "혼조"
+
+        # RSI
+        if len(prices) >= 15:
+            deltas   = [float(prices[i])-float(prices[i-1]) for i in range(1, len(prices))]
+            gains    = [d if d > 0 else 0 for d in deltas[-14:]]
+            losses   = [-d if d < 0 else 0 for d in deltas[-14:]]
+            avg_gain = sum(gains)/14; avg_loss = sum(losses)/14
+            rsi_val  = 100.0 if avg_loss==0 else round(100-(100/(1+avg_gain/avg_loss)),1)
+            result[f"{result_key}_rsi"] = rsi_val
 
     if "vix" in data:
         vix = data["vix"]["close"]
