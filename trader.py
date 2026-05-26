@@ -824,6 +824,17 @@ def main():
         allow_buy = False
         print(f"  ⚠️ KOSPI 당일 {kospi_ch1:+.1f}% 급락 — 전체 매수 차단")
 
+    # ── 갭다운/서킷브레이커 defense 모듈 자동 감지 ───────────────────
+    # kospi_ch1을 활용해 갭다운/서킷브레이커 상태를 defense_state에 기록
+    if kospi_ch1 <= -2.0:
+        check_gap_down(
+            open_price = float(market.get("kospi_close", 0)) * (1 + kospi_ch1 / 100),
+            prev_close = float(market.get("kospi_close", 0)),
+            ticker     = "KOSPI",
+        )
+    if kospi_ch1 <= -8.0:
+        check_circuit_breaker(kospi_ch1 / 100)
+
     # ── 만기일 익절 우선 알림 ────────────────────────────────────────
     if expiry_guard.get("sell_priority"):
         print(f"  ⚠️ {expiry_guard['note']} — 익절 우선 모드")
