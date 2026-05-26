@@ -472,6 +472,23 @@ def select_top40(tok, candidates):
     return result, adr_data
 
 # ── 4단계: 배당여부 ──────────────────────────────────────────────
+def fetch_foreign_net(tok, ticker):
+    """외국인 당일 순매수 수량 (양수=순매수, 음수=순매도, 0=데이터없음)"""
+    try:
+        r = requests.get(
+            f"{BASE}/uapi/domestic-stock/v1/quotations/inquire-investor",
+            headers=H(tok, "FHKST01010900"),
+            params={"fid_cond_mrkt_div_code": "J", "fid_input_iscd": ticker},
+            timeout=8
+        )
+        rows = r.json().get("output", [])
+        if not rows:
+            return 0
+        raw = str(rows[0].get("frgn_ntby_qty", "0")).replace(",", "").strip()
+        return int(raw) if raw.lstrip("-").isdigit() else 0
+    except:
+        return 0
+
 def check_dividend(ticker, market):
     try:
         suffix = ".KS" if market == "KOSPI" else ".KQ"
@@ -814,9 +831,10 @@ def main():
             eps_tr = fetch_eps_trend(tok,tk,t.get("eps",0))
             price  = fetch_ch20(tok,tk)
             is_div = check_dividend(tk, t.get("market","KOSPI"))
+            frgn_net = fetch_foreign_net(tok, tk)
             time.sleep(0.2)
 
-            data={**t,**eps_tr,**price,"is_dividend":is_div}
+            data={**t,**eps_tr,**price,"is_dividend":is_div,"frgn_net":frgn_net}
             f=judge(data)
             data.update({"filters":f,"grade":f["grade"],"score":f["score"],"recommended":f["recommended"]})
             # vol_char: prdy_ctrt(실시간 등락률) 기반 거래성격
