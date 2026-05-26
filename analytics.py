@@ -419,8 +419,12 @@ def analyze_before_buy(
     ch5    = float(stock.get("ch5",   0))
     ch20   = float(stock.get("ch20",  0))
 
-    # ── 외국인 순매수 조회 ──────────────────────────────────────────
-    foreign_net = get_foreign_net(token, ticker)
+    # ── 외국인 순매수 (screener에서 이미 수집됨) ───────────────────────
+    # results.json의 frgn_net 값을 직접 사용 (중복 API 호출 방지)
+    foreign_net = int(stock.get("frgn_net", 0) or 0)
+    if foreign_net == 0:
+        # fallback: 직접 조회
+        foreign_net = get_foreign_net(token, ticker)
     time.sleep(0.2)
 
     # ── OHLCV + ATR ────────────────────────────────────────────────
