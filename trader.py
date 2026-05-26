@@ -139,7 +139,15 @@ def is_good_candle(cur, open_, high, low):
 def order(token, ticker, qty, side):
     if MOCK:
         return True, "모의주문 처리"
-    tr_id = "TTTC0802U" if side == "buy" else "TTTC0801U"
+    # ── 실전 전환 시 주의 ──────────────────────────────────────────
+    # 모의투자 계좌(VTTC) vs 실전 계좌(TTTC) 자동 분기
+    # KIS_ACCOUNT_TYPE=mock → 모의투자 API 사용
+    # KIS_ACCOUNT_TYPE=real (기본값) → 실전 API 사용
+    account_type = os.environ.get("KIS_ACCOUNT_TYPE", "real").lower()
+    if side == "buy":
+        tr_id = "VTTC0802U" if account_type == "mock" else "TTTC0802U"
+    else:
+        tr_id = "VTTC0801U" if account_type == "mock" else "TTTC0801U"
     headers = {
         "authorization": f"Bearer {token}",
         "appkey": APP_KEY, "appsecret": APP_SECRET,
@@ -530,18 +538,23 @@ def process_buys(token, data, stocks, ptype, max_pos, budget, partial_sells,
     if remaining_budget < 10_000:
         print(f"  [{ptype}] 예산 부족 ({remaining_budget:,}원 / 포지션배율 {pos_mult:.1f}x) — 매수 스킵"); return
 
+    # 급등장(KOSPI 5일 +5% 이상) → vol_trend 기준 완화
+    # 급등 후 20일 평균이 높아져서 좋은 종목도 마이너스로 찍히는 왜곡 방지
+    kospi_ch5 = float(data.get("_kospi_ch5", 0))
+    vol_trend_min = -20.0 if kospi_ch5 >= 5.0 else 0.0
+
     candidates = [
         s for s in stocks
         if s.get("grade") in grade_filter
         and s["ticker"] not in all_tickers
         and rsi_min <= float(s.get("rsi", 0)) <= rsi_max
-        and float(s.get("vol_trend", -999)) >= 0
-        and float(s.get("ch20", 999)) <= (25 if s.get("grade") == "B" else 30)  # B등급 25% 상한
+        and float(s.get("vol_trend", -999)) >= vol_trend_min
         and s.get("macd_bull") is not False
     ]
 
+    surge_str = f" 🚀 급등장(vol≥{vol_trend_min:.0f}%)" if kospi_ch5 >= 5.0 else f" vol≥{vol_trend_min:.0f}%"
     print(f"\n  [{ptype} 매수 후보] {len(candidates)}개 "
-          f"(등급:{grade_filter} RSI:{rsi_min}~{rsi_max} 배율:{pos_mult:.1f}x)")
+          f"(등급:{grade_filter} RSI:{rsi_min}~{rsi_max} 배율:{pos_mult:.1f}x{surge_str})")
     if not candidates:
         print(f"  [{ptype}] 신규 후보 없음"); return
 
