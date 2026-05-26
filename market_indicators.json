@@ -1,32 +1,23 @@
 {
-  "updated": "2026-05-26 10:29",
+  "updated": "2026-05-26 14:50",
   "indicators": {
-    "bitcoin": {
-      "label": "비트코인",
-      "value": 76717.0,
-      "unit": "$",
-      "change": -264.0,
-      "change_pct": -0.34,
-      "signal": "🟡",
-      "desc": "$76,717"
-    },
     "usdkrw": {
       "label": "USD/KRW",
-      "value": 1507.0,
+      "value": 1505.0,
       "unit": "원",
-      "change": -5.5,
-      "change_pct": -0.37,
+      "change": -7.6,
+      "change_pct": -0.5,
       "signal": "🟢",
       "desc": "안정"
     },
     "wti": {
       "label": "WTI 유가",
-      "value": 91.76,
+      "value": 91.97,
       "unit": "$/배럴",
-      "change": -4.84,
-      "change_pct": -5.01,
+      "change": -4.63,
+      "change_pct": -4.79,
       "signal": "🟢",
-      "desc": "$91.8/배럴"
+      "desc": "$92.0/배럴"
     },
     "us10y": {
       "label": "미국 10년물",
@@ -39,12 +30,21 @@
     },
     "gold": {
       "label": "금",
-      "value": 4547.6,
+      "value": 4531.8,
       "unit": "$/oz",
-      "change": 26.6,
-      "change_pct": 0.59,
-      "signal": "🔴",
-      "desc": "$4,548/oz"
+      "change": 10.8,
+      "change_pct": 0.24,
+      "signal": "🟡",
+      "desc": "$4,532/oz"
+    },
+    "foreign_kospi": {
+      "total_qty": 0,
+      "total_eok": null,
+      "direction": "매도",
+      "signal": "🟡",
+      "use_amount": false,
+      "detail": "삼성전자: +0주 / SK하이닉스: +0주",
+      "note": "삼성전자 + SK하이닉스 합산 (KOSPI 시총 ~35% proxy)"
     }
   }
 }
