@@ -1,19 +1,25 @@
 #!/usr/bin/env python3
 """
-StockPilot KR — 자동매매 (trader.py) [풀 통합 버전]
-장투 포트폴리오: 200만원 / A등급만 / 시간손절 14일
-단타 포트폴리오: 300만원 / A·B·C등급 / 시간손절 5일
+StockPilot KR — 자동매매 (trader.py) [장투 전용 버전]
+장투 포트폴리오: 500만원 / A·B등급 / 시간손절 14일
+
+[단타 폐기 사유]
+- ATR 높은 종목에 단타 적용 시 TP가 10%+로 뛰어 사실상 중기 포지션화
+- 장투에 집중하고 종목 필터를 A+B등급으로 넓히는 방식으로 전환
+
+[기존 단타 포지션 처리]
+- LG씨엔에스·알테오젠 등 기존 short 포지션은 청산될 때까지 process_sells 유지
+- 신규 단타 매수는 영구 차단
 
 [통합 모듈]
 - market_regime : 시장 국면(BULL/SIDEWAYS/BEAR) → 익절/손절/포지션배율 동적 조정
 - defense       : 갭다운/연속손실/서킷브레이커/블랙리스트 방어
 - expiry.py     : 옵션만기일 guard → 매수 제한/익절 우선 모드
-- analytics     : ATR 기반 손절/익절 자동조정 + 매수 점수제 + 베타 포지션 사이징
+- analytics     : ATR 기반 손절/익절 자동조정 + 매수 점수제 + 베타/등급 포지션 사이징
 """
 import os, json, time, datetime, requests
 from zoneinfo import ZoneInfo
 
-# ── 신규 모듈 임포트 ──────────────────────────────────────────────────
 from market_regime import get_market_regime
 from defense import (
     can_buy as defense_can_buy,
@@ -29,29 +35,27 @@ from defense import (
 )
 from analytics import analyze_before_buy
 
-# ── 장투 기본 설정 ────────────────────────────────────────────────────
-LONG_BUDGET        = 2_000_000   # 장투 200만
+# ── 장투 설정 ─────────────────────────────────────────────────────────
+LONG_BUDGET        = 5_000_000        # 장투 총 예산 500만
+LONG_PER_STOCK     = LONG_BUDGET // 5 # 종목당 기준 100만 (analytics base_capital)
 LONG_STOP_LOSS     = -0.10
 LONG_TIME_STOP     = 14
-LONG_MAX_POS       = 3
+LONG_MAX_POS       = 5                # 최대 5종목
+LONG_GRADE_FILTER  = {"A", "B"}       # A·B등급만 장투 허용
 LONG_PARTIAL_SELLS = [
-    (0.10, 0.40),
-    (0.18, 0.35),
-    (0.25, 1.00),
+    (0.10, 0.40),   # 1차: +10% → 40% 매도
+    (0.18, 0.35),   # 2차: +18% → 35% 매도
+    (0.25, 1.00),   # 3차: +25% → 전량 매도
 ]
 
-# ── 단타 기본 설정 ────────────────────────────────────────────────────
-SHORT_BUDGET        = 3_000_000   # 단타 300만
-SHORT_STOP_LOSS     = -0.05
-SHORT_TIME_STOP     = 3          # ← 5일 → 3일 (빠른 손절)
-SHORT_MAX_POS       = 2          # ← 3 → 2종목 (집중)
-SHORT_PARTIAL_SELLS = [
-    (0.05, 0.33),   # ← 7%→5%  (빠른 1차 익절)
-    (0.08, 0.50),   # ← 10%→8%
-    (0.10, 1.00),   # ← 13%→10%
+# ── 레거시 단타 설정 (기존 포지션 청산 관리용, 신규매수 없음) ────────
+LEGACY_SHORT_TIME_STOP  = 3           # 기존 단타 시간손절 유지
+LEGACY_SHORT_MAX_SL     = -0.07       # 기존 단타 손절 한도
+SHORT_PARTIAL_SELLS = [               # process_sells에서 기존 포지션 관리용
+    (0.05, 0.33),
+    (0.08, 0.50),
+    (0.10, 1.00),
 ]
-SHORT_RSI_MIN = 45
-SHORT_RSI_MAX = 65
 
 # ── 공통 설정 ─────────────────────────────────────────────────────────
 BUY_SIGNALS    = {"강한 매수", "매수 우위"}
@@ -157,18 +161,22 @@ def load_positions():
     if os.path.exists(POSITIONS_FILE):
         with open(POSITIONS_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
+        # 구버전 마이그레이션
         if "positions" in data and "long" not in data:
-            print("  📦 구버전 → 장투/단타 분리 마이그레이션")
+            print("  📦 구버전 → 장투 전용 마이그레이션")
             data = {
-                "long":  {"budget": LONG_BUDGET,  "used": data.get("used", 0),
+                "long":  {"budget": LONG_BUDGET, "used": data.get("used", 0),
                           "positions": data.get("positions", {})},
-                "short": {"budget": SHORT_BUDGET, "used": 0, "positions": {}},
+                "short": {"budget": 0, "used": 0, "positions": {}},
                 "trade_history": data.get("trade_history", [])
             }
+        # 예산 자동 동기화 (LONG_BUDGET이 변경됐을 때)
+        if data.get("long", {}).get("budget", 0) != LONG_BUDGET:
+            data.setdefault("long", {})["budget"] = LONG_BUDGET
         return data
     return {
-        "long":  {"budget": LONG_BUDGET,  "used": 0, "positions": {}},
-        "short": {"budget": SHORT_BUDGET, "used": 0, "positions": {}},
+        "long":  {"budget": LONG_BUDGET, "used": 0, "positions": {}},
+        "short": {"budget": 0,           "used": 0, "positions": {}},
         "trade_history": []
     }
 
@@ -529,10 +537,8 @@ def process_buys(token, data, stocks, ptype, max_pos, budget, partial_sells,
         and s["ticker"] not in all_tickers
         and rsi_min <= float(s.get("rsi", 0)) <= rsi_max
         and float(s.get("vol_trend", -999)) >= 0
-        and (ptype == "short" or (
-            float(s.get("ch20", 999)) <= 30
-            and s.get("macd_bull") is not False
-        ))
+        and float(s.get("ch20", 999)) <= (25 if s.get("grade") == "B" else 30)  # B등급 25% 상한
+        and s.get("macd_bull") is not False
     ]
 
     print(f"\n  [{ptype} 매수 후보] {len(candidates)}개 "
@@ -583,7 +589,7 @@ def process_buys(token, data, stocks, ptype, max_pos, budget, partial_sells,
             trade_type   = ptype,
             regime_sl    = regime_params["long_sl"] if ptype == "long" else regime_params["short_sl"],
             regime_tp    = regime_params["long_sells_pct"] if ptype == "long" else regime_params["short_sells_pct"],
-            base_capital = LONG_BUDGET if ptype == "long" else SHORT_BUDGET,
+            base_capital = LONG_PER_STOCK if ptype == "long" else 500_000,  # 종목당 100만 기준
             effective_mult = pos_mult,
             min_score    = max(1, (4 if ptype == "short" else 5) - score_bonus),
         )
@@ -621,8 +627,8 @@ def process_buys(token, data, stocks, ptype, max_pos, budget, partial_sells,
             print(f"    {name} — 분석 스킵: {analysis['reason']}")
             continue
 
-        # analytics가 계산한 포지션 금액 사용
-        per_stock_actual = analysis["sizing"]["total"]
+        # analytics가 계산한 포지션 금액 사용 (남은 예산 초과 방지)
+        per_stock_actual = min(analysis["sizing"]["total"], remaining_budget)
         if per_stock_actual < cur_price:
             print(f"    {name} — 포지션 금액({per_stock_actual:,}원) < 현재가({cur_price:,}원), 스킵")
             continue
@@ -730,7 +736,7 @@ def main():
     mode_str = "🧪 모의투자" if MOCK else "💰 실전투자"
     print(f"\n{'='*50}")
     print(f"  StockPilot KR — 자동매매  {now.strftime('%Y%m%d %H:%M KST')}  [{mode_str}]")
-    print(f"  장투 {LONG_BUDGET//10000}만원 | 단타 {SHORT_BUDGET//10000}만원")
+    print(f"  장투 {LONG_BUDGET//10000}만원 | A·B등급 | 최대 {LONG_MAX_POS}종목 [단타 폐기]")
     print(f"{'='*50}")
 
     # ── [신규] 매매 정지 여부 최우선 확인 ───────────────────────────────
@@ -800,101 +806,18 @@ def main():
             print(f"  ⚠️ KOSPI 5일 하락 중 ({kospi_ch5:+.1f}%) — 신규 매수 중단")
 
     # ── ① KOSPI 당일 등락률 체크 ─────────────────────────────────────
-    # 오늘 KOSPI가 -1.5% 이상 빠지는 날은 단타 신규매수 금지
-    # 장투는 중장기 전략이므로 허용 (단, 당일 -3% 이상이면 장투도 차단)
-    allow_short_today = allow_buy
-    if allow_short_today and kospi_ch1 <= -1.5:
-        allow_short_today = False
-        print(f"  ⚠️ KOSPI 당일 {kospi_ch1:+.1f}% — 단타 당일 신규매수 차단")
+    # 당일 -3% 이상 급락 시 전체 매수 차단
     if allow_buy and kospi_ch1 <= -3.0:
         allow_buy = False
-        print(f"  ⚠️ KOSPI 당일 {kospi_ch1:+.1f}% 급락 — 장투 포함 전체 매수 차단")
+        print(f"  ⚠️ KOSPI 당일 {kospi_ch1:+.1f}% 급락 — 전체 매수 차단")
 
-    # ── ② 시장 시그널별 단타 등급 제한 ──────────────────────────────
-    if "강한 매수" in signal_raw:
-        short_grade_filter = {"A", "B", "C"}
-        short_grade_label  = "A/B/C"
-    elif "매수 우위" in signal_raw:
-        short_grade_filter = {"A", "B"}
-        short_grade_label  = "A/B (매수우위 → C등급 제한)"
-    else:
-        short_grade_filter = {"A", "B"}
-        short_grade_label  = "A/B (관망 이하 → C등급 제한)"
-        if allow_short_today:
-            allow_short_today = False
-            print(f"  ⚠️ 시장 시그널 {signal_raw} — 단타 신규매수 차단")
-
-    # ── 반등 감지: ch5 마이너스여도 단기 강한 반등이면 단타 A·B 허용 ──
-    kospi_ch2 = float(market.get("kospi_ch2", 0))
-
-    # ── 가짜 반등 필터 추가 ───────────────────────────────────────────
-    # VIX 확인 (market_indicators.json)
-    vix_ok = True
-    try:
-        import json as _json
-        if os.path.exists("market_indicators.json"):
-            mi = _json.load(open("market_indicators.json", encoding="utf-8"))
-            vix_val = mi.get("indicators", {}).get("vix", {}).get("value", 0)
-            vix_chg = mi.get("indicators", {}).get("vix", {}).get("change_pct", 0)
-            # VIX 25 이상이면 공포 지속 → 가짜 반등 가능성 높음
-            # VIX가 하락 중이어야 진짜 반등
-            if vix_val > 0:
-                vix_ok = vix_val < 25 and vix_chg <= 0
-                if not vix_ok:
-                    print(f"  ⚠️ VIX {vix_val:.1f} ({vix_chg:+.1f}%) — 공포 지속, 가짜반등 가능성")
-    except Exception:
-        pass
-
-    # 미국 시장도 상승 중이어야 (한국 혼자 튀는 건 가짜 가능성)
-    us_signal_ok = "BUY" in results.get("market_signal", {}).get("us", {}).get("us_signal_en", "")
-
-    is_reversal = (
-        kospi_ch1 >= 2.0 and       # 당일 +2% 이상
-        kospi_ch2 >= 1.0 and       # 2일 수익률 +1% 이상
-        kospi_ch5 >= -8.0 and      # 폭락장 아님
-        vix_ok and                  # VIX 하락 중 (공포 완화)
-        us_signal_ok and            # 미국도 상승 중
-        is_market_open
-    )
-
-    if is_reversal and not allow_short_today:
-        allow_short_today  = True
-        short_grade_filter = {"A", "B"}
-        short_grade_label  = "A/B (반등 감지 — 소규모 진입)"
-        _is_reversal_flag  = True
-        print(f"  📈 반등 감지 (진짜 가능성↑) — 단타 A·B 소규모 허용")
-        print(f"     ch5:{kospi_ch5:+.1f}% | 당일:{kospi_ch1:+.1f}% | VIX:{vix_val if 'vix_val' in dir() else '?'} | 미국:{us_signal_ok}")
-        print(f"     ⚡ 포지션 50% 축소 + 손절 -3%로 타이트하게 적용")
-    else:
-        _is_reversal_flag  = False
-
-    # ── 기회 포착 모드 ────────────────────────────────────────────────
-    # 강한 매수 신호 + ADR 80% 이상 동시 충족 시
-    # → 국면 배율 무시하고 1.0x, 단타 2종목 허용, 손절 -3% 타이트
-    adr_val = float(results.get("market_signal", {}).get("adr", 0))
-    is_opportunity_mode = (
-        "강한 매수" in signal_raw and
-        adr_val >= 80 and
-        allow_short_today and
-        is_market_open
-    )
-    if is_opportunity_mode:
-        print(f"  🚀 기회 포착 모드 — 강한매수 + ADR {adr_val:.0f}% → 배율 1.0x / 단타 2종목")
-        short_max_new = 2
-        short_pos_mult_override = 1.0
-    else:
-        short_max_new = 1
-        short_pos_mult_override = None
-
-    # ── 만기일 익절 우선 알림 (sell_priority일 때만) ─────────────────
+    # ── 만기일 익절 우선 알림 ────────────────────────────────────────
     if expiry_guard.get("sell_priority"):
         print(f"  ⚠️ {expiry_guard['note']} — 익절 우선 모드")
         discord(f"⚠️ {expiry_guard['note']}")
 
     print(f"  시장 시그널: {signal_raw} | RSI {rsi_14:.0f} | KOSPI5일 {kospi_ch5:+.1f}% | 당일 {kospi_ch1:+.1f}%")
-    print(f"  매수 가능:   {'✅' if allow_buy else '❌'} (장투)  {'✅' if allow_short_today else '❌'} (단타)")
-    print(f"  단타 허용등급: {short_grade_label}")
-    print(f"  국면:        {regime_params['regime_label']}")
+    print(f"  장투 매수:   {'✅' if allow_buy else '❌'} | 등급: A·B | 국면: {regime_params['regime_label']}")
     print(f"  만기:        {expiry_guard['note']}")
 
     print("\n  KIS 토큰 발급 중...")
@@ -906,32 +829,38 @@ def main():
 
     data = load_positions()
 
-    # ── 매도 체크 전 국면/KOSPI/반등 정보 data에 주입 ─────────────────
-    data["_kospi_ch5"]         = kospi_ch5
-    data["_kospi_ch1"]         = kospi_ch1
-    data["_regime"]            = regime.get("regime", "UNKNOWN")
-    data["_signal"]            = signal_raw
-    data["_is_reversal"]       = _is_reversal_flag
-    data["_opportunity_mode"]  = is_opportunity_mode
+    # ── 매도/매수 상태 data에 주입 ───────────────────────────────────
+    data["_kospi_ch5"]        = kospi_ch5
+    data["_kospi_ch1"]        = kospi_ch1
+    data["_regime"]           = regime.get("regime", "UNKNOWN")
+    data["_signal"]           = signal_raw
+    data["_is_reversal"]      = False
+    data["_opportunity_mode"] = False
 
+    # ── 장투 매도 체크 ───────────────────────────────────────────────
     process_sells(token, data, "long",
                   regime_params["long_sells"],
                   regime_params["long_sl"],
                   LONG_TIME_STOP, now)
-    process_sells(token, data, "short",
-                  regime_params["short_sells"],
-                  regime_params["short_sl"],
-                  SHORT_TIME_STOP, now)
 
-    # ── Watchlist 재매수 후보 출력 ─────────────────────────────────────
+    # ── 레거시 단타 포지션 청산 관리 (신규매수 없음) ─────────────────
+    if data.get("short", {}).get("positions"):
+        print(f"\n  [레거시 단타 포지션 청산 관리] {len(data['short']['positions'])}개 남음")
+        process_sells(token, data, "short",
+                      [(0.05, 0.33), (0.08, 0.50), (0.10, 1.00)],
+                      -0.07,
+                      LEGACY_SHORT_TIME_STOP, now)
+    else:
+        print(f"\n  [단타] 레거시 포지션 없음 — 완전 종료")
+
+    # ── Watchlist 재매수 후보 출력 ─────────────────────────────────
     watchlist = get_watchlist()
     if watchlist:
-        print(f"\n  📋 재매수 Watchlist ({len(watchlist)}종목) — 다음 매수 시 우선 검토:")
+        print(f"\n  📋 재매수 Watchlist ({len(watchlist)}종목):")
         for t, info in watchlist.items():
-            print(f"    {info['grade']}등급 {info['name']}({t}) | "
-                  f"손절가 {info['sold_price']:,}원 | {info['reason']}")
+            print(f"    {info['grade']}등급 {info['name']}({t}) | 손절가 {info['sold_price']:,}원")
 
-    # ── 매수 ──────────────────────────────────────────────────────────
+    # ── 장투 매수 ────────────────────────────────────────────────────
     if not allow_buy:
         print("\n  매수 시그널 없음 — 매도 체크만 완료")
         save_positions(data); return
@@ -941,19 +870,9 @@ def main():
     process_buys(token, data, stocks, "long",
                  LONG_MAX_POS, LONG_BUDGET,
                  regime_params["long_sells"],
-                 {"A"}, 0, 65, now,
+                 LONG_GRADE_FILTER, 0, 65, now,
                  regime_params, expiry_guard,
                  allow_override=allow_buy)
-
-    # ── ③ 단타: 당일 신규매수 허용 + 등급 제한 + 하루 1종목 제한 ──────
-    process_buys(token, data, stocks, "short",
-                 SHORT_MAX_POS, SHORT_BUDGET,
-                 regime_params["short_sells"],
-                 short_grade_filter, SHORT_RSI_MIN, SHORT_RSI_MAX, now,
-                 regime_params, expiry_guard,
-                 allow_override=allow_short_today,
-                 max_new_today=short_max_new,
-                 pos_mult_override=short_pos_mult_override)
 
     save_positions(data)
     print(f"\n  💾 positions.json 저장 완료")
