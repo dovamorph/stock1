@@ -239,18 +239,17 @@ def load_expiry_guard() -> dict:
 # ── 국면별 익절/손절 파라미터 오버라이드 ─────────────────────────────
 def build_regime_params(regime: dict) -> dict:
     """
-    market_regime의 국면에 따라 익절/손절/포지션배율을 동적으로 결정.
+    market_regime의 국면에 따라 장투 익절/손절/포지션배율을 동적으로 결정.
+    단타는 폐기됐으나 레거시 포지션 청산 관리를 위해 short 파라미터 유지.
     """
-    r = regime.get("regime", "UNKNOWN")
     params = regime.get("params", {})
 
-    long_tp_pcts  = params.get("long_tp",   [0.10, 0.18, 0.25])
-    short_tp_pcts = params.get("short_tp",  [0.07, 0.10, 0.13])
-    long_sl       = params.get("long_sl",   LONG_STOP_LOSS)
-    short_sl      = params.get("short_sl",  SHORT_STOP_LOSS)
+    long_tp_pcts  = params.get("long_tp",  [0.10, 0.18, 0.25])
+    short_tp_pcts = params.get("short_tp", [0.05, 0.08, 0.10])   # 레거시 고정
+    long_sl       = params.get("long_sl",  LONG_STOP_LOSS)
+    short_sl      = params.get("short_sl", LEGACY_SHORT_MAX_SL)   # 레거시 고정
     pos_mult      = regime.get("effective_position_multiplier", 1.0)
 
-    # (익절%, 매도비율) — 비율은 기존 설정 유지, 퍼센트만 국면별로 조정
     long_sells  = [(pct, ratio) for pct, (_, ratio) in zip(long_tp_pcts,  LONG_PARTIAL_SELLS)]
     short_sells = [(pct, ratio) for pct, (_, ratio) in zip(short_tp_pcts, SHORT_PARTIAL_SELLS)]
 
@@ -258,13 +257,13 @@ def build_regime_params(regime: dict) -> dict:
         "regime_label":    regime.get("label", "?"),
         "long_sells":      long_sells,
         "short_sells":     short_sells,
-        "long_sells_pct":  long_tp_pcts,    # analytics용 퍼센트만
-        "short_sells_pct": short_tp_pcts,   # analytics용 퍼센트만
+        "long_sells_pct":  long_tp_pcts,
+        "short_sells_pct": short_tp_pcts,
         "long_sl":         long_sl,
         "short_sl":        short_sl,
         "pos_mult":        pos_mult,
         "allow_longterm":  regime.get("longterm_new_buy_ok", True),
-        "allow_daytrend":  regime.get("daytrend_new_buy_ok", True),
+        "allow_daytrend":  False,   # 단타 영구 차단
     }
 
 # ── 포트폴리오 매도 처리 ──────────────────────────────────────────────
