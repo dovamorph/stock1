@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-26 12:56",
-  "news_count": 70,
-  "intl_count": 55,
+  "updated": "2026-05-26 16:56",
+  "news_count": 68,
+  "intl_count": 53,
   "domestic_count": 15,
   "source_stats": {
-    "BBC World": 29,
+    "BBC World": 27,
     "Al Jazeera": 26,
     "연합뉴스": 0,
     "한국경제": 1,
@@ -13,30 +13,30 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "US military says it has launched new strikes on southern Iran",
-    "Deal with US not imminent, Iran says",
-    "Oil prices slide on hopes of US-Iran peace deal",
+    "US launches new strikes on Iran, targeting missile sites and boats",
+    "Netanyahu says Israel will intensify strikes against Hezbollah",
     "Russia threatens more Kyiv strikes and tells foreign nationals to leave",
-    "Netanyahu says Israel will intensify strikes against Hezbollah"
+    "Australia confirms first diphtheria death amid worst outbreak in decades",
+    "Wave of child abuse cases shakes schools in Paris"
   ],
   "categories": {
     "geopolitical": {
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "US military says it has launched new strikes ...",
+      "summary": "US launches new strikes on Iran, targeting mi...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 13,
+      "matched": 11,
       "score": 1.4
     },
     "macro": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "One killed and many feared trapped under coll...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     },
     "disaster": {
       "level": "안전",
@@ -51,10 +51,10 @@
       "level": "신호",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "US military says it has launched new strikes ...",
+      "summary": "US launches new strikes on Iran, targeting mi...",
       "action": "관련 지표 추가 확인 후 판단",
       "matched": 9,
-      "score": 13.0
+      "score": 12.8
     },
     "policy": {
       "level": "안전",
