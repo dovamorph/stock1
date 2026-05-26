@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-27 00:43",
-  "news_count": 68,
-  "intl_count": 53,
+  "updated": "2026-05-27 03:30",
+  "news_count": 62,
+  "intl_count": 47,
   "domestic_count": 15,
   "source_stats": {
-    "BBC World": 27,
+    "BBC World": 21,
     "Al Jazeera": 26,
     "연합뉴스": 0,
     "한국경제": 1,
@@ -14,10 +14,10 @@
   },
   "news_sample": [
     "Iran condemns US strikes as 'gross violation' of ceasefire",
+    "Russia threatens more Kyiv strikes and tells foreign nationals to leave",
     "Four killed as school minibus collides with train in Belgium",
     "Eleven killed in Lebanon village as Israel intensifies strikes",
-    "Ebola needs swift response to prevent catastrophe, says DR Congo governor",
-    "Netanyahu says Israel will intensify strikes against Hezbollah"
+    "Why temperature records are being not only broken but smashed"
   ],
   "categories": {
     "geopolitical": {
@@ -27,7 +27,7 @@
       "summary": "Iran condemns US strikes as 'gross violation'...",
       "action": "포지션 축소 검토 / 모니터링 강화",
       "matched": 9,
-      "score": 1.4
+      "score": 2.8
     },
     "macro": {
       "level": "안전",
@@ -53,8 +53,8 @@
       "signal": "🟡",
       "summary": "Iran condemns US strikes as 'gross violation'...",
       "action": "관련 지표 추가 확인 후 판단",
-      "matched": 3,
-      "score": 4.4
+      "matched": 4,
+      "score": 5.8
     },
     "policy": {
       "level": "안전",
