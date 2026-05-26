@@ -25,8 +25,8 @@ THRESHOLD = {
     "stock_crash_pct":       -0.070,   # -7%: 개별 종목 급락
     "stock_crash_hard_pct":  -0.120,   # -12%: 개별 종목 폭락 (즉시 시장가 손절)
     "consecutive_losses":     3,        # 3연패 → 48시간 정지
-    "daily_loss_limit":      -150_000,  # 일일 손실 한도 (원) — 단타 자본 150만의 10%
-    "total_loss_limit":      -500_000,  # 총 손실 한도 (원) — 발동 시 전면 중단
+    "daily_loss_limit":      -300_000,  # 일일 손실 한도 — 장투 500만의 6%
+    "total_loss_limit":     -1_000_000, # 총 손실 한도 — 장투 500만의 20%
     "volume_drop_pct":        0.30,     # 거래량 30% 이하 → 유동성 부족
     "blacklist_hours":        72,       # 급락 종목 블랙리스트 시간
     "suspend_hours":          48,       # 연속손실 정지 시간
