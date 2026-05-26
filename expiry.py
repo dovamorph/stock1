@@ -92,7 +92,10 @@ def main():
     now         = datetime.datetime.now(KST)
     today       = datetime.date.today()
     expiry_date = get_next_expiry()
-    d_day       = (expiry_date - today).days
+    if expiry_date is None:
+        print("  ⚠️ 만기일 계산 실패 — 기본값 사용")
+        expiry_date = datetime.date.today() + datetime.timedelta(days=30)
+    d_day = (expiry_date - today).days
     guard       = get_guard(d_day, now.time())
 
     # 만기일 당일 마감까지 남은 시간 (15:20 = 옵션 마지막 매매)
