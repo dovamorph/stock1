@@ -9,5 +9,11 @@
     "used": 0,
     "positions": {}
   },
-  "trade_history": []
+  "trade_history": [],
+  "_kospi_ch5": 11.33,
+  "_kospi_ch1": 3.16,
+  "_regime": "SIDEWAYS",
+  "_signal": "📈 강한 매수",
+  "_is_reversal": false,
+  "_opportunity_mode": false
 }
