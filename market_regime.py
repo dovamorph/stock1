@@ -192,11 +192,11 @@ def _judge_regime(
 # ── KOSPI 장기 사이클 단계 ──────────────────────────────────────────────
 def _get_cycle_stage(kospi_level: float) -> dict:
     """
-    현재 KOSPI 수준 기반 대사이클 단계 판단
-    반환값은 position_multiplier에 추가 패널티/보너스 적용용
+    현재 KOSPI 수준 기반 대사이클 단계 판단.
+    KOSPI_LEVELS 구간별 배율 조정만 적용 (시간 기반 패널티 제거).
+    → 시간 기반 패널티는 급등장에서 영구적으로 배율을 낮추는 부작용이 있어 제거.
+      KOSPI 수준 자체가 이미 위험도를 반영함.
     """
-    years_since_base = date.today().year - KOSPI_CYCLE_BASE_YEAR
-
     for stage, (lo, hi) in KOSPI_LEVELS.items():
         if lo <= kospi_level < hi:
             multiplier_adj = {
@@ -205,15 +205,9 @@ def _get_cycle_stage(kospi_level: float) -> dict:
                 "overheated": -0.2,   # 과열: 포지션 축소
                 "caution":    -0.4,   # 경계: 큰 폭 축소
             }[stage]
-
-            # 사이클 후반(6년+) 추가 패널티
-            if years_since_base >= 6:
-                multiplier_adj -= 0.1
-
             return {
                 "stage": stage,
                 "kospi_level": kospi_level,
-                "years_since_base": years_since_base,
                 "multiplier_adj": multiplier_adj,
                 "longterm_new_buy": stage not in ("caution",),
             }
@@ -312,6 +306,19 @@ def get_market_regime(force_refresh: bool = False) -> dict:
     ret_5d   = (current - close.iloc[-5])  / close.iloc[-5]  * 100
     ret_20d  = (current - close.iloc[-20]) / close.iloc[-20] * 100
     vkospi   = _estimate_vkospi(df)
+
+    # ── 실제 VKOSPI 우선 사용 ──────────────────────────────────────
+    # results.json에 screener가 저장한 실제 VKOSPI 값이 있으면 사용
+    # (추정치는 급등장에서 변동성이 과대평가되어 BULL→SIDEWAYS 강등 오류 발생)
+    try:
+        import json as _json, os as _os
+        if _os.path.exists("results.json"):
+            _rj = _json.load(open("results.json", encoding="utf-8"))
+            _vk = _rj.get("market_signal", {}).get("vkospi_est", 0)
+            if _vk and float(_vk) > 0:
+                vkospi = float(_vk)
+    except Exception:
+        pass   # 실패 시 추정치 유지
 
     # 거래량 추세: 최근 5일 평균 > 20일 평균
     vol_5    = df["Volume"].iloc[-5:].mean()
