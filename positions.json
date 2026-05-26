@@ -64,9 +64,9 @@
       "reason": "분할매도1차(+10%)"
     }
   ],
-  "_kospi_ch5": 4.41,
-  "_kospi_ch1": 0.41,
-  "_regime": "BULL",
+  "_kospi_ch5": 11.33,
+  "_kospi_ch1": 3.16,
+  "_regime": "SIDEWAYS",
   "_signal": "📈 강한 매수",
   "_is_reversal": false,
   "_opportunity_mode": false
