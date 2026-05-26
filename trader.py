@@ -890,8 +890,8 @@ def main():
     save_positions(data)
     print(f"\n  💾 positions.json 저장 완료")
 
-    # ── 장 마감 후 일일 리포트 (15:30~16:00 실행 시) ─────────────────
-    if datetime.time(6, 30) <= now_time <= datetime.time(7, 0):   # 15:30~16:00 KST
+    # ── 장 마감 후 일일 리포트 (15:30~16:00 KST 실행 시) ────────────
+    if datetime.time(15, 30) <= now_time <= datetime.time(16, 0):
         _send_daily_report(data)
 
     print(f"\n✅ 자동매매 완료!")
