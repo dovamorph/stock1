@@ -552,8 +552,10 @@ def fetch_ch20(tok, ticker):
             else:
                 rs=avg_gain/avg_loss
                 r["rsi"]=round(100-(100/(1+rs)),1)
-        if len(prices)>=35:
-            p_asc=prices[:35][::-1]
+        if len(prices)>=26:
+            # EMA26이 최소 요건 → 26개 이상이면 계산 가능
+            # API가 최대 30건 반환하므로 35 기준은 항상 실패 → 26으로 수정
+            p_asc=prices[::-1]   # 오름차순 (오래된 것부터)
             def ema(data, n):
                 k=2/(n+1); e=data[0]
                 for p in data[1:]: e=p*k+e*(1-k)
@@ -561,13 +563,14 @@ def fetch_ch20(tok, ticker):
             ema12=ema(p_asc,12); ema26=ema(p_asc,26)
             macd_line=ema12-ema26
             macd_vals=[]
-            for i in range(9,35):
+            for i in range(9, len(p_asc)):   # 전체 범위로 시그널 계산
                 e12=ema(p_asc[:i+1],12); e26=ema(p_asc[:i+1],26)
                 macd_vals.append(e12-e26)
-            signal_line=ema(macd_vals,9)
-            r["macd_line"]=round(macd_line,2)
-            r["signal_line"]=round(signal_line,2)
-            r["macd_bull"]=(macd_line>signal_line)
+            if len(macd_vals) >= 9:
+                signal_line=ema(macd_vals,9)
+                r["macd_line"]=round(macd_line,2)
+                r["signal_line"]=round(signal_line,2)
+                r["macd_bull"]=(macd_line>signal_line)
         else:
             r["macd_line"]=0.; r["signal_line"]=0.; r["macd_bull"]=None
     except: pass
