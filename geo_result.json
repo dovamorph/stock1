@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-28 06:58",
+  "updated": "2026-05-28 08:24",
   "news_count": 98,
   "intl_count": 53,
   "domestic_count": 45,
@@ -30,13 +30,13 @@
       "score": 19.0
     },
     "macro": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "국내은행 1분기 총자본비율 0.19%p↓…대출자산 늘고 환율 올라",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 2,
-      "score": 3.0
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     },
     "disaster": {
       "level": "안전",
@@ -53,17 +53,17 @@
       "signal": "🟡",
       "summary": "Trump says US 'not satisfied' with Iran deal ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 6,
-      "score": 2.8
+      "matched": 7,
+      "score": 4.3
     },
     "policy": {
-      "level": "안전",
-      "color": "green",
-      "signal": "🟢",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "신호",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "타워크레인 85% 운행중단 예고…\"저가수주·안전문제 개선요구\"(종합)",
+      "action": "관련 지표 추가 확인 후 판단",
+      "matched": 2,
+      "score": 3.0
     }
   },
   "overall": {
