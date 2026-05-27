@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-28 03:28",
+  "updated": "2026-05-28 06:58",
   "news_count": 98,
   "intl_count": 53,
   "domestic_count": 45,
@@ -13,7 +13,7 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Israel strikes Tyre after ordering evacuation of south Lebanon city",
+    "Israel issues evacuation order for swathes of southern Lebanon",
     "Ebola-hit DR Congo faces 'catastrophic collision' of disease and conflict, WHO warns",
     "Trump says US 'not satisfied' with Iran deal yet",
     "Five people found alive after week trapped in flooded Laos cave",
@@ -21,22 +21,22 @@
   ],
   "categories": {
     "geopolitical": {
-      "level": "경고",
-      "color": "orange",
-      "signal": "🟠",
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
       "summary": "Trump says US 'not satisfied' with Iran deal ...",
-      "action": "포지션 축소 검토 / 모니터링 강화",
-      "matched": 21,
-      "score": 2.9
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 12,
+      "score": 19.0
     },
     "macro": {
-      "level": "안전",
-      "color": "green",
-      "signal": "🟢",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "국내은행 1분기 총자본비율 0.19%p↓…대출자산 늘고 환율 올라",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 2,
+      "score": 3.0
     },
     "disaster": {
       "level": "안전",
@@ -53,23 +53,23 @@
       "signal": "🟡",
       "summary": "Trump says US 'not satisfied' with Iran deal ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 8,
-      "score": 6.0
+      "matched": 6,
+      "score": 2.8
     },
     "policy": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "로사톰 \"카자흐 원전 프로젝트, 한국 등 참여 반대 안해\"",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
-    "level": "주의",
-    "color": "yellow",
-    "summary": "주의 필요: 지정학적 충돌",
-    "action": "신규 매수 자제 / 추이 관찰"
+    "level": "안전",
+    "color": "green",
+    "summary": "전반적 안정. 정상 운용 유지",
+    "action": "정상 운용 유지"
   }
 }
