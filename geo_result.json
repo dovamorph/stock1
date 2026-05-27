@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-27 08:12",
+  "updated": "2026-05-27 13:10",
   "news_count": 62,
   "intl_count": 47,
   "domestic_count": 15,
@@ -13,11 +13,11 @@
     "StockPlus": 14
   },
   "news_sample": [
+    "Dozens killed in Lebanon as Israel intensifies strikes",
     "Iran condemns US strikes as 'gross violation' of ceasefire",
     "Russia threatens more Kyiv strikes and tells foreign nationals to leave",
-    "Four killed as school minibus collides with train in Belgium",
-    "Eleven killed in Lebanon village as Israel intensifies strikes",
-    "Why temperature records are being not only broken but smashed"
+    "Can EU find a Russia whisperer to mediate an end to war in Ukraine?",
+    "Russia 'relentlessly targeting' critical infrastructure and democracy, GCHQ says"
   ],
   "categories": {
     "geopolitical": {
@@ -26,7 +26,7 @@
       "signal": "🟠",
       "summary": "Iran condemns US strikes as 'gross violation'...",
       "action": "포지션 축소 검토 / 모니터링 강화",
-      "matched": 6,
+      "matched": 8,
       "score": 1.4
     },
     "macro": {
@@ -54,7 +54,7 @@
       "summary": "Iran condemns US strikes as 'gross violation'...",
       "action": "관련 지표 추가 확인 후 판단",
       "matched": 5,
-      "score": 7.2
+      "score": 7.1
     },
     "policy": {
       "level": "안전",
