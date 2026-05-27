@@ -584,6 +584,100 @@ FINANCE_TICKERS = {
     "012510","000810","032830","088350","005830","029780",
 }
 
+def calc_entry_score(d: dict) -> dict:
+    """
+    진입 타이밍 점수 (0~10점).
+    "지금 사야 하나?" 를 한눈에 판단하기 위한 종합 점수.
+
+    핵심 원칙:
+      - rank_change=NEW : 오늘 처음 등장 → 가장 빠른 진입 기회 (가중치 최고)
+      - RSI < 65        : 과열 아님 → 진입 여지 있음
+      - ch5 < 10%       : 아직 덜 오름 → 좋은 타이밍
+      - 외인 순매수      : 기관/외인이 함께 사는 중
+      - 매수주도 거래    : 거래가 상승 동반
+    """
+    score  = 0
+    detail = {}
+
+    grade       = d.get("grade", "F")
+    rsi         = float(d.get("rsi", 50))
+    ch5         = float(d.get("ch5", 0))
+    ch20        = float(d.get("ch20", 0))
+    frgn_net    = int(d.get("frgn_net", 0) or 0)
+    vol_char    = d.get("vol_char", "")
+    rank_change = d.get("rank_change")   # None=NEW, 양수=상승, 0=유지, 음수=하락
+
+    # ── ① 신규 진입 여부 (타이밍의 핵심) ─────────────────────────────
+    if rank_change is None:
+        s = 3   # NEW — 오늘 처음 등장, 가장 신선한 신호
+    elif isinstance(rank_change, (int, float)) and rank_change >= 10:
+        s = 2   # 10단계 이상 급상승 — 최근 주목받기 시작
+    elif isinstance(rank_change, (int, float)) and rank_change >= 3:
+        s = 1   # 소폭 상승
+    elif isinstance(rank_change, (int, float)) and rank_change < 0:
+        s = -1  # 하락 중 — 관심 식는 중
+    else:
+        s = 0   # 유지 (며칠째 같은 자리)
+    score += s; detail["timing"] = s
+
+    # ── ② RSI (과열/눌림 여부) ────────────────────────────────────────
+    if rsi < 45:    s = 2    # 과매도 근처 — 매우 좋은 진입 구간
+    elif rsi < 55:  s = 1    # 안전 구간
+    elif rsi < 65:  s = 0    # 정상 상승 중
+    elif rsi < 70:  s = -1   # 과매수 임박 — 조심
+    else:           s = -2   # 과매수 — 추격매수 위험
+    score += s; detail["rsi"] = s
+
+    # ── ③ 5일 수익률 (이미 많이 올랐나?) ─────────────────────────────
+    if ch5 < 0:      s = 2   # 눌림 — 매수 기회
+    elif ch5 < 5:    s = 1   # 소폭 상승 — 아직 여유
+    elif ch5 < 10:   s = 0   # 어느 정도 올랐음
+    elif ch5 < 20:   s = -1  # 많이 올랐음 — 주의
+    else:            s = -2  # 이미 급등 — 추격 위험
+    score += s; detail["ch5"] = s
+
+    # ── ④ 등급 (펀더멘털 품질) ────────────────────────────────────────
+    s = {"A": 2, "B": 1, "C": 0}.get(grade, -1)
+    score += s; detail["grade"] = s
+
+    # ── ⑤ 외국인 순매수 ───────────────────────────────────────────────
+    if frgn_net > 100_000:   s = 2   # 대규모 외인 매수
+    elif frgn_net > 0:       s = 1   # 소규모 외인 매수
+    elif frgn_net < -100_000: s = -1 # 외인 대규모 매도
+    else:                    s = 0
+    score += s; detail["foreign"] = s
+
+    # ── ⑥ 거래성격 ────────────────────────────────────────────────────
+    if "매수주도" in vol_char:   s = 1
+    elif "매도주도" in vol_char: s = -1
+    else:                        s = 0
+    score += s; detail["vol_char"] = s
+
+    score = max(0, min(10, score))
+
+    # ★ 레이블
+    if score >= 8:    stars = "★★★★★"
+    elif score >= 6:  stars = "★★★★"
+    elif score >= 4:  stars = "★★★"
+    elif score >= 2:  stars = "★★"
+    else:             stars = "★"
+
+    label = (
+        "지금 진입" if score >= 8 else
+        "좋은 타이밍" if score >= 6 else
+        "보통" if score >= 4 else
+        "주의" if score >= 2 else
+        "늦음"
+    )
+
+    return {
+        "entry_score": score,
+        "entry_stars": stars,
+        "entry_label": label,
+        "entry_detail": detail,
+    }
+
+
 def judge(d):
     roe=d.get("roe",0) or 0; per=d.get("per",0) or 0
     eps=d.get("eps",0) or 0; eps_trend=d.get("eps_trend","")
@@ -850,6 +944,10 @@ def main():
             data["vol_char"] = vc
             data["ch1"]      = ch1_rt
 
+            # ── 진입 타이밍 점수 계산 ────────────────────────────────
+            entry = calc_entry_score(data)
+            data.update(entry)
+
             results.append(data)
 
             div_str = "  💰" if is_div else ""
@@ -863,6 +961,7 @@ def main():
                 f"{debt_str}  5일:{price.get('ch5',0):+.1f}%  20일:{price.get('ch20',0):+.1f}%"
                 f"  [{vc}]"
                 f"{div_str}{'  ⭐' if f['recommended'] else ''}"
+                f"  {entry['entry_stars']}({entry['entry_score']}점/{entry['entry_label']})"
             )
         except Exception: print("오류"); traceback.print_exc()
         time.sleep(0.3)
