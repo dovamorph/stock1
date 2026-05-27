@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-27 19:00",
-  "news_count": 96,
-  "intl_count": 51,
+  "updated": "2026-05-28 00:54",
+  "news_count": 97,
+  "intl_count": 52,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 25,
+    "BBC World": 26,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -13,21 +13,21 @@
     "StockPlus": 14
   },
   "news_sample": [
+    "Ebola-hit DR Congo faces 'catastrophic collision' of disease and conflict, WHO warns",
+    "Israel orders evacuation of Lebanese city as conflict with Hezbollah escalates",
     "Israeli strike in Gaza City kills new head of Hamas's military wing",
-    "Dozens killed in Lebanon as Israel intensifies strikes",
-    "Nasa unveils next steps to build permanent Moon base",
-    "Iran condemns US strikes as 'gross violation' of ceasefire",
-    "Can EU find a Russia whisperer to mediate an end to war in Ukraine?"
+    "Five people found alive after week trapped in flooded Laos cave",
+    "Woman caught after 30 years on the run is jailed for armed robberies"
   ],
   "categories": {
     "geopolitical": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
+      "level": "경고",
+      "color": "orange",
+      "signal": "🟠",
       "summary": "Israeli strike in Gaza City kills new head of...",
-      "action": "신규 매수 자제 / 추이 관찰",
+      "action": "포지션 축소 검토 / 모니터링 강화",
       "matched": 14,
-      "score": 23.2
+      "score": 2.9
     },
     "macro": {
       "level": "안전",
@@ -48,13 +48,13 @@
       "score": 0
     },
     "trade": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
       "summary": "Iran condemns US strikes as 'gross violation'...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 9,
-      "score": 1.4
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 6,
+      "score": 4.5
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "주의",
-    "color": "yellow",
-    "summary": "주의 필요: 보호무역·공급망",
-    "action": "신규 매수 자제 / 추이 관찰"
+    "level": "경고",
+    "color": "orange",
+    "summary": "주의 필요: 지정학적 충돌",
+    "action": "포지션 축소 검토 / 모니터링 강화"
   }
 }
