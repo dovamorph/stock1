@@ -1,23 +1,23 @@
 {
-  "updated": "2026-05-28 02:53",
+  "updated": "2026-05-28 03:20",
   "sp500": {
-    "close": 7514.8,
-    "change": -4.32,
-    "change_pct": -0.06
+    "close": 7520.5,
+    "change": 1.38,
+    "change_pct": 0.02
   },
   "nasdaq": {
-    "close": 26627.52,
-    "change": -28.66,
-    "change_pct": -0.11
+    "close": 26656.04,
+    "change": -0.14,
+    "change_pct": -0.0
   },
   "vix": {
     "close": 16.7,
     "level": "안정"
   },
   "sp500_aligned": "정배열",
-  "sp500_rsi": 64.0,
+  "sp500_rsi": 64.6,
   "ndx_aligned": "정배열",
-  "ndx_rsi": 64.0,
+  "ndx_rsi": 64.7,
   "us_signal": "⚖️ 관망",
   "us_signal_en": "WATCH"
 }
