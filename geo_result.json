@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-28 08:24",
-  "news_count": 98,
-  "intl_count": 53,
+  "updated": "2026-05-28 12:58",
+  "news_count": 97,
+  "intl_count": 52,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 27,
+    "BBC World": 26,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -13,30 +13,30 @@
     "StockPlus": 14
   },
   "news_sample": [
+    "US strikes Iran targets for second time in three days",
     "Israel issues evacuation order for swathes of southern Lebanon",
+    "Jill Biden says she thought husband was 'having a stroke' during 2024 debate",
     "Ebola-hit DR Congo faces 'catastrophic collision' of disease and conflict, WHO warns",
-    "Trump says US 'not satisfied' with Iran deal yet",
-    "Five people found alive after week trapped in flooded Laos cave",
-    "Israeli strike in Gaza City kills new head of Hamas's military wing"
+    "Matthew Perry's assistant jailed for 41 months over actor's ketamine death"
   ],
   "categories": {
     "geopolitical": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Trump says US 'not satisfied' with Iran deal ...",
+      "summary": "US strikes Iran targets for second time in th...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 12,
-      "score": 19.0
+      "matched": 13,
+      "score": 20.6
     },
     "macro": {
-      "level": "안전",
-      "color": "green",
-      "signal": "🟢",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "Is 'out of control' US tipping culture spread...",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 3,
+      "score": 4.5
     },
     "disaster": {
       "level": "안전",
@@ -48,28 +48,28 @@
       "score": 0
     },
     "trade": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "Trump says US 'not satisfied' with Iran deal ...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 7,
-      "score": 4.3
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
+      "summary": "US strikes Iran targets for second time in th...",
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 8,
+      "score": 1.4
     },
     "policy": {
-      "level": "신호",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "타워크레인 85% 운행중단 예고…\"저가수주·안전문제 개선요구\"(종합)",
-      "action": "관련 지표 추가 확인 후 판단",
-      "matched": 2,
-      "score": 3.0
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
-    "level": "안전",
-    "color": "green",
-    "summary": "전반적 안정. 정상 운용 유지",
-    "action": "정상 운용 유지"
+    "level": "주의",
+    "color": "yellow",
+    "summary": "주의 필요: 보호무역·공급망",
+    "action": "신규 매수 자제 / 추이 관찰"
   }
 }
