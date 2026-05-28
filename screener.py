@@ -637,7 +637,7 @@ def calc_entry_score(d: dict) -> dict:
     score += s; detail["ch5"] = s
 
     # ── ④ 등급 (펀더멘털 품질) ────────────────────────────────────────
-    s = {"A": 2, "B": 1, "C": 0}.get(grade, -1)
+    s = {"A": 2, "B": 1, "C": 0, "D": -2}.get(grade, -3)  # F=-3, D=-2
     score += s; detail["grade"] = s
 
     # ── ⑤ 외국인 순매수 ───────────────────────────────────────────────
@@ -655,7 +655,16 @@ def calc_entry_score(d: dict) -> dict:
 
     score = max(0, min(10, score))
 
-    # ★ 레이블
+    # D/F 등급은 진입 점수 표시 안 함
+    if grade in ("D", "F"):
+        return {
+            "entry_score": score,
+            "entry_stars": "–",
+            "entry_label": "등급 부적격",
+            "entry_detail": detail,
+        }
+
+    # ★ 레이블 (A/B/C만)
     if score >= 8:    stars = "★★★★★"
     elif score >= 6:  stars = "★★★★"
     elif score >= 4:  stars = "★★★"
