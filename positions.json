@@ -10,10 +10,10 @@
     "positions": {}
   },
   "trade_history": [],
-  "_kospi_ch5": 1.67,
-  "_kospi_ch1": -3.43,
+  "_kospi_ch5": 4.82,
+  "_kospi_ch1": -0.45,
   "_regime": "BULL",
-  "_signal": "⚖️ 관망",
+  "_signal": "📈 강한 매수",
   "_is_reversal": false,
   "_opportunity_mode": false
 }
