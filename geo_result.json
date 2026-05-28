@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-29 05:28",
+  "updated": "2026-05-29 08:20",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,9 +13,9 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Gaza City hospitals say several killed in strike, as Israel targets Hamas leaders",
+    "US and Iran 'very close' to deal but 'not there yet', Vance says",
     "Are US and Iran close to peace or sliding back to war?",
-    "Iran says it targeted American base after fresh US strikes",
+    "Gaza City hospitals say several killed in strike, as Israel targets Hamas leaders",
     "Israel hits Lebanese capital in 'targeted strike'",
     "Man jailed for 15 years over plot to attack Taylor Swift concert in Vienna"
   ],
@@ -24,10 +24,10 @@
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "Gaza City hospitals say several killed in str...",
+      "summary": "US and Iran 'very close' to deal but 'not the...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 20,
-      "score": 2.9
+      "matched": 12,
+      "score": 3.0
     },
     "macro": {
       "level": "주의",
@@ -36,7 +36,7 @@
       "summary": "Is 'out of control' US tipping culture spread...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 3,
-      "score": 2.9
+      "score": 5.9
     },
     "disaster": {
       "level": "안전",
@@ -51,19 +51,19 @@
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "Are US and Iran close to peace or sliding bac...",
+      "summary": "US and Iran 'very close' to deal but 'not the...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 11,
+      "matched": 8,
       "score": 1.4
     },
     "policy": {
-      "level": "안전",
-      "color": "green",
-      "signal": "🟢",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "신호",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "유턴기업 기준 완화하고 비수도권에만 보조금…지방 투자↑",
+      "action": "관련 지표 추가 확인 후 판단",
+      "matched": 1,
+      "score": 1.5
     }
   },
   "overall": {
