@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-28 22:55",
+  "updated": "2026-05-29 02:35",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,21 +13,21 @@
     "StockPlus": 14
   },
   "news_sample": [
+    "Gaza City hospitals say several killed in strike, as Israel targets Hamas leaders",
+    "Are US and Iran close to peace or sliding back to war?",
     "Iran says it targeted American base after fresh US strikes",
     "Israel hits Lebanese capital in 'targeted strike'",
-    "Man arrested after three injured in stabbing at Swiss train station",
-    "US justice department launches criminal investigation into Trump accuser E Jean Carroll, reports say",
-    "Sixteen pupils killed in Kenya school fire"
+    "Villas, cars and cash: Italy seizes dead Mafia mobster's millions"
   ],
   "categories": {
     "geopolitical": {
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "Iran says it targeted American base after fre...",
+      "summary": "Gaza City hospitals say several killed in str...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 12,
-      "score": 1.5
+      "matched": 14,
+      "score": 2.9
     },
     "macro": {
       "level": "주의",
@@ -35,8 +35,8 @@
       "signal": "🟡",
       "summary": "Is 'out of control' US tipping culture spread...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 4,
-      "score": 6.0
+      "matched": 3,
+      "score": 2.9
     },
     "disaster": {
       "level": "안전",
@@ -48,28 +48,28 @@
       "score": 0
     },
     "trade": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "Iran says it targeted American base after fre...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 6,
-      "score": 1.5
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
+      "summary": "Are US and Iran close to peace or sliding bac...",
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 8,
+      "score": 1.4
     },
     "policy": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "[프로야구 창원전적] 한화 18-7 NC",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 2,
-      "score": 3.0
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
-    "level": "주의",
-    "color": "yellow",
-    "summary": "주의 필요: 지정학적 충돌",
-    "action": "신규 매수 자제 / 추이 관찰"
+    "level": "위험",
+    "color": "red",
+    "summary": "주의 필요: 지정학적 충돌, 보호무역·공급망",
+    "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
