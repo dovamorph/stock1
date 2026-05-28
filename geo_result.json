@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-28 17:08",
-  "news_count": 98,
-  "intl_count": 53,
+  "updated": "2026-05-28 22:55",
+  "news_count": 101,
+  "intl_count": 56,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 27,
+    "BBC World": 30,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -13,18 +13,18 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "US strikes Iran military site as Tehran says it has targeted American base",
-    "Sixteen pupils killed in Kenya school fire, local police say",
-    "Israel strikes southern Lebanon after evacuation orders",
-    "Jill Biden says she thought husband was having a stroke during 2024 debate",
-    "Ebola-hit DR Congo faces 'catastrophic collision' of disease and conflict, WHO warns"
+    "Iran says it targeted American base after fresh US strikes",
+    "Israel hits Lebanese capital in 'targeted strike'",
+    "Man arrested after three injured in stabbing at Swiss train station",
+    "US justice department launches criminal investigation into Trump accuser E Jean Carroll, reports say",
+    "Sixteen pupils killed in Kenya school fire"
   ],
   "categories": {
     "geopolitical": {
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "US strikes Iran military site as Tehran says ...",
+      "summary": "Iran says it targeted American base after fre...",
       "action": "포지션 현금화 고려 / 즉각 대응",
       "matched": 12,
       "score": 1.5
@@ -35,7 +35,7 @@
       "signal": "🟡",
       "summary": "Is 'out of control' US tipping culture spread...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 3,
+      "matched": 4,
       "score": 6.0
     },
     "disaster": {
@@ -48,28 +48,28 @@
       "score": 0
     },
     "trade": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
-      "summary": "US strikes Iran military site as Tehran says ...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 9,
-      "score": 1.4
-    },
-    "policy": {
-      "level": "신호",
+      "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "한국 독창성 과학기술 연계…'우리의 과학' 프로젝트 4개 선정",
-      "action": "관련 지표 추가 확인 후 판단",
-      "matched": 1,
+      "summary": "Iran says it targeted American base after fre...",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 6,
       "score": 1.5
+    },
+    "policy": {
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "[프로야구 창원전적] 한화 18-7 NC",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 2,
+      "score": 3.0
     }
   },
   "overall": {
     "level": "주의",
     "color": "yellow",
-    "summary": "주의 필요: 지정학적 충돌, 보호무역·공급망",
+    "summary": "주의 필요: 지정학적 충돌",
     "action": "신규 매수 자제 / 추이 관찰"
   }
 }
