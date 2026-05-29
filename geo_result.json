@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-29 19:00",
-  "news_count": 98,
-  "intl_count": 53,
+  "updated": "2026-05-29 21:52",
+  "news_count": 99,
+  "intl_count": 54,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 27,
+    "BBC World": 28,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -14,10 +14,10 @@
   },
   "news_sample": [
     "Eight students arrested in Kenya after suspected deadly school arson attack",
+    "Exploding rocket casts doubts over Nasa's Moon plans",
     "US and Iran 'very close' to deal but 'not there yet', Vance says",
     "Netanyahu says he has directed IDF to increase control of Gaza to 70%",
-    "Survival before safety for Delhi's poor as temperatures hit 45C",
-    "Moment Blue Origin rocket explodes during test in Florida"
+    "Survival before safety for Delhi's poor as temperatures hit 45C"
   ],
   "categories": {
     "geopolitical": {
@@ -35,8 +35,8 @@
       "signal": "🟡",
       "summary": "Is 'out of control' US tipping culture spread...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 3,
-      "score": 3.0
+      "matched": 1,
+      "score": 1.5
     },
     "disaster": {
       "level": "안전",
@@ -53,7 +53,7 @@
       "signal": "🟡",
       "summary": "US and Iran 'very close' to deal but 'not the...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 4,
+      "matched": 5,
       "score": 1.5
     },
     "policy": {
