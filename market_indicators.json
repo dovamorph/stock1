@@ -1,15 +1,6 @@
 {
-  "updated": "2026-05-30 06:27",
+  "updated": "2026-05-30 07:59",
   "indicators": {
-    "usdkrw": {
-      "label": "USD/KRW",
-      "value": 1507.0,
-      "unit": "원",
-      "change": 4.0,
-      "change_pct": 0.27,
-      "signal": "🟡",
-      "desc": "안정"
-    },
     "wti": {
       "label": "WTI 유가",
       "value": 87.76,
