@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-29 21:52",
-  "news_count": 99,
-  "intl_count": 54,
+  "updated": "2026-05-30 02:35",
+  "news_count": 101,
+  "intl_count": 56,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 28,
+    "BBC World": 30,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -13,21 +13,21 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Eight students arrested in Kenya after suspected deadly school arson attack",
-    "Exploding rocket casts doubts over Nasa's Moon plans",
-    "US and Iran 'very close' to deal but 'not there yet', Vance says",
-    "Netanyahu says he has directed IDF to increase control of Gaza to 70%",
-    "Survival before safety for Delhi's poor as temperatures hit 45C"
+    "'Poison seller' who sold toxic chemicals online to people across world admits aiding suicides",
+    "Nato and EU condemn Russia after drone hits Romanian residential block",
+    "'Controversial' North Korean invasion setting for next Call of Duty game",
+    "Former US attorney general Pam Bondi testifies in congressional Epstein probe",
+    "Eight students arrested in Kenya after suspected deadly school arson attack"
   ],
   "categories": {
     "geopolitical": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "US and Iran 'very close' to deal but 'not the...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 9,
-      "score": 13.1
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
+      "summary": "'Controversial' North Korean invasion setting...",
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 19,
+      "score": 1.5
     },
     "macro": {
       "level": "주의",
@@ -35,8 +35,8 @@
       "signal": "🟡",
       "summary": "Is 'out of control' US tipping culture spread...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "matched": 2,
+      "score": 2.9
     },
     "disaster": {
       "level": "안전",
@@ -53,8 +53,8 @@
       "signal": "🟡",
       "summary": "US and Iran 'very close' to deal but 'not the...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 5,
-      "score": 1.5
+      "matched": 7,
+      "score": 7.4
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "안전",
-    "color": "green",
-    "summary": "전반적 안정. 정상 운용 유지",
-    "action": "정상 운용 유지"
+    "level": "주의",
+    "color": "yellow",
+    "summary": "주의 필요: 지정학적 충돌",
+    "action": "신규 매수 자제 / 추이 관찰"
   }
 }
