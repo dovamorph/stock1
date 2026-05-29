@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-30 05:31",
+  "updated": "2026-05-30 08:17",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -15,28 +15,28 @@
   "news_sample": [
     "'Poison seller' who sold toxic chemicals online to people across world admits aiding suicides",
     "Nato and EU condemn Russia after drone hits Romanian residential block",
-    "'Controversial' North Korean invasion setting for next Call of Duty game",
-    "Former US attorney general Pam Bondi defends her handling of Epstein files in congressional probe",
-    "Eight students arrested in Kenya after suspected deadly school arson attack"
+    "Trump holds meeting to make 'final determination' on Iran deal",
+    "First of five men found alive in flooded Laos cave rescued",
+    "'Controversial' North Korean invasion setting for next Call of Duty game"
   ],
   "categories": {
     "geopolitical": {
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "'Controversial' North Korean invasion setting...",
+      "summary": "Trump holds meeting to make 'final determinat...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 21,
-      "score": 1.5
+      "matched": 15,
+      "score": 3.0
     },
     "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Is 'out of control' US tipping culture spread...",
+      "summary": "Mumbai's famed dabbawalas fed millions for ov...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 2,
-      "score": 2.9
+      "matched": 3,
+      "score": 4.4
     },
     "disaster": {
       "level": "안전",
@@ -48,13 +48,13 @@
       "score": 0
     },
     "trade": {
-      "level": "주의",
+      "level": "신호",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "US and Iran 'very close' to deal but 'not the...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 8,
-      "score": 5.9
+      "summary": "Trump holds meeting to make 'final determinat...",
+      "action": "관련 지표 추가 확인 후 판단",
+      "matched": 6,
+      "score": 8.5
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "주의",
-    "color": "yellow",
+    "level": "위험",
+    "color": "red",
     "summary": "주의 필요: 지정학적 충돌",
-    "action": "신규 매수 자제 / 추이 관찰"
+    "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
