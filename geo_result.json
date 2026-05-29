@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-30 02:35",
+  "updated": "2026-05-30 05:31",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -16,7 +16,7 @@
     "'Poison seller' who sold toxic chemicals online to people across world admits aiding suicides",
     "Nato and EU condemn Russia after drone hits Romanian residential block",
     "'Controversial' North Korean invasion setting for next Call of Duty game",
-    "Former US attorney general Pam Bondi testifies in congressional Epstein probe",
+    "Former US attorney general Pam Bondi defends her handling of Epstein files in congressional probe",
     "Eight students arrested in Kenya after suspected deadly school arson attack"
   ],
   "categories": {
@@ -26,7 +26,7 @@
       "signal": "🔴",
       "summary": "'Controversial' North Korean invasion setting...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 19,
+      "matched": 21,
       "score": 1.5
     },
     "macro": {
@@ -53,8 +53,8 @@
       "signal": "🟡",
       "summary": "US and Iran 'very close' to deal but 'not the...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 7,
-      "score": 7.4
+      "matched": 8,
+      "score": 5.9
     },
     "policy": {
       "level": "안전",
