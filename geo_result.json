@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-30 08:17",
+  "updated": "2026-05-30 12:46",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -15,19 +15,19 @@
   "news_sample": [
     "'Poison seller' who sold toxic chemicals online to people across world admits aiding suicides",
     "Nato and EU condemn Russia after drone hits Romanian residential block",
-    "Trump holds meeting to make 'final determination' on Iran deal",
+    "No deal announced after Trump meeting to make 'final determination' on Iran",
     "First of five men found alive in flooded Laos cave rescued",
-    "'Controversial' North Korean invasion setting for next Call of Duty game"
+    "Ghana parliament passes anti-LGBTQ+ bill"
   ],
   "categories": {
     "geopolitical": {
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "Trump holds meeting to make 'final determinat...",
+      "summary": "No deal announced after Trump meeting to make...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 15,
-      "score": 3.0
+      "matched": 16,
+      "score": 1.5
     },
     "macro": {
       "level": "주의",
@@ -51,7 +51,7 @@
       "level": "신호",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Trump holds meeting to make 'final determinat...",
+      "summary": "No deal announced after Trump meeting to make...",
       "action": "관련 지표 추가 확인 후 판단",
       "matched": 6,
       "score": 8.5
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
+    "level": "주의",
+    "color": "yellow",
     "summary": "주의 필요: 지정학적 충돌",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "action": "신규 매수 자제 / 추이 관찰"
   }
 }
