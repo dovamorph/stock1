@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-30 15:49",
+  "updated": "2026-05-30 19:03",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -26,7 +26,7 @@
       "signal": "🔴",
       "summary": "No deal announced after Trump meeting to make...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 14,
+      "matched": 13,
       "score": 2.9
     },
     "macro": {
@@ -35,8 +35,8 @@
       "signal": "🟡",
       "summary": "Mumbai's famed dabbawalas fed millions for ov...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 3,
-      "score": 4.4
+      "matched": 2,
+      "score": 3.0
     },
     "disaster": {
       "level": "안전",
@@ -48,21 +48,21 @@
       "score": 0
     },
     "trade": {
-      "level": "신호",
+      "level": "주의",
       "color": "yellow",
       "signal": "🟡",
       "summary": "No deal announced after Trump meeting to make...",
-      "action": "관련 지표 추가 확인 후 판단",
-      "matched": 5,
-      "score": 7.1
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 8,
+      "score": 4.4
     },
     "policy": {
-      "level": "신호",
+      "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "현대건설, 2파전 끝 '1.5조원' 압구정5구역 재건축 수주(종합)",
-      "action": "관련 지표 추가 확인 후 판단",
-      "matched": 1,
+      "summary": "GS건설, 수도권 도시정비 2건 수주…올해 누적 5조원 돌파(종합)",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 2,
       "score": 1.5
     }
   },
