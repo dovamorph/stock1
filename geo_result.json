@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-31 04:22",
-  "news_count": 100,
-  "intl_count": 55,
+  "updated": "2026-05-31 06:03",
+  "news_count": 96,
+  "intl_count": 51,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 30,
+    "BBC World": 26,
     "Al Jazeera": 25,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -26,7 +26,7 @@
       "signal": "🟠",
       "summary": "No deal announced after Trump meeting to make...",
       "action": "포지션 축소 검토 / 모니터링 강화",
-      "matched": 11,
+      "matched": 9,
       "score": 2.9
     },
     "macro": {
@@ -35,8 +35,8 @@
       "signal": "🟡",
       "summary": "Trump attacks artists dropping out of US Free...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 4,
-      "score": 5.9
+      "matched": 3,
+      "score": 4.4
     },
     "disaster": {
       "level": "안전",
@@ -48,28 +48,28 @@
       "score": 0
     },
     "trade": {
-      "level": "신호",
+      "level": "주의",
       "color": "yellow",
       "signal": "🟡",
       "summary": "No deal announced after Trump meeting to make...",
-      "action": "관련 지표 추가 확인 후 판단",
-      "matched": 2,
-      "score": 2.9
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 4,
+      "score": 1.5
     },
     "policy": {
-      "level": "안전",
-      "color": "green",
-      "signal": "🟢",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "\"우크라 드론, 자포리자 원전 공격\"…러-우 공격 지속",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 1,
+      "score": 1.5
     }
   },
   "overall": {
-    "level": "주의",
-    "color": "yellow",
+    "level": "경고",
+    "color": "orange",
     "summary": "주의 필요: 지정학적 충돌",
-    "action": "신규 매수 자제 / 추이 관찰"
+    "action": "포지션 축소 검토 / 모니터링 강화"
   }
 }
