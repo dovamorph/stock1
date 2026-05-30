@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-30 12:46",
+  "updated": "2026-05-30 15:49",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,11 +13,11 @@
     "StockPlus": 14
   },
   "news_sample": [
+    "No deal announced after Trump meeting to make 'final determination' on Iran",
+    "US not 'turning back' on Asia allies, but expects them to boost defence - Hegseth",
     "'Poison seller' who sold toxic chemicals online to people across world admits aiding suicides",
     "Nato and EU condemn Russia after drone hits Romanian residential block",
-    "No deal announced after Trump meeting to make 'final determination' on Iran",
-    "First of five men found alive in flooded Laos cave rescued",
-    "Ghana parliament passes anti-LGBTQ+ bill"
+    "First of five men found alive in flooded Laos cave rescued"
   ],
   "categories": {
     "geopolitical": {
@@ -26,8 +26,8 @@
       "signal": "🔴",
       "summary": "No deal announced after Trump meeting to make...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 16,
-      "score": 1.5
+      "matched": 14,
+      "score": 2.9
     },
     "macro": {
       "level": "주의",
@@ -53,23 +53,23 @@
       "signal": "🟡",
       "summary": "No deal announced after Trump meeting to make...",
       "action": "관련 지표 추가 확인 후 판단",
-      "matched": 6,
-      "score": 8.5
+      "matched": 5,
+      "score": 7.1
     },
     "policy": {
-      "level": "안전",
-      "color": "green",
-      "signal": "🟢",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "신호",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "현대건설, 2파전 끝 '1.5조원' 압구정5구역 재건축 수주(종합)",
+      "action": "관련 지표 추가 확인 후 판단",
+      "matched": 1,
+      "score": 1.5
     }
   },
   "overall": {
-    "level": "주의",
-    "color": "yellow",
+    "level": "위험",
+    "color": "red",
     "summary": "주의 필요: 지정학적 충돌",
-    "action": "신규 매수 자제 / 추이 관찰"
+    "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
