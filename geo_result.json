@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-31 02:12",
+  "updated": "2026-05-31 04:22",
   "news_count": 100,
   "intl_count": 55,
   "domestic_count": 45,
@@ -13,11 +13,11 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "No deal announced after Trump meeting to make 'final determination' on Iran",
     "US, UK and Australia to develop underwater drone technology",
+    "No deal announced after Trump meeting to make 'final determination' on Iran",
     "Italy bans Kanye West and Travis Scott concerts over security concerns",
-    "Four more men freed from flooded Laos cave after 10 days",
-    "Ebola spread in DR Congo 'alarming', charity warns, as WHO chief visits worst-hit area"
+    "'No-one feels safe now': Residents of Romanian city hit by drone share fears",
+    "Oscar-winning Star Wars editor Marcia Lucas dies aged 80"
   ],
   "categories": {
     "geopolitical": {
@@ -33,10 +33,10 @@
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Mumbai's famed dabbawalas fed millions for ov...",
+      "summary": "Trump attacks artists dropping out of US Free...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 3,
-      "score": 4.4
+      "matched": 4,
+      "score": 5.9
     },
     "disaster": {
       "level": "안전",
@@ -48,28 +48,28 @@
       "score": 0
     },
     "trade": {
-      "level": "주의",
+      "level": "신호",
       "color": "yellow",
       "signal": "🟡",
       "summary": "No deal announced after Trump meeting to make...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 3,
-      "score": 1.4
+      "action": "관련 지표 추가 확인 후 판단",
+      "matched": 2,
+      "score": 2.9
     },
     "policy": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "새만금 간척 사업의 원조…이병기 전 농림수산부 차관 별세",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
-    "level": "경고",
-    "color": "orange",
+    "level": "주의",
+    "color": "yellow",
     "summary": "주의 필요: 지정학적 충돌",
-    "action": "포지션 축소 검토 / 모니터링 강화"
+    "action": "신규 매수 자제 / 추이 관찰"
   }
 }
