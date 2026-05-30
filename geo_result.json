@@ -1,11 +1,11 @@
 {
-  "updated": "2026-05-31 06:03",
-  "news_count": 96,
-  "intl_count": 51,
+  "updated": "2026-05-31 08:01",
+  "news_count": 97,
+  "intl_count": 52,
   "domestic_count": 45,
   "source_stats": {
     "BBC World": 26,
-    "Al Jazeera": 25,
+    "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
     "매일경제": 0,
@@ -21,11 +21,11 @@
   ],
   "categories": {
     "geopolitical": {
-      "level": "경고",
-      "color": "orange",
-      "signal": "🟠",
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
       "summary": "No deal announced after Trump meeting to make...",
-      "action": "포지션 축소 검토 / 모니터링 강화",
+      "action": "포지션 현금화 고려 / 즉각 대응",
       "matched": 9,
       "score": 2.9
     },
@@ -57,19 +57,19 @@
       "score": 1.5
     },
     "policy": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "\"우크라 드론, 자포리자 원전 공격\"…러-우 공격 지속",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
-    "level": "경고",
-    "color": "orange",
+    "level": "위험",
+    "color": "red",
     "summary": "주의 필요: 지정학적 충돌",
-    "action": "포지션 축소 검토 / 모니터링 강화"
+    "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
