@@ -1,11 +1,11 @@
 {
-  "updated": "2026-05-31 00:11",
-  "news_count": 101,
-  "intl_count": 56,
+  "updated": "2026-05-31 02:12",
+  "news_count": 100,
+  "intl_count": 55,
   "domestic_count": 45,
   "source_stats": {
     "BBC World": 30,
-    "Al Jazeera": 26,
+    "Al Jazeera": 25,
     "연합뉴스": 30,
     "한국경제": 1,
     "매일경제": 0,
@@ -14,20 +14,20 @@
   },
   "news_sample": [
     "No deal announced after Trump meeting to make 'final determination' on Iran",
-    "US not 'turning back' on Asia allies, but expects them to boost defence, says Hegseth",
-    "'Poison seller' who sold toxic chemicals online to people across world admits aiding suicides",
-    "Nato and EU condemn Russia after drone hits Romanian residential block",
-    "Four more men freed from flooded Laos cave after 10 days"
+    "US, UK and Australia to develop underwater drone technology",
+    "Italy bans Kanye West and Travis Scott concerts over security concerns",
+    "Four more men freed from flooded Laos cave after 10 days",
+    "Ebola spread in DR Congo 'alarming', charity warns, as WHO chief visits worst-hit area"
   ],
   "categories": {
     "geopolitical": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
+      "level": "경고",
+      "color": "orange",
+      "signal": "🟠",
       "summary": "No deal announced after Trump meeting to make...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
+      "action": "포지션 축소 검토 / 모니터링 강화",
       "matched": 11,
-      "score": 1.4
+      "score": 2.9
     },
     "macro": {
       "level": "주의",
@@ -53,7 +53,7 @@
       "signal": "🟡",
       "summary": "No deal announced after Trump meeting to make...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 4,
+      "matched": 3,
       "score": 1.4
     },
     "policy": {
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "주의",
-    "color": "yellow",
+    "level": "경고",
+    "color": "orange",
     "summary": "주의 필요: 지정학적 충돌",
-    "action": "신규 매수 자제 / 추이 관찰"
+    "action": "포지션 축소 검토 / 모니터링 강화"
   }
 }
