@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-30 22:47",
+  "updated": "2026-05-31 00:11",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -14,7 +14,7 @@
   },
   "news_sample": [
     "No deal announced after Trump meeting to make 'final determination' on Iran",
-    "US not 'turning back' on Asia allies, but expects them to boost defence - Hegseth",
+    "US not 'turning back' on Asia allies, but expects them to boost defence, says Hegseth",
     "'Poison seller' who sold toxic chemicals online to people across world admits aiding suicides",
     "Nato and EU condemn Russia after drone hits Romanian residential block",
     "Four more men freed from flooded Laos cave after 10 days"
@@ -26,8 +26,8 @@
       "signal": "🔴",
       "summary": "No deal announced after Trump meeting to make...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 12,
-      "score": 2.9
+      "matched": 11,
+      "score": 1.4
     },
     "macro": {
       "level": "주의",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
+    "level": "주의",
+    "color": "yellow",
     "summary": "주의 필요: 지정학적 충돌",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "action": "신규 매수 자제 / 추이 관찰"
   }
 }
