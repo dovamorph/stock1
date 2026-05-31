@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-31 22:52",
+  "updated": "2026-06-01 00:19",
   "news_count": 98,
   "intl_count": 53,
   "domestic_count": 45,
@@ -26,8 +26,8 @@
       "signal": "🔴",
       "summary": "Ukraine using AI drones to strike vital convo...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 7,
-      "score": 1.4
+      "matched": 9,
+      "score": 2.8
     },
     "macro": {
       "level": "주의",
@@ -35,8 +35,8 @@
       "signal": "🟡",
       "summary": "Trump attacks artists dropping out of US Free...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "matched": 2,
+      "score": 4.5
     },
     "disaster": {
       "level": "안전",
@@ -53,17 +53,17 @@
       "signal": "🟡",
       "summary": "Trump tightens terms on Iran war deal, US med...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 3,
-      "score": 1.5
+      "matched": 4,
+      "score": 3.0
     },
     "policy": {
-      "level": "안전",
-      "color": "green",
-      "signal": "🟢",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "IAEA \"자포리자 원전 터빈 건물, 드론 피격…방사능 수치 정상\"",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 1,
+      "score": 1.5
     }
   },
   "overall": {
