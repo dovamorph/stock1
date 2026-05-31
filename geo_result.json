@@ -1,10 +1,10 @@
 {
-  "updated": "2026-06-01 02:10",
-  "news_count": 99,
-  "intl_count": 54,
+  "updated": "2026-06-01 04:21",
+  "news_count": 101,
+  "intl_count": 56,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 28,
+    "BBC World": 30,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -26,7 +26,7 @@
       "signal": "🔴",
       "summary": "Ukraine using AI drones to strike vital convo...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 11,
+      "matched": 9,
       "score": 1.4
     },
     "macro": {
@@ -53,7 +53,7 @@
       "signal": "🟡",
       "summary": "Iran ⁠restores some gas production at South P...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 6,
+      "matched": 5,
       "score": 3.0
     },
     "policy": {
