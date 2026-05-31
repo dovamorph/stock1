@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-31 13:12",
-  "news_count": 98,
-  "intl_count": 53,
+  "updated": "2026-05-31 17:51",
+  "news_count": 99,
+  "intl_count": 54,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 27,
+    "BBC World": 28,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -14,7 +14,7 @@
   },
   "news_sample": [
     "Hundreds arrested in France after wild Champions League celebrations",
-    "US, UK and Australia to develop underwater drone technology",
+    "Japan defence minister denies militarism and criticises China's 'huge arsenal'",
     "Ebola spread in DR Congo 'deeply alarming', MSF warns",
     "'No-one feels safe now': Residents of Romanian city hit by drone share fears",
     "Italy bans Kanye West and Travis Scott concerts over security concerns"
@@ -27,7 +27,7 @@
       "summary": "No deal announced after Trump meeting to make...",
       "action": "포지션 현금화 고려 / 즉각 대응",
       "matched": 10,
-      "score": 4.3
+      "score": 2.8
     },
     "macro": {
       "level": "주의",
@@ -57,13 +57,13 @@
       "score": 1.5
     },
     "policy": {
-      "level": "안전",
-      "color": "green",
-      "signal": "🟢",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "[프로야구 창원전적] NC 8-2 롯데",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 1,
+      "score": 1.5
     }
   },
   "overall": {
