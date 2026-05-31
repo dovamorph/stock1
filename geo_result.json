@@ -1,10 +1,10 @@
 {
-  "updated": "2026-06-01 00:19",
-  "news_count": 98,
-  "intl_count": 53,
+  "updated": "2026-06-01 02:10",
+  "news_count": 99,
+  "intl_count": 54,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 27,
+    "BBC World": 28,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -13,10 +13,10 @@
     "StockPlus": 14
   },
   "news_sample": [
+    "Israel seizes castle in Lebanon as it expands ground offensive",
     "Hundreds arrested and dozens of police injured after Champions League riots in France",
     "Japan defence minister denies militarism and criticises China's 'huge arsenal'",
-    "Ebola spread in DR Congo 'deeply alarming', MSF warns",
-    "Laos cave survivors help with plan to find last two missing men",
+    "Huge blast kills dozens in rebel-held village in Myanmar",
     "Colombia votes in presidential election that could redefine relations with US"
   ],
   "categories": {
@@ -26,8 +26,8 @@
       "signal": "🔴",
       "summary": "Ukraine using AI drones to strike vital convo...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 9,
-      "score": 2.8
+      "matched": 11,
+      "score": 1.4
     },
     "macro": {
       "level": "주의",
@@ -51,9 +51,9 @@
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Trump tightens terms on Iran war deal, US med...",
+      "summary": "Iran ⁠restores some gas production at South P...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 4,
+      "matched": 6,
       "score": 3.0
     },
     "policy": {
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
+    "level": "주의",
+    "color": "yellow",
     "summary": "주의 필요: 지정학적 충돌",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "action": "신규 매수 자제 / 추이 관찰"
   }
 }
