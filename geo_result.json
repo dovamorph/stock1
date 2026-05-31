@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-31 17:51",
-  "news_count": 99,
-  "intl_count": 54,
+  "updated": "2026-05-31 20:42",
+  "news_count": 97,
+  "intl_count": 52,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 28,
+    "BBC World": 26,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -13,21 +13,21 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Hundreds arrested in France after wild Champions League celebrations",
+    "Hundreds arrested and dozens of police injured after Champions League riots in France",
     "Japan defence minister denies militarism and criticises China's 'huge arsenal'",
     "Ebola spread in DR Congo 'deeply alarming', MSF warns",
     "'No-one feels safe now': Residents of Romanian city hit by drone share fears",
-    "Italy bans Kanye West and Travis Scott concerts over security concerns"
+    "Colombia votes in presidential election that could redefine relations with US"
   ],
   "categories": {
     "geopolitical": {
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "No deal announced after Trump meeting to make...",
+      "summary": "Ukraine using AI drones to strike vital convo...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 10,
-      "score": 2.8
+      "matched": 8,
+      "score": 4.2
     },
     "macro": {
       "level": "주의",
@@ -51,19 +51,19 @@
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Ecuador accused of meddling in Colombian elec...",
+      "summary": "Trump tightens terms on Iran war deal, US med...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 4,
-      "score": 1.5
+      "matched": 5,
+      "score": 3.0
     },
     "policy": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "[프로야구 창원전적] NC 8-2 롯데",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
