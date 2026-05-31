@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-31 08:01",
-  "news_count": 97,
-  "intl_count": 52,
+  "updated": "2026-05-31 13:12",
+  "news_count": 98,
+  "intl_count": 53,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 26,
+    "BBC World": 27,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -13,11 +13,11 @@
     "StockPlus": 14
   },
   "news_sample": [
+    "Hundreds arrested in France after wild Champions League celebrations",
     "US, UK and Australia to develop underwater drone technology",
-    "No deal announced after Trump meeting to make 'final determination' on Iran",
-    "Italy bans Kanye West and Travis Scott concerts over security concerns",
+    "Ebola spread in DR Congo 'deeply alarming', MSF warns",
     "'No-one feels safe now': Residents of Romanian city hit by drone share fears",
-    "Oscar-winning Star Wars editor Marcia Lucas dies aged 80"
+    "Italy bans Kanye West and Travis Scott concerts over security concerns"
   ],
   "categories": {
     "geopolitical": {
@@ -26,8 +26,8 @@
       "signal": "🔴",
       "summary": "No deal announced after Trump meeting to make...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 9,
-      "score": 2.9
+      "matched": 10,
+      "score": 4.3
     },
     "macro": {
       "level": "주의",
@@ -35,8 +35,8 @@
       "signal": "🟡",
       "summary": "Trump attacks artists dropping out of US Free...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 3,
-      "score": 4.4
+      "matched": 1,
+      "score": 1.5
     },
     "disaster": {
       "level": "안전",
@@ -51,7 +51,7 @@
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "No deal announced after Trump meeting to make...",
+      "summary": "Ecuador accused of meddling in Colombian elec...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 4,
       "score": 1.5
