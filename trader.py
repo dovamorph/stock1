@@ -602,9 +602,10 @@ def process_buys(token, data, stocks, ptype, max_pos, budget, partial_sells,
             trade_type   = ptype,
             regime_sl    = regime_params["long_sl"] if ptype == "long" else regime_params["short_sl"],
             regime_tp    = regime_params["long_sells_pct"] if ptype == "long" else regime_params["short_sells_pct"],
-            base_capital = LONG_PER_STOCK if ptype == "long" else 500_000,  # 종목당 100만 기준
+            base_capital = LONG_PER_STOCK if ptype == "long" else 500_000,
             effective_mult = pos_mult,
-            min_score    = max(1, (4 if ptype == "short" else 5) - score_bonus),
+            min_score    = max(1, (4 if ptype == "short" else 3) - score_bonus),
+            kospi_ch5    = float(data.get("_kospi_ch5", 0)),
         )
         if not analysis["ok"]:
             print(f"    {name} — 분석 스킵: {analysis['reason']}")
