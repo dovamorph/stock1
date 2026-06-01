@@ -552,10 +552,8 @@ def fetch_ch20(tok, ticker):
             else:
                 rs=avg_gain/avg_loss
                 r["rsi"]=round(100-(100/(1+rs)),1)
-        if len(prices)>=26:
-            # EMA26이 최소 요건 → 26개 이상이면 계산 가능
-            # API가 최대 30건 반환하므로 35 기준은 항상 실패 → 26으로 수정
-            p_asc=prices[::-1]   # 오름차순 (오래된 것부터)
+        if len(prices)>=35:
+            p_asc=prices[:35][::-1]
             def ema(data, n):
                 k=2/(n+1); e=data[0]
                 for p in data[1:]: e=p*k+e*(1-k)
@@ -563,14 +561,13 @@ def fetch_ch20(tok, ticker):
             ema12=ema(p_asc,12); ema26=ema(p_asc,26)
             macd_line=ema12-ema26
             macd_vals=[]
-            for i in range(9, len(p_asc)):   # 전체 범위로 시그널 계산
+            for i in range(9,35):
                 e12=ema(p_asc[:i+1],12); e26=ema(p_asc[:i+1],26)
                 macd_vals.append(e12-e26)
-            if len(macd_vals) >= 9:
-                signal_line=ema(macd_vals,9)
-                r["macd_line"]=round(macd_line,2)
-                r["signal_line"]=round(signal_line,2)
-                r["macd_bull"]=(macd_line>signal_line)
+            signal_line=ema(macd_vals,9)
+            r["macd_line"]=round(macd_line,2)
+            r["signal_line"]=round(signal_line,2)
+            r["macd_bull"]=(macd_line>signal_line)
         else:
             r["macd_line"]=0.; r["signal_line"]=0.; r["macd_bull"]=None
     except: pass
@@ -584,124 +581,38 @@ FINANCE_TICKERS = {
     "012510","000810","032830","088350","005830","029780",
 }
 
-def calc_entry_score(d: dict) -> dict:
-    """
-    진입 타이밍 점수 (0~10점).
-    "지금 사야 하나?" 를 한눈에 판단하기 위한 종합 점수.
-
-    핵심 원칙:
-      - rank_change=NEW : 오늘 처음 등장 → 가장 빠른 진입 기회 (가중치 최고)
-      - RSI < 65        : 과열 아님 → 진입 여지 있음
-      - ch5 < 10%       : 아직 덜 오름 → 좋은 타이밍
-      - 외인 순매수      : 기관/외인이 함께 사는 중
-      - 매수주도 거래    : 거래가 상승 동반
-    """
-    score  = 0
-    detail = {}
-
-    grade       = d.get("grade", "F")
-    rsi         = float(d.get("rsi", 50))
-    ch5         = float(d.get("ch5", 0))
-    ch20        = float(d.get("ch20", 0))
-    frgn_net    = int(d.get("frgn_net", 0) or 0)
-    vol_char    = d.get("vol_char", "")
-    rank_change = d.get("rank_change")   # None=NEW, 양수=상승, 0=유지, 음수=하락
-
-    # ── ① 신규 진입 여부 (타이밍의 핵심) ─────────────────────────────
-    if rank_change is None:
-        s = 3   # NEW — 오늘 처음 등장, 가장 신선한 신호
-    elif isinstance(rank_change, (int, float)) and rank_change >= 10:
-        s = 2   # 10단계 이상 급상승 — 최근 주목받기 시작
-    elif isinstance(rank_change, (int, float)) and rank_change >= 3:
-        s = 1   # 소폭 상승
-    elif isinstance(rank_change, (int, float)) and rank_change < 0:
-        s = -1  # 하락 중 — 관심 식는 중
-    else:
-        s = 0   # 유지 (며칠째 같은 자리)
-    score += s; detail["timing"] = s
-
-    # ── ② RSI (과열/눌림 여부) ────────────────────────────────────────
-    if rsi < 45:    s = 2    # 과매도 근처 — 매우 좋은 진입 구간
-    elif rsi < 55:  s = 1    # 안전 구간
-    elif rsi < 65:  s = 0    # 정상 상승 중
-    elif rsi < 70:  s = -1   # 과매수 임박 — 조심
-    else:           s = -2   # 과매수 — 추격매수 위험
-    score += s; detail["rsi"] = s
-
-    # ── ③ 5일 수익률 (이미 많이 올랐나?) ─────────────────────────────
-    if ch5 < 0:      s = 2   # 눌림 — 매수 기회
-    elif ch5 < 5:    s = 1   # 소폭 상승 — 아직 여유
-    elif ch5 < 10:   s = 0   # 어느 정도 올랐음
-    elif ch5 < 20:   s = -1  # 많이 올랐음 — 주의
-    else:            s = -2  # 이미 급등 — 추격 위험
-    score += s; detail["ch5"] = s
-
-    # ── ④ 등급 (펀더멘털 품질) ────────────────────────────────────────
-    s = {"A": 2, "B": 1, "C": 0, "D": -2}.get(grade, -3)  # F=-3, D=-2
-    score += s; detail["grade"] = s
-
-    # ── ⑤ 외국인 순매수 ───────────────────────────────────────────────
-    if frgn_net > 100_000:   s = 2   # 대규모 외인 매수
-    elif frgn_net > 0:       s = 1   # 소규모 외인 매수
-    elif frgn_net < -100_000: s = -1 # 외인 대규모 매도
-    else:                    s = 0
-    score += s; detail["foreign"] = s
-
-    # ── ⑥ 거래성격 ────────────────────────────────────────────────────
-    if "매수주도" in vol_char:   s = 1
-    elif "매도주도" in vol_char: s = -1
-    else:                        s = 0
-    score += s; detail["vol_char"] = s
-
-    score = max(0, min(10, score))
-
-    # D/F 등급은 진입 점수 표시 안 함
-    if grade in ("D", "F"):
-        return {
-            "entry_score": score,
-            "entry_stars": "–",
-            "entry_label": "등급 부적격",
-            "entry_detail": detail,
-        }
-
-    # ★ 레이블 (A/B/C만)
-    if score >= 8:    stars = "★★★★★"
-    elif score >= 6:  stars = "★★★★"
-    elif score >= 4:  stars = "★★★"
-    elif score >= 2:  stars = "★★"
-    else:             stars = "★"
-
-    label = (
-        "지금 진입" if score >= 8 else
-        "좋은 타이밍" if score >= 6 else
-        "보통" if score >= 4 else
-        "주의" if score >= 2 else
-        "늦음"
-    )
-
-    return {
-        "entry_score": score,
-        "entry_stars": stars,
-        "entry_label": label,
-        "entry_detail": detail,
-    }
-
-
 def judge(d):
     roe=d.get("roe",0) or 0; per=d.get("per",0) or 0
     eps=d.get("eps",0) or 0; eps_trend=d.get("eps_trend","")
     debt=d.get("debt_ratio",None); ticker=d.get("ticker","")
-    c1=roe>=15; c2=0<per<=35; c3=eps>=1; c4=eps_trend=="상승"
+
+    # ── 저평가 성장주 예외: ROE≥15% + EPS상승이면 PER 60배까지 허용 ──
+    # 수익성이 검증되고 이익이 꾸준히 늘고 있는 종목은
+    # PER이 높아도 성장 프리미엄으로 인정 (코리아 디스카운트 해소 고려)
+    is_growth_exception = (roe >= 15 and eps_trend == "상승")
+    per_limit = 60 if is_growth_exception else 35
+
+    c1 = roe >= 15
+    c2 = 0 < per <= per_limit
+    c3 = eps >= 1
+    c4 = eps_trend == "상승"
     is_finance = ticker in FINANCE_TICKERS
     c5 = True if is_finance else (debt is not None and debt <= 200)
-    score=sum([c1,c2,c3,c4,c5])
+
+    score = sum([c1, c2, c3, c4, c5])
     if score==5: grade="A"
     elif score==4: grade="B"
     elif score==3: grade="C"
     elif score==2: grade="D"
     else: grade="F"
-    return {"roe_ok":c1,"per_ok":c2,"eps_ok":c3,"eps_up":c4,"debt_ok":c5,
-            "is_finance":is_finance,"score":score,"grade":grade,"recommended":score>=4}
+
+    return {
+        "roe_ok": c1, "per_ok": c2, "eps_ok": c3, "eps_up": c4, "debt_ok": c5,
+        "is_finance": is_finance, "score": score, "grade": grade,
+        "recommended": score >= 4,
+        "is_growth_exception": is_growth_exception,  # 저평가 예외 여부
+        "per_limit": per_limit,                       # 실제 적용된 PER 한도
+    }
 
 def send_discord(results, date, recs, market_signal):
     pass
@@ -717,7 +628,7 @@ def main():
     now_kst = now_utc + timedelta(hours=9)
     date = now_kst.strftime("%Y%m%d")
     print(f"  기준일: {date} ({now_kst.strftime('%H:%M')} KST)")
-    print(f"  등급: ROE≥15% PER≤35배 EPS≥1 EPS상승 부채비율≤200% → 5개 기준 / 4개이상=추천")
+    print(f"  등급: ROE≥15% PER≤35배(저평가 성장주 60배) EPS≥1 EPS상승 부채비율≤200% → 5개 기준 / 4개이상=추천")
 
     # ── 이전 거래일 순위 로드 (같은 날 여러번 실행해도 기준 고정) ──
     prev_ranks = {}
@@ -953,10 +864,6 @@ def main():
             data["vol_char"] = vc
             data["ch1"]      = ch1_rt
 
-            # ── 진입 타이밍 점수 계산 ────────────────────────────────
-            entry = calc_entry_score(data)
-            data.update(entry)
-
             results.append(data)
 
             div_str = "  💰" if is_div else ""
@@ -970,7 +877,6 @@ def main():
                 f"{debt_str}  5일:{price.get('ch5',0):+.1f}%  20일:{price.get('ch20',0):+.1f}%"
                 f"  [{vc}]"
                 f"{div_str}{'  ⭐' if f['recommended'] else ''}"
-                f"  {entry['entry_stars']}({entry['entry_score']}점/{entry['entry_label']})"
             )
         except Exception: print("오류"); traceback.print_exc()
         time.sleep(0.3)
