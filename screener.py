@@ -584,7 +584,12 @@ def judge(d):
     roe=d.get("roe",0) or 0; per=d.get("per",0) or 0
     eps=d.get("eps",0) or 0; eps_trend=d.get("eps_trend","")
     debt=d.get("debt_ratio",None); ticker=d.get("ticker","")
-    c1=roe>=15; c2=0<per<=35; c3=eps>=1; c4=eps_trend=="상승"
+
+    # 저평가 성장주 예외: ROE≥15% + EPS상승이면 PER 60배까지 허용
+    is_growth_exception = (roe >= 15 and eps_trend == "상승")
+    per_limit = 60 if is_growth_exception else 35
+
+    c1=roe>=15; c2=0<per<=per_limit; c3=eps>=1; c4=eps_trend=="상승"
     is_finance = ticker in FINANCE_TICKERS
     c5 = True if is_finance else (debt is not None and debt <= 200)
     score=sum([c1,c2,c3,c4,c5])
@@ -594,7 +599,8 @@ def judge(d):
     elif score==2: grade="D"
     else: grade="F"
     return {"roe_ok":c1,"per_ok":c2,"eps_ok":c3,"eps_up":c4,"debt_ok":c5,
-            "is_finance":is_finance,"score":score,"grade":grade,"recommended":score>=4}
+            "is_finance":is_finance,"score":score,"grade":grade,"recommended":score>=4,
+            "is_growth_exception":is_growth_exception,"per_limit":per_limit}
 
 def send_discord(results, date, recs, market_signal):
     pass
@@ -610,7 +616,7 @@ def main():
     now_kst = now_utc + timedelta(hours=9)
     date = now_kst.strftime("%Y%m%d")
     print(f"  기준일: {date} ({now_kst.strftime('%H:%M')} KST)")
-    print(f"  등급: ROE≥15% PER≤35배 EPS≥1 EPS상승 부채비율≤200% → 5개 기준 / 4개이상=추천")
+    print(f"  등급: ROE≥15% PER≤35배(저평가 성장주 60배) EPS≥1 EPS상승 부채비율≤200% → 5개 기준 / 4개이상=추천")
 
     # ── 이전 거래일 순위 로드 (같은 날 여러번 실행해도 기준 고정) ──
     prev_ranks = {}
