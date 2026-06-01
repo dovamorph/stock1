@@ -203,16 +203,17 @@ def calc_buy_score(
     is_rising_candle: bool,  # 종가 >= 시가
     ma5_gt_ma20: bool,    # 5MA > 20MA
     rank_change: int,     # 순위 변동 (양수=상승)
+    kospi_ch5: float = 0.0,  # KOSPI 5일 수익률 (급등장 판단용)
 ) -> dict:
     """
     점수 구성 (최대 10점):
       등급       A=+2  B=+1  C=0
-      RSI        <35=+3  <45=+2  <55=+1  이상=0
+      RSI        <35=+3  <45=+2  <55=+1  <65=+1(안전구간)  이상=0
       거래량급증 ≥2배=+2  ≥1.5배=+1  미만=0
       외인순매수 >0=+1  ≤0=0
       상승캔들   True=+1  False=0
       골든크로스 True=+1  False=0
-      5일수익률  ≥5%=-1(과열)  ≥2%=0  <0%=+1(눌림)
+      5일수익률  급등장(KOSPI≥5%): ≥15%=-1  일반: ≥5%=-1  <0%=+1(눌림)
       순위상승   ≥5=+1  하락=-1  유지=0
     """
     score  = 0
@@ -222,8 +223,8 @@ def calc_buy_score(
     g = {"A": 2, "B": 1, "C": 0}.get(grade, -1)
     score += g; detail["grade"] = g
 
-    # RSI
-    r = 3 if rsi < 35 else 2 if rsi < 45 else 1 if rsi < 55 else 0
+    # RSI — 55~65 안전 구간도 +1점
+    r = 3 if rsi < 35 else 2 if rsi < 45 else 1 if rsi < 55 else 1 if rsi < 65 else 0
     score += r; detail["rsi"] = r
 
     # 거래량
@@ -242,8 +243,10 @@ def calc_buy_score(
     m = 1 if ma5_gt_ma20 else 0
     score += m; detail["ma_cross"] = m
 
-    # 5일 수익률 (과열/눌림)
-    p = -1 if ch5 >= 5 else 1 if ch5 < 0 else 0
+    # 5일 수익률 — 급등장에서는 패널티 기준 완화
+    is_surge = kospi_ch5 >= 5.0
+    ch5_penalty = 15 if is_surge else 5   # 급등장: 15%↑ 패널티 / 일반: 5%↑ 패널티
+    p = -1 if ch5 >= ch5_penalty else 1 if ch5 < 0 else 0
     score += p; detail["ch5"] = p
 
     # 순위 변동
@@ -395,6 +398,7 @@ def analyze_before_buy(
     base_capital: float,
     effective_mult: float,
     min_score: int = 4,   # 최소 점수 (국면별 조정값 포함)
+    kospi_ch5: float = 0.0,  # KOSPI 5일 수익률 (급등장 판단용)
 ) -> dict:
     """
     매수 전 분석 통합 함수.
@@ -461,7 +465,7 @@ def analyze_before_buy(
         grade=grade, rsi=rsi, ch5=ch5, ch20=ch20,
         foreign_net=foreign_net, volume_ratio=vol_ratio,
         is_rising_candle=is_rising, ma5_gt_ma20=ma5_gt_ma20,
-        rank_change=rank_change,
+        rank_change=rank_change, kospi_ch5=kospi_ch5,
     )
     score = score_res["score"]
 
