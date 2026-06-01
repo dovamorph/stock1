@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-01 13:26",
+  "updated": "2026-06-01 20:42",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,30 +13,30 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Israel seizes castle in Lebanon as it expands ground offensive",
-    "Colombia presidential runoff pits leftist senator against pro-Trump rival",
-    "Trump seeking edits to US-Iran deal, US media report",
+    "US says it struck Iranian radar sites as Kuwait reports missile and drone attacks",
+    "Iran attacks damage 20 US military sites since start of war, satellite images show",
+    "Israel PM orders strikes on Beirut suburbs as Hezbollah conflict escalates",
     "Huge blast kills dozens in rebel-held village in Myanmar",
-    "Poland's controversial 'Highway to Hel' 666 bus revived"
+    "Five patients recover from Ebola in DR Congo and leave hospital"
   ],
   "categories": {
     "geopolitical": {
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "Trump seeking edits to US-Iran deal, US media...",
+      "summary": "US says it struck Iranian radar sites as Kuwa...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 7,
-      "score": 3.0
+      "matched": 13,
+      "score": 4.4
     },
     "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Trump attacks artists dropping out of US Free...",
+      "summary": "Ex-US Fed Chair Powell warns against politici...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 1,
-      "score": 1.5
+      "score": 1.4
     },
     "disaster": {
       "level": "안전",
@@ -48,22 +48,22 @@
       "score": 0
     },
     "trade": {
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "US says it struck Iranian radar sites as Kuwa...",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 9,
+      "score": 4.3
+    },
+    "policy": {
       "level": "신호",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Trump seeking edits to US-Iran deal, US media...",
+      "summary": "복지부, 보건의료고등연구계획 신규 프로젝트 9개 공모",
       "action": "관련 지표 추가 확인 후 판단",
-      "matched": 2,
-      "score": 2.9
-    },
-    "policy": {
-      "level": "안전",
-      "color": "green",
-      "signal": "🟢",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "matched": 1,
+      "score": 1.5
     }
   },
   "overall": {
