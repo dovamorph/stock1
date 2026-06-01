@@ -47,7 +47,6 @@ MAX_DAYS       = 7
 REGIME_MULT    = {"BULL": 1.0, "SIDEWAYS": 0.7, "BEAR": 0.0}
 
 # ── 공통 설정 ─────────────────────────────────────────────────────────
-BUY_SIGNALS    = {"강한 매수", "매수 우위"}
 RESULTS_FILE   = "results.json"
 POSITIONS_FILE = "positions.json"
 EXPIRY_FILE    = "expiry_result.json"
@@ -423,12 +422,18 @@ def main():
     now_time       = now.time()
     is_market_open = datetime.time(9, 0) <= now_time <= datetime.time(15, 30)
     market         = results.get("market_signal", {})
-    signal_raw     = market.get("final_signal", results.get("signal", ""))
     kospi_ch5      = float(market.get("kospi_ch5", 0))
     kospi_ch1      = float(market.get("kospi_ch1", 0))
     rsi_14         = float(market.get("rsi_14", 50))
+    kospi_aligned  = market.get("aligned", "")
 
-    allow_buy = any(s in signal_raw for s in BUY_SIGNALS)
+    # ── 매수 허용 조건 (signal 텍스트 대신 객관적 지표 기반) ─────────
+    # KOSPI 정배열 + RSI 80 미만 + 당일 -3% 이상
+    allow_buy = (
+        kospi_aligned in ("정배열",)
+        and rsi_14 < 80
+        and kospi_ch1 > -3.0
+    )
 
     if allow_buy and not is_market_open:
         allow_buy = False
@@ -446,7 +451,7 @@ def main():
     if kospi_ch1 <= -8.0:
         check_circuit_breaker(kospi_ch1 / 100)
 
-    print(f"  시그널: {signal_raw} | RSI {rsi_14:.0f} | KOSPI5일 {kospi_ch5:+.1f}% | 당일 {kospi_ch1:+.1f}%")
+    print(f"  RSI {rsi_14:.0f} | KOSPI5일 {kospi_ch5:+.1f}% | 당일 {kospi_ch1:+.1f}% | {kospi_aligned}")
     print(f"  매수: {'✅' if allow_buy else '❌'} | 만기: {expiry_guard.get('note','')}")
 
     print("\n  KIS 토큰 발급 중...")
@@ -460,7 +465,6 @@ def main():
     data["_kospi_ch5"] = kospi_ch5
     data["_kospi_ch1"] = kospi_ch1
     data["_regime"]    = regime.get("regime", "UNKNOWN")
-    data["_signal"]    = signal_raw
 
     stocks = results.get("results", [])
 
