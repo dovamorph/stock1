@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-02 02:48",
+  "updated": "2026-06-02 06:37",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,21 +13,21 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "US says it struck Iranian radar sites as Iran targets American forces in Kuwait",
-    "Iran attacks damage 20 US military sites since start of war, satellite images show",
-    "Israel PM orders strikes on Beirut suburbs as Hezbollah conflict escalates",
-    "Huge blast kills dozens in rebel-held village in Myanmar",
-    "Five patients recover from Ebola in DR Congo and leave hospital"
+    "Lebanon says Hezbollah agrees reciprocal halt to attacks on Israel",
+    "Bowen: Trump needs this war to end but Iran is not backing down",
+    "Three Ebola vaccines in development amid growing outbreak fears",
+    "OpenAI let ChatGPT aid and abet mass shooters, Florida lawsuit claims",
+    "Hungarian PM threatens to oust Orbán-era president"
   ],
   "categories": {
     "geopolitical": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "US says it struck Iranian radar sites as Iran...",
+      "summary": "Bowen: Trump needs this war to end but Iran i...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 16,
-      "score": 26.5
+      "matched": 7,
+      "score": 13.0
     },
     "macro": {
       "level": "안전",
@@ -51,10 +51,10 @@
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "US says it struck Iranian radar sites as Iran...",
+      "summary": "Bowen: Trump needs this war to end but Iran i...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 6,
-      "score": 2.9
+      "score": 3.0
     },
     "policy": {
       "level": "안전",
