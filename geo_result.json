@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-01 20:42",
+  "updated": "2026-06-02 02:48",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,7 +13,7 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "US says it struck Iranian radar sites as Kuwait reports missile and drone attacks",
+    "US says it struck Iranian radar sites as Iran targets American forces in Kuwait",
     "Iran attacks damage 20 US military sites since start of war, satellite images show",
     "Israel PM orders strikes on Beirut suburbs as Hezbollah conflict escalates",
     "Huge blast kills dozens in rebel-held village in Myanmar",
@@ -21,22 +21,22 @@
   ],
   "categories": {
     "geopolitical": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
-      "summary": "US says it struck Iranian radar sites as Kuwa...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 13,
-      "score": 4.4
-    },
-    "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Ex-US Fed Chair Powell warns against politici...",
+      "summary": "US says it struck Iranian radar sites as Iran...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.4
+      "matched": 16,
+      "score": 26.5
+    },
+    "macro": {
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     },
     "disaster": {
       "level": "안전",
@@ -51,25 +51,25 @@
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "US says it struck Iranian radar sites as Kuwa...",
+      "summary": "US says it struck Iranian radar sites as Iran...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 9,
-      "score": 4.3
+      "matched": 6,
+      "score": 2.9
     },
     "policy": {
-      "level": "신호",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "복지부, 보건의료고등연구계획 신규 프로젝트 9개 공모",
-      "action": "관련 지표 추가 확인 후 판단",
-      "matched": 1,
-      "score": 1.5
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
-    "summary": "주의 필요: 지정학적 충돌",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "level": "안전",
+    "color": "green",
+    "summary": "전반적 안정. 정상 운용 유지",
+    "action": "정상 운용 유지"
   }
 }
