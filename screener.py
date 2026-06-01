@@ -50,7 +50,6 @@ def is_etf(name): return any(k in name for k in ETF_KW)
 # ── 0단계: KOSPI 시장 시그널 ─────────────────────────────────────
 def fetch_market_signal(tok) -> dict:
     result = {
-        "signal": "⚖️ 관망", "signal_en": "WATCH",
         "reason": "데이터 없음",
         "kospi_close": 0, "ma5": 0, "ma20": 0, "ma60": 0,
         "kospi_ch5": 0, "kospi_ch20": 0, "aligned": "",
@@ -585,34 +584,17 @@ def judge(d):
     roe=d.get("roe",0) or 0; per=d.get("per",0) or 0
     eps=d.get("eps",0) or 0; eps_trend=d.get("eps_trend","")
     debt=d.get("debt_ratio",None); ticker=d.get("ticker","")
-
-    # ── 저평가 성장주 예외: ROE≥15% + EPS상승이면 PER 60배까지 허용 ──
-    # 수익성이 검증되고 이익이 꾸준히 늘고 있는 종목은
-    # PER이 높아도 성장 프리미엄으로 인정 (코리아 디스카운트 해소 고려)
-    is_growth_exception = (roe >= 15 and eps_trend == "상승")
-    per_limit = 60 if is_growth_exception else 35
-
-    c1 = roe >= 15
-    c2 = 0 < per <= per_limit
-    c3 = eps >= 1
-    c4 = eps_trend == "상승"
+    c1=roe>=15; c2=0<per<=35; c3=eps>=1; c4=eps_trend=="상승"
     is_finance = ticker in FINANCE_TICKERS
     c5 = True if is_finance else (debt is not None and debt <= 200)
-
-    score = sum([c1, c2, c3, c4, c5])
+    score=sum([c1,c2,c3,c4,c5])
     if score==5: grade="A"
     elif score==4: grade="B"
     elif score==3: grade="C"
     elif score==2: grade="D"
     else: grade="F"
-
-    return {
-        "roe_ok": c1, "per_ok": c2, "eps_ok": c3, "eps_up": c4, "debt_ok": c5,
-        "is_finance": is_finance, "score": score, "grade": grade,
-        "recommended": score >= 4,
-        "is_growth_exception": is_growth_exception,  # 저평가 예외 여부
-        "per_limit": per_limit,                       # 실제 적용된 PER 한도
-    }
+    return {"roe_ok":c1,"per_ok":c2,"eps_ok":c3,"eps_up":c4,"debt_ok":c5,
+            "is_finance":is_finance,"score":score,"grade":grade,"recommended":score>=4}
 
 def send_discord(results, date, recs, market_signal):
     pass
@@ -628,7 +610,7 @@ def main():
     now_kst = now_utc + timedelta(hours=9)
     date = now_kst.strftime("%Y%m%d")
     print(f"  기준일: {date} ({now_kst.strftime('%H:%M')} KST)")
-    print(f"  등급: ROE≥15% PER≤35배(저평가 성장주 60배) EPS≥1 EPS상승 부채비율≤200% → 5개 기준 / 4개이상=추천")
+    print(f"  등급: ROE≥15% PER≤35배 EPS≥1 EPS상승 부채비율≤200% → 5개 기준 / 4개이상=추천")
 
     # ── 이전 거래일 순위 로드 (같은 날 여러번 실행해도 기준 고정) ──
     prev_ranks = {}
@@ -660,70 +642,6 @@ def main():
     print("\n[미장] S&P500 / NASDAQ 분석 중...")
     us_signal = fetch_us_signal()
     market_signal["us"] = us_signal
-
-    kr_score = market_signal.get("kr_score", 0)
-    us_score = 0
-    us_en    = us_signal.get("us_signal_en", "WATCH")
-
-    if us_en == "BUY":    us_score =  2
-    elif us_en == "SELL": us_score = -2
-
-    vix_val = us_signal.get("vix_close", 0)
-    if vix_val > 0:
-        if vix_val < 15:    us_score -= 1
-        elif vix_val < 20:  us_score += 1
-        elif vix_val < 25:  us_score -= 1
-        elif vix_val < 35:  us_score -= 2
-
-    # ── 한국 하락 시 미국 영향 제한 ───────────────────────────────────
-    if kr_score <= -3:
-        us_score = min(us_score, 1)
-    elif kr_score <= -1:
-        us_score = min(us_score, 2)
-
-    # ── 당일 KOSPI 급락 시 추가 페널티 ──────────────────────────────
-    ch1_now = float(market_signal.get("kospi_ch1", 0))
-    if ch1_now <= -2 and us_score > 0:
-        us_score -= 1
-
-    total_score = kr_score + us_score
-    reasons_final = []
-    if kr_score >= 3:      reasons_final.append("한국 상승추세")
-    elif kr_score <= -3:   reasons_final.append("한국 하락추세")
-    else:                  reasons_final.append("한국 혼조")
-    if us_en == "BUY":     reasons_final.append("미국 상승장")
-    elif us_en == "SELL":  reasons_final.append("미국 하락장")
-    if vix_val > 25:       reasons_final.append(f"VIX {vix_val:.0f} 공포")
-    elif 0 < vix_val < 15: reasons_final.append(f"VIX {vix_val:.0f} 과열낙관")
-
-    # ── RSI 과매수 강제 하향 ──────────────────────────────────────
-    _rsi = float(market_signal.get("rsi_14", 50))
-    if _rsi >= 90:
-        total_score = min(total_score, 0)
-        reasons_final.append(f"RSI {_rsi:.0f} 극과매수→매수중단")
-    elif _rsi >= 80:
-        total_score = min(total_score, 1)
-        reasons_final.append(f"RSI {_rsi:.0f} 과매수→매수제한")
-
-    if total_score >= 4:
-        market_signal["final_signal"]    = "📈 강한 매수"
-        market_signal["final_signal_en"] = "STRONG_BUY"
-    elif total_score >= 2:
-        market_signal["final_signal"]    = "📈 매수 우위"
-        market_signal["final_signal_en"] = "BUY"
-    elif total_score <= -4:
-        market_signal["final_signal"]    = "📉 강한 매도"
-        market_signal["final_signal_en"] = "STRONG_SELL"
-    elif total_score <= -2:
-        market_signal["final_signal"]    = "📉 매도 우위"
-        market_signal["final_signal_en"] = "SELL"
-    else:
-        market_signal["final_signal"]    = "⚖️ 관망"
-        market_signal["final_signal_en"] = "WATCH"
-
-    market_signal["final_reason"]  = " · ".join(reasons_final)
-    market_signal["total_score"]   = total_score
-    print(f"  최종 시그널: {market_signal['final_signal']} (점수 {total_score:+d} | {market_signal['final_reason']})")
 
     candidates=load_candidates()
     if not candidates: print("❌ 후보 로드 실패"); return
@@ -760,74 +678,6 @@ def main():
     # market_signal에 ADR + VKOSPI 추가
     market_signal.update(adr_data)
     market_signal.update(vkospi_data)
-
-    # ── 복합 시장 신호 (진짜/가짜 판단) ─────────────────────────────
-    adr_v    = adr_data["adr"]
-    kospi_up = float(market_signal.get("kospi_ch1", 0)) > 0
-    oi_raw   = market_signal.get("oi_change", None)
-    oi_up    = float(oi_raw) > 0 if oi_raw is not None else None
-    basis_v  = market_signal.get("basis", 0) or 0
-
-    # 보조 점수 (ADR + VKOSPI + 베이시스)
-    aux_score = 0
-    if adr_v >= 70:      aux_score += 1
-    elif adr_v < 50:     aux_score -= 1
-    if vkospi_est >= 30: aux_score -= 1   # 공포 극단은 조심
-    if basis_v > 1:      aux_score += 1
-    elif basis_v < -1:   aux_score -= 1
-
-    if kospi_up and oi_up is True:
-        comp_label = "🟢 진짜 상승"; comp_type = "real_rally"
-        comp_desc  = "신규 매수 세력 유입 확인. 추세 지속 가능성 높음."
-        comp_action= "추세 추종 가능. 분할 매수 고려."
-    elif kospi_up and oi_up is False:
-        if aux_score >= 1:
-            comp_label = "🟡 숏커버링 → 전환 가능성"; comp_type = "reversal"
-            comp_desc  = "하락 세력 청산 중. 보조지표가 강세라 진짜 상승 전환 가능."
-            comp_action= "OI 증가 전환 확인 후 진입. 지금 추격 매수는 위험."
-        else:
-            comp_label = "🟡 가짜 상승 (숏커버링)"; comp_type = "fake_rally"
-            comp_desc  = "하락 세력이 손절하며 나가는 것. 새 매수 세력 아님."
-            comp_action= "추격 매수 자제. 보유분 익절 기회로 활용."
-    elif not kospi_up and oi_up is True:
-        comp_label = "🔴 진짜 하락"; comp_type = "real_drop"
-        comp_desc  = "새 하락 세력 진입 확인. 추가 하락 위험."
-        comp_action= "매수 금지. 보유분 손절 기준 재점검."
-    elif not kospi_up and oi_up is False:
-        if vkospi_est >= 28 and adr_v < 50:
-            comp_label = "🟡 바닥 근접 신호"; comp_type = "near_bottom"
-            comp_desc  = "공포 극단 + 하락 세력 청산 + 투매권. 반등 준비 구간."
-            comp_action= "섣불리 매수 금지. 바닥 확인 후 소량 분할 진입 검토."
-        else:
-            comp_label = "🟠 조정 or 가짜 하락"; comp_type = "fake_drop"
-            comp_desc  = "기존 매수 세력이 나가는 하락. 방향 불확실."
-            comp_action= "방향 확인 대기. OI 변화 추이 관찰."
-    else:
-        # OI 없을 때 ADR + VKOSPI + 베이시스로 판단
-        if adr_v >= 70 and aux_score >= 1:
-            if kospi_up:
-                comp_label = "🟢 상승 우세 (보조지표 확인)"; comp_type = "real_rally"
-                comp_desc  = f"ADR {adr_v:.0f}% 건강 + VKOSPI {vkospi_est:.0f} 정상. 미결제 데이터 미수신이나 보조지표는 긍정적."
-                comp_action= "추세 방향으로 접근 가능. 단, OI 확인 시까지 분할 진입 권장."
-            else:
-                comp_label = "🟠 혼조 (보조지표 판단)"; comp_type = "fake_drop"
-                comp_desc  = f"ADR {adr_v:.0f}% 보통. 미결제 데이터 미수신."
-                comp_action= "방향 확인 대기."
-        elif adr_v < 50 or aux_score <= -1:
-            comp_label = "🔴 하락 우세 (보조지표 확인)"; comp_type = "real_drop"
-            comp_desc  = f"ADR {adr_v:.0f}% 투매권 또는 VKOSPI {vkospi_est:.0f} 공포. 미결제 미수신이나 보조지표 부정적."
-            comp_action= "신규 매수 자제. 추이 관찰."
-        else:
-            comp_label = "🟡 중립 (보조지표 판단)"; comp_type = "neutral"
-            comp_desc  = f"ADR {adr_v:.0f}% 보통 · VKOSPI {vkospi_est:.0f}. 미결제약정 데이터 미수신."
-            comp_action= "ADR·VKOSPI 기준으로 판단."
-
-    market_signal["composite"] = {
-        "label": comp_label, "type": comp_type,
-        "desc":  comp_desc,  "action": comp_action,
-        "aux_score": aux_score,
-    }
-    print(f"  복합신호: {comp_label}")
 
     # ── 순위 변동 계산 ─────────────────────────────────────────────
     for item in top40:
