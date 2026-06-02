@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-03 05:53",
+  "updated": "2026-06-03 08:49",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -16,8 +16,8 @@
     "Israel strikes southern Lebanon but partial truce with Hezbollah appears to hold",
     "'They'll fix the building, but not our souls': Sleepy Kyiv neighbourhood hit in Russian strike",
     "British couple lose Iran jail sentence appeal, family says",
-    "Two people shot dead amid Kenya protests against US Ebola quarantine centre plan",
-    "Trump taps housing official Bill Pulte to be US spymaster"
+    "US says it fired missile at Iran-bound oil tanker",
+    "Microsoft says new quantum chip 1,000 times more reliable than predecessor"
   ],
   "categories": {
     "geopolitical": {
@@ -26,7 +26,7 @@
       "signal": "🔴",
       "summary": "British couple lose Iran jail sentence appeal...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 11,
+      "matched": 9,
       "score": 2.9
     },
     "macro": {
@@ -53,23 +53,23 @@
       "signal": "🟡",
       "summary": "British couple lose Iran jail sentence appeal...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 9,
-      "score": 10.2
+      "matched": 7,
+      "score": 4.4
     },
     "policy": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "K-방산 으뜸 한화에어로, 안전 전담 임원 없다…산재 소홀했나",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 2,
-      "score": 3.0
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
-    "level": "주의",
-    "color": "yellow",
+    "level": "위험",
+    "color": "red",
     "summary": "주의 필요: 지정학적 충돌",
-    "action": "신규 매수 자제 / 추이 관찰"
+    "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
