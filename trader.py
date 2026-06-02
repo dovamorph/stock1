@@ -56,7 +56,8 @@ APP_KEY    = os.environ.get("KIS_APP_KEY",    os.environ.get("KIS_APP_KEY_MOCK",
 APP_SECRET = os.environ.get("KIS_APP_SECRET", os.environ.get("KIS_APP_SECRET_MOCK", ""))
 ACCOUNT_NO = os.environ.get("KIS_ACCOUNT_NO", os.environ.get("KIS_ACCOUNT_MOCK",    ""))
 DISCORD_WH = os.environ.get("DISCORD_WEBHOOK", "")
-BASE_URL   = "https://openapi.koreainvestment.com:9443"
+BASE_URL   = ("https://openapivts.koreainvestment.com:29443" if MOCK
+              else "https://openapi.koreainvestment.com:9443")
 KST        = ZoneInfo("Asia/Seoul")
 
 # ── KIS API ───────────────────────────────────────────────────────────
@@ -453,6 +454,12 @@ def main():
     if allow_buy and kospi_ch1 <= -3.0:
         allow_buy = False
         print(f"  ⚠️ KOSPI 당일 {kospi_ch1:+.1f}% 급락 — 매수 차단")
+
+    # ADR 25% 이하 = 75% 종목 하락 → 전면 투매 구간, 매수 차단
+    adr_v = float(results.get("market_signal", {}).get("adr", 50))
+    if allow_buy and adr_v < 25:
+        allow_buy = False
+        print(f"  ⚠️ ADR {adr_v:.1f}% 투매 구간 — 매수 차단")
 
     if kospi_ch1 <= -2.0:
         check_gap_down(
