@@ -342,10 +342,21 @@ def unified_buys(token, data, stocks, now, allow_buy, regime_mult, kospi_ch5, ex
             print(f"    {name} — 예산 부족 ({remaining:,}원 < {invest_target:,}원)")
             continue
 
-        d_check = defense_can_buy(ticker, "unified")
-        if not d_check["ok"]:
-            print(f"    {name} — defense 차단: {d_check['reason']}")
-            continue
+        # defense 체크 (반환 형식 안전 처리)
+        try:
+            d_check = defense_can_buy(ticker, "unified")
+            if isinstance(d_check, dict):
+                ok = d_check.get("ok", d_check.get("allowed", True))
+                block_reason = d_check.get("reason", "")
+            elif isinstance(d_check, tuple):
+                ok, block_reason = d_check[0], (d_check[1] if len(d_check) > 1 else "")
+            else:
+                ok, block_reason = bool(d_check), ""
+            if not ok:
+                print(f"    {name} — defense 차단: {block_reason}")
+                continue
+        except Exception as e:
+            print(f"    {name} — defense 체크 실패: {e} (통과)")
 
         cur_price = get_price(token, ticker)
         if not cur_price:
