@@ -1,10 +1,10 @@
 {
-  "updated": "2026-06-02 13:19",
-  "news_count": 101,
-  "intl_count": 56,
+  "updated": "2026-06-02 19:43",
+  "news_count": 97,
+  "intl_count": 52,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 30,
+    "BBC World": 26,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -13,30 +13,30 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Massive Russian attack on cities across Ukraine kills at least nine people",
-    "Lebanon says Hezbollah agrees reciprocal halt to attacks on Israel",
-    "Bowen: Trump needs this war to end but Iran is not backing down",
-    "Six people killed in Iowa domestic dispute, police say",
-    "Three Ebola vaccines in development amid growing outbreak fears"
+    "Ukraine rescuers pull dead from rubble after Russian strikes kill 18 people",
+    "Clashes continue in Lebanon despite Israel and Hezbollah accepting US partial ceasefire plan",
+    "Two people shot dead amid Kenya protests against US Ebola quarantine centre plan",
+    "Why Myanmar president's India visit is being closely watched",
+    "Denmark's Mette Frederiksen to form government after months of negotiations"
   ],
   "categories": {
     "geopolitical": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
-      "summary": "Massive Russian attack on cities across Ukrai...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 11,
-      "score": 1.5
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "Ukraine rescuers pull dead from rubble after ...",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 8,
+      "score": 11.6
     },
     "macro": {
-      "level": "안전",
-      "color": "green",
-      "signal": "🟢",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "유로존 물가상승률 3년만에 3％ 넘어…금리인상 채비",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 1,
+      "score": 3.0
     },
     "disaster": {
       "level": "안전",
@@ -48,13 +48,13 @@
       "score": 0
     },
     "trade": {
-      "level": "주의",
+      "level": "신호",
       "color": "yellow",
       "signal": "🟡",
       "summary": "Bowen: Trump needs this war to end but Iran i...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 5,
-      "score": 1.5
+      "action": "관련 지표 추가 확인 후 판단",
+      "matched": 4,
+      "score": 5.7
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
-    "summary": "주의 필요: 지정학적 충돌",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "level": "안전",
+    "color": "green",
+    "summary": "전반적 안정. 정상 운용 유지",
+    "action": "정상 운용 유지"
   }
 }
