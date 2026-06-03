@@ -1,6 +1,6 @@
 {
   "date": "20260603",
-  "generated_at": "2026-06-03T15:06:51.852855",
+  "generated_at": "2026-06-03T15:55:43.335649",
   "reference_date": "20260602",
   "reference_ranks": {
     "005930": 1,
@@ -92,11 +92,11 @@
       "ndx_ma60": 24136.09,
       "ndx_ch1": 0.03
     },
-    "adr": 28.1,
-    "adr_advances": 136,
-    "adr_declines": 348,
+    "adr": 27.4,
+    "adr_advances": 133,
+    "adr_declines": 352,
     "adr_signal": "🔴",
-    "adr_desc": "투매권 (28%) — 바닥 근접 가능",
+    "adr_desc": "투매권 (27%) — 바닥 근접 가능",
     "vkospi_est": 20.0,
     "vkospi_signal": "🟢",
     "vkospi_desc": "20.0 — 시장이 안정적입니다. 투자 심리 양호"
