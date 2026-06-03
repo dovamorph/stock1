@@ -1,6 +1,6 @@
 {
   "date": "20260603",
-  "generated_at": "2026-06-03T15:55:43.335649",
+  "generated_at": "2026-06-03T17:18:51.051826",
   "reference_date": "20260602",
   "reference_ranks": {
     "005930": 1,
@@ -92,8 +92,8 @@
       "ndx_ma60": 24136.09,
       "ndx_ch1": 0.03
     },
-    "adr": 27.4,
-    "adr_advances": 133,
+    "adr": 27.3,
+    "adr_advances": 132,
     "adr_declines": 352,
     "adr_signal": "🔴",
     "adr_desc": "투매권 (27%) — 바닥 근접 가능",
