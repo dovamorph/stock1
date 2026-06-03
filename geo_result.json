@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-03 08:49",
+  "updated": "2026-06-03 13:39",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -14,20 +14,20 @@
   },
   "news_sample": [
     "Israel strikes southern Lebanon but partial truce with Hezbollah appears to hold",
+    "US and Iran launch new strikes as ceasefire negotiations stalled",
+    "Putin remains uncompromising on Ukraine, but is public discourse on war changing in Russia?",
     "'They'll fix the building, but not our souls': Sleepy Kyiv neighbourhood hit in Russian strike",
-    "British couple lose Iran jail sentence appeal, family says",
-    "US says it fired missile at Iran-bound oil tanker",
-    "Microsoft says new quantum chip 1,000 times more reliable than predecessor"
+    "British couple lose Iran jail sentence appeal, family says"
   ],
   "categories": {
     "geopolitical": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
-      "summary": "British couple lose Iran jail sentence appeal...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 9,
-      "score": 2.9
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "US and Iran launch new strikes as ceasefire n...",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 7,
+      "score": 11.6
     },
     "macro": {
       "level": "안전",
@@ -51,10 +51,10 @@
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "British couple lose Iran jail sentence appeal...",
+      "summary": "US and Iran launch new strikes as ceasefire n...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 7,
-      "score": 4.4
+      "score": 4.3
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
-    "summary": "주의 필요: 지정학적 충돌",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "level": "안전",
+    "color": "green",
+    "summary": "전반적 안정. 정상 운용 유지",
+    "action": "정상 운용 유지"
   }
 }
