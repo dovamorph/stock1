@@ -1,10 +1,10 @@
 {
-  "updated": "2026-06-03 20:06",
-  "news_count": 96,
-  "intl_count": 51,
+  "updated": "2026-06-04 01:57",
+  "news_count": 97,
+  "intl_count": 52,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 25,
+    "BBC World": 26,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -13,10 +13,10 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "US and Iran launch new strikes, as Kuwait says airport hit by Iranian drones",
-    "Israel strikes southern Lebanon but partial truce with Hezbollah appears to hold",
-    "Seven killed after drone hits bus in Russia-controlled part of Ukraine",
-    "Putin remains uncompromising on Ukraine, but is public discourse on war changing in Russia?",
+    "One killed and dozens injured in Iranian drone strikes on Kuwait airport",
+    "Ukrainian drones hit St Petersburg as Putin's flagship economic forum opens",
+    "Foreign nationals among at least 21 killed in Delhi fire",
+    "Eight killed after drone hits bus in Russian-occupied part of Ukraine",
     "Shell pumped oil through Nigeria pipeline for years despite pollution evidence, documents show"
   ],
   "categories": {
@@ -24,19 +24,19 @@
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "US and Iran launch new strikes, as Kuwait say...",
+      "summary": "One killed and dozens injured in Iranian dron...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 12,
-      "score": 4.4
+      "matched": 10,
+      "score": 1.5
     },
     "macro": {
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "일본은행 총재, 금리 인상 가능성 시사…日기준금리 1% 될까",
+      "summary": "Now you can hire people to carry your shoppin...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 1,
-      "score": 1.5
+      "matched": 2,
+      "score": 1.4
     },
     "disaster": {
       "level": "안전",
@@ -51,19 +51,19 @@
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "US and Iran launch new strikes, as Kuwait say...",
+      "summary": "One killed and dozens injured in Iranian dron...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 7,
-      "score": 1.5
+      "score": 2.9
     },
     "policy": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "[프로야구 수원전적] kt 7-6 LG",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 2,
-      "score": 1.5
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
