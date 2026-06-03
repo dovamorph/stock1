@@ -1,10 +1,10 @@
 {
-  "updated": "2026-06-03 13:39",
-  "news_count": 101,
-  "intl_count": 56,
+  "updated": "2026-06-03 20:06",
+  "news_count": 96,
+  "intl_count": 51,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 30,
+    "BBC World": 25,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -13,30 +13,30 @@
     "StockPlus": 14
   },
   "news_sample": [
+    "US and Iran launch new strikes, as Kuwait says airport hit by Iranian drones",
     "Israel strikes southern Lebanon but partial truce with Hezbollah appears to hold",
-    "US and Iran launch new strikes as ceasefire negotiations stalled",
+    "Seven killed after drone hits bus in Russia-controlled part of Ukraine",
     "Putin remains uncompromising on Ukraine, but is public discourse on war changing in Russia?",
-    "'They'll fix the building, but not our souls': Sleepy Kyiv neighbourhood hit in Russian strike",
-    "British couple lose Iran jail sentence appeal, family says"
+    "Shell pumped oil through Nigeria pipeline for years despite pollution evidence, documents show"
   ],
   "categories": {
     "geopolitical": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "US and Iran launch new strikes as ceasefire n...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 7,
-      "score": 11.6
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
+      "summary": "US and Iran launch new strikes, as Kuwait say...",
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 12,
+      "score": 4.4
     },
     "macro": {
-      "level": "안전",
-      "color": "green",
-      "signal": "🟢",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
+      "summary": "일본은행 총재, 금리 인상 가능성 시사…日기준금리 1% 될까",
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 1,
+      "score": 1.5
     },
     "disaster": {
       "level": "안전",
@@ -51,25 +51,25 @@
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "US and Iran launch new strikes as ceasefire n...",
+      "summary": "US and Iran launch new strikes, as Kuwait say...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 7,
-      "score": 4.3
+      "score": 1.5
     },
     "policy": {
-      "level": "안전",
-      "color": "green",
-      "signal": "🟢",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "[프로야구 수원전적] kt 7-6 LG",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 2,
+      "score": 1.5
     }
   },
   "overall": {
-    "level": "안전",
-    "color": "green",
-    "summary": "전반적 안정. 정상 운용 유지",
-    "action": "정상 운용 유지"
+    "level": "위험",
+    "color": "red",
+    "summary": "주의 필요: 지정학적 충돌, 거시/통화 정책",
+    "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
