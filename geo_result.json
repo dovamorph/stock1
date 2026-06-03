@@ -1,10 +1,10 @@
 {
-  "updated": "2026-06-04 01:57",
-  "news_count": 97,
-  "intl_count": 52,
+  "updated": "2026-06-04 06:19",
+  "news_count": 101,
+  "intl_count": 56,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 26,
+    "BBC World": 30,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -13,30 +13,30 @@
     "StockPlus": 14
   },
   "news_sample": [
+    "Israeli strikes kill nine in Lebanon as Hezbollah fires rockets over border",
     "One killed and dozens injured in Iranian drone strikes on Kuwait airport",
+    "'Crazy' phone call between Trump and Netanyahu complicates Iran talks",
     "Ukrainian drones hit St Petersburg as Putin's flagship economic forum opens",
-    "Foreign nationals among at least 21 killed in Delhi fire",
-    "Eight killed after drone hits bus in Russian-occupied part of Ukraine",
-    "Shell pumped oil through Nigeria pipeline for years despite pollution evidence, documents show"
+    "Foreign nationals among at least 21 killed in Delhi fire"
   ],
   "categories": {
     "geopolitical": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
       "summary": "One killed and dozens injured in Iranian dron...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 10,
-      "score": 1.5
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 6,
+      "score": 8.9
     },
     "macro": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
       "summary": "Now you can hire people to carry your shoppin...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
+      "action": "신규 매수 자제 / 추이 관찰",
       "matched": 2,
-      "score": 1.4
+      "score": 3.0
     },
     "disaster": {
       "level": "안전",
@@ -53,8 +53,8 @@
       "signal": "🟡",
       "summary": "One killed and dozens injured in Iranian dron...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 7,
-      "score": 2.9
+      "matched": 9,
+      "score": 8.7
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
-    "summary": "주의 필요: 지정학적 충돌, 거시/통화 정책",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "level": "안전",
+    "color": "green",
+    "summary": "전반적 안정. 정상 운용 유지",
+    "action": "정상 운용 유지"
   }
 }
