@@ -385,7 +385,6 @@ def unified_buys(token, data, stocks, now, allow_buy, regime_mult, kospi_ch5, ex
             bought      += 1
             print(f"  🟢 [매수] {name} ({grade}) RSI:{rsi:.0f} 점수:{entry} {rc_str} → {invest:,.0f}원")
             discord(f"🟢 매수: {name} ({grade}) | {invest:,.0f}원 | RSI {rsi:.0f} | 진입점수 {entry}")
-            check_stock_crash(cur_price, cur_price * 0.9, ticker)
 
         time.sleep(0.5)
         if bought >= slots:
