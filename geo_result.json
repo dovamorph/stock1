@@ -1,10 +1,10 @@
 {
-  "updated": "2026-06-04 13:24",
-  "news_count": 101,
-  "intl_count": 56,
+  "updated": "2026-06-04 19:01",
+  "news_count": 97,
+  "intl_count": 52,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 30,
+    "BBC World": 26,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -14,29 +14,29 @@
   },
   "news_sample": [
     "Israel and Lebanon agree to implement ceasefire if Hezbollah stops attacks",
-    "US House votes to rein in Trump's war powers in rebuke over Iran",
+    "US House delivers rebuke to Trump as it votes to halt Iran war",
     "'Crazy' phone call between Trump and Netanyahu complicates Iran talks",
     "Grab what you can while you can: The new reality in the South China Sea",
-    "Ukrainian drones hit St Petersburg as Putin's flagship economic forum opens"
+    "Missing Sherpa guide found on Mount Everest after 'miracle' self-rescue"
   ],
   "categories": {
     "geopolitical": {
-      "level": "경고",
-      "color": "orange",
-      "signal": "🟠",
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
       "summary": "Israel and Lebanon agree to implement ceasefi...",
-      "action": "포지션 축소 검토 / 모니터링 강화",
-      "matched": 18,
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 20,
       "score": 1.5
     },
     "macro": {
-      "level": "안전",
-      "color": "green",
-      "signal": "🟢",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "환율, 야간거래서 1,540원 넘어…금융위기 이후 최고(종합2보)",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 1,
+      "score": 1.5
     },
     "disaster": {
       "level": "안전",
@@ -51,25 +51,25 @@
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "US House votes to rein in Trump's war powers ...",
+      "summary": "US House delivers rebuke to Trump as it votes...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 13,
-      "score": 5.8
+      "matched": 10,
+      "score": 1.5
     },
     "policy": {
-      "level": "안전",
-      "color": "green",
-      "signal": "🟢",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "조현, 튀르키예 외교장관과 회담…원전·방산 협력 논의",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 1,
+      "score": 1.5
     }
   },
   "overall": {
-    "level": "주의",
-    "color": "yellow",
+    "level": "위험",
+    "color": "red",
     "summary": "주의 필요: 지정학적 충돌",
-    "action": "신규 매수 자제 / 추이 관찰"
+    "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
