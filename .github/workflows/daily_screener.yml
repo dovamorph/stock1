@@ -1,40 +1,24 @@
 name: StockPilot KR Screener
 on:
   schedule:
-    # ── 장 전 조기 준비 (KST 07:00~08:55) ──────────────────────────
-    # 07:00~07:55 KST = 전날 22:00~22:55 UTC (일~목)
-    - cron: '0,5,10,15,20,25,30,35,40,45,50,55 22 * * 0-4'
-    # 08:00~08:55 KST = 전날 23:00~23:55 UTC (일~목)
-    - cron: '0,5,10,15,20,25,30,35,40,45,50,55 23 * * 0-4'
-
-    # ── 장 중 (KST 09:00~15:30) 5분 간격 ────────────────────────────
-    - cron: '0,5,10,15,20,25,30,35,40,45,50,55 0 * * 1-5'
-    - cron: '0,5,10,15,20,25,30,35,40,45,50,55 1 * * 1-5'
-    - cron: '0,5,10,15,20,25,30,35,40,45,50,55 2 * * 1-5'
-    - cron: '0,5,10,15,20,25,30 3 * * 1-5'
-    - cron: '0,5,10,15,20,25,30,35,40,45,50,55 4 * * 1-5'
-    - cron: '0,5,10,15,20,25,30,35,40,45,50,55 5 * * 1-5'
-    - cron: '0,5,10,15,20,25,30 6 * * 1-5'
-
+    # 08:00~08:50 KST = 23:00~23:50 UTC (일~목)
+    - cron: '*/10 23 * * 0-4'
+    # 09:00~15:50 KST = 00:00~06:50 UTC (월~금)
+    - cron: '*/10 0-6 * * 1-5'
   workflow_dispatch:
-
 permissions:
   contents: write
-
 jobs:
   run-screener:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
       - name: Install dependencies
         run: pip install requests pandas finance-datareader yfinance beautifulsoup4 pykrx numpy
-
       - name: Run screener
         env:
           KIS_APP_KEY:     ${{ secrets.KIS_APP_KEY }}
@@ -42,10 +26,8 @@ jobs:
           KIS_ACCOUNT_NO:  ${{ secrets.KIS_ACCOUNT_NO }}
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         run: python screener.py
-
       - name: Run expiry analysis
         run: python expiry.py
-
       - name: Run trader
         env:
           KIS_APP_KEY_MOCK:    ${{ secrets.KIS_APP_KEY_MOCK }}
@@ -54,7 +36,6 @@ jobs:
           DISCORD_WEBHOOK:     ${{ secrets.DISCORD_WEBHOOK }}
           KIS_MOCK:            "true"
         run: python trader.py
-
       - name: Commit results
         run: |
           git config user.name "github-actions[bot]"
