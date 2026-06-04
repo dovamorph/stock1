@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-05 06:43",
+  "updated": "2026-06-05 08:11",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -21,13 +21,13 @@
   ],
   "categories": {
     "geopolitical": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
+      "level": "경고",
+      "color": "orange",
+      "signal": "🟠",
       "summary": "Hezbollah rejects renewed ceasefire agreed by...",
-      "action": "신규 매수 자제 / 추이 관찰",
+      "action": "포지션 축소 검토 / 모니터링 강화",
       "matched": 11,
-      "score": 16.0
+      "score": 1.5
     },
     "macro": {
       "level": "안전",
@@ -54,7 +54,7 @@
       "summary": "Trump hits back at 'unpatriotic' vote after H...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 7,
-      "score": 1.5
+      "score": 4.5
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "안전",
-    "color": "green",
-    "summary": "전반적 안정. 정상 운용 유지",
-    "action": "정상 운용 유지"
+    "level": "주의",
+    "color": "yellow",
+    "summary": "주의 필요: 지정학적 충돌",
+    "action": "신규 매수 자제 / 추이 관찰"
   }
 }
