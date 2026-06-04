@@ -1,10 +1,10 @@
 {
-  "updated": "2026-06-05 03:21",
-  "news_count": 100,
-  "intl_count": 55,
+  "updated": "2026-06-05 06:43",
+  "news_count": 101,
+  "intl_count": 56,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 29,
+    "BBC World": 30,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -13,21 +13,21 @@
     "StockPlus": 14
   },
   "news_sample": [
+    "Zelensky proposes face-to-face talks in open letter to Putin",
     "Hezbollah rejects renewed ceasefire agreed by Israel and Lebanon",
     "Trump hits back at 'unpatriotic' vote after House rebukes him over Iran",
-    "'Crazy' phone call between Trump and Netanyahu complicates Iran talks",
-    "Israeli strikes kill 11 people in Gaza City, medics say",
-    "Missing Sherpa guide found on Mount Everest after 'miracle' self-rescue"
+    "Ex-wife of Dubai ruler's nephew in custody, prosecutors say",
+    "Dutch police investigate suspected drugging and sexual assault of multiple women"
   ],
   "categories": {
     "geopolitical": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
       "summary": "Hezbollah rejects renewed ceasefire agreed by...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 15,
-      "score": 1.5
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 11,
+      "score": 16.0
     },
     "macro": {
       "level": "안전",
@@ -53,23 +53,23 @@
       "signal": "🟡",
       "summary": "Trump hits back at 'unpatriotic' vote after H...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 8,
+      "matched": 7,
       "score": 1.5
     },
     "policy": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "이탈리아 40년만에 '원전 복귀' 전망…하원서 법안 통과",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
-    "summary": "주의 필요: 지정학적 충돌",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "level": "안전",
+    "color": "green",
+    "summary": "전반적 안정. 정상 운용 유지",
+    "action": "정상 운용 유지"
   }
 }
