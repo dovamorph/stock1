@@ -580,6 +580,73 @@ FINANCE_TICKERS = {
     "012510","000810","032830","088350","005830","029780",
 }
 
+def calc_entry_score(d: dict) -> dict:
+    """진입 타이밍 점수 (0~10점). 지금 사기 좋은 타이밍인지 종합 평가."""
+    score = 0
+    grade       = d.get("grade", "F")
+    rsi         = float(d.get("rsi", 50))
+    ch5         = float(d.get("ch5", 0))
+    frgn_net    = int(d.get("frgn_net", 0) or 0)
+    vol_char    = d.get("vol_char", "")
+    rank_change = d.get("rank_change")
+
+    # 신규 진입 여부 (타이밍의 핵심)
+    if rank_change is None:                                          s = 3
+    elif isinstance(rank_change,(int,float)) and rank_change >= 10: s = 2
+    elif isinstance(rank_change,(int,float)) and rank_change >= 3:  s = 1
+    elif isinstance(rank_change,(int,float)) and rank_change < 0:   s = -1
+    else:                                                            s = 0
+    score += s
+
+    # RSI
+    if rsi < 45:    s = 2
+    elif rsi < 55:  s = 1
+    elif rsi < 65:  s = 1   # 55~65 안전구간도 +1
+    elif rsi < 70:  s = -1
+    else:           s = -2
+    score += s
+
+    # 5일 수익률 (이미 많이 올랐나?)
+    if ch5 < 0:     s = 2
+    elif ch5 < 5:   s = 1
+    elif ch5 < 10:  s = 0
+    elif ch5 < 20:  s = -1
+    else:           s = -2
+    score += s
+
+    # 등급
+    s = {"A": 2, "B": 1, "C": 0, "D": -2}.get(grade, -3)
+    score += s
+
+    # 외인 순매수
+    if frgn_net > 100_000:    s = 2
+    elif frgn_net > 0:        s = 1
+    elif frgn_net < -100_000: s = -1
+    else:                     s = 0
+    score += s
+
+    # 거래성격
+    if "매수주도" in vol_char:    s = 1
+    elif "매도주도" in vol_char:  s = -1
+    else:                         s = 0
+    score += s
+
+    score = max(0, min(10, score))
+
+    # D/F등급은 진입점수 표시 안 함
+    if grade in ("D", "F"):
+        return {"entry_score": score, "entry_stars": "–",
+                "entry_label": "등급 부적격"}
+
+    if score >= 8:    stars, label = "★★★★★", "지금 진입"
+    elif score >= 6:  stars, label = "★★★★",  "좋은 타이밍"
+    elif score >= 4:  stars, label = "★★★",   "보통"
+    elif score >= 2:  stars, label = "★★",    "주의"
+    else:             stars, label = "★",     "늦음"
+
+    return {"entry_score": score, "entry_stars": stars, "entry_label": label}
+
+
 def judge(d):
     roe=d.get("roe",0) or 0; per=d.get("per",0) or 0
     eps=d.get("eps",0) or 0; eps_trend=d.get("eps_trend","")
@@ -719,6 +786,10 @@ def main():
             else:                vc = "혼조 ⚪"
             data["vol_char"] = vc
             data["ch1"]      = ch1_rt
+
+            # 진입 타이밍 점수 계산
+            entry = calc_entry_score(data)
+            data.update(entry)
 
             results.append(data)
 
