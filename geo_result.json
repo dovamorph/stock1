@@ -1,10 +1,10 @@
 {
-  "updated": "2026-06-04 19:01",
-  "news_count": 97,
-  "intl_count": 52,
+  "updated": "2026-06-05 00:26",
+  "news_count": 99,
+  "intl_count": 54,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 26,
+    "BBC World": 28,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -13,10 +13,10 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Israel and Lebanon agree to implement ceasefire if Hezbollah stops attacks",
+    "Hezbollah rejects renewed ceasefire agreed by Israel and Lebanon",
     "US House delivers rebuke to Trump as it votes to halt Iran war",
     "'Crazy' phone call between Trump and Netanyahu complicates Iran talks",
-    "Grab what you can while you can: The new reality in the South China Sea",
+    "Israeli strikes kill 11 people in Gaza City, medics say",
     "Missing Sherpa guide found on Mount Everest after 'miracle' self-rescue"
   ],
   "categories": {
@@ -24,19 +24,19 @@
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "Israel and Lebanon agree to implement ceasefi...",
+      "summary": "Hezbollah rejects renewed ceasefire agreed by...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 20,
-      "score": 1.5
+      "matched": 19,
+      "score": 3.0
     },
     "macro": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "환율, 야간거래서 1,540원 넘어…금융위기 이후 최고(종합2보)",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     },
     "disaster": {
       "level": "안전",
@@ -48,21 +48,21 @@
       "score": 0
     },
     "trade": {
-      "level": "주의",
+      "level": "신호",
       "color": "yellow",
       "signal": "🟡",
       "summary": "US House delivers rebuke to Trump as it votes...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 10,
-      "score": 1.5
+      "action": "관련 지표 추가 확인 후 판단",
+      "matched": 8,
+      "score": 11.7
     },
     "policy": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "조현, 튀르키예 외교장관과 회담…원전·방산 협력 논의",
+      "summary": "이탈리아 40년만에 '원전 복귀' 전망…하원서 법안 통과",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
+      "matched": 2,
       "score": 1.5
     }
   },
