@@ -1,17 +1,9 @@
 name: StockPilot US Market (Night)
 on:
   schedule:
-    # KST 22:00~06:00 — 30분 간격 (미국 장 중)
-    - cron: '0,30 13 * * 1-5'
-    - cron: '0,30 14 * * 1-5'
-    - cron: '0,30 15 * * 1-5'
-    - cron: '0,30 16 * * 1-5'
-    - cron: '0,30 17 * * 1-5'
-    - cron: '0,30 18 * * 1-5'
-    - cron: '0,30 19 * * 1-5'
-    - cron: '0,30 20 * * 1-5'
+    # 미국 장 + 프리마켓 (KST 22:00~06:00 = UTC 13:00~21:00) 30분 간격
+    - cron: '0,30 13-20 * * 1-5'
     - cron: '0 21 * * 1-5'
-
   workflow_dispatch:
 
 permissions:
