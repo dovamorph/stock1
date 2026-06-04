@@ -23,7 +23,6 @@ from defense import (
     can_buy          as defense_can_buy,
     is_trading_suspended,
     record_trade_result,
-    check_stock_crash,
     check_gap_down,
     check_circuit_breaker,
 )
@@ -359,6 +358,11 @@ def unified_buys(token, data, stocks, now, allow_buy, regime_mult, kospi_ch5, ex
         except Exception as e:
             print(f"    {name} — defense 체크 실패: {e} (통과)")
 
+        # 진입점수 최소 기준 (2점 미만 스킵)
+        if entry < 2:
+            print(f"    {name} — 진입점수 부족 ({entry}점 < 2점)")
+            continue
+
         cur_price = get_price(token, ticker)
         if not cur_price:
             continue
@@ -386,8 +390,9 @@ def unified_buys(token, data, stocks, now, allow_buy, regime_mult, kospi_ch5, ex
             print(f"  🟢 [매수] {name} ({grade}) RSI:{rsi:.0f} 점수:{entry} {rc_str} → {invest:,.0f}원")
             discord(f"🟢 매수: {name} ({grade}) | {invest:,.0f}원 | RSI {rsi:.0f} | 진입점수 {entry}")
 
-        time.sleep(0.5)
+        time.sleep(1.0)  # KIS API 초당 5건 제한 방지
         if bought >= slots:
+            break
             break
 
     if bought > 0:
@@ -449,10 +454,6 @@ def main():
     if allow_buy and not is_market_open:
         allow_buy = False
         print(f"  ⚠️ 장 마감 후 ({now_time.strftime('%H:%M')}) — 신규 매수 중단")
-
-    if allow_buy and kospi_ch1 <= -3.0:
-        allow_buy = False
-        print(f"  ⚠️ KOSPI 당일 {kospi_ch1:+.1f}% 급락 — 매수 차단")
 
     # ADR 25% 이하 = 75% 종목 하락 → 전면 투매 구간, 매수 차단
     adr_v = float(results.get("market_signal", {}).get("adr", 50))
