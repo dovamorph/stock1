@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-04 08:47",
+  "updated": "2026-06-04 13:24",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,8 +13,8 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Israeli strikes kill nine in Lebanon as Hezbollah fires rockets over border",
-    "US House votes to halt Iran war, in rebuke to Trump",
+    "Israel and Lebanon agree to implement ceasefire if Hezbollah stops attacks",
+    "US House votes to rein in Trump's war powers in rebuke over Iran",
     "'Crazy' phone call between Trump and Netanyahu complicates Iran talks",
     "Grab what you can while you can: The new reality in the South China Sea",
     "Ukrainian drones hit St Petersburg as Putin's flagship economic forum opens"
@@ -24,19 +24,19 @@
       "level": "경고",
       "color": "orange",
       "signal": "🟠",
-      "summary": "US House votes to halt Iran war, in rebuke to...",
+      "summary": "Israel and Lebanon agree to implement ceasefi...",
       "action": "포지션 축소 검토 / 모니터링 강화",
-      "matched": 14,
+      "matched": 18,
       "score": 1.5
     },
     "macro": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "연준 베이지북 \"물가 압력 확산…'저채용·저해고' 기조 지속\"",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 3.0
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     },
     "disaster": {
       "level": "안전",
@@ -51,10 +51,10 @@
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "US House votes to halt Iran war, in rebuke to...",
+      "summary": "US House votes to rein in Trump's war powers ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 11,
-      "score": 4.3
+      "matched": 13,
+      "score": 5.8
     },
     "policy": {
       "level": "안전",
