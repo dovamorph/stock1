@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-05 08:11",
+  "updated": "2026-06-05 13:07",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -17,7 +17,7 @@
     "Hezbollah rejects renewed ceasefire agreed by Israel and Lebanon",
     "Trump hits back at 'unpatriotic' vote after House rebukes him over Iran",
     "Ex-wife of Dubai ruler's nephew in custody, prosecutors say",
-    "Dutch police investigate suspected drugging and sexual assault of multiple women"
+    "Mangrove forests are healing after decades of human destruction"
   ],
   "categories": {
     "geopolitical": {
@@ -26,7 +26,7 @@
       "signal": "🟠",
       "summary": "Hezbollah rejects renewed ceasefire agreed by...",
       "action": "포지션 축소 검토 / 모니터링 강화",
-      "matched": 11,
+      "matched": 10,
       "score": 1.5
     },
     "macro": {
@@ -48,13 +48,13 @@
       "score": 0
     },
     "trade": {
-      "level": "주의",
+      "level": "신호",
       "color": "yellow",
       "signal": "🟡",
       "summary": "Trump hits back at 'unpatriotic' vote after H...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 7,
-      "score": 4.5
+      "action": "관련 지표 추가 확인 후 판단",
+      "matched": 4,
+      "score": 5.8
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "주의",
-    "color": "yellow",
+    "level": "경고",
+    "color": "orange",
     "summary": "주의 필요: 지정학적 충돌",
-    "action": "신규 매수 자제 / 추이 관찰"
+    "action": "포지션 축소 검토 / 모니터링 강화"
   }
 }
