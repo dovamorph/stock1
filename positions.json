@@ -1,41 +1,8 @@
 {
   "portfolio": {
     "budget": 7000000,
-    "used": 6145700,
+    "used": 2778000,
     "positions": {
-      "043260": {
-        "name": "성호전자",
-        "grade": "A",
-        "buy_price": 54100,
-        "qty": 27,
-        "sold_qty": 0,
-        "buy_date": "2026-06-04",
-        "sl": 50313,
-        "tp1": 59510,
-        "tp2": 64920
-      },
-      "402340": {
-        "name": "SK스퀘어",
-        "grade": "B",
-        "buy_price": 1387000,
-        "qty": 1,
-        "sold_qty": 0,
-        "buy_date": "2026-06-04",
-        "sl": 1289910,
-        "tp1": 1525700,
-        "tp2": 1664400
-      },
-      "028260": {
-        "name": "삼성물산",
-        "grade": "D",
-        "buy_price": 520000,
-        "qty": 1,
-        "sold_qty": 0,
-        "buy_date": "2026-06-04",
-        "sl": 483600,
-        "tp1": 572000,
-        "tp2": 624000
-      },
       "353200": {
         "name": "대덕전자",
         "grade": "D",
@@ -83,6 +50,42 @@
     }
   },
   "trade_history": [
+    {
+      "ticker": "028260",
+      "name": "삼성물산",
+      "buy_price": 520000,
+      "sell_price": 484750,
+      "qty": 1,
+      "sell_date": "20260605",
+      "sell_time": "09:03",
+      "pnl": -35250,
+      "pnl_pct": -6.78,
+      "reason": "매도주도전환 -6.8%"
+    },
+    {
+      "ticker": "402340",
+      "name": "SK스퀘어",
+      "buy_price": 1387000,
+      "sell_price": 1267000,
+      "qty": 1,
+      "sell_date": "20260605",
+      "sell_time": "09:03",
+      "pnl": -120000,
+      "pnl_pct": -8.65,
+      "reason": "손절 -8.7%"
+    },
+    {
+      "ticker": "043260",
+      "name": "성호전자",
+      "buy_price": 54100,
+      "sell_price": 51500,
+      "qty": 27,
+      "sell_date": "20260605",
+      "sell_time": "09:03",
+      "pnl": -70200,
+      "pnl_pct": -4.81,
+      "reason": "매도주도전환 -4.8%"
+    },
     {
       "ticker": "005930",
       "name": "삼성전자",
