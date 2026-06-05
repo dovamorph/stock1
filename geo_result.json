@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-05 13:07",
+  "updated": "2026-06-05 18:58",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -15,9 +15,9 @@
   "news_sample": [
     "Zelensky proposes face-to-face talks in open letter to Putin",
     "Hezbollah rejects renewed ceasefire agreed by Israel and Lebanon",
-    "Trump hits back at 'unpatriotic' vote after House rebukes him over Iran",
-    "Ex-wife of Dubai ruler's nephew in custody, prosecutors say",
-    "Mangrove forests are healing after decades of human destruction"
+    "US actor James Handy stabbed to death, with girlfriend's son arrested",
+    "How Trump's White House ballroom plan has doubled in size and cost over a year",
+    "Ex-wife of Dubai ruler's nephew in custody, prosecutors say"
   ],
   "categories": {
     "geopolitical": {
@@ -26,7 +26,7 @@
       "signal": "🟠",
       "summary": "Hezbollah rejects renewed ceasefire agreed by...",
       "action": "포지션 축소 검토 / 모니터링 강화",
-      "matched": 10,
+      "matched": 11,
       "score": 1.5
     },
     "macro": {
@@ -48,13 +48,13 @@
       "score": 0
     },
     "trade": {
-      "level": "신호",
-      "color": "yellow",
-      "signal": "🟡",
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
       "summary": "Trump hits back at 'unpatriotic' vote after H...",
-      "action": "관련 지표 추가 확인 후 판단",
-      "matched": 4,
-      "score": 5.8
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 11,
+      "score": 1.4
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "경고",
-    "color": "orange",
-    "summary": "주의 필요: 지정학적 충돌",
-    "action": "포지션 축소 검토 / 모니터링 강화"
+    "level": "위험",
+    "color": "red",
+    "summary": "주의 필요: 지정학적 충돌, 보호무역·공급망",
+    "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
