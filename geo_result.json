@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-06 04:59",
+  "updated": "2026-06-06 06:41",
   "news_count": 100,
   "intl_count": 55,
   "domestic_count": 45,
@@ -21,22 +21,22 @@
   ],
   "categories": {
     "geopolitical": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
       "summary": "Putin says there is 'no point' meeting Zelens...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 19,
-      "score": 1.5
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 18,
+      "score": 27.4
     },
     "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "‘Red meat is a dream’: Iran inflation hits hi...",
+      "summary": "美금리인상 기대강화에 주식·채권·금 동반급락…달러는 강세(종합)",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 3,
-      "score": 5.9
+      "score": 7.5
     },
     "disaster": {
       "level": "안전",
@@ -53,8 +53,8 @@
       "signal": "🟡",
       "summary": "China cracks down on soft porn, violence and ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 7,
-      "score": 6.0
+      "matched": 5,
+      "score": 1.4
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "주의",
-    "color": "yellow",
-    "summary": "주의 필요: 지정학적 충돌",
-    "action": "신규 매수 자제 / 추이 관찰"
+    "level": "안전",
+    "color": "green",
+    "summary": "전반적 안정. 정상 운용 유지",
+    "action": "정상 운용 유지"
   }
 }
