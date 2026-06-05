@@ -1,8 +1,8 @@
 {
-  "updated": "2026-06-05 21:44",
-  "news_count": 85,
+  "updated": "2026-06-06 01:31",
+  "news_count": 99,
   "intl_count": 54,
-  "domestic_count": 31,
+  "domestic_count": 45,
   "source_stats": {
     "BBC World": 28,
     "Al Jazeera": 26,
@@ -10,33 +10,33 @@
     "한국경제": 1,
     "매일경제": 0,
     "파이낸셜뉴스": 0,
-    "StockPlus": 0
+    "StockPlus": 14
   },
   "news_sample": [
+    "Nasa tells ISS astronauts to shelter during air leak repair attempt",
+    "Ukraine strikes cargo ships and admits Romania drone blast",
     "Zelensky proposes face-to-face talks in open letter to Putin",
     "Fury in France after child murder suspect's criminal record released",
-    "How Trump's White House ballroom plan has doubled in size and cost over a year",
-    "Hezbollah rejects renewed ceasefire agreed by Israel and Lebanon",
     "Nearly 50 people die of thirst in Sahara desert after lorry breaks down"
   ],
   "categories": {
     "geopolitical": {
-      "level": "경고",
-      "color": "orange",
-      "signal": "🟠",
-      "summary": "Hezbollah rejects renewed ceasefire agreed by...",
-      "action": "포지션 축소 검토 / 모니터링 강화",
-      "matched": 18,
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
+      "summary": "Ukraine strikes cargo ships and admits Romani...",
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 16,
       "score": 1.5
     },
     "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "[속보] 美 '깜짝 고용수치'에 미국채금리 급등…30년물 5.0% 돌파",
+      "summary": "‘Red meat is a dream’: Iran inflation hits hi...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "matched": 3,
+      "score": 5.9
     },
     "disaster": {
       "level": "안전",
@@ -48,28 +48,28 @@
       "score": 0
     },
     "trade": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
       "summary": "China cracks down on soft porn, violence and ...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 13,
-      "score": 1.4
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 11,
+      "score": 5.9
     },
     "policy": {
-      "level": "안전",
-      "color": "green",
-      "signal": "🟢",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "러 국영 원전기업 CEO \"한국, 북극항로에 큰 관심\"",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 1,
+      "score": 1.5
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
-    "summary": "주의 필요: 지정학적 충돌, 보호무역·공급망",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "level": "주의",
+    "color": "yellow",
+    "summary": "주의 필요: 지정학적 충돌",
+    "action": "신규 매수 자제 / 추이 관찰"
   }
 }
