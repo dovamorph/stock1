@@ -1,10 +1,10 @@
 {
-  "updated": "2026-06-06 01:31",
-  "news_count": 99,
-  "intl_count": 54,
+  "updated": "2026-06-06 04:59",
+  "news_count": 100,
+  "intl_count": 55,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 28,
+    "BBC World": 29,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -13,9 +13,9 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Nasa tells ISS astronauts to shelter during air leak repair attempt",
+    "Putin says there is 'no point' meeting Zelensky over ending Ukraine war",
     "Ukraine strikes cargo ships and admits Romania drone blast",
-    "Zelensky proposes face-to-face talks in open letter to Putin",
+    "Astronauts return to ISS after sheltering during air leak repair attempt",
     "Fury in France after child murder suspect's criminal record released",
     "Nearly 50 people die of thirst in Sahara desert after lorry breaks down"
   ],
@@ -24,9 +24,9 @@
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "Ukraine strikes cargo ships and admits Romani...",
+      "summary": "Putin says there is 'no point' meeting Zelens...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 16,
+      "matched": 19,
       "score": 1.5
     },
     "macro": {
@@ -53,17 +53,17 @@
       "signal": "🟡",
       "summary": "China cracks down on soft porn, violence and ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 11,
-      "score": 5.9
+      "matched": 7,
+      "score": 6.0
     },
     "policy": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "러 국영 원전기업 CEO \"한국, 북극항로에 큰 관심\"",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
