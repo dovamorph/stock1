@@ -1,23 +1,23 @@
 {
-  "updated": "2026-06-05 18:58",
-  "news_count": 101,
-  "intl_count": 56,
-  "domestic_count": 45,
+  "updated": "2026-06-05 21:44",
+  "news_count": 85,
+  "intl_count": 54,
+  "domestic_count": 31,
   "source_stats": {
-    "BBC World": 30,
+    "BBC World": 28,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
     "매일경제": 0,
     "파이낸셜뉴스": 0,
-    "StockPlus": 14
+    "StockPlus": 0
   },
   "news_sample": [
     "Zelensky proposes face-to-face talks in open letter to Putin",
-    "Hezbollah rejects renewed ceasefire agreed by Israel and Lebanon",
-    "US actor James Handy stabbed to death, with girlfriend's son arrested",
+    "Fury in France after child murder suspect's criminal record released",
     "How Trump's White House ballroom plan has doubled in size and cost over a year",
-    "Ex-wife of Dubai ruler's nephew in custody, prosecutors say"
+    "Hezbollah rejects renewed ceasefire agreed by Israel and Lebanon",
+    "Nearly 50 people die of thirst in Sahara desert after lorry breaks down"
   ],
   "categories": {
     "geopolitical": {
@@ -26,17 +26,17 @@
       "signal": "🟠",
       "summary": "Hezbollah rejects renewed ceasefire agreed by...",
       "action": "포지션 축소 검토 / 모니터링 강화",
-      "matched": 11,
+      "matched": 18,
       "score": 1.5
     },
     "macro": {
-      "level": "안전",
-      "color": "green",
-      "signal": "🟢",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "[속보] 美 '깜짝 고용수치'에 미국채금리 급등…30년물 5.0% 돌파",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 1,
+      "score": 1.5
     },
     "disaster": {
       "level": "안전",
@@ -51,9 +51,9 @@
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "Trump hits back at 'unpatriotic' vote after H...",
+      "summary": "China cracks down on soft porn, violence and ...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 11,
+      "matched": 13,
       "score": 1.4
     },
     "policy": {
