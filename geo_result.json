@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-06 15:55",
+  "updated": "2026-06-06 19:07",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -21,12 +21,12 @@
   ],
   "categories": {
     "geopolitical": {
-      "level": "경고",
-      "color": "orange",
-      "signal": "🟠",
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
       "summary": "US and Iran exchange strikes in Gulf in lates...",
-      "action": "포지션 축소 검토 / 모니터링 강화",
-      "matched": 20,
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 17,
       "score": 1.5
     },
     "macro": {
@@ -53,23 +53,23 @@
       "signal": "🟡",
       "summary": "US and Iran exchange strikes in Gulf in lates...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 7,
+      "matched": 9,
       "score": 1.4
     },
     "policy": {
-      "level": "안전",
-      "color": "green",
-      "signal": "🟢",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "한수원, 체코 원전 역외보조금 리스크 해소…EU 심층조사 미개시(종합)",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 2,
+      "score": 3.0
     }
   },
   "overall": {
-    "level": "경고",
-    "color": "orange",
+    "level": "위험",
+    "color": "red",
     "summary": "주의 필요: 지정학적 충돌",
-    "action": "포지션 축소 검토 / 모니터링 강화"
+    "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
