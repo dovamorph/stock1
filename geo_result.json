@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-07 06:08",
+  "updated": "2026-06-07 08:07",
   "news_count": 93,
   "intl_count": 48,
   "domestic_count": 45,
@@ -26,17 +26,17 @@
       "signal": "🔴",
       "summary": "US and Iran exchange strikes in Gulf in lates...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 7,
+      "matched": 9,
       "score": 1.5
     },
     "macro": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
-      "summary": "외국인 매도에 2분기 환율 외환위기 후 최고…공항선 1,620원대",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 3,
-      "score": 1.5
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "고환율·고금리·고유가 '3고' 장벽 넘을 대안주는?",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 1,
+      "score": 3.0
     },
     "disaster": {
       "level": "안전",
@@ -69,7 +69,7 @@
   "overall": {
     "level": "위험",
     "color": "red",
-    "summary": "주의 필요: 지정학적 충돌, 거시/통화 정책",
+    "summary": "주의 필요: 지정학적 충돌",
     "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
