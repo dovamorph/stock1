@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-07 00:18",
+  "updated": "2026-06-07 02:18",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -16,8 +16,8 @@
     "Ukrainian drones target St Petersburg in attack Russia calls 'unprecedented'",
     "US and Iran exchange strikes in Gulf in latest test of ceasefire",
     "Armenia braces for election as Russia piles pressure on pro-West government",
-    "Lebanon says three soldiers killed in Israeli attack on car",
-    "Iran says staff blocked from entering US after players given World Cup visas"
+    "Lebanese general among three soldiers killed in Israeli attack on car",
+    "Andreeva wins French Open as Chwalinska fairytale ends"
   ],
   "categories": {
     "geopolitical": {
@@ -26,8 +26,8 @@
       "signal": "🟡",
       "summary": "US and Iran exchange strikes in Gulf in lates...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 10,
-      "score": 16.1
+      "matched": 11,
+      "score": 17.5
     },
     "macro": {
       "level": "안전",
