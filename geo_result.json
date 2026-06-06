@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-06 19:07",
+  "updated": "2026-06-06 22:51",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,21 +13,21 @@
     "StockPlus": 14
   },
   "news_sample": [
+    "Ukrainian drones target St Petersburg in attack Russia calls 'unprecedented'",
     "US and Iran exchange strikes in Gulf in latest test of ceasefire",
-    "Putin says there is 'no point' meeting Zelensky over ending Ukraine war",
-    "Rumours and speculation as fans forecast date of Taylor Swift's wedding",
     "Armenia braces for election as Russia piles pressure on pro-West government",
-    "Iran's football team granted visas to enter US for World Cup, officials say"
+    "Lebanon says three soldiers killed in Israeli attack on car",
+    "Iran says staff blocked from entering US after players given World Cup visas"
   ],
   "categories": {
     "geopolitical": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
       "summary": "US and Iran exchange strikes in Gulf in lates...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 17,
-      "score": 1.5
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 10,
+      "score": 16.1
     },
     "macro": {
       "level": "안전",
@@ -53,23 +53,23 @@
       "signal": "🟡",
       "summary": "US and Iran exchange strikes in Gulf in lates...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 9,
-      "score": 1.4
+      "matched": 7,
+      "score": 1.5
     },
     "policy": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "한수원, 체코 원전 역외보조금 리스크 해소…EU 심층조사 미개시(종합)",
+      "summary": "[프로야구 창원전적] NC 8-5 LG",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 2,
-      "score": 3.0
+      "matched": 1,
+      "score": 1.5
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
-    "summary": "주의 필요: 지정학적 충돌",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "level": "안전",
+    "color": "green",
+    "summary": "전반적 안정. 정상 운용 유지",
+    "action": "정상 운용 유지"
   }
 }
