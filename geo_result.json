@@ -1,10 +1,10 @@
 {
-  "updated": "2026-06-06 12:51",
-  "news_count": 100,
-  "intl_count": 55,
+  "updated": "2026-06-06 15:55",
+  "news_count": 101,
+  "intl_count": 56,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 29,
+    "BBC World": 30,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -13,21 +13,21 @@
     "StockPlus": 14
   },
   "news_sample": [
+    "US and Iran exchange strikes in Gulf in latest test of ceasefire",
     "Putin says there is 'no point' meeting Zelensky over ending Ukraine war",
-    "Ukraine strikes cargo ships and admits Romania drone blast",
-    "Astronauts return to ISS after sheltering during air leak repair attempt",
-    "Fury in France after child murder suspect's criminal record released",
-    "Nearly 50 people die of thirst in Sahara desert after lorry breaks down"
+    "Rumours and speculation as fans forecast date of Taylor Swift's wedding",
+    "Armenia braces for election as Russia piles pressure on pro-West government",
+    "Iran's football team granted visas to enter US for World Cup, officials say"
   ],
   "categories": {
     "geopolitical": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
-      "summary": "Putin says there is 'no point' meeting Zelens...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 23,
-      "score": 4.5
+      "level": "경고",
+      "color": "orange",
+      "signal": "🟠",
+      "summary": "US and Iran exchange strikes in Gulf in lates...",
+      "action": "포지션 축소 검토 / 모니터링 강화",
+      "matched": 20,
+      "score": 1.5
     },
     "macro": {
       "level": "안전",
@@ -51,10 +51,10 @@
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "China cracks down on soft porn, violence and ...",
+      "summary": "US and Iran exchange strikes in Gulf in lates...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 7,
-      "score": 2.9
+      "score": 1.4
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
+    "level": "경고",
+    "color": "orange",
     "summary": "주의 필요: 지정학적 충돌",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "action": "포지션 축소 검토 / 모니터링 강화"
   }
 }
