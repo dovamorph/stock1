@@ -1,42 +1,42 @@
 {
-  "updated": "2026-06-07 02:18",
-  "news_count": 101,
-  "intl_count": 56,
-  "domestic_count": 45,
+  "updated": "2026-06-07 04:37",
+  "news_count": 85,
+  "intl_count": 54,
+  "domestic_count": 31,
   "source_stats": {
-    "BBC World": 30,
+    "BBC World": 28,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
     "매일경제": 0,
     "파이낸셜뉴스": 0,
-    "StockPlus": 14
+    "StockPlus": 0
   },
   "news_sample": [
     "Ukrainian drones target St Petersburg in attack Russia calls 'unprecedented'",
     "US and Iran exchange strikes in Gulf in latest test of ceasefire",
-    "Armenia braces for election as Russia piles pressure on pro-West government",
+    "Hegseth attacks Europe over 'invasion' of migrants on its beaches in D-Day speech",
     "Lebanese general among three soldiers killed in Israeli attack on car",
-    "Andreeva wins French Open as Chwalinska fairytale ends"
+    "Pope Leo begins Spain visit with praise for government"
   ],
   "categories": {
     "geopolitical": {
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
+      "summary": "US and Iran exchange strikes in Gulf in lates...",
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 11,
+      "score": 1.5
+    },
+    "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "US and Iran exchange strikes in Gulf in lates...",
+      "summary": "'은행규제 강화론자' 美연준 이사 \"규제완화 단기 흥분제 불과\"",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 11,
-      "score": 17.5
-    },
-    "macro": {
-      "level": "안전",
-      "color": "green",
-      "signal": "🟢",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "matched": 1,
+      "score": 1.5
     },
     "disaster": {
       "level": "안전",
@@ -57,19 +57,19 @@
       "score": 1.5
     },
     "policy": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "[프로야구 창원전적] NC 8-5 LG",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
-    "level": "안전",
-    "color": "green",
-    "summary": "전반적 안정. 정상 운용 유지",
-    "action": "정상 운용 유지"
+    "level": "위험",
+    "color": "red",
+    "summary": "주의 필요: 지정학적 충돌",
+    "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
