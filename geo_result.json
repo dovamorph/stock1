@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-07 18:19",
+  "updated": "2026-06-07 20:51",
   "news_count": 96,
   "intl_count": 51,
   "domestic_count": 45,
@@ -15,7 +15,7 @@
   "news_sample": [
     "Hegseth attacks Europe over migration with beach 'invasion' D-Day speech",
     "Steve Rosenberg: Russia's economic forum overshadowed by drone attacks on St Petersburg",
-    "Huge crowds throng Madrid streets for Pope's open-air mass",
+    "Huge crowds throng Madrid streets for Pope's open-air Mass",
     "Iran says staff blocked from entering US after players given World Cup visas",
     "Insecurity and instability drive voters in Peru's tight presidential race"
   ],
@@ -26,7 +26,7 @@
       "signal": "🔴",
       "summary": "Hegseth attacks Europe over migration with be...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 12,
+      "matched": 14,
       "score": 1.5
     },
     "macro": {
@@ -53,17 +53,17 @@
       "signal": "🟡",
       "summary": "Iran says staff blocked from entering US afte...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 9,
-      "score": 1.4
+      "matched": 12,
+      "score": 2.9
     },
     "policy": {
-      "level": "안전",
-      "color": "green",
-      "signal": "🟢",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "[프로야구 창원전적] NC 7-6 LG",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 1,
+      "score": 1.5
     }
   },
   "overall": {
