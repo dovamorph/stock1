@@ -1,10 +1,10 @@
 {
-  "updated": "2026-06-08 02:22",
-  "news_count": 94,
-  "intl_count": 49,
+  "updated": "2026-06-08 04:37",
+  "news_count": 93,
+  "intl_count": 48,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 23,
+    "BBC World": 22,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -13,21 +13,21 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Israel strikes Beirut suburb days after US-brokered truce",
-    "Zelensky criticises 'vile' Chornobyl drone strike ahead of London talks",
-    "Steve Rosenberg: Russia's economic forum overshadowed by drone attacks on St Petersburg",
+    "Zelensky in Downing Street for Ukraine war talks with European leaders",
     "Armenia votes as Russia piles pressure on pro-West government",
-    "Huge crowds throng Madrid streets for Pope's open-air Mass"
+    "Eriksen conscious after collapsing in Denmark game",
+    "Huge crowds throng Madrid streets for Pope's open-air Mass",
+    "Last-minute visas and moving training camp: Iran's road to the World Cup"
   ],
   "categories": {
     "geopolitical": {
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "Iran's World Cup team lands in Mexico amid US...",
+      "summary": "Zelensky in Downing Street for Ukraine war ta...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 20,
-      "score": 4.5
+      "matched": 21,
+      "score": 6.0
     },
     "macro": {
       "level": "안전",
@@ -51,10 +51,10 @@
       "level": "신호",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Iran's World Cup team lands in Mexico amid US...",
+      "summary": "Last-minute visas and moving training camp: I...",
       "action": "관련 지표 추가 확인 후 판단",
-      "matched": 6,
-      "score": 8.5
+      "matched": 5,
+      "score": 7.1
     },
     "policy": {
       "level": "안전",
