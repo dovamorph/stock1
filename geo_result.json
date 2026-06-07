@@ -1,10 +1,10 @@
 {
-  "updated": "2026-06-07 20:51",
-  "news_count": 96,
-  "intl_count": 51,
+  "updated": "2026-06-07 23:01",
+  "news_count": 94,
+  "intl_count": 49,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 25,
+    "BBC World": 23,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -13,11 +13,11 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Hegseth attacks Europe over migration with beach 'invasion' D-Day speech",
+    "Zelensky criticises 'vile' Chornobyl drone strike ahead of London talks",
     "Steve Rosenberg: Russia's economic forum overshadowed by drone attacks on St Petersburg",
-    "Huge crowds throng Madrid streets for Pope's open-air Mass",
-    "Iran says staff blocked from entering US after players given World Cup visas",
-    "Insecurity and instability drive voters in Peru's tight presidential race"
+    "Armenia votes as Russia piles pressure on pro-West government",
+    "Hegseth attacks Europe over migration with beach 'invasion' D-Day speech",
+    "Huge crowds throng Madrid streets for Pope's open-air Mass"
   ],
   "categories": {
     "geopolitical": {
@@ -26,17 +26,17 @@
       "signal": "🔴",
       "summary": "Hegseth attacks Europe over migration with be...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 14,
-      "score": 1.5
+      "matched": 15,
+      "score": 3.0
     },
     "macro": {
-      "level": "안전",
-      "color": "green",
-      "signal": "🟢",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "\"미국인 69% 불만…트럼프, 물가정책 지지도 조사이래 최저\"",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 1,
+      "score": 1.5
     },
     "disaster": {
       "level": "안전",
@@ -48,13 +48,13 @@
       "score": 0
     },
     "trade": {
-      "level": "주의",
+      "level": "신호",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Iran says staff blocked from entering US afte...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 12,
-      "score": 2.9
+      "summary": "Iran's World Cup team lands in Mexico amid US...",
+      "action": "관련 지표 추가 확인 후 판단",
+      "matched": 9,
+      "score": 12.8
     },
     "policy": {
       "level": "주의",
