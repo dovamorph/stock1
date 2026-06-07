@@ -1,10 +1,10 @@
 {
-  "updated": "2026-06-07 13:17",
-  "news_count": 93,
-  "intl_count": 48,
+  "updated": "2026-06-07 18:19",
+  "news_count": 96,
+  "intl_count": 51,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 22,
+    "BBC World": 25,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -13,20 +13,20 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Ukrainian drones target St Petersburg in attack Russia calls 'unprecedented'",
-    "US and Iran exchange strikes in Gulf in latest test of ceasefire",
     "Hegseth attacks Europe over migration with beach 'invasion' D-Day speech",
-    "Funeral held for baby shot dead by Israeli troops in occupied West Bank",
-    "Pope begins Spain visit with praise for country's opposition to war and support for migrants"
+    "Steve Rosenberg: Russia's economic forum overshadowed by drone attacks on St Petersburg",
+    "Huge crowds throng Madrid streets for Pope's open-air mass",
+    "Iran says staff blocked from entering US after players given World Cup visas",
+    "Insecurity and instability drive voters in Peru's tight presidential race"
   ],
   "categories": {
     "geopolitical": {
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "US and Iran exchange strikes in Gulf in lates...",
+      "summary": "Hegseth attacks Europe over migration with be...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 10,
+      "matched": 12,
       "score": 1.5
     },
     "macro": {
@@ -48,13 +48,13 @@
       "score": 0
     },
     "trade": {
-      "level": "신호",
+      "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "US and Iran exchange strikes in Gulf in lates...",
-      "action": "관련 지표 추가 확인 후 판단",
-      "matched": 5,
-      "score": 7.2
+      "summary": "Iran says staff blocked from entering US afte...",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 9,
+      "score": 1.4
     },
     "policy": {
       "level": "안전",
