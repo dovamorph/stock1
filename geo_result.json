@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-07 08:07",
+  "updated": "2026-06-07 13:17",
   "news_count": 93,
   "intl_count": 48,
   "domestic_count": 45,
@@ -15,7 +15,7 @@
   "news_sample": [
     "Ukrainian drones target St Petersburg in attack Russia calls 'unprecedented'",
     "US and Iran exchange strikes in Gulf in latest test of ceasefire",
-    "Hegseth attacks Europe over 'invasion' of migrants on its beaches in D-Day speech",
+    "Hegseth attacks Europe over migration with beach 'invasion' D-Day speech",
     "Funeral held for baby shot dead by Israeli troops in occupied West Bank",
     "Pope begins Spain visit with praise for country's opposition to war and support for migrants"
   ],
@@ -26,17 +26,17 @@
       "signal": "🔴",
       "summary": "US and Iran exchange strikes in Gulf in lates...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 9,
+      "matched": 10,
       "score": 1.5
     },
     "macro": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "고환율·고금리·고유가 '3고' 장벽 넘을 대안주는?",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 3.0
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     },
     "disaster": {
       "level": "안전",
@@ -48,13 +48,13 @@
       "score": 0
     },
     "trade": {
-      "level": "주의",
+      "level": "신호",
       "color": "yellow",
       "signal": "🟡",
       "summary": "US and Iran exchange strikes in Gulf in lates...",
-      "action": "신규 매수 자제 / 추이 관찰",
+      "action": "관련 지표 추가 확인 후 판단",
       "matched": 5,
-      "score": 1.5
+      "score": 7.2
     },
     "policy": {
       "level": "안전",
