@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-07 23:01",
+  "updated": "2026-06-08 02:22",
   "news_count": 94,
   "intl_count": 49,
   "domestic_count": 45,
@@ -13,10 +13,10 @@
     "StockPlus": 14
   },
   "news_sample": [
+    "Israel strikes Beirut suburb days after US-brokered truce",
     "Zelensky criticises 'vile' Chornobyl drone strike ahead of London talks",
     "Steve Rosenberg: Russia's economic forum overshadowed by drone attacks on St Petersburg",
     "Armenia votes as Russia piles pressure on pro-West government",
-    "Hegseth attacks Europe over migration with beach 'invasion' D-Day speech",
     "Huge crowds throng Madrid streets for Pope's open-air Mass"
   ],
   "categories": {
@@ -24,21 +24,12 @@
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "Hegseth attacks Europe over migration with be...",
+      "summary": "Iran's World Cup team lands in Mexico amid US...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 15,
-      "score": 3.0
+      "matched": 20,
+      "score": 4.5
     },
     "macro": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "\"미국인 69% 불만…트럼프, 물가정책 지지도 조사이래 최저\"",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
-    },
-    "disaster": {
       "level": "안전",
       "color": "green",
       "signal": "🟢",
@@ -47,29 +38,38 @@
       "matched": 0,
       "score": 0
     },
+    "disaster": {
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
+      "summary": "[르포] \"팬데믹 때 '사랑의 불시착'을 보면서 K-드라마에 빠졌어요\"",
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 1,
+      "score": 1.5
+    },
     "trade": {
       "level": "신호",
       "color": "yellow",
       "signal": "🟡",
       "summary": "Iran's World Cup team lands in Mexico amid US...",
       "action": "관련 지표 추가 확인 후 판단",
-      "matched": 9,
-      "score": 12.8
+      "matched": 6,
+      "score": 8.5
     },
     "policy": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "[프로야구 창원전적] NC 7-6 LG",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
     "level": "위험",
     "color": "red",
-    "summary": "주의 필요: 지정학적 충돌",
+    "summary": "주의 필요: 지정학적 충돌, 환경·대규모 재난",
     "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
