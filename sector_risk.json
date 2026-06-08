@@ -1,0 +1,123 @@
+{
+  "updated_at": "2026-06-08T13:22:06.870975+09:00",
+  "date": "20260608",
+  "window_days": 14,
+  "calendar_events": [
+    {
+      "id": "options_expiry_jun2026",
+      "name": "옵션 만기일",
+      "date": "2026-06-11",
+      "type": "expiry",
+      "risk_level": "medium",
+      "description": "월물 옵션 만기. 프로그램 매매 영향으로 변동성 확대 가능. 장 마감 앞두고 수급 급변 주의.",
+      "benefit_text": "",
+      "damage_text": "전체 변동성 확대 주의",
+      "sector_impacts": {
+        "전체시장": -1
+      },
+      "d_day": 3
+    },
+    {
+      "id": "spacex_ipo_2026",
+      "name": "스페이스X IPO",
+      "date": "2026-06-12",
+      "type": "ipo",
+      "risk_level": "high",
+      "description": "역대 최대 공모(750억달러)로 글로벌 자금이 쏠리면서 기존 보유 주식을 팔아 현금을 확보하는 움직임 예고. 반도체·성장주 중심으로 외국인 매도세 강화 가능성.",
+      "benefit_text": "우주ETF ▲▲▲",
+      "damage_text": "반도체 ▼▼  성장주 ▼",
+      "sector_impacts": {
+        "반도체": -2,
+        "우주ETF": 3,
+        "전체시장": -1
+      },
+      "d_day": 4
+    },
+    {
+      "id": "fed_jun2026",
+      "name": "Fed 금리 결정",
+      "date": "2026-06-18",
+      "type": "fed",
+      "risk_level": "medium",
+      "description": "금리 동결 예상. 인하 시그널이 나오면 성장주·금융주 강세. 예상 밖 인상 시그널 시 전체 시장 충격 가능.",
+      "benefit_text": "인하 시: 금융 ▲▲  건설 ▲  성장주 ▲",
+      "damage_text": "인상 시: 전체장 ▼▼",
+      "sector_impacts": {
+        "금융": 2,
+        "건설": 1,
+        "전체시장": 1
+      },
+      "d_day": 10
+    },
+    {
+      "id": "nvidia_q2_2026",
+      "name": "NVIDIA 2분기 실적",
+      "date": "2026-06-25",
+      "type": "earnings",
+      "risk_level": "high",
+      "description": "AI 수요 확인의 가늠자. 어닝 서프라이즈 시 반도체 전체 랠리. 실망 시 AI테마 전반 조정.",
+      "benefit_text": "호실적: 반도체 ▲▲▲  소부장 ▲▲",
+      "damage_text": "실망: 반도체 ▼▼  AI테마 ▼▼",
+      "sector_impacts": {
+        "반도체": 3,
+        "로봇": 1,
+        "전력전선": 1
+      },
+      "d_day": 17
+    }
+  ],
+  "sector_stats": {
+    "반도체": {
+      "score": 0,
+      "positive_count": 0,
+      "negative_count": 0,
+      "recent_events": []
+    },
+    "건설": {
+      "score": 0,
+      "positive_count": 0,
+      "negative_count": 0,
+      "recent_events": []
+    },
+    "방산": {
+      "score": 0,
+      "positive_count": 0,
+      "negative_count": 0,
+      "recent_events": []
+    },
+    "전력전선": {
+      "score": 0,
+      "positive_count": 0,
+      "negative_count": 0,
+      "recent_events": []
+    },
+    "로봇": {
+      "score": 0,
+      "positive_count": 0,
+      "negative_count": 0,
+      "recent_events": []
+    },
+    "금융": {
+      "score": 0,
+      "positive_count": 0,
+      "negative_count": 0,
+      "recent_events": []
+    },
+    "우주ETF": {
+      "score": 0,
+      "positive_count": 0,
+      "negative_count": 0,
+      "recent_events": []
+    },
+    "전체시장": {
+      "score": 0,
+      "positive_count": 0,
+      "negative_count": 0,
+      "recent_events": []
+    }
+  },
+  "event_history": [],
+  "total_negatives": 0,
+  "total_positives": 0,
+  "risk_level": "LOW"
+}
