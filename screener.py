@@ -372,8 +372,16 @@ def load_candidates():
     print(f"\n[1/3] 후보 {CAND_N}종목 로드 중...")
     rows=[]
     for m in ["KOSPI","KOSDAQ"]:
+        lst = None
+        for attempt in range(3):   # 최대 3회 재시도
+            try:
+                lst=fdr.StockListing(m); lst["market"]=m
+                break
+            except Exception as e:
+                print(f"  {m} 오류 (시도 {attempt+1}/3): {e}")
+                if attempt < 2: time.sleep(3)
+        if lst is None: continue
         try:
-            lst=fdr.StockListing(m); lst["market"]=m
             cm={}
             for c in lst.columns:
                 cl=c.lower()
@@ -386,7 +394,7 @@ def load_candidates():
                 if len(num): lst["Marcap"]=lst[num[0]]
             lst["Marcap"]=pd.to_numeric(lst["Marcap"],errors="coerce").fillna(0)
             rows.append(lst[lst["Marcap"]>0])
-        except Exception as e: print(f"  {m} 오류: {e}")
+        except Exception as e: print(f"  {m} 파싱 오류: {e}")
     if not rows: return []
     combined=pd.concat(rows,ignore_index=True).sort_values("Marcap",ascending=False)
     result=[]; seen=set()
