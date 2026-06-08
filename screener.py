@@ -420,7 +420,9 @@ def load_candidates_from_kis(tok):
             print(f"  {mkt_name} KIS 순위 조회 실패: {e}")
 
     return result
-    print(f"\n[1/3] 후보 {CAND_N}종목 로드 중...")
+
+
+def load_candidates():
     rows=[]
     for m in ["KOSPI","KOSDAQ"]:
         lst = None
