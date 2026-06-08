@@ -867,6 +867,35 @@ def main():
         "recommended":     recs,
     }, open(RESULTS_FILE,"w",encoding="utf-8"), ensure_ascii=False, indent=2, default=str)
     print("\n  💾 results.json 저장 완료")
+
+    # ── 시장 흐름 히스토리 저장 (최근 60거래일) ──────────────────────
+    HISTORY_FILE = "market_history.json"
+    try:
+        history = []
+        if os.path.exists(HISTORY_FILE):
+            with open(HISTORY_FILE, "r", encoding="utf-8") as f:
+                history = json.load(f)
+        today_entry = {
+            "date":      date,
+            "kospi":     market_signal.get("kospi_close", 0),
+            "kosdaq":    market_signal.get("kosdaq_close", 0),
+            "adr":       adr_data.get("adr", 50),
+            "rsi":       round(float(market_signal.get("rsi_14", 50)), 1),
+            "vkospi":    round(float(vkospi_est), 1),
+            "kospi_ch1": round(float(market_signal.get("kospi_ch1", 0)), 2),
+        }
+        # 같은 날이면 덮어쓰기, 새 날이면 추가
+        if history and history[-1]["date"] == date:
+            history[-1] = today_entry
+        else:
+            history.append(today_entry)
+        history = history[-60:]   # 최근 60거래일만 유지
+        with open(HISTORY_FILE, "w", encoding="utf-8") as f:
+            json.dump(history, f, ensure_ascii=False)
+        print("  💾 market_history.json 저장 완료")
+    except Exception as e:
+        print(f"  ⚠️ 히스토리 저장 실패: {e}")
+
     send_discord(results, date, recs, market_signal)
     print("\n✅ 완료!")
 
