@@ -1,10 +1,10 @@
 {
-  "updated": "2026-06-08 13:21",
-  "news_count": 94,
-  "intl_count": 49,
+  "updated": "2026-06-08 20:03",
+  "news_count": 95,
+  "intl_count": 50,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 23,
+    "BBC World": 24,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -13,36 +13,36 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Israel strikes Beirut suburb days after US-brokered truce",
-    "Zelensky's close European allies set out five conditions for peace talks",
-    "'A World Cup for them not us': Fans' anger at US travel bans and visa restrictions",
-    "Trump abruptly ends NBC interview after clash over 'rigged election' claim",
-    "Last-minute visas and moving training camp: Iran's road to the World Cup"
+    "At least 19 dead after major earthquake strikes southern Philippines",
+    "Rare footage captured of Great White shark in Mediterranean Sea",
+    "Armenia's pro-West government wins election despite Russian pressure",
+    "Knicks' long-awaited NBA run electrifies NYC, with Trump set to attend key game",
+    "Zelensky's close European allies set out five conditions for peace talks"
   ],
   "categories": {
     "geopolitical": {
-      "level": "경고",
-      "color": "orange",
-      "signal": "🟠",
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
       "summary": "Zelensky's close European allies set out five...",
-      "action": "포지션 축소 검토 / 모니터링 강화",
-      "matched": 13,
-      "score": 1.4
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 18,
+      "score": 1.5
     },
     "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Powerful earthquake hits Philippines, trigger...",
+      "summary": "At least 19 dead after major earthquake strik...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.4
+      "matched": 4,
+      "score": 5.8
     },
     "disaster": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Powerful earthquake hits Philippines, trigger...",
+      "summary": "Philippines earthquake kills 15, prompts tsun...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 1,
       "score": 1.4
@@ -51,10 +51,10 @@
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Last-minute visas and moving training camp: I...",
+      "summary": "Iran spokesman says US to blame for resumptio...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 12,
-      "score": 2.9
+      "score": 5.8
     },
     "policy": {
       "level": "안전",
