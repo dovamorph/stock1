@@ -118,6 +118,37 @@ def main():
     with open(OUT_FILE, "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
     print(f"\n  💾 {OUT_FILE} 저장 완료")
+
+    # ── 히스토리 저장 (최근 90일, 일별 1개) ────────────────────────
+    HISTORY_FILE = "market_indicators_history.json"
+    try:
+        history = []
+        if os.path.exists(HISTORY_FILE):
+            with open(HISTORY_FILE, "r", encoding="utf-8") as f:
+                history = json.load(f)
+
+        today_entry = {
+            "date":    now.strftime("%Y%m%d"),
+            "usdkrw":  inds.get("usdkrw", {}).get("value", 0),
+            "wti":     inds.get("wti",    {}).get("value", 0),
+            "us10y":   inds.get("us10y",  {}).get("value", 0),
+            "gold":    inds.get("gold",   {}).get("value", 0),
+        }
+
+        # 오늘 데이터 있으면 덮어쓰기, 없으면 추가
+        if history and history[-1]["date"] == today_entry["date"]:
+            history[-1] = today_entry
+        else:
+            history.append(today_entry)
+
+        history = history[-90:]   # 최근 90일 유지
+
+        with open(HISTORY_FILE, "w", encoding="utf-8") as f:
+            json.dump(history, f, ensure_ascii=False)
+        print(f"  💾 {HISTORY_FILE} 저장 완료 ({len(history)}일)")
+    except Exception as e:
+        print(f"  ⚠️ 히스토리 저장 실패: {e}")
+
     print(f"\n✅ 시장 지표 완료!")
 
 if __name__ == "__main__":
