@@ -1,10 +1,10 @@
 {
-  "updated": "2026-06-09 00:59",
-  "news_count": 97,
-  "intl_count": 52,
+  "updated": "2026-06-09 03:31",
+  "news_count": 101,
+  "intl_count": 56,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 26,
+    "BBC World": 30,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -13,9 +13,9 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Iran says it has halted attacks on Israel after first exchange of fire since truce",
-    "Iran releases footage of missiles launched at Israel",
-    "At least 32 dead after major earthquake strikes southern Philippines",
+    "Iran and Israel say they have halted strikes after first exchange of fire since truce",
+    "Iran's strike on Israel suggests the regime's sense of resilience is growing",
+    "At least 35 dead after major earthquake strikes southern Philippines",
     "Armenia's pro-West government wins election despite Russian pressure",
     "'A World Cup for them not us': Fans' anger at US travel bans and visa restrictions"
   ],
@@ -24,37 +24,37 @@
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "Iran says it has halted attacks on Israel aft...",
+      "summary": "Iran and Israel say they have halted strikes ...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 20,
-      "score": 2.9
+      "matched": 21,
+      "score": 5.9
     },
     "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "At least 32 dead after major earthquake strik...",
+      "summary": "At least 35 dead after major earthquake strik...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 2,
-      "score": 2.9
+      "matched": 3,
+      "score": 4.4
     },
     "disaster": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "Philippines earthquake kills 15, prompts tsun...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.4
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     },
     "trade": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Iran says it has halted attacks on Israel aft...",
+      "summary": "Iran and Israel say they have halted strikes ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 12,
-      "score": 3.0
+      "matched": 11,
+      "score": 1.5
     },
     "policy": {
       "level": "안전",
