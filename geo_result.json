@@ -1,10 +1,10 @@
 {
-  "updated": "2026-06-08 20:03",
-  "news_count": 95,
-  "intl_count": 50,
+  "updated": "2026-06-09 00:59",
+  "news_count": 97,
+  "intl_count": 52,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 24,
+    "BBC World": 26,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -13,30 +13,30 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "At least 19 dead after major earthquake strikes southern Philippines",
-    "Rare footage captured of Great White shark in Mediterranean Sea",
+    "Iran says it has halted attacks on Israel after first exchange of fire since truce",
+    "Iran releases footage of missiles launched at Israel",
+    "At least 32 dead after major earthquake strikes southern Philippines",
     "Armenia's pro-West government wins election despite Russian pressure",
-    "Knicks' long-awaited NBA run electrifies NYC, with Trump set to attend key game",
-    "Zelensky's close European allies set out five conditions for peace talks"
+    "'A World Cup for them not us': Fans' anger at US travel bans and visa restrictions"
   ],
   "categories": {
     "geopolitical": {
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "Zelensky's close European allies set out five...",
+      "summary": "Iran says it has halted attacks on Israel aft...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 18,
-      "score": 1.5
+      "matched": 20,
+      "score": 2.9
     },
     "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "At least 19 dead after major earthquake strik...",
+      "summary": "At least 32 dead after major earthquake strik...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 4,
-      "score": 5.8
+      "matched": 2,
+      "score": 2.9
     },
     "disaster": {
       "level": "주의",
@@ -51,10 +51,10 @@
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Iran spokesman says US to blame for resumptio...",
+      "summary": "Iran says it has halted attacks on Israel aft...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 12,
-      "score": 5.8
+      "score": 3.0
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "주의",
-    "color": "yellow",
+    "level": "위험",
+    "color": "red",
     "summary": "주의 필요: 지정학적 충돌",
-    "action": "신규 매수 자제 / 추이 관찰"
+    "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
