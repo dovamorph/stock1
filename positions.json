@@ -4,5 +4,8 @@
     "used": 0,
     "positions": {}
   },
-  "trade_history": []
+  "trade_history": [],
+  "_kospi_ch5": -3.72,
+  "_kospi_ch1": -5.54,
+  "_regime": "SIDEWAYS"
 }
