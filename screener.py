@@ -12,8 +12,9 @@ try:
     import requests, pandas as pd
     import FinanceDataReader as fdr
     import yfinance as yf
+    from pykrx import stock as pykrx_stock
 except ImportError:
-    print("pip install requests pandas finance-datareader yfinance"); exit(1)
+    print("pip install requests pandas finance-datareader yfinance pykrx"); exit(1)
 
 APP_KEY    = os.environ.get("KIS_APP_KEY","")
 APP_SECRET = os.environ.get("KIS_APP_SECRET","")
@@ -373,13 +374,37 @@ def load_candidates():
     rows=[]
     for m in ["KOSPI","KOSDAQ"]:
         lst = None
-        for attempt in range(3):   # 최대 3회 재시도
+        # 1차 시도: fdr.StockListing
+        for attempt in range(3):
             try:
                 lst=fdr.StockListing(m); lst["market"]=m
                 break
             except Exception as e:
                 print(f"  {m} 오류 (시도 {attempt+1}/3): {e}")
                 if attempt < 2: time.sleep(3)
+
+        # 2차 시도: fdr 실패 시 pykrx 폴백
+        if lst is None:
+            try:
+                print(f"  {m} pykrx 폴백 시도 중...")
+                date_str = datetime.now().strftime("%Y%m%d")
+                tickers = pykrx_stock.get_market_ticker_list(date_str, market=m)
+                records = []
+                for t in tickers:
+                    try:
+                        name = pykrx_stock.get_market_ticker_name(t)
+                        cap  = pykrx_stock.get_market_cap(date_str, date_str, t)
+                        marcap = int(cap["시가총액"].iloc[-1]) if len(cap) > 0 else 0
+                        records.append({"Code": t, "Name": name, "Marcap": marcap, "market": m})
+                    except:
+                        records.append({"Code": t, "Name": t, "Marcap": 0, "market": m})
+                    time.sleep(0.05)
+                lst = pd.DataFrame(records)
+                print(f"  {m} pykrx 폴백 성공: {len(lst)}종목")
+            except Exception as e:
+                print(f"  {m} pykrx도 실패: {e}")
+                continue
+
         if lst is None: continue
         try:
             cm={}
