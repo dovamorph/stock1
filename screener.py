@@ -22,6 +22,7 @@ DISCORD    = os.environ.get("DISCORD_WEBHOOK","")
 BASE       = "https://openapi.koreainvestment.com:9443"
 TOP_N      = 40
 CAND_N     = 500
+CAND_CACHE = "candidates_cache.json"   # KRX 서버 오류 시 폴백용
 RESULTS_FILE = "results.json"
 
 ETF_KW = ["ETF","ETN","KODEX","TIGER","KBSTAR","ARIRANG","HANARO","SOL","ACE",
@@ -420,7 +421,15 @@ def load_candidates():
             lst["Marcap"]=pd.to_numeric(lst["Marcap"],errors="coerce").fillna(0)
             rows.append(lst[lst["Marcap"]>0])
         except Exception as e: print(f"  {m} 파싱 오류: {e}")
-    if not rows: return []
+    if not rows:
+        # fdr + pykrx 모두 실패 → 캐시 폴백
+        if os.path.exists(CAND_CACHE):
+            print(f"  ⚠️ KRX 서버 오류 — 캐시({CAND_CACHE}) 사용")
+            with open(CAND_CACHE, "r", encoding="utf-8") as f:
+                cached = json.load(f)
+            print(f"  → {len(cached)}개 캐시 후보 사용")
+            return cached
+        return []
     combined=pd.concat(rows,ignore_index=True).sort_values("Marcap",ascending=False)
     result=[]; seen=set()
     for _,row in combined.iterrows():
@@ -433,6 +442,13 @@ def load_candidates():
         result.append({"ticker":ticker,"name":name,"market":market})
         if len(result)>=CAND_N: break
     print(f"  → {len(result)}개 후보 확정")
+
+    # 성공 시 캐시 저장 (다음 KRX 오류 시 폴백용)
+    try:
+        with open(CAND_CACHE, "w", encoding="utf-8") as f:
+            json.dump(result, f, ensure_ascii=False)
+    except: pass
+
     return result
 
 # ── 2단계: KIS 현재가 ─────────────────────────────────────────────
