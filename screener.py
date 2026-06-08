@@ -580,8 +580,11 @@ FINANCE_TICKERS = {
     "012510","000810","032830","088350","005830","029780",
 }
 
-def calc_entry_score(d: dict) -> dict:
-    """진입 타이밍 점수 (0~10점). 지금 사기 좋은 타이밍인지 종합 평가."""
+def calc_entry_score(d: dict, kospi_ch1: float = 0.0, adr: float = 50.0) -> dict:
+    """진입 타이밍 점수 (0~10점). 지금 사기 좋은 타이밍인지 종합 평가.
+    kospi_ch1: KOSPI 당일 등락률 (시장 전체 방향 반영)
+    adr: ADR 등락비율 (시장 폭 반영)
+    """
     score = 0
     grade       = d.get("grade", "F")
     rsi         = float(d.get("rsi", 50))
@@ -619,10 +622,14 @@ def calc_entry_score(d: dict) -> dict:
     score += s
 
     # 외인 순매수
+    # frgn_net=0은 "데이터 없음"일 수 있음
+    # 시장이 하락 중이면(ADR≤40 or KOSPI -1% 이하) 외인 매도 가정 → 페널티
     if frgn_net > 100_000:    s = 2
     elif frgn_net > 0:        s = 1
-    elif frgn_net < -100_000: s = -1
-    else:                     s = 0
+    elif frgn_net < -100_000: s = -2
+    elif frgn_net < 0:        s = -1
+    else:  # frgn_net == 0 (데이터 없음 또는 실제 0)
+        s = -1 if (adr <= 40 or kospi_ch1 <= -1.0) else 0
     score += s
 
     # 거래성격
@@ -630,6 +637,15 @@ def calc_entry_score(d: dict) -> dict:
     elif "매도주도" in vol_char:  s = -1
     else:                         s = 0
     score += s
+
+    # ── 시장 상황 패널티 ──────────────────────────────────────────────
+    # KOSPI 당일 -2% 이하: 전체 시장 하락 구간 → -2점
+    if kospi_ch1 <= -2.0:   score -= 2
+    elif kospi_ch1 <= -1.0: score -= 1
+
+    # ADR 30% 이하: 투매 구간 → -2점 / 40% 이하: 하락 우세 → -1점
+    if adr <= 30:   score -= 2
+    elif adr <= 40: score -= 1
 
     score = max(0, min(10, score))
 
@@ -787,8 +803,10 @@ def main():
             data["vol_char"] = vc
             data["ch1"]      = ch1_rt
 
-            # 진입 타이밍 점수 계산
-            entry = calc_entry_score(data)
+            # 진입 타이밍 점수 계산 (시장 상황 반영)
+            _kospi_ch1 = float(market_signal.get("kospi_ch1", 0))
+            _adr       = float(adr_data.get("adr", 50))
+            entry = calc_entry_score(data, kospi_ch1=_kospi_ch1, adr=_adr)
             data.update(entry)
 
             results.append(data)
