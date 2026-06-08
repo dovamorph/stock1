@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-09 03:31",
+  "updated": "2026-06-09 06:52",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,21 +13,21 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Iran and Israel say they have halted strikes after first exchange of fire since truce",
+    "Iran and Israel say they will pause strikes but warn of retaliation if ceasefire breached again",
     "Iran's strike on Israel suggests the regime's sense of resilience is growing",
     "At least 35 dead after major earthquake strikes southern Philippines",
     "Armenia's pro-West government wins election despite Russian pressure",
-    "'A World Cup for them not us': Fans' anger at US travel bans and visa restrictions"
+    "Malawians repatriated from South Africa amid xenophobia concerns"
   ],
   "categories": {
     "geopolitical": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
-      "summary": "Iran and Israel say they have halted strikes ...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 21,
-      "score": 5.9
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "Iran and Israel say they will pause strikes b...",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 11,
+      "score": 17.3
     },
     "macro": {
       "level": "주의",
@@ -48,13 +48,13 @@
       "score": 0
     },
     "trade": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "Iran and Israel say they have halted strikes ...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 11,
-      "score": 1.5
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
+      "summary": "Iran and Israel say they will pause strikes b...",
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 7,
+      "score": 1.4
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
-    "summary": "주의 필요: 지정학적 충돌",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "level": "주의",
+    "color": "yellow",
+    "summary": "주의 필요: 보호무역·공급망",
+    "action": "신규 매수 자제 / 추이 관찰"
   }
 }
