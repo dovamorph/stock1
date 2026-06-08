@@ -30,6 +30,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add market_indicators.json
+          test -f market_indicators_history.json && git add market_indicators_history.json || true
           git diff --cached --quiet || git commit -m "market: $(date +'%Y%m%d %H%M')"
           git pull --rebase origin main
           git push
