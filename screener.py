@@ -370,7 +370,56 @@ def fetch_us_signal() -> dict:
     return result
 
 # ── 1단계: 후보 로드 ──────────────────────────────────────────────
-def load_candidates():
+def load_candidates_from_kis(tok):
+    """
+    KIS 거래대금 순위 API로 후보 직접 조회.
+    fdr/pykrx(KRX) 실패 시 폴백 — KRX 의존성 없음.
+    KOSPI + KOSDAQ 각각 상위 30개 = 총 60개 후보.
+    """
+    print(f"  KIS 거래대금 순위 직접 조회 중...")
+    result = []
+    seen   = set()
+
+    for mkt_code, mkt_name in [("0001", "KOSPI"), ("1001", "KOSDAQ")]:
+        try:
+            res = requests.get(
+                f"{BASE}/uapi/domestic-stock/v1/ranking/vol-part",
+                headers=H(tok, "FHPST01720000"),
+                params={
+                    "fid_cond_mrkt_div_code":  "J",
+                    "fid_cond_scr_div_code":   "20172",
+                    "fid_input_iscd":          mkt_code,
+                    "fid_div_cls_code":        "0",
+                    "fid_blng_cls_code":       "0",
+                    "fid_trgt_cls_code":       "111111111",
+                    "fid_trgt_exls_cls_code":  "000000",
+                    "fid_input_price_1":       "0",
+                    "fid_input_price_2":       "0",
+                    "fid_vol_cnt":             "0",
+                    "fid_input_date_1":        "",
+                },
+                timeout=15
+            )
+            data = res.json()
+            if data.get("rt_cd") != "0":
+                print(f"  {mkt_name} KIS 순위 오류: {data.get('msg1','')}")
+                continue
+            cnt = 0
+            for item in data.get("output", []):
+                ticker = str(item.get("mksc_shrn_iscd", "")).zfill(6)
+                name   = item.get("hts_kor_isnm", "").strip()
+                if not ticker or not name or name in seen: continue
+                if is_etf(name): continue
+                if name.endswith("우") or name.endswith("우B") or name.endswith("우C"): continue
+                seen.add(name)
+                result.append({"ticker": ticker, "name": name, "market": mkt_name})
+                cnt += 1
+            print(f"  {mkt_name}: {cnt}종목")
+            time.sleep(0.5)
+        except Exception as e:
+            print(f"  {mkt_name} KIS 순위 조회 실패: {e}")
+
+    return result
     print(f"\n[1/3] 후보 {CAND_N}종목 로드 중...")
     rows=[]
     for m in ["KOSPI","KOSDAQ"]:
@@ -782,7 +831,10 @@ def main():
     market_signal["us"] = us_signal
 
     candidates=load_candidates()
-    if not candidates: print("❌ 후보 로드 실패"); return
+    if not candidates:
+        print("  ⚠️ KRX 조회 실패 — KIS 거래대금 순위로 폴백")
+        candidates = load_candidates_from_kis(tok)
+    if not candidates: print("❌ 후보 로드 최종 실패"); return
 
     top40, adr_data = select_top40(tok, candidates)
     if not top40: print("❌ 거래대금 계산 실패"); return
