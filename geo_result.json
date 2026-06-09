@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-10 03:10",
+  "updated": "2026-06-10 06:49",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,27 +13,27 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Trump says Iran shot down US helicopter and vows to respond",
+    "Inside Myanmar, rebels are losing ground as military forces men into army",
+    "US striking Iran in response to downing of helicopter, military says",
     "Israeli air strikes hit Lebanese city of Tyre despite Iranian warning to stop attacks",
-    "Hundreds of aftershocks jolt Philippines as officials say death toll could rise",
-    "Man reportedly shot at Kenya protest against US Ebola quarantine centre",
+    "Nasa names next astronauts for Artemis Moon programme",
     "Murder of Lyhanna, 11, enrages France and turns up heat on government"
   ],
   "categories": {
     "geopolitical": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "Trump says Iran shot down US helicopter and v...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 17,
-      "score": 25.1
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
+      "summary": "US striking Iran in response to downing of he...",
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 15,
+      "score": 1.5
     },
     "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Hundreds of aftershocks jolt Philippines as o...",
+      "summary": "Scrapping of Franco-German fighter jet leaves...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 2,
       "score": 3.0
@@ -51,25 +51,25 @@
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Trump says Iran shot down US helicopter and v...",
+      "summary": "US striking Iran in response to downing of he...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 9,
-      "score": 1.4
+      "matched": 11,
+      "score": 2.9
     },
     "policy": {
-      "level": "안전",
-      "color": "green",
-      "signal": "🟢",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "[인터뷰] 이원택 전북지사 당선인 \"새만금에 AI 반도체 클러스터 조성\"",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 1,
+      "score": 1.5
     }
   },
   "overall": {
-    "level": "안전",
-    "color": "green",
-    "summary": "전반적 안정. 정상 운용 유지",
-    "action": "정상 운용 유지"
+    "level": "위험",
+    "color": "red",
+    "summary": "주의 필요: 지정학적 충돌",
+    "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
