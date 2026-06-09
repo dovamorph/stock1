@@ -427,7 +427,7 @@ def should_refresh_candidates() -> str:
     하루 2회만 KRX 요청: 오전장 시작(09:00~09:30), 장마감 후(15:30~16:00)
     반환값: 'morning' | 'afternoon' | None(갱신 불필요)
     """
-    now  = datetime.now(KST)
+    now  = datetime.utcnow() + timedelta(hours=9)
     h, m = now.hour, now.minute
 
     if h == 9 and m < 30:   return "morning"    # 09:00~09:29
@@ -446,7 +446,7 @@ def load_candidates():
                 cache = json.load(f)
             cache_date  = cache.get("date", "")
             cache_slot  = cache.get("slot", "")
-            today       = datetime.now(KST).strftime("%Y%m%d")
+            today       = datetime.utcnow() + timedelta(hours=9).strftime("%Y%m%d")
             candidates  = cache.get("candidates", [])
 
             # 캐시 재사용 조건: 오늘 날짜 + 해당 슬롯 이미 갱신됨
@@ -520,7 +520,7 @@ def load_candidates():
     try:
         with open(CAND_CACHE, "w", encoding="utf-8") as f:
             json.dump({
-                "date":       datetime.now(KST).strftime("%Y%m%d"),
+                "date":       datetime.utcnow() + timedelta(hours=9).strftime("%Y%m%d"),
                 "slot":       slot or "manual",
                 "candidates": result,
             }, f, ensure_ascii=False)
