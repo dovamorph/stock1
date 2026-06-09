@@ -1,11 +1,11 @@
 {
-  "updated": "2026-06-10 06:49",
-  "news_count": 101,
-  "intl_count": 56,
+  "updated": "2026-06-10 08:18",
+  "news_count": 100,
+  "intl_count": 55,
   "domestic_count": 45,
   "source_stats": {
     "BBC World": 30,
-    "Al Jazeera": 26,
+    "Al Jazeera": 25,
     "연합뉴스": 30,
     "한국경제": 1,
     "매일경제": 0,
@@ -21,13 +21,13 @@
   ],
   "categories": {
     "geopolitical": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
       "summary": "US striking Iran in response to downing of he...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 15,
-      "score": 1.5
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 13,
+      "score": 19.1
     },
     "macro": {
       "level": "주의",
@@ -35,8 +35,8 @@
       "signal": "🟡",
       "summary": "Scrapping of Franco-German fighter jet leaves...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 2,
-      "score": 3.0
+      "matched": 3,
+      "score": 4.4
     },
     "disaster": {
       "level": "안전",
@@ -53,23 +53,23 @@
       "signal": "🟡",
       "summary": "US striking Iran in response to downing of he...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 11,
-      "score": 2.9
+      "matched": 13,
+      "score": 5.9
     },
     "policy": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "[인터뷰] 이원택 전북지사 당선인 \"새만금에 AI 반도체 클러스터 조성\"",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
-    "summary": "주의 필요: 지정학적 충돌",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "level": "안전",
+    "color": "green",
+    "summary": "전반적 안정. 정상 운용 유지",
+    "action": "정상 운용 유지"
   }
 }
