@@ -1,10 +1,10 @@
 {
-  "updated": "2026-06-09 16:53",
-  "news_count": 101,
-  "intl_count": 56,
+  "updated": "2026-06-09 20:20",
+  "news_count": 100,
+  "intl_count": 55,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 30,
+    "BBC World": 29,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -15,9 +15,9 @@
   "news_sample": [
     "Trump tells BBC Netanyahu did not defy him",
     "Israel and Iran flare-up could strengthen Tehran's negotiating hand",
-    "ICC suspends top prosecutor after investigating misconduct allegations",
-    "Xi Jinping and Kim Jong Un vow stronger ties as North Korea visit wraps up",
-    "At least 35 dead after major earthquake strikes southern Philippines"
+    "Hundreds of aftershocks jolt Philippines as officials say death toll could rise",
+    "Trump booed in New York as he becomes first US president to attend NBA Finals",
+    "ICC suspends top prosecutor after investigating misconduct allegations"
   ],
   "categories": {
     "geopolitical": {
@@ -26,17 +26,17 @@
       "signal": "🔴",
       "summary": "Israel and Iran flare-up could strengthen Teh...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 12,
+      "matched": 15,
       "score": 1.5
     },
     "macro": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
-      "summary": "At least 35 dead after major earthquake strik...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 5,
-      "score": 3.0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "Hundreds of aftershocks jolt Philippines as o...",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 4,
+      "score": 5.9
     },
     "disaster": {
       "level": "안전",
@@ -54,7 +54,7 @@
       "summary": "Israel and Iran flare-up could strengthen Teh...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 12,
-      "score": 3.0
+      "score": 1.5
     },
     "policy": {
       "level": "안전",
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
-    "summary": "주의 필요: 지정학적 충돌, 거시/통화 정책",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "level": "주의",
+    "color": "yellow",
+    "summary": "주의 필요: 지정학적 충돌",
+    "action": "신규 매수 자제 / 추이 관찰"
   }
 }
