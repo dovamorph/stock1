@@ -421,59 +421,109 @@ def load_candidates_from_kis(tok):
     return result
 
 
+def should_refresh_candidates() -> str:
+    """
+    종목 목록 갱신 여부 결정.
+    하루 2회만 KRX 요청: 오전장 시작(09:00~09:30), 장마감 후(15:30~16:00)
+    반환값: 'morning' | 'afternoon' | None(갱신 불필요)
+    """
+    now  = datetime.now(KST)
+    h, m = now.hour, now.minute
+
+    if h == 9 and m < 30:   return "morning"    # 09:00~09:29
+    if h == 15 and m >= 30: return "afternoon"  # 15:30~15:59
+    return None
+
 def load_candidates():
-    rows=[]
+    print(f"\n[1/3] 후보 {CAND_N}종목 로드 중...")
+
+    slot = should_refresh_candidates()   # 'morning' | 'afternoon' | None
+
+    # ── 캐시 확인 ────────────────────────────────────────────────────
+    if os.path.exists(CAND_CACHE):
+        try:
+            with open(CAND_CACHE, "r", encoding="utf-8") as f:
+                cache = json.load(f)
+            cache_date  = cache.get("date", "")
+            cache_slot  = cache.get("slot", "")
+            today       = datetime.now(KST).strftime("%Y%m%d")
+            candidates  = cache.get("candidates", [])
+
+            # 캐시 재사용 조건: 오늘 날짜 + 해당 슬롯 이미 갱신됨
+            already_refreshed = (
+                cache_date == today and (
+                    cache_slot == slot or          # 같은 슬롯
+                    (cache_slot == "afternoon") or # 오후 갱신 완료
+                    (slot is None)                 # 갱신 시간대 아님
+                )
+            )
+            if already_refreshed and candidates:
+                print(f"  📦 캐시 사용 ({cache_date} {cache_slot}) → {len(candidates)}종목")
+                return candidates
+        except:
+            pass
+
+    # ── KRX 갱신 필요 시에만 fdr 호출 ────────────────────────────────
+    if slot:
+        print(f"  🔄 종목 목록 갱신 ({slot}) — KRX 조회 시작")
+    rows = []
     for m in ["KOSPI","KOSDAQ"]:
         lst = None
-        # fdr.StockListing 시도 (GitHub Actions에서는 KRX 차단으로 실패할 수 있음)
         for attempt in range(2):
             try:
-                lst=fdr.StockListing(m); lst["market"]=m
+                lst = fdr.StockListing(m); lst["market"] = m
                 break
             except Exception as e:
                 if attempt == 0: time.sleep(2)
-
         if lst is None: continue
         try:
-            cm={}
+            cm = {}
             for c in lst.columns:
-                cl=c.lower()
+                cl = c.lower()
                 if cl in ("symbol","code","ticker"): cm[c]="Code"
-                elif cl=="name": cm[c]="Name"
+                elif cl == "name": cm[c]="Name"
                 elif "marcap" in cl: cm[c]="Marcap"
-            lst=lst.rename(columns=cm)
+            lst = lst.rename(columns=cm)
             if "Marcap" not in lst.columns:
-                num=lst.select_dtypes(include="number").columns
-                if len(num): lst["Marcap"]=lst[num[0]]
-            lst["Marcap"]=pd.to_numeric(lst["Marcap"],errors="coerce").fillna(0)
+                num = lst.select_dtypes(include="number").columns
+                if len(num): lst["Marcap"] = lst[num[0]]
+            lst["Marcap"] = pd.to_numeric(lst["Marcap"], errors="coerce").fillna(0)
             rows.append(lst[lst["Marcap"]>0])
         except Exception as e: print(f"  {m} 파싱 오류: {e}")
+
     if not rows:
-        # fdr 실패 → 캐시 폴백
+        # fdr 실패 → 캐시 강제 사용
         if os.path.exists(CAND_CACHE):
-            print(f"  ⚠️ KRX 차단 — 캐시({CAND_CACHE}) 사용")
-            with open(CAND_CACHE, "r", encoding="utf-8") as f:
-                cached = json.load(f)
-            print(f"  → {len(cached)}개 캐시 후보 사용")
-            return cached
+            try:
+                with open(CAND_CACHE, "r", encoding="utf-8") as f:
+                    cache = json.load(f)
+                cands = cache.get("candidates", cache if isinstance(cache, list) else [])
+                print(f"  ⚠️ KRX 차단 — 캐시 강제 사용 ({len(cands)}종목)")
+                return cands
+            except: pass
         return []
-    combined=pd.concat(rows,ignore_index=True).sort_values("Marcap",ascending=False)
-    result=[]; seen=set()
-    for _,row in combined.iterrows():
-        name=str(row.get("Name","")).strip()
-        ticker=str(row.get("Code","")).zfill(6)
-        market=str(row.get("market","KOSPI"))
+
+    combined = pd.concat(rows, ignore_index=True).sort_values("Marcap", ascending=False)
+    result = []; seen = set()
+    for _, row in combined.iterrows():
+        name   = str(row.get("Name","")).strip()
+        ticker = str(row.get("Code","")).zfill(6)
+        market = str(row.get("market","KOSPI"))
         if not name or not ticker or name in seen or is_etf(name): continue
         if name.endswith("우") or name.endswith("우B") or name.endswith("우C"): continue
         seen.add(name)
         result.append({"ticker":ticker,"name":name,"market":market})
-        if len(result)>=CAND_N: break
+        if len(result) >= CAND_N: break
     print(f"  → {len(result)}개 후보 확정")
 
-    # 성공 시 캐시 저장 (다음 KRX 오류 시 폴백용)
+    # 성공 시 날짜+슬롯 포함해서 캐시 저장
     try:
         with open(CAND_CACHE, "w", encoding="utf-8") as f:
-            json.dump(result, f, ensure_ascii=False)
+            json.dump({
+                "date":       datetime.now(KST).strftime("%Y%m%d"),
+                "slot":       slot or "manual",
+                "candidates": result,
+            }, f, ensure_ascii=False)
     except: pass
 
     return result
