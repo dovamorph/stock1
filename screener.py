@@ -12,9 +12,8 @@ try:
     import requests, pandas as pd
     import FinanceDataReader as fdr
     import yfinance as yf
-    from pykrx import stock as pykrx_stock
 except ImportError:
-    print("pip install requests pandas finance-datareader yfinance pykrx"); exit(1)
+    print("pip install requests pandas finance-datareader yfinance"); exit(1)
 
 APP_KEY    = os.environ.get("KIS_APP_KEY","")
 APP_SECRET = os.environ.get("KIS_APP_SECRET","")
@@ -45,7 +44,7 @@ def get_token():
 
 def H(tok, tr_id):
     return {"Content-Type":"application/json","authorization":f"Bearer {tok}",
-            "appkey":APP_KEY,"appsecret":APP_SECRET,"tr_id":tr_id,"custtype":"P"}
+            "appkey":APP_KEY,"appsecret":APP_SECRET,"tr_id":tr_id}
 
 def is_etf(name): return any(k in name for k in ETF_KW)
 
@@ -373,7 +372,7 @@ def fetch_us_signal() -> dict:
 def load_candidates_from_kis(tok):
     """
     KIS 거래대금 순위 API로 후보 직접 조회.
-    fdr/pykrx(KRX) 실패 시 폴백 — KRX 의존성 없음.
+    KRX 차단 시 폴백 — KRX 의존성 없음.
     KOSPI + KOSDAQ 각각 상위 30개 = 총 60개 후보.
     """
     print(f"  KIS 거래대금 순위 직접 조회 중...")
@@ -384,7 +383,7 @@ def load_candidates_from_kis(tok):
         try:
             res = requests.get(
                 f"{BASE}/uapi/domestic-stock/v1/ranking/val-part",
-                headers={**H(tok, "FHPST01720000"), "custtype": "P"},
+                headers=H(tok, "FHPST01720000"),
                 params={
                     "fid_cond_mrkt_div_code":  "J",
                     "fid_cond_scr_div_code":   "20172",
@@ -426,36 +425,13 @@ def load_candidates():
     rows=[]
     for m in ["KOSPI","KOSDAQ"]:
         lst = None
-        # 1차 시도: fdr.StockListing
-        for attempt in range(3):
+        # fdr.StockListing 시도 (GitHub Actions에서는 KRX 차단으로 실패할 수 있음)
+        for attempt in range(2):
             try:
                 lst=fdr.StockListing(m); lst["market"]=m
                 break
             except Exception as e:
-                print(f"  {m} 오류 (시도 {attempt+1}/3): {e}")
-                if attempt < 2: time.sleep(3)
-
-        # 2차 시도: fdr 실패 시 pykrx 폴백
-        if lst is None:
-            try:
-                print(f"  {m} pykrx 폴백 시도 중...")
-                date_str = datetime.now().strftime("%Y%m%d")
-                tickers = pykrx_stock.get_market_ticker_list(date_str, market=m)
-                records = []
-                for t in tickers:
-                    try:
-                        name = pykrx_stock.get_market_ticker_name(t)
-                        cap  = pykrx_stock.get_market_cap(date_str, date_str, t)
-                        marcap = int(cap["시가총액"].iloc[-1]) if len(cap) > 0 else 0
-                        records.append({"Code": t, "Name": name, "Marcap": marcap, "market": m})
-                    except:
-                        records.append({"Code": t, "Name": t, "Marcap": 0, "market": m})
-                    time.sleep(0.05)
-                lst = pd.DataFrame(records)
-                print(f"  {m} pykrx 폴백 성공: {len(lst)}종목")
-            except Exception as e:
-                print(f"  {m} pykrx도 실패: {e}")
-                continue
+                if attempt == 0: time.sleep(2)
 
         if lst is None: continue
         try:
@@ -473,9 +449,9 @@ def load_candidates():
             rows.append(lst[lst["Marcap"]>0])
         except Exception as e: print(f"  {m} 파싱 오류: {e}")
     if not rows:
-        # fdr + pykrx 모두 실패 → 캐시 폴백
+        # fdr 실패 → 캐시 폴백
         if os.path.exists(CAND_CACHE):
-            print(f"  ⚠️ KRX 서버 오류 — 캐시({CAND_CACHE}) 사용")
+            print(f"  ⚠️ KRX 차단 — 캐시({CAND_CACHE}) 사용")
             with open(CAND_CACHE, "r", encoding="utf-8") as f:
                 cached = json.load(f)
             print(f"  → {len(cached)}개 캐시 후보 사용")
