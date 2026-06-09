@@ -383,8 +383,8 @@ def load_candidates_from_kis(tok):
     for mkt_code, mkt_name in [("0001", "KOSPI"), ("1001", "KOSDAQ")]:
         try:
             res = requests.get(
-                f"{BASE}/uapi/domestic-stock/v1/ranking/vol-part",
-                headers=H(tok, "FHPST01720000"),
+                f"{BASE}/uapi/domestic-stock/v1/ranking/val-part",
+                headers={**H(tok, "FHPST01720000"), "custtype": "P"},
                 params={
                     "fid_cond_mrkt_div_code":  "J",
                     "fid_cond_scr_div_code":   "20172",
@@ -836,6 +836,18 @@ def main():
     if not candidates:
         print("  ⚠️ KRX 조회 실패 — KIS 거래대금 순위로 폴백")
         candidates = load_candidates_from_kis(tok)
+    if not candidates:
+        # 마지막 수단: 이전 results.json 재사용
+        if os.path.exists(RESULTS_FILE):
+            try:
+                with open(RESULTS_FILE, "r", encoding="utf-8") as pf:
+                    prev = json.load(pf)
+                prev_results = prev.get("results", [])
+                if prev_results:
+                    candidates = [{"ticker": r["ticker"], "name": r["name"],
+                                   "market": r.get("market","KOSPI")} for r in prev_results]
+                    print(f"  ⚠️ KIS도 실패 — 이전 결과 {len(candidates)}종목 재사용")
+            except: pass
     if not candidates: print("❌ 후보 로드 최종 실패"); return
 
     top40, adr_data = select_top40(tok, candidates)
