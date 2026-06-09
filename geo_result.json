@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-10 00:14",
+  "updated": "2026-06-10 03:10",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,21 +13,21 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Sea drone rescues US army helicopter crew near Strait of Hormuz",
+    "Trump says Iran shot down US helicopter and vows to respond",
+    "Israeli air strikes hit Lebanese city of Tyre despite Iranian warning to stop attacks",
     "Hundreds of aftershocks jolt Philippines as officials say death toll could rise",
-    "300 migrants bound for UK kidnapped and threatened with kidney removal",
-    "ICC suspends top prosecutor after investigating misconduct allegations",
-    "Man accused of killing mother-in-law with poison-laced satay"
+    "Man reportedly shot at Kenya protest against US Ebola quarantine centre",
+    "Murder of Lyhanna, 11, enrages France and turns up heat on government"
   ],
   "categories": {
     "geopolitical": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Russia's fuel crisis intensifies as Ukraine s...",
+      "summary": "Trump says Iran shot down US helicopter and v...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 14,
-      "score": 22.0
+      "matched": 17,
+      "score": 25.1
     },
     "macro": {
       "level": "주의",
@@ -51,10 +51,10 @@
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Tickets for Iran fans revoked, says federatio...",
+      "summary": "Trump says Iran shot down US helicopter and v...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 8,
-      "score": 1.5
+      "matched": 9,
+      "score": 1.4
     },
     "policy": {
       "level": "안전",
