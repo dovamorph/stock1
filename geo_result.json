@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-09 12:53",
+  "updated": "2026-06-09 16:53",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -13,29 +13,29 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Iran and Israel say they will pause strikes but warn of retaliation if ceasefire breached again",
-    "Watch: Trump tells BBC Netanyahu did not defy him",
+    "Trump tells BBC Netanyahu did not defy him",
     "Israel and Iran flare-up could strengthen Tehran's negotiating hand",
-    "SpaceX's stock market blast-off could be Musk's biggest gamble yet",
+    "ICC suspends top prosecutor after investigating misconduct allegations",
+    "Xi Jinping and Kim Jong Un vow stronger ties as North Korea visit wraps up",
     "At least 35 dead after major earthquake strikes southern Philippines"
   ],
   "categories": {
     "geopolitical": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "Iran and Israel say they will pause strikes b...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 13,
-      "score": 20.2
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
+      "summary": "Israel and Iran flare-up could strengthen Teh...",
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 12,
+      "score": 1.5
     },
     "macro": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
       "summary": "At least 35 dead after major earthquake strik...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 2,
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 5,
       "score": 3.0
     },
     "disaster": {
@@ -48,28 +48,28 @@
       "score": 0
     },
     "trade": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
-      "summary": "Iran and Israel say they will pause strikes b...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 11,
-      "score": 2.8
-    },
-    "policy": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "국힘 박충권 \"'탈원전' 양이원영, 한수원 이사 면접…이해상충 심각\"",
+      "summary": "Israel and Iran flare-up could strengthen Teh...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "matched": 12,
+      "score": 3.0
+    },
+    "policy": {
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
-    "level": "주의",
-    "color": "yellow",
-    "summary": "주의 필요: 보호무역·공급망",
-    "action": "신규 매수 자제 / 추이 관찰"
+    "level": "위험",
+    "color": "red",
+    "summary": "주의 필요: 지정학적 충돌, 거시/통화 정책",
+    "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
