@@ -1,10 +1,10 @@
 {
-  "updated": "2026-06-09 20:20",
-  "news_count": 100,
-  "intl_count": 55,
+  "updated": "2026-06-10 00:14",
+  "news_count": 101,
+  "intl_count": 56,
   "domestic_count": 45,
   "source_stats": {
-    "BBC World": 29,
+    "BBC World": 30,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 1,
@@ -13,21 +13,21 @@
     "StockPlus": 14
   },
   "news_sample": [
-    "Trump tells BBC Netanyahu did not defy him",
-    "Israel and Iran flare-up could strengthen Tehran's negotiating hand",
+    "Sea drone rescues US army helicopter crew near Strait of Hormuz",
     "Hundreds of aftershocks jolt Philippines as officials say death toll could rise",
-    "Trump booed in New York as he becomes first US president to attend NBA Finals",
-    "ICC suspends top prosecutor after investigating misconduct allegations"
+    "300 migrants bound for UK kidnapped and threatened with kidney removal",
+    "ICC suspends top prosecutor after investigating misconduct allegations",
+    "Man accused of killing mother-in-law with poison-laced satay"
   ],
   "categories": {
     "geopolitical": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
-      "summary": "Israel and Iran flare-up could strengthen Teh...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 15,
-      "score": 1.5
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "Russia's fuel crisis intensifies as Ukraine s...",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 14,
+      "score": 22.0
     },
     "macro": {
       "level": "주의",
@@ -35,8 +35,8 @@
       "signal": "🟡",
       "summary": "Hundreds of aftershocks jolt Philippines as o...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 4,
-      "score": 5.9
+      "matched": 2,
+      "score": 3.0
     },
     "disaster": {
       "level": "안전",
@@ -51,9 +51,9 @@
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Israel and Iran flare-up could strengthen Teh...",
+      "summary": "Tickets for Iran fans revoked, says federatio...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 12,
+      "matched": 8,
       "score": 1.5
     },
     "policy": {
@@ -67,9 +67,9 @@
     }
   },
   "overall": {
-    "level": "주의",
-    "color": "yellow",
-    "summary": "주의 필요: 지정학적 충돌",
-    "action": "신규 매수 자제 / 추이 관찰"
+    "level": "안전",
+    "color": "green",
+    "summary": "전반적 안정. 정상 운용 유지",
+    "action": "정상 운용 유지"
   }
 }
