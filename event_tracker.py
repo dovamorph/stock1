@@ -108,17 +108,6 @@ CALENDAR_EVENTS = [
         "sector_impacts": {"반도체": -2, "우주ETF": 3, "전체시장": -1}
     },
     {
-        "id": "options_expiry_jun2026",
-        "name": "옵션 만기일",
-        "date": "2026-06-11",
-        "type": "expiry",
-        "risk_level": "medium",
-        "description": "월물 옵션 만기. 프로그램 매매 영향으로 변동성 확대 가능. 장 마감 앞두고 수급 급변 주의.",
-        "benefit_text": "",
-        "damage_text": "전체 변동성 확대 주의",
-        "sector_impacts": {"전체시장": -1}
-    },
-    {
         "id": "fed_jun2026",
         "name": "Fed 금리 결정",
         "date": "2026-06-18",
