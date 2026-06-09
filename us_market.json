@@ -1,8 +1,8 @@
 {
-  "updated": "2026-06-10 05:02",
+  "updated": "2026-06-10 07:03",
   "sp500": {
-    "close": 7386.5,
-    "change": -19.23,
+    "close": 7386.65,
+    "change": -19.08,
     "change_pct": -0.26
   },
   "nasdaq": {
@@ -11,7 +11,7 @@
     "change_pct": -0.97
   },
   "vix": {
-    "close": 20.31,
-    "level": "보통"
+    "close": 19.87,
+    "level": "안정"
   }
 }
