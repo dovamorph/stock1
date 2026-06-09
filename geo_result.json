@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-09 08:13",
+  "updated": "2026-06-09 12:53",
   "news_count": 101,
   "intl_count": 56,
   "domestic_count": 45,
@@ -14,10 +14,10 @@
   },
   "news_sample": [
     "Iran and Israel say they will pause strikes but warn of retaliation if ceasefire breached again",
-    "Iran's strike on Israel suggests the regime's sense of resilience is growing",
-    "At least 35 dead after major earthquake strikes southern Philippines",
-    "Armenia's pro-West government wins election despite Russian pressure",
-    "Malawians repatriated from South Africa amid xenophobia concerns"
+    "Watch: Trump tells BBC Netanyahu did not defy him",
+    "Israel and Iran flare-up could strengthen Tehran's negotiating hand",
+    "SpaceX's stock market blast-off could be Musk's biggest gamble yet",
+    "At least 35 dead after major earthquake strikes southern Philippines"
   ],
   "categories": {
     "geopolitical": {
@@ -26,8 +26,8 @@
       "signal": "🟡",
       "summary": "Iran and Israel say they will pause strikes b...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 11,
-      "score": 17.3
+      "matched": 13,
+      "score": 20.2
     },
     "macro": {
       "level": "주의",
@@ -35,8 +35,8 @@
       "signal": "🟡",
       "summary": "At least 35 dead after major earthquake strik...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 3,
-      "score": 4.4
+      "matched": 2,
+      "score": 3.0
     },
     "disaster": {
       "level": "안전",
@@ -53,17 +53,17 @@
       "signal": "🔴",
       "summary": "Iran and Israel say they will pause strikes b...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 9,
+      "matched": 11,
       "score": 2.8
     },
     "policy": {
-      "level": "안전",
-      "color": "green",
-      "signal": "🟢",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "국힘 박충권 \"'탈원전' 양이원영, 한수원 이사 면접…이해상충 심각\"",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 1,
+      "score": 1.5
     }
   },
   "overall": {

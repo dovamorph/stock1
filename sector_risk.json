@@ -1,22 +1,8 @@
 {
-  "updated_at": "2026-06-09T08:13:58.835080+09:00",
+  "updated_at": "2026-06-09T12:53:11.806509+09:00",
   "date": "20260609",
   "window_days": 14,
   "calendar_events": [
-    {
-      "id": "options_expiry_jun2026",
-      "name": "옵션 만기일",
-      "date": "2026-06-11",
-      "type": "expiry",
-      "risk_level": "medium",
-      "description": "월물 옵션 만기. 프로그램 매매 영향으로 변동성 확대 가능. 장 마감 앞두고 수급 급변 주의.",
-      "benefit_text": "",
-      "damage_text": "전체 변동성 확대 주의",
-      "sector_impacts": {
-        "전체시장": -1
-      },
-      "d_day": 2
-    },
     {
       "id": "spacex_ipo_2026",
       "name": "스페이스X IPO",
