@@ -157,10 +157,20 @@ def load_geo_result() -> list:
             data = json.load(f)
         if isinstance(data, list):
             return data
-        elif isinstance(data, dict):
-            return data.get("events", data.get("news", data.get("items", [])))
+        # geo_analysis.py 실제 저장 구조: all_headlines (전체), news_sample (샘플)
+        headlines = data.get("all_headlines", [])
+        if headlines:
+            return [{"title": h} for h in headlines]
+        # 하위 호환: 구버전 키
+        for key in ("events", "news", "items", "news_sample"):
+            val = data.get(key, [])
+            if val:
+                if isinstance(val[0], str):
+                    return [{"title": h} for h in val]
+                return val
     except:
-        return []
+        pass
+    return []
 
 def load_event_history() -> list:
     RISK_FILE = "sector_risk.json"
