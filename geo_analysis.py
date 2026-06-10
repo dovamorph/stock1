@@ -392,9 +392,13 @@ def main():
 
     seen = set()
     samples = []
+    all_headlines = []
     for h, _ in all_news_weighted:
-        if h not in seen and len(samples) < 5:
-            seen.add(h); samples.append(h)
+        if h not in seen:
+            seen.add(h)
+            all_headlines.append(h)
+            if len(samples) < 5:
+                samples.append(h)
 
     result = {
         "updated": now.strftime("%Y-%m-%d %H:%M"),
@@ -403,6 +407,7 @@ def main():
         "domestic_count": domestic_count,
         "source_stats": source_stats,
         "news_sample": samples,
+        "all_headlines": all_headlines,   # event_tracker.py 뉴스 분류용 전체 헤드라인
         "categories": cat_results,
         "overall": overall
     }
