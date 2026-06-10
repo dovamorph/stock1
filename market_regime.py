@@ -72,7 +72,7 @@ REGIME_PARAMS = {
     "UNKNOWN": {
         "label":               "판단불가 ⚪",
         "allow_new_longterm":  False,
-        "allow_new_daytrend":  True,
+        "allow_new_daytrend":  False,   # 단타 전략 폐기에 맞게 수정
         "position_multiplier": 0.5,
         "long_tp":             [0.08, 0.15, 0.22],
         "short_tp":            [0.06, 0.09, 0.12],
@@ -254,7 +254,12 @@ def get_market_regime(force_refresh: bool = False) -> dict:
             ma20    = fb["ma20"] or current
             ma60    = fb["ma60"] or current
             ret_5d  = fb["ch5"]
-            ret_20d = ret_5d * 4   # 20일 수익률 근사 (부정확하지만 방향은 맞음)
+            # 20일 수익률: MA20 기반으로 계산 (단순 5일*4 근사는 급등락 시 -32% 등 왜곡 발생)
+            # MA20이 유효하면 현가/MA20 비율로 추정, 없으면 5일*2로 보수적 근사
+            if ma20 > 0 and ma20 != current:
+                ret_20d = round((current - ma20) / ma20 * 100, 2)
+            else:
+                ret_20d = round(ret_5d * 2, 2)  # 보수적 근사 (기존 *4 대비 왜곡 감소)
             vkospi  = 20.0
             vol_trend = False
 
