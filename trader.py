@@ -4,7 +4,7 @@ StockPilot KR — 자동매매 (trader.py) [통합 시스템]
 장투·단타·모멘텀 구분 없이 여러 지표를 종합해 자동매매.
 
 [설계]
-- 예산 700만원 / 최대 7종목 / F등급 제외
+- 예산 700만원 / 최대 7종목 / D·F등급 제외
 - 진입: RSI 50~75 + 매도주도 아님 + 거래량 유지 + 진입점수 정렬
 - 포지션: 등급별 차등 (A=150만 B=100만 C=70만 D=50만)
 - 청산: 손절-7% / 익절+10%·+20% / RSI78+ / 매도주도전환 / 7일
@@ -281,7 +281,7 @@ def unified_sells(token, data, stocks, now):
 # ── 통합 매수 ─────────────────────────────────────────────────────────
 def unified_buys(token, data, stocks, now, allow_buy, regime_mult, kospi_ch5, expiry_guard):
     """
-    진입: F등급 제외 + RSI 50~75 + 매도주도 아님 + 거래량 유지
+    진입: D·F등급 제외 + RSI 50~75 + 매도주도 아님 + 거래량 유지
     등급별 투자금 × 국면 배율
     진입 점수 내림차순 정렬
     """
@@ -406,7 +406,7 @@ def main():
     mode_str = "🧪 모의투자" if MOCK else "💰 실전투자"
     print(f"\n{'='*50}")
     print(f"  StockPilot KR — 자동매매  {now.strftime('%Y%m%d %H:%M KST')}  [{mode_str}]")
-    print(f"  예산 {BUDGET//10000}만원 | F등급 제외 | 최대 {MAX_POS}종목 | 통합 시스템")
+    print(f"  예산 {BUDGET//10000}만원 | D·F등급 제외 | 최대 {MAX_POS}종목 | 통합 시스템")
     print(f"{'='*50}")
 
     # 매매 정지 체크
