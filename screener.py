@@ -810,8 +810,9 @@ def judge(d):
     elif score==3: grade="C"
     elif score==2: grade="D"
     else: grade="F"
+    recommended = score >= 4
     return {"roe_ok":c1,"per_ok":c2,"eps_ok":c3,"eps_up":c4,"debt_ok":c5,
-            "is_finance":is_finance,"score":score,"grade":grade,"recommended":score>=4,
+            "is_finance":is_finance,"score":score,"grade":grade,"recommended":recommended,
             "is_growth_exception":is_growth_exception,"per_limit":per_limit}
 
 def send_discord(results, date, recs, market_signal):
@@ -965,7 +966,7 @@ def main():
                 f"  EPS:{t.get('eps',0):,.0f}({eps_tr['eps_trend']}){'✅' if f['eps_ok'] and f['eps_up'] else '❌'}"
                 f"{debt_str}  5일:{price.get('ch5',0):+.1f}%  20일:{price.get('ch20',0):+.1f}%"
                 f"  [{vc}]"
-                f"{div_str}{'  ⭐' if f['recommended'] else ''}"
+                f"{div_str}"
             )
         except Exception: print("오류"); traceback.print_exc()
         time.sleep(0.3)
