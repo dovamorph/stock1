@@ -2,7 +2,7 @@
 StockPilot KR — KIS OpenAPI 스크리닝
 지표: 거래대금 / ROE / PER / PBR / EPS / EPS추세 / 배당여부 / 20일등락
 시장 시그널: KOSPI MA5/MA20/MA60 정배열/역배열 기반
-등급: A(4/4) B(3/4) C(2/4) D(1이하)
+등급: A(5/5) B(4/5) C(3/5) D(2/5) F(1이하) — 부채비율 포함 5개 기준
 """
 import os, json, time, traceback
 from datetime import datetime, timedelta
@@ -35,12 +35,18 @@ def sf(v, d=0.0):
     except: return d
 
 def get_token():
-    r=requests.post(f"{BASE}/oauth2/tokenP",timeout=15,
-        json={"grant_type":"client_credentials","appkey":APP_KEY,"appsecret":APP_SECRET})
-    r.raise_for_status()
-    tok=r.json().get("access_token","")
-    if not tok: raise ValueError("토큰 비어있음")
-    print("  ✅ KIS 토큰 발급 완료"); return tok
+    for attempt in range(3):
+        try:
+            r=requests.post(f"{BASE}/oauth2/tokenP",timeout=15,
+                json={"grant_type":"client_credentials","appkey":APP_KEY,"appsecret":APP_SECRET})
+            r.raise_for_status()
+            tok=r.json().get("access_token","")
+            if tok:
+                print("  ✅ KIS 토큰 발급 완료"); return tok
+        except Exception as e:
+            print(f"  토큰 발급 시도 {attempt+1}/3 실패: {e}")
+            if attempt < 2: time.sleep(3)
+    raise ValueError("토큰 발급 최종 실패")
 
 def H(tok, tr_id):
     return {"Content-Type":"application/json","authorization":f"Bearer {tok}",
@@ -287,6 +293,33 @@ def fetch_us_signal() -> dict:
         "us_signal": "⚖️ 관망", "us_signal_en": "WATCH",
         "us_reason": "데이터 없음",
     }
+    # ── market_indicators.json에서 현재가/등락률 선 로드 (yfinance 중복 절감) ──
+    MI_FILE = "market_indicators.json"
+    try:
+        if os.path.exists(MI_FILE):
+            with open(MI_FILE, "r", encoding="utf-8") as _f:
+                _mi = json.load(_f)
+            _inds = _mi.get("indicators", {})
+            # us_market.json에서 SP500/NDX/VIX 현재값 우선 로드
+    except Exception:
+        pass
+    US_FILE = "us_market.json"
+    try:
+        if os.path.exists(US_FILE):
+            with open(US_FILE, "r", encoding="utf-8") as _f:
+                _us = json.load(_f)
+            if _us.get("sp500", {}).get("close", 0) > 0:
+                result["sp500_close"] = _us["sp500"]["close"]
+                result["sp500_ch1"]   = _us["sp500"].get("change_pct", 0)
+            if _us.get("nasdaq", {}).get("close", 0) > 0:
+                result["ndx_close"] = _us["nasdaq"]["close"]
+                result["ndx_ch1"]   = _us["nasdaq"].get("change_pct", 0)
+            if _us.get("vix", {}).get("close", 0) > 0:
+                result["vix_close"] = _us["vix"]["close"]
+                result["vix_level"] = _us["vix"].get("level", "")
+            print(f"  us_market.json 로드: SP500 {result['sp500_close']:,.2f} / NDX {result['ndx_close']:,.2f} / VIX {result['vix_close']:.1f}")
+    except Exception as e:
+        print(f"  us_market.json 로드 실패: {e}")
     try:
         now = datetime.now()
         s   = (now - timedelta(days=90)).strftime("%Y-%m-%d")
@@ -617,12 +650,6 @@ def fetch_foreign_net(tok, ticker):
     except:
         return 0
 
-def check_dividend(ticker, market):
-    try:
-        suffix = ".KS" if market == "KOSPI" else ".KQ"
-        info = yf.Ticker(f"{ticker}{suffix}").info
-        return (info.get("dividendYield",0) or 0) > 0 or (info.get("dividendRate",0) or 0) > 0
-    except: return False
 
 # ── 5단계: EPS 추세 ───────────────────────────────────────────────
 def fetch_eps_trend(tok, ticker, cur_eps):
@@ -661,7 +688,8 @@ def fetch_ch20(tok, ticker):
             params={"fid_cond_mrkt_div_code":"J","fid_input_iscd":ticker,
                     "fid_org_adj_prc":"1","fid_period_div_code":"D",
                     "fid_input_date_1":s,"fid_input_date_2":e})
-        items=res.json().get("output2",res.json().get("output",[]))
+        rjson=res.json()
+        items=rjson.get("output2",rjson.get("output",[]))
         prices=[sf(x.get("stck_clpr")) for x in items if sf(x.get("stck_clpr"))>0]
         if len(prices)>=20:
             r["ch20"]=round((prices[0]-prices[19])/prices[19]*100,1) if prices[19]>0 else 0.
@@ -931,11 +959,10 @@ def main():
         try:
             eps_tr = fetch_eps_trend(tok,tk,t.get("eps",0))
             price  = fetch_ch20(tok,tk)
-            is_div = check_dividend(tk, t.get("market","KOSPI"))
             frgn_net = fetch_foreign_net(tok, tk)
             time.sleep(0.2)
 
-            data={**t,**eps_tr,**price,"is_dividend":is_div,"frgn_net":frgn_net}
+            data={**t,**eps_tr,**price,"frgn_net":frgn_net}
             f=judge(data)
             data.update({"filters":f,"grade":f["grade"],"score":f["score"],"recommended":f["recommended"]})
             # vol_char: prdy_ctrt(실시간 등락률) 기반 거래성격
@@ -956,7 +983,6 @@ def main():
 
             results.append(data)
 
-            div_str = "  💰" if is_div else ""
             debt_r = data.get("debt_ratio",None)
             debt_str = f"  부채:{debt_r:.0f}%{'✅' if f['debt_ok'] else '❌'}" if debt_r is not None else "  부채:-"
             print(
@@ -966,7 +992,6 @@ def main():
                 f"  EPS:{t.get('eps',0):,.0f}({eps_tr['eps_trend']}){'✅' if f['eps_ok'] and f['eps_up'] else '❌'}"
                 f"{debt_str}  5일:{price.get('ch5',0):+.1f}%  20일:{price.get('ch20',0):+.1f}%"
                 f"  [{vc}]"
-                f"{div_str}"
             )
         except Exception: print("오류"); traceback.print_exc()
         time.sleep(0.3)
@@ -978,8 +1003,7 @@ def main():
     for r in recs:
         print(f"  {ge_map.get(r['grade'],'⚪')}{r['grade']}등급 – {r['name']} ({r['market']})"
               f"  ROE {r.get('roe',0):.1f}%  PER {r.get('per',0):.1f}배"
-              f"  EPS {r.get('eps',0):,.0f}원({r.get('eps_trend','?')})"
-              f"{'  💰' if r.get('is_dividend') else ''}")
+              f"  EPS {r.get('eps',0):,.0f}원({r.get('eps_trend','?')})")
 
     # reference_ranks: 날짜 바뀔 때만 갱신 (같은 날 재실행해도 기준 고정)
     try:
