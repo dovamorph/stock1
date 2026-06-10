@@ -28,12 +28,16 @@ jobs:
       - name: Run event tracker
         run: python event_tracker.py
 
+      - name: Run market regime
+        run: python market_regime.py
+
       - name: Commit results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add geo_result.json
           test -f sector_risk.json && git add sector_risk.json || true
+          test -f regime_cache.json && git add regime_cache.json || true
           git diff --cached --quiet || git commit -m "geo: $(date +'%Y%m%d %H%M')"
           git pull --rebase origin main
           git push
