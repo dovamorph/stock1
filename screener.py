@@ -149,14 +149,17 @@ def fetch_market_signal(tok) -> dict:
                 rs = avg_gain / avg_loss
                 rsi_14 = round(100 - (100 / (1 + rs)), 1)
 
+        # KIS 일별 차트로 이미 확보한 ch1/close는 덮어쓰지 않음
+        # (DataReader prices[0]은 장 중 마지막 확정일이 어제일 수 있음)
+        _kis_ch1_ok = result.get("kospi_ch1", 0) != 0
         result.update({
-            "kospi_close": round(close, 2),
+            "kospi_close": result["kospi_close"] if _kis_ch1_ok else round(close, 2),
             "ma5":         round(ma5, 2),
             "ma20":        round(ma20, 2),
             "ma60":        round(ma60, 2),
             "kospi_ch5":   round((close - prices[4]) / prices[4] * 100, 2) if len(prices) >= 5 and prices[4] > 0 else 0,
             "kospi_ch20":  round((close - prices[19]) / prices[19] * 100, 2) if len(prices) >= 20 and prices[19] > 0 else 0,
-            "kospi_ch1":   round((close - prices[1]) / prices[1] * 100, 2) if len(prices) >= 2 and prices[1] > 0 else 0,
+            "kospi_ch1":   result["kospi_ch1"] if _kis_ch1_ok else (round((close - prices[1]) / prices[1] * 100, 2) if len(prices) >= 2 and prices[1] > 0 else 0),
             "kospi_ch2":   round((close - prices[2]) / prices[2] * 100, 2) if len(prices) >= 3 and prices[2] > 0 else 0,
             "rsi_14":      rsi_14,
         })
@@ -446,7 +449,7 @@ def load_candidates():
                 cache = json.load(f)
             cache_date  = cache.get("date", "")
             cache_slot  = cache.get("slot", "")
-            today       = datetime.utcnow() + timedelta(hours=9).strftime("%Y%m%d")
+            today       = (datetime.utcnow() + timedelta(hours=9)).strftime("%Y%m%d")
             candidates  = cache.get("candidates", [])
 
             # 캐시 재사용 조건: 오늘 날짜 + 해당 슬롯 이미 갱신됨
@@ -520,7 +523,7 @@ def load_candidates():
     try:
         with open(CAND_CACHE, "w", encoding="utf-8") as f:
             json.dump({
-                "date":       datetime.utcnow() + timedelta(hours=9).strftime("%Y%m%d"),
+                "date":       (datetime.utcnow() + timedelta(hours=9)).strftime("%Y%m%d"),
                 "slot":       slot or "manual",
                 "candidates": result,
             }, f, ensure_ascii=False)
