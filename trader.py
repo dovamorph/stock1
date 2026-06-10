@@ -31,7 +31,7 @@ from defense import (
 BUDGET         = 7_000_000
 MAX_POS        = 7
 
-GRADE_AMOUNT   = {"A": 1_500_000, "B": 1_000_000, "C": 700_000, "D": 500_000}
+GRADE_AMOUNT   = {"A": 1_500_000, "B": 1_000_000, "C": 700_000}  # D등급 미사용
 
 RSI_MIN        = 50
 RSI_MAX        = 75
@@ -98,6 +98,8 @@ def get_price(token, ticker):
 def place_order(token, ticker, qty, price, tr_id, side):
     """주문 실행. 성공 True 반환."""
     try:
+        if len(ACCOUNT_NO) < 11:
+            print(f"    ⚠️ ACCOUNT_NO 형식 오류: '{ACCOUNT_NO}' (최소 11자리 필요)"); return False
         body = {
             "CANO": ACCOUNT_NO[:8], "ACNT_PRDT_CD": ACCOUNT_NO[9:],
             "PDNO": ticker, "ORD_DVSN": "01",
@@ -258,7 +260,7 @@ def unified_sells(token, data, stocks, now):
             pnl = round((cur_price - buy_price) * sell_qty)
             log_trade(data, ticker, name, buy_price, cur_price, sell_qty, reason, now)
             if pnl < 0:
-                record_trade_result(ticker, pnl)
+                record_trade_result(is_loss=True, amount=pnl, ticker=ticker)
 
             if sell_qty >= qty:
                 # 전량 청산
@@ -310,7 +312,7 @@ def unified_buys(token, data, stocks, now, allow_buy, regime_mult, kospi_ch5, ex
 
     candidates = [
         s for s in stocks
-        if s.get("grade") not in ("F",)
+        if s.get("grade") not in ("F", "D")   # D등급 이하 제외 (A·B등급 장투 전용)
         and RSI_MIN <= float(s.get("rsi", 0)) <= RSI_MAX
         and "매도주도" not in s.get("vol_char", "")
         and float(s.get("vol_trend", -999)) >= vt_min
@@ -336,7 +338,7 @@ def unified_buys(token, data, stocks, now, allow_buy, regime_mult, kospi_ch5, ex
         rc        = stock.get("rank_change")
         rc_str    = "NEW" if rc is None else (f"▲{rc}" if isinstance(rc, (int,float)) and rc > 0 else "→")
 
-        base_amt      = GRADE_AMOUNT.get(grade, 500_000)
+        base_amt      = GRADE_AMOUNT.get(grade, 700_000)
         invest_target = int(base_amt * regime_mult)
 
         if invest_target > remaining:
