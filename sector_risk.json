@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-10T08:18:58.521338+09:00",
+  "updated_at": "2026-06-10T13:04:38.946771+09:00",
   "date": "20260610",
   "window_days": 14,
   "calendar_events": [
@@ -90,10 +90,23 @@
       "recent_events": []
     },
     "우주ETF": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20260610",
+          "type": "positive",
+          "headline": "Nasa names next astronauts for Artemis Moon programme",
+          "score": 1
+        },
+        {
+          "date": "20260610",
+          "type": "positive",
+          "headline": "NASA announces astronauts for Artemis III spaceflight, scheduled for 2027",
+          "score": 1
+        }
+      ]
     },
     "전체시장": {
       "score": 0,
@@ -102,8 +115,25 @@
       "recent_events": []
     }
   },
-  "event_history": [],
+  "event_history": [
+    {
+      "date": "20260610",
+      "headline": "Nasa names next astronauts for Artemis Moon programme",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": ""
+    },
+    {
+      "date": "20260610",
+      "headline": "NASA announces astronauts for Artemis III spaceflight, scheduled for 2027",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": ""
+    }
+  ],
   "total_negatives": 0,
-  "total_positives": 0,
+  "total_positives": 2,
   "risk_level": "LOW"
 }
