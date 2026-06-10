@@ -51,9 +51,10 @@ POSITIONS_FILE = "positions.json"
 EXPIRY_FILE    = "expiry_result.json"
 
 MOCK       = os.environ.get("KIS_MOCK", "true").lower() == "true"
-APP_KEY    = os.environ.get("KIS_APP_KEY",    os.environ.get("KIS_APP_KEY_MOCK",    ""))
-APP_SECRET = os.environ.get("KIS_APP_SECRET", os.environ.get("KIS_APP_SECRET_MOCK", ""))
-ACCOUNT_NO = os.environ.get("KIS_ACCOUNT_NO", os.environ.get("KIS_ACCOUNT_MOCK",    ""))
+# trader.py는 모의투자 전용 — 실전키(KIS_APP_KEY)와 분리해서 명시적으로 MOCK 키만 사용
+APP_KEY    = os.environ.get("KIS_APP_KEY_MOCK",    "")
+APP_SECRET = os.environ.get("KIS_APP_SECRET_MOCK", "")
+ACCOUNT_NO = os.environ.get("KIS_ACCOUNT_MOCK",    "")
 DISCORD_WH = os.environ.get("DISCORD_WEBHOOK", "")
 BASE_URL   = ("https://openapivts.koreainvestment.com:29443" if MOCK
               else "https://openapi.koreainvestment.com:9443")
@@ -392,7 +393,6 @@ def unified_buys(token, data, stocks, now, allow_buy, regime_mult, kospi_ch5, ex
 
         time.sleep(1.0)  # KIS API 초당 5건 제한 방지
         if bought >= slots:
-            break
             break
 
     if bought > 0:
