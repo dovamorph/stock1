@@ -123,6 +123,41 @@ def place_order(token, ticker, qty, price, tr_id, side):
         print(f"    ⚠️ [{side}] {ticker} 예외: {e}")
         return False
 
+def check_account(token):
+    """계좌 연결 검증 — 잔고조회 API로 계좌/키 상태 확인 (주문 전 사전 점검)"""
+    try:
+        if len(ACCOUNT_NO) < 11:
+            print(f"  ⚠️ ACCOUNT_NO 형식 오류: '{ACCOUNT_NO}' (XXXXXXXX-XX 형식 필요)")
+            return False
+        tr_id = "VTTC8434R" if MOCK else "TTTC8434R"
+        r = requests.get(
+            f"{BASE_URL}/uapi/domestic-stock/v1/trading/inquire-balance",
+            headers={"authorization": f"Bearer {token}", "appkey": APP_KEY,
+                     "appsecret": APP_SECRET, "tr_id": tr_id, "custtype": "P"},
+            params={
+                "CANO": ACCOUNT_NO[:8], "ACNT_PRDT_CD": ACCOUNT_NO[9:],
+                "AFHR_FLPR_YN": "N", "OFL_YN": "", "INQR_DVSN": "02",
+                "UNPR_DVSN": "01", "FUND_STTL_ICLD_YN": "N",
+                "FNCG_AMT_AUTO_RDPT_YN": "N", "PRCS_DVSN": "00",
+                "CTX_AREA_FK100": "", "CTX_AREA_NK100": ""
+            }, timeout=15)
+        j = r.json()
+        if j.get("rt_cd") == "0":
+            out2 = j.get("output2") or [{}]
+            cash = str(out2[0].get("dnca_tot_amt", ""))
+            if cash.isdigit():
+                print(f"  ✅ 계좌 연결 확인 — 예수금 {int(cash):,}원")
+            else:
+                print(f"  ✅ 계좌 연결 확인")
+            return True
+        else:
+            print(f"  ⚠️ 계좌 조회 실패: {j.get('msg1','')} (rt_cd={j.get('rt_cd')})")
+            print(f"     → 계좌번호/모의투자 신청 상태를 확인하세요. 주문이 실패할 수 있습니다.")
+            return False
+    except Exception as e:
+        print(f"  ⚠️ 계좌 조회 오류: {e}")
+        return False
+
 # ── Discord ───────────────────────────────────────────────────────────
 def discord(msg):
     if not DISCORD_WH:
@@ -324,17 +359,37 @@ def unified_buys(token, data, stocks, now, allow_buy, regime_mult, kospi_ch5, ex
     vt_min = -20.0 if kospi_ch5 >= 5.0 else VOL_TREND_MIN
     surge  = "🚀 급등장" if kospi_ch5 >= 5.0 else ""
 
-    candidates = [
-        s for s in stocks
-        if s.get("grade") not in ("F", "D")   # D등급 이하 제외 (A·B등급 장투 전용)
-        and RSI_MIN <= float(s.get("rsi", 0)) <= RSI_MAX
-        and "매도주도" not in s.get("vol_char", "")
-        and float(s.get("vol_trend", -999)) >= vt_min
-        and s.get("macd_bull") in (True, None)
-        and s["ticker"] not in positions
-    ]
+    candidates = []
+    rejects    = []
+    for s in stocks:
+        grade = s.get("grade", "")
+        if grade in ("F", "D"):          # D·F등급 제외 (A·B·C 허용)
+            continue
+        if s["ticker"] in positions:
+            continue
+        fail = []
+        rsi = float(s.get("rsi", 0))
+        if not (RSI_MIN <= rsi <= RSI_MAX):
+            fail.append(f"RSI {rsi:.0f}")
+        if "매도주도" in s.get("vol_char", ""):
+            fail.append("매도주도")
+        if float(s.get("vol_trend", -999)) < vt_min:
+            fail.append(f"거래량추세 {float(s.get('vol_trend', 0)):.0f}%")
+        if s.get("macd_bull") not in (True, None):
+            fail.append("MACD데드")
+        if fail:
+            rejects.append((s.get("name", ""), grade, fail))
+        else:
+            candidates.append(s)
 
     candidates.sort(key=lambda x: -(x.get("entry_score") or 0))
+
+    if rejects:
+        print(f"\n  [매수 탈락] {len(rejects)}개")
+        for name, grade, fail in rejects[:10]:
+            print(f"    {name} ({grade}) — {', '.join(fail)}")
+        if len(rejects) > 10:
+            print(f"    ... 외 {len(rejects)-10}개")
 
     print(f"\n  [매수 후보] {len(candidates)}개 "
           f"(RSI {RSI_MIN}~{RSI_MAX} vol≥{vt_min:.0f}% 배율:{regime_mult:.1f}x {surge})")
@@ -494,6 +549,8 @@ def main():
         print("  ✅ 토큰 발급 완료")
     except Exception as e:
         print(f"  ⚠️ KIS 연결 실패: {e}"); return
+
+    check_account(token)   # 계좌 연결 검증 (실패해도 진행 — 경고만)
 
     data = load_positions()
     data["_kospi_ch5"] = kospi_ch5
