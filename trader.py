@@ -4,8 +4,8 @@ StockPilot KR — 자동매매 (trader.py) [통합 시스템]
 장투·단타·모멘텀 구분 없이 여러 지표를 종합해 자동매매.
 
 [설계]
-- 예산 700만원 / 최대 7종목 / D·F등급 제외
-- 진입: RSI 50~75 + 매도주도 아님 + 거래량 유지 + 진입점수 정렬
+- 예산 700만원 / 최대 7종목 / F등급 제외 (등급=사이징: A150·B100·C70·D50만)
+- 진입: RSI 50~75 + 매도주도 아님 + 거래량 유지 + 총점(진입점수+모멘텀) ≥4, 총점순 정렬
 - 포지션: 등급별 차등 (A=150만 B=100만 C=70만 D=50만)
 - 청산: 손절-7% / 익절+10%·+20% / RSI78+ / 매도주도전환 / 시간청산(7일 추세이탈 시, 상한 21일)
 
@@ -31,7 +31,7 @@ from defense import (
 BUDGET         = 7_000_000
 MAX_POS        = 7
 
-GRADE_AMOUNT   = {"A": 1_500_000, "B": 1_000_000, "C": 700_000}  # D등급 미사용
+GRADE_AMOUNT   = {"A": 1_500_000, "B": 1_000_000, "C": 700_000, "D": 500_000}  # 등급=사이징, F=매수 제외
 
 RSI_MIN        = 50
 RSI_MAX        = 75
@@ -328,9 +328,29 @@ def unified_sells(token, data, stocks, now):
         time.sleep(0.5)
 
 # ── 통합 매수 ─────────────────────────────────────────────────────────
+def momentum_score(s: dict) -> int:
+    """인기/수급 모멘텀 점수 — 거래대금 순위 급등, 거래량 증가, 단기 상승세
+    rank_change: int(순위 변화폭) 또는 None(신규 진입)"""
+    score = 0
+    rc = s.get("rank_change")
+    if rc is None:                       # NEW — 거래대금 상위 신규 진입 (가장 강한 인기 신호)
+        score += 2
+    elif isinstance(rc, (int, float)):
+        if rc >= 5:   score += 2         # 순위 5계단 이상 급등
+        elif rc >= 1: score += 1
+    vt = float(s.get("vol_trend", 0) or 0)
+    if vt >= 30:   score += 2            # 거래량 추세 +30% 이상
+    elif vt >= 0:  score += 1
+    ch5 = float(s.get("ch5", 0) or 0)
+    if 3 <= ch5 <= 25:                   # 상승 중이지만 과열(+25%↑) 전 구간
+        score += 1
+    if "매수주도" in s.get("vol_char", ""):
+        score += 1
+    return score
+
 def unified_buys(token, data, stocks, now, allow_buy, regime_mult, kospi_ch5, expiry_guard):
     """
-    진입: D·F등급 제외 + RSI 50~75 + 매도주도 아님 + 거래량 유지
+    진입: F등급 제외 + RSI 50~75 + 매도주도 아님 + 총점(진입+모멘텀)≥4 / 등급은 사이징
     등급별 투자금 × 국면 배율
     진입 점수 내림차순 정렬
     """
@@ -363,7 +383,7 @@ def unified_buys(token, data, stocks, now, allow_buy, regime_mult, kospi_ch5, ex
     rejects    = []
     for s in stocks:
         grade = s.get("grade", "")
-        if grade in ("F", "D"):          # D·F등급 제외 (A·B·C 허용)
+        if grade == "F" or grade not in GRADE_AMOUNT:   # F등급 제외 (등급은 사이징용, F는 커트라인)
             continue
         if s["ticker"] in positions:
             continue
@@ -380,9 +400,11 @@ def unified_buys(token, data, stocks, now, allow_buy, regime_mult, kospi_ch5, ex
         if fail:
             rejects.append((s.get("name", ""), grade, fail))
         else:
+            s["_momentum"] = momentum_score(s)
+            s["_total"]    = (s.get("entry_score") or 0) + s["_momentum"]
             candidates.append(s)
 
-    candidates.sort(key=lambda x: -(x.get("entry_score") or 0))
+    candidates.sort(key=lambda x: -x["_total"])
 
     if rejects:
         print(f"\n  [매수 탈락] {len(rejects)}개")
@@ -430,9 +452,11 @@ def unified_buys(token, data, stocks, now, allow_buy, regime_mult, kospi_ch5, ex
         except Exception as e:
             print(f"    {name} — defense 체크 실패: {e} (통과)")
 
-        # 진입점수 최소 기준 (2점 미만 스킵)
-        if entry < 2:
-            print(f"    {name} — 진입점수 부족 ({entry}점 < 2점)")
+        # 진입 최소 기준: 총점(시장타이밍+모멘텀) 4점 미만 스킵
+        total = stock.get("_total", 0)
+        momentum = stock.get("_momentum", 0)
+        if total < 4:
+            print(f"    {name} — 총점 부족 ({total}점 < 4점, 진입{entry}+모멘텀{momentum})")
             continue
 
         cur_price = get_price(token, ticker)
@@ -459,8 +483,8 @@ def unified_buys(token, data, stocks, now, allow_buy, regime_mult, kospi_ch5, ex
             port["used"] = port.get("used", 0) + invest
             remaining   -= invest
             bought      += 1
-            print(f"  🟢 [매수] {name} ({grade}) RSI:{rsi:.0f} 점수:{entry} {rc_str} → {invest:,.0f}원")
-            discord(f"🟢 매수: {name} ({grade}) | {invest:,.0f}원 | RSI {rsi:.0f} | 진입점수 {entry}")
+            print(f"  🟢 [매수] {name} ({grade}) RSI:{rsi:.0f} 총점:{total}(진입{entry}+모멘텀{momentum}) {rc_str} → {invest:,.0f}원")
+            discord(f"🟢 매수: {name} ({grade}) | {invest:,.0f}원 | RSI {rsi:.0f} | 총점 {total}")
 
         time.sleep(1.0)  # KIS API 초당 5건 제한 방지
         if bought >= slots:
@@ -475,7 +499,7 @@ def main():
     mode_str = "🧪 모의투자" if MOCK else "💰 실전투자"
     print(f"\n{'='*50}")
     print(f"  StockPilot KR — 자동매매  {now.strftime('%Y%m%d %H:%M KST')}  [{mode_str}]")
-    print(f"  예산 {BUDGET//10000}만원 | D·F등급 제외 | 최대 {MAX_POS}종목 | 통합 시스템")
+    print(f"  예산 {BUDGET//10000}만원 | F등급 제외·등급별 사이징 | 최대 {MAX_POS}종목 | 모멘텀 통합")
     print(f"{'='*50}")
 
     # 매매 정지 체크
