@@ -1,17 +1,17 @@
 {
-  "updated": "2026-06-11 07:53",
+  "updated": "2026-06-12 01:47",
   "sp500": {
-    "close": 7266.99,
-    "change": -119.66,
-    "change_pct": -1.62
+    "close": 7296.76,
+    "change": 29.77,
+    "change_pct": 0.41
   },
   "nasdaq": {
-    "close": 25169.5,
-    "change": -509.32,
-    "change_pct": -1.98
+    "close": 25332.67,
+    "change": 163.17,
+    "change_pct": 0.65
   },
   "vix": {
-    "close": 22.22,
+    "close": 21.66,
     "level": "보통"
   }
 }
