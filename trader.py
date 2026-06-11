@@ -7,7 +7,7 @@ StockPilot KR — 자동매매 (trader.py) [통합 시스템]
 - 예산 700만원 / 최대 7종목 / D·F등급 제외
 - 진입: RSI 50~75 + 매도주도 아님 + 거래량 유지 + 진입점수 정렬
 - 포지션: 등급별 차등 (A=150만 B=100만 C=70만 D=50만)
-- 청산: 손절-7% / 익절+10%·+20% / RSI78+ / 매도주도전환 / 7일
+- 청산: 손절-7% / 익절+10%·+20% / RSI78+ / 매도주도전환 / 시간청산(7일 추세이탈 시, 상한 21일)
 
 [모듈]
 - market_regime : BULL/SIDEWAYS/BEAR → 포지션배율
@@ -41,7 +41,9 @@ STOP_LOSS      = -0.07
 TP1            = 0.10
 TP2            = 0.20
 RSI_EXIT       = 78
-MAX_DAYS       = 7
+MAX_DAYS       = 7      # 소프트 체크: 7일째 수익 미달 + 추세 이탈 시 청산
+MAX_DAYS_HARD  = 21     # 절대 상한: 추세와 무관하게 청산
+TIME_EXIT_MIN_PNL = 0.03  # 7일째 이 수익률(+3%) 미만이면 추세 체크 대상
 
 REGIME_MULT    = {"BULL": 1.0, "SIDEWAYS": 0.7, "BEAR": 0.0}
 
@@ -192,7 +194,7 @@ def unified_sells(token, data, stocks, now):
     """
     보유 종목 청산 체크.
     손절 -7% / 1차익절 +10%(절반) / 2차익절 +20%(전량)
-    RSI 78 이상(수익 중) / 매도주도 전환(손실 중) / 7일 시간손절
+    RSI 78 이상(수익 중) / 매도주도 전환(손실 중) / 시간청산: 7일째 +3% 미만 & 추세이탈 시 (눌림목이면 유지, 상한 21일)
     """
     port      = data.setdefault("portfolio", {"budget": BUDGET, "used": 0, "positions": {}})
     positions = port.get("positions", {})
@@ -247,7 +249,19 @@ def unified_sells(token, data, stocks, now):
             reason = f"매도주도전환 {pnl_pct*100:.1f}%"
 
         elif days_held >= MAX_DAYS:
-            reason = f"시간손절 {days_held}일 ({pnl_pct*100:.1f}%)"
+            if days_held >= MAX_DAYS_HARD:
+                reason = f"시간청산 상한{MAX_DAYS_HARD}일 ({pnl_pct*100:.1f}%)"
+            elif pnl_pct < TIME_EXIT_MIN_PNL:
+                # 눌림목 판단: 추세가 살아있으면 유지 (매수주도/상승동반 + RSI 45↑ + MACD 불리시)
+                trend_alive = (
+                    ("매수주도" in vol_char or "상승동반" in vol_char)
+                    and rsi >= 45
+                    and s.get("macd_bull") in (True, None)
+                )
+                if not trend_alive:
+                    reason = f"시간손절 {days_held}일 ({pnl_pct*100:.1f}%, 추세이탈)"
+                else:
+                    print(f"    {name} | {pnl_pct*100:+.1f}% | {days_held}일 | 눌림목 추세생존 → 유지")
 
         if not reason:
             pnl_str = f"{pnl_pct*100:+.1f}%"
