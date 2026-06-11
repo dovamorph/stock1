@@ -197,6 +197,21 @@ CATEGORIES = {
 }
 
 # ── RSS 파싱 ───────────────────────────────────────────────────────────
+def is_junk_headline(text: str) -> bool:
+    """RSS 푸터/면책조항/회사정보 등 뉴스가 아닌 라인 필터"""
+    JUNK_PATTERNS = [
+        # 면책조항/법적 고지
+        "투자 참고사항", "법적인 책임", "무단 배포", "투자 자문", "투자판단",
+        "정확성, 진실성", "책임은 회원", "요약 서비스", "어떠한 의사나 입장",
+        # 회사 정보
+        "두나무", "사업자 등록번호", "청소년보호 책임자", "기사배열 책임자",
+        "서울특별시", "강남대로", "©",
+        # RSS/피드 제목
+        "최신기사", "뉴스룸", "RSS |", "| RSS", "제공하는 서비스",
+    ]
+    return any(p in text for p in JUNK_PATTERNS)
+
+
 def fetch_rss(source):
     headers = {
         "User-Agent": "Mozilla/5.0 (compatible; StockPilotBot/1.0; +https://github.com)",
@@ -225,7 +240,7 @@ def fetch_rss(source):
             t = re.sub(r'<[^>]+>', '', t).strip()
             t = t.replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>')\
                  .replace('&quot;', '"').replace('&#39;', "'")
-            if len(t) > 8 and t not in skip_words and t not in headlines:
+            if len(t) > 8 and t not in skip_words and t not in headlines and not is_junk_headline(t):
                 headlines.append(t)
 
         return headlines[:30]
@@ -247,7 +262,7 @@ def fetch_stockplus():
         headlines = []
         for block in text_blocks:
             text = block[1:-1].strip()
-            if any('\uAC00' <= c <= '\uD7A3' for c in text) and len(text) > 8:
+            if any('\uAC00' <= c <= '\uD7A3' for c in text) and len(text) > 8 and not is_junk_headline(text):
                 headlines.append(text)
         return list(dict.fromkeys(headlines))[:25]
     except Exception as e:
