@@ -1051,7 +1051,7 @@ def main():
             "adr":       adr_data.get("adr", 50),
             "rsi":       round(float(market_signal.get("rsi_14", 50)), 1),
             "vkospi":    round(float(vkospi_est), 1),
-            "vix":       round(float(market_signal.get("us", {}).get("vix", 0)), 1),
+            "vix":       round(float(market_signal.get("us", {}).get("vix_close", 0)), 1),
             "kospi_ch1": round(float(market_signal.get("kospi_ch1", 0)), 2),
         }
         # 같은 날이면 덮어쓰기, 새 날이면 추가
