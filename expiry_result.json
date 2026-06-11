@@ -1,16 +1,16 @@
 {
   "expiry_date": "2026-06-11",
   "d_day": 0,
-  "updated": "2026-06-11 09:13",
+  "updated": "2026-06-11 13:00",
   "deadline_time": "15:20",
-  "deadline_str": "6시간 6분 후 마감",
+  "deadline_str": "2시간 19분 후 마감",
   "guard": {
     "allow_new_longterm": false,
-    "allow_new_daytrend": false,
+    "allow_new_daytrend": true,
     "sell_priority": false,
     "score_penalty": 3,
     "pos_mult_adj": -0.5,
-    "note": "만기일 오전 — 프로그램 매물 집중",
-    "action_note": "🔴 신규진입 금지. 프로그램 매물이 쏟아지는 구간입니다. 매수하면 하락에 그대로 노출됩니다."
+    "note": "만기일 오후 — 방향 확인 후 소규모 단타 가능",
+    "action_note": "🟡 방향이 잡혔다면 단타 소규모만 가능합니다. 무리한 진입은 금물, 빠른 익절이 원칙입니다."
   }
 }
