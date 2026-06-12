@@ -20,7 +20,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4
+        run: pip install requests beautifulsoup4 yfinance pandas numpy
 
       - name: Run geo analysis
         run: python geo_analysis.py
@@ -30,6 +30,7 @@ jobs:
 
       - name: Run market regime
         run: python market_regime.py
+        continue-on-error: true   # 실패해도 geo/sector 커밋은 진행
 
       - name: Commit results
         run: |
