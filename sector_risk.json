@@ -1,7 +1,18 @@
 {
-  "updated_at": "2026-06-10T13:04:38.946771+09:00",
-  "date": "20260610",
+  "updated_at": "2026-06-12T11:12:43.646078+09:00",
+  "date": "20260612",
   "window_days": 14,
+  "sectors": [
+    "반도체·AI",
+    "건설",
+    "방산",
+    "전력·에너지",
+    "로봇",
+    "금융",
+    "우주ETF",
+    "양자컴퓨팅",
+    "전체시장"
+  ],
   "calendar_events": [
     {
       "id": "spacex_ipo_2026",
@@ -11,13 +22,13 @@
       "risk_level": "high",
       "description": "역대 최대 공모(750억달러)로 글로벌 자금이 쏠리면서 기존 보유 주식을 팔아 현금을 확보하는 움직임 예고. 반도체·성장주 중심으로 외국인 매도세 강화 가능성.",
       "benefit_text": "우주ETF ▲▲▲",
-      "damage_text": "반도체 ▼▼  성장주 ▼",
+      "damage_text": "반도체·AI ▼▼  성장주 ▼",
       "sector_impacts": {
-        "반도체": -2,
+        "반도체·AI": -2,
         "우주ETF": 3,
         "전체시장": -1
       },
-      "d_day": 2
+      "d_day": 0
     },
     {
       "id": "fed_jun2026",
@@ -33,7 +44,7 @@
         "건설": 1,
         "전체시장": 1
       },
-      "d_day": 8
+      "d_day": 6
     },
     {
       "id": "nvidia_q2_2026",
@@ -42,36 +53,75 @@
       "type": "earnings",
       "risk_level": "high",
       "description": "AI 수요 확인의 가늠자. 어닝 서프라이즈 시 반도체 전체 랠리. 실망 시 AI테마 전반 조정.",
-      "benefit_text": "호실적: 반도체 ▲▲▲  소부장 ▲▲",
-      "damage_text": "실망: 반도체 ▼▼  AI테마 ▼▼",
+      "benefit_text": "호실적: 반도체·AI ▲▲▲  소부장 ▲▲",
+      "damage_text": "실망: 반도체·AI ▼▼  AI테마 ▼▼",
       "sector_impacts": {
-        "반도체": 3,
+        "반도체·AI": 3,
         "로봇": 1,
-        "전력전선": 1
+        "전력·에너지": 1
       },
-      "d_day": 15
+      "d_day": 13
     }
   ],
   "sector_stats": {
-    "반도체": {
-      "score": 0,
+    "반도체·AI": {
+      "score": -2,
       "positive_count": 0,
-      "negative_count": 0,
-      "recent_events": []
+      "negative_count": 1,
+      "recent_events": [
+        {
+          "date": "20260612",
+          "type": "negative",
+          "headline": "[거시분석] China bars Philippines defence chief as South...",
+          "score": -2
+        }
+      ]
     },
     "건설": {
       "score": 0,
-      "positive_count": 0,
-      "negative_count": 0,
-      "recent_events": []
+      "positive_count": 1,
+      "negative_count": 1,
+      "recent_events": [
+        {
+          "date": "20260612",
+          "type": "positive",
+          "headline": "Stocks markets surge as Trump calls off strikes on Iran, touts peace deal",
+          "score": 1
+        },
+        {
+          "date": "20260612",
+          "type": "negative",
+          "headline": "[거시분석] China bars Philippines defence chief as South...",
+          "score": -1
+        }
+      ]
     },
     "방산": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 4,
+      "positive_count": 3,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20260612",
+          "type": "positive",
+          "headline": "Iran war live: Trump claims Tehran deal ‘approved’, cancels new strikes",
+          "score": 1
+        },
+        {
+          "date": "20260612",
+          "type": "positive",
+          "headline": "China bars Philippines defence chief as South China Sea spat sails onwards",
+          "score": 1
+        },
+        {
+          "date": "20260612",
+          "type": "positive",
+          "headline": "[거시분석] China bars Philippines defence chief as South...",
+          "score": 2
+        }
+      ]
     },
-    "전력전선": {
+    "전력·에너지": {
       "score": 0,
       "positive_count": 0,
       "negative_count": 0,
@@ -84,16 +134,41 @@
       "recent_events": []
     },
     "금융": {
-      "score": 0,
+      "score": -4,
       "positive_count": 0,
-      "negative_count": 0,
-      "recent_events": []
+      "negative_count": 2,
+      "recent_events": [
+        {
+          "date": "20260612",
+          "type": "negative",
+          "headline": "한은 총재 \"물가안정에 중점…늦지 않게 금리 인상\"(종합)",
+          "score": -1
+        },
+        {
+          "date": "20260612",
+          "type": "negative",
+          "headline": "[거시분석] China bars Philippines defence chief as South...",
+          "score": -3
+        }
+      ]
     },
     "우주ETF": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 4,
+      "positive_count": 4,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260612",
+          "type": "positive",
+          "headline": "SpaceX's stock market blast-off could be Musk's biggest gamble yet",
+          "score": 1
+        },
+        {
+          "date": "20260612",
+          "type": "positive",
+          "headline": "Musk’s $1.8 trillion SpaceX IPO could be ‘highly undesirable’ for some",
+          "score": 1
+        },
         {
           "date": "20260610",
           "type": "positive",
@@ -108,11 +183,36 @@
         }
       ]
     },
-    "전체시장": {
+    "양자컴퓨팅": {
       "score": 0,
       "positive_count": 0,
       "negative_count": 0,
       "recent_events": []
+    },
+    "전체시장": {
+      "score": -11,
+      "positive_count": 0,
+      "negative_count": 3,
+      "recent_events": [
+        {
+          "date": "20260612",
+          "type": "negative",
+          "headline": "An Everest guide's miraculous survival raises questions for tourism industry",
+          "score": -1
+        },
+        {
+          "date": "20260612",
+          "type": "negative",
+          "headline": "Family of British toddler criticises police as Australian inquiry into cold case murders begins",
+          "score": -1
+        },
+        {
+          "date": "20260612",
+          "type": "negative",
+          "headline": "[거시분석] China bars Philippines defence chief as South...",
+          "score": -9
+        }
+      ]
     }
   },
   "event_history": [
@@ -131,9 +231,85 @@
         "우주ETF": 1
       },
       "source": ""
+    },
+    {
+      "date": "20260612",
+      "headline": "An Everest guide's miraculous survival raises questions for tourism industry",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260612",
+      "headline": "Family of British toddler criticises police as Australian inquiry into cold case murders begins",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260612",
+      "headline": "SpaceX's stock market blast-off could be Musk's biggest gamble yet",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260612",
+      "headline": "Stocks markets surge as Trump calls off strikes on Iran, touts peace deal",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260612",
+      "headline": "Iran war live: Trump claims Tehran deal ‘approved’, cancels new strikes",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260612",
+      "headline": "Musk’s $1.8 trillion SpaceX IPO could be ‘highly undesirable’ for some",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260612",
+      "headline": "China bars Philippines defence chief as South China Sea spat sails onwards",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260612",
+      "headline": "한은 총재 \"물가안정에 중점…늦지 않게 금리 인상\"(종합)",
+      "impacts": {
+        "금융": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260612",
+      "headline": "[거시분석] China bars Philippines defence chief as South...",
+      "impacts": {
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -9,
+        "금융": -3,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 0,
-  "total_positives": 2,
-  "risk_level": "LOW"
+  "total_negatives": 7,
+  "total_positives": 8,
+  "risk_level": "EXTREME"
 }
