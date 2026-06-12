@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-13T03:10:14.825756+09:00",
+  "updated_at": "2026-06-13T06:50:40.618558+09:00",
   "date": "20260613",
   "window_days": 14,
   "sectors": [
@@ -72,32 +72,20 @@
         {
           "date": "20260613",
           "type": "positive",
-          "headline": "Video: AI models predict World Cup results",
+          "headline": "Mother sues OpenAI in US after daughter’s death linked to ChatGPT use",
           "score": 1
         }
       ]
     },
     "건설": {
-      "score": 4,
-      "positive_count": 4,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20260613",
           "type": "positive",
-          "headline": "‘Dishonorable’: Trump says leaked Iran ceasefire terms fake",
-          "score": 1
-        },
-        {
-          "date": "20260613",
-          "type": "positive",
-          "headline": "트럼프, 종전 MOU 서명 시기에 \"주말이나 월요일에 가능할 것\"",
-          "score": 1
-        },
-        {
-          "date": "20260613",
-          "type": "positive",
-          "headline": "이란 외무 \"어느 때보다 '종전 MOU'에 가까워져\"",
+          "headline": "UAE to unlock frozen Iranian funds amid US ceasefire push",
           "score": 1
         },
         {
@@ -109,9 +97,9 @@
       ]
     },
     "방산": {
-      "score": 6,
-      "positive_count": 9,
-      "negative_count": 3,
+      "score": 12,
+      "positive_count": 12,
+      "negative_count": 0,
       "recent_events": [
         {
           "date": "20260613",
@@ -121,26 +109,26 @@
         },
         {
           "date": "20260613",
-          "type": "negative",
-          "headline": "트럼프, 종전 MOU 서명 시기에 \"주말이나 월요일에 가능할 것\"",
-          "score": -1
-        },
-        {
-          "date": "20260613",
-          "type": "negative",
-          "headline": "이란 외무 \"어느 때보다 '종전 MOU'에 가까워져\"",
-          "score": -1
-        },
-        {
-          "date": "20260613",
-          "type": "negative",
-          "headline": "이스라엘 국방 \"이란 핵저지 독자 능력 유지…레바논 철군 안해\"",
-          "score": -1
+          "type": "positive",
+          "headline": "Will there be a deal to end the Iran war this time?",
+          "score": 1
         },
         {
           "date": "20260613",
           "type": "positive",
-          "headline": "[거시분석] Iran says deal to end fighting with US has 'n...",
+          "headline": "Pope warns people smugglers they face God’s wrath",
+          "score": 1
+        },
+        {
+          "date": "20260613",
+          "type": "positive",
+          "headline": "How the Gulf will manage collective security after the Iran war ends",
+          "score": 1
+        },
+        {
+          "date": "20260613",
+          "type": "positive",
+          "headline": "[거시분석] Deal to end fighting would lead to Hormuz reo...",
           "score": 1
         }
       ]
@@ -171,10 +159,16 @@
       "recent_events": []
     },
     "우주ETF": {
-      "score": 5,
-      "positive_count": 5,
+      "score": 6,
+      "positive_count": 6,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260613",
+          "type": "positive",
+          "headline": "Elon Musk becomes world's first trillionaire as SpaceX soars in stock market debut",
+          "score": 1
+        },
         {
           "date": "20260613",
           "type": "positive",
@@ -190,19 +184,13 @@
         {
           "date": "20260613",
           "type": "positive",
-          "headline": "SpaceX IPO debuts in US markets, Musk becomes world’s first trillionaire",
+          "headline": "Musk becomes first trillionaire as SpaceX debuts on Nasdaq",
           "score": 1
         },
         {
           "date": "20260610",
           "type": "positive",
           "headline": "Nasa names next astronauts for Artemis Moon programme",
-          "score": 1
-        },
-        {
-          "date": "20260610",
-          "type": "positive",
-          "headline": "NASA announces astronauts for Artemis III spaceflight, scheduled for 2027",
           "score": 1
         }
       ]
@@ -214,38 +202,38 @@
       "recent_events": []
     },
     "전체시장": {
-      "score": -14,
-      "positive_count": 1,
-      "negative_count": 14,
+      "score": -10,
+      "positive_count": 0,
+      "negative_count": 9,
       "recent_events": [
         {
           "date": "20260613",
-          "type": "positive",
-          "headline": "트럼프, 종전 MOU 서명 시기에 \"주말이나 월요일에 가능할 것\"",
-          "score": 1
-        },
-        {
-          "date": "20260613",
           "type": "negative",
-          "headline": "파키스탄 총리 \"美·이란 최종 협정문 도달…후속 조치 협력\"",
+          "headline": "미·이란 합의 기대에 스페이스X 훈풍…뉴욕증시 일제히 상승(종합)",
           "score": -1
         },
         {
           "date": "20260613",
           "type": "negative",
-          "headline": "합의서명 임박했다던 트럼프, 갑자기 이란 맹비난…\"정말 비열\"(종합)",
+          "headline": "이란 외무 \"잠정 합의 이행 전까지 미국과 핵 협상 안해\"",
           "score": -1
         },
         {
           "date": "20260613",
           "type": "negative",
-          "headline": "美 \"이란, 핵프로그램 해체 동의…약속이행없인 동결자금 못줘\"",
+          "headline": "[거시분석] Deal to end fighting would lead to Hormuz reo...",
           "score": -1
         },
         {
-          "date": "20260613",
+          "date": "20260612",
           "type": "negative",
-          "headline": "이스라엘 국방 \"이란 핵저지 독자 능력 유지…레바논 철군 안해\"",
+          "headline": "An Everest guide's miraculous survival raises questions for tourism industry",
+          "score": -1
+        },
+        {
+          "date": "20260612",
+          "type": "negative",
+          "headline": "Family of British toddler criticises police as Australian inquiry into cold case murders begins",
           "score": -1
         }
       ]
@@ -383,6 +371,14 @@
     },
     {
       "date": "20260613",
+      "headline": "Elon Musk becomes world's first trillionaire as SpaceX soars in stock market debut",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260613",
       "headline": "More than 50 Iranian military bases damaged in US strikes since start of war, satellite images show",
       "impacts": {
         "방산": 1
@@ -407,23 +403,7 @@
     },
     {
       "date": "20260613",
-      "headline": "SpaceX IPO debuts in US markets, Musk becomes world’s first trillionaire",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260613",
-      "headline": "‘Dishonorable’: Trump says leaked Iran ceasefire terms fake",
-      "impacts": {
-        "건설": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260613",
-      "headline": "Video: AI models predict World Cup results",
+      "headline": "Mother sues OpenAI in US after daughter’s death linked to ChatGPT use",
       "impacts": {
         "반도체·AI": 1
       },
@@ -431,59 +411,47 @@
     },
     {
       "date": "20260613",
-      "headline": "트럼프, 종전 MOU 서명 시기에 \"주말이나 월요일에 가능할 것\"",
+      "headline": "UAE to unlock frozen Iranian funds amid US ceasefire push",
       "impacts": {
-        "건설": 1,
-        "방산": -1,
-        "전체시장": 1
+        "건설": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260613",
-      "headline": "파키스탄 총리 \"美·이란 최종 협정문 도달…후속 조치 협력\"",
+      "headline": "Will there be a deal to end the Iran war this time?",
       "impacts": {
-        "전체시장": -1
+        "방산": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260613",
-      "headline": "합의서명 임박했다던 트럼프, 갑자기 이란 맹비난…\"정말 비열\"(종합)",
+      "headline": "Pope warns people smugglers they face God’s wrath",
       "impacts": {
-        "전체시장": -1
+        "방산": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260613",
-      "headline": "美 \"이란, 핵프로그램 해체 동의…약속이행없인 동결자금 못줘\"",
+      "headline": "How the Gulf will manage collective security after the Iran war ends",
       "impacts": {
-        "전체시장": -1
+        "방산": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260613",
-      "headline": "이란 외무 \"어느 때보다 '종전 MOU'에 가까워져\"",
+      "headline": "Musk becomes first trillionaire as SpaceX debuts on Nasdaq",
       "impacts": {
-        "건설": 1,
-        "방산": -1
+        "우주ETF": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260613",
-      "headline": "이스라엘 국방 \"이란 핵저지 독자 능력 유지…레바논 철군 안해\"",
-      "impacts": {
-        "방산": -1,
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260613",
-      "headline": "트럼프 \"이란과 합의 후에 유럽이 도움 될수도\"",
+      "headline": "미·이란 합의 기대에 스페이스X 훈풍…뉴욕증시 일제히 상승(종합)",
       "impacts": {
         "전체시장": -1
       },
@@ -491,7 +459,7 @@
     },
     {
       "date": "20260613",
-      "headline": "네타냐후 \"내가 있는한 이란 핵무기 못가져…트럼프도 동의\"",
+      "headline": "이란 외무 \"잠정 합의 이행 전까지 미국과 핵 협상 안해\"",
       "impacts": {
         "전체시장": -1
       },
@@ -499,15 +467,7 @@
     },
     {
       "date": "20260613",
-      "headline": "합의서명 임박했다던 트럼프, 갑자기 이란 맹비난…\"정말 비열\"",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260613",
-      "headline": "[거시분석] Iran says deal to end fighting with US has 'n...",
+      "headline": "[거시분석] Deal to end fighting would lead to Hormuz reo...",
       "impacts": {
         "방산": 1,
         "전체시장": -1
@@ -515,7 +475,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 17,
-  "total_positives": 21,
+  "total_negatives": 9,
+  "total_positives": 22,
   "risk_level": "EXTREME"
 }
