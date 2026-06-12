@@ -118,8 +118,7 @@ SECTOR_KEYWORDS = {
         "negative": [
             "금리 인상", "신용 위기", "부실 대출", "금융 규제",
             "Fed 긴축", "뱅크런", "기준금리 인상",
-            "rate hike", "Fed tightening", "bank run", "credit crisis",
-            "생산자물가", "producer price"
+            "rate hike", "Fed tightening", "bank run", "credit crisis"
         ]
     },
     "우주ETF": {
@@ -162,7 +161,8 @@ SECTOR_KEYWORDS = {
             "tariff", "trade war", "trade tension", "Trump tariff",
             # 지정학 일반
             "financial crisis", "recession", "supply chain crisis",
-            "stock market jitters", "market selloff"
+            "stock market jitters", "market selloff",
+            "생산자물가", "producer price", "인플레이션 쇼크", "inflation shock"
         ]
     }
 }
@@ -215,10 +215,10 @@ CALENDAR_EVENTS = [
         "date": "2026-06-18",
         "type": "fed",
         "risk_level": "medium",
-        "description": "금리 동결 예상. 인하 시그널이 나오면 성장주·금융주 강세. 예상 밖 인상 시그널 시 전체 시장 충격 가능.",
-        "benefit_text": "인하 시: 금융 ▲▲  건설 ▲  성장주 ▲",
-        "damage_text": "인상 시: 전체장 ▼▼",
-        "sector_impacts": {"금융": 2, "건설": 1, "전체시장": 1}
+        "description": "금리 동결 예상. 인하 시그널이 나오면 성장주·건설·증권 강세 (은행·보험은 마진 축소로 약세). 예상 밖 인상 시그널 시 전체 시장 충격 가능.",
+        "benefit_text": "인하 시: 성장주 ▲▲  건설 ▲  증권 ▲  (은행·보험 ▼)",
+        "damage_text": "인상 시: 전체장 ▼▼  성장주 ▼▼",
+        "sector_impacts": {"금융": 1, "건설": 1, "전체시장": 1}
     },
     {
         "id": "nvidia_q2_2026",
