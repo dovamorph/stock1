@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-12T11:12:43.646078+09:00",
+  "updated_at": "2026-06-12T13:20:28.958373+09:00",
   "date": "20260612",
   "window_days": 14,
   "sectors": [
@@ -72,7 +72,7 @@
         {
           "date": "20260612",
           "type": "negative",
-          "headline": "[거시분석] China bars Philippines defence chief as South...",
+          "headline": "[거시분석] World Cup kicks off in Mexico with Shakira, d...",
           "score": -2
         }
       ]
@@ -85,13 +85,13 @@
         {
           "date": "20260612",
           "type": "positive",
-          "headline": "Stocks markets surge as Trump calls off strikes on Iran, touts peace deal",
+          "headline": "Stock markets surge as Trump calls off strikes on Iran, touts peace deal",
           "score": 1
         },
         {
           "date": "20260612",
           "type": "negative",
-          "headline": "[거시분석] China bars Philippines defence chief as South...",
+          "headline": "[거시분석] World Cup kicks off in Mexico with Shakira, d...",
           "score": -1
         }
       ]
@@ -104,19 +104,19 @@
         {
           "date": "20260612",
           "type": "positive",
+          "headline": "Amnesty and Oxfam warn of displacement in the occupied West Bank",
+          "score": 1
+        },
+        {
+          "date": "20260612",
+          "type": "positive",
           "headline": "Iran war live: Trump claims Tehran deal ‘approved’, cancels new strikes",
           "score": 1
         },
         {
           "date": "20260612",
           "type": "positive",
-          "headline": "China bars Philippines defence chief as South China Sea spat sails onwards",
-          "score": 1
-        },
-        {
-          "date": "20260612",
-          "type": "positive",
-          "headline": "[거시분석] China bars Philippines defence chief as South...",
+          "headline": "[거시분석] World Cup kicks off in Mexico with Shakira, d...",
           "score": 2
         }
       ]
@@ -134,23 +134,10 @@
       "recent_events": []
     },
     "금융": {
-      "score": -4,
+      "score": 0,
       "positive_count": 0,
-      "negative_count": 2,
-      "recent_events": [
-        {
-          "date": "20260612",
-          "type": "negative",
-          "headline": "한은 총재 \"물가안정에 중점…늦지 않게 금리 인상\"(종합)",
-          "score": -1
-        },
-        {
-          "date": "20260612",
-          "type": "negative",
-          "headline": "[거시분석] China bars Philippines defence chief as South...",
-          "score": -3
-        }
-      ]
+      "negative_count": 0,
+      "recent_events": []
     },
     "우주ETF": {
       "score": 4,
@@ -190,7 +177,7 @@
       "recent_events": []
     },
     "전체시장": {
-      "score": -11,
+      "score": -8,
       "positive_count": 0,
       "negative_count": 3,
       "recent_events": [
@@ -209,8 +196,8 @@
         {
           "date": "20260612",
           "type": "negative",
-          "headline": "[거시분석] China bars Philippines defence chief as South...",
-          "score": -9
+          "headline": "[거시분석] World Cup kicks off in Mexico with Shakira, d...",
+          "score": -6
         }
       ]
     }
@@ -258,7 +245,15 @@
     },
     {
       "date": "20260612",
-      "headline": "Stocks markets surge as Trump calls off strikes on Iran, touts peace deal",
+      "headline": "Amnesty and Oxfam warn of displacement in the occupied West Bank",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260612",
+      "headline": "Stock markets surge as Trump calls off strikes on Iran, touts peace deal",
       "impacts": {
         "건설": 1
       },
@@ -282,34 +277,17 @@
     },
     {
       "date": "20260612",
-      "headline": "China bars Philippines defence chief as South China Sea spat sails onwards",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260612",
-      "headline": "한은 총재 \"물가안정에 중점…늦지 않게 금리 인상\"(종합)",
-      "impacts": {
-        "금융": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260612",
-      "headline": "[거시분석] China bars Philippines defence chief as South...",
+      "headline": "[거시분석] World Cup kicks off in Mexico with Shakira, d...",
       "impacts": {
         "방산": 2,
         "건설": -1,
-        "전체시장": -9,
-        "금융": -3,
+        "전체시장": -6,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 7,
+  "total_negatives": 5,
   "total_positives": 8,
   "risk_level": "EXTREME"
 }
