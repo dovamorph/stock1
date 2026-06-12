@@ -70,7 +70,11 @@ SECTOR_KEYWORDS = {
         "negative": [
             "휴전", "평화 협정", "군비 축소", "방산 예산 삭감",
             "종전", "평화 협상", "정전 합의",
-            "peace talks", "ceasefire agreement", "defense budget cut"
+            "peace talks", "ceasefire agreement", "defense budget cut",
+            # 긴장 완화/방향 전환 신호
+            "타격 취소", "긴장 완화", "확전 자제", "철군", "공격 중단",
+            "cancels strike", "strike canceled", "calls off",
+            "de-escalation", "tensions ease", "truce"
         ]
     },
     "전력·에너지": {
@@ -144,7 +148,10 @@ SECTOR_KEYWORDS = {
         "positive": [
             "금리 인하", "경기 연착륙", "무역 협상 타결",
             "인플레이션 둔화", "외국인 순매수", "증시 반등",
-            "trade deal", "soft landing", "inflation cooling"
+            "trade deal", "soft landing", "inflation cooling",
+            # 지정학 긴장 완화 (시장 전체 호재)
+            "타격 취소", "긴장 완화", "휴전", "종전",
+            "cancels strike", "de-escalation", "tensions ease", "truce"
         ],
         "negative": [
             "전쟁 확대", "금융위기", "경기침체", "Fed 긴축",
