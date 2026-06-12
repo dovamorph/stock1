@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-13T06:50:40.618558+09:00",
+  "updated_at": "2026-06-13T08:21:41.566907+09:00",
   "date": "20260613",
   "window_days": 14,
   "sectors": [
@@ -78,14 +78,20 @@
       ]
     },
     "건설": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 3,
+      "positive_count": 3,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20260613",
           "type": "positive",
-          "headline": "UAE to unlock frozen Iranian funds amid US ceasefire push",
+          "headline": "UAE to unlock frozen Iranian funds amid US ceasefire push: Sources",
+          "score": 1
+        },
+        {
+          "date": "20260613",
+          "type": "positive",
+          "headline": "이란 외무 \"종전 MOU 최고지도자 승인받아…며칠내 원격서명 기대\"(종합)",
           "score": 1
         },
         {
@@ -97,9 +103,9 @@
       ]
     },
     "방산": {
-      "score": 12,
+      "score": 11,
       "positive_count": 12,
-      "negative_count": 0,
+      "negative_count": 1,
       "recent_events": [
         {
           "date": "20260613",
@@ -127,17 +133,24 @@
         },
         {
           "date": "20260613",
-          "type": "positive",
-          "headline": "[거시분석] Deal to end fighting would lead to Hormuz reo...",
-          "score": 1
+          "type": "negative",
+          "headline": "이란 외무 \"종전 MOU 최고지도자 승인받아…며칠내 원격서명 기대\"(종합)",
+          "score": -1
         }
       ]
     },
     "전력·에너지": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20260613",
+          "type": "positive",
+          "headline": "남미도 유가 상승 직격탄…콜롬비아 물가 전망 대폭 상향",
+          "score": 1
+        }
+      ]
     },
     "로봇": {
       "score": 1,
@@ -153,10 +166,17 @@
       ]
     },
     "금융": {
-      "score": 0,
+      "score": -1,
       "positive_count": 0,
-      "negative_count": 0,
-      "recent_events": []
+      "negative_count": 1,
+      "recent_events": [
+        {
+          "date": "20260613",
+          "type": "negative",
+          "headline": "[거시분석] Deal to end fighting would lead to Hormuz reo...",
+          "score": -1
+        }
+      ]
     },
     "우주ETF": {
       "score": 6,
@@ -202,27 +222,27 @@
       "recent_events": []
     },
     "전체시장": {
-      "score": -10,
+      "score": -12,
       "positive_count": 0,
       "negative_count": 9,
       "recent_events": [
         {
           "date": "20260613",
           "type": "negative",
-          "headline": "미·이란 합의 기대에 스페이스X 훈풍…뉴욕증시 일제히 상승(종합)",
+          "headline": "美 \"MOU 통해 이란 무기한 핵포기-이행단계별 경제적 보상\"(종합2보)",
           "score": -1
         },
         {
           "date": "20260613",
           "type": "negative",
-          "headline": "이란 외무 \"잠정 합의 이행 전까지 미국과 핵 협상 안해\"",
+          "headline": "[다음주 경제] 5월 수출입·생산자물가 얼마나 뛰었나",
           "score": -1
         },
         {
           "date": "20260613",
           "type": "negative",
           "headline": "[거시분석] Deal to end fighting would lead to Hormuz reo...",
-          "score": -1
+          "score": -3
         },
         {
           "date": "20260612",
@@ -411,7 +431,7 @@
     },
     {
       "date": "20260613",
-      "headline": "UAE to unlock frozen Iranian funds amid US ceasefire push",
+      "headline": "UAE to unlock frozen Iranian funds amid US ceasefire push: Sources",
       "impacts": {
         "건설": 1
       },
@@ -451,7 +471,7 @@
     },
     {
       "date": "20260613",
-      "headline": "미·이란 합의 기대에 스페이스X 훈풍…뉴욕증시 일제히 상승(종합)",
+      "headline": "美 \"MOU 통해 이란 무기한 핵포기-이행단계별 경제적 보상\"(종합2보)",
       "impacts": {
         "전체시장": -1
       },
@@ -459,9 +479,26 @@
     },
     {
       "date": "20260613",
-      "headline": "이란 외무 \"잠정 합의 이행 전까지 미국과 핵 협상 안해\"",
+      "headline": "[다음주 경제] 5월 수출입·생산자물가 얼마나 뛰었나",
       "impacts": {
         "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260613",
+      "headline": "이란 외무 \"종전 MOU 최고지도자 승인받아…며칠내 원격서명 기대\"(종합)",
+      "impacts": {
+        "건설": 1,
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260613",
+      "headline": "남미도 유가 상승 직격탄…콜롬비아 물가 전망 대폭 상향",
+      "impacts": {
+        "전력·에너지": 1
       },
       "source": "keyword"
     },
@@ -470,12 +507,13 @@
       "headline": "[거시분석] Deal to end fighting would lead to Hormuz reo...",
       "impacts": {
         "방산": 1,
-        "전체시장": -1
+        "전체시장": -3,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 9,
-  "total_positives": 22,
+  "total_negatives": 11,
+  "total_positives": 24,
   "risk_level": "EXTREME"
 }
