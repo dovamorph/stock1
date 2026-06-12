@@ -59,11 +59,12 @@ def fetch_us_data() -> dict:
     if "vix" in data:
         vix = data["vix"]["close"]
         result["vix"]["close"] = vix
-        if vix >= 30:   result["vix"]["level"] = "공포극단"
-        elif vix >= 25: result["vix"]["level"] = "불안"
-        elif vix >= 20: result["vix"]["level"] = "보통"
+        # screener.py와 동일 기준으로 통일 (같은 VIX가 파일마다 다른 라벨이 되지 않도록)
+        if vix >= 35:   result["vix"]["level"] = "극공포"
+        elif vix >= 25: result["vix"]["level"] = "공포"
+        elif vix >= 20: result["vix"]["level"] = "불안"
         elif vix >= 15: result["vix"]["level"] = "안정"
-        else:           result["vix"]["level"] = "낙관"
+        else:           result["vix"]["level"] = "과열낙관"
 
     return result
 
