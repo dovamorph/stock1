@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-12T19:20:02.496544+09:00",
-  "date": "20260612",
+  "updated_at": "2026-06-13T00:23:43.709145+09:00",
+  "date": "20260613",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -28,7 +28,7 @@
         "우주ETF": 3,
         "전체시장": -1
       },
-      "d_day": 0
+      "d_day": -1
     },
     {
       "id": "fed_jun2026",
@@ -44,7 +44,7 @@
         "건설": 1,
         "전체시장": 1
       },
-      "d_day": 6
+      "d_day": 5
     },
     {
       "id": "nvidia_q2_2026",
@@ -60,21 +60,52 @@
         "로봇": 1,
         "전력·에너지": 1
       },
-      "d_day": 13
+      "d_day": 12
     }
   ],
   "sector_stats": {
     "반도체·AI": {
-      "score": 0,
-      "positive_count": 0,
-      "negative_count": 0,
-      "recent_events": []
-    },
-    "건설": {
       "score": 1,
       "positive_count": 1,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260613",
+          "type": "positive",
+          "headline": "Video: AI models predict World Cup results",
+          "score": 1
+        }
+      ]
+    },
+    "건설": {
+      "score": 5,
+      "positive_count": 5,
+      "negative_count": 0,
+      "recent_events": [
+        {
+          "date": "20260613",
+          "type": "positive",
+          "headline": "‘Dishonorable’: Trump says leaked Iran ceasefire terms fake",
+          "score": 1
+        },
+        {
+          "date": "20260613",
+          "type": "positive",
+          "headline": "이란 외무 \"어느 때보다 '종전 MOU'에 가까워져\"",
+          "score": 1
+        },
+        {
+          "date": "20260613",
+          "type": "positive",
+          "headline": "뉴욕증시, 美-이란 종전 합의 기대감 속 혼조 출발",
+          "score": 1
+        },
+        {
+          "date": "20260613",
+          "type": "positive",
+          "headline": "이란 외무부 \"'종전 MOU' 승인 내부 조율 단계\"",
+          "score": 1
+        },
         {
           "date": "20260612",
           "type": "positive",
@@ -84,39 +115,39 @@
       ]
     },
     "방산": {
-      "score": 7,
-      "positive_count": 7,
-      "negative_count": 0,
+      "score": 6,
+      "positive_count": 10,
+      "negative_count": 4,
       "recent_events": [
         {
-          "date": "20260612",
+          "date": "20260613",
           "type": "positive",
           "headline": "Tehran says 'nothing' finalised after Trump claims deal to end Iran war near",
           "score": 1
         },
         {
-          "date": "20260612",
+          "date": "20260613",
           "type": "positive",
           "headline": "More than 50 Iranian military bases damaged in US strikes since start of war, satellite images show",
           "score": 1
         },
         {
-          "date": "20260612",
-          "type": "positive",
-          "headline": "Mountain of war: The India-Pakistan conflict’s deadliest battle zone",
-          "score": 1
+          "date": "20260613",
+          "type": "negative",
+          "headline": "이란 외무 \"어느 때보다 '종전 MOU'에 가까워져\"",
+          "score": -1
         },
         {
-          "date": "20260612",
-          "type": "positive",
-          "headline": "Iran war day 105: Trump halts attacks after Kharg Island threat",
-          "score": 1
+          "date": "20260613",
+          "type": "negative",
+          "headline": "이스라엘 국방 \"이란 핵저지 독자 능력 유지…레바논 철군 안해\"",
+          "score": -1
         },
         {
-          "date": "20260612",
-          "type": "positive",
-          "headline": "Iran weighs proposed deal but remains wary of US intentions",
-          "score": 1
+          "date": "20260613",
+          "type": "negative",
+          "headline": "뉴욕증시, 美-이란 종전 합의 기대감 속 혼조 출발",
+          "score": -1
         }
       ]
     },
@@ -171,38 +202,38 @@
       "recent_events": []
     },
     "전체시장": {
-      "score": -7,
+      "score": -16,
       "positive_count": 0,
-      "negative_count": 6,
+      "negative_count": 14,
       "recent_events": [
         {
-          "date": "20260612",
+          "date": "20260613",
           "type": "negative",
           "headline": "An Everest guide's miraculous survival raises questions for tourism industry",
           "score": -1
         },
         {
-          "date": "20260612",
+          "date": "20260613",
           "type": "negative",
           "headline": "Family of British toddler criticises police as Australian inquiry into cold case murders begins",
           "score": -1
         },
         {
-          "date": "20260612",
+          "date": "20260613",
           "type": "negative",
-          "headline": "One in 17 children is working: Here are the industries driving child labour",
+          "headline": "美 \"이란, 핵프로그램 해체 동의…약속이행없인 동결자금 못줘\"",
           "score": -1
         },
         {
-          "date": "20260612",
+          "date": "20260613",
           "type": "negative",
-          "headline": "국제유가, 美·이란 합의 임박설에 4%대 급락해 두달만에 최저",
+          "headline": "이스라엘 국방 \"이란 핵저지 독자 능력 유지…레바논 철군 안해\"",
           "score": -1
         },
         {
-          "date": "20260612",
+          "date": "20260613",
           "type": "negative",
-          "headline": "[속보] \"美·이란, 이르면 14일 MOU 서명…장소 제네바 거론\"",
+          "headline": "트럼프 \"이란과 합의 후에 유럽이 도움 될수도\"",
           "score": -1
         }
       ]
@@ -337,9 +368,134 @@
         "전체시장": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260613",
+      "headline": "Tehran says 'nothing' finalised after Trump claims deal to end Iran war near",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260613",
+      "headline": "More than 50 Iranian military bases damaged in US strikes since start of war, satellite images show",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260613",
+      "headline": "An Everest guide's miraculous survival raises questions for tourism industry",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260613",
+      "headline": "Family of British toddler criticises police as Australian inquiry into cold case murders begins",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260613",
+      "headline": "‘Dishonorable’: Trump says leaked Iran ceasefire terms fake",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260613",
+      "headline": "Video: AI models predict World Cup results",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260613",
+      "headline": "美 \"이란, 핵프로그램 해체 동의…약속이행없인 동결자금 못줘\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260613",
+      "headline": "이란 외무 \"어느 때보다 '종전 MOU'에 가까워져\"",
+      "impacts": {
+        "건설": 1,
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260613",
+      "headline": "이스라엘 국방 \"이란 핵저지 독자 능력 유지…레바논 철군 안해\"",
+      "impacts": {
+        "방산": -1,
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260613",
+      "headline": "트럼프 \"이란과 합의 후에 유럽이 도움 될수도\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260613",
+      "headline": "네타냐후 \"내가 있는한 이란 핵무기 못가져…트럼프도 동의\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260613",
+      "headline": "합의서명 임박했다던 트럼프, 갑자기 이란 맹비난…\"정말 비열\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260613",
+      "headline": "뉴욕증시, 美-이란 종전 합의 기대감 속 혼조 출발",
+      "impacts": {
+        "건설": 1,
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260613",
+      "headline": "이란 외무부 \"'종전 MOU' 승인 내부 조율 단계\"",
+      "impacts": {
+        "건설": 1,
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260613",
+      "headline": "[거시분석] Tehran says 'nothing' finalised after Trump c...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 6,
-  "total_positives": 11,
+  "total_negatives": 18,
+  "total_positives": 19,
   "risk_level": "EXTREME"
 }
