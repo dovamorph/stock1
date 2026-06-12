@@ -460,14 +460,16 @@ def load_candidates_from_kis(tok):
 def should_refresh_candidates() -> str:
     """
     종목 목록 갱신 여부 결정.
-    하루 2회만 KRX 요청: 오전장 시작(09:00~09:30), 장마감 후(15:30~16:00)
+    하루 2회만 KRX 요청 (창 안에서 첫 성공 1번만 조회, 이후 캐시 재사용):
+    - 오전: 08:00~09:29 (장전 실행 포함 — GitHub cron 지연으로 창을 놓치는 날 방지)
+    - 오후: 15:30~16:59 (밀린 15:50 실행까지 포함)
     반환값: 'morning' | 'afternoon' | None(갱신 불필요)
     """
     now  = datetime.utcnow() + timedelta(hours=9)
     h, m = now.hour, now.minute
 
-    if h == 9 and m < 30:   return "morning"    # 09:00~09:29
-    if h == 15 and m >= 30: return "afternoon"  # 15:30~15:59
+    if h == 8 or (h == 9 and m < 30):       return "morning"    # 08:00~09:29
+    if (h == 15 and m >= 30) or h == 16:    return "afternoon"  # 15:30~16:59
     return None
 
 def load_candidates():
