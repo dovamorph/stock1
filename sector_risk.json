@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14T06:20:18.389481+09:00",
+  "updated_at": "2026-06-14T08:09:40.503296+09:00",
   "date": "20260614",
   "window_days": 14,
   "sectors": [
@@ -78,14 +78,20 @@
       ]
     },
     "건설": {
-      "score": 0,
-      "positive_count": 4,
+      "score": 1,
+      "positive_count": 5,
       "negative_count": 2,
       "recent_events": [
         {
           "date": "20260614",
           "type": "positive",
           "headline": "Israeli attacks kill three in Gaza as post-‘ceasefire’ deaths hit 983",
+          "score": 1
+        },
+        {
+          "date": "20260614",
+          "type": "positive",
+          "headline": "광주시, 교육청 법정전입금 1천억 추경 반영 못해",
           "score": 1
         },
         {
@@ -105,18 +111,12 @@
           "type": "positive",
           "headline": "이란 \"종전 MOU 서명 14일은 아냐\"…막판 신경전",
           "score": 1
-        },
-        {
-          "date": "20260613",
-          "type": "negative",
-          "headline": "[거시분석] Israel carries out air strikes on Lebanon, st...",
-          "score": -2
         }
       ]
     },
     "방산": {
-      "score": 25,
-      "positive_count": 22,
+      "score": 24,
+      "positive_count": 21,
       "negative_count": 1,
       "recent_events": [
         {
@@ -140,14 +140,14 @@
         {
           "date": "20260614",
           "type": "positive",
-          "headline": "‘Lots of things can still go wrong’ with US-Iran deal to end the war",
-          "score": 1
-        },
-        {
-          "date": "20260614",
-          "type": "positive",
           "headline": "[거시분석] Trump says US-Iran deal to be signed on Sunda...",
           "score": 3
+        },
+        {
+          "date": "20260613",
+          "type": "positive",
+          "headline": "US kills leader of Venezuela's Tren de Aragua gang in airstrike, Trump says",
+          "score": 1
         }
       ]
     },
@@ -171,10 +171,17 @@
       ]
     },
     "금융": {
-      "score": 0,
+      "score": -1,
       "positive_count": 0,
-      "negative_count": 0,
-      "recent_events": []
+      "negative_count": 1,
+      "recent_events": [
+        {
+          "date": "20260614",
+          "type": "negative",
+          "headline": "[거시분석] Trump says US-Iran deal to be signed on Sunda...",
+          "score": -1
+        }
+      ]
     },
     "우주ETF": {
       "score": 4,
@@ -214,9 +221,9 @@
       "recent_events": []
     },
     "전체시장": {
-      "score": -18,
+      "score": -20,
       "positive_count": 0,
-      "negative_count": 12,
+      "negative_count": 13,
       "recent_events": [
         {
           "date": "20260614",
@@ -227,8 +234,14 @@
         {
           "date": "20260614",
           "type": "negative",
+          "headline": "이란전쟁 후 G7 첫 집결…서방 결속 시험대",
+          "score": -1
+        },
+        {
+          "date": "20260614",
+          "type": "negative",
           "headline": "[거시분석] Trump says US-Iran deal to be signed on Sunda...",
-          "score": -3
+          "score": -4
         },
         {
           "date": "20260613",
@@ -240,12 +253,6 @@
           "date": "20260613",
           "type": "negative",
           "headline": "'전쟁 첫날 사망' 전 이란 최고지도자…7월 4일 장례 시작",
-          "score": -1
-        },
-        {
-          "date": "20260613",
-          "type": "negative",
-          "headline": "파키스탄 총리 \"미·이란 24시간 내 최종 합의…전자서명 준비\"",
           "score": -1
         }
       ]
@@ -570,9 +577,17 @@
     },
     {
       "date": "20260614",
-      "headline": "‘Lots of things can still go wrong’ with US-Iran deal to end the war",
+      "headline": "광주시, 교육청 법정전입금 1천억 추경 반영 못해",
       "impacts": {
-        "방산": 1
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260614",
+      "headline": "이란전쟁 후 G7 첫 집결…서방 결속 시험대",
+      "impacts": {
+        "전체시장": -1
       },
       "source": "keyword"
     },
@@ -582,12 +597,13 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -3
+        "전체시장": -4,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 15,
+  "total_negatives": 17,
   "total_positives": 32,
   "risk_level": "EXTREME"
 }
