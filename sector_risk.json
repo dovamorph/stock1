@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-13T08:21:41.566907+09:00",
+  "updated_at": "2026-06-13T13:09:24.177407+09:00",
   "date": "20260613",
   "window_days": 14,
   "sectors": [
@@ -78,10 +78,16 @@
       ]
     },
     "건설": {
-      "score": 3,
-      "positive_count": 3,
+      "score": 4,
+      "positive_count": 4,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260613",
+          "type": "positive",
+          "headline": "Iran war live: US, Tehran signal peace deal within reach but not signed yet",
+          "score": 1
+        },
         {
           "date": "20260613",
           "type": "positive",
@@ -91,7 +97,7 @@
         {
           "date": "20260613",
           "type": "positive",
-          "headline": "이란 외무 \"종전 MOU 최고지도자 승인받아…며칠내 원격서명 기대\"(종합)",
+          "headline": "미군 \"상선위협 이란드론 격추\"…종전직전까지 호르무즈 공방전",
           "score": 1
         },
         {
@@ -103,14 +109,20 @@
       ]
     },
     "방산": {
-      "score": 11,
-      "positive_count": 12,
+      "score": 12,
+      "positive_count": 13,
       "negative_count": 1,
       "recent_events": [
         {
           "date": "20260613",
           "type": "positive",
           "headline": "More than 50 Iranian military bases damaged in US strikes since start of war, satellite images show",
+          "score": 1
+        },
+        {
+          "date": "20260613",
+          "type": "positive",
+          "headline": "Iran war live: US, Tehran signal peace deal within reach but not signed yet",
           "score": 1
         },
         {
@@ -130,27 +142,14 @@
           "type": "positive",
           "headline": "How the Gulf will manage collective security after the Iran war ends",
           "score": 1
-        },
-        {
-          "date": "20260613",
-          "type": "negative",
-          "headline": "이란 외무 \"종전 MOU 최고지도자 승인받아…며칠내 원격서명 기대\"(종합)",
-          "score": -1
         }
       ]
     },
     "전력·에너지": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 0,
+      "positive_count": 0,
       "negative_count": 0,
-      "recent_events": [
-        {
-          "date": "20260613",
-          "type": "positive",
-          "headline": "남미도 유가 상승 직격탄…콜롬비아 물가 전망 대폭 상향",
-          "score": 1
-        }
-      ]
+      "recent_events": []
     },
     "로봇": {
       "score": 1,
@@ -166,21 +165,14 @@
       ]
     },
     "금융": {
-      "score": -1,
+      "score": 0,
       "positive_count": 0,
-      "negative_count": 1,
-      "recent_events": [
-        {
-          "date": "20260613",
-          "type": "negative",
-          "headline": "[거시분석] Deal to end fighting would lead to Hormuz reo...",
-          "score": -1
-        }
-      ]
+      "negative_count": 0,
+      "recent_events": []
     },
     "우주ETF": {
-      "score": 6,
-      "positive_count": 6,
+      "score": 5,
+      "positive_count": 5,
       "negative_count": 0,
       "recent_events": [
         {
@@ -202,15 +194,15 @@
           "score": 1
         },
         {
-          "date": "20260613",
+          "date": "20260610",
           "type": "positive",
-          "headline": "Musk becomes first trillionaire as SpaceX debuts on Nasdaq",
+          "headline": "Nasa names next astronauts for Artemis Moon programme",
           "score": 1
         },
         {
           "date": "20260610",
           "type": "positive",
-          "headline": "Nasa names next astronauts for Artemis Moon programme",
+          "headline": "NASA announces astronauts for Artemis III spaceflight, scheduled for 2027",
           "score": 1
         }
       ]
@@ -222,27 +214,21 @@
       "recent_events": []
     },
     "전체시장": {
-      "score": -12,
+      "score": -9,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 8,
       "recent_events": [
         {
           "date": "20260613",
           "type": "negative",
-          "headline": "美 \"MOU 통해 이란 무기한 핵포기-이행단계별 경제적 보상\"(종합2보)",
-          "score": -1
-        },
-        {
-          "date": "20260613",
-          "type": "negative",
-          "headline": "[다음주 경제] 5월 수출입·생산자물가 얼마나 뛰었나",
+          "headline": "\"공격 안하면 가스생산 멈출게\"…카타르, 이란과 '뒷거래' 의혹",
           "score": -1
         },
         {
           "date": "20260613",
           "type": "negative",
           "headline": "[거시분석] Deal to end fighting would lead to Hormuz reo...",
-          "score": -3
+          "score": -1
         },
         {
           "date": "20260612",
@@ -254,6 +240,12 @@
           "date": "20260612",
           "type": "negative",
           "headline": "Family of British toddler criticises police as Australian inquiry into cold case murders begins",
+          "score": -1
+        },
+        {
+          "date": "20260612",
+          "type": "negative",
+          "headline": "One in 17 children is working: Here are the industries driving child labour",
           "score": -1
         }
       ]
@@ -423,6 +415,15 @@
     },
     {
       "date": "20260613",
+      "headline": "Iran war live: US, Tehran signal peace deal within reach but not signed yet",
+      "impacts": {
+        "건설": 1,
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260613",
       "headline": "Mother sues OpenAI in US after daughter’s death linked to ChatGPT use",
       "impacts": {
         "반도체·AI": 1
@@ -463,15 +464,7 @@
     },
     {
       "date": "20260613",
-      "headline": "Musk becomes first trillionaire as SpaceX debuts on Nasdaq",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260613",
-      "headline": "美 \"MOU 통해 이란 무기한 핵포기-이행단계별 경제적 보상\"(종합2보)",
+      "headline": "\"공격 안하면 가스생산 멈출게\"…카타르, 이란과 '뒷거래' 의혹",
       "impacts": {
         "전체시장": -1
       },
@@ -479,15 +472,7 @@
     },
     {
       "date": "20260613",
-      "headline": "[다음주 경제] 5월 수출입·생산자물가 얼마나 뛰었나",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260613",
-      "headline": "이란 외무 \"종전 MOU 최고지도자 승인받아…며칠내 원격서명 기대\"(종합)",
+      "headline": "미군 \"상선위협 이란드론 격추\"…종전직전까지 호르무즈 공방전",
       "impacts": {
         "건설": 1,
         "방산": -1
@@ -496,24 +481,15 @@
     },
     {
       "date": "20260613",
-      "headline": "남미도 유가 상승 직격탄…콜롬비아 물가 전망 대폭 상향",
-      "impacts": {
-        "전력·에너지": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260613",
       "headline": "[거시분석] Deal to end fighting would lead to Hormuz reo...",
       "impacts": {
         "방산": 1,
-        "전체시장": -3,
-        "금융": -1
+        "전체시장": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 11,
+  "total_negatives": 9,
   "total_positives": 24,
   "risk_level": "EXTREME"
 }
