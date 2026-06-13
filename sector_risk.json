@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-13T13:09:24.177407+09:00",
+  "updated_at": "2026-06-13T18:21:53.266403+09:00",
   "date": "20260613",
   "window_days": 14,
   "sectors": [
@@ -78,26 +78,14 @@
       ]
     },
     "건설": {
-      "score": 4,
-      "positive_count": 4,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20260613",
           "type": "positive",
-          "headline": "Iran war live: US, Tehran signal peace deal within reach but not signed yet",
-          "score": 1
-        },
-        {
-          "date": "20260613",
-          "type": "positive",
-          "headline": "UAE to unlock frozen Iranian funds amid US ceasefire push: Sources",
-          "score": 1
-        },
-        {
-          "date": "20260613",
-          "type": "positive",
-          "headline": "미군 \"상선위협 이란드론 격추\"…종전직전까지 호르무즈 공방전",
+          "headline": "미군 \"상선 위협 이란드론 격추\"…종전 문턱서 호르무즈 공방전(종합)",
           "score": 1
         },
         {
@@ -122,25 +110,25 @@
         {
           "date": "20260613",
           "type": "positive",
-          "headline": "Iran war live: US, Tehran signal peace deal within reach but not signed yet",
+          "headline": "Separated by the Gaza war, a Palestinian yearns to see his family again",
           "score": 1
         },
         {
           "date": "20260613",
           "type": "positive",
-          "headline": "Will there be a deal to end the Iran war this time?",
+          "headline": "Lebanon war victims among 117M people displaced worldwide",
           "score": 1
         },
         {
           "date": "20260613",
           "type": "positive",
-          "headline": "Pope warns people smugglers they face God’s wrath",
+          "headline": "Trump seeks ‘off-ramp’ from war in ‘Iran deal’",
           "score": 1
         },
         {
           "date": "20260613",
           "type": "positive",
-          "headline": "How the Gulf will manage collective security after the Iran war ends",
+          "headline": "Iran war live: US, Iran signal deal within reach; Israel bombs Lebanon",
           "score": 1
         }
       ]
@@ -171,26 +159,14 @@
       "recent_events": []
     },
     "우주ETF": {
-      "score": 5,
-      "positive_count": 5,
+      "score": 3,
+      "positive_count": 3,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20260613",
           "type": "positive",
           "headline": "Elon Musk becomes world's first trillionaire as SpaceX soars in stock market debut",
-          "score": 1
-        },
-        {
-          "date": "20260613",
-          "type": "positive",
-          "headline": "Watch: Three things to know about SpaceX's stock market debut",
-          "score": 1
-        },
-        {
-          "date": "20260613",
-          "type": "positive",
-          "headline": "'I was employee number one': SpaceX co-founder reacts to firm's market debut",
           "score": 1
         },
         {
@@ -214,21 +190,21 @@
       "recent_events": []
     },
     "전체시장": {
-      "score": -9,
+      "score": -10,
       "positive_count": 0,
       "negative_count": 8,
       "recent_events": [
         {
           "date": "20260613",
           "type": "negative",
-          "headline": "\"공격 안하면 가스생산 멈출게\"…카타르, 이란과 '뒷거래' 의혹",
+          "headline": "\"미군, '이란 우라늄 탈취' 지상군 옵션 보고…트럼프가 보류\"(종합)",
           "score": -1
         },
         {
           "date": "20260613",
           "type": "negative",
           "headline": "[거시분석] Deal to end fighting would lead to Hormuz reo...",
-          "score": -1
+          "score": -2
         },
         {
           "date": "20260612",
@@ -399,25 +375,32 @@
     },
     {
       "date": "20260613",
-      "headline": "Watch: Three things to know about SpaceX's stock market debut",
+      "headline": "Separated by the Gaza war, a Palestinian yearns to see his family again",
       "impacts": {
-        "우주ETF": 1
+        "방산": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260613",
-      "headline": "'I was employee number one': SpaceX co-founder reacts to firm's market debut",
+      "headline": "Lebanon war victims among 117M people displaced worldwide",
       "impacts": {
-        "우주ETF": 1
+        "방산": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260613",
-      "headline": "Iran war live: US, Tehran signal peace deal within reach but not signed yet",
+      "headline": "Trump seeks ‘off-ramp’ from war in ‘Iran deal’",
       "impacts": {
-        "건설": 1,
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260613",
+      "headline": "Iran war live: US, Iran signal deal within reach; Israel bombs Lebanon",
+      "impacts": {
         "방산": 1
       },
       "source": "keyword"
@@ -432,39 +415,7 @@
     },
     {
       "date": "20260613",
-      "headline": "UAE to unlock frozen Iranian funds amid US ceasefire push: Sources",
-      "impacts": {
-        "건설": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260613",
-      "headline": "Will there be a deal to end the Iran war this time?",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260613",
-      "headline": "Pope warns people smugglers they face God’s wrath",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260613",
-      "headline": "How the Gulf will manage collective security after the Iran war ends",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260613",
-      "headline": "\"공격 안하면 가스생산 멈출게\"…카타르, 이란과 '뒷거래' 의혹",
+      "headline": "\"미군, '이란 우라늄 탈취' 지상군 옵션 보고…트럼프가 보류\"(종합)",
       "impacts": {
         "전체시장": -1
       },
@@ -472,7 +423,7 @@
     },
     {
       "date": "20260613",
-      "headline": "미군 \"상선위협 이란드론 격추\"…종전직전까지 호르무즈 공방전",
+      "headline": "미군 \"상선 위협 이란드론 격추\"…종전 문턱서 호르무즈 공방전(종합)",
       "impacts": {
         "건설": 1,
         "방산": -1
@@ -484,12 +435,12 @@
       "headline": "[거시분석] Deal to end fighting would lead to Hormuz reo...",
       "impacts": {
         "방산": 1,
-        "전체시장": -1
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 9,
-  "total_positives": 24,
+  "total_positives": 20,
   "risk_level": "EXTREME"
 }
