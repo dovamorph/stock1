@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-13 20:56",
+  "updated": "2026-06-13 23:12",
   "news_count": 82,
   "intl_count": 52,
   "domestic_count": 30,
@@ -47,6 +47,10 @@
     "Watch: Four UFO videos newly declassified by US government",
     "Flip flop or deliberate? - Unpacking Trump’s strategy on Iran",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Fans reveal how much they paid for World Cup tickets",
+    "‘Lots of things can still go wrong’ with US-Iran deal to end the war",
+    "Iran announces funeral, burial dates for late Supreme Leader Khamenei",
+    "Deadly military plane crash in India’s Assam",
     "Football: Why is India struggling to play the world’s most popular sport?",
     "Five Indian air force staff killed as transport plane crashes in Assam",
     "Violence erupts at anti-government protest in DR Congo",
@@ -68,10 +72,16 @@
     "Lebanon war victims among 117M people displaced worldwide",
     "Five killed as Israel hits south Lebanon, issues forced displacement orders",
     "Trump seeks ‘off-ramp’ from war in ‘Iran deal’",
-    "Brazil vs Morocco World Cup team news: Neymar, start time and how to watch",
-    "Trump says US strike killed Tren de Aragua gang boss with Venezuelan help",
-    "‘A dream come true’: Fans revel as US win World Cup opener on home soil",
-    "Trump claims US kills Venezuela’s Tren de Aragua gang leader",
+    "BTS, 부산서 11만 아미와 13주년…\"여러분이 가장 큰 생일 선물\"",
+    "이란 \"종전 MOU 서명 14일은 아냐\"…막판 신경전",
+    "日 후쿠시마 원전 오염수 방류, 이틀 만에 또 중단",
+    "'전쟁 첫날 폭사' 하메네이, 126일 만에 장례 치른다(종합)",
+    "여자배구대표팀, 난적 베트남 꺾고 AVC컵 결승행…대만과 재대결",
+    "경기 동부권 7개 시군 오존주의보 해제",
+    "경기 북부권 오존주의보 해제…동부권은 오존주의보 유지",
+    "北, 한·EU성명에 \"집권자 평화가면 내던져…韓 적대 원칙불변\"(종합)",
+    "전북 군산 어청도 남남서쪽 바다 규모 2.2 지진…\"피해 없을듯\"",
+    "'전쟁 첫날 사망' 전 이란 최고지도자…7월 4일 장례 시작",
     "1228회 로또 1등 11명…당첨금 각 27억원(종합)",
     "[동정] 오세훈 시장, '서울시향 강변음악회' 관람",
     "李대통령 \"與, 진영 아닌 국민 향해야…이상만 고집하면 독선\"",
@@ -91,17 +101,7 @@
     "특검, '반란우두머리' 尹 9시간 조사…'북풍공작 의혹'도 추궁(종합)",
     "LG 새 외국인투수 리오스, 160.8㎞ '쾅'…올 시즌 최고 구속",
     "[프로야구 잠실전적] LG 5-3 롯데",
-    "[프로야구 광주전적] KIA 2-1 두산",
-    "[프로야구  고척전적] 키움 3-1 한화",
-    "'어떻게 살 것인가'에 대한 질문…돌아온 창작가무극 '신과함께'",
-    "서울 도심서 퀴어퍼레이드…\"사랑에 정해진 모양은 없다\"(종합)",
-    "제주 비양도 인근 해상서 어선 좌초…인명피해 없어",
-    "북한, 韓·EU성명에 \"집권자 평화가면 내던져…韓적대 원칙불변\"",
-    "경남 합천 오존주의보 발령…산청은 오존주의보 해제",
-    "68억원 당첨 손님 복권 가로챈 스페인 판매상 징역형",
-    "충북 곳곳 30도 웃돌아…청주 32.4도 올해 최고",
-    "아마추어 양윤서·슈퍼루키 김민솔, 한국여자오픈 3R 공동 선두",
-    "충남 천안·보령 잇단 산불…모두 40여분 만에 진화 완료(종합)"
+    "[프로야구 광주전적] KIA 2-1 두산"
   ],
   "categories": {
     "geopolitical": {
@@ -110,8 +110,8 @@
       "signal": "🔴",
       "summary": "Israel carries out air strikes on Lebanon, st...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 11,
-      "score": 1.5
+      "matched": 15,
+      "score": 4.5
     },
     "macro": {
       "level": "안전",
@@ -137,17 +137,17 @@
       "signal": "🟡",
       "summary": "Israel carries out air strikes on Lebanon, st...",
       "action": "관련 지표 추가 확인 후 판단",
-      "matched": 6,
-      "score": 8.8
+      "matched": 8,
+      "score": 11.6
     },
     "policy": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "[프로야구 수원전적] kt 11-9 NC",
+      "summary": "日 후쿠시마 원전 오염수 방류, 이틀 만에 또 중단",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "matched": 2,
+      "score": 3.0
     }
   },
   "overall": {

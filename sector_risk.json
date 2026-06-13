@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-13T20:56:15.452248+09:00",
+  "updated_at": "2026-06-13T23:12:17.986751+09:00",
   "date": "20260613",
   "window_days": 14,
   "sectors": [
@@ -78,14 +78,20 @@
       ]
     },
     "건설": {
-      "score": 0,
-      "positive_count": 2,
+      "score": 1,
+      "positive_count": 3,
       "negative_count": 1,
       "recent_events": [
         {
           "date": "20260613",
           "type": "positive",
           "headline": "Israel attacks Lebanon despite being included in potential peace deal",
+          "score": 1
+        },
+        {
+          "date": "20260613",
+          "type": "positive",
+          "headline": "이란 \"종전 MOU 서명 14일은 아냐\"…막판 신경전",
           "score": 1
         },
         {
@@ -104,8 +110,8 @@
     },
     "방산": {
       "score": 18,
-      "positive_count": 16,
-      "negative_count": 0,
+      "positive_count": 17,
+      "negative_count": 1,
       "recent_events": [
         {
           "date": "20260613",
@@ -134,7 +140,7 @@
         {
           "date": "20260613",
           "type": "positive",
-          "headline": "Iran war day 106: US and Iran say deal close but Lebanon fighting continues",
+          "headline": "‘Lots of things can still go wrong’ with US-Iran deal to end the war",
           "score": 1
         }
       ]
@@ -196,14 +202,20 @@
       "recent_events": []
     },
     "전체시장": {
-      "score": -13,
+      "score": -14,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
         {
           "date": "20260613",
           "type": "negative",
           "headline": "Married at First Sight Australia stars not told partners had drug and violence convictions",
+          "score": -1
+        },
+        {
+          "date": "20260613",
+          "type": "negative",
+          "headline": "'전쟁 첫날 사망' 전 이란 최고지도자…7월 4일 장례 시작",
           "score": -1
         },
         {
@@ -222,12 +234,6 @@
           "date": "20260612",
           "type": "negative",
           "headline": "An Everest guide's miraculous survival raises questions for tourism industry",
-          "score": -1
-        },
-        {
-          "date": "20260612",
-          "type": "negative",
-          "headline": "Family of British toddler criticises police as Australian inquiry into cold case murders begins",
           "score": -1
         }
       ]
@@ -413,6 +419,14 @@
     },
     {
       "date": "20260613",
+      "headline": "‘Lots of things can still go wrong’ with US-Iran deal to end the war",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260613",
       "headline": "Israel attacks Lebanon despite being included in potential peace deal",
       "impacts": {
         "건설": 1
@@ -461,6 +475,23 @@
     },
     {
       "date": "20260613",
+      "headline": "이란 \"종전 MOU 서명 14일은 아냐\"…막판 신경전",
+      "impacts": {
+        "건설": 1,
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260613",
+      "headline": "'전쟁 첫날 사망' 전 이란 최고지도자…7월 4일 장례 시작",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260613",
       "headline": "파키스탄 총리 \"미·이란 24시간 내 최종 합의…전자서명 준비\"",
       "impacts": {
         "전체시장": -1
@@ -478,7 +509,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 10,
-  "total_positives": 23,
+  "total_negatives": 12,
+  "total_positives": 25,
   "risk_level": "EXTREME"
 }
