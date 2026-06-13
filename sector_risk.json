@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14T04:42:16.764761+09:00",
+  "updated_at": "2026-06-14T06:20:18.389481+09:00",
   "date": "20260614",
   "window_days": 14,
   "sectors": [
@@ -78,26 +78,14 @@
       ]
     },
     "건설": {
-      "score": 2,
-      "positive_count": 6,
+      "score": 0,
+      "positive_count": 4,
       "negative_count": 2,
       "recent_events": [
         {
           "date": "20260614",
           "type": "positive",
-          "headline": "Gaza post-‘ceasefire’ deaths hit 983 as Israeli attack targets refugee camp",
-          "score": 1
-        },
-        {
-          "date": "20260614",
-          "type": "positive",
-          "headline": "이란 \"종전 MOU 서명 14일은 아냐\"…막판 신경전(종합)",
-          "score": 1
-        },
-        {
-          "date": "20260614",
-          "type": "positive",
-          "headline": "이란 \"종전 MOU 서명 14일은 아냐\"…막판 신경전",
+          "headline": "Israeli attacks kill three in Gaza as post-‘ceasefire’ deaths hit 983",
           "score": 1
         },
         {
@@ -111,13 +99,25 @@
           "type": "positive",
           "headline": "Israel attacks Lebanon despite being included in potential peace deal",
           "score": 1
+        },
+        {
+          "date": "20260613",
+          "type": "positive",
+          "headline": "이란 \"종전 MOU 서명 14일은 아냐\"…막판 신경전",
+          "score": 1
+        },
+        {
+          "date": "20260613",
+          "type": "negative",
+          "headline": "[거시분석] Israel carries out air strikes on Lebanon, st...",
+          "score": -2
         }
       ]
     },
     "방산": {
-      "score": 23,
+      "score": 25,
       "positive_count": 22,
-      "negative_count": 3,
+      "negative_count": 1,
       "recent_events": [
         {
           "date": "20260614",
@@ -145,9 +145,9 @@
         },
         {
           "date": "20260614",
-          "type": "negative",
-          "headline": "이란 \"종전 MOU 서명 14일은 아냐\"…막판 신경전(종합)",
-          "score": -1
+          "type": "positive",
+          "headline": "[거시분석] Trump says US-Iran deal to be signed on Sunda...",
+          "score": 3
         }
       ]
     },
@@ -214,9 +214,9 @@
       "recent_events": []
     },
     "전체시장": {
-      "score": -24,
+      "score": -18,
       "positive_count": 0,
-      "negative_count": 17,
+      "negative_count": 12,
       "recent_events": [
         {
           "date": "20260614",
@@ -227,25 +227,25 @@
         {
           "date": "20260614",
           "type": "negative",
-          "headline": "트럼프 \"이란과 합의 14일 서명…직후 모두에 호르무즈 개방\"(종합)",
+          "headline": "[거시분석] Trump says US-Iran deal to be signed on Sunda...",
+          "score": -3
+        },
+        {
+          "date": "20260613",
+          "type": "negative",
+          "headline": "Married at First Sight Australia stars not told partners had drug and violence convictions",
           "score": -1
         },
         {
-          "date": "20260614",
+          "date": "20260613",
           "type": "negative",
-          "headline": "[속보] 트럼프 \"모든게 안정된 적절한때 이란의 고농축우라늄 제거\"",
+          "headline": "'전쟁 첫날 사망' 전 이란 최고지도자…7월 4일 장례 시작",
           "score": -1
         },
         {
-          "date": "20260614",
+          "date": "20260613",
           "type": "negative",
-          "headline": "트럼프 \"이란과 합의 14일에 서명…서명직후 호르무즈 개방\"",
-          "score": -1
-        },
-        {
-          "date": "20260614",
-          "type": "negative",
-          "headline": "[속보] 트럼프 \"이란과 합의 14일에 서명 예정\"",
+          "headline": "파키스탄 총리 \"미·이란 24시간 내 최종 합의…전자서명 준비\"",
           "score": -1
         }
       ]
@@ -562,7 +562,7 @@
     },
     {
       "date": "20260614",
-      "headline": "Gaza post-‘ceasefire’ deaths hit 983 as Israeli attack targets refugee camp",
+      "headline": "Israeli attacks kill three in Gaza as post-‘ceasefire’ deaths hit 983",
       "impacts": {
         "건설": 1
       },
@@ -578,74 +578,16 @@
     },
     {
       "date": "20260614",
-      "headline": "트럼프 \"이란과 합의 14일 서명…직후 모두에 호르무즈 개방\"(종합)",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260614",
-      "headline": "[속보] 트럼프 \"모든게 안정된 적절한때 이란의 고농축우라늄 제거\"",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260614",
-      "headline": "트럼프 \"이란과 합의 14일에 서명…서명직후 호르무즈 개방\"",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260614",
-      "headline": "[속보] 트럼프 \"이란과 합의 14일에 서명 예정\"",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260614",
-      "headline": "\"헬기 조종사 옷 불타\"…미·이란 보복전 위기서 합의 임박까지",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260614",
-      "headline": "이란 \"종전 MOU 서명 14일은 아냐\"…막판 신경전(종합)",
-      "impacts": {
-        "건설": 1,
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260614",
-      "headline": "이란 \"종전 MOU 서명 14일은 아냐\"…막판 신경전",
-      "impacts": {
-        "건설": 1,
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260614",
       "headline": "[거시분석] Trump says US-Iran deal to be signed on Sunda...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -4
+        "전체시장": -3
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 22,
-  "total_positives": 34,
+  "total_negatives": 15,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
