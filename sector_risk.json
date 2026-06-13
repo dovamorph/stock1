@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-13T18:21:53.266403+09:00",
+  "updated_at": "2026-06-13T20:56:15.452248+09:00",
   "date": "20260613",
   "window_days": 14,
   "sectors": [
@@ -72,21 +72,27 @@
         {
           "date": "20260613",
           "type": "positive",
-          "headline": "Mother sues OpenAI in US after daughter’s death linked to ChatGPT use",
+          "headline": "US orders Anthropic to disable AI models for all foreign nationals",
           "score": 1
         }
       ]
     },
     "건설": {
-      "score": 2,
+      "score": 0,
       "positive_count": 2,
-      "negative_count": 0,
+      "negative_count": 1,
       "recent_events": [
         {
           "date": "20260613",
           "type": "positive",
-          "headline": "미군 \"상선 위협 이란드론 격추\"…종전 문턱서 호르무즈 공방전(종합)",
+          "headline": "Israel attacks Lebanon despite being included in potential peace deal",
           "score": 1
+        },
+        {
+          "date": "20260613",
+          "type": "negative",
+          "headline": "[거시분석] Israel carries out air strikes on Lebanon, st...",
+          "score": -2
         },
         {
           "date": "20260612",
@@ -97,10 +103,28 @@
       ]
     },
     "방산": {
-      "score": 12,
-      "positive_count": 13,
-      "negative_count": 1,
+      "score": 18,
+      "positive_count": 16,
+      "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260613",
+          "type": "positive",
+          "headline": "US kills leader of Venezuela's Tren de Aragua gang in airstrike, Trump says",
+          "score": 1
+        },
+        {
+          "date": "20260613",
+          "type": "positive",
+          "headline": "Warner Bros $111bn sale to Paramount approved by US justice department",
+          "score": 1
+        },
+        {
+          "date": "20260613",
+          "type": "positive",
+          "headline": "The college scam that promised students fleeing war a new life in Finland",
+          "score": 1
+        },
         {
           "date": "20260613",
           "type": "positive",
@@ -110,25 +134,7 @@
         {
           "date": "20260613",
           "type": "positive",
-          "headline": "Separated by the Gaza war, a Palestinian yearns to see his family again",
-          "score": 1
-        },
-        {
-          "date": "20260613",
-          "type": "positive",
-          "headline": "Lebanon war victims among 117M people displaced worldwide",
-          "score": 1
-        },
-        {
-          "date": "20260613",
-          "type": "positive",
-          "headline": "Trump seeks ‘off-ramp’ from war in ‘Iran deal’",
-          "score": 1
-        },
-        {
-          "date": "20260613",
-          "type": "positive",
-          "headline": "Iran war live: US, Iran signal deal within reach; Israel bombs Lebanon",
+          "headline": "Iran war day 106: US and Iran say deal close but Lebanon fighting continues",
           "score": 1
         }
       ]
@@ -190,21 +196,27 @@
       "recent_events": []
     },
     "전체시장": {
-      "score": -10,
+      "score": -13,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 9,
       "recent_events": [
         {
           "date": "20260613",
           "type": "negative",
-          "headline": "\"미군, '이란 우라늄 탈취' 지상군 옵션 보고…트럼프가 보류\"(종합)",
+          "headline": "Married at First Sight Australia stars not told partners had drug and violence convictions",
           "score": -1
         },
         {
           "date": "20260613",
           "type": "negative",
-          "headline": "[거시분석] Deal to end fighting would lead to Hormuz reo...",
-          "score": -2
+          "headline": "파키스탄 총리 \"미·이란 24시간 내 최종 합의…전자서명 준비\"",
+          "score": -1
+        },
+        {
+          "date": "20260613",
+          "type": "negative",
+          "headline": "[거시분석] Israel carries out air strikes on Lebanon, st...",
+          "score": -4
         },
         {
           "date": "20260612",
@@ -216,12 +228,6 @@
           "date": "20260612",
           "type": "negative",
           "headline": "Family of British toddler criticises police as Australian inquiry into cold case murders begins",
-          "score": -1
-        },
-        {
-          "date": "20260612",
-          "type": "negative",
-          "headline": "One in 17 children is working: Here are the industries driving child labour",
           "score": -1
         }
       ]
@@ -359,6 +365,14 @@
     },
     {
       "date": "20260613",
+      "headline": "Married at First Sight Australia stars not told partners had drug and violence convictions",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260613",
       "headline": "Elon Musk becomes world's first trillionaire as SpaceX soars in stock market debut",
       "impacts": {
         "우주ETF": 1
@@ -367,7 +381,55 @@
     },
     {
       "date": "20260613",
+      "headline": "US kills leader of Venezuela's Tren de Aragua gang in airstrike, Trump says",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260613",
+      "headline": "Warner Bros $111bn sale to Paramount approved by US justice department",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260613",
+      "headline": "The college scam that promised students fleeing war a new life in Finland",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260613",
       "headline": "More than 50 Iranian military bases damaged in US strikes since start of war, satellite images show",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260613",
+      "headline": "Israel attacks Lebanon despite being included in potential peace deal",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260613",
+      "headline": "US orders Anthropic to disable AI models for all foreign nationals",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260613",
+      "headline": "Iran war day 106: US and Iran say deal close but Lebanon fighting continues",
       "impacts": {
         "방산": 1
       },
@@ -399,23 +461,7 @@
     },
     {
       "date": "20260613",
-      "headline": "Iran war live: US, Iran signal deal within reach; Israel bombs Lebanon",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260613",
-      "headline": "Mother sues OpenAI in US after daughter’s death linked to ChatGPT use",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260613",
-      "headline": "\"미군, '이란 우라늄 탈취' 지상군 옵션 보고…트럼프가 보류\"(종합)",
+      "headline": "파키스탄 총리 \"미·이란 24시간 내 최종 합의…전자서명 준비\"",
       "impacts": {
         "전체시장": -1
       },
@@ -423,24 +469,16 @@
     },
     {
       "date": "20260613",
-      "headline": "미군 \"상선 위협 이란드론 격추\"…종전 문턱서 호르무즈 공방전(종합)",
+      "headline": "[거시분석] Israel carries out air strikes on Lebanon, st...",
       "impacts": {
-        "건설": 1,
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260613",
-      "headline": "[거시분석] Deal to end fighting would lead to Hormuz reo...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -2
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 9,
-  "total_positives": 20,
+  "total_negatives": 10,
+  "total_positives": 23,
   "risk_level": "EXTREME"
 }
