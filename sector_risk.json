@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14T08:09:40.503296+09:00",
+  "updated_at": "2026-06-14T13:26:27.548025+09:00",
   "date": "20260614",
   "window_days": 14,
   "sectors": [
@@ -78,22 +78,10 @@
       ]
     },
     "건설": {
-      "score": 1,
-      "positive_count": 5,
+      "score": -1,
+      "positive_count": 3,
       "negative_count": 2,
       "recent_events": [
-        {
-          "date": "20260614",
-          "type": "positive",
-          "headline": "Israeli attacks kill three in Gaza as post-‘ceasefire’ deaths hit 983",
-          "score": 1
-        },
-        {
-          "date": "20260614",
-          "type": "positive",
-          "headline": "광주시, 교육청 법정전입금 1천억 추경 반영 못해",
-          "score": 1
-        },
         {
           "date": "20260614",
           "type": "negative",
@@ -111,12 +99,24 @@
           "type": "positive",
           "headline": "이란 \"종전 MOU 서명 14일은 아냐\"…막판 신경전",
           "score": 1
+        },
+        {
+          "date": "20260613",
+          "type": "negative",
+          "headline": "[거시분석] Israel carries out air strikes on Lebanon, st...",
+          "score": -2
+        },
+        {
+          "date": "20260612",
+          "type": "positive",
+          "headline": "US-Iran ceasefire? Not for Indian sailors being killed in Hormuz",
+          "score": 1
         }
       ]
     },
     "방산": {
-      "score": 24,
-      "positive_count": 21,
+      "score": 25,
+      "positive_count": 22,
       "negative_count": 1,
       "recent_events": [
         {
@@ -140,14 +140,14 @@
         {
           "date": "20260614",
           "type": "positive",
-          "headline": "[거시분석] Trump says US-Iran deal to be signed on Sunda...",
-          "score": 3
+          "headline": "Iran war live: Trump says deal to be signed today; Tehran disputes timing",
+          "score": 1
         },
         {
-          "date": "20260613",
+          "date": "20260614",
           "type": "positive",
-          "headline": "US kills leader of Venezuela's Tren de Aragua gang in airstrike, Trump says",
-          "score": 1
+          "headline": "[거시분석] Trump says US-Iran deal to be signed on Sunda...",
+          "score": 3
         }
       ]
     },
@@ -171,17 +171,10 @@
       ]
     },
     "금융": {
-      "score": -1,
+      "score": 0,
       "positive_count": 0,
-      "negative_count": 1,
-      "recent_events": [
-        {
-          "date": "20260614",
-          "type": "negative",
-          "headline": "[거시분석] Trump says US-Iran deal to be signed on Sunda...",
-          "score": -1
-        }
-      ]
+      "negative_count": 0,
+      "recent_events": []
     },
     "우주ETF": {
       "score": 4,
@@ -221,20 +214,14 @@
       "recent_events": []
     },
     "전체시장": {
-      "score": -20,
+      "score": -19,
       "positive_count": 0,
-      "negative_count": 13,
+      "negative_count": 12,
       "recent_events": [
         {
           "date": "20260614",
           "type": "negative",
           "headline": "Married at First Sight Australia stars not told partners had drug and violence convictions",
-          "score": -1
-        },
-        {
-          "date": "20260614",
-          "type": "negative",
-          "headline": "이란전쟁 후 G7 첫 집결…서방 결속 시험대",
           "score": -1
         },
         {
@@ -253,6 +240,12 @@
           "date": "20260613",
           "type": "negative",
           "headline": "'전쟁 첫날 사망' 전 이란 최고지도자…7월 4일 장례 시작",
+          "score": -1
+        },
+        {
+          "date": "20260613",
+          "type": "negative",
+          "headline": "파키스탄 총리 \"미·이란 24시간 내 최종 합의…전자서명 준비\"",
           "score": -1
         }
       ]
@@ -569,25 +562,9 @@
     },
     {
       "date": "20260614",
-      "headline": "Israeli attacks kill three in Gaza as post-‘ceasefire’ deaths hit 983",
+      "headline": "Iran war live: Trump says deal to be signed today; Tehran disputes timing",
       "impacts": {
-        "건설": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260614",
-      "headline": "광주시, 교육청 법정전입금 1천억 추경 반영 못해",
-      "impacts": {
-        "건설": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260614",
-      "headline": "이란전쟁 후 G7 첫 집결…서방 결속 시험대",
-      "impacts": {
-        "전체시장": -1
+        "방산": 1
       },
       "source": "keyword"
     },
@@ -597,13 +574,12 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -4,
-        "금융": -1
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 17,
-  "total_positives": 32,
+  "total_negatives": 15,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
