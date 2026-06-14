@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14T18:41:17.447013+09:00",
+  "updated_at": "2026-06-14T21:00:23.238258+09:00",
   "date": "20260614",
   "window_days": 14,
   "sectors": [
@@ -65,16 +65,10 @@
   ],
   "sector_stats": {
     "반도체·AI": {
-      "score": 0,
+      "score": 1,
       "positive_count": 1,
-      "negative_count": 1,
+      "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260614",
-          "type": "negative",
-          "headline": "\"이란 대상 사이버 공격 발생…4개 은행 서비스 중단\"",
-          "score": -1
-        },
         {
           "date": "20260613",
           "type": "positive",
@@ -84,14 +78,20 @@
       ]
     },
     "건설": {
-      "score": 0,
-      "positive_count": 4,
+      "score": 1,
+      "positive_count": 5,
       "negative_count": 2,
       "recent_events": [
         {
           "date": "20260614",
           "type": "positive",
-          "headline": "미·이란 종전 MOU 임박에도…이스라엘·헤즈볼라 무력충돌 계속(종합)",
+          "headline": "Israel accuses Hezbollah of ceasefire violation, issues displacement orders",
+          "score": 1
+        },
+        {
+          "date": "20260614",
+          "type": "positive",
+          "headline": "종전 MOU 임박 속 이스라엘, 베이루트 헤즈볼라 목표물 공습",
           "score": 1
         },
         {
@@ -111,26 +111,14 @@
           "type": "positive",
           "headline": "이란 \"종전 MOU 서명 14일은 아냐\"…막판 신경전",
           "score": 1
-        },
-        {
-          "date": "20260613",
-          "type": "negative",
-          "headline": "[거시분석] Israel carries out air strikes on Lebanon, st...",
-          "score": -2
         }
       ]
     },
     "방산": {
-      "score": 24,
-      "positive_count": 22,
-      "negative_count": 2,
+      "score": 23,
+      "positive_count": 20,
+      "negative_count": 1,
       "recent_events": [
-        {
-          "date": "20260614",
-          "type": "positive",
-          "headline": "Warner Bros $111bn sale to Paramount approved by US justice department",
-          "score": 1
-        },
         {
           "date": "20260614",
           "type": "positive",
@@ -146,14 +134,20 @@
         {
           "date": "20260614",
           "type": "positive",
-          "headline": "Iran war live: Trump says deal to be signed today; Tehran disputes timing",
+          "headline": "[거시분석] Trump says US-Iran deal to be signed on Sunda...",
+          "score": 3
+        },
+        {
+          "date": "20260613",
+          "type": "positive",
+          "headline": "US kills leader of Venezuela's Tren de Aragua gang in airstrike, Trump says",
           "score": 1
         },
         {
-          "date": "20260614",
-          "type": "negative",
-          "headline": "미·이란 종전 MOU 임박에도…이스라엘·헤즈볼라 무력충돌 계속(종합)",
-          "score": -1
+          "date": "20260613",
+          "type": "positive",
+          "headline": "Warner Bros $111bn sale to Paramount approved by US justice department",
+          "score": 1
         }
       ]
     },
@@ -183,16 +177,10 @@
       "recent_events": []
     },
     "우주ETF": {
-      "score": 4,
-      "positive_count": 4,
+      "score": 3,
+      "positive_count": 3,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260614",
-          "type": "positive",
-          "headline": "Elon Musk becomes world's first trillionaire as SpaceX soars in stock market debut",
-          "score": 1
-        },
         {
           "date": "20260613",
           "type": "positive",
@@ -220,16 +208,10 @@
       "recent_events": []
     },
     "전체시장": {
-      "score": -22,
-      "positive_count": 0,
-      "negative_count": 16,
+      "score": -18,
+      "positive_count": 1,
+      "negative_count": 13,
       "recent_events": [
-        {
-          "date": "20260614",
-          "type": "negative",
-          "headline": "Married at First Sight Australia stars not told partners had drug and violence convictions",
-          "score": -1
-        },
         {
           "date": "20260614",
           "type": "negative",
@@ -238,20 +220,26 @@
         },
         {
           "date": "20260614",
+          "type": "positive",
+          "headline": "종전 MOU 임박 속 이스라엘, 베이루트 헤즈볼라 목표물 공습",
+          "score": 1
+        },
+        {
+          "date": "20260614",
           "type": "negative",
-          "headline": "\"이란 대상 사이버 공격 발생…4개 은행 서비스 중단\"",
+          "headline": "\"美·이란, 호르무즈 즉각 개방·농축 우라늄 이란내 희석 합의\"",
           "score": -1
         },
         {
           "date": "20260614",
           "type": "negative",
-          "headline": "[월드컵] 난민 캠프서 태어난 이란쿤다, 호주 승리 이끌어",
-          "score": -1
+          "headline": "[거시분석] Trump says US-Iran deal to be signed on Sunda...",
+          "score": -3
         },
         {
-          "date": "20260614",
+          "date": "20260613",
           "type": "negative",
-          "headline": "미국·이란 핵협상 마무리 수순…하반기 북미대화의 문도 열릴까",
+          "headline": "Married at First Sight Australia stars not told partners had drug and violence convictions",
           "score": -1
         }
       ]
@@ -528,22 +516,6 @@
     },
     {
       "date": "20260614",
-      "headline": "Elon Musk becomes world's first trillionaire as SpaceX soars in stock market debut",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260614",
-      "headline": "Warner Bros $111bn sale to Paramount approved by US justice department",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260614",
       "headline": "The college scam that promised students fleeing war a new life in Finland",
       "impacts": {
         "방산": 1
@@ -552,9 +524,9 @@
     },
     {
       "date": "20260614",
-      "headline": "Married at First Sight Australia stars not told partners had drug and violence convictions",
+      "headline": "Israel accuses Hezbollah of ceasefire violation, issues displacement orders",
       "impacts": {
-        "전체시장": -1
+        "건설": 1
       },
       "source": "keyword"
     },
@@ -576,41 +548,16 @@
     },
     {
       "date": "20260614",
-      "headline": "Iran war live: Trump says deal to be signed today; Tehran disputes timing",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260614",
-      "headline": "\"이란 대상 사이버 공격 발생…4개 은행 서비스 중단\"",
-      "impacts": {
-        "반도체·AI": -1,
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260614",
-      "headline": "[월드컵] 난민 캠프서 태어난 이란쿤다, 호주 승리 이끌어",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260614",
-      "headline": "미·이란 종전 MOU 임박에도…이스라엘·헤즈볼라 무력충돌 계속(종합)",
+      "headline": "종전 MOU 임박 속 이스라엘, 베이루트 헤즈볼라 목표물 공습",
       "impacts": {
         "건설": 1,
-        "방산": -1
+        "전체시장": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260614",
-      "headline": "미국·이란 핵협상 마무리 수순…하반기 북미대화의 문도 열릴까",
+      "headline": "\"美·이란, 호르무즈 즉각 개방·농축 우라늄 이란내 희석 합의\"",
       "impacts": {
         "전체시장": -1
       },
@@ -627,7 +574,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 21,
-  "total_positives": 32,
+  "total_negatives": 16,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
