@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15 02:23",
+  "updated": "2026-06-15 04:41",
   "news_count": 78,
   "intl_count": 48,
   "domestic_count": 30,
@@ -13,15 +13,15 @@
     "StockPlus": 0
   },
   "news_sample": [
-    "Lebanon says three killed in Israeli strike on Beirut suburb",
-    "Swiss voters reject 10 million population cap, early projections say",
+    "Israeli military says Hezbollah targets struck in Beirut",
+    "Swiss voters reject 10 million population cap",
     "Teen shot and buses torched in Manhattan after historic NBA win for Knicks",
     "Tourist train overturns and injures 17 during Cártama tapas festival",
     "UK and Japan agree £18bn investment deal"
   ],
   "all_headlines": [
-    "Lebanon says three killed in Israeli strike on Beirut suburb",
-    "Swiss voters reject 10 million population cap, early projections say",
+    "Israeli military says Hezbollah targets struck in Beirut",
+    "Swiss voters reject 10 million population cap",
     "Teen shot and buses torched in Manhattan after historic NBA win for Knicks",
     "Tourist train overturns and injures 17 during Cártama tapas festival",
     "UK and Japan agree £18bn investment deal",
@@ -43,11 +43,19 @@
     "Watch: Why is Trump not at the World Cup?",
     "Watch: Four UFO videos newly declassified by US government",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Twelve killed in plane crash in US state of Missouri",
+    "Germany hit Curacao for seven to open their World Cup",
+    "Israel welcomes Somaliland president in ‘historic’ visit",
+    "Israel expands military control in Gaza, Lebanon and Syria by 1,000sq km",
+    "‘Losing three years set us back 20’: Palestinian football’s future in peril",
+    "Trump says Israeli attacks on Beirut unjustified, puts Iran deal at risk",
+    "Ibram X. Kendi: Is the US inherently racist?",
+    "Is the G7 still relevant?",
     "Thousands protest as Trump, other world leaders set to meet for G7 summit",
     "Al Jazeera reports from Israeli attack site in southern Beirut",
     "Knicks fans set bus alight during celebrations",
     "Analyst says what attacks on Lebanon could mean for potential US-Iran deal",
-    "Netherlands vs Japan live: World Cup 2026",
+    "LIVE: Netherlands vs Japan – World Cup 2026",
     "‘Unacceptable’: London protesters slam illegal Israeli settlement land sale",
     "UK forces seize suspected Russian oil tanker accused of funding Ukraine war",
     "Trump makes endorsement in key Georgia Republican US Senate run-off",
@@ -60,14 +68,13 @@
     "‘Making history’: The fight to end female genital mutilation in Colombia",
     "Anticipation, pushback in Iran as mediators work to finalise deal with US",
     "Spain vs Cape Verde: World Cup – Lamine Yamal, predictions and how to watch",
-    "World Cup 2026: Biggest takeaways from Brazil-Morocco group match",
-    "Israel attacks Beirut on same day Trump says Iran deal to be signed",
-    "At least three killed as Israel attacks southern Beirut",
-    "Romanian president picks Liberal former mayor as PM to form new government",
-    "Will the US-Iran deal be signed on Sunday? What we know so far",
-    "World Cup Day 4: Netherlands vs Japan, Curacao debut, prediction, schedule",
-    "UK court to rule on Palestine Action ‘terrorist’ label: What we know",
-    "The World Cup cicada: India’s rare insect on a four-year clock",
+    "[월드컵] '전차 군단' 독일, 퀴라소 7-1로 완파…하베르츠 멀티골",
+    "[월드컵 전적] 독일 7-1 퀴라소",
+    "불타는 테슬라, 매캐한 최루가스…G7 정상회의 앞 격렬 시위",
+    "스페이스X 상장 수혜자는?…83세 펀드매니저부터 27세 직원까지",
+    "\"인구 1천만명 밑으로 제한\" 스위스 국민투표 부결…55% 반대(종합2보)",
+    "[월드컵] '공동주최국 언어도 못쓰나'…공식회견 언어규정 논란",
+    "이란 대통령 \"이란 최고 안보정책기구, 美와 대화 지지\"",
     "트럼프, 이스라엘의 레바논 공습에 \"서명 몇시간 지연…화났다\"(종합)",
     "레바논상황 변수되나…'생일에 서명 예고' 트럼프 \"모두 자제를\"",
     "소말릴란드 대통령, '유일 수교국' 이스라엘 첫 국빈방문",
@@ -90,14 +97,7 @@
     "이스라엘군 \"베이루트 공습 후 이란의 보복 공격 대비 태세\"",
     "\"이란, 중재자 카타르에 원하는 종전 합의문 조항 전달\"",
     "李대통령 \"참정권침해 문제제기 다 수용…부정선거론, 본질왜곡\"",
-    "젤렌스키 \"G7 회의서 드론 협력 확대 등 타진\"",
-    "[속보] 李대통령 \"선관위, 국정조사 전폭 협조해야…책임규명 박차\"",
-    "[속보] 李대통령 \"터무니없는 음모론 선동 세력있어…반사회적 행태\"",
-    "[속보] 李대통령 \"참정권침해 문제제기 인정…부정선거론은 본질 왜곡\"",
-    "한국 여자배구, 아시아연맹컵서 대만 꺾고 우승(종합)",
-    "이란, 이스라엘의 베이루트 공습 반발…\"美와 협상지속 불가능\"",
-    "[월드컵] 가나 외교부, 자국 선수 입국 거부한 캐나다에 공식 항의",
-    "필리핀 강진으로 해저 2m 상승…사망·실종 101명"
+    "젤렌스키 \"G7 회의서 드론 협력 확대 등 타진\""
   ],
   "categories": {
     "geopolitical": {
@@ -107,7 +107,7 @@
       "summary": "Russian families use AI to 'resurrect' loved ...",
       "action": "포지션 현금화 고려 / 즉각 대응",
       "matched": 18,
-      "score": 10.5
+      "score": 9.0
     },
     "macro": {
       "level": "주의",
@@ -131,10 +131,10 @@
       "level": "신호",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Analyst says what attacks on Lebanon could me...",
+      "summary": "Trump says Israeli attacks on Beirut unjustif...",
       "action": "관련 지표 추가 확인 후 판단",
-      "matched": 5,
-      "score": 7.0
+      "matched": 4,
+      "score": 5.6
     },
     "policy": {
       "level": "안전",

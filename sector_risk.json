@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-15T02:23:11.669837+09:00",
+  "updated_at": "2026-06-15T04:41:40.713996+09:00",
   "date": "20260615",
   "window_days": 14,
   "sectors": [
@@ -127,8 +127,8 @@
       ]
     },
     "방산": {
-      "score": 32,
-      "positive_count": 28,
+      "score": 31,
+      "positive_count": 27,
       "negative_count": 2,
       "recent_events": [
         {
@@ -234,6 +234,12 @@
         {
           "date": "20260615",
           "type": "negative",
+          "headline": "이란 대통령 \"이란 최고 안보정책기구, 美와 대화 지지\"",
+          "score": -1
+        },
+        {
+          "date": "20260615",
+          "type": "negative",
           "headline": "美국방 \"이란, 합의 준수 않으면 다시 전쟁부 상대하게 될 것\"",
           "score": -1
         },
@@ -241,12 +247,6 @@
           "date": "20260615",
           "type": "negative",
           "headline": "이스라엘군 \"베이루트 공습 후 이란의 보복 공격 대비 태세\"",
-          "score": -1
-        },
-        {
-          "date": "20260615",
-          "type": "negative",
-          "headline": "이란, 이스라엘의 베이루트 공습 반발…\"美와 협상지속 불가능\"",
           "score": -1
         },
         {
@@ -636,6 +636,14 @@
     },
     {
       "date": "20260615",
+      "headline": "이란 대통령 \"이란 최고 안보정책기구, 美와 대화 지지\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260615",
       "headline": "트럼프, 이스라엘의 레바논 공습에 \"서명 몇시간 지연…화났다\"(종합)",
       "impacts": {
         "방산": 1
@@ -678,15 +686,6 @@
     },
     {
       "date": "20260615",
-      "headline": "이란, 이스라엘의 베이루트 공습 반발…\"美와 협상지속 불가능\"",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260615",
       "headline": "[거시분석] Russian families use AI to 'resurrect' loved ...",
       "impacts": {
         "방산": 3,
@@ -698,6 +697,6 @@
     }
   ],
   "total_negatives": 24,
-  "total_positives": 43,
+  "total_positives": 42,
   "risk_level": "EXTREME"
 }
