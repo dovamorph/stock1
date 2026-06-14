@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14T21:00:23.238258+09:00",
+  "updated_at": "2026-06-14T23:23:54.832146+09:00",
   "date": "20260614",
   "window_days": 14,
   "sectors": [
@@ -65,10 +65,16 @@
   ],
   "sector_stats": {
     "반도체·AI": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260614",
+          "type": "positive",
+          "headline": "US asks Anthropic to block global access to top AI models: Why it matters",
+          "score": 1
+        },
         {
           "date": "20260613",
           "type": "positive",
@@ -85,7 +91,7 @@
         {
           "date": "20260614",
           "type": "positive",
-          "headline": "Israel accuses Hezbollah of ceasefire violation, issues displacement orders",
+          "headline": "종전 MOU 임박 속 이스라엘, 베이루트 헤즈볼라 지휘소 공습(종합)",
           "score": 1
         },
         {
@@ -115,8 +121,8 @@
       ]
     },
     "방산": {
-      "score": 23,
-      "positive_count": 20,
+      "score": 24,
+      "positive_count": 21,
       "negative_count": 1,
       "recent_events": [
         {
@@ -134,6 +140,12 @@
         {
           "date": "20260614",
           "type": "positive",
+          "headline": "이란, 이스라엘의 베이루트 공습 반발…\"美와 협상지속 불가능\"",
+          "score": 1
+        },
+        {
+          "date": "20260614",
+          "type": "positive",
           "headline": "[거시분석] Trump says US-Iran deal to be signed on Sunda...",
           "score": 3
         },
@@ -141,12 +153,6 @@
           "date": "20260613",
           "type": "positive",
           "headline": "US kills leader of Venezuela's Tren de Aragua gang in airstrike, Trump says",
-          "score": 1
-        },
-        {
-          "date": "20260613",
-          "type": "positive",
-          "headline": "Warner Bros $111bn sale to Paramount approved by US justice department",
           "score": 1
         }
       ]
@@ -209,8 +215,8 @@
     },
     "전체시장": {
       "score": -18,
-      "positive_count": 1,
-      "negative_count": 13,
+      "positive_count": 2,
+      "negative_count": 14,
       "recent_events": [
         {
           "date": "20260614",
@@ -220,27 +226,27 @@
         },
         {
           "date": "20260614",
+          "type": "negative",
+          "headline": "이란, 이스라엘의 베이루트 공습 반발…\"美와 협상지속 불가능\"",
+          "score": -1
+        },
+        {
+          "date": "20260614",
           "type": "positive",
-          "headline": "종전 MOU 임박 속 이스라엘, 베이루트 헤즈볼라 목표물 공습",
+          "headline": "종전 MOU 임박 속 이스라엘, 베이루트 헤즈볼라 지휘소 공습(종합)",
           "score": 1
         },
         {
           "date": "20260614",
           "type": "negative",
-          "headline": "\"美·이란, 호르무즈 즉각 개방·농축 우라늄 이란내 희석 합의\"",
+          "headline": "靑 \"美-이란 합의 타결돼 중동평화 회복되고 호르무즈 개방되길\"",
           "score": -1
         },
         {
           "date": "20260614",
-          "type": "negative",
-          "headline": "[거시분석] Trump says US-Iran deal to be signed on Sunda...",
-          "score": -3
-        },
-        {
-          "date": "20260613",
-          "type": "negative",
-          "headline": "Married at First Sight Australia stars not told partners had drug and violence convictions",
-          "score": -1
+          "type": "positive",
+          "headline": "종전 MOU 임박 속 이스라엘, 베이루트 헤즈볼라 목표물 공습",
+          "score": 1
         }
       ]
     }
@@ -524,9 +530,9 @@
     },
     {
       "date": "20260614",
-      "headline": "Israel accuses Hezbollah of ceasefire violation, issues displacement orders",
+      "headline": "US asks Anthropic to block global access to top AI models: Why it matters",
       "impacts": {
-        "건설": 1
+        "반도체·AI": 1
       },
       "source": "keyword"
     },
@@ -548,7 +554,16 @@
     },
     {
       "date": "20260614",
-      "headline": "종전 MOU 임박 속 이스라엘, 베이루트 헤즈볼라 목표물 공습",
+      "headline": "이란, 이스라엘의 베이루트 공습 반발…\"美와 협상지속 불가능\"",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260614",
+      "headline": "종전 MOU 임박 속 이스라엘, 베이루트 헤즈볼라 지휘소 공습(종합)",
       "impacts": {
         "건설": 1,
         "전체시장": 1
@@ -557,9 +572,18 @@
     },
     {
       "date": "20260614",
-      "headline": "\"美·이란, 호르무즈 즉각 개방·농축 우라늄 이란내 희석 합의\"",
+      "headline": "靑 \"美-이란 합의 타결돼 중동평화 회복되고 호르무즈 개방되길\"",
       "impacts": {
         "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260614",
+      "headline": "종전 MOU 임박 속 이스라엘, 베이루트 헤즈볼라 목표물 공습",
+      "impacts": {
+        "건설": 1,
+        "전체시장": 1
       },
       "source": "keyword"
     },
@@ -574,7 +598,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 16,
-  "total_positives": 31,
+  "total_negatives": 17,
+  "total_positives": 34,
   "risk_level": "EXTREME"
 }
