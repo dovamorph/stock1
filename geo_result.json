@@ -1,10 +1,10 @@
 {
-  "updated": "2026-06-15 06:16",
-  "news_count": 79,
-  "intl_count": 49,
+  "updated": "2026-06-15 08:11",
+  "news_count": 78,
+  "intl_count": 48,
   "domestic_count": 30,
   "source_stats": {
-    "BBC World": 23,
+    "BBC World": 22,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 0,
@@ -13,14 +13,13 @@
     "StockPlus": 0
   },
   "news_sample": [
-    "Israeli military says Hezbollah targets struck in Beirut",
     "Swiss voters reject 10 million population cap",
     "Teen shot and buses torched in Manhattan after historic NBA win for Knicks",
     "Protesters clash with police ahead of G7 summit in Geneva",
-    "Tourist train overturns and injures 17 during Cártama tapas festival"
+    "Tourist train overturns and injures 17 during Cártama tapas festival",
+    "UK and Japan agree £18bn investment deal"
   ],
   "all_headlines": [
-    "Israeli military says Hezbollah targets struck in Beirut",
     "Swiss voters reject 10 million population cap",
     "Teen shot and buses torched in Manhattan after historic NBA win for Knicks",
     "Protesters clash with police ahead of G7 summit in Geneva",
@@ -44,6 +43,10 @@
     "Watch: Why is Trump not at the World Cup?",
     "Watch: Four UFO videos newly declassified by US government",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Japan deny Netherlands by fighting back twice in World Cup opener",
+    "Lamine Yamal fit to start on bench for Spain vs Cape Verde at World Cup",
+    "India beat Pakistan by 64 runs to open Women’s T20 World Cup campaign",
+    "LIVE: Ilia Topuria vs Justin Gaethje title fight at UFC Freedom 250",
     "Gaza mourns four killed in Israeli strike",
     "Violence erupts during anti-G7 protests in Geneva on eve of summit",
     "Swiss right-wing plan to cap population rejected by narrow margins",
@@ -63,52 +66,48 @@
     "Al Jazeera reports from Israeli attack site in southern Beirut",
     "Knicks fans set bus alight during celebrations",
     "Analyst says what attacks on Lebanon could mean for potential US-Iran deal",
-    "LIVE: Netherlands vs Japan – World Cup 2026",
+    "Netherlands 2-2 Japan: World Cup 2026 – as it happened",
     "‘Unacceptable’: London protesters slam illegal Israeli settlement land sale",
-    "UK forces seize suspected Russian oil tanker accused of funding Ukraine war",
-    "Trump makes endorsement in key Georgia Republican US Senate run-off",
-    "Trump condemns Israel’s attack on Beirut as Iran says US responsible",
-    "EU set to hold membership talks with Ukraine",
-    "대전·세종·충남 낮 최고 29∼32도로 더워…아침 안개 주의",
-    "국민연금, 공공기관 퇴직연금 '기금형' 운용 추진",
-    "울산시, 7개국 외국 공무원 초청해 산업·문화 체험",
-    "말라리아, 아직 잠잠하지만…6∼7월 '정점' 시기 주의",
-    "[코스피·코스닥 전 거래일(12일) 주요공시]",
-    "김효주·최혜진, LPGA 다우 챔피언십 준우승…킴-윌슨 역전 우승",
-    "서울 중하위 신축 국민평형 분양·입주권 18억 '앞으로'",
-    "초중고 유급 사유 1위는 '정신건강'…'학교 부적응'보다 많아",
-    "전기차서 밀크티·화장품까지…중국 브랜드, 한국시장 진격",
-    "이화영 국참 2주차 '본게임' 돌입…최대쟁점 '술파티 위증' 격돌",
-    "[인터뷰] 조상호 \"개발공사 신설해 세종시 개발 제2시행자 역할 구상\"",
-    "[소셜＋] \"클릭 한 번이면 끝인데\"…종이 투표 고수하는 '이 학교'",
-    "노동부 '공인 현장전문가', 실무형 인재로 육성…전문교육 운영",
-    "대법 \"타사 보험설계사에 지급한 모집 수수료, 비용 처리안돼\"",
-    "폐업 점포 철거비 지원 부정수급 차단…집배원 현장 확인 추진",
-    "서울시, 싱가포르 국제 물 박람회 참가해 '아리수' 홍보",
-    "서울국제도서전 나서는 서울도서관…올해 주제는 '문즉시재'",
-    "울산시, 17일 일자리박람회 개최…100개사 590여명 채용",
-    "서울시, 재가 중증장애인 2만7천명 대면 전수조사",
-    "서울시·국민연금공단, 청년 금융 역량 강화 맞손",
-    "'내란 가담 의혹' 김명수 前합참의장 구속 갈림길…오늘 영장심사",
-    "서울시, 상반기 자동차세 2천억원 부과…\"7월 3일까지 내야\"",
-    "추경호 당선인, 전문가·시민과 함께 대구시정 그린다",
-    "건설현장 안전·품질 높일 기술 찾는다…'스마트건설 챌린지'",
-    "한·방글라데시, 다카서 포괄적경제동반자협정 4차 공식협상",
-    "산업부, 화학산업포럼 가동…\"복합위기 해소·경쟁력 강화\"",
-    "[게시판] 15일부터 2분기 혁신금융서비스 지정 정기신청",
-    "[이런말저런글] 시인과 ○○이 들려주는 '같은 꼴 나란히'",
-    "최태원·노소영, 오늘 재산분할 2차 조정…2년여만 법정대면",
-    "여신업계 고금리속 외화조달로 돌파구…김치본드·해외ABS"
+    "\"무너진 공교육 현실, 공론장으로\"…'참교육' 글로벌 돌풍",
+    "전찬민 봅슬레이스켈레톤연맹 회장, IBSF 부회장 재선",
+    "[부산소식] 부산시, 현수막 없는 청정거리 13곳 추가",
+    "부산시, 마약류 폐해 예방 주간 운영…온오프라인 홍보",
+    "[부산소식] 노인학대 예방의 날 기념행사…장관·시장 표창",
+    "[전국 주요 신문 톱뉴스](15일 조간)",
+    "[전국 주요 신문 사설](15일 조간)",
+    "[굿바이 잠실] ③'제비'와 잠실 떠났던 '백곰'…전설들이 남긴 마지막 땀방울",
+    "부산시, 내달 12일까지 신진작가 아트쇼 참여 작가 공모",
+    "부산시, 고용우수기업 15개사 선정…세무조사 유예 혜택",
+    "트럼프 \"19일 합의 서명되자마자 호르무즈 개방될 것\"",
+    "[미·이란 종전] 전쟁에서 종전합의까지 주요 일지",
+    "이란戰 106일만에 사실상 종료…美·이란 \"협상타결, 19일 서명\"(종합)",
+    "김포서 수출용 중고차 5대 훔친 일당 추적 중…차량은 모두 회수",
+    "이란, 美와 '전쟁 중단' 타결 발표…\"위대한 승리\" 주장",
+    "[속보] 트럼프 \"19일 합의 서명되자마자 호르무즈해협 개방될 것\"",
+    "컬리, 8년 전 교통사고 딛고 PGA 투어 캐나다 오픈에서 첫 우승",
+    "[만나보니] 호암상 오성진 \"나는 천재 아닌 시스템의 산물\"",
+    "[미·이란 종전] 밴스 美부통령 \"서명식에 트럼프 참석할수도\"",
+    "[르포] 30만명 모인 세계 자동차인 축제…제네시스, 완주로 데뷔 성공",
+    "[팩트체크] 약국 인수하는데 3억6천만원?…권리금이 뭐길래",
+    "[연합뉴스 이 시각 헤드라인] - 07:30",
+    "강남인강, 중학생 기말고사 '압축특강' 무료 제공 이벤트",
+    "[월드컵] FIFA, 미국 입국 거부된 소말리아 심판에 급여 '전액 지급'",
+    "이정후, 세 경기만에 안타…시즌 24번째 멀티 히트",
+    "[월드컵] 한국인에 '눈찢기' 인종차별…멕시코 남성, 직책서 사퇴",
+    "[PGA 최종순위] RBC 캐나다 오픈",
+    "[월드컵] '후반 43분 동점골' 일본, 죽음의 조서 네덜란드와 2-2 무승부",
+    "기관 삽관 후 식물인간 됐다가 사망…손배소 2심서 병원 승소",
+    "서초 강남역에 설치미술가 '하이메 아욘' 조형물 17일 공개"
   ],
   "categories": {
     "geopolitical": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
       "summary": "Russian families use AI to 'resurrect' loved ...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 8,
-      "score": 11.3
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 9,
+      "score": 3.0
     },
     "macro": {
       "level": "주의",
@@ -116,8 +115,8 @@
       "signal": "🟡",
       "summary": "'Boyfriend duties call,' Trudeau says after s...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 2,
-      "score": 3.0
+      "matched": 1,
+      "score": 1.5
     },
     "disaster": {
       "level": "안전",
@@ -129,13 +128,13 @@
       "score": 0
     },
     "trade": {
-      "level": "주의",
+      "level": "신호",
       "color": "yellow",
       "signal": "🟡",
       "summary": "Trump says Israeli attacks on Beirut unjustif...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 4,
-      "score": 1.5
+      "action": "관련 지표 추가 확인 후 판단",
+      "matched": 2,
+      "score": 2.8
     },
     "policy": {
       "level": "안전",
@@ -148,9 +147,9 @@
     }
   },
   "overall": {
-    "level": "안전",
-    "color": "green",
-    "summary": "전반적 안정. 정상 운용 유지",
-    "action": "정상 운용 유지"
+    "level": "위험",
+    "color": "red",
+    "summary": "주의 필요: 지정학적 충돌",
+    "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
