@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-15T04:41:40.713996+09:00",
+  "updated_at": "2026-06-15T06:16:48.453111+09:00",
   "date": "20260615",
   "window_days": 14,
   "sectors": [
@@ -65,16 +65,10 @@
   ],
   "sector_stats": {
     "반도체·AI": {
-      "score": 3,
-      "positive_count": 3,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260615",
-          "type": "positive",
-          "headline": "US asks Anthropic to block global access to top AI models: Why it matters",
-          "score": 1
-        },
         {
           "date": "20260614",
           "type": "positive",
@@ -90,22 +84,10 @@
       ]
     },
     "건설": {
-      "score": 0,
-      "positive_count": 6,
-      "negative_count": 3,
+      "score": 1,
+      "positive_count": 5,
+      "negative_count": 2,
       "recent_events": [
-        {
-          "date": "20260615",
-          "type": "positive",
-          "headline": "\"이란, 중재자 카타르에 원하는 종전 합의문 조항 전달\"",
-          "score": 1
-        },
-        {
-          "date": "20260615",
-          "type": "negative",
-          "headline": "[거시분석] Russian families use AI to 'resurrect' loved ...",
-          "score": -2
-        },
         {
           "date": "20260614",
           "type": "positive",
@@ -123,13 +105,25 @@
           "type": "negative",
           "headline": "[거시분석] Trump says US-Iran deal to be signed on Sunda...",
           "score": -2
+        },
+        {
+          "date": "20260613",
+          "type": "positive",
+          "headline": "Israel attacks Lebanon despite being included in potential peace deal",
+          "score": 1
+        },
+        {
+          "date": "20260613",
+          "type": "positive",
+          "headline": "이란 \"종전 MOU 서명 14일은 아냐\"…막판 신경전",
+          "score": 1
         }
       ]
     },
     "방산": {
-      "score": 31,
-      "positive_count": 27,
-      "negative_count": 2,
+      "score": 27,
+      "positive_count": 24,
+      "negative_count": 1,
       "recent_events": [
         {
           "date": "20260615",
@@ -146,19 +140,19 @@
         {
           "date": "20260615",
           "type": "positive",
-          "headline": "트럼프, 이스라엘의 레바논 공습에 \"서명 몇시간 지연…화났다\"(종합)",
+          "headline": "[거시분석] Russian families use AI to 'resurrect' loved ...",
           "score": 1
         },
         {
-          "date": "20260615",
+          "date": "20260614",
           "type": "positive",
-          "headline": "트럼프, 이스라엘의 레바논 공습 비판…\"모든 당사자 자제해야\"",
+          "headline": "The college scam that promised students fleeing war a new life in Finland",
           "score": 1
         },
         {
-          "date": "20260615",
+          "date": "20260614",
           "type": "positive",
-          "headline": "이스라엘군 \"베이루트 공습 후 이란의 보복 공격 대비 태세\"",
+          "headline": "Iran war day 107: Washington, Tehran close to signing first stage of deal",
           "score": 1
         }
       ]
@@ -227,38 +221,38 @@
       "recent_events": []
     },
     "전체시장": {
-      "score": -25,
+      "score": -21,
       "positive_count": 2,
-      "negative_count": 18,
+      "negative_count": 15,
       "recent_events": [
         {
           "date": "20260615",
           "type": "negative",
-          "headline": "이란 대통령 \"이란 최고 안보정책기구, 美와 대화 지지\"",
-          "score": -1
-        },
-        {
-          "date": "20260615",
-          "type": "negative",
-          "headline": "美국방 \"이란, 합의 준수 않으면 다시 전쟁부 상대하게 될 것\"",
-          "score": -1
-        },
-        {
-          "date": "20260615",
-          "type": "negative",
-          "headline": "이스라엘군 \"베이루트 공습 후 이란의 보복 공격 대비 태세\"",
-          "score": -1
-        },
-        {
-          "date": "20260615",
-          "type": "negative",
           "headline": "[거시분석] Russian families use AI to 'resurrect' loved ...",
-          "score": -4
+          "score": -3
         },
         {
           "date": "20260614",
           "type": "negative",
           "headline": "2026 World Cup: Australia stun Turkiye 2-0 in counterattacking masterclass",
+          "score": -1
+        },
+        {
+          "date": "20260614",
+          "type": "negative",
+          "headline": "이란, 이스라엘의 베이루트 공습 반발…\"美와 협상지속 불가능\"",
+          "score": -1
+        },
+        {
+          "date": "20260614",
+          "type": "positive",
+          "headline": "종전 MOU 임박 속 이스라엘, 베이루트 헤즈볼라 지휘소 공습(종합)",
+          "score": 1
+        },
+        {
+          "date": "20260614",
+          "type": "negative",
+          "headline": "靑 \"美-이란 합의 타결돼 중동평화 회복되고 호르무즈 개방되길\"",
           "score": -1
         }
       ]
@@ -628,75 +622,16 @@
     },
     {
       "date": "20260615",
-      "headline": "US asks Anthropic to block global access to top AI models: Why it matters",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260615",
-      "headline": "이란 대통령 \"이란 최고 안보정책기구, 美와 대화 지지\"",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260615",
-      "headline": "트럼프, 이스라엘의 레바논 공습에 \"서명 몇시간 지연…화났다\"(종합)",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260615",
-      "headline": "美국방 \"이란, 합의 준수 않으면 다시 전쟁부 상대하게 될 것\"",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260615",
-      "headline": "트럼프, 이스라엘의 레바논 공습 비판…\"모든 당사자 자제해야\"",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260615",
-      "headline": "이스라엘군 \"베이루트 공습 후 이란의 보복 공격 대비 태세\"",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260615",
-      "headline": "\"이란, 중재자 카타르에 원하는 종전 합의문 조항 전달\"",
-      "impacts": {
-        "건설": 1,
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260615",
       "headline": "[거시분석] Russian families use AI to 'resurrect' loved ...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -4,
+        "방산": 1,
+        "전체시장": -3,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 24,
-  "total_positives": 42,
+  "total_negatives": 19,
+  "total_positives": 37,
   "risk_level": "EXTREME"
 }
