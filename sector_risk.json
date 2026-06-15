@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-15T21:24:09.991606+09:00",
-  "date": "20260615",
+  "updated_at": "2026-06-16T03:41:55.088058+09:00",
+  "date": "20260616",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -15,22 +15,6 @@
   ],
   "calendar_events": [
     {
-      "id": "spacex_ipo_2026",
-      "name": "스페이스X IPO",
-      "date": "2026-06-12",
-      "type": "ipo",
-      "risk_level": "high",
-      "description": "역대 최대 공모(750억달러)로 글로벌 자금이 쏠리면서 기존 보유 주식을 팔아 현금을 확보하는 움직임 예고. 반도체·성장주 중심으로 외국인 매도세 강화 가능성.",
-      "benefit_text": "우주ETF ▲▲▲",
-      "damage_text": "반도체·AI ▼▼  성장주 ▼",
-      "sector_impacts": {
-        "반도체·AI": -2,
-        "우주ETF": 3,
-        "전체시장": -1
-      },
-      "d_day": -3
-    },
-    {
       "id": "fed_jun2026",
       "name": "Fed 금리 결정",
       "date": "2026-06-18",
@@ -44,7 +28,7 @@
         "건설": 1,
         "전체시장": 1
       },
-      "d_day": 3
+      "d_day": 2
     },
     {
       "id": "nvidia_q2_2026",
@@ -60,7 +44,7 @@
         "로봇": 1,
         "전력·에너지": 1
       },
-      "d_day": 10
+      "d_day": 9
     }
   ],
   "sector_stats": {
@@ -84,75 +68,75 @@
       ]
     },
     "건설": {
-      "score": 4,
-      "positive_count": 8,
+      "score": 13,
+      "positive_count": 17,
       "negative_count": 2,
       "recent_events": [
         {
-          "date": "20260615",
+          "date": "20260616",
           "type": "positive",
-          "headline": "What still needs to be negotiated in US-Iran ‘peace deal’?",
+          "headline": "Lebanon Latest: Cautious optimism after ceasefire deal",
           "score": 1
         },
         {
-          "date": "20260615",
+          "date": "20260616",
           "type": "positive",
-          "headline": "[미·이란 종전] 靑, 안도 속 후속 협의 촉각…\"합의 이행 지켜봐야\"",
+          "headline": "Iran says Lebanon, assets release key parts of peace deal with US",
           "score": 1
         },
         {
-          "date": "20260615",
+          "date": "20260616",
           "type": "positive",
-          "headline": "[미·이란 종전] 정부 \"진전 환영…호르무즈 자유항행 보장 노력 동참\"",
+          "headline": "Is Lebanon included? Country hopeful for US-Iran ceasefire, despite doubts",
           "score": 1
         },
         {
-          "date": "20260614",
+          "date": "20260616",
           "type": "positive",
-          "headline": "종전 MOU 임박 속 이스라엘, 베이루트 헤즈볼라 지휘소 공습(종합)",
+          "headline": "World welcomes US-Iran ‘peace deal’ criticised by Israel",
           "score": 1
         },
         {
-          "date": "20260614",
+          "date": "20260616",
           "type": "positive",
-          "headline": "종전 MOU 임박 속 이스라엘, 베이루트 헤즈볼라 목표물 공습",
+          "headline": "[미·이란 종전] 美트럼프·밴스-이란 갈리바프 이미 MOU 전자서명(종합)",
           "score": 1
         }
       ]
     },
     "방산": {
-      "score": 31,
-      "positive_count": 30,
-      "negative_count": 3,
+      "score": 32,
+      "positive_count": 36,
+      "negative_count": 8,
       "recent_events": [
         {
-          "date": "20260615",
+          "date": "20260616",
+          "type": "positive",
+          "headline": "Bowen: Iran deal ends Trump's war that revealed limit of US dominance",
+          "score": 1
+        },
+        {
+          "date": "20260616",
           "type": "positive",
           "headline": "The college scam that promised students fleeing war a new life in Finland",
           "score": 1
         },
         {
-          "date": "20260615",
+          "date": "20260616",
           "type": "positive",
-          "headline": "‘Island surrounded by war’: Crimeans panic amid Ukrainian attacks",
+          "headline": "Watch: What does the US-Iran deal to end war mean for Lebanon and Israel?",
           "score": 1
         },
         {
-          "date": "20260615",
+          "date": "20260616",
           "type": "positive",
-          "headline": "Iran, US agree tentative deal to ‘end war’: Your questions answered",
+          "headline": "Drone warfare kills over 1,000 in Sudan in 2026 as strikes multiply: UN",
           "score": 1
         },
         {
-          "date": "20260615",
+          "date": "20260616",
           "type": "positive",
-          "headline": "The slow death of Goldsmiths is a warning to British universities",
-          "score": 1
-        },
-        {
-          "date": "20260615",
-          "type": "positive",
-          "headline": "How Trump is relaunching a tariff war citing ‘forced labour’ concerns",
+          "headline": "US says Iran signed deal to end war, ships moving through Strait of Hormuz",
           "score": 1
         }
       ]
@@ -177,10 +161,16 @@
       ]
     },
     "금융": {
-      "score": -1,
+      "score": -2,
       "positive_count": 0,
-      "negative_count": 1,
+      "negative_count": 2,
       "recent_events": [
+        {
+          "date": "20260616",
+          "type": "negative",
+          "headline": "[거시분석] Bowen: Iran deal ends Trump's war that reveal...",
+          "score": -1
+        },
         {
           "date": "20260615",
           "type": "negative",
@@ -221,39 +211,39 @@
       "recent_events": []
     },
     "전체시장": {
-      "score": -23,
+      "score": -30,
       "positive_count": 2,
-      "negative_count": 17,
+      "negative_count": 22,
       "recent_events": [
         {
-          "date": "20260615",
+          "date": "20260616",
           "type": "negative",
-          "headline": "Pakistani police mistakenly open fire on Australian family, killing child",
+          "headline": "[속보] 네타냐후 \"이란 핵무기 저지 위해 모든 조치 할 것\"",
           "score": -1
         },
         {
-          "date": "20260615",
+          "date": "20260616",
           "type": "negative",
-          "headline": "How Trump is relaunching a tariff war citing ‘forced labour’ concerns",
+          "headline": "트럼프 \"19일 호르무즈 완전 개방…이란, 핵무기 갖지 않을 것\"",
           "score": -1
         },
         {
-          "date": "20260615",
+          "date": "20260616",
           "type": "negative",
-          "headline": "[거시분석] Oil prices fall and shares jump after US-Iran...",
+          "headline": "[속보] 트럼프 \"이란, 핵무기 보유 안 할 것\"",
+          "score": -1
+        },
+        {
+          "date": "20260616",
+          "type": "negative",
+          "headline": "[속보] 美당국자 \"트럼프·밴스, 이란 갈리바프가 MOU 서명했다\"",
+          "score": -1
+        },
+        {
+          "date": "20260616",
+          "type": "negative",
+          "headline": "[거시분석] Bowen: Iran deal ends Trump's war that reveal...",
           "score": -3
-        },
-        {
-          "date": "20260614",
-          "type": "negative",
-          "headline": "2026 World Cup: Australia stun Turkiye 2-0 in counterattacking masterclass",
-          "score": -1
-        },
-        {
-          "date": "20260614",
-          "type": "negative",
-          "headline": "이란, 이스라엘의 베이루트 공습 반발…\"美와 협상지속 불가능\"",
-          "score": -1
         }
       ]
     }
@@ -712,9 +702,168 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260616",
+      "headline": "Bowen: Iran deal ends Trump's war that revealed limit of US dominance",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260616",
+      "headline": "The college scam that promised students fleeing war a new life in Finland",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260616",
+      "headline": "Watch: What does the US-Iran deal to end war mean for Lebanon and Israel?",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260616",
+      "headline": "Drone warfare kills over 1,000 in Sudan in 2026 as strikes multiply: UN",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260616",
+      "headline": "Lebanon Latest: Cautious optimism after ceasefire deal",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260616",
+      "headline": "Iran says Lebanon, assets release key parts of peace deal with US",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260616",
+      "headline": "Is Lebanon included? Country hopeful for US-Iran ceasefire, despite doubts",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260616",
+      "headline": "World welcomes US-Iran ‘peace deal’ criticised by Israel",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260616",
+      "headline": "US says Iran signed deal to end war, ships moving through Strait of Hormuz",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260616",
+      "headline": "[속보] 네타냐후 \"이란 핵무기 저지 위해 모든 조치 할 것\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260616",
+      "headline": "[미·이란 종전] 美트럼프·밴스-이란 갈리바프 이미 MOU 전자서명(종합)",
+      "impacts": {
+        "건설": 1,
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260616",
+      "headline": "[미·이란 종전] ECB 총재 \"인플레 파급 효과 이미 시작\"(종합)",
+      "impacts": {
+        "건설": 1,
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260616",
+      "headline": "트럼프 \"19일 호르무즈 완전 개방…이란, 핵무기 갖지 않을 것\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260616",
+      "headline": "[속보] 트럼프 \"이란, 핵무기 보유 안 할 것\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260616",
+      "headline": "[미·이란 종전] 이란 외무 \"19일 스위스서 양국 협상대표가 MOU 서명\"",
+      "impacts": {
+        "건설": 1,
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260616",
+      "headline": "[속보] 美당국자 \"트럼프·밴스, 이란 갈리바프가 MOU 서명했다\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260616",
+      "headline": "[미·이란 종전] 美부통령 \"이미 전자서명…이란에 돈 주지 않았다\"",
+      "impacts": {
+        "건설": 1,
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260616",
+      "headline": "[미·이란 종전] 美전문가들 \"쟁점 해결못해…트럼프, 전략적 실패\"",
+      "impacts": {
+        "건설": 1,
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260616",
+      "headline": "[거시분석] Bowen: Iran deal ends Trump's war that reveal...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -3,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 23,
-  "total_positives": 46,
+  "total_negatives": 34,
+  "total_positives": 61,
   "risk_level": "EXTREME"
 }
