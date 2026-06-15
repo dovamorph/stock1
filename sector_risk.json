@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-15T08:11:57.673399+09:00",
+  "updated_at": "2026-06-15T13:49:47.584241+09:00",
   "date": "20260615",
   "window_days": 14,
   "sectors": [
@@ -84,76 +84,76 @@
       ]
     },
     "건설": {
-      "score": 1,
-      "positive_count": 7,
+      "score": 5,
+      "positive_count": 11,
       "negative_count": 3,
       "recent_events": [
         {
           "date": "20260615",
           "type": "positive",
-          "headline": "[미·이란 종전] 전쟁에서 종전합의까지 주요 일지",
+          "headline": "Lebanese remain sceptical despite US-Iran ceasefire announcement",
           "score": 1
         },
         {
           "date": "20260615",
           "type": "positive",
-          "headline": "[미·이란 종전] 밴스 美부통령 \"서명식에 트럼프 참석할수도\"",
+          "headline": "US-Iran to sign a ‘peace deal’ on Friday: What we know so far",
           "score": 1
         },
         {
           "date": "20260615",
-          "type": "negative",
-          "headline": "[거시분석] Russian families use AI to 'resurrect' loved ...",
-          "score": -2
-        },
-        {
-          "date": "20260614",
           "type": "positive",
-          "headline": "종전 MOU 임박 속 이스라엘, 베이루트 헤즈볼라 지휘소 공습(종합)",
+          "headline": "Trump allies cheer Iran ‘peace deal’ announcement as Democrats seek clarity",
           "score": 1
         },
         {
-          "date": "20260614",
+          "date": "20260615",
           "type": "positive",
-          "headline": "종전 MOU 임박 속 이스라엘, 베이루트 헤즈볼라 목표물 공습",
+          "headline": "BREAKING: US, Iran announce ceasefire agreement",
+          "score": 1
+        },
+        {
+          "date": "20260615",
+          "type": "positive",
+          "headline": "US-Iran ‘peace deal’ announced; Trump says Strait of Hormuz reopening",
           "score": 1
         }
       ]
     },
     "방산": {
-      "score": 26,
-      "positive_count": 23,
+      "score": 28,
+      "positive_count": 25,
       "negative_count": 3,
       "recent_events": [
         {
           "date": "20260615",
           "type": "positive",
+          "headline": "US-Iran deal eases uncertainty over the war - but there is much still to play out",
+          "score": 1
+        },
+        {
+          "date": "20260615",
+          "type": "positive",
           "headline": "The college scam that promised students fleeing war a new life in Finland",
+          "score": 1
+        },
+        {
+          "date": "20260615",
+          "type": "positive",
+          "headline": "Stock markets soar, oil falls as US, Iran confirm deal to end war",
           "score": 1
         },
         {
           "date": "20260615",
           "type": "negative",
-          "headline": "[미·이란 종전] 전쟁에서 종전합의까지 주요 일지",
+          "headline": "BREAKING: US, Iran announce ceasefire agreement",
           "score": -1
         },
         {
           "date": "20260615",
           "type": "negative",
-          "headline": "[미·이란 종전] 밴스 美부통령 \"서명식에 트럼프 참석할수도\"",
+          "headline": "[미·이란 종전] 미국도 이란도 '우리가 승자'…양국의 전쟁 득실은",
           "score": -1
-        },
-        {
-          "date": "20260615",
-          "type": "positive",
-          "headline": "[거시분석] Russian families use AI to 'resurrect' loved ...",
-          "score": 3
-        },
-        {
-          "date": "20260614",
-          "type": "positive",
-          "headline": "The college scam that promised students fleeing war a new life in Finland",
-          "score": 1
         }
       ]
     },
@@ -184,7 +184,7 @@
         {
           "date": "20260615",
           "type": "negative",
-          "headline": "[거시분석] Russian families use AI to 'resurrect' loved ...",
+          "headline": "[거시분석] Trump heralds Iran deal but questions - and r...",
           "score": -1
         }
       ]
@@ -221,26 +221,14 @@
       "recent_events": []
     },
     "전체시장": {
-      "score": -24,
+      "score": -22,
       "positive_count": 2,
-      "negative_count": 17,
+      "negative_count": 15,
       "recent_events": [
         {
           "date": "20260615",
           "type": "negative",
-          "headline": "이란戰 106일만에 사실상 종료…美·이란 \"협상타결, 19일 서명\"(종합)",
-          "score": -1
-        },
-        {
-          "date": "20260615",
-          "type": "negative",
-          "headline": "이란, 美와 '전쟁 중단' 타결 발표…\"위대한 승리\" 주장",
-          "score": -1
-        },
-        {
-          "date": "20260615",
-          "type": "negative",
-          "headline": "[거시분석] Russian families use AI to 'resurrect' loved ...",
+          "headline": "[거시분석] Trump heralds Iran deal but questions - and r...",
           "score": -4
         },
         {
@@ -253,6 +241,18 @@
           "date": "20260614",
           "type": "negative",
           "headline": "이란, 이스라엘의 베이루트 공습 반발…\"美와 협상지속 불가능\"",
+          "score": -1
+        },
+        {
+          "date": "20260614",
+          "type": "positive",
+          "headline": "종전 MOU 임박 속 이스라엘, 베이루트 헤즈볼라 지휘소 공습(종합)",
+          "score": 1
+        },
+        {
+          "date": "20260614",
+          "type": "negative",
+          "headline": "靑 \"美-이란 합의 타결돼 중동평화 회복되고 호르무즈 개방되길\"",
           "score": -1
         }
       ]
@@ -606,6 +606,14 @@
     },
     {
       "date": "20260615",
+      "headline": "US-Iran deal eases uncertainty over the war - but there is much still to play out",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260615",
       "headline": "The college scam that promised students fleeing war a new life in Finland",
       "impacts": {
         "방산": 1
@@ -614,7 +622,39 @@
     },
     {
       "date": "20260615",
-      "headline": "[미·이란 종전] 전쟁에서 종전합의까지 주요 일지",
+      "headline": "Lebanese remain sceptical despite US-Iran ceasefire announcement",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260615",
+      "headline": "US-Iran to sign a ‘peace deal’ on Friday: What we know so far",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260615",
+      "headline": "Trump allies cheer Iran ‘peace deal’ announcement as Democrats seek clarity",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260615",
+      "headline": "Stock markets soar, oil falls as US, Iran confirm deal to end war",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260615",
+      "headline": "BREAKING: US, Iran announce ceasefire agreement",
       "impacts": {
         "건설": 1,
         "방산": -1
@@ -623,23 +663,15 @@
     },
     {
       "date": "20260615",
-      "headline": "이란戰 106일만에 사실상 종료…美·이란 \"협상타결, 19일 서명\"(종합)",
+      "headline": "US-Iran ‘peace deal’ announced; Trump says Strait of Hormuz reopening",
       "impacts": {
-        "전체시장": -1
+        "건설": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260615",
-      "headline": "이란, 美와 '전쟁 중단' 타결 발표…\"위대한 승리\" 주장",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260615",
-      "headline": "[미·이란 종전] 밴스 美부통령 \"서명식에 트럼프 참석할수도\"",
+      "headline": "[미·이란 종전] 미국도 이란도 '우리가 승자'…양국의 전쟁 득실은",
       "impacts": {
         "건설": 1,
         "방산": -1
@@ -648,7 +680,7 @@
     },
     {
       "date": "20260615",
-      "headline": "[거시분석] Russian families use AI to 'resurrect' loved ...",
+      "headline": "[거시분석] Trump heralds Iran deal but questions - and r...",
       "impacts": {
         "방산": 3,
         "건설": -2,
@@ -658,7 +690,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 24,
-  "total_positives": 38,
+  "total_negatives": 22,
+  "total_positives": 44,
   "risk_level": "EXTREME"
 }
