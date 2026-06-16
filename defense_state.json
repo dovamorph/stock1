@@ -1,0 +1,20 @@
+{
+  "consecutive_losses": 1,
+  "trading_suspended": false,
+  "suspend_reason": "",
+  "suspend_until": null,
+  "blacklist": {},
+  "daily_loss": -89000,
+  "total_loss": -89000,
+  "last_reset_date": "2026-06-16",
+  "gap_down_today": false,
+  "circuit_breaker_today": false,
+  "hard_stop_active": false,
+  "log": [
+    {
+      "time": "2026-06-16 04:10:22",
+      "level": "WARN",
+      "event": "손실 -89,000원 [079550] | 연패=1 일손실=-89,000"
+    }
+  ]
+}
