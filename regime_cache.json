@@ -1,37 +1,37 @@
 {
-  "regime": "SIDEWAYS",
-  "label": "횡보장 🟡",
-  "kospi": 8123.62,
-  "ma20": 7983.09,
-  "ma60": 6776.24,
-  "ret_5d": 8.54,
-  "ret_20d": 1.78,
+  "regime": "BULL",
+  "label": "강세장 🟢",
+  "kospi": 8726.53,
+  "ma20": 8020.35,
+  "ma60": 6827.68,
+  "ret_5d": 7.78,
+  "ret_20d": 16.46,
   "vkospi_est": 20.0,
   "vol_trend": false,
-  "cycle_stage": "uptrend",
-  "cycle_multiplier_adj": 0.0,
+  "cycle_stage": "overheated",
+  "cycle_multiplier_adj": -0.2,
   "longterm_new_buy_ok": true,
-  "daytrend_new_buy_ok": false,
+  "daytrend_new_buy_ok": true,
   "params": {
-    "label": "횡보장 🟡",
+    "label": "강세장 🟢",
     "allow_new_longterm": true,
-    "allow_new_daytrend": false,
-    "position_multiplier": 0.6,
+    "allow_new_daytrend": true,
+    "position_multiplier": 1.0,
     "long_tp": [
-      0.08,
-      0.15,
-      0.22
+      0.12,
+      0.2,
+      0.3
     ],
     "short_tp": [
-      0.06,
-      0.09,
-      0.12
+      0.08,
+      0.12,
+      0.16
     ],
-    "long_sl": -0.08,
+    "long_sl": -0.1,
     "short_sl": -0.05,
-    "min_buy_score": 6,
-    "trailing_stop": 0.03
+    "min_buy_score": 5,
+    "trailing_stop": 0.04
   },
-  "effective_position_multiplier": 0.6,
-  "cached_at": "2026-06-15T22:22:07.727070"
+  "effective_position_multiplier": 0.8,
+  "cached_at": "2026-06-16T00:28:25.959459"
 }
