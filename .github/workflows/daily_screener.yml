@@ -40,11 +40,17 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add results.json positions.json expiry_result.json
-          test -f market_history.json && git add market_history.json || true
-          test -f candidates_cache.json && git add candidates_cache.json || true
-          test -f regime_cache.json && git add regime_cache.json || true
-          test -f defense_state.json && git add defense_state.json || true
+          # 이번 실행이 만든 데이터 파일을 임시 폴더에 백업
+          mkdir -p /tmp/out
+          for f in results.json positions.json expiry_result.json market_history.json candidates_cache.json regime_cache.json defense_state.json; do
+            test -f "$f" && cp "$f" "/tmp/out/$f"
+          done
+          # 원격 최신 상태로 깨끗하게 리셋 (충돌 원천 차단)
+          git fetch origin main
+          git reset --hard origin/main
+          # 백업해둔 내 데이터 파일로 덮어쓰기 (항상 이번 실행이 최신)
+          for f in results.json positions.json expiry_result.json market_history.json candidates_cache.json regime_cache.json defense_state.json; do
+            test -f "/tmp/out/$f" && cp "/tmp/out/$f" "$f" && git add "$f"
+          done
           git diff --cached --quiet || git commit -m "auto: screener+trader $(date +'%Y%m%d %H%M')"
-          git pull --rebase --autostash origin main
           git push
