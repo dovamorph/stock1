@@ -386,6 +386,7 @@ def main():
     history = [h for h in history if h.get("date", "0") >= cutoff]
 
     # ── 섹터별 집계 ──────────────────────────────────────────────────
+    SECTOR_SCORE_CAP = 10   # 누적 점수 상한 (한 섹터 뉴스 폭주로 점수가 과대해지는 것 방지)
     sector_stats = {}
     for sector in SECTORS:
         pos, neg, score, recent = 0, 0, 0, []
@@ -399,20 +400,20 @@ def main():
                 neg += 1; score += s
                 recent.append({"date": ev["date"], "type": "negative",
                                "headline": ev["headline"], "score": s})
+        # 점수 상한: -10 ~ +10 (호재/악재 횟수는 그대로, 누적 점수만 캡)
+        score = max(-SECTOR_SCORE_CAP, min(SECTOR_SCORE_CAP, score))
         sector_stats[sector] = {
             "score": score, "positive_count": pos, "negative_count": neg,
             "recent_events": sorted(recent, key=lambda x: x["date"], reverse=True)[:5]
         }
 
-    # ── 전체 리스크 레벨 (전체시장 섹터 누적 점수 기준) ──────────────
-    # 섹터별 영향 건수 집계 (한 건이 여러 섹터에 +/-를 동시에 줄 수 있으므로
-    # "건수"가 아닌 "섹터별 영향 횟수의 합"으로 집계)
+    # ── 전체 리스크 레벨 (전체시장 섹터 누적 점수 기준, 상한 적용 전 원점수) ──
     total_neg = sum(1 for ev in history for v in ev.get("impacts", {}).values() if v < 0)
     total_pos = sum(1 for ev in history for v in ev.get("impacts", {}).values() if v > 0)
 
-    market_score = sector_stats.get("전체시장", {}).get("score", 0)
-    if market_score <= -5:    risk_level = "EXTREME"
-    elif market_score <= -3:  risk_level = "HIGH"
+    market_raw = sum(ev.get("impacts", {}).get("전체시장", 0) for ev in history)
+    if market_raw <= -5:    risk_level = "EXTREME"
+    elif market_raw <= -3:  risk_level = "HIGH"
     elif market_score <= -1:  risk_level = "MEDIUM"
     else:                     risk_level = "LOW"
 
