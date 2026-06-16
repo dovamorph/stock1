@@ -28,7 +28,7 @@ THRESHOLD = {
     "daily_loss_limit":      -300_000,  # 일일 손실 한도 — 장투 500만의 6%
     "total_loss_limit":     -1_000_000, # 총 손실 한도 — 장투 500만의 20%
     "volume_drop_pct":        0.30,     # 거래량 30% 이하 → 유동성 부족
-    "blacklist_hours":        72,       # 급락 종목 블랙리스트 시간
+    "blacklist_hours":        48,       # 급락 종목 블랙리스트 시간
     "suspend_hours":          48,       # 연속손실 정지 시간
 }
 
