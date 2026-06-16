@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-17T02:01:44.853964+09:00",
+  "updated_at": "2026-06-17T05:56:22.211922+09:00",
   "date": "20260617",
   "window_days": 14,
   "sectors": [
@@ -74,53 +74,47 @@
       ]
     },
     "건설": {
-      "score": 7,
-      "positive_count": 13,
-      "negative_count": 4,
+      "score": 10,
+      "positive_count": 17,
+      "negative_count": 3,
       "recent_events": [
         {
           "date": "20260617",
           "type": "positive",
-          "headline": "Families return to shattered towns as fragile ceasefire holds in Lebanon",
+          "headline": "Israeli strikes kill four in southern Lebanon amid ceasefire talks",
           "score": 1
         },
         {
           "date": "20260617",
           "type": "positive",
-          "headline": "스위스 \"19일 뷔르겐슈토크서 종전 MOU 서명식\"(종합)",
+          "headline": "[월드컵] 손흥민 vs 히메네스…1위 결정전 수놓을 '살아있는 전설' 대결",
           "score": 1
         },
         {
           "date": "20260617",
           "type": "positive",
-          "headline": "종전 MOU에 회고록 출간…차기 대권행보 속도내는 '2인자' 밴스",
+          "headline": "종전합의에도 이스라엘-헤즈볼라 공방…이란 \"가혹한 대응\" 경고",
           "score": 1
         },
         {
           "date": "20260617",
           "type": "positive",
-          "headline": "스위스 외무부 \"19일 뷔르겐슈토크서 종전 MOU 서명식\"",
+          "headline": "\"이란 합의에 3천억불 재건기금…韓기업 등 절반이상 출자 약속\"",
           "score": 1
         },
         {
           "date": "20260617",
-          "type": "negative",
-          "headline": "[거시분석] Tehran selling deal with US as victory – but ...",
-          "score": -1
+          "type": "positive",
+          "headline": "국제유가, 종전합의에 5%대 급락…브렌트 3달만에 70달러대 진입",
+          "score": 1
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 40,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20260617",
-          "type": "positive",
-          "headline": "UK investigating reports Russian warship fired warning shots near yacht in English Channel",
-          "score": 1
-        },
         {
           "date": "20260617",
           "type": "negative",
@@ -130,19 +124,25 @@
         {
           "date": "20260617",
           "type": "positive",
-          "headline": "FBI thwarted plot targeting White House UFC event, Patel says",
+          "headline": "UK investigating reports Russian warship fired warning shots near yacht in English Channel",
+          "score": 1
+        },
+        {
+          "date": "20260617",
+          "type": "positive",
+          "headline": "Ebola outbreak in DR Congo could become worst in history, Africa CDC warns",
+          "score": 1
+        },
+        {
+          "date": "20260617",
+          "type": "positive",
+          "headline": "What has Iran won and lost from this war?",
           "score": 1
         },
         {
           "date": "20260617",
           "type": "positive",
           "headline": "Israel went to war with Iran, but Netanyahu may be the loser",
-          "score": 1
-        },
-        {
-          "date": "20260617",
-          "type": "positive",
-          "headline": "Red Cross warns Ebola outbreak in DRC not yet peaked, could last a year",
           "score": 1
         }
       ]
@@ -167,10 +167,16 @@
       ]
     },
     "금융": {
-      "score": -2,
+      "score": -3,
       "positive_count": 0,
-      "negative_count": 2,
+      "negative_count": 3,
       "recent_events": [
+        {
+          "date": "20260617",
+          "type": "negative",
+          "headline": "[거시분석] Tehran selling deal with US as victory – but ...",
+          "score": -1
+        },
         {
           "date": "20260616",
           "type": "negative",
@@ -218,8 +224,8 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 6,
-      "negative_count": 28,
+      "positive_count": 5,
+      "negative_count": 24,
       "recent_events": [
         {
           "date": "20260617",
@@ -229,27 +235,27 @@
         },
         {
           "date": "20260617",
-          "type": "positive",
-          "headline": "스위스 \"19일 뷔르겐슈토크서 종전 MOU 서명식\"(종합)",
-          "score": 1
-        },
-        {
-          "date": "20260617",
           "type": "negative",
-          "headline": "\"이란 핵양보 믿을수 있나…합의 발표전 美고위인사들 의구심\"",
+          "headline": "\"이란 합의에 3천억불 재건기금…韓기업 등 절반이상 출자 약속\"",
           "score": -1
         },
         {
           "date": "20260617",
           "type": "positive",
-          "headline": "종전 MOU에 회고록 출간…차기 대권행보 속도내는 '2인자' 밴스",
+          "headline": "국제유가, 종전합의에 5%대 급락…브렌트 3달만에 70달러대 진입",
+          "score": 1
+        },
+        {
+          "date": "20260617",
+          "type": "positive",
+          "headline": "\"美, 이스라엘의 '종전MOU' 열람 요구 거절…사전 유출 우려\"",
           "score": 1
         },
         {
           "date": "20260617",
           "type": "negative",
-          "headline": "中왕이 \"美·이란 2단계 협상 더 어려울 것…각국 조력해야\"",
-          "score": -1
+          "headline": "[거시분석] Tehran selling deal with US as victory – but ...",
+          "score": -3
         }
       ]
     }
@@ -789,14 +795,6 @@
     },
     {
       "date": "20260617",
-      "headline": "UK investigating reports Russian warship fired warning shots near yacht in English Channel",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260617",
       "headline": "Fragile quiet in Lebanon as US-Iran truce leaves unanswered questions",
       "impacts": {
         "방산": -1,
@@ -806,9 +804,33 @@
     },
     {
       "date": "20260617",
-      "headline": "FBI thwarted plot targeting White House UFC event, Patel says",
+      "headline": "UK investigating reports Russian warship fired warning shots near yacht in English Channel",
       "impacts": {
         "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260617",
+      "headline": "Ebola outbreak in DR Congo could become worst in history, Africa CDC warns",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260617",
+      "headline": "What has Iran won and lost from this war?",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260617",
+      "headline": "Israeli strikes kill four in southern Lebanon amid ceasefire talks",
+      "impacts": {
+        "건설": 1
       },
       "source": "keyword"
     },
@@ -822,15 +844,7 @@
     },
     {
       "date": "20260617",
-      "headline": "Red Cross warns Ebola outbreak in DRC not yet peaked, could last a year",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260617",
-      "headline": "Families return to shattered towns as fragile ceasefire holds in Lebanon",
+      "headline": "[월드컵] 손흥민 vs 히메네스…1위 결정전 수놓을 '살아있는 전설' 대결",
       "impacts": {
         "건설": 1
       },
@@ -838,7 +852,25 @@
     },
     {
       "date": "20260617",
-      "headline": "스위스 \"19일 뷔르겐슈토크서 종전 MOU 서명식\"(종합)",
+      "headline": "종전합의에도 이스라엘-헤즈볼라 공방…이란 \"가혹한 대응\" 경고",
+      "impacts": {
+        "건설": 1,
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260617",
+      "headline": "\"이란 합의에 3천억불 재건기금…韓기업 등 절반이상 출자 약속\"",
+      "impacts": {
+        "건설": 1,
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260617",
+      "headline": "국제유가, 종전합의에 5%대 급락…브렌트 3달만에 70달러대 진입",
       "impacts": {
         "건설": 1,
         "방산": -1,
@@ -848,15 +880,7 @@
     },
     {
       "date": "20260617",
-      "headline": "\"이란 핵양보 믿을수 있나…합의 발표전 美고위인사들 의구심\"",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260617",
-      "headline": "종전 MOU에 회고록 출간…차기 대권행보 속도내는 '2인자' 밴스",
+      "headline": "\"美, 이스라엘의 '종전MOU' 열람 요구 거절…사전 유출 우려\"",
       "impacts": {
         "건설": 1,
         "방산": -1,
@@ -866,44 +890,19 @@
     },
     {
       "date": "20260617",
-      "headline": "中왕이 \"美·이란 2단계 협상 더 어려울 것…각국 조력해야\"",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260617",
-      "headline": "이란 외무차관 \"美, 이란 항구 해상봉쇄 해제\"",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260617",
-      "headline": "밴스 \"이란에 미국돈 1센트도 안가\"…오바마 핵합의와 차별화 시도",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260617",
-      "headline": "스위스 외무부 \"19일 뷔르겐슈토크서 종전 MOU 서명식\"",
+      "headline": "달러-원, 이란 종전 합의에 위험 선호 유지…1,508.30원 마감",
       "impacts": {
         "건설": 1,
-        "방산": -1,
-        "전체시장": 1
+        "방산": -1
       },
       "source": "keyword"
     },
     {
       "date": "20260617",
-      "headline": "헤즈볼라 \"이란, '이스라엘 철군 없인 美와 핵합의 없다' 확약\"",
+      "headline": "\"美, 19일 종전합의 서명후 이란산 석유판매 제재완화 적용\"",
       "impacts": {
-        "방산": -1,
-        "전체시장": -1
+        "건설": 1,
+        "방산": -1
       },
       "source": "keyword"
     },
@@ -911,14 +910,14 @@
       "date": "20260617",
       "headline": "[거시분석] Tehran selling deal with US as victory – but ...",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -2
+        "방산": 1,
+        "전체시장": -3,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 44,
-  "total_positives": 65,
+  "total_negatives": 41,
+  "total_positives": 68,
   "risk_level": "EXTREME"
 }
