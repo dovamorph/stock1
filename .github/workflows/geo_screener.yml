@@ -36,9 +36,14 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add geo_result.json
-          test -f sector_risk.json && git add sector_risk.json || true
-          test -f regime_cache.json && git add regime_cache.json || true
+          mkdir -p /tmp/out
+          for f in geo_result.json sector_risk.json regime_cache.json; do
+            test -f "$f" && cp "$f" "/tmp/out/$f"
+          done
+          git fetch origin main
+          git reset --hard origin/main
+          for f in geo_result.json sector_risk.json regime_cache.json; do
+            test -f "/tmp/out/$f" && cp "/tmp/out/$f" "$f" && git add "$f"
+          done
           git diff --cached --quiet || git commit -m "geo: $(date +'%Y%m%d %H%M')"
-          git pull --rebase --autostash origin main
           git push
