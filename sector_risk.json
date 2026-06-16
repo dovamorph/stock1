@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-16T19:00:27.181413+09:00",
+  "updated_at": "2026-06-16T20:19:16.731483+09:00",
   "date": "20260616",
   "window_days": 14,
   "sectors": [
@@ -56,7 +56,7 @@
         {
           "date": "20260616",
           "type": "negative",
-          "headline": "[거시분석] Trump may release US-Iran deal before Friday,...",
+          "headline": "[거시분석] Iran deal presents political nightmare for Ne...",
           "score": -2
         },
         {
@@ -74,9 +74,9 @@
       ]
     },
     "건설": {
-      "score": 6,
-      "positive_count": 10,
-      "negative_count": 2,
+      "score": 4,
+      "positive_count": 9,
+      "negative_count": 3,
       "recent_events": [
         {
           "date": "20260616",
@@ -86,9 +86,9 @@
         },
         {
           "date": "20260616",
-          "type": "positive",
-          "headline": "[미·이란 종전] 이란 외무부 \"MOU 서명식 후 핵협상 개시\"",
-          "score": 1
+          "type": "negative",
+          "headline": "[거시분석] Iran deal presents political nightmare for Ne...",
+          "score": -1
         },
         {
           "date": "20260615",
@@ -113,7 +113,7 @@
     "방산": {
       "score": 10,
       "positive_count": 35,
-      "negative_count": 5,
+      "negative_count": 4,
       "recent_events": [
         {
           "date": "20260616",
@@ -130,13 +130,13 @@
         {
           "date": "20260616",
           "type": "positive",
-          "headline": "Iran war day 109: Tehran, Washington, sign MoU electronically",
+          "headline": "Australia warns El Nino weather pattern set to be strongest in decades",
           "score": 1
         },
         {
           "date": "20260616",
           "type": "positive",
-          "headline": "US fuel prices to take ‘months’ to normalise after US-Iran deal to end war",
+          "headline": "Iran war day 109: Tehran, Washington, sign MoU electronically",
           "score": 1
         },
         {
@@ -174,7 +174,7 @@
         {
           "date": "20260616",
           "type": "negative",
-          "headline": "[거시분석] Trump may release US-Iran deal before Friday,...",
+          "headline": "[거시분석] Iran deal presents political nightmare for Ne...",
           "score": -1
         },
         {
@@ -219,7 +219,7 @@
     "전체시장": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 20,
+      "negative_count": 22,
       "recent_events": [
         {
           "date": "20260616",
@@ -236,20 +236,20 @@
         {
           "date": "20260616",
           "type": "negative",
-          "headline": "[거시분석] Trump may release US-Iran deal before Friday,...",
+          "headline": "Australia warns El Nino weather pattern set to be strongest in decades",
+          "score": -1
+        },
+        {
+          "date": "20260616",
+          "type": "negative",
+          "headline": "트럼프 \"이란, 핵무기 확보하려 하면 지옥 같은 재앙 닥칠 것\"",
+          "score": -1
+        },
+        {
+          "date": "20260616",
+          "type": "negative",
+          "headline": "[거시분석] Iran deal presents political nightmare for Ne...",
           "score": -6
-        },
-        {
-          "date": "20260615",
-          "type": "negative",
-          "headline": "Pakistani police mistakenly open fire on Australian family, killing child",
-          "score": -1
-        },
-        {
-          "date": "20260615",
-          "type": "negative",
-          "headline": "How Trump is relaunching a tariff war citing ‘forced labour’ concerns",
-          "score": -1
         }
       ]
     }
@@ -743,6 +743,15 @@
     },
     {
       "date": "20260616",
+      "headline": "Australia warns El Nino weather pattern set to be strongest in decades",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260616",
       "headline": "Iran war day 109: Tehran, Washington, sign MoU electronically",
       "impacts": {
         "방산": 1
@@ -751,9 +760,9 @@
     },
     {
       "date": "20260616",
-      "headline": "US fuel prices to take ‘months’ to normalise after US-Iran deal to end war",
+      "headline": "트럼프 \"이란, 핵무기 확보하려 하면 지옥 같은 재앙 닥칠 것\"",
       "impacts": {
-        "방산": 1
+        "전체시장": -1
       },
       "source": "keyword"
     },
@@ -768,18 +777,10 @@
     },
     {
       "date": "20260616",
-      "headline": "[미·이란 종전] 이란 외무부 \"MOU 서명식 후 핵협상 개시\"",
+      "headline": "[거시분석] Iran deal presents political nightmare for Ne...",
       "impacts": {
-        "건설": 1,
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260616",
-      "headline": "[거시분석] Trump may release US-Iran deal before Friday,...",
-      "impacts": {
-        "방산": 1,
+        "방산": 2,
+        "건설": -1,
         "전체시장": -6,
         "금융": -1,
         "반도체·AI": -2
@@ -787,7 +788,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 30,
-  "total_positives": 53,
+  "total_negatives": 32,
+  "total_positives": 52,
   "risk_level": "EXTREME"
 }
