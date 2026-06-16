@@ -634,9 +634,10 @@ def select_top40(tok, candidates):
     for r in result[:5]: print(f"    {r['rank']:2d}. {r['name']} ({r['market']}) — {r['tvol']:,}억")
     return result, adr_data
 
-# ── 4단계: 배당여부 ──────────────────────────────────────────────
+# ── 4단계: 외국인 순매수 ──────────────────────────────────────────
 def fetch_foreign_net(tok, ticker):
-    """외국인 당일 순매수 수량 (양수=순매수, 음수=순매도, 0=데이터없음)"""
+    """외국인 순매수 수량. 당일치가 비어있으면(장중 미집계) 최근 확정일로 폴백.
+    반환: (수량, 기준) — 수량 양수=순매수/음수=순매도/0=데이터없음, 기준='당일'|'전일'|''"""
     try:
         r = requests.get(
             f"{BASE}/uapi/domestic-stock/v1/quotations/inquire-investor",
@@ -646,11 +647,14 @@ def fetch_foreign_net(tok, ticker):
         )
         rows = r.json().get("output", [])
         if not rows:
-            return 0
-        raw = str(rows[0].get("frgn_ntby_qty", "0")).replace(",", "").strip()
-        return int(raw) if raw.lstrip("-").isdigit() else 0
+            return 0, ""
+        for i, row in enumerate(rows):
+            raw = str(row.get("frgn_ntby_qty", "0")).replace(",", "").strip()
+            if raw.lstrip("-").isdigit() and int(raw) != 0:
+                return int(raw), ("당일" if i == 0 else "전일")
+        return 0, ""
     except:
-        return 0
+        return 0, ""
 
 
 # ── 5단계: EPS 추세 ───────────────────────────────────────────────
@@ -961,10 +965,10 @@ def main():
         try:
             eps_tr = fetch_eps_trend(tok,tk,t.get("eps",0))
             price  = fetch_ch20(tok,tk)
-            frgn_net = fetch_foreign_net(tok, tk)
+            frgn_net, frgn_basis = fetch_foreign_net(tok, tk)
             time.sleep(0.2)
 
-            data={**t,**eps_tr,**price,"frgn_net":frgn_net}
+            data={**t,**eps_tr,**price,"frgn_net":frgn_net,"frgn_basis":frgn_basis}
             f=judge(data)
             data.update({"filters":f,"grade":f["grade"],"score":f["score"],"recommended":f["recommended"]})
             # vol_char: prdy_ctrt(실시간 등락률) 기반 거래성격
