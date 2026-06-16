@@ -368,6 +368,12 @@ def momentum_score(s: dict) -> int:
         score -= 1
     if "매수주도" in s.get("vol_char", ""):
         score += 1
+    # 외국인 순매수 동반 (진짜 반등 신뢰도 ↑ — 외인이 같이 사는 종목 가점)
+    frgn = float(s.get("frgn_net", 0) or 0)
+    if frgn > 0:
+        score += 1
+    elif frgn < 0:
+        score -= 1
     return score
 
 def unified_buys(token, data, stocks, now, allow_buy, regime_mult, kospi_ch5, expiry_guard):
