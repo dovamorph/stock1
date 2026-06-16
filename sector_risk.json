@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-16T20:19:16.731483+09:00",
-  "date": "20260616",
+  "updated_at": "2026-06-17T02:01:44.853964+09:00",
+  "date": "20260617",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -28,7 +28,7 @@
         "건설": 1,
         "전체시장": 1
       },
-      "d_day": 2
+      "d_day": 1
     },
     {
       "id": "nvidia_q2_2026",
@@ -44,7 +44,7 @@
         "로봇": 1,
         "전력·에너지": 1
       },
-      "d_day": 9
+      "d_day": 8
     }
   ],
   "sector_stats": {
@@ -74,76 +74,76 @@
       ]
     },
     "건설": {
-      "score": 4,
-      "positive_count": 9,
-      "negative_count": 3,
+      "score": 7,
+      "positive_count": 13,
+      "negative_count": 4,
       "recent_events": [
         {
-          "date": "20260616",
+          "date": "20260617",
           "type": "positive",
-          "headline": "[미·이란 종전] 볼턴 \"이란, 트럼프 갖고놀며 유리한 합의 끌어내\"",
+          "headline": "Families return to shattered towns as fragile ceasefire holds in Lebanon",
           "score": 1
         },
         {
-          "date": "20260616",
+          "date": "20260617",
+          "type": "positive",
+          "headline": "스위스 \"19일 뷔르겐슈토크서 종전 MOU 서명식\"(종합)",
+          "score": 1
+        },
+        {
+          "date": "20260617",
+          "type": "positive",
+          "headline": "종전 MOU에 회고록 출간…차기 대권행보 속도내는 '2인자' 밴스",
+          "score": 1
+        },
+        {
+          "date": "20260617",
+          "type": "positive",
+          "headline": "스위스 외무부 \"19일 뷔르겐슈토크서 종전 MOU 서명식\"",
+          "score": 1
+        },
+        {
+          "date": "20260617",
           "type": "negative",
-          "headline": "[거시분석] Iran deal presents political nightmare for Ne...",
+          "headline": "[거시분석] Tehran selling deal with US as victory – but ...",
           "score": -1
-        },
-        {
-          "date": "20260615",
-          "type": "positive",
-          "headline": "What still needs to be negotiated in US-Iran ‘peace deal’?",
-          "score": 1
-        },
-        {
-          "date": "20260615",
-          "type": "positive",
-          "headline": "[미·이란 종전] 靑, 안도 속 후속 협의 촉각…\"합의 이행 지켜봐야\"",
-          "score": 1
-        },
-        {
-          "date": "20260615",
-          "type": "positive",
-          "headline": "[미·이란 종전] 정부 \"진전 환영…호르무즈 자유항행 보장 노력 동참\"",
-          "score": 1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 35,
-      "negative_count": 4,
+      "positive_count": 40,
+      "negative_count": 9,
       "recent_events": [
         {
-          "date": "20260616",
+          "date": "20260617",
           "type": "positive",
-          "headline": "Bowen: Iran deal ends Trump's war that revealed limit of US dominance",
+          "headline": "UK investigating reports Russian warship fired warning shots near yacht in English Channel",
           "score": 1
         },
         {
-          "date": "20260616",
-          "type": "positive",
-          "headline": "Watch: What does the US-Iran deal to end war mean for Lebanon and Israel?",
-          "score": 1
-        },
-        {
-          "date": "20260616",
-          "type": "positive",
-          "headline": "Australia warns El Nino weather pattern set to be strongest in decades",
-          "score": 1
-        },
-        {
-          "date": "20260616",
-          "type": "positive",
-          "headline": "Iran war day 109: Tehran, Washington, sign MoU electronically",
-          "score": 1
-        },
-        {
-          "date": "20260616",
+          "date": "20260617",
           "type": "negative",
-          "headline": "[미·이란 종전] 볼턴 \"이란, 트럼프 갖고놀며 유리한 합의 끌어내\"",
+          "headline": "Fragile quiet in Lebanon as US-Iran truce leaves unanswered questions",
           "score": -1
+        },
+        {
+          "date": "20260617",
+          "type": "positive",
+          "headline": "FBI thwarted plot targeting White House UFC event, Patel says",
+          "score": 1
+        },
+        {
+          "date": "20260617",
+          "type": "positive",
+          "headline": "Israel went to war with Iran, but Netanyahu may be the loser",
+          "score": 1
+        },
+        {
+          "date": "20260617",
+          "type": "positive",
+          "headline": "Red Cross warns Ebola outbreak in DRC not yet peaked, could last a year",
+          "score": 1
         }
       ]
     },
@@ -218,38 +218,38 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 2,
-      "negative_count": 22,
+      "positive_count": 6,
+      "negative_count": 28,
       "recent_events": [
         {
-          "date": "20260616",
+          "date": "20260617",
+          "type": "positive",
+          "headline": "Fragile quiet in Lebanon as US-Iran truce leaves unanswered questions",
+          "score": 1
+        },
+        {
+          "date": "20260617",
+          "type": "positive",
+          "headline": "스위스 \"19일 뷔르겐슈토크서 종전 MOU 서명식\"(종합)",
+          "score": 1
+        },
+        {
+          "date": "20260617",
           "type": "negative",
-          "headline": "Married at First Sight Australia allegations 'disturbing', says country's watchdog",
+          "headline": "\"이란 핵양보 믿을수 있나…합의 발표전 美고위인사들 의구심\"",
           "score": -1
         },
         {
-          "date": "20260616",
-          "type": "negative",
-          "headline": "Australia to probe assault claims by Gaza flotilla activists against Israeli forces",
-          "score": -1
+          "date": "20260617",
+          "type": "positive",
+          "headline": "종전 MOU에 회고록 출간…차기 대권행보 속도내는 '2인자' 밴스",
+          "score": 1
         },
         {
-          "date": "20260616",
+          "date": "20260617",
           "type": "negative",
-          "headline": "Australia warns El Nino weather pattern set to be strongest in decades",
+          "headline": "中왕이 \"美·이란 2단계 협상 더 어려울 것…각국 조력해야\"",
           "score": -1
-        },
-        {
-          "date": "20260616",
-          "type": "negative",
-          "headline": "트럼프 \"이란, 핵무기 확보하려 하면 지옥 같은 재앙 닥칠 것\"",
-          "score": -1
-        },
-        {
-          "date": "20260616",
-          "type": "negative",
-          "headline": "[거시분석] Iran deal presents political nightmare for Ne...",
-          "score": -6
         }
       ]
     }
@@ -786,9 +786,139 @@
         "반도체·AI": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260617",
+      "headline": "UK investigating reports Russian warship fired warning shots near yacht in English Channel",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260617",
+      "headline": "Fragile quiet in Lebanon as US-Iran truce leaves unanswered questions",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260617",
+      "headline": "FBI thwarted plot targeting White House UFC event, Patel says",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260617",
+      "headline": "Israel went to war with Iran, but Netanyahu may be the loser",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260617",
+      "headline": "Red Cross warns Ebola outbreak in DRC not yet peaked, could last a year",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260617",
+      "headline": "Families return to shattered towns as fragile ceasefire holds in Lebanon",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260617",
+      "headline": "스위스 \"19일 뷔르겐슈토크서 종전 MOU 서명식\"(종합)",
+      "impacts": {
+        "건설": 1,
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260617",
+      "headline": "\"이란 핵양보 믿을수 있나…합의 발표전 美고위인사들 의구심\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260617",
+      "headline": "종전 MOU에 회고록 출간…차기 대권행보 속도내는 '2인자' 밴스",
+      "impacts": {
+        "건설": 1,
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260617",
+      "headline": "中왕이 \"美·이란 2단계 협상 더 어려울 것…각국 조력해야\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260617",
+      "headline": "이란 외무차관 \"美, 이란 항구 해상봉쇄 해제\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260617",
+      "headline": "밴스 \"이란에 미국돈 1센트도 안가\"…오바마 핵합의와 차별화 시도",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260617",
+      "headline": "스위스 외무부 \"19일 뷔르겐슈토크서 종전 MOU 서명식\"",
+      "impacts": {
+        "건설": 1,
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260617",
+      "headline": "헤즈볼라 \"이란, '이스라엘 철군 없인 美와 핵합의 없다' 확약\"",
+      "impacts": {
+        "방산": -1,
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260617",
+      "headline": "[거시분석] Tehran selling deal with US as victory – but ...",
+      "impacts": {
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 32,
-  "total_positives": 52,
+  "total_negatives": 44,
+  "total_positives": 65,
   "risk_level": "EXTREME"
 }
