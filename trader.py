@@ -272,6 +272,12 @@ def unified_sells(token, data, stocks, now):
         peak_pnl = max(pos.get("peak_pnl", 0.0), pnl_pct)
         pos["peak_pnl"] = peak_pnl
 
+        # 현재가/손익 저장 (대시보드 보유종목 손익 표시용 — 청산/유지 무관 항상 기록)
+        pos["cur_price"] = cur_price
+        pos["pnl_pct"]   = round(pnl_pct * 100, 2)
+        pos["pnl_amt"]   = round((cur_price - buy_price) * qty)
+        pos["updated"]   = now.strftime("%Y-%m-%d %H:%M")
+
         reason   = None
         sell_qty = qty
 
