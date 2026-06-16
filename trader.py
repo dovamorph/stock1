@@ -45,6 +45,11 @@ MAX_DAYS       = 7      # 소프트 체크: 7일째 수익 미달 + 추세 이�
 MAX_DAYS_HARD  = 21     # 절대 상한: 추세와 무관하게 청산
 TIME_EXIT_MIN_PNL = 0.03  # 7일째 이 수익률(+3%) 미만이면 추세 체크 대상
 
+TRAIL_ARM_PNL  = 0.05   # 고점 추적 발동 기준 (이 수익률 이상 찍어야 트레일링 활성)
+TRAIL_GIVEBACK = 0.05   # 고점 대비 이만큼 되돌리면 청산 (예: +15% 고점 → +10%로 밀리면 청산)
+REENTRY_GAP    = 0.03   # 매도가 대비 이만큼 더 빠진 뒤에만 재매수 (휩쏘 방지)
+BLACKLIST_HOURS = 48    # 손절 후 재매수 차단 시간
+
 REGIME_MULT    = {"BULL": 1.0, "SIDEWAYS": 0.7, "BEAR": 0.0}
 
 # ── 공통 설정 ─────────────────────────────────────────────────────────
@@ -263,6 +268,10 @@ def unified_sells(token, data, stocks, now):
         rsi      = float(s.get("rsi", 50))
         vol_char = s.get("vol_char", "")
 
+        # 고점 수익률 갱신 (트레일링 스탑용)
+        peak_pnl = max(pos.get("peak_pnl", 0.0), pnl_pct)
+        pos["peak_pnl"] = peak_pnl
+
         reason   = None
         sell_qty = qty
 
@@ -276,6 +285,10 @@ def unified_sells(token, data, stocks, now):
             # 1차 익절: 절반만 매도
             sell_qty = max(1, qty // 2)
             reason   = f"1차익절 {pnl_pct*100:.1f}%"
+
+        elif peak_pnl >= TRAIL_ARM_PNL and pnl_pct <= peak_pnl - TRAIL_GIVEBACK + 1e-9:
+            # 트레일링 스탑: +5% 이상 찍은 뒤 고점 대비 -5% 되돌리면 청산 (수익 보호)
+            reason = f"트레일링 고점{peak_pnl*100:+.1f}%→{pnl_pct*100:+.1f}%"
 
         elif rsi >= RSI_EXIT and pnl_pct > 0:
             reason = f"RSI과열({rsi:.0f}) {pnl_pct*100:.1f}%"
@@ -318,6 +331,13 @@ def unified_sells(token, data, stocks, now):
                 icon = "✅" if pnl >= 0 else "🔴"
                 print(f"    {icon} [청산] {name} | {reason} | {pnl:+,}원")
                 discord(f"{icon} 청산: {name} | {reason} | {pnl:+,}원")
+                # 매도 이력 기록 (재진입 판정용: 매도가 대비 -3% 더 빠져야 재매수)
+                exits = data.setdefault("recent_exits", {})
+                exits[ticker] = {
+                    "sell_price": cur_price,
+                    "sell_date":  now.strftime("%Y-%m-%d"),
+                    "is_loss":    pnl < 0,
+                }
             else:
                 # 1차 익절: 잔여 보유
                 pos["qty"]       = qty - sell_qty
@@ -342,8 +362,10 @@ def momentum_score(s: dict) -> int:
     if vt >= 30:   score += 2            # 거래량 추세 +30% 이상
     elif vt >= 0:  score += 1
     ch5 = float(s.get("ch5", 0) or 0)
-    if 3 <= ch5 <= 25:                   # 상승 중이지만 과열(+25%↑) 전 구간
+    if 3 <= ch5 < 20:                    # 상승 초입~중간 (가점)
         score += 1
+    elif ch5 >= 20:                      # 과열 구간 — 고점 추격 방지 (감점)
+        score -= 1
     if "매수주도" in s.get("vol_char", ""):
         score += 1
     return score
@@ -463,6 +485,20 @@ def unified_buys(token, data, stocks, now, allow_buy, regime_mult, kospi_ch5, ex
         if not cur_price:
             continue
 
+        # 재진입 게이트: 최근 청산한 종목이면 매도가 대비 REENTRY_GAP(-3%) 이상 더
+        # 빠진 경우에만 재매수 (같은 가격대 휩쏘 방지). 익일이면 이력 무시.
+        exits = data.get("recent_exits", {})
+        ex = exits.get(ticker)
+        if ex:
+            if ex.get("sell_date") == now.strftime("%Y-%m-%d"):
+                sell_price = ex.get("sell_price", 0)
+                if sell_price > 0 and cur_price > sell_price * (1 - REENTRY_GAP):
+                    print(f"    {name} — 재진입 대기 (매도가 {sell_price:,}원 대비 -{REENTRY_GAP*100:.0f}% 미달, 현재 {cur_price:,}원)")
+                    continue
+            else:
+                # 매도일이 지났으면 이력 정리 (다음 실행부터 일반 매수)
+                exits.pop(ticker, None)
+
         qty    = max(1, invest_target // cur_price)
         invest = cur_price * qty
 
@@ -476,10 +512,12 @@ def unified_buys(token, data, stocks, now, allow_buy, regime_mult, kospi_ch5, ex
                 "qty":       qty,
                 "sold_qty":  0,
                 "buy_date":  str(now.date()),
+                "peak_pnl":  0.0,
                 "sl":        round(cur_price * (1 + STOP_LOSS)),
                 "tp1":       round(cur_price * (1 + TP1)),
                 "tp2":       round(cur_price * (1 + TP2)),
             }
+            data.get("recent_exits", {}).pop(ticker, None)  # 재매수 완료 → 매도이력 소멸
             port["used"] = port.get("used", 0) + invest
             remaining   -= invest
             bought      += 1
