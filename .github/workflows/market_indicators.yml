@@ -29,8 +29,14 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add market_indicators.json
-          test -f market_indicators_history.json && git add market_indicators_history.json || true
+          mkdir -p /tmp/out
+          for f in market_indicators.json market_indicators_history.json; do
+            test -f "$f" && cp "$f" "/tmp/out/$f"
+          done
+          git fetch origin main
+          git reset --hard origin/main
+          for f in market_indicators.json market_indicators_history.json; do
+            test -f "/tmp/out/$f" && cp "/tmp/out/$f" "$f" && git add "$f"
+          done
           git diff --cached --quiet || git commit -m "market: $(date +'%Y%m%d %H%M')"
-          git pull --rebase --autostash origin main
           git push
