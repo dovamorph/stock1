@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-16T13:47:19.290541+09:00",
+  "updated_at": "2026-06-16T19:00:27.181413+09:00",
   "date": "20260616",
   "window_days": 14,
   "sectors": [
@@ -49,10 +49,16 @@
   ],
   "sector_stats": {
     "반도체·AI": {
-      "score": 2,
+      "score": 0,
       "positive_count": 2,
-      "negative_count": 0,
+      "negative_count": 1,
       "recent_events": [
+        {
+          "date": "20260616",
+          "type": "negative",
+          "headline": "[거시분석] Trump may release US-Iran deal before Friday,...",
+          "score": -2
+        },
         {
           "date": "20260614",
           "type": "positive",
@@ -68,14 +74,20 @@
       ]
     },
     "건설": {
-      "score": 5,
-      "positive_count": 9,
+      "score": 6,
+      "positive_count": 10,
       "negative_count": 2,
       "recent_events": [
         {
           "date": "20260616",
           "type": "positive",
-          "headline": "What Israeli leaders are saying about US-Iran ‘peace deal’",
+          "headline": "[미·이란 종전] 볼턴 \"이란, 트럼프 갖고놀며 유리한 합의 끌어내\"",
+          "score": 1
+        },
+        {
+          "date": "20260616",
+          "type": "positive",
+          "headline": "[미·이란 종전] 이란 외무부 \"MOU 서명식 후 핵협상 개시\"",
           "score": 1
         },
         {
@@ -95,19 +107,13 @@
           "type": "positive",
           "headline": "[미·이란 종전] 정부 \"진전 환영…호르무즈 자유항행 보장 노력 동참\"",
           "score": 1
-        },
-        {
-          "date": "20260614",
-          "type": "positive",
-          "headline": "종전 MOU 임박 속 이스라엘, 베이루트 헤즈볼라 지휘소 공습(종합)",
-          "score": 1
         }
       ]
     },
     "방산": {
-      "score": 36,
+      "score": 10,
       "positive_count": 35,
-      "negative_count": 3,
+      "negative_count": 5,
       "recent_events": [
         {
           "date": "20260616",
@@ -124,20 +130,20 @@
         {
           "date": "20260616",
           "type": "positive",
+          "headline": "Iran war day 109: Tehran, Washington, sign MoU electronically",
+          "score": 1
+        },
+        {
+          "date": "20260616",
+          "type": "positive",
           "headline": "US fuel prices to take ‘months’ to normalise after US-Iran deal to end war",
           "score": 1
         },
         {
           "date": "20260616",
-          "type": "positive",
-          "headline": "Iran war live: Trump says MoU with Tehran signed electronically",
-          "score": 1
-        },
-        {
-          "date": "20260616",
-          "type": "positive",
-          "headline": "[거시분석] Trump may release US-Iran deal before Friday,...",
-          "score": 1
+          "type": "negative",
+          "headline": "[미·이란 종전] 볼턴 \"이란, 트럼프 갖고놀며 유리한 합의 끌어내\"",
+          "score": -1
         }
       ]
     },
@@ -211,7 +217,7 @@
       "recent_events": []
     },
     "전체시장": {
-      "score": -27,
+      "score": -10,
       "positive_count": 2,
       "negative_count": 20,
       "recent_events": [
@@ -231,7 +237,7 @@
           "date": "20260616",
           "type": "negative",
           "headline": "[거시분석] Trump may release US-Iran deal before Friday,...",
-          "score": -2
+          "score": -6
         },
         {
           "date": "20260615",
@@ -705,14 +711,6 @@
     },
     {
       "date": "20260616",
-      "headline": "Bowen: Iran deal ends Trump's war that revealed limit of US dominance",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260616",
       "headline": "Married at First Sight Australia allegations 'disturbing', says country's watchdog",
       "impacts": {
         "전체시장": -1
@@ -729,7 +727,23 @@
     },
     {
       "date": "20260616",
+      "headline": "Bowen: Iran deal ends Trump's war that revealed limit of US dominance",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260616",
       "headline": "Watch: What does the US-Iran deal to end war mean for Lebanon and Israel?",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260616",
+      "headline": "Iran war day 109: Tehran, Washington, sign MoU electronically",
       "impacts": {
         "방산": 1
       },
@@ -745,17 +759,19 @@
     },
     {
       "date": "20260616",
-      "headline": "Iran war live: Trump says MoU with Tehran signed electronically",
+      "headline": "[미·이란 종전] 볼턴 \"이란, 트럼프 갖고놀며 유리한 합의 끌어내\"",
       "impacts": {
-        "방산": 1
+        "건설": 1,
+        "방산": -1
       },
       "source": "keyword"
     },
     {
       "date": "20260616",
-      "headline": "What Israeli leaders are saying about US-Iran ‘peace deal’",
+      "headline": "[미·이란 종전] 이란 외무부 \"MOU 서명식 후 핵협상 개시\"",
       "impacts": {
-        "건설": 1
+        "건설": 1,
+        "방산": -1
       },
       "source": "keyword"
     },
@@ -764,13 +780,14 @@
       "headline": "[거시분석] Trump may release US-Iran deal before Friday,...",
       "impacts": {
         "방산": 1,
-        "전체시장": -2,
-        "금융": -1
+        "전체시장": -6,
+        "금융": -1,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 27,
-  "total_positives": 52,
+  "total_negatives": 30,
+  "total_positives": 53,
   "risk_level": "EXTREME"
 }
