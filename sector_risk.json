@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-17T13:27:20.098331+09:00",
+  "updated_at": "2026-06-17T20:04:18.829302+09:00",
   "date": "20260617",
   "window_days": 14,
   "sectors": [
@@ -49,10 +49,16 @@
   ],
   "sector_stats": {
     "반도체·AI": {
-      "score": 0,
+      "score": -2,
       "positive_count": 2,
-      "negative_count": 1,
+      "negative_count": 2,
       "recent_events": [
+        {
+          "date": "20260617",
+          "type": "negative",
+          "headline": "[거시분석] The bikers battling extreme heat and armed co...",
+          "score": -2
+        },
         {
           "date": "20260616",
           "type": "negative",
@@ -74,10 +80,16 @@
       ]
     },
     "건설": {
-      "score": 4,
+      "score": 2,
       "positive_count": 9,
-      "negative_count": 3,
+      "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20260617",
+          "type": "negative",
+          "headline": "[거시분석] The bikers battling extreme heat and armed co...",
+          "score": -2
+        },
         {
           "date": "20260616",
           "type": "positive",
@@ -101,57 +113,76 @@
           "type": "positive",
           "headline": "[미·이란 종전] 靑, 안도 속 후속 협의 촉각…\"합의 이행 지켜봐야\"",
           "score": 1
-        },
-        {
-          "date": "20260615",
-          "type": "positive",
-          "headline": "[미·이란 종전] 정부 \"진전 환영…호르무즈 자유항행 보장 노력 동참\"",
-          "score": 1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 39,
+      "positive_count": 37,
       "negative_count": 5,
       "recent_events": [
         {
           "date": "20260617",
+          "type": "positive",
+          "headline": "The bikers battling extreme heat and armed conflict to smuggle Iranian fuel to Pakistan",
+          "score": 1
+        },
+        {
+          "date": "20260617",
           "type": "negative",
-          "headline": "Fragile quiet in Lebanon as US-Iran truce leaves unanswered questions",
+          "headline": "IEA \"종전 합의 유지 시 내년 석유시장 공급 과잉\"",
           "score": -1
         },
         {
           "date": "20260617",
           "type": "positive",
-          "headline": "UK investigating reports Russian warship fired warning shots near yacht in English Channel",
+          "headline": "[거시분석] The bikers battling extreme heat and armed co...",
+          "score": 3
+        },
+        {
+          "date": "20260616",
+          "type": "positive",
+          "headline": "Bowen: Iran deal ends Trump's war that revealed limit of US dominance",
           "score": 1
         },
         {
-          "date": "20260617",
+          "date": "20260616",
           "type": "positive",
-          "headline": "'Warning fire went up': Couple on board yacht describe encounter with Russian warship",
-          "score": 1
-        },
-        {
-          "date": "20260617",
-          "type": "positive",
-          "headline": "Iran war live: Israel kills 4 in Lebanon as Trump criticises Netanyahu",
-          "score": 1
-        },
-        {
-          "date": "20260617",
-          "type": "positive",
-          "headline": "[거시분석] Tehran selling deal with US as victory – but ...",
+          "headline": "Watch: What does the US-Iran deal to end war mean for Lebanon and Israel?",
           "score": 1
         }
       ]
     },
     "전력·에너지": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 4,
+      "positive_count": 4,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20260617",
+          "type": "positive",
+          "headline": "국내 첫 소형모듈원자로 본궤도…K-원전 수출 영토 넓히나",
+          "score": 1
+        },
+        {
+          "date": "20260617",
+          "type": "positive",
+          "headline": "[일지] 신규 원전·소형모듈원자로 부지선정",
+          "score": 1
+        },
+        {
+          "date": "20260617",
+          "type": "positive",
+          "headline": "신규 대형원전·SMR 후보지 선정…전력수요 급증 전망에 '속도'",
+          "score": 1
+        },
+        {
+          "date": "20260617",
+          "type": "positive",
+          "headline": "[2보] 신규 대형원전 경북 영덕…소형모듈원자로 1호기는 부산 기장",
+          "score": 1
+        }
+      ]
     },
     "로봇": {
       "score": 1,
@@ -167,10 +198,16 @@
       ]
     },
     "금융": {
-      "score": -2,
+      "score": -3,
       "positive_count": 0,
-      "negative_count": 2,
+      "negative_count": 3,
       "recent_events": [
+        {
+          "date": "20260617",
+          "type": "negative",
+          "headline": "[거시분석] The bikers battling extreme heat and armed co...",
+          "score": -1
+        },
         {
           "date": "20260616",
           "type": "negative",
@@ -224,14 +261,14 @@
         {
           "date": "20260617",
           "type": "positive",
-          "headline": "Fragile quiet in Lebanon as US-Iran truce leaves unanswered questions",
+          "headline": "IEA \"종전 합의 유지 시 내년 석유시장 공급 과잉\"",
           "score": 1
         },
         {
           "date": "20260617",
           "type": "negative",
-          "headline": "[거시분석] Tehran selling deal with US as victory – but ...",
-          "score": -2
+          "headline": "[거시분석] The bikers battling extreme heat and armed co...",
+          "score": -8
         },
         {
           "date": "20260616",
@@ -789,7 +826,47 @@
     },
     {
       "date": "20260617",
-      "headline": "Fragile quiet in Lebanon as US-Iran truce leaves unanswered questions",
+      "headline": "The bikers battling extreme heat and armed conflict to smuggle Iranian fuel to Pakistan",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260617",
+      "headline": "국내 첫 소형모듈원자로 본궤도…K-원전 수출 영토 넓히나",
+      "impacts": {
+        "전력·에너지": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260617",
+      "headline": "[일지] 신규 원전·소형모듈원자로 부지선정",
+      "impacts": {
+        "전력·에너지": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260617",
+      "headline": "신규 대형원전·SMR 후보지 선정…전력수요 급증 전망에 '속도'",
+      "impacts": {
+        "전력·에너지": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260617",
+      "headline": "[2보] 신규 대형원전 경북 영덕…소형모듈원자로 1호기는 부산 기장",
+      "impacts": {
+        "전력·에너지": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260617",
+      "headline": "IEA \"종전 합의 유지 시 내년 석유시장 공급 과잉\"",
       "impacts": {
         "방산": -1,
         "전체시장": 1
@@ -798,39 +875,18 @@
     },
     {
       "date": "20260617",
-      "headline": "UK investigating reports Russian warship fired warning shots near yacht in English Channel",
+      "headline": "[거시분석] The bikers battling extreme heat and armed co...",
       "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260617",
-      "headline": "'Warning fire went up': Couple on board yacht describe encounter with Russian warship",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260617",
-      "headline": "Iran war live: Israel kills 4 in Lebanon as Trump criticises Netanyahu",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260617",
-      "headline": "[거시분석] Tehran selling deal with US as victory – but ...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -2
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -8,
+        "금융": -1,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 34,
-  "total_positives": 57,
+  "total_negatives": 37,
+  "total_positives": 59,
   "risk_level": "EXTREME"
 }
