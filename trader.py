@@ -355,31 +355,42 @@ def unified_sells(token, data, stocks, now):
 
 # ── 통합 매수 ─────────────────────────────────────────────────────────
 def momentum_score(s: dict) -> int:
-    """인기/수급 모멘텀 점수 — 거래대금 순위 급등, 거래량 증가, 단기 상승세
+    """조기 포착 모멘텀 점수 — 거래량 급증(A) + 상승 초입(B) 종목을 우선.
+    '거래대금 상위 진입'은 후행지표라(이미 며칠 오른 뒤) NEW 가점을 낮추고,
+    거래량이 막 불붙으며 아직 덜 오른 종목에 높은 점수를 준다.
     rank_change: int(순위 변화폭) 또는 None(신규 진입)"""
     score = 0
-    rc = s.get("rank_change")
-    if rc is None:                       # NEW — 거래대금 상위 신규 진입 (가장 강한 인기 신호)
-        score += 2
-    elif isinstance(rc, (int, float)):
-        if rc >= 5:   score += 2         # 순위 5계단 이상 급등
-        elif rc >= 1: score += 1
+
+    # ── A: 거래량 급증 (막 주목받기 시작하는 신호 — 가장 큰 가중치) ──
     vt = float(s.get("vol_trend", 0) or 0)
-    if vt >= 30:   score += 2            # 거래량 추세 +30% 이상
-    elif vt >= 0:  score += 1
+    if vt >= 50:    score += 3          # 거래량 폭증
+    elif vt >= 20:  score += 2
+    elif vt >= 0:   score += 1
+    # 거래량 둔화(음수)는 0점 (관심 식는 중)
+
+    # ── B: 상승 단계 (초입일수록 높게, 끝물일수록 감점) ──
     ch5 = float(s.get("ch5", 0) or 0)
-    if 3 <= ch5 < 20:                    # 상승 초입~중간 (가점)
+    if 3 <= ch5 < 10:     score += 2    # 막 오르기 시작 = 황금 구간
+    elif 10 <= ch5 < 18:  score += 1    # 상승 중기
+    elif 18 <= ch5 < 30:  score -= 1    # 끝물 = 추격 위험
+    elif ch5 >= 30:       score -= 2    # 꼭지 = 강한 감점
+    # 0~3%는 아직 안 움직임 (0점)
+
+    # ── 거래대금 순위 (후행지표라 가중치 축소) ──
+    rc = s.get("rank_change")
+    if rc is None:                       # NEW 진입 (예전 +2 → +1로 축소)
         score += 1
-    elif ch5 >= 20:                      # 과열 구간 — 고점 추격 방지 (감점)
-        score -= 1
+    elif isinstance(rc, (int, float)) and rc >= 5:
+        score += 1                       # 순위 5계단 이상 급등
+
+    # ── 수급 신호 ──
     if "매수주도" in s.get("vol_char", ""):
         score += 1
-    # 외국인 순매수 동반 (진짜 반등 신뢰도 ↑ — 외인이 같이 사는 종목 가점)
     frgn = float(s.get("frgn_net", 0) or 0)
     if frgn > 0:
-        score += 1
+        score += 1                       # 외인 순매수 동반
     elif frgn < 0:
-        score -= 1
+        score -= 1                       # 외인 순매도
     return score
 
 def unified_buys(token, data, stocks, now, allow_buy, regime_mult, kospi_ch5, expiry_guard):
