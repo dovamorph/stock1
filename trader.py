@@ -563,11 +563,12 @@ def main():
     print(f"  예산 {BUDGET//10000}만원 | F등급 제외·등급별 사이징 | 최대 {MAX_POS}종목 | 모멘텀 통합")
     print(f"{'='*50}")
 
-    # 매매 정지 체크
+    # 매매 정지 체크 — 신규 매수만 차단, 청산·손익 갱신은 계속 진행
+    # (정지가 청산까지 막으면 보유 손실 종목을 손절조차 못 하는 정반대 효과가 남)
     suspend = is_trading_suspended()
-    if suspend["suspended"]:
-        msg = f"⛔ 자동매매 정지: {suspend['reason']}"
-        print(f"  {msg}"); discord(msg); return
+    trading_suspended = suspend["suspended"]
+    if trading_suspended:
+        print(f"  ⛔ 신규 매수 정지: {suspend['reason']} (청산·손절은 계속 동작)")
 
     if not os.path.exists(RESULTS_FILE):
         print("  ⚠️  results.json 없음"); return
@@ -606,6 +607,10 @@ def main():
         and rsi_14 < 80
         and kospi_ch1 > -3.0
     )
+
+    if allow_buy and trading_suspended:
+        allow_buy = False
+        # 사유는 위에서 이미 출력함 — 여기선 매수 차단만 적용
 
     if allow_buy and not is_market_open:
         allow_buy = False
