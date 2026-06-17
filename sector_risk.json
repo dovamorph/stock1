@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-17T08:25:54.263654+09:00",
+  "updated_at": "2026-06-17T13:27:20.098331+09:00",
   "date": "20260617",
   "window_days": 14,
   "sectors": [
@@ -74,16 +74,10 @@
       ]
     },
     "건설": {
-      "score": 5,
-      "positive_count": 10,
+      "score": 4,
+      "positive_count": 9,
       "negative_count": 3,
       "recent_events": [
-        {
-          "date": "20260617",
-          "type": "positive",
-          "headline": "Israeli strikes kill four in southern Lebanon amid ceasefire talks",
-          "score": 1
-        },
         {
           "date": "20260616",
           "type": "positive",
@@ -107,12 +101,18 @@
           "type": "positive",
           "headline": "[미·이란 종전] 靑, 안도 속 후속 협의 촉각…\"합의 이행 지켜봐야\"",
           "score": 1
+        },
+        {
+          "date": "20260615",
+          "type": "positive",
+          "headline": "[미·이란 종전] 정부 \"진전 환영…호르무즈 자유항행 보장 노력 동참\"",
+          "score": 1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 40,
+      "positive_count": 39,
       "negative_count": 5,
       "recent_events": [
         {
@@ -136,29 +136,22 @@
         {
           "date": "20260617",
           "type": "positive",
-          "headline": "Ebola outbreak in DR Congo could become worst in history, Africa CDC warns",
+          "headline": "Iran war live: Israel kills 4 in Lebanon as Trump criticises Netanyahu",
           "score": 1
         },
         {
           "date": "20260617",
           "type": "positive",
-          "headline": "What has Iran won and lost from this war?",
+          "headline": "[거시분석] Tehran selling deal with US as victory – but ...",
           "score": 1
         }
       ]
     },
     "전력·에너지": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 0,
+      "positive_count": 0,
       "negative_count": 0,
-      "recent_events": [
-        {
-          "date": "20260617",
-          "type": "positive",
-          "headline": "LS일렉, 빅테크 AI 데이터센터 7천만달러 규모 배전사업 수주",
-          "score": 1
-        }
-      ]
+      "recent_events": []
     },
     "로봇": {
       "score": 1,
@@ -174,16 +167,10 @@
       ]
     },
     "금융": {
-      "score": -3,
+      "score": -2,
       "positive_count": 0,
-      "negative_count": 3,
+      "negative_count": 2,
       "recent_events": [
-        {
-          "date": "20260617",
-          "type": "negative",
-          "headline": "[거시분석] Tehran selling deal with US as victory – but ...",
-          "score": -1
-        },
         {
           "date": "20260616",
           "type": "negative",
@@ -244,7 +231,7 @@
           "date": "20260617",
           "type": "negative",
           "headline": "[거시분석] Tehran selling deal with US as victory – but ...",
-          "score": -3
+          "score": -2
         },
         {
           "date": "20260616",
@@ -827,33 +814,9 @@
     },
     {
       "date": "20260617",
-      "headline": "Ebola outbreak in DR Congo could become worst in history, Africa CDC warns",
+      "headline": "Iran war live: Israel kills 4 in Lebanon as Trump criticises Netanyahu",
       "impacts": {
         "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260617",
-      "headline": "What has Iran won and lost from this war?",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260617",
-      "headline": "Israeli strikes kill four in southern Lebanon amid ceasefire talks",
-      "impacts": {
-        "건설": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260617",
-      "headline": "LS일렉, 빅테크 AI 데이터센터 7천만달러 규모 배전사업 수주",
-      "impacts": {
-        "전력·에너지": 1
       },
       "source": "keyword"
     },
@@ -862,13 +825,12 @@
       "headline": "[거시분석] Tehran selling deal with US as victory – but ...",
       "impacts": {
         "방산": 1,
-        "전체시장": -3,
-        "금융": -1
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 35,
-  "total_positives": 60,
+  "total_negatives": 34,
+  "total_positives": 57,
   "risk_level": "EXTREME"
 }

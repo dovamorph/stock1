@@ -1,11 +1,11 @@
 {
   "regime": "BULL",
   "label": "강세장 🟢",
-  "kospi": 8545.98,
-  "ma20": 8011.32,
-  "ma60": 6824.67,
-  "ret_5d": 5.55,
-  "ret_20d": 14.05,
+  "kospi": 8744.58,
+  "ma20": 8134.42,
+  "ma60": 6921.05,
+  "ret_5d": 12.63,
+  "ret_20d": 20.26,
   "vkospi_est": 20.0,
   "vol_trend": false,
   "cycle_stage": "overheated",
@@ -33,5 +33,5 @@
     "trailing_stop": 0.04
   },
   "effective_position_multiplier": 0.8,
-  "cached_at": "2026-06-17T00:14:54.310832"
+  "cached_at": "2026-06-17T04:27:21.205234"
 }
