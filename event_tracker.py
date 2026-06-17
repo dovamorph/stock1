@@ -13,7 +13,7 @@ event_tracker.py — 이벤트 리스크 트래커
 2) SECTOR_KEYWORDS로 헤드라인별 구체적 테마(반도체·AI/우주ETF/전력·에너지/양자컴퓨팅 등) 태깅
    — 영문 키워드 대거 포함 (geo_analysis 수집 뉴스의 절반 이상이 영문)
 """
-import os, json, datetime
+import os, json, datetime, re
 from zoneinfo import ZoneInfo
 
 KST = ZoneInfo("Asia/Seoul")
@@ -30,7 +30,7 @@ SECTOR_KEYWORDS = {
             # 영문/구체 키워드
             "Nvidia", "TSMC", "chipmaker", "chip price", "AI chip",
             "semiconductor demand", "memory price", "AI data center",
-            "OpenAI", "ChatGPT", "LLM", "generative AI", "AI model",
+            "OpenAI", "ChatGPT", "LLM", "generative AI",
             # AI보안
             "cybersecurity", "AI security", "정보보호", "사이버보안", "보안 솔루션"
         ],
@@ -41,14 +41,16 @@ SECTOR_KEYWORDS = {
             # 영문/구체 키워드
             "chip export ban", "chip restriction", "semiconductor sanction",
             "AI bubble", "tech selloff", "tech fears",
+            # AI 규제/차단 (모델 접근 차단·금지 뉴스는 악재)
+            "AI regulation", "AI ban", "block AI", "AI export control",
             "사이버 공격", "데이터 유출", "랜섬웨어", "data breach", "cyberattack"
         ]
     },
     "건설": {
         "positive": [
-            "휴전", "재건", "중동 재건", "인프라 투자", "건설 수주",
-            "해외 건설", "평화 협정", "전후 복구", "종전", "정전",
-            "ceasefire", "reconstruction", "peace deal", "infrastructure investment"
+            "재건", "중동 재건", "인프라 투자", "건설 수주",
+            "해외 건설", "전후 복구",
+            "reconstruction", "infrastructure investment"
         ],
         "negative": [
             "전쟁 확대", "PF 부실", "건설 경기 침체", "부동산 위기",
@@ -61,9 +63,10 @@ SECTOR_KEYWORDS = {
             "전쟁 확대", "긴장 고조", "무기 수출", "방산 수주",
             "군비 증강", "분쟁 격화", "군사 충돌", "교전", "공습",
             # 영문 — 현재 이란/이스라엘/우크라이나 분쟁 핵심 키워드
-            # 국가명 단독("Iran","Israel" 등)은 무관한 기사(스포츠 등)에도 매칭되어 제외
-            "war", "military strike", "airstrike", "missile attack",
-            "armed conflict", "ceasefire collapse",
+            # 국가명 단독("Iran","Israel" 등) 및 'war' 단독은 무관 기사/무역전쟁에도
+            # 걸리므로 제외하고, 명확한 군사 충돌 표현만 사용
+            "warfare", "military strike", "airstrike", "missile attack",
+            "armed conflict", "ceasefire collapse", "military conflict",
             "military exercises", "troops deployed", "naval blockade",
             "weapons export", "defense spending", "arms deal"
         ],
@@ -155,9 +158,9 @@ SECTOR_KEYWORDS = {
         "negative": [
             "전쟁 확대", "금융위기", "경기침체", "Fed 긴축",
             "외국인 대규모 매도", "패닉셀", "블랙먼데이",
-            "이란", "중동 전쟁", "공급망 위기",
+            "중동 전쟁", "이란 핵", "이란 제재", "공급망 위기",
             # 관세/무역분쟁 (트럼프 관세 2.0 등)
-            "관세", "트럼프 관세", "무역법 301조", "강제노동 관세", "USTR",
+            "관세", "트럼프 관세", "무역법 301조", "강제노동 관세", "US tariff",
             "tariff", "trade war", "trade tension", "Trump tariff",
             # 지정학 일반
             "financial crisis", "recession", "supply chain crisis",
@@ -233,6 +236,22 @@ CALENDAR_EVENTS = [
     },
 ]
 
+_WORD_CACHE = {}
+def _kw_matches(kw: str, text_lower: str, text_orig: str) -> bool:
+    """키워드 매칭. 영문(라틴 문자)은 단어 경계(\\b)로 매칭해
+    'war'가 'warns'/'warship'/'warning'에 잘못 걸리는 부분문자열 오매칭을 막는다.
+    한글 키워드는 조사가 붙는 특성상(전쟁이/전쟁을) 부분 매칭을 유지한다."""
+    kl = kw.lower()
+    # 라틴 알파벳을 포함하면 영문 키워드로 보고 단어 경계 매칭
+    if any('a' <= c <= 'z' for c in kl):
+        rx = _WORD_CACHE.get(kl)
+        if rx is None:
+            rx = re.compile(r'\b' + re.escape(kl) + r'\b')
+            _WORD_CACHE[kl] = rx
+        return rx.search(text_lower) is not None
+    # 한글 등 비라틴 키워드는 부분 문자열 매칭
+    return kl in text_lower or kw in text_orig
+
 def classify_news(headline: str, content: str = "") -> dict:
     """키워드 기반 섹터별 호재/악재 분류 (구체적 테마 태깅).
     한 헤드라인이 여러 키워드에 매칭돼도 섹터별 점수는 ±1로 캡한다."""
@@ -242,10 +261,10 @@ def classify_news(headline: str, content: str = "") -> dict:
     for sector, kws in SECTOR_KEYWORDS.items():
         score = 0
         for kw in kws["positive"]:
-            if kw.lower() in text_lower or kw in text_orig:
+            if _kw_matches(kw, text_lower, text_orig):
                 score += 1
         for kw in kws["negative"]:
-            if kw.lower() in text_lower or kw in text_orig:
+            if _kw_matches(kw, text_lower, text_orig):
                 score -= 1
         if score > 0:
             impacts[sector] = 1
