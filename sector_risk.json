@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-18T03:24:16.592265+09:00",
+  "updated_at": "2026-06-18T07:03:42.829381+09:00",
   "date": "20260618",
   "window_days": 14,
   "sectors": [
@@ -130,13 +130,13 @@
         {
           "date": "20260618",
           "type": "negative",
-          "headline": "[속보] 트럼프 \"이스라엘에 종전 MOU 사본 보내\"",
+          "headline": "[속보] 백악관 당국자 \"트럼프, 이란과의 종전 MOU 서명했다\"",
           "score": -1
         },
         {
           "date": "20260618",
           "type": "negative",
-          "headline": "이란 \"종전 MOU, 이스라엘의 레바논 공격 중단 포함\"",
+          "headline": "\"60일만 통행료 없는 호르무즈\"…종전 MOU 향후 논란 예고",
           "score": -1
         },
         {
@@ -198,7 +198,7 @@
       ]
     },
     "금융": {
-      "score": -5,
+      "score": -4,
       "positive_count": 0,
       "negative_count": 4,
       "recent_events": [
@@ -206,7 +206,7 @@
           "date": "20260618",
           "type": "negative",
           "headline": "[거시분석] Iran sends tankers loaded with oil past US mi...",
-          "score": -2
+          "score": -1
         },
         {
           "date": "20260617",
@@ -267,20 +267,20 @@
         {
           "date": "20260618",
           "type": "positive",
-          "headline": "[속보] 트럼프 \"이스라엘에 종전 MOU 사본 보내\"",
+          "headline": "[속보] 백악관 당국자 \"트럼프, 이란과의 종전 MOU 서명했다\"",
           "score": 1
         },
         {
           "date": "20260618",
           "type": "positive",
-          "headline": "이란 \"종전 MOU, 이스라엘의 레바논 공격 중단 포함\"",
+          "headline": "\"60일만 통행료 없는 호르무즈\"…종전 MOU 향후 논란 예고",
           "score": 1
         },
         {
           "date": "20260618",
           "type": "negative",
           "headline": "[거시분석] Iran sends tankers loaded with oil past US mi...",
-          "score": -5
+          "score": -4
         },
         {
           "date": "20260617",
@@ -901,7 +901,7 @@
     },
     {
       "date": "20260618",
-      "headline": "[속보] 트럼프 \"이스라엘에 종전 MOU 사본 보내\"",
+      "headline": "[속보] 백악관 당국자 \"트럼프, 이란과의 종전 MOU 서명했다\"",
       "impacts": {
         "방산": -1,
         "전체시장": 1
@@ -910,7 +910,7 @@
     },
     {
       "date": "20260618",
-      "headline": "이란 \"종전 MOU, 이스라엘의 레바논 공격 중단 포함\"",
+      "headline": "\"60일만 통행료 없는 호르무즈\"…종전 MOU 향후 논란 예고",
       "impacts": {
         "방산": -1,
         "전체시장": 1
@@ -923,8 +923,8 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -5,
-        "금융": -2
+        "전체시장": -4,
+        "금융": -1
       },
       "source": "geo_categories"
     }
