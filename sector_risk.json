@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-17T20:04:18.829302+09:00",
-  "date": "20260617",
+  "updated_at": "2026-06-18T00:42:50.848401+09:00",
+  "date": "20260618",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -28,7 +28,7 @@
         "건설": 1,
         "전체시장": 1
       },
-      "d_day": 1
+      "d_day": 0
     },
     {
       "id": "nvidia_q2_2026",
@@ -44,7 +44,7 @@
         "로봇": 1,
         "전력·에너지": 1
       },
-      "d_day": 8
+      "d_day": 7
     }
   ],
   "sector_stats": {
@@ -80,10 +80,16 @@
       ]
     },
     "건설": {
-      "score": 2,
+      "score": 0,
       "positive_count": 9,
-      "negative_count": 4,
+      "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20260618",
+          "type": "negative",
+          "headline": "[거시분석] Iran sends tankers loaded with oil past US mi...",
+          "score": -2
+        },
         {
           "date": "20260617",
           "type": "negative",
@@ -107,20 +113,32 @@
           "type": "positive",
           "headline": "What still needs to be negotiated in US-Iran ‘peace deal’?",
           "score": 1
-        },
-        {
-          "date": "20260615",
-          "type": "positive",
-          "headline": "[미·이란 종전] 靑, 안도 속 후속 협의 촉각…\"합의 이행 지켜봐야\"",
-          "score": 1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 37,
-      "negative_count": 5,
+      "positive_count": 39,
+      "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20260618",
+          "type": "positive",
+          "headline": "The bikers battling extreme heat and armed conflict to smuggle Iranian fuel to Pakistan",
+          "score": 1
+        },
+        {
+          "date": "20260618",
+          "type": "negative",
+          "headline": "미리 공개된 종전 MOU '빠진 조각' 호르무즈 통행료",
+          "score": -1
+        },
+        {
+          "date": "20260618",
+          "type": "positive",
+          "headline": "[거시분석] Iran sends tankers loaded with oil past US mi...",
+          "score": 3
+        },
         {
           "date": "20260617",
           "type": "positive",
@@ -132,24 +150,6 @@
           "type": "negative",
           "headline": "IEA \"종전 합의 유지 시 내년 석유시장 공급 과잉\"",
           "score": -1
-        },
-        {
-          "date": "20260617",
-          "type": "positive",
-          "headline": "[거시분석] The bikers battling extreme heat and armed co...",
-          "score": 3
-        },
-        {
-          "date": "20260616",
-          "type": "positive",
-          "headline": "Bowen: Iran deal ends Trump's war that revealed limit of US dominance",
-          "score": 1
-        },
-        {
-          "date": "20260616",
-          "type": "positive",
-          "headline": "Watch: What does the US-Iran deal to end war mean for Lebanon and Israel?",
-          "score": 1
         }
       ]
     },
@@ -255,9 +255,21 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 3,
-      "negative_count": 23,
+      "positive_count": 4,
+      "negative_count": 24,
       "recent_events": [
+        {
+          "date": "20260618",
+          "type": "positive",
+          "headline": "미리 공개된 종전 MOU '빠진 조각' 호르무즈 통행료",
+          "score": 1
+        },
+        {
+          "date": "20260618",
+          "type": "negative",
+          "headline": "[거시분석] Iran sends tankers loaded with oil past US mi...",
+          "score": -5
+        },
         {
           "date": "20260617",
           "type": "positive",
@@ -274,18 +286,6 @@
           "date": "20260616",
           "type": "negative",
           "headline": "Married at First Sight Australia allegations 'disturbing', says country's watchdog",
-          "score": -1
-        },
-        {
-          "date": "20260616",
-          "type": "negative",
-          "headline": "Australia to probe assault claims by Gaza flotilla activists against Israeli forces",
-          "score": -1
-        },
-        {
-          "date": "20260616",
-          "type": "negative",
-          "headline": "Australia warns El Nino weather pattern set to be strongest in decades",
           "score": -1
         }
       ]
@@ -884,9 +884,36 @@
         "반도체·AI": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260618",
+      "headline": "The bikers battling extreme heat and armed conflict to smuggle Iranian fuel to Pakistan",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260618",
+      "headline": "미리 공개된 종전 MOU '빠진 조각' 호르무즈 통행료",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260618",
+      "headline": "[거시분석] Iran sends tankers loaded with oil past US mi...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 37,
-  "total_positives": 59,
+  "total_negatives": 40,
+  "total_positives": 62,
   "risk_level": "EXTREME"
 }
