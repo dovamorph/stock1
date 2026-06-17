@@ -1,24 +1,8 @@
 {
   "portfolio": {
     "budget": 7000000,
-    "used": 2189000,
+    "used": 981800,
     "positions": {
-      "028050": {
-        "name": "삼성E&A",
-        "grade": "C",
-        "buy_price": 55900,
-        "qty": 12,
-        "sold_qty": 0,
-        "buy_date": "2026-06-16",
-        "sl": 51987,
-        "tp1": 61490,
-        "tp2": 67080,
-        "peak_pnl": 0.014311270125223614,
-        "cur_price": 54900,
-        "pnl_pct": -1.79,
-        "pnl_amt": -12000,
-        "updated": "2026-06-17 09:14"
-      },
       "375500": {
         "name": "DL이앤씨",
         "grade": "C",
@@ -33,23 +17,7 @@
         "cur_price": 85900,
         "pnl_pct": -4.77,
         "pnl_amt": -30100,
-        "updated": "2026-06-17 09:14"
-      },
-      "105560": {
-        "name": "KB금융",
-        "grade": "C",
-        "buy_price": 178800,
-        "qty": 3,
-        "sold_qty": 0,
-        "buy_date": "2026-06-16",
-        "sl": 166284,
-        "tp1": 196680,
-        "tp2": 214560,
-        "peak_pnl": 0.0,
-        "cur_price": 169200,
-        "pnl_pct": -5.37,
-        "pnl_amt": -28800,
-        "updated": "2026-06-17 09:14"
+        "updated": "2026-06-17 14:05"
       },
       "353200": {
         "name": "대덕전자",
@@ -62,14 +30,38 @@
         "tp1": 192720,
         "tp2": 210240,
         "peak_pnl": 0.005136986301369863,
-        "cur_price": 176100,
-        "pnl_pct": 0.51,
-        "pnl_amt": 1800,
-        "updated": "2026-06-17 09:14"
+        "cur_price": 172500,
+        "pnl_pct": -1.54,
+        "pnl_amt": -5400,
+        "updated": "2026-06-17 14:05"
       }
     }
   },
   "trade_history": [
+    {
+      "ticker": "105560",
+      "name": "KB금융",
+      "buy_price": 178800,
+      "sell_price": 166000,
+      "qty": 3,
+      "sell_date": "20260617",
+      "sell_time": "14:05",
+      "pnl": -38400,
+      "pnl_pct": -7.16,
+      "reason": "손절 -7.2%"
+    },
+    {
+      "ticker": "028050",
+      "name": "삼성E&A",
+      "buy_price": 55900,
+      "sell_price": 53300,
+      "qty": 12,
+      "sell_date": "20260617",
+      "sell_time": "14:05",
+      "pnl": -31200,
+      "pnl_pct": -4.65,
+      "reason": "매도주도전환 -4.7%"
+    },
     {
       "ticker": "079550",
       "name": "LIG디펜스앤에어로스페이스",
@@ -107,8 +99,8 @@
       "reason": "손절 -8.2%"
     }
   ],
-  "_kospi_ch5": 12.88,
-  "_kospi_ch1": 2.11,
+  "_kospi_ch5": 12.3,
+  "_kospi_ch1": -0.09,
   "_regime": "BULL",
   "recent_exits": {
     "064350": {
@@ -118,6 +110,16 @@
     },
     "079550": {
       "sell_price": 960500,
+      "sell_date": "2026-06-17",
+      "is_loss": true
+    },
+    "028050": {
+      "sell_price": 53300,
+      "sell_date": "2026-06-17",
+      "is_loss": true
+    },
+    "105560": {
+      "sell_price": 166000,
       "sell_date": "2026-06-17",
       "is_loss": true
     }

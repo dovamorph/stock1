@@ -1,11 +1,11 @@
 {
-  "consecutive_losses": 3,
+  "consecutive_losses": 5,
   "trading_suspended": true,
   "suspend_reason": "3연속 손실",
   "suspend_until": "2026-06-19T00:15:35.591975",
   "blacklist": {},
-  "daily_loss": -115500,
-  "total_loss": -204500,
+  "daily_loss": -185100,
+  "total_loss": -274100,
   "last_reset_date": "2026-06-17",
   "gap_down_today": false,
   "circuit_breaker_today": false,
@@ -30,6 +30,16 @@
       "time": "2026-06-17 00:15:35",
       "level": "WARN",
       "event": "손실 -41,500원 [079550] | 연패=3 일손실=-115,500"
+    },
+    {
+      "time": "2026-06-17 05:06:25",
+      "level": "WARN",
+      "event": "손실 -31,200원 [028050] | 연패=4 일손실=-146,700"
+    },
+    {
+      "time": "2026-06-17 05:06:46",
+      "level": "WARN",
+      "event": "손실 -38,400원 [105560] | 연패=5 일손실=-185,100"
     }
   ]
 }
