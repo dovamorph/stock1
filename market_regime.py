@@ -138,6 +138,7 @@ def _get_kospi_from_results() -> dict:
                 "rsi":   float(ms.get("rsi_14", 50)),
                 "ch5":   float(ms.get("kospi_ch5", 0)),
                 "ch1":   float(ms.get("kospi_ch1", 0)),
+                "vkospi": float(ms.get("vkospi_est", 0)),
             }
         except Exception:
             continue
@@ -260,7 +261,14 @@ def get_market_regime(force_refresh: bool = False) -> dict:
                 ret_20d = round((current - ma20) / ma20 * 100, 2)
             else:
                 ret_20d = round(ret_5d * 2, 2)  # 보수적 근사 (기존 *4 대비 왜곡 감소)
-            vkospi  = 20.0
+            # VKOSPI: screener가 results.json에 저장한 실측값(investing.com) 우선
+            vkospi = 20.0
+            try:
+                _fv = float(fb.get("vkospi", 0)) if isinstance(fb, dict) else 0
+                if _fv > 0:
+                    vkospi = _fv
+            except Exception:
+                pass
             vol_trend = False
 
             regime = _judge_regime(current, ma20, ma60, ret_5d, ret_20d, vkospi, vol_trend)
