@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-18T13:20:23.227451+09:00",
+  "updated_at": "2026-06-18T19:26:35.281775+09:00",
   "date": "20260618",
   "window_days": 14,
   "sectors": [
@@ -118,14 +118,26 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 39,
-      "negative_count": 5,
+      "positive_count": 40,
+      "negative_count": 6,
       "recent_events": [
         {
           "date": "20260618",
           "type": "positive",
           "headline": "The bikers battling extreme heat and armed conflict to smuggle Iranian fuel to Pakistan",
           "score": 1
+        },
+        {
+          "date": "20260618",
+          "type": "positive",
+          "headline": "러·우크라, 교전 격화 속 전사자 시신 교환",
+          "score": 1
+        },
+        {
+          "date": "20260618",
+          "type": "negative",
+          "headline": "[월드&포토] 베르사유궁서 종전 MOU 서명한 트럼프…마크롱 \"브라보\"",
+          "score": -1
         },
         {
           "date": "20260618",
@@ -138,32 +150,14 @@
           "type": "positive",
           "headline": "The bikers battling extreme heat and armed conflict to smuggle Iranian fuel to Pakistan",
           "score": 1
-        },
-        {
-          "date": "20260617",
-          "type": "negative",
-          "headline": "IEA \"종전 합의 유지 시 내년 석유시장 공급 과잉\"",
-          "score": -1
-        },
-        {
-          "date": "20260617",
-          "type": "positive",
-          "headline": "[거시분석] The bikers battling extreme heat and armed co...",
-          "score": 3
         }
       ]
     },
     "전력·에너지": {
-      "score": 5,
-      "positive_count": 5,
+      "score": 4,
+      "positive_count": 4,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260618",
-          "type": "positive",
-          "headline": "경주시장 \"SMR 부지 선정 탈락…기대 부응 못해 송구\"",
-          "score": 1
-        },
         {
           "date": "20260617",
           "type": "positive",
@@ -204,10 +198,16 @@
       ]
     },
     "금융": {
-      "score": -3,
+      "score": -6,
       "positive_count": 0,
-      "negative_count": 3,
+      "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20260618",
+          "type": "negative",
+          "headline": "[거시분석] What's in the US-Iran agreement?",
+          "score": -3
+        },
         {
           "date": "20260617",
           "type": "negative",
@@ -261,14 +261,20 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 3,
+      "positive_count": 4,
       "negative_count": 24,
       "recent_events": [
         {
           "date": "20260618",
+          "type": "positive",
+          "headline": "[월드&포토] 베르사유궁서 종전 MOU 서명한 트럼프…마크롱 \"브라보\"",
+          "score": 1
+        },
+        {
+          "date": "20260618",
           "type": "negative",
           "headline": "[거시분석] What's in the US-Iran agreement?",
-          "score": -3
+          "score": -7
         },
         {
           "date": "20260617",
@@ -286,12 +292,6 @@
           "date": "20260616",
           "type": "negative",
           "headline": "Married at First Sight Australia allegations 'disturbing', says country's watchdog",
-          "score": -1
-        },
-        {
-          "date": "20260616",
-          "type": "negative",
-          "headline": "Australia to probe assault claims by Gaza flotilla activists against Israeli forces",
           "score": -1
         }
       ]
@@ -901,9 +901,18 @@
     },
     {
       "date": "20260618",
-      "headline": "경주시장 \"SMR 부지 선정 탈락…기대 부응 못해 송구\"",
+      "headline": "러·우크라, 교전 격화 속 전사자 시신 교환",
       "impacts": {
-        "전력·에너지": 1
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260618",
+      "headline": "[월드&포토] 베르사유궁서 종전 MOU 서명한 트럼프…마크롱 \"브라보\"",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
       },
       "source": "keyword"
     },
@@ -913,12 +922,13 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -3
+        "전체시장": -7,
+        "금융": -3
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 39,
-  "total_positives": 62,
+  "total_negatives": 41,
+  "total_positives": 63,
   "risk_level": "EXTREME"
 }
