@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T03:28:03.281132+09:00",
+  "updated_at": "2026-06-19T07:14:52.315777+09:00",
   "date": "20260619",
   "window_days": 14,
   "sectors": [
@@ -80,14 +80,20 @@
       ]
     },
     "건설": {
-      "score": -2,
-      "positive_count": 9,
+      "score": -1,
+      "positive_count": 10,
       "negative_count": 6,
       "recent_events": [
         {
           "date": "20260619",
+          "type": "positive",
+          "headline": "MoU’s $300bn Iran reconstruction fund becomes US political flashpoint",
+          "score": 1
+        },
+        {
+          "date": "20260619",
           "type": "negative",
-          "headline": "[거시분석] Bowen: US-Iran deal raises inescapable questi...",
+          "headline": "[거시분석] US lifts naval blockade as Iran's supreme lea...",
           "score": -2
         },
         {
@@ -107,48 +113,42 @@
           "type": "positive",
           "headline": "[미·이란 종전] 볼턴 \"이란, 트럼프 갖고놀며 유리한 합의 끌어내\"",
           "score": 1
-        },
-        {
-          "date": "20260616",
-          "type": "negative",
-          "headline": "[거시분석] Iran deal presents political nightmare for Ne...",
-          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 42,
-      "negative_count": 9,
+      "positive_count": 44,
+      "negative_count": 7,
       "recent_events": [
         {
           "date": "20260619",
-          "type": "negative",
-          "headline": "美-이란, 종전MOU 이행 착수…이란비핵화 협상 개시 지연 가능성(종합)",
-          "score": -1
+          "type": "positive",
+          "headline": "US lifts naval blockade as Iran's supreme leader says Trump made deal 'out of desperation'",
+          "score": 1
         },
         {
           "date": "20260619",
           "type": "positive",
-          "headline": "러 외무 \"우크라군 표적 겨냥해 대규모 공습 예정\"",
+          "headline": "Myanmar military airstrike kills seven civilians in Rakhine state",
+          "score": 1
+        },
+        {
+          "date": "20260619",
+          "type": "positive",
+          "headline": "US military says it has lifted naval blockade of Iranian ports",
           "score": 1
         },
         {
           "date": "20260619",
           "type": "negative",
-          "headline": "\"프린터 구해줘\"…종전 MOU 서명, 트럼프의 '베르사유 깜짝쇼'",
-          "score": -1
-        },
-        {
-          "date": "20260619",
-          "type": "negative",
-          "headline": "스위스 정부 \"19일 미-이란 예정대로 대면…휴전 MOU 이행 협상\"",
+          "headline": "美-이란, 종전MOU 이행 착수…이란비핵화 협상 개시 지연 가능성(종합2보)",
           "score": -1
         },
         {
           "date": "20260619",
           "type": "positive",
-          "headline": "[거시분석] Bowen: US-Iran deal raises inescapable questi...",
+          "headline": "[거시분석] US lifts naval blockade as Iran's supreme lea...",
           "score": 3
         }
       ]
@@ -205,7 +205,7 @@
         {
           "date": "20260619",
           "type": "negative",
-          "headline": "[거시분석] Bowen: US-Iran deal raises inescapable questi...",
+          "headline": "[거시분석] US lifts naval blockade as Iran's supreme lea...",
           "score": -1
         },
         {
@@ -267,37 +267,37 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 7,
+      "positive_count": 5,
       "negative_count": 25,
       "recent_events": [
         {
           "date": "20260619",
           "type": "positive",
-          "headline": "美-이란, 종전MOU 이행 착수…이란비핵화 협상 개시 지연 가능성(종합)",
-          "score": 1
-        },
-        {
-          "date": "20260619",
-          "type": "positive",
-          "headline": "\"프린터 구해줘\"…종전 MOU 서명, 트럼프의 '베르사유 깜짝쇼'",
-          "score": 1
-        },
-        {
-          "date": "20260619",
-          "type": "positive",
-          "headline": "스위스 정부 \"19일 미-이란 예정대로 대면…휴전 MOU 이행 협상\"",
+          "headline": "美-이란, 종전MOU 이행 착수…이란비핵화 협상 개시 지연 가능성(종합2보)",
           "score": 1
         },
         {
           "date": "20260619",
           "type": "negative",
-          "headline": "[거시분석] Bowen: US-Iran deal raises inescapable questi...",
-          "score": -4
+          "headline": "[거시분석] US lifts naval blockade as Iran's supreme lea...",
+          "score": -5
         },
         {
           "date": "20260618",
           "type": "positive",
           "headline": "[월드&포토] 베르사유궁서 종전 MOU 서명한 트럼프…마크롱 \"브라보\"",
+          "score": 1
+        },
+        {
+          "date": "20260618",
+          "type": "negative",
+          "headline": "[거시분석] What's in the US-Iran agreement?",
+          "score": -7
+        },
+        {
+          "date": "20260617",
+          "type": "positive",
+          "headline": "IEA \"종전 합의 유지 시 내년 석유시장 공급 과잉\"",
           "score": 1
         }
       ]
@@ -935,16 +935,7 @@
     },
     {
       "date": "20260619",
-      "headline": "美-이란, 종전MOU 이행 착수…이란비핵화 협상 개시 지연 가능성(종합)",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260619",
-      "headline": "러 외무 \"우크라군 표적 겨냥해 대규모 공습 예정\"",
+      "headline": "US lifts naval blockade as Iran's supreme leader says Trump made deal 'out of desperation'",
       "impacts": {
         "방산": 1
       },
@@ -952,7 +943,31 @@
     },
     {
       "date": "20260619",
-      "headline": "\"프린터 구해줘\"…종전 MOU 서명, 트럼프의 '베르사유 깜짝쇼'",
+      "headline": "Myanmar military airstrike kills seven civilians in Rakhine state",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260619",
+      "headline": "MoU’s $300bn Iran reconstruction fund becomes US political flashpoint",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260619",
+      "headline": "US military says it has lifted naval blockade of Iranian ports",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260619",
+      "headline": "美-이란, 종전MOU 이행 착수…이란비핵화 협상 개시 지연 가능성(종합2보)",
       "impacts": {
         "방산": -1,
         "전체시장": 1
@@ -961,26 +976,17 @@
     },
     {
       "date": "20260619",
-      "headline": "스위스 정부 \"19일 미-이란 예정대로 대면…휴전 MOU 이행 협상\"",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260619",
-      "headline": "[거시분석] Bowen: US-Iran deal raises inescapable questi...",
+      "headline": "[거시분석] US lifts naval blockade as Iran's supreme lea...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -4,
+        "전체시장": -5,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 47,
-  "total_positives": 68,
+  "total_negatives": 45,
+  "total_positives": 69,
   "risk_level": "EXTREME"
 }
