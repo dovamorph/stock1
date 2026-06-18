@@ -138,24 +138,10 @@ def _get_kospi_from_results() -> dict:
                 "rsi":   float(ms.get("rsi_14", 50)),
                 "ch5":   float(ms.get("kospi_ch5", 0)),
                 "ch1":   float(ms.get("kospi_ch1", 0)),
-                "vkospi": float(ms.get("vkospi_est", 0)),
             }
         except Exception:
             continue
     return {}
-
-# ── VKOSPI 근사치 계산 ─────────────────────────────────────────────────
-def _estimate_vkospi(df: pd.DataFrame) -> float:
-    """
-    VKOSPI API 없을 때 근사치:
-    20일 일간 변동성(표준편차) × √252 × 100
-    실제 VKOSPI와 유사한 수준으로 추정
-    """
-    if len(df) < 20:
-        return 20.0
-    daily_ret = df["Close"].pct_change().dropna()
-    vol_20 = daily_ret.tail(20).std()
-    return round(vol_20 * np.sqrt(252) * 100, 2)
 
 # ── 국면 판단 핵심 로직 ────────────────────────────────────────────────
 def _judge_regime(
@@ -164,7 +150,6 @@ def _judge_regime(
     ma60: float,
     ret_5d: float,
     ret_20d: float,
-    vkospi: float,
     vol_trend: bool,
 ) -> str:
     """
@@ -174,7 +159,7 @@ def _judge_regime(
     │  BEAR:   current < MA20 < MA60 AND ret_20d < -3%    │
     │  SIDEWAYS: 그 외                                     │
     └──────────────────────────────────────────────────────┘
-    VKOSPI > 28: 국면 등급 한 단계 하향 (BULL→SIDEWAYS, SIDEWAYS→BEAR)
+    (VKOSPI 기반 강등은 신뢰할 데이터 소스가 없어 제거됨)
     """
     if current > ma20 > ma60 and ret_20d > 2.0:
         regime = "BULL"
@@ -182,11 +167,6 @@ def _judge_regime(
         regime = "BEAR"
     else:
         regime = "SIDEWAYS"
-
-    # 변동성 과다 → 한 단계 하향
-    if vkospi > 28:
-        downgrade = {"BULL": "SIDEWAYS", "SIDEWAYS": "BEAR", "BEAR": "BEAR"}
-        regime = downgrade[regime]
 
     return regime
 
@@ -230,7 +210,6 @@ def get_market_regime(force_refresh: bool = False) -> dict:
       "ma60": 2650.0,
       "ret_5d": 1.2,
       "ret_20d": 4.5,
-      "vkospi_est": 18.3,
       "vol_trend": True,
       "cycle_stage": "uptrend",
       "cycle_multiplier_adj": 0.0,
@@ -261,17 +240,9 @@ def get_market_regime(force_refresh: bool = False) -> dict:
                 ret_20d = round((current - ma20) / ma20 * 100, 2)
             else:
                 ret_20d = round(ret_5d * 2, 2)  # 보수적 근사 (기존 *4 대비 왜곡 감소)
-            # VKOSPI: screener가 results.json에 저장한 실측값(investing.com) 우선
-            vkospi = 20.0
-            try:
-                _fv = float(fb.get("vkospi", 0)) if isinstance(fb, dict) else 0
-                if _fv > 0:
-                    vkospi = _fv
-            except Exception:
-                pass
             vol_trend = False
 
-            regime = _judge_regime(current, ma20, ma60, ret_5d, ret_20d, vkospi, vol_trend)
+            regime = _judge_regime(current, ma20, ma60, ret_5d, ret_20d, vol_trend)
             cycle  = _get_cycle_stage(current)
             params = REGIME_PARAMS[regime].copy()
             effective_mult = max(0.0, min(1.3,
@@ -287,7 +258,6 @@ def get_market_regime(force_refresh: bool = False) -> dict:
                 "ma60":                        round(ma60, 2),
                 "ret_5d":                      round(ret_5d, 2),
                 "ret_20d":                     round(ret_20d, 2),
-                "vkospi_est":                  vkospi,
                 "vol_trend":                   vol_trend,
                 "cycle_stage":                 cycle["stage"],
                 "cycle_multiplier_adj":        cycle["multiplier_adj"],
@@ -318,27 +288,13 @@ def get_market_regime(force_refresh: bool = False) -> dict:
     ma60     = close.rolling(60).mean().iloc[-1]
     ret_5d   = (current - close.iloc[-5])  / close.iloc[-5]  * 100
     ret_20d  = (current - close.iloc[-20]) / close.iloc[-20] * 100
-    vkospi   = _estimate_vkospi(df)
-
-    # ── 실제 VKOSPI 우선 사용 ──────────────────────────────────────
-    # results.json에 screener가 저장한 실제 VKOSPI 값이 있으면 사용
-    # (추정치는 급등장에서 변동성이 과대평가되어 BULL→SIDEWAYS 강등 오류 발생)
-    try:
-        import json as _json, os as _os
-        if _os.path.exists("results.json"):
-            _rj = _json.load(open("results.json", encoding="utf-8"))
-            _vk = _rj.get("market_signal", {}).get("vkospi_est", 0)
-            if _vk and float(_vk) > 0:
-                vkospi = float(_vk)
-    except Exception:
-        pass   # 실패 시 추정치 유지
 
     # 거래량 추세: 최근 5일 평균 > 20일 평균
     vol_5    = df["Volume"].iloc[-5:].mean()
     vol_20   = df["Volume"].iloc[-20:].mean()
     vol_trend = bool(vol_5 > vol_20)
 
-    regime = _judge_regime(current, ma20, ma60, ret_5d, ret_20d, vkospi, vol_trend)
+    regime = _judge_regime(current, ma20, ma60, ret_5d, ret_20d, vol_trend)
     cycle  = _get_cycle_stage(current)
     params = REGIME_PARAMS[regime].copy()
 
@@ -358,7 +314,6 @@ def get_market_regime(force_refresh: bool = False) -> dict:
         "ma60":                        round(ma60, 2),
         "ret_5d":                      round(ret_5d, 2),
         "ret_20d":                     round(ret_20d, 2),
-        "vkospi_est":                  vkospi,
         "vol_trend":                   vol_trend,
         "cycle_stage":                 cycle["stage"],
         "cycle_multiplier_adj":        cycle["multiplier_adj"],
@@ -385,7 +340,7 @@ def _send_regime_change_alert(prev: str, now: str, data: dict):
         f"📊 **시장 국면 변화**\n"
         f"{prev} → {now}\n"
         f"KOSPI: {data['kospi']:,.0f} | MA20: {data['ma20']:,.0f} | MA60: {data['ma60']:,.0f}\n"
-        f"20일 수익률: {data['ret_20d']:+.1f}% | VKOSPI(추정): {data['vkospi_est']:.1f}\n"
+        f"20일 수익률: {data['ret_20d']:+.1f}%\n"
         f"유효 포지션 배율: {data['effective_position_multiplier']:.1f}x"
     )
     try:
@@ -413,7 +368,6 @@ if __name__ == "__main__":
     print(f"  KOSPI        : {result['kospi']:,.2f}")
     print(f"  MA20 / MA60  : {result['ma20']:,.2f} / {result['ma60']:,.2f}")
     print(f"  5일/20일 수익 : {result['ret_5d']:+.2f}% / {result['ret_20d']:+.2f}%")
-    print(f"  VKOSPI 추정  : {result['vkospi_est']:.1f}")
     print(f"  사이클 단계  : {result['cycle_stage']}")
     print(f"  포지션 배율  : {result['effective_position_multiplier']}x")
     print(f"  장투 신규OK  : {result['longterm_new_buy_ok']}")
