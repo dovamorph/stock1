@@ -34,46 +34,6 @@ def sf(v, d=0.0):
         return d if val!=val else val
     except: return d
 
-def fetch_vkospi_real():
-    """investing.com에서 실제 VKOSPI(KSVKOSPI) 값을 가져온다.
-    실패 시 None 반환 (호출부에서 추정값 등 폴백 처리).
-    여러 정규식 패턴을 순차 시도해 페이지 구조가 일부 바뀌어도 견딘다.
-    주의: investing.com이 봇 차단(403)을 할 수 있다. 차단 시 None 반환 → 폴백."""
-    import re
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                      "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-        "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
-        "Upgrade-Insecure-Requests": "1",
-        "Sec-Fetch-Dest": "document",
-        "Sec-Fetch-Mode": "navigate",
-        "Sec-Fetch-Site": "none",
-        "Referer": "https://kr.investing.com/indices/south-korea-indices",
-    }
-    patterns = [
-        r'실시간 주가는\s*([\d,]+\.\d+)',
-        r'([\d,]+\.\d+)\s*에\s*마감된\s*KSVKOSPI',
-        r'KSVKOSPI\)\s*[\s\S]{0,200}?([\d,]+\.\d+)',
-    ]
-    # kr 도메인 우선, 막히면 영문 도메인 시도
-    for url in ("https://kr.investing.com/indices/kospi-volatility",
-                "https://www.investing.com/indices/kospi-volatility"):
-        try:
-            r = requests.get(url, headers=headers, timeout=10)
-            if r.status_code != 200:
-                continue
-            html = r.text
-            for pat in patterns:
-                m = re.search(pat, html)
-                if m:
-                    val = float(m.group(1).replace(",", ""))
-                    if 5 < val < 200:   # VKOSPI 정상 범위 sanity check
-                        return round(val, 2)
-        except Exception as e:
-            print(f"  ⚠️ VKOSPI({url.split('//')[1][:20]}) 조회 실패: {e}")
-    return None
-
 def get_token():
     for attempt in range(3):
         try:
@@ -981,50 +941,8 @@ def main():
     top40, adr_data = select_top40(tok, candidates)
     if not top40: print("❌ 거래대금 계산 실패"); return
 
-    # ── VKOSPI: investing.com 실제값 우선, 실패 시 regime_cache 폴백 ──
-    vkospi_est = None
-    vkospi_src = ""
-    vk_real = fetch_vkospi_real()
-    if vk_real is not None:
-        vkospi_est = vk_real
-        vkospi_src = "investing.com 실측"
-        print(f"  VKOSPI 실측: {vkospi_est:.1f} (investing.com)")
-    else:
-        # 폴백: regime_cache.json (market_regime 추정치)
-        try:
-            if os.path.exists("regime_cache.json"):
-                with open("regime_cache.json", encoding="utf-8") as f:
-                    rc = json.load(f)
-                _v = float(rc.get("vkospi_est", 0))
-                if _v > 0:
-                    vkospi_est = _v
-                    vkospi_src = "regime_cache 추정"
-                    print(f"  VKOSPI 추정: {vkospi_est:.1f} (regime_cache 폴백)")
-        except Exception:
-            pass
-    if vkospi_est is None:
-        vkospi_est = 20.0
-        vkospi_src = "기본값"
-        print(f"  VKOSPI: 실측·추정 모두 실패 → 기본값 {vkospi_est:.1f}")
-
-    # VKOSPI 신호 판정
-    vkospi_data = {"vkospi_est": vkospi_est, "vkospi_source": vkospi_src}
-    if vkospi_est >= 30:
-        vkospi_data["vkospi_signal"] = "🔴"
-        vkospi_data["vkospi_desc"]   = f"{vkospi_est:.1f} — 시장이 극도로 불안합니다. 방향에 따라 반등 또는 추가 하락"
-    elif vkospi_est >= 25:
-        vkospi_data["vkospi_signal"] = "🟠"
-        vkospi_data["vkospi_desc"]   = f"{vkospi_est:.1f} — 투자자들이 긴장하고 있습니다. 신중하게 접근하세요"
-    elif vkospi_est >= 15:
-        vkospi_data["vkospi_signal"] = "🟢"
-        vkospi_data["vkospi_desc"]   = f"{vkospi_est:.1f} — 시장이 안정적입니다. 투자 심리 양호"
-    else:
-        vkospi_data["vkospi_signal"] = "🟡"
-        vkospi_data["vkospi_desc"]   = f"{vkospi_est:.1f} — 지나치게 낙관적입니다. 조정이 올 수 있습니다"
-
-    # market_signal에 ADR + VKOSPI 추가
+    # market_signal에 ADR 추가 (VKOSPI는 신뢰할 데이터 소스가 없어 제거됨)
     market_signal.update(adr_data)
-    market_signal.update(vkospi_data)
 
     # ── 순위 변동 계산 ─────────────────────────────────────────────
     for item in top40:
@@ -1135,7 +1053,6 @@ def main():
             "kosdaq":    market_signal.get("kosdaq_close", 0),
             "adr":       adr_data.get("adr", 50),
             "rsi":       round(float(market_signal.get("rsi_14", 50)), 1),
-            "vkospi":    round(float(vkospi_est), 1),
             "vix":       round(float(market_signal.get("us", {}).get("vix_close", 0)), 1),
             "kospi_ch1": round(float(market_signal.get("kospi_ch1", 0)), 2),
         }
