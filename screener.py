@@ -126,6 +126,30 @@ def fetch_market_signal(tok) -> dict:
             print(f"  ⚠️ KIS 일별 차트 오류: {e}")
             items = []; kis_prices = []
 
+        # ── KOSDAQ 당일 보정: KIS API(1001)로 실시간 ch1 확보 ────────
+        # (fdr은 일별 종가라 장중엔 전일값 → KOSPI처럼 KIS 당일값으로 덮어씀)
+        try:
+            res_kq = requests.get(
+                f"{BASE}/uapi/domestic-stock/v1/quotations/inquire-daily-indexchartprice",
+                headers=H(tok,"FHKUP03500100"), timeout=10,
+                params={"fid_cond_mrkt_div_code":"U","fid_input_iscd":"1001",
+                        "fid_input_date_1":s2,"fid_input_date_2":e2,"fid_period_div_code":"D"}
+            )
+            rjson_kq = res_kq.json()
+            items_kq = rjson_kq.get("output2", rjson_kq.get("output",[]))
+            if items_kq:
+                today_str   = now.strftime("%Y%m%d")
+                latest_kq   = items_kq[0]
+                kq_date     = latest_kq.get("stck_bsop_date","")
+                kq_ctrt     = sf(latest_kq.get("bstp_nmix_prdy_ctrt", 0))
+                kq_close_k  = sf(latest_kq.get("bstp_nmix_prpr", 0))
+                if kq_date == today_str and kq_ctrt != 0 and kq_close_k > 0:
+                    result["kosdaq_ch1"]   = round(kq_ctrt, 2)
+                    result["kosdaq_close"] = round(kq_close_k, 2)
+                    print(f"  KOSDAQ 당일: {kq_close_k:,.2f} ({kq_ctrt:+.2f}%) [KIS]")
+        except Exception as e:
+            print(f"  ⚠️ KIS KOSDAQ 차트 오류: {e}")
+
         if df is None or len(df) < 20:
             prices = kis_prices if len(kis_prices) >= 20 else []
         else:
