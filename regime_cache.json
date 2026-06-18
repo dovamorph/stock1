@@ -6,7 +6,6 @@
   "ma60": 6977.75,
   "ret_5d": 11.57,
   "ret_20d": 25.73,
-  "vkospi_est": 20.0,
   "vol_trend": false,
   "cycle_stage": "overheated",
   "cycle_multiplier_adj": -0.2,
@@ -33,5 +32,5 @@
     "trailing_stop": 0.04
   },
   "effective_position_multiplier": 0.8,
-  "cached_at": "2026-06-18T10:26:36.790982"
+  "cached_at": "2026-06-18T12:13:49.372392"
 }
