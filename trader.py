@@ -56,6 +56,11 @@ REGIME_MULT    = {"BULL": 1.0, "SIDEWAYS": 0.7, "BEAR": 0.0}
 RESULTS_FILE   = "results.json"
 POSITIONS_FILE = "positions.json"
 EXPIRY_FILE    = "expiry_result.json"
+CONTROL_FILE   = "control.json"       # 수동 ON/OFF 스위치
+SECTOR_RISK_FILE = "sector_risk.json" # event_tracker가 내는 전체시장 뉴스 리스크
+
+# 뉴스 리스크(전체시장) → 신규 매수 배율. EXTREME은 매수 정지(0.0), 청산은 항상 별도로 진행
+NEWS_RISK_MULT = {"EXTREME": 0.0, "HIGH": 0.5, "MEDIUM": 0.8, "LOW": 1.0}
 
 MOCK       = os.environ.get("KIS_MOCK", "true").lower() == "true"
 # trader.py는 모의투자 전용 — 실전키(KIS_APP_KEY)와 분리해서 명시적으로 MOCK 키만 사용
@@ -228,6 +233,34 @@ def load_expiry_guard() -> dict:
     except Exception as e:
         print(f"  만기 로드 실패: {e}")
     return default
+
+def load_control() -> dict:
+    """수동 ON/OFF 스위치. control.json의 trading_enabled가 false면 신규 매수 정지.
+    파일이 없거나 깨지면 안전하게 '켜짐(true)'으로 간주(기존 동작 유지)."""
+    default = {"trading_enabled": True, "note": ""}
+    try:
+        if os.path.exists(CONTROL_FILE):
+            with open(CONTROL_FILE, "r", encoding="utf-8") as f:
+                d = json.load(f)
+            # 명시적으로 false일 때만 끔. 그 외(키 없음/오타)는 켜짐 유지
+            enabled = d.get("trading_enabled", True)
+            return {"trading_enabled": bool(enabled), "note": d.get("note", "")}
+    except Exception as e:
+        print(f"  control.json 로드 실패: {e} (매매 켜짐으로 진행)")
+    return default
+
+def load_news_risk() -> str:
+    """event_tracker가 sector_risk.json에 저장한 전체시장 뉴스 리스크 레벨 반환.
+    파일이 없거나 깨지면 'LOW'(영향 없음)로 간주해 기존 배율을 그대로 둔다."""
+    try:
+        if os.path.exists(SECTOR_RISK_FILE):
+            with open(SECTOR_RISK_FILE, "r", encoding="utf-8") as f:
+                d = json.load(f)
+            lvl = d.get("risk_level", "LOW")
+            return lvl if lvl in NEWS_RISK_MULT else "LOW"
+    except Exception as e:
+        print(f"  sector_risk.json 로드 실패: {e} (뉴스 리스크 LOW로 진행)")
+    return "LOW"
 
 # ── 통합 매도 ─────────────────────────────────────────────────────────
 def unified_sells(token, data, stocks, now):
@@ -585,6 +618,15 @@ def main():
         regime      = {"regime": "UNKNOWN", "label": "판단불가 ⚪", "kospi": 0}
         regime_mult = 0.7
 
+    # 뉴스 리스크(전체시장) 자동 연동 — 국면 배율에 곱함. EXTREME(0.0)이면 매수 정지 효과
+    news_risk  = load_news_risk()
+    news_mult  = NEWS_RISK_MULT.get(news_risk, 1.0)
+    if news_mult < 1.0:
+        regime_mult = round(regime_mult * news_mult, 2)
+        print(f"  📰 뉴스 리스크: {news_risk} → 배율 ×{news_mult} 적용 → 최종 {regime_mult}x")
+    else:
+        print(f"  📰 뉴스 리스크: {news_risk} (배율 영향 없음)")
+
     # 만기일
     print("\n  [만기] 만기일 방어 체크...")
     expiry_guard = load_expiry_guard()
@@ -609,6 +651,18 @@ def main():
     if allow_buy and trading_suspended:
         allow_buy = False
         # 사유는 위에서 이미 출력함 — 여기선 매수 차단만 적용
+
+    # 수동 ON/OFF 스위치 (control.json) — Dova가 끄면 신규 매수 정지 (청산은 계속)
+    control = load_control()
+    if allow_buy and not control["trading_enabled"]:
+        allow_buy = False
+        note = f" ({control['note']})" if control.get("note") else ""
+        print(f"  🔌 수동 스위치 OFF — 신규 매수 정지{note} (청산·손절은 계속 동작)")
+
+    # 뉴스 리스크 EXTREME — 전체시장 악재 누적, 신규 매수 정지 (청산은 계속)
+    if allow_buy and news_risk == "EXTREME":
+        allow_buy = False
+        print(f"  🚨 뉴스 리스크 EXTREME — 신규 매수 정지 (청산·손절은 계속 동작)")
 
     if allow_buy and not is_market_open:
         allow_buy = False
