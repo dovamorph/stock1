@@ -1,0 +1,4 @@
+{
+  "trading_enabled": true,
+  "note": "매수를 멈추려면 trading_enabled를 false로 바꾸고 커밋하세요. 청산·손절은 항상 동작합니다."
+}
