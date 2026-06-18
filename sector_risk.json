@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-18T19:26:35.281775+09:00",
-  "date": "20260618",
+  "updated_at": "2026-06-19T00:33:42.667879+09:00",
+  "date": "20260619",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -28,7 +28,7 @@
         "건설": 1,
         "전체시장": 1
       },
-      "d_day": 0
+      "d_day": -1
     },
     {
       "id": "nvidia_q2_2026",
@@ -44,7 +44,7 @@
         "로봇": 1,
         "전력·에너지": 1
       },
-      "d_day": 7
+      "d_day": 6
     }
   ],
   "sector_stats": {
@@ -118,37 +118,37 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 40,
-      "negative_count": 6,
+      "positive_count": 41,
+      "negative_count": 10,
       "recent_events": [
         {
-          "date": "20260618",
-          "type": "positive",
-          "headline": "The bikers battling extreme heat and armed conflict to smuggle Iranian fuel to Pakistan",
-          "score": 1
-        },
-        {
-          "date": "20260618",
-          "type": "positive",
-          "headline": "러·우크라, 교전 격화 속 전사자 시신 교환",
-          "score": 1
-        },
-        {
-          "date": "20260618",
+          "date": "20260619",
           "type": "negative",
-          "headline": "[월드&포토] 베르사유궁서 종전 MOU 서명한 트럼프…마크롱 \"브라보\"",
+          "headline": "\"프린터 구해줘\"…종전 MOU 서명, 트럼프의 '베르사유 깜짝쇼'",
           "score": -1
         },
         {
-          "date": "20260618",
-          "type": "positive",
-          "headline": "[거시분석] What's in the US-Iran agreement?",
-          "score": 3
+          "date": "20260619",
+          "type": "negative",
+          "headline": "스위스 정부 \"19일 미-이란 예정대로 대면…휴전 MOU 이행 협상\"",
+          "score": -1
         },
         {
-          "date": "20260617",
+          "date": "20260619",
+          "type": "negative",
+          "headline": "푸틴 \"미·이란 종전 합의 환영, 중동 정세 안정되길\"",
+          "score": -1
+        },
+        {
+          "date": "20260619",
+          "type": "negative",
+          "headline": "이란 대통령 \"종전 MOU는 역사적…강력한 이란의 메시지\"",
+          "score": -1
+        },
+        {
+          "date": "20260619",
           "type": "positive",
-          "headline": "The bikers battling extreme heat and armed conflict to smuggle Iranian fuel to Pakistan",
+          "headline": "[거시분석] Weapons, money and ships: How is this Iran de...",
           "score": 1
         }
       ]
@@ -261,38 +261,38 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 4,
-      "negative_count": 24,
+      "positive_count": 8,
+      "negative_count": 25,
       "recent_events": [
         {
-          "date": "20260618",
+          "date": "20260619",
           "type": "positive",
-          "headline": "[월드&포토] 베르사유궁서 종전 MOU 서명한 트럼프…마크롱 \"브라보\"",
+          "headline": "\"프린터 구해줘\"…종전 MOU 서명, 트럼프의 '베르사유 깜짝쇼'",
           "score": 1
         },
         {
-          "date": "20260618",
-          "type": "negative",
-          "headline": "[거시분석] What's in the US-Iran agreement?",
-          "score": -7
-        },
-        {
-          "date": "20260617",
+          "date": "20260619",
           "type": "positive",
-          "headline": "IEA \"종전 합의 유지 시 내년 석유시장 공급 과잉\"",
+          "headline": "스위스 정부 \"19일 미-이란 예정대로 대면…휴전 MOU 이행 협상\"",
           "score": 1
         },
         {
-          "date": "20260617",
-          "type": "negative",
-          "headline": "[거시분석] The bikers battling extreme heat and armed co...",
-          "score": -8
+          "date": "20260619",
+          "type": "positive",
+          "headline": "푸틴 \"미·이란 종전 합의 환영, 중동 정세 안정되길\"",
+          "score": 1
         },
         {
-          "date": "20260616",
+          "date": "20260619",
+          "type": "positive",
+          "headline": "이란 대통령 \"종전 MOU는 역사적…강력한 이란의 메시지\"",
+          "score": 1
+        },
+        {
+          "date": "20260619",
           "type": "negative",
-          "headline": "Married at First Sight Australia allegations 'disturbing', says country's watchdog",
-          "score": -1
+          "headline": "[거시분석] Weapons, money and ships: How is this Iran de...",
+          "score": -3
         }
       ]
     }
@@ -926,9 +926,54 @@
         "금융": -3
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260619",
+      "headline": "\"프린터 구해줘\"…종전 MOU 서명, 트럼프의 '베르사유 깜짝쇼'",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260619",
+      "headline": "스위스 정부 \"19일 미-이란 예정대로 대면…휴전 MOU 이행 협상\"",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260619",
+      "headline": "푸틴 \"미·이란 종전 합의 환영, 중동 정세 안정되길\"",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260619",
+      "headline": "이란 대통령 \"종전 MOU는 역사적…강력한 이란의 메시지\"",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260619",
+      "headline": "[거시분석] Weapons, money and ships: How is this Iran de...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -3
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 41,
-  "total_positives": 63,
+  "total_negatives": 46,
+  "total_positives": 68,
   "risk_level": "EXTREME"
 }
