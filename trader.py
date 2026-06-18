@@ -7,7 +7,7 @@ StockPilot KR — 자동매매 (trader.py) [통합 시스템]
 - 예산 700만원 / 최대 7종목 / F등급 제외 (등급=사이징: A150·B100·C70·D50만)
 - 진입: RSI 50~75 + 매도주도 아님 + 거래량 유지 + 총점(진입점수+모멘텀) ≥4, 총점순 정렬
 - 포지션: 등급별 차등 (A=150만 B=100만 C=70만 D=50만)
-- 청산: 손절-7% / 익절+10%·+20% / RSI78+ / 매도주도전환 / 시간청산(7일 추세이탈 시, 상한 21일)
+- 청산: 손절-15% / 익절+30%·+40% / RSI78+ / 시간청산(14일 추세이탈 시, 상한 45일) — 스윙(2~3주, 길게 1~2달)
 
 [모듈]
 - market_regime : BULL/SIDEWAYS/BEAR → 포지션배율
@@ -37,16 +37,16 @@ RSI_MIN        = 50
 RSI_MAX        = 75
 VOL_TREND_MIN  = -10.0
 
-STOP_LOSS      = -0.07
-TP1            = 0.10
-TP2            = 0.20
+STOP_LOSS      = -0.15
+TP1            = 0.30
+TP2            = 0.40
 RSI_EXIT       = 78
-MAX_DAYS       = 7      # 소프트 체크: 7일째 수익 미달 + 추세 이탈 시 청산
-MAX_DAYS_HARD  = 21     # 절대 상한: 추세와 무관하게 청산
-TIME_EXIT_MIN_PNL = 0.03  # 7일째 이 수익률(+3%) 미만이면 추세 체크 대상
+MAX_DAYS       = 14     # 소프트 체크: 14일째 수익 미달 + 추세 이탈 시 청산 (스윙 2~3주 보유)
+MAX_DAYS_HARD  = 45     # 절대 상한: 추세와 무관하게 청산 (길게는 1~2달)
+TIME_EXIT_MIN_PNL = 0.03  # 14일째 이 수익률(+3%) 미만이면 추세 체크 대상
 
-TRAIL_ARM_PNL  = 0.05   # 고점 추적 발동 기준 (이 수익률 이상 찍어야 트레일링 활성)
-TRAIL_GIVEBACK = 0.05   # 고점 대비 이만큼 되돌리면 청산 (예: +15% 고점 → +10%로 밀리면 청산)
+TRAIL_ARM_PNL  = 0.20   # 고점 추적 발동 기준 (큰 수익 +20% 이상 찍어야 트레일링 활성, 스윙 출렁임 견딤)
+TRAIL_GIVEBACK = 0.10   # 고점 대비 이만큼 되돌리면 청산 (예: +35% 고점 → +25%로 밀리면 청산)
 REENTRY_GAP    = 0.03   # 매도가 대비 이만큼 더 빠진 뒤에만 재매수 (휩쏘 방지)
 BLACKLIST_HOURS = 48    # 손절 후 재매수 차단 시간
 
@@ -233,8 +233,9 @@ def load_expiry_guard() -> dict:
 def unified_sells(token, data, stocks, now):
     """
     보유 종목 청산 체크.
-    손절 -7% / 1차익절 +10%(절반) / 2차익절 +20%(전량)
-    RSI 78 이상(수익 중) / 매도주도 전환(손실 중) / 시간청산: 7일째 +3% 미만 & 추세이탈 시 (눌림목이면 유지, 상한 21일)
+    손절 -15% / 1차익절 +30%(절반) / 2차익절 +40%(전량)
+    RSI 78 이상(수익 중) / 시간청산: 14일째 +3% 미만 & 추세이탈 시 (눌림목이면 유지, 상한 45일)
+    트레일링: +20% 이상 찍은 뒤 고점 대비 -10% 되돌리면 청산 (큰 수익 보호, 스윙 출렁임은 견딤)
     """
     port      = data.setdefault("portfolio", {"budget": BUDGET, "used": 0, "positions": {}})
     positions = port.get("positions", {})
@@ -293,14 +294,11 @@ def unified_sells(token, data, stocks, now):
             reason   = f"1차익절 {pnl_pct*100:.1f}%"
 
         elif peak_pnl >= TRAIL_ARM_PNL and pnl_pct <= peak_pnl - TRAIL_GIVEBACK + 1e-9:
-            # 트레일링 스탑: +5% 이상 찍은 뒤 고점 대비 -5% 되돌리면 청산 (수익 보호)
+            # 트레일링 스탑: +20% 이상 찍은 뒤 고점 대비 -10% 되돌리면 청산 (큰 수익 보호)
             reason = f"트레일링 고점{peak_pnl*100:+.1f}%→{pnl_pct*100:+.1f}%"
 
         elif rsi >= RSI_EXIT and pnl_pct > 0:
             reason = f"RSI과열({rsi:.0f}) {pnl_pct*100:.1f}%"
-
-        elif "매도주도" in vol_char and pnl_pct < 0:
-            reason = f"매도주도전환 {pnl_pct*100:.1f}%"
 
         elif days_held >= MAX_DAYS:
             if days_held >= MAX_DAYS_HARD:
