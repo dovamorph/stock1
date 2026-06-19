@@ -62,6 +62,11 @@ SECTOR_RISK_FILE = "sector_risk.json" # event_tracker가 내는 전체시장 뉴
 # 뉴스 리스크(전체시장) → 신규 매수 배율. EXTREME은 매수 정지(0.0), 청산은 항상 별도로 진행
 NEWS_RISK_MULT = {"EXTREME": 0.0, "HIGH": 0.5, "MEDIUM": 0.8, "LOW": 1.0}
 
+# 대형주차별화 장 진입 제한: 이 국면(지수↑·폭좁음·대형주쏠림)에선 코스피 대형주만 신규매수 허용
+DIFF_REGIME       = "대형주차별화"   # screener market_signal.breadth.regime 값과 일치해야 함
+DIFF_ALLOWED_CAPS = {"대형"}          # 허용 시총등급 (중형·소형·미상은 차단). 완화하려면 "중형" 추가
+DIFF_BLOCK_KOSDAQ = True              # 코스닥 전체 차단
+
 MOCK       = os.environ.get("KIS_MOCK", "true").lower() == "true"
 # trader.py는 모의투자 전용 — 실전키(KIS_APP_KEY)와 분리해서 명시적으로 MOCK 키만 사용
 APP_KEY    = os.environ.get("KIS_APP_KEY_MOCK",    "")
@@ -424,7 +429,7 @@ def momentum_score(s: dict) -> int:
         score -= 1                       # 외인 순매도
     return score
 
-def unified_buys(token, data, stocks, now, allow_buy, regime_mult, kospi_ch5, expiry_guard):
+def unified_buys(token, data, stocks, now, allow_buy, regime_mult, kospi_ch5, expiry_guard, breadth_regime=""):
     """
     진입: F등급 제외 + RSI 50~75 + 매도주도 아님 + 총점(진입+모멘텀)≥4 / 등급은 사이징
     등급별 투자금 × 국면 배율
@@ -463,6 +468,13 @@ def unified_buys(token, data, stocks, now, allow_buy, regime_mult, kospi_ch5, ex
             continue
         if s["ticker"] in positions:
             continue
+        # 대형주차별화 장: 코스피 대형주만 허용 (소형·중형·코스닥 신규매수 차단)
+        if breadth_regime == DIFF_REGIME:
+            mkt  = s.get("market", "")
+            capc = s.get("cap_class", "미상")
+            if (DIFF_BLOCK_KOSDAQ and mkt == "KOSDAQ") or capc not in DIFF_ALLOWED_CAPS:
+                rejects.append((s.get("name", ""), grade, [f"대형주차별화 제외({mkt}/{capc})"]))
+                continue
         fail = []
         rsi = float(s.get("rsi", 0))
         if not (RSI_MIN <= rsi <= RSI_MAX):
@@ -640,6 +652,12 @@ def main():
     rsi_14         = float(market.get("rsi_14", 50))
     kospi_aligned  = market.get("aligned", "")
 
+    # 시장 폭/대형주 국면 (screener가 KOSPI+KOSDAQ+ADR로 판정) — 대형주차별화 장이면 매수 종목 제한
+    breadth        = market.get("breadth", {})
+    breadth_regime = breadth.get("regime", "")
+    if breadth_regime:
+        print(f"  📐 시장 폭 국면: {breadth.get('label', breadth_regime)} — {breadth.get('desc','')}")
+
     # ── 매수 허용 조건 (signal 텍스트 대신 객관적 지표 기반) ─────────
     # KOSPI 정배열 + RSI 80 미만 + 당일 -3% 이상
     allow_buy = (
@@ -708,7 +726,7 @@ def main():
     # 매수
     if allow_buy:
         unified_buys(token, data, stocks, now, allow_buy,
-                     regime_mult, kospi_ch5, expiry_guard)
+                     regime_mult, kospi_ch5, expiry_guard, breadth_regime)
     else:
         print("\n  매수 시그널 없음 — 청산 체크만 완료")
 
