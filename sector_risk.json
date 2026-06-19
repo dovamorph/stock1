@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T11:24:02.091518+09:00",
+  "updated_at": "2026-06-19T13:48:05.706591+09:00",
   "date": "20260619",
   "window_days": 14,
   "sectors": [
@@ -71,16 +71,10 @@
       ]
     },
     "건설": {
-      "score": -1,
-      "positive_count": 10,
+      "score": -2,
+      "positive_count": 9,
       "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20260619",
-          "type": "positive",
-          "headline": "MoU’s $300bn Iran reconstruction fund becomes US political flashpoint",
-          "score": 1
-        },
         {
           "date": "20260619",
           "type": "negative",
@@ -104,12 +98,18 @@
           "type": "positive",
           "headline": "[미·이란 종전] 볼턴 \"이란, 트럼프 갖고놀며 유리한 합의 끌어내\"",
           "score": 1
+        },
+        {
+          "date": "20260616",
+          "type": "negative",
+          "headline": "[거시분석] Iran deal presents political nightmare for Ne...",
+          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 44,
+      "positive_count": 43,
       "negative_count": 6,
       "recent_events": [
         {
@@ -127,12 +127,6 @@
         {
           "date": "20260619",
           "type": "positive",
-          "headline": "US military says it has lifted naval blockade of Iranian ports",
-          "score": 1
-        },
-        {
-          "date": "20260619",
-          "type": "positive",
           "headline": "[거시분석] US lifts naval blockade as Iran's supreme lea...",
           "score": 3
         },
@@ -140,6 +134,12 @@
           "date": "20260618",
           "type": "positive",
           "headline": "The bikers battling extreme heat and armed conflict to smuggle Iranian fuel to Pakistan",
+          "score": 1
+        },
+        {
+          "date": "20260618",
+          "type": "positive",
+          "headline": "러·우크라, 교전 격화 속 전사자 시신 교환",
           "score": 1
         }
       ]
@@ -176,10 +176,16 @@
       ]
     },
     "로봇": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260619",
+          "type": "positive",
+          "headline": "[AI픽] 배경훈 \"피지컬 AI 1강으로\"…얼라이언스 실행단계 돌입(종합)",
+          "score": 1
+        },
         {
           "date": "20260612",
           "type": "positive",
@@ -265,7 +271,7 @@
           "date": "20260619",
           "type": "negative",
           "headline": "[거시분석] US lifts naval blockade as Iran's supreme lea...",
-          "score": -8
+          "score": -7
         },
         {
           "date": "20260618",
@@ -942,17 +948,9 @@
     },
     {
       "date": "20260619",
-      "headline": "MoU’s $300bn Iran reconstruction fund becomes US political flashpoint",
+      "headline": "[AI픽] 배경훈 \"피지컬 AI 1강으로\"…얼라이언스 실행단계 돌입(종합)",
       "impacts": {
-        "건설": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260619",
-      "headline": "US military says it has lifted naval blockade of Iranian ports",
-      "impacts": {
-        "방산": 1
+        "로봇": 1
       },
       "source": "keyword"
     },
@@ -962,7 +960,7 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -8,
+        "전체시장": -7,
         "금융": -1,
         "반도체·AI": -2
       },
@@ -970,6 +968,6 @@
     }
   ],
   "total_negatives": 45,
-  "total_positives": 68,
+  "total_positives": 67,
   "risk_level": "EXTREME"
 }
