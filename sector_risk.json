@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T13:48:05.706591+09:00",
+  "updated_at": "2026-06-19T16:25:19.539411+09:00",
   "date": "20260619",
   "window_days": 14,
   "sectors": [
@@ -145,10 +145,16 @@
       ]
     },
     "전력·에너지": {
-      "score": 4,
-      "positive_count": 4,
+      "score": 5,
+      "positive_count": 5,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260619",
+          "type": "positive",
+          "headline": "\"우주기업들, 보험사들과 우주 AI 데이터센터 보험 논의\"",
+          "score": 1
+        },
         {
           "date": "20260617",
           "type": "positive",
@@ -176,16 +182,10 @@
       ]
     },
     "로봇": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260619",
-          "type": "positive",
-          "headline": "[AI픽] 배경훈 \"피지컬 AI 1강으로\"…얼라이언스 실행단계 돌입(종합)",
-          "score": 1
-        },
         {
           "date": "20260612",
           "type": "positive",
@@ -271,7 +271,7 @@
           "date": "20260619",
           "type": "negative",
           "headline": "[거시분석] US lifts naval blockade as Iran's supreme lea...",
-          "score": -7
+          "score": -8
         },
         {
           "date": "20260618",
@@ -948,9 +948,9 @@
     },
     {
       "date": "20260619",
-      "headline": "[AI픽] 배경훈 \"피지컬 AI 1강으로\"…얼라이언스 실행단계 돌입(종합)",
+      "headline": "\"우주기업들, 보험사들과 우주 AI 데이터센터 보험 논의\"",
       "impacts": {
-        "로봇": 1
+        "전력·에너지": 1
       },
       "source": "keyword"
     },
@@ -960,7 +960,7 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -7,
+        "전체시장": -8,
         "금융": -1,
         "반도체·AI": -2
       },
