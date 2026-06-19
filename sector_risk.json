@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T07:14:52.315777+09:00",
+  "updated_at": "2026-06-19T11:19:21.701784+09:00",
   "date": "20260619",
   "window_days": 14,
   "sectors": [
@@ -15,22 +15,6 @@
   ],
   "calendar_events": [
     {
-      "id": "fed_jun2026",
-      "name": "Fed 금리 결정",
-      "date": "2026-06-18",
-      "type": "fed",
-      "risk_level": "medium",
-      "description": "금리 동결 예상. 인하 시그널이 나오면 성장주·건설·증권 강세 (은행·보험은 마진 축소로 약세). 예상 밖 인상 시그널 시 전체 시장 충격 가능.",
-      "benefit_text": "인하 시: 성장주 ▲▲  건설 ▲  증권 ▲  (은행·보험 ▼)",
-      "damage_text": "인상 시: 전체장 ▼▼  성장주 ▼▼",
-      "sector_impacts": {
-        "금융": 1,
-        "건설": 1,
-        "전체시장": 1
-      },
-      "d_day": -1
-    },
-    {
       "id": "nvidia_q2_2026",
       "name": "NVIDIA 2분기 실적",
       "date": "2026-06-25",
@@ -39,6 +23,7 @@
       "description": "AI 수요 확인의 가늠자. 어닝 서프라이즈 시 반도체 전체 랠리. 실망 시 AI테마 전반 조정.",
       "benefit_text": "호실적: 반도체·AI ▲▲▲  소부장 ▲▲",
       "damage_text": "실망: 반도체·AI ▼▼  AI테마 ▼▼",
+      "result_text": "",
       "sector_impacts": {
         "반도체·AI": 3,
         "로봇": 1,
@@ -49,10 +34,16 @@
   ],
   "sector_stats": {
     "반도체·AI": {
-      "score": -2,
+      "score": -4,
       "positive_count": 2,
-      "negative_count": 2,
+      "negative_count": 3,
       "recent_events": [
+        {
+          "date": "20260619",
+          "type": "negative",
+          "headline": "[거시분석] US lifts naval blockade as Iran's supreme lea...",
+          "score": -2
+        },
         {
           "date": "20260617",
           "type": "negative",
@@ -119,7 +110,7 @@
     "방산": {
       "score": 10,
       "positive_count": 44,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
         {
           "date": "20260619",
@@ -141,15 +132,15 @@
         },
         {
           "date": "20260619",
-          "type": "negative",
-          "headline": "美-이란, 종전MOU 이행 착수…이란비핵화 협상 개시 지연 가능성(종합2보)",
-          "score": -1
-        },
-        {
-          "date": "20260619",
           "type": "positive",
           "headline": "[거시분석] US lifts naval blockade as Iran's supreme lea...",
           "score": 3
+        },
+        {
+          "date": "20260618",
+          "type": "positive",
+          "headline": "The bikers battling extreme heat and armed conflict to smuggle Iranian fuel to Pakistan",
+          "score": 1
         }
       ]
     },
@@ -267,20 +258,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 5,
+      "positive_count": 4,
       "negative_count": 25,
       "recent_events": [
         {
           "date": "20260619",
-          "type": "positive",
-          "headline": "美-이란, 종전MOU 이행 착수…이란비핵화 협상 개시 지연 가능성(종합2보)",
-          "score": 1
-        },
-        {
-          "date": "20260619",
           "type": "negative",
           "headline": "[거시분석] US lifts naval blockade as Iran's supreme lea...",
-          "score": -5
+          "score": -8
         },
         {
           "date": "20260618",
@@ -299,6 +284,12 @@
           "type": "positive",
           "headline": "IEA \"종전 합의 유지 시 내년 석유시장 공급 과잉\"",
           "score": 1
+        },
+        {
+          "date": "20260617",
+          "type": "negative",
+          "headline": "[거시분석] The bikers battling extreme heat and armed co...",
+          "score": -8
         }
       ]
     }
@@ -967,26 +958,18 @@
     },
     {
       "date": "20260619",
-      "headline": "美-이란, 종전MOU 이행 착수…이란비핵화 협상 개시 지연 가능성(종합2보)",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260619",
       "headline": "[거시분석] US lifts naval blockade as Iran's supreme lea...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -5,
-        "금융": -1
+        "전체시장": -8,
+        "금융": -1,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 45,
-  "total_positives": 69,
+  "total_positives": 68,
   "risk_level": "EXTREME"
 }
