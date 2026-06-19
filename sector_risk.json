@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20T00:27:58.707830+09:00",
+  "updated_at": "2026-06-20T03:01:21.082966+09:00",
   "date": "20260620",
   "window_days": 14,
   "sectors": [
@@ -34,16 +34,10 @@
   ],
   "sector_stats": {
     "반도체·AI": {
-      "score": -6,
+      "score": -4,
       "positive_count": 2,
-      "negative_count": 4,
+      "negative_count": 3,
       "recent_events": [
-        {
-          "date": "20260620",
-          "type": "negative",
-          "headline": "[거시분석] In Trump's shadow, Vance becomes face of Iran...",
-          "score": -2
-        },
         {
           "date": "20260619",
           "type": "negative",
@@ -66,6 +60,12 @@
           "date": "20260614",
           "type": "positive",
           "headline": "US asks Anthropic to block global access to top AI models: Why it matters",
+          "score": 1
+        },
+        {
+          "date": "20260613",
+          "type": "positive",
+          "headline": "US orders Anthropic to disable AI models for all foreign nationals",
           "score": 1
         }
       ]
@@ -110,8 +110,14 @@
     "방산": {
       "score": 10,
       "positive_count": 43,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20260620",
+          "type": "negative",
+          "headline": "달러-원, 이스라엘·헤즈볼라 휴전에 하락 후 되돌림…1,531원 마감",
+          "score": -1
+        },
         {
           "date": "20260620",
           "type": "negative",
@@ -135,12 +141,6 @@
           "type": "positive",
           "headline": "[거시분석] In Trump's shadow, Vance becomes face of Iran...",
           "score": 3
-        },
-        {
-          "date": "20260619",
-          "type": "negative",
-          "headline": "베르사유궁 종전 서명 후…파리서 이란 반정부 집회 돌연 금지",
-          "score": -1
         }
       ]
     },
@@ -252,9 +252,15 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 9,
+      "positive_count": 10,
       "negative_count": 26,
       "recent_events": [
+        {
+          "date": "20260620",
+          "type": "positive",
+          "headline": "달러-원, 이스라엘·헤즈볼라 휴전에 하락 후 되돌림…1,531원 마감",
+          "score": 1
+        },
         {
           "date": "20260620",
           "type": "positive",
@@ -271,18 +277,12 @@
           "date": "20260620",
           "type": "negative",
           "headline": "[거시분석] In Trump's shadow, Vance becomes face of Iran...",
-          "score": -7
+          "score": -4
         },
         {
           "date": "20260619",
           "type": "positive",
           "headline": "베르사유궁 종전 서명 후…파리서 이란 반정부 집회 돌연 금지",
-          "score": 1
-        },
-        {
-          "date": "20260619",
-          "type": "positive",
-          "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
           "score": 1
         }
       ]
@@ -956,6 +956,15 @@
     },
     {
       "date": "20260620",
+      "headline": "달러-원, 이스라엘·헤즈볼라 휴전에 하락 후 되돌림…1,531원 마감",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260620",
       "headline": "\"무력충돌 이스라엘-헤즈볼라, 美·카타르 중재로 휴전 합의\"",
       "impacts": {
         "방산": -1,
@@ -986,13 +995,12 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -7,
-        "반도체·AI": -2
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 50,
-  "total_positives": 71,
+  "total_positives": 72,
   "risk_level": "EXTREME"
 }
