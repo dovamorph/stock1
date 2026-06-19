@@ -110,18 +110,23 @@ def fetch_market_signal(tok) -> dict:
             items = rjson.get("output2", rjson.get("output",[]))
             if items:
                 today_str  = now.strftime("%Y%m%d")
-                latest     = items[0]
+                latest     = max(items, key=lambda x: x.get("stck_bsop_date",""))  # 응답 정렬 무관 최신 거래일 행
                 item_date  = latest.get("stck_bsop_date","")
                 item_ctrt  = sf(latest.get("bstp_nmix_prdy_ctrt", 0))
                 item_close = sf(latest.get("bstp_nmix_prpr", 0))
-                # 오늘 데이터가 있으면 ch1 직접 사용, 없으면 prices로 계산
-                if item_date == today_str and item_ctrt != 0 and item_close > 0:
+                # 오늘 KIS 데이터가 있으면 라이브값 사용 (fdr 일별종가보다 신선)
+                if item_date == today_str and item_close > 0:
                     result["kospi_ch1"]   = round(item_ctrt, 2)
                     result["kospi_close"] = round(item_close, 2)
                     print(f"  KOSPI 당일: {item_close:,.2f} ({item_ctrt:+.2f}%) [KIS]")
-                # MA/RSI용 가격 배열
-                prices_raw = [sf(x.get("bstp_nmix_prpr",0)) for x in items]
+                else:
+                    print(f"  ⚠️ KIS KOSPI 최신행={item_date or '없음'} (오늘 {today_str} 아님/종가0) → fdr 사용")
+                # MA/RSI용 가격 배열 (날짜 내림차순 정렬해 최신이 맨 앞)
+                prices_raw = [sf(x.get("bstp_nmix_prpr",0)) for x in sorted(items, key=lambda x: x.get("stck_bsop_date",""), reverse=True)]
                 kis_prices = [p for p in prices_raw if p > 0]
+            else:
+                print("  ⚠️ KIS KOSPI 지수 응답 비어있음 → fdr 사용")
+                kis_prices = []
         except Exception as e:
             print(f"  ⚠️ KIS 일별 차트 오류: {e}")
             items = []; kis_prices = []
@@ -139,14 +144,18 @@ def fetch_market_signal(tok) -> dict:
             items_kq = rjson_kq.get("output2", rjson_kq.get("output",[]))
             if items_kq:
                 today_str   = now.strftime("%Y%m%d")
-                latest_kq   = items_kq[0]
+                latest_kq   = max(items_kq, key=lambda x: x.get("stck_bsop_date",""))  # 정렬 무관 최신 거래일 행
                 kq_date     = latest_kq.get("stck_bsop_date","")
                 kq_ctrt     = sf(latest_kq.get("bstp_nmix_prdy_ctrt", 0))
                 kq_close_k  = sf(latest_kq.get("bstp_nmix_prpr", 0))
-                if kq_date == today_str and kq_ctrt != 0 and kq_close_k > 0:
+                if kq_date == today_str and kq_close_k > 0:
                     result["kosdaq_ch1"]   = round(kq_ctrt, 2)
                     result["kosdaq_close"] = round(kq_close_k, 2)
                     print(f"  KOSDAQ 당일: {kq_close_k:,.2f} ({kq_ctrt:+.2f}%) [KIS]")
+                else:
+                    print(f"  ⚠️ KIS KOSDAQ 최신행={kq_date or '없음'} (오늘 {today_str} 아님/종가0) → fdr 사용")
+            else:
+                print("  ⚠️ KIS KOSDAQ 지수 응답 비어있음 → fdr 사용")
         except Exception as e:
             print(f"  ⚠️ KIS KOSDAQ 차트 오류: {e}")
 
