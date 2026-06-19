@@ -347,13 +347,13 @@ def fetch_us_signal() -> dict:
     try:
         now = datetime.now()
         s   = (now - timedelta(days=90)).strftime("%Y-%m-%d")
-        e   = now.strftime("%Y-%m-%d")
+        e_dt = now.strftime("%Y-%m-%d")   # 종료일 (except의 e와 이름충돌 방지 위해 e_dt 사용)
         scores = []; reasons = []
 
         for ticker, key in [("^GSPC","sp500"), ("^IXIC","ndx")]:
             try:
                 t_obj = yf.Ticker(ticker)
-                df = t_obj.history(start=s, end=e)
+                df = t_obj.history(start=s, end=e_dt)
                 if df is None or len(df) < 5: continue
                 prices = list(df["Close"].dropna())
                 close = float(prices[-1])
@@ -396,10 +396,10 @@ def fetch_us_signal() -> dict:
             except Exception as e:
                 print(f"  {ticker} 조회 오류: {e}")
 
-        vix_close = 0; vix_level = "보통"
+        vix_close = result.get("vix_close", 0); vix_level = result.get("vix_level", "보통")  # 실패 시 us_market.json 로드값 유지(0 덮어쓰기 방지)
         try:
             vix_obj = yf.Ticker("^VIX")
-            df_vix = vix_obj.history(start=s, end=e)
+            df_vix = vix_obj.history(start=s, end=e_dt)
             if df_vix is not None and len(df_vix) >= 1:
                 vix_close = round(float(list(df_vix["Close"].dropna())[-1]), 2)
                 if vix_close < 15:    vix_level = "과열낙관"; reasons.append(f"VIX {vix_close:.1f} 과열낙관 (조심)")
