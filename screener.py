@@ -594,7 +594,7 @@ def load_candidates():
 def fetch_price_info(tok, ticker):
     r={"per":0.,"pbr":0.,"eps":0.,"bps":0.,"roe":0.,
        "close":0.,"acml_tr_pbmn":0.,"tvol_today":0,
-       "prdy_ctrt":0.}   # ← 전일대비 등락률 추가 (ADR용)
+       "prdy_ctrt":0.,"mktcap":0.}   # ← 전일대비 등락률(ADR용) + 시가총액(대형주 판정용)
     try:
         res=requests.get(f"{BASE}/uapi/domestic-stock/v1/quotations/inquire-price",
             headers=H(tok,"FHKST01010100"),timeout=10,
@@ -608,6 +608,7 @@ def fetch_price_info(tok, ticker):
         r["eps"]  = sf(o.get("eps"))
         r["bps"]  = sf(o.get("bps"))
         r["prdy_ctrt"] = sf(o.get("prdy_ctrt"))   # 전일대비 등락률(%)
+        r["mktcap"]    = sf(o.get("hts_avls", 0))  # 시가총액(억원) — 대형주 판정용
         if r["bps"]>0: r["roe"]=round(r["eps"]/r["bps"]*100,1)
     except Exception as e: print(f"    현재가오류({ticker}):{e}")
     return r
@@ -653,6 +654,7 @@ def select_top40(tok, candidates):
             "pbr":row.get("pbr",0.),"eps":row.get("eps",0.),"bps":row.get("bps",0.),
             "roe":row.get("roe",0.),"close":row.get("close",0.),
             "prdy_ctrt":row.get("prdy_ctrt",0.),   # 실시간 전일대비 등락률 (vol_char용)
+            "mktcap":row.get("mktcap",0.),         # 시가총액(억원) — 대형주 판정용
         })
     print(f"\n  거래대금 상위 {len(result)}종목:")
     for r in result[:5]: print(f"    {r['rank']:2d}. {r['name']} ({r['market']}) — {r['tvol']:,}억")
@@ -766,6 +768,53 @@ FINANCE_TICKERS = {
     "005940","078020","008560","001290","023150","007770","011370",
     "012510","000810","032830","088350","005830","029780",
 }
+
+# ── 시가총액 분류 + 시장 폭/대형주 국면 판정 ──────────────────────────
+CAP_LARGE_MIN = 10_000   # 대형주 시총 하한 (억원) = 1조
+CAP_MID_MIN   = 3_000    # 중형주 시총 하한 (억원) = 3천억
+
+def classify_cap(mktcap: float) -> str:
+    """시가총액(억원) → 대형/중형/소형/미상"""
+    if not mktcap or mktcap <= 0:
+        return "미상"
+    if mktcap >= CAP_LARGE_MIN:
+        return "대형"
+    if mktcap >= CAP_MID_MIN:
+        return "중형"
+    return "소형"
+
+def classify_breadth_regime(ms: dict) -> dict:
+    """KOSPI 흐름 + KOSDAQ 흐름 + ADR → 시장 폭/대형주 국면 판정.
+    regime ∈ 광범위강세 / 대형주차별화 / 중소형우위 / 순환조정 / 전면약세 / 혼조
+    반환: {"regime","label","desc", + 근거값들}"""
+    kospi_ch1  = float(ms.get("kospi_ch1", 0))
+    kosdaq_ch1 = float(ms.get("kosdaq_ch1", 0))
+    aligned    = ms.get("aligned", "")
+    adr        = float(ms.get("adr", 50))
+
+    idx_up   = (kospi_ch1 >= 0.3) or (aligned == "정배열")     # 지수 상승
+    idx_down = (kospi_ch1 <= -0.3) or (aligned == "역배열")    # 지수 하락
+    large_lead = (kospi_ch1 - kosdaq_ch1) >= 0.5               # 대형주(코스피) 우위
+    small_lead = (kosdaq_ch1 - kospi_ch1) >= 0.5               # 중소형(코스닥) 우위
+    broad  = adr >= 50                                          # 폭 넓음
+    narrow = adr < 35                                           # 폭 좁음
+
+    if idx_up and narrow and large_lead:
+        r, lbl, d = "대형주차별화", "대형주차별화 🔵", "지수↑·폭 좁음·대형주 쏠림 — 대형주만"
+    elif idx_up and broad:
+        r, lbl, d = "광범위강세", "광범위강세 🟢", "지수↑·폭 넓음 — 전 종목 건강"
+    elif small_lead and kosdaq_ch1 > 0:
+        r, lbl, d = "중소형우위", "중소형우위 🟡", "코스닥>코스피 — 중소형/테마 장"
+    elif idx_down and narrow:
+        r, lbl, d = "전면약세", "전면약세 🔴", "지수↓·폭 좁음 — 신규매수 보수적"
+    elif idx_down and broad:
+        r, lbl, d = "순환조정", "순환조정 🟠", "대형주 쉬고 폭은 생존 — 순환매"
+    else:
+        r, lbl, d = "혼조", "혼조 ⚪", "뚜렷한 쏠림 없음"
+
+    return {"regime": r, "label": lbl, "desc": d,
+            "kospi_ch1": round(kospi_ch1, 2), "kosdaq_ch1": round(kosdaq_ch1, 2),
+            "adr": round(adr, 1)}
 
 def calc_entry_score(d: dict, kospi_ch1: float = 0.0, adr: float = 50.0) -> dict:
     """진입 타이밍 점수 (0~10점). 지금 사기 좋은 타이밍인지 종합 평가.
@@ -944,6 +993,11 @@ def main():
     # market_signal에 ADR 추가 (VKOSPI는 신뢰할 데이터 소스가 없어 제거됨)
     market_signal.update(adr_data)
 
+    # ── 시장 폭/대형주 국면 판정 (KOSPI+KOSDAQ+ADR 종합) ──────────────
+    breadth = classify_breadth_regime(market_signal)
+    market_signal["breadth"] = breadth
+    print(f"  📐 시장 폭 국면: {breadth['label']} — {breadth['desc']}")
+
     # ── 순위 변동 계산 ─────────────────────────────────────────────
     for item in top40:
         prev_rank = prev_ranks.get(item["ticker"], 0)
@@ -977,6 +1031,7 @@ def main():
             else:                vc = "혼조 ⚪"
             data["vol_char"] = vc
             data["ch1"]      = ch1_rt
+            data["cap_class"] = classify_cap(float(data.get("mktcap", 0) or 0))  # 대형/중형/소형/미상
 
             # 진입 타이밍 점수 계산 (시장 상황 반영)
             _kospi_ch1 = float(market_signal.get("kospi_ch1", 0))
@@ -998,6 +1053,25 @@ def main():
             )
         except Exception: print("오류"); traceback.print_exc()
         time.sleep(0.3)
+
+    # ── 후보군 전체 수급 요약 (top40 묶어서 자금 쏠림 파악) ──────────
+    _vc = lambda r: r.get("vol_char", "")
+    pool_buy   = sum(1 for r in results if "매수주도" in _vc(r))
+    pool_sell  = sum(1 for r in results if "매도주도" in _vc(r))
+    pool_up    = sum(1 for r in results if "상승동반" in _vc(r))
+    pool_down  = sum(1 for r in results if "하락동반" in _vc(r))
+    pool_fpos  = sum(1 for r in results if int(r.get("frgn_net", 0) or 0) > 0)
+    pool_fneg  = sum(1 for r in results if int(r.get("frgn_net", 0) or 0) < 0)
+    pool_large = sum(1 for r in results if r.get("cap_class") == "대형")
+    market_signal["pool_flow"] = {
+        "total": len(results), "buy_led": pool_buy, "sell_led": pool_sell,
+        "up_follow": pool_up, "down_follow": pool_down,
+        "frgn_pos": pool_fpos, "frgn_neg": pool_fneg, "large_cap": pool_large,
+    }
+    _flow = "매수우위" if pool_buy > pool_sell else ("매도우위" if pool_sell > pool_buy else "중립")
+    _frgn = "순매수우위" if pool_fpos > pool_fneg else ("순매도우위" if pool_fneg > pool_fpos else "중립")
+    print(f"\n  🌊 후보군 수급: 매수주도 {pool_buy} / 매도주도 {pool_sell} ({_flow}) | "
+          f"외인 {_frgn}({pool_fpos}↑/{pool_fneg}↓) | 대형주 {pool_large}/{len(results)}")
 
     recs=[r for r in results if r.get("recommended")]
     print(f"\n{'─'*70}")
