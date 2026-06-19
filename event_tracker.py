@@ -199,30 +199,12 @@ GEO_CATEGORY_SECTOR_MAP = {
 }
 
 # ── 예정 이벤트 캘린더 ────────────────────────────────────────────────
-# 이벤트 지나면 날짜 업데이트 필요
+# [관리 방법]
+#  · 지난 이벤트는 화면에서 자동으로 숨겨짐(D-day 필터). 목록에 남겨둬도 되지만 깔끔하게 지워도 됨.
+#  · 새 이벤트는 미래 날짜로 추가. date는 "YYYY-MM-DD" 형식.
+#  · "result_text"(선택): 이벤트 당일에 결과를 보여주고 싶을 때 한 줄 적으면
+#    그날 화면에 "✅ 결과: ..."로 표시됨 (없으면 예고 문구만 표시). 결과는 직접 확인해서 기입.
 CALENDAR_EVENTS = [
-    {
-        "id": "spacex_ipo_2026",
-        "name": "스페이스X IPO",
-        "date": "2026-06-12",
-        "type": "ipo",
-        "risk_level": "high",
-        "description": "역대 최대 공모(750억달러)로 글로벌 자금이 쏠리면서 기존 보유 주식을 팔아 현금을 확보하는 움직임 예고. 반도체·성장주 중심으로 외국인 매도세 강화 가능성.",
-        "benefit_text": "우주ETF ▲▲▲",
-        "damage_text": "반도체·AI ▼▼  성장주 ▼",
-        "sector_impacts": {"반도체·AI": -2, "우주ETF": 3, "전체시장": -1}
-    },
-    {
-        "id": "fed_jun2026",
-        "name": "Fed 금리 결정",
-        "date": "2026-06-18",
-        "type": "fed",
-        "risk_level": "medium",
-        "description": "금리 동결 예상. 인하 시그널이 나오면 성장주·건설·증권 강세 (은행·보험은 마진 축소로 약세). 예상 밖 인상 시그널 시 전체 시장 충격 가능.",
-        "benefit_text": "인하 시: 성장주 ▲▲  건설 ▲  증권 ▲  (은행·보험 ▼)",
-        "damage_text": "인상 시: 전체장 ▼▼  성장주 ▼▼",
-        "sector_impacts": {"금융": 1, "건설": 1, "전체시장": 1}
-    },
     {
         "id": "nvidia_q2_2026",
         "name": "NVIDIA 2분기 실적",
@@ -232,6 +214,7 @@ CALENDAR_EVENTS = [
         "description": "AI 수요 확인의 가늠자. 어닝 서프라이즈 시 반도체 전체 랠리. 실망 시 AI테마 전반 조정.",
         "benefit_text": "호실적: 반도체·AI ▲▲▲  소부장 ▲▲",
         "damage_text": "실망: 반도체·AI ▼▼  AI테마 ▼▼",
+        "result_text": "",   # 당일에 결과 기입 시 화면에 "✅ 결과: ..." 표시 (예: "어닝 서프라이즈, 가이던스 상향")
         "sector_impacts": {"반도체·AI": 3, "로봇": 1, "전력·에너지": 1}
     },
 ]
@@ -338,22 +321,28 @@ def main():
     print(f"  StockPilot KR — 이벤트 트래커  {now.strftime('%Y%m%d %H:%M KST')}")
     print(f"{'='*50}")
 
-    # ── 캘린더 D-day 계산 (D-3 ~ D+30만 표시) ────────────────────────
+    # ── 캘린더 D-day 계산 (오늘 D-0 ~ 미래 D-30만 표시, 지난 이벤트는 숨김) ──
+    # d_day > 0: 미래(D-N), d_day == 0: 오늘(당일), d_day < 0: 과거(숨김)
+    # 지난 이벤트는 화면에서 제거. 단, 당일(d_day==0)이고 result_text가 있으면 결과 표시.
     calendar = []
     for ev in CALENDAR_EVENTS:
         try:
             ev_date = datetime.date.fromisoformat(ev["date"])
             d_day   = (ev_date - today).days
-            if -3 <= d_day <= 30:
+            if 0 <= d_day <= 30:
                 calendar.append({**ev, "d_day": d_day})
         except:
             pass
     calendar.sort(key=lambda x: x["d_day"])
 
-    print(f"\n  [캘린더] 향후 이벤트: {len(calendar)}개")
+    print(f"\n  [캘린더] 예정 이벤트: {len(calendar)}개")
     for ev in calendar:
-        tag = f"D-{ev['d_day']}" if ev["d_day"] >= 0 else f"D+{abs(ev['d_day'])}"
-        print(f"    {tag:5s}  {ev['name']} ({ev['date']})")
+        tag = "D-DAY" if ev["d_day"] == 0 else f"D-{ev['d_day']}"
+        # 당일이고 결과(result_text)가 있으면 결과를, 없으면 예정 표시
+        if ev["d_day"] == 0 and ev.get("result_text"):
+            print(f"    {tag:6s} {ev['name']} ({ev['date']}) → ✅ 결과: {ev['result_text']}")
+        else:
+            print(f"    {tag:6s} {ev['name']} ({ev['date']})")
 
     # ── 뉴스 분류 ────────────────────────────────────────────────────
     geo_news, geo_categories = load_geo_result()
