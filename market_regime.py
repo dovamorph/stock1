@@ -38,48 +38,49 @@ REGIME_PARAMS = {
         "allow_new_longterm":  True,
         "allow_new_daytrend":  True,
         "position_multiplier": 1.0,       # 기본 포지션 배율
-        "long_tp":             [0.12, 0.20, 0.30],  # 장투 익절
-        "short_tp":            [0.08, 0.12, 0.16],  # 단타 익절
-        "long_sl":             -0.10,     # 장투 손절
-        "short_sl":            -0.05,     # 단타 손절
+        # 익절/손절은 trader.py 실제 매매값(스윙)과 일치 — trader.py STOP_LOSS/TP1/TP2 기준
+        "long_tp":             [0.30, 0.40],  # 스윙 익절 +30%/+40%
+        "short_tp":            [0.30, 0.40],
+        "long_sl":             -0.15,     # 스윙 손절 -15%
+        "short_sl":            -0.15,
         "min_buy_score":       5,          # 매수 최소 점수
-        "trailing_stop":       0.04,       # 트레일링 스탑
+        "trailing_stop":       0.10,       # 트레일링 되돌림 -10% (발동 +20%)
     },
     "SIDEWAYS": {
         "label":               "횡보장 🟡",
         "allow_new_longterm":  True,       # 장투 허용 (단타 폐기 → 장투만 운용, 배율로 제어)
         "allow_new_daytrend":  False,      # 단타 폐기
         "position_multiplier": 0.6,        # 횡보장 배율 (0.7→0.6으로 보수적 조정)
-        "long_tp":             [0.08, 0.15, 0.22],
-        "short_tp":            [0.06, 0.09, 0.12],
-        "long_sl":             -0.08,
-        "short_sl":            -0.05,
+        "long_tp":             [0.30, 0.40],
+        "short_tp":            [0.30, 0.40],
+        "long_sl":             -0.15,
+        "short_sl":            -0.15,
         "min_buy_score":       6,
-        "trailing_stop":       0.03,
+        "trailing_stop":       0.10,
     },
     "BEAR": {
         "label":               "약세장 🔴",
         "allow_new_longterm":  False,
         "allow_new_daytrend":  False,
         "position_multiplier": 0.0,        # 신규매수 없음
-        "long_tp":             [0.05, 0.09, 0.13],
-        "short_tp":            [0.04, 0.07, 0.10],
-        "long_sl":             -0.06,      # 손절 더 타이트
-        "short_sl":            -0.04,
+        "long_tp":             [0.30, 0.40],
+        "short_tp":            [0.30, 0.40],
+        "long_sl":             -0.15,
+        "short_sl":            -0.15,
         "min_buy_score":       9,           # 사실상 매수 불가
-        "trailing_stop":       0.02,
+        "trailing_stop":       0.10,
     },
     "UNKNOWN": {
         "label":               "판단불가 ⚪",
         "allow_new_longterm":  False,
         "allow_new_daytrend":  False,   # 단타 전략 폐기에 맞게 수정
         "position_multiplier": 0.5,
-        "long_tp":             [0.08, 0.15, 0.22],
-        "short_tp":            [0.06, 0.09, 0.12],
-        "long_sl":             -0.08,
-        "short_sl":            -0.05,
+        "long_tp":             [0.30, 0.40],
+        "short_tp":            [0.30, 0.40],
+        "long_sl":             -0.15,
+        "short_sl":            -0.15,
         "min_buy_score":       7,
-        "trailing_stop":       0.03,
+        "trailing_stop":       0.10,
     },
 }
 
