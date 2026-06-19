@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20T03:01:21.082966+09:00",
+  "updated_at": "2026-06-20T06:12:48.139660+09:00",
   "date": "20260620",
   "window_days": 14,
   "sectors": [
@@ -71,16 +71,10 @@
       ]
     },
     "건설": {
-      "score": -4,
+      "score": -2,
       "positive_count": 9,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20260620",
-          "type": "negative",
-          "headline": "[거시분석] In Trump's shadow, Vance becomes face of Iran...",
-          "score": -2
-        },
         {
           "date": "20260619",
           "type": "negative",
@@ -104,43 +98,49 @@
           "type": "positive",
           "headline": "[미·이란 종전] 볼턴 \"이란, 트럼프 갖고놀며 유리한 합의 끌어내\"",
           "score": 1
+        },
+        {
+          "date": "20260616",
+          "type": "negative",
+          "headline": "[거시분석] Iran deal presents political nightmare for Ne...",
+          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 43,
-      "negative_count": 10,
+      "positive_count": 42,
+      "negative_count": 8,
       "recent_events": [
         {
           "date": "20260620",
           "type": "negative",
-          "headline": "달러-원, 이스라엘·헤즈볼라 휴전에 하락 후 되돌림…1,531원 마감",
-          "score": -1
-        },
-        {
-          "date": "20260620",
-          "type": "negative",
-          "headline": "\"무력충돌 이스라엘-헤즈볼라, 美·카타르 중재로 휴전 합의\"",
+          "headline": "美언론 \"트럼프, 이스라엘측과 통화해 헤즈볼라와 휴전 요구\"",
           "score": -1
         },
         {
           "date": "20260620",
           "type": "positive",
-          "headline": "이란, 이스라엘의 레바논 공습 규탄…\"책임은 미국에\"",
+          "headline": "[거시분석] Israel and Hezbollah agree ceasefire, US says...",
           "score": 1
         },
         {
-          "date": "20260620",
+          "date": "20260619",
           "type": "negative",
-          "headline": "이란 강경 매체들 \"이스라엘 휴전 위반…호르무즈 재봉쇄해야\"",
+          "headline": "베르사유궁 종전 서명 후…파리서 이란 반정부 집회 돌연 금지",
           "score": -1
         },
         {
-          "date": "20260620",
+          "date": "20260619",
           "type": "positive",
-          "headline": "[거시분석] In Trump's shadow, Vance becomes face of Iran...",
+          "headline": "[거시분석] US-Iran talks postponed as Vance pulls out of...",
           "score": 3
+        },
+        {
+          "date": "20260618",
+          "type": "positive",
+          "headline": "The bikers battling extreme heat and armed conflict to smuggle Iranian fuel to Pakistan",
+          "score": 1
         }
       ]
     },
@@ -252,37 +252,37 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 10,
+      "positive_count": 8,
       "negative_count": 26,
       "recent_events": [
         {
           "date": "20260620",
           "type": "positive",
-          "headline": "달러-원, 이스라엘·헤즈볼라 휴전에 하락 후 되돌림…1,531원 마감",
-          "score": 1
-        },
-        {
-          "date": "20260620",
-          "type": "positive",
-          "headline": "\"무력충돌 이스라엘-헤즈볼라, 美·카타르 중재로 휴전 합의\"",
-          "score": 1
-        },
-        {
-          "date": "20260620",
-          "type": "positive",
-          "headline": "이란 강경 매체들 \"이스라엘 휴전 위반…호르무즈 재봉쇄해야\"",
+          "headline": "美언론 \"트럼프, 이스라엘측과 통화해 헤즈볼라와 휴전 요구\"",
           "score": 1
         },
         {
           "date": "20260620",
           "type": "negative",
-          "headline": "[거시분석] In Trump's shadow, Vance becomes face of Iran...",
-          "score": -4
+          "headline": "[거시분석] Israel and Hezbollah agree ceasefire, US says...",
+          "score": -2
         },
         {
           "date": "20260619",
           "type": "positive",
           "headline": "베르사유궁 종전 서명 후…파리서 이란 반정부 집회 돌연 금지",
+          "score": 1
+        },
+        {
+          "date": "20260619",
+          "type": "positive",
+          "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
+          "score": 1
+        },
+        {
+          "date": "20260619",
+          "type": "positive",
+          "headline": "[표] 주간 거래소 외국인 순매수도 상위종목",
           "score": 1
         }
       ]
@@ -956,7 +956,7 @@
     },
     {
       "date": "20260620",
-      "headline": "달러-원, 이스라엘·헤즈볼라 휴전에 하락 후 되돌림…1,531원 마감",
+      "headline": "美언론 \"트럼프, 이스라엘측과 통화해 헤즈볼라와 휴전 요구\"",
       "impacts": {
         "방산": -1,
         "전체시장": 1
@@ -965,42 +965,15 @@
     },
     {
       "date": "20260620",
-      "headline": "\"무력충돌 이스라엘-헤즈볼라, 美·카타르 중재로 휴전 합의\"",
+      "headline": "[거시분석] Israel and Hezbollah agree ceasefire, US says...",
       "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260620",
-      "headline": "이란, 이스라엘의 레바논 공습 규탄…\"책임은 미국에\"",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260620",
-      "headline": "이란 강경 매체들 \"이스라엘 휴전 위반…호르무즈 재봉쇄해야\"",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260620",
-      "headline": "[거시분석] In Trump's shadow, Vance becomes face of Iran...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -4
+        "방산": 1,
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 50,
-  "total_positives": 72,
+  "total_negatives": 47,
+  "total_positives": 69,
   "risk_level": "EXTREME"
 }
