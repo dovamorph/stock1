@@ -422,7 +422,7 @@ def main():
     market_raw = sum(ev.get("impacts", {}).get("전체시장", 0) for ev in history)
     if market_raw <= -5:    risk_level = "EXTREME"
     elif market_raw <= -3:  risk_level = "HIGH"
-    elif market_score <= -1:  risk_level = "MEDIUM"
+    elif market_raw <= -1:  risk_level = "MEDIUM"
     else:                     risk_level = "LOW"
 
     # ── 저장 ─────────────────────────────────────────────────────────
