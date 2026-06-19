@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-19T19:43:47.236080+09:00",
-  "date": "20260619",
+  "updated_at": "2026-06-20T00:27:58.707830+09:00",
+  "date": "20260620",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -29,15 +29,21 @@
         "로봇": 1,
         "전력·에너지": 1
       },
-      "d_day": 6
+      "d_day": 5
     }
   ],
   "sector_stats": {
     "반도체·AI": {
-      "score": -4,
+      "score": -6,
       "positive_count": 2,
-      "negative_count": 3,
+      "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20260620",
+          "type": "negative",
+          "headline": "[거시분석] In Trump's shadow, Vance becomes face of Iran...",
+          "score": -2
+        },
         {
           "date": "20260619",
           "type": "negative",
@@ -61,20 +67,20 @@
           "type": "positive",
           "headline": "US asks Anthropic to block global access to top AI models: Why it matters",
           "score": 1
-        },
-        {
-          "date": "20260613",
-          "type": "positive",
-          "headline": "US orders Anthropic to disable AI models for all foreign nationals",
-          "score": 1
         }
       ]
     },
     "건설": {
-      "score": -2,
+      "score": -4,
       "positive_count": 9,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260620",
+          "type": "negative",
+          "headline": "[거시분석] In Trump's shadow, Vance becomes face of Iran...",
+          "score": -2
+        },
         {
           "date": "20260619",
           "type": "negative",
@@ -98,48 +104,42 @@
           "type": "positive",
           "headline": "[미·이란 종전] 볼턴 \"이란, 트럼프 갖고놀며 유리한 합의 끌어내\"",
           "score": 1
-        },
-        {
-          "date": "20260616",
-          "type": "negative",
-          "headline": "[거시분석] Iran deal presents political nightmare for Ne...",
-          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 41,
-      "negative_count": 7,
+      "positive_count": 43,
+      "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20260620",
+          "type": "negative",
+          "headline": "\"무력충돌 이스라엘-헤즈볼라, 美·카타르 중재로 휴전 합의\"",
+          "score": -1
+        },
+        {
+          "date": "20260620",
+          "type": "positive",
+          "headline": "이란, 이스라엘의 레바논 공습 규탄…\"책임은 미국에\"",
+          "score": 1
+        },
+        {
+          "date": "20260620",
+          "type": "negative",
+          "headline": "이란 강경 매체들 \"이스라엘 휴전 위반…호르무즈 재봉쇄해야\"",
+          "score": -1
+        },
+        {
+          "date": "20260620",
+          "type": "positive",
+          "headline": "[거시분석] In Trump's shadow, Vance becomes face of Iran...",
+          "score": 3
+        },
         {
           "date": "20260619",
           "type": "negative",
           "headline": "베르사유궁 종전 서명 후…파리서 이란 반정부 집회 돌연 금지",
-          "score": -1
-        },
-        {
-          "date": "20260619",
-          "type": "positive",
-          "headline": "[거시분석] US-Iran talks postponed as Vance pulls out of...",
-          "score": 3
-        },
-        {
-          "date": "20260618",
-          "type": "positive",
-          "headline": "The bikers battling extreme heat and armed conflict to smuggle Iranian fuel to Pakistan",
-          "score": 1
-        },
-        {
-          "date": "20260618",
-          "type": "positive",
-          "headline": "러·우크라, 교전 격화 속 전사자 시신 교환",
-          "score": 1
-        },
-        {
-          "date": "20260618",
-          "type": "negative",
-          "headline": "[월드&포토] 베르사유궁서 종전 MOU 서명한 트럼프…마크롱 \"브라보\"",
           "score": -1
         }
       ]
@@ -252,9 +252,27 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 7,
-      "negative_count": 25,
+      "positive_count": 9,
+      "negative_count": 26,
       "recent_events": [
+        {
+          "date": "20260620",
+          "type": "positive",
+          "headline": "\"무력충돌 이스라엘-헤즈볼라, 美·카타르 중재로 휴전 합의\"",
+          "score": 1
+        },
+        {
+          "date": "20260620",
+          "type": "positive",
+          "headline": "이란 강경 매체들 \"이스라엘 휴전 위반…호르무즈 재봉쇄해야\"",
+          "score": 1
+        },
+        {
+          "date": "20260620",
+          "type": "negative",
+          "headline": "[거시분석] In Trump's shadow, Vance becomes face of Iran...",
+          "score": -7
+        },
         {
           "date": "20260619",
           "type": "positive",
@@ -265,24 +283,6 @@
           "date": "20260619",
           "type": "positive",
           "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
-          "score": 1
-        },
-        {
-          "date": "20260619",
-          "type": "positive",
-          "headline": "[표] 주간 거래소 외국인 순매수도 상위종목",
-          "score": 1
-        },
-        {
-          "date": "20260619",
-          "type": "negative",
-          "headline": "[거시분석] US-Iran talks postponed as Vance pulls out of...",
-          "score": -6
-        },
-        {
-          "date": "20260618",
-          "type": "positive",
-          "headline": "[월드&포토] 베르사유궁서 종전 MOU 서명한 트럼프…마크롱 \"브라보\"",
           "score": 1
         }
       ]
@@ -953,9 +953,46 @@
         "반도체·AI": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260620",
+      "headline": "\"무력충돌 이스라엘-헤즈볼라, 美·카타르 중재로 휴전 합의\"",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260620",
+      "headline": "이란, 이스라엘의 레바논 공습 규탄…\"책임은 미국에\"",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260620",
+      "headline": "이란 강경 매체들 \"이스라엘 휴전 위반…호르무즈 재봉쇄해야\"",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260620",
+      "headline": "[거시분석] In Trump's shadow, Vance becomes face of Iran...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -7,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 45,
-  "total_positives": 67,
+  "total_negatives": 50,
+  "total_positives": 71,
   "risk_level": "EXTREME"
 }
