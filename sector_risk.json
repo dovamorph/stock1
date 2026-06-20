@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20T18:23:17.708255+09:00",
+  "updated_at": "2026-06-20T20:59:36.199921+09:00",
   "date": "20260620",
   "window_days": 14,
   "sectors": [
@@ -78,7 +78,7 @@
         {
           "date": "20260620",
           "type": "negative",
-          "headline": "[거시분석] Israel and Hezbollah agree ceasefire, US says...",
+          "headline": "[거시분석] Israel and Hezbollah continue strikes despite...",
           "score": -2
         },
         {
@@ -115,13 +115,13 @@
         {
           "date": "20260620",
           "type": "negative",
-          "headline": "\"이스라엘, 휴전합의에도 레바논 남부 또 때려 5명 사망\"",
+          "headline": "Israel and Hezbollah continue strikes despite ceasefire agreement",
           "score": -1
         },
         {
           "date": "20260620",
           "type": "positive",
-          "headline": "[거시분석] Israel and Hezbollah agree ceasefire, US says...",
+          "headline": "[거시분석] Israel and Hezbollah continue strikes despite...",
           "score": 3
         },
         {
@@ -252,7 +252,7 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 9,
+      "positive_count": 8,
       "negative_count": 26,
       "recent_events": [
         {
@@ -263,15 +263,9 @@
         },
         {
           "date": "20260620",
-          "type": "positive",
-          "headline": "\"이스라엘, 휴전합의에도 레바논 남부 또 때려 5명 사망\"",
-          "score": 1
-        },
-        {
-          "date": "20260620",
           "type": "negative",
-          "headline": "[거시분석] Israel and Hezbollah agree ceasefire, US says...",
-          "score": -3
+          "headline": "[거시분석] Israel and Hezbollah continue strikes despite...",
+          "score": -4
         },
         {
           "date": "20260619",
@@ -283,6 +277,12 @@
           "date": "20260619",
           "type": "positive",
           "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
+          "score": 1
+        },
+        {
+          "date": "20260619",
+          "type": "positive",
+          "headline": "[표] 주간 거래소 외국인 순매수도 상위종목",
           "score": 1
         }
       ]
@@ -956,6 +956,14 @@
     },
     {
       "date": "20260620",
+      "headline": "Israel and Hezbollah continue strikes despite ceasefire agreement",
+      "impacts": {
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260620",
       "headline": "아슬아슬 레바논 휴전…\"이스라엘, 휴전 이튿날 공습\"(종합)",
       "impacts": {
         "전체시장": 1
@@ -964,25 +972,16 @@
     },
     {
       "date": "20260620",
-      "headline": "\"이스라엘, 휴전합의에도 레바논 남부 또 때려 5명 사망\"",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260620",
-      "headline": "[거시분석] Israel and Hezbollah agree ceasefire, US says...",
+      "headline": "[거시분석] Israel and Hezbollah continue strikes despite...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -3
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 48,
-  "total_positives": 70,
+  "total_positives": 69,
   "risk_level": "EXTREME"
 }
