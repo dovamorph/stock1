@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20T13:02:32.057278+09:00",
+  "updated_at": "2026-06-20T18:23:17.708255+09:00",
   "date": "20260620",
   "window_days": 14,
   "sectors": [
@@ -71,10 +71,16 @@
       ]
     },
     "건설": {
-      "score": -2,
+      "score": -4,
       "positive_count": 9,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260620",
+          "type": "negative",
+          "headline": "[거시분석] Israel and Hezbollah agree ceasefire, US says...",
+          "score": -2
+        },
         {
           "date": "20260619",
           "type": "negative",
@@ -98,12 +104,6 @@
           "type": "positive",
           "headline": "[미·이란 종전] 볼턴 \"이란, 트럼프 갖고놀며 유리한 합의 끌어내\"",
           "score": 1
-        },
-        {
-          "date": "20260616",
-          "type": "negative",
-          "headline": "[거시분석] Iran deal presents political nightmare for Ne...",
-          "score": -1
         }
       ]
     },
@@ -115,14 +115,14 @@
         {
           "date": "20260620",
           "type": "negative",
-          "headline": "가을총선 직면한 네타냐후…美 \"이란 종전에 훼방\" 주의보",
+          "headline": "\"이스라엘, 휴전합의에도 레바논 남부 또 때려 5명 사망\"",
           "score": -1
         },
         {
           "date": "20260620",
           "type": "positive",
           "headline": "[거시분석] Israel and Hezbollah agree ceasefire, US says...",
-          "score": 1
+          "score": 3
         },
         {
           "date": "20260619",
@@ -252,20 +252,26 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 8,
+      "positive_count": 9,
       "negative_count": 26,
       "recent_events": [
         {
           "date": "20260620",
           "type": "positive",
-          "headline": "가을총선 직면한 네타냐후…美 \"이란 종전에 훼방\" 주의보",
+          "headline": "아슬아슬 레바논 휴전…\"이스라엘, 휴전 이튿날 공습\"(종합)",
+          "score": 1
+        },
+        {
+          "date": "20260620",
+          "type": "positive",
+          "headline": "\"이스라엘, 휴전합의에도 레바논 남부 또 때려 5명 사망\"",
           "score": 1
         },
         {
           "date": "20260620",
           "type": "negative",
           "headline": "[거시분석] Israel and Hezbollah agree ceasefire, US says...",
-          "score": -2
+          "score": -3
         },
         {
           "date": "20260619",
@@ -277,12 +283,6 @@
           "date": "20260619",
           "type": "positive",
           "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
-          "score": 1
-        },
-        {
-          "date": "20260619",
-          "type": "positive",
-          "headline": "[표] 주간 거래소 외국인 순매수도 상위종목",
           "score": 1
         }
       ]
@@ -956,7 +956,15 @@
     },
     {
       "date": "20260620",
-      "headline": "가을총선 직면한 네타냐후…美 \"이란 종전에 훼방\" 주의보",
+      "headline": "아슬아슬 레바논 휴전…\"이스라엘, 휴전 이튿날 공습\"(종합)",
+      "impacts": {
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260620",
+      "headline": "\"이스라엘, 휴전합의에도 레바논 남부 또 때려 5명 사망\"",
       "impacts": {
         "방산": -1,
         "전체시장": 1
@@ -967,13 +975,14 @@
       "date": "20260620",
       "headline": "[거시분석] Israel and Hezbollah agree ceasefire, US says...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -2
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -3
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 47,
-  "total_positives": 69,
+  "total_negatives": 48,
+  "total_positives": 70,
   "risk_level": "EXTREME"
 }
