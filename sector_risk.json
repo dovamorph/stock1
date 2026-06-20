@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20T20:59:36.199921+09:00",
+  "updated_at": "2026-06-20T23:25:39.945930+09:00",
   "date": "20260620",
   "window_days": 14,
   "sectors": [
@@ -110,12 +110,24 @@
     "방산": {
       "score": 10,
       "positive_count": 42,
-      "negative_count": 8,
+      "negative_count": 10,
       "recent_events": [
         {
           "date": "20260620",
           "type": "negative",
           "headline": "Israel and Hezbollah continue strikes despite ceasefire agreement",
+          "score": -1
+        },
+        {
+          "date": "20260620",
+          "type": "negative",
+          "headline": "Israeli strikes kill 32 in Lebanon, putting US-Iran peace talks in peril",
+          "score": -1
+        },
+        {
+          "date": "20260620",
+          "type": "negative",
+          "headline": "이란군 \"호르무즈 재봉쇄…미·이스라엘 종전 MOU 위반 탓\"",
           "score": -1
         },
         {
@@ -129,18 +141,6 @@
           "type": "negative",
           "headline": "베르사유궁 종전 서명 후…파리서 이란 반정부 집회 돌연 금지",
           "score": -1
-        },
-        {
-          "date": "20260619",
-          "type": "positive",
-          "headline": "[거시분석] US-Iran talks postponed as Vance pulls out of...",
-          "score": 3
-        },
-        {
-          "date": "20260618",
-          "type": "positive",
-          "headline": "The bikers battling extreme heat and armed conflict to smuggle Iranian fuel to Pakistan",
-          "score": 1
         }
       ]
     },
@@ -258,14 +258,14 @@
         {
           "date": "20260620",
           "type": "positive",
-          "headline": "아슬아슬 레바논 휴전…\"이스라엘, 휴전 이튿날 공습\"(종합)",
+          "headline": "이란군 \"호르무즈 재봉쇄…미·이스라엘 종전 MOU 위반 탓\"",
           "score": 1
         },
         {
           "date": "20260620",
           "type": "negative",
           "headline": "[거시분석] Israel and Hezbollah continue strikes despite...",
-          "score": -4
+          "score": -5
         },
         {
           "date": "20260619",
@@ -964,8 +964,17 @@
     },
     {
       "date": "20260620",
-      "headline": "아슬아슬 레바논 휴전…\"이스라엘, 휴전 이튿날 공습\"(종합)",
+      "headline": "Israeli strikes kill 32 in Lebanon, putting US-Iran peace talks in peril",
       "impacts": {
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260620",
+      "headline": "이란군 \"호르무즈 재봉쇄…미·이스라엘 종전 MOU 위반 탓\"",
+      "impacts": {
+        "방산": -1,
         "전체시장": 1
       },
       "source": "keyword"
@@ -976,12 +985,12 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -4
+        "전체시장": -5
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 48,
+  "total_negatives": 50,
   "total_positives": 69,
   "risk_level": "EXTREME"
 }
