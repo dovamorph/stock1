@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20T08:01:47.979476+09:00",
+  "updated_at": "2026-06-20T13:02:32.057278+09:00",
   "date": "20260620",
   "window_days": 14,
   "sectors": [
@@ -71,16 +71,10 @@
       ]
     },
     "건설": {
-      "score": -3,
+      "score": -2,
       "positive_count": 9,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20260620",
-          "type": "negative",
-          "headline": "[거시분석] 미군 백신 의무접종 폐지 2달 만에…공군기지서 독감 집단감염",
-          "score": -1
-        },
         {
           "date": "20260619",
           "type": "negative",
@@ -104,18 +98,30 @@
           "type": "positive",
           "headline": "[미·이란 종전] 볼턴 \"이란, 트럼프 갖고놀며 유리한 합의 끌어내\"",
           "score": 1
+        },
+        {
+          "date": "20260616",
+          "type": "negative",
+          "headline": "[거시분석] Iran deal presents political nightmare for Ne...",
+          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 42,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
         {
           "date": "20260620",
+          "type": "negative",
+          "headline": "가을총선 직면한 네타냐후…美 \"이란 종전에 훼방\" 주의보",
+          "score": -1
+        },
+        {
+          "date": "20260620",
           "type": "positive",
-          "headline": "[거시분석] 미군 백신 의무접종 폐지 2달 만에…공군기지서 독감 집단감염",
+          "headline": "[거시분석] Israel and Hezbollah agree ceasefire, US says...",
           "score": 1
         },
         {
@@ -134,12 +140,6 @@
           "date": "20260618",
           "type": "positive",
           "headline": "The bikers battling extreme heat and armed conflict to smuggle Iranian fuel to Pakistan",
-          "score": 1
-        },
-        {
-          "date": "20260618",
-          "type": "positive",
-          "headline": "러·우크라, 교전 격화 속 전사자 시신 교환",
           "score": 1
         }
       ]
@@ -252,14 +252,20 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 7,
+      "positive_count": 8,
       "negative_count": 26,
       "recent_events": [
         {
           "date": "20260620",
+          "type": "positive",
+          "headline": "가을총선 직면한 네타냐후…美 \"이란 종전에 훼방\" 주의보",
+          "score": 1
+        },
+        {
+          "date": "20260620",
           "type": "negative",
-          "headline": "[거시분석] 미군 백신 의무접종 폐지 2달 만에…공군기지서 독감 집단감염",
-          "score": -4
+          "headline": "[거시분석] Israel and Hezbollah agree ceasefire, US says...",
+          "score": -2
         },
         {
           "date": "20260619",
@@ -278,12 +284,6 @@
           "type": "positive",
           "headline": "[표] 주간 거래소 외국인 순매수도 상위종목",
           "score": 1
-        },
-        {
-          "date": "20260619",
-          "type": "negative",
-          "headline": "[거시분석] US-Iran talks postponed as Vance pulls out of...",
-          "score": -6
         }
       ]
     }
@@ -956,16 +956,24 @@
     },
     {
       "date": "20260620",
-      "headline": "[거시분석] 미군 백신 의무접종 폐지 2달 만에…공군기지서 독감 집단감염",
+      "headline": "가을총선 직면한 네타냐후…美 \"이란 종전에 훼방\" 주의보",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260620",
+      "headline": "[거시분석] Israel and Hezbollah agree ceasefire, US says...",
       "impacts": {
         "방산": 1,
-        "전체시장": -4,
-        "건설": -1
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 47,
-  "total_positives": 68,
+  "total_positives": 69,
   "risk_level": "EXTREME"
 }
