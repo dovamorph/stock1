@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-20T23:25:39.945930+09:00",
-  "date": "20260620",
+  "updated_at": "2026-06-21T02:38:00.566760+09:00",
+  "date": "20260621",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -29,7 +29,7 @@
         "로봇": 1,
         "전력·에너지": 1
       },
-      "d_day": 5
+      "d_day": 4
     }
   ],
   "sector_stats": {
@@ -71,10 +71,16 @@
       ]
     },
     "건설": {
-      "score": -4,
+      "score": -6,
       "positive_count": 9,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260621",
+          "type": "negative",
+          "headline": "[거시분석] Iran says Strait of Hormuz will be closed ove...",
+          "score": -2
+        },
         {
           "date": "20260620",
           "type": "negative",
@@ -98,48 +104,42 @@
           "type": "negative",
           "headline": "[거시분석] The bikers battling extreme heat and armed co...",
           "score": -2
-        },
-        {
-          "date": "20260616",
-          "type": "positive",
-          "headline": "[미·이란 종전] 볼턴 \"이란, 트럼프 갖고놀며 유리한 합의 끌어내\"",
-          "score": 1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 42,
-      "negative_count": 10,
+      "positive_count": 43,
+      "negative_count": 13,
       "recent_events": [
         {
-          "date": "20260620",
+          "date": "20260621",
           "type": "negative",
           "headline": "Israel and Hezbollah continue strikes despite ceasefire agreement",
           "score": -1
         },
         {
-          "date": "20260620",
+          "date": "20260621",
           "type": "negative",
-          "headline": "Israeli strikes kill 32 in Lebanon, putting US-Iran peace talks in peril",
+          "headline": "이틀만에 종전 MOU 위기…이란, '호르무즈 재봉쇄' 카드 꺼냈다",
           "score": -1
         },
         {
-          "date": "20260620",
+          "date": "20260621",
           "type": "negative",
           "headline": "이란군 \"호르무즈 재봉쇄…미·이스라엘 종전 MOU 위반 탓\"",
           "score": -1
         },
         {
-          "date": "20260620",
+          "date": "20260621",
           "type": "positive",
-          "headline": "[거시분석] Israel and Hezbollah continue strikes despite...",
+          "headline": "[거시분석] Iran says Strait of Hormuz will be closed ove...",
           "score": 3
         },
         {
-          "date": "20260619",
+          "date": "20260620",
           "type": "negative",
-          "headline": "베르사유궁 종전 서명 후…파리서 이란 반정부 집회 돌연 금지",
+          "headline": "Israel and Hezbollah continue strikes despite ceasefire agreement",
           "score": -1
         }
       ]
@@ -252,9 +252,27 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 8,
-      "negative_count": 26,
+      "positive_count": 10,
+      "negative_count": 27,
       "recent_events": [
+        {
+          "date": "20260621",
+          "type": "positive",
+          "headline": "이틀만에 종전 MOU 위기…이란, '호르무즈 재봉쇄' 카드 꺼냈다",
+          "score": 1
+        },
+        {
+          "date": "20260621",
+          "type": "positive",
+          "headline": "이란군 \"호르무즈 재봉쇄…미·이스라엘 종전 MOU 위반 탓\"",
+          "score": 1
+        },
+        {
+          "date": "20260621",
+          "type": "negative",
+          "headline": "[거시분석] Iran says Strait of Hormuz will be closed ove...",
+          "score": -5
+        },
         {
           "date": "20260620",
           "type": "positive",
@@ -266,24 +284,6 @@
           "type": "negative",
           "headline": "[거시분석] Israel and Hezbollah continue strikes despite...",
           "score": -5
-        },
-        {
-          "date": "20260619",
-          "type": "positive",
-          "headline": "베르사유궁 종전 서명 후…파리서 이란 반정부 집회 돌연 금지",
-          "score": 1
-        },
-        {
-          "date": "20260619",
-          "type": "positive",
-          "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
-          "score": 1
-        },
-        {
-          "date": "20260619",
-          "type": "positive",
-          "headline": "[표] 주간 거래소 외국인 순매수도 상위종목",
-          "score": 1
         }
       ]
     }
@@ -988,9 +988,45 @@
         "전체시장": -5
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260621",
+      "headline": "Israel and Hezbollah continue strikes despite ceasefire agreement",
+      "impacts": {
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260621",
+      "headline": "이틀만에 종전 MOU 위기…이란, '호르무즈 재봉쇄' 카드 꺼냈다",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260621",
+      "headline": "이란군 \"호르무즈 재봉쇄…미·이스라엘 종전 MOU 위반 탓\"",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260621",
+      "headline": "[거시분석] Iran says Strait of Hormuz will be closed ove...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 50,
-  "total_positives": 69,
+  "total_negatives": 55,
+  "total_positives": 72,
   "risk_level": "EXTREME"
 }
