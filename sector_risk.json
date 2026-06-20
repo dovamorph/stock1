@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T06:21:19.295374+09:00",
+  "updated_at": "2026-06-21T08:12:41.486498+09:00",
   "date": "20260621",
   "window_days": 14,
   "sectors": [
@@ -110,14 +110,8 @@
     "방산": {
       "score": 10,
       "positive_count": 43,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20260621",
-          "type": "negative",
-          "headline": "이란 대표단, 미국과 종전 후속협상 위해 스위스 도착",
-          "score": -1
-        },
         {
           "date": "20260621",
           "type": "positive",
@@ -141,6 +135,12 @@
           "type": "negative",
           "headline": "이란군 \"호르무즈 재봉쇄…미·이스라엘 종전 MOU 위반 탓\"",
           "score": -1
+        },
+        {
+          "date": "20260620",
+          "type": "positive",
+          "headline": "[거시분석] Israel and Hezbollah continue strikes despite...",
+          "score": 3
         }
       ]
     },
@@ -189,16 +189,10 @@
       ]
     },
     "금융": {
-      "score": -7,
+      "score": -6,
       "positive_count": 0,
-      "negative_count": 5,
+      "negative_count": 4,
       "recent_events": [
-        {
-          "date": "20260621",
-          "type": "negative",
-          "headline": "[거시분석] Iran says it has closed Strait of Hormuz over...",
-          "score": -1
-        },
         {
           "date": "20260618",
           "type": "negative",
@@ -258,20 +252,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 9,
+      "positive_count": 8,
       "negative_count": 27,
       "recent_events": [
         {
           "date": "20260621",
-          "type": "positive",
-          "headline": "이란 대표단, 미국과 종전 후속협상 위해 스위스 도착",
-          "score": 1
-        },
-        {
-          "date": "20260621",
           "type": "negative",
           "headline": "[거시분석] Iran says it has closed Strait of Hormuz over...",
-          "score": -3
+          "score": -2
         },
         {
           "date": "20260620",
@@ -289,6 +277,12 @@
           "date": "20260619",
           "type": "positive",
           "headline": "베르사유궁 종전 서명 후…파리서 이란 반정부 집회 돌연 금지",
+          "score": 1
+        },
+        {
+          "date": "20260619",
+          "type": "positive",
+          "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
           "score": 1
         }
       ]
@@ -997,25 +991,15 @@
     },
     {
       "date": "20260621",
-      "headline": "이란 대표단, 미국과 종전 후속협상 위해 스위스 도착",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260621",
       "headline": "[거시분석] Iran says it has closed Strait of Hormuz over...",
       "impacts": {
         "방산": 1,
-        "전체시장": -3,
-        "금융": -1
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 53,
-  "total_positives": 71,
+  "total_negatives": 51,
+  "total_positives": 70,
   "risk_level": "EXTREME"
 }
