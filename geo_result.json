@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21 02:37",
+  "updated": "2026-06-21 04:42",
   "news_count": 86,
   "intl_count": 56,
   "domestic_count": 30,
@@ -14,14 +14,14 @@
   },
   "news_sample": [
     "Iran says Strait of Hormuz will be closed over Israel attacks on Lebanon",
-    "Israel and Hezbollah continue strikes despite ceasefire agreement",
+    "Lebanese turtle conservationist Mona Khalil killed by Israeli strike",
     "Meloni tells Trump to 'focus on your own popularity' as row escalates",
     "Bolivian president declares state of emergency",
     "Zelensky returns highest Polish honour after award stripped"
   ],
   "all_headlines": [
     "Iran says Strait of Hormuz will be closed over Israel attacks on Lebanon",
-    "Israel and Hezbollah continue strikes despite ceasefire agreement",
+    "Lebanese turtle conservationist Mona Khalil killed by Israeli strike",
     "Meloni tells Trump to 'focus on your own popularity' as row escalates",
     "Bolivian president declares state of emergency",
     "Zelensky returns highest Polish honour after award stripped",
@@ -51,13 +51,17 @@
     "Japanese pop group XG went from brutal five year training to global pop stars",
     "Thousands killed in US-Israeli war on Iran - but experts say true total may never be known",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Are UK Prime Minister Keir Starmer’s political days numbered?",
+    "Al Jazeera cameraman Ahmed Wishah killed in Israeli attack in Gaza",
+    "US-Iran talks to kick off Sunday in Switzerland, says Pakistan",
+    "As ILO convention turns 30, India’s home-based workers demand equal rights",
     "World cup wrap day 9",
     "Iran shuts Strait of Hormuz as Israel tests MOU with Lebanon strikes",
     "Bolivia declares state of emergency amid blockade crisis",
     "Israeli strike kills children in Gaza despite ceasefire claims",
     "‘You could’ve been the greatest’: Trump faces Israeli anger over Iran deal",
     "How Ivan Cepeda emerged a frontrunner in Colombia’s presidential election",
-    "Germany vs Ivory Coast: LIVE – World Cup 2026",
+    "LIVE: Germany vs Ivory Coast – World Cup 2026",
     "Trump insists Italy’s Meloni sought photos with him to boost popularity",
     "Iran warns of ‘reciprocal action’ if US doesn’t honour MOU commitments",
     "Nine left in critical condition after UK train collision that killed driver",
@@ -72,12 +76,15 @@
     "Slave trade reenacted on Juneteenth as leaders demand reparations",
     "MSF says conditions in Lebanon’s Nabatieh resemble a ‘death trap’",
     "German journalist held in Syria back home, family says",
-    "India’s revolution in women’s cricket",
-    "What the US-Iran peace deal means for the ‘Team Melli’ World Cup campaign",
-    "Morocco fans dream of World Cup glory after Scotland win",
-    "Families storm Ebola treatment centre in DRC, remove patients",
+    "[월드컵] 일본과 비겼던 네덜란드, 스웨덴 5-1 완파하고 첫 승",
+    "[속보] 트럼프 \"이란과 합의불발시 美 호르무즈 통행료 부과할수도\"",
+    "펜싱 최세빈, 아시아선수권대회 여자 사브르 개인전 은메달",
+    "유엔 안보리 \"수단 내전 격전지서 대규모 잔혹행위 임박 우려\"",
+    "[월드컵 전적] 네덜란드 5-1 스웨덴",
+    "금리인상에 민감해진 빅테크들…\"AI 투자 위해 빚 내는 탓\"",
+    "노벨상 수상자도 구글→앤트로픽…핵심인재 AI기업 이직 이어져",
     "미군 \"이란, 호르무즈 통제 안해…선박 통행 계속 이뤄져\"(종합)",
-    "'호르무즈 재봉쇄' 카드 꺼낸 이란…핵 담판 주도권 잡나(종합)",
+    "'호르무즈 재봉쇄' 카드 꺼낸 이란…핵 담판 주도권 싸움(종합)",
     "\"EU로 돌아가자\" 브렉시트 국민투표 10주년 앞 런던 도심행진",
     "트럼프 \"지지율 올리려 사진 요청\"…멜로니 \"본인 지지율 보길\"(종합)",
     "남자 배구대표팀, AVC컵 조별리그 첫 경기서 태국에 충격패",
@@ -98,33 +105,26 @@
     "이란 외무부 \"협상 대표단 스위스로 갈 것\"",
     "美밴스 \"이란이 호르무즈 봉쇄하고 있단 증거 안 보여\"",
     "안산 기계부품 공장서 근로자 사망…\"기계에 끼었다\"",
-    "이란군 \"호르무즈 재봉쇄…미·이스라엘 종전 MOU 위반 탓\"",
-    "'러 점령' 자포리자 원전 또 전력 끊겨…전쟁 발발 후 20번째",
-    "[속보] 이란군 \"호르무즈 다시 봉쇄…미·이스라엘 탓\"",
-    "'이웃사촌' 부른 70년대 인기가수 옥희 암 투병 끝에 별세",
-    "동해남부먼바다 풍랑경보…경북 앞바다 등 5곳 풍랑주의보 유지",
-    "영국서 기차 두 대 충돌…\"기관사 사망, 승객 등 99명 부상\"",
-    "최고 223㎜ 폭우·강풍에 고립되고 쓰러지고…전국 피해 속출(종합)",
-    "트럼프 \"伊총리, 지지율 위해 '사진 찍자' 계속 요청\" 거듭 주장"
+    "이란군 \"호르무즈 재봉쇄…미·이스라엘 종전 MOU 위반 탓\""
   ],
   "categories": {
     "geopolitical": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
+      "level": "경고",
+      "color": "orange",
+      "signal": "🟠",
       "summary": "Iran says Strait of Hormuz will be closed ove...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 26,
-      "score": 1.5
+      "action": "포지션 축소 검토 / 모니터링 강화",
+      "matched": 25,
+      "score": 9.0
     },
     "macro": {
-      "level": "안전",
-      "color": "green",
-      "signal": "🟢",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "금리인상에 민감해진 빅테크들…\"AI 투자 위해 빚 내는 탓\"",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 1,
+      "score": 1.5
     },
     "disaster": {
       "level": "안전",
@@ -145,19 +145,19 @@
       "score": 1.4
     },
     "policy": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "'러 점령' 자포리자 원전 또 전력 끊겨…전쟁 발발 후 20번째",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
+    "level": "경고",
+    "color": "orange",
     "summary": "주의 필요: 지정학적 충돌",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "action": "포지션 축소 검토 / 모니터링 강화"
   }
 }

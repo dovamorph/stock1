@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T02:38:00.566760+09:00",
+  "updated_at": "2026-06-21T04:42:37.591539+09:00",
   "date": "20260621",
   "window_days": 14,
   "sectors": [
@@ -71,7 +71,7 @@
       ]
     },
     "건설": {
-      "score": -6,
+      "score": -5,
       "positive_count": 9,
       "negative_count": 8,
       "recent_events": [
@@ -79,7 +79,7 @@
           "date": "20260621",
           "type": "negative",
           "headline": "[거시분석] Iran says Strait of Hormuz will be closed ove...",
-          "score": -2
+          "score": -1
         },
         {
           "date": "20260620",
@@ -110,14 +110,8 @@
     "방산": {
       "score": 10,
       "positive_count": 43,
-      "negative_count": 13,
+      "negative_count": 12,
       "recent_events": [
-        {
-          "date": "20260621",
-          "type": "negative",
-          "headline": "Israel and Hezbollah continue strikes despite ceasefire agreement",
-          "score": -1
-        },
         {
           "date": "20260621",
           "type": "negative",
@@ -134,12 +128,18 @@
           "date": "20260621",
           "type": "positive",
           "headline": "[거시분석] Iran says Strait of Hormuz will be closed ove...",
-          "score": 3
+          "score": 2
         },
         {
           "date": "20260620",
           "type": "negative",
           "headline": "Israel and Hezbollah continue strikes despite ceasefire agreement",
+          "score": -1
+        },
+        {
+          "date": "20260620",
+          "type": "negative",
+          "headline": "Israeli strikes kill 32 in Lebanon, putting US-Iran peace talks in peril",
           "score": -1
         }
       ]
@@ -189,10 +189,16 @@
       ]
     },
     "금융": {
-      "score": -6,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 4,
+      "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20260621",
+          "type": "negative",
+          "headline": "[거시분석] Iran says Strait of Hormuz will be closed ove...",
+          "score": -1
+        },
         {
           "date": "20260618",
           "type": "negative",
@@ -271,7 +277,7 @@
           "date": "20260621",
           "type": "negative",
           "headline": "[거시분석] Iran says Strait of Hormuz will be closed ove...",
-          "score": -5
+          "score": -4
         },
         {
           "date": "20260620",
@@ -991,14 +997,6 @@
     },
     {
       "date": "20260621",
-      "headline": "Israel and Hezbollah continue strikes despite ceasefire agreement",
-      "impacts": {
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260621",
       "headline": "이틀만에 종전 MOU 위기…이란, '호르무즈 재봉쇄' 카드 꺼냈다",
       "impacts": {
         "방산": -1,
@@ -1019,9 +1017,10 @@
       "date": "20260621",
       "headline": "[거시분석] Iran says Strait of Hormuz will be closed ove...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -4,
+        "금융": -1
       },
       "source": "geo_categories"
     }
