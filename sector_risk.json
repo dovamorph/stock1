@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T06:18:44.203745+09:00",
+  "updated_at": "2026-06-22T08:18:37.548048+09:00",
   "date": "20260622",
   "window_days": 14,
   "sectors": [
@@ -71,16 +71,10 @@
       ]
     },
     "건설": {
-      "score": -5,
+      "score": -4,
       "positive_count": 9,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20260622",
-          "type": "negative",
-          "headline": "[거시분석] Trump and Iran's negotiator trade warnings as...",
-          "score": -1
-        },
         {
           "date": "20260620",
           "type": "negative",
@@ -104,6 +98,12 @@
           "type": "negative",
           "headline": "[거시분석] The bikers battling extreme heat and armed co...",
           "score": -2
+        },
+        {
+          "date": "20260616",
+          "type": "positive",
+          "headline": "[미·이란 종전] 볼턴 \"이란, 트럼프 갖고놀며 유리한 합의 끌어내\"",
+          "score": 1
         }
       ]
     },
@@ -122,7 +122,7 @@
           "date": "20260622",
           "type": "positive",
           "headline": "[거시분석] Trump and Iran's negotiator trade warnings as...",
-          "score": 2
+          "score": 1
         },
         {
           "date": "20260621",
@@ -189,16 +189,10 @@
       ]
     },
     "금융": {
-      "score": -7,
+      "score": -6,
       "positive_count": 0,
-      "negative_count": 5,
+      "negative_count": 4,
       "recent_events": [
-        {
-          "date": "20260622",
-          "type": "negative",
-          "headline": "[거시분석] Trump and Iran's negotiator trade warnings as...",
-          "score": -1
-        },
         {
           "date": "20260618",
           "type": "negative",
@@ -265,7 +259,7 @@
           "date": "20260622",
           "type": "negative",
           "headline": "[거시분석] Trump and Iran's negotiator trade warnings as...",
-          "score": -6
+          "score": -5
         },
         {
           "date": "20260621",
@@ -1043,16 +1037,14 @@
       "date": "20260622",
       "headline": "[거시분석] Trump and Iran's negotiator trade warnings as...",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -6,
-        "금융": -1,
+        "방산": 1,
+        "전체시장": -5,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 59,
+  "total_negatives": 57,
   "total_positives": 74,
   "risk_level": "EXTREME"
 }
