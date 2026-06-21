@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21 09:20",
+  "updated": "2026-06-21 14:29",
   "indicators": {
     "usdkrw": {
       "label": "USD/KRW",
@@ -23,8 +23,8 @@
       "label": "미국 10년물",
       "value": 4.451,
       "unit": "%",
-      "change": 0.0,
-      "change_pct": 0.0,
+      "change": -0.012,
+      "change_pct": -0.27,
       "signal": "🟡",
       "desc": "4.45% (주의)"
     },
