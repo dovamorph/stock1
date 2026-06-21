@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22 00:56",
+  "updated": "2026-06-22 02:44",
   "news_count": 86,
   "intl_count": 56,
   "domestic_count": 30,
@@ -15,14 +15,14 @@
   "news_sample": [
     "US and Iran begin talks on initial peace deal in Switzerland",
     "Fuel sales halted in occupied Crimea as Ukraine targets oil facilities",
-    "Nobel Peace Prize winner triumphs at Ethiopian polls but fears grow of new conflict",
+    "Ethiopia PM's party wins landslide as fears grow of new conflict",
     "Half of France under red heat alert as alcohol banned at street music festival",
     "Colombia's escalating, brutal internal conflict is defining its presidential election"
   ],
   "all_headlines": [
     "US and Iran begin talks on initial peace deal in Switzerland",
     "Fuel sales halted in occupied Crimea as Ukraine targets oil facilities",
-    "Nobel Peace Prize winner triumphs at Ethiopian polls but fears grow of new conflict",
+    "Ethiopia PM's party wins landslide as fears grow of new conflict",
     "Half of France under red heat alert as alcohol banned at street music festival",
     "Colombia's escalating, brutal internal conflict is defining its presidential election",
     "Former Olympian denies vandalising Washington Reflecting Pool after arrest",
@@ -51,9 +51,16 @@
     "At CrimeCon true crime obsessives come face-to-face with real loss",
     "Steve Rosenberg: Moscow oil refinery attack brings Russia's war with Ukraine closer to home",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "What’s next in the Strait of Hormuz crisis?",
+    "Ethiopian prime minister’s party easily wins parliamentary election",
+    "Khamenei’s MoU stance stirs debate as Iran and US meet in Switzerland",
+    "Iran, US, Israel: Memorandum of misunderstanding?",
+    "The looming Super El Nino",
+    "India’s ‘Cockroach’ movement camps out until education minister resigns",
+    "Syria frees activist Hassan Akkad days after he was detained",
     "Mbappe, France play Iraq in World Cup match: prediction, team news, lineups",
     "US-Iran negotiations in Switzerland kick off",
-    "Iran-U.S. launch historic peace talks with 60-day roadmap",
+    "Iran-US launch historic peace talks with 60-day roadmap",
     "Fans flood Atlanta streets before Spain-Saudi Arabia match",
     "Bolivian authorities say no active blockades after state of emergency decree",
     "Gaza bids farewell to slain journalist Ahmed Wishah",
@@ -69,13 +76,12 @@
     "Messi, Argentina play Austria in World Cup group match: All to know",
     "Ukraine strikes hit oil facilities in Crimea, Russia’s Krasnodar",
     "‘Kind, principled’: Colleagues remember Gaza journalist killed by Israel",
-    "Stop ‘Greater Israel’ to make peace",
-    "Lebanon’s ancient monuments remain at risk from Israeli attack",
-    "Mother of Al Jazeera’s Ahmed Wishah mourns his killing",
-    "Albanian protesters rally against Kushner-backed resort in protected area",
-    "Polls open in Colombia presidential race pitting leftist against hardliner",
-    "Protests in Albania against Kushner resort swell to tens of thousands",
-    "The deal with Iran may be imperfect but it is what the American people want",
+    "트럼프 위협에 美·이란 스위스 협상 파행…이란측 협상장 이탈(종합)",
+    "\"이란 협상단, 트럼프 위협 반발해 스위스 협상장 떠나\"",
+    "트럼프, '우라늄농축권 유지' 이란대통령 발언에 \"입 조심하라\"",
+    "부켈레 \"엘살바도르 최대규모 코카인 압수…2천500억원어치\"",
+    "이란 국영매체 \"스위스 첫 회담서 核 논의 없어…레바논에 집중\"",
+    "美부통령 \"미국, 이란과 관계 근본적 변화시킬 용의 있어\"",
     "폭염에 에펠탑 조기 폐장…스페인은 월드컵 거리응원 취소(종합)",
     "◇내일의 월드컵(23일)",
     "◇오늘의 월드컵(22일)",
@@ -99,13 +105,7 @@
     "유도 김민종, 울란바타르 그랜드슬램 우승 \"올림픽 금메달 도전\"",
     "GGM 노조, 211일 이어온 천막 농성 중단…7월 한달간 집중교섭",
     "LG, 1회말 솔로홈런 4방 '쾅쾅쾅쾅'…주말 3연전 싹쓸이(종합)",
-    "이란 외무부 대변인 \"레바논 종전 이행 없이 최종 협상 불가\"(종합)",
-    "[프로야구 중간순위] 21일",
-    "이스라엘 국방 \"레바논 위협 제거에 제한 없어…군대 철수 안해\"",
-    "[프로야구 수원전적] KIA 11-5 kt",
-    "곡성 민간위탁 물놀이시설서 초등생 형제 숨져(종합2보)",
-    "中, 4개월 만에 일본에 갈륨 수출 재개…민간용 선별허용 관측",
-    "정준석, 대한육상연맹배 남자 창던지기 대회 신기록"
+    "이란 외무부 대변인 \"레바논 종전 이행 없이 최종 협상 불가\"(종합)"
   ],
   "categories": {
     "geopolitical": {
@@ -114,7 +114,7 @@
       "signal": "🟠",
       "summary": "US and Iran begin talks on initial peace deal...",
       "action": "포지션 축소 검토 / 모니터링 강화",
-      "matched": 21,
+      "matched": 26,
       "score": 7.5
     },
     "macro": {
@@ -141,17 +141,17 @@
       "signal": "🟡",
       "summary": "US and Iran begin talks on initial peace deal...",
       "action": "관련 지표 추가 확인 후 판단",
-      "matched": 7,
-      "score": 9.9
+      "matched": 8,
+      "score": 11.3
     },
     "policy": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "[프로야구 수원전적] KIA 11-5 kt",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T00:56:21.593858+09:00",
+  "updated_at": "2026-06-22T02:44:40.457385+09:00",
   "date": "20260622",
   "window_days": 14,
   "sectors": [
@@ -115,7 +115,7 @@
         {
           "date": "20260622",
           "type": "negative",
-          "headline": "Iran-U.S. launch historic peace talks with 60-day roadmap",
+          "headline": "Iran-US launch historic peace talks with 60-day roadmap",
           "score": -1
         },
         {
@@ -271,7 +271,7 @@
           "date": "20260622",
           "type": "negative",
           "headline": "[거시분석] US and Iran begin talks on initial peace deal...",
-          "score": -3
+          "score": -2
         },
         {
           "date": "20260621",
@@ -1027,7 +1027,7 @@
     },
     {
       "date": "20260622",
-      "headline": "Iran-U.S. launch historic peace talks with 60-day roadmap",
+      "headline": "Iran-US launch historic peace talks with 60-day roadmap",
       "impacts": {
         "방산": -1
       },
@@ -1057,7 +1057,7 @@
       "impacts": {
         "방산": 2,
         "건설": -1,
-        "전체시장": -3
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
