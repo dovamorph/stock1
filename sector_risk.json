@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T02:44:40.457385+09:00",
+  "updated_at": "2026-06-22T04:48:34.815901+09:00",
   "date": "20260622",
   "window_days": 14,
   "sectors": [
@@ -34,10 +34,16 @@
   ],
   "sector_stats": {
     "반도체·AI": {
-      "score": -4,
+      "score": -6,
       "positive_count": 2,
-      "negative_count": 3,
+      "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20260622",
+          "type": "negative",
+          "headline": "[거시분석] Trump and Iran's negotiator trade warnings as...",
+          "score": -2
+        },
         {
           "date": "20260619",
           "type": "negative",
@@ -61,12 +67,6 @@
           "type": "positive",
           "headline": "US asks Anthropic to block global access to top AI models: Why it matters",
           "score": 1
-        },
-        {
-          "date": "20260613",
-          "type": "positive",
-          "headline": "US orders Anthropic to disable AI models for all foreign nationals",
-          "score": 1
         }
       ]
     },
@@ -78,7 +78,7 @@
         {
           "date": "20260622",
           "type": "negative",
-          "headline": "[거시분석] US and Iran begin talks on initial peace deal...",
+          "headline": "[거시분석] Trump and Iran's negotiator trade warnings as...",
           "score": -1
         },
         {
@@ -110,7 +110,7 @@
     "방산": {
       "score": 10,
       "positive_count": 44,
-      "negative_count": 16,
+      "negative_count": 15,
       "recent_events": [
         {
           "date": "20260622",
@@ -126,20 +126,20 @@
         },
         {
           "date": "20260622",
-          "type": "negative",
-          "headline": "이란 외무부 대변인 \"레바논 종전 이행 없이 최종 협상 불가\"(종합)",
-          "score": -1
-        },
-        {
-          "date": "20260622",
           "type": "positive",
-          "headline": "[거시분석] US and Iran begin talks on initial peace deal...",
+          "headline": "[거시분석] Trump and Iran's negotiator trade warnings as...",
           "score": 2
         },
         {
           "date": "20260621",
           "type": "negative",
           "headline": "이란 외무부 대변인 \"레바논 종전 이행 없이 최종 협상 불가\"(종합)",
+          "score": -1
+        },
+        {
+          "date": "20260621",
+          "type": "negative",
+          "headline": "미국·이란, 스위스서 대면협상…종전 '노딜' 70일만(종합)",
           "score": -1
         }
       ]
@@ -252,9 +252,15 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 13,
-      "negative_count": 28,
+      "positive_count": 12,
+      "negative_count": 29,
       "recent_events": [
+        {
+          "date": "20260622",
+          "type": "negative",
+          "headline": "네타냐후 \"이란 핵 저지·헤즈볼라 대응에 타협 없어\"",
+          "score": -1
+        },
         {
           "date": "20260622",
           "type": "positive",
@@ -263,15 +269,9 @@
         },
         {
           "date": "20260622",
-          "type": "positive",
-          "headline": "이란 외무부 대변인 \"레바논 종전 이행 없이 최종 협상 불가\"(종합)",
-          "score": 1
-        },
-        {
-          "date": "20260622",
           "type": "negative",
-          "headline": "[거시분석] US and Iran begin talks on initial peace deal...",
-          "score": -2
+          "headline": "[거시분석] Trump and Iran's negotiator trade warnings as...",
+          "score": -5
         },
         {
           "date": "20260621",
@@ -1035,6 +1035,14 @@
     },
     {
       "date": "20260622",
+      "headline": "네타냐후 \"이란 핵 저지·헤즈볼라 대응에 타협 없어\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260622",
       "headline": "미국·이란, 스위스서 대면협상…종전 '노딜' 70일만(종합2보)",
       "impacts": {
         "방산": -1,
@@ -1044,25 +1052,17 @@
     },
     {
       "date": "20260622",
-      "headline": "이란 외무부 대변인 \"레바논 종전 이행 없이 최종 협상 불가\"(종합)",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260622",
-      "headline": "[거시분석] US and Iran begin talks on initial peace deal...",
+      "headline": "[거시분석] Trump and Iran's negotiator trade warnings as...",
       "impacts": {
         "방산": 2,
         "건설": -1,
-        "전체시장": -2
+        "전체시장": -5,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 59,
-  "total_positives": 76,
+  "total_negatives": 60,
+  "total_positives": 75,
   "risk_level": "EXTREME"
 }

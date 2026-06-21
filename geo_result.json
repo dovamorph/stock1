@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22 02:44",
+  "updated": "2026-06-22 04:48",
   "news_count": 86,
   "intl_count": 56,
   "domestic_count": 30,
@@ -13,14 +13,14 @@
     "StockPlus": 0
   },
   "news_sample": [
-    "US and Iran begin talks on initial peace deal in Switzerland",
+    "Trump and Iran's negotiator trade warnings as talks held in Switzerland",
     "Fuel sales halted in occupied Crimea as Ukraine targets oil facilities",
     "Ethiopia PM's party wins landslide as fears grow of new conflict",
     "Half of France under red heat alert as alcohol banned at street music festival",
     "Colombia's escalating, brutal internal conflict is defining its presidential election"
   ],
   "all_headlines": [
-    "US and Iran begin talks on initial peace deal in Switzerland",
+    "Trump and Iran's negotiator trade warnings as talks held in Switzerland",
     "Fuel sales halted in occupied Crimea as Ukraine targets oil facilities",
     "Ethiopia PM's party wins landslide as fears grow of new conflict",
     "Half of France under red heat alert as alcohol banned at street music festival",
@@ -51,6 +51,8 @@
     "At CrimeCon true crime obsessives come face-to-face with real loss",
     "Steve Rosenberg: Moscow oil refinery attack brings Russia's war with Ukraine closer to home",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Europe heatwave scorches cities and wildlife",
+    "Spain thrash Saudi Arabia 4-0 as Yamal gets off the mark at World Cup 2026",
     "What’s next in the Strait of Hormuz crisis?",
     "Ethiopian prime minister’s party easily wins parliamentary election",
     "Khamenei’s MoU stance stirs debate as Iran and US meet in Switzerland",
@@ -70,12 +72,18 @@
     "Marc Marquez wins the Czech MotoGP, narrows title gap to leader Bezzecchi",
     "Why Lebanon may make or break the Iran-US deal",
     "Pressure mounts on UK PM Starmer to quit after Burnham’s by-election win",
-    "LIVE: Spain vs Saudi Arabia – World Cup 2026",
+    "Spain vs Saudi Arabia 4-0: World Cup 2026 – as it happened",
     "Henry stars as New Zealand wrap up victory against England in second Test",
     "US-Iran delegations arrive as talks begin in Switzerland",
     "Messi, Argentina play Austria in World Cup group match: All to know",
-    "Ukraine strikes hit oil facilities in Crimea, Russia’s Krasnodar",
-    "‘Kind, principled’: Colleagues remember Gaza journalist killed by Israel",
+    "쿠바 감시체계 구축한 혁명원로 라미로 발데스 전 부의장 사망",
+    "\"이란 대표단, 스위스 협상 계속 참여…철수 의사 표현 없어\"",
+    "트럼프 발언 반박 주이스라엘 美대사, \"SNS 보니 아직 안잘렸다\"",
+    "美언론 \"미·이란 스위스 협상 교착 상태…끝난 건 아냐\"",
+    "[월드컵] 스페인, 사우디에 4-0 대승…야말 데뷔골·오야르사발 멀티골",
+    "[월드컵 전적] 스페인 4-0 사우디아라비아",
+    "프롬프트 엔지니어링도 옛말…이젠 '루프 엔지니어링'이 대세",
+    "네타냐후 \"이란 핵 저지·헤즈볼라 대응에 타협 없어\"",
     "트럼프 위협에 美·이란 스위스 협상 파행…이란측 협상장 이탈(종합)",
     "\"이란 협상단, 트럼프 위협 반발해 스위스 협상장 떠나\"",
     "트럼프, '우라늄농축권 유지' 이란대통령 발언에 \"입 조심하라\"",
@@ -97,25 +105,17 @@
     "트럼프 \"이란이 레바논 대리세력 막지 않으면 다시 타격할 것\"",
     "미국·이란, 스위스서 대면협상…종전 '노딜' 70일만(종합2보)",
     "[속보] 트럼프 \"이란이 레바논 대리세력 막지 않으면 다시 타격할 것\"",
-    "에스프리에야 vs 세페다…콜롬비아 결선 투표 시작",
-    "'개표소 봉쇄시위' 17일차…화력 줄었지만, 청년층 발길 여전(종합2보)",
-    "폭염에 에펠탑 조기 폐장…스페인은 월드컵 거리응원 취소",
-    "[부고] 박민범(대전시 철도건설국장)씨 모친상",
-    "중고거래 하는 척…팔찌 훔쳐 달아난 10대 검거",
-    "유도 김민종, 울란바타르 그랜드슬램 우승 \"올림픽 금메달 도전\"",
-    "GGM 노조, 211일 이어온 천막 농성 중단…7월 한달간 집중교섭",
-    "LG, 1회말 솔로홈런 4방 '쾅쾅쾅쾅'…주말 3연전 싹쓸이(종합)",
-    "이란 외무부 대변인 \"레바논 종전 이행 없이 최종 협상 불가\"(종합)"
+    "에스프리에야 vs 세페다…콜롬비아 결선 투표 시작"
   ],
   "categories": {
     "geopolitical": {
       "level": "경고",
       "color": "orange",
       "signal": "🟠",
-      "summary": "US and Iran begin talks on initial peace deal...",
+      "summary": "Trump and Iran's negotiator trade warnings as...",
       "action": "포지션 축소 검토 / 모니터링 강화",
       "matched": 26,
-      "score": 7.5
+      "score": 6.0
     },
     "macro": {
       "level": "안전",
@@ -136,13 +136,13 @@
       "score": 0
     },
     "trade": {
-      "level": "신호",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "US and Iran begin talks on initial peace deal...",
-      "action": "관련 지표 추가 확인 후 판단",
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
+      "summary": "Trump and Iran's negotiator trade warnings as...",
+      "action": "포지션 현금화 고려 / 즉각 대응",
       "matched": 8,
-      "score": 11.3
+      "score": 1.5
     },
     "policy": {
       "level": "안전",
@@ -157,7 +157,7 @@
   "overall": {
     "level": "경고",
     "color": "orange",
-    "summary": "주의 필요: 지정학적 충돌",
+    "summary": "주의 필요: 지정학적 충돌, 보호무역·공급망",
     "action": "포지션 축소 검토 / 모니터링 강화"
   }
 }
