@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T04:48:34.815901+09:00",
+  "updated_at": "2026-06-22T06:18:44.203745+09:00",
   "date": "20260622",
   "window_days": 14,
   "sectors": [
@@ -110,18 +110,12 @@
     "방산": {
       "score": 10,
       "positive_count": 44,
-      "negative_count": 15,
+      "negative_count": 14,
       "recent_events": [
         {
           "date": "20260622",
           "type": "negative",
           "headline": "Iran-US launch historic peace talks with 60-day roadmap",
-          "score": -1
-        },
-        {
-          "date": "20260622",
-          "type": "negative",
-          "headline": "미국·이란, 스위스서 대면협상…종전 '노딜' 70일만(종합2보)",
           "score": -1
         },
         {
@@ -140,6 +134,12 @@
           "date": "20260621",
           "type": "negative",
           "headline": "미국·이란, 스위스서 대면협상…종전 '노딜' 70일만(종합)",
+          "score": -1
+        },
+        {
+          "date": "20260621",
+          "type": "negative",
+          "headline": "이란 외무부 대변인 \"레바논 종전 이행 없이 최종 협상 불가\"",
           "score": -1
         }
       ]
@@ -189,10 +189,16 @@
       ]
     },
     "금융": {
-      "score": -6,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 4,
+      "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20260622",
+          "type": "negative",
+          "headline": "[거시분석] Trump and Iran's negotiator trade warnings as...",
+          "score": -1
+        },
         {
           "date": "20260618",
           "type": "negative",
@@ -252,26 +258,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 12,
-      "negative_count": 29,
+      "positive_count": 11,
+      "negative_count": 28,
       "recent_events": [
         {
           "date": "20260622",
           "type": "negative",
-          "headline": "네타냐후 \"이란 핵 저지·헤즈볼라 대응에 타협 없어\"",
-          "score": -1
-        },
-        {
-          "date": "20260622",
-          "type": "positive",
-          "headline": "미국·이란, 스위스서 대면협상…종전 '노딜' 70일만(종합2보)",
-          "score": 1
-        },
-        {
-          "date": "20260622",
-          "type": "negative",
           "headline": "[거시분석] Trump and Iran's negotiator trade warnings as...",
-          "score": -5
+          "score": -6
         },
         {
           "date": "20260621",
@@ -284,6 +278,18 @@
           "type": "positive",
           "headline": "미국·이란, 스위스서 대면협상…종전 '노딜' 70일만(종합)",
           "score": 1
+        },
+        {
+          "date": "20260621",
+          "type": "positive",
+          "headline": "이란 외무부 대변인 \"레바논 종전 이행 없이 최종 협상 불가\"",
+          "score": 1
+        },
+        {
+          "date": "20260621",
+          "type": "negative",
+          "headline": "[거시분석] US-Iran talks begin in Switzerland as Tehran ...",
+          "score": -2
         }
       ]
     }
@@ -1035,34 +1041,18 @@
     },
     {
       "date": "20260622",
-      "headline": "네타냐후 \"이란 핵 저지·헤즈볼라 대응에 타협 없어\"",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260622",
-      "headline": "미국·이란, 스위스서 대면협상…종전 '노딜' 70일만(종합2보)",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260622",
       "headline": "[거시분석] Trump and Iran's negotiator trade warnings as...",
       "impacts": {
         "방산": 2,
         "건설": -1,
-        "전체시장": -5,
+        "전체시장": -6,
+        "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 60,
-  "total_positives": 75,
+  "total_negatives": 59,
+  "total_positives": 74,
   "risk_level": "EXTREME"
 }
