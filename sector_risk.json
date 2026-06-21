@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-21T21:12:21.503645+09:00",
-  "date": "20260621",
+  "updated_at": "2026-06-22T00:56:21.593858+09:00",
+  "date": "20260622",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -29,7 +29,7 @@
         "로봇": 1,
         "전력·에너지": 1
       },
-      "d_day": 4
+      "d_day": 3
     }
   ],
   "sector_stats": {
@@ -71,10 +71,16 @@
       ]
     },
     "건설": {
-      "score": -4,
+      "score": -5,
       "positive_count": 9,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260622",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran begin talks on initial peace deal...",
+          "score": -1
+        },
         {
           "date": "20260620",
           "type": "negative",
@@ -98,48 +104,42 @@
           "type": "negative",
           "headline": "[거시분석] The bikers battling extreme heat and armed co...",
           "score": -2
-        },
-        {
-          "date": "20260616",
-          "type": "positive",
-          "headline": "[미·이란 종전] 볼턴 \"이란, 트럼프 갖고놀며 유리한 합의 끌어내\"",
-          "score": 1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 43,
-      "negative_count": 13,
+      "positive_count": 44,
+      "negative_count": 16,
       "recent_events": [
         {
-          "date": "20260621",
+          "date": "20260622",
+          "type": "negative",
+          "headline": "Iran-U.S. launch historic peace talks with 60-day roadmap",
+          "score": -1
+        },
+        {
+          "date": "20260622",
+          "type": "negative",
+          "headline": "미국·이란, 스위스서 대면협상…종전 '노딜' 70일만(종합2보)",
+          "score": -1
+        },
+        {
+          "date": "20260622",
           "type": "negative",
           "headline": "이란 외무부 대변인 \"레바논 종전 이행 없이 최종 협상 불가\"(종합)",
           "score": -1
         },
         {
-          "date": "20260621",
-          "type": "negative",
-          "headline": "미국·이란, 스위스서 대면협상…종전 '노딜' 70일만(종합)",
-          "score": -1
-        },
-        {
-          "date": "20260621",
-          "type": "negative",
-          "headline": "이란 외무부 대변인 \"레바논 종전 이행 없이 최종 협상 불가\"",
-          "score": -1
-        },
-        {
-          "date": "20260621",
+          "date": "20260622",
           "type": "positive",
-          "headline": "[거시분석] US-Iran talks begin in Switzerland as Tehran ...",
-          "score": 1
+          "headline": "[거시분석] US and Iran begin talks on initial peace deal...",
+          "score": 2
         },
         {
-          "date": "20260620",
+          "date": "20260621",
           "type": "negative",
-          "headline": "Israel and Hezbollah continue strikes despite ceasefire agreement",
+          "headline": "이란 외무부 대변인 \"레바논 종전 이행 없이 최종 협상 불가\"(종합)",
           "score": -1
         }
       ]
@@ -252,9 +252,27 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 11,
-      "negative_count": 27,
+      "positive_count": 13,
+      "negative_count": 28,
       "recent_events": [
+        {
+          "date": "20260622",
+          "type": "positive",
+          "headline": "미국·이란, 스위스서 대면협상…종전 '노딜' 70일만(종합2보)",
+          "score": 1
+        },
+        {
+          "date": "20260622",
+          "type": "positive",
+          "headline": "이란 외무부 대변인 \"레바논 종전 이행 없이 최종 협상 불가\"(종합)",
+          "score": 1
+        },
+        {
+          "date": "20260622",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran begin talks on initial peace deal...",
+          "score": -3
+        },
         {
           "date": "20260621",
           "type": "positive",
@@ -265,24 +283,6 @@
           "date": "20260621",
           "type": "positive",
           "headline": "미국·이란, 스위스서 대면협상…종전 '노딜' 70일만(종합)",
-          "score": 1
-        },
-        {
-          "date": "20260621",
-          "type": "positive",
-          "headline": "이란 외무부 대변인 \"레바논 종전 이행 없이 최종 협상 불가\"",
-          "score": 1
-        },
-        {
-          "date": "20260621",
-          "type": "negative",
-          "headline": "[거시분석] US-Iran talks begin in Switzerland as Tehran ...",
-          "score": -2
-        },
-        {
-          "date": "20260620",
-          "type": "positive",
-          "headline": "이란군 \"호르무즈 재봉쇄…미·이스라엘 종전 MOU 위반 탓\"",
           "score": 1
         }
       ]
@@ -1024,9 +1024,45 @@
         "전체시장": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260622",
+      "headline": "Iran-U.S. launch historic peace talks with 60-day roadmap",
+      "impacts": {
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260622",
+      "headline": "미국·이란, 스위스서 대면협상…종전 '노딜' 70일만(종합2보)",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260622",
+      "headline": "이란 외무부 대변인 \"레바논 종전 이행 없이 최종 협상 불가\"(종합)",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260622",
+      "headline": "[거시분석] US and Iran begin talks on initial peace deal...",
+      "impacts": {
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -3
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 54,
-  "total_positives": 73,
+  "total_negatives": 59,
+  "total_positives": 76,
   "risk_level": "EXTREME"
 }
