@@ -62,6 +62,7 @@ def fetch_market_signal(tok) -> dict:
         "kospi_ch5": 0, "kospi_ch20": 0, "aligned": "",
         "kosdaq_close": 0, "kosdaq_ch5": 0, "kosdaq_aligned": "혼조", "kosdaq_rsi": 50.0,
         "rsi_14": 50.0, "basis": None, "basis_signal": "조회불가",
+        "usdkrw": 0, "usdkrw_ch1": 0, "usdkrw_ch5": 0,
     }
     try:
         reasons = []
@@ -94,6 +95,16 @@ def fetch_market_signal(tok) -> dict:
                     losses = [max(p_asc[i-1]-p_asc[i], 0) for i in range(1,15)]
                     avg_g  = sum(gains)/14; avg_l = sum(losses)/14
                     result["kosdaq_rsi"] = 100.0 if avg_l==0 else round(100-(100/(1+avg_g/avg_l)),1)
+        except: pass
+
+        # ── 원/달러 환율 (외인 이탈 선행 신호용) ──────────────────────
+        try:
+            df_fx = fdr.DataReader("USD/KRW", s, e)
+            if df_fx is not None and len(df_fx) >= 2:
+                fx = list(df_fx["Close"].dropna())[::-1]   # 최신이 앞
+                result["usdkrw"]     = round(fx[0], 2)
+                result["usdkrw_ch1"] = round((fx[0]-fx[1])/fx[1]*100, 2) if len(fx)>=2 and fx[1]>0 else 0
+                result["usdkrw_ch5"] = round((fx[0]-fx[4])/fx[4]*100, 2) if len(fx)>=5 and fx[4]>0 else 0
         except: pass
 
         # ── KIS 일별 차트 API: 당일 ch1 확보 (항상 호출) ─────────────
@@ -669,10 +680,11 @@ def select_top40(tok, candidates):
     for r in result[:5]: print(f"    {r['rank']:2d}. {r['name']} ({r['market']}) — {r['tvol']:,}억")
     return result, adr_data
 
-# ── 4단계: 외국인 순매수 ──────────────────────────────────────────
+# ── 4단계: 외국인 + 기관 순매수 ───────────────────────────────────
 def fetch_foreign_net(tok, ticker):
-    """외국인 순매수 수량. 당일치가 비어있으면(장중 미집계) 최근 확정일로 폴백.
-    반환: (수량, 기준) — 수량 양수=순매수/음수=순매도/0=데이터없음, 기준='당일'|'전일'|''"""
+    """외국인·기관 순매수 수량 (같은 inquire-investor 응답에서 동시 추출).
+    당일치가 비어있으면(장중 미집계) 최근 확정일로 폴백.
+    반환: (외인수량, 기관수량, 기준) — 양수=순매수/음수=순매도/0=데이터없음, 기준='당일'|'전일'|''"""
     try:
         r = requests.get(
             f"{BASE}/uapi/domestic-stock/v1/quotations/inquire-investor",
@@ -682,14 +694,17 @@ def fetch_foreign_net(tok, ticker):
         )
         rows = r.json().get("output", [])
         if not rows:
-            return 0, ""
+            return 0, 0, ""
         for i, row in enumerate(rows):
-            raw = str(row.get("frgn_ntby_qty", "0")).replace(",", "").strip()
-            if raw.lstrip("-").isdigit() and int(raw) != 0:
-                return int(raw), ("당일" if i == 0 else "전일")
-        return 0, ""
+            fraw = str(row.get("frgn_ntby_qty", "0")).replace(",", "").strip()
+            oraw = str(row.get("orgn_ntby_qty", "0")).replace(",", "").strip()
+            fval = int(fraw) if fraw.lstrip("-").isdigit() else 0
+            oval = int(oraw) if oraw.lstrip("-").isdigit() else 0
+            if fval != 0 or oval != 0:
+                return fval, oval, ("당일" if i == 0 else "전일")
+        return 0, 0, ""
     except:
-        return 0, ""
+        return 0, 0, ""
 
 
 # ── 5단계: EPS 추세 ───────────────────────────────────────────────
@@ -1025,10 +1040,10 @@ def main():
         try:
             eps_tr = fetch_eps_trend(tok,tk,t.get("eps",0))
             price  = fetch_ch20(tok,tk)
-            frgn_net, frgn_basis = fetch_foreign_net(tok, tk)
+            frgn_net, orgn_net, frgn_basis = fetch_foreign_net(tok, tk)
             time.sleep(0.2)
 
-            data={**t,**eps_tr,**price,"frgn_net":frgn_net,"frgn_basis":frgn_basis}
+            data={**t,**eps_tr,**price,"frgn_net":frgn_net,"orgn_net":orgn_net,"frgn_basis":frgn_basis}
             f=judge(data)
             data.update({"filters":f,"grade":f["grade"],"score":f["score"],"recommended":f["recommended"]})
             # vol_char: prdy_ctrt(실시간 등락률) 기반 거래성격
@@ -1071,16 +1086,24 @@ def main():
     pool_down  = sum(1 for r in results if "하락동반" in _vc(r))
     pool_fpos  = sum(1 for r in results if int(r.get("frgn_net", 0) or 0) > 0)
     pool_fneg  = sum(1 for r in results if int(r.get("frgn_net", 0) or 0) < 0)
+    pool_opos  = sum(1 for r in results if int(r.get("orgn_net", 0) or 0) > 0)
+    pool_oneg  = sum(1 for r in results if int(r.get("orgn_net", 0) or 0) < 0)
     pool_large = sum(1 for r in results if r.get("cap_class") == "대형")
     market_signal["pool_flow"] = {
         "total": len(results), "buy_led": pool_buy, "sell_led": pool_sell,
         "up_follow": pool_up, "down_follow": pool_down,
-        "frgn_pos": pool_fpos, "frgn_neg": pool_fneg, "large_cap": pool_large,
+        "frgn_pos": pool_fpos, "frgn_neg": pool_fneg,
+        "orgn_pos": pool_opos, "orgn_neg": pool_oneg, "large_cap": pool_large,
     }
     _flow = "매수우위" if pool_buy > pool_sell else ("매도우위" if pool_sell > pool_buy else "중립")
     _frgn = "순매수우위" if pool_fpos > pool_fneg else ("순매도우위" if pool_fneg > pool_fpos else "중립")
+    _orgn = "순매수우위" if pool_opos > pool_oneg else ("순매도우위" if pool_oneg > pool_opos else "중립")
     print(f"\n  🌊 후보군 수급: 매수주도 {pool_buy} / 매도주도 {pool_sell} ({_flow}) | "
-          f"외인 {_frgn}({pool_fpos}↑/{pool_fneg}↓) | 대형주 {pool_large}/{len(results)}")
+          f"외인 {_frgn}({pool_fpos}↑/{pool_fneg}↓) | 기관 {_orgn}({pool_opos}↑/{pool_oneg}↓) | 대형주 {pool_large}/{len(results)}")
+    _fx = market_signal.get("usdkrw", 0)
+    if _fx:
+        print(f"  💱 원/달러 {_fx:,.1f}원 (당일 {market_signal.get('usdkrw_ch1',0):+.2f}% / 5일 {market_signal.get('usdkrw_ch5',0):+.2f}%)"
+              + ("  ⚠️ 환율 급등 — 외인 이탈 주의" if market_signal.get('usdkrw_ch1',0) >= 1.0 else ""))
 
     recs=[r for r in results if r.get("recommended")]
     print(f"\n{'─'*70}")
