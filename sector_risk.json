@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T08:18:37.548048+09:00",
+  "updated_at": "2026-06-22T13:50:11.997839+09:00",
   "date": "20260622",
   "window_days": 14,
   "sectors": [
@@ -34,15 +34,15 @@
   ],
   "sector_stats": {
     "반도체·AI": {
-      "score": -6,
-      "positive_count": 2,
-      "negative_count": 4,
+      "score": -3,
+      "positive_count": 3,
+      "negative_count": 3,
       "recent_events": [
         {
           "date": "20260622",
-          "type": "negative",
-          "headline": "[거시분석] Trump and Iran's negotiator trade warnings as...",
-          "score": -2
+          "type": "positive",
+          "headline": "AI시대 사이버 위협 대응…서울시 개인정보보호 포럼",
+          "score": 1
         },
         {
           "date": "20260619",
@@ -71,10 +71,16 @@
       ]
     },
     "건설": {
-      "score": -4,
-      "positive_count": 9,
+      "score": -3,
+      "positive_count": 10,
       "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260622",
+          "type": "positive",
+          "headline": "조현 \"중동 재건사업 참여 준비…호르무즈 통항 지원 총력\"(종합)",
+          "score": 1
+        },
         {
           "date": "20260620",
           "type": "negative",
@@ -98,30 +104,18 @@
           "type": "negative",
           "headline": "[거시분석] The bikers battling extreme heat and armed co...",
           "score": -2
-        },
-        {
-          "date": "20260616",
-          "type": "positive",
-          "headline": "[미·이란 종전] 볼턴 \"이란, 트럼프 갖고놀며 유리한 합의 끌어내\"",
-          "score": 1
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 44,
-      "negative_count": 14,
+      "negative_count": 13,
       "recent_events": [
         {
           "date": "20260622",
-          "type": "negative",
-          "headline": "Iran-US launch historic peace talks with 60-day roadmap",
-          "score": -1
-        },
-        {
-          "date": "20260622",
           "type": "positive",
-          "headline": "[거시분석] Trump and Iran's negotiator trade warnings as...",
+          "headline": "[거시분석] First round of US-Iran talks end with 'encour...",
           "score": 1
         },
         {
@@ -141,6 +135,12 @@
           "type": "negative",
           "headline": "이란 외무부 대변인 \"레바논 종전 이행 없이 최종 협상 불가\"",
           "score": -1
+        },
+        {
+          "date": "20260621",
+          "type": "positive",
+          "headline": "[거시분석] US-Iran talks begin in Switzerland as Tehran ...",
+          "score": 1
         }
       ]
     },
@@ -189,10 +189,16 @@
       ]
     },
     "금융": {
-      "score": -6,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 4,
+      "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20260622",
+          "type": "negative",
+          "headline": "[거시분석] First round of US-Iran talks end with 'encour...",
+          "score": -1
+        },
         {
           "date": "20260618",
           "type": "negative",
@@ -258,8 +264,8 @@
         {
           "date": "20260622",
           "type": "negative",
-          "headline": "[거시분석] Trump and Iran's negotiator trade warnings as...",
-          "score": -5
+          "headline": "[거시분석] First round of US-Iran talks end with 'encour...",
+          "score": -3
         },
         {
           "date": "20260621",
@@ -1027,24 +1033,32 @@
     },
     {
       "date": "20260622",
-      "headline": "Iran-US launch historic peace talks with 60-day roadmap",
+      "headline": "AI시대 사이버 위협 대응…서울시 개인정보보호 포럼",
       "impacts": {
-        "방산": -1
+        "반도체·AI": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260622",
-      "headline": "[거시분석] Trump and Iran's negotiator trade warnings as...",
+      "headline": "조현 \"중동 재건사업 참여 준비…호르무즈 통항 지원 총력\"(종합)",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260622",
+      "headline": "[거시분석] First round of US-Iran talks end with 'encour...",
       "impacts": {
         "방산": 1,
-        "전체시장": -5,
-        "반도체·AI": -2
+        "전체시장": -3,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 57,
-  "total_positives": 74,
+  "total_negatives": 56,
+  "total_positives": 76,
   "risk_level": "EXTREME"
 }
