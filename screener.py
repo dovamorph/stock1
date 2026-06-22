@@ -840,6 +840,59 @@ def classify_breadth_regime(ms: dict) -> dict:
             "kospi_ch1": round(kospi_ch1, 2), "kosdaq_ch1": round(kosdaq_ch1, 2),
             "adr": round(adr, 1)}
 
+def assess_flip_risk(ms: dict, pool: dict) -> dict:
+    """대형주 쏠림 '구조 뒤집힘' 조기경보 판정.
+    핵심 원리: 이 장을 떠받치는 외인 수급이 빠지거나(외인 이탈), 환율 급등,
+    대형주 자체 균열, 코스닥 순환매 전환이 겹치면 구조가 빠르게 뒤집힌다.
+    반환: {level, score, color, reasons[]}"""
+    score = 0; reasons = []
+    kospi_ch1  = float(ms.get("kospi_ch1", 0))
+    kosdaq_ch1 = float(ms.get("kosdaq_ch1", 0))
+    aligned    = ms.get("aligned", "")
+    adr        = float(ms.get("adr", 50))
+    fx_ch1     = float(ms.get("usdkrw_ch1", 0))
+    fx_ch5     = float(ms.get("usdkrw_ch5", 0))
+    fpos = int(pool.get("frgn_pos", 0)); fneg = int(pool.get("frgn_neg", 0))
+    opos = int(pool.get("orgn_pos", 0)); oneg = int(pool.get("orgn_neg", 0))
+
+    # A. 수급 — 외인(이 장의 marginal buyer)이 핵심, 기관 동반 시 가중
+    frgn_sell = fneg > fpos
+    orgn_sell = oneg > opos
+    if frgn_sell and orgn_sell:
+        score += 3; reasons.append("외인·기관 동시 순매도")
+    elif frgn_sell:
+        score += 2; reasons.append("외인 순매도 전환")
+    elif orgn_sell:
+        score += 1; reasons.append("기관 순매도(외인은 매수)")
+
+    # B. 환율 급등 — 외인 이탈 선행/동반 신호
+    if fx_ch1 >= 1.0:
+        score += 2; reasons.append(f"환율 급등 당일 {fx_ch1:+.2f}%")
+    elif fx_ch5 >= 2.5:
+        score += 1; reasons.append(f"환율 5일 {fx_ch5:+.2f}%")
+
+    # C. 대형주 자체 균열 — 지수 급락 / 정배열 이탈
+    if kospi_ch1 <= -1.5:
+        score += 2; reasons.append(f"코스피 당일 급락 {kospi_ch1:+.2f}%")
+    elif aligned != "정배열":
+        score += 1; reasons.append("정배열 이탈")
+
+    # D. 시장 폭 투매권 (이미 좁은데 더 극단)
+    if adr < 10:
+        score += 1; reasons.append(f"ADR 투매권 {adr:.1f}%")
+
+    # E. 순환매 전환 — 코스닥이 코스피보다 강해지면 양극화 해소(구조 전환의 다른 형태)
+    if (kosdaq_ch1 - kospi_ch1) >= 1.0 and kosdaq_ch1 > 0:
+        score += 1; reasons.append("코스닥 순환매 조짐")
+
+    if   score >= 5: level, color, icon = "경보", "var(--sell)", "🔴"
+    elif score >= 3: level, color, icon = "주의", "#ff9500",     "🟠"
+    elif score >= 1: level, color, icon = "관찰", "#e0b020",     "🟡"
+    else:            level, color, icon = "안정", "var(--buy)",  "🟢"
+
+    return {"level": level, "score": score, "color": color, "icon": icon,
+            "reasons": reasons or ["뚜렷한 이탈 신호 없음"]}
+
 def calc_entry_score(d: dict, kospi_ch1: float = 0.0, adr: float = 50.0) -> dict:
     """진입 타이밍 점수 (0~10점). 지금 사기 좋은 타이밍인지 종합 평가.
     kospi_ch1: KOSPI 당일 등락률 (시장 전체 방향 반영)
@@ -1104,6 +1157,11 @@ def main():
     if _fx:
         print(f"  💱 원/달러 {_fx:,.1f}원 (당일 {market_signal.get('usdkrw_ch1',0):+.2f}% / 5일 {market_signal.get('usdkrw_ch5',0):+.2f}%)"
               + ("  ⚠️ 환율 급등 — 외인 이탈 주의" if market_signal.get('usdkrw_ch1',0) >= 1.0 else ""))
+
+    # ── 구조 뒤집힘 조기경보 (수급·환율·지수·폭 종합) ──────────────
+    flip = assess_flip_risk(market_signal, market_signal["pool_flow"])
+    market_signal["flip_alert"] = flip
+    print(f"  {flip['icon']} 구조 뒤집힘 경보: {flip['level']} (점수 {flip['score']}) — {', '.join(flip['reasons'])}")
 
     recs=[r for r in results if r.get("recommended")]
     print(f"\n{'─'*70}")
