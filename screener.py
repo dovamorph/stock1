@@ -840,10 +840,11 @@ def classify_breadth_regime(ms: dict) -> dict:
             "kospi_ch1": round(kospi_ch1, 2), "kosdaq_ch1": round(kosdaq_ch1, 2),
             "adr": round(adr, 1)}
 
-def assess_flip_risk(ms: dict, pool: dict) -> dict:
+def assess_flip_risk(ms: dict, pool: dict, core=None) -> dict:
     """대형주 쏠림 '구조 뒤집힘' 조기경보 판정.
     핵심 원리: 이 장을 떠받치는 외인 수급이 빠지거나(외인 이탈), 환율 급등,
     대형주 자체 균열, 코스닥 순환매 전환이 겹치면 구조가 빠르게 뒤집힌다.
+    수급은 '구조' 그 자체인 대장주(삼성전자·SK하이닉스) 외인/기관을 직접 본다.
     반환: {level, score, color, reasons[]}"""
     score = 0; reasons = []
     kospi_ch1  = float(ms.get("kospi_ch1", 0))
@@ -852,18 +853,30 @@ def assess_flip_risk(ms: dict, pool: dict) -> dict:
     adr        = float(ms.get("adr", 50))
     fx_ch1     = float(ms.get("usdkrw_ch1", 0))
     fx_ch5     = float(ms.get("usdkrw_ch5", 0))
-    fpos = int(pool.get("frgn_pos", 0)); fneg = int(pool.get("frgn_neg", 0))
-    opos = int(pool.get("orgn_pos", 0)); oneg = int(pool.get("orgn_neg", 0))
 
-    # A. 수급 — 외인(이 장의 marginal buyer)이 핵심, 기관 동반 시 가중
-    frgn_sell = fneg > fpos
-    orgn_sell = oneg > opos
-    if frgn_sell and orgn_sell:
-        score += 3; reasons.append("외인·기관 동시 순매도")
-    elif frgn_sell:
-        score += 2; reasons.append("외인 순매도 전환")
-    elif orgn_sell:
-        score += 1; reasons.append("기관 순매도(외인은 매수)")
+    # A. 수급 — 대장주(삼성전자·SK하이닉스) 외인이 핵심. 둘이 곧 코스피의 절반.
+    core = core or []
+    core_has_data = any((c.get("frgn", 0) or c.get("orgn", 0)) for c in core)
+    if core and core_has_data:
+        cf_sell = sum(1 for c in core if (c.get("frgn", 0) or 0) < 0)   # 외인 순매도 대장주 수
+        co_sell = sum(1 for c in core if (c.get("orgn", 0) or 0) < 0)   # 기관 순매도 대장주 수
+        if cf_sell >= 2:                                                # 삼성·하이닉스 둘 다 외인 순매도
+            score += 3; reasons.append("삼성·하이닉스 외인 동반 순매도")
+            if co_sell >= 2:
+                score += 1; reasons.append("기관까지 동반")
+        elif cf_sell == 1:
+            nm = next((c.get("name","대장주") for c in core if (c.get("frgn",0) or 0) < 0), "대장주")
+            score += 2; reasons.append(f"{nm} 외인 순매도")
+    else:
+        # 폴백: 대장주 데이터가 없으면 후보군 카운트로 (정확도 낮음)
+        fpos = int(pool.get("frgn_pos", 0)); fneg = int(pool.get("frgn_neg", 0))
+        opos = int(pool.get("orgn_pos", 0)); oneg = int(pool.get("orgn_neg", 0))
+        if fneg > fpos and oneg > opos:
+            score += 3; reasons.append("외인·기관 동시 순매도(후보군)")
+        elif fneg > fpos:
+            score += 2; reasons.append("외인 순매도 우위(후보군)")
+        elif oneg > opos:
+            score += 1; reasons.append("기관 순매도(후보군)")
 
     # B. 환율 급등 — 외인 이탈 선행/동반 신호
     if fx_ch1 >= 1.0:
@@ -1158,8 +1171,22 @@ def main():
         print(f"  💱 원/달러 {_fx:,.1f}원 (당일 {market_signal.get('usdkrw_ch1',0):+.2f}% / 5일 {market_signal.get('usdkrw_ch5',0):+.2f}%)"
               + ("  ⚠️ 환율 급등 — 외인 이탈 주의" if market_signal.get('usdkrw_ch1',0) >= 1.0 else ""))
 
-    # ── 구조 뒤집힘 조기경보 (수급·환율·지수·폭 종합) ──────────────
-    flip = assess_flip_risk(market_signal, market_signal["pool_flow"])
+    # ── 대장주(삼성전자·SK하이닉스) 외인·기관 수급 — '구조' 그 자체 ──
+    CORE_TICKERS = [("005930","삼성전자"), ("000660","SK하이닉스")]
+    core_flow = []
+    for ctk, cnm in CORE_TICKERS:
+        hit = next((r for r in results if r.get("ticker") == ctk), None)
+        if hit is not None:
+            cf, co = int(hit.get("frgn_net",0) or 0), int(hit.get("orgn_net",0) or 0)
+        else:  # top40에 없으면(드묾) 직접 조회
+            cf, co, _ = fetch_foreign_net(tok, ctk)
+        core_flow.append({"ticker":ctk, "name":cnm, "frgn":cf, "orgn":co})
+    market_signal["core_flow"] = core_flow
+    def _dir(v): return "순매도🔴" if v<0 else ("순매수🟢" if v>0 else "데이터없음")
+    print("  🏛️ 대장주 수급: " + " | ".join(f"{c['name']} 외인 {_dir(c['frgn'])}·기관 {_dir(c['orgn'])}" for c in core_flow))
+
+    # ── 구조 뒤집힘 조기경보 (대장주 수급·환율·지수·폭 종합) ──────────
+    flip = assess_flip_risk(market_signal, market_signal["pool_flow"], core_flow)
     market_signal["flip_alert"] = flip
     print(f"  {flip['icon']} 구조 뒤집힘 경보: {flip['level']} (점수 {flip['score']}) — {', '.join(flip['reasons'])}")
 
