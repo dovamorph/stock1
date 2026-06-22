@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T13:50:11.997839+09:00",
+  "updated_at": "2026-06-22T21:11:39.382379+09:00",
   "date": "20260622",
   "window_days": 14,
   "sectors": [
@@ -34,16 +34,10 @@
   ],
   "sector_stats": {
     "반도체·AI": {
-      "score": -3,
-      "positive_count": 3,
+      "score": -4,
+      "positive_count": 2,
       "negative_count": 3,
       "recent_events": [
-        {
-          "date": "20260622",
-          "type": "positive",
-          "headline": "AI시대 사이버 위협 대응…서울시 개인정보보호 포럼",
-          "score": 1
-        },
         {
           "date": "20260619",
           "type": "negative",
@@ -67,20 +61,20 @@
           "type": "positive",
           "headline": "US asks Anthropic to block global access to top AI models: Why it matters",
           "score": 1
+        },
+        {
+          "date": "20260613",
+          "type": "positive",
+          "headline": "US orders Anthropic to disable AI models for all foreign nationals",
+          "score": 1
         }
       ]
     },
     "건설": {
-      "score": -3,
-      "positive_count": 10,
+      "score": -4,
+      "positive_count": 9,
       "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20260622",
-          "type": "positive",
-          "headline": "조현 \"중동 재건사업 참여 준비…호르무즈 통항 지원 총력\"(종합)",
-          "score": 1
-        },
         {
           "date": "20260620",
           "type": "negative",
@@ -104,6 +98,12 @@
           "type": "negative",
           "headline": "[거시분석] The bikers battling extreme heat and armed co...",
           "score": -2
+        },
+        {
+          "date": "20260616",
+          "type": "positive",
+          "headline": "[미·이란 종전] 볼턴 \"이란, 트럼프 갖고놀며 유리한 합의 끌어내\"",
+          "score": 1
         }
       ]
     },
@@ -115,7 +115,7 @@
         {
           "date": "20260622",
           "type": "positive",
-          "headline": "[거시분석] First round of US-Iran talks end with 'encour...",
+          "headline": "[거시분석] First round of US-Iran talks ends with encour...",
           "score": 1
         },
         {
@@ -196,7 +196,7 @@
         {
           "date": "20260622",
           "type": "negative",
-          "headline": "[거시분석] First round of US-Iran talks end with 'encour...",
+          "headline": "[거시분석] First round of US-Iran talks ends with encour...",
           "score": -1
         },
         {
@@ -264,7 +264,7 @@
         {
           "date": "20260622",
           "type": "negative",
-          "headline": "[거시분석] First round of US-Iran talks end with 'encour...",
+          "headline": "[거시분석] First round of US-Iran talks ends with encour...",
           "score": -3
         },
         {
@@ -1033,23 +1033,7 @@
     },
     {
       "date": "20260622",
-      "headline": "AI시대 사이버 위협 대응…서울시 개인정보보호 포럼",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260622",
-      "headline": "조현 \"중동 재건사업 참여 준비…호르무즈 통항 지원 총력\"(종합)",
-      "impacts": {
-        "건설": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260622",
-      "headline": "[거시분석] First round of US-Iran talks end with 'encour...",
+      "headline": "[거시분석] First round of US-Iran talks ends with encour...",
       "impacts": {
         "방산": 1,
         "전체시장": -3,
@@ -1059,6 +1043,6 @@
     }
   ],
   "total_negatives": 56,
-  "total_positives": 76,
+  "total_positives": 74,
   "risk_level": "EXTREME"
 }
