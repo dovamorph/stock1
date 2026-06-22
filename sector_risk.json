@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-22T21:11:39.382379+09:00",
-  "date": "20260622",
+  "updated_at": "2026-06-23T03:14:12.539714+09:00",
+  "date": "20260623",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -29,15 +29,21 @@
         "로봇": 1,
         "전력·에너지": 1
       },
-      "d_day": 3
+      "d_day": 2
     }
   ],
   "sector_stats": {
     "반도체·AI": {
-      "score": -4,
+      "score": -6,
       "positive_count": 2,
-      "negative_count": 3,
+      "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20260623",
+          "type": "negative",
+          "headline": "[거시분석] Vance says Iran will allow nuclear inspectors...",
+          "score": -2
+        },
         {
           "date": "20260619",
           "type": "negative",
@@ -61,20 +67,20 @@
           "type": "positive",
           "headline": "US asks Anthropic to block global access to top AI models: Why it matters",
           "score": 1
-        },
-        {
-          "date": "20260613",
-          "type": "positive",
-          "headline": "US orders Anthropic to disable AI models for all foreign nationals",
-          "score": 1
         }
       ]
     },
     "건설": {
-      "score": -4,
+      "score": -6,
       "positive_count": 9,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260623",
+          "type": "negative",
+          "headline": "[거시분석] Vance says Iran will allow nuclear inspectors...",
+          "score": -2
+        },
         {
           "date": "20260620",
           "type": "negative",
@@ -98,48 +104,42 @@
           "type": "negative",
           "headline": "[거시분석] The bikers battling extreme heat and armed co...",
           "score": -2
-        },
-        {
-          "date": "20260616",
-          "type": "positive",
-          "headline": "[미·이란 종전] 볼턴 \"이란, 트럼프 갖고놀며 유리한 합의 끌어내\"",
-          "score": 1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 44,
-      "negative_count": 13,
+      "positive_count": 45,
+      "negative_count": 16,
       "recent_events": [
+        {
+          "date": "20260623",
+          "type": "negative",
+          "headline": "파키스탄 \"이란 대통령 23일 국빈방문…종전MOU 이후 상황 논의\"",
+          "score": -1
+        },
+        {
+          "date": "20260623",
+          "type": "negative",
+          "headline": "美국무, 걸프국 순방…종전 MOU·호르무즈 통항 논의",
+          "score": -1
+        },
+        {
+          "date": "20260623",
+          "type": "negative",
+          "headline": "뉴욕증시, 미-이란 종전 협상 성과 소화하며 혼조 출발",
+          "score": -1
+        },
+        {
+          "date": "20260623",
+          "type": "positive",
+          "headline": "[거시분석] Vance says Iran will allow nuclear inspectors...",
+          "score": 3
+        },
         {
           "date": "20260622",
           "type": "positive",
           "headline": "[거시분석] First round of US-Iran talks ends with encour...",
-          "score": 1
-        },
-        {
-          "date": "20260621",
-          "type": "negative",
-          "headline": "이란 외무부 대변인 \"레바논 종전 이행 없이 최종 협상 불가\"(종합)",
-          "score": -1
-        },
-        {
-          "date": "20260621",
-          "type": "negative",
-          "headline": "미국·이란, 스위스서 대면협상…종전 '노딜' 70일만(종합)",
-          "score": -1
-        },
-        {
-          "date": "20260621",
-          "type": "negative",
-          "headline": "이란 외무부 대변인 \"레바논 종전 이행 없이 최종 협상 불가\"",
-          "score": -1
-        },
-        {
-          "date": "20260621",
-          "type": "positive",
-          "headline": "[거시분석] US-Iran talks begin in Switzerland as Tehran ...",
           "score": 1
         }
       ]
@@ -189,10 +189,16 @@
       ]
     },
     "금융": {
-      "score": -7,
+      "score": -8,
       "positive_count": 0,
-      "negative_count": 5,
+      "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20260623",
+          "type": "negative",
+          "headline": "[거시분석] Vance says Iran will allow nuclear inspectors...",
+          "score": -1
+        },
         {
           "date": "20260622",
           "type": "negative",
@@ -215,12 +221,6 @@
           "date": "20260616",
           "type": "negative",
           "headline": "[거시분석] Iran deal presents political nightmare for Ne...",
-          "score": -1
-        },
-        {
-          "date": "20260615",
-          "type": "negative",
-          "headline": "[거시분석] Oil prices fall and shares jump after US-Iran...",
           "score": -1
         }
       ]
@@ -258,38 +258,38 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 11,
-      "negative_count": 28,
+      "positive_count": 14,
+      "negative_count": 29,
       "recent_events": [
+        {
+          "date": "20260623",
+          "type": "positive",
+          "headline": "파키스탄 \"이란 대통령 23일 국빈방문…종전MOU 이후 상황 논의\"",
+          "score": 1
+        },
+        {
+          "date": "20260623",
+          "type": "positive",
+          "headline": "美국무, 걸프국 순방…종전 MOU·호르무즈 통항 논의",
+          "score": 1
+        },
+        {
+          "date": "20260623",
+          "type": "positive",
+          "headline": "뉴욕증시, 미-이란 종전 협상 성과 소화하며 혼조 출발",
+          "score": 1
+        },
+        {
+          "date": "20260623",
+          "type": "negative",
+          "headline": "[거시분석] Vance says Iran will allow nuclear inspectors...",
+          "score": -7
+        },
         {
           "date": "20260622",
           "type": "negative",
           "headline": "[거시분석] First round of US-Iran talks ends with encour...",
           "score": -3
-        },
-        {
-          "date": "20260621",
-          "type": "positive",
-          "headline": "이란 외무부 대변인 \"레바논 종전 이행 없이 최종 협상 불가\"(종합)",
-          "score": 1
-        },
-        {
-          "date": "20260621",
-          "type": "positive",
-          "headline": "미국·이란, 스위스서 대면협상…종전 '노딜' 70일만(종합)",
-          "score": 1
-        },
-        {
-          "date": "20260621",
-          "type": "positive",
-          "headline": "이란 외무부 대변인 \"레바논 종전 이행 없이 최종 협상 불가\"",
-          "score": 1
-        },
-        {
-          "date": "20260621",
-          "type": "negative",
-          "headline": "[거시분석] US-Iran talks begin in Switzerland as Tehran ...",
-          "score": -2
         }
       ]
     }
@@ -1040,9 +1040,48 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260623",
+      "headline": "파키스탄 \"이란 대통령 23일 국빈방문…종전MOU 이후 상황 논의\"",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260623",
+      "headline": "美국무, 걸프국 순방…종전 MOU·호르무즈 통항 논의",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260623",
+      "headline": "뉴욕증시, 미-이란 종전 협상 성과 소화하며 혼조 출발",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260623",
+      "headline": "[거시분석] Vance says Iran will allow nuclear inspectors...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -7,
+        "금융": -1,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 56,
-  "total_positives": 74,
+  "total_negatives": 63,
+  "total_positives": 78,
   "risk_level": "EXTREME"
 }
