@@ -72,6 +72,7 @@ def fetch_market_signal(tok) -> dict:
         # ── MA/RSI 계산용 과거 가격 배열 ─────────────────────────────
         df  = fdr.DataReader("KS11", s, e)
 
+        kq_prices = []   # KOSDAQ fdr 종가 배열 (KIS ch1 재계산 폴백용 — 항상 정의)
         try:
             df_kq = fdr.DataReader("KQ11", s, e)
             if df_kq is not None and len(df_kq) >= 2:
@@ -160,9 +161,21 @@ def fetch_market_signal(tok) -> dict:
                 kq_ctrt     = sf(latest_kq.get("bstp_nmix_prdy_ctrt", 0))
                 kq_close_k  = sf(latest_kq.get("bstp_nmix_prpr", 0))
                 if kq_date == today_str and kq_close_k > 0:
-                    result["kosdaq_ch1"]   = round(kq_ctrt, 2)
-                    result["kosdaq_close"] = round(kq_close_k, 2)
-                    print(f"  KOSDAQ 당일: {kq_close_k:,.2f} ({kq_ctrt:+.2f}%) [KIS]")
+                    result["kosdaq_close"] = round(kq_close_k, 2)   # 라이브 종가는 항상 사용
+                    if kq_ctrt != 0:
+                        result["kosdaq_ch1"] = round(kq_ctrt, 2)
+                    else:
+                        # KIS가 등락률을 0으로 줄 때(장중 미집계): KIS 라이브 종가 vs fdr 직전 종가로 재계산 (KOSPI와 동일 방식)
+                        prev = None
+                        if kq_prices:
+                            if len(kq_prices) >= 2 and abs(kq_prices[0] - kq_close_k) < 0.01:
+                                prev = kq_prices[1]      # fdr 최신이 이미 오늘이면 그 전날
+                            else:
+                                prev = kq_prices[0]      # 아니면 fdr 최신(직전 거래일)
+                        if prev and prev > 0:
+                            result["kosdaq_ch1"] = round((kq_close_k - prev) / prev * 100, 2)
+                        # else: fdr이 81행에서 넣은 등락률 유지
+                    print(f"  KOSDAQ 당일: {kq_close_k:,.2f} ({result['kosdaq_ch1']:+.2f}%) [KIS]")
                 else:
                     print(f"  ⚠️ KIS KOSDAQ 최신행={kq_date or '없음'} (오늘 {today_str} 아님/종가0) → fdr 사용")
             else:
