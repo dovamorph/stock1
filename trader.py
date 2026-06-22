@@ -208,6 +208,7 @@ def load_positions():
     }
 
 def save_positions(data):
+    data["updated_at"] = datetime.datetime.now(KST).isoformat()  # 대시보드 보유 카드 갱신시각용
     with open(POSITIONS_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
