@@ -13,6 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # PAT로 푸시해야 봇 커밋이 '사람 활동'으로 잡혀 스케줄 60일 자동중단을 막음 (없으면 기존 토큰 폴백)
+          token: ${{ secrets.PAT || github.token }}
+          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v5
