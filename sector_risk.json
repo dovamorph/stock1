@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T12:54:31.887328+09:00",
+  "updated_at": "2026-06-23T16:52:59.395845+09:00",
   "date": "20260623",
   "window_days": 14,
   "sectors": [
@@ -34,16 +34,10 @@
   ],
   "sector_stats": {
     "반도체·AI": {
-      "score": -6,
+      "score": -4,
       "positive_count": 2,
-      "negative_count": 4,
+      "negative_count": 3,
       "recent_events": [
-        {
-          "date": "20260623",
-          "type": "negative",
-          "headline": "[거시분석] US eases oil sanctions as Iran denies Vance c...",
-          "score": -2
-        },
         {
           "date": "20260619",
           "type": "negative",
@@ -66,6 +60,12 @@
           "date": "20260614",
           "type": "positive",
           "headline": "US asks Anthropic to block global access to top AI models: Why it matters",
+          "score": 1
+        },
+        {
+          "date": "20260613",
+          "type": "positive",
+          "headline": "US orders Anthropic to disable AI models for all foreign nationals",
           "score": 1
         }
       ]
@@ -115,7 +115,7 @@
         {
           "date": "20260623",
           "type": "positive",
-          "headline": "[거시분석] US eases oil sanctions as Iran denies Vance c...",
+          "headline": "[거시분석] Iran says no new commitments on nuclear sites...",
           "score": 1
         },
         {
@@ -196,7 +196,7 @@
         {
           "date": "20260623",
           "type": "negative",
-          "headline": "[거시분석] US eases oil sanctions as Iran denies Vance c...",
+          "headline": "[거시분석] Iran says no new commitments on nuclear sites...",
           "score": -1
         },
         {
@@ -259,19 +259,13 @@
     "전체시장": {
       "score": -10,
       "positive_count": 11,
-      "negative_count": 30,
+      "negative_count": 29,
       "recent_events": [
         {
           "date": "20260623",
           "type": "negative",
-          "headline": "연말까지 LPG 할당관세 0%…부탄 유류세 탄력세율 인하 연장",
-          "score": -1
-        },
-        {
-          "date": "20260623",
-          "type": "negative",
-          "headline": "[거시분석] US eases oil sanctions as Iran denies Vance c...",
-          "score": -5
+          "headline": "[거시분석] Iran says no new commitments on nuclear sites...",
+          "score": -3
         },
         {
           "date": "20260622",
@@ -289,6 +283,12 @@
           "date": "20260621",
           "type": "positive",
           "headline": "미국·이란, 스위스서 대면협상…종전 '노딜' 70일만(종합)",
+          "score": 1
+        },
+        {
+          "date": "20260621",
+          "type": "positive",
+          "headline": "이란 외무부 대변인 \"레바논 종전 이행 없이 최종 협상 불가\"",
           "score": 1
         }
       ]
@@ -1043,25 +1043,16 @@
     },
     {
       "date": "20260623",
-      "headline": "연말까지 LPG 할당관세 0%…부탄 유류세 탄력세율 인하 연장",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260623",
-      "headline": "[거시분석] US eases oil sanctions as Iran denies Vance c...",
+      "headline": "[거시분석] Iran says no new commitments on nuclear sites...",
       "impacts": {
         "방산": 1,
-        "전체시장": -5,
-        "금융": -1,
-        "반도체·AI": -2
+        "전체시장": -3,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 60,
+  "total_negatives": 58,
   "total_positives": 75,
   "risk_level": "EXTREME"
 }
