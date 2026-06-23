@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-23T23:56:52.209400+09:00",
-  "date": "20260623",
+  "updated_at": "2026-06-24T03:01:10.332179+09:00",
+  "date": "20260624",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -29,7 +29,7 @@
         "로봇": 1,
         "전력·에너지": 1
       },
-      "d_day": 2
+      "d_day": 1
     }
   ],
   "sector_stats": {
@@ -109,9 +109,21 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 45,
-      "negative_count": 14,
+      "positive_count": 46,
+      "negative_count": 15,
       "recent_events": [
+        {
+          "date": "20260624",
+          "type": "negative",
+          "headline": "Israeli fire kills two in Lebanon as Hezbollah slams truce ‘violation’",
+          "score": -1
+        },
+        {
+          "date": "20260624",
+          "type": "positive",
+          "headline": "[거시분석] Dozens of ships head through Strait of Hormuz...",
+          "score": 1
+        },
         {
           "date": "20260623",
           "type": "negative",
@@ -129,18 +141,6 @@
           "type": "positive",
           "headline": "[거시분석] First round of US-Iran talks ends with encour...",
           "score": 1
-        },
-        {
-          "date": "20260621",
-          "type": "negative",
-          "headline": "이란 외무부 대변인 \"레바논 종전 이행 없이 최종 협상 불가\"(종합)",
-          "score": -1
-        },
-        {
-          "date": "20260621",
-          "type": "negative",
-          "headline": "미국·이란, 스위스서 대면협상…종전 '노딜' 70일만(종합)",
-          "score": -1
         }
       ]
     },
@@ -189,10 +189,16 @@
       ]
     },
     "금융": {
-      "score": -8,
+      "score": -9,
       "positive_count": 0,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260624",
+          "type": "negative",
+          "headline": "[거시분석] Dozens of ships head through Strait of Hormuz...",
+          "score": -1
+        },
         {
           "date": "20260623",
           "type": "negative",
@@ -216,20 +222,26 @@
           "type": "negative",
           "headline": "[거시분석] The bikers battling extreme heat and armed co...",
           "score": -1
-        },
-        {
-          "date": "20260616",
-          "type": "negative",
-          "headline": "[거시분석] Iran deal presents political nightmare for Ne...",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 4,
-      "positive_count": 4,
+      "score": 6,
+      "positive_count": 6,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260624",
+          "type": "positive",
+          "headline": "SpaceX shares drop below debut price before jumping amid $600bn sell-off",
+          "score": 1
+        },
+        {
+          "date": "20260624",
+          "type": "positive",
+          "headline": "Former PM says Israel smuggled Starlink internet systems into Iran",
+          "score": 1
+        },
         {
           "date": "20260623",
           "type": "positive",
@@ -247,12 +259,6 @@
           "type": "positive",
           "headline": "Nasa names next astronauts for Artemis Moon programme",
           "score": 1
-        },
-        {
-          "date": "20260610",
-          "type": "positive",
-          "headline": "NASA announces astronauts for Artemis III spaceflight, scheduled for 2027",
-          "score": 1
         }
       ]
     },
@@ -264,9 +270,27 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 12,
-      "negative_count": 29,
+      "positive_count": 13,
+      "negative_count": 31,
       "recent_events": [
+        {
+          "date": "20260624",
+          "type": "positive",
+          "headline": "Israeli fire kills two in Lebanon as Hezbollah slams truce ‘violation’",
+          "score": 1
+        },
+        {
+          "date": "20260624",
+          "type": "negative",
+          "headline": "\"트럼프, 관세발표 직전에야 세율정해…정부자료 불신해 구글링\"",
+          "score": -1
+        },
+        {
+          "date": "20260624",
+          "type": "negative",
+          "headline": "[거시분석] Dozens of ships head through Strait of Hormuz...",
+          "score": -4
+        },
         {
           "date": "20260623",
           "type": "positive",
@@ -278,24 +302,6 @@
           "type": "negative",
           "headline": "[거시분석] Iran says no new commitments on nuclear sites...",
           "score": -4
-        },
-        {
-          "date": "20260622",
-          "type": "negative",
-          "headline": "[거시분석] First round of US-Iran talks ends with encour...",
-          "score": -3
-        },
-        {
-          "date": "20260621",
-          "type": "positive",
-          "headline": "이란 외무부 대변인 \"레바논 종전 이행 없이 최종 협상 불가\"(종합)",
-          "score": 1
-        },
-        {
-          "date": "20260621",
-          "type": "positive",
-          "headline": "미국·이란, 스위스서 대면협상…종전 '노딜' 70일만(종합)",
-          "score": 1
         }
       ]
     }
@@ -1081,9 +1087,52 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260624",
+      "headline": "SpaceX shares drop below debut price before jumping amid $600bn sell-off",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260624",
+      "headline": "Former PM says Israel smuggled Starlink internet systems into Iran",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260624",
+      "headline": "Israeli fire kills two in Lebanon as Hezbollah slams truce ‘violation’",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260624",
+      "headline": "\"트럼프, 관세발표 직전에야 세율정해…정부자료 불신해 구글링\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260624",
+      "headline": "[거시분석] Dozens of ships head through Strait of Hormuz...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -4,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 59,
-  "total_positives": 78,
+  "total_negatives": 63,
+  "total_positives": 82,
   "risk_level": "EXTREME"
 }
