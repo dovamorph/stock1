@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T03:01:10.332179+09:00",
+  "updated_at": "2026-06-24T06:44:59.917839+09:00",
   "date": "20260624",
   "window_days": 14,
   "sectors": [
@@ -115,7 +115,7 @@
         {
           "date": "20260624",
           "type": "negative",
-          "headline": "Israeli fire kills two in Lebanon as Hezbollah slams truce ‘violation’",
+          "headline": "Iran’s president arrives in Pakistan for peace talks",
           "score": -1
         },
         {
@@ -226,20 +226,14 @@
       ]
     },
     "우주ETF": {
-      "score": 6,
-      "positive_count": 6,
+      "score": 5,
+      "positive_count": 5,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20260624",
           "type": "positive",
           "headline": "SpaceX shares drop below debut price before jumping amid $600bn sell-off",
-          "score": 1
-        },
-        {
-          "date": "20260624",
-          "type": "positive",
-          "headline": "Former PM says Israel smuggled Starlink internet systems into Iran",
           "score": 1
         },
         {
@@ -259,6 +253,12 @@
           "type": "positive",
           "headline": "Nasa names next astronauts for Artemis Moon programme",
           "score": 1
+        },
+        {
+          "date": "20260610",
+          "type": "positive",
+          "headline": "NASA announces astronauts for Artemis III spaceflight, scheduled for 2027",
+          "score": 1
         }
       ]
     },
@@ -270,26 +270,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 13,
-      "negative_count": 31,
+      "positive_count": 12,
+      "negative_count": 30,
       "recent_events": [
-        {
-          "date": "20260624",
-          "type": "positive",
-          "headline": "Israeli fire kills two in Lebanon as Hezbollah slams truce ‘violation’",
-          "score": 1
-        },
-        {
-          "date": "20260624",
-          "type": "negative",
-          "headline": "\"트럼프, 관세발표 직전에야 세율정해…정부자료 불신해 구글링\"",
-          "score": -1
-        },
         {
           "date": "20260624",
           "type": "negative",
           "headline": "[거시분석] Dozens of ships head through Strait of Hormuz...",
-          "score": -4
+          "score": -2
         },
         {
           "date": "20260623",
@@ -302,6 +290,18 @@
           "type": "negative",
           "headline": "[거시분석] Iran says no new commitments on nuclear sites...",
           "score": -4
+        },
+        {
+          "date": "20260622",
+          "type": "negative",
+          "headline": "[거시분석] First round of US-Iran talks ends with encour...",
+          "score": -3
+        },
+        {
+          "date": "20260621",
+          "type": "positive",
+          "headline": "이란 외무부 대변인 \"레바논 종전 이행 없이 최종 협상 불가\"(종합)",
+          "score": 1
         }
       ]
     }
@@ -1090,6 +1090,14 @@
     },
     {
       "date": "20260624",
+      "headline": "Iran’s president arrives in Pakistan for peace talks",
+      "impacts": {
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260624",
       "headline": "SpaceX shares drop below debut price before jumping amid $600bn sell-off",
       "impacts": {
         "우주ETF": 1
@@ -1098,41 +1106,16 @@
     },
     {
       "date": "20260624",
-      "headline": "Former PM says Israel smuggled Starlink internet systems into Iran",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260624",
-      "headline": "Israeli fire kills two in Lebanon as Hezbollah slams truce ‘violation’",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260624",
-      "headline": "\"트럼프, 관세발표 직전에야 세율정해…정부자료 불신해 구글링\"",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260624",
       "headline": "[거시분석] Dozens of ships head through Strait of Hormuz...",
       "impacts": {
         "방산": 1,
-        "전체시장": -4,
+        "전체시장": -2,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 63,
-  "total_positives": 82,
+  "total_negatives": 62,
+  "total_positives": 80,
   "risk_level": "EXTREME"
 }
