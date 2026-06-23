@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T06:44:59.917839+09:00",
+  "updated_at": "2026-06-24T08:10:47.221792+09:00",
   "date": "20260624",
   "window_days": 14,
   "sectors": [
@@ -71,10 +71,16 @@
       ]
     },
     "건설": {
-      "score": -3,
+      "score": -5,
       "positive_count": 10,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260624",
+          "type": "negative",
+          "headline": "[거시분석] Dozens of ships head through Strait of Hormuz...",
+          "score": -2
+        },
         {
           "date": "20260623",
           "type": "positive",
@@ -98,12 +104,6 @@
           "type": "negative",
           "headline": "[거시분석] What's in the US-Iran agreement?",
           "score": -2
-        },
-        {
-          "date": "20260617",
-          "type": "negative",
-          "headline": "[거시분석] The bikers battling extreme heat and armed co...",
-          "score": -2
         }
       ]
     },
@@ -122,7 +122,7 @@
           "date": "20260624",
           "type": "positive",
           "headline": "[거시분석] Dozens of ships head through Strait of Hormuz...",
-          "score": 1
+          "score": 3
         },
         {
           "date": "20260623",
@@ -226,16 +226,10 @@
       ]
     },
     "우주ETF": {
-      "score": 5,
-      "positive_count": 5,
+      "score": 4,
+      "positive_count": 4,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260624",
-          "type": "positive",
-          "headline": "SpaceX shares drop below debut price before jumping amid $600bn sell-off",
-          "score": 1
-        },
         {
           "date": "20260623",
           "type": "positive",
@@ -277,7 +271,7 @@
           "date": "20260624",
           "type": "negative",
           "headline": "[거시분석] Dozens of ships head through Strait of Hormuz...",
-          "score": -2
+          "score": -4
         },
         {
           "date": "20260623",
@@ -1098,24 +1092,17 @@
     },
     {
       "date": "20260624",
-      "headline": "SpaceX shares drop below debut price before jumping amid $600bn sell-off",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260624",
       "headline": "[거시분석] Dozens of ships head through Strait of Hormuz...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -2,
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -4,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 62,
-  "total_positives": 80,
+  "total_negatives": 63,
+  "total_positives": 79,
   "risk_level": "EXTREME"
 }
