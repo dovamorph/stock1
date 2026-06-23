@@ -111,6 +111,7 @@ def fetch_market_signal(tok) -> dict:
         # ── KIS 일별 차트 API: 당일 ch1 확보 (항상 호출) ─────────────
         s2 = (now - timedelta(days=60)).strftime("%Y%m%d")
         e2 = now.strftime("%Y%m%d")
+        kospi_kis_live = 0   # KIS 당일 라이브 종가 (있으면 fdr보다 우선)
         try:
             res = requests.get(
                 f"{BASE}/uapi/domestic-stock/v1/quotations/inquire-daily-indexchartprice",
@@ -128,9 +129,11 @@ def fetch_market_signal(tok) -> dict:
                 item_close = sf(latest.get("bstp_nmix_prpr", 0))
                 # 오늘 KIS 데이터가 있으면 라이브값 사용 (fdr 일별종가보다 신선)
                 if item_date == today_str and item_close > 0:
-                    result["kospi_ch1"]   = round(item_ctrt, 2)
-                    result["kospi_close"] = round(item_close, 2)
-                    print(f"  KOSPI 당일: {item_close:,.2f} ({item_ctrt:+.2f}%) [KIS]")
+                    kospi_kis_live = round(item_close, 2)   # 라이브 종가 — 아래서 항상 우선 사용
+                    result["kospi_close"] = kospi_kis_live
+                    if item_ctrt != 0:
+                        result["kospi_ch1"] = round(item_ctrt, 2)
+                    # ctrt==0이면 prices 확보 후 직전 종가로 재계산 (아래) + 거기서 [KIS] 출력
                 else:
                     print(f"  ⚠️ KIS KOSPI 최신행={item_date or '없음'} (오늘 {today_str} 아님/종가0) → fdr 사용")
                 # MA/RSI용 가격 배열 (날짜 내림차순 정렬해 최신이 맨 앞)
@@ -187,10 +190,21 @@ def fetch_market_signal(tok) -> dict:
             prices = kis_prices if len(kis_prices) >= 20 else []
         else:
             prices = list(df["Close"].dropna())[::-1]
-            # DataReader 사용 시 ch1이 아직 0이면 prices로 계산
+            # KIS 당일 ch1이 0이면(장중 미집계): KIS 라이브 종가 vs '직전 거래일' fdr 종가로 재계산
+            # (fdr prices[0]은 장중 지연/전일일 수 있어 라이브값을 버리면 안 됨)
             if result.get("kospi_ch1", 0) == 0 and len(prices) >= 2 and prices[1] > 0:
-                result["kospi_ch1"]   = round((prices[0]-prices[1])/prices[1]*100, 2)
-                result["kospi_close"] = round(prices[0], 2)
+                try:
+                    fdr_today = (df.index[-1].date() == now.date())
+                except Exception:
+                    fdr_today = False
+                base = kospi_kis_live if kospi_kis_live > 0 else prices[0]
+                if kospi_kis_live > 0:
+                    prev = prices[1] if fdr_today else prices[0]   # 오늘 fdr값은 제외하고 직전 거래일
+                else:
+                    prev = prices[1]
+                if prev > 0:
+                    result["kospi_ch1"]   = round((base - prev) / prev * 100, 2)
+                    result["kospi_close"] = round(base, 2)
 
         if len(prices) < 20:
             return result
@@ -227,6 +241,9 @@ def fetch_market_signal(tok) -> dict:
             "kospi_high60": round(max(prices[:60]), 2) if prices else 0,
             "rsi_14":      rsi_14,
         })
+
+        if kospi_kis_live > 0:
+            print(f"  KOSPI 당일: {result['kospi_close']:,.2f} ({result.get('kospi_ch1',0):+.2f}%) [KIS]")
 
 
         is_golden   = ma5 > ma20
