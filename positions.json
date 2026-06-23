@@ -92,7 +92,7 @@
   ],
   "_kospi_ch5": -7.45,
   "_kospi_ch1": -9.99,
-  "_regime": "SIDEWAYS",
+  "_regime": "BULL",
   "recent_exits": {
     "064350": {
       "sell_price": 217000,
@@ -125,5 +125,5 @@
       "is_loss": true
     }
   },
-  "updated_at": "2026-06-23T16:07:31.721158+09:00"
+  "updated_at": "2026-06-24T08:53:57.771595+09:00"
 }
