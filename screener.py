@@ -224,6 +224,7 @@ def fetch_market_signal(tok) -> dict:
             "kospi_ch20":  round((close - prices[19]) / prices[19] * 100, 2) if len(prices) >= 20 and prices[19] > 0 else 0,
             "kospi_ch1":   result["kospi_ch1"] if _kis_ch1_ok else (round((close - prices[1]) / prices[1] * 100, 2) if len(prices) >= 2 and prices[1] > 0 else 0),
             "kospi_ch2":   round((close - prices[2]) / prices[2] * 100, 2) if len(prices) >= 3 and prices[2] > 0 else 0,
+            "kospi_high60": round(max(prices[:60]), 2) if prices else 0,
             "rsi_14":      rsi_14,
         })
 
@@ -854,14 +855,14 @@ def classify_breadth_regime(ms: dict) -> dict:
             "adr": round(adr, 1)}
 
 def assess_flip_risk(ms: dict, pool: dict, core=None) -> dict:
-    """대형주 쏠림 '구조 뒤집힘' 조기경보 판정.
-    핵심 원리: 이 장을 떠받치는 외인 수급이 빠지거나(외인 이탈), 환율 급등,
-    대형주 자체 균열, 코스닥 순환매 전환이 겹치면 구조가 빠르게 뒤집힌다.
+    """[이탈 경보 / de-risking] 대형주 구조 균열·위험 이탈 감지.
+    핵심: 이 장을 떠받치는 외인 수급(특히 대장주)이 빠지거나, 환율 급등,
+    대형주 자체 균열이 겹치면 '코스피·코스닥 동반 하락(de-risking)' 위험.
+    ※ 순환매(코스닥↑코스피↓)는 별개 신호 → assess_rotation() 참조.
     수급은 '구조' 그 자체인 대장주(삼성전자·SK하이닉스) 외인/기관을 직접 본다.
     반환: {level, score, color, reasons[]}"""
     score = 0; reasons = []
     kospi_ch1  = float(ms.get("kospi_ch1", 0))
-    kosdaq_ch1 = float(ms.get("kosdaq_ch1", 0))
     aligned    = ms.get("aligned", "")
     adr        = float(ms.get("adr", 50))
     fx_ch1     = float(ms.get("usdkrw_ch1", 0))
@@ -907,10 +908,6 @@ def assess_flip_risk(ms: dict, pool: dict, core=None) -> dict:
     if adr < 10:
         score += 1; reasons.append(f"ADR 투매권 {adr:.1f}%")
 
-    # E. 순환매 전환 — 코스닥이 코스피보다 강해지면 양극화 해소(구조 전환의 다른 형태)
-    if (kosdaq_ch1 - kospi_ch1) >= 1.0 and kosdaq_ch1 > 0:
-        score += 1; reasons.append("코스닥 순환매 조짐")
-
     if   score >= 5: level, color, icon = "경보", "var(--sell)", "🔴"
     elif score >= 3: level, color, icon = "주의", "#ff9500",     "🟠"
     elif score >= 1: level, color, icon = "관찰", "#e0b020",     "🟡"
@@ -918,6 +915,57 @@ def assess_flip_risk(ms: dict, pool: dict, core=None) -> dict:
 
     return {"level": level, "score": score, "color": color, "icon": icon,
             "reasons": reasons or ["뚜렷한 이탈 신호 없음"]}
+
+def assess_rotation(ms: dict) -> dict:
+    """[순환매 신호 / rotation] 진짜 '뒤집힘' — 코스피(대형) 쉬고 코스닥(중소형) 강세.
+    동반 하락(이탈)과 정반대: 돈이 시장 밖이 아니라 안에서 이동(양극화 해소).
+    반환: {active, level, color, reason}"""
+    kospi_ch1  = float(ms.get("kospi_ch1", 0))
+    kosdaq_ch1 = float(ms.get("kosdaq_ch1", 0))
+    gap = kosdaq_ch1 - kospi_ch1   # 코스닥이 코스피보다 얼마나 강한가
+    if gap >= 1.0 and kosdaq_ch1 > 0:
+        return {"active": True, "level": "뚜렷", "color": "var(--info)",
+                "reason": f"코스닥 {kosdaq_ch1:+.2f}% vs 코스피 {kospi_ch1:+.2f}% (코스닥 상대강세 {gap:+.1f}%p)"}
+    elif gap >= 0.5:
+        return {"active": True, "level": "초기", "color": "#e0b020",
+                "reason": f"코스닥이 코스피 대비 {gap:+.1f}%p 선방 (순환매 초기 조짐)"}
+    return {"active": False, "level": "없음", "color": "var(--muted)",
+            "reason": "코스닥 상대강세 없음"}
+
+def assess_correction_nature(ms: dict) -> dict:
+    """[조정 성격] 하락이 '단기 조정(과열 해소)'인지 '추세 전환(진짜 하락)'인지 판정.
+    원리: 추세(정배열·MA 위치)가 유지되고 낙폭이 얕으면 단기 조정,
+    정배열 붕괴·핵심 MA 이탈·깊은 낙폭이면 추세 전환 경계.
+    반환: {verdict, icon, score, drawdown, break[], calm[]}"""
+    score = 0; brk = []; calm = []
+    close  = float(ms.get("kospi_close", 0))
+    ma20   = float(ms.get("ma20", 0))
+    ma60   = float(ms.get("ma60", 0))
+    aligned= ms.get("aligned", "")
+    high60 = float(ms.get("kospi_high60", 0))
+    fx1    = float(ms.get("usdkrw_ch1", 0))
+    fx5    = float(ms.get("usdkrw_ch5", 0))
+    adr    = float(ms.get("adr", 50))
+    dd = round((close - high60) / high60 * 100, 1) if high60 > 0 else 0.0   # 고점 대비 낙폭(음수)
+
+    # 추세 전환 신호 (점수 ↑ = 진짜 하락 쪽)
+    if aligned != "정배열":          score += 2; brk.append("정배열 이탈")
+    else:                            calm.append("정배열 유지")
+    if ma20 > 0 and close < ma20:    score += 1; brk.append("MA20 하향 이탈")
+    elif ma20 > 0:                   calm.append("MA20 위")
+    if ma60 > 0 and close < ma60:    score += 2; brk.append("MA60(중기) 이탈")
+    elif ma60 > 0:                   calm.append("MA60 위")
+    if   dd <= -25:                  score += 2; brk.append(f"고점대비 {dd:.0f}%(깊음)")
+    elif dd <= -15:                  score += 1; brk.append(f"고점대비 {dd:.0f}%")
+    elif dd > -8:                    calm.append(f"고점대비 {dd:.0f}%(얕음)")
+    if fx1 >= 1.0 or fx5 >= 3.0:     score += 1; brk.append("환율 급등")
+    if adr < 10:                     score += 1; brk.append(f"ADR 투매 {adr:.0f}%")
+
+    if   score <= 1: verdict, icon = "단기 조정 우위", "🟢"
+    elif score <= 3: verdict, icon = "혼조 — 경계",   "🟡"
+    else:            verdict, icon = "추세 전환 경계", "🔴"
+    return {"verdict": verdict, "icon": icon, "score": score, "drawdown": dd,
+            "break": brk or ["뚜렷한 추세 균열 없음"], "calm": calm}
 
 def calc_entry_score(d: dict, kospi_ch1: float = 0.0, adr: float = 50.0) -> dict:
     """진입 타이밍 점수 (0~10점). 지금 사기 좋은 타이밍인지 종합 평가.
@@ -1199,9 +1247,19 @@ def main():
     print("  🏛️ 대장주 수급: " + " | ".join(f"{c['name']} 외인 {_dir(c['frgn'])}·기관 {_dir(c['orgn'])}" for c in core_flow))
 
     # ── 구조 뒤집힘 조기경보 (대장주 수급·환율·지수·폭 종합) ──────────
+    # ── 구조 신호 3종 분리 판정 ────────────────────────────────────
+    # ① 이탈 경보(동반 하락) ② 순환매(코스닥↑코스피↓) ③ 조정 성격(단기조정 vs 추세전환)
     flip = assess_flip_risk(market_signal, market_signal["pool_flow"], core_flow)
     market_signal["flip_alert"] = flip
-    print(f"  {flip['icon']} 구조 뒤집힘 경보: {flip['level']} (점수 {flip['score']}) — {', '.join(flip['reasons'])}")
+    rotation = assess_rotation(market_signal)
+    market_signal["rotation"] = rotation
+    corr = assess_correction_nature(market_signal)
+    market_signal["correction_nature"] = corr
+    print(f"  {flip['icon']} 이탈 경보(동반하락): {flip['level']} (점수 {flip['score']}) — {', '.join(flip['reasons'])}")
+    print(f"  {'🔄' if rotation['active'] else '➖'} 순환매(코스닥강세): {rotation['level']} — {rotation['reason']}")
+    _cd = f" | 고점대비 {corr['drawdown']:+.1f}%" if corr.get('drawdown') else ""
+    print(f"  {corr['icon']} 조정 성격: {corr['verdict']} (추세전환점수 {corr['score']}){_cd}")
+    print(f"       └ 안정요인: {', '.join(corr['calm']) or '없음'} | 균열요인: {', '.join(corr['break'])}")
 
     recs=[r for r in results if r.get("recommended")]
     print(f"\n{'─'*70}")
