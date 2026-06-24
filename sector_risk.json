@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T12:55:41.635113+09:00",
+  "updated_at": "2026-06-24T16:46:18.609711+09:00",
   "date": "20260624",
   "window_days": 14,
   "sectors": [
@@ -71,15 +71,15 @@
       ]
     },
     "건설": {
-      "score": -4,
+      "score": -5,
       "positive_count": 10,
       "negative_count": 8,
       "recent_events": [
         {
           "date": "20260624",
           "type": "negative",
-          "headline": "[거시분석] Dozens of ships head through Strait of Hormuz...",
-          "score": -1
+          "headline": "[거시분석] Congress passes war powers measure for first ...",
+          "score": -2
         },
         {
           "date": "20260623",
@@ -115,8 +115,8 @@
         {
           "date": "20260624",
           "type": "positive",
-          "headline": "[거시분석] Dozens of ships head through Strait of Hormuz...",
-          "score": 2
+          "headline": "[거시분석] Congress passes war powers measure for first ...",
+          "score": 3
         },
         {
           "date": "20260623",
@@ -196,7 +196,7 @@
         {
           "date": "20260624",
           "type": "negative",
-          "headline": "[거시분석] Dozens of ships head through Strait of Hormuz...",
+          "headline": "[거시분석] Congress passes war powers measure for first ...",
           "score": -1
         },
         {
@@ -276,8 +276,8 @@
         {
           "date": "20260624",
           "type": "negative",
-          "headline": "[거시분석] Dozens of ships head through Strait of Hormuz...",
-          "score": -3
+          "headline": "[거시분석] Congress passes war powers measure for first ...",
+          "score": -5
         },
         {
           "date": "20260623",
@@ -1098,11 +1098,11 @@
     },
     {
       "date": "20260624",
-      "headline": "[거시분석] Dozens of ships head through Strait of Hormuz...",
+      "headline": "[거시분석] Congress passes war powers measure for first ...",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -3,
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
         "금융": -1
       },
       "source": "geo_categories"
