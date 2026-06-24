@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T05:00:12.557986+09:00",
+  "updated_at": "2026-06-25T06:44:09.295916+09:00",
   "date": "20260625",
   "window_days": 14,
   "sectors": [
@@ -71,16 +71,10 @@
       ]
     },
     "건설": {
-      "score": -6,
+      "score": -4,
       "positive_count": 10,
-      "negative_count": 9,
+      "negative_count": 8,
       "recent_events": [
-        {
-          "date": "20260625",
-          "type": "negative",
-          "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
-          "score": -2
-        },
         {
           "date": "20260624",
           "type": "negative",
@@ -104,25 +98,25 @@
           "type": "negative",
           "headline": "[거시분석] US-Iran talks postponed as Vance pulls out of...",
           "score": -2
+        },
+        {
+          "date": "20260618",
+          "type": "negative",
+          "headline": "[거시분석] What's in the US-Iran agreement?",
+          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 47,
-      "negative_count": 16,
+      "negative_count": 15,
       "recent_events": [
-        {
-          "date": "20260625",
-          "type": "negative",
-          "headline": "이란 외무부 \"美 관리들, 종전 합의와 모순된 발언…지양해야\"",
-          "score": -1
-        },
         {
           "date": "20260625",
           "type": "positive",
           "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260624",
@@ -141,6 +135,12 @@
           "type": "negative",
           "headline": "Israeli fire kills two in Lebanon as Hezbollah slams truce ‘violation’",
           "score": -1
+        },
+        {
+          "date": "20260623",
+          "type": "positive",
+          "headline": "[거시분석] Iran says no new commitments on nuclear sites...",
+          "score": 1
         }
       ]
     },
@@ -189,16 +189,10 @@
       ]
     },
     "금융": {
-      "score": -9,
+      "score": -8,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20260625",
-          "type": "negative",
-          "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
-          "score": -1
-        },
         {
           "date": "20260623",
           "type": "negative",
@@ -221,6 +215,12 @@
           "date": "20260617",
           "type": "negative",
           "headline": "[거시분석] The bikers battling extreme heat and armed co...",
+          "score": -1
+        },
+        {
+          "date": "20260616",
+          "type": "negative",
+          "headline": "[거시분석] Iran deal presents political nightmare for Ne...",
           "score": -1
         }
       ]
@@ -252,20 +252,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 13,
+      "positive_count": 12,
       "negative_count": 31,
       "recent_events": [
         {
           "date": "20260625",
-          "type": "positive",
-          "headline": "이란 외무부 \"美 관리들, 종전 합의와 모순된 발언…지양해야\"",
-          "score": 1
-        },
-        {
-          "date": "20260625",
           "type": "negative",
           "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
-          "score": -5
+          "score": -1
         },
         {
           "date": "20260624",
@@ -284,6 +278,12 @@
           "type": "negative",
           "headline": "[거시분석] Iran says no new commitments on nuclear sites...",
           "score": -4
+        },
+        {
+          "date": "20260622",
+          "type": "negative",
+          "headline": "[거시분석] First round of US-Iran talks ends with encour...",
+          "score": -3
         }
       ]
     }
@@ -1074,26 +1074,15 @@
     },
     {
       "date": "20260625",
-      "headline": "이란 외무부 \"美 관리들, 종전 합의와 모순된 발언…지양해야\"",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260625",
       "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
-        "금융": -1
+        "방산": 1,
+        "전체시장": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 66,
-  "total_positives": 79,
+  "total_negatives": 63,
+  "total_positives": 78,
   "risk_level": "EXTREME"
 }
