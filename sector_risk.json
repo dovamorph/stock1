@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T16:46:18.609711+09:00",
+  "updated_at": "2026-06-24T19:54:23.074576+09:00",
   "date": "20260624",
   "window_days": 14,
   "sectors": [
@@ -189,16 +189,10 @@
       ]
     },
     "금융": {
-      "score": -9,
+      "score": -8,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20260624",
-          "type": "negative",
-          "headline": "[거시분석] Congress passes war powers measure for first ...",
-          "score": -1
-        },
         {
           "date": "20260623",
           "type": "negative",
@@ -222,20 +216,20 @@
           "type": "negative",
           "headline": "[거시분석] The bikers battling extreme heat and armed co...",
           "score": -1
+        },
+        {
+          "date": "20260616",
+          "type": "negative",
+          "headline": "[거시분석] Iran deal presents political nightmare for Ne...",
+          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 5,
-      "positive_count": 5,
+      "score": 4,
+      "positive_count": 4,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260624",
-          "type": "positive",
-          "headline": "Prada plays a part in designing NASA’s lunar mission spacesuits",
-          "score": 1
-        },
         {
           "date": "20260623",
           "type": "positive",
@@ -271,13 +265,19 @@
     "전체시장": {
       "score": -10,
       "positive_count": 12,
-      "negative_count": 30,
+      "negative_count": 31,
       "recent_events": [
         {
           "date": "20260624",
           "type": "negative",
+          "headline": "이란 협상단장 \"중동 전쟁 종식 합의는 '미국의 패배 선언'\"",
+          "score": -1
+        },
+        {
+          "date": "20260624",
+          "type": "negative",
           "headline": "[거시분석] Congress passes war powers measure for first ...",
-          "score": -5
+          "score": -3
         },
         {
           "date": "20260623",
@@ -296,12 +296,6 @@
           "type": "negative",
           "headline": "[거시분석] First round of US-Iran talks ends with encour...",
           "score": -3
-        },
-        {
-          "date": "20260621",
-          "type": "positive",
-          "headline": "이란 외무부 대변인 \"레바논 종전 이행 없이 최종 협상 불가\"(종합)",
-          "score": 1
         }
       ]
     }
@@ -1090,9 +1084,9 @@
     },
     {
       "date": "20260624",
-      "headline": "Prada plays a part in designing NASA’s lunar mission spacesuits",
+      "headline": "이란 협상단장 \"중동 전쟁 종식 합의는 '미국의 패배 선언'\"",
       "impacts": {
-        "우주ETF": 1
+        "전체시장": -1
       },
       "source": "keyword"
     },
@@ -1102,13 +1096,12 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -5,
-        "금융": -1
+        "전체시장": -3
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 62,
-  "total_positives": 80,
+  "total_positives": 79,
   "risk_level": "EXTREME"
 }
