@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T02:58:36.373131+09:00",
+  "updated_at": "2026-06-25T05:00:12.557986+09:00",
   "date": "20260625",
   "window_days": 14,
   "sectors": [
@@ -71,7 +71,7 @@
       ]
     },
     "건설": {
-      "score": -5,
+      "score": -6,
       "positive_count": 10,
       "negative_count": 9,
       "recent_events": [
@@ -79,7 +79,7 @@
           "date": "20260625",
           "type": "negative",
           "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
-          "score": -1
+          "score": -2
         },
         {
           "date": "20260624",
@@ -115,14 +115,14 @@
         {
           "date": "20260625",
           "type": "negative",
-          "headline": "이스라엘, 이란 압박에도 '레바논 철군 불가' 요지부동",
+          "headline": "이란 외무부 \"美 관리들, 종전 합의와 모순된 발언…지양해야\"",
           "score": -1
         },
         {
           "date": "20260625",
           "type": "positive",
           "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
-          "score": 2
+          "score": 3
         },
         {
           "date": "20260624",
@@ -189,10 +189,16 @@
       ]
     },
     "금융": {
-      "score": -8,
+      "score": -9,
       "positive_count": 0,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260625",
+          "type": "negative",
+          "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
+          "score": -1
+        },
         {
           "date": "20260623",
           "type": "negative",
@@ -215,12 +221,6 @@
           "date": "20260617",
           "type": "negative",
           "headline": "[거시분석] The bikers battling extreme heat and armed co...",
-          "score": -1
-        },
-        {
-          "date": "20260616",
-          "type": "negative",
-          "headline": "[거시분석] Iran deal presents political nightmare for Ne...",
           "score": -1
         }
       ]
@@ -252,14 +252,20 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 12,
+      "positive_count": 13,
       "negative_count": 31,
       "recent_events": [
         {
           "date": "20260625",
+          "type": "positive",
+          "headline": "이란 외무부 \"美 관리들, 종전 합의와 모순된 발언…지양해야\"",
+          "score": 1
+        },
+        {
+          "date": "20260625",
           "type": "negative",
           "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
-          "score": -3
+          "score": -5
         },
         {
           "date": "20260624",
@@ -278,12 +284,6 @@
           "type": "negative",
           "headline": "[거시분석] Iran says no new commitments on nuclear sites...",
           "score": -4
-        },
-        {
-          "date": "20260622",
-          "type": "negative",
-          "headline": "[거시분석] First round of US-Iran talks ends with encour...",
-          "score": -3
         }
       ]
     }
@@ -1074,9 +1074,10 @@
     },
     {
       "date": "20260625",
-      "headline": "이스라엘, 이란 압박에도 '레바논 철군 불가' 요지부동",
+      "headline": "이란 외무부 \"美 관리들, 종전 합의와 모순된 발언…지양해야\"",
       "impacts": {
-        "방산": -1
+        "방산": -1,
+        "전체시장": 1
       },
       "source": "keyword"
     },
@@ -1084,14 +1085,15 @@
       "date": "20260625",
       "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -3
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 65,
-  "total_positives": 78,
+  "total_negatives": 66,
+  "total_positives": 79,
   "risk_level": "EXTREME"
 }
