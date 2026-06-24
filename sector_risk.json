@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T08:10:47.221792+09:00",
+  "updated_at": "2026-06-24T12:55:41.635113+09:00",
   "date": "20260624",
   "window_days": 14,
   "sectors": [
@@ -71,7 +71,7 @@
       ]
     },
     "건설": {
-      "score": -5,
+      "score": -4,
       "positive_count": 10,
       "negative_count": 8,
       "recent_events": [
@@ -79,7 +79,7 @@
           "date": "20260624",
           "type": "negative",
           "headline": "[거시분석] Dozens of ships head through Strait of Hormuz...",
-          "score": -2
+          "score": -1
         },
         {
           "date": "20260623",
@@ -110,19 +110,13 @@
     "방산": {
       "score": 10,
       "positive_count": 46,
-      "negative_count": 15,
+      "negative_count": 14,
       "recent_events": [
-        {
-          "date": "20260624",
-          "type": "negative",
-          "headline": "Iran’s president arrives in Pakistan for peace talks",
-          "score": -1
-        },
         {
           "date": "20260624",
           "type": "positive",
           "headline": "[거시분석] Dozens of ships head through Strait of Hormuz...",
-          "score": 3
+          "score": 2
         },
         {
           "date": "20260623",
@@ -141,6 +135,12 @@
           "type": "positive",
           "headline": "[거시분석] First round of US-Iran talks ends with encour...",
           "score": 1
+        },
+        {
+          "date": "20260621",
+          "type": "negative",
+          "headline": "이란 외무부 대변인 \"레바논 종전 이행 없이 최종 협상 불가\"(종합)",
+          "score": -1
         }
       ]
     },
@@ -226,10 +226,16 @@
       ]
     },
     "우주ETF": {
-      "score": 4,
-      "positive_count": 4,
+      "score": 5,
+      "positive_count": 5,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260624",
+          "type": "positive",
+          "headline": "Prada plays a part in designing NASA’s lunar mission spacesuits",
+          "score": 1
+        },
         {
           "date": "20260623",
           "type": "positive",
@@ -271,7 +277,7 @@
           "date": "20260624",
           "type": "negative",
           "headline": "[거시분석] Dozens of ships head through Strait of Hormuz...",
-          "score": -4
+          "score": -3
         },
         {
           "date": "20260623",
@@ -1084,9 +1090,9 @@
     },
     {
       "date": "20260624",
-      "headline": "Iran’s president arrives in Pakistan for peace talks",
+      "headline": "Prada plays a part in designing NASA’s lunar mission spacesuits",
       "impacts": {
-        "방산": -1
+        "우주ETF": 1
       },
       "source": "keyword"
     },
@@ -1094,15 +1100,15 @@
       "date": "20260624",
       "headline": "[거시분석] Dozens of ships head through Strait of Hormuz...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -4,
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -3,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 63,
-  "total_positives": 79,
+  "total_negatives": 62,
+  "total_positives": 80,
   "risk_level": "EXTREME"
 }
