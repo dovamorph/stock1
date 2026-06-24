@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-24T23:38:56.977102+09:00",
-  "date": "20260624",
+  "updated_at": "2026-06-25T02:58:36.373131+09:00",
+  "date": "20260625",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -29,7 +29,7 @@
         "로봇": 1,
         "전력·에너지": 1
       },
-      "d_day": 1
+      "d_day": 0
     }
   ],
   "sector_stats": {
@@ -71,10 +71,16 @@
       ]
     },
     "건설": {
-      "score": -4,
+      "score": -5,
       "positive_count": 10,
-      "negative_count": 8,
+      "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20260625",
+          "type": "negative",
+          "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
+          "score": -1
+        },
         {
           "date": "20260624",
           "type": "negative",
@@ -98,20 +104,26 @@
           "type": "negative",
           "headline": "[거시분석] US-Iran talks postponed as Vance pulls out of...",
           "score": -2
-        },
-        {
-          "date": "20260618",
-          "type": "negative",
-          "headline": "[거시분석] What's in the US-Iran agreement?",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 46,
-      "negative_count": 15,
+      "positive_count": 47,
+      "negative_count": 16,
       "recent_events": [
+        {
+          "date": "20260625",
+          "type": "negative",
+          "headline": "이스라엘, 이란 압박에도 '레바논 철군 불가' 요지부동",
+          "score": -1
+        },
+        {
+          "date": "20260625",
+          "type": "positive",
+          "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
+          "score": 2
+        },
         {
           "date": "20260624",
           "type": "negative",
@@ -129,18 +141,6 @@
           "type": "negative",
           "headline": "Israeli fire kills two in Lebanon as Hezbollah slams truce ‘violation’",
           "score": -1
-        },
-        {
-          "date": "20260623",
-          "type": "positive",
-          "headline": "[거시분석] Iran says no new commitments on nuclear sites...",
-          "score": 1
-        },
-        {
-          "date": "20260622",
-          "type": "positive",
-          "headline": "[거시분석] First round of US-Iran talks ends with encour...",
-          "score": 1
         }
       ]
     },
@@ -226,8 +226,8 @@
       ]
     },
     "우주ETF": {
-      "score": 4,
-      "positive_count": 4,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
         {
@@ -241,18 +241,6 @@
           "type": "positive",
           "headline": "Elon Musk becomes world's first trillionaire as SpaceX soars in stock market debut",
           "score": 1
-        },
-        {
-          "date": "20260610",
-          "type": "positive",
-          "headline": "Nasa names next astronauts for Artemis Moon programme",
-          "score": 1
-        },
-        {
-          "date": "20260610",
-          "type": "positive",
-          "headline": "NASA announces astronauts for Artemis III spaceflight, scheduled for 2027",
-          "score": 1
         }
       ]
     },
@@ -265,8 +253,14 @@
     "전체시장": {
       "score": -10,
       "positive_count": 12,
-      "negative_count": 30,
+      "negative_count": 31,
       "recent_events": [
+        {
+          "date": "20260625",
+          "type": "negative",
+          "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
+          "score": -3
+        },
         {
           "date": "20260624",
           "type": "negative",
@@ -290,33 +284,11 @@
           "type": "negative",
           "headline": "[거시분석] First round of US-Iran talks ends with encour...",
           "score": -3
-        },
-        {
-          "date": "20260621",
-          "type": "positive",
-          "headline": "이란 외무부 대변인 \"레바논 종전 이행 없이 최종 협상 불가\"(종합)",
-          "score": 1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260610",
-      "headline": "Nasa names next astronauts for Artemis Moon programme",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": ""
-    },
-    {
-      "date": "20260610",
-      "headline": "NASA announces astronauts for Artemis III spaceflight, scheduled for 2027",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": ""
-    },
     {
       "date": "20260612",
       "headline": "Tehran says 'nothing' finalised after Trump claims deal to end Iran war near",
@@ -1099,9 +1071,27 @@
         "전체시장": -4
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260625",
+      "headline": "이스라엘, 이란 압박에도 '레바논 철군 불가' 요지부동",
+      "impacts": {
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260625",
+      "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
+      "impacts": {
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -3
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 62,
-  "total_positives": 79,
+  "total_negatives": 65,
+  "total_positives": 78,
   "risk_level": "EXTREME"
 }
