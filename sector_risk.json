@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T06:44:09.295916+09:00",
+  "updated_at": "2026-06-25T08:08:05.270961+09:00",
   "date": "20260625",
   "window_days": 14,
   "sectors": [
@@ -71,10 +71,16 @@
       ]
     },
     "건설": {
-      "score": -4,
+      "score": -6,
       "positive_count": 10,
-      "negative_count": 8,
+      "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20260625",
+          "type": "negative",
+          "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
+          "score": -2
+        },
         {
           "date": "20260624",
           "type": "negative",
@@ -98,12 +104,6 @@
           "type": "negative",
           "headline": "[거시분석] US-Iran talks postponed as Vance pulls out of...",
           "score": -2
-        },
-        {
-          "date": "20260618",
-          "type": "negative",
-          "headline": "[거시분석] What's in the US-Iran agreement?",
-          "score": -2
         }
       ]
     },
@@ -116,7 +116,7 @@
           "date": "20260625",
           "type": "positive",
           "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
-          "score": 1
+          "score": 3
         },
         {
           "date": "20260624",
@@ -259,7 +259,7 @@
           "date": "20260625",
           "type": "negative",
           "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
-          "score": -1
+          "score": -4
         },
         {
           "date": "20260624",
@@ -1076,13 +1076,14 @@
       "date": "20260625",
       "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -1
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 63,
+  "total_negatives": 64,
   "total_positives": 78,
   "risk_level": "EXTREME"
 }
