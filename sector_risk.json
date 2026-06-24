@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T19:54:23.074576+09:00",
+  "updated_at": "2026-06-24T23:38:56.977102+09:00",
   "date": "20260624",
   "window_days": 14,
   "sectors": [
@@ -71,15 +71,15 @@
       ]
     },
     "건설": {
-      "score": -5,
+      "score": -4,
       "positive_count": 10,
       "negative_count": 8,
       "recent_events": [
         {
           "date": "20260624",
           "type": "negative",
-          "headline": "[거시분석] Congress passes war powers measure for first ...",
-          "score": -2
+          "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
+          "score": -1
         },
         {
           "date": "20260623",
@@ -110,13 +110,19 @@
     "방산": {
       "score": 10,
       "positive_count": 46,
-      "negative_count": 14,
+      "negative_count": 15,
       "recent_events": [
         {
           "date": "20260624",
+          "type": "negative",
+          "headline": "이스라엘, 이란 압박에도 '레바논 철군 불가' 요지부동",
+          "score": -1
+        },
+        {
+          "date": "20260624",
           "type": "positive",
-          "headline": "[거시분석] Congress passes war powers measure for first ...",
-          "score": 3
+          "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
+          "score": 2
         },
         {
           "date": "20260623",
@@ -135,12 +141,6 @@
           "type": "positive",
           "headline": "[거시분석] First round of US-Iran talks ends with encour...",
           "score": 1
-        },
-        {
-          "date": "20260621",
-          "type": "negative",
-          "headline": "이란 외무부 대변인 \"레바논 종전 이행 없이 최종 협상 불가\"(종합)",
-          "score": -1
         }
       ]
     },
@@ -265,19 +265,13 @@
     "전체시장": {
       "score": -10,
       "positive_count": 12,
-      "negative_count": 31,
+      "negative_count": 30,
       "recent_events": [
         {
           "date": "20260624",
           "type": "negative",
-          "headline": "이란 협상단장 \"중동 전쟁 종식 합의는 '미국의 패배 선언'\"",
-          "score": -1
-        },
-        {
-          "date": "20260624",
-          "type": "negative",
-          "headline": "[거시분석] Congress passes war powers measure for first ...",
-          "score": -3
+          "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
+          "score": -4
         },
         {
           "date": "20260623",
@@ -296,6 +290,12 @@
           "type": "negative",
           "headline": "[거시분석] First round of US-Iran talks ends with encour...",
           "score": -3
+        },
+        {
+          "date": "20260621",
+          "type": "positive",
+          "headline": "이란 외무부 대변인 \"레바논 종전 이행 없이 최종 협상 불가\"(종합)",
+          "score": 1
         }
       ]
     }
@@ -1084,19 +1084,19 @@
     },
     {
       "date": "20260624",
-      "headline": "이란 협상단장 \"중동 전쟁 종식 합의는 '미국의 패배 선언'\"",
+      "headline": "이스라엘, 이란 압박에도 '레바논 철군 불가' 요지부동",
       "impacts": {
-        "전체시장": -1
+        "방산": -1
       },
       "source": "keyword"
     },
     {
       "date": "20260624",
-      "headline": "[거시분석] Congress passes war powers measure for first ...",
+      "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -3
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
