@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T19:46:37.004622+09:00",
+  "updated_at": "2026-06-25T23:39:34.536981+09:00",
   "date": "20260625",
   "window_days": 14,
   "sectors": [
@@ -71,10 +71,16 @@
       ]
     },
     "건설": {
-      "score": -4,
+      "score": -5,
       "positive_count": 10,
-      "negative_count": 8,
+      "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20260625",
+          "type": "negative",
+          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
+          "score": -1
+        },
         {
           "date": "20260624",
           "type": "negative",
@@ -98,25 +104,25 @@
           "type": "negative",
           "headline": "[거시분석] US-Iran talks postponed as Vance pulls out of...",
           "score": -2
-        },
-        {
-          "date": "20260618",
-          "type": "negative",
-          "headline": "[거시분석] What's in the US-Iran agreement?",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 47,
+      "positive_count": 48,
       "negative_count": 15,
       "recent_events": [
         {
           "date": "20260625",
           "type": "positive",
-          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
+          "headline": "\"'오스만 철도 부활' 튀르키예 막으려…이스라엘, 물밑 외교전\"",
           "score": 1
+        },
+        {
+          "date": "20260625",
+          "type": "positive",
+          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
+          "score": 2
         },
         {
           "date": "20260624",
@@ -135,12 +141,6 @@
           "type": "negative",
           "headline": "Israeli fire kills two in Lebanon as Hezbollah slams truce ‘violation’",
           "score": -1
-        },
-        {
-          "date": "20260623",
-          "type": "positive",
-          "headline": "[거시분석] Iran says no new commitments on nuclear sites...",
-          "score": 1
         }
       ]
     },
@@ -253,13 +253,19 @@
     "전체시장": {
       "score": -10,
       "positive_count": 12,
-      "negative_count": 31,
+      "negative_count": 32,
       "recent_events": [
         {
           "date": "20260625",
           "type": "negative",
+          "headline": "영국도 철강 관세 50％로 인상…정부 \"보상 협의 총력 대응\"",
+          "score": -1
+        },
+        {
+          "date": "20260625",
+          "type": "negative",
           "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
-          "score": -5
+          "score": -7
         },
         {
           "date": "20260624",
@@ -278,12 +284,6 @@
           "type": "negative",
           "headline": "[거시분석] Iran says no new commitments on nuclear sites...",
           "score": -4
-        },
-        {
-          "date": "20260622",
-          "type": "negative",
-          "headline": "[거시분석] First round of US-Iran talks ends with encour...",
-          "score": -3
         }
       ]
     }
@@ -1074,17 +1074,34 @@
     },
     {
       "date": "20260625",
+      "headline": "영국도 철강 관세 50％로 인상…정부 \"보상 협의 총력 대응\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260625",
+      "headline": "\"'오스만 철도 부활' 튀르키예 막으려…이스라엘, 물밑 외교전\"",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260625",
       "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -5,
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -7,
         "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 65,
-  "total_positives": 78,
+  "total_negatives": 67,
+  "total_positives": 79,
   "risk_level": "EXTREME"
 }
