@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T16:51:29.930876+09:00",
+  "updated_at": "2026-06-25T19:46:37.004622+09:00",
   "date": "20260625",
   "window_days": 14,
   "sectors": [
@@ -34,10 +34,16 @@
   ],
   "sector_stats": {
     "반도체·AI": {
-      "score": -4,
+      "score": -6,
       "positive_count": 2,
-      "negative_count": 3,
+      "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20260625",
+          "type": "negative",
+          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
+          "score": -2
+        },
         {
           "date": "20260619",
           "type": "negative",
@@ -60,12 +66,6 @@
           "date": "20260614",
           "type": "positive",
           "headline": "US asks Anthropic to block global access to top AI models: Why it matters",
-          "score": 1
-        },
-        {
-          "date": "20260613",
-          "type": "positive",
-          "headline": "US orders Anthropic to disable AI models for all foreign nationals",
           "score": 1
         }
       ]
@@ -115,7 +115,7 @@
         {
           "date": "20260625",
           "type": "positive",
-          "headline": "[거시분석] Trump asks Congress for $87bn, mostly for 'ur...",
+          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
           "score": 1
         },
         {
@@ -196,7 +196,7 @@
         {
           "date": "20260625",
           "type": "negative",
-          "headline": "[거시분석] Trump asks Congress for $87bn, mostly for 'ur...",
+          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
           "score": -1
         },
         {
@@ -258,8 +258,8 @@
         {
           "date": "20260625",
           "type": "negative",
-          "headline": "[거시분석] Trump asks Congress for $87bn, mostly for 'ur...",
-          "score": -3
+          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
+          "score": -5
         },
         {
           "date": "20260624",
@@ -1074,16 +1074,17 @@
     },
     {
       "date": "20260625",
-      "headline": "[거시분석] Trump asks Congress for $87bn, mostly for 'ur...",
+      "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
       "impacts": {
         "방산": 1,
-        "전체시장": -3,
-        "금융": -1
+        "전체시장": -5,
+        "금융": -1,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 64,
+  "total_negatives": 65,
   "total_positives": 78,
   "risk_level": "EXTREME"
 }
