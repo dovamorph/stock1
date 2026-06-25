@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T12:56:48.676676+09:00",
+  "updated_at": "2026-06-25T16:51:29.930876+09:00",
   "date": "20260625",
   "window_days": 14,
   "sectors": [
@@ -71,16 +71,10 @@
       ]
     },
     "건설": {
-      "score": -6,
+      "score": -4,
       "positive_count": 10,
-      "negative_count": 9,
+      "negative_count": 8,
       "recent_events": [
-        {
-          "date": "20260625",
-          "type": "negative",
-          "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
-          "score": -2
-        },
         {
           "date": "20260624",
           "type": "negative",
@@ -104,6 +98,12 @@
           "type": "negative",
           "headline": "[거시분석] US-Iran talks postponed as Vance pulls out of...",
           "score": -2
+        },
+        {
+          "date": "20260618",
+          "type": "negative",
+          "headline": "[거시분석] What's in the US-Iran agreement?",
+          "score": -2
         }
       ]
     },
@@ -115,8 +115,8 @@
         {
           "date": "20260625",
           "type": "positive",
-          "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
-          "score": 3
+          "headline": "[거시분석] Trump asks Congress for $87bn, mostly for 'ur...",
+          "score": 1
         },
         {
           "date": "20260624",
@@ -189,10 +189,16 @@
       ]
     },
     "금융": {
-      "score": -8,
+      "score": -9,
       "positive_count": 0,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260625",
+          "type": "negative",
+          "headline": "[거시분석] Trump asks Congress for $87bn, mostly for 'ur...",
+          "score": -1
+        },
         {
           "date": "20260623",
           "type": "negative",
@@ -215,12 +221,6 @@
           "date": "20260617",
           "type": "negative",
           "headline": "[거시분석] The bikers battling extreme heat and armed co...",
-          "score": -1
-        },
-        {
-          "date": "20260616",
-          "type": "negative",
-          "headline": "[거시분석] Iran deal presents political nightmare for Ne...",
           "score": -1
         }
       ]
@@ -258,8 +258,8 @@
         {
           "date": "20260625",
           "type": "negative",
-          "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
-          "score": -5
+          "headline": "[거시분석] Trump asks Congress for $87bn, mostly for 'ur...",
+          "score": -3
         },
         {
           "date": "20260624",
@@ -1074,11 +1074,11 @@
     },
     {
       "date": "20260625",
-      "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
+      "headline": "[거시분석] Trump asks Congress for $87bn, mostly for 'ur...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5
+        "방산": 1,
+        "전체시장": -3,
+        "금융": -1
       },
       "source": "geo_categories"
     }
