@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T08:08:05.270961+09:00",
+  "updated_at": "2026-06-25T12:56:48.676676+09:00",
   "date": "20260625",
   "window_days": 14,
   "sectors": [
@@ -259,7 +259,7 @@
           "date": "20260625",
           "type": "negative",
           "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
-          "score": -4
+          "score": -5
         },
         {
           "date": "20260624",
@@ -1078,7 +1078,7 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -4
+        "전체시장": -5
       },
       "source": "geo_categories"
     }
