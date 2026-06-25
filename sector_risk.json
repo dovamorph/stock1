@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-25T23:39:34.536981+09:00",
-  "date": "20260625",
+  "updated_at": "2026-06-26T03:13:09.996577+09:00",
+  "date": "20260626",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -13,31 +13,19 @@
     "양자컴퓨팅",
     "전체시장"
   ],
-  "calendar_events": [
-    {
-      "id": "nvidia_q2_2026",
-      "name": "NVIDIA 2분기 실적",
-      "date": "2026-06-25",
-      "type": "earnings",
-      "risk_level": "high",
-      "description": "AI 수요 확인의 가늠자. 어닝 서프라이즈 시 반도체 전체 랠리. 실망 시 AI테마 전반 조정.",
-      "benefit_text": "호실적: 반도체·AI ▲▲▲  소부장 ▲▲",
-      "damage_text": "실망: 반도체·AI ▼▼  AI테마 ▼▼",
-      "result_text": "",
-      "sector_impacts": {
-        "반도체·AI": 3,
-        "로봇": 1,
-        "전력·에너지": 1
-      },
-      "d_day": 0
-    }
-  ],
+  "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -6,
+      "score": -8,
       "positive_count": 2,
-      "negative_count": 4,
+      "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20260626",
+          "type": "negative",
+          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
+          "score": -2
+        },
         {
           "date": "20260625",
           "type": "negative",
@@ -61,20 +49,26 @@
           "type": "negative",
           "headline": "[거시분석] Iran deal presents political nightmare for Ne...",
           "score": -2
-        },
-        {
-          "date": "20260614",
-          "type": "positive",
-          "headline": "US asks Anthropic to block global access to top AI models: Why it matters",
-          "score": 1
         }
       ]
     },
     "건설": {
       "score": -5,
-      "positive_count": 10,
-      "negative_count": 9,
+      "positive_count": 11,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20260626",
+          "type": "positive",
+          "headline": "폴란드서 우크라 재건회의…젤렌스키는 역사갈등에 불참(종합)",
+          "score": 1
+        },
+        {
+          "date": "20260626",
+          "type": "negative",
+          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
+          "score": -1
+        },
         {
           "date": "20260625",
           "type": "negative",
@@ -92,26 +86,26 @@
           "type": "positive",
           "headline": "젤렌스키, 우크라 재건회의 불참…폴란드와 역사갈등 여파",
           "score": 1
-        },
-        {
-          "date": "20260620",
-          "type": "negative",
-          "headline": "[거시분석] Israel and Hezbollah continue strikes despite...",
-          "score": -2
-        },
-        {
-          "date": "20260619",
-          "type": "negative",
-          "headline": "[거시분석] US-Iran talks postponed as Vance pulls out of...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 48,
-      "negative_count": 15,
+      "positive_count": 49,
+      "negative_count": 16,
       "recent_events": [
+        {
+          "date": "20260626",
+          "type": "negative",
+          "headline": "Lebanon Latest: Peace talks between Lebanon and Israel, people return south",
+          "score": -1
+        },
+        {
+          "date": "20260626",
+          "type": "positive",
+          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
+          "score": 2
+        },
         {
           "date": "20260625",
           "type": "positive",
@@ -128,18 +122,6 @@
           "date": "20260624",
           "type": "negative",
           "headline": "이스라엘, 이란 압박에도 '레바논 철군 불가' 요지부동",
-          "score": -1
-        },
-        {
-          "date": "20260624",
-          "type": "positive",
-          "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
-          "score": 2
-        },
-        {
-          "date": "20260623",
-          "type": "negative",
-          "headline": "Israeli fire kills two in Lebanon as Hezbollah slams truce ‘violation’",
           "score": -1
         }
       ]
@@ -189,10 +171,16 @@
       ]
     },
     "금융": {
-      "score": -9,
+      "score": -10,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260626",
+          "type": "negative",
+          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
+          "score": -1
+        },
         {
           "date": "20260625",
           "type": "negative",
@@ -216,12 +204,6 @@
           "type": "negative",
           "headline": "[거시분석] What's in the US-Iran agreement?",
           "score": -3
-        },
-        {
-          "date": "20260617",
-          "type": "negative",
-          "headline": "[거시분석] The bikers battling extreme heat and armed co...",
-          "score": -1
         }
       ]
     },
@@ -253,8 +235,20 @@
     "전체시장": {
       "score": -10,
       "positive_count": 12,
-      "negative_count": 32,
+      "negative_count": 34,
       "recent_events": [
+        {
+          "date": "20260626",
+          "type": "negative",
+          "headline": "영국도 철강 관세 50％로 인상…정부 \"보상 협의 총력 대응\"",
+          "score": -1
+        },
+        {
+          "date": "20260626",
+          "type": "negative",
+          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
+          "score": -6
+        },
         {
           "date": "20260625",
           "type": "negative",
@@ -271,18 +265,6 @@
           "date": "20260624",
           "type": "negative",
           "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
-          "score": -4
-        },
-        {
-          "date": "20260623",
-          "type": "positive",
-          "headline": "Israeli fire kills two in Lebanon as Hezbollah slams truce ‘violation’",
-          "score": 1
-        },
-        {
-          "date": "20260623",
-          "type": "negative",
-          "headline": "[거시분석] Iran says no new commitments on nuclear sites...",
           "score": -4
         }
       ]
@@ -1099,9 +1081,45 @@
         "반도체·AI": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260626",
+      "headline": "Lebanon Latest: Peace talks between Lebanon and Israel, people return south",
+      "impacts": {
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260626",
+      "headline": "폴란드서 우크라 재건회의…젤렌스키는 역사갈등에 불참(종합)",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260626",
+      "headline": "영국도 철강 관세 50％로 인상…정부 \"보상 협의 총력 대응\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260626",
+      "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
+      "impacts": {
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -6,
+        "금융": -1,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 67,
-  "total_positives": 79,
+  "total_negatives": 73,
+  "total_positives": 81,
   "risk_level": "EXTREME"
 }

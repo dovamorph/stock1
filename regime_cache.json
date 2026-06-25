@@ -1,14 +1,14 @@
 {
   "regime": "BULL",
   "label": "강세장 🟢",
-  "kospi": 8930.3,
-  "ma20": 8461.19,
-  "ma60": 7248.94,
-  "ret_5d": -1.35,
-  "ret_20d": 9.1,
+  "kospi": 8471.02,
+  "ma20": 8426.11,
+  "ma60": 7190.75,
+  "ret_5d": -6.54,
+  "ret_20d": 2.94,
   "vol_trend": false,
-  "cycle_stage": "overheated",
-  "cycle_multiplier_adj": -0.2,
+  "cycle_stage": "uptrend",
+  "cycle_multiplier_adj": 0.0,
   "longterm_new_buy_ok": true,
   "daytrend_new_buy_ok": true,
   "params": {
@@ -29,6 +29,6 @@
     "min_buy_score": 5,
     "trailing_stop": 0.1
   },
-  "effective_position_multiplier": 0.8,
-  "cached_at": "2026-06-25T14:39:36.086562"
+  "effective_position_multiplier": 1.0,
+  "cached_at": "2026-06-25T18:13:13.505227"
 }
