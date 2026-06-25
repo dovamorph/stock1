@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T06:47:37.338703+09:00",
+  "updated_at": "2026-06-26T08:21:53.908014+09:00",
   "date": "20260626",
   "window_days": 14,
   "sectors": [
@@ -53,16 +53,10 @@
       ]
     },
     "건설": {
-      "score": -7,
+      "score": -5,
       "positive_count": 10,
-      "negative_count": 10,
+      "negative_count": 9,
       "recent_events": [
-        {
-          "date": "20260626",
-          "type": "negative",
-          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
-          "score": -2
-        },
         {
           "date": "20260625",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] Israel and Hezbollah continue strikes despite...",
           "score": -2
+        },
+        {
+          "date": "20260619",
+          "type": "negative",
+          "headline": "[거시분석] US-Iran talks postponed as Vance pulls out of...",
+          "score": -2
         }
       ]
     },
@@ -98,7 +98,7 @@
           "date": "20260626",
           "type": "positive",
           "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260625",
@@ -241,7 +241,7 @@
           "date": "20260626",
           "type": "negative",
           "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
-          "score": -5
+          "score": -2
         },
         {
           "date": "20260625",
@@ -1086,15 +1086,14 @@
       "date": "20260626",
       "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
+        "방산": 1,
+        "전체시장": -2,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 70,
+  "total_negatives": 69,
   "total_positives": 80,
   "risk_level": "EXTREME"
 }
