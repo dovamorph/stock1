@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T18:33:52.404070+09:00",
+  "updated_at": "2026-06-26T21:13:40.168036+09:00",
   "date": "20260626",
   "window_days": 14,
   "sectors": [
@@ -53,10 +53,22 @@
       ]
     },
     "건설": {
-      "score": -5,
-      "positive_count": 10,
-      "negative_count": 9,
+      "score": -6,
+      "positive_count": 11,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20260626",
+          "type": "positive",
+          "headline": "시진핑, 베네수엘라 강진 위로 전문…\"구호·재건 지원할 것\"",
+          "score": 1
+        },
+        {
+          "date": "20260626",
+          "type": "negative",
+          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
+          "score": -2
+        },
         {
           "date": "20260625",
           "type": "negative",
@@ -74,31 +86,25 @@
           "type": "positive",
           "headline": "젤렌스키, 우크라 재건회의 불참…폴란드와 역사갈등 여파",
           "score": 1
-        },
-        {
-          "date": "20260620",
-          "type": "negative",
-          "headline": "[거시분석] Israel and Hezbollah continue strikes despite...",
-          "score": -2
-        },
-        {
-          "date": "20260619",
-          "type": "negative",
-          "headline": "[거시분석] US-Iran talks postponed as Vance pulls out of...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 49,
+      "positive_count": 50,
       "negative_count": 15,
       "recent_events": [
         {
           "date": "20260626",
           "type": "positive",
-          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
+          "headline": "우크라 '40일 작전' 선언 후 대공습…러, 크림반도에 비상사태",
           "score": 1
+        },
+        {
+          "date": "20260626",
+          "type": "positive",
+          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
+          "score": 3
         },
         {
           "date": "20260625",
@@ -117,12 +123,6 @@
           "type": "negative",
           "headline": "이스라엘, 이란 압박에도 '레바논 철군 불가' 요지부동",
           "score": -1
-        },
-        {
-          "date": "20260624",
-          "type": "positive",
-          "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
-          "score": 2
         }
       ]
     },
@@ -234,26 +234,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 14,
+      "positive_count": 12,
       "negative_count": 33,
       "recent_events": [
         {
           "date": "20260626",
-          "type": "positive",
-          "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
-          "score": 1
-        },
-        {
-          "date": "20260626",
-          "type": "positive",
-          "headline": "[표] 주간 거래소 외국인 순매수도 상위종목",
-          "score": 1
-        },
-        {
-          "date": "20260626",
           "type": "negative",
           "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
-          "score": -2
+          "score": -5
         },
         {
           "date": "20260625",
@@ -266,6 +254,18 @@
           "type": "negative",
           "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
           "score": -7
+        },
+        {
+          "date": "20260624",
+          "type": "negative",
+          "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
+          "score": -4
+        },
+        {
+          "date": "20260623",
+          "type": "positive",
+          "headline": "Israeli fire kills two in Lebanon as Hezbollah slams truce ‘violation’",
+          "score": 1
         }
       ]
     }
@@ -1084,17 +1084,17 @@
     },
     {
       "date": "20260626",
-      "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
+      "headline": "우크라 '40일 작전' 선언 후 대공습…러, 크림반도에 비상사태",
       "impacts": {
-        "전체시장": 1
+        "방산": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260626",
-      "headline": "[표] 주간 거래소 외국인 순매수도 상위종목",
+      "headline": "시진핑, 베네수엘라 강진 위로 전문…\"구호·재건 지원할 것\"",
       "impacts": {
-        "전체시장": 1
+        "건설": 1
       },
       "source": "keyword"
     },
@@ -1102,14 +1102,15 @@
       "date": "20260626",
       "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -2,
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 69,
+  "total_negatives": 70,
   "total_positives": 82,
   "risk_level": "EXTREME"
 }
