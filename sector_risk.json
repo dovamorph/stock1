@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T06:22:27.626874+09:00",
+  "updated_at": "2026-06-27T08:10:43.224897+09:00",
   "date": "20260627",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260627",
           "type": "negative",
-          "headline": "[거시분석] Trump accuses Iran of ceasefire breach after ...",
+          "headline": "[거시분석] US conducts strikes on Iran after attack on c...",
           "score": -2
         },
         {
@@ -60,7 +60,7 @@
         {
           "date": "20260627",
           "type": "negative",
-          "headline": "[거시분석] Trump accuses Iran of ceasefire breach after ...",
+          "headline": "[거시분석] US conducts strikes on Iran after attack on c...",
           "score": -2
         },
         {
@@ -91,31 +91,25 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 46,
+      "positive_count": 45,
       "negative_count": 16,
       "recent_events": [
         {
           "date": "20260627",
           "type": "positive",
-          "headline": "美, 이란 '호르무즈 선박 공격'에 대응해 보복 공습 단행",
-          "score": 1
-        },
-        {
-          "date": "20260627",
-          "type": "positive",
-          "headline": "[속보] \"미군, 호르무즈 해협서 공습 단행\"",
+          "headline": "美 부통령, 이란에 보복공습 후 \"폭력엔 폭력으로\"",
           "score": 1
         },
         {
           "date": "20260627",
           "type": "negative",
-          "headline": "트럼프 \"이란의 선박 공격, 휴전위반\"…대응여부엔 \"알게될 것\"(종합)",
+          "headline": "이란군 \"美 휴전 위반 대응해 중동 내 美기지 타격\"",
           "score": -1
         },
         {
           "date": "20260627",
           "type": "positive",
-          "headline": "[거시분석] Trump accuses Iran of ceasefire breach after ...",
+          "headline": "[거시분석] US conducts strikes on Iran after attack on c...",
           "score": 3
         },
         {
@@ -123,6 +117,12 @@
           "type": "positive",
           "headline": "우크라 '40일 작전' 선언 후 대공습…러, 크림반도에 비상사태",
           "score": 1
+        },
+        {
+          "date": "20260626",
+          "type": "positive",
+          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
+          "score": 3
         }
       ]
     },
@@ -171,7 +171,7 @@
         {
           "date": "20260627",
           "type": "negative",
-          "headline": "[거시분석] Trump accuses Iran of ceasefire breach after ...",
+          "headline": "[거시분석] US conducts strikes on Iran after attack on c...",
           "score": -1
         },
         {
@@ -227,31 +227,19 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 14,
-      "negative_count": 29,
+      "positive_count": 13,
+      "negative_count": 28,
       "recent_events": [
         {
           "date": "20260627",
           "type": "positive",
-          "headline": "[속보] 미군 \"상선 공격 대응해 이란 공습…명백한 휴전 위반\"",
-          "score": 1
-        },
-        {
-          "date": "20260627",
-          "type": "positive",
-          "headline": "트럼프 \"이란의 선박 공격, 휴전위반\"…대응여부엔 \"알게될 것\"(종합)",
+          "headline": "이란군 \"美 휴전 위반 대응해 중동 내 美기지 타격\"",
           "score": 1
         },
         {
           "date": "20260627",
           "type": "negative",
-          "headline": "트럼프 \"디지털서비스세 도입국에 관세 100%\"…EU \"기민 대응\"(종합)",
-          "score": -1
-        },
-        {
-          "date": "20260627",
-          "type": "negative",
-          "headline": "[거시분석] Trump accuses Iran of ceasefire breach after ...",
+          "headline": "[거시분석] US conducts strikes on Iran after attack on c...",
           "score": -7
         },
         {
@@ -259,6 +247,18 @@
           "type": "negative",
           "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
           "score": -5
+        },
+        {
+          "date": "20260625",
+          "type": "negative",
+          "headline": "영국도 철강 관세 50％로 인상…정부 \"보상 협의 총력 대응\"",
+          "score": -1
+        },
+        {
+          "date": "20260625",
+          "type": "negative",
+          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
+          "score": -7
         }
       ]
     }
@@ -991,7 +991,7 @@
     },
     {
       "date": "20260627",
-      "headline": "美, 이란 '호르무즈 선박 공격'에 대응해 보복 공습 단행",
+      "headline": "美 부통령, 이란에 보복공습 후 \"폭력엔 폭력으로\"",
       "impacts": {
         "방산": 1
       },
@@ -999,23 +999,7 @@
     },
     {
       "date": "20260627",
-      "headline": "[속보] 미군 \"상선 공격 대응해 이란 공습…명백한 휴전 위반\"",
-      "impacts": {
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260627",
-      "headline": "[속보] \"미군, 호르무즈 해협서 공습 단행\"",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260627",
-      "headline": "트럼프 \"이란의 선박 공격, 휴전위반\"…대응여부엔 \"알게될 것\"(종합)",
+      "headline": "이란군 \"美 휴전 위반 대응해 중동 내 美기지 타격\"",
       "impacts": {
         "방산": -1,
         "전체시장": 1
@@ -1024,15 +1008,7 @@
     },
     {
       "date": "20260627",
-      "headline": "트럼프 \"디지털서비스세 도입국에 관세 100%\"…EU \"기민 대응\"(종합)",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260627",
-      "headline": "[거시분석] Trump accuses Iran of ceasefire breach after ...",
+      "headline": "[거시분석] US conducts strikes on Iran after attack on c...",
       "impacts": {
         "방산": 3,
         "건설": -2,
@@ -1043,7 +1019,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 70,
-  "total_positives": 78,
+  "total_negatives": 69,
+  "total_positives": 76,
   "risk_level": "EXTREME"
 }
