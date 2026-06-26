@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T04:54:38.789107+09:00",
+  "updated_at": "2026-06-27T06:22:27.626874+09:00",
   "date": "20260627",
   "window_days": 14,
   "sectors": [
@@ -53,15 +53,15 @@
       ]
     },
     "건설": {
-      "score": -6,
-      "positive_count": 11,
-      "negative_count": 10,
+      "score": -9,
+      "positive_count": 10,
+      "negative_count": 11,
       "recent_events": [
         {
           "date": "20260627",
-          "type": "positive",
-          "headline": "유시민 \"지지층 증축 원해, 李대통령은 재건축…자신감 지나쳐\"",
-          "score": 1
+          "type": "negative",
+          "headline": "[거시분석] Trump accuses Iran of ceasefire breach after ...",
+          "score": -2
         },
         {
           "date": "20260626",
@@ -91,38 +91,38 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 44,
-      "negative_count": 17,
+      "positive_count": 46,
+      "negative_count": 16,
       "recent_events": [
         {
           "date": "20260627",
-          "type": "negative",
-          "headline": "트럼프 \"이란의 호르무즈 통과 선박 드론공격은 휴전 위반\"",
-          "score": -1
+          "type": "positive",
+          "headline": "美, 이란 '호르무즈 선박 공격'에 대응해 보복 공습 단행",
+          "score": 1
+        },
+        {
+          "date": "20260627",
+          "type": "positive",
+          "headline": "[속보] \"미군, 호르무즈 해협서 공습 단행\"",
+          "score": 1
         },
         {
           "date": "20260627",
           "type": "negative",
-          "headline": "[속보] 트럼프 \"이란, 호르무즈 통과 선박에 드론 발사…휴전 위반\"",
+          "headline": "트럼프 \"이란의 선박 공격, 휴전위반\"…대응여부엔 \"알게될 것\"(종합)",
           "score": -1
         },
         {
           "date": "20260627",
           "type": "positive",
           "headline": "[거시분석] Trump accuses Iran of ceasefire breach after ...",
-          "score": 1
+          "score": 3
         },
         {
           "date": "20260626",
           "type": "positive",
           "headline": "우크라 '40일 작전' 선언 후 대공습…러, 크림반도에 비상사태",
           "score": 1
-        },
-        {
-          "date": "20260626",
-          "type": "positive",
-          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
-          "score": 3
         }
       ]
     },
@@ -228,8 +228,20 @@
     "전체시장": {
       "score": -10,
       "positive_count": 14,
-      "negative_count": 31,
+      "negative_count": 29,
       "recent_events": [
+        {
+          "date": "20260627",
+          "type": "positive",
+          "headline": "[속보] 미군 \"상선 공격 대응해 이란 공습…명백한 휴전 위반\"",
+          "score": 1
+        },
+        {
+          "date": "20260627",
+          "type": "positive",
+          "headline": "트럼프 \"이란의 선박 공격, 휴전위반\"…대응여부엔 \"알게될 것\"(종합)",
+          "score": 1
+        },
         {
           "date": "20260627",
           "type": "negative",
@@ -239,26 +251,14 @@
         {
           "date": "20260627",
           "type": "negative",
-          "headline": "트럼프 \"디지털서비스세 도입국에 관세 100% 부과할것\"",
-          "score": -1
+          "headline": "[거시분석] Trump accuses Iran of ceasefire breach after ...",
+          "score": -7
         },
         {
-          "date": "20260627",
+          "date": "20260626",
           "type": "negative",
-          "headline": "[속보] 트럼프 \"디지털서비스세 도입국에 관세 100% 부과할것\"",
-          "score": -1
-        },
-        {
-          "date": "20260627",
-          "type": "positive",
-          "headline": "트럼프 \"이란의 호르무즈 통과 선박 드론공격은 휴전 위반\"",
-          "score": 1
-        },
-        {
-          "date": "20260627",
-          "type": "positive",
-          "headline": "[속보] 트럼프 \"이란, 호르무즈 통과 선박에 드론 발사…휴전 위반\"",
-          "score": 1
+          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
+          "score": -5
         }
       ]
     }
@@ -991,6 +991,39 @@
     },
     {
       "date": "20260627",
+      "headline": "美, 이란 '호르무즈 선박 공격'에 대응해 보복 공습 단행",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260627",
+      "headline": "[속보] 미군 \"상선 공격 대응해 이란 공습…명백한 휴전 위반\"",
+      "impacts": {
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260627",
+      "headline": "[속보] \"미군, 호르무즈 해협서 공습 단행\"",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260627",
+      "headline": "트럼프 \"이란의 선박 공격, 휴전위반\"…대응여부엔 \"알게될 것\"(종합)",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260627",
       "headline": "트럼프 \"디지털서비스세 도입국에 관세 100%\"…EU \"기민 대응\"(종합)",
       "impacts": {
         "전체시장": -1
@@ -999,59 +1032,18 @@
     },
     {
       "date": "20260627",
-      "headline": "트럼프 \"디지털서비스세 도입국에 관세 100% 부과할것\"",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260627",
-      "headline": "[속보] 트럼프 \"디지털서비스세 도입국에 관세 100% 부과할것\"",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260627",
-      "headline": "트럼프 \"이란의 호르무즈 통과 선박 드론공격은 휴전 위반\"",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260627",
-      "headline": "[속보] 트럼프 \"이란, 호르무즈 통과 선박에 드론 발사…휴전 위반\"",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260627",
-      "headline": "유시민 \"지지층 증축 원해, 李대통령은 재건축…자신감 지나쳐\"",
-      "impacts": {
-        "건설": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260627",
       "headline": "[거시분석] Trump accuses Iran of ceasefire breach after ...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -5,
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -7,
         "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 72,
-  "total_positives": 77,
+  "total_negatives": 70,
+  "total_positives": 78,
   "risk_level": "EXTREME"
 }
