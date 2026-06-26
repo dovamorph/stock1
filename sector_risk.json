@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-26T21:13:40.168036+09:00",
-  "date": "20260626",
+  "updated_at": "2026-06-27T01:20:14.998721+09:00",
+  "date": "20260627",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -6,
+      "score": -8,
       "positive_count": 2,
-      "negative_count": 4,
+      "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20260627",
+          "type": "negative",
+          "headline": "[거시분석] US sanctions Rwanda gold refinery accused of ...",
+          "score": -2
+        },
         {
           "date": "20260625",
           "type": "negative",
@@ -43,12 +49,6 @@
           "type": "negative",
           "headline": "[거시분석] Iran deal presents political nightmare for Ne...",
           "score": -2
-        },
-        {
-          "date": "20260614",
-          "type": "positive",
-          "headline": "US asks Anthropic to block global access to top AI models: Why it matters",
-          "score": 1
         }
       ]
     },
@@ -57,6 +57,12 @@
       "positive_count": 11,
       "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20260627",
+          "type": "positive",
+          "headline": "유시민 \"지지층 증축 원해, 李대통령은 재건축…자신감 지나쳐\"",
+          "score": 1
+        },
         {
           "date": "20260626",
           "type": "positive",
@@ -80,20 +86,26 @@
           "type": "negative",
           "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
           "score": -1
-        },
-        {
-          "date": "20260623",
-          "type": "positive",
-          "headline": "젤렌스키, 우크라 재건회의 불참…폴란드와 역사갈등 여파",
-          "score": 1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 50,
-      "negative_count": 15,
+      "positive_count": 44,
+      "negative_count": 16,
       "recent_events": [
+        {
+          "date": "20260627",
+          "type": "negative",
+          "headline": "[속보] 트럼프 \"이란, 호르무즈 통과 선박에 드론 발사…휴전 위반\"",
+          "score": -1
+        },
+        {
+          "date": "20260627",
+          "type": "positive",
+          "headline": "[거시분석] US sanctions Rwanda gold refinery accused of ...",
+          "score": 1
+        },
         {
           "date": "20260626",
           "type": "positive",
@@ -111,18 +123,6 @@
           "type": "positive",
           "headline": "\"'오스만 철도 부활' 튀르키예 막으려…이스라엘, 물밑 외교전\"",
           "score": 1
-        },
-        {
-          "date": "20260625",
-          "type": "positive",
-          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
-          "score": 2
-        },
-        {
-          "date": "20260624",
-          "type": "negative",
-          "headline": "이스라엘, 이란 압박에도 '레바논 철군 불가' 요지부동",
-          "score": -1
         }
       ]
     },
@@ -158,23 +158,22 @@
       ]
     },
     "로봇": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 0,
+      "positive_count": 0,
       "negative_count": 0,
-      "recent_events": [
-        {
-          "date": "20260612",
-          "type": "positive",
-          "headline": "中, 올해 제2회 휴머노이드로봇 운동회에 책정리 등 생활분야 추가",
-          "score": 1
-        }
-      ]
+      "recent_events": []
     },
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20260627",
+          "type": "negative",
+          "headline": "[거시분석] US sanctions Rwanda gold refinery accused of ...",
+          "score": -1
+        },
         {
           "date": "20260626",
           "type": "negative",
@@ -198,12 +197,6 @@
           "type": "negative",
           "headline": "[거시분석] First round of US-Iran talks ends with encour...",
           "score": -1
-        },
-        {
-          "date": "20260618",
-          "type": "negative",
-          "headline": "[거시분석] What's in the US-Iran agreement?",
-          "score": -3
         }
       ]
     },
@@ -234,9 +227,21 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 12,
-      "negative_count": 33,
+      "positive_count": 13,
+      "negative_count": 28,
       "recent_events": [
+        {
+          "date": "20260627",
+          "type": "positive",
+          "headline": "[속보] 트럼프 \"이란, 호르무즈 통과 선박에 드론 발사…휴전 위반\"",
+          "score": 1
+        },
+        {
+          "date": "20260627",
+          "type": "negative",
+          "headline": "[거시분석] US sanctions Rwanda gold refinery accused of ...",
+          "score": -5
+        },
         {
           "date": "20260626",
           "type": "negative",
@@ -254,136 +259,11 @@
           "type": "negative",
           "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
           "score": -7
-        },
-        {
-          "date": "20260624",
-          "type": "negative",
-          "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
-          "score": -4
-        },
-        {
-          "date": "20260623",
-          "type": "positive",
-          "headline": "Israeli fire kills two in Lebanon as Hezbollah slams truce ‘violation’",
-          "score": 1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260612",
-      "headline": "Tehran says 'nothing' finalised after Trump claims deal to end Iran war near",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260612",
-      "headline": "More than 50 Iranian military bases damaged in US strikes since start of war, satellite images show",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260612",
-      "headline": "An Everest guide's miraculous survival raises questions for tourism industry",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260612",
-      "headline": "Family of British toddler criticises police as Australian inquiry into cold case murders begins",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260612",
-      "headline": "One in 17 children is working: Here are the industries driving child labour",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260612",
-      "headline": "US-Iran ceasefire? Not for Indian sailors being killed in Hormuz",
-      "impacts": {
-        "건설": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260612",
-      "headline": "Mountain of war: The India-Pakistan conflict’s deadliest battle zone",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260612",
-      "headline": "Iran war day 105: Trump halts attacks after Kharg Island threat",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260612",
-      "headline": "Iran weighs proposed deal but remains wary of US intentions",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260612",
-      "headline": "Amnesty and Oxfam warn of displacement in the occupied West Bank",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260612",
-      "headline": "中, 올해 제2회 휴머노이드로봇 운동회에 책정리 등 생활분야 추가",
-      "impacts": {
-        "로봇": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260612",
-      "headline": "국제유가, 美·이란 합의 임박설에 4%대 급락해 두달만에 최저",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260612",
-      "headline": "[속보] \"美·이란, 이르면 14일 MOU 서명…장소 제네바 거론\"",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260612",
-      "headline": "[거시분석] Tehran says 'nothing' finalised after Trump c...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260613",
       "headline": "Married at First Sight Australia stars not told partners had drug and violence convictions",
@@ -1108,9 +988,37 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260627",
+      "headline": "[속보] 트럼프 \"이란, 호르무즈 통과 선박에 드론 발사…휴전 위반\"",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260627",
+      "headline": "유시민 \"지지층 증축 원해, 李대통령은 재건축…자신감 지나쳐\"",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260627",
+      "headline": "[거시분석] US sanctions Rwanda gold refinery accused of ...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -5,
+        "금융": -1,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 70,
-  "total_positives": 82,
+  "total_negatives": 68,
+  "total_positives": 76,
   "risk_level": "EXTREME"
 }
