@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T13:03:43.213546+09:00",
+  "updated_at": "2026-06-26T18:33:52.404070+09:00",
   "date": "20260626",
   "window_days": 14,
   "sectors": [
@@ -234,9 +234,21 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 12,
+      "positive_count": 14,
       "negative_count": 33,
       "recent_events": [
+        {
+          "date": "20260626",
+          "type": "positive",
+          "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
+          "score": 1
+        },
+        {
+          "date": "20260626",
+          "type": "positive",
+          "headline": "[표] 주간 거래소 외국인 순매수도 상위종목",
+          "score": 1
+        },
         {
           "date": "20260626",
           "type": "negative",
@@ -254,18 +266,6 @@
           "type": "negative",
           "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
           "score": -7
-        },
-        {
-          "date": "20260624",
-          "type": "negative",
-          "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
-          "score": -4
-        },
-        {
-          "date": "20260623",
-          "type": "positive",
-          "headline": "Israeli fire kills two in Lebanon as Hezbollah slams truce ‘violation’",
-          "score": 1
         }
       ]
     }
@@ -1084,6 +1084,22 @@
     },
     {
       "date": "20260626",
+      "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
+      "impacts": {
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260626",
+      "headline": "[표] 주간 거래소 외국인 순매수도 상위종목",
+      "impacts": {
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260626",
       "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
       "impacts": {
         "방산": 1,
@@ -1094,6 +1110,6 @@
     }
   ],
   "total_negatives": 69,
-  "total_positives": 80,
+  "total_positives": 82,
   "risk_level": "EXTREME"
 }
