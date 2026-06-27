@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T08:10:43.224897+09:00",
+  "updated_at": "2026-06-27T12:49:34.777964+09:00",
   "date": "20260627",
   "window_days": 14,
   "sectors": [
@@ -53,16 +53,10 @@
       ]
     },
     "건설": {
-      "score": -9,
+      "score": -7,
       "positive_count": 10,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20260627",
-          "type": "negative",
-          "headline": "[거시분석] US conducts strikes on Iran after attack on c...",
-          "score": -2
-        },
         {
           "date": "20260626",
           "type": "positive",
@@ -86,31 +80,25 @@
           "type": "negative",
           "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
           "score": -1
+        },
+        {
+          "date": "20260623",
+          "type": "positive",
+          "headline": "젤렌스키, 우크라 재건회의 불참…폴란드와 역사갈등 여파",
+          "score": 1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 45,
-      "negative_count": 16,
+      "positive_count": 44,
+      "negative_count": 15,
       "recent_events": [
         {
           "date": "20260627",
           "type": "positive",
-          "headline": "美 부통령, 이란에 보복공습 후 \"폭력엔 폭력으로\"",
-          "score": 1
-        },
-        {
-          "date": "20260627",
-          "type": "negative",
-          "headline": "이란군 \"美 휴전 위반 대응해 중동 내 美기지 타격\"",
-          "score": -1
-        },
-        {
-          "date": "20260627",
-          "type": "positive",
           "headline": "[거시분석] US conducts strikes on Iran after attack on c...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260626",
@@ -123,6 +111,18 @@
           "type": "positive",
           "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
           "score": 3
+        },
+        {
+          "date": "20260625",
+          "type": "positive",
+          "headline": "\"'오스만 철도 부활' 튀르키예 막으려…이스라엘, 물밑 외교전\"",
+          "score": 1
+        },
+        {
+          "date": "20260625",
+          "type": "positive",
+          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
+          "score": 2
         }
       ]
     },
@@ -158,10 +158,17 @@
       ]
     },
     "로봇": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20260627",
+          "type": "positive",
+          "headline": "[테크톡노트] 휴머노이드와 피지컬 AI, 무엇이 다를까",
+          "score": 1
+        }
+      ]
     },
     "금융": {
       "score": -10,
@@ -227,20 +234,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 13,
+      "positive_count": 12,
       "negative_count": 28,
       "recent_events": [
         {
           "date": "20260627",
-          "type": "positive",
-          "headline": "이란군 \"美 휴전 위반 대응해 중동 내 美기지 타격\"",
-          "score": 1
-        },
-        {
-          "date": "20260627",
           "type": "negative",
           "headline": "[거시분석] US conducts strikes on Iran after attack on c...",
-          "score": -7
+          "score": -5
         },
         {
           "date": "20260626",
@@ -259,6 +260,12 @@
           "type": "negative",
           "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
           "score": -7
+        },
+        {
+          "date": "20260624",
+          "type": "negative",
+          "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
+          "score": -4
         }
       ]
     }
@@ -991,18 +998,9 @@
     },
     {
       "date": "20260627",
-      "headline": "美 부통령, 이란에 보복공습 후 \"폭력엔 폭력으로\"",
+      "headline": "[테크톡노트] 휴머노이드와 피지컬 AI, 무엇이 다를까",
       "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260627",
-      "headline": "이란군 \"美 휴전 위반 대응해 중동 내 美기지 타격\"",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
+        "로봇": 1
       },
       "source": "keyword"
     },
@@ -1010,16 +1008,15 @@
       "date": "20260627",
       "headline": "[거시분석] US conducts strikes on Iran after attack on c...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -7,
+        "방산": 1,
+        "전체시장": -5,
         "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 69,
-  "total_positives": 76,
+  "total_negatives": 67,
+  "total_positives": 75,
   "risk_level": "EXTREME"
 }
