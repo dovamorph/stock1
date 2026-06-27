@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T15:56:00.952971+09:00",
+  "updated_at": "2026-06-27T19:12:41.023808+09:00",
   "date": "20260627",
   "window_days": 14,
   "sectors": [
@@ -53,10 +53,16 @@
       ]
     },
     "건설": {
-      "score": -7,
-      "positive_count": 10,
+      "score": -6,
+      "positive_count": 11,
       "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20260627",
+          "type": "positive",
+          "headline": "DL이앤씨, 1.3조원 규모 목동6단지 재건축 시공사 선정",
+          "score": 1
+        },
         {
           "date": "20260626",
           "type": "positive",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
           "score": -1
-        },
-        {
-          "date": "20260623",
-          "type": "positive",
-          "headline": "젤렌스키, 우크라 재건회의 불참…폴란드와 역사갈등 여파",
-          "score": 1
         }
       ]
     },
@@ -166,14 +166,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 8,
       "recent_events": [
-        {
-          "date": "20260627",
-          "type": "negative",
-          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
-          "score": -1
-        },
         {
           "date": "20260626",
           "type": "negative",
@@ -197,6 +191,12 @@
           "type": "negative",
           "headline": "[거시분석] First round of US-Iran talks ends with encour...",
           "score": -1
+        },
+        {
+          "date": "20260618",
+          "type": "negative",
+          "headline": "[거시분석] What's in the US-Iran agreement?",
+          "score": -3
         }
       ]
     },
@@ -234,7 +234,7 @@
           "date": "20260627",
           "type": "negative",
           "headline": "[거시분석] US strikes Iran after attack on cargo ship",
-          "score": -6
+          "score": -4
         },
         {
           "date": "20260626",
@@ -991,17 +991,24 @@
     },
     {
       "date": "20260627",
+      "headline": "DL이앤씨, 1.3조원 규모 목동6단지 재건축 시공사 선정",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260627",
       "headline": "[거시분석] US strikes Iran after attack on cargo ship",
       "impacts": {
         "방산": 1,
-        "전체시장": -6,
-        "금융": -1,
+        "전체시장": -4,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 67,
-  "total_positives": 74,
+  "total_negatives": 66,
+  "total_positives": 75,
   "risk_level": "EXTREME"
 }
