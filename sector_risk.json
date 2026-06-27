@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-27T22:50:25.046540+09:00",
-  "date": "20260627",
+  "updated_at": "2026-06-28T00:18:43.554656+09:00",
+  "date": "20260628",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -8,
-      "positive_count": 2,
-      "negative_count": 5,
+      "score": -10,
+      "positive_count": 1,
+      "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20260628",
+          "type": "negative",
+          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
+          "score": -2
+        },
         {
           "date": "20260627",
           "type": "negative",
@@ -43,20 +49,26 @@
           "type": "negative",
           "headline": "[거시분석] The bikers battling extreme heat and armed co...",
           "score": -2
-        },
-        {
-          "date": "20260616",
-          "type": "negative",
-          "headline": "[거시분석] Iran deal presents political nightmare for Ne...",
-          "score": -2
         }
       ]
     },
     "건설": {
       "score": -7,
-      "positive_count": 11,
+      "positive_count": 10,
       "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260628",
+          "type": "positive",
+          "headline": "유시민 '재건축론'에 與일각 \"李대통령 폄훼…모욕적\" 발끈",
+          "score": 1
+        },
+        {
+          "date": "20260628",
+          "type": "negative",
+          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
+          "score": -1
+        },
         {
           "date": "20260627",
           "type": "positive",
@@ -74,26 +86,26 @@
           "type": "positive",
           "headline": "시진핑, 베네수엘라 강진 위로 전문…\"구호·재건 지원할 것\"",
           "score": 1
-        },
-        {
-          "date": "20260626",
-          "type": "negative",
-          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
-          "score": -2
-        },
-        {
-          "date": "20260625",
-          "type": "negative",
-          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
-          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 45,
-      "negative_count": 15,
+      "positive_count": 37,
+      "negative_count": 14,
       "recent_events": [
+        {
+          "date": "20260628",
+          "type": "positive",
+          "headline": "\"'미 5함대 주둔' 바레인 겨냥 이란 드론 공격\"…다시 긴장 고조(종합)",
+          "score": 1
+        },
+        {
+          "date": "20260628",
+          "type": "positive",
+          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
+          "score": 2
+        },
         {
           "date": "20260627",
           "type": "positive",
@@ -110,18 +122,6 @@
           "date": "20260626",
           "type": "positive",
           "headline": "우크라 '40일 작전' 선언 후 대공습…러, 크림반도에 비상사태",
-          "score": 1
-        },
-        {
-          "date": "20260626",
-          "type": "positive",
-          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
-          "score": 3
-        },
-        {
-          "date": "20260625",
-          "type": "positive",
-          "headline": "\"'오스만 철도 부활' 튀르키예 막으려…이스라엘, 물밑 외교전\"",
           "score": 1
         }
       ]
@@ -166,8 +166,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20260628",
+          "type": "negative",
+          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
+          "score": -1
+        },
         {
           "date": "20260627",
           "type": "negative",
@@ -191,30 +197,18 @@
           "type": "negative",
           "headline": "[거시분석] Iran says no new commitments on nuclear sites...",
           "score": -1
-        },
-        {
-          "date": "20260622",
-          "type": "negative",
-          "headline": "[거시분석] First round of US-Iran talks ends with encour...",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20260623",
           "type": "positive",
           "headline": "Former PM says Israel smuggled Starlink internet systems into Iran",
-          "score": 1
-        },
-        {
-          "date": "20260613",
-          "type": "positive",
-          "headline": "Elon Musk becomes world's first trillionaire as SpaceX soars in stock market debut",
           "score": 1
         }
       ]
@@ -228,8 +222,14 @@
     "전체시장": {
       "score": -10,
       "positive_count": 12,
-      "negative_count": 28,
+      "negative_count": 25,
       "recent_events": [
+        {
+          "date": "20260628",
+          "type": "negative",
+          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
+          "score": -6
+        },
         {
           "date": "20260627",
           "type": "negative",
@@ -253,156 +253,11 @@
           "type": "negative",
           "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
           "score": -7
-        },
-        {
-          "date": "20260624",
-          "type": "negative",
-          "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
-          "score": -4
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260613",
-      "headline": "Married at First Sight Australia stars not told partners had drug and violence convictions",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260613",
-      "headline": "Elon Musk becomes world's first trillionaire as SpaceX soars in stock market debut",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260613",
-      "headline": "US kills leader of Venezuela's Tren de Aragua gang in airstrike, Trump says",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260613",
-      "headline": "Warner Bros $111bn sale to Paramount approved by US justice department",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260613",
-      "headline": "The college scam that promised students fleeing war a new life in Finland",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260613",
-      "headline": "More than 50 Iranian military bases damaged in US strikes since start of war, satellite images show",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260613",
-      "headline": "‘Lots of things can still go wrong’ with US-Iran deal to end the war",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260613",
-      "headline": "Israel attacks Lebanon despite being included in potential peace deal",
-      "impacts": {
-        "건설": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260613",
-      "headline": "US orders Anthropic to disable AI models for all foreign nationals",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260613",
-      "headline": "Iran war day 106: US and Iran say deal close but Lebanon fighting continues",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260613",
-      "headline": "Separated by the Gaza war, a Palestinian yearns to see his family again",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260613",
-      "headline": "Lebanon war victims among 117M people displaced worldwide",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260613",
-      "headline": "Trump seeks ‘off-ramp’ from war in ‘Iran deal’",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260613",
-      "headline": "이란 \"종전 MOU 서명 14일은 아냐\"…막판 신경전",
-      "impacts": {
-        "건설": 1,
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260613",
-      "headline": "'전쟁 첫날 사망' 전 이란 최고지도자…7월 4일 장례 시작",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260613",
-      "headline": "파키스탄 총리 \"미·이란 24시간 내 최종 합의…전자서명 준비\"",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260613",
-      "headline": "[거시분석] Israel carries out air strikes on Lebanon, st...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -4
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260614",
       "headline": "The college scam that promised students fleeing war a new life in Finland",
@@ -1016,9 +871,37 @@
         "반도체·AI": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260628",
+      "headline": "유시민 '재건축론'에 與일각 \"李대통령 폄훼…모욕적\" 발끈",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260628",
+      "headline": "\"'미 5함대 주둔' 바레인 겨냥 이란 드론 공격\"…다시 긴장 고조(종합)",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260628",
+      "headline": "[거시분석] US strikes Iran after attack on cargo ship",
+      "impacts": {
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -6,
+        "금융": -1,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 68,
-  "total_positives": 76,
+  "total_negatives": 66,
+  "total_positives": 65,
   "risk_level": "EXTREME"
 }
