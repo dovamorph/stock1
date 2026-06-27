@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T12:49:34.777964+09:00",
+  "updated_at": "2026-06-27T15:56:00.952971+09:00",
   "date": "20260627",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260627",
           "type": "negative",
-          "headline": "[거시분석] US conducts strikes on Iran after attack on c...",
+          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
           "score": -2
         },
         {
@@ -97,7 +97,7 @@
         {
           "date": "20260627",
           "type": "positive",
-          "headline": "[거시분석] US conducts strikes on Iran after attack on c...",
+          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
           "score": 1
         },
         {
@@ -158,17 +158,10 @@
       ]
     },
     "로봇": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 0,
+      "positive_count": 0,
       "negative_count": 0,
-      "recent_events": [
-        {
-          "date": "20260627",
-          "type": "positive",
-          "headline": "[테크톡노트] 휴머노이드와 피지컬 AI, 무엇이 다를까",
-          "score": 1
-        }
-      ]
+      "recent_events": []
     },
     "금융": {
       "score": -10,
@@ -178,7 +171,7 @@
         {
           "date": "20260627",
           "type": "negative",
-          "headline": "[거시분석] US conducts strikes on Iran after attack on c...",
+          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
           "score": -1
         },
         {
@@ -240,8 +233,8 @@
         {
           "date": "20260627",
           "type": "negative",
-          "headline": "[거시분석] US conducts strikes on Iran after attack on c...",
-          "score": -5
+          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
+          "score": -6
         },
         {
           "date": "20260626",
@@ -998,18 +991,10 @@
     },
     {
       "date": "20260627",
-      "headline": "[테크톡노트] 휴머노이드와 피지컬 AI, 무엇이 다를까",
-      "impacts": {
-        "로봇": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260627",
-      "headline": "[거시분석] US conducts strikes on Iran after attack on c...",
+      "headline": "[거시분석] US strikes Iran after attack on cargo ship",
       "impacts": {
         "방산": 1,
-        "전체시장": -5,
+        "전체시장": -6,
         "금융": -1,
         "반도체·AI": -2
       },
@@ -1017,6 +1002,6 @@
     }
   ],
   "total_negatives": 67,
-  "total_positives": 75,
+  "total_positives": 74,
   "risk_level": "EXTREME"
 }
