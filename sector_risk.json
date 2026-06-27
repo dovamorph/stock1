@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T19:12:41.023808+09:00",
+  "updated_at": "2026-06-27T22:50:25.046540+09:00",
   "date": "20260627",
   "window_days": 14,
   "sectors": [
@@ -53,15 +53,21 @@
       ]
     },
     "건설": {
-      "score": -6,
+      "score": -7,
       "positive_count": 11,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
         {
           "date": "20260627",
           "type": "positive",
-          "headline": "DL이앤씨, 1.3조원 규모 목동6단지 재건축 시공사 선정",
+          "headline": "유시민 '재건축론'에 與일각 \"李대통령 폄훼…모욕적\" 발끈",
           "score": 1
+        },
+        {
+          "date": "20260627",
+          "type": "negative",
+          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
+          "score": -1
         },
         {
           "date": "20260626",
@@ -80,25 +86,25 @@
           "type": "negative",
           "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
           "score": -1
-        },
-        {
-          "date": "20260624",
-          "type": "negative",
-          "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
-          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 44,
+      "positive_count": 45,
       "negative_count": 15,
       "recent_events": [
         {
           "date": "20260627",
           "type": "positive",
-          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
+          "headline": "\"'미 5함대 주둔' 바레인 겨냥 이란 드론 공격\"…다시 긴장 고조(종합)",
           "score": 1
+        },
+        {
+          "date": "20260627",
+          "type": "positive",
+          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
+          "score": 2
         },
         {
           "date": "20260626",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "\"'오스만 철도 부활' 튀르키예 막으려…이스라엘, 물밑 외교전\"",
           "score": 1
-        },
-        {
-          "date": "20260625",
-          "type": "positive",
-          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
-          "score": 2
         }
       ]
     },
@@ -166,8 +166,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20260627",
+          "type": "negative",
+          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
+          "score": -1
+        },
         {
           "date": "20260626",
           "type": "negative",
@@ -191,12 +197,6 @@
           "type": "negative",
           "headline": "[거시분석] First round of US-Iran talks ends with encour...",
           "score": -1
-        },
-        {
-          "date": "20260618",
-          "type": "negative",
-          "headline": "[거시분석] What's in the US-Iran agreement?",
-          "score": -3
         }
       ]
     },
@@ -234,7 +234,7 @@
           "date": "20260627",
           "type": "negative",
           "headline": "[거시분석] US strikes Iran after attack on cargo ship",
-          "score": -4
+          "score": -7
         },
         {
           "date": "20260626",
@@ -991,7 +991,7 @@
     },
     {
       "date": "20260627",
-      "headline": "DL이앤씨, 1.3조원 규모 목동6단지 재건축 시공사 선정",
+      "headline": "유시민 '재건축론'에 與일각 \"李대통령 폄훼…모욕적\" 발끈",
       "impacts": {
         "건설": 1
       },
@@ -999,16 +999,26 @@
     },
     {
       "date": "20260627",
+      "headline": "\"'미 5함대 주둔' 바레인 겨냥 이란 드론 공격\"…다시 긴장 고조(종합)",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260627",
       "headline": "[거시분석] US strikes Iran after attack on cargo ship",
       "impacts": {
-        "방산": 1,
-        "전체시장": -4,
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -7,
+        "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 66,
-  "total_positives": 75,
+  "total_negatives": 68,
+  "total_positives": 76,
   "risk_level": "EXTREME"
 }
