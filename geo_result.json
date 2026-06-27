@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28 02:14",
+  "updated": "2026-06-28 04:25",
   "news_count": 86,
   "intl_count": 56,
   "domestic_count": 30,
@@ -47,12 +47,20 @@
     "Just how much trouble is Canada's economy in?",
     "Earthquake is devastating blow to Venezuela at time of uncertainty",
     "The abundant but expensive energy source that's under your feet",
+    "Watch: A race against the clock for Venezuela earthquake rescuers",
     "Newborn baby rescued from Venezuela earthquake rubble",
     "Watch: BBC reports from La Guaira, one of Venezuela's worst-hit areas",
-    "Watch: Lightning strikes seen across UK",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "South Africa’s Broos smiles and snarls before Canada World Cup showdown",
+    "Two killed, dozens injured in Israeli strike on displacement tents in Gaza",
+    "Kenya rights groups say protesters found dumped, tortured after arrests",
+    "Iran urge FIFA to stand up to ‘really terrible’ World Cup treatment by US",
+    "Australia to double fines on Big Tech as children bypass social media ban",
+    "How is framework agreement with Lebanon viewed in Israel?",
+    "Tropical Storm Mekkhala leaves Taiwan underwater",
+    "Three security personnel killed in attack in Pakistan’s Karachi",
     "Lebanon divided over framework agreement signed in Washington",
-    "Israeli drone attack kills young girl in Gaza safe zone",
+    "Israeli drone attack kills young girl in Gaza ‘safe zone’",
     "Bosnia: The lilies and dragons of the World Cup",
     "Hezbollah rejects Israel-Lebanon agreement as Israeli attacks hit south",
     "With water cuts looming in Arizona in US, locals fight data centres",
@@ -68,14 +76,15 @@
     "Exclusive: Infiltrating Myanmar’s scam syndicates",
     "No school, living in a tent, but it’s exam time in Gaza",
     "Ronaldo, Portugal play Colombia in World Cup: Prediction, kickoff, schedule",
-    "Could Israel’s coming election see an end to Netanyahu’s political career?",
-    "US, Iran trade strikes: What to know, will it unravel the MoU?",
-    "Joy, disappointment, protests: A view from Egypt-Iran World Cup tie",
-    "FIFA World Cup 2026: Saturday schedule, Round of 32 standings, predictions",
-    "Venezuelans dig for earthquake survivors as 72-hour rescue window nears end",
-    "Watch World Cup Day 16: Spain, Egypt, Cape Verde advance to Round of 32",
-    "Thai police arrest Australian over killing of teenager found in suitcase",
-    "Germany records new all-time temperature high as Europe heatwave moves east",
+    "[베네수 강진] 유엔 \"직접 피해만 10조원…베네수 GDP의 6%\"",
+    "[월드컵] '32강 불씨' 기다리는 김진규 \"기회만 온다면 머리 박고 뛸 것\"",
+    "[월드컵] 양현준 \"분위기 솔직히 좋지 않아…다른 조 경기 보며 응원\"",
+    "[월드컵] 오늘이 마지막일지 모르지만…32강 간절한 홍명보호 묵묵히 훈련",
+    "'핵심 지지층' 보수 기독교 결집 위해 정교분리 흔드는 트럼프",
+    "베네수엘라 강진 사망자 1천430명으로 늘어…실종자도 7만명",
+    "'오메가 열돔' 북유럽까지…덴마크 역대 최고 37도(종합)",
+    "[속보] 베네수엘라 강진 사망자 1천430명으로 늘어",
+    "한미동맹협의회, 흥남철수 빅토리號에 한국어 영구 전시 추진",
     "이스라엘 \"레바논 장기주둔 지시\"…헤즈볼라 \"평화합의 무효\"(종합2보)",
     "태안 앞바다서 체포됐던 中반체제 인사, 캐나다 가족 품으로",
     "아프간 북동부 규모 6.1 강진…\"파키스탄서도 강한 진동\"(종합)",
@@ -96,26 +105,17 @@
     "기계체조 여서정, 2026 아시아체조선수권 도마 금메달",
     "유시민 '재건축론'에 與일각 \"李대통령 폄훼…모욕적\" 발끈",
     "中 \"베이징 108층 빌딩에 경비행기 충돌로 1명 사망·13명 부상\"",
-    "[부고] 김경범(IBK투자증권 FICC파생부 영업상무보)씨 남매상",
-    "1230회 로또 1등 '3, 8, 9, 22, 28, 42'",
-    "메이저리거 출신 최지만, 퓨처스리그 데뷔전서 헛스윙 삼진",
-    "잠실개표소 봉쇄시위 23일째…홍대 일대서도 '재선거' 요구 집회",
-    "음성 돼지 농장서 불…돼지 800마리 죽어",
-    "오스틴, 시즌 23호 역전 만루포 폭발…LG 짜릿한 뒤집기(종합)",
-    "[월드컵] 독일 '특급 조커' 운다프, 야지디족 영웅으로",
-    "중·러 군용기 10여대 KADIZ 진입…공군 전투기 출격 대응(종합2보)",
-    "\"'미 5함대 주둔' 바레인 겨냥 이란 드론 공격\"…다시 긴장 고조(종합)",
-    "'호남 반도체 물 부족' 논란에 기후장관 \"일 100만t 확보 가능\""
+    "[부고] 김경범(IBK투자증권 FICC파생부 영업상무보)씨 남매상"
   ],
   "categories": {
     "geopolitical": {
-      "level": "경고",
-      "color": "orange",
-      "signal": "🟠",
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
       "summary": "US strikes Iran after attack on cargo ship",
-      "action": "포지션 축소 검토 / 모니터링 강화",
-      "matched": 12,
-      "score": 3.0
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 11,
+      "score": 15.8
     },
     "macro": {
       "level": "주의",
@@ -141,7 +141,7 @@
       "signal": "🔴",
       "summary": "US strikes Iran after attack on cargo ship",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 6,
+      "matched": 5,
       "score": 1.5
     },
     "policy": {
@@ -155,9 +155,9 @@
     }
   },
   "overall": {
-    "level": "경고",
-    "color": "orange",
-    "summary": "주의 필요: 지정학적 충돌, 보호무역·공급망",
-    "action": "포지션 축소 검토 / 모니터링 강화"
+    "level": "주의",
+    "color": "yellow",
+    "summary": "주의 필요: 보호무역·공급망",
+    "action": "신규 매수 자제 / 추이 관찰"
   }
 }

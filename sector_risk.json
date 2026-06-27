@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T02:15:03.849869+09:00",
+  "updated_at": "2026-06-28T04:26:03.618086+09:00",
   "date": "20260628",
   "window_days": 14,
   "sectors": [
@@ -53,21 +53,15 @@
       ]
     },
     "건설": {
-      "score": -7,
+      "score": -6,
       "positive_count": 10,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
         {
           "date": "20260628",
           "type": "positive",
           "headline": "유시민 '재건축론'에 與일각 \"李대통령 폄훼…모욕적\" 발끈",
           "score": 1
-        },
-        {
-          "date": "20260628",
-          "type": "negative",
-          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
-          "score": -1
         },
         {
           "date": "20260627",
@@ -86,25 +80,25 @@
           "type": "positive",
           "headline": "시진핑, 베네수엘라 강진 위로 전문…\"구호·재건 지원할 것\"",
           "score": 1
+        },
+        {
+          "date": "20260626",
+          "type": "negative",
+          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
+          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 37,
+      "positive_count": 36,
       "negative_count": 14,
       "recent_events": [
         {
           "date": "20260628",
           "type": "positive",
-          "headline": "\"'미 5함대 주둔' 바레인 겨냥 이란 드론 공격\"…다시 긴장 고조(종합)",
-          "score": 1
-        },
-        {
-          "date": "20260628",
-          "type": "positive",
           "headline": "[거시분석] US strikes Iran after attack on cargo ship",
-          "score": 2
+          "score": 1
         },
         {
           "date": "20260627",
@@ -123,6 +117,12 @@
           "type": "positive",
           "headline": "우크라 '40일 작전' 선언 후 대공습…러, 크림반도에 비상사태",
           "score": 1
+        },
+        {
+          "date": "20260626",
+          "type": "positive",
+          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
+          "score": 3
         }
       ]
     },
@@ -228,7 +228,7 @@
           "date": "20260628",
           "type": "negative",
           "headline": "[거시분석] US strikes Iran after attack on cargo ship",
-          "score": -6
+          "score": -5
         },
         {
           "date": "20260627",
@@ -882,26 +882,17 @@
     },
     {
       "date": "20260628",
-      "headline": "\"'미 5함대 주둔' 바레인 겨냥 이란 드론 공격\"…다시 긴장 고조(종합)",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260628",
       "headline": "[거시분석] US strikes Iran after attack on cargo ship",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -6,
+        "방산": 1,
+        "전체시장": -5,
         "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 66,
-  "total_positives": 65,
+  "total_negatives": 65,
+  "total_positives": 64,
   "risk_level": "EXTREME"
 }
