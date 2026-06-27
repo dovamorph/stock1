@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T06:08:51.825805+09:00",
+  "updated_at": "2026-06-28T08:05:52.514453+09:00",
   "date": "20260628",
   "window_days": 14,
   "sectors": [
@@ -53,10 +53,16 @@
       ]
     },
     "건설": {
-      "score": -7,
+      "score": -9,
       "positive_count": 9,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260628",
+          "type": "negative",
+          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
+          "score": -2
+        },
         {
           "date": "20260627",
           "type": "positive",
@@ -80,31 +86,25 @@
           "type": "negative",
           "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
           "score": -2
-        },
-        {
-          "date": "20260625",
-          "type": "negative",
-          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
-          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 36,
-      "negative_count": 15,
+      "positive_count": 37,
+      "negative_count": 14,
       "recent_events": [
         {
           "date": "20260628",
-          "type": "negative",
-          "headline": "\"최근 홍역 환자, 절반이 젊은 성인층…맞춤형 접종전략 필요\"",
-          "score": -1
+          "type": "positive",
+          "headline": "미군, 호르무즈서 이란 연이틀 공습…\"이란의 상선 공격에 대응\"(종합)",
+          "score": 1
         },
         {
           "date": "20260628",
           "type": "positive",
           "headline": "[거시분석] US strikes Iran after attack on cargo ship",
-          "score": 1
+          "score": 3
         },
         {
           "date": "20260627",
@@ -166,14 +166,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 9,
       "recent_events": [
-        {
-          "date": "20260628",
-          "type": "negative",
-          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
-          "score": -1
-        },
         {
           "date": "20260627",
           "type": "negative",
@@ -196,6 +190,12 @@
           "date": "20260623",
           "type": "negative",
           "headline": "[거시분석] Iran says no new commitments on nuclear sites...",
+          "score": -1
+        },
+        {
+          "date": "20260622",
+          "type": "negative",
+          "headline": "[거시분석] First round of US-Iran talks ends with encour...",
           "score": -1
         }
       ]
@@ -221,20 +221,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 13,
+      "positive_count": 12,
       "negative_count": 25,
       "recent_events": [
         {
           "date": "20260628",
-          "type": "positive",
-          "headline": "\"최근 홍역 환자, 절반이 젊은 성인층…맞춤형 접종전략 필요\"",
-          "score": 1
-        },
-        {
-          "date": "20260628",
           "type": "negative",
           "headline": "[거시분석] US strikes Iran after attack on cargo ship",
-          "score": -2
+          "score": -4
         },
         {
           "date": "20260627",
@@ -253,6 +247,12 @@
           "type": "negative",
           "headline": "영국도 철강 관세 50％로 인상…정부 \"보상 협의 총력 대응\"",
           "score": -1
+        },
+        {
+          "date": "20260625",
+          "type": "negative",
+          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
+          "score": -7
         }
       ]
     }
@@ -874,10 +874,9 @@
     },
     {
       "date": "20260628",
-      "headline": "\"최근 홍역 환자, 절반이 젊은 성인층…맞춤형 접종전략 필요\"",
+      "headline": "미군, 호르무즈서 이란 연이틀 공습…\"이란의 상선 공격에 대응\"(종합)",
       "impacts": {
-        "방산": -1,
-        "전체시장": 1
+        "방산": 1
       },
       "source": "keyword"
     },
@@ -885,14 +884,14 @@
       "date": "20260628",
       "headline": "[거시분석] US strikes Iran after attack on cargo ship",
       "impacts": {
-        "방산": 1,
-        "전체시장": -2,
-        "금융": -1
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 65,
+  "total_negatives": 64,
   "total_positives": 64,
   "risk_level": "EXTREME"
 }
