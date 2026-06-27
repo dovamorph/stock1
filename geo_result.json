@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28 00:18",
+  "updated": "2026-06-28 02:14",
   "news_count": 86,
   "intl_count": 56,
   "domestic_count": 30,
@@ -51,6 +51,11 @@
     "Watch: BBC reports from La Guaira, one of Venezuela's worst-hit areas",
     "Watch: Lightning strikes seen across UK",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Lebanon divided over framework agreement signed in Washington",
+    "Israeli drone attack kills young girl in Gaza safe zone",
+    "Bosnia: The lilies and dragons of the World Cup",
+    "Hezbollah rejects Israel-Lebanon agreement as Israeli attacks hit south",
+    "With water cuts looming in Arizona in US, locals fight data centres",
     "Sabalenka defends Wimbledon prize protest, says it’s for struggling players",
     "Bodycam shows driver offering armed police a lift mid-chase",
     "Toxic Bielsa leaves ‘nothing good’ behind as Uruguay suffer World Cup shock",
@@ -70,12 +75,10 @@
     "Venezuelans dig for earthquake survivors as 72-hour rescue window nears end",
     "Watch World Cup Day 16: Spain, Egypt, Cape Verde advance to Round of 32",
     "Thai police arrest Australian over killing of teenager found in suitcase",
-    "Germany braces for record-breaking temperatures as heatwave moves east",
-    "Somali intelligence helps US arrest alleged leader of Minnesota fraud",
-    "Iran war day 120: Tehran condemns US strikes, says it violates MoU",
-    "Who profits from Africa’s gold?",
-    "Belgium reach World Cup knockouts as New Zealand exit tournament",
-    "Iran and US trade blame for attacks, threatening fragile ceasefire",
+    "Germany records new all-time temperature high as Europe heatwave moves east",
+    "이스라엘 \"레바논 장기주둔 지시\"…헤즈볼라 \"평화합의 무효\"(종합2보)",
+    "태안 앞바다서 체포됐던 中반체제 인사, 캐나다 가족 품으로",
+    "아프간 북동부 규모 6.1 강진…\"파키스탄서도 강한 진동\"(종합)",
     "'오메가 열돔' 북유럽 상륙…덴마크 역대 최고 36.6도",
     "경북 예천 돼지농장서 구제역 발생…위기경보 '심각' 상향",
     "[알림] 연합뉴스 콘텐츠 저작권 고지",
@@ -102,10 +105,7 @@
     "[월드컵] 독일 '특급 조커' 운다프, 야지디족 영웅으로",
     "중·러 군용기 10여대 KADIZ 진입…공군 전투기 출격 대응(종합2보)",
     "\"'미 5함대 주둔' 바레인 겨냥 이란 드론 공격\"…다시 긴장 고조(종합)",
-    "'호남 반도체 물 부족' 논란에 기후장관 \"일 100만t 확보 가능\"",
-    "[프로야구] 28일 선발투수",
-    "[프로야구 중간순위] 27일",
-    "[프로야구 부산전적] LG 8-7 롯데"
+    "'호남 반도체 물 부족' 논란에 기후장관 \"일 100만t 확보 가능\""
   ],
   "categories": {
     "geopolitical": {
@@ -141,7 +141,7 @@
       "signal": "🔴",
       "summary": "US strikes Iran after attack on cargo ship",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 8,
+      "matched": 6,
       "score": 1.5
     },
     "policy": {
