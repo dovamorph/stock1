@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T08:05:52.514453+09:00",
+  "updated_at": "2026-06-28T13:11:08.852049+09:00",
   "date": "20260628",
   "window_days": 14,
   "sectors": [
@@ -60,7 +60,7 @@
         {
           "date": "20260628",
           "type": "negative",
-          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
+          "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
           "score": -2
         },
         {
@@ -91,19 +91,13 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 37,
+      "positive_count": 36,
       "negative_count": 14,
       "recent_events": [
         {
           "date": "20260628",
           "type": "positive",
-          "headline": "미군, 호르무즈서 이란 연이틀 공습…\"이란의 상선 공격에 대응\"(종합)",
-          "score": 1
-        },
-        {
-          "date": "20260628",
-          "type": "positive",
-          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
+          "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
           "score": 3
         },
         {
@@ -123,6 +117,12 @@
           "type": "positive",
           "headline": "우크라 '40일 작전' 선언 후 대공습…러, 크림반도에 비상사태",
           "score": 1
+        },
+        {
+          "date": "20260626",
+          "type": "positive",
+          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
+          "score": 3
         }
       ]
     },
@@ -227,8 +227,8 @@
         {
           "date": "20260628",
           "type": "negative",
-          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
-          "score": -4
+          "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
+          "score": -3
         },
         {
           "date": "20260627",
@@ -874,24 +874,16 @@
     },
     {
       "date": "20260628",
-      "headline": "미군, 호르무즈서 이란 연이틀 공습…\"이란의 상선 공격에 대응\"(종합)",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260628",
-      "headline": "[거시분석] US strikes Iran after attack on cargo ship",
+      "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -4
+        "전체시장": -3
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 64,
-  "total_positives": 64,
+  "total_positives": 63,
   "risk_level": "EXTREME"
 }
