@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-28T22:55:14.088276+09:00",
-  "date": "20260628",
+  "updated_at": "2026-06-29T00:20:43.611795+09:00",
+  "date": "20260629",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,8 +16,8 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -9,
-      "positive_count": 1,
+      "score": -10,
+      "positive_count": 0,
       "negative_count": 5,
       "recent_events": [
         {
@@ -53,10 +53,22 @@
       ]
     },
     "건설": {
-      "score": -7,
-      "positive_count": 10,
+      "score": -8,
+      "positive_count": 9,
       "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260629",
+          "type": "positive",
+          "headline": "재건축론發 노선대결 가속…鄭 \"범진보 통합\"·金 \"판 확장해야\"(종합2보)",
+          "score": 1
+        },
+        {
+          "date": "20260629",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
+          "score": -2
+        },
         {
           "date": "20260628",
           "type": "positive",
@@ -74,26 +86,20 @@
           "type": "positive",
           "headline": "유시민 '재건축론'에 與일각 \"李대통령 폄훼…모욕적\" 발끈",
           "score": 1
-        },
-        {
-          "date": "20260627",
-          "type": "negative",
-          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
-          "score": -1
-        },
-        {
-          "date": "20260626",
-          "type": "positive",
-          "headline": "시진핑, 베네수엘라 강진 위로 전문…\"구호·재건 지원할 것\"",
-          "score": 1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 36,
+      "positive_count": 33,
       "negative_count": 14,
       "recent_events": [
+        {
+          "date": "20260629",
+          "type": "positive",
+          "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
+          "score": 3
+        },
         {
           "date": "20260628",
           "type": "positive",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "우크라 '40일 작전' 선언 후 대공습…러, 크림반도에 비상사태",
           "score": 1
-        },
-        {
-          "date": "20260626",
-          "type": "positive",
-          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
-          "score": 3
         }
       ]
     },
@@ -166,8 +166,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20260629",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
+          "score": -1
+        },
         {
           "date": "20260627",
           "type": "negative",
@@ -190,12 +196,6 @@
           "date": "20260623",
           "type": "negative",
           "headline": "[거시분석] Iran says no new commitments on nuclear sites...",
-          "score": -1
-        },
-        {
-          "date": "20260622",
-          "type": "negative",
-          "headline": "[거시분석] First round of US-Iran talks ends with encour...",
           "score": -1
         }
       ]
@@ -221,9 +221,15 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 12,
-      "negative_count": 25,
+      "positive_count": 10,
+      "negative_count": 22,
       "recent_events": [
+        {
+          "date": "20260629",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
+          "score": -5
+        },
         {
           "date": "20260628",
           "type": "negative",
@@ -247,94 +253,11 @@
           "type": "negative",
           "headline": "영국도 철강 관세 50％로 인상…정부 \"보상 협의 총력 대응\"",
           "score": -1
-        },
-        {
-          "date": "20260625",
-          "type": "negative",
-          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
-          "score": -7
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260614",
-      "headline": "The college scam that promised students fleeing war a new life in Finland",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260614",
-      "headline": "US asks Anthropic to block global access to top AI models: Why it matters",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260614",
-      "headline": "Iran war day 107: Washington, Tehran close to signing first stage of deal",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260614",
-      "headline": "2026 World Cup: Australia stun Turkiye 2-0 in counterattacking masterclass",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260614",
-      "headline": "이란, 이스라엘의 베이루트 공습 반발…\"美와 협상지속 불가능\"",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260614",
-      "headline": "종전 MOU 임박 속 이스라엘, 베이루트 헤즈볼라 지휘소 공습(종합)",
-      "impacts": {
-        "건설": 1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260614",
-      "headline": "靑 \"美-이란 합의 타결돼 중동평화 회복되고 호르무즈 개방되길\"",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260614",
-      "headline": "종전 MOU 임박 속 이스라엘, 베이루트 헤즈볼라 목표물 공습",
-      "impacts": {
-        "건설": 1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260614",
-      "headline": "[거시분석] Trump says US-Iran deal to be signed on Sunda...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -3
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260615",
       "headline": "The college scam that promised students fleeing war a new life in Finland",
@@ -889,9 +812,28 @@
         "전체시장": -3
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260629",
+      "headline": "재건축론發 노선대결 가속…鄭 \"범진보 통합\"·金 \"판 확장해야\"(종합2보)",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260629",
+      "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 64,
-  "total_positives": 64,
+  "total_negatives": 62,
+  "total_positives": 57,
   "risk_level": "EXTREME"
 }

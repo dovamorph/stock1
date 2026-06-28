@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28 22:55",
+  "updated": "2026-06-29 00:20",
   "news_count": 86,
   "intl_count": 56,
   "domestic_count": 30,
@@ -26,6 +26,7 @@
     "Eleven killed after plane carrying skydivers crashes in eastern France",
     "Why Kim Jong Un never talks about his mother - or her controversial bloodline",
     "Heatwave breaks records in Germany, Denmark and Czech Republic",
+    "Australian man charged with murder after girl found dead in suitcase in Thailand",
     "Trump's face is added to select US passports for America's 250th birthday",
     "117 dead dogs found at California 'no-kill' animal rescue - many with gunshot wounds",
     "Uganda's leading media outlets shut down by army chief",
@@ -49,13 +50,19 @@
     "Panic attacks and fractures - Venezuela hospital treats earthquake victims",
     "Watch: A race against the clock for Venezuela earthquake rescuers",
     "Newborn baby rescued from Venezuela earthquake rubble",
-    "Watch: BBC reports from La Guaira, one of Venezuela's worst-hit areas",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Q&A: Why humanitarian aid is crucial to stopping the Ebola outbreak",
+    "If USMCA is not renewed, analysts expect uncertainty for businesses",
+    "Pape: US trying to ‘squeak out of strategic defeat’ after Iran",
+    "World Cup 2026 Round of 32: Biggest takeaways from the group stage",
+    "European heatwave causes 1,000 excess deaths in France",
+    "IRGC doubles down as Iran-US MoU jeopardised by Hormuz strikes",
+    "The US-Iran MoU: A mirage of an agreement",
     "Ukraine says it attacked two Russian oil refineries",
     "Adam Johnson on how US corporate media sold Israel’s genocide in Gaza",
     "Stories of survivors of Venezuela’s earthquakes",
     "Paradise lost: How Israel is making war on West Bank farmers",
-    "Why is Article 5 of MoU causing confrontations in the Strait of Hormuz?",
+    "What is Article 5 of Iran-US MoU, and why is it blamed for Hormuz strikes?",
     "Araghchi: Strait of Hormuz remains under Iranian control for 30 days",
     "Satellite images show scale of destruction in Venezuela earthquakes",
     "‘Digging with a needle’: Generals stall peace as Sudan’s el-Obeid burns",
@@ -67,15 +74,16 @@
     "‘US trying to find its way out of MoU with Iran’",
     "Iraq security forces arrest several officials in anticorruption crackdown",
     "FIFA World Cup: Round of 32 bracket, schedule, predictions, Iran’s exit",
-    "Iran attacks Kuwait and Bahrain in response to US strikes",
+    "Iran and US trade attacks as Strait of Hormuz ceasefire falters",
     "Watch World Cup Day 17: Messi breaks record as Algeria and DR Congo advance",
-    "South Africa vs Canada: World Cup 2026 – prediction, team news and lineups",
-    "DR Congo fans celebrate reaching World Cup knockout stage",
-    "‘Between pain and fear’: Gaza children bear cost of ongoing Israeli attacks",
-    "Iran bow out of World Cup: Late drama ends Team Melli’s knockout dream",
-    "Polls open in New Caledonia’s first provincial elections since 2019",
-    "In pictures: Race against time to rescue Venezuela earthquake survivors",
-    "Iran war day 121: Iran attacks Bahrain, Kuwait as US strikes near Hormuz",
+    "\"美 신차판매량 2040년까지 年200만대 감소…자동차는 쇠퇴산업\"",
+    "美하원의장 \"유권자 ID법, 과반 의석으로 통과 가능토록 재추진\"",
+    "[알림] 연합뉴스 콘텐츠 저작권 고지",
+    "히치하이커 \"짧은 훅이 곡 전체를 이끄는 시대…중요한건 진심\"",
+    "호기심 노린 '마약 이벤트'…17세 소녀도 덫에 걸렸다",
+    "프랑스서 스카이다이빙 전용기 추락…탑승자 11명 사망(종합)",
+    "푸틴 \"어려운 시기 겪는 러시아, 강하지 않으면 존재 못해\"",
+    "교황청 \"EU, 전쟁에 '이중잣대'…국제법 선별 적용\"",
     "WHO \"유럽서 폭염 관련 초과 사망자 1천300명 이상\"(종합)",
     "韓日국방 \"교류협력 강화…특수비행팀 교류·해양구조훈련 지속\"(종합2보)",
     "사우디 아람코 헬기 추락해 탑승자 14명 전원 사망",
@@ -97,34 +105,26 @@
     "[날씨] 내일 전국 곳곳 소나기…내륙 중심 무더위 이어져",
     "한여름보다 뜨거웠던 베이비몬스터…\"전 세계를 춤판으로\"",
     "김태형 7이닝 1실점…KIA, 두산 꺾고 잠실 7연패 탈출",
-    "[동포의 창] 한인 청소년들, 뉴욕 유엔본부서 글로벌 리더십 경험",
-    "[프로야구 대구전적] 삼성 7-4 kt",
-    "[프로야구 인천전적] 한화 6-3 SSG",
-    "[프로야구 잠실전적] KIA 12-1 두산",
-    "[프로야구 창원전적] NC 9-2 키움",
-    "'봉쇄 시위 직격탄' 핀수영 세계선수권, 우여곡절 끝에 마무리",
-    "中학교, 학생들 앞 휴대전화 100여대 망치질…당국도 비판",
-    "도로부터 원전까지…'폭염에 무방비' 민낯 드러난 유럽 인프라",
-    "'인수위 생중계' 시도 김상욱…'소통' 호평 속 부작용 논란도"
+    "[동포의 창] 한인 청소년들, 뉴욕 유엔본부서 글로벌 리더십 경험"
   ],
   "categories": {
     "geopolitical": {
-      "level": "경고",
-      "color": "orange",
-      "signal": "🟠",
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
       "summary": "US and Iran exchange strikes and accuse each ...",
-      "action": "포지션 축소 검토 / 모니터링 강화",
-      "matched": 13,
-      "score": 3.0
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 15,
+      "score": 1.5
     },
     "macro": {
-      "level": "안전",
-      "color": "green",
-      "signal": "🟢",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "Q&A: Why humanitarian aid is crucial to stopp...",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 1,
+      "score": 1.4
     },
     "disaster": {
       "level": "안전",
@@ -136,28 +136,28 @@
       "score": 0
     },
     "trade": {
-      "level": "신호",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "US and Iran exchange strikes and accuse each ...",
-      "action": "관련 지표 추가 확인 후 판단",
-      "matched": 10,
-      "score": 14.2
-    },
-    "policy": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "[프로야구 창원전적] NC 9-2 키움",
+      "summary": "US and Iran exchange strikes and accuse each ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 2,
-      "score": 3.0
+      "matched": 11,
+      "score": 1.4
+    },
+    "policy": {
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
-    "level": "신호",
-    "color": "yellow",
+    "level": "위험",
+    "color": "red",
     "summary": "주의 필요: 지정학적 충돌",
-    "action": "관련 지표 추가 확인 후 판단"
+    "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
