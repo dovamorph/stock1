@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-29T02:17:18.949218+09:00",
+  "updated_at": "2026-06-29T04:26:27.923126+09:00",
   "date": "20260629",
   "window_days": 14,
   "sectors": [
@@ -222,8 +222,14 @@
     "전체시장": {
       "score": -10,
       "positive_count": 10,
-      "negative_count": 22,
+      "negative_count": 23,
       "recent_events": [
+        {
+          "date": "20260629",
+          "type": "negative",
+          "headline": "美 '트럼프 관세·무역 키맨' 그리어 급부상…러트닉은 '조용'",
+          "score": -1
+        },
         {
           "date": "20260629",
           "type": "negative",
@@ -247,12 +253,6 @@
           "type": "negative",
           "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
           "score": -5
-        },
-        {
-          "date": "20260625",
-          "type": "negative",
-          "headline": "영국도 철강 관세 50％로 인상…정부 \"보상 협의 총력 대응\"",
-          "score": -1
         }
       ]
     }
@@ -815,6 +815,14 @@
     },
     {
       "date": "20260629",
+      "headline": "美 '트럼프 관세·무역 키맨' 그리어 급부상…러트닉은 '조용'",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260629",
       "headline": "재건축론發 노선대결 가속…鄭 \"범진보 통합\"·金 \"판 확장해야\"(종합2보)",
       "impacts": {
         "건설": 1
@@ -833,7 +841,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 62,
+  "total_negatives": 63,
   "total_positives": 57,
   "risk_level": "EXTREME"
 }
