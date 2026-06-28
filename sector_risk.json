@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T20:48:31.510045+09:00",
+  "updated_at": "2026-06-28T22:55:14.088276+09:00",
   "date": "20260628",
   "window_days": 14,
   "sectors": [
@@ -53,10 +53,16 @@
       ]
     },
     "건설": {
-      "score": -8,
-      "positive_count": 9,
+      "score": -7,
+      "positive_count": 10,
       "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260628",
+          "type": "positive",
+          "headline": "재건축론發 노선대결 가속…鄭 \"범진보 통합\"·金 \"판 확장해야\"(종합2보)",
+          "score": 1
+        },
         {
           "date": "20260628",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "positive",
           "headline": "시진핑, 베네수엘라 강진 위로 전문…\"구호·재건 지원할 것\"",
           "score": 1
-        },
-        {
-          "date": "20260626",
-          "type": "negative",
-          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
-          "score": -2
         }
       ]
     },
@@ -874,6 +874,14 @@
     },
     {
       "date": "20260628",
+      "headline": "재건축론發 노선대결 가속…鄭 \"범진보 통합\"·金 \"판 확장해야\"(종합2보)",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260628",
       "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
       "impacts": {
         "방산": 2,
@@ -884,6 +892,6 @@
     }
   ],
   "total_negatives": 64,
-  "total_positives": 63,
+  "total_positives": 64,
   "risk_level": "EXTREME"
 }
