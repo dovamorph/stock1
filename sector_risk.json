@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T13:11:08.852049+09:00",
+  "updated_at": "2026-06-28T17:57:51.530444+09:00",
   "date": "20260628",
   "window_days": 14,
   "sectors": [
@@ -53,15 +53,15 @@
       ]
     },
     "건설": {
-      "score": -9,
-      "positive_count": 9,
-      "negative_count": 11,
+      "score": -6,
+      "positive_count": 10,
+      "negative_count": 10,
       "recent_events": [
         {
           "date": "20260628",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
-          "score": -2
+          "type": "positive",
+          "headline": "재건축론發 노선대결 가속…鄭 \"범진보 통합\"·金 \"판 확장해야\"(종합)",
+          "score": 1
         },
         {
           "date": "20260627",
@@ -98,7 +98,7 @@
           "date": "20260628",
           "type": "positive",
           "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260627",
@@ -874,16 +874,23 @@
     },
     {
       "date": "20260628",
+      "headline": "재건축론發 노선대결 가속…鄭 \"범진보 통합\"·金 \"판 확장해야\"(종합)",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260628",
       "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
+        "방산": 1,
         "전체시장": -3
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 64,
-  "total_positives": 63,
+  "total_negatives": 63,
+  "total_positives": 64,
   "risk_level": "EXTREME"
 }
