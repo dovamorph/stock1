@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-29T04:26:27.923126+09:00",
+  "updated_at": "2026-06-29T06:06:10.131825+09:00",
   "date": "20260629",
   "window_days": 14,
   "sectors": [
@@ -53,22 +53,10 @@
       ]
     },
     "건설": {
-      "score": -8,
-      "positive_count": 9,
-      "negative_count": 11,
+      "score": -7,
+      "positive_count": 8,
+      "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20260629",
-          "type": "positive",
-          "headline": "재건축론發 노선대결 가속…鄭 \"범진보 통합\"·金 \"판 확장해야\"(종합2보)",
-          "score": 1
-        },
-        {
-          "date": "20260629",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
-          "score": -2
-        },
         {
           "date": "20260628",
           "type": "positive",
@@ -86,19 +74,37 @@
           "type": "positive",
           "headline": "유시민 '재건축론'에 與일각 \"李대통령 폄훼…모욕적\" 발끈",
           "score": 1
+        },
+        {
+          "date": "20260627",
+          "type": "negative",
+          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
+          "score": -1
+        },
+        {
+          "date": "20260626",
+          "type": "positive",
+          "headline": "시진핑, 베네수엘라 강진 위로 전문…\"구호·재건 지원할 것\"",
+          "score": 1
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 33,
-      "negative_count": 14,
+      "negative_count": 15,
       "recent_events": [
+        {
+          "date": "20260629",
+          "type": "negative",
+          "headline": "美언론 \"미국-이란, 공격 중단 및 금주 회담 합의\"",
+          "score": -1
+        },
         {
           "date": "20260629",
           "type": "positive",
           "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260628",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] US strikes Iran after attack on cargo ship",
           "score": 2
-        },
-        {
-          "date": "20260626",
-          "type": "positive",
-          "headline": "우크라 '40일 작전' 선언 후 대공습…러, 크림반도에 비상사태",
-          "score": 1
         }
       ]
     },
@@ -227,14 +227,14 @@
         {
           "date": "20260629",
           "type": "negative",
-          "headline": "美 '트럼프 관세·무역 키맨' 그리어 급부상…러트닉은 '조용'",
+          "headline": "주한EU대사 \"철강관세 논의결과 생산적일것…양측 우려 다 고려\"",
           "score": -1
         },
         {
           "date": "20260629",
           "type": "negative",
           "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
-          "score": -5
+          "score": -3
         },
         {
           "date": "20260628",
@@ -815,7 +815,7 @@
     },
     {
       "date": "20260629",
-      "headline": "美 '트럼프 관세·무역 키맨' 그리어 급부상…러트닉은 '조용'",
+      "headline": "주한EU대사 \"철강관세 논의결과 생산적일것…양측 우려 다 고려\"",
       "impacts": {
         "전체시장": -1
       },
@@ -823,9 +823,9 @@
     },
     {
       "date": "20260629",
-      "headline": "재건축론發 노선대결 가속…鄭 \"범진보 통합\"·金 \"판 확장해야\"(종합2보)",
+      "headline": "美언론 \"미국-이란, 공격 중단 및 금주 회담 합의\"",
       "impacts": {
-        "건설": 1
+        "방산": -1
       },
       "source": "keyword"
     },
@@ -833,15 +833,14 @@
       "date": "20260629",
       "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
+        "방산": 1,
+        "전체시장": -3,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 63,
-  "total_positives": 57,
+  "total_positives": 56,
   "risk_level": "EXTREME"
 }
