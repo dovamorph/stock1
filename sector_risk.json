@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T06:38:09.499641+09:00",
+  "updated_at": "2026-06-30T08:01:28.810208+09:00",
   "date": "20260630",
   "window_days": 14,
   "sectors": [
@@ -127,10 +127,16 @@
       ]
     },
     "전력·에너지": {
-      "score": 4,
-      "positive_count": 4,
+      "score": 5,
+      "positive_count": 5,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260630",
+          "type": "positive",
+          "headline": "부산시, 전력수요·탄소규제 대응 해양 SMR 세미나",
+          "score": 1
+        },
         {
           "date": "20260617",
           "type": "positive",
@@ -730,6 +736,14 @@
     },
     {
       "date": "20260630",
+      "headline": "부산시, 전력수요·탄소규제 대응 해양 SMR 세미나",
+      "impacts": {
+        "전력·에너지": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260630",
       "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
       "impacts": {
         "방산": 3,
@@ -741,6 +755,6 @@
     }
   ],
   "total_negatives": 58,
-  "total_positives": 46,
+  "total_positives": 47,
   "risk_level": "EXTREME"
 }
