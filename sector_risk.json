@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-29T13:17:45.575753+09:00",
+  "updated_at": "2026-06-29T20:07:14.822532+09:00",
   "date": "20260629",
   "window_days": 14,
   "sectors": [
@@ -53,10 +53,16 @@
       ]
     },
     "건설": {
-      "score": -7,
+      "score": -8,
       "positive_count": 8,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260629",
+          "type": "negative",
+          "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
+          "score": -1
+        },
         {
           "date": "20260628",
           "type": "positive",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] US strikes Iran after attack on cargo ship",
           "score": -1
-        },
-        {
-          "date": "20260626",
-          "type": "positive",
-          "headline": "시진핑, 베네수엘라 강진 위로 전문…\"구호·재건 지원할 것\"",
-          "score": 1
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20260629",
           "type": "positive",
-          "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
-          "score": 1
+          "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
+          "score": 2
         },
         {
           "date": "20260628",
@@ -166,14 +166,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 9,
       "recent_events": [
-        {
-          "date": "20260629",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
-          "score": -1
-        },
         {
           "date": "20260627",
           "type": "negative",
@@ -197,14 +191,26 @@
           "type": "negative",
           "headline": "[거시분석] Iran says no new commitments on nuclear sites...",
           "score": -1
+        },
+        {
+          "date": "20260622",
+          "type": "negative",
+          "headline": "[거시분석] First round of US-Iran talks ends with encour...",
+          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260629",
+          "type": "positive",
+          "headline": "[베네수 강진] 스페이스X, '최대피해' 라과이라에 스타링크 무료 제공",
+          "score": 1
+        },
         {
           "date": "20260623",
           "type": "positive",
@@ -227,8 +233,8 @@
         {
           "date": "20260629",
           "type": "negative",
-          "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
-          "score": -3
+          "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
+          "score": -2
         },
         {
           "date": "20260628",
@@ -815,16 +821,24 @@
     },
     {
       "date": "20260629",
-      "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
+      "headline": "[베네수 강진] 스페이스X, '최대피해' 라과이라에 스타링크 무료 제공",
       "impacts": {
-        "방산": 1,
-        "전체시장": -3,
-        "금융": -1
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260629",
+      "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
+      "impacts": {
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 61,
-  "total_positives": 56,
+  "total_positives": 57,
   "risk_level": "EXTREME"
 }
