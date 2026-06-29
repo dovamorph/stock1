@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-29T08:07:15.013678+09:00",
+  "updated_at": "2026-06-29T13:17:45.575753+09:00",
   "date": "20260629",
   "window_days": 14,
   "sectors": [
@@ -53,16 +53,10 @@
       ]
     },
     "건설": {
-      "score": -9,
+      "score": -7,
       "positive_count": 8,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20260629",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
-          "score": -2
-        },
         {
           "date": "20260628",
           "type": "positive",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] US strikes Iran after attack on cargo ship",
           "score": -1
+        },
+        {
+          "date": "20260626",
+          "type": "positive",
+          "headline": "시진핑, 베네수엘라 강진 위로 전문…\"구호·재건 지원할 것\"",
+          "score": 1
         }
       ]
     },
@@ -98,7 +98,7 @@
           "date": "20260629",
           "type": "positive",
           "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260628",
@@ -228,7 +228,7 @@
           "date": "20260629",
           "type": "negative",
           "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
-          "score": -5
+          "score": -3
         },
         {
           "date": "20260628",
@@ -817,15 +817,14 @@
       "date": "20260629",
       "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
+        "방산": 1,
+        "전체시장": -3,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 62,
+  "total_negatives": 61,
   "total_positives": 56,
   "risk_level": "EXTREME"
 }
