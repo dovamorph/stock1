@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T03:11:01.856993+09:00",
+  "updated_at": "2026-06-30T06:38:09.499641+09:00",
   "date": "20260630",
   "window_days": 14,
   "sectors": [
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 5,
-      "negative_count": 11,
+      "negative_count": 12,
       "recent_events": [
+        {
+          "date": "20260630",
+          "type": "negative",
+          "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
+          "score": -2
+        },
         {
           "date": "20260629",
           "type": "negative",
@@ -80,31 +86,19 @@
           "type": "positive",
           "headline": "유시민 '재건축론'에 與일각 \"李대통령 폄훼…모욕적\" 발끈",
           "score": 1
-        },
-        {
-          "date": "20260627",
-          "type": "negative",
-          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
-          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 25,
-      "negative_count": 13,
+      "negative_count": 12,
       "recent_events": [
-        {
-          "date": "20260630",
-          "type": "negative",
-          "headline": "뉴욕증시, 중동 긴장 완화에 상승 출발",
-          "score": -1
-        },
         {
           "date": "20260630",
           "type": "positive",
           "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
-          "score": 1
+          "score": 3
         },
         {
           "date": "20260629",
@@ -123,6 +117,12 @@
           "type": "positive",
           "headline": "\"'미 5함대 주둔' 바레인 겨냥 이란 드론 공격\"…다시 긴장 고조(종합)",
           "score": 1
+        },
+        {
+          "date": "20260627",
+          "type": "positive",
+          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
+          "score": 2
         }
       ]
     },
@@ -227,20 +227,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 11,
+      "positive_count": 10,
       "negative_count": 20,
       "recent_events": [
         {
           "date": "20260630",
-          "type": "positive",
-          "headline": "뉴욕증시, 중동 긴장 완화에 상승 출발",
-          "score": 1
-        },
-        {
-          "date": "20260630",
           "type": "negative",
           "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
-          "score": -3
+          "score": -4
         },
         {
           "date": "20260629",
@@ -259,6 +253,12 @@
           "type": "negative",
           "headline": "[거시분석] US strikes Iran after attack on cargo ship",
           "score": -7
+        },
+        {
+          "date": "20260626",
+          "type": "negative",
+          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
+          "score": -5
         }
       ]
     }
@@ -730,25 +730,17 @@
     },
     {
       "date": "20260630",
-      "headline": "뉴욕증시, 중동 긴장 완화에 상승 출발",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260630",
       "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -3,
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -4,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 58,
-  "total_positives": 47,
+  "total_positives": 46,
   "risk_level": "EXTREME"
 }
