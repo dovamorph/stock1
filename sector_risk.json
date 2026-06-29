@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-29T20:07:14.822532+09:00",
-  "date": "20260629",
+  "updated_at": "2026-06-30T00:53:19.677592+09:00",
+  "date": "20260630",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -53,10 +53,16 @@
       ]
     },
     "건설": {
-      "score": -8,
-      "positive_count": 8,
-      "negative_count": 11,
+      "score": -10,
+      "positive_count": 5,
+      "negative_count": 12,
       "recent_events": [
+        {
+          "date": "20260630",
+          "type": "negative",
+          "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
+          "score": -2
+        },
         {
           "date": "20260629",
           "type": "negative",
@@ -80,20 +86,32 @@
           "type": "positive",
           "headline": "유시민 '재건축론'에 與일각 \"李대통령 폄훼…모욕적\" 발끈",
           "score": 1
-        },
-        {
-          "date": "20260627",
-          "type": "negative",
-          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
-          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 33,
+      "positive_count": 25,
       "negative_count": 14,
       "recent_events": [
+        {
+          "date": "20260630",
+          "type": "negative",
+          "headline": "뉴욕증시, 중동 긴장 완화에 상승 출발",
+          "score": -1
+        },
+        {
+          "date": "20260630",
+          "type": "negative",
+          "headline": "트럼프 \"이란 요청으로 내일 도하서 회담\"…확전 자제 기류(종합)",
+          "score": -1
+        },
+        {
+          "date": "20260630",
+          "type": "positive",
+          "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
+          "score": 3
+        },
         {
           "date": "20260629",
           "type": "positive",
@@ -105,24 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
           "score": 2
-        },
-        {
-          "date": "20260627",
-          "type": "positive",
-          "headline": "\"'미 5함대 주둔' 바레인 겨냥 이란 드론 공격\"…다시 긴장 고조(종합)",
-          "score": 1
-        },
-        {
-          "date": "20260627",
-          "type": "positive",
-          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
-          "score": 2
-        },
-        {
-          "date": "20260626",
-          "type": "positive",
-          "headline": "우크라 '40일 작전' 선언 후 대공습…러, 크림반도에 비상사태",
-          "score": 1
         }
       ]
     },
@@ -169,6 +169,12 @@
       "negative_count": 9,
       "recent_events": [
         {
+          "date": "20260630",
+          "type": "negative",
+          "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
+          "score": -1
+        },
+        {
           "date": "20260627",
           "type": "negative",
           "headline": "[거시분석] US strikes Iran after attack on cargo ship",
@@ -190,12 +196,6 @@
           "date": "20260623",
           "type": "negative",
           "headline": "[거시분석] Iran says no new commitments on nuclear sites...",
-          "score": -1
-        },
-        {
-          "date": "20260622",
-          "type": "negative",
-          "headline": "[거시분석] First round of US-Iran talks ends with encour...",
           "score": -1
         }
       ]
@@ -227,9 +227,21 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 10,
-      "negative_count": 22,
+      "positive_count": 11,
+      "negative_count": 20,
       "recent_events": [
+        {
+          "date": "20260630",
+          "type": "positive",
+          "headline": "뉴욕증시, 중동 긴장 완화에 상승 출발",
+          "score": 1
+        },
+        {
+          "date": "20260630",
+          "type": "negative",
+          "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
+          "score": -6
+        },
         {
           "date": "20260629",
           "type": "negative",
@@ -247,132 +259,11 @@
           "type": "negative",
           "headline": "[거시분석] US strikes Iran after attack on cargo ship",
           "score": -7
-        },
-        {
-          "date": "20260626",
-          "type": "negative",
-          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
-          "score": -5
-        },
-        {
-          "date": "20260625",
-          "type": "negative",
-          "headline": "영국도 철강 관세 50％로 인상…정부 \"보상 협의 총력 대응\"",
-          "score": -1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260615",
-      "headline": "The college scam that promised students fleeing war a new life in Finland",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260615",
-      "headline": "‘Island surrounded by war’: Crimeans panic amid Ukrainian attacks",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260615",
-      "headline": "Iran, US agree tentative deal to ‘end war’: Your questions answered",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260615",
-      "headline": "The slow death of Goldsmiths is a warning to British universities",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260615",
-      "headline": "Pakistani police mistakenly open fire on Australian family, killing child",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260615",
-      "headline": "How Trump is relaunching a tariff war citing ‘forced labour’ concerns",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260615",
-      "headline": "El-Geneina’s struggle: Life amid Sudan war and humanitarian challenges",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260615",
-      "headline": "What still needs to be negotiated in US-Iran ‘peace deal’?",
-      "impacts": {
-        "건설": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260615",
-      "headline": "Iran war day 108: Iran, US reach a tentative deal to end conflict",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260615",
-      "headline": "US and Iran announce ‘understanding’ to end the war",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260615",
-      "headline": "[미·이란 종전] 靑, 안도 속 후속 협의 촉각…\"합의 이행 지켜봐야\"",
-      "impacts": {
-        "건설": 1,
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260615",
-      "headline": "[미·이란 종전] 정부 \"진전 환영…호르무즈 자유항행 보장 노력 동참\"",
-      "impacts": {
-        "건설": 1,
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260615",
-      "headline": "[거시분석] Oil prices fall and shares jump after US-Iran...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -3,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260616",
       "headline": "Married at First Sight Australia allegations 'disturbing', says country's watchdog",
@@ -836,9 +727,37 @@
         "전체시장": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260630",
+      "headline": "뉴욕증시, 중동 긴장 완화에 상승 출발",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260630",
+      "headline": "트럼프 \"이란 요청으로 내일 도하서 회담\"…확전 자제 기류(종합)",
+      "impacts": {
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260630",
+      "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -6,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 61,
-  "total_positives": 57,
+  "total_negatives": 60,
+  "total_positives": 47,
   "risk_level": "EXTREME"
 }
