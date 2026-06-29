@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30 00:53",
+  "updated": "2026-06-30 03:10",
   "news_count": 86,
   "intl_count": 56,
   "domestic_count": 30,
@@ -15,14 +15,14 @@
   "news_sample": [
     "Mum rescued from Venezuela rubble with newborn baby tells BBC how he helped her survive",
     "Sixth person dies after shooting at youth welfare centre in Germany",
-    "Supreme Court rejects Trump's appeal of E Jean Carroll's sexual abuse case",
+    "Trump's final appeal of E Jean Carroll sex abuse case rejected",
     "DR Congo bans mass gatherings in the  capital to prevent spread of Ebola",
     "US says it has agreed to 'stand down' after exchange of strikes with Iran"
   ],
   "all_headlines": [
     "Mum rescued from Venezuela rubble with newborn baby tells BBC how he helped her survive",
     "Sixth person dies after shooting at youth welfare centre in Germany",
-    "Supreme Court rejects Trump's appeal of E Jean Carroll's sexual abuse case",
+    "Trump's final appeal of E Jean Carroll sex abuse case rejected",
     "DR Congo bans mass gatherings in the  capital to prevent spread of Ebola",
     "US says it has agreed to 'stand down' after exchange of strikes with Iran",
     "Pakistani strikes kill at least 28 civilians in Afghanistan, UN says",
@@ -51,6 +51,21 @@
     "Loved and loathed: The making of India's viral liver doctor",
     "Why Kim Jong Un never talks about his mother - or her controversial bloodline",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "UK’s prime minister-in-waiting vows to shake up politics",
+    "New Israeli assault in southern Syria forces families to flee their homes",
+    "Mehdi Hasan: Disrupting democracy’s decline",
+    "Supreme Court blocks Trump’s bid to fire US Federal Reserve’s Lisa Cook",
+    "Aftershock hits Caracas during critical hours for Venezuela rescue efforts",
+    "Ex-NBA players Malik Beasley, Ed Davis indicted in gambling case",
+    "Afghan families mourn loved ones as border tensions with Pakistan rise",
+    "US petrol prices ease despite ongoing uncertainties with Iran",
+    "US Supreme Court rebuffs Trump’s appeal in E Jean Carroll case",
+    "Iraq’s corruption crackdown is a start, not a solution",
+    "Gaza high school student’s fight for a future",
+    "Fire and floods hit Ghana’s capital as residents are left stranded",
+    "The US-Iran MoU looks at managing the pain rather than ending the war",
+    "Earthquake jolts southwest China",
+    "Lebanon Latest: Israel strikes as Hezbollah condemns new deal",
     "Lebanon’s displaced begin to return home, but some have nowhere to go",
     "JD Vance’s 2028 strategy is starting to take shape",
     "Five killed in shooting at German youth centre",
@@ -61,21 +76,16 @@
     "Brazil vs Japan LIVE: FIFA World Cup 2026",
     "Is the Israeli military deliberately targeting children in Gaza?",
     "Russian missile and drone attacks kill at least eight in Ukraine",
-    "Why Pakistan’s Afghan air strikes aren’t stopping armed attacks",
-    "More than 1,300 deaths in Europe amid heatwave: What can countries do?",
-    "Brazil supporters in Indonesia grab Israeli flag off motorcyclist",
-    "Five killed in shooting at youth welfare centre in Germany’s Stade",
-    "Sudan says China has waived $50m loan: What’s in it for Khartoum, Beijing?",
-    "Venezuela earthquake rescues: Five heart-warming moments",
-    "Israeli attack in Gaza kills three, including a child",
-    "Saudi Arabia’s early FIFA World Cup exit prompts federation chief to resign",
-    "Netherlands vs Morocco: FIFA World Cup Round of 32: Prediction, team news",
-    "‘A concession to Zelenskyy’s ultimatum’: Ukraine’s triumph over Belarus",
-    "Nigerians return home after fleeing xenophobic attacks in South Africa",
-    "Vance Vs Rubio: Is Team Trump divided on Iran and Lebanon?",
-    "‘Tit-for-tat US-Iran attacks appear to be over’",
-    "Russia-Ukraine war: Why has Putin rejected limits on long-range strikes?",
-    "‘Erased from history’: A century on from Canada’s anti-Greek riots",
+    "이란 \"호르무즈 기뢰 제거는 우리가…佛 상황 꼬이게 하지 마\"",
+    "앤트로픽, 아마존에 AI 사용요금 인상…관계 멀어지나",
+    "美대법, '선거일後 도착' 우편투표 합법 판결…트럼프에 타격(종합)",
+    "이란 외무부 \"향후 며칠간 미국과 어떠한 협상도 없을 것\"",
+    "[월드컵] 네 번째 무대 마친 손흥민 \"다시 죽기 살기로 달려보겠다\"",
+    "美대법 \"대통령, 독립기관인사 비위없어도 해임가능\"…연준은 예외(종합)",
+    "레바논 대통령 \"이스라엘 국경까지 군 배치해 통제권 확장\"(종합)",
+    "폭염 사망자 급증에…\"파리 도심 장례식장 꽉 찼다\"",
+    "◇내일의 월드컵(1일)",
+    "◇오늘의 월드컵(30일)",
     "美대법, 트럼프 '성추행 사건' 상고 기각…77억원 배상 확정(종합)",
     "캐나다 잠수함 분할발주?…加국방장관 \"가능성 작다, 비용가중\"",
     "美대법, '선거일後 도착' 우편투표 합법 판결…트럼프 또 쓴잔",
@@ -95,27 +105,17 @@
     "[PGA 최종순위] 트래블러스 챔피언십",
     "여자 테니스 4위 페굴라, 2026 윔블던 첫판 통과",
     "우크라가 에너지 시설 때리자…러는 동부 전선 압박(종합)",
-    "검찰, 수천만원대 뇌물 의혹 전 국민의힘 보좌관 압수수색",
-    "독일 북부 소도시서 총격…5명 사망·여럿 부상(종합)",
-    "한국, 가자지구 피란민에 150억원 지원…15%는 한국산 물품으로",
-    "파리서 TV 들고 지하철 탔다가 26만원 과태료…복불복 적발 논란",
-    "전쟁에 폭염까지…우크라도 비상",
-    "전북 남원·장수에 호우주의보 해제",
-    "트럼프 \"이란 요청으로 내일 도하서 회담\"…확전 자제 기류(종합)",
-    "영암 대불산단서 1년 6개월간 중대재해로 14명 사망",
-    "독일 북부 소도시서 총격 사건으로 5명 사망…용의자 1명 체포",
-    "金여사, 청소년 오케스트라 찾아 격려…\"문화예술 꿈 키우도록\"",
-    "'세계 1위' 도요타 4개월째 판매 뒷걸음…중국 시장 부진 직격탄(종합)"
+    "검찰, 수천만원대 뇌물 의혹 전 국민의힘 보좌관 압수수색"
   ],
   "categories": {
     "geopolitical": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
       "summary": "US says it has agreed to 'stand down' after e...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 14,
-      "score": 1.5
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 13,
+      "score": 20.4
     },
     "macro": {
       "level": "주의",
@@ -124,7 +124,7 @@
       "summary": "Supreme Court blocks Trump's attempt to fire ...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 4,
-      "score": 7.3
+      "score": 8.8
     },
     "disaster": {
       "level": "안전",
@@ -136,13 +136,13 @@
       "score": 0
     },
     "trade": {
-      "level": "주의",
+      "level": "신호",
       "color": "yellow",
       "signal": "🟡",
       "summary": "US says it has agreed to 'stand down' after e...",
-      "action": "신규 매수 자제 / 추이 관찰",
+      "action": "관련 지표 추가 확인 후 판단",
       "matched": 7,
-      "score": 1.5
+      "score": 10.1
     },
     "policy": {
       "level": "주의",
@@ -155,9 +155,9 @@
     }
   },
   "overall": {
-    "level": "주의",
-    "color": "yellow",
-    "summary": "주의 필요: 지정학적 충돌",
-    "action": "신규 매수 자제 / 추이 관찰"
+    "level": "안전",
+    "color": "green",
+    "summary": "전반적 안정. 정상 운용 유지",
+    "action": "정상 운용 유지"
   }
 }
