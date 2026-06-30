@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T08:01:28.810208+09:00",
+  "updated_at": "2026-06-30T12:58:42.640687+09:00",
   "date": "20260630",
   "window_days": 14,
   "sectors": [
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 5,
-      "negative_count": 12,
+      "negative_count": 11,
       "recent_events": [
-        {
-          "date": "20260630",
-          "type": "negative",
-          "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
-          "score": -2
-        },
         {
           "date": "20260629",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "positive",
           "headline": "유시민 '재건축론'에 與일각 \"李대통령 폄훼…모욕적\" 발끈",
           "score": 1
+        },
+        {
+          "date": "20260627",
+          "type": "negative",
+          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
+          "score": -1
         }
       ]
     },
@@ -98,7 +98,7 @@
           "date": "20260630",
           "type": "positive",
           "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260629",
@@ -127,16 +127,10 @@
       ]
     },
     "전력·에너지": {
-      "score": 5,
-      "positive_count": 5,
+      "score": 4,
+      "positive_count": 4,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260630",
-          "type": "positive",
-          "headline": "부산시, 전력수요·탄소규제 대응 해양 SMR 세미나",
-          "score": 1
-        },
         {
           "date": "20260617",
           "type": "positive",
@@ -226,10 +220,17 @@
       ]
     },
     "양자컴퓨팅": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20260630",
+          "type": "positive",
+          "headline": "양자컴퓨터발 암호 위협…양자내성암호 전문가 620명 키운다",
+          "score": 1
+        }
+      ]
     },
     "전체시장": {
       "score": -10,
@@ -240,7 +241,7 @@
           "date": "20260630",
           "type": "negative",
           "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
-          "score": -4
+          "score": -3
         },
         {
           "date": "20260629",
@@ -736,9 +737,9 @@
     },
     {
       "date": "20260630",
-      "headline": "부산시, 전력수요·탄소규제 대응 해양 SMR 세미나",
+      "headline": "양자컴퓨터발 암호 위협…양자내성암호 전문가 620명 키운다",
       "impacts": {
-        "전력·에너지": 1
+        "양자컴퓨팅": 1
       },
       "source": "keyword"
     },
@@ -746,15 +747,14 @@
       "date": "20260630",
       "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -4,
+        "방산": 1,
+        "전체시장": -3,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 58,
+  "total_negatives": 57,
   "total_positives": 47,
   "risk_level": "EXTREME"
 }
