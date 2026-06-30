@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T02:59:35.449962+09:00",
+  "updated_at": "2026-07-01T05:11:29.065437+09:00",
   "date": "20260701",
   "window_days": 14,
   "sectors": [
@@ -228,7 +228,7 @@
           "date": "20260701",
           "type": "negative",
           "headline": "[거시분석] US envoys in Doha to meet mediators but not I...",
-          "score": -5
+          "score": -4
         },
         {
           "date": "20260630",
@@ -684,7 +684,7 @@
       "impacts": {
         "방산": 2,
         "건설": -1,
-        "전체시장": -5,
+        "전체시장": -4,
         "금융": -1
       },
       "source": "geo_categories"
