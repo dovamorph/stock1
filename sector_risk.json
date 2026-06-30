@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T05:11:29.065437+09:00",
+  "updated_at": "2026-07-01T08:16:39.593050+09:00",
   "date": "20260701",
   "window_days": 14,
   "sectors": [
@@ -49,14 +49,8 @@
     "건설": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20260701",
-          "type": "negative",
-          "headline": "[거시분석] US envoys in Doha to meet mediators but not I...",
-          "score": -1
-        },
         {
           "date": "20260629",
           "type": "negative",
@@ -80,25 +74,25 @@
           "type": "positive",
           "headline": "유시민 '재건축론'에 與일각 \"李대통령 폄훼…모욕적\" 발끈",
           "score": 1
+        },
+        {
+          "date": "20260627",
+          "type": "negative",
+          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
+          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 21,
-      "negative_count": 12,
+      "negative_count": 11,
       "recent_events": [
-        {
-          "date": "20260701",
-          "type": "negative",
-          "headline": "네타냐후 \"무장한 헤즈볼라 있는 한 레바논서 철군 안해\"",
-          "score": -1
-        },
         {
           "date": "20260701",
           "type": "positive",
           "headline": "[거시분석] US envoys in Doha to meet mediators but not I...",
-          "score": 2
+          "score": 1
         },
         {
           "date": "20260630",
@@ -117,6 +111,12 @@
           "type": "positive",
           "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
           "score": 2
+        },
+        {
+          "date": "20260627",
+          "type": "positive",
+          "headline": "\"'미 5함대 주둔' 바레인 겨냥 이란 드론 공격\"…다시 긴장 고조(종합)",
+          "score": 1
         }
       ]
     },
@@ -160,14 +160,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 8,
       "recent_events": [
-        {
-          "date": "20260701",
-          "type": "negative",
-          "headline": "[거시분석] US envoys in Doha to meet mediators but not I...",
-          "score": -1
-        },
         {
           "date": "20260630",
           "type": "negative",
@@ -190,6 +184,12 @@
           "date": "20260625",
           "type": "negative",
           "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
+          "score": -1
+        },
+        {
+          "date": "20260623",
+          "type": "negative",
+          "headline": "[거시분석] Iran says no new commitments on nuclear sites...",
           "score": -1
         }
       ]
@@ -228,7 +228,7 @@
           "date": "20260701",
           "type": "negative",
           "headline": "[거시분석] US envoys in Doha to meet mediators but not I...",
-          "score": -4
+          "score": -2
         },
         {
           "date": "20260630",
@@ -672,25 +672,15 @@
     },
     {
       "date": "20260701",
-      "headline": "네타냐후 \"무장한 헤즈볼라 있는 한 레바논서 철군 안해\"",
-      "impacts": {
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260701",
       "headline": "[거시분석] US envoys in Doha to meet mediators but not I...",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -4,
-        "금융": -1
+        "방산": 1,
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 54,
+  "total_negatives": 51,
   "total_positives": 41,
   "risk_level": "EXTREME"
 }
