@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-30T23:26:36.127777+09:00",
-  "date": "20260630",
+  "updated_at": "2026-07-01T02:59:35.449962+09:00",
+  "date": "20260701",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,9 +16,9 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -10,
+      "score": -8,
       "positive_count": 0,
-      "negative_count": 5,
+      "negative_count": 4,
       "recent_events": [
         {
           "date": "20260627",
@@ -43,20 +43,20 @@
           "type": "negative",
           "headline": "[거시분석] The bikers battling extreme heat and armed co...",
           "score": -2
-        },
-        {
-          "date": "20260616",
-          "type": "negative",
-          "headline": "[거시분석] Iran deal presents political nightmare for Ne...",
-          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
-      "positive_count": 5,
+      "positive_count": 4,
       "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260701",
+          "type": "negative",
+          "headline": "[거시분석] US envoys in Doha to meet mediators but not I...",
+          "score": -1
+        },
         {
           "date": "20260629",
           "type": "negative",
@@ -80,20 +80,26 @@
           "type": "positive",
           "headline": "유시민 '재건축론'에 與일각 \"李대통령 폄훼…모욕적\" 발끈",
           "score": 1
-        },
-        {
-          "date": "20260627",
-          "type": "negative",
-          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
-          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 25,
+      "positive_count": 21,
       "negative_count": 12,
       "recent_events": [
+        {
+          "date": "20260701",
+          "type": "negative",
+          "headline": "네타냐후 \"무장한 헤즈볼라 있는 한 레바논서 철군 안해\"",
+          "score": -1
+        },
+        {
+          "date": "20260701",
+          "type": "positive",
+          "headline": "[거시분석] US envoys in Doha to meet mediators but not I...",
+          "score": 2
+        },
         {
           "date": "20260630",
           "type": "positive",
@@ -110,18 +116,6 @@
           "date": "20260628",
           "type": "positive",
           "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
-          "score": 2
-        },
-        {
-          "date": "20260627",
-          "type": "positive",
-          "headline": "\"'미 5함대 주둔' 바레인 겨냥 이란 드론 공격\"…다시 긴장 고조(종합)",
-          "score": 1
-        },
-        {
-          "date": "20260627",
-          "type": "positive",
-          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
           "score": 2
         }
       ]
@@ -169,6 +163,12 @@
       "negative_count": 9,
       "recent_events": [
         {
+          "date": "20260701",
+          "type": "negative",
+          "headline": "[거시분석] US envoys in Doha to meet mediators but not I...",
+          "score": -1
+        },
+        {
           "date": "20260630",
           "type": "negative",
           "headline": "[거시분석] US envoys in Doha to meet mediators but not I...",
@@ -190,12 +190,6 @@
           "date": "20260625",
           "type": "negative",
           "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
-          "score": -1
-        },
-        {
-          "date": "20260623",
-          "type": "negative",
-          "headline": "[거시분석] Iran says no new commitments on nuclear sites...",
           "score": -1
         }
       ]
@@ -228,8 +222,14 @@
     "전체시장": {
       "score": -10,
       "positive_count": 10,
-      "negative_count": 22,
+      "negative_count": 18,
       "recent_events": [
+        {
+          "date": "20260701",
+          "type": "negative",
+          "headline": "[거시분석] US envoys in Doha to meet mediators but not I...",
+          "score": -5
+        },
         {
           "date": "20260630",
           "type": "negative",
@@ -253,95 +253,11 @@
           "type": "negative",
           "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
           "score": -2
-        },
-        {
-          "date": "20260628",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
-          "score": -3
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260616",
-      "headline": "Married at First Sight Australia allegations 'disturbing', says country's watchdog",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260616",
-      "headline": "Australia to probe assault claims by Gaza flotilla activists against Israeli forces",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260616",
-      "headline": "Bowen: Iran deal ends Trump's war that revealed limit of US dominance",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260616",
-      "headline": "Watch: What does the US-Iran deal to end war mean for Lebanon and Israel?",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260616",
-      "headline": "Australia warns El Nino weather pattern set to be strongest in decades",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260616",
-      "headline": "Iran war day 109: Tehran, Washington, sign MoU electronically",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260616",
-      "headline": "트럼프 \"이란, 핵무기 확보하려 하면 지옥 같은 재앙 닥칠 것\"",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260616",
-      "headline": "[미·이란 종전] 볼턴 \"이란, 트럼프 갖고놀며 유리한 합의 끌어내\"",
-      "impacts": {
-        "건설": 1,
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260616",
-      "headline": "[거시분석] Iran deal presents political nightmare for Ne...",
-      "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -6,
-        "금융": -1,
-        "반도체·AI": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260617",
       "headline": "The bikers battling extreme heat and armed conflict to smuggle Iranian fuel to Pakistan",
@@ -753,9 +669,28 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260701",
+      "headline": "네타냐후 \"무장한 헤즈볼라 있는 한 레바논서 철군 안해\"",
+      "impacts": {
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260701",
+      "headline": "[거시분석] US envoys in Doha to meet mediators but not I...",
+      "impacts": {
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -5,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 59,
-  "total_positives": 46,
+  "total_negatives": 54,
+  "total_positives": 41,
   "risk_level": "EXTREME"
 }
