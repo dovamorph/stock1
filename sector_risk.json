@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T20:16:48.678445+09:00",
+  "updated_at": "2026-06-30T23:26:36.127777+09:00",
   "date": "20260630",
   "window_days": 14,
   "sectors": [
@@ -97,7 +97,7 @@
         {
           "date": "20260630",
           "type": "positive",
-          "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
+          "headline": "[거시분석] US envoys in Doha to meet mediators but not I...",
           "score": 1
         },
         {
@@ -171,7 +171,7 @@
         {
           "date": "20260630",
           "type": "negative",
-          "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
+          "headline": "[거시분석] US envoys in Doha to meet mediators but not I...",
           "score": -1
         },
         {
@@ -233,20 +233,20 @@
         {
           "date": "20260630",
           "type": "negative",
-          "headline": "EU, 내달부터 소액 소포에 3유로 관세…쉬인·테무 등 겨냥",
+          "headline": "트럼프, 이란전 여파로 비룟값 오르자 모로코산 비료 관세유예",
           "score": -1
         },
         {
           "date": "20260630",
           "type": "negative",
-          "headline": "'철강 빗장' EU, 중국 정조준…무관세 쿼터 3분의 2 쪼그라들어",
+          "headline": "EU, 내달부터 소액 소포에 3유로 관세…쉬인·테무 등 겨냥(종합)",
           "score": -1
         },
         {
           "date": "20260630",
           "type": "negative",
-          "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
-          "score": -3
+          "headline": "[거시분석] US envoys in Doha to meet mediators but not I...",
+          "score": -4
         },
         {
           "date": "20260629",
@@ -730,7 +730,7 @@
     },
     {
       "date": "20260630",
-      "headline": "EU, 내달부터 소액 소포에 3유로 관세…쉬인·테무 등 겨냥",
+      "headline": "트럼프, 이란전 여파로 비룟값 오르자 모로코산 비료 관세유예",
       "impacts": {
         "전체시장": -1
       },
@@ -738,7 +738,7 @@
     },
     {
       "date": "20260630",
-      "headline": "'철강 빗장' EU, 중국 정조준…무관세 쿼터 3분의 2 쪼그라들어",
+      "headline": "EU, 내달부터 소액 소포에 3유로 관세…쉬인·테무 등 겨냥(종합)",
       "impacts": {
         "전체시장": -1
       },
@@ -746,10 +746,10 @@
     },
     {
       "date": "20260630",
-      "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
+      "headline": "[거시분석] US envoys in Doha to meet mediators but not I...",
       "impacts": {
         "방산": 1,
-        "전체시장": -3,
+        "전체시장": -4,
         "금융": -1
       },
       "source": "geo_categories"
