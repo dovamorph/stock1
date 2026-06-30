@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T16:59:01.297655+09:00",
+  "updated_at": "2026-06-30T20:16:48.678445+09:00",
   "date": "20260630",
   "window_days": 14,
   "sectors": [
@@ -91,15 +91,9 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 26,
+      "positive_count": 25,
       "negative_count": 12,
       "recent_events": [
-        {
-          "date": "20260630",
-          "type": "positive",
-          "headline": "경남경찰, 학교전담경찰관 워크숍…청소년 사이버도박 대응 논의",
-          "score": 1
-        },
         {
           "date": "20260630",
           "type": "positive",
@@ -123,6 +117,12 @@
           "type": "positive",
           "headline": "\"'미 5함대 주둔' 바레인 겨냥 이란 드론 공격\"…다시 긴장 고조(종합)",
           "score": 1
+        },
+        {
+          "date": "20260627",
+          "type": "positive",
+          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
+          "score": 2
         }
       ]
     },
@@ -228,8 +228,20 @@
     "전체시장": {
       "score": -10,
       "positive_count": 10,
-      "negative_count": 20,
+      "negative_count": 22,
       "recent_events": [
+        {
+          "date": "20260630",
+          "type": "negative",
+          "headline": "EU, 내달부터 소액 소포에 3유로 관세…쉬인·테무 등 겨냥",
+          "score": -1
+        },
+        {
+          "date": "20260630",
+          "type": "negative",
+          "headline": "'철강 빗장' EU, 중국 정조준…무관세 쿼터 3분의 2 쪼그라들어",
+          "score": -1
+        },
         {
           "date": "20260630",
           "type": "negative",
@@ -247,18 +259,6 @@
           "type": "negative",
           "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
           "score": -3
-        },
-        {
-          "date": "20260627",
-          "type": "negative",
-          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
-          "score": -7
-        },
-        {
-          "date": "20260626",
-          "type": "negative",
-          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
-          "score": -5
         }
       ]
     }
@@ -730,9 +730,17 @@
     },
     {
       "date": "20260630",
-      "headline": "경남경찰, 학교전담경찰관 워크숍…청소년 사이버도박 대응 논의",
+      "headline": "EU, 내달부터 소액 소포에 3유로 관세…쉬인·테무 등 겨냥",
       "impacts": {
-        "방산": 1
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260630",
+      "headline": "'철강 빗장' EU, 중국 정조준…무관세 쿼터 3분의 2 쪼그라들어",
+      "impacts": {
+        "전체시장": -1
       },
       "source": "keyword"
     },
@@ -747,7 +755,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 57,
-  "total_positives": 47,
+  "total_negatives": 59,
+  "total_positives": 46,
   "risk_level": "EXTREME"
 }
