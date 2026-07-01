@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T05:01:07.522192+09:00",
+  "updated_at": "2026-07-02T08:19:20.820477+09:00",
   "date": "20260702",
   "window_days": 14,
   "sectors": [
@@ -53,10 +53,16 @@
       ]
     },
     "건설": {
-      "score": -9,
-      "positive_count": 4,
+      "score": -8,
+      "positive_count": 5,
       "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20260702",
+          "type": "positive",
+          "headline": "김현기 강남구청장 취임…1호 결재는 '재건축 신화 프로젝트'",
+          "score": 1
+        },
         {
           "date": "20260629",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "positive",
           "headline": "유시민 '재건축론'에 與일각 \"李대통령 폄훼…모욕적\" 발끈",
           "score": 1
-        },
-        {
-          "date": "20260627",
-          "type": "negative",
-          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
-          "score": -1
         }
       ]
     },
@@ -133,10 +133,17 @@
       "recent_events": []
     },
     "로봇": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20260702",
+          "type": "positive",
+          "headline": "부산시, AI 로봇 투입해 하수관로 누수 탐지 사업 선정",
+          "score": 1
+        }
+      ]
     },
     "금융": {
       "score": -10,
@@ -619,6 +626,22 @@
     },
     {
       "date": "20260702",
+      "headline": "부산시, AI 로봇 투입해 하수관로 누수 탐지 사업 선정",
+      "impacts": {
+        "로봇": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260702",
+      "headline": "김현기 강남구청장 취임…1호 결재는 '재건축 신화 프로젝트'",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260702",
       "headline": "[거시분석] US blocks long-term renewal of North American...",
       "impacts": {
         "방산": 1,
@@ -630,6 +653,6 @@
     }
   ],
   "total_negatives": 51,
-  "total_positives": 37,
+  "total_positives": 39,
   "risk_level": "EXTREME"
 }
