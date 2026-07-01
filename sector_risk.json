@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T01:29:04.382775+09:00",
+  "updated_at": "2026-07-02T05:01:07.522192+09:00",
   "date": "20260702",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260702",
           "type": "negative",
-          "headline": "[거시분석] Anthropic says US lifts export ban on its adv...",
+          "headline": "[거시분석] US blocks long-term renewal of North American...",
           "score": -2
         },
         {
@@ -97,7 +97,7 @@
         {
           "date": "20260702",
           "type": "positive",
-          "headline": "[거시분석] Anthropic says US lifts export ban on its adv...",
+          "headline": "[거시분석] US blocks long-term renewal of North American...",
           "score": 1
         },
         {
@@ -146,7 +146,7 @@
         {
           "date": "20260702",
           "type": "negative",
-          "headline": "[거시분석] Anthropic says US lifts export ban on its adv...",
+          "headline": "[거시분석] US blocks long-term renewal of North American...",
           "score": -1
         },
         {
@@ -202,13 +202,19 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 10,
+      "positive_count": 11,
       "negative_count": 18,
       "recent_events": [
         {
           "date": "20260702",
+          "type": "positive",
+          "headline": "US blocks long-term renewal of North American trade deal",
+          "score": 1
+        },
+        {
+          "date": "20260702",
           "type": "negative",
-          "headline": "[거시분석] Anthropic says US lifts export ban on its adv...",
+          "headline": "[거시분석] US blocks long-term renewal of North American...",
           "score": -5
         },
         {
@@ -227,12 +233,6 @@
           "date": "20260630",
           "type": "negative",
           "headline": "트럼프, 이란전 여파로 비룟값 오르자 모로코산 비료 관세유예",
-          "score": -1
-        },
-        {
-          "date": "20260630",
-          "type": "negative",
-          "headline": "EU, 내달부터 소액 소포에 3유로 관세…쉬인·테무 등 겨냥(종합)",
           "score": -1
         }
       ]
@@ -611,7 +611,15 @@
     },
     {
       "date": "20260702",
-      "headline": "[거시분석] Anthropic says US lifts export ban on its adv...",
+      "headline": "US blocks long-term renewal of North American trade deal",
+      "impacts": {
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260702",
+      "headline": "[거시분석] US blocks long-term renewal of North American...",
       "impacts": {
         "방산": 1,
         "전체시장": -5,
@@ -622,6 +630,6 @@
     }
   ],
   "total_negatives": 51,
-  "total_positives": 36,
+  "total_positives": 37,
   "risk_level": "EXTREME"
 }
