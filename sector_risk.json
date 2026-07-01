@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-01T21:37:26.927349+09:00",
-  "date": "20260701",
+  "updated_at": "2026-07-02T01:29:04.382775+09:00",
+  "date": "20260702",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -20,6 +20,12 @@
       "positive_count": 0,
       "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20260702",
+          "type": "negative",
+          "headline": "[거시분석] Anthropic says US lifts export ban on its adv...",
+          "score": -2
+        },
         {
           "date": "20260701",
           "type": "negative",
@@ -43,19 +49,13 @@
           "type": "negative",
           "headline": "[거시분석] US-Iran talks postponed as Vance pulls out of...",
           "score": -2
-        },
-        {
-          "date": "20260617",
-          "type": "negative",
-          "headline": "[거시분석] The bikers battling extreme heat and armed co...",
-          "score": -2
         }
       ]
     },
     "건설": {
-      "score": -10,
+      "score": -9,
       "positive_count": 4,
-      "negative_count": 10,
+      "negative_count": 9,
       "recent_events": [
         {
           "date": "20260629",
@@ -91,9 +91,15 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 21,
-      "negative_count": 12,
+      "positive_count": 20,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260702",
+          "type": "positive",
+          "headline": "[거시분석] Anthropic says US lifts export ban on its adv...",
+          "score": 1
+        },
         {
           "date": "20260701",
           "type": "negative",
@@ -117,45 +123,14 @@
           "type": "positive",
           "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
           "score": 2
-        },
-        {
-          "date": "20260628",
-          "type": "positive",
-          "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
-          "score": 2
         }
       ]
     },
     "전력·에너지": {
-      "score": 4,
-      "positive_count": 4,
+      "score": 0,
+      "positive_count": 0,
       "negative_count": 0,
-      "recent_events": [
-        {
-          "date": "20260617",
-          "type": "positive",
-          "headline": "국내 첫 소형모듈원자로 본궤도…K-원전 수출 영토 넓히나",
-          "score": 1
-        },
-        {
-          "date": "20260617",
-          "type": "positive",
-          "headline": "[일지] 신규 원전·소형모듈원자로 부지선정",
-          "score": 1
-        },
-        {
-          "date": "20260617",
-          "type": "positive",
-          "headline": "신규 대형원전·SMR 후보지 선정…전력수요 급증 전망에 '속도'",
-          "score": 1
-        },
-        {
-          "date": "20260617",
-          "type": "positive",
-          "headline": "[2보] 신규 대형원전 경북 영덕…소형모듈원자로 1호기는 부산 기장",
-          "score": 1
-        }
-      ]
+      "recent_events": []
     },
     "로봇": {
       "score": 0,
@@ -168,6 +143,12 @@
       "positive_count": 0,
       "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260702",
+          "type": "negative",
+          "headline": "[거시분석] Anthropic says US lifts export ban on its adv...",
+          "score": -1
+        },
         {
           "date": "20260630",
           "type": "negative",
@@ -190,12 +171,6 @@
           "date": "20260625",
           "type": "negative",
           "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
-          "score": -1
-        },
-        {
-          "date": "20260623",
-          "type": "negative",
-          "headline": "[거시분석] Iran says no new commitments on nuclear sites...",
           "score": -1
         }
       ]
@@ -227,9 +202,15 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 11,
+      "positive_count": 10,
       "negative_count": 18,
       "recent_events": [
+        {
+          "date": "20260702",
+          "type": "negative",
+          "headline": "[거시분석] Anthropic says US lifts export ban on its adv...",
+          "score": -5
+        },
         {
           "date": "20260701",
           "type": "positive",
@@ -253,78 +234,11 @@
           "type": "negative",
           "headline": "EU, 내달부터 소액 소포에 3유로 관세…쉬인·테무 등 겨냥(종합)",
           "score": -1
-        },
-        {
-          "date": "20260630",
-          "type": "negative",
-          "headline": "[거시분석] US envoys in Doha to meet mediators but not I...",
-          "score": -4
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260617",
-      "headline": "The bikers battling extreme heat and armed conflict to smuggle Iranian fuel to Pakistan",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260617",
-      "headline": "국내 첫 소형모듈원자로 본궤도…K-원전 수출 영토 넓히나",
-      "impacts": {
-        "전력·에너지": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260617",
-      "headline": "[일지] 신규 원전·소형모듈원자로 부지선정",
-      "impacts": {
-        "전력·에너지": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260617",
-      "headline": "신규 대형원전·SMR 후보지 선정…전력수요 급증 전망에 '속도'",
-      "impacts": {
-        "전력·에너지": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260617",
-      "headline": "[2보] 신규 대형원전 경북 영덕…소형모듈원자로 1호기는 부산 기장",
-      "impacts": {
-        "전력·에너지": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260617",
-      "headline": "IEA \"종전 합의 유지 시 내년 석유시장 공급 과잉\"",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260617",
-      "headline": "[거시분석] The bikers battling extreme heat and armed co...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -8,
-        "금융": -1,
-        "반도체·AI": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260618",
       "headline": "The bikers battling extreme heat and armed conflict to smuggle Iranian fuel to Pakistan",
@@ -694,9 +608,20 @@
         "반도체·AI": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260702",
+      "headline": "[거시분석] Anthropic says US lifts export ban on its adv...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -5,
+        "금융": -1,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 53,
-  "total_positives": 42,
+  "total_negatives": 51,
+  "total_positives": 36,
   "risk_level": "EXTREME"
 }

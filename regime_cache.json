@@ -1,13 +1,13 @@
 {
   "regime": "SIDEWAYS",
   "label": "횡보장 🟡",
-  "kospi": 8303.41,
-  "ma20": 8427.91,
-  "ma60": 7457.99,
-  "ret_5d": -7.02,
-  "ret_20d": -3.89,
+  "kospi": NaN,
+  "ma20": NaN,
+  "ma60": NaN,
+  "ret_5d": NaN,
+  "ret_20d": NaN,
   "vol_trend": false,
-  "cycle_stage": "uptrend",
+  "cycle_stage": "unknown",
   "cycle_multiplier_adj": 0.0,
   "longterm_new_buy_ok": true,
   "daytrend_new_buy_ok": false,
@@ -30,5 +30,5 @@
     "trailing_stop": 0.1
   },
   "effective_position_multiplier": 0.6,
-  "cached_at": "2026-07-01T12:37:28.705609"
+  "cached_at": "2026-07-01T16:29:05.385499"
 }
