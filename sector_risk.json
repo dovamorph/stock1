@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T08:16:39.593050+09:00",
+  "updated_at": "2026-07-01T13:14:03.441985+09:00",
   "date": "20260701",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -8,
+      "score": -10,
       "positive_count": 0,
-      "negative_count": 4,
+      "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20260701",
+          "type": "negative",
+          "headline": "[거시분석] Anthropic says US lifts export ban on its adv...",
+          "score": -2
+        },
         {
           "date": "20260627",
           "type": "negative",
@@ -91,7 +97,7 @@
         {
           "date": "20260701",
           "type": "positive",
-          "headline": "[거시분석] US envoys in Doha to meet mediators but not I...",
+          "headline": "[거시분석] Anthropic says US lifts export ban on its adv...",
           "score": 1
         },
         {
@@ -195,10 +201,16 @@
       ]
     },
     "우주ETF": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 3,
+      "positive_count": 3,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260701",
+          "type": "positive",
+          "headline": "NASA astronauts spacewalk to fix robotic arm",
+          "score": 1
+        },
         {
           "date": "20260629",
           "type": "positive",
@@ -227,8 +239,8 @@
         {
           "date": "20260701",
           "type": "negative",
-          "headline": "[거시분석] US envoys in Doha to meet mediators but not I...",
-          "score": -2
+          "headline": "[거시분석] Anthropic says US lifts export ban on its adv...",
+          "score": -4
         },
         {
           "date": "20260630",
@@ -672,15 +684,24 @@
     },
     {
       "date": "20260701",
-      "headline": "[거시분석] US envoys in Doha to meet mediators but not I...",
+      "headline": "NASA astronauts spacewalk to fix robotic arm",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260701",
+      "headline": "[거시분석] Anthropic says US lifts export ban on its adv...",
       "impacts": {
         "방산": 1,
-        "전체시장": -2
+        "전체시장": -4,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 51,
-  "total_positives": 41,
+  "total_negatives": 52,
+  "total_positives": 42,
   "risk_level": "EXTREME"
 }
