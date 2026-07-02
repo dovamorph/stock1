@@ -214,6 +214,12 @@ def fetch_market_signal(tok) -> dict:
         ma20  = sum(prices[:20]) / 20
         ma60  = sum(prices[:60]) / 60 if len(prices) >= 60 else sum(prices) / len(prices)
 
+        # 라이브 시세가 있으면 정배열/역배열·점수·ch5/ch20 계산은 항상 라이브 기준으로 통일
+        # (fdr 일별 종가 prices[0]은 장중엔 전일까지만 반영돼 최대 하루 지연될 수 있어
+        #  라이브값과 따로 놀면서 리포트 안에서 KOSPI 현재가가 두 값으로 갈리는 원인이 됐음)
+        if kospi_kis_live > 0:
+            close = kospi_kis_live
+
         rsi_14 = 50.0
         if len(prices) >= 15:
             p_asc = prices[:15][::-1]
@@ -1068,9 +1074,18 @@ def calc_entry_score(d: dict, kospi_ch1: float = 0.0, adr: float = 50.0) -> dict
 
 
 def judge(d):
+    close_val = d.get("close", 0) or 0
     roe=d.get("roe",0) or 0; per=d.get("per",0) or 0
     eps=d.get("eps",0) or 0; eps_trend=d.get("eps_trend","")
     debt=d.get("debt_ratio",None); ticker=d.get("ticker","")
+
+    # 현재가(close)가 0 = 시세 조회 자체가 실패한 것 (실적이 나쁜 게 아니라 데이터가 없는 것).
+    # 상위 40위 안에 든 종목은 거래대금이 있었다는 뜻이라 close==0은 사실상 조회 실패 시그니처임.
+    # → F등급(실적 최악)으로 묻히지 않게 'N/A'로 분리하고, 추천 대상에서는 제외.
+    if close_val <= 0:
+        return {"roe_ok":False,"per_ok":False,"eps_ok":False,"eps_up":False,"debt_ok":False,
+                "is_finance":ticker in FINANCE_TICKERS,"score":0,"grade":"N/A","recommended":False,
+                "is_growth_exception":False,"per_limit":35,"data_missing":True}
 
     # 저평가 성장주 예외: ROE≥15% + EPS상승이면 PER 60배까지 허용
     is_growth_exception = (roe >= 15 and eps_trend == "상승")
@@ -1088,7 +1103,7 @@ def judge(d):
     recommended = score >= 4
     return {"roe_ok":c1,"per_ok":c2,"eps_ok":c3,"eps_up":c4,"debt_ok":c5,
             "is_finance":is_finance,"score":score,"grade":grade,"recommended":recommended,
-            "is_growth_exception":is_growth_exception,"per_limit":per_limit}
+            "is_growth_exception":is_growth_exception,"per_limit":per_limit,"data_missing":False}
 
 def send_discord(results, date, recs, market_signal):
     pass
@@ -1209,16 +1224,19 @@ def main():
 
             results.append(data)
 
-            debt_r = data.get("debt_ratio",None)
-            debt_str = f"  부채:{debt_r:.0f}%{'✅' if f['debt_ok'] else '❌'}" if debt_r is not None else "  부채:-"
-            print(
-                f"{ge_map.get(f['grade'],'⚪')}{f['grade']}등급({f['score']}/5)"
-                f"  ROE:{t.get('roe',0):.1f}%{'✅' if f['roe_ok'] else '❌'}"
-                f"  PER:{t.get('per',0):.1f}{'✅' if f['per_ok'] else '❌'}"
-                f"  EPS:{t.get('eps',0):,.0f}({eps_tr['eps_trend']}){'✅' if f['eps_ok'] and f['eps_up'] else '❌'}"
-                f"{debt_str}  5일:{price.get('ch5',0):+.1f}%  20일:{price.get('ch20',0):+.1f}%"
-                f"  [{vc}]"
-            )
+            if f.get("data_missing"):
+                print(f"⚪ N/A  데이터없음(시세조회 실패)  5일:{price.get('ch5',0):+.1f}%  20일:{price.get('ch20',0):+.1f}%  [{vc}]")
+            else:
+                debt_r = data.get("debt_ratio",None)
+                debt_str = f"  부채:{debt_r:.0f}%{'✅' if f['debt_ok'] else '❌'}" if debt_r is not None else "  부채:-"
+                print(
+                    f"{ge_map.get(f['grade'],'⚪')}{f['grade']}등급({f['score']}/5)"
+                    f"  ROE:{t.get('roe',0):.1f}%{'✅' if f['roe_ok'] else '❌'}"
+                    f"  PER:{t.get('per',0):.1f}{'✅' if f['per_ok'] else '❌'}"
+                    f"  EPS:{t.get('eps',0):,.0f}({eps_tr['eps_trend']}){'✅' if f['eps_ok'] and f['eps_up'] else '❌'}"
+                    f"{debt_str}  5일:{price.get('ch5',0):+.1f}%  20일:{price.get('ch20',0):+.1f}%"
+                    f"  [{vc}]"
+                )
         except Exception: print("오류"); traceback.print_exc()
         time.sleep(0.3)
 
