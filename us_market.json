@@ -1,17 +1,17 @@
 {
-  "updated": "2026-07-03 00:09",
+  "updated": "2026-07-03 02:09",
   "sp500": {
-    "close": 7476.39,
-    "change": -6.84,
-    "change_pct": -0.09
+    "close": 7443.83,
+    "change": -39.4,
+    "change_pct": -0.53
   },
   "nasdaq": {
-    "close": 25855.56,
-    "change": -184.47,
-    "change_pct": -0.71
+    "close": 25706.89,
+    "change": -333.13,
+    "change_pct": -1.28
   },
   "vix": {
-    "close": 16.36,
+    "close": 16.68,
     "level": "안정"
   }
 }
