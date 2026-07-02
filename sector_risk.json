@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-02T23:10:01.518282+09:00",
-  "date": "20260702",
+  "updated_at": "2026-07-03T02:52:20.706528+09:00",
+  "date": "20260703",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -52,6 +52,12 @@
       "negative_count": 10,
       "recent_events": [
         {
+          "date": "20260703",
+          "type": "negative",
+          "headline": "[거시분석] Gaza patients face agonising delays for medic...",
+          "score": -3
+        },
+        {
           "date": "20260702",
           "type": "negative",
           "headline": "[거시분석] Gaza patients face agonising delays for medic...",
@@ -74,20 +80,26 @@
           "type": "negative",
           "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
           "score": -1
-        },
-        {
-          "date": "20260627",
-          "type": "positive",
-          "headline": "유시민 '재건축론'에 與일각 \"李대통령 폄훼…모욕적\" 발끈",
-          "score": 1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 21,
-      "negative_count": 11,
+      "positive_count": 20,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20260703",
+          "type": "positive",
+          "headline": "러시아 \"우크라 공격에 보복\"…키이우 대공습에 최소 21명 사망(종합)",
+          "score": 1
+        },
+        {
+          "date": "20260703",
+          "type": "positive",
+          "headline": "[거시분석] Gaza patients face agonising delays for medic...",
+          "score": 3
+        },
         {
           "date": "20260702",
           "type": "positive",
@@ -105,18 +117,6 @@
           "type": "negative",
           "headline": "이란 외무차관 \"종전 실무 협상 재개 협의…조건 충족되면 시작\"",
           "score": -1
-        },
-        {
-          "date": "20260701",
-          "type": "positive",
-          "headline": "[거시분석] Anthropic says US lifts export ban on its adv...",
-          "score": 1
-        },
-        {
-          "date": "20260630",
-          "type": "positive",
-          "headline": "[거시분석] US envoys in Doha to meet mediators but not I...",
-          "score": 1
         }
       ]
     },
@@ -133,9 +133,9 @@
       "recent_events": []
     },
     "금융": {
-      "score": -10,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
         {
           "date": "20260702",
@@ -200,6 +200,18 @@
       "negative_count": 18,
       "recent_events": [
         {
+          "date": "20260703",
+          "type": "positive",
+          "headline": "US blocks long-term renewal of North American trade deal",
+          "score": 1
+        },
+        {
+          "date": "20260703",
+          "type": "negative",
+          "headline": "[거시분석] Gaza patients face agonising delays for medic...",
+          "score": -6
+        },
+        {
           "date": "20260702",
           "type": "positive",
           "headline": "US blocks long-term renewal of North American trade deal",
@@ -216,59 +228,11 @@
           "type": "positive",
           "headline": "이란 외무차관 \"종전 실무 협상 재개 협의…조건 충족되면 시작\"",
           "score": 1
-        },
-        {
-          "date": "20260701",
-          "type": "negative",
-          "headline": "[거시분석] Anthropic says US lifts export ban on its adv...",
-          "score": -4
-        },
-        {
-          "date": "20260630",
-          "type": "negative",
-          "headline": "트럼프, 이란전 여파로 비룟값 오르자 모로코산 비료 관세유예",
-          "score": -1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260618",
-      "headline": "The bikers battling extreme heat and armed conflict to smuggle Iranian fuel to Pakistan",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260618",
-      "headline": "러·우크라, 교전 격화 속 전사자 시신 교환",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260618",
-      "headline": "[월드&포토] 베르사유궁서 종전 MOU 서명한 트럼프…마크롱 \"브라보\"",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260618",
-      "headline": "[거시분석] What's in the US-Iran agreement?",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -7,
-        "금융": -3
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260619",
       "headline": "베르사유궁 종전 서명 후…파리서 이란 반정부 집회 돌연 금지",
@@ -629,9 +593,35 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260703",
+      "headline": "US blocks long-term renewal of North American trade deal",
+      "impacts": {
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260703",
+      "headline": "러시아 \"우크라 공격에 보복\"…키이우 대공습에 최소 21명 사망(종합)",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260703",
+      "headline": "[거시분석] Gaza patients face agonising delays for medic...",
+      "impacts": {
+        "방산": 3,
+        "건설": -3,
+        "전체시장": -6
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 51,
-  "total_positives": 38,
+  "total_negatives": 49,
+  "total_positives": 37,
   "risk_level": "EXTREME"
 }
