@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T12:54:25.269706+09:00",
+  "updated_at": "2026-07-02T16:35:46.414169+09:00",
   "date": "20260702",
   "window_days": 14,
   "sectors": [
@@ -133,10 +133,17 @@
       "recent_events": []
     },
     "로봇": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20260702",
+          "type": "positive",
+          "headline": "티엑스알로보틱스, 애프터마켓서 10%대 급등",
+          "score": 1
+        }
+      ]
     },
     "금융": {
       "score": -10,
@@ -619,6 +626,14 @@
     },
     {
       "date": "20260702",
+      "headline": "티엑스알로보틱스, 애프터마켓서 10%대 급등",
+      "impacts": {
+        "로봇": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260702",
       "headline": "[거시분석] US blocks long-term renewal of North American...",
       "impacts": {
         "방산": 1,
@@ -630,6 +645,6 @@
     }
   ],
   "total_negatives": 51,
-  "total_positives": 37,
+  "total_positives": 38,
   "risk_level": "EXTREME"
 }
