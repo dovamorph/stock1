@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T04:35:58.688577+09:00",
+  "updated_at": "2026-07-03T06:12:13.197431+09:00",
   "date": "20260703",
   "window_days": 14,
   "sectors": [
@@ -47,16 +47,10 @@
       ]
     },
     "건설": {
-      "score": -10,
+      "score": -9,
       "positive_count": 4,
-      "negative_count": 10,
+      "negative_count": 9,
       "recent_events": [
-        {
-          "date": "20260703",
-          "type": "negative",
-          "headline": "[거시분석] WHO, 크루즈선발 한타바이러스 집단감염 종료 선언",
-          "score": -1
-        },
         {
           "date": "20260702",
           "type": "negative",
@@ -80,6 +74,12 @@
           "type": "negative",
           "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
           "score": -1
+        },
+        {
+          "date": "20260627",
+          "type": "positive",
+          "headline": "유시민 '재건축론'에 與일각 \"李대통령 폄훼…모욕적\" 발끈",
+          "score": 1
         }
       ]
     },
@@ -91,7 +91,7 @@
         {
           "date": "20260703",
           "type": "positive",
-          "headline": "[거시분석] WHO, 크루즈선발 한타바이러스 집단감염 종료 선언",
+          "headline": "[거시분석] Gaza patients face agonising delays for medic...",
           "score": 1
         },
         {
@@ -170,10 +170,16 @@
       ]
     },
     "우주ETF": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 3,
+      "positive_count": 3,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260703",
+          "type": "positive",
+          "headline": "\"스타링크 딱 기다려\"…아마존, 위성인터넷 '레오' 연내 서비스",
+          "score": 1
+        },
         {
           "date": "20260629",
           "type": "positive",
@@ -208,8 +214,8 @@
         {
           "date": "20260703",
           "type": "negative",
-          "headline": "[거시분석] WHO, 크루즈선발 한타바이러스 집단감염 종료 선언",
-          "score": -4
+          "headline": "[거시분석] Gaza patients face agonising delays for medic...",
+          "score": -2
         },
         {
           "date": "20260702",
@@ -604,16 +610,23 @@
     },
     {
       "date": "20260703",
-      "headline": "[거시분석] WHO, 크루즈선발 한타바이러스 집단감염 종료 선언",
+      "headline": "\"스타링크 딱 기다려\"…아마존, 위성인터넷 '레오' 연내 서비스",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260703",
+      "headline": "[거시분석] Gaza patients face agonising delays for medic...",
       "impacts": {
         "방산": 1,
-        "전체시장": -4,
-        "건설": -1
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 49,
-  "total_positives": 36,
+  "total_negatives": 48,
+  "total_positives": 37,
   "risk_level": "EXTREME"
 }
