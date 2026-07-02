@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T06:12:13.197431+09:00",
+  "updated_at": "2026-07-03T08:11:20.102336+09:00",
   "date": "20260703",
   "window_days": 14,
   "sectors": [
@@ -170,16 +170,10 @@
       ]
     },
     "우주ETF": {
-      "score": 3,
-      "positive_count": 3,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260703",
-          "type": "positive",
-          "headline": "\"스타링크 딱 기다려\"…아마존, 위성인터넷 '레오' 연내 서비스",
-          "score": 1
-        },
         {
           "date": "20260629",
           "type": "positive",
@@ -610,14 +604,6 @@
     },
     {
       "date": "20260703",
-      "headline": "\"스타링크 딱 기다려\"…아마존, 위성인터넷 '레오' 연내 서비스",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260703",
       "headline": "[거시분석] Gaza patients face agonising delays for medic...",
       "impacts": {
         "방산": 1,
@@ -627,6 +613,6 @@
     }
   ],
   "total_negatives": 48,
-  "total_positives": 37,
+  "total_positives": 36,
   "risk_level": "EXTREME"
 }
