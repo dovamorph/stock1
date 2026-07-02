@@ -1,6 +1,6 @@
 {
   "date": "20260702",
-  "generated_at": "2026-07-02T16:51:23+09:00",
+  "generated_at": "2026-07-02T17:00:58+09:00",
   "reference_date": "20260701",
   "reference_ranks": {
     "000660": 1,
@@ -46,13 +46,13 @@
   },
   "total": 40,
   "market_signal": {
-    "reason": "MA5<MA20 데드크로스 · MA20>MA60 중기 상승 · 5일 -6.2%↓ · 당일 -7.9%",
+    "reason": "MA5<MA20 데드크로스 · MA20>MA60 중기 상승 · 5일 -9.1%↓ · 당일 -7.9%",
     "kospi_close": 7648.09,
     "ma5": 8295.44,
     "ma20": 8390.51,
     "ma60": 7499.89,
-    "kospi_ch5": -6.18,
-    "kospi_ch20": -3.3,
+    "kospi_ch5": -9.07,
+    "kospi_ch20": -6.28,
     "aligned": "혼조",
     "kosdaq_close": 866.72,
     "kosdaq_ch5": 3.1,
@@ -61,12 +61,12 @@
     "rsi_14": 47.0,
     "basis": null,
     "basis_signal": "조회불가",
-    "usdkrw": 1548.85,
-    "usdkrw_ch1": 0.02,
-    "usdkrw_ch5": 0.15,
+    "usdkrw": 1548.72,
+    "usdkrw_ch1": 0.01,
+    "usdkrw_ch5": 0.14,
     "kosdaq_ch1": -1.26,
     "kospi_ch1": -7.89,
-    "kospi_ch2": -6.9,
+    "kospi_ch2": -9.77,
     "kospi_high60": 9114.55,
     "kr_score": -6,
     "signal": "📉 매도 우위",
@@ -96,18 +96,18 @@
       "ndx_ch1": -0.66,
       "ndx_ma60": 25470.48
     },
-    "adr": 28.6,
+    "adr": 28.3,
     "adr_advances": 139,
-    "adr_declines": 347,
+    "adr_declines": 352,
     "adr_signal": "🔴",
-    "adr_desc": "투매권 (29%) — 바닥 근접 가능",
+    "adr_desc": "투매권 (28%) — 바닥 근접 가능",
     "breadth": {
       "regime": "전면약세",
       "label": "전면약세 🔴",
       "desc": "지수↓·폭 좁음 — 신규매수 보수적",
       "kospi_ch1": -7.89,
       "kosdaq_ch1": -1.26,
-      "adr": 28.6
+      "adr": 28.3
     },
     "pool_flow": {
       "total": 40,
@@ -207,7 +207,8 @@
         "grade": "C",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "C",
       "score": 3,
@@ -258,7 +259,8 @@
         "grade": "C",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "C",
       "score": 3,
@@ -309,7 +311,8 @@
         "grade": "B",
         "recommended": true,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "B",
       "score": 4,
@@ -360,7 +363,8 @@
         "grade": "D",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "D",
       "score": 2,
@@ -377,7 +381,7 @@
       "ticker": "036930",
       "name": "주성엔지니어링",
       "market": "KOSDAQ",
-      "tvol": 8161,
+      "tvol": 8164,
       "per": 301.32,
       "pbr": 17.61,
       "eps": 755.0,
@@ -411,7 +415,8 @@
         "grade": "D",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "D",
       "score": 2,
@@ -462,7 +467,8 @@
         "grade": "C",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "C",
       "score": 3,
@@ -479,7 +485,7 @@
       "ticker": "006340",
       "name": "대원전선",
       "market": "KOSPI",
-      "tvol": 5149,
+      "tvol": 5150,
       "per": 106.11,
       "pbr": 7.85,
       "eps": 113.0,
@@ -513,7 +519,8 @@
         "grade": "D",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "D",
       "score": 2,
@@ -564,7 +571,8 @@
         "grade": "D",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "D",
       "score": 2,
@@ -581,7 +589,7 @@
       "ticker": "240810",
       "name": "원익IPS",
       "market": "KOSDAQ",
-      "tvol": 3989,
+      "tvol": 3990,
       "per": 76.87,
       "pbr": 6.6,
       "eps": 1712.0,
@@ -615,7 +623,8 @@
         "grade": "D",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "D",
       "score": 2,
@@ -666,7 +675,8 @@
         "grade": "D",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "D",
       "score": 2,
@@ -717,7 +727,8 @@
         "grade": "C",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "C",
       "score": 3,
@@ -768,7 +779,8 @@
         "grade": "C",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "C",
       "score": 3,
@@ -819,7 +831,8 @@
         "grade": "D",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "D",
       "score": 2,
@@ -870,7 +883,8 @@
         "grade": "C",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "C",
       "score": 3,
@@ -921,7 +935,8 @@
         "grade": "C",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "C",
       "score": 3,
@@ -938,7 +953,7 @@
       "ticker": "475150",
       "name": "SK이터닉스",
       "market": "KOSPI",
-      "tvol": 3063,
+      "tvol": 3065,
       "per": 57.91,
       "pbr": 6.51,
       "eps": 910.0,
@@ -972,7 +987,8 @@
         "grade": "F",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "F",
       "score": 1,
@@ -1023,7 +1039,8 @@
         "grade": "C",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "C",
       "score": 3,
@@ -1040,7 +1057,7 @@
       "ticker": "403870",
       "name": "HPSP",
       "market": "KOSDAQ",
-      "tvol": 2842,
+      "tvol": 2844,
       "per": 0.0,
       "pbr": 0.0,
       "eps": 0.0,
@@ -1074,7 +1091,8 @@
         "grade": "F",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "F",
       "score": 0,
@@ -1125,7 +1143,8 @@
         "grade": "C",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "C",
       "score": 3,
@@ -1176,7 +1195,8 @@
         "grade": "C",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "C",
       "score": 3,
@@ -1227,7 +1247,8 @@
         "grade": "C",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "C",
       "score": 3,
@@ -1278,7 +1299,8 @@
         "grade": "D",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "D",
       "score": 2,
@@ -1329,7 +1351,8 @@
         "grade": "D",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "D",
       "score": 2,
@@ -1346,7 +1369,7 @@
       "ticker": "064400",
       "name": "LG씨엔에스",
       "market": "KOSPI",
-      "tvol": 2203,
+      "tvol": 2204,
       "per": 17.22,
       "pbr": 2.59,
       "eps": 4548.0,
@@ -1380,7 +1403,8 @@
         "grade": "B",
         "recommended": true,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "B",
       "score": 4,
@@ -1431,7 +1455,8 @@
         "grade": "D",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "D",
       "score": 2,
@@ -1482,7 +1507,8 @@
         "grade": "F",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "F",
       "score": 1,
@@ -1533,7 +1559,8 @@
         "grade": "C",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "C",
       "score": 3,
@@ -1547,6 +1574,58 @@
     },
     {
       "rank": 28,
+      "ticker": "080220",
+      "name": "제주반도체",
+      "market": "KOSDAQ",
+      "tvol": 1971,
+      "per": 78.2,
+      "pbr": 13.3,
+      "eps": 1147.0,
+      "bps": 6742.0,
+      "roe": 17.0,
+      "close": 89700.0,
+      "prdy_ctrt": -13.17,
+      "mktcap": 30895.0,
+      "rank_change": -2,
+      "eps_trend": "상승",
+      "eps_growth": 97.6,
+      "debt_ratio": 75.0,
+      "ch20": -4.1,
+      "ch5": -9.6,
+      "vol_trend": -42.7,
+      "rsi": 44.1,
+      "macd_line": 0.0,
+      "signal_line": 0.0,
+      "macd_bull": null,
+      "frgn_net": 51018,
+      "orgn_net": -93183,
+      "frgn_basis": "당일",
+      "filters": {
+        "roe_ok": true,
+        "per_ok": false,
+        "eps_ok": true,
+        "eps_up": true,
+        "debt_ok": true,
+        "is_finance": false,
+        "score": 4,
+        "grade": "B",
+        "recommended": true,
+        "is_growth_exception": true,
+        "per_limit": 60,
+        "data_missing": false
+      },
+      "grade": "B",
+      "score": 4,
+      "recommended": true,
+      "vol_char": "매도주도 🔴",
+      "ch1": -13.17,
+      "cap_class": "대형",
+      "entry_score": 0,
+      "entry_stars": "★",
+      "entry_label": "늦음"
+    },
+    {
+      "rank": 29,
       "ticker": "058470",
       "name": "리노공업",
       "market": "KOSDAQ",
@@ -1584,7 +1663,8 @@
         "grade": "F",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "F",
       "score": 0,
@@ -1597,62 +1677,11 @@
       "entry_label": "등급 부적격"
     },
     {
-      "rank": 29,
-      "ticker": "080220",
-      "name": "제주반도체",
-      "market": "KOSDAQ",
-      "tvol": 1970,
-      "per": 78.2,
-      "pbr": 13.3,
-      "eps": 1147.0,
-      "bps": 6742.0,
-      "roe": 17.0,
-      "close": 89700.0,
-      "prdy_ctrt": -13.17,
-      "mktcap": 30895.0,
-      "rank_change": -3,
-      "eps_trend": "상승",
-      "eps_growth": 97.6,
-      "debt_ratio": 75.0,
-      "ch20": -4.1,
-      "ch5": -9.6,
-      "vol_trend": -42.7,
-      "rsi": 44.1,
-      "macd_line": 0.0,
-      "signal_line": 0.0,
-      "macd_bull": null,
-      "frgn_net": 51018,
-      "orgn_net": -93183,
-      "frgn_basis": "당일",
-      "filters": {
-        "roe_ok": true,
-        "per_ok": false,
-        "eps_ok": true,
-        "eps_up": true,
-        "debt_ok": true,
-        "is_finance": false,
-        "score": 4,
-        "grade": "B",
-        "recommended": true,
-        "is_growth_exception": true,
-        "per_limit": 60
-      },
-      "grade": "B",
-      "score": 4,
-      "recommended": true,
-      "vol_char": "매도주도 🔴",
-      "ch1": -13.17,
-      "cap_class": "대형",
-      "entry_score": 0,
-      "entry_stars": "★",
-      "entry_label": "늦음"
-    },
-    {
       "rank": 30,
       "ticker": "043260",
       "name": "성호전자",
       "market": "KOSDAQ",
-      "tvol": 1950,
+      "tvol": 1951,
       "per": 16.33,
       "pbr": 6.19,
       "eps": 1341.0,
@@ -1686,7 +1715,8 @@
         "grade": "A",
         "recommended": true,
         "is_growth_exception": true,
-        "per_limit": 60
+        "per_limit": 60,
+        "data_missing": false
       },
       "grade": "A",
       "score": 5,
@@ -1737,7 +1767,8 @@
         "grade": "C",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "C",
       "score": 3,
@@ -1788,7 +1819,8 @@
         "grade": "D",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "D",
       "score": 2,
@@ -1839,7 +1871,8 @@
         "grade": "C",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "C",
       "score": 3,
@@ -1890,7 +1923,8 @@
         "grade": "C",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "C",
       "score": 3,
@@ -1941,7 +1975,8 @@
         "grade": "C",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "C",
       "score": 3,
@@ -1992,7 +2027,8 @@
         "grade": "C",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "C",
       "score": 3,
@@ -2009,7 +2045,7 @@
       "ticker": "001820",
       "name": "삼화콘덴서",
       "market": "KOSPI",
-      "tvol": 1619,
+      "tvol": 1620,
       "per": 101.33,
       "pbr": 4.58,
       "eps": 1206.0,
@@ -2043,7 +2079,8 @@
         "grade": "D",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "D",
       "score": 2,
@@ -2060,7 +2097,7 @@
       "ticker": "028050",
       "name": "삼성E&A",
       "market": "KOSPI",
-      "tvol": 1548,
+      "tvol": 1549,
       "per": 15.56,
       "pbr": 2.03,
       "eps": 3150.0,
@@ -2094,7 +2131,8 @@
         "grade": "C",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "C",
       "score": 3,
@@ -2145,7 +2183,8 @@
         "grade": "C",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "C",
       "score": 3,
@@ -2196,7 +2235,8 @@
         "grade": "C",
         "recommended": false,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "C",
       "score": 3,
@@ -2249,7 +2289,8 @@
         "grade": "B",
         "recommended": true,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "B",
       "score": 4,
@@ -2266,7 +2307,7 @@
       "ticker": "064400",
       "name": "LG씨엔에스",
       "market": "KOSPI",
-      "tvol": 2203,
+      "tvol": 2204,
       "per": 17.22,
       "pbr": 2.59,
       "eps": 4548.0,
@@ -2300,7 +2341,8 @@
         "grade": "B",
         "recommended": true,
         "is_growth_exception": false,
-        "per_limit": 35
+        "per_limit": 35,
+        "data_missing": false
       },
       "grade": "B",
       "score": 4,
@@ -2313,11 +2355,11 @@
       "entry_label": "좋은 타이밍"
     },
     {
-      "rank": 29,
+      "rank": 28,
       "ticker": "080220",
       "name": "제주반도체",
       "market": "KOSDAQ",
-      "tvol": 1970,
+      "tvol": 1971,
       "per": 78.2,
       "pbr": 13.3,
       "eps": 1147.0,
@@ -2326,7 +2368,7 @@
       "close": 89700.0,
       "prdy_ctrt": -13.17,
       "mktcap": 30895.0,
-      "rank_change": -3,
+      "rank_change": -2,
       "eps_trend": "상승",
       "eps_growth": 97.6,
       "debt_ratio": 75.0,
@@ -2351,7 +2393,8 @@
         "grade": "B",
         "recommended": true,
         "is_growth_exception": true,
-        "per_limit": 60
+        "per_limit": 60,
+        "data_missing": false
       },
       "grade": "B",
       "score": 4,
@@ -2368,7 +2411,7 @@
       "ticker": "043260",
       "name": "성호전자",
       "market": "KOSDAQ",
-      "tvol": 1950,
+      "tvol": 1951,
       "per": 16.33,
       "pbr": 6.19,
       "eps": 1341.0,
@@ -2402,7 +2445,8 @@
         "grade": "A",
         "recommended": true,
         "is_growth_exception": true,
-        "per_limit": 60
+        "per_limit": 60,
+        "data_missing": false
       },
       "grade": "A",
       "score": 5,
