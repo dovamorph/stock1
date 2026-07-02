@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T16:35:46.414169+09:00",
+  "updated_at": "2026-07-02T19:44:19.074607+09:00",
   "date": "20260702",
   "window_days": 14,
   "sectors": [
@@ -53,10 +53,16 @@
       ]
     },
     "건설": {
-      "score": -9,
+      "score": -10,
       "positive_count": 4,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20260702",
+          "type": "negative",
+          "headline": "[거시분석] US blocks long-term renewal of North American...",
+          "score": -1
+        },
         {
           "date": "20260629",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "positive",
           "headline": "유시민 '재건축론'에 與일각 \"李대통령 폄훼…모욕적\" 발끈",
           "score": 1
-        },
-        {
-          "date": "20260627",
-          "type": "negative",
-          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
-          "score": -1
         }
       ]
     },
@@ -98,7 +98,7 @@
           "date": "20260702",
           "type": "positive",
           "headline": "[거시분석] US blocks long-term renewal of North American...",
-          "score": 1
+          "score": 2
         },
         {
           "date": "20260701",
@@ -133,29 +133,16 @@
       "recent_events": []
     },
     "로봇": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 0,
+      "positive_count": 0,
       "negative_count": 0,
-      "recent_events": [
-        {
-          "date": "20260702",
-          "type": "positive",
-          "headline": "티엑스알로보틱스, 애프터마켓서 10%대 급등",
-          "score": 1
-        }
-      ]
+      "recent_events": []
     },
     "금융": {
-      "score": -10,
+      "score": -9,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20260702",
-          "type": "negative",
-          "headline": "[거시분석] US blocks long-term renewal of North American...",
-          "score": -1
-        },
         {
           "date": "20260630",
           "type": "negative",
@@ -178,6 +165,12 @@
           "date": "20260625",
           "type": "negative",
           "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
+          "score": -1
+        },
+        {
+          "date": "20260623",
+          "type": "negative",
+          "headline": "[거시분석] Iran says no new commitments on nuclear sites...",
           "score": -1
         }
       ]
@@ -626,25 +619,17 @@
     },
     {
       "date": "20260702",
-      "headline": "티엑스알로보틱스, 애프터마켓서 10%대 급등",
-      "impacts": {
-        "로봇": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260702",
       "headline": "[거시분석] US blocks long-term renewal of North American...",
       "impacts": {
-        "방산": 1,
+        "방산": 2,
+        "건설": -1,
         "전체시장": -5,
-        "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 51,
-  "total_positives": 38,
+  "total_positives": 37,
   "risk_level": "EXTREME"
 }
