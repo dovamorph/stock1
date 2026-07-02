@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T19:44:19.074607+09:00",
+  "updated_at": "2026-07-02T23:10:01.518282+09:00",
   "date": "20260702",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -10,
+      "score": -8,
       "positive_count": 0,
-      "negative_count": 5,
+      "negative_count": 4,
       "recent_events": [
-        {
-          "date": "20260702",
-          "type": "negative",
-          "headline": "[거시분석] US blocks long-term renewal of North American...",
-          "score": -2
-        },
         {
           "date": "20260701",
           "type": "negative",
@@ -60,8 +54,8 @@
         {
           "date": "20260702",
           "type": "negative",
-          "headline": "[거시분석] US blocks long-term renewal of North American...",
-          "score": -1
+          "headline": "[거시분석] Gaza patients face agonising delays for medic...",
+          "score": -2
         },
         {
           "date": "20260629",
@@ -91,14 +85,20 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 20,
+      "positive_count": 21,
       "negative_count": 11,
       "recent_events": [
         {
           "date": "20260702",
           "type": "positive",
-          "headline": "[거시분석] US blocks long-term renewal of North American...",
-          "score": 2
+          "headline": "러시아 \"우크라 공격에 보복\"…키이우 대공습에 최소 21명 사망(종합)",
+          "score": 1
+        },
+        {
+          "date": "20260702",
+          "type": "positive",
+          "headline": "[거시분석] Gaza patients face agonising delays for medic...",
+          "score": 3
         },
         {
           "date": "20260701",
@@ -117,12 +117,6 @@
           "type": "positive",
           "headline": "[거시분석] US envoys in Doha to meet mediators but not I...",
           "score": 1
-        },
-        {
-          "date": "20260629",
-          "type": "positive",
-          "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
-          "score": 2
         }
       ]
     },
@@ -139,10 +133,16 @@
       "recent_events": []
     },
     "금융": {
-      "score": -9,
+      "score": -10,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260702",
+          "type": "negative",
+          "headline": "[거시분석] Gaza patients face agonising delays for medic...",
+          "score": -1
+        },
         {
           "date": "20260630",
           "type": "negative",
@@ -165,12 +165,6 @@
           "date": "20260625",
           "type": "negative",
           "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
-          "score": -1
-        },
-        {
-          "date": "20260623",
-          "type": "negative",
-          "headline": "[거시분석] Iran says no new commitments on nuclear sites...",
           "score": -1
         }
       ]
@@ -214,8 +208,8 @@
         {
           "date": "20260702",
           "type": "negative",
-          "headline": "[거시분석] US blocks long-term renewal of North American...",
-          "score": -5
+          "headline": "[거시분석] Gaza patients face agonising delays for medic...",
+          "score": -6
         },
         {
           "date": "20260701",
@@ -619,17 +613,25 @@
     },
     {
       "date": "20260702",
-      "headline": "[거시분석] US blocks long-term renewal of North American...",
+      "headline": "러시아 \"우크라 공격에 보복\"…키이우 대공습에 최소 21명 사망(종합)",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -5,
-        "반도체·AI": -2
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260702",
+      "headline": "[거시분석] Gaza patients face agonising delays for medic...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -6,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 51,
-  "total_positives": 37,
+  "total_positives": 38,
   "risk_level": "EXTREME"
 }
