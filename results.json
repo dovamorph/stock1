@@ -1,6 +1,6 @@
 {
   "date": "20260703",
-  "generated_at": "2026-07-03T20:00:59+09:00",
+  "generated_at": "2026-07-03T20:31:01+09:00",
   "reference_date": "20260702",
   "reference_ranks": {
     "000660": 1,
@@ -96,18 +96,18 @@
       "ndx_ch1": -0.8,
       "ndx_ma60": 25534.06
     },
-    "adr": 62.8,
-    "adr_advances": 296,
-    "adr_declines": 175,
+    "adr": 62.3,
+    "adr_advances": 293,
+    "adr_declines": 177,
     "adr_signal": "🟠",
-    "adr_desc": "약세 (63%) — 속에서 썩는 중",
+    "adr_desc": "약세 (62%) — 속에서 썩는 중",
     "breadth": {
       "regime": "광범위강세",
       "label": "광범위강세 🟢",
       "desc": "지수↑·폭 넓음 — 전 종목 건강",
       "kospi_ch1": 5.76,
       "kosdaq_ch1": 0.88,
-      "adr": 62.8
+      "adr": 62.3
     },
     "pool_flow": {
       "total": 40,
