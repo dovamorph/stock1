@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T12:36:43.325681+09:00",
+  "updated_at": "2026-07-03T16:24:33.814712+09:00",
   "date": "20260703",
   "window_days": 14,
   "sectors": [
@@ -54,7 +54,7 @@
         {
           "date": "20260703",
           "type": "negative",
-          "headline": "[거시분석] Gaza patients face agonising delays for medic...",
+          "headline": "[거시분석] Iran begins public mourning for Ayatollah kil...",
           "score": -2
         },
         {
@@ -85,19 +85,13 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 20,
+      "positive_count": 19,
       "negative_count": 10,
       "recent_events": [
         {
           "date": "20260703",
           "type": "positive",
-          "headline": "[영상] '분노한 푸틴' 키이우 대공습…우크라, 러 4대 정유공장 또 타격",
-          "score": 1
-        },
-        {
-          "date": "20260703",
-          "type": "positive",
-          "headline": "[거시분석] Gaza patients face agonising delays for medic...",
+          "headline": "[거시분석] Iran begins public mourning for Ayatollah kil...",
           "score": 3
         },
         {
@@ -117,14 +111,27 @@
           "type": "negative",
           "headline": "이란 외무차관 \"종전 실무 협상 재개 협의…조건 충족되면 시작\"",
           "score": -1
+        },
+        {
+          "date": "20260701",
+          "type": "positive",
+          "headline": "[거시분석] Anthropic says US lifts export ban on its adv...",
+          "score": 1
         }
       ]
     },
     "전력·에너지": {
-      "score": 0,
+      "score": -1,
       "positive_count": 0,
-      "negative_count": 0,
-      "recent_events": []
+      "negative_count": 1,
+      "recent_events": [
+        {
+          "date": "20260703",
+          "type": "negative",
+          "headline": "'3대 메가' 업고 '脫탈원전'서 더 가는 정부…\"원전 추가 검토\"",
+          "score": -1
+        }
+      ]
     },
     "로봇": {
       "score": 0,
@@ -140,7 +147,7 @@
         {
           "date": "20260703",
           "type": "negative",
-          "headline": "[거시분석] Gaza patients face agonising delays for medic...",
+          "headline": "[거시분석] Iran begins public mourning for Ayatollah kil...",
           "score": -1
         },
         {
@@ -170,10 +177,16 @@
       ]
     },
     "우주ETF": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 3,
+      "positive_count": 3,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260703",
+          "type": "positive",
+          "headline": "한국판 스타링크 띄운다…2035년 저궤도 위성망 완성",
+          "score": 1
+        },
         {
           "date": "20260629",
           "type": "positive",
@@ -208,8 +221,8 @@
         {
           "date": "20260703",
           "type": "negative",
-          "headline": "[거시분석] Gaza patients face agonising delays for medic...",
-          "score": -5
+          "headline": "[거시분석] Iran begins public mourning for Ayatollah kil...",
+          "score": -6
         },
         {
           "date": "20260702",
@@ -604,25 +617,33 @@
     },
     {
       "date": "20260703",
-      "headline": "[영상] '분노한 푸틴' 키이우 대공습…우크라, 러 4대 정유공장 또 타격",
+      "headline": "한국판 스타링크 띄운다…2035년 저궤도 위성망 완성",
       "impacts": {
-        "방산": 1
+        "우주ETF": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260703",
-      "headline": "[거시분석] Gaza patients face agonising delays for medic...",
+      "headline": "'3대 메가' 업고 '脫탈원전'서 더 가는 정부…\"원전 추가 검토\"",
+      "impacts": {
+        "전력·에너지": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260703",
+      "headline": "[거시분석] Iran begins public mourning for Ayatollah kil...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -5,
+        "전체시장": -6,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 50,
+  "total_negatives": 51,
   "total_positives": 37,
   "risk_level": "EXTREME"
 }
