@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T06:11:04.064185+09:00",
+  "updated_at": "2026-07-04T08:07:40.271153+09:00",
   "date": "20260704",
   "window_days": 14,
   "sectors": [
@@ -164,14 +164,20 @@
       ]
     },
     "우주ETF": {
-      "score": 4,
-      "positive_count": 4,
+      "score": 5,
+      "positive_count": 5,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20260704",
           "type": "positive",
           "headline": "Nasa launches mission to save falling space telescope",
+          "score": 1
+        },
+        {
+          "date": "20260704",
+          "type": "positive",
+          "headline": "NASA launches robotic mission to save telescope falling back to Earth",
           "score": 1
         },
         {
@@ -209,7 +215,7 @@
           "date": "20260704",
           "type": "negative",
           "headline": "[거시분석] Iran begins public mourning for Ayatollah kil...",
-          "score": -3
+          "score": -2
         },
         {
           "date": "20260703",
@@ -599,16 +605,24 @@
     },
     {
       "date": "20260704",
+      "headline": "NASA launches robotic mission to save telescope falling back to Earth",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260704",
       "headline": "[거시분석] Iran begins public mourning for Ayatollah kil...",
       "impacts": {
         "방산": 2,
         "건설": -1,
-        "전체시장": -3
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 46,
-  "total_positives": 35,
+  "total_positives": 36,
   "risk_level": "EXTREME"
 }
