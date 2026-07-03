@@ -6,7 +6,7 @@
   "blacklist": {},
   "daily_loss": 0,
   "total_loss": -408700,
-  "last_reset_date": "2026-07-02",
+  "last_reset_date": "2026-07-03",
   "gap_down_today": true,
   "circuit_breaker_today": false,
   "hard_stop_active": false,
@@ -240,6 +240,11 @@
       "time": "2026-07-02 11:32:36",
       "level": "WARN",
       "event": "갭다운 -7.89% [KOSPI]"
+    },
+    {
+      "time": "2026-07-03 00:33:07",
+      "level": "WARN",
+      "event": "갭다운 -2.37% [KOSPI]"
     }
   ]
 }
