@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T02:36:18.387983+09:00",
+  "updated_at": "2026-07-04T04:28:01.530774+09:00",
   "date": "20260704",
   "window_days": 14,
   "sectors": [
@@ -209,7 +209,7 @@
           "date": "20260704",
           "type": "negative",
           "headline": "[거시분석] Iran begins public mourning for Ayatollah kil...",
-          "score": -2
+          "score": -3
         },
         {
           "date": "20260703",
@@ -602,7 +602,7 @@
       "headline": "[거시분석] Iran begins public mourning for Ayatollah kil...",
       "impacts": {
         "방산": 1,
-        "전체시장": -2
+        "전체시장": -3
       },
       "source": "geo_categories"
     }
