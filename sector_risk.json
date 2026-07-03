@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T19:40:06.709722+09:00",
+  "updated_at": "2026-07-03T23:14:47.106421+09:00",
   "date": "20260703",
   "window_days": 14,
   "sectors": [
@@ -133,16 +133,10 @@
       "recent_events": []
     },
     "금융": {
-      "score": -8,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20260703",
-          "type": "negative",
-          "headline": "[거시분석] Iran begins public mourning for Ayatollah kil...",
-          "score": -1
-        },
         {
           "date": "20260702",
           "type": "negative",
@@ -166,14 +160,26 @@
           "type": "negative",
           "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
           "score": -1
+        },
+        {
+          "date": "20260625",
+          "type": "negative",
+          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
+          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 3,
+      "positive_count": 3,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260703",
+          "type": "positive",
+          "headline": "Nasa launches mission to save falling space telescope",
+          "score": 1
+        },
         {
           "date": "20260629",
           "type": "positive",
@@ -196,25 +202,13 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 13,
+      "positive_count": 11,
       "negative_count": 18,
       "recent_events": [
         {
           "date": "20260703",
           "type": "positive",
           "headline": "US blocks long-term renewal of North American trade deal",
-          "score": 1
-        },
-        {
-          "date": "20260703",
-          "type": "positive",
-          "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
-          "score": 1
-        },
-        {
-          "date": "20260703",
-          "type": "positive",
-          "headline": "[표] 주간 거래소 외국인 순매수도 상위종목",
           "score": 1
         },
         {
@@ -227,6 +221,18 @@
           "date": "20260702",
           "type": "positive",
           "headline": "US blocks long-term renewal of North American trade deal",
+          "score": 1
+        },
+        {
+          "date": "20260702",
+          "type": "negative",
+          "headline": "[거시분석] Gaza patients face agonising delays for medic...",
+          "score": -6
+        },
+        {
+          "date": "20260701",
+          "type": "positive",
+          "headline": "이란 외무차관 \"종전 실무 협상 재개 협의…조건 충족되면 시작\"",
           "score": 1
         }
       ]
@@ -596,23 +602,15 @@
     },
     {
       "date": "20260703",
+      "headline": "Nasa launches mission to save falling space telescope",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260703",
       "headline": "US blocks long-term renewal of North American trade deal",
-      "impacts": {
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260703",
-      "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
-      "impacts": {
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260703",
-      "headline": "[표] 주간 거래소 외국인 순매수도 상위종목",
       "impacts": {
         "전체시장": 1
       },
@@ -623,13 +621,12 @@
       "headline": "[거시분석] Iran begins public mourning for Ayatollah kil...",
       "impacts": {
         "방산": 1,
-        "전체시장": -3,
-        "금융": -1
+        "전체시장": -3
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 49,
-  "total_positives": 38,
+  "total_negatives": 48,
+  "total_positives": 37,
   "risk_level": "EXTREME"
 }
