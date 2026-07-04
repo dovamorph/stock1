@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05 02:09",
+  "updated": "2026-07-05 04:19",
   "news_count": 80,
   "intl_count": 50,
   "domestic_count": 30,
@@ -25,7 +25,7 @@
     "Large crowds gather in Tehran on first day of Ayatollah Khamenei's funeral",
     "Former chess champion Kramnik banned over cheating remarks",
     "Injury ends Williams' Wimbledon comeback",
-    "Pope urges Europe to do more for migrants while visiting gateway island",
+    "Pope urges Europe to do more for migrants as he visits gateway island",
     "Row after Indian state drops eggs from school lunch menu",
     "Taylor Swift marries Travis Kelce in NYC ceremony officiated by Adam Sandler",
     "Keiko Fujimori declared winner of Peru's presidential election weeks after vote",
@@ -45,6 +45,10 @@
     "Did this AI anti-drug video make drugs look appealing?",
     "'Beautiful and terrible' - the world's thoughts on the US at 250",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Trump hints Israel’s Benjamin Netanyahu may visit US as early as next week",
+    "Turkiye’s Erdogan says Israel must not be able to ‘dynamite’ US-Iran deal",
+    "France vs Paraguay LIVE: FIFA World Cup 2026 last 16",
+    "Police clash with protesters outside AfD meeting",
     "FIFA World Cup 2026: Best Round of 16 knockout matches to watch",
     "At least 7 Palestinians killed by Israeli forces over past 48 hours in Gaza",
     "Iran promotes message of continuity and revenge at Khamenei commemoration",
@@ -66,10 +70,12 @@
     "Thousands gather as Khamenei funeral ceremonies open in Tehran",
     "Mali’s army says rebels launch new attacks on towns and cities",
     "Saudi-led coalition pledges ‘unprecedented’ force against Houthi threats",
-    "Key takeaways from Round of 32 stage at World Cup 2026",
-    "Cape Verde fans celebrate history despite loss",
-    "Watch World Cup Day 23: Argentina and Egypt survive thrillers to advance",
-    "Taylor Swift and Travis Kelce marry at NYC’s Madison Square Garden",
+    "베네수 강진 사망자 3천명 육박…생존자 구조소식 이틀째 없어",
+    "충남 금산에 호우주의보",
+    "트럼프 \"하메네이 장례식서 우는 사람 보고 놀라…가짜눈물일수도\"",
+    "[게시판] 독일 프랑크푸르트서 한국 유학·채용 박람회",
+    "美독립 250주년 기념일…트럼프 연설·기네스급 불꽃놀이 예정",
+    "전북 정읍·고창에 호우주의보",
     "뉴욕항에 대형 범선 집결…美독립 250주년 축하 퍼레이드",
     "찰스 3세, 트럼프에 축전…\"다음 250년도 공동가치 지키자\"(종합)",
     "독일 극우 AfD, 100년 전 나치와 같은날 전당대회 열었다",
@@ -93,13 +99,7 @@
     "[프로축구 중간순위] 4일",
     "[프로야구 고척전적] 두산 8-5 키움",
     "'완델손 2골 1도움' K리그1 포항, 수적 열세에도 안양 3-2 격파",
-    "[프로축구 안양전적] 포항 3-2 안양",
-    "[프로축구 대전전적] 대전 2-2 부천",
-    "장현식 5이닝 무실점·홍창기 5출루…LG, 한화전 3연패 끊어",
-    "[프로축구 전주전적] 강원 2-1 전북",
-    "[프로야구 인천전적] 삼성 13-7 SSG",
-    "[프로야구 잠실전적] LG 5-3 한화",
-    "[프로야구 광주전적] NC 5-4 KIA"
+    "[프로축구 안양전적] 포항 3-2 안양"
   ],
   "categories": {
     "geopolitical": {
@@ -108,8 +108,8 @@
       "signal": "🟡",
       "summary": "Ukraine hits major oil terminal in Russia's S...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 7,
-      "score": 10.0
+      "matched": 8,
+      "score": 11.4
     },
     "macro": {
       "level": "안전",
@@ -133,10 +133,10 @@
       "level": "신호",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Iran promotes message of continuity and reven...",
+      "summary": "Turkiye’s Erdogan says Israel must not be abl...",
       "action": "관련 지표 추가 확인 후 판단",
-      "matched": 2,
-      "score": 2.8
+      "matched": 3,
+      "score": 4.2
     },
     "policy": {
       "level": "안전",
