@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-05T04:19:33.854349+09:00",
+  "updated_at": "2026-07-05T06:01:39.849810+09:00",
   "date": "20260705",
   "window_days": 14,
   "sectors": [
@@ -127,10 +127,16 @@
       "recent_events": []
     },
     "금융": {
-      "score": -7,
+      "score": -8,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260705",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine hits major oil terminal in Russia's S...",
+          "score": -1
+        },
         {
           "date": "20260702",
           "type": "negative",
@@ -151,12 +157,6 @@
         },
         {
           "date": "20260626",
-          "type": "negative",
-          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
-          "score": -1
-        },
-        {
-          "date": "20260625",
           "type": "negative",
           "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
           "score": -1
@@ -209,7 +209,7 @@
           "date": "20260705",
           "type": "negative",
           "headline": "[거시분석] Ukraine hits major oil terminal in Russia's S...",
-          "score": -1
+          "score": -2
         },
         {
           "date": "20260704",
@@ -576,12 +576,13 @@
       "headline": "[거시분석] Ukraine hits major oil terminal in Russia's S...",
       "impacts": {
         "방산": 1,
-        "전체시장": -1
+        "전체시장": -2,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 41,
+  "total_negatives": 42,
   "total_positives": 34,
   "risk_level": "EXTREME"
 }
