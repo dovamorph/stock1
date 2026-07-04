@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-04T22:41:00.881437+09:00",
-  "date": "20260704",
+  "updated_at": "2026-07-05T00:08:31.562614+09:00",
+  "date": "20260705",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -41,9 +41,9 @@
       ]
     },
     "건설": {
-      "score": -7,
+      "score": -5,
       "positive_count": 4,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
         {
           "date": "20260702",
@@ -80,8 +80,14 @@
     "방산": {
       "score": 10,
       "positive_count": 19,
-      "negative_count": 9,
+      "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20260705",
+          "type": "positive",
+          "headline": "[거시분석] Ukraine hits major oil terminal in Russia's S...",
+          "score": 1
+        },
         {
           "date": "20260704",
           "type": "positive",
@@ -105,12 +111,6 @@
           "type": "positive",
           "headline": "[거시분석] Gaza patients face agonising delays for medic...",
           "score": 3
-        },
-        {
-          "date": "20260701",
-          "type": "negative",
-          "headline": "이란 외무차관 \"종전 실무 협상 재개 협의…조건 충족되면 시작\"",
-          "score": -1
         }
       ]
     },
@@ -202,9 +202,15 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 8,
+      "positive_count": 7,
       "negative_count": 18,
       "recent_events": [
+        {
+          "date": "20260705",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine hits major oil terminal in Russia's S...",
+          "score": -2
+        },
         {
           "date": "20260704",
           "type": "negative",
@@ -228,52 +234,11 @@
           "type": "positive",
           "headline": "US blocks long-term renewal of North American trade deal",
           "score": 1
-        },
-        {
-          "date": "20260702",
-          "type": "negative",
-          "headline": "[거시분석] Gaza patients face agonising delays for medic...",
-          "score": -6
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260620",
-      "headline": "Israel and Hezbollah continue strikes despite ceasefire agreement",
-      "impacts": {
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260620",
-      "headline": "Israeli strikes kill 32 in Lebanon, putting US-Iran peace talks in peril",
-      "impacts": {
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260620",
-      "headline": "이란군 \"호르무즈 재봉쇄…미·이스라엘 종전 MOU 위반 탓\"",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260620",
-      "headline": "[거시분석] Israel and Hezbollah continue strikes despite...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260621",
       "headline": "이란 외무부 대변인 \"레바논 종전 이행 없이 최종 협상 불가\"(종합)",
@@ -605,9 +570,18 @@
         "전체시장": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260705",
+      "headline": "[거시분석] Ukraine hits major oil terminal in Russia's S...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 45,
-  "total_positives": 35,
+  "total_negatives": 41,
+  "total_positives": 34,
   "risk_level": "EXTREME"
 }
