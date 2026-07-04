@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T08:07:40.271153+09:00",
+  "updated_at": "2026-07-04T12:29:40.834564+09:00",
   "date": "20260704",
   "window_days": 14,
   "sectors": [
@@ -42,14 +42,20 @@
     },
     "건설": {
       "score": -8,
-      "positive_count": 4,
+      "positive_count": 5,
       "negative_count": 9,
       "recent_events": [
         {
           "date": "20260704",
+          "type": "positive",
+          "headline": "오세훈 인터뷰 실은 日요미우리 \"보수 재건 기대 모으는 정치인\"",
+          "score": 1
+        },
+        {
+          "date": "20260704",
           "type": "negative",
           "headline": "[거시분석] Iran begins public mourning for Ayatollah kil...",
-          "score": -1
+          "score": -2
         },
         {
           "date": "20260702",
@@ -68,12 +74,6 @@
           "type": "positive",
           "headline": "재건축론發 노선대결 가속…鄭 \"범진보 통합\"·金 \"판 확장해야\"(종합2보)",
           "score": 1
-        },
-        {
-          "date": "20260628",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
-          "score": -1
         }
       ]
     },
@@ -86,7 +86,7 @@
           "date": "20260704",
           "type": "positive",
           "headline": "[거시분석] Iran begins public mourning for Ayatollah kil...",
-          "score": 2
+          "score": 3
         },
         {
           "date": "20260703",
@@ -215,7 +215,7 @@
           "date": "20260704",
           "type": "negative",
           "headline": "[거시분석] Iran begins public mourning for Ayatollah kil...",
-          "score": -2
+          "score": -4
         },
         {
           "date": "20260703",
@@ -613,16 +613,24 @@
     },
     {
       "date": "20260704",
+      "headline": "오세훈 인터뷰 실은 日요미우리 \"보수 재건 기대 모으는 정치인\"",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260704",
       "headline": "[거시분석] Iran begins public mourning for Ayatollah kil...",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -2
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 46,
-  "total_positives": 36,
+  "total_positives": 37,
   "risk_level": "EXTREME"
 }
