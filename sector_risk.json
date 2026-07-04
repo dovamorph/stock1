@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T15:49:42.695232+09:00",
+  "updated_at": "2026-07-04T19:14:38.206766+09:00",
   "date": "20260704",
   "window_days": 14,
   "sectors": [
@@ -41,10 +41,16 @@
       ]
     },
     "건설": {
-      "score": -7,
+      "score": -9,
       "positive_count": 4,
-      "negative_count": 8,
+      "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20260704",
+          "type": "negative",
+          "headline": "[거시분석] Could Israel really build settlements in Gaza...",
+          "score": -2
+        },
         {
           "date": "20260702",
           "type": "negative",
@@ -68,25 +74,25 @@
           "type": "negative",
           "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
           "score": -1
-        },
-        {
-          "date": "20260627",
-          "type": "positive",
-          "headline": "유시민 '재건축론'에 與일각 \"李대통령 폄훼…모욕적\" 발끈",
-          "score": 1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 19,
+      "positive_count": 20,
       "negative_count": 9,
       "recent_events": [
         {
           "date": "20260704",
           "type": "positive",
-          "headline": "[거시분석] Iran begins public mourning for Ayatollah kil...",
+          "headline": "이란, 美공습에 군사·핵시설 수십곳 잿더미…위성사진 포착",
           "score": 1
+        },
+        {
+          "date": "20260704",
+          "type": "positive",
+          "headline": "[거시분석] Could Israel really build settlements in Gaza...",
+          "score": 3
         },
         {
           "date": "20260703",
@@ -105,12 +111,6 @@
           "type": "positive",
           "headline": "[거시분석] Gaza patients face agonising delays for medic...",
           "score": 3
-        },
-        {
-          "date": "20260701",
-          "type": "negative",
-          "headline": "이란 외무차관 \"종전 실무 협상 재개 협의…조건 충족되면 시작\"",
-          "score": -1
         }
       ]
     },
@@ -164,20 +164,14 @@
       ]
     },
     "우주ETF": {
-      "score": 5,
-      "positive_count": 5,
+      "score": 4,
+      "positive_count": 4,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20260704",
           "type": "positive",
           "headline": "Nasa launches mission to save falling space telescope",
-          "score": 1
-        },
-        {
-          "date": "20260704",
-          "type": "positive",
-          "headline": "NASA launches robotic mission to save telescope falling back to Earth",
           "score": 1
         },
         {
@@ -214,8 +208,8 @@
         {
           "date": "20260704",
           "type": "negative",
-          "headline": "[거시분석] Iran begins public mourning for Ayatollah kil...",
-          "score": -1
+          "headline": "[거시분석] Could Israel really build settlements in Gaza...",
+          "score": -3
         },
         {
           "date": "20260703",
@@ -605,23 +599,24 @@
     },
     {
       "date": "20260704",
-      "headline": "NASA launches robotic mission to save telescope falling back to Earth",
+      "headline": "이란, 美공습에 군사·핵시설 수십곳 잿더미…위성사진 포착",
       "impacts": {
-        "우주ETF": 1
+        "방산": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260704",
-      "headline": "[거시분석] Iran begins public mourning for Ayatollah kil...",
+      "headline": "[거시분석] Could Israel really build settlements in Gaza...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -1
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -3
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 45,
+  "total_negatives": 46,
   "total_positives": 36,
   "risk_level": "EXTREME"
 }
