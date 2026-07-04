@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-05T06:01:39.849810+09:00",
+  "updated_at": "2026-07-05T08:00:28.005163+09:00",
   "date": "20260705",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -6,
-      "positive_count": 0,
+      "score": -5,
+      "positive_count": 1,
       "negative_count": 3,
       "recent_events": [
+        {
+          "date": "20260705",
+          "type": "positive",
+          "headline": "삼성전자 작년 정보보호 투자 4천억 넘겨…전자 관계사들도 증액",
+          "score": 1
+        },
         {
           "date": "20260701",
           "type": "negative",
@@ -41,10 +47,16 @@
       ]
     },
     "건설": {
-      "score": -5,
+      "score": -7,
       "positive_count": 4,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260705",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine hits major oil terminal in Russia's S...",
+          "score": -2
+        },
         {
           "date": "20260702",
           "type": "negative",
@@ -68,12 +80,6 @@
           "type": "negative",
           "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
           "score": -1
-        },
-        {
-          "date": "20260627",
-          "type": "positive",
-          "headline": "유시민 '재건축론'에 與일각 \"李대통령 폄훼…모욕적\" 발끈",
-          "score": 1
         }
       ]
     },
@@ -86,7 +92,7 @@
           "date": "20260705",
           "type": "positive",
           "headline": "[거시분석] Ukraine hits major oil terminal in Russia's S...",
-          "score": 1
+          "score": 3
         },
         {
           "date": "20260704",
@@ -127,16 +133,10 @@
       "recent_events": []
     },
     "금융": {
-      "score": -8,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20260705",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine hits major oil terminal in Russia's S...",
-          "score": -1
-        },
         {
           "date": "20260702",
           "type": "negative",
@@ -157,6 +157,12 @@
         },
         {
           "date": "20260626",
+          "type": "negative",
+          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
+          "score": -1
+        },
+        {
+          "date": "20260625",
           "type": "negative",
           "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
           "score": -1
@@ -209,7 +215,7 @@
           "date": "20260705",
           "type": "negative",
           "headline": "[거시분석] Ukraine hits major oil terminal in Russia's S...",
-          "score": -2
+          "score": -3
         },
         {
           "date": "20260704",
@@ -573,16 +579,24 @@
     },
     {
       "date": "20260705",
+      "headline": "삼성전자 작년 정보보호 투자 4천억 넘겨…전자 관계사들도 증액",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260705",
       "headline": "[거시분석] Ukraine hits major oil terminal in Russia's S...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -2,
-        "금융": -1
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -3
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 42,
-  "total_positives": 34,
+  "total_positives": 35,
   "risk_level": "EXTREME"
 }
