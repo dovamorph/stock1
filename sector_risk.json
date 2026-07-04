@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-05T00:08:31.562614+09:00",
+  "updated_at": "2026-07-05T02:09:43.536260+09:00",
   "date": "20260705",
   "window_days": 14,
   "sectors": [
@@ -209,7 +209,7 @@
           "date": "20260705",
           "type": "negative",
           "headline": "[거시분석] Ukraine hits major oil terminal in Russia's S...",
-          "score": -2
+          "score": -1
         },
         {
           "date": "20260704",
@@ -576,7 +576,7 @@
       "headline": "[거시분석] Ukraine hits major oil terminal in Russia's S...",
       "impacts": {
         "방산": 1,
-        "전체시장": -2
+        "전체시장": -1
       },
       "source": "geo_categories"
     }

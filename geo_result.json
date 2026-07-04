@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05 00:08",
+  "updated": "2026-07-05 02:09",
   "news_count": 80,
   "intl_count": 50,
   "domestic_count": 30,
@@ -13,17 +13,17 @@
     "StockPlus": 0
   },
   "news_sample": [
-    "Fireworks, flyovers and a 'really long' Trump speech ahead as US celebrates 250th",
     "Brutal heat cancels Fourth of July events, from DC to Philadelphia",
     "Ukraine hits major oil terminal in Russia's St Petersburg",
     "Large crowds gather in Tehran on first day of Ayatollah Khamenei's funeral",
+    "Former chess champion Kramnik banned over cheating remarks",
     "Injury ends Williams' Wimbledon comeback"
   ],
   "all_headlines": [
-    "Fireworks, flyovers and a 'really long' Trump speech ahead as US celebrates 250th",
     "Brutal heat cancels Fourth of July events, from DC to Philadelphia",
     "Ukraine hits major oil terminal in Russia's St Petersburg",
     "Large crowds gather in Tehran on first day of Ayatollah Khamenei's funeral",
+    "Former chess champion Kramnik banned over cheating remarks",
     "Injury ends Williams' Wimbledon comeback",
     "Pope urges Europe to do more for migrants while visiting gateway island",
     "Row after Indian state drops eggs from school lunch menu",
@@ -34,10 +34,10 @@
     "France records 2,025 excess deaths at peak of heatwave as Europe braces for more extreme weather",
     "Dior dress, Adam Sandler and a man of honour: What we know about Taylor and Travis's wedding",
     "In pictures: Stars and fans celebrate Taylor Swift and Travis Kelce's wedding",
+    "'Hotter and hotter and hotter' - Europe's new climate in seven charts",
     "More cows than pupils - what is behind mass school closures in rural Kenya?",
-    "A mayor in Japan announced her maternity leave - and got the whole country talking",
     "'Flamingo Revolution' takes off as thousands demand Albanian PM's resignation",
-    "On the Strait of Hormuz, BBC finds seized ships and shark fishermen as uneasy calm returns",
+    "BBC in Tehran as mourners gather for former supreme leader's funeral",
     "Watch: Taylor Swift and Travis Kelce wed in NYC - here's how the day unfolded",
     "'It's so hot' - Dangerous hot weather grips parts of the US",
     "Cheers and applause as security guard rescued from rubble",
@@ -45,6 +45,10 @@
     "Did this AI anti-drug video make drugs look appealing?",
     "'Beautiful and terrible' - the world's thoughts on the US at 250",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "FIFA World Cup 2026: Best Round of 16 knockout matches to watch",
+    "At least 7 Palestinians killed by Israeli forces over past 48 hours in Gaza",
+    "Iran promotes message of continuity and revenge at Khamenei commemoration",
+    "Russian attacks leave trail of destruction across Ukraine",
     "Canada vs Morocco LIVE: FIFA World Cup 2026 last 16",
     "Brain drain leaves Yemen’s health sector in tatters and millions helpless",
     "Why closure matters at the end of life",
@@ -66,10 +70,9 @@
     "Cape Verde fans celebrate history despite loss",
     "Watch World Cup Day 23: Argentina and Egypt survive thrillers to advance",
     "Taylor Swift and Travis Kelce marry at NYC’s Madison Square Garden",
-    "Trump praises army, rails against communism in US 250th anniversary speech",
-    "At 250, America is still deciding who belongs",
-    "France vs Paraguay: World Cup Round of 16 – Mbappe, prediction, kickoff",
-    "Could Israel really build settlements in Gaza?",
+    "뉴욕항에 대형 범선 집결…美독립 250주년 축하 퍼레이드",
+    "찰스 3세, 트럼프에 축전…\"다음 250년도 공동가치 지키자\"(종합)",
+    "독일 극우 AfD, 100년 전 나치와 같은날 전당대회 열었다",
     "[알림] 연합뉴스 콘텐츠 저작권 고지",
     "평범한 자취방과 달랐던 장윤기의 원룸…\"물건 거의 없어\"",
     "\"美·이란 협상, 11일 파키스탄서 재개 전망…핵 논의 포함\"",
@@ -96,10 +99,7 @@
     "[프로축구 전주전적] 강원 2-1 전북",
     "[프로야구 인천전적] 삼성 13-7 SSG",
     "[프로야구 잠실전적] LG 5-3 한화",
-    "[프로야구 광주전적] NC 5-4 KIA",
-    "비슬리 1실점 호투+대타 노진혁 쐐기타…롯데, kt 제압",
-    "[프로야구 수원전적] 롯데 4-1 kt",
-    "1231회 로또 1등 17명…당첨금 각 16억5천만원(종합)"
+    "[프로야구 광주전적] NC 5-4 KIA"
   ],
   "categories": {
     "geopolitical": {
@@ -108,8 +108,8 @@
       "signal": "🟡",
       "summary": "Ukraine hits major oil terminal in Russia's S...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 5,
-      "score": 7.2
+      "matched": 7,
+      "score": 10.0
     },
     "macro": {
       "level": "안전",
@@ -133,19 +133,19 @@
       "level": "신호",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Millions mourn Iran’s Ali Khamenei amid histo...",
+      "summary": "Iran promotes message of continuity and reven...",
       "action": "관련 지표 추가 확인 후 판단",
-      "matched": 1,
-      "score": 1.4
+      "matched": 2,
+      "score": 2.8
     },
     "policy": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "[프로야구 수원전적] 롯데 4-1 kt",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
