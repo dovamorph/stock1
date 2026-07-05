@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-05T22:47:58.681802+09:00",
-  "date": "20260705",
+  "updated_at": "2026-07-06T00:16:05.874039+09:00",
+  "date": "20260706",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -80,8 +80,14 @@
     "방산": {
       "score": 10,
       "positive_count": 19,
-      "negative_count": 6,
+      "negative_count": 3,
       "recent_events": [
+        {
+          "date": "20260706",
+          "type": "positive",
+          "headline": "[거시분석] Iran's supreme leader absent as senior offici...",
+          "score": 1
+        },
         {
           "date": "20260705",
           "type": "positive",
@@ -105,12 +111,6 @@
           "type": "positive",
           "headline": "러시아 \"우크라 공격에 보복\"…키이우 대공습에 최소 21명 사망(종합)",
           "score": 1
-        },
-        {
-          "date": "20260702",
-          "type": "positive",
-          "headline": "[거시분석] Gaza patients face agonising delays for medic...",
-          "score": 3
         }
       ]
     },
@@ -202,9 +202,15 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 7,
+      "positive_count": 4,
       "negative_count": 18,
       "recent_events": [
+        {
+          "date": "20260706",
+          "type": "negative",
+          "headline": "[거시분석] Iran's supreme leader absent as senior offici...",
+          "score": -3
+        },
         {
           "date": "20260705",
           "type": "negative",
@@ -228,53 +234,11 @@
           "type": "negative",
           "headline": "[거시분석] Iran begins public mourning for Ayatollah kil...",
           "score": -3
-        },
-        {
-          "date": "20260702",
-          "type": "positive",
-          "headline": "US blocks long-term renewal of North American trade deal",
-          "score": 1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260621",
-      "headline": "이란 외무부 대변인 \"레바논 종전 이행 없이 최종 협상 불가\"(종합)",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260621",
-      "headline": "미국·이란, 스위스서 대면협상…종전 '노딜' 70일만(종합)",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260621",
-      "headline": "이란 외무부 대변인 \"레바논 종전 이행 없이 최종 협상 불가\"",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260621",
-      "headline": "[거시분석] US-Iran talks begin in Switzerland as Tehran ...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260622",
       "headline": "[거시분석] First round of US-Iran talks ends with encour...",
@@ -579,9 +543,18 @@
         "전체시장": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260706",
+      "headline": "[거시분석] Iran's supreme leader absent as senior offici...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -3
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 41,
-  "total_positives": 34,
+  "total_negatives": 38,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
