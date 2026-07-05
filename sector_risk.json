@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T00:16:05.874039+09:00",
+  "updated_at": "2026-07-06T02:16:14.876210+09:00",
   "date": "20260706",
   "window_days": 14,
   "sectors": [
@@ -209,7 +209,7 @@
           "date": "20260706",
           "type": "negative",
           "headline": "[거시분석] Iran's supreme leader absent as senior offici...",
-          "score": -3
+          "score": -2
         },
         {
           "date": "20260705",
@@ -549,7 +549,7 @@
       "headline": "[거시분석] Iran's supreme leader absent as senior offici...",
       "impacts": {
         "방산": 1,
-        "전체시장": -3
+        "전체시장": -2
       },
       "source": "geo_categories"
     }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06 00:15",
+  "updated": "2026-07-06 02:16",
   "news_count": 80,
   "intl_count": 50,
   "domestic_count": 30,
@@ -15,22 +15,22 @@
   "news_sample": [
     "Iran's supreme leader absent as senior officials attend ayatollah's funeral",
     "US marks 250th birthday with fireworks, flyovers and extreme weather",
+    "From 'a beautiful night' to 'world's greatest hangover', guests react to Taylor and Travis's wedding",
     "Evacuations in Guam as super typhoon Bavi approaches",
-    "Australia probes mystery space balls that washed up on beach",
-    "Chinese underground church figure Jin Mingri freed from prison"
+    "Australia probes mystery space balls that washed up on beach"
   ],
   "all_headlines": [
     "Iran's supreme leader absent as senior officials attend ayatollah's funeral",
     "US marks 250th birthday with fireworks, flyovers and extreme weather",
+    "From 'a beautiful night' to 'world's greatest hangover', guests react to Taylor and Travis's wedding",
     "Evacuations in Guam as super typhoon Bavi approaches",
     "Australia probes mystery space balls that washed up on beach",
-    "Chinese underground church figure Jin Mingri freed from prison",
     "Moment of destiny for France's Le Pen in verdict to decide her future in presidential race",
     "Nigeria says two nationals killed in South Africa amid rise of anti-migrant attacks",
-    "Thousand welcome home Cape Verde footballers after stunning World Cup run",
+    "Thousands welcome home Cape Verde footballers after stunning World Cup run",
+    "Chinese underground church figure Jin Mingri freed from prison",
     "Ukraine hits major oil terminal in Russia's St Petersburg",
     "Former chess champion Kramnik banned over cheating remarks",
-    "Pope urges Europe to do more for migrants as he visits gateway island",
     "Row after Indian state drops eggs from school lunch menu",
     "How Iran's new regime is very different to what came before",
     "Cowboys, fighter jets and US Border Patrol - inside Trump's big recruitment drive",
@@ -45,10 +45,15 @@
     "Cheers and applause as security guard rescued from rubble",
     "Did this AI anti-drug video make drugs look appealing?",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "What is the religious and political messaging behind Khamenei’s funeral?",
+    "Brazil vs Norway LIVE: FIFA World Cup 2026 – last 16",
+    "Syria delays first session of transitional parliament without explanation",
+    "Charles Leclerc wins F1 British Grand Prix behind safety car",
+    "Photo of abused Palestinian detainee causes anguish for two Gaza mothers",
     "Cape Verde celebrates team’s return after historic World Cup",
     "Extreme weather disrupts US’s 250th anniversary celebrations",
     "Millions attend funeral prayers for Iran’s Khamenei and family",
-    "At least 15 Yemeni government troops killed in Hodeidah fighting",
+    "Houthi rebels kill 16 Yemeni government troops in fiercest clashes in years",
     "Dr Hussam Abu Safia’s life in ‘grave danger’",
     "What to know about the renewed coordinated attacks across Mali",
     "Indonesian army recovers US pilot’s body from Papua",
@@ -65,11 +70,12 @@
     "Watch World Cup Day 24: France and Morocco advance to quarterfinals",
     "Palestinians in Gaza celebrate Morocco’s World Cup victory",
     "Iran’s China envoy vows ‘special’ Hormuz treatment for ‘friendly’ countries",
-    "Trump offers to help end Russia-Ukraine war in Putin call, Kremlin says",
-    "Egypt and Morocco fans celebrate World Cup wins by singing for Palestine",
-    "Brazil vs Norway: FIFA World Cup last 16 – Vinicius, Haaland and prediction",
-    "Native Americans Resisting ICE",
-    "Trump lauds Americans in storm-delayed 250th anniversary speech",
+    "백인우월주의 단체 독립기념일 행진에…美장관 \"표현의 자유\"",
+    "이스라엘, 슬로베니아 상주 대사 첫 지명…새 보수 정부와 밀착",
+    "강원 정선평지에 호우주의보",
+    "경북 영주 호우주의보 해제",
+    "유럽 무더위 속 산불 확산…투르드프랑스도 위협",
+    "앙카라서 만나는 나토 정상들…트럼프 '충성 요구'에 부응할까",
     "[알림] 연합뉴스 콘텐츠 저작권 고지",
     "카타르 \"모든 해상 활동 정상화\"…이란과 해상무역 재개도",
     "노벨상 수상자 오마르 야기, 中칭화대 합류…AI활용 신소재 연구",
@@ -93,13 +99,7 @@
     "'정승원 결승골' 서울, 인천 1-0으로 꺾고 3연승…선두 굳히기",
     "[프로축구 김천전적] 김천 1-1 제주",
     "[프로축구 서울전적] 서울 1-0 인천",
-    "'김현수 결승 투런포' kt, 롯데 꺾고 3연패 탈출",
-    "中네이멍구서 화학물질 옮기던 트럭 폭발…6명 사상",
-    "[프로야구 수원전적] kt 4-2 롯데",
-    "배재고 학생들 6일 사과 방문…광주일고, 경찰 시설보호 요청(종합)",
-    "조국 \"일베는 기계적으로 문장에 '노' 붙여\"…이준석 \"낙인찍기\"",
-    "\"예멘 홍해서 화물선, 무장세력에 피격 신고\"",
-    "성남 다세대주택 빈집서 불…2명 부상·5명 대피(종합)"
+    "'김현수 결승 투런포' kt, 롯데 꺾고 3연패 탈출"
   ],
   "categories": {
     "geopolitical": {
@@ -108,8 +108,8 @@
       "signal": "🟡",
       "summary": "Iran's supreme leader absent as senior offici...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 10,
-      "score": 14.5
+      "matched": 11,
+      "score": 16.0
     },
     "macro": {
       "level": "안전",
@@ -139,13 +139,13 @@
       "score": 1.5
     },
     "policy": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "[프로야구 수원전적] kt 4-2 롯데",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
