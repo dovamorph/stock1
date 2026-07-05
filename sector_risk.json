@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-05T16:30:20.248819+09:00",
+  "updated_at": "2026-07-05T19:19:01.820898+09:00",
   "date": "20260705",
   "window_days": 14,
   "sectors": [
@@ -41,15 +41,21 @@
       ]
     },
     "건설": {
-      "score": -7,
-      "positive_count": 4,
+      "score": -5,
+      "positive_count": 5,
       "negative_count": 8,
       "recent_events": [
         {
           "date": "20260705",
+          "type": "positive",
+          "headline": "中외교수장, 22년만에 스웨덴 방문…\"상호 신뢰 재건해야\"",
+          "score": 1
+        },
+        {
+          "date": "20260705",
           "type": "negative",
           "headline": "[거시분석] Ukraine hits major oil terminal in Russia's S...",
-          "score": -2
+          "score": -1
         },
         {
           "date": "20260702",
@@ -68,12 +74,6 @@
           "type": "positive",
           "headline": "재건축론發 노선대결 가속…鄭 \"범진보 통합\"·金 \"판 확장해야\"(종합2보)",
           "score": 1
-        },
-        {
-          "date": "20260628",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
-          "score": -1
         }
       ]
     },
@@ -86,7 +86,7 @@
           "date": "20260705",
           "type": "positive",
           "headline": "[거시분석] Ukraine hits major oil terminal in Russia's S...",
-          "score": 3
+          "score": 2
         },
         {
           "date": "20260704",
@@ -209,7 +209,7 @@
           "date": "20260705",
           "type": "negative",
           "headline": "[거시분석] Ukraine hits major oil terminal in Russia's S...",
-          "score": -4
+          "score": -2
         },
         {
           "date": "20260704",
@@ -573,16 +573,24 @@
     },
     {
       "date": "20260705",
+      "headline": "中외교수장, 22년만에 스웨덴 방문…\"상호 신뢰 재건해야\"",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260705",
       "headline": "[거시분석] Ukraine hits major oil terminal in Russia's S...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -4
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 42,
-  "total_positives": 34,
+  "total_positives": 35,
   "risk_level": "EXTREME"
 }
