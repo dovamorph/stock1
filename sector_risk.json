@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-05T12:47:30.072581+09:00",
+  "updated_at": "2026-07-05T16:30:20.248819+09:00",
   "date": "20260705",
   "window_days": 14,
   "sectors": [
@@ -41,10 +41,16 @@
       ]
     },
     "건설": {
-      "score": -5,
+      "score": -7,
       "positive_count": 4,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260705",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine hits major oil terminal in Russia's S...",
+          "score": -2
+        },
         {
           "date": "20260702",
           "type": "negative",
@@ -68,12 +74,6 @@
           "type": "negative",
           "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
           "score": -1
-        },
-        {
-          "date": "20260627",
-          "type": "positive",
-          "headline": "유시민 '재건축론'에 與일각 \"李대통령 폄훼…모욕적\" 발끈",
-          "score": 1
         }
       ]
     },
@@ -86,7 +86,7 @@
           "date": "20260705",
           "type": "positive",
           "headline": "[거시분석] Ukraine hits major oil terminal in Russia's S...",
-          "score": 1
+          "score": 3
         },
         {
           "date": "20260704",
@@ -209,7 +209,7 @@
           "date": "20260705",
           "type": "negative",
           "headline": "[거시분석] Ukraine hits major oil terminal in Russia's S...",
-          "score": -1
+          "score": -4
         },
         {
           "date": "20260704",
@@ -575,13 +575,14 @@
       "date": "20260705",
       "headline": "[거시분석] Ukraine hits major oil terminal in Russia's S...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -1
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 41,
+  "total_negatives": 42,
   "total_positives": 34,
   "risk_level": "EXTREME"
 }
