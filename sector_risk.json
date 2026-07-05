@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T04:23:20.655791+09:00",
+  "updated_at": "2026-07-06T06:05:51.397343+09:00",
   "date": "20260706",
   "window_days": 14,
   "sectors": [
@@ -127,10 +127,16 @@
       "recent_events": []
     },
     "금융": {
-      "score": -7,
+      "score": -8,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260706",
+          "type": "negative",
+          "headline": "[거시분석] Iran's supreme leader absent as senior offici...",
+          "score": -1
+        },
         {
           "date": "20260702",
           "type": "negative",
@@ -151,12 +157,6 @@
         },
         {
           "date": "20260626",
-          "type": "negative",
-          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
-          "score": -1
-        },
-        {
-          "date": "20260625",
           "type": "negative",
           "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
           "score": -1
@@ -209,7 +209,7 @@
           "date": "20260706",
           "type": "negative",
           "headline": "[거시분석] Iran's supreme leader absent as senior offici...",
-          "score": -2
+          "score": -3
         },
         {
           "date": "20260705",
@@ -549,12 +549,13 @@
       "headline": "[거시분석] Iran's supreme leader absent as senior offici...",
       "impacts": {
         "방산": 1,
-        "전체시장": -2
+        "전체시장": -3,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 38,
+  "total_negatives": 39,
   "total_positives": 31,
   "risk_level": "EXTREME"
 }
