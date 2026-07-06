@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T17:25:14.827921+09:00",
+  "updated_at": "2026-07-06T22:50:06.311023+09:00",
   "date": "20260706",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -8,
+      "score": -6,
       "positive_count": 0,
-      "negative_count": 4,
+      "negative_count": 3,
       "recent_events": [
-        {
-          "date": "20260706",
-          "type": "negative",
-          "headline": "[거시분석] How Iran's new regime is very different to wh...",
-          "score": -2
-        },
         {
           "date": "20260701",
           "type": "negative",
@@ -54,7 +48,7 @@
         {
           "date": "20260706",
           "type": "negative",
-          "headline": "[거시분석] How Iran's new regime is very different to wh...",
+          "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
           "score": -2
         },
         {
@@ -85,13 +79,19 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 19,
+      "positive_count": 20,
       "negative_count": 3,
       "recent_events": [
         {
           "date": "20260706",
           "type": "positive",
-          "headline": "[거시분석] How Iran's new regime is very different to wh...",
+          "headline": "레바논 매체 \"이스라엘군, 차량 표적 공습…4명 사망\"",
+          "score": 1
+        },
+        {
+          "date": "20260706",
+          "type": "positive",
+          "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
           "score": 3
         },
         {
@@ -111,12 +111,6 @@
           "type": "positive",
           "headline": "[거시분석] Iran begins public mourning for Ayatollah kil...",
           "score": 1
-        },
-        {
-          "date": "20260702",
-          "type": "positive",
-          "headline": "러시아 \"우크라 공격에 보복\"…키이우 대공습에 최소 21명 사망(종합)",
-          "score": 1
         }
       ]
     },
@@ -133,10 +127,16 @@
       "recent_events": []
     },
     "금융": {
-      "score": -7,
+      "score": -8,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260706",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
+          "score": -1
+        },
         {
           "date": "20260702",
           "type": "negative",
@@ -157,12 +157,6 @@
         },
         {
           "date": "20260626",
-          "type": "negative",
-          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
-          "score": -1
-        },
-        {
-          "date": "20260625",
           "type": "negative",
           "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
           "score": -1
@@ -214,8 +208,8 @@
         {
           "date": "20260706",
           "type": "negative",
-          "headline": "[거시분석] How Iran's new regime is very different to wh...",
-          "score": -6
+          "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
+          "score": -5
         },
         {
           "date": "20260705",
@@ -552,17 +546,25 @@
     },
     {
       "date": "20260706",
-      "headline": "[거시분석] How Iran's new regime is very different to wh...",
+      "headline": "레바논 매체 \"이스라엘군, 차량 표적 공습…4명 사망\"",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260706",
+      "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -6,
-        "반도체·AI": -2
+        "전체시장": -5,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 40,
-  "total_positives": 31,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
