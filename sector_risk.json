@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-06T22:50:06.311023+09:00",
-  "date": "20260706",
+  "updated_at": "2026-07-07T01:53:23.609296+09:00",
+  "date": "20260707",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -41,10 +41,16 @@
       ]
     },
     "건설": {
-      "score": -7,
+      "score": -9,
       "positive_count": 4,
-      "negative_count": 8,
+      "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20260707",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
+          "score": -2
+        },
         {
           "date": "20260706",
           "type": "negative",
@@ -68,20 +74,26 @@
           "type": "positive",
           "headline": "재건축론發 노선대결 가속…鄭 \"범진보 통합\"·金 \"판 확장해야\"(종합2보)",
           "score": 1
-        },
-        {
-          "date": "20260628",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
-          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 20,
+      "positive_count": 21,
       "negative_count": 3,
       "recent_events": [
+        {
+          "date": "20260707",
+          "type": "positive",
+          "headline": "Lebanon latest: Teacher killed by Israeli airstrike",
+          "score": 1
+        },
+        {
+          "date": "20260707",
+          "type": "positive",
+          "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
+          "score": 3
+        },
         {
           "date": "20260706",
           "type": "positive",
@@ -98,18 +110,6 @@
           "date": "20260705",
           "type": "positive",
           "headline": "[거시분석] Iran's supreme leader absent as senior offici...",
-          "score": 1
-        },
-        {
-          "date": "20260704",
-          "type": "positive",
-          "headline": "[거시분석] Ukraine hits major oil terminal in Russia's S...",
-          "score": 1
-        },
-        {
-          "date": "20260703",
-          "type": "positive",
-          "headline": "[거시분석] Iran begins public mourning for Ayatollah kil...",
           "score": 1
         }
       ]
@@ -132,6 +132,12 @@
       "negative_count": 8,
       "recent_events": [
         {
+          "date": "20260707",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
+          "score": -1
+        },
+        {
           "date": "20260706",
           "type": "negative",
           "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
@@ -153,12 +159,6 @@
           "date": "20260627",
           "type": "negative",
           "headline": "[거시분석] US strikes Iran after attack on cargo ship",
-          "score": -1
-        },
-        {
-          "date": "20260626",
-          "type": "negative",
-          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
           "score": -1
         }
       ]
@@ -206,6 +206,12 @@
       "negative_count": 18,
       "recent_events": [
         {
+          "date": "20260707",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
+          "score": -4
+        },
+        {
           "date": "20260706",
           "type": "negative",
           "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
@@ -228,27 +234,11 @@
           "type": "positive",
           "headline": "US blocks long-term renewal of North American trade deal",
           "score": 1
-        },
-        {
-          "date": "20260703",
-          "type": "negative",
-          "headline": "[거시분석] Iran begins public mourning for Ayatollah kil...",
-          "score": -3
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260622",
-      "headline": "[거시분석] First round of US-Iran talks ends with encour...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -3,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260623",
       "headline": "Former PM says Israel smuggled Starlink internet systems into Iran",
@@ -562,9 +552,28 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260707",
+      "headline": "Lebanon latest: Teacher killed by Israeli airstrike",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260707",
+      "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -4,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 40,
-  "total_positives": 32,
+  "total_negatives": 41,
+  "total_positives": 33,
   "risk_level": "EXTREME"
 }
