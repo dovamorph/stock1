@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T01:53:23.609296+09:00",
+  "updated_at": "2026-07-07T05:02:32.819153+09:00",
   "date": "20260707",
   "window_days": 14,
   "sectors": [
@@ -127,16 +127,10 @@
       "recent_events": []
     },
     "금융": {
-      "score": -8,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20260707",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
-          "score": -1
-        },
         {
           "date": "20260706",
           "type": "negative",
@@ -159,6 +153,12 @@
           "date": "20260627",
           "type": "negative",
           "headline": "[거시분석] US strikes Iran after attack on cargo ship",
+          "score": -1
+        },
+        {
+          "date": "20260626",
+          "type": "negative",
+          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
           "score": -1
         }
       ]
@@ -203,8 +203,14 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 18,
+      "negative_count": 19,
       "recent_events": [
+        {
+          "date": "20260707",
+          "type": "negative",
+          "headline": "무협, 美 '강제노동' 12.5% 관세예고에 \"시행유예하거나 10%로\"",
+          "score": -1
+        },
         {
           "date": "20260707",
           "type": "negative",
@@ -228,12 +234,6 @@
           "type": "negative",
           "headline": "[거시분석] Ukraine hits major oil terminal in Russia's S...",
           "score": -2
-        },
-        {
-          "date": "20260703",
-          "type": "positive",
-          "headline": "US blocks long-term renewal of North American trade deal",
-          "score": 1
         }
       ]
     }
@@ -563,12 +563,19 @@
     },
     {
       "date": "20260707",
+      "headline": "무협, 美 '강제노동' 12.5% 관세예고에 \"시행유예하거나 10%로\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260707",
       "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -4,
-        "금융": -1
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
