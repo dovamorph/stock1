@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T05:02:32.819153+09:00",
+  "updated_at": "2026-07-07T08:11:35.166682+09:00",
   "date": "20260707",
   "window_days": 14,
   "sectors": [
@@ -41,16 +41,10 @@
       ]
     },
     "건설": {
-      "score": -9,
+      "score": -7,
       "positive_count": 4,
-      "negative_count": 9,
+      "negative_count": 8,
       "recent_events": [
-        {
-          "date": "20260707",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
-          "score": -2
-        },
         {
           "date": "20260706",
           "type": "negative",
@@ -74,25 +68,25 @@
           "type": "positive",
           "headline": "재건축론發 노선대결 가속…鄭 \"범진보 통합\"·金 \"판 확장해야\"(종합2보)",
           "score": 1
+        },
+        {
+          "date": "20260628",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
+          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 21,
+      "positive_count": 20,
       "negative_count": 3,
       "recent_events": [
         {
           "date": "20260707",
           "type": "positive",
-          "headline": "Lebanon latest: Teacher killed by Israeli airstrike",
-          "score": 1
-        },
-        {
-          "date": "20260707",
-          "type": "positive",
           "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260706",
@@ -110,6 +104,12 @@
           "date": "20260705",
           "type": "positive",
           "headline": "[거시분석] Iran's supreme leader absent as senior offici...",
+          "score": 1
+        },
+        {
+          "date": "20260704",
+          "type": "positive",
+          "headline": "[거시분석] Ukraine hits major oil terminal in Russia's S...",
           "score": 1
         }
       ]
@@ -203,19 +203,13 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 19,
+      "negative_count": 18,
       "recent_events": [
         {
           "date": "20260707",
           "type": "negative",
-          "headline": "무협, 美 '강제노동' 12.5% 관세예고에 \"시행유예하거나 10%로\"",
-          "score": -1
-        },
-        {
-          "date": "20260707",
-          "type": "negative",
           "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
-          "score": -4
+          "score": -2
         },
         {
           "date": "20260706",
@@ -234,6 +228,12 @@
           "type": "negative",
           "headline": "[거시분석] Ukraine hits major oil terminal in Russia's S...",
           "score": -2
+        },
+        {
+          "date": "20260703",
+          "type": "positive",
+          "headline": "US blocks long-term renewal of North American trade deal",
+          "score": 1
         }
       ]
     }
@@ -555,32 +555,15 @@
     },
     {
       "date": "20260707",
-      "headline": "Lebanon latest: Teacher killed by Israeli airstrike",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260707",
-      "headline": "무협, 美 '강제노동' 12.5% 관세예고에 \"시행유예하거나 10%로\"",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260707",
       "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -4
+        "방산": 1,
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 41,
-  "total_positives": 33,
+  "total_negatives": 39,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
