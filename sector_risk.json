@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T12:55:10.578677+09:00",
+  "updated_at": "2026-07-06T17:25:14.827921+09:00",
   "date": "20260706",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260706",
           "type": "negative",
-          "headline": "[거시분석] Iran's supreme leader absent as senior offici...",
+          "headline": "[거시분석] How Iran's new regime is very different to wh...",
           "score": -2
         },
         {
@@ -47,10 +47,16 @@
       ]
     },
     "건설": {
-      "score": -5,
+      "score": -7,
       "positive_count": 4,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260706",
+          "type": "negative",
+          "headline": "[거시분석] How Iran's new regime is very different to wh...",
+          "score": -2
+        },
         {
           "date": "20260702",
           "type": "negative",
@@ -74,12 +80,6 @@
           "type": "negative",
           "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
           "score": -1
-        },
-        {
-          "date": "20260627",
-          "type": "positive",
-          "headline": "유시민 '재건축론'에 與일각 \"李대통령 폄훼…모욕적\" 발끈",
-          "score": 1
         }
       ]
     },
@@ -91,8 +91,8 @@
         {
           "date": "20260706",
           "type": "positive",
-          "headline": "[거시분석] Iran's supreme leader absent as senior offici...",
-          "score": 1
+          "headline": "[거시분석] How Iran's new regime is very different to wh...",
+          "score": 3
         },
         {
           "date": "20260705",
@@ -214,8 +214,8 @@
         {
           "date": "20260706",
           "type": "negative",
-          "headline": "[거시분석] Iran's supreme leader absent as senior offici...",
-          "score": -4
+          "headline": "[거시분석] How Iran's new regime is very different to wh...",
+          "score": -6
         },
         {
           "date": "20260705",
@@ -552,16 +552,17 @@
     },
     {
       "date": "20260706",
-      "headline": "[거시분석] Iran's supreme leader absent as senior offici...",
+      "headline": "[거시분석] How Iran's new regime is very different to wh...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -4,
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -6,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 39,
+  "total_negatives": 40,
   "total_positives": 31,
   "risk_level": "EXTREME"
 }
