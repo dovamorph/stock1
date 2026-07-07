@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-08T06:27:10.827188+09:00",
+  "updated_at": "2026-07-08T08:05:32.789907+09:00",
   "date": "20260708",
   "window_days": 14,
   "sectors": [
@@ -29,7 +29,7 @@
         {
           "date": "20260708",
           "type": "negative",
-          "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
+          "headline": "[거시분석] US launches strikes on Iran after tankers hit...",
           "score": -2
         },
         {
@@ -60,7 +60,7 @@
         {
           "date": "20260708",
           "type": "negative",
-          "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
+          "headline": "[거시분석] US launches strikes on Iran after tankers hit...",
           "score": -2
         },
         {
@@ -91,19 +91,25 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 21,
+      "positive_count": 22,
       "negative_count": 2,
       "recent_events": [
         {
           "date": "20260708",
           "type": "positive",
-          "headline": "[속보] 미군 \"이란 겨냥해 강력한 공습 시작\"",
+          "headline": "미, '호르무즈 상선 공격 계속' 이란에 공습·제재 '철퇴'(종합)",
           "score": 1
         },
         {
           "date": "20260708",
           "type": "positive",
-          "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
+          "headline": "[속보] 이란, 미군 공습에 \"약속 위반…단호한 대응\" 경고",
+          "score": 1
+        },
+        {
+          "date": "20260708",
+          "type": "positive",
+          "headline": "[거시분석] US launches strikes on Iran after tankers hit...",
           "score": 3
         },
         {
@@ -117,20 +123,21 @@
           "type": "positive",
           "headline": "레바논 매체 \"이스라엘군, 차량 표적 공습…4명 사망\"",
           "score": 1
-        },
-        {
-          "date": "20260706",
-          "type": "positive",
-          "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
-          "score": 3
         }
       ]
     },
     "전력·에너지": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20260708",
+          "type": "positive",
+          "headline": "한미일, 인태지역 소형모듈원자로 도입 협력체 구축…각서 서명(종합)",
+          "score": 1
+        }
+      ]
     },
     "로봇": {
       "score": 0,
@@ -226,7 +233,7 @@
         {
           "date": "20260708",
           "type": "negative",
-          "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
+          "headline": "[거시분석] US launches strikes on Iran after tankers hit...",
           "score": -6
         },
         {
@@ -580,7 +587,15 @@
     },
     {
       "date": "20260708",
-      "headline": "[속보] 미군 \"이란 겨냥해 강력한 공습 시작\"",
+      "headline": "한미일, 인태지역 소형모듈원자로 도입 협력체 구축…각서 서명(종합)",
+      "impacts": {
+        "전력·에너지": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260708",
+      "headline": "미, '호르무즈 상선 공격 계속' 이란에 공습·제재 '철퇴'(종합)",
       "impacts": {
         "방산": 1
       },
@@ -588,7 +603,15 @@
     },
     {
       "date": "20260708",
-      "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
+      "headline": "[속보] 이란, 미군 공습에 \"약속 위반…단호한 대응\" 경고",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260708",
+      "headline": "[거시분석] US launches strikes on Iran after tankers hit...",
       "impacts": {
         "방산": 3,
         "건설": -2,
@@ -599,6 +622,6 @@
     }
   ],
   "total_negatives": 41,
-  "total_positives": 33,
+  "total_positives": 35,
   "risk_level": "EXTREME"
 }
