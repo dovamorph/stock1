@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-08T03:03:21.584485+09:00",
+  "updated_at": "2026-07-08T06:27:10.827188+09:00",
   "date": "20260708",
   "window_days": 14,
   "sectors": [
@@ -16,14 +16,20 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -8,
-      "positive_count": 0,
+      "score": -7,
+      "positive_count": 1,
       "negative_count": 4,
       "recent_events": [
         {
           "date": "20260708",
+          "type": "positive",
+          "headline": "Canadian province sues OpenAI over alleged ChatGPT-linked shooting warnings",
+          "score": 1
+        },
+        {
+          "date": "20260708",
           "type": "negative",
-          "headline": "[거시분석] Resistance and revenge - Iran wanted to send ...",
+          "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
           "score": -2
         },
         {
@@ -47,15 +53,15 @@
       ]
     },
     "건설": {
-      "score": -7,
-      "positive_count": 4,
-      "negative_count": 8,
+      "score": -10,
+      "positive_count": 3,
+      "negative_count": 9,
       "recent_events": [
         {
           "date": "20260708",
-          "type": "positive",
-          "headline": "아마존 또 회사채 38조원 발행…대부분 AI 인프라 투자할듯",
-          "score": 1
+          "type": "negative",
+          "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
+          "score": -2
         },
         {
           "date": "20260706",
@@ -85,14 +91,20 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 20,
+      "positive_count": 21,
       "negative_count": 2,
       "recent_events": [
         {
           "date": "20260708",
           "type": "positive",
-          "headline": "[거시분석] Resistance and revenge - Iran wanted to send ...",
+          "headline": "[속보] 미군 \"이란 겨냥해 강력한 공습 시작\"",
           "score": 1
+        },
+        {
+          "date": "20260708",
+          "type": "positive",
+          "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
+          "score": 3
         },
         {
           "date": "20260707",
@@ -111,33 +123,14 @@
           "type": "positive",
           "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
           "score": 3
-        },
-        {
-          "date": "20260705",
-          "type": "positive",
-          "headline": "[거시분석] Iran's supreme leader absent as senior offici...",
-          "score": 1
         }
       ]
     },
     "전력·에너지": {
       "score": 0,
-      "positive_count": 1,
-      "negative_count": 1,
-      "recent_events": [
-        {
-          "date": "20260708",
-          "type": "positive",
-          "headline": "한미일, 인태지역 소형모듈원자로 도입 가속화 협력각서",
-          "score": 1
-        },
-        {
-          "date": "20260708",
-          "type": "negative",
-          "headline": "뉴욕 연은총재 \"에너지 가격 하락에 단기 물가 낙관\"",
-          "score": -1
-        }
-      ]
+      "positive_count": 0,
+      "negative_count": 0,
+      "recent_events": []
     },
     "로봇": {
       "score": 0,
@@ -146,16 +139,10 @@
       "recent_events": []
     },
     "금융": {
-      "score": -8,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20260708",
-          "type": "negative",
-          "headline": "[거시분석] Resistance and revenge - Iran wanted to send ...",
-          "score": -1
-        },
         {
           "date": "20260707",
           "type": "negative",
@@ -179,14 +166,32 @@
           "type": "negative",
           "headline": "[거시분석] US envoys in Doha to meet mediators but not I...",
           "score": -1
+        },
+        {
+          "date": "20260627",
+          "type": "negative",
+          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
+          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 3,
-      "positive_count": 3,
+      "score": 5,
+      "positive_count": 5,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260708",
+          "type": "positive",
+          "headline": "Nasdaq vs Dow: How are the key indices different as SpaceX joins one?",
+          "score": 1
+        },
+        {
+          "date": "20260708",
+          "type": "positive",
+          "headline": "SpaceX shares slide as it joins the tech-heavy Nasdaq-100",
+          "score": 1
+        },
         {
           "date": "20260704",
           "type": "positive",
@@ -221,7 +226,7 @@
         {
           "date": "20260708",
           "type": "negative",
-          "headline": "[거시분석] Resistance and revenge - Iran wanted to send ...",
+          "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
           "score": -6
         },
         {
@@ -551,41 +556,49 @@
     },
     {
       "date": "20260708",
-      "headline": "아마존 또 회사채 38조원 발행…대부분 AI 인프라 투자할듯",
+      "headline": "Nasdaq vs Dow: How are the key indices different as SpaceX joins one?",
       "impacts": {
-        "건설": 1
+        "우주ETF": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260708",
-      "headline": "한미일, 인태지역 소형모듈원자로 도입 가속화 협력각서",
+      "headline": "Canadian province sues OpenAI over alleged ChatGPT-linked shooting warnings",
       "impacts": {
-        "전력·에너지": 1
+        "반도체·AI": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260708",
-      "headline": "뉴욕 연은총재 \"에너지 가격 하락에 단기 물가 낙관\"",
+      "headline": "SpaceX shares slide as it joins the tech-heavy Nasdaq-100",
       "impacts": {
-        "전력·에너지": -1
+        "우주ETF": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260708",
-      "headline": "[거시분석] Resistance and revenge - Iran wanted to send ...",
+      "headline": "[속보] 미군 \"이란 겨냥해 강력한 공습 시작\"",
       "impacts": {
-        "방산": 1,
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260708",
+      "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
         "전체시장": -6,
-        "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
-  "total_positives": 31,
+  "total_negatives": 41,
+  "total_positives": 33,
   "risk_level": "EXTREME"
 }
