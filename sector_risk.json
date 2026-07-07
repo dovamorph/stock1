@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T12:45:22.146907+09:00",
+  "updated_at": "2026-07-07T16:42:40.519126+09:00",
   "date": "20260707",
   "window_days": 14,
   "sectors": [
@@ -164,10 +164,16 @@
       ]
     },
     "우주ETF": {
-      "score": 4,
-      "positive_count": 4,
+      "score": 5,
+      "positive_count": 5,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260707",
+          "type": "positive",
+          "headline": "[영상] 낡은 전투기 직접 몬 NASA 국장…\"트럼프가 원했다고!\"",
+          "score": 1
+        },
         {
           "date": "20260704",
           "type": "positive",
@@ -555,6 +561,14 @@
     },
     {
       "date": "20260707",
+      "headline": "[영상] 낡은 전투기 직접 몬 NASA 국장…\"트럼프가 원했다고!\"",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260707",
       "headline": "[거시분석] Jailers and officials at Russia's 'torture pr...",
       "impacts": {
         "방산": 1,
@@ -564,6 +578,6 @@
     }
   ],
   "total_negatives": 39,
-  "total_positives": 32,
+  "total_positives": 33,
   "risk_level": "EXTREME"
 }
