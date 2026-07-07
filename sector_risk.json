@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-07T23:44:14.984317+09:00",
-  "date": "20260707",
+  "updated_at": "2026-07-08T03:03:21.584485+09:00",
+  "date": "20260708",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -6,
+      "score": -8,
       "positive_count": 0,
-      "negative_count": 3,
+      "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20260708",
+          "type": "negative",
+          "headline": "[거시분석] Resistance and revenge - Iran wanted to send ...",
+          "score": -2
+        },
         {
           "date": "20260701",
           "type": "negative",
@@ -46,6 +52,12 @@
       "negative_count": 8,
       "recent_events": [
         {
+          "date": "20260708",
+          "type": "positive",
+          "headline": "아마존 또 회사채 38조원 발행…대부분 AI 인프라 투자할듯",
+          "score": 1
+        },
+        {
           "date": "20260706",
           "type": "negative",
           "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
@@ -68,20 +80,20 @@
           "type": "positive",
           "headline": "재건축론發 노선대결 가속…鄭 \"범진보 통합\"·金 \"판 확장해야\"(종합2보)",
           "score": 1
-        },
-        {
-          "date": "20260628",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
-          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 20,
-      "negative_count": 3,
+      "negative_count": 2,
       "recent_events": [
+        {
+          "date": "20260708",
+          "type": "positive",
+          "headline": "[거시분석] Resistance and revenge - Iran wanted to send ...",
+          "score": 1
+        },
         {
           "date": "20260707",
           "type": "positive",
@@ -105,20 +117,27 @@
           "type": "positive",
           "headline": "[거시분석] Iran's supreme leader absent as senior offici...",
           "score": 1
-        },
-        {
-          "date": "20260704",
-          "type": "positive",
-          "headline": "[거시분석] Ukraine hits major oil terminal in Russia's S...",
-          "score": 1
         }
       ]
     },
     "전력·에너지": {
       "score": 0,
-      "positive_count": 0,
-      "negative_count": 0,
-      "recent_events": []
+      "positive_count": 1,
+      "negative_count": 1,
+      "recent_events": [
+        {
+          "date": "20260708",
+          "type": "positive",
+          "headline": "한미일, 인태지역 소형모듈원자로 도입 가속화 협력각서",
+          "score": 1
+        },
+        {
+          "date": "20260708",
+          "type": "negative",
+          "headline": "뉴욕 연은총재 \"에너지 가격 하락에 단기 물가 낙관\"",
+          "score": -1
+        }
+      ]
     },
     "로봇": {
       "score": 0,
@@ -131,6 +150,12 @@
       "positive_count": 0,
       "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260708",
+          "type": "negative",
+          "headline": "[거시분석] Resistance and revenge - Iran wanted to send ...",
+          "score": -1
+        },
         {
           "date": "20260707",
           "type": "negative",
@@ -154,18 +179,12 @@
           "type": "negative",
           "headline": "[거시분석] US envoys in Doha to meet mediators but not I...",
           "score": -1
-        },
-        {
-          "date": "20260627",
-          "type": "negative",
-          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 4,
-      "positive_count": 4,
+      "score": 3,
+      "positive_count": 3,
       "negative_count": 0,
       "recent_events": [
         {
@@ -185,12 +204,6 @@
           "type": "positive",
           "headline": "[베네수 강진] 스페이스X, '최대피해' 라과이라에 스타링크 무료 제공",
           "score": 1
-        },
-        {
-          "date": "20260623",
-          "type": "positive",
-          "headline": "Former PM says Israel smuggled Starlink internet systems into Iran",
-          "score": 1
         }
       ]
     },
@@ -202,9 +215,15 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 4,
+      "positive_count": 3,
       "negative_count": 19,
       "recent_events": [
+        {
+          "date": "20260708",
+          "type": "negative",
+          "headline": "[거시분석] Resistance and revenge - Iran wanted to send ...",
+          "score": -6
+        },
         {
           "date": "20260707",
           "type": "negative",
@@ -228,52 +247,11 @@
           "type": "negative",
           "headline": "[거시분석] Iran's supreme leader absent as senior offici...",
           "score": -2
-        },
-        {
-          "date": "20260704",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine hits major oil terminal in Russia's S...",
-          "score": -2
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260623",
-      "headline": "Former PM says Israel smuggled Starlink internet systems into Iran",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260623",
-      "headline": "Israeli fire kills two in Lebanon as Hezbollah slams truce ‘violation’",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260623",
-      "headline": "젤렌스키, 우크라 재건회의 불참…폴란드와 역사갈등 여파",
-      "impacts": {
-        "건설": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260623",
-      "headline": "[거시분석] Iran says no new commitments on nuclear sites...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -4,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260624",
       "headline": "이스라엘, 이란 압박에도 '레바논 철군 불가' 요지부동",
@@ -570,9 +548,44 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260708",
+      "headline": "아마존 또 회사채 38조원 발행…대부분 AI 인프라 투자할듯",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260708",
+      "headline": "한미일, 인태지역 소형모듈원자로 도입 가속화 협력각서",
+      "impacts": {
+        "전력·에너지": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260708",
+      "headline": "뉴욕 연은총재 \"에너지 가격 하락에 단기 물가 낙관\"",
+      "impacts": {
+        "전력·에너지": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260708",
+      "headline": "[거시분석] Resistance and revenge - Iran wanted to send ...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -6,
+        "금융": -1,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 41,
-  "total_positives": 32,
+  "total_negatives": 42,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
