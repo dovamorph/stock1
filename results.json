@@ -1,6 +1,6 @@
 {
   "date": "20260707",
-  "generated_at": "2026-07-07T16:50:37+09:00",
+  "generated_at": "2026-07-07T17:01:16+09:00",
   "reference_date": "20260706",
   "reference_ranks": {
     "000660": 1,
@@ -61,9 +61,9 @@
     "rsi_14": 35.8,
     "basis": null,
     "basis_signal": "조회불가",
-    "usdkrw": 1522.18,
-    "usdkrw_ch1": -0.58,
-    "usdkrw_ch5": -1.71,
+    "usdkrw": 1522.78,
+    "usdkrw_ch1": -0.54,
+    "usdkrw_ch5": -1.67,
     "kosdaq_ch1": 0.21,
     "kospi_ch1": -4.91,
     "kospi_ch2": -5.34,
@@ -96,9 +96,9 @@
       "ndx_ch1": 1.12,
       "ndx_ma60": 25592.17
     },
-    "adr": 40.0,
-    "adr_advances": 188,
-    "adr_declines": 282,
+    "adr": 40.1,
+    "adr_advances": 193,
+    "adr_declines": 288,
     "adr_signal": "🔴",
     "adr_desc": "투매권 (40%) — 바닥 근접 가능",
     "breadth": {
@@ -107,7 +107,7 @@
       "desc": "코스닥>코스피 — 중소형/테마 장",
       "kospi_ch1": -4.91,
       "kosdaq_ch1": 0.21,
-      "adr": 40.0
+      "adr": 40.1
     },
     "pool_flow": {
       "total": 40,
@@ -372,7 +372,7 @@
       "vol_char": "매도주도 🔴",
       "ch1": -9.3,
       "cap_class": "대형",
-      "entry_score": 2,
+      "entry_score": 3,
       "entry_stars": "★★",
       "entry_label": "주의"
     },
@@ -433,7 +433,7 @@
       "ticker": "002990",
       "name": "금호건설",
       "market": "KOSPI",
-      "tvol": 4905,
+      "tvol": 4909,
       "per": 8.16,
       "pbr": 2.05,
       "eps": 1715.0,
@@ -448,7 +448,7 @@
       "debt_ratio": 551.1,
       "ch20": 277.4,
       "ch5": -3.7,
-      "vol_trend": 162.1,
+      "vol_trend": 162.2,
       "rsi": 73.0,
       "macd_line": 0.0,
       "signal_line": 0.0,
@@ -476,7 +476,7 @@
       "vol_char": "매수주도 🟢",
       "ch1": 13.36,
       "cap_class": "중형",
-      "entry_score": 2,
+      "entry_score": 3,
       "entry_stars": "★★",
       "entry_label": "주의"
     },
@@ -537,7 +537,7 @@
       "ticker": "036930",
       "name": "주성엔지니어링",
       "market": "KOSDAQ",
-      "tvol": 3841,
+      "tvol": 3844,
       "per": 232.58,
       "pbr": 13.59,
       "eps": 755.0,
@@ -589,7 +589,7 @@
       "ticker": "347850",
       "name": "디앤디파마텍",
       "market": "KOSDAQ",
-      "tvol": 3452,
+      "tvol": 3453,
       "per": -155.94,
       "pbr": 46.71,
       "eps": -547.0,
@@ -632,7 +632,7 @@
       "vol_char": "매수주도 🟢",
       "ch1": 12.38,
       "cap_class": "대형",
-      "entry_score": 3,
+      "entry_score": 4,
       "entry_stars": "–",
       "entry_label": "등급 부적격"
     },
@@ -684,7 +684,7 @@
       "vol_char": "상승동반 🟡",
       "ch1": 1.83,
       "cap_class": "대형",
-      "entry_score": 0,
+      "entry_score": 1,
       "entry_stars": "–",
       "entry_label": "등급 부적격"
     },
@@ -788,7 +788,7 @@
       "vol_char": "매도주도 🔴",
       "ch1": -4.8,
       "cap_class": "대형",
-      "entry_score": 1,
+      "entry_score": 2,
       "entry_stars": "–",
       "entry_label": "등급 부적격"
     },
@@ -840,9 +840,9 @@
       "vol_char": "매도주도 🔴",
       "ch1": -6.15,
       "cap_class": "대형",
-      "entry_score": 3,
-      "entry_stars": "★★",
-      "entry_label": "주의"
+      "entry_score": 4,
+      "entry_stars": "★★★",
+      "entry_label": "보통"
     },
     {
       "rank": 14,
@@ -892,9 +892,9 @@
       "vol_char": "매도주도 🔴",
       "ch1": -5.32,
       "cap_class": "대형",
-      "entry_score": 3,
-      "entry_stars": "★★",
-      "entry_label": "주의"
+      "entry_score": 4,
+      "entry_stars": "★★★",
+      "entry_label": "보통"
     },
     {
       "rank": 15,
@@ -1100,7 +1100,7 @@
       "vol_char": "상승동반 🟡",
       "ch1": 0.31,
       "cap_class": "대형",
-      "entry_score": 4,
+      "entry_score": 5,
       "entry_stars": "★★★",
       "entry_label": "보통"
     },
@@ -1360,7 +1360,7 @@
       "vol_char": "매도주도 🔴",
       "ch1": -6.35,
       "cap_class": "대형",
-      "entry_score": 0,
+      "entry_score": 1,
       "entry_stars": "–",
       "entry_label": "등급 부적격"
     },
@@ -1421,7 +1421,7 @@
       "ticker": "240810",
       "name": "원익IPS",
       "market": "KOSDAQ",
-      "tvol": 1799,
+      "tvol": 1800,
       "per": 65.83,
       "pbr": 5.65,
       "eps": 1712.0,
@@ -1516,7 +1516,7 @@
       "vol_char": "매수주도 🟢",
       "ch1": 8.32,
       "cap_class": "대형",
-      "entry_score": 2,
+      "entry_score": 3,
       "entry_stars": "★★",
       "entry_label": "주의"
     },
@@ -1672,7 +1672,7 @@
       "vol_char": "매도주도 🔴",
       "ch1": -3.23,
       "cap_class": "대형",
-      "entry_score": 0,
+      "entry_score": 1,
       "entry_stars": "★",
       "entry_label": "늦음"
     },
@@ -1776,7 +1776,7 @@
       "vol_char": "매수주도 🟢",
       "ch1": 11.29,
       "cap_class": "대형",
-      "entry_score": 4,
+      "entry_score": 5,
       "entry_stars": "★★★",
       "entry_label": "보통"
     },
@@ -1837,7 +1837,7 @@
       "ticker": "475150",
       "name": "SK이터닉스",
       "market": "KOSPI",
-      "tvol": 1387,
+      "tvol": 1388,
       "per": 47.14,
       "pbr": 5.3,
       "eps": 910.0,
@@ -1984,7 +1984,7 @@
       "vol_char": "매도주도 🔴",
       "ch1": -4.75,
       "cap_class": "대형",
-      "entry_score": 4,
+      "entry_score": 5,
       "entry_stars": "★★★",
       "entry_label": "보통"
     },
@@ -2036,7 +2036,7 @@
       "vol_char": "매도주도 🔴",
       "ch1": -7.84,
       "cap_class": "대형",
-      "entry_score": 2,
+      "entry_score": 3,
       "entry_stars": "★★",
       "entry_label": "주의"
     },
@@ -2045,7 +2045,7 @@
       "ticker": "403870",
       "name": "HPSP",
       "market": "KOSDAQ",
-      "tvol": 1312,
+      "tvol": 1313,
       "per": 0.0,
       "pbr": 0.0,
       "eps": 0.0,
@@ -2140,7 +2140,7 @@
       "vol_char": "매도주도 🔴",
       "ch1": -5.89,
       "cap_class": "대형",
-      "entry_score": 3,
+      "entry_score": 4,
       "entry_stars": "–",
       "entry_label": "등급 부적격"
     },
@@ -2192,7 +2192,7 @@
       "vol_char": "매도주도 🔴",
       "ch1": -4.7,
       "cap_class": "대형",
-      "entry_score": 0,
+      "entry_score": 1,
       "entry_stars": "★",
       "entry_label": "늦음"
     },
@@ -2244,7 +2244,7 @@
       "vol_char": "매도주도 🔴",
       "ch1": -5.27,
       "cap_class": "대형",
-      "entry_score": 1,
+      "entry_score": 2,
       "entry_stars": "–",
       "entry_label": "등급 부적격"
     }
@@ -2298,7 +2298,7 @@
       "vol_char": "매도주도 🔴",
       "ch1": -9.3,
       "cap_class": "대형",
-      "entry_score": 2,
+      "entry_score": 3,
       "entry_stars": "★★",
       "entry_label": "주의"
     },
@@ -2402,7 +2402,7 @@
       "vol_char": "매수주도 🟢",
       "ch1": 11.29,
       "cap_class": "대형",
-      "entry_score": 4,
+      "entry_score": 5,
       "entry_stars": "★★★",
       "entry_label": "보통"
     },
@@ -2454,7 +2454,7 @@
       "vol_char": "매도주도 🔴",
       "ch1": -4.75,
       "cap_class": "대형",
-      "entry_score": 4,
+      "entry_score": 5,
       "entry_stars": "★★★",
       "entry_label": "보통"
     },
@@ -2506,7 +2506,7 @@
       "vol_char": "매도주도 🔴",
       "ch1": -7.84,
       "cap_class": "대형",
-      "entry_score": 2,
+      "entry_score": 3,
       "entry_stars": "★★",
       "entry_label": "주의"
     }
