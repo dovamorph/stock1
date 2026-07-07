@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T08:11:35.166682+09:00",
+  "updated_at": "2026-07-07T12:45:22.146907+09:00",
   "date": "20260707",
   "window_days": 14,
   "sectors": [
@@ -85,7 +85,7 @@
         {
           "date": "20260707",
           "type": "positive",
-          "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
+          "headline": "[거시분석] Jailers and officials at Russia's 'torture pr...",
           "score": 1
         },
         {
@@ -208,8 +208,8 @@
         {
           "date": "20260707",
           "type": "negative",
-          "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
-          "score": -2
+          "headline": "[거시분석] Jailers and officials at Russia's 'torture pr...",
+          "score": -1
         },
         {
           "date": "20260706",
@@ -555,10 +555,10 @@
     },
     {
       "date": "20260707",
-      "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
+      "headline": "[거시분석] Jailers and officials at Russia's 'torture pr...",
       "impacts": {
         "방산": 1,
-        "전체시장": -2
+        "전체시장": -1
       },
       "source": "geo_categories"
     }
