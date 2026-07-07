@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T16:42:40.519126+09:00",
+  "updated_at": "2026-07-07T20:11:35.287956+09:00",
   "date": "20260707",
   "window_days": 14,
   "sectors": [
@@ -41,10 +41,16 @@
       ]
     },
     "건설": {
-      "score": -7,
+      "score": -8,
       "positive_count": 4,
-      "negative_count": 8,
+      "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20260707",
+          "type": "negative",
+          "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
+          "score": -1
+        },
         {
           "date": "20260706",
           "type": "negative",
@@ -68,12 +74,6 @@
           "type": "positive",
           "headline": "재건축론發 노선대결 가속…鄭 \"범진보 통합\"·金 \"판 확장해야\"(종합2보)",
           "score": 1
-        },
-        {
-          "date": "20260628",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
-          "score": -1
         }
       ]
     },
@@ -85,8 +85,8 @@
         {
           "date": "20260707",
           "type": "positive",
-          "headline": "[거시분석] Jailers and officials at Russia's 'torture pr...",
-          "score": 1
+          "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
+          "score": 2
         },
         {
           "date": "20260706",
@@ -127,10 +127,16 @@
       "recent_events": []
     },
     "금융": {
-      "score": -7,
+      "score": -8,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260707",
+          "type": "negative",
+          "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
+          "score": -1
+        },
         {
           "date": "20260706",
           "type": "negative",
@@ -154,24 +160,24 @@
           "type": "negative",
           "headline": "[거시분석] US strikes Iran after attack on cargo ship",
           "score": -1
-        },
-        {
-          "date": "20260626",
-          "type": "negative",
-          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 5,
-      "positive_count": 5,
+      "score": 6,
+      "positive_count": 6,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20260707",
           "type": "positive",
-          "headline": "[영상] 낡은 전투기 직접 몬 NASA 국장…\"트럼프가 원했다고!\"",
+          "headline": "국내 첫 농림위성 발사 성공…디지털 농업·산림관리 시대 연다",
+          "score": 1
+        },
+        {
+          "date": "20260707",
+          "type": "positive",
+          "headline": "한반도 지켜볼 '농림위성' 차중 4호 지상국 교신…발사 성공(종합3보)",
           "score": 1
         },
         {
@@ -191,12 +197,6 @@
           "type": "positive",
           "headline": "[베네수 강진] 스페이스X, '최대피해' 라과이라에 스타링크 무료 제공",
           "score": 1
-        },
-        {
-          "date": "20260623",
-          "type": "positive",
-          "headline": "Former PM says Israel smuggled Starlink internet systems into Iran",
-          "score": 1
         }
       ]
     },
@@ -214,8 +214,8 @@
         {
           "date": "20260707",
           "type": "negative",
-          "headline": "[거시분석] Jailers and officials at Russia's 'torture pr...",
-          "score": -1
+          "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
+          "score": -4
         },
         {
           "date": "20260706",
@@ -561,7 +561,7 @@
     },
     {
       "date": "20260707",
-      "headline": "[영상] 낡은 전투기 직접 몬 NASA 국장…\"트럼프가 원했다고!\"",
+      "headline": "국내 첫 농림위성 발사 성공…디지털 농업·산림관리 시대 연다",
       "impacts": {
         "우주ETF": 1
       },
@@ -569,15 +569,25 @@
     },
     {
       "date": "20260707",
-      "headline": "[거시분석] Jailers and officials at Russia's 'torture pr...",
+      "headline": "한반도 지켜볼 '농림위성' 차중 4호 지상국 교신…발사 성공(종합3보)",
       "impacts": {
-        "방산": 1,
-        "전체시장": -1
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260707",
+      "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
+      "impacts": {
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -4,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 39,
-  "total_positives": 33,
+  "total_negatives": 41,
+  "total_positives": 34,
   "risk_level": "EXTREME"
 }
