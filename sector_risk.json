@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T06:11:23.052574+09:00",
+  "updated_at": "2026-07-09T08:11:14.202870+09:00",
   "date": "20260709",
   "window_days": 14,
   "sectors": [
@@ -41,16 +41,10 @@
       ]
     },
     "건설": {
-      "score": -10,
+      "score": -9,
       "positive_count": 3,
-      "negative_count": 9,
+      "negative_count": 8,
       "recent_events": [
-        {
-          "date": "20260709",
-          "type": "negative",
-          "headline": "[거시분석] US launches new wave of strikes against Iran ...",
-          "score": -2
-        },
         {
           "date": "20260708",
           "type": "negative",
@@ -74,25 +68,25 @@
           "type": "negative",
           "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
           "score": -1
+        },
+        {
+          "date": "20260628",
+          "type": "positive",
+          "headline": "재건축론發 노선대결 가속…鄭 \"범진보 통합\"·金 \"판 확장해야\"(종합2보)",
+          "score": 1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 22,
+      "positive_count": 21,
       "negative_count": 1,
       "recent_events": [
         {
           "date": "20260709",
           "type": "positive",
-          "headline": "미군, 연이틀 호르무즈서 이란 공습…\"군통수권자 지시\"",
+          "headline": "[거시분석] US launches more strikes on Iran with blasts ...",
           "score": 1
-        },
-        {
-          "date": "20260709",
-          "type": "positive",
-          "headline": "[거시분석] US launches new wave of strikes against Iran ...",
-          "score": 3
         },
         {
           "date": "20260708",
@@ -111,6 +105,12 @@
           "type": "positive",
           "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
           "score": 1
+        },
+        {
+          "date": "20260706",
+          "type": "positive",
+          "headline": "레바논 매체 \"이스라엘군, 차량 표적 공습…4명 사망\"",
+          "score": 1
         }
       ]
     },
@@ -127,10 +127,16 @@
       "recent_events": []
     },
     "금융": {
-      "score": -7,
+      "score": -8,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260709",
+          "type": "negative",
+          "headline": "[거시분석] US launches more strikes on Iran with blasts ...",
+          "score": -1
+        },
         {
           "date": "20260707",
           "type": "negative",
@@ -153,12 +159,6 @@
           "date": "20260630",
           "type": "negative",
           "headline": "[거시분석] US envoys in Doha to meet mediators but not I...",
-          "score": -1
-        },
-        {
-          "date": "20260627",
-          "type": "negative",
-          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
           "score": -1
         }
       ]
@@ -202,8 +202,8 @@
         {
           "date": "20260709",
           "type": "negative",
-          "headline": "[거시분석] US launches new wave of strikes against Iran ...",
-          "score": -3
+          "headline": "[거시분석] US launches more strikes on Iran with blasts ...",
+          "score": -2
         },
         {
           "date": "20260708",
@@ -532,24 +532,16 @@
     },
     {
       "date": "20260709",
-      "headline": "미군, 연이틀 호르무즈서 이란 공습…\"군통수권자 지시\"",
+      "headline": "[거시분석] US launches more strikes on Iran with blasts ...",
       "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260709",
-      "headline": "[거시분석] US launches new wave of strikes against Iran ...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -3
+        "방산": 1,
+        "전체시장": -2,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 39,
-  "total_positives": 31,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
