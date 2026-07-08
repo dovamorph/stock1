@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T02:40:37.564792+09:00",
+  "updated_at": "2026-07-09T04:37:47.081836+09:00",
   "date": "20260709",
   "window_days": 14,
   "sectors": [
@@ -54,7 +54,7 @@
         {
           "date": "20260709",
           "type": "negative",
-          "headline": "[거시분석] Trump says ceasefire is 'over' after US and I...",
+          "headline": "[거시분석] Trump threatens more strikes on Iran as Tehra...",
           "score": -2
         },
         {
@@ -85,9 +85,15 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 24,
-      "negative_count": 1,
+      "positive_count": 22,
+      "negative_count": 2,
       "recent_events": [
+        {
+          "date": "20260709",
+          "type": "negative",
+          "headline": "이란 외무부 \"美, 종전 MOU 통째 위반…단호한 대응\"",
+          "score": -1
+        },
         {
           "date": "20260709",
           "type": "positive",
@@ -97,19 +103,7 @@
         {
           "date": "20260709",
           "type": "positive",
-          "headline": "이란 매체 \"미군의 남부 공습으로 군인 8명 사망\"",
-          "score": 1
-        },
-        {
-          "date": "20260709",
-          "type": "positive",
-          "headline": "이란, '하메네이 사망' 美·이스라엘 공습 직후 영상 공개",
-          "score": 1
-        },
-        {
-          "date": "20260709",
-          "type": "positive",
-          "headline": "[거시분석] Trump says ceasefire is 'over' after US and I...",
+          "headline": "[거시분석] Trump threatens more strikes on Iran as Tehra...",
           "score": 3
         },
         {
@@ -117,6 +111,12 @@
           "type": "positive",
           "headline": "트럼프, 이틀연속 대이란 공습 예고…\"아마 오늘밤 다시 공격\"",
           "score": 1
+        },
+        {
+          "date": "20260708",
+          "type": "positive",
+          "headline": "[거시분석] Trump says ceasefire is 'over' after US and I...",
+          "score": 3
         }
       ]
     },
@@ -140,7 +140,7 @@
         {
           "date": "20260709",
           "type": "negative",
-          "headline": "[거시분석] Trump says ceasefire is 'over' after US and I...",
+          "headline": "[거시분석] Trump threatens more strikes on Iran as Tehra...",
           "score": -1
         },
         {
@@ -202,14 +202,20 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 3,
+      "positive_count": 4,
       "negative_count": 19,
       "recent_events": [
         {
           "date": "20260709",
+          "type": "positive",
+          "headline": "이란 외무부 \"美, 종전 MOU 통째 위반…단호한 대응\"",
+          "score": 1
+        },
+        {
+          "date": "20260709",
           "type": "negative",
-          "headline": "[거시분석] Trump says ceasefire is 'over' after US and I...",
-          "score": -5
+          "headline": "[거시분석] Trump threatens more strikes on Iran as Tehra...",
+          "score": -4
         },
         {
           "date": "20260708",
@@ -228,12 +234,6 @@
           "type": "negative",
           "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
           "score": -3
-        },
-        {
-          "date": "20260706",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
-          "score": -5
         }
       ]
     }
@@ -538,6 +538,15 @@
     },
     {
       "date": "20260709",
+      "headline": "이란 외무부 \"美, 종전 MOU 통째 위반…단호한 대응\"",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260709",
       "headline": "애플, 브로드컴과 45조원 계약…\"미국산 칩 150억개 생산\"",
       "impacts": {
         "반도체·AI": -1
@@ -554,33 +563,17 @@
     },
     {
       "date": "20260709",
-      "headline": "이란 매체 \"미군의 남부 공습으로 군인 8명 사망\"",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260709",
-      "headline": "이란, '하메네이 사망' 美·이스라엘 공습 직후 영상 공개",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260709",
-      "headline": "[거시분석] Trump says ceasefire is 'over' after US and I...",
+      "headline": "[거시분석] Trump threatens more strikes on Iran as Tehra...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -5,
+        "전체시장": -4,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 41,
-  "total_positives": 33,
+  "total_negatives": 42,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
