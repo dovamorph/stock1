@@ -1,6 +1,6 @@
 {
   "date": "20260708",
-  "generated_at": "2026-07-08T18:01:18+09:00",
+  "generated_at": "2026-07-08T18:07:57+09:00",
   "reference_date": "20260707",
   "reference_ranks": {
     "000660": 1,
@@ -61,9 +61,9 @@
     "rsi_14": 29.5,
     "basis": null,
     "basis_signal": "조회불가",
-    "usdkrw": 1511.53,
-    "usdkrw_ch1": -1.13,
-    "usdkrw_ch5": -2.6,
+    "usdkrw": 1511.68,
+    "usdkrw_ch1": -1.12,
+    "usdkrw_ch5": -2.59,
     "kosdaq_ch1": -5.56,
     "kospi_ch1": -5.35,
     "kospi_ch2": -9.99,
@@ -98,7 +98,7 @@
     },
     "adr": 7.0,
     "adr_advances": 34,
-    "adr_declines": 449,
+    "adr_declines": 455,
     "adr_signal": "🔴",
     "adr_desc": "투매권 (7%) — 바닥 근접 가능",
     "breadth": {
@@ -713,8 +713,8 @@
       "macd_line": 0.0,
       "signal_line": 0.0,
       "macd_bull": null,
-      "frgn_net": 109808,
-      "orgn_net": -45330,
+      "frgn_net": 109893,
+      "orgn_net": -45559,
       "frgn_basis": "당일",
       "filters": {
         "roe_ok": false,
@@ -1748,7 +1748,7 @@
       "debt_ratio": 30.0,
       "ch20": 6.4,
       "ch5": 0.1,
-      "vol_trend": 9.3,
+      "vol_trend": 9.6,
       "rsi": 52.2,
       "macd_line": 0.0,
       "signal_line": 0.0,
@@ -1805,7 +1805,7 @@
       "macd_line": 0.0,
       "signal_line": 0.0,
       "macd_bull": null,
-      "frgn_net": 592826,
+      "frgn_net": 592845,
       "orgn_net": -180074,
       "frgn_basis": "당일",
       "filters": {
@@ -1857,8 +1857,8 @@
       "macd_line": 0.0,
       "signal_line": 0.0,
       "macd_bull": null,
-      "frgn_net": -106469,
-      "orgn_net": 565554,
+      "frgn_net": -106462,
+      "orgn_net": 565552,
       "frgn_basis": "당일",
       "filters": {
         "roe_ok": false,
@@ -2118,7 +2118,7 @@
       "signal_line": 0.0,
       "macd_bull": null,
       "frgn_net": -137901,
-      "orgn_net": 85506,
+      "orgn_net": 85505,
       "frgn_basis": "당일",
       "filters": {
         "roe_ok": false,
@@ -2221,8 +2221,8 @@
       "macd_line": 0.0,
       "signal_line": 0.0,
       "macd_bull": null,
-      "frgn_net": 344558,
-      "orgn_net": 6676,
+      "frgn_net": 344563,
+      "orgn_net": 6775,
       "frgn_basis": "당일",
       "filters": {
         "roe_ok": false,
@@ -2379,7 +2379,7 @@
       "macd_line": 0.0,
       "signal_line": 0.0,
       "macd_bull": null,
-      "frgn_net": 592826,
+      "frgn_net": 592845,
       "orgn_net": -180074,
       "frgn_basis": "당일",
       "filters": {
