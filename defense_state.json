@@ -6,16 +6,11 @@
   "blacklist": {},
   "daily_loss": 0,
   "total_loss": -408700,
-  "last_reset_date": "2026-07-07",
+  "last_reset_date": "2026-07-08",
   "gap_down_today": true,
-  "circuit_breaker_today": true,
+  "circuit_breaker_today": false,
   "hard_stop_active": false,
   "log": [
-    {
-      "time": "2026-07-02 04:07:28",
-      "level": "WARN",
-      "event": "갭다운 -4.68% [KOSPI]"
-    },
     {
       "time": "2026-07-02 04:32:35",
       "level": "WARN",
@@ -260,6 +255,11 @@
       "time": "2026-07-07 23:57:09",
       "level": "WARN",
       "event": "갭다운 -4.91% [KOSPI]"
+    },
+    {
+      "time": "2026-07-08 00:03:36",
+      "level": "WARN",
+      "event": "갭다운 -3.03% [KOSPI]"
     }
   ]
 }
