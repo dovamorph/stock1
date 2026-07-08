@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T04:37:47.081836+09:00",
+  "updated_at": "2026-07-09T06:11:23.052574+09:00",
   "date": "20260709",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -7,
+      "score": -6,
       "positive_count": 0,
-      "negative_count": 4,
+      "negative_count": 3,
       "recent_events": [
-        {
-          "date": "20260709",
-          "type": "negative",
-          "headline": "애플, 브로드컴과 45조원 계약…\"미국산 칩 150억개 생산\"",
-          "score": -1
-        },
         {
           "date": "20260701",
           "type": "negative",
@@ -54,7 +48,7 @@
         {
           "date": "20260709",
           "type": "negative",
-          "headline": "[거시분석] Trump threatens more strikes on Iran as Tehra...",
+          "headline": "[거시분석] US launches new wave of strikes against Iran ...",
           "score": -2
         },
         {
@@ -86,24 +80,18 @@
     "방산": {
       "score": 10,
       "positive_count": 22,
-      "negative_count": 2,
+      "negative_count": 1,
       "recent_events": [
         {
           "date": "20260709",
-          "type": "negative",
-          "headline": "이란 외무부 \"美, 종전 MOU 통째 위반…단호한 대응\"",
-          "score": -1
-        },
-        {
-          "date": "20260709",
           "type": "positive",
-          "headline": "트럼프 \"이란과 전쟁 재개는 아닐 것\"…단기간 공습 시사",
+          "headline": "미군, 연이틀 호르무즈서 이란 공습…\"군통수권자 지시\"",
           "score": 1
         },
         {
           "date": "20260709",
           "type": "positive",
-          "headline": "[거시분석] Trump threatens more strikes on Iran as Tehra...",
+          "headline": "[거시분석] US launches new wave of strikes against Iran ...",
           "score": 3
         },
         {
@@ -117,6 +105,12 @@
           "type": "positive",
           "headline": "[거시분석] Trump says ceasefire is 'over' after US and I...",
           "score": 3
+        },
+        {
+          "date": "20260707",
+          "type": "positive",
+          "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
+          "score": 1
         }
       ]
     },
@@ -133,16 +127,10 @@
       "recent_events": []
     },
     "금융": {
-      "score": -8,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20260709",
-          "type": "negative",
-          "headline": "[거시분석] Trump threatens more strikes on Iran as Tehra...",
-          "score": -1
-        },
         {
           "date": "20260707",
           "type": "negative",
@@ -165,6 +153,12 @@
           "date": "20260630",
           "type": "negative",
           "headline": "[거시분석] US envoys in Doha to meet mediators but not I...",
+          "score": -1
+        },
+        {
+          "date": "20260627",
+          "type": "negative",
+          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
           "score": -1
         }
       ]
@@ -202,20 +196,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 4,
+      "positive_count": 3,
       "negative_count": 19,
       "recent_events": [
         {
           "date": "20260709",
-          "type": "positive",
-          "headline": "이란 외무부 \"美, 종전 MOU 통째 위반…단호한 대응\"",
-          "score": 1
-        },
-        {
-          "date": "20260709",
           "type": "negative",
-          "headline": "[거시분석] Trump threatens more strikes on Iran as Tehra...",
-          "score": -4
+          "headline": "[거시분석] US launches new wave of strikes against Iran ...",
+          "score": -3
         },
         {
           "date": "20260708",
@@ -234,6 +222,12 @@
           "type": "negative",
           "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
           "score": -3
+        },
+        {
+          "date": "20260706",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
+          "score": -5
         }
       ]
     }
@@ -538,24 +532,7 @@
     },
     {
       "date": "20260709",
-      "headline": "이란 외무부 \"美, 종전 MOU 통째 위반…단호한 대응\"",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260709",
-      "headline": "애플, 브로드컴과 45조원 계약…\"미국산 칩 150억개 생산\"",
-      "impacts": {
-        "반도체·AI": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260709",
-      "headline": "트럼프 \"이란과 전쟁 재개는 아닐 것\"…단기간 공습 시사",
+      "headline": "미군, 연이틀 호르무즈서 이란 공습…\"군통수권자 지시\"",
       "impacts": {
         "방산": 1
       },
@@ -563,17 +540,16 @@
     },
     {
       "date": "20260709",
-      "headline": "[거시분석] Trump threatens more strikes on Iran as Tehra...",
+      "headline": "[거시분석] US launches new wave of strikes against Iran ...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -4,
-        "금융": -1
+        "전체시장": -3
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
-  "total_positives": 32,
+  "total_negatives": 39,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
