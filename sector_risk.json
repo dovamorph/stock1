@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-08T08:05:32.789907+09:00",
+  "updated_at": "2026-07-08T12:14:06.033192+09:00",
   "date": "20260708",
   "window_days": 14,
   "sectors": [
@@ -16,21 +16,15 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -7,
+      "score": -5,
       "positive_count": 1,
-      "negative_count": 4,
+      "negative_count": 3,
       "recent_events": [
         {
           "date": "20260708",
           "type": "positive",
           "headline": "Canadian province sues OpenAI over alleged ChatGPT-linked shooting warnings",
           "score": 1
-        },
-        {
-          "date": "20260708",
-          "type": "negative",
-          "headline": "[거시분석] US launches strikes on Iran after tankers hit...",
-          "score": -2
         },
         {
           "date": "20260701",
@@ -53,16 +47,10 @@
       ]
     },
     "건설": {
-      "score": -10,
+      "score": -8,
       "positive_count": 3,
-      "negative_count": 9,
+      "negative_count": 8,
       "recent_events": [
-        {
-          "date": "20260708",
-          "type": "negative",
-          "headline": "[거시분석] US launches strikes on Iran after tankers hit...",
-          "score": -2
-        },
         {
           "date": "20260706",
           "type": "negative",
@@ -86,31 +74,25 @@
           "type": "positive",
           "headline": "재건축론發 노선대결 가속…鄭 \"범진보 통합\"·金 \"판 확장해야\"(종합2보)",
           "score": 1
+        },
+        {
+          "date": "20260628",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
+          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 22,
+      "positive_count": 20,
       "negative_count": 2,
       "recent_events": [
         {
           "date": "20260708",
           "type": "positive",
-          "headline": "미, '호르무즈 상선 공격 계속' 이란에 공습·제재 '철퇴'(종합)",
-          "score": 1
-        },
-        {
-          "date": "20260708",
-          "type": "positive",
-          "headline": "[속보] 이란, 미군 공습에 \"약속 위반…단호한 대응\" 경고",
-          "score": 1
-        },
-        {
-          "date": "20260708",
-          "type": "positive",
           "headline": "[거시분석] US launches strikes on Iran after tankers hit...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260707",
@@ -123,21 +105,26 @@
           "type": "positive",
           "headline": "레바논 매체 \"이스라엘군, 차량 표적 공습…4명 사망\"",
           "score": 1
+        },
+        {
+          "date": "20260706",
+          "type": "positive",
+          "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
+          "score": 3
+        },
+        {
+          "date": "20260705",
+          "type": "positive",
+          "headline": "[거시분석] Iran's supreme leader absent as senior offici...",
+          "score": 1
         }
       ]
     },
     "전력·에너지": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 0,
+      "positive_count": 0,
       "negative_count": 0,
-      "recent_events": [
-        {
-          "date": "20260708",
-          "type": "positive",
-          "headline": "한미일, 인태지역 소형모듈원자로 도입 협력체 구축…각서 서명(종합)",
-          "score": 1
-        }
-      ]
+      "recent_events": []
     },
     "로봇": {
       "score": 0,
@@ -183,20 +170,14 @@
       ]
     },
     "우주ETF": {
-      "score": 5,
-      "positive_count": 5,
+      "score": 4,
+      "positive_count": 4,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20260708",
           "type": "positive",
           "headline": "Nasdaq vs Dow: How are the key indices different as SpaceX joins one?",
-          "score": 1
-        },
-        {
-          "date": "20260708",
-          "type": "positive",
-          "headline": "SpaceX shares slide as it joins the tech-heavy Nasdaq-100",
           "score": 1
         },
         {
@@ -234,7 +215,7 @@
           "date": "20260708",
           "type": "negative",
           "headline": "[거시분석] US launches strikes on Iran after tankers hit...",
-          "score": -6
+          "score": -1
         },
         {
           "date": "20260707",
@@ -579,49 +560,15 @@
     },
     {
       "date": "20260708",
-      "headline": "SpaceX shares slide as it joins the tech-heavy Nasdaq-100",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260708",
-      "headline": "한미일, 인태지역 소형모듈원자로 도입 협력체 구축…각서 서명(종합)",
-      "impacts": {
-        "전력·에너지": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260708",
-      "headline": "미, '호르무즈 상선 공격 계속' 이란에 공습·제재 '철퇴'(종합)",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260708",
-      "headline": "[속보] 이란, 미군 공습에 \"약속 위반…단호한 대응\" 경고",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260708",
       "headline": "[거시분석] US launches strikes on Iran after tankers hit...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -6,
-        "반도체·AI": -2
+        "방산": 1,
+        "전체시장": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 41,
-  "total_positives": 35,
+  "total_negatives": 39,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
