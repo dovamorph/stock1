@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-08T12:14:06.033192+09:00",
+  "updated_at": "2026-07-08T15:31:20.667608+09:00",
   "date": "20260708",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -5,
-      "positive_count": 1,
+      "score": -6,
+      "positive_count": 0,
       "negative_count": 3,
       "recent_events": [
-        {
-          "date": "20260708",
-          "type": "positive",
-          "headline": "Canadian province sues OpenAI over alleged ChatGPT-linked shooting warnings",
-          "score": 1
-        },
         {
           "date": "20260701",
           "type": "negative",
@@ -86,12 +80,18 @@
     "방산": {
       "score": 10,
       "positive_count": 20,
-      "negative_count": 2,
+      "negative_count": 3,
       "recent_events": [
         {
           "date": "20260708",
+          "type": "negative",
+          "headline": "Iran’s economy faces long road to recovery as fragile truce tested",
+          "score": -1
+        },
+        {
+          "date": "20260708",
           "type": "positive",
-          "headline": "[거시분석] US launches strikes on Iran after tankers hit...",
+          "headline": "[거시분석] US and Iran trade strikes after tankers hit i...",
           "score": 1
         },
         {
@@ -111,12 +111,6 @@
           "type": "positive",
           "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
           "score": 3
-        },
-        {
-          "date": "20260705",
-          "type": "positive",
-          "headline": "[거시분석] Iran's supreme leader absent as senior offici...",
-          "score": 1
         }
       ]
     },
@@ -170,16 +164,10 @@
       ]
     },
     "우주ETF": {
-      "score": 4,
-      "positive_count": 4,
+      "score": 3,
+      "positive_count": 3,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260708",
-          "type": "positive",
-          "headline": "Nasdaq vs Dow: How are the key indices different as SpaceX joins one?",
-          "score": 1
-        },
         {
           "date": "20260704",
           "type": "positive",
@@ -208,14 +196,20 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 3,
+      "positive_count": 4,
       "negative_count": 19,
       "recent_events": [
         {
           "date": "20260708",
+          "type": "positive",
+          "headline": "Iran’s economy faces long road to recovery as fragile truce tested",
+          "score": 1
+        },
+        {
+          "date": "20260708",
           "type": "negative",
-          "headline": "[거시분석] US launches strikes on Iran after tankers hit...",
-          "score": -1
+          "headline": "[거시분석] US and Iran trade strikes after tankers hit i...",
+          "score": -3
         },
         {
           "date": "20260707",
@@ -234,12 +228,6 @@
           "type": "negative",
           "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
           "score": -5
-        },
-        {
-          "date": "20260705",
-          "type": "negative",
-          "headline": "[거시분석] Iran's supreme leader absent as senior offici...",
-          "score": -2
         }
       ]
     }
@@ -544,31 +532,24 @@
     },
     {
       "date": "20260708",
-      "headline": "Nasdaq vs Dow: How are the key indices different as SpaceX joins one?",
+      "headline": "Iran’s economy faces long road to recovery as fragile truce tested",
       "impacts": {
-        "우주ETF": 1
+        "방산": -1,
+        "전체시장": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260708",
-      "headline": "Canadian province sues OpenAI over alleged ChatGPT-linked shooting warnings",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260708",
-      "headline": "[거시분석] US launches strikes on Iran after tankers hit...",
+      "headline": "[거시분석] US and Iran trade strikes after tankers hit i...",
       "impacts": {
         "방산": 1,
-        "전체시장": -1
+        "전체시장": -3
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 39,
-  "total_positives": 31,
+  "total_negatives": 40,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
