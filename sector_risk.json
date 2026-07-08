@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-08T23:22:27.850216+09:00",
-  "date": "20260708",
+  "updated_at": "2026-07-09T02:40:37.564792+09:00",
+  "date": "20260709",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -6,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 3,
+      "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20260709",
+          "type": "negative",
+          "headline": "애플, 브로드컴과 45조원 계약…\"미국산 칩 150억개 생산\"",
+          "score": -1
+        },
         {
           "date": "20260701",
           "type": "negative",
@@ -46,6 +52,12 @@
       "negative_count": 9,
       "recent_events": [
         {
+          "date": "20260709",
+          "type": "negative",
+          "headline": "[거시분석] Trump says ceasefire is 'over' after US and I...",
+          "score": -2
+        },
+        {
           "date": "20260708",
           "type": "negative",
           "headline": "[거시분석] Trump says ceasefire is 'over' after US and I...",
@@ -68,49 +80,43 @@
           "type": "negative",
           "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
           "score": -1
-        },
-        {
-          "date": "20260628",
-          "type": "positive",
-          "headline": "재건축론發 노선대결 가속…鄭 \"범진보 통합\"·金 \"판 확장해야\"(종합2보)",
-          "score": 1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 21,
-      "negative_count": 2,
+      "positive_count": 24,
+      "negative_count": 1,
       "recent_events": [
         {
-          "date": "20260708",
+          "date": "20260709",
           "type": "positive",
-          "headline": "트럼프, 이틀연속 대이란 공습 예고…\"아마 오늘밤 다시 공격\"",
+          "headline": "트럼프 \"이란과 전쟁 재개는 아닐 것\"…단기간 공습 시사",
           "score": 1
         },
         {
-          "date": "20260708",
+          "date": "20260709",
+          "type": "positive",
+          "headline": "이란 매체 \"미군의 남부 공습으로 군인 8명 사망\"",
+          "score": 1
+        },
+        {
+          "date": "20260709",
+          "type": "positive",
+          "headline": "이란, '하메네이 사망' 美·이스라엘 공습 직후 영상 공개",
+          "score": 1
+        },
+        {
+          "date": "20260709",
           "type": "positive",
           "headline": "[거시분석] Trump says ceasefire is 'over' after US and I...",
           "score": 3
         },
         {
-          "date": "20260707",
+          "date": "20260708",
           "type": "positive",
-          "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
+          "headline": "트럼프, 이틀연속 대이란 공습 예고…\"아마 오늘밤 다시 공격\"",
           "score": 1
-        },
-        {
-          "date": "20260706",
-          "type": "positive",
-          "headline": "레바논 매체 \"이스라엘군, 차량 표적 공습…4명 사망\"",
-          "score": 1
-        },
-        {
-          "date": "20260706",
-          "type": "positive",
-          "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
-          "score": 3
         }
       ]
     },
@@ -127,10 +133,16 @@
       "recent_events": []
     },
     "금융": {
-      "score": -7,
+      "score": -8,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260709",
+          "type": "negative",
+          "headline": "[거시분석] Trump says ceasefire is 'over' after US and I...",
+          "score": -1
+        },
         {
           "date": "20260707",
           "type": "negative",
@@ -153,12 +165,6 @@
           "date": "20260630",
           "type": "negative",
           "headline": "[거시분석] US envoys in Doha to meet mediators but not I...",
-          "score": -1
-        },
-        {
-          "date": "20260627",
-          "type": "negative",
-          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
           "score": -1
         }
       ]
@@ -200,6 +206,12 @@
       "negative_count": 19,
       "recent_events": [
         {
+          "date": "20260709",
+          "type": "negative",
+          "headline": "[거시분석] Trump says ceasefire is 'over' after US and I...",
+          "score": -5
+        },
+        {
           "date": "20260708",
           "type": "negative",
           "headline": "[거시분석] Trump says ceasefire is 'over' after US and I...",
@@ -222,35 +234,11 @@
           "type": "negative",
           "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
           "score": -5
-        },
-        {
-          "date": "20260705",
-          "type": "negative",
-          "headline": "[거시분석] Iran's supreme leader absent as senior offici...",
-          "score": -2
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260624",
-      "headline": "이스라엘, 이란 압박에도 '레바논 철군 불가' 요지부동",
-      "impacts": {
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260624",
-      "headline": "[거시분석] UN nuclear chief says inspectors will visit I...",
-      "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -4
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260625",
       "headline": "영국도 철강 관세 50％로 인상…정부 \"보상 협의 총력 대응\"",
@@ -547,9 +535,52 @@
         "전체시장": -5
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260709",
+      "headline": "애플, 브로드컴과 45조원 계약…\"미국산 칩 150억개 생산\"",
+      "impacts": {
+        "반도체·AI": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260709",
+      "headline": "트럼프 \"이란과 전쟁 재개는 아닐 것\"…단기간 공습 시사",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260709",
+      "headline": "이란 매체 \"미군의 남부 공습으로 군인 8명 사망\"",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260709",
+      "headline": "이란, '하메네이 사망' 美·이스라엘 공습 직후 영상 공개",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260709",
+      "headline": "[거시분석] Trump says ceasefire is 'over' after US and I...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 40,
-  "total_positives": 30,
+  "total_negatives": 41,
+  "total_positives": 33,
   "risk_level": "EXTREME"
 }
