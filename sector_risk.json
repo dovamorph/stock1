@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-08T15:31:20.667608+09:00",
+  "updated_at": "2026-07-08T19:22:09.428411+09:00",
   "date": "20260708",
   "window_days": 14,
   "sectors": [
@@ -41,10 +41,16 @@
       ]
     },
     "건설": {
-      "score": -8,
+      "score": -10,
       "positive_count": 3,
-      "negative_count": 8,
+      "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20260708",
+          "type": "negative",
+          "headline": "[거시분석] Russian fuel shortages bite – but will Putin ...",
+          "score": -2
+        },
         {
           "date": "20260706",
           "type": "negative",
@@ -68,12 +74,6 @@
           "type": "positive",
           "headline": "재건축론發 노선대결 가속…鄭 \"범진보 통합\"·金 \"판 확장해야\"(종합2보)",
           "score": 1
-        },
-        {
-          "date": "20260628",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
-          "score": -1
         }
       ]
     },
@@ -91,8 +91,8 @@
         {
           "date": "20260708",
           "type": "positive",
-          "headline": "[거시분석] US and Iran trade strikes after tankers hit i...",
-          "score": 1
+          "headline": "[거시분석] Russian fuel shortages bite – but will Putin ...",
+          "score": 3
         },
         {
           "date": "20260707",
@@ -127,10 +127,22 @@
       "recent_events": []
     },
     "금융": {
-      "score": -7,
+      "score": -10,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20260708",
+          "type": "negative",
+          "headline": "뉴질랜드, 3년만에 첫 기준금리 인상…중동전쟁 여파",
+          "score": -1
+        },
+        {
+          "date": "20260708",
+          "type": "negative",
+          "headline": "[거시분석] Russian fuel shortages bite – but will Putin ...",
+          "score": -3
+        },
         {
           "date": "20260707",
           "type": "negative",
@@ -147,18 +159,6 @@
           "date": "20260702",
           "type": "negative",
           "headline": "[거시분석] Gaza patients face agonising delays for medic...",
-          "score": -1
-        },
-        {
-          "date": "20260630",
-          "type": "negative",
-          "headline": "[거시분석] US envoys in Doha to meet mediators but not I...",
-          "score": -1
-        },
-        {
-          "date": "20260627",
-          "type": "negative",
-          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
           "score": -1
         }
       ]
@@ -208,8 +208,8 @@
         {
           "date": "20260708",
           "type": "negative",
-          "headline": "[거시분석] US and Iran trade strikes after tankers hit i...",
-          "score": -3
+          "headline": "[거시분석] Russian fuel shortages bite – but will Putin ...",
+          "score": -6
         },
         {
           "date": "20260707",
@@ -541,15 +541,25 @@
     },
     {
       "date": "20260708",
-      "headline": "[거시분석] US and Iran trade strikes after tankers hit i...",
+      "headline": "뉴질랜드, 3년만에 첫 기준금리 인상…중동전쟁 여파",
       "impacts": {
-        "방산": 1,
-        "전체시장": -3
+        "금융": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260708",
+      "headline": "[거시분석] Russian fuel shortages bite – but will Putin ...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -6,
+        "금융": -3
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 40,
+  "total_negatives": 43,
   "total_positives": 30,
   "risk_level": "EXTREME"
 }
