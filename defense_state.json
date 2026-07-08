@@ -12,11 +12,6 @@
   "hard_stop_active": false,
   "log": [
     {
-      "time": "2026-07-02 07:53:43",
-      "level": "WARN",
-      "event": "갭다운 -7.89% [KOSPI]"
-    },
-    {
       "time": "2026-07-02 08:03:17",
       "level": "WARN",
       "event": "갭다운 -7.89% [KOSPI]"
@@ -260,6 +255,11 @@
       "time": "2026-07-08 06:16:28",
       "level": "WARN",
       "event": "갭다운 -5.66% [KOSPI]"
+    },
+    {
+      "time": "2026-07-08 06:33:35",
+      "level": "WARN",
+      "event": "갭다운 -5.35% [KOSPI]"
     }
   ]
 }
