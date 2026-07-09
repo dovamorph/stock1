@@ -1,16 +1,16 @@
 {
   "expiry_date": "2026-07-09",
   "d_day": 0,
-  "updated": "2026-07-09 13:33",
+  "updated": "2026-07-09 14:08",
   "deadline_time": "15:20",
-  "deadline_str": "1시간 46분 후 마감",
+  "deadline_str": "1시간 11분 후 마감",
   "guard": {
     "allow_new_longterm": false,
-    "allow_new_daytrend": true,
-    "sell_priority": false,
+    "allow_new_daytrend": false,
+    "sell_priority": true,
     "score_penalty": 3,
     "pos_mult_adj": -0.5,
-    "note": "만기일 오후 — 방향 확인 후 소규모 단타 가능",
-    "action_note": "🟡 방향이 잡혔다면 단타 소규모만 가능합니다. 무리한 진입은 금물, 빠른 익절이 원칙입니다."
+    "note": "만기일 마감 전 — 익절 청산 구간",
+    "action_note": "🔴 신규진입 금지. 지금 들어가면 마감 변동성에 휘말립니다. 보유 중이라면 익절 가능한 것부터 정리하세요."
   }
 }
