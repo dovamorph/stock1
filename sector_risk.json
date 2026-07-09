@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10T04:58:45.581605+09:00",
+  "updated_at": "2026-07-10T06:37:23.919342+09:00",
   "date": "20260710",
   "window_days": 14,
   "sectors": [
@@ -35,7 +35,7 @@
       ]
     },
     "건설": {
-      "score": -10,
+      "score": -9,
       "positive_count": 3,
       "negative_count": 8,
       "recent_events": [
@@ -43,7 +43,7 @@
           "date": "20260710",
           "type": "negative",
           "headline": "[거시분석] Tehran launches more strikes after explosions...",
-          "score": -2
+          "score": -1
         },
         {
           "date": "20260708",
@@ -73,26 +73,14 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 22,
+      "positive_count": 20,
       "negative_count": 1,
       "recent_events": [
         {
           "date": "20260710",
           "type": "positive",
-          "headline": "이스라엘 국방 \"대이란 작전 재개 준비돼…필요시 3번째 공습도\"(종합)",
-          "score": 1
-        },
-        {
-          "date": "20260710",
-          "type": "positive",
-          "headline": "이스라엘 국방 \"대이란 군사작전 재개 준비돼…독자공습도 가능\"",
-          "score": 1
-        },
-        {
-          "date": "20260710",
-          "type": "positive",
           "headline": "[거시분석] Tehran launches more strikes after explosions...",
-          "score": 3
+          "score": 2
         },
         {
           "date": "20260709",
@@ -104,6 +92,18 @@
           "date": "20260708",
           "type": "positive",
           "headline": "트럼프, 이틀연속 대이란 공습 예고…\"아마 오늘밤 다시 공격\"",
+          "score": 1
+        },
+        {
+          "date": "20260708",
+          "type": "positive",
+          "headline": "[거시분석] Trump says ceasefire is 'over' after US and I...",
+          "score": 3
+        },
+        {
+          "date": "20260707",
+          "type": "positive",
+          "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
           "score": 1
         }
       ]
@@ -121,16 +121,10 @@
       "recent_events": []
     },
     "금융": {
-      "score": -7,
+      "score": -6,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20260710",
-          "type": "negative",
-          "headline": "[거시분석] Tehran launches more strikes after explosions...",
-          "score": -1
-        },
         {
           "date": "20260707",
           "type": "negative",
@@ -153,6 +147,12 @@
           "date": "20260630",
           "type": "negative",
           "headline": "[거시분석] US envoys in Doha to meet mediators but not I...",
+          "score": -1
+        },
+        {
+          "date": "20260627",
+          "type": "negative",
+          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
           "score": -1
         }
       ]
@@ -191,19 +191,13 @@
     "전체시장": {
       "score": -10,
       "positive_count": 3,
-      "negative_count": 19,
+      "negative_count": 18,
       "recent_events": [
         {
           "date": "20260710",
           "type": "negative",
-          "headline": "정부, 美 '301조 공청회' 출석…\"강제노동 12.5% 관세는 부당\"",
-          "score": -1
-        },
-        {
-          "date": "20260710",
-          "type": "negative",
           "headline": "[거시분석] Tehran launches more strikes after explosions...",
-          "score": -5
+          "score": -2
         },
         {
           "date": "20260709",
@@ -222,6 +216,12 @@
           "type": "negative",
           "headline": "트럼프 \"도요타의 멕시코 생산시설 텍사스 이전은 관세영향\"",
           "score": -1
+        },
+        {
+          "date": "20260707",
+          "type": "negative",
+          "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
+          "score": -3
         }
       ]
     }
@@ -507,41 +507,16 @@
     },
     {
       "date": "20260710",
-      "headline": "정부, 美 '301조 공청회' 출석…\"강제노동 12.5% 관세는 부당\"",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260710",
-      "headline": "이스라엘 국방 \"대이란 작전 재개 준비돼…필요시 3번째 공습도\"(종합)",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260710",
-      "headline": "이스라엘 국방 \"대이란 군사작전 재개 준비돼…독자공습도 가능\"",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260710",
       "headline": "[거시분석] Tehran launches more strikes after explosions...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
-        "금융": -1
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 37,
-  "total_positives": 31,
+  "total_negatives": 35,
+  "total_positives": 29,
   "risk_level": "EXTREME"
 }
