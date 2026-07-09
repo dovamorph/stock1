@@ -1,6 +1,6 @@
 {
   "date": "20260709",
-  "generated_at": "2026-07-09T18:31:14+09:00",
+  "generated_at": "2026-07-09T19:01:23+09:00",
   "reference_date": "20260708",
   "reference_ranks": {
     "000660": 1,
@@ -48,23 +48,23 @@
   "market_signal": {
     "reason": "MA5<MA20 데드크로스 · MA20>MA60 중기 상승 · 5일 -9.8%↓",
     "kospi_close": 7291.91,
-    "ma5": 7699.25,
-    "ma20": 8341.33,
-    "ma60": 7663.2,
+    "ma5": 7666.94,
+    "ma20": 8333.25,
+    "ma60": 7660.51,
     "kospi_ch5": -9.85,
     "kospi_ch20": -10.24,
     "aligned": "혼조",
     "kosdaq_close": 794.0,
-    "kosdaq_ch5": -6.21,
+    "kosdaq_ch5": -8.57,
     "kosdaq_aligned": "역배열",
-    "kosdaq_rsi": 31.8,
-    "rsi_14": 32.7,
+    "kosdaq_rsi": 28.3,
+    "rsi_14": 30.3,
     "basis": null,
     "basis_signal": "조회불가",
-    "usdkrw": 1512.88,
-    "usdkrw_ch1": -0.46,
-    "usdkrw_ch5": -1.9,
-    "kosdaq_ch1": -2.51,
+    "usdkrw": 1512.15,
+    "usdkrw_ch1": -0.51,
+    "usdkrw_ch5": -1.94,
+    "kosdaq_ch1": 1.15,
     "kospi_ch1": 0.62,
     "kospi_ch2": -4.76,
     "kospi_high60": 9114.55,
@@ -96,18 +96,18 @@
       "ndx_ch1": 0.2,
       "ndx_ma60": 25691.57
     },
-    "adr": 37.3,
+    "adr": 37.6,
     "adr_advances": 184,
-    "adr_declines": 309,
+    "adr_declines": 305,
     "adr_signal": "🔴",
-    "adr_desc": "투매권 (37%) — 바닥 근접 가능",
+    "adr_desc": "투매권 (38%) — 바닥 근접 가능",
     "breadth": {
-      "regime": "혼조",
-      "label": "혼조 ⚪",
-      "desc": "뚜렷한 쏠림 없음",
+      "regime": "중소형우위",
+      "label": "중소형우위 🟡",
+      "desc": "코스닥>코스피 — 중소형/테마 장",
       "kospi_ch1": 0.62,
-      "kosdaq_ch1": -2.51,
-      "adr": 37.3
+      "kosdaq_ch1": 1.15,
+      "adr": 37.6
     },
     "pool_flow": {
       "total": 40,
@@ -146,10 +146,10 @@
       ]
     },
     "rotation": {
-      "active": false,
-      "level": "없음",
-      "color": "var(--muted)",
-      "reason": "코스닥 상대강세 없음"
+      "active": true,
+      "level": "초기",
+      "color": "#e0b020",
+      "reason": "코스닥이 코스피 대비 +0.5%p 선방 (순환매 초기 조짐)"
     },
     "correction_nature": {
       "verdict": "추세 전환 경계",
