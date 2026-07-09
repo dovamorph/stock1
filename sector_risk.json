@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-09T20:02:52.389390+09:00",
-  "date": "20260709",
+  "updated_at": "2026-07-10T00:17:13.111130+09:00",
+  "date": "20260710",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,9 +16,9 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -6,
+      "score": -4,
       "positive_count": 0,
-      "negative_count": 3,
+      "negative_count": 2,
       "recent_events": [
         {
           "date": "20260701",
@@ -31,20 +31,26 @@
           "type": "negative",
           "headline": "[거시분석] US strikes Iran after attack on cargo ship",
           "score": -2
-        },
-        {
-          "date": "20260625",
-          "type": "negative",
-          "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
-          "score": -2
         }
       ]
     },
     "건설": {
       "score": -9,
-      "positive_count": 3,
+      "positive_count": 4,
       "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260710",
+          "type": "positive",
+          "headline": "우크라 \"美와 설립한 재건기금, 올해 핵심 광물에 대규모 투자\"",
+          "score": 1
+        },
+        {
+          "date": "20260710",
+          "type": "negative",
+          "headline": "[거시분석] Iran launches more strikes after accusing US ...",
+          "score": -2
+        },
         {
           "date": "20260708",
           "type": "negative",
@@ -62,26 +68,20 @@
           "type": "negative",
           "headline": "[거시분석] Gaza patients face agonising delays for medic...",
           "score": -2
-        },
-        {
-          "date": "20260629",
-          "type": "negative",
-          "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
-          "score": -1
-        },
-        {
-          "date": "20260628",
-          "type": "positive",
-          "headline": "재건축론發 노선대결 가속…鄭 \"범진보 통합\"·金 \"판 확장해야\"(종합2보)",
-          "score": 1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 21,
+      "positive_count": 20,
       "negative_count": 1,
       "recent_events": [
+        {
+          "date": "20260710",
+          "type": "positive",
+          "headline": "[거시분석] Iran launches more strikes after accusing US ...",
+          "score": 3
+        },
         {
           "date": "20260709",
           "type": "positive",
@@ -105,12 +105,6 @@
           "type": "positive",
           "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
           "score": 1
-        },
-        {
-          "date": "20260706",
-          "type": "positive",
-          "headline": "레바논 매체 \"이스라엘군, 차량 표적 공습…4명 사망\"",
-          "score": 1
         }
       ]
     },
@@ -127,9 +121,9 @@
       "recent_events": []
     },
     "금융": {
-      "score": -7,
+      "score": -6,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
         {
           "date": "20260707",
@@ -197,8 +191,14 @@
     "전체시장": {
       "score": -10,
       "positive_count": 3,
-      "negative_count": 19,
+      "negative_count": 18,
       "recent_events": [
+        {
+          "date": "20260710",
+          "type": "negative",
+          "headline": "[거시분석] Iran launches more strikes after accusing US ...",
+          "score": -4
+        },
         {
           "date": "20260709",
           "type": "negative",
@@ -222,45 +222,11 @@
           "type": "negative",
           "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
           "score": -3
-        },
-        {
-          "date": "20260706",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
-          "score": -5
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260625",
-      "headline": "영국도 철강 관세 50％로 인상…정부 \"보상 협의 총력 대응\"",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260625",
-      "headline": "\"'오스만 철도 부활' 튀르키예 막으려…이스라엘, 물밑 외교전\"",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260625",
-      "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
-      "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -7,
-        "금융": -1,
-        "반도체·AI": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260626",
       "headline": "우크라 '40일 작전' 선언 후 대공습…러, 크림반도에 비상사태",
@@ -538,9 +504,27 @@
         "전체시장": -3
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260710",
+      "headline": "우크라 \"美와 설립한 재건기금, 올해 핵심 광물에 대규모 투자\"",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260710",
+      "headline": "[거시분석] Iran launches more strikes after accusing US ...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -4
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 38,
+  "total_negatives": 35,
   "total_positives": 30,
   "risk_level": "EXTREME"
 }
