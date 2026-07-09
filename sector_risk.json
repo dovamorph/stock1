@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10T06:37:23.919342+09:00",
+  "updated_at": "2026-07-10T08:15:05.972425+09:00",
   "date": "20260710",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -4,
-      "positive_count": 0,
+      "score": -3,
+      "positive_count": 1,
       "negative_count": 2,
       "recent_events": [
+        {
+          "date": "20260710",
+          "type": "positive",
+          "headline": "NYT-led group asks court to sanction OpenAI in US copyright dispute",
+          "score": 1
+        },
         {
           "date": "20260701",
           "type": "negative",
@@ -35,16 +41,10 @@
       ]
     },
     "건설": {
-      "score": -9,
+      "score": -8,
       "positive_count": 3,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20260710",
-          "type": "negative",
-          "headline": "[거시분석] Tehran launches more strikes after explosions...",
-          "score": -1
-        },
         {
           "date": "20260708",
           "type": "negative",
@@ -68,6 +68,12 @@
           "type": "negative",
           "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
           "score": -1
+        },
+        {
+          "date": "20260628",
+          "type": "positive",
+          "headline": "재건축론發 노선대결 가속…鄭 \"범진보 통합\"·金 \"판 확장해야\"(종합2보)",
+          "score": 1
         }
       ]
     },
@@ -79,8 +85,8 @@
         {
           "date": "20260710",
           "type": "positive",
-          "headline": "[거시분석] Tehran launches more strikes after explosions...",
-          "score": 2
+          "headline": "[거시분석] US and Iran trade attacks as Khamenei is buri...",
+          "score": 1
         },
         {
           "date": "20260709",
@@ -191,12 +197,18 @@
     "전체시장": {
       "score": -10,
       "positive_count": 3,
-      "negative_count": 18,
+      "negative_count": 19,
       "recent_events": [
         {
           "date": "20260710",
           "type": "negative",
-          "headline": "[거시분석] Tehran launches more strikes after explosions...",
+          "headline": "美, 항공기·부품 232조 조사 완료…관세 즉각 부과 않기로",
+          "score": -1
+        },
+        {
+          "date": "20260710",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran trade attacks as Khamenei is buri...",
           "score": -2
         },
         {
@@ -216,12 +228,6 @@
           "type": "negative",
           "headline": "트럼프 \"도요타의 멕시코 생산시설 텍사스 이전은 관세영향\"",
           "score": -1
-        },
-        {
-          "date": "20260707",
-          "type": "negative",
-          "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
-          "score": -3
         }
       ]
     }
@@ -507,16 +513,31 @@
     },
     {
       "date": "20260710",
-      "headline": "[거시분석] Tehran launches more strikes after explosions...",
+      "headline": "NYT-led group asks court to sanction OpenAI in US copyright dispute",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260710",
+      "headline": "美, 항공기·부품 232조 조사 완료…관세 즉각 부과 않기로",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260710",
+      "headline": "[거시분석] US and Iran trade attacks as Khamenei is buri...",
+      "impacts": {
+        "방산": 1,
         "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 35,
-  "total_positives": 29,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
