@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T12:37:57.206612+09:00",
+  "updated_at": "2026-07-09T16:39:39.034776+09:00",
   "date": "20260709",
   "window_days": 14,
   "sectors": [
@@ -41,16 +41,10 @@
       ]
     },
     "건설": {
-      "score": -10,
+      "score": -9,
       "positive_count": 3,
-      "negative_count": 9,
+      "negative_count": 8,
       "recent_events": [
-        {
-          "date": "20260709",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine to get licence to produce Patriot mis...",
-          "score": -2
-        },
         {
           "date": "20260708",
           "type": "negative",
@@ -74,6 +68,12 @@
           "type": "negative",
           "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
           "score": -1
+        },
+        {
+          "date": "20260628",
+          "type": "positive",
+          "headline": "재건축론發 노선대결 가속…鄭 \"범진보 통합\"·金 \"판 확장해야\"(종합2보)",
+          "score": 1
         }
       ]
     },
@@ -85,8 +85,8 @@
         {
           "date": "20260709",
           "type": "positive",
-          "headline": "[거시분석] Ukraine to get licence to produce Patriot mis...",
-          "score": 3
+          "headline": "[거시분석] US launches more strikes on Iran with blasts ...",
+          "score": 1
         },
         {
           "date": "20260708",
@@ -202,8 +202,8 @@
         {
           "date": "20260709",
           "type": "negative",
-          "headline": "[거시분석] Ukraine to get licence to produce Patriot mis...",
-          "score": -3
+          "headline": "[거시분석] US launches more strikes on Iran with blasts ...",
+          "score": -2
         },
         {
           "date": "20260708",
@@ -532,16 +532,15 @@
     },
     {
       "date": "20260709",
-      "headline": "[거시분석] Ukraine to get licence to produce Patriot mis...",
+      "headline": "[거시분석] US launches more strikes on Iran with blasts ...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -3
+        "방산": 1,
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 39,
+  "total_negatives": 38,
   "total_positives": 30,
   "risk_level": "EXTREME"
 }
