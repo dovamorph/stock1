@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T16:39:39.034776+09:00",
+  "updated_at": "2026-07-09T20:02:52.389390+09:00",
   "date": "20260709",
   "window_days": 14,
   "sectors": [
@@ -85,7 +85,7 @@
         {
           "date": "20260709",
           "type": "positive",
-          "headline": "[거시분석] US launches more strikes on Iran with blasts ...",
+          "headline": "[거시분석] US and Iran trade strikes for second night in...",
           "score": 1
         },
         {
@@ -202,8 +202,8 @@
         {
           "date": "20260709",
           "type": "negative",
-          "headline": "[거시분석] US launches more strikes on Iran with blasts ...",
-          "score": -2
+          "headline": "[거시분석] US and Iran trade strikes for second night in...",
+          "score": -3
         },
         {
           "date": "20260708",
@@ -532,10 +532,10 @@
     },
     {
       "date": "20260709",
-      "headline": "[거시분석] US launches more strikes on Iran with blasts ...",
+      "headline": "[거시분석] US and Iran trade strikes for second night in...",
       "impacts": {
         "방산": 1,
-        "전체시장": -2
+        "전체시장": -3
       },
       "source": "geo_categories"
     }
