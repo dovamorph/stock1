@@ -1,9 +1,9 @@
 {
   "expiry_date": "2026-07-09",
   "d_day": 0,
-  "updated": "2026-07-09 11:33",
+  "updated": "2026-07-09 12:03",
   "deadline_time": "15:20",
-  "deadline_str": "3시간 46분 후 마감",
+  "deadline_str": "3시간 16분 후 마감",
   "guard": {
     "allow_new_longterm": false,
     "allow_new_daytrend": false,
