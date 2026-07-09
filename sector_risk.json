@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10T00:17:13.111130+09:00",
+  "updated_at": "2026-07-10T02:58:54.447287+09:00",
   "date": "20260710",
   "window_days": 14,
   "sectors": [
@@ -48,7 +48,7 @@
         {
           "date": "20260710",
           "type": "negative",
-          "headline": "[거시분석] Iran launches more strikes after accusing US ...",
+          "headline": "[거시분석] Tehran launches more strikes after explosions...",
           "score": -2
         },
         {
@@ -73,13 +73,25 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 20,
+      "positive_count": 22,
       "negative_count": 1,
       "recent_events": [
         {
           "date": "20260710",
           "type": "positive",
-          "headline": "[거시분석] Iran launches more strikes after accusing US ...",
+          "headline": "이스라엘 국방 \"대이란 작전 재개 준비돼…필요시 3번째 공습도\"(종합)",
+          "score": 1
+        },
+        {
+          "date": "20260710",
+          "type": "positive",
+          "headline": "이스라엘 국방 \"대이란 군사작전 재개 준비돼…독자공습도 가능\"",
+          "score": 1
+        },
+        {
+          "date": "20260710",
+          "type": "positive",
+          "headline": "[거시분석] Tehran launches more strikes after explosions...",
           "score": 3
         },
         {
@@ -92,18 +104,6 @@
           "date": "20260708",
           "type": "positive",
           "headline": "트럼프, 이틀연속 대이란 공습 예고…\"아마 오늘밤 다시 공격\"",
-          "score": 1
-        },
-        {
-          "date": "20260708",
-          "type": "positive",
-          "headline": "[거시분석] Trump says ceasefire is 'over' after US and I...",
-          "score": 3
-        },
-        {
-          "date": "20260707",
-          "type": "positive",
-          "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
           "score": 1
         }
       ]
@@ -121,10 +121,16 @@
       "recent_events": []
     },
     "금융": {
-      "score": -6,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260710",
+          "type": "negative",
+          "headline": "[거시분석] Tehran launches more strikes after explosions...",
+          "score": -1
+        },
         {
           "date": "20260707",
           "type": "negative",
@@ -147,12 +153,6 @@
           "date": "20260630",
           "type": "negative",
           "headline": "[거시분석] US envoys in Doha to meet mediators but not I...",
-          "score": -1
-        },
-        {
-          "date": "20260627",
-          "type": "negative",
-          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
           "score": -1
         }
       ]
@@ -196,8 +196,8 @@
         {
           "date": "20260710",
           "type": "negative",
-          "headline": "[거시분석] Iran launches more strikes after accusing US ...",
-          "score": -4
+          "headline": "[거시분석] Tehran launches more strikes after explosions...",
+          "score": -5
         },
         {
           "date": "20260709",
@@ -507,6 +507,22 @@
     },
     {
       "date": "20260710",
+      "headline": "이스라엘 국방 \"대이란 작전 재개 준비돼…필요시 3번째 공습도\"(종합)",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260710",
+      "headline": "이스라엘 국방 \"대이란 군사작전 재개 준비돼…독자공습도 가능\"",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260710",
       "headline": "우크라 \"美와 설립한 재건기금, 올해 핵심 광물에 대규모 투자\"",
       "impacts": {
         "건설": 1
@@ -515,16 +531,17 @@
     },
     {
       "date": "20260710",
-      "headline": "[거시분석] Iran launches more strikes after accusing US ...",
+      "headline": "[거시분석] Tehran launches more strikes after explosions...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -4
+        "전체시장": -5,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 35,
-  "total_positives": 30,
+  "total_negatives": 36,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
