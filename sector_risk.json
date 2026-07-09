@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10T02:58:54.447287+09:00",
+  "updated_at": "2026-07-10T04:58:45.581605+09:00",
   "date": "20260710",
   "window_days": 14,
   "sectors": [
@@ -35,16 +35,10 @@
       ]
     },
     "건설": {
-      "score": -9,
-      "positive_count": 4,
+      "score": -10,
+      "positive_count": 3,
       "negative_count": 8,
       "recent_events": [
-        {
-          "date": "20260710",
-          "type": "positive",
-          "headline": "우크라 \"美와 설립한 재건기금, 올해 핵심 광물에 대규모 투자\"",
-          "score": 1
-        },
         {
           "date": "20260710",
           "type": "negative",
@@ -68,6 +62,12 @@
           "type": "negative",
           "headline": "[거시분석] Gaza patients face agonising delays for medic...",
           "score": -2
+        },
+        {
+          "date": "20260629",
+          "type": "negative",
+          "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
+          "score": -1
         }
       ]
     },
@@ -191,8 +191,14 @@
     "전체시장": {
       "score": -10,
       "positive_count": 3,
-      "negative_count": 18,
+      "negative_count": 19,
       "recent_events": [
+        {
+          "date": "20260710",
+          "type": "negative",
+          "headline": "정부, 美 '301조 공청회' 출석…\"강제노동 12.5% 관세는 부당\"",
+          "score": -1
+        },
         {
           "date": "20260710",
           "type": "negative",
@@ -216,12 +222,6 @@
           "type": "negative",
           "headline": "트럼프 \"도요타의 멕시코 생산시설 텍사스 이전은 관세영향\"",
           "score": -1
-        },
-        {
-          "date": "20260707",
-          "type": "negative",
-          "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
-          "score": -3
         }
       ]
     }
@@ -507,6 +507,14 @@
     },
     {
       "date": "20260710",
+      "headline": "정부, 美 '301조 공청회' 출석…\"강제노동 12.5% 관세는 부당\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260710",
       "headline": "이스라엘 국방 \"대이란 작전 재개 준비돼…필요시 3번째 공습도\"(종합)",
       "impacts": {
         "방산": 1
@@ -523,14 +531,6 @@
     },
     {
       "date": "20260710",
-      "headline": "우크라 \"美와 설립한 재건기금, 올해 핵심 광물에 대규모 투자\"",
-      "impacts": {
-        "건설": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260710",
       "headline": "[거시분석] Tehran launches more strikes after explosions...",
       "impacts": {
         "방산": 3,
@@ -541,7 +541,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 36,
-  "total_positives": 32,
+  "total_negatives": 37,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }

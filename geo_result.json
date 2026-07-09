@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10 02:58",
+  "updated": "2026-07-10 04:58",
   "news_count": 86,
   "intl_count": 56,
   "domestic_count": 30,
@@ -51,12 +51,18 @@
     "Watch: Gaza football fans watch World Cup from rubble",
     "New video shows man believed to be Tyler Robinson before Charlie Kirk shooting",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "How Lyhanna’s rape and murder put France’s justice system under scrutiny",
+    "Is Syria stable enough to engage with the world?",
+    "Deadly fire breaks out at shoe factory in China",
+    "US expands Iran strikes Iran hitting  fishing piers near nuclear plant",
+    "England’s Quansah banned for two matches after World Cup last-16 red card",
+    "Israeli attacks on Gaza kill 10 people in 24 hours despite ‘ceasefire’",
     "Mexico to seek US criminal complaints over ICE-related deaths of citizens",
     "Gaza artists honour Egypt coach Hossam Hassan with sand portrait",
     "Palestinian legislative elections set for November 28",
     "Is this France’s far-right National Rally’s best chance to take power?",
     "Will NATO get involved in securing Strait of Hormuz?",
-    "LIVE: France vs Morocco – FIFA World Cup 2026 quarterfinal",
+    "France vs Morocco LIVE: FIFA World Cup 2026 quarterfinal",
     "Former US Olympian pleads not guilty in DC reflecting pool vandalism case",
     "A quest for closure: In search of the missing after Venezuela’s earthquakes",
     "Chemical weapons watchdog restores Syria’s voting rights, citing progress",
@@ -70,12 +76,17 @@
     "FIFA World Cup: Which quarterfinal team has best chance to win the trophy?",
     "Graham Platner drops Maine Senate bid: What that means for Democrats",
     "EU lawmakers call for probe into FIFA’s Infantino",
-    "Indonesian farmer goes viral using a drone as transportation",
-    "Trump targets Spain, NATO backs Ukraine: Is the alliance still united?",
-    "Mosque model placed on top of Northern Ireland bonfire",
-    "Ukraine targets Russian oil depots and tankers in drone attacks",
-    "Videos show interception of Iranian missiles in skies over Jordan",
-    "FIFA World Cup 2026: What happened to the beautiful game?",
+    "이란 매체 \"부셰르 외곽 군기지, 미·이스라엘 발사체에 피격\"(종합)",
+    "미·이란 긴장에도 경기둔화 우려 부각…국제유가 2%↓",
+    "정부, 美 '301조 공청회' 출석…\"강제노동 12.5% 관세는 부당\"",
+    "경기 포천에 호우주의보…연천·파주서북부에 호우주의보 유지",
+    "오픈AI, GPT-5.6 일반에 공개…올트먼 \"정부와 논의해 대폭변경\"",
+    "◇내일의 월드컵(11·12일)",
+    "◇오늘의 월드컵(10일)",
+    "\"이란 남부 부셰르·반다르아바스 등에서 연쇄 폭발음\"",
+    "민주콩고 에볼라 사망자 600명…\"역대 가장 빠른 확산\"",
+    "경기 연천·파주서북부에 호우주의보",
+    "강원 철원에 호우주의보",
     "선거 격전지 된 텍사스…민주 후보, 공화 3배규모 수백억원 모금",
     "하이닉스 美상장 하루 앞두고…마이크론 \"미국 내 375조원 투자\"",
     "[월드컵] 역전 드라마 더 뜨거워졌다…역전승 13회로 최다",
@@ -94,18 +105,7 @@
     "[프로야구전반기] ②투수 타이틀 경쟁, 국내 선수 강세…타격 부문은 혼전(종합)",
     "[알림] 연합뉴스 콘텐츠 저작권 고지",
     "李대통령, 몽골 '서울의거리' 방문…몽골인 운영 한식당서 저녁",
-    "트럼프 '우크라 태세 전환'에 심기 불편한 러시아",
-    "\"SK하이닉스 ADR 공모가 주당 149달러 제시…40조원 조달 추진\"",
-    "워싱턴 인공연못 훼손혐의 前 미국 국가대표, 법정서 무죄주장",
-    "뉴욕증시, 반도체주 강세에 상승 출발",
-    "우크라 \"美와 설립한 재건기금, 올해 핵심 광물에 대규모 투자\"",
-    "미·이란 사흘째 무력공방…원전 주변 폭격에 요르단까지 미사일(종합)",
-    "\"공개석상서 나토 질타했던 트럼프, 비공개 회의에선 달랐다\"",
-    "[프로야구전반기] ④외국인 농사 희비…전체 25%가 전반기에 짐 싸(종합)",
-    "[프로야구전반기] ③류현진 한미 통산 기록 행진, 최정 홈런 부문 새 역사(종합)",
-    "[프로야구전반기] ①전문가 예상 적중했다…삼성·LG 양강 체제(종합)",
-    "[프로야구 중간순위] 9일",
-    "삼성, LG 2리 차로 따돌리고 11년 만에 프로야구 전반기 1위(종합)"
+    "트럼프 '우크라 태세 전환'에 심기 불편한 러시아"
   ],
   "categories": {
     "geopolitical": {
@@ -114,8 +114,8 @@
       "signal": "🔴",
       "summary": "Tehran launches more strikes after explosions...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 16,
-      "score": 4.5
+      "matched": 17,
+      "score": 3.0
     },
     "macro": {
       "level": "주의",
@@ -136,22 +136,22 @@
       "score": 0
     },
     "trade": {
-      "level": "신호",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "Tehran launches more strikes after explosions...",
-      "action": "관련 지표 추가 확인 후 판단",
-      "matched": 7,
-      "score": 10.1
-    },
-    "policy": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "미·이란 사흘째 무력공방…원전 주변 폭격에 요르단까지 미사일(종합)",
+      "summary": "Tehran launches more strikes after explosions...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
+      "matched": 7,
       "score": 1.5
+    },
+    "policy": {
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
