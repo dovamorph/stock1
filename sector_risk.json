@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10T08:15:05.972425+09:00",
+  "updated_at": "2026-07-10T12:39:30.238004+09:00",
   "date": "20260710",
   "window_days": 14,
   "sectors": [
@@ -16,15 +16,21 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -3,
+      "score": -5,
       "positive_count": 1,
-      "negative_count": 2,
+      "negative_count": 3,
       "recent_events": [
         {
           "date": "20260710",
           "type": "positive",
           "headline": "NYT-led group asks court to sanction OpenAI in US copyright dispute",
           "score": 1
+        },
+        {
+          "date": "20260710",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran trade attacks as Khamenei is buri...",
+          "score": -2
         },
         {
           "date": "20260701",
@@ -80,8 +86,14 @@
     "방산": {
       "score": 10,
       "positive_count": 20,
-      "negative_count": 1,
+      "negative_count": 2,
       "recent_events": [
+        {
+          "date": "20260710",
+          "type": "negative",
+          "headline": "다시 화약고 된 호르무즈…사흘째 충돌에 종전 MOU 붕괴 위기",
+          "score": -1
+        },
         {
           "date": "20260710",
           "type": "positive",
@@ -105,12 +117,6 @@
           "type": "positive",
           "headline": "[거시분석] Trump says ceasefire is 'over' after US and I...",
           "score": 3
-        },
-        {
-          "date": "20260707",
-          "type": "positive",
-          "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
-          "score": 1
         }
       ]
     },
@@ -127,10 +133,16 @@
       "recent_events": []
     },
     "금융": {
-      "score": -6,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260710",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran trade attacks as Khamenei is buri...",
+          "score": -1
+        },
         {
           "date": "20260707",
           "type": "negative",
@@ -153,12 +165,6 @@
           "date": "20260630",
           "type": "negative",
           "headline": "[거시분석] US envoys in Doha to meet mediators but not I...",
-          "score": -1
-        },
-        {
-          "date": "20260627",
-          "type": "negative",
-          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
           "score": -1
         }
       ]
@@ -196,20 +202,20 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 3,
-      "negative_count": 19,
+      "positive_count": 4,
+      "negative_count": 18,
       "recent_events": [
         {
           "date": "20260710",
-          "type": "negative",
-          "headline": "美, 항공기·부품 232조 조사 완료…관세 즉각 부과 않기로",
-          "score": -1
+          "type": "positive",
+          "headline": "다시 화약고 된 호르무즈…사흘째 충돌에 종전 MOU 붕괴 위기",
+          "score": 1
         },
         {
           "date": "20260710",
           "type": "negative",
           "headline": "[거시분석] US and Iran trade attacks as Khamenei is buri...",
-          "score": -2
+          "score": -5
         },
         {
           "date": "20260709",
@@ -521,9 +527,10 @@
     },
     {
       "date": "20260710",
-      "headline": "美, 항공기·부품 232조 조사 완료…관세 즉각 부과 않기로",
+      "headline": "다시 화약고 된 호르무즈…사흘째 충돌에 종전 MOU 붕괴 위기",
       "impacts": {
-        "전체시장": -1
+        "방산": -1,
+        "전체시장": 1
       },
       "source": "keyword"
     },
@@ -532,12 +539,14 @@
       "headline": "[거시분석] US and Iran trade attacks as Khamenei is buri...",
       "impacts": {
         "방산": 1,
-        "전체시장": -2
+        "전체시장": -5,
+        "금융": -1,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 35,
-  "total_positives": 30,
+  "total_negatives": 37,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
