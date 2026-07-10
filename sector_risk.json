@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T06:09:02.670138+09:00",
+  "updated_at": "2026-07-11T08:01:00.654338+09:00",
   "date": "20260711",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -3,
-      "positive_count": 1,
+      "score": -4,
+      "positive_count": 0,
       "negative_count": 2,
       "recent_events": [
-        {
-          "date": "20260711",
-          "type": "positive",
-          "headline": "최태원 \"AI분야 수백억달러 투자…HBM 수요 기하급수적 증가\"(종합2보)",
-          "score": 1
-        },
         {
           "date": "20260701",
           "type": "negative",
@@ -41,16 +35,10 @@
       ]
     },
     "건설": {
-      "score": -10,
+      "score": -8,
       "positive_count": 2,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20260711",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine strikes Russian ships near Crimea, es...",
-          "score": -2
-        },
         {
           "date": "20260710",
           "type": "negative",
@@ -74,31 +62,25 @@
           "type": "negative",
           "headline": "[거시분석] Gaza patients face agonising delays for medic...",
           "score": -2
+        },
+        {
+          "date": "20260629",
+          "type": "negative",
+          "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
+          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 19,
-      "negative_count": 4,
+      "negative_count": 2,
       "recent_events": [
-        {
-          "date": "20260711",
-          "type": "negative",
-          "headline": "트럼프 휴전종료 통보에 이란도 \"항복없다\"…강대강속 대화모색도",
-          "score": -1
-        },
-        {
-          "date": "20260711",
-          "type": "negative",
-          "headline": "美, '휴전 종료' 선언 후 이란 최고지도자 자금책 제재",
-          "score": -1
-        },
         {
           "date": "20260711",
           "type": "positive",
           "headline": "[거시분석] Ukraine strikes Russian ships near Crimea, es...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260710",
@@ -111,6 +93,18 @@
           "type": "positive",
           "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
           "score": 2
+        },
+        {
+          "date": "20260709",
+          "type": "positive",
+          "headline": "[거시분석] US and Iran trade strikes for second night in...",
+          "score": 1
+        },
+        {
+          "date": "20260708",
+          "type": "positive",
+          "headline": "트럼프, 이틀연속 대이란 공습 예고…\"아마 오늘밤 다시 공격\"",
+          "score": 1
         }
       ]
     },
@@ -196,26 +190,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 5,
+      "positive_count": 3,
       "negative_count": 18,
       "recent_events": [
         {
           "date": "20260711",
-          "type": "positive",
-          "headline": "트럼프 휴전종료 통보에 이란도 \"항복없다\"…강대강속 대화모색도",
-          "score": 1
-        },
-        {
-          "date": "20260711",
-          "type": "positive",
-          "headline": "美, '휴전 종료' 선언 후 이란 최고지도자 자금책 제재",
-          "score": 1
-        },
-        {
-          "date": "20260711",
           "type": "negative",
           "headline": "[거시분석] Ukraine strikes Russian ships near Crimea, es...",
-          "score": -5
+          "score": -3
         },
         {
           "date": "20260710",
@@ -228,6 +210,18 @@
           "type": "negative",
           "headline": "[거시분석] US and Iran trade strikes for second night in...",
           "score": -3
+        },
+        {
+          "date": "20260708",
+          "type": "negative",
+          "headline": "[거시분석] Trump says ceasefire is 'over' after US and I...",
+          "score": -5
+        },
+        {
+          "date": "20260707",
+          "type": "negative",
+          "headline": "트럼프 \"도요타의 멕시코 생산시설 텍사스 이전은 관세영향\"",
+          "score": -1
         }
       ]
     }
@@ -505,43 +499,16 @@
     },
     {
       "date": "20260711",
-      "headline": "트럼프 휴전종료 통보에 이란도 \"항복없다\"…강대강속 대화모색도",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260711",
-      "headline": "최태원 \"AI분야 수백억달러 투자…HBM 수요 기하급수적 증가\"(종합2보)",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260711",
-      "headline": "美, '휴전 종료' 선언 후 이란 최고지도자 자금책 제재",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260711",
       "headline": "[거시분석] Ukraine strikes Russian ships near Crimea, es...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
+        "방산": 1,
+        "전체시장": -3,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 39,
-  "total_positives": 30,
+  "total_negatives": 36,
+  "total_positives": 27,
   "risk_level": "EXTREME"
 }
