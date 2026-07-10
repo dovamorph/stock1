@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T04:37:56.657761+09:00",
+  "updated_at": "2026-07-11T06:09:02.670138+09:00",
   "date": "20260711",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260711",
           "type": "positive",
-          "headline": "최태원 \"AI분야 수백억달러 투자…HBM 수요 기하급수적 증가\"(종합)",
+          "headline": "최태원 \"AI분야 수백억달러 투자…HBM 수요 기하급수적 증가\"(종합2보)",
           "score": 1
         },
         {
@@ -80,24 +80,18 @@
     "방산": {
       "score": 10,
       "positive_count": 19,
-      "negative_count": 5,
+      "negative_count": 4,
       "recent_events": [
         {
           "date": "20260711",
           "type": "negative",
+          "headline": "트럼프 휴전종료 통보에 이란도 \"항복없다\"…강대강속 대화모색도",
+          "score": -1
+        },
+        {
+          "date": "20260711",
+          "type": "negative",
           "headline": "美, '휴전 종료' 선언 후 이란 최고지도자 자금책 제재",
-          "score": -1
-        },
-        {
-          "date": "20260711",
-          "type": "negative",
-          "headline": "트럼프 \"이란의 대화 요청 동의했으나, 휴전종료 단호히 통보\"",
-          "score": -1
-        },
-        {
-          "date": "20260711",
-          "type": "negative",
-          "headline": "[속보] 트럼프 \"이란의 대화 요청 동의했으나 휴전종료 단호히 통보\"",
           "score": -1
         },
         {
@@ -111,6 +105,12 @@
           "type": "negative",
           "headline": "US-Iran war: Will peace talks resume, and when?",
           "score": -1
+        },
+        {
+          "date": "20260710",
+          "type": "positive",
+          "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
+          "score": 2
         }
       ]
     },
@@ -196,25 +196,19 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 6,
+      "positive_count": 5,
       "negative_count": 18,
       "recent_events": [
         {
           "date": "20260711",
           "type": "positive",
+          "headline": "트럼프 휴전종료 통보에 이란도 \"항복없다\"…강대강속 대화모색도",
+          "score": 1
+        },
+        {
+          "date": "20260711",
+          "type": "positive",
           "headline": "美, '휴전 종료' 선언 후 이란 최고지도자 자금책 제재",
-          "score": 1
-        },
-        {
-          "date": "20260711",
-          "type": "positive",
-          "headline": "트럼프 \"이란의 대화 요청 동의했으나, 휴전종료 단호히 통보\"",
-          "score": 1
-        },
-        {
-          "date": "20260711",
-          "type": "positive",
-          "headline": "[속보] 트럼프 \"이란의 대화 요청 동의했으나 휴전종료 단호히 통보\"",
           "score": 1
         },
         {
@@ -228,6 +222,12 @@
           "type": "negative",
           "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
           "score": -4
+        },
+        {
+          "date": "20260709",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran trade strikes for second night in...",
+          "score": -3
         }
       ]
     }
@@ -505,7 +505,7 @@
     },
     {
       "date": "20260711",
-      "headline": "美, '휴전 종료' 선언 후 이란 최고지도자 자금책 제재",
+      "headline": "트럼프 휴전종료 통보에 이란도 \"항복없다\"…강대강속 대화모색도",
       "impacts": {
         "방산": -1,
         "전체시장": 1
@@ -514,7 +514,7 @@
     },
     {
       "date": "20260711",
-      "headline": "최태원 \"AI분야 수백억달러 투자…HBM 수요 기하급수적 증가\"(종합)",
+      "headline": "최태원 \"AI분야 수백억달러 투자…HBM 수요 기하급수적 증가\"(종합2보)",
       "impacts": {
         "반도체·AI": 1
       },
@@ -522,16 +522,7 @@
     },
     {
       "date": "20260711",
-      "headline": "트럼프 \"이란의 대화 요청 동의했으나, 휴전종료 단호히 통보\"",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260711",
-      "headline": "[속보] 트럼프 \"이란의 대화 요청 동의했으나 휴전종료 단호히 통보\"",
+      "headline": "美, '휴전 종료' 선언 후 이란 최고지도자 자금책 제재",
       "impacts": {
         "방산": -1,
         "전체시장": 1
@@ -550,7 +541,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 40,
-  "total_positives": 31,
+  "total_negatives": 39,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
