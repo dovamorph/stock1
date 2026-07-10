@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T02:49:37.117912+09:00",
+  "updated_at": "2026-07-11T04:37:56.657761+09:00",
   "date": "20260711",
   "window_days": 14,
   "sectors": [
@@ -41,7 +41,7 @@
       ]
     },
     "건설": {
-      "score": -9,
+      "score": -10,
       "positive_count": 2,
       "negative_count": 8,
       "recent_events": [
@@ -49,7 +49,7 @@
           "date": "20260711",
           "type": "negative",
           "headline": "[거시분석] Ukraine strikes Russian ships near Crimea, es...",
-          "score": -1
+          "score": -2
         },
         {
           "date": "20260710",
@@ -85,7 +85,7 @@
         {
           "date": "20260711",
           "type": "negative",
-          "headline": "US-Iran war: Will peace talks resume, and when?",
+          "headline": "美, '휴전 종료' 선언 후 이란 최고지도자 자금책 제재",
           "score": -1
         },
         {
@@ -104,7 +104,7 @@
           "date": "20260711",
           "type": "positive",
           "headline": "[거시분석] Ukraine strikes Russian ships near Crimea, es...",
-          "score": 2
+          "score": 3
         },
         {
           "date": "20260710",
@@ -196,9 +196,15 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 5,
+      "positive_count": 6,
       "negative_count": 18,
       "recent_events": [
+        {
+          "date": "20260711",
+          "type": "positive",
+          "headline": "美, '휴전 종료' 선언 후 이란 최고지도자 자금책 제재",
+          "score": 1
+        },
         {
           "date": "20260711",
           "type": "positive",
@@ -215,19 +221,13 @@
           "date": "20260711",
           "type": "negative",
           "headline": "[거시분석] Ukraine strikes Russian ships near Crimea, es...",
-          "score": -3
+          "score": -5
         },
         {
           "date": "20260710",
           "type": "negative",
           "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
           "score": -4
-        },
-        {
-          "date": "20260709",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran trade strikes for second night in...",
-          "score": -3
         }
       ]
     }
@@ -505,9 +505,10 @@
     },
     {
       "date": "20260711",
-      "headline": "US-Iran war: Will peace talks resume, and when?",
+      "headline": "美, '휴전 종료' 선언 후 이란 최고지도자 자금책 제재",
       "impacts": {
-        "방산": -1
+        "방산": -1,
+        "전체시장": 1
       },
       "source": "keyword"
     },
@@ -541,15 +542,15 @@
       "date": "20260711",
       "headline": "[거시분석] Ukraine strikes Russian ships near Crimea, es...",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -3,
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 40,
-  "total_positives": 30,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
