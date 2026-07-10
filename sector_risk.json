@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10T12:39:30.238004+09:00",
+  "updated_at": "2026-07-10T16:39:05.269885+09:00",
   "date": "20260710",
   "window_days": 14,
   "sectors": [
@@ -16,20 +16,14 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -5,
-      "positive_count": 1,
+      "score": -6,
+      "positive_count": 0,
       "negative_count": 3,
       "recent_events": [
         {
           "date": "20260710",
-          "type": "positive",
-          "headline": "NYT-led group asks court to sanction OpenAI in US copyright dispute",
-          "score": 1
-        },
-        {
-          "date": "20260710",
           "type": "negative",
-          "headline": "[거시분석] US and Iran trade attacks as Khamenei is buri...",
+          "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
           "score": -2
         },
         {
@@ -86,18 +80,12 @@
     "방산": {
       "score": 10,
       "positive_count": 20,
-      "negative_count": 2,
+      "negative_count": 1,
       "recent_events": [
         {
           "date": "20260710",
-          "type": "negative",
-          "headline": "다시 화약고 된 호르무즈…사흘째 충돌에 종전 MOU 붕괴 위기",
-          "score": -1
-        },
-        {
-          "date": "20260710",
           "type": "positive",
-          "headline": "[거시분석] US and Iran trade attacks as Khamenei is buri...",
+          "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
           "score": 1
         },
         {
@@ -117,6 +105,12 @@
           "type": "positive",
           "headline": "[거시분석] Trump says ceasefire is 'over' after US and I...",
           "score": 3
+        },
+        {
+          "date": "20260707",
+          "type": "positive",
+          "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
+          "score": 1
         }
       ]
     },
@@ -140,7 +134,7 @@
         {
           "date": "20260710",
           "type": "negative",
-          "headline": "[거시분석] US and Iran trade attacks as Khamenei is buri...",
+          "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
           "score": -1
         },
         {
@@ -202,19 +196,13 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 4,
+      "positive_count": 3,
       "negative_count": 18,
       "recent_events": [
         {
           "date": "20260710",
-          "type": "positive",
-          "headline": "다시 화약고 된 호르무즈…사흘째 충돌에 종전 MOU 붕괴 위기",
-          "score": 1
-        },
-        {
-          "date": "20260710",
           "type": "negative",
-          "headline": "[거시분석] US and Iran trade attacks as Khamenei is buri...",
+          "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
           "score": -5
         },
         {
@@ -234,6 +222,12 @@
           "type": "negative",
           "headline": "트럼프 \"도요타의 멕시코 생산시설 텍사스 이전은 관세영향\"",
           "score": -1
+        },
+        {
+          "date": "20260707",
+          "type": "negative",
+          "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
+          "score": -3
         }
       ]
     }
@@ -519,24 +513,7 @@
     },
     {
       "date": "20260710",
-      "headline": "NYT-led group asks court to sanction OpenAI in US copyright dispute",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260710",
-      "headline": "다시 화약고 된 호르무즈…사흘째 충돌에 종전 MOU 붕괴 위기",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260710",
-      "headline": "[거시분석] US and Iran trade attacks as Khamenei is buri...",
+      "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
       "impacts": {
         "방산": 1,
         "전체시장": -5,
@@ -546,7 +523,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 37,
-  "total_positives": 31,
+  "total_negatives": 36,
+  "total_positives": 29,
   "risk_level": "EXTREME"
 }
