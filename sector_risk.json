@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-10T23:35:10.032392+09:00",
-  "date": "20260710",
+  "updated_at": "2026-07-11T02:49:37.117912+09:00",
+  "date": "20260711",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -4,
-      "positive_count": 0,
+      "score": -3,
+      "positive_count": 1,
       "negative_count": 2,
       "recent_events": [
+        {
+          "date": "20260711",
+          "type": "positive",
+          "headline": "최태원 \"AI분야 수백억달러 투자…HBM 수요 기하급수적 증가\"(종합)",
+          "score": 1
+        },
         {
           "date": "20260701",
           "type": "negative",
@@ -36,9 +42,15 @@
     },
     "건설": {
       "score": -9,
-      "positive_count": 3,
+      "positive_count": 2,
       "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260711",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine strikes Russian ships near Crimea, es...",
+          "score": -1
+        },
         {
           "date": "20260710",
           "type": "negative",
@@ -62,49 +74,43 @@
           "type": "negative",
           "headline": "[거시분석] Gaza patients face agonising delays for medic...",
           "score": -2
-        },
-        {
-          "date": "20260629",
-          "type": "negative",
-          "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
-          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 20,
-      "negative_count": 2,
+      "positive_count": 19,
+      "negative_count": 5,
       "recent_events": [
         {
-          "date": "20260710",
+          "date": "20260711",
           "type": "negative",
           "headline": "US-Iran war: Will peace talks resume, and when?",
           "score": -1
         },
         {
-          "date": "20260710",
+          "date": "20260711",
+          "type": "negative",
+          "headline": "트럼프 \"이란의 대화 요청 동의했으나, 휴전종료 단호히 통보\"",
+          "score": -1
+        },
+        {
+          "date": "20260711",
+          "type": "negative",
+          "headline": "[속보] 트럼프 \"이란의 대화 요청 동의했으나 휴전종료 단호히 통보\"",
+          "score": -1
+        },
+        {
+          "date": "20260711",
           "type": "positive",
-          "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
+          "headline": "[거시분석] Ukraine strikes Russian ships near Crimea, es...",
           "score": 2
         },
         {
-          "date": "20260709",
-          "type": "positive",
-          "headline": "[거시분석] US and Iran trade strikes for second night in...",
-          "score": 1
-        },
-        {
-          "date": "20260708",
-          "type": "positive",
-          "headline": "트럼프, 이틀연속 대이란 공습 예고…\"아마 오늘밤 다시 공격\"",
-          "score": 1
-        },
-        {
-          "date": "20260708",
-          "type": "positive",
-          "headline": "[거시분석] Trump says ceasefire is 'over' after US and I...",
-          "score": 3
+          "date": "20260710",
+          "type": "negative",
+          "headline": "US-Iran war: Will peace talks resume, and when?",
+          "score": -1
         }
       ]
     },
@@ -125,6 +131,12 @@
       "positive_count": 0,
       "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260711",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine strikes Russian ships near Crimea, es...",
+          "score": -1
+        },
         {
           "date": "20260710",
           "type": "negative",
@@ -147,12 +159,6 @@
           "date": "20260702",
           "type": "negative",
           "headline": "[거시분석] Gaza patients face agonising delays for medic...",
-          "score": -1
-        },
-        {
-          "date": "20260630",
-          "type": "negative",
-          "headline": "[거시분석] US envoys in Doha to meet mediators but not I...",
           "score": -1
         }
       ]
@@ -190,9 +196,27 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 3,
+      "positive_count": 5,
       "negative_count": 18,
       "recent_events": [
+        {
+          "date": "20260711",
+          "type": "positive",
+          "headline": "트럼프 \"이란의 대화 요청 동의했으나, 휴전종료 단호히 통보\"",
+          "score": 1
+        },
+        {
+          "date": "20260711",
+          "type": "positive",
+          "headline": "[속보] 트럼프 \"이란의 대화 요청 동의했으나 휴전종료 단호히 통보\"",
+          "score": 1
+        },
+        {
+          "date": "20260711",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine strikes Russian ships near Crimea, es...",
+          "score": -3
+        },
         {
           "date": "20260710",
           "type": "negative",
@@ -204,56 +228,11 @@
           "type": "negative",
           "headline": "[거시분석] US and Iran trade strikes for second night in...",
           "score": -3
-        },
-        {
-          "date": "20260708",
-          "type": "negative",
-          "headline": "[거시분석] Trump says ceasefire is 'over' after US and I...",
-          "score": -5
-        },
-        {
-          "date": "20260707",
-          "type": "negative",
-          "headline": "트럼프 \"도요타의 멕시코 생산시설 텍사스 이전은 관세영향\"",
-          "score": -1
-        },
-        {
-          "date": "20260707",
-          "type": "negative",
-          "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
-          "score": -3
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260626",
-      "headline": "우크라 '40일 작전' 선언 후 대공습…러, 크림반도에 비상사태",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260626",
-      "headline": "시진핑, 베네수엘라 강진 위로 전문…\"구호·재건 지원할 것\"",
-      "impacts": {
-        "건설": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260626",
-      "headline": "[거시분석] Trump asks Congress for billions for Iran war...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260627",
       "headline": "유시민 '재건축론'에 與일각 \"李대통령 폄훼…모욕적\" 발끈",
@@ -523,9 +502,54 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260711",
+      "headline": "US-Iran war: Will peace talks resume, and when?",
+      "impacts": {
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260711",
+      "headline": "최태원 \"AI분야 수백억달러 투자…HBM 수요 기하급수적 증가\"(종합)",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260711",
+      "headline": "트럼프 \"이란의 대화 요청 동의했으나, 휴전종료 단호히 통보\"",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260711",
+      "headline": "[속보] 트럼프 \"이란의 대화 요청 동의했으나 휴전종료 단호히 통보\"",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260711",
+      "headline": "[거시분석] Ukraine strikes Russian ships near Crimea, es...",
+      "impacts": {
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -3,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 37,
-  "total_positives": 29,
+  "total_negatives": 40,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
