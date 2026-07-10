@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10T16:39:05.269885+09:00",
+  "updated_at": "2026-07-10T19:58:04.697755+09:00",
   "date": "20260710",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -6,
+      "score": -4,
       "positive_count": 0,
-      "negative_count": 3,
+      "negative_count": 2,
       "recent_events": [
-        {
-          "date": "20260710",
-          "type": "negative",
-          "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
-          "score": -2
-        },
         {
           "date": "20260701",
           "type": "negative",
@@ -203,7 +197,7 @@
           "date": "20260710",
           "type": "negative",
           "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
-          "score": -5
+          "score": -2
         },
         {
           "date": "20260709",
@@ -516,14 +510,13 @@
       "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
       "impacts": {
         "방산": 1,
-        "전체시장": -5,
-        "금융": -1,
-        "반도체·AI": -2
+        "전체시장": -2,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 36,
+  "total_negatives": 35,
   "total_positives": 29,
   "risk_level": "EXTREME"
 }
