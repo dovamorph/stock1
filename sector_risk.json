@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12T04:09:33.150604+09:00",
+  "updated_at": "2026-07-12T05:54:13.723524+09:00",
   "date": "20260712",
   "window_days": 14,
   "sectors": [
@@ -29,7 +29,7 @@
         {
           "date": "20260712",
           "type": "negative",
-          "headline": "[거시분석] Iran must pledge to stop shooting at ships in...",
+          "headline": "[거시분석] Iran supreme leader calls for revenge for fat...",
           "score": -2
         },
         {
@@ -91,7 +91,7 @@
         {
           "date": "20260712",
           "type": "positive",
-          "headline": "[거시분석] Iran must pledge to stop shooting at ships in...",
+          "headline": "[거시분석] Iran supreme leader calls for revenge for fat...",
           "score": 1
         },
         {
@@ -140,7 +140,7 @@
         {
           "date": "20260712",
           "type": "negative",
-          "headline": "[거시분석] Iran must pledge to stop shooting at ships in...",
+          "headline": "[거시분석] Iran supreme leader calls for revenge for fat...",
           "score": -1
         },
         {
@@ -208,7 +208,7 @@
         {
           "date": "20260712",
           "type": "negative",
-          "headline": "[거시분석] Iran must pledge to stop shooting at ships in...",
+          "headline": "[거시분석] Iran supreme leader calls for revenge for fat...",
           "score": -5
         },
         {
@@ -509,7 +509,7 @@
     },
     {
       "date": "20260712",
-      "headline": "[거시분석] Iran must pledge to stop shooting at ships in...",
+      "headline": "[거시분석] Iran supreme leader calls for revenge for fat...",
       "impacts": {
         "방산": 1,
         "전체시장": -5,
