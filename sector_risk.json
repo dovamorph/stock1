@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T11:54:11.219703+09:00",
+  "updated_at": "2026-07-11T15:17:09.620454+09:00",
   "date": "20260711",
   "window_days": 14,
   "sectors": [
@@ -127,17 +127,10 @@
       "recent_events": []
     },
     "로봇": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 0,
+      "positive_count": 0,
       "negative_count": 0,
-      "recent_events": [
-        {
-          "date": "20260711",
-          "type": "positive",
-          "headline": "美연구진, '中휴머노이드 로봇 활용' 동물 복강경 원격수술 성공",
-          "score": 1
-        }
-      ]
+      "recent_events": []
     },
     "금융": {
       "score": -7,
@@ -534,14 +527,6 @@
     },
     {
       "date": "20260711",
-      "headline": "美연구진, '中휴머노이드 로봇 활용' 동물 복강경 원격수술 성공",
-      "impacts": {
-        "로봇": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260711",
       "headline": "[거시분석] US wants Iran to pledge to stop shooting at s...",
       "impacts": {
         "방산": 1,
@@ -552,6 +537,6 @@
     }
   ],
   "total_negatives": 36,
-  "total_positives": 30,
+  "total_positives": 29,
   "risk_level": "EXTREME"
 }
