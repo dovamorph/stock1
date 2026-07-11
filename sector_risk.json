@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T08:01:00.654338+09:00",
+  "updated_at": "2026-07-11T11:54:11.219703+09:00",
   "date": "20260711",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,22 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -4,
-      "positive_count": 0,
+      "score": -2,
+      "positive_count": 2,
       "negative_count": 2,
       "recent_events": [
+        {
+          "date": "20260711",
+          "type": "positive",
+          "headline": "Apple sues OpenAI, its employees claiming theft of trade secrets",
+          "score": 1
+        },
+        {
+          "date": "20260711",
+          "type": "positive",
+          "headline": "Apple files lawsuit accusing ChatGPT maker OpenAI of stealing trade secrets",
+          "score": 1
+        },
         {
           "date": "20260701",
           "type": "negative",
@@ -79,7 +91,7 @@
         {
           "date": "20260711",
           "type": "positive",
-          "headline": "[거시분석] Ukraine strikes Russian ships near Crimea, es...",
+          "headline": "[거시분석] US wants Iran to pledge to stop shooting at s...",
           "score": 1
         },
         {
@@ -115,10 +127,17 @@
       "recent_events": []
     },
     "로봇": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20260711",
+          "type": "positive",
+          "headline": "美연구진, '中휴머노이드 로봇 활용' 동물 복강경 원격수술 성공",
+          "score": 1
+        }
+      ]
     },
     "금융": {
       "score": -7,
@@ -128,7 +147,7 @@
         {
           "date": "20260711",
           "type": "negative",
-          "headline": "[거시분석] Ukraine strikes Russian ships near Crimea, es...",
+          "headline": "[거시분석] US wants Iran to pledge to stop shooting at s...",
           "score": -1
         },
         {
@@ -196,7 +215,7 @@
         {
           "date": "20260711",
           "type": "negative",
-          "headline": "[거시분석] Ukraine strikes Russian ships near Crimea, es...",
+          "headline": "[거시분석] US wants Iran to pledge to stop shooting at s...",
           "score": -3
         },
         {
@@ -499,7 +518,31 @@
     },
     {
       "date": "20260711",
-      "headline": "[거시분석] Ukraine strikes Russian ships near Crimea, es...",
+      "headline": "Apple sues OpenAI, its employees claiming theft of trade secrets",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260711",
+      "headline": "Apple files lawsuit accusing ChatGPT maker OpenAI of stealing trade secrets",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260711",
+      "headline": "美연구진, '中휴머노이드 로봇 활용' 동물 복강경 원격수술 성공",
+      "impacts": {
+        "로봇": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260711",
+      "headline": "[거시분석] US wants Iran to pledge to stop shooting at s...",
       "impacts": {
         "방산": 1,
         "전체시장": -3,
@@ -509,6 +552,6 @@
     }
   ],
   "total_negatives": 36,
-  "total_positives": 27,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
