@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T20:08:30.000341+09:00",
+  "updated_at": "2026-07-11T22:27:06.380547+09:00",
   "date": "20260711",
   "window_days": 14,
   "sectors": [
@@ -41,16 +41,10 @@
       ]
     },
     "건설": {
-      "score": -10,
+      "score": -8,
       "positive_count": 2,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20260711",
-          "type": "negative",
-          "headline": "[거시분석] US wants Iran to pledge to stop shooting at s...",
-          "score": -2
-        },
         {
           "date": "20260710",
           "type": "negative",
@@ -74,6 +68,12 @@
           "type": "negative",
           "headline": "[거시분석] Gaza patients face agonising delays for medic...",
           "score": -2
+        },
+        {
+          "date": "20260629",
+          "type": "negative",
+          "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
+          "score": -1
         }
       ]
     },
@@ -86,7 +86,7 @@
           "date": "20260711",
           "type": "positive",
           "headline": "[거시분석] US wants Iran to pledge to stop shooting at s...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260710",
@@ -203,7 +203,7 @@
           "date": "20260711",
           "type": "negative",
           "headline": "[거시분석] US wants Iran to pledge to stop shooting at s...",
-          "score": -5
+          "score": -3
         },
         {
           "date": "20260710",
@@ -515,15 +515,14 @@
       "date": "20260711",
       "headline": "[거시분석] US wants Iran to pledge to stop shooting at s...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
+        "방산": 1,
+        "전체시장": -3,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 37,
+  "total_negatives": 36,
   "total_positives": 28,
   "risk_level": "EXTREME"
 }
