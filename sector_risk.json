@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12T05:54:13.723524+09:00",
+  "updated_at": "2026-07-12T07:54:04.076504+09:00",
   "date": "20260712",
   "window_days": 14,
   "sectors": [
@@ -121,10 +121,17 @@
       ]
     },
     "전력·에너지": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20260712",
+          "type": "positive",
+          "headline": "AI 데이터센터 훈풍에 철강업계도 기대…실적 개선 힘 보탤까",
+          "score": 1
+        }
+      ]
     },
     "로봇": {
       "score": 0,
@@ -509,6 +516,14 @@
     },
     {
       "date": "20260712",
+      "headline": "AI 데이터센터 훈풍에 철강업계도 기대…실적 개선 힘 보탤까",
+      "impacts": {
+        "전력·에너지": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260712",
       "headline": "[거시분석] Iran supreme leader calls for revenge for fat...",
       "impacts": {
         "방산": 1,
@@ -520,6 +535,6 @@
     }
   ],
   "total_negatives": 35,
-  "total_positives": 27,
+  "total_positives": 28,
   "risk_level": "EXTREME"
 }
