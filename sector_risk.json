@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-11T23:57:33.147080+09:00",
-  "date": "20260711",
+  "updated_at": "2026-07-12T02:01:26.292230+09:00",
+  "date": "20260712",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,10 +16,22 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -3,
-      "positive_count": 1,
+      "score": -2,
+      "positive_count": 2,
       "negative_count": 2,
       "recent_events": [
+        {
+          "date": "20260712",
+          "type": "positive",
+          "headline": "Apple sues OpenAI, its employees claiming theft of trade secrets",
+          "score": 1
+        },
+        {
+          "date": "20260712",
+          "type": "negative",
+          "headline": "[거시분석] Iran must pledge to stop shooting at ships in...",
+          "score": -2
+        },
         {
           "date": "20260711",
           "type": "positive",
@@ -31,19 +43,13 @@
           "type": "negative",
           "headline": "[거시분석] Anthropic says US lifts export ban on its adv...",
           "score": -2
-        },
-        {
-          "date": "20260627",
-          "type": "negative",
-          "headline": "[거시분석] US strikes Iran after attack on cargo ship",
-          "score": -2
         }
       ]
     },
     "건설": {
       "score": -8,
-      "positive_count": 2,
-      "negative_count": 7,
+      "positive_count": 1,
+      "negative_count": 6,
       "recent_events": [
         {
           "date": "20260710",
@@ -79,9 +85,15 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 19,
+      "positive_count": 18,
       "negative_count": 2,
       "recent_events": [
+        {
+          "date": "20260712",
+          "type": "positive",
+          "headline": "[거시분석] Iran must pledge to stop shooting at ships in...",
+          "score": 1
+        },
         {
           "date": "20260711",
           "type": "positive",
@@ -105,12 +117,6 @@
           "type": "positive",
           "headline": "[거시분석] US and Iran trade strikes for second night in...",
           "score": 1
-        },
-        {
-          "date": "20260708",
-          "type": "positive",
-          "headline": "트럼프, 이틀연속 대이란 공습 예고…\"아마 오늘밤 다시 공격\"",
-          "score": 1
         }
       ]
     },
@@ -131,6 +137,12 @@
       "positive_count": 0,
       "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260712",
+          "type": "negative",
+          "headline": "[거시분석] Iran must pledge to stop shooting at ships in...",
+          "score": -1
+        },
         {
           "date": "20260711",
           "type": "negative",
@@ -153,12 +165,6 @@
           "date": "20260706",
           "type": "negative",
           "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
-          "score": -1
-        },
-        {
-          "date": "20260702",
-          "type": "negative",
-          "headline": "[거시분석] Gaza patients face agonising delays for medic...",
           "score": -1
         }
       ]
@@ -200,6 +206,12 @@
       "negative_count": 18,
       "recent_events": [
         {
+          "date": "20260712",
+          "type": "negative",
+          "headline": "[거시분석] Iran must pledge to stop shooting at ships in...",
+          "score": -5
+        },
+        {
           "date": "20260711",
           "type": "negative",
           "headline": "[거시분석] US wants Iran to pledge to stop shooting at s...",
@@ -222,45 +234,11 @@
           "type": "negative",
           "headline": "[거시분석] Trump says ceasefire is 'over' after US and I...",
           "score": -5
-        },
-        {
-          "date": "20260707",
-          "type": "negative",
-          "headline": "트럼프 \"도요타의 멕시코 생산시설 텍사스 이전은 관세영향\"",
-          "score": -1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260627",
-      "headline": "유시민 '재건축론'에 與일각 \"李대통령 폄훼…모욕적\" 발끈",
-      "impacts": {
-        "건설": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260627",
-      "headline": "\"'미 5함대 주둔' 바레인 겨냥 이란 드론 공격\"…다시 긴장 고조(종합)",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260627",
-      "headline": "[거시분석] US strikes Iran after attack on cargo ship",
-      "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -7,
-        "금융": -1,
-        "반도체·AI": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260628",
       "headline": "재건축론發 노선대결 가속…鄭 \"범진보 통합\"·金 \"판 확장해야\"(종합2보)",
@@ -520,9 +498,28 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260712",
+      "headline": "Apple sues OpenAI, its employees claiming theft of trade secrets",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260712",
+      "headline": "[거시분석] Iran must pledge to stop shooting at ships in...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -5,
+        "금융": -1,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 36,
-  "total_positives": 28,
+  "total_negatives": 35,
+  "total_positives": 27,
   "risk_level": "EXTREME"
 }
