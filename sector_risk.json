@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-12T23:59:59.373168+09:00",
-  "date": "20260712",
+  "updated_at": "2026-07-13T02:02:19.580093+09:00",
+  "date": "20260713",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -35,10 +35,22 @@
       ]
     },
     "건설": {
-      "score": -9,
+      "score": -10,
       "positive_count": 2,
       "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260713",
+          "type": "positive",
+          "headline": "베네수엘라 '대규모 재건' 시동…주택 2만5천채 공급 추진",
+          "score": 1
+        },
+        {
+          "date": "20260713",
+          "type": "negative",
+          "headline": "[거시분석] US insists Strait of Hormuz is open as it exc...",
+          "score": -2
+        },
         {
           "date": "20260712",
           "type": "positive",
@@ -56,26 +68,26 @@
           "type": "negative",
           "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
           "score": -1
-        },
-        {
-          "date": "20260708",
-          "type": "negative",
-          "headline": "[거시분석] Trump says ceasefire is 'over' after US and I...",
-          "score": -2
-        },
-        {
-          "date": "20260706",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 18,
+      "positive_count": 19,
       "negative_count": 2,
       "recent_events": [
+        {
+          "date": "20260713",
+          "type": "positive",
+          "headline": "미군, 추가 공습…\"이란 미사일 및 방공시스템·소형선박 타격\"",
+          "score": 1
+        },
+        {
+          "date": "20260713",
+          "type": "positive",
+          "headline": "[거시분석] US insists Strait of Hormuz is open as it exc...",
+          "score": 3
+        },
         {
           "date": "20260712",
           "type": "positive",
@@ -93,18 +105,6 @@
           "type": "negative",
           "headline": "US-Iran war: Will peace talks resume, and when?",
           "score": -1
-        },
-        {
-          "date": "20260710",
-          "type": "positive",
-          "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
-          "score": 2
-        },
-        {
-          "date": "20260709",
-          "type": "positive",
-          "headline": "[거시분석] US and Iran trade strikes for second night in...",
-          "score": 1
         }
       ]
     },
@@ -121,10 +121,16 @@
       "recent_events": []
     },
     "금융": {
-      "score": -7,
+      "score": -8,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260713",
+          "type": "negative",
+          "headline": "[거시분석] US insists Strait of Hormuz is open as it exc...",
+          "score": -1
+        },
         {
           "date": "20260712",
           "type": "negative",
@@ -147,12 +153,6 @@
           "date": "20260707",
           "type": "negative",
           "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
-          "score": -1
-        },
-        {
-          "date": "20260706",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
           "score": -1
         }
       ]
@@ -194,6 +194,12 @@
       "negative_count": 18,
       "recent_events": [
         {
+          "date": "20260713",
+          "type": "negative",
+          "headline": "[거시분석] US insists Strait of Hormuz is open as it exc...",
+          "score": -4
+        },
+        {
           "date": "20260712",
           "type": "negative",
           "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
@@ -216,35 +222,11 @@
           "type": "negative",
           "headline": "[거시분석] US and Iran trade strikes for second night in...",
           "score": -3
-        },
-        {
-          "date": "20260708",
-          "type": "negative",
-          "headline": "[거시분석] Trump says ceasefire is 'over' after US and I...",
-          "score": -5
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260628",
-      "headline": "재건축론發 노선대결 가속…鄭 \"범진보 통합\"·金 \"판 확장해야\"(종합2보)",
-      "impacts": {
-        "건설": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260628",
-      "headline": "[거시분석] US and Iran exchange strikes and accuse each ...",
-      "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -3
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260629",
       "headline": "[베네수 강진] 스페이스X, '최대피해' 라과이라에 스타링크 무료 제공",
@@ -505,9 +487,36 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260713",
+      "headline": "미군, 추가 공습…\"이란 미사일 및 방공시스템·소형선박 타격\"",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260713",
+      "headline": "베네수엘라 '대규모 재건' 시동…주택 2만5천채 공급 추진",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260713",
+      "headline": "[거시분석] US insists Strait of Hormuz is open as it exc...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -4,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 35,
-  "total_positives": 27,
+  "total_negatives": 36,
+  "total_positives": 28,
   "risk_level": "EXTREME"
 }
