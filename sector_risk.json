@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12T15:37:05.946797+09:00",
+  "updated_at": "2026-07-12T18:53:39.872726+09:00",
   "date": "20260712",
   "window_days": 14,
   "sectors": [
@@ -35,7 +35,7 @@
       ]
     },
     "건설": {
-      "score": -10,
+      "score": -9,
       "positive_count": 1,
       "negative_count": 7,
       "recent_events": [
@@ -43,7 +43,7 @@
           "date": "20260712",
           "type": "negative",
           "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
-          "score": -2
+          "score": -1
         },
         {
           "date": "20260710",
@@ -80,7 +80,7 @@
           "date": "20260712",
           "type": "positive",
           "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
-          "score": 3
+          "score": 2
         },
         {
           "date": "20260711",
@@ -121,16 +121,10 @@
       "recent_events": []
     },
     "금융": {
-      "score": -7,
+      "score": -6,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20260712",
-          "type": "negative",
-          "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
-          "score": -1
-        },
         {
           "date": "20260711",
           "type": "negative",
@@ -153,6 +147,12 @@
           "date": "20260706",
           "type": "negative",
           "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
+          "score": -1
+        },
+        {
+          "date": "20260702",
+          "type": "negative",
+          "headline": "[거시분석] Gaza patients face agonising delays for medic...",
           "score": -1
         }
       ]
@@ -197,7 +197,7 @@
           "date": "20260712",
           "type": "negative",
           "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
-          "score": -4
+          "score": -3
         },
         {
           "date": "20260711",
@@ -491,15 +491,14 @@
       "date": "20260712",
       "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -4,
-        "금융": -1
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -3
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 35,
+  "total_negatives": 34,
   "total_positives": 26,
   "risk_level": "EXTREME"
 }
