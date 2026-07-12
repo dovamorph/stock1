@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12T12:19:00.570466+09:00",
+  "updated_at": "2026-07-12T15:37:05.946797+09:00",
   "date": "20260712",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -3,
+      "score": -1,
       "positive_count": 1,
-      "negative_count": 2,
+      "negative_count": 1,
       "recent_events": [
-        {
-          "date": "20260712",
-          "type": "negative",
-          "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
-          "score": -2
-        },
         {
           "date": "20260711",
           "type": "positive",
@@ -79,15 +73,9 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 19,
+      "positive_count": 18,
       "negative_count": 2,
       "recent_events": [
-        {
-          "date": "20260712",
-          "type": "positive",
-          "headline": "이란, 중동 美 표적들 공격 개시…바레인·카타르·UAE 공습경보",
-          "score": 1
-        },
         {
           "date": "20260712",
           "type": "positive",
@@ -111,6 +99,12 @@
           "type": "positive",
           "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
           "score": 2
+        },
+        {
+          "date": "20260709",
+          "type": "positive",
+          "headline": "[거시분석] US and Iran trade strikes for second night in...",
+          "score": 1
         }
       ]
     },
@@ -203,7 +197,7 @@
           "date": "20260712",
           "type": "negative",
           "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
-          "score": -7
+          "score": -4
         },
         {
           "date": "20260711",
@@ -495,26 +489,17 @@
     },
     {
       "date": "20260712",
-      "headline": "이란, 중동 美 표적들 공격 개시…바레인·카타르·UAE 공습경보",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260712",
       "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -7,
-        "금융": -1,
-        "반도체·AI": -2
+        "전체시장": -4,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 36,
-  "total_positives": 27,
+  "total_negatives": 35,
+  "total_positives": 26,
   "risk_level": "EXTREME"
 }
