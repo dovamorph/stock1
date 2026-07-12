@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12T20:13:30.647337+09:00",
+  "updated_at": "2026-07-12T22:27:53.071278+09:00",
   "date": "20260712",
   "window_days": 14,
   "sectors": [
@@ -35,16 +35,10 @@
       ]
     },
     "건설": {
-      "score": -10,
+      "score": -8,
       "positive_count": 1,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20260712",
-          "type": "negative",
-          "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
-          "score": -2
-        },
         {
           "date": "20260710",
           "type": "negative",
@@ -68,25 +62,25 @@
           "type": "negative",
           "headline": "[거시분석] Gaza patients face agonising delays for medic...",
           "score": -2
+        },
+        {
+          "date": "20260629",
+          "type": "negative",
+          "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
+          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 19,
+      "positive_count": 18,
       "negative_count": 2,
       "recent_events": [
         {
           "date": "20260712",
           "type": "positive",
-          "headline": "이란, 美 공습에 대규모 반격…중동 전역 美기지 겨냥 공격(종합2보)",
-          "score": 1
-        },
-        {
-          "date": "20260712",
-          "type": "positive",
           "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260711",
@@ -105,6 +99,12 @@
           "type": "positive",
           "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
           "score": 2
+        },
+        {
+          "date": "20260709",
+          "type": "positive",
+          "headline": "[거시분석] US and Iran trade strikes for second night in...",
+          "score": 1
         }
       ]
     },
@@ -197,7 +197,7 @@
           "date": "20260712",
           "type": "negative",
           "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
-          "score": -4
+          "score": -2
         },
         {
           "date": "20260711",
@@ -489,24 +489,15 @@
     },
     {
       "date": "20260712",
-      "headline": "이란, 美 공습에 대규모 반격…중동 전역 美기지 겨냥 공격(종합2보)",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260712",
       "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -4
+        "방산": 1,
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 34,
-  "total_positives": 27,
+  "total_negatives": 33,
+  "total_positives": 26,
   "risk_level": "EXTREME"
 }
