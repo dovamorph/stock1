@@ -1,10 +1,10 @@
 {
-  "updated": "2026-07-13 02:02",
-  "news_count": 81,
-  "intl_count": 51,
+  "updated": "2026-07-13 04:09",
+  "news_count": 82,
+  "intl_count": 52,
   "domestic_count": 30,
   "source_stats": {
-    "BBC World": 25,
+    "BBC World": 26,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 0,
@@ -26,7 +26,8 @@
     "China evacuates nearly two million people as powerful typhoon makes landfall",
     "Former Emir of Qatar Sheikh Hamad bin Khalifa Al Thani dies aged 74",
     "T. rex could become most expensive fossil ever - but it's a ​problem for scientists",
-    "David Willey, esteemed BBC foreign correspondent, dies aged 93",
+    "David Willey, esteemed BBC Vatican correspondent, dies aged 93",
+    "South Africa says more than 53,000 foreigners deported in migration campaign",
     "At least two killed in Toronto street festival shooting",
     "Muslim judge in India faces death threats after convicting 'cow vigilantes'",
     "Polish PM pledges memorial to victims of WW2 'genocide by Ukrainian nationalists'",
@@ -46,6 +47,12 @@
     "'We escaped Spanish wildfire, but our friends lost their lives'",
     "Newly-released video shows Peter Falconio's killer questioned",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Thousands gather to bid farewell to Qatar’s Father Emir Sheikh Hamad",
+    "Who will replace Trump ally Lindsey Graham in the US Senate?",
+    "Concern for renewed war in Iran as US attacks military, civilian targets",
+    "Funeral prayers held for Qatar’s Father Emir Sheikh Hamad in Doha",
+    "UK Christians protest for Church of England to recognise genocide in Gaza",
+    "Funeral prayers held for Qatar’s Father Emir Sheikh Hamad",
     "‘Sheikh Hamad will be fondly remembered across the Gulf’",
     "Iran war: US strategic success or diplomatic failure?",
     "FIFA World Cup 2026: Day 31",
@@ -65,12 +72,11 @@
     "Republican Lindsey Graham dies at 71: World leaders, US politicians react",
     "How Sheikh Hamad bin Khalifa Al Thani built Qatar’s soft power",
     "Sheikh Hamad bin Khalifa Al Thani: key mediations",
-    "FIFA World Cup 2026: Biggest takeaways from the quarterfinals",
-    "Qatar mourns Father Emir Sheikh Hamad bin Khalifa Al Thani",
-    "British police make new arrest in Ann Widdecombe murder investigation",
-    "Typhoon Bavi weakens to tropical storm as it slams into eastern China",
-    "IRGC releases video of retaliatory missile strikes",
-    "Key moments from former Qatar Emir Sheikh Hamad bin Khalifa Al Thani’s life",
+    "김주형, 33개월 침묵 깨고 PGA 투어 스코틀랜드 오픈 우승",
+    "아세안, 미얀마와 외교장관 회의…평화 합의안 이행 촉구",
+    "칠레 축제 현장에 차량 돌진…6명 사망",
+    "SK하이닉스 ADR 연계 레버리지 ETF 13∼14일 美출시 '봇물'",
+    "시리아 의회 개원…알아사드 축출 후 1년반만에 활동 시작",
     "드레퓌스 무죄 판결 120주년…프랑스 대법원 앞 동상 설치",
     "미군, 추가 공습…\"이란 미사일 및 방공시스템·소형선박 타격\"",
     "\"野와 문제는 그레이엄이 풀었는데\"…의회 최대우군 잃은 트럼프",
@@ -95,12 +101,7 @@
     "美 \"이란, 호르무즈 통제하지않아…미군이 항행자유 보장 대비\"(종합)",
     "3연승 마감한 서울·강원…양 팀 감독 모두 \"경기력은 합격점\"",
     "젤렌스키 \"정치 전략 바꿔야\" 우크라 개각 방침…총리 사임",
-    "K리그1 선두 서울, 돌풍의 강원과 0-0 무승부…나란히 연승 마감(종합2보)",
-    "'한화생명에 역전패' BLG 양대인 감독 \"너무 조급했다\"",
-    "K리그1 선두 서울, 돌풍의 강원과 0-0 무승부…나란히 연승 마감(종합)",
-    "작가 한강 \"정치적 글쓰기와 내면적 글쓰기 나뉘지 않아\"",
-    "美 \"이란, 호르무즈 통제하지않아…미군이 항행자유 보장 대비\"",
-    "與 '선호투표제 도입 결정' 또 불발…친청계 \"밀어붙이기 안돼\""
+    "K리그1 선두 서울, 돌풍의 강원과 0-0 무승부…나란히 연승 마감(종합2보)"
   ],
   "categories": {
     "geopolitical": {
@@ -109,7 +110,7 @@
       "signal": "🔴",
       "summary": "US insists Strait of Hormuz is open as it exc...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 12,
+      "matched": 13,
       "score": 4.5
     },
     "macro": {
@@ -136,8 +137,8 @@
       "signal": "🟡",
       "summary": "US insists Strait of Hormuz is open as it exc...",
       "action": "관련 지표 추가 확인 후 판단",
-      "matched": 3,
-      "score": 4.4
+      "matched": 4,
+      "score": 5.8
     },
     "policy": {
       "level": "안전",
