@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12T07:54:04.076504+09:00",
+  "updated_at": "2026-07-12T12:19:00.570466+09:00",
   "date": "20260712",
   "window_days": 14,
   "sectors": [
@@ -16,20 +16,14 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -2,
-      "positive_count": 2,
+      "score": -3,
+      "positive_count": 1,
       "negative_count": 2,
       "recent_events": [
         {
           "date": "20260712",
-          "type": "positive",
-          "headline": "Apple sues OpenAI, its employees claiming theft of trade secrets",
-          "score": 1
-        },
-        {
-          "date": "20260712",
           "type": "negative",
-          "headline": "[거시분석] Iran supreme leader calls for revenge for fat...",
+          "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
           "score": -2
         },
         {
@@ -47,10 +41,16 @@
       ]
     },
     "건설": {
-      "score": -8,
+      "score": -10,
       "positive_count": 1,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260712",
+          "type": "negative",
+          "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
+          "score": -2
+        },
         {
           "date": "20260710",
           "type": "negative",
@@ -74,25 +74,25 @@
           "type": "negative",
           "headline": "[거시분석] Gaza patients face agonising delays for medic...",
           "score": -2
-        },
-        {
-          "date": "20260629",
-          "type": "negative",
-          "headline": "[거시분석] US says it has agreed to 'stand down' after e...",
-          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 18,
+      "positive_count": 19,
       "negative_count": 2,
       "recent_events": [
         {
           "date": "20260712",
           "type": "positive",
-          "headline": "[거시분석] Iran supreme leader calls for revenge for fat...",
+          "headline": "이란, 중동 美 표적들 공격 개시…바레인·카타르·UAE 공습경보",
           "score": 1
+        },
+        {
+          "date": "20260712",
+          "type": "positive",
+          "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
+          "score": 3
         },
         {
           "date": "20260711",
@@ -111,27 +111,14 @@
           "type": "positive",
           "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
           "score": 2
-        },
-        {
-          "date": "20260709",
-          "type": "positive",
-          "headline": "[거시분석] US and Iran trade strikes for second night in...",
-          "score": 1
         }
       ]
     },
     "전력·에너지": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 0,
+      "positive_count": 0,
       "negative_count": 0,
-      "recent_events": [
-        {
-          "date": "20260712",
-          "type": "positive",
-          "headline": "AI 데이터센터 훈풍에 철강업계도 기대…실적 개선 힘 보탤까",
-          "score": 1
-        }
-      ]
+      "recent_events": []
     },
     "로봇": {
       "score": 0,
@@ -147,7 +134,7 @@
         {
           "date": "20260712",
           "type": "negative",
-          "headline": "[거시분석] Iran supreme leader calls for revenge for fat...",
+          "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
           "score": -1
         },
         {
@@ -215,8 +202,8 @@
         {
           "date": "20260712",
           "type": "negative",
-          "headline": "[거시분석] Iran supreme leader calls for revenge for fat...",
-          "score": -5
+          "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
+          "score": -7
         },
         {
           "date": "20260711",
@@ -508,33 +495,26 @@
     },
     {
       "date": "20260712",
-      "headline": "Apple sues OpenAI, its employees claiming theft of trade secrets",
+      "headline": "이란, 중동 美 표적들 공격 개시…바레인·카타르·UAE 공습경보",
       "impacts": {
-        "반도체·AI": 1
+        "방산": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260712",
-      "headline": "AI 데이터센터 훈풍에 철강업계도 기대…실적 개선 힘 보탤까",
+      "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
       "impacts": {
-        "전력·에너지": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260712",
-      "headline": "[거시분석] Iran supreme leader calls for revenge for fat...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -5,
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -7,
         "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 35,
-  "total_positives": 28,
+  "total_negatives": 36,
+  "total_positives": 27,
   "risk_level": "EXTREME"
 }
