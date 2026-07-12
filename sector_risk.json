@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-13T04:10:04.232322+09:00",
+  "updated_at": "2026-07-13T05:54:39.413422+09:00",
   "date": "20260713",
   "window_days": 14,
   "sectors": [
@@ -197,7 +197,7 @@
           "date": "20260713",
           "type": "negative",
           "headline": "[거시분석] US insists Strait of Hormuz is open as it exc...",
-          "score": -4
+          "score": -5
         },
         {
           "date": "20260712",
@@ -510,7 +510,7 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -4,
+        "전체시장": -5,
         "금융": -1
       },
       "source": "geo_categories"
