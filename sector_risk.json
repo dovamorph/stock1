@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-13T05:54:39.413422+09:00",
+  "updated_at": "2026-07-13T07:54:15.673811+09:00",
   "date": "20260713",
   "window_days": 14,
   "sectors": [
@@ -35,14 +35,20 @@
       ]
     },
     "건설": {
-      "score": -10,
-      "positive_count": 2,
+      "score": -9,
+      "positive_count": 3,
       "negative_count": 7,
       "recent_events": [
         {
           "date": "20260713",
           "type": "positive",
-          "headline": "베네수엘라 '대규모 재건' 시동…주택 2만5천채 공급 추진",
+          "headline": "양천구, 목동 재건축 대비 '100년 하수도 체계' 구축한다",
+          "score": 1
+        },
+        {
+          "date": "20260713",
+          "type": "positive",
+          "headline": "김현기 강남구청장 \"매일 아침 재건축부터 챙긴다\"",
           "score": 1
         },
         {
@@ -62,24 +68,30 @@
           "type": "negative",
           "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
           "score": -2
-        },
-        {
-          "date": "20260710",
-          "type": "negative",
-          "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
-          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 19,
+      "positive_count": 21,
       "negative_count": 2,
       "recent_events": [
         {
           "date": "20260713",
           "type": "positive",
-          "headline": "미군, 추가 공습…\"이란 미사일 및 방공시스템·소형선박 타격\"",
+          "headline": "이란, 미군 추가 공습에 호르무즈 일대 연쇄 폭발음",
+          "score": 1
+        },
+        {
+          "date": "20260713",
+          "type": "positive",
+          "headline": "미군 \"이란에 추가공습 개시…호르무즈 상선 공격역량 약화\"",
+          "score": 1
+        },
+        {
+          "date": "20260713",
+          "type": "positive",
+          "headline": "[속보] 미군 \"군통수권자 지시로 이란 상대 추가 공습 개시\"",
           "score": 1
         },
         {
@@ -93,18 +105,6 @@
           "type": "positive",
           "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
           "score": 3
-        },
-        {
-          "date": "20260711",
-          "type": "positive",
-          "headline": "[거시분석] US wants Iran to pledge to stop shooting at s...",
-          "score": 1
-        },
-        {
-          "date": "20260710",
-          "type": "negative",
-          "headline": "US-Iran war: Will peace talks resume, and when?",
-          "score": -1
         }
       ]
     },
@@ -490,7 +490,23 @@
     },
     {
       "date": "20260713",
-      "headline": "미군, 추가 공습…\"이란 미사일 및 방공시스템·소형선박 타격\"",
+      "headline": "양천구, 목동 재건축 대비 '100년 하수도 체계' 구축한다",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260713",
+      "headline": "김현기 강남구청장 \"매일 아침 재건축부터 챙긴다\"",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260713",
+      "headline": "이란, 미군 추가 공습에 호르무즈 일대 연쇄 폭발음",
       "impacts": {
         "방산": 1
       },
@@ -498,9 +514,17 @@
     },
     {
       "date": "20260713",
-      "headline": "베네수엘라 '대규모 재건' 시동…주택 2만5천채 공급 추진",
+      "headline": "미군 \"이란에 추가공습 개시…호르무즈 상선 공격역량 약화\"",
       "impacts": {
-        "건설": 1
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260713",
+      "headline": "[속보] 미군 \"군통수권자 지시로 이란 상대 추가 공습 개시\"",
+      "impacts": {
+        "방산": 1
       },
       "source": "keyword"
     },
@@ -517,6 +541,6 @@
     }
   ],
   "total_negatives": 36,
-  "total_positives": 28,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
