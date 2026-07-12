@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-12 18:53",
+  "updated": "2026-07-12 20:13",
   "news_count": 79,
   "intl_count": 49,
   "domestic_count": 30,
@@ -15,18 +15,18 @@
   "news_sample": [
     "US launches fresh strikes as Iran closes Strait of Hormuz",
     "US Senator and close Trump ally Lindsey Graham dies after 'brief and sudden illness'",
+    "Badly burned British couple rescued from ravine during Spain wildfires",
     "China evacuates nearly two million people as powerful typhoon makes landfall",
-    "At least two killed in Toronto street festival shooting",
-    "T. rex could become most expensive fossil ever - but it's a ​problem for scientists"
+    "At least two killed in Toronto street festival shooting"
   ],
   "all_headlines": [
     "US launches fresh strikes as Iran closes Strait of Hormuz",
     "US Senator and close Trump ally Lindsey Graham dies after 'brief and sudden illness'",
+    "Badly burned British couple rescued from ravine during Spain wildfires",
     "China evacuates nearly two million people as powerful typhoon makes landfall",
     "At least two killed in Toronto street festival shooting",
     "T. rex could become most expensive fossil ever - but it's a ​problem for scientists",
     "Trump administration subpoenas New York Times journalists over Air Force One reporting",
-    "Spain battles to contain one of its deadliest wildfires as at least 12 killed",
     "US Democrat Ro Khanna says he was detained by armed Israeli settlers",
     "Muslim judge in India faces death threats after convicting 'cow vigilantes'",
     "Polish PM pledges memorial to victims of WW2 'genocide by Ukrainian nationalists'",
@@ -44,6 +44,8 @@
     "Newly-released video shows Peter Falconio's killer questioned",
     "Watch: Inside the 30-hour dating retreat run by monks",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Photos: Qatari Father Emir Sheikh Hamad bin Khalifa Al Thani",
+    "The spectacle and symbolism of Khamenei’s funeral",
     "Former Emir of Qatar Sheikh Hamad bin Khalifa Al Thani dies: Reactions",
     "Iran attacks five Gulf nations, shuts Hormuz after US bombing: All to know",
     "Watch World Cup: England beats Norway to set up semifinal against Argentina",
@@ -66,9 +68,19 @@
     "Nigeria rescues dozens of abducted school children in Oyo state",
     "Mediators push US-Iran talks in Qatar and Oman to avert escalation",
     "Bellingham scores twice as England beat Norway 2-1 to reach World Cup semis",
-    "Iran war live: Tehran attacks Jordan, Gulf states after US bombardment",
-    "Indian tourists killed after speedboat capsizes in Vietnam",
-    "Whistleblower claims Kennedy Center ‘rushed’ renovations to please Trump",
+    "Iran war live: Middle East on high alert as IRGC, US military trade blows",
+    "남중국해 판결 10주년에 美日 등 \"中 영유권 주장 근거없다\"(종합)",
+    "[날씨] 전국 무더위 속 곳곳 소나기…대구 낮 최고 37도",
+    "박승원 광명시장 \"더 단단한 민주당 만들겠다\"…최고위원 출마",
+    "'반갑다 바다야'…동해안 해수욕장 주말 20만명 '풍덩'",
+    "中CCTV \"박태성 北총리, 공산당 역사관·철도 관제센터 참관\"",
+    "열대야에 잠못드는 유럽…한밤 최저기온도 최고기록 경신",
+    "9월부터 시내버스 와이파이 빨라진다…LGU+ 사업 수주",
+    "이란, 美 공습에 대규모 반격…중동 전역 美기지 겨냥 공격(종합2보)",
+    "신한투자, 선취 판매수수료 없는 '라이트 펀드' 등 출시",
+    "김주형, PGA 투어 스코틀랜드 오픈 3R 공동 4위…선두와 1타차",
+    "'공화 강경파' 그레이엄 의원 별세…트럼프 \"진정한 애국자\"(종합2보)",
+    "與 '보완수사권 폐지 속도'에 정부·법원·黨일각서 우려 목소리",
     "與당권주자들, 정청래에 집중포화…鄭 \"민주당 정체성은 개혁\"",
     "'부산행' 장동혁, 투표지 대여공세…\"李대통령, 재선거 입틀막\"",
     "서울시, 천경자 도록 저작권료 논란…유족측 분쟁조정 절차(종합)",
@@ -86,29 +98,17 @@
     "[북한단신] 황해북도서 화력발전소·태양광발전소 건설공사",
     "행안부, 폭염에 관계부처 긴급 점검회의…취약계층 보호 강화",
     "서울 전역에 열대야주의보…서울 동남·서남권에 폭염경보 유지",
-    "충남서 다리 경련 등 온열질환 3명 접수",
-    "\"작년 군 대상 사이버공격 시도 1만9천건…5년간 최대\"",
-    "혼자 질주한 고지우, KLPGA 하이원리조트 오픈 우승…통산 4승(종합)",
-    "하메네이 장례후 더 대담해진 이란…미 중단선언 요구에도 또 상선공격(종합)",
-    "\"홍콩, 스위스 제치고 세계 최대 역외 자산관리 시장 등극\"",
-    "환시에 '통화스와프급' 265억달러 퍼붓는 구원투수 SK하이닉스(종합)",
-    "'트럼프 측근' 그레이엄 의원 별세…대이란·대북 강경론 주도(종합)",
-    "영덕 36.7도·경주 36.5도, 찜통더위…온열질환 잇따라(종합)",
-    "인천 백령도·대청도에 강풍주의보…서해에 풍랑주의보",
-    "골 가뭄 시달리는 K리그1 제주, 브라질 공격수 아이아스 영입",
-    "통일부 \"北에 실종 해군함정 병사 수색·송환 협조 요청\"",
-    "충북서 폭염 속 온열질환자 잇따라…3명 추가 발생",
-    "美日 등, '남중국해 판결' 10주년에 \"中 영유권 주장 근거없다\""
+    "충남서 다리 경련 등 온열질환 3명 접수"
   ],
   "categories": {
     "geopolitical": {
-      "level": "경고",
-      "color": "orange",
-      "signal": "🟠",
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
       "summary": "US launches fresh strikes as Iran closes Stra...",
-      "action": "포지션 축소 검토 / 모니터링 강화",
-      "matched": 14,
-      "score": 2.9
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 13,
+      "score": 1.5
     },
     "macro": {
       "level": "안전",
@@ -135,22 +135,22 @@
       "summary": "US launches fresh strikes as Iran closes Stra...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 10,
-      "score": 1.5
+      "score": 2.9
     },
     "policy": {
-      "level": "안전",
-      "color": "green",
-      "signal": "🟢",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "신호",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "9월부터 시내버스 와이파이 빨라진다…LGU+ 사업 수주",
+      "action": "관련 지표 추가 확인 후 판단",
+      "matched": 1,
+      "score": 1.5
     }
   },
   "overall": {
-    "level": "경고",
-    "color": "orange",
+    "level": "위험",
+    "color": "red",
     "summary": "주의 필요: 지정학적 충돌",
-    "action": "포지션 축소 검토 / 모니터링 강화"
+    "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
