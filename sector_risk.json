@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-13T12:21:50.530473+09:00",
+  "updated_at": "2026-07-13T15:57:50.811583+09:00",
   "date": "20260713",
   "window_days": 14,
   "sectors": [
@@ -35,22 +35,10 @@
       ]
     },
     "건설": {
-      "score": -10,
+      "score": -9,
       "positive_count": 1,
-      "negative_count": 8,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20260713",
-          "type": "negative",
-          "headline": "폭염·호우 땐 공공계약 공사 중단…재경부 업무 처리 지침 안내",
-          "score": -1
-        },
-        {
-          "date": "20260713",
-          "type": "negative",
-          "headline": "[거시분석] US insists Strait of Hormuz is open as it exc...",
-          "score": -1
-        },
         {
           "date": "20260712",
           "type": "positive",
@@ -68,6 +56,18 @@
           "type": "negative",
           "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
           "score": -1
+        },
+        {
+          "date": "20260708",
+          "type": "negative",
+          "headline": "[거시분석] Trump says ceasefire is 'over' after US and I...",
+          "score": -2
+        },
+        {
+          "date": "20260706",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
+          "score": -2
         }
       ]
     },
@@ -79,8 +79,8 @@
         {
           "date": "20260713",
           "type": "positive",
-          "headline": "[거시분석] US insists Strait of Hormuz is open as it exc...",
-          "score": 2
+          "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
+          "score": 1
         },
         {
           "date": "20260712",
@@ -128,7 +128,7 @@
         {
           "date": "20260713",
           "type": "negative",
-          "headline": "[거시분석] US insists Strait of Hormuz is open as it exc...",
+          "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
           "score": -1
         },
         {
@@ -158,10 +158,16 @@
       ]
     },
     "우주ETF": {
-      "score": 3,
-      "positive_count": 3,
+      "score": 4,
+      "positive_count": 4,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260713",
+          "type": "positive",
+          "headline": "The SpaceX IPO made history. Is the excitement still there?",
+          "score": 1
+        },
         {
           "date": "20260704",
           "type": "positive",
@@ -190,13 +196,25 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 3,
+      "positive_count": 5,
       "negative_count": 18,
       "recent_events": [
         {
           "date": "20260713",
+          "type": "positive",
+          "headline": "[표] 코스닥 외국인 순매수도 상위종목(13일)",
+          "score": 1
+        },
+        {
+          "date": "20260713",
+          "type": "positive",
+          "headline": "[표] 거래소 외국인 순매수도 상위종목(13일)",
+          "score": 1
+        },
+        {
+          "date": "20260713",
           "type": "negative",
-          "headline": "[거시분석] US insists Strait of Hormuz is open as it exc...",
+          "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
           "score": -4
         },
         {
@@ -209,18 +227,6 @@
           "date": "20260711",
           "type": "negative",
           "headline": "[거시분석] US wants Iran to pledge to stop shooting at s...",
-          "score": -3
-        },
-        {
-          "date": "20260710",
-          "type": "negative",
-          "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
-          "score": -4
-        },
-        {
-          "date": "20260709",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran trade strikes for second night in...",
           "score": -3
         }
       ]
@@ -490,25 +496,40 @@
     },
     {
       "date": "20260713",
-      "headline": "폭염·호우 땐 공공계약 공사 중단…재경부 업무 처리 지침 안내",
+      "headline": "The SpaceX IPO made history. Is the excitement still there?",
       "impacts": {
-        "건설": -1
+        "우주ETF": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260713",
-      "headline": "[거시분석] US insists Strait of Hormuz is open as it exc...",
+      "headline": "[표] 코스닥 외국인 순매수도 상위종목(13일)",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260713",
+      "headline": "[표] 거래소 외국인 순매수도 상위종목(13일)",
+      "impacts": {
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260713",
+      "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
+      "impacts": {
+        "방산": 1,
         "전체시장": -4,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 37,
-  "total_positives": 26,
+  "total_negatives": 35,
+  "total_positives": 29,
   "risk_level": "EXTREME"
 }
