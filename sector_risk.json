@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T02:57:24.186323+09:00",
+  "updated_at": "2026-07-14T04:40:19.699740+09:00",
   "date": "20260714",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260714",
           "type": "negative",
-          "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
+          "headline": "[거시분석] Trump reinstating naval blockade of Iranian p...",
           "score": -2
         },
         {
@@ -48,13 +48,19 @@
     },
     "건설": {
       "score": -10,
-      "positive_count": 1,
+      "positive_count": 2,
       "negative_count": 7,
       "recent_events": [
         {
           "date": "20260714",
+          "type": "positive",
+          "headline": "EU \"가자지구 재건 1조5천억원 모금\"…위생 복구 등에 투입",
+          "score": 1
+        },
+        {
+          "date": "20260714",
           "type": "negative",
-          "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
+          "headline": "[거시분석] Trump reinstating naval blockade of Iranian p...",
           "score": -2
         },
         {
@@ -74,24 +80,24 @@
           "type": "negative",
           "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
           "score": -2
-        },
-        {
-          "date": "20260710",
-          "type": "negative",
-          "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
-          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 19,
+      "positive_count": 20,
       "negative_count": 2,
       "recent_events": [
         {
           "date": "20260714",
           "type": "positive",
-          "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
+          "headline": "Trump reinstating naval blockade of Iranian ports",
+          "score": 1
+        },
+        {
+          "date": "20260714",
+          "type": "positive",
+          "headline": "[거시분석] Trump reinstating naval blockade of Iranian p...",
           "score": 3
         },
         {
@@ -111,12 +117,6 @@
           "type": "positive",
           "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
           "score": 3
-        },
-        {
-          "date": "20260711",
-          "type": "positive",
-          "headline": "[거시분석] US wants Iran to pledge to stop shooting at s...",
-          "score": 1
         }
       ]
     },
@@ -140,7 +140,7 @@
         {
           "date": "20260714",
           "type": "negative",
-          "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
+          "headline": "[거시분석] Trump reinstating naval blockade of Iranian p...",
           "score": -1
         },
         {
@@ -214,7 +214,7 @@
         {
           "date": "20260714",
           "type": "negative",
-          "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
+          "headline": "[거시분석] Trump reinstating naval blockade of Iranian p...",
           "score": -7
         },
         {
@@ -526,6 +526,14 @@
     },
     {
       "date": "20260714",
+      "headline": "Trump reinstating naval blockade of Iranian ports",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260714",
       "headline": "The SpaceX IPO made history. One month on has it lost momentum?",
       "impacts": {
         "우주ETF": 1
@@ -534,7 +542,15 @@
     },
     {
       "date": "20260714",
-      "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
+      "headline": "EU \"가자지구 재건 1조5천억원 모금\"…위생 복구 등에 투입",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260714",
+      "headline": "[거시분석] Trump reinstating naval blockade of Iranian p...",
       "impacts": {
         "방산": 3,
         "건설": -2,
@@ -546,6 +562,6 @@
     }
   ],
   "total_negatives": 39,
-  "total_positives": 29,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
