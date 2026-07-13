@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T05:59:35.032228+09:00",
+  "updated_at": "2026-07-14T07:57:58.251427+09:00",
   "date": "20260714",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -5,
+      "score": -3,
       "positive_count": 1,
-      "negative_count": 3,
+      "negative_count": 2,
       "recent_events": [
-        {
-          "date": "20260714",
-          "type": "negative",
-          "headline": "[거시분석] Trump reinstates Iran port blockade and vows ...",
-          "score": -2
-        },
         {
           "date": "20260713",
           "type": "negative",
@@ -48,21 +42,9 @@
     },
     "건설": {
       "score": -10,
-      "positive_count": 2,
-      "negative_count": 7,
+      "positive_count": 1,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20260714",
-          "type": "positive",
-          "headline": "EU \"가자지구 재건 1조5천억원 모금\"…위생 복구 등에 투입",
-          "score": 1
-        },
-        {
-          "date": "20260714",
-          "type": "negative",
-          "headline": "[거시분석] Trump reinstates Iran port blockade and vows ...",
-          "score": -2
-        },
         {
           "date": "20260713",
           "type": "negative",
@@ -80,25 +62,31 @@
           "type": "negative",
           "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
           "score": -2
+        },
+        {
+          "date": "20260710",
+          "type": "negative",
+          "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
+          "score": -1
+        },
+        {
+          "date": "20260708",
+          "type": "negative",
+          "headline": "[거시분석] Trump says ceasefire is 'over' after US and I...",
+          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 20,
+      "positive_count": 19,
       "negative_count": 2,
       "recent_events": [
         {
           "date": "20260714",
           "type": "positive",
-          "headline": "후티 반군, 사우디 아브하 공항 타격…\"사나 공항 공습 보복\"",
-          "score": 1
-        },
-        {
-          "date": "20260714",
-          "type": "positive",
           "headline": "[거시분석] Trump reinstates Iran port blockade and vows ...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260713",
@@ -117,6 +105,12 @@
           "type": "positive",
           "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
           "score": 3
+        },
+        {
+          "date": "20260711",
+          "type": "positive",
+          "headline": "[거시분석] US wants Iran to pledge to stop shooting at s...",
+          "score": 1
         }
       ]
     },
@@ -215,7 +209,7 @@
           "date": "20260714",
           "type": "negative",
           "headline": "[거시분석] Trump reinstates Iran port blockade and vows ...",
-          "score": -7
+          "score": -3
         },
         {
           "date": "20260713",
@@ -534,34 +528,16 @@
     },
     {
       "date": "20260714",
-      "headline": "후티 반군, 사우디 아브하 공항 타격…\"사나 공항 공습 보복\"",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260714",
-      "headline": "EU \"가자지구 재건 1조5천억원 모금\"…위생 복구 등에 투입",
-      "impacts": {
-        "건설": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260714",
       "headline": "[거시분석] Trump reinstates Iran port blockade and vows ...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -7,
-        "금융": -1,
-        "반도체·AI": -2
+        "방산": 1,
+        "전체시장": -3,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 39,
-  "total_positives": 31,
+  "total_negatives": 37,
+  "total_positives": 29,
   "risk_level": "EXTREME"
 }
