@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T04:40:19.699740+09:00",
+  "updated_at": "2026-07-14T05:59:35.032228+09:00",
   "date": "20260714",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260714",
           "type": "negative",
-          "headline": "[거시분석] Trump reinstating naval blockade of Iranian p...",
+          "headline": "[거시분석] Trump reinstates Iran port blockade and vows ...",
           "score": -2
         },
         {
@@ -60,7 +60,7 @@
         {
           "date": "20260714",
           "type": "negative",
-          "headline": "[거시분석] Trump reinstating naval blockade of Iranian p...",
+          "headline": "[거시분석] Trump reinstates Iran port blockade and vows ...",
           "score": -2
         },
         {
@@ -91,13 +91,13 @@
         {
           "date": "20260714",
           "type": "positive",
-          "headline": "Trump reinstating naval blockade of Iranian ports",
+          "headline": "후티 반군, 사우디 아브하 공항 타격…\"사나 공항 공습 보복\"",
           "score": 1
         },
         {
           "date": "20260714",
           "type": "positive",
-          "headline": "[거시분석] Trump reinstating naval blockade of Iranian p...",
+          "headline": "[거시분석] Trump reinstates Iran port blockade and vows ...",
           "score": 3
         },
         {
@@ -140,7 +140,7 @@
         {
           "date": "20260714",
           "type": "negative",
-          "headline": "[거시분석] Trump reinstating naval blockade of Iranian p...",
+          "headline": "[거시분석] Trump reinstates Iran port blockade and vows ...",
           "score": -1
         },
         {
@@ -214,7 +214,7 @@
         {
           "date": "20260714",
           "type": "negative",
-          "headline": "[거시분석] Trump reinstating naval blockade of Iranian p...",
+          "headline": "[거시분석] Trump reinstates Iran port blockade and vows ...",
           "score": -7
         },
         {
@@ -526,17 +526,17 @@
     },
     {
       "date": "20260714",
-      "headline": "Trump reinstating naval blockade of Iranian ports",
+      "headline": "The SpaceX IPO made history. One month on has it lost momentum?",
       "impacts": {
-        "방산": 1
+        "우주ETF": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260714",
-      "headline": "The SpaceX IPO made history. One month on has it lost momentum?",
+      "headline": "후티 반군, 사우디 아브하 공항 타격…\"사나 공항 공습 보복\"",
       "impacts": {
-        "우주ETF": 1
+        "방산": 1
       },
       "source": "keyword"
     },
@@ -550,7 +550,7 @@
     },
     {
       "date": "20260714",
-      "headline": "[거시분석] Trump reinstating naval blockade of Iranian p...",
+      "headline": "[거시분석] Trump reinstates Iran port blockade and vows ...",
       "impacts": {
         "방산": 3,
         "건설": -2,
