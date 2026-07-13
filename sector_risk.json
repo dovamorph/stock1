@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-13T20:15:44.626744+09:00",
+  "updated_at": "2026-07-13T23:41:53.314899+09:00",
   "date": "20260713",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260713",
           "type": "negative",
-          "headline": "[거시분석] How a viral seal called Neil caused mayhem in...",
+          "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
           "score": -2
         },
         {
@@ -41,10 +41,16 @@
       ]
     },
     "건설": {
-      "score": -9,
+      "score": -10,
       "positive_count": 1,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260713",
+          "type": "negative",
+          "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
+          "score": -2
+        },
         {
           "date": "20260712",
           "type": "positive",
@@ -68,25 +74,25 @@
           "type": "negative",
           "headline": "[거시분석] Trump says ceasefire is 'over' after US and I...",
           "score": -2
-        },
-        {
-          "date": "20260706",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine warns of interceptor missile shortage...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 18,
+      "positive_count": 19,
       "negative_count": 2,
       "recent_events": [
         {
           "date": "20260713",
           "type": "positive",
-          "headline": "[거시분석] How a viral seal called Neil caused mayhem in...",
+          "headline": "예멘 수도 사나 공항에 수차례 공습…후티 \"사우디 소행\"",
           "score": 1
+        },
+        {
+          "date": "20260713",
+          "type": "positive",
+          "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
+          "score": 3
         },
         {
           "date": "20260712",
@@ -105,12 +111,6 @@
           "type": "negative",
           "headline": "US-Iran war: Will peace talks resume, and when?",
           "score": -1
-        },
-        {
-          "date": "20260710",
-          "type": "positive",
-          "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
-          "score": 2
         }
       ]
     },
@@ -134,7 +134,7 @@
         {
           "date": "20260713",
           "type": "negative",
-          "headline": "[거시분석] How a viral seal called Neil caused mayhem in...",
+          "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
           "score": -1
         },
         {
@@ -202,14 +202,20 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 3,
+      "positive_count": 4,
       "negative_count": 18,
       "recent_events": [
         {
           "date": "20260713",
+          "type": "positive",
+          "headline": "예멘 수도 공항에 공습…후티 \"사우디 소행, 휴전 종료\"(종합)",
+          "score": 1
+        },
+        {
+          "date": "20260713",
           "type": "negative",
-          "headline": "[거시분석] How a viral seal called Neil caused mayhem in...",
-          "score": -5
+          "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
+          "score": -7
         },
         {
           "date": "20260712",
@@ -228,12 +234,6 @@
           "type": "negative",
           "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
           "score": -4
-        },
-        {
-          "date": "20260709",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran trade strikes for second night in...",
-          "score": -3
         }
       ]
     }
@@ -510,17 +510,34 @@
     },
     {
       "date": "20260713",
-      "headline": "[거시분석] How a viral seal called Neil caused mayhem in...",
+      "headline": "예멘 수도 공항에 공습…후티 \"사우디 소행, 휴전 종료\"(종합)",
       "impacts": {
-        "방산": 1,
-        "전체시장": -5,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260713",
+      "headline": "예멘 수도 사나 공항에 수차례 공습…후티 \"사우디 소행\"",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260713",
+      "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -7,
         "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 36,
-  "total_positives": 27,
+  "total_negatives": 37,
+  "total_positives": 29,
   "risk_level": "EXTREME"
 }
