@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-13T15:57:50.811583+09:00",
+  "updated_at": "2026-07-13T20:15:44.626744+09:00",
   "date": "20260713",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -1,
+      "score": -3,
       "positive_count": 1,
-      "negative_count": 1,
+      "negative_count": 2,
       "recent_events": [
+        {
+          "date": "20260713",
+          "type": "negative",
+          "headline": "[거시분석] How a viral seal called Neil caused mayhem in...",
+          "score": -2
+        },
         {
           "date": "20260711",
           "type": "positive",
@@ -79,7 +85,7 @@
         {
           "date": "20260713",
           "type": "positive",
-          "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
+          "headline": "[거시분석] How a viral seal called Neil caused mayhem in...",
           "score": 1
         },
         {
@@ -128,7 +134,7 @@
         {
           "date": "20260713",
           "type": "negative",
-          "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
+          "headline": "[거시분석] How a viral seal called Neil caused mayhem in...",
           "score": -1
         },
         {
@@ -165,7 +171,7 @@
         {
           "date": "20260713",
           "type": "positive",
-          "headline": "The SpaceX IPO made history. Is the excitement still there?",
+          "headline": "The SpaceX IPO made history. One month on has it lost momentum?",
           "score": 1
         },
         {
@@ -196,26 +202,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 5,
+      "positive_count": 3,
       "negative_count": 18,
       "recent_events": [
         {
           "date": "20260713",
-          "type": "positive",
-          "headline": "[표] 코스닥 외국인 순매수도 상위종목(13일)",
-          "score": 1
-        },
-        {
-          "date": "20260713",
-          "type": "positive",
-          "headline": "[표] 거래소 외국인 순매수도 상위종목(13일)",
-          "score": 1
-        },
-        {
-          "date": "20260713",
           "type": "negative",
-          "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
-          "score": -4
+          "headline": "[거시분석] How a viral seal called Neil caused mayhem in...",
+          "score": -5
         },
         {
           "date": "20260712",
@@ -227,6 +221,18 @@
           "date": "20260711",
           "type": "negative",
           "headline": "[거시분석] US wants Iran to pledge to stop shooting at s...",
+          "score": -3
+        },
+        {
+          "date": "20260710",
+          "type": "negative",
+          "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
+          "score": -4
+        },
+        {
+          "date": "20260709",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran trade strikes for second night in...",
           "score": -3
         }
       ]
@@ -496,7 +502,7 @@
     },
     {
       "date": "20260713",
-      "headline": "The SpaceX IPO made history. Is the excitement still there?",
+      "headline": "The SpaceX IPO made history. One month on has it lost momentum?",
       "impacts": {
         "우주ETF": 1
       },
@@ -504,32 +510,17 @@
     },
     {
       "date": "20260713",
-      "headline": "[표] 코스닥 외국인 순매수도 상위종목(13일)",
-      "impacts": {
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260713",
-      "headline": "[표] 거래소 외국인 순매수도 상위종목(13일)",
-      "impacts": {
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260713",
-      "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
+      "headline": "[거시분석] How a viral seal called Neil caused mayhem in...",
       "impacts": {
         "방산": 1,
-        "전체시장": -4,
-        "금융": -1
+        "전체시장": -5,
+        "금융": -1,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 35,
-  "total_positives": 29,
+  "total_negatives": 36,
+  "total_positives": 27,
   "risk_level": "EXTREME"
 }
