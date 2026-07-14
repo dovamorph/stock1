@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15T02:18:01.239843+09:00",
+  "updated_at": "2026-07-15T04:24:42.964126+09:00",
   "date": "20260715",
   "window_days": 14,
   "sectors": [
@@ -48,7 +48,7 @@
         {
           "date": "20260715",
           "type": "negative",
-          "headline": "[거시분석] Israeli strike on police post in north Gaza k...",
+          "headline": "[거시분석] Trump scraps threat of 20% fee on Hormuz carg...",
           "score": -1
         },
         {
@@ -85,7 +85,7 @@
         {
           "date": "20260715",
           "type": "positive",
-          "headline": "[거시분석] Israeli strike on police post in north Gaza k...",
+          "headline": "[거시분석] Trump scraps threat of 20% fee on Hormuz carg...",
           "score": 2
         },
         {
@@ -134,7 +134,7 @@
         {
           "date": "20260715",
           "type": "negative",
-          "headline": "[거시분석] Israeli strike on police post in north Gaza k...",
+          "headline": "[거시분석] Trump scraps threat of 20% fee on Hormuz carg...",
           "score": -1
         },
         {
@@ -214,8 +214,8 @@
         {
           "date": "20260715",
           "type": "negative",
-          "headline": "[거시분석] Israeli strike on police post in north Gaza k...",
-          "score": -4
+          "headline": "[거시분석] Trump scraps threat of 20% fee on Hormuz carg...",
+          "score": -3
         },
         {
           "date": "20260714",
@@ -534,11 +534,11 @@
     },
     {
       "date": "20260715",
-      "headline": "[거시분석] Israeli strike on police post in north Gaza k...",
+      "headline": "[거시분석] Trump scraps threat of 20% fee on Hormuz carg...",
       "impacts": {
         "방산": 2,
         "건설": -1,
-        "전체시장": -4,
+        "전체시장": -3,
         "금융": -1
       },
       "source": "geo_categories"
