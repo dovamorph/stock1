@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15T00:25:13.606221+09:00",
+  "updated_at": "2026-07-15T02:18:01.239843+09:00",
   "date": "20260715",
   "window_days": 14,
   "sectors": [
@@ -49,7 +49,7 @@
           "date": "20260715",
           "type": "negative",
           "headline": "[거시분석] Israeli strike on police post in north Gaza k...",
-          "score": -2
+          "score": -1
         },
         {
           "date": "20260713",
@@ -79,20 +79,14 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 20,
+      "positive_count": 19,
       "negative_count": 2,
       "recent_events": [
         {
           "date": "20260715",
           "type": "positive",
-          "headline": "긴장 고조에 하늘길 또 비상…EU 항공청 \"중동 상공 피하라\"",
-          "score": 1
-        },
-        {
-          "date": "20260715",
-          "type": "positive",
           "headline": "[거시분석] Israeli strike on police post in north Gaza k...",
-          "score": 3
+          "score": 2
         },
         {
           "date": "20260714",
@@ -110,6 +104,12 @@
           "date": "20260713",
           "type": "positive",
           "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
+          "score": 3
+        },
+        {
+          "date": "20260712",
+          "type": "positive",
+          "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
           "score": 3
         }
       ]
@@ -215,7 +215,7 @@
           "date": "20260715",
           "type": "negative",
           "headline": "[거시분석] Israeli strike on police post in north Gaza k...",
-          "score": -5
+          "score": -4
         },
         {
           "date": "20260714",
@@ -534,25 +534,17 @@
     },
     {
       "date": "20260715",
-      "headline": "긴장 고조에 하늘길 또 비상…EU 항공청 \"중동 상공 피하라\"",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260715",
       "headline": "[거시분석] Israeli strike on police post in north Gaza k...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -4,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 37,
-  "total_positives": 31,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
