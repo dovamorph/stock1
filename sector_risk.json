@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T19:01:43.117067+09:00",
+  "updated_at": "2026-07-14T22:51:48.818678+09:00",
   "date": "20260714",
   "window_days": 14,
   "sectors": [
@@ -85,7 +85,7 @@
         {
           "date": "20260714",
           "type": "positive",
-          "headline": "[거시분석] US bombs Iran again, Tehran strikes Gulf, tan...",
+          "headline": "[거시분석] Iran lawmakers present Hormuz management bill...",
           "score": 1
         },
         {
@@ -127,10 +127,16 @@
       "recent_events": []
     },
     "금융": {
-      "score": -8,
+      "score": -9,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20260714",
+          "type": "negative",
+          "headline": "[거시분석] Iran lawmakers present Hormuz management bill...",
+          "score": -1
+        },
         {
           "date": "20260713",
           "type": "negative",
@@ -153,12 +159,6 @@
           "date": "20260710",
           "type": "negative",
           "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
-          "score": -1
-        },
-        {
-          "date": "20260707",
-          "type": "negative",
-          "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
           "score": -1
         }
       ]
@@ -203,13 +203,19 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 18,
+      "negative_count": 19,
       "recent_events": [
         {
           "date": "20260714",
           "type": "negative",
-          "headline": "[거시분석] US bombs Iran again, Tehran strikes Gulf, tan...",
-          "score": -2
+          "headline": "관세청 차장에 박헌 인천공항세관장 임명",
+          "score": -1
+        },
+        {
+          "date": "20260714",
+          "type": "negative",
+          "headline": "[거시분석] Iran lawmakers present Hormuz management bill...",
+          "score": -4
         },
         {
           "date": "20260713",
@@ -228,12 +234,6 @@
           "type": "negative",
           "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
           "score": -4
-        },
-        {
-          "date": "20260711",
-          "type": "negative",
-          "headline": "[거시분석] US wants Iran to pledge to stop shooting at s...",
-          "score": -3
         }
       ]
     }
@@ -528,15 +528,24 @@
     },
     {
       "date": "20260714",
-      "headline": "[거시분석] US bombs Iran again, Tehran strikes Gulf, tan...",
+      "headline": "관세청 차장에 박헌 인천공항세관장 임명",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260714",
+      "headline": "[거시분석] Iran lawmakers present Hormuz management bill...",
       "impacts": {
         "방산": 1,
-        "전체시장": -2
+        "전체시장": -4,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 36,
+  "total_negatives": 38,
   "total_positives": 29,
   "risk_level": "EXTREME"
 }
