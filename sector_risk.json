@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-14T22:51:48.818678+09:00",
-  "date": "20260714",
+  "updated_at": "2026-07-15T00:25:13.606221+09:00",
+  "date": "20260715",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -43,8 +43,14 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260715",
+          "type": "negative",
+          "headline": "[거시분석] Israeli strike on police post in north Gaza k...",
+          "score": -2
+        },
         {
           "date": "20260713",
           "type": "negative",
@@ -68,20 +74,26 @@
           "type": "negative",
           "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
           "score": -1
-        },
-        {
-          "date": "20260708",
-          "type": "negative",
-          "headline": "[거시분석] Trump says ceasefire is 'over' after US and I...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 19,
+      "positive_count": 20,
       "negative_count": 2,
       "recent_events": [
+        {
+          "date": "20260715",
+          "type": "positive",
+          "headline": "긴장 고조에 하늘길 또 비상…EU 항공청 \"중동 상공 피하라\"",
+          "score": 1
+        },
+        {
+          "date": "20260715",
+          "type": "positive",
+          "headline": "[거시분석] Israeli strike on police post in north Gaza k...",
+          "score": 3
+        },
         {
           "date": "20260714",
           "type": "positive",
@@ -99,18 +111,6 @@
           "type": "positive",
           "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
           "score": 3
-        },
-        {
-          "date": "20260712",
-          "type": "positive",
-          "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
-          "score": 3
-        },
-        {
-          "date": "20260711",
-          "type": "positive",
-          "headline": "[거시분석] US wants Iran to pledge to stop shooting at s...",
-          "score": 1
         }
       ]
     },
@@ -132,6 +132,12 @@
       "negative_count": 9,
       "recent_events": [
         {
+          "date": "20260715",
+          "type": "negative",
+          "headline": "[거시분석] Israeli strike on police post in north Gaza k...",
+          "score": -1
+        },
+        {
           "date": "20260714",
           "type": "negative",
           "headline": "[거시분석] Iran lawmakers present Hormuz management bill...",
@@ -154,20 +160,20 @@
           "type": "negative",
           "headline": "[거시분석] US wants Iran to pledge to stop shooting at s...",
           "score": -1
-        },
-        {
-          "date": "20260710",
-          "type": "negative",
-          "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 4,
-      "positive_count": 4,
+      "score": 5,
+      "positive_count": 5,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260715",
+          "type": "positive",
+          "headline": "The SpaceX IPO made history. One month on has it lost momentum?",
+          "score": 1
+        },
         {
           "date": "20260714",
           "type": "positive",
@@ -203,8 +209,14 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 19,
+      "negative_count": 17,
       "recent_events": [
+        {
+          "date": "20260715",
+          "type": "negative",
+          "headline": "[거시분석] Israeli strike on police post in north Gaza k...",
+          "score": -5
+        },
         {
           "date": "20260714",
           "type": "negative",
@@ -228,43 +240,11 @@
           "type": "negative",
           "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
           "score": -7
-        },
-        {
-          "date": "20260712",
-          "type": "negative",
-          "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
-          "score": -4
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260630",
-      "headline": "트럼프, 이란전 여파로 비룟값 오르자 모로코산 비료 관세유예",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260630",
-      "headline": "EU, 내달부터 소액 소포에 3유로 관세…쉬인·테무 등 겨냥(종합)",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260630",
-      "headline": "[거시분석] US envoys in Doha to meet mediators but not I...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -4,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260701",
       "headline": "이란 외무차관 \"종전 실무 협상 재개 협의…조건 충족되면 시작\"",
@@ -543,9 +523,36 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260715",
+      "headline": "The SpaceX IPO made history. One month on has it lost momentum?",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260715",
+      "headline": "긴장 고조에 하늘길 또 비상…EU 항공청 \"중동 상공 피하라\"",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260715",
+      "headline": "[거시분석] Israeli strike on police post in north Gaza k...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 38,
-  "total_positives": 29,
+  "total_negatives": 37,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
