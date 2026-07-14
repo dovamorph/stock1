@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15T06:03:06.182917+09:00",
+  "updated_at": "2026-07-15T07:59:00.914918+09:00",
   "date": "20260715",
   "window_days": 14,
   "sectors": [
@@ -49,7 +49,7 @@
           "date": "20260715",
           "type": "negative",
           "headline": "[거시분석] Trump scraps threat of 20% fee on Hormuz carg...",
-          "score": -2
+          "score": -1
         },
         {
           "date": "20260713",
@@ -79,20 +79,14 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 20,
+      "positive_count": 19,
       "negative_count": 2,
       "recent_events": [
         {
           "date": "20260715",
           "type": "positive",
-          "headline": "美, 대이란 해상봉쇄 돌입 1시간 앞두고 이란 또 공습",
-          "score": 1
-        },
-        {
-          "date": "20260715",
-          "type": "positive",
           "headline": "[거시분석] Trump scraps threat of 20% fee on Hormuz carg...",
-          "score": 3
+          "score": 2
         },
         {
           "date": "20260714",
@@ -111,6 +105,12 @@
           "type": "positive",
           "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
           "score": 3
+        },
+        {
+          "date": "20260712",
+          "type": "positive",
+          "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
+          "score": 3
         }
       ]
     },
@@ -127,16 +127,10 @@
       "recent_events": []
     },
     "금융": {
-      "score": -9,
+      "score": -8,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 8,
       "recent_events": [
-        {
-          "date": "20260715",
-          "type": "negative",
-          "headline": "[거시분석] Trump scraps threat of 20% fee on Hormuz carg...",
-          "score": -1
-        },
         {
           "date": "20260714",
           "type": "negative",
@@ -159,6 +153,12 @@
           "date": "20260711",
           "type": "negative",
           "headline": "[거시분석] US wants Iran to pledge to stop shooting at s...",
+          "score": -1
+        },
+        {
+          "date": "20260710",
+          "type": "negative",
+          "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
           "score": -1
         }
       ]
@@ -208,14 +208,20 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 4,
+      "positive_count": 5,
       "negative_count": 17,
       "recent_events": [
         {
           "date": "20260715",
+          "type": "positive",
+          "headline": "From Wimbledon towels to Scotch: What India-UK trade deal could mean for shoppers",
+          "score": 1
+        },
+        {
+          "date": "20260715",
           "type": "negative",
           "headline": "[거시분석] Trump scraps threat of 20% fee on Hormuz carg...",
-          "score": -5
+          "score": -3
         },
         {
           "date": "20260714",
@@ -234,12 +240,6 @@
           "type": "positive",
           "headline": "예멘 수도 공항에 공습…후티 \"사우디 소행, 휴전 종료\"(종합)",
           "score": 1
-        },
-        {
-          "date": "20260713",
-          "type": "negative",
-          "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
-          "score": -7
         }
       ]
     }
@@ -526,6 +526,14 @@
     },
     {
       "date": "20260715",
+      "headline": "From Wimbledon towels to Scotch: What India-UK trade deal could mean for shoppers",
+      "impacts": {
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260715",
       "headline": "The SpaceX IPO made history. One month on has it lost momentum?",
       "impacts": {
         "우주ETF": 1
@@ -534,25 +542,16 @@
     },
     {
       "date": "20260715",
-      "headline": "美, 대이란 해상봉쇄 돌입 1시간 앞두고 이란 또 공습",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260715",
       "headline": "[거시분석] Trump scraps threat of 20% fee on Hormuz carg...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
-        "금융": -1
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -3
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 37,
+  "total_negatives": 36,
   "total_positives": 31,
   "risk_level": "EXTREME"
 }
