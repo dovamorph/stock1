@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15T04:24:42.964126+09:00",
+  "updated_at": "2026-07-15T06:03:06.182917+09:00",
   "date": "20260715",
   "window_days": 14,
   "sectors": [
@@ -49,7 +49,7 @@
           "date": "20260715",
           "type": "negative",
           "headline": "[거시분석] Trump scraps threat of 20% fee on Hormuz carg...",
-          "score": -1
+          "score": -2
         },
         {
           "date": "20260713",
@@ -79,14 +79,20 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 19,
+      "positive_count": 20,
       "negative_count": 2,
       "recent_events": [
         {
           "date": "20260715",
           "type": "positive",
+          "headline": "美, 대이란 해상봉쇄 돌입 1시간 앞두고 이란 또 공습",
+          "score": 1
+        },
+        {
+          "date": "20260715",
+          "type": "positive",
           "headline": "[거시분석] Trump scraps threat of 20% fee on Hormuz carg...",
-          "score": 2
+          "score": 3
         },
         {
           "date": "20260714",
@@ -104,12 +110,6 @@
           "date": "20260713",
           "type": "positive",
           "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
-          "score": 3
-        },
-        {
-          "date": "20260712",
-          "type": "positive",
-          "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
           "score": 3
         }
       ]
@@ -215,7 +215,7 @@
           "date": "20260715",
           "type": "negative",
           "headline": "[거시분석] Trump scraps threat of 20% fee on Hormuz carg...",
-          "score": -3
+          "score": -5
         },
         {
           "date": "20260714",
@@ -534,17 +534,25 @@
     },
     {
       "date": "20260715",
+      "headline": "美, 대이란 해상봉쇄 돌입 1시간 앞두고 이란 또 공습",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260715",
       "headline": "[거시분석] Trump scraps threat of 20% fee on Hormuz carg...",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -3,
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 37,
-  "total_positives": 30,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
