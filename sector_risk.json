@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15T11:44:37.327686+09:00",
+  "updated_at": "2026-07-15T15:18:30.640445+09:00",
   "date": "20260715",
   "window_days": 14,
   "sectors": [
@@ -43,14 +43,8 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20260715",
-          "type": "negative",
-          "headline": "[거시분석] Trump scraps threat of 20% fee on Hormuz carg...",
-          "score": -2
-        },
         {
           "date": "20260713",
           "type": "negative",
@@ -74,6 +68,12 @@
           "type": "negative",
           "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
           "score": -1
+        },
+        {
+          "date": "20260708",
+          "type": "negative",
+          "headline": "[거시분석] Trump says ceasefire is 'over' after US and I...",
+          "score": -2
         }
       ]
     },
@@ -85,8 +85,8 @@
         {
           "date": "20260715",
           "type": "positive",
-          "headline": "[거시분석] Trump scraps threat of 20% fee on Hormuz carg...",
-          "score": 3
+          "headline": "[거시분석] Trump threatens to bomb bridges and power pla...",
+          "score": 1
         },
         {
           "date": "20260714",
@@ -121,16 +121,29 @@
       "recent_events": []
     },
     "로봇": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20260715",
+          "type": "positive",
+          "headline": "GIST, MIT와 '피지컬 AI' 공동연구…미국에 연구센터 구축",
+          "score": 1
+        }
+      ]
     },
     "금융": {
-      "score": -8,
+      "score": -9,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20260715",
+          "type": "negative",
+          "headline": "[거시분석] Trump threatens to bomb bridges and power pla...",
+          "score": -1
+        },
         {
           "date": "20260714",
           "type": "negative",
@@ -154,26 +167,14 @@
           "type": "negative",
           "headline": "[거시분석] US wants Iran to pledge to stop shooting at s...",
           "score": -1
-        },
-        {
-          "date": "20260710",
-          "type": "negative",
-          "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 5,
-      "positive_count": 5,
+      "score": 4,
+      "positive_count": 4,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260715",
-          "type": "positive",
-          "headline": "The SpaceX IPO made history. One month on has it lost momentum?",
-          "score": 1
-        },
         {
           "date": "20260714",
           "type": "positive",
@@ -220,8 +221,8 @@
         {
           "date": "20260715",
           "type": "negative",
-          "headline": "[거시분석] Trump scraps threat of 20% fee on Hormuz carg...",
-          "score": -4
+          "headline": "[거시분석] Trump threatens to bomb bridges and power pla...",
+          "score": -3
         },
         {
           "date": "20260714",
@@ -534,19 +535,19 @@
     },
     {
       "date": "20260715",
-      "headline": "The SpaceX IPO made history. One month on has it lost momentum?",
+      "headline": "GIST, MIT와 '피지컬 AI' 공동연구…미국에 연구센터 구축",
       "impacts": {
-        "우주ETF": 1
+        "로봇": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260715",
-      "headline": "[거시분석] Trump scraps threat of 20% fee on Hormuz carg...",
+      "headline": "[거시분석] Trump threatens to bomb bridges and power pla...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -4
+        "방산": 1,
+        "전체시장": -3,
+        "금융": -1
       },
       "source": "geo_categories"
     }
