@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-16T02:20:38.177720+09:00",
+  "updated_at": "2026-07-16T04:16:34.673632+09:00",
   "date": "20260716",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -3,
+      "score": -1,
       "positive_count": 1,
-      "negative_count": 2,
+      "negative_count": 1,
       "recent_events": [
-        {
-          "date": "20260716",
-          "type": "negative",
-          "headline": "[거시분석] Iran threatens to block more trade routes as ...",
-          "score": -2
-        },
         {
           "date": "20260713",
           "type": "negative",
@@ -80,8 +74,14 @@
     "방산": {
       "score": 10,
       "positive_count": 21,
-      "negative_count": 1,
+      "negative_count": 2,
       "recent_events": [
+        {
+          "date": "20260716",
+          "type": "negative",
+          "headline": "이란 협상단장 \"종전합의 지킬 이유 없어\"…호르무즈 사수 천명",
+          "score": -1
+        },
         {
           "date": "20260716",
           "type": "positive",
@@ -105,12 +105,6 @@
           "type": "positive",
           "headline": "[거시분석] Iran threatens to block more trade routes as ...",
           "score": 3
-        },
-        {
-          "date": "20260714",
-          "type": "positive",
-          "headline": "[거시분석] Iran lawmakers present Hormuz management bill...",
-          "score": 1
         }
       ]
     },
@@ -208,13 +202,19 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 6,
-      "negative_count": 21,
+      "positive_count": 7,
+      "negative_count": 20,
       "recent_events": [
         {
           "date": "20260716",
           "type": "positive",
           "headline": "From Wimbledon towels to Scotch: What India-UK trade deal could mean for shoppers",
+          "score": 1
+        },
+        {
+          "date": "20260716",
+          "type": "positive",
+          "headline": "이란 협상단장 \"종전합의 지킬 이유 없어\"…호르무즈 사수 천명",
           "score": 1
         },
         {
@@ -226,14 +226,8 @@
         {
           "date": "20260716",
           "type": "negative",
-          "headline": "미 6월 생산자물가 전월대비 0.3%↓…예상 밖 하락(종합)",
-          "score": -1
-        },
-        {
-          "date": "20260716",
-          "type": "negative",
           "headline": "[거시분석] Iran threatens to block more trade routes as ...",
-          "score": -7
+          "score": -5
         },
         {
           "date": "20260715",
@@ -582,6 +576,15 @@
     },
     {
       "date": "20260716",
+      "headline": "이란 협상단장 \"종전합의 지킬 이유 없어\"…호르무즈 사수 천명",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260716",
       "headline": "EU, 미국에 \"와인·치즈 등 관세 면제 요청\"",
       "impacts": {
         "전체시장": -1
@@ -598,26 +601,17 @@
     },
     {
       "date": "20260716",
-      "headline": "미 6월 생산자물가 전월대비 0.3%↓…예상 밖 하락(종합)",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260716",
       "headline": "[거시분석] Iran threatens to block more trade routes as ...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -7,
-        "금융": -1,
-        "반도체·AI": -2
+        "전체시장": -5,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
-  "total_positives": 35,
+  "total_negatives": 41,
+  "total_positives": 36,
   "risk_level": "EXTREME"
 }
