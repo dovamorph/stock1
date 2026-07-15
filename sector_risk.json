@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-15T22:49:47.760407+09:00",
-  "date": "20260715",
+  "updated_at": "2026-07-16T00:27:38.872949+09:00",
+  "date": "20260716",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -21,6 +21,12 @@
       "negative_count": 2,
       "recent_events": [
         {
+          "date": "20260716",
+          "type": "negative",
+          "headline": "[거시분석] Iran threatens to block more trade routes as ...",
+          "score": -2
+        },
+        {
           "date": "20260713",
           "type": "negative",
           "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
@@ -31,20 +37,20 @@
           "type": "positive",
           "headline": "Apple sues OpenAI, its employees claiming theft of trade secrets",
           "score": 1
-        },
-        {
-          "date": "20260701",
-          "type": "negative",
-          "headline": "[거시분석] Anthropic says US lifts export ban on its adv...",
-          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260716",
+          "type": "negative",
+          "headline": "[거시분석] Iran threatens to block more trade routes as ...",
+          "score": -2
+        },
         {
           "date": "20260715",
           "type": "negative",
@@ -68,20 +74,26 @@
           "type": "negative",
           "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
           "score": -2
-        },
-        {
-          "date": "20260710",
-          "type": "negative",
-          "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
-          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 20,
-      "negative_count": 2,
+      "positive_count": 21,
+      "negative_count": 1,
       "recent_events": [
+        {
+          "date": "20260716",
+          "type": "positive",
+          "headline": "미군, 닷새 연속 이란 미사일 시설 타격…이번엔 대낮 공습(종합)",
+          "score": 1
+        },
+        {
+          "date": "20260716",
+          "type": "positive",
+          "headline": "[거시분석] Iran threatens to block more trade routes as ...",
+          "score": 3
+        },
         {
           "date": "20260715",
           "type": "positive",
@@ -99,18 +111,6 @@
           "type": "positive",
           "headline": "[거시분석] Iran lawmakers present Hormuz management bill...",
           "score": 1
-        },
-        {
-          "date": "20260713",
-          "type": "positive",
-          "headline": "예멘 수도 사나 공항에 수차례 공습…후티 \"사우디 소행\"",
-          "score": 1
-        },
-        {
-          "date": "20260713",
-          "type": "positive",
-          "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
-          "score": 3
         }
       ]
     },
@@ -127,10 +127,16 @@
       "recent_events": []
     },
     "금융": {
-      "score": -9,
+      "score": -10,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20260716",
+          "type": "negative",
+          "headline": "[거시분석] Iran threatens to block more trade routes as ...",
+          "score": -1
+        },
         {
           "date": "20260715",
           "type": "negative",
@@ -154,20 +160,20 @@
           "type": "negative",
           "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
           "score": -1
-        },
-        {
-          "date": "20260711",
-          "type": "negative",
-          "headline": "[거시분석] US wants Iran to pledge to stop shooting at s...",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 5,
-      "positive_count": 5,
+      "score": 6,
+      "positive_count": 6,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260716",
+          "type": "positive",
+          "headline": "The SpaceX IPO made history. One month on has it lost momentum?",
+          "score": 1
+        },
         {
           "date": "20260715",
           "type": "positive",
@@ -191,12 +197,6 @@
           "type": "positive",
           "headline": "Nasa launches mission to save falling space telescope",
           "score": 1
-        },
-        {
-          "date": "20260703",
-          "type": "positive",
-          "headline": "Nasa launches mission to save falling space telescope",
-          "score": 1
         }
       ]
     },
@@ -208,62 +208,43 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 6,
-      "negative_count": 19,
+      "positive_count": 7,
+      "negative_count": 21,
       "recent_events": [
         {
-          "date": "20260715",
+          "date": "20260716",
           "type": "positive",
           "headline": "From Wimbledon towels to Scotch: What India-UK trade deal could mean for shoppers",
           "score": 1
         },
         {
-          "date": "20260715",
+          "date": "20260716",
           "type": "positive",
           "headline": "India-UK trade deal comes into effect: What’s cheaper in each country now?",
           "score": 1
         },
         {
-          "date": "20260715",
+          "date": "20260716",
           "type": "negative",
           "headline": "미 6월 생산자물가 전월대비 0.3%↓…예상 밖 하락(종합)",
           "score": -1
         },
         {
-          "date": "20260715",
+          "date": "20260716",
           "type": "negative",
           "headline": "미 6월 생산자물가 전월대비 0.3%↓…예상 밖 하락",
           "score": -1
         },
         {
-          "date": "20260715",
+          "date": "20260716",
           "type": "negative",
           "headline": "[거시분석] Iran threatens to block more trade routes as ...",
-          "score": -6
+          "score": -7
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260701",
-      "headline": "이란 외무차관 \"종전 실무 협상 재개 협의…조건 충족되면 시작\"",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260701",
-      "headline": "[거시분석] Anthropic says US lifts export ban on its adv...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -4,
-        "반도체·AI": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260702",
       "headline": "US blocks long-term renewal of North American trade deal",
@@ -582,9 +563,69 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260716",
+      "headline": "From Wimbledon towels to Scotch: What India-UK trade deal could mean for shoppers",
+      "impacts": {
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260716",
+      "headline": "The SpaceX IPO made history. One month on has it lost momentum?",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260716",
+      "headline": "India-UK trade deal comes into effect: What’s cheaper in each country now?",
+      "impacts": {
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260716",
+      "headline": "미군, 닷새 연속 이란 미사일 시설 타격…이번엔 대낮 공습(종합)",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260716",
+      "headline": "미 6월 생산자물가 전월대비 0.3%↓…예상 밖 하락(종합)",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260716",
+      "headline": "미 6월 생산자물가 전월대비 0.3%↓…예상 밖 하락",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260716",
+      "headline": "[거시분석] Iran threatens to block more trade routes as ...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -7,
+        "금융": -1,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 39,
-  "total_positives": 33,
+  "total_negatives": 42,
+  "total_positives": 36,
   "risk_level": "EXTREME"
 }
