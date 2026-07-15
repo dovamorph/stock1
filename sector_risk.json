@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-16T06:03:19.958393+09:00",
+  "updated_at": "2026-07-16T07:59:51.680681+09:00",
   "date": "20260716",
   "window_days": 14,
   "sectors": [
@@ -42,7 +42,7 @@
         {
           "date": "20260716",
           "type": "negative",
-          "headline": "[거시분석] Iran threatens to block more trade routes as ...",
+          "headline": "[거시분석] US launches fresh strikes on Iran as Trump wa...",
           "score": -2
         },
         {
@@ -74,24 +74,18 @@
     "방산": {
       "score": 10,
       "positive_count": 21,
-      "negative_count": 2,
+      "negative_count": 1,
       "recent_events": [
         {
           "date": "20260716",
           "type": "positive",
-          "headline": "이란 남부·남서부 등 도시에 미군 공습…곳곳서 연쇄 폭발",
+          "headline": "미군, 닷새 연속 이란 타격…이번엔 주·야간 2차례 공습(종합2보)",
           "score": 1
         },
         {
           "date": "20260716",
-          "type": "negative",
-          "headline": "이란 협상단장 \"종전합의 지킬 이유 없어\"…호르무즈 사수 천명",
-          "score": -1
-        },
-        {
-          "date": "20260716",
           "type": "positive",
-          "headline": "[거시분석] Iran threatens to block more trade routes as ...",
+          "headline": "[거시분석] US launches fresh strikes on Iran as Trump wa...",
           "score": 3
         },
         {
@@ -105,6 +99,12 @@
           "type": "positive",
           "headline": "[거시분석] Iran threatens to block more trade routes as ...",
           "score": 3
+        },
+        {
+          "date": "20260714",
+          "type": "positive",
+          "headline": "[거시분석] Iran lawmakers present Hormuz management bill...",
+          "score": 1
         }
       ]
     },
@@ -123,19 +123,13 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
         {
           "date": "20260716",
           "type": "negative",
-          "headline": "한은 '예고대로' 기준금리 인상할 듯…3년 6개월 만에 긴축 돌입",
+          "headline": "[거시분석] US launches fresh strikes on Iran as Trump wa...",
           "score": -1
-        },
-        {
-          "date": "20260716",
-          "type": "negative",
-          "headline": "[거시분석] Iran threatens to block more trade routes as ...",
-          "score": -3
         },
         {
           "date": "20260715",
@@ -153,6 +147,12 @@
           "date": "20260713",
           "type": "negative",
           "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
+          "score": -1
+        },
+        {
+          "date": "20260712",
+          "type": "negative",
+          "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
           "score": -1
         }
       ]
@@ -202,7 +202,7 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 7,
+      "positive_count": 6,
       "negative_count": 19,
       "recent_events": [
         {
@@ -213,15 +213,9 @@
         },
         {
           "date": "20260716",
-          "type": "positive",
-          "headline": "이란 협상단장 \"종전합의 지킬 이유 없어\"…호르무즈 사수 천명",
-          "score": 1
-        },
-        {
-          "date": "20260716",
           "type": "negative",
-          "headline": "[거시분석] Iran threatens to block more trade routes as ...",
-          "score": -7
+          "headline": "[거시분석] US launches fresh strikes on Iran as Trump wa...",
+          "score": -5
         },
         {
           "date": "20260715",
@@ -234,6 +228,12 @@
           "type": "positive",
           "headline": "India-UK trade deal comes into effect: What’s cheaper in each country now?",
           "score": 1
+        },
+        {
+          "date": "20260715",
+          "type": "negative",
+          "headline": "미 6월 생산자물가 전월대비 0.3%↓…예상 밖 하락(종합)",
+          "score": -1
         }
       ]
     }
@@ -576,7 +576,7 @@
     },
     {
       "date": "20260716",
-      "headline": "이란 남부·남서부 등 도시에 미군 공습…곳곳서 연쇄 폭발",
+      "headline": "미군, 닷새 연속 이란 타격…이번엔 주·야간 2차례 공습(종합2보)",
       "impacts": {
         "방산": 1
       },
@@ -584,34 +584,17 @@
     },
     {
       "date": "20260716",
-      "headline": "한은 '예고대로' 기준금리 인상할 듯…3년 6개월 만에 긴축 돌입",
-      "impacts": {
-        "금융": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260716",
-      "headline": "이란 협상단장 \"종전합의 지킬 이유 없어\"…호르무즈 사수 천명",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260716",
-      "headline": "[거시분석] Iran threatens to block more trade routes as ...",
+      "headline": "[거시분석] US launches fresh strikes on Iran as Trump wa...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -7,
-        "금융": -3
+        "전체시장": -5,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 41,
-  "total_positives": 36,
+  "total_negatives": 39,
+  "total_positives": 35,
   "risk_level": "EXTREME"
 }
