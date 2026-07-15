@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15T15:18:30.640445+09:00",
+  "updated_at": "2026-07-15T19:06:06.035407+09:00",
   "date": "20260715",
   "window_days": 14,
   "sectors": [
@@ -121,29 +121,16 @@
       "recent_events": []
     },
     "로봇": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 0,
+      "positive_count": 0,
       "negative_count": 0,
-      "recent_events": [
-        {
-          "date": "20260715",
-          "type": "positive",
-          "headline": "GIST, MIT와 '피지컬 AI' 공동연구…미국에 연구센터 구축",
-          "score": 1
-        }
-      ]
+      "recent_events": []
     },
     "금융": {
-      "score": -9,
+      "score": -8,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 8,
       "recent_events": [
-        {
-          "date": "20260715",
-          "type": "negative",
-          "headline": "[거시분석] Trump threatens to bomb bridges and power pla...",
-          "score": -1
-        },
         {
           "date": "20260714",
           "type": "negative",
@@ -167,14 +154,26 @@
           "type": "negative",
           "headline": "[거시분석] US wants Iran to pledge to stop shooting at s...",
           "score": -1
+        },
+        {
+          "date": "20260710",
+          "type": "negative",
+          "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
+          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 4,
-      "positive_count": 4,
+      "score": 5,
+      "positive_count": 5,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260715",
+          "type": "positive",
+          "headline": "The SpaceX IPO made history. One month on has it lost momentum?",
+          "score": 1
+        },
         {
           "date": "20260714",
           "type": "positive",
@@ -222,7 +221,7 @@
           "date": "20260715",
           "type": "negative",
           "headline": "[거시분석] Trump threatens to bomb bridges and power pla...",
-          "score": -3
+          "score": -2
         },
         {
           "date": "20260714",
@@ -535,9 +534,9 @@
     },
     {
       "date": "20260715",
-      "headline": "GIST, MIT와 '피지컬 AI' 공동연구…미국에 연구센터 구축",
+      "headline": "The SpaceX IPO made history. One month on has it lost momentum?",
       "impacts": {
-        "로봇": 1
+        "우주ETF": 1
       },
       "source": "keyword"
     },
@@ -546,13 +545,12 @@
       "headline": "[거시분석] Trump threatens to bomb bridges and power pla...",
       "impacts": {
         "방산": 1,
-        "전체시장": -3,
-        "금융": -1
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 36,
+  "total_negatives": 35,
   "total_positives": 31,
   "risk_level": "EXTREME"
 }
