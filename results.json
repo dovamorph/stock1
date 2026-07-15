@@ -1,6 +1,6 @@
 {
   "date": "20260715",
-  "generated_at": "2026-07-15T18:31:07+09:00",
+  "generated_at": "2026-07-15T19:01:10+09:00",
   "reference_date": "20260714",
   "reference_ranks": {
     "000660": 1,
@@ -61,9 +61,9 @@
     "rsi_14": 29.9,
     "basis": null,
     "basis_signal": "조회불가",
-    "usdkrw": 1491.0,
-    "usdkrw_ch1": -0.45,
-    "usdkrw_ch5": -0.82,
+    "usdkrw": 1492.1,
+    "usdkrw_ch1": -0.37,
+    "usdkrw_ch5": -0.75,
     "kosdaq_ch1": 5.8,
     "kospi_ch1": 6.24,
     "kospi_ch2": 7.01,
@@ -96,8 +96,8 @@
       "ndx_ch1": -1.55,
       "ndx_ma60": 25816.95
     },
-    "adr": 86.2,
-    "adr_advances": 407,
+    "adr": 86.5,
+    "adr_advances": 416,
     "adr_declines": 65,
     "adr_signal": "🟢",
     "adr_desc": "건강 (86%) — 지수 상승이 진짜",
@@ -107,7 +107,7 @@
       "desc": "지수↑·폭 넓음 — 전 종목 건강",
       "kospi_ch1": 6.24,
       "kosdaq_ch1": 5.8,
-      "adr": 86.2
+      "adr": 86.5
     },
     "pool_flow": {
       "total": 40,
