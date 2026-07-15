@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15T07:59:00.914918+09:00",
+  "updated_at": "2026-07-15T11:44:37.327686+09:00",
   "date": "20260715",
   "window_days": 14,
   "sectors": [
@@ -49,7 +49,7 @@
           "date": "20260715",
           "type": "negative",
           "headline": "[거시분석] Trump scraps threat of 20% fee on Hormuz carg...",
-          "score": -1
+          "score": -2
         },
         {
           "date": "20260713",
@@ -86,7 +86,7 @@
           "date": "20260715",
           "type": "positive",
           "headline": "[거시분석] Trump scraps threat of 20% fee on Hormuz carg...",
-          "score": 2
+          "score": 3
         },
         {
           "date": "20260714",
@@ -221,7 +221,7 @@
           "date": "20260715",
           "type": "negative",
           "headline": "[거시분석] Trump scraps threat of 20% fee on Hormuz carg...",
-          "score": -3
+          "score": -4
         },
         {
           "date": "20260714",
@@ -544,9 +544,9 @@
       "date": "20260715",
       "headline": "[거시분석] Trump scraps threat of 20% fee on Hormuz carg...",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -3
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
