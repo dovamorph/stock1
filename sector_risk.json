@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T04:17:03.017560+09:00",
+  "updated_at": "2026-07-17T06:04:05.060505+09:00",
   "date": "20260717",
   "window_days": 14,
   "sectors": [
@@ -16,21 +16,15 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 0,
+      "score": 1,
       "positive_count": 3,
-      "negative_count": 2,
+      "negative_count": 1,
       "recent_events": [
         {
           "date": "20260717",
           "type": "positive",
           "headline": "Chip giant TSMC pledges another $100bn to expand US production",
           "score": 1
-        },
-        {
-          "date": "20260717",
-          "type": "negative",
-          "headline": "Data breach reportedly targets India’s Kudankulam nuclear power plant",
-          "score": -1
         },
         {
           "date": "20260716",
@@ -55,14 +49,8 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20260717",
-          "type": "negative",
-          "headline": "후티 반군 \"분쟁 격화 시 사우디 원유시설 타격\" 경고",
-          "score": -1
-        },
         {
           "date": "20260717",
           "type": "negative",
@@ -86,19 +74,25 @@
           "type": "positive",
           "headline": "베네수엘라 '대규모 재건' 시동…주택 2만5천채 공급 추진",
           "score": 1
+        },
+        {
+          "date": "20260712",
+          "type": "negative",
+          "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
+          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 22,
-      "negative_count": 2,
+      "negative_count": 1,
       "recent_events": [
         {
           "date": "20260717",
-          "type": "negative",
-          "headline": "US or Iran — Who needs a new truce deal more?",
-          "score": -1
+          "type": "positive",
+          "headline": "무력 충돌 엿새째…이란 남부·남서부 도시에 미군 공습",
+          "score": 1
         },
         {
           "date": "20260717",
@@ -115,14 +109,14 @@
         {
           "date": "20260717",
           "type": "positive",
-          "headline": "후티 반군 \"분쟁 격화 시 사우디 원유시설 타격\" 경고",
-          "score": 1
-        },
-        {
-          "date": "20260717",
-          "type": "positive",
           "headline": "[거시분석] Zelensky's removal of popular defence ministe...",
           "score": 3
+        },
+        {
+          "date": "20260716",
+          "type": "positive",
+          "headline": "[거시분석] Iran targets military bases as US launches wa...",
+          "score": 1
         }
       ]
     },
@@ -139,10 +133,16 @@
       "recent_events": []
     },
     "금융": {
-      "score": -8,
+      "score": -9,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20260717",
+          "type": "negative",
+          "headline": "[거시분석] Zelensky's removal of popular defence ministe...",
+          "score": -1
+        },
         {
           "date": "20260715",
           "type": "negative",
@@ -165,12 +165,6 @@
           "date": "20260712",
           "type": "negative",
           "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
-          "score": -1
-        },
-        {
-          "date": "20260711",
-          "type": "negative",
-          "headline": "[거시분석] US wants Iran to pledge to stop shooting at s...",
           "score": -1
         }
       ]
@@ -220,26 +214,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 5,
-      "negative_count": 20,
+      "positive_count": 4,
+      "negative_count": 19,
       "recent_events": [
-        {
-          "date": "20260717",
-          "type": "positive",
-          "headline": "US or Iran — Who needs a new truce deal more?",
-          "score": 1
-        },
-        {
-          "date": "20260717",
-          "type": "negative",
-          "headline": "브라질, 美 25% 관세부과에 맞불…보복관세 절차 착수",
-          "score": -1
-        },
         {
           "date": "20260717",
           "type": "negative",
           "headline": "[거시분석] Zelensky's removal of popular defence ministe...",
-          "score": -4
+          "score": -5
         },
         {
           "date": "20260716",
@@ -252,6 +234,18 @@
           "type": "positive",
           "headline": "From Wimbledon towels to Scotch: What India-UK trade deal could mean for shoppers",
           "score": 1
+        },
+        {
+          "date": "20260715",
+          "type": "positive",
+          "headline": "India-UK trade deal comes into effect: What’s cheaper in each country now?",
+          "score": 1
+        },
+        {
+          "date": "20260715",
+          "type": "negative",
+          "headline": "미 6월 생산자물가 전월대비 0.3%↓…예상 밖 하락(종합)",
+          "score": -1
         }
       ]
     }
@@ -576,18 +570,9 @@
     },
     {
       "date": "20260717",
-      "headline": "Data breach reportedly targets India’s Kudankulam nuclear power plant",
+      "headline": "무력 충돌 엿새째…이란 남부·남서부 도시에 미군 공습",
       "impacts": {
-        "반도체·AI": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260717",
-      "headline": "US or Iran — Who needs a new truce deal more?",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
+        "방산": 1
       },
       "source": "keyword"
     },
@@ -609,33 +594,17 @@
     },
     {
       "date": "20260717",
-      "headline": "브라질, 美 25% 관세부과에 맞불…보복관세 절차 착수",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260717",
-      "headline": "후티 반군 \"분쟁 격화 시 사우디 원유시설 타격\" 경고",
-      "impacts": {
-        "건설": -1,
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260717",
       "headline": "[거시분석] Zelensky's removal of popular defence ministe...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -4
+        "전체시장": -5,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 40,
-  "total_positives": 36,
+  "total_negatives": 37,
+  "total_positives": 35,
   "risk_level": "EXTREME"
 }
