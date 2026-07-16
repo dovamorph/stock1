@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-16T07:59:51.680681+09:00",
+  "updated_at": "2026-07-16T11:51:09.698728+09:00",
   "date": "20260716",
   "window_days": 14,
   "sectors": [
@@ -37,14 +37,8 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20260716",
-          "type": "negative",
-          "headline": "[거시분석] US launches fresh strikes on Iran as Trump wa...",
-          "score": -2
-        },
         {
           "date": "20260715",
           "type": "negative",
@@ -68,25 +62,25 @@
           "type": "negative",
           "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
           "score": -2
+        },
+        {
+          "date": "20260710",
+          "type": "negative",
+          "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
+          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 21,
+      "positive_count": 20,
       "negative_count": 1,
       "recent_events": [
         {
           "date": "20260716",
           "type": "positive",
-          "headline": "미군, 닷새 연속 이란 타격…이번엔 주·야간 2차례 공습(종합2보)",
+          "headline": "[거시분석] 국고채 금리 대체로 하락…3년물 장중 연 3.862%",
           "score": 1
-        },
-        {
-          "date": "20260716",
-          "type": "positive",
-          "headline": "[거시분석] US launches fresh strikes on Iran as Trump wa...",
-          "score": 3
         },
         {
           "date": "20260715",
@@ -104,6 +98,12 @@
           "date": "20260714",
           "type": "positive",
           "headline": "[거시분석] Iran lawmakers present Hormuz management bill...",
+          "score": 1
+        },
+        {
+          "date": "20260713",
+          "type": "positive",
+          "headline": "예멘 수도 사나 공항에 수차례 공습…후티 \"사우디 소행\"",
           "score": 1
         }
       ]
@@ -123,13 +123,19 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
         {
           "date": "20260716",
           "type": "negative",
-          "headline": "[거시분석] US launches fresh strikes on Iran as Trump wa...",
+          "headline": "3년 6개월 만에 금리 인상…\"긴축 장기화시 집값 하락 전망\"",
           "score": -1
+        },
+        {
+          "date": "20260716",
+          "type": "negative",
+          "headline": "[거시분석] 국고채 금리 대체로 하락…3년물 장중 연 3.862%",
+          "score": -3
         },
         {
           "date": "20260715",
@@ -148,26 +154,14 @@
           "type": "negative",
           "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
           "score": -1
-        },
-        {
-          "date": "20260712",
-          "type": "negative",
-          "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 6,
-      "positive_count": 6,
+      "score": 5,
+      "positive_count": 5,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260716",
-          "type": "positive",
-          "headline": "The SpaceX IPO made history. One month on has it lost momentum?",
-          "score": 1
-        },
         {
           "date": "20260715",
           "type": "positive",
@@ -188,6 +182,12 @@
         },
         {
           "date": "20260704",
+          "type": "positive",
+          "headline": "Nasa launches mission to save falling space telescope",
+          "score": 1
+        },
+        {
+          "date": "20260703",
           "type": "positive",
           "headline": "Nasa launches mission to save falling space telescope",
           "score": 1
@@ -214,7 +214,7 @@
         {
           "date": "20260716",
           "type": "negative",
-          "headline": "[거시분석] US launches fresh strikes on Iran as Trump wa...",
+          "headline": "[거시분석] 국고채 금리 대체로 하락…3년물 장중 연 3.862%",
           "score": -5
         },
         {
@@ -568,33 +568,24 @@
     },
     {
       "date": "20260716",
-      "headline": "The SpaceX IPO made history. One month on has it lost momentum?",
+      "headline": "3년 6개월 만에 금리 인상…\"긴축 장기화시 집값 하락 전망\"",
       "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260716",
-      "headline": "미군, 닷새 연속 이란 타격…이번엔 주·야간 2차례 공습(종합2보)",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260716",
-      "headline": "[거시분석] US launches fresh strikes on Iran as Trump wa...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
         "금융": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260716",
+      "headline": "[거시분석] 국고채 금리 대체로 하락…3년물 장중 연 3.862%",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -5,
+        "금융": -3
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 39,
-  "total_positives": 35,
+  "total_positives": 33,
   "risk_level": "EXTREME"
 }
