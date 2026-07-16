@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T06:04:05.060505+09:00",
+  "updated_at": "2026-07-17T07:59:55.351459+09:00",
   "date": "20260717",
   "window_days": 14,
   "sectors": [
@@ -54,7 +54,7 @@
         {
           "date": "20260717",
           "type": "negative",
-          "headline": "[거시분석] Zelensky's removal of popular defence ministe...",
+          "headline": "[거시분석] Blasts reported in Iran as US launches new wa...",
           "score": -2
         },
         {
@@ -85,37 +85,37 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 22,
+      "positive_count": 19,
       "negative_count": 1,
       "recent_events": [
         {
           "date": "20260717",
           "type": "positive",
-          "headline": "무력 충돌 엿새째…이란 남부·남서부 도시에 미군 공습",
-          "score": 1
-        },
-        {
-          "date": "20260717",
-          "type": "positive",
-          "headline": "美중부사령부, 엿새째 이란 야간 공습…\"군사력 추가 약화\"",
-          "score": 1
-        },
-        {
-          "date": "20260717",
-          "type": "positive",
-          "headline": "이란매체 \"美, 남부 게슘섬·반다르아바스 공습…UAE 드론 동원\"",
-          "score": 1
-        },
-        {
-          "date": "20260717",
-          "type": "positive",
-          "headline": "[거시분석] Zelensky's removal of popular defence ministe...",
+          "headline": "[거시분석] Blasts reported in Iran as US launches new wa...",
           "score": 3
         },
         {
           "date": "20260716",
           "type": "positive",
           "headline": "[거시분석] Iran targets military bases as US launches wa...",
+          "score": 1
+        },
+        {
+          "date": "20260715",
+          "type": "positive",
+          "headline": "미·이란 닷새째 '보복의 악순환'…부셰르 원전 인근 또 공습",
+          "score": 1
+        },
+        {
+          "date": "20260715",
+          "type": "positive",
+          "headline": "[거시분석] Iran threatens to block more trade routes as ...",
+          "score": 3
+        },
+        {
+          "date": "20260714",
+          "type": "positive",
+          "headline": "[거시분석] Iran lawmakers present Hormuz management bill...",
           "score": 1
         }
       ]
@@ -140,7 +140,7 @@
         {
           "date": "20260717",
           "type": "negative",
-          "headline": "[거시분석] Zelensky's removal of popular defence ministe...",
+          "headline": "[거시분석] Blasts reported in Iran as US launches new wa...",
           "score": -1
         },
         {
@@ -220,7 +220,7 @@
         {
           "date": "20260717",
           "type": "negative",
-          "headline": "[거시분석] Zelensky's removal of popular defence ministe...",
+          "headline": "[거시분석] Blasts reported in Iran as US launches new wa...",
           "score": -5
         },
         {
@@ -570,31 +570,7 @@
     },
     {
       "date": "20260717",
-      "headline": "무력 충돌 엿새째…이란 남부·남서부 도시에 미군 공습",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260717",
-      "headline": "美중부사령부, 엿새째 이란 야간 공습…\"군사력 추가 약화\"",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260717",
-      "headline": "이란매체 \"美, 남부 게슘섬·반다르아바스 공습…UAE 드론 동원\"",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260717",
-      "headline": "[거시분석] Zelensky's removal of popular defence ministe...",
+      "headline": "[거시분석] Blasts reported in Iran as US launches new wa...",
       "impacts": {
         "방산": 3,
         "건설": -2,
@@ -605,6 +581,6 @@
     }
   ],
   "total_negatives": 37,
-  "total_positives": 35,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
