@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-16T15:22:02.559648+09:00",
+  "updated_at": "2026-07-16T19:12:16.672219+09:00",
   "date": "20260716",
   "window_days": 14,
   "sectors": [
@@ -37,8 +37,14 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260716",
+          "type": "negative",
+          "headline": "[거시분석] Iran targets military bases as US launches wa...",
+          "score": -2
+        },
         {
           "date": "20260715",
           "type": "negative",
@@ -62,25 +68,25 @@
           "type": "negative",
           "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
           "score": -2
-        },
-        {
-          "date": "20260710",
-          "type": "negative",
-          "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
-          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 20,
+      "positive_count": 21,
       "negative_count": 1,
       "recent_events": [
         {
           "date": "20260716",
           "type": "positive",
-          "headline": "[거시분석] US launches fresh strikes on Iran as Trump wa...",
+          "headline": "중국차 공습에…\"유럽 자동차 일자리 2040년 반토막 날수도\"",
           "score": 1
+        },
+        {
+          "date": "20260716",
+          "type": "positive",
+          "headline": "[거시분석] Iran targets military bases as US launches wa...",
+          "score": 3
         },
         {
           "date": "20260715",
@@ -98,12 +104,6 @@
           "date": "20260714",
           "type": "positive",
           "headline": "[거시분석] Iran lawmakers present Hormuz management bill...",
-          "score": 1
-        },
-        {
-          "date": "20260713",
-          "type": "positive",
-          "headline": "예멘 수도 사나 공항에 수차례 공습…후티 \"사우디 소행\"",
           "score": 1
         }
       ]
@@ -128,7 +128,7 @@
         {
           "date": "20260716",
           "type": "negative",
-          "headline": "[거시분석] US launches fresh strikes on Iran as Trump wa...",
+          "headline": "[거시분석] Iran targets military bases as US launches wa...",
           "score": -1
         },
         {
@@ -202,20 +202,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 6,
+      "positive_count": 5,
       "negative_count": 19,
       "recent_events": [
         {
           "date": "20260716",
-          "type": "positive",
-          "headline": "From Wimbledon towels to Scotch: What India-UK trade deal could mean for shoppers",
-          "score": 1
-        },
-        {
-          "date": "20260716",
           "type": "negative",
-          "headline": "[거시분석] US launches fresh strikes on Iran as Trump wa...",
-          "score": -3
+          "headline": "[거시분석] Iran targets military bases as US launches wa...",
+          "score": -5
         },
         {
           "date": "20260715",
@@ -233,6 +227,12 @@
           "date": "20260715",
           "type": "negative",
           "headline": "미 6월 생산자물가 전월대비 0.3%↓…예상 밖 하락(종합)",
+          "score": -1
+        },
+        {
+          "date": "20260715",
+          "type": "negative",
+          "headline": "미 6월 생산자물가 전월대비 0.3%↓…예상 밖 하락",
           "score": -1
         }
       ]
@@ -560,24 +560,25 @@
     },
     {
       "date": "20260716",
-      "headline": "From Wimbledon towels to Scotch: What India-UK trade deal could mean for shoppers",
+      "headline": "중국차 공습에…\"유럽 자동차 일자리 2040년 반토막 날수도\"",
       "impacts": {
-        "전체시장": 1
+        "방산": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260716",
-      "headline": "[거시분석] US launches fresh strikes on Iran as Trump wa...",
+      "headline": "[거시분석] Iran targets military bases as US launches wa...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -3,
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 38,
+  "total_negatives": 39,
   "total_positives": 33,
   "risk_level": "EXTREME"
 }
