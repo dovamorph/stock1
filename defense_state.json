@@ -12,11 +12,6 @@
   "hard_stop_active": false,
   "log": [
     {
-      "time": "2026-07-13 05:03:16",
-      "level": "CRITICAL",
-      "event": "서킷브레이커 -8.03%"
-    },
-    {
       "time": "2026-07-13 05:33:02",
       "level": "WARN",
       "event": "갭다운 -9.13% [KOSPI]"
@@ -258,6 +253,11 @@
     },
     {
       "time": "2026-07-16 07:03:06",
+      "level": "WARN",
+      "event": "갭다운 -6.37% [KOSPI]"
+    },
+    {
+      "time": "2026-07-16 07:33:26",
       "level": "WARN",
       "event": "갭다운 -6.37% [KOSPI]"
     }
