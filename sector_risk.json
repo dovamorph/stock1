@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T02:22:00.364873+09:00",
+  "updated_at": "2026-07-17T04:17:03.017560+09:00",
   "date": "20260717",
   "window_days": 14,
   "sectors": [
@@ -67,7 +67,7 @@
           "date": "20260717",
           "type": "negative",
           "headline": "[거시분석] Zelensky's removal of popular defence ministe...",
-          "score": -1
+          "score": -2
         },
         {
           "date": "20260715",
@@ -91,7 +91,7 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 20,
+      "positive_count": 22,
       "negative_count": 2,
       "recent_events": [
         {
@@ -103,6 +103,18 @@
         {
           "date": "20260717",
           "type": "positive",
+          "headline": "美중부사령부, 엿새째 이란 야간 공습…\"군사력 추가 약화\"",
+          "score": 1
+        },
+        {
+          "date": "20260717",
+          "type": "positive",
+          "headline": "이란매체 \"美, 남부 게슘섬·반다르아바스 공습…UAE 드론 동원\"",
+          "score": 1
+        },
+        {
+          "date": "20260717",
+          "type": "positive",
           "headline": "후티 반군 \"분쟁 격화 시 사우디 원유시설 타격\" 경고",
           "score": 1
         },
@@ -110,19 +122,7 @@
           "date": "20260717",
           "type": "positive",
           "headline": "[거시분석] Zelensky's removal of popular defence ministe...",
-          "score": 2
-        },
-        {
-          "date": "20260716",
-          "type": "positive",
-          "headline": "[거시분석] Iran targets military bases as US launches wa...",
-          "score": 1
-        },
-        {
-          "date": "20260715",
-          "type": "positive",
-          "headline": "미·이란 닷새째 '보복의 악순환'…부셰르 원전 인근 또 공습",
-          "score": 1
+          "score": 3
         }
       ]
     },
@@ -239,7 +239,7 @@
           "date": "20260717",
           "type": "negative",
           "headline": "[거시분석] Zelensky's removal of popular defence ministe...",
-          "score": -3
+          "score": -4
         },
         {
           "date": "20260716",
@@ -593,6 +593,22 @@
     },
     {
       "date": "20260717",
+      "headline": "美중부사령부, 엿새째 이란 야간 공습…\"군사력 추가 약화\"",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260717",
+      "headline": "이란매체 \"美, 남부 게슘섬·반다르아바스 공습…UAE 드론 동원\"",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260717",
       "headline": "브라질, 美 25% 관세부과에 맞불…보복관세 절차 착수",
       "impacts": {
         "전체시장": -1
@@ -612,14 +628,14 @@
       "date": "20260717",
       "headline": "[거시분석] Zelensky's removal of popular defence ministe...",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -3
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 40,
-  "total_positives": 34,
+  "total_positives": 36,
   "risk_level": "EXTREME"
 }

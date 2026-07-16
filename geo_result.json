@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-17 02:21",
+  "updated": "2026-07-17 04:16",
   "news_count": 86,
   "intl_count": 56,
   "domestic_count": 30,
@@ -13,19 +13,21 @@
     "StockPlus": 0
   },
   "news_sample": [
-    "Italian officials handed jail terms for Genoa bridge disaster that killed 43",
     "Zelensky's removal of popular defence minister sparks protests in Ukraine",
     "Teenager accused of carrying out sabotage actions in Poland for Russia",
     "Iran targets military bases as US launches wave of strikes",
-    "More than 800 Canadian wildfires burning as air quality alerts extend to US"
+    "Fifa 'assessing reports' over Falklands banner",
+    "Italian officials handed jail terms for Genoa bridge disaster that killed 43"
   ],
   "all_headlines": [
-    "Italian officials handed jail terms for Genoa bridge disaster that killed 43",
     "Zelensky's removal of popular defence minister sparks protests in Ukraine",
     "Teenager accused of carrying out sabotage actions in Poland for Russia",
     "Iran targets military bases as US launches wave of strikes",
+    "Fifa 'assessing reports' over Falklands banner",
+    "Italian officials handed jail terms for Genoa bridge disaster that killed 43",
+    "White House teleprompter operator accused of making $100k off Trump speech bets",
     "More than 800 Canadian wildfires burning as air quality alerts extend to US",
-    "Argentina face action over Falklands banner",
+    "At least one dead in Texas floods ravaging same area where campers died",
     "'Moment of joy' as Uganda discharges last Ebola patient",
     "Volunteer firefighter suspected of starting devastating France forest fire",
     "Children among dead at Algeria foster care home blaze - president",
@@ -44,13 +46,16 @@
     "Special police team to investigate killing of an anti-migrant leader in South Africa",
     "Five arrested after Hong Kong police raid independent bookshops",
     "Italy's Meloni suffers surprise setback in close vote on electoral reform",
+    "What to know about the Canadian and US wildfires and their impact",
     "'A true miracle of destiny' - Messi and Lamine Yamal's incredible first meeting",
     "US strikes first tanker with missiles as it enforces new blockade",
     "A Cold War bunker gets a luxury makeover as 'doomsday' condos",
-    "'I must get out into the free world', dissident who fled China on boat tells BBC",
-    "Crackdown on 'objectionable' books in Indian-administered Kashmir sparks row",
-    "Orange haze from Canada wildfires seen in Ontario and northern US",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Iran condemns ‘barbaric’ US attack near children’s cancer hospital",
+    "WHO: Ebola spreading faster than ever recorded in DR Congo",
+    "In Syria’s Jobar, locals struggle to rebuild their destroyed homes",
+    "US approves nearly $2bn in weapons sale to Saudi Arabia",
+    "Rare protests in Kyiv over dismissal of defence minister",
     "Eleven killed in Algeria orphanage fire",
     "Ex-CEO of Italian motorway sentenced to 12 years for Genoa bridge collapse",
     "US to impose new 25 percent tariffs on some Brazilian imports",
@@ -71,11 +76,16 @@
     "Sudanese minister says war has ‘profoundly reshaped’ nation’s demographics",
     "Key moments from JD Vance sit down with Joe Rogan",
     "‘Falklands are Argentinian’: Celebrations over England win revive old wounds",
-    "Powerful storm floods hundreds of homes in Russia’s urals",
-    "US hosts global meet on ‘far-left terror’: Who’s attending, why it matters",
-    "John Esposito, pioneering scholar of Islam in the US, dies aged 86",
-    "Palestinians in Gaza search through homes destroyed by Israeli strikes",
-    "FIFA World Cup 2026: Biggest takeaways from the semifinals",
+    "美중부사령부, 엿새째 이란 야간 공습…\"군사력 추가 약화\"",
+    "트럼프 \"이란, 억류 미국인 출국 허용\"…이란은 부인(종합)",
+    "美예측시장 베팅범 잡고 봤더니…\"트럼프 연설원고 담당자\"",
+    "러 외무부 \"한국, 나토로 점점 더 기울어…심각한 우려\"",
+    "마이크론, 퀄컴·현대모비스와 차량용 메모리 공급 장기계약",
+    "트럼프 지지율 37%…'강력 지지'는 15%로 역대 최저",
+    "[월드컵] 트럼프도 스페인-아르헨티나 결승전 관전",
+    "美, 유학생 비자 4년 제한…체류 韓학생·가족 1만3천명 영향 파장(종합2보)",
+    "이란매체 \"美, 남부 게슘섬·반다르아바스 공습…UAE 드론 동원\"",
+    "EU \"구글, 경쟁 AI·검색엔진에 안드로이드 핵심기능 개방하라\"",
     "\"트럼프, 빅테크 주식 매입 직후 SNS 홍보 반복…이해충돌 논란\"",
     "'드론전 주도' 우크라 국방장관 해임…권한대행 체제(종합)",
     "'아프리카 민주화 후 첫 백인 수반' 스콧 前잠비아 부통령 별세",
@@ -95,27 +105,17 @@
     "뉴욕증시, 반도체주 약세에 하락 출발",
     "주레바논대사관, 레바논에 한국산 필수의약품 전달",
     "[속보] '내란 가담·항고 포기' 심우정 전 검찰총장 구속영장 기각",
-    "우크라 새 전시 내각 출범…'드론전 주도' 국방장관 거취 주목",
-    "경기대 이사회, '추행 혐의 기소' 총장 내정자 거취 결정 '유보'",
-    "與, 최고위 소집…'복당 6개월 미만' 宋 당대표 후보자격 논의",
-    "영국, '마지막 제철 용광로' 지켰다…브리티시스틸 국유화",
-    "트럼프 행정부, 외국학생 비자 4년으로 제한…최종 규정 발표",
-    "SSG 최정, KBO리그 최초 11시즌 연속 20홈런…\"후련하다\"(종합)",
-    "kt 최원준 \"아내와 곧 태어날 딸 생각해 예민한 성격 버렸다\"",
-    "술 취해 여자 화장실 들어간 경찰 간부 입건",
-    "프로야구 선두 삼성, 후반기 첫 경기 승리…2위 LG와 '1경기 차'(종합)",
-    "드론전 이끈 35세 우크라 국방장관 교체 논란…전시중 반대시위도(종합)",
-    "정신질환 앓던 50대 초등생 5명 유인 시도…경찰 검거"
+    "우크라 새 전시 내각 출범…'드론전 주도' 국방장관 거취 주목"
   ],
   "categories": {
     "geopolitical": {
-      "level": "경고",
-      "color": "orange",
-      "signal": "🟠",
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
       "summary": "Zelensky's removal of popular defence ministe...",
-      "action": "포지션 축소 검토 / 모니터링 강화",
-      "matched": 8,
-      "score": 1.5
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 11,
+      "score": 3.0
     },
     "macro": {
       "level": "안전",
@@ -141,7 +141,7 @@
       "signal": "🟡",
       "summary": "Iran targets military bases as US launches wa...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 8,
+      "matched": 9,
       "score": 2.9
     },
     "policy": {
@@ -155,9 +155,9 @@
     }
   },
   "overall": {
-    "level": "주의",
-    "color": "yellow",
+    "level": "위험",
+    "color": "red",
     "summary": "주의 필요: 지정학적 충돌",
-    "action": "신규 매수 자제 / 추이 관찰"
+    "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
