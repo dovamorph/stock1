@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-16T11:51:09.698728+09:00",
+  "updated_at": "2026-07-16T15:22:02.559648+09:00",
   "date": "20260716",
   "window_days": 14,
   "sectors": [
@@ -79,7 +79,7 @@
         {
           "date": "20260716",
           "type": "positive",
-          "headline": "[거시분석] 국고채 금리 대체로 하락…3년물 장중 연 3.862%",
+          "headline": "[거시분석] US launches fresh strikes on Iran as Trump wa...",
           "score": 1
         },
         {
@@ -123,19 +123,13 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
         {
           "date": "20260716",
           "type": "negative",
-          "headline": "3년 6개월 만에 금리 인상…\"긴축 장기화시 집값 하락 전망\"",
+          "headline": "[거시분석] US launches fresh strikes on Iran as Trump wa...",
           "score": -1
-        },
-        {
-          "date": "20260716",
-          "type": "negative",
-          "headline": "[거시분석] 국고채 금리 대체로 하락…3년물 장중 연 3.862%",
-          "score": -3
         },
         {
           "date": "20260715",
@@ -153,6 +147,12 @@
           "date": "20260713",
           "type": "negative",
           "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
+          "score": -1
+        },
+        {
+          "date": "20260712",
+          "type": "negative",
+          "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
           "score": -1
         }
       ]
@@ -214,8 +214,8 @@
         {
           "date": "20260716",
           "type": "negative",
-          "headline": "[거시분석] 국고채 금리 대체로 하락…3년물 장중 연 3.862%",
-          "score": -5
+          "headline": "[거시분석] US launches fresh strikes on Iran as Trump wa...",
+          "score": -3
         },
         {
           "date": "20260715",
@@ -568,24 +568,16 @@
     },
     {
       "date": "20260716",
-      "headline": "3년 6개월 만에 금리 인상…\"긴축 장기화시 집값 하락 전망\"",
-      "impacts": {
-        "금융": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260716",
-      "headline": "[거시분석] 국고채 금리 대체로 하락…3년물 장중 연 3.862%",
+      "headline": "[거시분석] US launches fresh strikes on Iran as Trump wa...",
       "impacts": {
         "방산": 1,
-        "전체시장": -5,
-        "금융": -3
+        "전체시장": -3,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 39,
+  "total_negatives": 38,
   "total_positives": 33,
   "risk_level": "EXTREME"
 }
