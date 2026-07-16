@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-16T19:12:16.672219+09:00",
+  "updated_at": "2026-07-16T23:01:07.602678+09:00",
   "date": "20260716",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -1,
-      "positive_count": 1,
+      "score": 0,
+      "positive_count": 2,
       "negative_count": 1,
       "recent_events": [
+        {
+          "date": "20260716",
+          "type": "positive",
+          "headline": "Chip giant TSMC pledges another $100bn to expand US production",
+          "score": 1
+        },
         {
           "date": "20260713",
           "type": "negative",
@@ -37,14 +43,8 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20260716",
-          "type": "negative",
-          "headline": "[거시분석] Iran targets military bases as US launches wa...",
-          "score": -2
-        },
         {
           "date": "20260715",
           "type": "negative",
@@ -68,25 +68,25 @@
           "type": "negative",
           "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
           "score": -2
+        },
+        {
+          "date": "20260710",
+          "type": "negative",
+          "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
+          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 21,
+      "positive_count": 20,
       "negative_count": 1,
       "recent_events": [
         {
           "date": "20260716",
           "type": "positive",
-          "headline": "중국차 공습에…\"유럽 자동차 일자리 2040년 반토막 날수도\"",
-          "score": 1
-        },
-        {
-          "date": "20260716",
-          "type": "positive",
           "headline": "[거시분석] Iran targets military bases as US launches wa...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260715",
@@ -105,6 +105,12 @@
           "type": "positive",
           "headline": "[거시분석] Iran lawmakers present Hormuz management bill...",
           "score": 1
+        },
+        {
+          "date": "20260713",
+          "type": "positive",
+          "headline": "예멘 수도 사나 공항에 수차례 공습…후티 \"사우디 소행\"",
+          "score": 1
         }
       ]
     },
@@ -121,16 +127,10 @@
       "recent_events": []
     },
     "금융": {
-      "score": -10,
+      "score": -9,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 9,
       "recent_events": [
-        {
-          "date": "20260716",
-          "type": "negative",
-          "headline": "[거시분석] Iran targets military bases as US launches wa...",
-          "score": -1
-        },
         {
           "date": "20260715",
           "type": "negative",
@@ -153,6 +153,12 @@
           "date": "20260712",
           "type": "negative",
           "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
+          "score": -1
+        },
+        {
+          "date": "20260711",
+          "type": "negative",
+          "headline": "[거시분석] US wants Iran to pledge to stop shooting at s...",
           "score": -1
         }
       ]
@@ -209,7 +215,7 @@
           "date": "20260716",
           "type": "negative",
           "headline": "[거시분석] Iran targets military bases as US launches wa...",
-          "score": -5
+          "score": -1
         },
         {
           "date": "20260715",
@@ -560,9 +566,9 @@
     },
     {
       "date": "20260716",
-      "headline": "중국차 공습에…\"유럽 자동차 일자리 2040년 반토막 날수도\"",
+      "headline": "Chip giant TSMC pledges another $100bn to expand US production",
       "impacts": {
-        "방산": 1
+        "반도체·AI": 1
       },
       "source": "keyword"
     },
@@ -570,15 +576,13 @@
       "date": "20260716",
       "headline": "[거시분석] Iran targets military bases as US launches wa...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
-        "금융": -1
+        "방산": 1,
+        "전체시장": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 39,
+  "total_negatives": 37,
   "total_positives": 33,
   "risk_level": "EXTREME"
 }
