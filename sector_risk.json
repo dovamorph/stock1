@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T02:15:43.386376+09:00",
+  "updated_at": "2026-07-18T04:15:40.968927+09:00",
   "date": "20260718",
   "window_days": 14,
   "sectors": [
@@ -16,15 +16,15 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 2,
-      "positive_count": 4,
-      "negative_count": 1,
+      "score": -1,
+      "positive_count": 3,
+      "negative_count": 2,
       "recent_events": [
         {
           "date": "20260718",
-          "type": "positive",
-          "headline": "Chip giant TSMC pledges another $100bn to expand US production",
-          "score": 1
+          "type": "negative",
+          "headline": "[거시분석] US denies Iranian claims it hit civilian infr...",
+          "score": -2
         },
         {
           "date": "20260717",
@@ -60,7 +60,7 @@
         {
           "date": "20260718",
           "type": "negative",
-          "headline": "[거시분석] Iran accuses US of hitting civilian infrastru...",
+          "headline": "[거시분석] US denies Iranian claims it hit civilian infr...",
           "score": -2
         },
         {
@@ -103,7 +103,7 @@
         {
           "date": "20260718",
           "type": "positive",
-          "headline": "[거시분석] Iran accuses US of hitting civilian infrastru...",
+          "headline": "[거시분석] US denies Iranian claims it hit civilian infr...",
           "score": 3
         },
         {
@@ -146,7 +146,7 @@
         {
           "date": "20260718",
           "type": "negative",
-          "headline": "[거시분석] Iran accuses US of hitting civilian infrastru...",
+          "headline": "[거시분석] US denies Iranian claims it hit civilian infr...",
           "score": -1
         },
         {
@@ -215,13 +215,19 @@
     "전체시장": {
       "score": -10,
       "positive_count": 3,
-      "negative_count": 19,
+      "negative_count": 20,
       "recent_events": [
         {
           "date": "20260718",
           "type": "negative",
-          "headline": "[거시분석] Iran accuses US of hitting civilian infrastru...",
-          "score": -6
+          "headline": "Did the US just start a trade war with Brazil?",
+          "score": -1
+        },
+        {
+          "date": "20260718",
+          "type": "negative",
+          "headline": "[거시분석] US denies Iranian claims it hit civilian infr...",
+          "score": -8
         },
         {
           "date": "20260717",
@@ -239,12 +245,6 @@
           "date": "20260715",
           "type": "positive",
           "headline": "From Wimbledon towels to Scotch: What India-UK trade deal could mean for shoppers",
-          "score": 1
-        },
-        {
-          "date": "20260715",
-          "type": "positive",
-          "headline": "India-UK trade deal comes into effect: What’s cheaper in each country now?",
           "score": 1
         }
       ]
@@ -555,9 +555,9 @@
     },
     {
       "date": "20260718",
-      "headline": "Chip giant TSMC pledges another $100bn to expand US production",
+      "headline": "Did the US just start a trade war with Brazil?",
       "impacts": {
-        "반도체·AI": 1
+        "전체시장": -1
       },
       "source": "keyword"
     },
@@ -571,17 +571,18 @@
     },
     {
       "date": "20260718",
-      "headline": "[거시분석] Iran accuses US of hitting civilian infrastru...",
+      "headline": "[거시분석] US denies Iranian claims it hit civilian infr...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -6,
-        "금융": -1
+        "전체시장": -8,
+        "금융": -1,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 38,
-  "total_positives": 32,
+  "total_negatives": 40,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
