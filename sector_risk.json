@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T04:15:40.968927+09:00",
+  "updated_at": "2026-07-18T05:59:38.845821+09:00",
   "date": "20260718",
   "window_days": 14,
   "sectors": [
@@ -97,7 +97,7 @@
         {
           "date": "20260718",
           "type": "positive",
-          "headline": "\"이스라엘, 가자지구 장례 행렬에 공습…8명 사망\"",
+          "headline": "미군 \"이란에 7일 연속 야간 공습…군사력 지속 약화\"",
           "score": 1
         },
         {
@@ -215,7 +215,7 @@
     "전체시장": {
       "score": -10,
       "positive_count": 3,
-      "negative_count": 20,
+      "negative_count": 21,
       "recent_events": [
         {
           "date": "20260718",
@@ -226,8 +226,14 @@
         {
           "date": "20260718",
           "type": "negative",
+          "headline": "캐나다 산불 연기에도 美관세?…트럼프 \"대기오염비 가산돼야\"",
+          "score": -1
+        },
+        {
+          "date": "20260718",
+          "type": "negative",
           "headline": "[거시분석] US denies Iranian claims it hit civilian infr...",
-          "score": -8
+          "score": -7
         },
         {
           "date": "20260717",
@@ -240,12 +246,6 @@
           "type": "negative",
           "headline": "[거시분석] Iran targets military bases as US launches wa...",
           "score": -1
-        },
-        {
-          "date": "20260715",
-          "type": "positive",
-          "headline": "From Wimbledon towels to Scotch: What India-UK trade deal could mean for shoppers",
-          "score": 1
         }
       ]
     }
@@ -563,9 +563,17 @@
     },
     {
       "date": "20260718",
-      "headline": "\"이스라엘, 가자지구 장례 행렬에 공습…8명 사망\"",
+      "headline": "미군 \"이란에 7일 연속 야간 공습…군사력 지속 약화\"",
       "impacts": {
         "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260718",
+      "headline": "캐나다 산불 연기에도 美관세?…트럼프 \"대기오염비 가산돼야\"",
+      "impacts": {
+        "전체시장": -1
       },
       "source": "keyword"
     },
@@ -575,14 +583,14 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -8,
+        "전체시장": -7,
         "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 40,
+  "total_negatives": 41,
   "total_positives": 31,
   "risk_level": "EXTREME"
 }
