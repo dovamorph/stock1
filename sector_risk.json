@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T15:20:05.728703+09:00",
+  "updated_at": "2026-07-17T19:01:42.797380+09:00",
   "date": "20260717",
   "window_days": 14,
   "sectors": [
@@ -49,8 +49,14 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260717",
+          "type": "negative",
+          "headline": "[거시분석] US launches new strikes as Iran says civilian...",
+          "score": -1
+        },
         {
           "date": "20260715",
           "type": "negative",
@@ -74,12 +80,6 @@
           "type": "negative",
           "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
           "score": -2
-        },
-        {
-          "date": "20260710",
-          "type": "negative",
-          "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
-          "score": -1
         }
       ]
     },
@@ -92,7 +92,7 @@
           "date": "20260717",
           "type": "positive",
           "headline": "[거시분석] US launches new strikes as Iran says civilian...",
-          "score": 1
+          "score": 2
         },
         {
           "date": "20260716",
@@ -215,14 +215,8 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 20,
+      "negative_count": 19,
       "recent_events": [
-        {
-          "date": "20260717",
-          "type": "negative",
-          "headline": "트럼프 관세에 브라질 대선판 변수…오히려 좌파에 호재",
-          "score": -1
-        },
         {
           "date": "20260717",
           "type": "negative",
@@ -246,6 +240,12 @@
           "type": "positive",
           "headline": "India-UK trade deal comes into effect: What’s cheaper in each country now?",
           "score": 1
+        },
+        {
+          "date": "20260715",
+          "type": "negative",
+          "headline": "미 6월 생산자물가 전월대비 0.3%↓…예상 밖 하락(종합)",
+          "score": -1
         }
       ]
     }
@@ -570,17 +570,10 @@
     },
     {
       "date": "20260717",
-      "headline": "트럼프 관세에 브라질 대선판 변수…오히려 좌파에 호재",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260717",
       "headline": "[거시분석] US launches new strikes as Iran says civilian...",
       "impacts": {
-        "방산": 1,
+        "방산": 2,
+        "건설": -1,
         "전체시장": -3,
         "금융": -1
       },
