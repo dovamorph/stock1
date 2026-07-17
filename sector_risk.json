@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T19:01:42.797380+09:00",
+  "updated_at": "2026-07-17T22:45:51.978909+09:00",
   "date": "20260717",
   "window_days": 14,
   "sectors": [
@@ -49,14 +49,8 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20260717",
-          "type": "negative",
-          "headline": "[거시분석] US launches new strikes as Iran says civilian...",
-          "score": -1
-        },
         {
           "date": "20260715",
           "type": "negative",
@@ -80,6 +74,12 @@
           "type": "negative",
           "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
           "score": -2
+        },
+        {
+          "date": "20260710",
+          "type": "negative",
+          "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
+          "score": -1
         }
       ]
     },
@@ -91,8 +91,8 @@
         {
           "date": "20260717",
           "type": "positive",
-          "headline": "[거시분석] US launches new strikes as Iran says civilian...",
-          "score": 2
+          "headline": "[거시분석] Iran accuses US of hitting civilian infrastru...",
+          "score": 1
         },
         {
           "date": "20260716",
@@ -140,7 +140,7 @@
         {
           "date": "20260717",
           "type": "negative",
-          "headline": "[거시분석] US launches new strikes as Iran says civilian...",
+          "headline": "[거시분석] Iran accuses US of hitting civilian infrastru...",
           "score": -1
         },
         {
@@ -220,7 +220,7 @@
         {
           "date": "20260717",
           "type": "negative",
-          "headline": "[거시분석] US launches new strikes as Iran says civilian...",
+          "headline": "[거시분석] Iran accuses US of hitting civilian infrastru...",
           "score": -3
         },
         {
@@ -570,17 +570,16 @@
     },
     {
       "date": "20260717",
-      "headline": "[거시분석] US launches new strikes as Iran says civilian...",
+      "headline": "[거시분석] Iran accuses US of hitting civilian infrastru...",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
+        "방산": 1,
         "전체시장": -3,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 37,
+  "total_negatives": 36,
   "total_positives": 32,
   "risk_level": "EXTREME"
 }
