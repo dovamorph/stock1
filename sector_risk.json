@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T00:16:39.380657+09:00",
+  "updated_at": "2026-07-18T02:15:43.386376+09:00",
   "date": "20260718",
   "window_days": 14,
   "sectors": [
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260718",
+          "type": "negative",
+          "headline": "[거시분석] Iran accuses US of hitting civilian infrastru...",
+          "score": -2
+        },
         {
           "date": "20260715",
           "type": "negative",
@@ -80,25 +86,25 @@
           "type": "negative",
           "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
           "score": -2
-        },
-        {
-          "date": "20260710",
-          "type": "negative",
-          "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
-          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 19,
+      "positive_count": 20,
       "negative_count": 1,
       "recent_events": [
         {
           "date": "20260718",
           "type": "positive",
-          "headline": "[거시분석] Iran accuses US of hitting civilian infrastru...",
+          "headline": "\"이스라엘, 가자지구 장례 행렬에 공습…8명 사망\"",
           "score": 1
+        },
+        {
+          "date": "20260718",
+          "type": "positive",
+          "headline": "[거시분석] Iran accuses US of hitting civilian infrastru...",
+          "score": 3
         },
         {
           "date": "20260717",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "미·이란 닷새째 '보복의 악순환'…부셰르 원전 인근 또 공습",
           "score": 1
-        },
-        {
-          "date": "20260715",
-          "type": "positive",
-          "headline": "[거시분석] Iran threatens to block more trade routes as ...",
-          "score": 3
         }
       ]
     },
@@ -221,7 +221,7 @@
           "date": "20260718",
           "type": "negative",
           "headline": "[거시분석] Iran accuses US of hitting civilian infrastru...",
-          "score": -3
+          "score": -6
         },
         {
           "date": "20260717",
@@ -563,16 +563,25 @@
     },
     {
       "date": "20260718",
+      "headline": "\"이스라엘, 가자지구 장례 행렬에 공습…8명 사망\"",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260718",
       "headline": "[거시분석] Iran accuses US of hitting civilian infrastru...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -3,
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -6,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 37,
-  "total_positives": 31,
+  "total_negatives": 38,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
