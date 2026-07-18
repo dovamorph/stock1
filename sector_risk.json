@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T07:52:44.887544+09:00",
+  "updated_at": "2026-07-18T11:46:15.838729+09:00",
   "date": "20260718",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -1,
+      "score": 1,
       "positive_count": 3,
-      "negative_count": 2,
+      "negative_count": 1,
       "recent_events": [
-        {
-          "date": "20260718",
-          "type": "negative",
-          "headline": "[거시분석] US denies Iranian claims it hit civilian infr...",
-          "score": -2
-        },
         {
           "date": "20260717",
           "type": "positive",
@@ -97,7 +91,7 @@
         {
           "date": "20260718",
           "type": "positive",
-          "headline": "[거시분석] US denies Iranian claims it hit civilian infr...",
+          "headline": "[거시분석] US strikes hit Iran for seventh consecutive n...",
           "score": 1
         },
         {
@@ -146,7 +140,7 @@
         {
           "date": "20260718",
           "type": "negative",
-          "headline": "[거시분석] US denies Iranian claims it hit civilian infr...",
+          "headline": "[거시분석] US strikes hit Iran for seventh consecutive n...",
           "score": -1
         },
         {
@@ -215,25 +209,19 @@
     "전체시장": {
       "score": -10,
       "positive_count": 3,
-      "negative_count": 21,
+      "negative_count": 20,
       "recent_events": [
         {
           "date": "20260718",
           "type": "negative",
-          "headline": "Trump threatens to tariff Canada over wildfire smoke choking northern US cities",
+          "headline": "Trump threatens Canada with steeper tariff costs over wildfire smoke",
           "score": -1
         },
         {
           "date": "20260718",
           "type": "negative",
-          "headline": "Did the US just start a trade war with Brazil?",
-          "score": -1
-        },
-        {
-          "date": "20260718",
-          "type": "negative",
-          "headline": "[거시분석] US denies Iranian claims it hit civilian infr...",
-          "score": -5
+          "headline": "[거시분석] US strikes hit Iran for seventh consecutive n...",
+          "score": -3
         },
         {
           "date": "20260717",
@@ -246,6 +234,12 @@
           "type": "negative",
           "headline": "[거시분석] Iran targets military bases as US launches wa...",
           "score": -1
+        },
+        {
+          "date": "20260715",
+          "type": "positive",
+          "headline": "From Wimbledon towels to Scotch: What India-UK trade deal could mean for shoppers",
+          "score": 1
         }
       ]
     }
@@ -555,7 +549,7 @@
     },
     {
       "date": "20260718",
-      "headline": "Trump threatens to tariff Canada over wildfire smoke choking northern US cities",
+      "headline": "Trump threatens Canada with steeper tariff costs over wildfire smoke",
       "impacts": {
         "전체시장": -1
       },
@@ -563,25 +557,16 @@
     },
     {
       "date": "20260718",
-      "headline": "Did the US just start a trade war with Brazil?",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260718",
-      "headline": "[거시분석] US denies Iranian claims it hit civilian infr...",
+      "headline": "[거시분석] US strikes hit Iran for seventh consecutive n...",
       "impacts": {
         "방산": 1,
-        "전체시장": -5,
-        "금융": -1,
-        "반도체·AI": -2
+        "전체시장": -3,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 40,
+  "total_negatives": 38,
   "total_positives": 30,
   "risk_level": "EXTREME"
 }
