@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-19T02:02:13.809532+09:00",
+  "updated_at": "2026-07-19T04:10:03.037636+09:00",
   "date": "20260719",
   "window_days": 14,
   "sectors": [
@@ -60,7 +60,7 @@
         {
           "date": "20260719",
           "type": "negative",
-          "headline": "[거시분석] US strikes hit Iran for seventh consecutive n...",
+          "headline": "[거시분석] Two US troops killed and one missing after Ir...",
           "score": -2
         },
         {
@@ -103,7 +103,7 @@
         {
           "date": "20260719",
           "type": "positive",
-          "headline": "[거시분석] US strikes hit Iran for seventh consecutive n...",
+          "headline": "[거시분석] Two US troops killed and one missing after Ir...",
           "score": 3
         },
         {
@@ -140,7 +140,7 @@
         {
           "date": "20260719",
           "type": "negative",
-          "headline": "[거시분석] US strikes hit Iran for seventh consecutive n...",
+          "headline": "[거시분석] Two US troops killed and one missing after Ir...",
           "score": -1
         },
         {
@@ -214,7 +214,7 @@
         {
           "date": "20260719",
           "type": "negative",
-          "headline": "[거시분석] US strikes hit Iran for seventh consecutive n...",
+          "headline": "[거시분석] Two US troops killed and one missing after Ir...",
           "score": -5
         },
         {
@@ -568,7 +568,7 @@
     },
     {
       "date": "20260719",
-      "headline": "[거시분석] US strikes hit Iran for seventh consecutive n...",
+      "headline": "[거시분석] Two US troops killed and one missing after Ir...",
       "impacts": {
         "방산": 3,
         "건설": -2,
