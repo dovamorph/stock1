@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-19T04:10:03.037636+09:00",
+  "updated_at": "2026-07-19T05:54:09.737118+09:00",
   "date": "20260719",
   "window_days": 14,
   "sectors": [
@@ -48,15 +48,9 @@
     },
     "건설": {
       "score": -10,
-      "positive_count": 2,
+      "positive_count": 1,
       "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20260719",
-          "type": "positive",
-          "headline": "베네수엘라, IMF로부터 지진 재건자금 5천억원 확보",
-          "score": 1
-        },
         {
           "date": "20260719",
           "type": "negative",
@@ -80,6 +74,12 @@
           "type": "positive",
           "headline": "베네수엘라 '대규모 재건' 시동…주택 2만5천채 공급 추진",
           "score": 1
+        },
+        {
+          "date": "20260712",
+          "type": "negative",
+          "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
+          "score": -2
         }
       ]
     },
@@ -202,15 +202,9 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 4,
+      "positive_count": 3,
       "negative_count": 19,
       "recent_events": [
-        {
-          "date": "20260719",
-          "type": "positive",
-          "headline": "이란 \"종전 MOU 의무 이행 중단\"…쿠웨이트 발전·담수시설 공습(종합)",
-          "score": 1
-        },
         {
           "date": "20260719",
           "type": "negative",
@@ -234,6 +228,12 @@
           "type": "negative",
           "headline": "[거시분석] Iran targets military bases as US launches wa...",
           "score": -1
+        },
+        {
+          "date": "20260715",
+          "type": "positive",
+          "headline": "From Wimbledon towels to Scotch: What India-UK trade deal could mean for shoppers",
+          "score": 1
         }
       ]
     }
@@ -552,22 +552,6 @@
     },
     {
       "date": "20260719",
-      "headline": "베네수엘라, IMF로부터 지진 재건자금 5천억원 확보",
-      "impacts": {
-        "건설": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260719",
-      "headline": "이란 \"종전 MOU 의무 이행 중단\"…쿠웨이트 발전·담수시설 공습(종합)",
-      "impacts": {
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260719",
       "headline": "[거시분석] Two US troops killed and one missing after Ir...",
       "impacts": {
         "방산": 3,
@@ -579,6 +563,6 @@
     }
   ],
   "total_negatives": 39,
-  "total_positives": 33,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19 04:09",
+  "updated": "2026-07-19 05:54",
   "news_count": 86,
   "intl_count": 56,
   "domestic_count": 30,
@@ -51,11 +51,17 @@
     "Watch: What we know about newly discovered monkey species",
     "Watch: What to know as Genoa bridge disaster trial ends",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Palestinian teenage footballer dies a week after Israeli settler attack",
+    "Drone video shows scale of major wildfire in northern Spain",
+    "Why has the ‘ceasefire’ in Gaza failed to stop Israel’s attacks?",
+    "All to know about Canadian wildfire smoke, air quality and World Cup final",
+    "Thousands rally in London in support of Gaza, demand new PM take action",
+    "Iran supreme leader warns of ‘unforgettable lessons’ if US attacks continue",
     "Israeli attacks on residential areas in Gaza kill eight",
     "New York’s Mamdani says looking into Netanyahu arrest during city visit",
     "Damage visible at Iran bridges and water plant after US attacks",
     "US military says two service members killed in Iranian strike in Jordan",
-    "France vs England LIVE: FIFA World Cup 2026 third-place playoff",
+    "England vs France LIVE: FIFA World Cup 2026",
     "Lebanon’s Aoun to meet Trump in Washington to discuss Israel talks",
     "UK’s Josh Kerr smashes longstanding world mile record in London",
     "What to expect after the US reimposes naval blockade on Iran’s ports?",
@@ -70,12 +76,18 @@
     "Death toll from Uganda school bus crash rises to 24",
     "Iran suggests MoU ‘suspended’ as 50 killed in US strikes in July",
     "Ukrainian strikes hit Russian logistics center",
-    "Europe should look to Africa for heatwave solutions",
-    "India achieves milestone with launch of first private-sector orbital rocket",
-    "India’s salt workers: The human cost of the world’s most popular seasoning",
-    "Ukrainian drone attacks on Russia kill at least 8, wound dozens",
-    "Indian police forcibly hospitalise activist after 20-day hunger strike",
-    "Argentina’s New York fans share hopes before 2026 World Cup final",
+    "상호금융 '집단대출 부메랑' 상반기 3조 쑥…연말까지 영업제한",
+    "은행권 가계대출 여력 바닥…금리 상승까지 실수요자 '이중고'",
+    "낙동강홍수통제소, 경북 안동시 미천 일대 홍수경보 해제",
+    "올해 1인당 GDP 3만9천달러 추산…5년만에 최대폭 증가",
+    "법원 제동에 아르헨 밀레이, 보우소나루 전 대통령 접견 무산",
+    "[월드컵] 대회만 열리면 하나가 되는 '축구 신'의 나라 아르헨",
+    "영주 등 경북 3곳 호우주의보",
+    "세계유산의 미래, 부산에서 논한다…세계유산위원회 오늘 개막",
+    "\"대안도 방법도 없다\"…반장동혁, 張체제 사실상 방치 기류",
+    "여야 대치에 국회 정상화 하세월…종합특검·형소법 개정 지뢰밭",
+    "헝가리 대통령, 본인 임기 종료 개헌안에 마지못해 서명",
+    "인천 쿠팡물류센터 화재, 밤샘 진화에도 불길 안 잡혀",
     "경북 영주·문경에 호우경보…예천에 호우경보 유지",
     "美 \"미군 2명 전사·1명 실종\"…이란 직접 공격에 첫 사망(종합)",
     "앤트로픽, 메타와 15조원 규모 연산 자원 임대 계약 논의",
@@ -93,19 +105,7 @@
     "[월드컵] 메시 \"한달 버티기 힘든 국민\"…아르헨 정부 \"동의 안 해\"",
     "노르웨이 남부 큰불로 주택 100여채 소실…\"역대 최악 화재\"(종합)",
     "경북 의성군, 단촌면 구계리에 대피명령…누적 강우량 122.5㎜",
-    "화순 등 전남 3곳에 호우주의보",
-    "전북 순창·임실에 호우경보",
-    "전남 나주서북부에 호우경보…담양에 호우경보 유지",
-    "광주동부·광주서부에 호우경보",
-    "사망한 트럼프 측근 그레이엄 후계자 뽑는 경선 최소 3파전",
-    "베네수엘라, IMF로부터 지진 재건자금 5천억원 확보",
-    "전남 영암·나주동남부에 호우주의보",
-    "美서 대리모 출산 독일 집권당 원내대표, 내로남불 논란 끝 사퇴",
-    "낙동강홍수통제소, 경북 안동시 미천 일대 홍수경보 발령",
-    "[알림] 연합뉴스 콘텐츠 저작권 고지",
-    "이란 \"종전 MOU 의무 이행 중단\"…쿠웨이트 발전·담수시설 공습(종합)",
-    "전남 담양에 호우경보…목포 등 4곳 호우주의보 유지",
-    "부여 요양원서 불…입소자 등 6명 대피"
+    "화순 등 전남 3곳에 호우주의보"
   ],
   "categories": {
     "geopolitical": {
@@ -114,8 +114,8 @@
       "signal": "🔴",
       "summary": "Two US troops killed and one missing after Ir...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 12,
-      "score": 3.0
+      "matched": 14,
+      "score": 1.5
     },
     "macro": {
       "level": "주의",
@@ -123,8 +123,8 @@
       "signal": "🟡",
       "summary": "Brad Pitt's children are dropping their dad's...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "matched": 2,
+      "score": 3.0
     },
     "disaster": {
       "level": "안전",
@@ -141,7 +141,7 @@
       "signal": "🟡",
       "summary": "Two US troops killed and one missing after Ir...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 9,
+      "matched": 10,
       "score": 1.5
     },
     "policy": {
