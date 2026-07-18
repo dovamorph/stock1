@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T18:36:48.495956+09:00",
+  "updated_at": "2026-07-18T20:06:51.247506+09:00",
   "date": "20260718",
   "window_days": 14,
   "sectors": [
@@ -209,14 +209,8 @@
     "전체시장": {
       "score": -10,
       "positive_count": 3,
-      "negative_count": 20,
+      "negative_count": 19,
       "recent_events": [
-        {
-          "date": "20260718",
-          "type": "negative",
-          "headline": "호르무즈 이어 홍해 봉쇄 위기…\"둘 다 막히면 글로벌 경기침체\"",
-          "score": -1
-        },
         {
           "date": "20260718",
           "type": "negative",
@@ -239,6 +233,12 @@
           "date": "20260715",
           "type": "positive",
           "headline": "From Wimbledon towels to Scotch: What India-UK trade deal could mean for shoppers",
+          "score": 1
+        },
+        {
+          "date": "20260715",
+          "type": "positive",
+          "headline": "India-UK trade deal comes into effect: What’s cheaper in each country now?",
           "score": 1
         }
       ]
@@ -557,14 +557,6 @@
     },
     {
       "date": "20260718",
-      "headline": "호르무즈 이어 홍해 봉쇄 위기…\"둘 다 막히면 글로벌 경기침체\"",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260718",
       "headline": "[거시분석] US strikes hit Iran for seventh consecutive n...",
       "impacts": {
         "방산": 3,
@@ -575,7 +567,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 39,
+  "total_negatives": 38,
   "total_positives": 31,
   "risk_level": "EXTREME"
 }
