@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T20:06:51.247506+09:00",
+  "updated_at": "2026-07-18T22:23:05.493132+09:00",
   "date": "20260718",
   "window_days": 14,
   "sectors": [
@@ -49,14 +49,8 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20260718",
-          "type": "negative",
-          "headline": "[거시분석] US strikes hit Iran for seventh consecutive n...",
-          "score": -2
-        },
         {
           "date": "20260715",
           "type": "negative",
@@ -80,25 +74,25 @@
           "type": "negative",
           "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
           "score": -2
+        },
+        {
+          "date": "20260710",
+          "type": "negative",
+          "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
+          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 20,
+      "positive_count": 19,
       "negative_count": 1,
       "recent_events": [
         {
           "date": "20260718",
           "type": "positive",
-          "headline": "이란, 쿠웨이트 발전·담수시설 또 공습…민간시설 공격 '맞불'",
-          "score": 1
-        },
-        {
-          "date": "20260718",
-          "type": "positive",
           "headline": "[거시분석] US strikes hit Iran for seventh consecutive n...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260717",
@@ -117,6 +111,12 @@
           "type": "positive",
           "headline": "미·이란 닷새째 '보복의 악순환'…부셰르 원전 인근 또 공습",
           "score": 1
+        },
+        {
+          "date": "20260715",
+          "type": "positive",
+          "headline": "[거시분석] Iran threatens to block more trade routes as ...",
+          "score": 3
         }
       ]
     },
@@ -215,7 +215,7 @@
           "date": "20260718",
           "type": "negative",
           "headline": "[거시분석] US strikes hit Iran for seventh consecutive n...",
-          "score": -5
+          "score": -4
         },
         {
           "date": "20260717",
@@ -549,25 +549,16 @@
     },
     {
       "date": "20260718",
-      "headline": "이란, 쿠웨이트 발전·담수시설 또 공습…민간시설 공격 '맞불'",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260718",
       "headline": "[거시분석] US strikes hit Iran for seventh consecutive n...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
+        "방산": 1,
+        "전체시장": -4,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 38,
-  "total_positives": 31,
+  "total_negatives": 37,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
