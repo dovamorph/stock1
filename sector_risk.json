@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T11:46:15.838729+09:00",
+  "updated_at": "2026-07-18T15:07:53.657793+09:00",
   "date": "20260718",
   "window_days": 14,
   "sectors": [
@@ -221,7 +221,7 @@
           "date": "20260718",
           "type": "negative",
           "headline": "[거시분석] US strikes hit Iran for seventh consecutive n...",
-          "score": -3
+          "score": -4
         },
         {
           "date": "20260717",
@@ -560,7 +560,7 @@
       "headline": "[거시분석] US strikes hit Iran for seventh consecutive n...",
       "impacts": {
         "방산": 1,
-        "전체시장": -3,
+        "전체시장": -4,
         "금융": -1
       },
       "source": "geo_categories"
