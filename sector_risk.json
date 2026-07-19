@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-19T12:15:49.660929+09:00",
+  "updated_at": "2026-07-19T15:33:09.083849+09:00",
   "date": "20260719",
   "window_days": 14,
   "sectors": [
@@ -91,7 +91,7 @@
         {
           "date": "20260719",
           "type": "positive",
-          "headline": "[거시분석] Two US troops killed and one missing after Ir...",
+          "headline": "[거시분석] US and Iran exchange strikes after two US dea...",
           "score": 1
         },
         {
@@ -140,7 +140,7 @@
         {
           "date": "20260719",
           "type": "negative",
-          "headline": "[거시분석] Two US troops killed and one missing after Ir...",
+          "headline": "[거시분석] US and Iran exchange strikes after two US dea...",
           "score": -1
         },
         {
@@ -208,7 +208,7 @@
         {
           "date": "20260719",
           "type": "negative",
-          "headline": "[거시분석] Two US troops killed and one missing after Ir...",
+          "headline": "[거시분석] US and Iran exchange strikes after two US dea...",
           "score": -3
         },
         {
@@ -536,7 +536,7 @@
     },
     {
       "date": "20260719",
-      "headline": "[거시분석] Two US troops killed and one missing after Ir...",
+      "headline": "[거시분석] US and Iran exchange strikes after two US dea...",
       "impacts": {
         "방산": 1,
         "전체시장": -3,
