@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-19T18:54:46.539188+09:00",
+  "updated_at": "2026-07-19T20:11:00.994573+09:00",
   "date": "20260719",
   "window_days": 14,
   "sectors": [
@@ -85,7 +85,7 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 21,
+      "positive_count": 22,
       "negative_count": 1,
       "recent_events": [
         {
@@ -103,6 +103,12 @@
         {
           "date": "20260719",
           "type": "positive",
+          "headline": "외교2차관 \"중동 긴장 고조…단기체류자 조속히 출국 권고\"",
+          "score": 1
+        },
+        {
+          "date": "20260719",
+          "type": "positive",
           "headline": "[거시분석] US and Iran exchange strikes after two US sol...",
           "score": 3
         },
@@ -110,12 +116,6 @@
           "date": "20260718",
           "type": "positive",
           "headline": "[거시분석] US strikes hit Iran for seventh consecutive n...",
-          "score": 1
-        },
-        {
-          "date": "20260717",
-          "type": "positive",
-          "headline": "[거시분석] Iran accuses US of hitting civilian infrastru...",
           "score": 1
         }
       ]
@@ -552,6 +552,14 @@
     },
     {
       "date": "20260719",
+      "headline": "외교2차관 \"중동 긴장 고조…단기체류자 조속히 출국 권고\"",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260719",
       "headline": "[거시분석] US and Iran exchange strikes after two US sol...",
       "impacts": {
         "방산": 3,
@@ -563,6 +571,6 @@
     }
   ],
   "total_negatives": 39,
-  "total_positives": 31,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
