@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20 02:00",
+  "updated": "2026-07-20 04:10",
   "news_count": 86,
   "intl_count": 56,
   "domestic_count": 30,
@@ -51,6 +51,13 @@
     "Helicopters dump water as huge Norway fire destroys homes",
     "Bodycam footage shows airlift of girl stranded by Texas floods",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Lebanese food influencer sentenced to life for drug smuggling",
+    "‘Sacred unity’: Iran’s supreme leader calls for calm amid political divides",
+    "At least 50 Malian soldiers killed in attack on military convoy",
+    "Lebanon’s President Joseph Aoun meets Rubio ahead of Trump talks",
+    "NYC swells with Spanish, Argentinian fans anticipating World Cup glory",
+    "What happened to the Jewish left?",
+    "Iraqi-born singer Emmanuel Kelly among World Cup half-time show headliners",
     "Syria’s Al-Sharaa reshuffles security and intelligence leadership",
     "Israeli settlers torch homes and mosque in Masafer Yatta",
     "5.6 magnitude earthquake hits Peru",
@@ -69,13 +76,14 @@
     "Why have India’s Gen Z protesters called for a march to parliament?",
     "Indian court rejects bid to release hunger-striking activist from hospital",
     "Spain or Argentina, who will win the FIFA World Cup? Ex-player predictions",
-    "India’s cockroach politics is no joke",
-    "FIFA World Cup: Tobin Heath on record goals, France and Lamine Yamal",
-    "Guyana ferry with 116 people on board capsizes; more than 50 rescued",
-    "Iranians suffer from power blackouts during war and heatwave",
-    "Why is India vetting books in Kashmir in search of ‘anti-national’ content?",
-    "Gaza cheers for Spain as World Cup final anticipation mounts",
-    "Du Plessis makes winning return to UFC with dominant decision over Usman",
+    "김시우, 디오픈 골프서 역대 최고 성적 공동 6위…우승은 폭스(종합)",
+    "[최종순위] 디오픈 챔피언십",
+    "이란 \"다르코빈 원전 건설 현장 피격\" 주장",
+    "'오디세이' 놀런 \"AI는 트로이목마…AI 반감은 건강한 회의주의\"",
+    "김시우, 디오픈 골프서 역대 최고 성적 공동 6위…우승은 폭스",
+    "◇오늘의 월드컵(20일)",
+    "맘다니 \"'전범' 네타냐후, 9월 뉴욕 방문시 체포 방안 검토\"",
+    "美국무, 레바논 대통령 만나 이스라엘-레바논 평화합의 이행논의",
     "'언더독' 디플러스 기아, 국제전 한 풀었다…EWC 2026 우승",
     "美CIA, 'AI패권' 작전…UAE 기업의 '中유착 의혹' 비밀조사",
     "푸틴, 방러 최선희 만나 \"북한군 도움 감사, 김정은에 안부\"",
@@ -97,15 +105,7 @@
     "부산 중부권 4개 구 오존주의보 발령",
     "[프로야구 중간순위] 19일",
     "[프로야구 대전전적] 키움 9-9 한화",
-    "대구 달성남부에 호우주의보 해제",
-    "경북 청송에 호우주의보 해제…포항에 호우주의보 유지",
-    "[프로야구 대구전적] 롯데 11-8 삼성",
-    "K리그1 서울, 부천 원정서 3-1 승…2위 강원에 승점 8 앞선 선두(종합)",
-    "AI는 3승 예측, 고영표가 4승째 완성…\"AI에 서운하네요\"",
-    "젠지, e스포츠 월드컵 3·4위전서 T1 꺾고 최종 3위",
-    "경남 합천중부에 호우경보 해제…합천남부에 호우주의보 해제",
-    "K리그1 서울, 부천 원정서 3-1 승…2위 강원에 승점 8 앞선 선두",
-    "트럼프 \"대러 제재 법안에 이란도 추가해야\"…경제 압박 강조"
+    "대구 달성남부에 호우주의보 해제"
   ],
   "categories": {
     "geopolitical": {
@@ -142,16 +142,16 @@
       "summary": "US and Iran trade fire after two US soldiers ...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 6,
-      "score": 4.5
+      "score": 3.0
     },
     "policy": {
-      "level": "안전",
-      "color": "green",
-      "signal": "🟢",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "이란 \"다르코빈 원전 건설 현장 피격\" 주장",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 1,
+      "score": 1.5
     }
   },
   "overall": {

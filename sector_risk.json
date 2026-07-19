@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T02:01:08.560292+09:00",
+  "updated_at": "2026-07-20T04:11:10.330110+09:00",
   "date": "20260720",
   "window_days": 14,
   "sectors": [
@@ -209,7 +209,7 @@
           "date": "20260720",
           "type": "negative",
           "headline": "[거시분석] US and Iran trade fire after two US soldiers ...",
-          "score": -5
+          "score": -6
         },
         {
           "date": "20260719",
@@ -558,7 +558,7 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -5,
+        "전체시장": -6,
         "금융": -1
       },
       "source": "geo_categories"
