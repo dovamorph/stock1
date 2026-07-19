@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-19T15:33:09.083849+09:00",
+  "updated_at": "2026-07-19T18:54:46.539188+09:00",
   "date": "20260719",
   "window_days": 14,
   "sectors": [
@@ -49,8 +49,14 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260719",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran exchange strikes after two US sol...",
+          "score": -2
+        },
         {
           "date": "20260715",
           "type": "negative",
@@ -74,25 +80,31 @@
           "type": "negative",
           "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
           "score": -2
-        },
-        {
-          "date": "20260710",
-          "type": "negative",
-          "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
-          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 19,
+      "positive_count": 21,
       "negative_count": 1,
       "recent_events": [
         {
           "date": "20260719",
           "type": "positive",
-          "headline": "[거시분석] US and Iran exchange strikes after two US dea...",
+          "headline": "Russia launches major ballistic missile attack on Kyiv",
           "score": 1
+        },
+        {
+          "date": "20260719",
+          "type": "positive",
+          "headline": "Russia launches largest ballistic missile attack on Kyiv since start of war",
+          "score": 1
+        },
+        {
+          "date": "20260719",
+          "type": "positive",
+          "headline": "[거시분석] US and Iran exchange strikes after two US sol...",
+          "score": 3
         },
         {
           "date": "20260718",
@@ -104,18 +116,6 @@
           "date": "20260717",
           "type": "positive",
           "headline": "[거시분석] Iran accuses US of hitting civilian infrastru...",
-          "score": 1
-        },
-        {
-          "date": "20260716",
-          "type": "positive",
-          "headline": "[거시분석] Iran targets military bases as US launches wa...",
-          "score": 1
-        },
-        {
-          "date": "20260715",
-          "type": "positive",
-          "headline": "미·이란 닷새째 '보복의 악순환'…부셰르 원전 인근 또 공습",
           "score": 1
         }
       ]
@@ -140,7 +140,7 @@
         {
           "date": "20260719",
           "type": "negative",
-          "headline": "[거시분석] US and Iran exchange strikes after two US dea...",
+          "headline": "[거시분석] US and Iran exchange strikes after two US sol...",
           "score": -1
         },
         {
@@ -208,8 +208,8 @@
         {
           "date": "20260719",
           "type": "negative",
-          "headline": "[거시분석] US and Iran exchange strikes after two US dea...",
-          "score": -3
+          "headline": "[거시분석] US and Iran exchange strikes after two US sol...",
+          "score": -5
         },
         {
           "date": "20260718",
@@ -536,16 +536,33 @@
     },
     {
       "date": "20260719",
-      "headline": "[거시분석] US and Iran exchange strikes after two US dea...",
+      "headline": "Russia launches major ballistic missile attack on Kyiv",
       "impacts": {
-        "방산": 1,
-        "전체시장": -3,
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260719",
+      "headline": "Russia launches largest ballistic missile attack on Kyiv since start of war",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260719",
+      "headline": "[거시분석] US and Iran exchange strikes after two US sol...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 38,
-  "total_positives": 29,
+  "total_negatives": 39,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
