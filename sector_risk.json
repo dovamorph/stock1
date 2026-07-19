@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-19T07:53:48.770153+09:00",
+  "updated_at": "2026-07-19T12:15:49.660929+09:00",
   "date": "20260719",
   "window_days": 14,
   "sectors": [
@@ -49,14 +49,8 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20260719",
-          "type": "negative",
-          "headline": "[거시분석] Two US troops killed and one missing after Ir...",
-          "score": -2
-        },
         {
           "date": "20260715",
           "type": "negative",
@@ -80,31 +74,25 @@
           "type": "negative",
           "headline": "[거시분석] US launches fresh strikes as Iran closes Stra...",
           "score": -2
+        },
+        {
+          "date": "20260710",
+          "type": "negative",
+          "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
+          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 21,
+      "positive_count": 19,
       "negative_count": 1,
       "recent_events": [
         {
           "date": "20260719",
           "type": "positive",
-          "headline": "What to expect after the US reimposes naval blockade on Iran’s ports?",
-          "score": 1
-        },
-        {
-          "date": "20260719",
-          "type": "positive",
-          "headline": "미군 \"이란에 8일째 공습…이란의 요르단 美장병 공격 응징\"",
-          "score": 1
-        },
-        {
-          "date": "20260719",
-          "type": "positive",
           "headline": "[거시분석] Two US troops killed and one missing after Ir...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260718",
@@ -116,6 +104,18 @@
           "date": "20260717",
           "type": "positive",
           "headline": "[거시분석] Iran accuses US of hitting civilian infrastru...",
+          "score": 1
+        },
+        {
+          "date": "20260716",
+          "type": "positive",
+          "headline": "[거시분석] Iran targets military bases as US launches wa...",
+          "score": 1
+        },
+        {
+          "date": "20260715",
+          "type": "positive",
+          "headline": "미·이란 닷새째 '보복의 악순환'…부셰르 원전 인근 또 공습",
           "score": 1
         }
       ]
@@ -209,7 +209,7 @@
           "date": "20260719",
           "type": "negative",
           "headline": "[거시분석] Two US troops killed and one missing after Ir...",
-          "score": -5
+          "score": -3
         },
         {
           "date": "20260718",
@@ -536,33 +536,16 @@
     },
     {
       "date": "20260719",
-      "headline": "What to expect after the US reimposes naval blockade on Iran’s ports?",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260719",
-      "headline": "미군 \"이란에 8일째 공습…이란의 요르단 美장병 공격 응징\"",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260719",
       "headline": "[거시분석] Two US troops killed and one missing after Ir...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
+        "방산": 1,
+        "전체시장": -3,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 39,
-  "total_positives": 31,
+  "total_negatives": 38,
+  "total_positives": 29,
   "risk_level": "EXTREME"
 }
