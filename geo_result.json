@@ -1,10 +1,10 @@
 {
-  "updated": "2026-07-19 22:24",
-  "news_count": 85,
-  "intl_count": 55,
+  "updated": "2026-07-19 23:59",
+  "news_count": 86,
+  "intl_count": 56,
   "domestic_count": 30,
   "source_stats": {
-    "BBC World": 29,
+    "BBC World": 30,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 0,
@@ -27,6 +27,7 @@
     "Cuban dissident Luis Manuel Otero Alcántara goes into exile in US",
     "Ferry carrying 116 passengers sinks off Guyana coast, authorities say",
     "Hungary's president agrees to stand down after parliament backs removal",
+    "Runners take on 'world's coolest marathon' on drifting North Pole ice",
     "German politician resigns over surrogacy child controversy",
     "Space start-up launches India’s first commercial rocket designed for orbit",
     "Laos says it can't determine cause of  tourist deaths linked to methanol",
@@ -46,10 +47,16 @@
     "Brad Pitt's children are dropping their dad's surname - here's why I did the same",
     "Helicopters dump water as huge Norway fire destroys homes",
     "Bodycam footage shows airlift of girl stranded by Texas floods",
+    "Timelapse shows World Cup final stadium nearly vanish in smoky haze",
     "Watch: What we know about newly discovered monkey species",
     "Watch: What to know as Genoa bridge disaster trial ends",
-    "Orange haze from Canada wildfires seen in Ontario and northern US",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Why is Argentina’s football team so white?",
+    "Iran attacks US Gulf allies, causing a fire at Kuwait power plant",
+    "Who controls football in Palestine?",
+    "The story behind football stars Messi and Yamal’s viral photo",
+    "Why is China protesting about the nationalisation of British Steel?",
+    "Lebanon convicts influencer of smuggling drugs in biscuits",
     "Why were Andrew and Tristan Tate arrested? Will they be extradited to UK?",
     "Why have India’s Gen Z protesters called for a march to parliament?",
     "Indian court rejects bid to release hunger-striking activist from hospital",
@@ -68,13 +75,16 @@
     "Spain fans bring the party to New York before World Cup final",
     "Spain vs Argentina: World Cup final predictions, schedule, Messi news",
     "Watch FIFA World Cup: Argentina, Spain make preparations ahead of final",
-    "Spain vs Argentina: How each team can win the 2026 World Cup final",
-    "Israel demolishes Palestinian home in Masafer Yatta",
-    "Russia launches largest ballistic missile attack on Kyiv since start of war",
-    "Spain vs Argentina FIFA World Cup final: Team news, prediction and lineups",
-    "The number one health issue in Palestine is the Israeli occupation",
-    "US bombs Iran for eighth-straight night",
-    "Moment Iranian missiles hit airbase in Jordan killing US soldiers",
+    "Spain vs Argentina World Cup final: Key matchups, tactics and storylines",
+    "美 \"아카바 공항·항구 피해야\"…경고 직후 이란 미사일(종합2보)",
+    "끝없는 보복전…러, 키이우에 '최대 규모' 탄도미사일 공격(종합)",
+    "인천 서해구 \"쿠팡물류센터 붕괴 가능성에 인근 대피령\"",
+    "'5G 무패' 서울, 이제 독주?…김기동 \"그런 생각하면 어려워져\"",
+    "[속보] 인천 서해구 \"인천 쿠팡물류센터 붕괴 가능성에 인근 대피령\"",
+    "장마철에도 후끈 달아오른 KBO리그…역대 최소 경기 800만 관중",
+    "경북 포항에 호우주의보 해제…포항 등 12곳 폭염주의보 유지",
+    "전민재, 9회 싹쓸이 2루타…롯데, 삼성에 짜릿한 재역전(종합)",
+    "부산 중부권 4개 구 오존주의보 발령",
     "[프로야구 중간순위] 19일",
     "[프로야구 대전전적] 키움 9-9 한화",
     "대구 달성남부에 호우주의보 해제",
@@ -95,16 +105,7 @@
     "부산 중부권 4개 구 오존주의보 해제",
     "[프로야구 창원전적] 두산 10-3 NC",
     "李대통령, 부산 세계유산위원회 개회식 참석…金여사 동행(종합)",
-    "나성범·카스트로 '쾅쾅'…KIA, SSG 꺾고 3연승 질주",
-    "[프로야구 인천전적] KIA 9-5 SSG",
-    "유럽 산불 비상…스페인서 닷새간 서울 절반 면적 불타",
-    "[프로야구 잠실전적] kt 4-1 LG",
-    "고영표 역투·장성우 대형 쐐기포…kt, LG전 4연승으로 2위 도약",
-    "[만나보니] \"파리 e스포츠 월드컵, 역대 최고 시청률·관중 기록\"",
-    "경북 의성에 호우주의보 해제…청송에 호우주의보 유지",
-    "인도, 첫 민간 궤도로켓 발사 성공…美·中 이어 세계 3번째",
-    "일본 플로리시 군마, WKBL 3대3 트리플잼 우승",
-    "류현진, 한미 통산 2천500탈삼진 돌파…한국 투수 최초 대기록(종합)"
+    "나성범·카스트로 '쾅쾅'…KIA, SSG 꺾고 3연승 질주"
   ],
   "categories": {
     "geopolitical": {
@@ -113,8 +114,8 @@
       "signal": "🔴",
       "summary": "US and Iran trade fire after two US soldiers ...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 10,
-      "score": 2.9
+      "matched": 9,
+      "score": 1.5
     },
     "macro": {
       "level": "주의",
@@ -154,9 +155,9 @@
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
+    "level": "주의",
+    "color": "yellow",
     "summary": "주의 필요: 지정학적 충돌",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "action": "신규 매수 자제 / 추이 관찰"
   }
 }

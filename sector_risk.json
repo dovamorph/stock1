@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-19T22:24:27.017260+09:00",
+  "updated_at": "2026-07-19T23:59:37.405218+09:00",
   "date": "20260719",
   "window_days": 14,
   "sectors": [
@@ -85,19 +85,13 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 21,
+      "positive_count": 20,
       "negative_count": 1,
       "recent_events": [
         {
           "date": "20260719",
           "type": "positive",
           "headline": "Russia launches major ballistic missile attack on Ukrainian cities",
-          "score": 1
-        },
-        {
-          "date": "20260719",
-          "type": "positive",
-          "headline": "Russia launches largest ballistic missile attack on Kyiv since start of war",
           "score": 1
         },
         {
@@ -116,6 +110,12 @@
           "date": "20260717",
           "type": "positive",
           "headline": "[거시분석] Iran accuses US of hitting civilian infrastru...",
+          "score": 1
+        },
+        {
+          "date": "20260716",
+          "type": "positive",
+          "headline": "[거시분석] Iran targets military bases as US launches wa...",
           "score": 1
         }
       ]
@@ -170,16 +170,10 @@
       ]
     },
     "우주ETF": {
-      "score": 4,
-      "positive_count": 4,
+      "score": 3,
+      "positive_count": 3,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260719",
-          "type": "positive",
-          "headline": "인도, 첫 민간 궤도로켓 발사 성공…美·中 이어 세계 3번째",
-          "score": 1
-        },
         {
           "date": "20260715",
           "type": "positive",
@@ -550,22 +544,6 @@
     },
     {
       "date": "20260719",
-      "headline": "Russia launches largest ballistic missile attack on Kyiv since start of war",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260719",
-      "headline": "인도, 첫 민간 궤도로켓 발사 성공…美·中 이어 세계 3번째",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260719",
       "headline": "[거시분석] US and Iran trade fire after two US soldiers ...",
       "impacts": {
         "방산": 3,
@@ -577,6 +555,6 @@
     }
   ],
   "total_negatives": 39,
-  "total_positives": 32,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
