@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T04:11:10.330110+09:00",
+  "updated_at": "2026-07-20T05:54:55.694212+09:00",
   "date": "20260720",
   "window_days": 14,
   "sectors": [
@@ -54,7 +54,7 @@
         {
           "date": "20260720",
           "type": "negative",
-          "headline": "[거시분석] US and Iran trade fire after two US soldiers ...",
+          "headline": "[거시분석] US soldier killed and one injured after Irani...",
           "score": -2
         },
         {
@@ -97,7 +97,7 @@
         {
           "date": "20260720",
           "type": "positive",
-          "headline": "[거시분석] US and Iran trade fire after two US soldiers ...",
+          "headline": "[거시분석] US soldier killed and one injured after Irani...",
           "score": 3
         },
         {
@@ -140,7 +140,7 @@
         {
           "date": "20260720",
           "type": "negative",
-          "headline": "[거시분석] US and Iran trade fire after two US soldiers ...",
+          "headline": "[거시분석] US soldier killed and one injured after Irani...",
           "score": -1
         },
         {
@@ -208,7 +208,7 @@
         {
           "date": "20260720",
           "type": "negative",
-          "headline": "[거시분석] US and Iran trade fire after two US soldiers ...",
+          "headline": "[거시분석] US soldier killed and one injured after Irani...",
           "score": -6
         },
         {
@@ -554,7 +554,7 @@
     },
     {
       "date": "20260720",
-      "headline": "[거시분석] US and Iran trade fire after two US soldiers ...",
+      "headline": "[거시분석] US soldier killed and one injured after Irani...",
       "impacts": {
         "방산": 3,
         "건설": -2,

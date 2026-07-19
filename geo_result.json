@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20 04:10",
+  "updated": "2026-07-20 05:54",
   "news_count": 86,
   "intl_count": 56,
   "domestic_count": 30,
@@ -13,14 +13,14 @@
     "StockPlus": 0
   },
   "news_sample": [
-    "US and Iran trade fire after two US soldiers killed in Jordan",
+    "US soldier killed and one injured after Iranian attack in Iraq",
     "Tate brothers arrested in US as further UK charges take total to 59",
     "Russia launches major ballistic missile attack on Ukrainian cities",
     "New EU border system tripling time at passport control, airport boss says",
     "The 1975's Matty Healy marries model Gabbriette Bechtel in Los Angeles"
   ],
   "all_headlines": [
-    "US and Iran trade fire after two US soldiers killed in Jordan",
+    "US soldier killed and one injured after Iranian attack in Iraq",
     "Tate brothers arrested in US as further UK charges take total to 59",
     "Russia launches major ballistic missile attack on Ukrainian cities",
     "New EU border system tripling time at passport control, airport boss says",
@@ -51,6 +51,14 @@
     "Helicopters dump water as huge Norway fire destroys homes",
     "Bodycam footage shows airlift of girl stranded by Texas floods",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "What happened in the first half of the Spain vs Argentina World Cup final?",
+    "Andy Burnham’s in-tray: The challenges facing the new UK PM",
+    "Twin earthquakes strike Peru killing at least five",
+    "The UK gets its seventh prime minister in 10 years",
+    "Five passengers found drifting days after boat sinks in Indonesia",
+    "Fans light up NYC’s Little Argentina ahead of Spain World Cup final clash",
+    "Trump visit causes logistical delays at World Cup final",
+    "The story behind Gaza’s #TheyLiedToYou campaign",
     "Lebanese food influencer sentenced to life for drug smuggling",
     "‘Sacred unity’: Iran’s supreme leader calls for calm amid political divides",
     "At least 50 Malian soldiers killed in attack on military convoy",
@@ -68,14 +76,13 @@
     "Spain vs Argentina LIVE: FIFA World Cup 2026 final",
     "Why is Argentina’s football team so white?",
     "Iran attacks US Gulf allies, causing a fire at Kuwait power plant",
-    "Who controls football in Palestine?",
-    "The story behind football stars Messi and Yamal’s viral photo",
-    "Why is China protesting about the nationalisation of British Steel?",
-    "Lebanon convicts influencer of smuggling drugs in biscuits",
-    "Why were Andrew and Tristan Tate arrested? Will they be extradited to UK?",
-    "Why have India’s Gen Z protesters called for a march to parliament?",
-    "Indian court rejects bid to release hunger-striking activist from hospital",
-    "Spain or Argentina, who will win the FIFA World Cup? Ex-player predictions",
+    "버넘, 오늘 영국 총리 공식 취임…\"국민 숨통 틔울 것\"",
+    "수도권 최대 80㎜ 비…남부지방은 일부 소강상태",
+    "강원 내륙·산지 최대 60㎜ 비…돌풍·천둥·번개 유의",
+    "월드컵 결승전 찾은 트럼프 \"메시가 질거라 베팅하긴 어려워\"",
+    "與, 당 대표·최고위원 예비경선 후보 합동연설회 개최",
+    "與, '종합특검 연장법' 오늘 본회의 상정…국힘, 필버 예고",
+    "이라크서 미군 1명 사망…\"이란 드론 불발탄 통제폭파하다 사고\"",
     "김시우, 디오픈 골프서 역대 최고 성적 공동 6위…우승은 폭스(종합)",
     "[최종순위] 디오픈 챔피언십",
     "이란 \"다르코빈 원전 건설 현장 피격\" 주장",
@@ -98,23 +105,16 @@
     "끝없는 보복전…러, 키이우에 '최대 규모' 탄도미사일 공격(종합)",
     "인천 서해구 \"쿠팡물류센터 붕괴 가능성에 인근 대피령\"",
     "'5G 무패' 서울, 이제 독주?…김기동 \"그런 생각하면 어려워져\"",
-    "[속보] 인천 서해구 \"인천 쿠팡물류센터 붕괴 가능성에 인근 대피령\"",
-    "장마철에도 후끈 달아오른 KBO리그…역대 최소 경기 800만 관중",
-    "경북 포항에 호우주의보 해제…포항 등 12곳 폭염주의보 유지",
-    "전민재, 9회 싹쓸이 2루타…롯데, 삼성에 짜릿한 재역전(종합)",
-    "부산 중부권 4개 구 오존주의보 발령",
-    "[프로야구 중간순위] 19일",
-    "[프로야구 대전전적] 키움 9-9 한화",
-    "대구 달성남부에 호우주의보 해제"
+    "[속보] 인천 서해구 \"인천 쿠팡물류센터 붕괴 가능성에 인근 대피령\""
   ],
   "categories": {
     "geopolitical": {
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "US and Iran trade fire after two US soldiers ...",
+      "summary": "US soldier killed and one injured after Irani...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 10,
+      "matched": 12,
       "score": 3.0
     },
     "macro": {
@@ -139,10 +139,10 @@
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "US and Iran trade fire after two US soldiers ...",
+      "summary": "US soldier killed and one injured after Irani...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 6,
-      "score": 3.0
+      "matched": 5,
+      "score": 1.5
     },
     "policy": {
       "level": "주의",
