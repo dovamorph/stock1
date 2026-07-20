@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T06:14:36.200192+09:00",
+  "updated_at": "2026-07-21T08:03:04.418354+09:00",
   "date": "20260721",
   "window_days": 14,
   "sectors": [
@@ -85,19 +85,13 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 22,
+      "positive_count": 21,
       "negative_count": 2,
       "recent_events": [
         {
           "date": "20260721",
           "type": "positive",
           "headline": "Russia launches major ballistic missile attack on Ukrainian cities",
-          "score": 1
-        },
-        {
-          "date": "20260721",
-          "type": "positive",
-          "headline": "트럼프 '응징' 의지 천명 뒤…美, 이란 대상 열흘째 공습",
           "score": 1
         },
         {
@@ -117,51 +111,46 @@
           "type": "negative",
           "headline": "하마스 새 수장에 칼릴 알하야…휴전 협상 주도한 인물",
           "score": -1
+        },
+        {
+          "date": "20260720",
+          "type": "positive",
+          "headline": "[거시분석] Trump says US strikes hit Iran in 'honour' of...",
+          "score": 3
         }
       ]
     },
     "전력·에너지": {
-      "score": 3,
-      "positive_count": 3,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20260721",
           "type": "positive",
-          "headline": "중동 불안·유가 상승에 뉴욕증시 하락…다우 0.6%↓(종합)",
-          "score": 1
-        },
-        {
-          "date": "20260721",
-          "type": "positive",
-          "headline": "중동 불안·유가 상승에 뉴욕증시 하락…다우 0.6%↓",
-          "score": 1
-        },
-        {
-          "date": "20260721",
-          "type": "positive",
-          "headline": "중동 정세 불안에 국제유가 상승세 지속…브렌트유 1.3%↑",
+          "headline": "전력 수요 급증한 '백패킹 성지' 굴업도…발전설비 개선 추진",
           "score": 1
         }
       ]
     },
     "로봇": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20260721",
+          "type": "positive",
+          "headline": "[특파원 시선] 세계인공지능대회서 中휴머노이드 '백가쟁명'…韓전시장과 대비",
+          "score": 1
+        }
+      ]
     },
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20260721",
-          "type": "negative",
-          "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
-          "score": -1
-        },
         {
           "date": "20260719",
           "type": "negative",
@@ -184,6 +173,12 @@
           "date": "20260715",
           "type": "negative",
           "headline": "[거시분석] Iran threatens to block more trade routes as ...",
+          "score": -1
+        },
+        {
+          "date": "20260714",
+          "type": "negative",
+          "headline": "[거시분석] Iran lawmakers present Hormuz management bill...",
           "score": -1
         }
       ]
@@ -222,13 +217,25 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 19,
+      "negative_count": 21,
       "recent_events": [
         {
           "date": "20260721",
           "type": "negative",
+          "headline": "Trump imposes 50% tariff on Canadian imports",
+          "score": -1
+        },
+        {
+          "date": "20260721",
+          "type": "negative",
+          "headline": "산불 관세 경고했던 트럼프, 캐나다 일부 제품 50% 추가 관세",
+          "score": -1
+        },
+        {
+          "date": "20260721",
+          "type": "negative",
           "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
-          "score": -8
+          "score": -7
         },
         {
           "date": "20260720",
@@ -240,18 +247,6 @@
           "date": "20260720",
           "type": "negative",
           "headline": "[거시분석] Trump says US strikes hit Iran in 'honour' of...",
-          "score": -4
-        },
-        {
-          "date": "20260719",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran trade fire after two US soldiers ...",
-          "score": -6
-        },
-        {
-          "date": "20260718",
-          "type": "negative",
-          "headline": "[거시분석] US strikes hit Iran for seventh consecutive n...",
           "score": -4
         }
       ]
@@ -573,6 +568,14 @@
     },
     {
       "date": "20260721",
+      "headline": "Trump imposes 50% tariff on Canadian imports",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260721",
       "headline": "Russia launches major ballistic missile attack on Ukrainian cities",
       "impacts": {
         "방산": 1
@@ -581,7 +584,7 @@
     },
     {
       "date": "20260721",
-      "headline": "중동 불안·유가 상승에 뉴욕증시 하락…다우 0.6%↓(종합)",
+      "headline": "전력 수요 급증한 '백패킹 성지' 굴업도…발전설비 개선 추진",
       "impacts": {
         "전력·에너지": 1
       },
@@ -589,25 +592,17 @@
     },
     {
       "date": "20260721",
-      "headline": "트럼프 '응징' 의지 천명 뒤…美, 이란 대상 열흘째 공습",
+      "headline": "산불 관세 경고했던 트럼프, 캐나다 일부 제품 50% 추가 관세",
       "impacts": {
-        "방산": 1
+        "전체시장": -1
       },
       "source": "keyword"
     },
     {
       "date": "20260721",
-      "headline": "중동 불안·유가 상승에 뉴욕증시 하락…다우 0.6%↓",
+      "headline": "[특파원 시선] 세계인공지능대회서 中휴머노이드 '백가쟁명'…韓전시장과 대비",
       "impacts": {
-        "전력·에너지": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260721",
-      "headline": "중동 정세 불안에 국제유가 상승세 지속…브렌트유 1.3%↑",
-      "impacts": {
-        "전력·에너지": 1
+        "로봇": 1
       },
       "source": "keyword"
     },
@@ -617,13 +612,12 @@
       "impacts": {
         "방산": 3,
         "건설": -4,
-        "전체시장": -8,
-        "금융": -1
+        "전체시장": -7
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 41,
-  "total_positives": 36,
+  "total_negatives": 42,
+  "total_positives": 34,
   "risk_level": "EXTREME"
 }
