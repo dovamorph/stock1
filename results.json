@@ -1,6 +1,6 @@
 {
   "date": "20260720",
-  "generated_at": "2026-07-20T18:30:42+09:00",
+  "generated_at": "2026-07-20T19:00:51+09:00",
   "reference_date": "20260717",
   "reference_ranks": {
     "000660": 1,
@@ -61,9 +61,9 @@
     "rsi_14": 28.3,
     "basis": null,
     "basis_signal": "조회불가",
-    "usdkrw": 1481.8,
-    "usdkrw_ch1": 0.2,
-    "usdkrw_ch5": -1.06,
+    "usdkrw": 1481.6,
+    "usdkrw_ch1": 0.19,
+    "usdkrw_ch5": -1.07,
     "kosdaq_ch1": -5.33,
     "kospi_ch1": -4.46,
     "kospi_ch2": -10.54,
@@ -96,9 +96,9 @@
       "ndx_ch1": -1.4,
       "ndx_ma60": 25926.0
     },
-    "adr": 8.7,
-    "adr_advances": 42,
-    "adr_declines": 443,
+    "adr": 8.8,
+    "adr_advances": 43,
+    "adr_declines": 448,
     "adr_signal": "🔴",
     "adr_desc": "투매권 (9%) — 바닥 근접 가능",
     "breadth": {
@@ -107,7 +107,7 @@
       "desc": "지수↓·폭 좁음 — 신규매수 보수적",
       "kospi_ch1": -4.46,
       "kosdaq_ch1": -5.33,
-      "adr": 8.7
+      "adr": 8.8
     },
     "pool_flow": {
       "total": 40,
@@ -142,7 +142,7 @@
       "icon": "🟠",
       "reasons": [
         "코스피 당일 급락 -4.46%",
-        "ADR 투매권 8.7%"
+        "ADR 투매권 8.8%"
       ]
     },
     "rotation": {
@@ -1849,10 +1849,10 @@
       "eps_trend": "유지",
       "eps_growth": 0.0,
       "debt_ratio": 31.3,
-      "ch20": -6.9,
-      "ch5": -8.4,
-      "vol_trend": 27.7,
-      "rsi": 48.1,
+      "ch20": 0.0,
+      "ch5": 0.0,
+      "vol_trend": 0.0,
+      "rsi": 50.0,
       "macd_line": 0.0,
       "signal_line": 0.0,
       "macd_bull": null,
