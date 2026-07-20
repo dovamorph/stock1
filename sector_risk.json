@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T03:07:19.311166+09:00",
+  "updated_at": "2026-07-21T06:14:36.200192+09:00",
   "date": "20260721",
   "window_days": 14,
   "sectors": [
@@ -54,8 +54,8 @@
         {
           "date": "20260721",
           "type": "negative",
-          "headline": "[거시분석] Trump says US strikes hit Iran in 'honour' of...",
-          "score": -2
+          "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
+          "score": -4
         },
         {
           "date": "20260720",
@@ -86,7 +86,7 @@
     "방산": {
       "score": 10,
       "positive_count": 22,
-      "negative_count": 3,
+      "negative_count": 2,
       "recent_events": [
         {
           "date": "20260721",
@@ -97,19 +97,13 @@
         {
           "date": "20260721",
           "type": "positive",
-          "headline": "Yemen’s Houthis declare naval blockade of Saudi Arabia: What to know",
+          "headline": "트럼프 '응징' 의지 천명 뒤…美, 이란 대상 열흘째 공습",
           "score": 1
         },
         {
           "date": "20260721",
-          "type": "negative",
-          "headline": "하마스 새 수장에 칼릴 알하야…휴전 협상 주도 초강경파(종합)",
-          "score": -1
-        },
-        {
-          "date": "20260721",
           "type": "positive",
-          "headline": "[거시분석] Trump says US strikes hit Iran in 'honour' of...",
+          "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
           "score": 3
         },
         {
@@ -117,14 +111,39 @@
           "type": "positive",
           "headline": "Russia launches major ballistic missile attack on Ukrainian cities",
           "score": 1
+        },
+        {
+          "date": "20260720",
+          "type": "negative",
+          "headline": "하마스 새 수장에 칼릴 알하야…휴전 협상 주도한 인물",
+          "score": -1
         }
       ]
     },
     "전력·에너지": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 3,
+      "positive_count": 3,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20260721",
+          "type": "positive",
+          "headline": "중동 불안·유가 상승에 뉴욕증시 하락…다우 0.6%↓(종합)",
+          "score": 1
+        },
+        {
+          "date": "20260721",
+          "type": "positive",
+          "headline": "중동 불안·유가 상승에 뉴욕증시 하락…다우 0.6%↓",
+          "score": 1
+        },
+        {
+          "date": "20260721",
+          "type": "positive",
+          "headline": "중동 정세 불안에 국제유가 상승세 지속…브렌트유 1.3%↑",
+          "score": 1
+        }
+      ]
     },
     "로봇": {
       "score": 0,
@@ -140,7 +159,7 @@
         {
           "date": "20260721",
           "type": "negative",
-          "headline": "[거시분석] Trump says US strikes hit Iran in 'honour' of...",
+          "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
           "score": -1
         },
         {
@@ -202,26 +221,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 5,
-      "negative_count": 20,
+      "positive_count": 4,
+      "negative_count": 19,
       "recent_events": [
         {
           "date": "20260721",
-          "type": "positive",
-          "headline": "하마스 새 수장에 칼릴 알하야…휴전 협상 주도 초강경파(종합)",
-          "score": 1
-        },
-        {
-          "date": "20260721",
           "type": "negative",
-          "headline": "관세 장벽에도 멕시코서 中 자동차 판매↑…상반기 점유율 17%",
-          "score": -1
-        },
-        {
-          "date": "20260721",
-          "type": "negative",
-          "headline": "[거시분석] Trump says US strikes hit Iran in 'honour' of...",
-          "score": -5
+          "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
+          "score": -8
         },
         {
           "date": "20260720",
@@ -233,6 +240,18 @@
           "date": "20260720",
           "type": "negative",
           "headline": "[거시분석] Trump says US strikes hit Iran in 'honour' of...",
+          "score": -4
+        },
+        {
+          "date": "20260719",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran trade fire after two US soldiers ...",
+          "score": -6
+        },
+        {
+          "date": "20260718",
+          "type": "negative",
+          "headline": "[거시분석] US strikes hit Iran for seventh consecutive n...",
           "score": -4
         }
       ]
@@ -562,7 +581,15 @@
     },
     {
       "date": "20260721",
-      "headline": "Yemen’s Houthis declare naval blockade of Saudi Arabia: What to know",
+      "headline": "중동 불안·유가 상승에 뉴욕증시 하락…다우 0.6%↓(종합)",
+      "impacts": {
+        "전력·에너지": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260721",
+      "headline": "트럼프 '응징' 의지 천명 뒤…美, 이란 대상 열흘째 공습",
       "impacts": {
         "방산": 1
       },
@@ -570,34 +597,33 @@
     },
     {
       "date": "20260721",
-      "headline": "하마스 새 수장에 칼릴 알하야…휴전 협상 주도 초강경파(종합)",
+      "headline": "중동 불안·유가 상승에 뉴욕증시 하락…다우 0.6%↓",
       "impacts": {
-        "방산": -1,
-        "전체시장": 1
+        "전력·에너지": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260721",
-      "headline": "관세 장벽에도 멕시코서 中 자동차 판매↑…상반기 점유율 17%",
+      "headline": "중동 정세 불안에 국제유가 상승세 지속…브렌트유 1.3%↑",
       "impacts": {
-        "전체시장": -1
+        "전력·에너지": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260721",
-      "headline": "[거시분석] Trump says US strikes hit Iran in 'honour' of...",
+      "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
       "impacts": {
         "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
+        "건설": -4,
+        "전체시장": -8,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 43,
-  "total_positives": 34,
+  "total_negatives": 41,
+  "total_positives": 36,
   "risk_level": "EXTREME"
 }
