@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T12:30:07.089374+09:00",
+  "updated_at": "2026-07-20T15:50:38.063584+09:00",
   "date": "20260720",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 2,
-      "positive_count": 4,
+      "score": 1,
+      "positive_count": 3,
       "negative_count": 1,
       "recent_events": [
-        {
-          "date": "20260720",
-          "type": "positive",
-          "headline": "TSMC CFO \"다년간의 구조적 수요…계속 투자할 것\"",
-          "score": 1
-        },
         {
           "date": "20260717",
           "type": "positive",
@@ -208,14 +202,20 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 3,
+      "positive_count": 4,
       "negative_count": 19,
       "recent_events": [
         {
           "date": "20260720",
+          "type": "positive",
+          "headline": "[표] 거래소 외국인 순매수도 상위종목(20일)",
+          "score": 1
+        },
+        {
+          "date": "20260720",
           "type": "negative",
           "headline": "[거시분석] US soldier killed and one injured after Irani...",
-          "score": -4
+          "score": -5
         },
         {
           "date": "20260719",
@@ -234,12 +234,6 @@
           "type": "negative",
           "headline": "[거시분석] Iran accuses US of hitting civilian infrastru...",
           "score": -3
-        },
-        {
-          "date": "20260716",
-          "type": "negative",
-          "headline": "[거시분석] Iran targets military bases as US launches wa...",
-          "score": -1
         }
       ]
     }
@@ -560,9 +554,9 @@
     },
     {
       "date": "20260720",
-      "headline": "TSMC CFO \"다년간의 구조적 수요…계속 투자할 것\"",
+      "headline": "[표] 거래소 외국인 순매수도 상위종목(20일)",
       "impacts": {
-        "반도체·AI": 1
+        "전체시장": 1
       },
       "source": "keyword"
     },
@@ -572,7 +566,7 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -4
+        "전체시장": -5
       },
       "source": "geo_categories"
     }
