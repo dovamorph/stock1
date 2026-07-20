@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T15:50:38.063584+09:00",
+  "updated_at": "2026-07-20T19:55:45.951399+09:00",
   "date": "20260720",
   "window_days": 14,
   "sectors": [
@@ -202,20 +202,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 4,
+      "positive_count": 3,
       "negative_count": 19,
       "recent_events": [
         {
           "date": "20260720",
-          "type": "positive",
-          "headline": "[표] 거래소 외국인 순매수도 상위종목(20일)",
-          "score": 1
-        },
-        {
-          "date": "20260720",
           "type": "negative",
           "headline": "[거시분석] US soldier killed and one injured after Irani...",
-          "score": -5
+          "score": -4
         },
         {
           "date": "20260719",
@@ -234,6 +228,12 @@
           "type": "negative",
           "headline": "[거시분석] Iran accuses US of hitting civilian infrastru...",
           "score": -3
+        },
+        {
+          "date": "20260716",
+          "type": "negative",
+          "headline": "[거시분석] Iran targets military bases as US launches wa...",
+          "score": -1
         }
       ]
     }
@@ -554,24 +554,16 @@
     },
     {
       "date": "20260720",
-      "headline": "[표] 거래소 외국인 순매수도 상위종목(20일)",
-      "impacts": {
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260720",
       "headline": "[거시분석] US soldier killed and one injured after Irani...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -5
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 40,
-  "total_positives": 32,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
