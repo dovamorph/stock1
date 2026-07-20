@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T07:56:12.118363+09:00",
+  "updated_at": "2026-07-20T12:30:07.089374+09:00",
   "date": "20260720",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 1,
-      "positive_count": 3,
+      "score": 2,
+      "positive_count": 4,
       "negative_count": 1,
       "recent_events": [
+        {
+          "date": "20260720",
+          "type": "positive",
+          "headline": "TSMC CFO \"다년간의 구조적 수요…계속 투자할 것\"",
+          "score": 1
+        },
         {
           "date": "20260717",
           "type": "positive",
@@ -135,14 +141,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 12,
+      "negative_count": 11,
       "recent_events": [
-        {
-          "date": "20260720",
-          "type": "negative",
-          "headline": "[거시분석] US soldier killed and one injured after Irani...",
-          "score": -1
-        },
         {
           "date": "20260719",
           "type": "negative",
@@ -165,6 +165,12 @@
           "date": "20260715",
           "type": "negative",
           "headline": "[거시분석] Iran threatens to block more trade routes as ...",
+          "score": -1
+        },
+        {
+          "date": "20260714",
+          "type": "negative",
+          "headline": "[거시분석] Iran lawmakers present Hormuz management bill...",
           "score": -1
         }
       ]
@@ -209,7 +215,7 @@
           "date": "20260720",
           "type": "negative",
           "headline": "[거시분석] US soldier killed and one injured after Irani...",
-          "score": -6
+          "score": -4
         },
         {
           "date": "20260719",
@@ -554,17 +560,24 @@
     },
     {
       "date": "20260720",
+      "headline": "TSMC CFO \"다년간의 구조적 수요…계속 투자할 것\"",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260720",
       "headline": "[거시분석] US soldier killed and one injured after Irani...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -6,
-        "금융": -1
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 41,
-  "total_positives": 31,
+  "total_negatives": 40,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
