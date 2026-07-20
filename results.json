@@ -1,6 +1,6 @@
 {
   "date": "20260720",
-  "generated_at": "2026-07-20T16:30:45+09:00",
+  "generated_at": "2026-07-20T17:00:51+09:00",
   "reference_date": "20260717",
   "reference_ranks": {
     "000660": 1,
@@ -61,9 +61,9 @@
     "rsi_14": 28.3,
     "basis": null,
     "basis_signal": "조회불가",
-    "usdkrw": 1479.98,
-    "usdkrw_ch1": 0.08,
-    "usdkrw_ch5": -1.18,
+    "usdkrw": 1480.67,
+    "usdkrw_ch1": 0.12,
+    "usdkrw_ch5": -1.14,
     "kosdaq_ch1": -0.28,
     "kospi_ch1": -4.46,
     "kospi_ch2": -10.54,
@@ -96,9 +96,9 @@
       "ndx_ch1": -1.4,
       "ndx_ma60": 25926.0
     },
-    "adr": 8.8,
-    "adr_advances": 43,
-    "adr_declines": 448,
+    "adr": 8.7,
+    "adr_advances": 42,
+    "adr_declines": 443,
     "adr_signal": "🔴",
     "adr_desc": "투매권 (9%) — 바닥 근접 가능",
     "breadth": {
@@ -107,7 +107,7 @@
       "desc": "지수↓·폭 좁음 — 신규매수 보수적",
       "kospi_ch1": -4.46,
       "kosdaq_ch1": -0.28,
-      "adr": 8.8
+      "adr": 8.7
     },
     "pool_flow": {
       "total": 40,
@@ -142,7 +142,7 @@
       "icon": "🟠",
       "reasons": [
         "코스피 당일 급락 -4.46%",
-        "ADR 투매권 8.8%"
+        "ADR 투매권 8.7%"
       ]
     },
     "rotation": {
@@ -380,7 +380,7 @@
       "ticker": "475150",
       "name": "SK이터닉스",
       "market": "KOSPI",
-      "tvol": 4145,
+      "tvol": 4152,
       "per": 61.43,
       "pbr": 6.91,
       "eps": 910.0,
@@ -395,7 +395,7 @@
       "debt_ratio": 419.7,
       "ch20": 39.4,
       "ch5": 16.3,
-      "vol_trend": 17.1,
+      "vol_trend": 17.2,
       "rsi": 56.6,
       "macd_line": 0.0,
       "signal_line": 0.0,
@@ -536,7 +536,7 @@
       "ticker": "240810",
       "name": "원익IPS",
       "market": "KOSDAQ",
-      "tvol": 2588,
+      "tvol": 2596,
       "per": 67.23,
       "pbr": 5.77,
       "eps": 1712.0,
@@ -588,7 +588,7 @@
       "ticker": "036930",
       "name": "주성엔지니어링",
       "market": "KOSDAQ",
-      "tvol": 2343,
+      "tvol": 2349,
       "per": 222.38,
       "pbr": 12.99,
       "eps": 755.0,
@@ -1212,7 +1212,7 @@
       "ticker": "353200",
       "name": "대덕전자",
       "market": "KOSPI",
-      "tvol": 1405,
+      "tvol": 1406,
       "per": 130.63,
       "pbr": 6.93,
       "eps": 924.0,
@@ -1680,7 +1680,7 @@
       "ticker": "067310",
       "name": "하나마이크론",
       "market": "KOSDAQ",
-      "tvol": 1125,
+      "tvol": 1127,
       "per": 63.74,
       "pbr": 6.1,
       "eps": 575.0,
@@ -1695,7 +1695,7 @@
       "debt_ratio": 195.5,
       "ch20": -35.5,
       "ch5": -4.1,
-      "vol_trend": -14.7,
+      "vol_trend": -14.6,
       "rsi": 29.8,
       "macd_line": 0.0,
       "signal_line": 0.0,
