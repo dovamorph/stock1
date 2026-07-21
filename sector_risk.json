@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T04:36:23.509560+09:00",
+  "updated_at": "2026-07-22T06:14:09.678437+09:00",
   "date": "20260722",
   "window_days": 14,
   "sectors": [
@@ -49,14 +49,8 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20260722",
-          "type": "negative",
-          "headline": "[거시분석] Row escalates in Ukraine over army chief's fu...",
-          "score": -1
-        },
         {
           "date": "20260720",
           "type": "negative",
@@ -80,19 +74,31 @@
           "type": "negative",
           "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
           "score": -2
+        },
+        {
+          "date": "20260712",
+          "type": "positive",
+          "headline": "베네수엘라 '대규모 재건' 시동…주택 2만5천채 공급 추진",
+          "score": 1
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 20,
-      "negative_count": 2,
+      "negative_count": 3,
       "recent_events": [
         {
           "date": "20260722",
+          "type": "negative",
+          "headline": "Can mediators broker a truce between the US and Iran?",
+          "score": -1
+        },
+        {
+          "date": "20260722",
           "type": "positive",
-          "headline": "[거시분석] Row escalates in Ukraine over army chief's fu...",
-          "score": 2
+          "headline": "[거시분석] 'Anti-ICE' army veteran started fire outside ...",
+          "score": 1
         },
         {
           "date": "20260721",
@@ -111,20 +117,21 @@
           "type": "negative",
           "headline": "하마스 새 수장에 칼릴 알하야…휴전 협상 주도한 인물",
           "score": -1
-        },
-        {
-          "date": "20260720",
-          "type": "positive",
-          "headline": "[거시분석] Trump says US strikes hit Iran in 'honour' of...",
-          "score": 3
         }
       ]
     },
     "전력·에너지": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20260722",
+          "type": "positive",
+          "headline": "뉴욕증시, 유가 상승에도 반도체주 반등에 강세…나스닥 1.3%↑(종합)",
+          "score": 1
+        }
+      ]
     },
     "로봇": {
       "score": 0,
@@ -135,13 +142,19 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 12,
       "recent_events": [
         {
           "date": "20260722",
           "type": "negative",
-          "headline": "[거시분석] Row escalates in Ukraine over army chief's fu...",
+          "headline": "\"외환보유액에 달러·금 많으면 美 금리 인상 환율 충격 적어\"",
           "score": -1
+        },
+        {
+          "date": "20260722",
+          "type": "negative",
+          "headline": "[거시분석] 'Anti-ICE' army veteran started fire outside ...",
+          "score": -3
         },
         {
           "date": "20260721",
@@ -159,12 +172,6 @@
           "date": "20260718",
           "type": "negative",
           "headline": "[거시분석] US strikes hit Iran for seventh consecutive n...",
-          "score": -1
-        },
-        {
-          "date": "20260717",
-          "type": "negative",
-          "headline": "[거시분석] Iran accuses US of hitting civilian infrastru...",
           "score": -1
         }
       ]
@@ -202,38 +209,38 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 4,
-      "negative_count": 20,
+      "positive_count": 5,
+      "negative_count": 21,
       "recent_events": [
         {
           "date": "20260722",
+          "type": "positive",
+          "headline": "Can mediators broker a truce between the US and Iran?",
+          "score": 1
+        },
+        {
+          "date": "20260722",
           "type": "negative",
-          "headline": "캐나다 총리, '50% 관세'에 \"트럼프와 통화…협상 강화 합의\"",
+          "headline": "\"중국 자동차, 관세 피해 해외 생산기지 늘려 경쟁력 확보\"",
           "score": -1
         },
         {
           "date": "20260722",
           "type": "negative",
-          "headline": "[거시분석] Row escalates in Ukraine over army chief's fu...",
-          "score": -4
+          "headline": "유가 하락에 6월 생산자물가 10개월 만에 보합",
+          "score": -1
+        },
+        {
+          "date": "20260722",
+          "type": "negative",
+          "headline": "[거시분석] 'Anti-ICE' army veteran started fire outside ...",
+          "score": -5
         },
         {
           "date": "20260721",
           "type": "negative",
           "headline": "수명 다 된 10% 글로벌관세…트럼프 '301조 관세' 부과 임박(종합)",
           "score": -1
-        },
-        {
-          "date": "20260721",
-          "type": "negative",
-          "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
-          "score": -3
-        },
-        {
-          "date": "20260720",
-          "type": "positive",
-          "headline": "하마스 새 수장에 칼릴 알하야…휴전 협상 주도한 인물",
-          "score": 1
         }
       ]
     }
@@ -554,7 +561,32 @@
     },
     {
       "date": "20260722",
-      "headline": "캐나다 총리, '50% 관세'에 \"트럼프와 통화…협상 강화 합의\"",
+      "headline": "Can mediators broker a truce between the US and Iran?",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260722",
+      "headline": "뉴욕증시, 유가 상승에도 반도체주 반등에 강세…나스닥 1.3%↑(종합)",
+      "impacts": {
+        "전력·에너지": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260722",
+      "headline": "\"외환보유액에 달러·금 많으면 美 금리 인상 환율 충격 적어\"",
+      "impacts": {
+        "금융": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260722",
+      "headline": "\"중국 자동차, 관세 피해 해외 생산기지 늘려 경쟁력 확보\"",
       "impacts": {
         "전체시장": -1
       },
@@ -562,17 +594,24 @@
     },
     {
       "date": "20260722",
-      "headline": "[거시분석] Row escalates in Ukraine over army chief's fu...",
+      "headline": "유가 하락에 6월 생산자물가 10개월 만에 보합",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -4,
-        "금융": -1
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260722",
+      "headline": "[거시분석] 'Anti-ICE' army veteran started fire outside ...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -5,
+        "금융": -3
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
-  "total_positives": 31,
+  "total_negatives": 44,
+  "total_positives": 33,
   "risk_level": "EXTREME"
 }
