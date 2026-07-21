@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T11:56:18.685175+09:00",
+  "updated_at": "2026-07-21T15:32:00.501318+09:00",
   "date": "20260721",
   "window_days": 14,
   "sectors": [
@@ -209,7 +209,7 @@
           "date": "20260721",
           "type": "negative",
           "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
-          "score": -5
+          "score": -6
         },
         {
           "date": "20260720",
@@ -566,7 +566,7 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -5,
+        "전체시장": -6,
         "금융": -1
       },
       "source": "geo_categories"
