@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T00:49:38.072598+09:00",
+  "updated_at": "2026-07-22T02:24:47.037676+09:00",
   "date": "20260722",
   "window_days": 14,
   "sectors": [
@@ -54,8 +54,8 @@
         {
           "date": "20260722",
           "type": "negative",
-          "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
-          "score": -2
+          "headline": "[거시분석] Row escalates in Ukraine over army chief's fu...",
+          "score": -1
         },
         {
           "date": "20260720",
@@ -91,8 +91,8 @@
         {
           "date": "20260722",
           "type": "positive",
-          "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
-          "score": 3
+          "headline": "[거시분석] Row escalates in Ukraine over army chief's fu...",
+          "score": 2
         },
         {
           "date": "20260721",
@@ -140,7 +140,7 @@
         {
           "date": "20260722",
           "type": "negative",
-          "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
+          "headline": "[거시분석] Row escalates in Ukraine over army chief's fu...",
           "score": -1
         },
         {
@@ -203,13 +203,19 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 19,
+      "negative_count": 20,
       "recent_events": [
         {
           "date": "20260722",
           "type": "negative",
-          "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
-          "score": -6
+          "headline": "캐나다 총리, '50% 관세'에 \"트럼프와 통화…협상 강화 합의\"",
+          "score": -1
+        },
+        {
+          "date": "20260722",
+          "type": "negative",
+          "headline": "[거시분석] Row escalates in Ukraine over army chief's fu...",
+          "score": -5
         },
         {
           "date": "20260721",
@@ -228,12 +234,6 @@
           "type": "positive",
           "headline": "하마스 새 수장에 칼릴 알하야…휴전 협상 주도한 인물",
           "score": 1
-        },
-        {
-          "date": "20260720",
-          "type": "negative",
-          "headline": "[거시분석] Trump says US strikes hit Iran in 'honour' of...",
-          "score": -4
         }
       ]
     }
@@ -554,17 +554,25 @@
     },
     {
       "date": "20260722",
-      "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
+      "headline": "캐나다 총리, '50% 관세'에 \"트럼프와 통화…협상 강화 합의\"",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -6,
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260722",
+      "headline": "[거시분석] Row escalates in Ukraine over army chief's fu...",
+      "impacts": {
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -5,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 41,
+  "total_negatives": 42,
   "total_positives": 31,
   "risk_level": "EXTREME"
 }
