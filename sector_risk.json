@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T02:24:47.037676+09:00",
+  "updated_at": "2026-07-22T04:36:23.509560+09:00",
   "date": "20260722",
   "window_days": 14,
   "sectors": [
@@ -215,7 +215,7 @@
           "date": "20260722",
           "type": "negative",
           "headline": "[거시분석] Row escalates in Ukraine over army chief's fu...",
-          "score": -5
+          "score": -4
         },
         {
           "date": "20260721",
@@ -566,7 +566,7 @@
       "impacts": {
         "방산": 2,
         "건설": -1,
-        "전체시장": -5,
+        "전체시장": -4,
         "금융": -1
       },
       "source": "geo_categories"
