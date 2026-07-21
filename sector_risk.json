@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T06:14:09.678437+09:00",
+  "updated_at": "2026-07-22T08:00:35.358810+09:00",
   "date": "20260722",
   "window_days": 14,
   "sectors": [
@@ -48,9 +48,21 @@
     },
     "건설": {
       "score": -10,
-      "positive_count": 1,
-      "negative_count": 7,
+      "positive_count": 2,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260722",
+          "type": "positive",
+          "headline": "강남구청장, 압구정 재건축단지 방문…\"속도감 있게 추진\"",
+          "score": 1
+        },
+        {
+          "date": "20260722",
+          "type": "negative",
+          "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
+          "score": -2
+        },
         {
           "date": "20260720",
           "type": "negative",
@@ -68,18 +80,6 @@
           "type": "negative",
           "headline": "[거시분석] Iran threatens to block more trade routes as ...",
           "score": -2
-        },
-        {
-          "date": "20260713",
-          "type": "negative",
-          "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
-          "score": -2
-        },
-        {
-          "date": "20260712",
-          "type": "positive",
-          "headline": "베네수엘라 '대규모 재건' 시동…주택 2만5천채 공급 추진",
-          "score": 1
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20260722",
           "type": "positive",
-          "headline": "[거시분석] 'Anti-ICE' army veteran started fire outside ...",
-          "score": 1
+          "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
+          "score": 3
         },
         {
           "date": "20260721",
@@ -121,17 +121,10 @@
       ]
     },
     "전력·에너지": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 0,
+      "positive_count": 0,
       "negative_count": 0,
-      "recent_events": [
-        {
-          "date": "20260722",
-          "type": "positive",
-          "headline": "뉴욕증시, 유가 상승에도 반도체주 반등에 강세…나스닥 1.3%↑(종합)",
-          "score": 1
-        }
-      ]
+      "recent_events": []
     },
     "로봇": {
       "score": 0,
@@ -142,19 +135,13 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 12,
+      "negative_count": 11,
       "recent_events": [
         {
           "date": "20260722",
           "type": "negative",
-          "headline": "\"외환보유액에 달러·금 많으면 美 금리 인상 환율 충격 적어\"",
+          "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
           "score": -1
-        },
-        {
-          "date": "20260722",
-          "type": "negative",
-          "headline": "[거시분석] 'Anti-ICE' army veteran started fire outside ...",
-          "score": -3
         },
         {
           "date": "20260721",
@@ -172,6 +159,12 @@
           "date": "20260718",
           "type": "negative",
           "headline": "[거시분석] US strikes hit Iran for seventh consecutive n...",
+          "score": -1
+        },
+        {
+          "date": "20260717",
+          "type": "negative",
+          "headline": "[거시분석] Iran accuses US of hitting civilian infrastru...",
           "score": -1
         }
       ]
@@ -210,7 +203,7 @@
     "전체시장": {
       "score": -10,
       "positive_count": 5,
-      "negative_count": 21,
+      "negative_count": 19,
       "recent_events": [
         {
           "date": "20260722",
@@ -221,19 +214,7 @@
         {
           "date": "20260722",
           "type": "negative",
-          "headline": "\"중국 자동차, 관세 피해 해외 생산기지 늘려 경쟁력 확보\"",
-          "score": -1
-        },
-        {
-          "date": "20260722",
-          "type": "negative",
-          "headline": "유가 하락에 6월 생산자물가 10개월 만에 보합",
-          "score": -1
-        },
-        {
-          "date": "20260722",
-          "type": "negative",
-          "headline": "[거시분석] 'Anti-ICE' army veteran started fire outside ...",
+          "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
           "score": -5
         },
         {
@@ -241,6 +222,18 @@
           "type": "negative",
           "headline": "수명 다 된 10% 글로벌관세…트럼프 '301조 관세' 부과 임박(종합)",
           "score": -1
+        },
+        {
+          "date": "20260721",
+          "type": "negative",
+          "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
+          "score": -3
+        },
+        {
+          "date": "20260720",
+          "type": "positive",
+          "headline": "하마스 새 수장에 칼릴 알하야…휴전 협상 주도한 인물",
+          "score": 1
         }
       ]
     }
@@ -570,48 +563,25 @@
     },
     {
       "date": "20260722",
-      "headline": "뉴욕증시, 유가 상승에도 반도체주 반등에 강세…나스닥 1.3%↑(종합)",
+      "headline": "강남구청장, 압구정 재건축단지 방문…\"속도감 있게 추진\"",
       "impacts": {
-        "전력·에너지": 1
+        "건설": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260722",
-      "headline": "\"외환보유액에 달러·금 많으면 美 금리 인상 환율 충격 적어\"",
+      "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
       "impacts": {
-        "금융": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260722",
-      "headline": "\"중국 자동차, 관세 피해 해외 생산기지 늘려 경쟁력 확보\"",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260722",
-      "headline": "유가 하락에 6월 생산자물가 10개월 만에 보합",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260722",
-      "headline": "[거시분석] 'Anti-ICE' army veteran started fire outside ...",
-      "impacts": {
-        "방산": 1,
+        "방산": 3,
+        "건설": -2,
         "전체시장": -5,
-        "금융": -3
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 44,
+  "total_negatives": 42,
   "total_positives": 33,
   "risk_level": "EXTREME"
 }
