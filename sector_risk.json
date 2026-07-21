@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-21T23:00:08.000140+09:00",
-  "date": "20260721",
+  "updated_at": "2026-07-22T00:49:38.072598+09:00",
+  "date": "20260722",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -49,8 +49,14 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260722",
+          "type": "negative",
+          "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
+          "score": -2
+        },
         {
           "date": "20260720",
           "type": "negative",
@@ -74,12 +80,6 @@
           "type": "negative",
           "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
           "score": -2
-        },
-        {
-          "date": "20260712",
-          "type": "positive",
-          "headline": "베네수엘라 '대규모 재건' 시동…주택 2만5천채 공급 추진",
-          "score": 1
         }
       ]
     },
@@ -88,6 +88,12 @@
       "positive_count": 20,
       "negative_count": 2,
       "recent_events": [
+        {
+          "date": "20260722",
+          "type": "positive",
+          "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
+          "score": 3
+        },
         {
           "date": "20260721",
           "type": "positive",
@@ -111,12 +117,6 @@
           "type": "positive",
           "headline": "[거시분석] Trump says US strikes hit Iran in 'honour' of...",
           "score": 3
-        },
-        {
-          "date": "20260719",
-          "type": "positive",
-          "headline": "Russia launches major ballistic missile attack on Ukrainian cities",
-          "score": 1
         }
       ]
     },
@@ -137,6 +137,12 @@
       "positive_count": 0,
       "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260722",
+          "type": "negative",
+          "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
+          "score": -1
+        },
         {
           "date": "20260721",
           "type": "negative",
@@ -159,12 +165,6 @@
           "date": "20260717",
           "type": "negative",
           "headline": "[거시분석] Iran accuses US of hitting civilian infrastru...",
-          "score": -1
-        },
-        {
-          "date": "20260715",
-          "type": "negative",
-          "headline": "[거시분석] Iran threatens to block more trade routes as ...",
           "score": -1
         }
       ]
@@ -203,8 +203,14 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 20,
+      "negative_count": 19,
       "recent_events": [
+        {
+          "date": "20260722",
+          "type": "negative",
+          "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
+          "score": -6
+        },
         {
           "date": "20260721",
           "type": "negative",
@@ -228,35 +234,11 @@
           "type": "negative",
           "headline": "[거시분석] Trump says US strikes hit Iran in 'honour' of...",
           "score": -4
-        },
-        {
-          "date": "20260719",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran trade fire after two US soldiers ...",
-          "score": -6
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260707",
-      "headline": "트럼프 \"도요타의 멕시코 생산시설 텍사스 이전은 관세영향\"",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260707",
-      "headline": "[거시분석] Woman suspected of Monaco bomb attack found d...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -3,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260708",
       "headline": "트럼프, 이틀연속 대이란 공습 예고…\"아마 오늘밤 다시 공격\"",
@@ -566,6 +548,17 @@
       "impacts": {
         "방산": 1,
         "전체시장": -3,
+        "금융": -1
+      },
+      "source": "geo_categories"
+    },
+    {
+      "date": "20260722",
+      "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -6,
         "금융": -1
       },
       "source": "geo_categories"
