@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T19:27:40.109291+09:00",
+  "updated_at": "2026-07-21T23:00:08.000140+09:00",
   "date": "20260721",
   "window_days": 14,
   "sectors": [
@@ -49,14 +49,8 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20260721",
-          "type": "negative",
-          "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
-          "score": -1
-        },
         {
           "date": "20260720",
           "type": "negative",
@@ -80,25 +74,25 @@
           "type": "negative",
           "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
           "score": -2
+        },
+        {
+          "date": "20260712",
+          "type": "positive",
+          "headline": "베네수엘라 '대규모 재건' 시동…주택 2만5천채 공급 추진",
+          "score": 1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 21,
+      "positive_count": 20,
       "negative_count": 2,
       "recent_events": [
         {
           "date": "20260721",
           "type": "positive",
-          "headline": "중동 긴장 고조에 유럽 가스 가격 급등…4개월 만에 최고치",
-          "score": 1
-        },
-        {
-          "date": "20260721",
-          "type": "positive",
           "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
-          "score": 2
+          "score": 1
         },
         {
           "date": "20260720",
@@ -117,6 +111,12 @@
           "type": "positive",
           "headline": "[거시분석] Trump says US strikes hit Iran in 'honour' of...",
           "score": 3
+        },
+        {
+          "date": "20260719",
+          "type": "positive",
+          "headline": "Russia launches major ballistic missile attack on Ukrainian cities",
+          "score": 1
         }
       ]
     },
@@ -203,13 +203,19 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 19,
+      "negative_count": 20,
       "recent_events": [
         {
           "date": "20260721",
           "type": "negative",
+          "headline": "수명 다 된 10% 글로벌관세…트럼프 '301조 관세' 부과 임박(종합)",
+          "score": -1
+        },
+        {
+          "date": "20260721",
+          "type": "negative",
           "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
-          "score": -4
+          "score": -3
         },
         {
           "date": "20260720",
@@ -228,12 +234,6 @@
           "type": "negative",
           "headline": "[거시분석] US and Iran trade fire after two US soldiers ...",
           "score": -6
-        },
-        {
-          "date": "20260718",
-          "type": "negative",
-          "headline": "[거시분석] US strikes hit Iran for seventh consecutive n...",
-          "score": -4
         }
       ]
     }
@@ -554,9 +554,9 @@
     },
     {
       "date": "20260721",
-      "headline": "중동 긴장 고조에 유럽 가스 가격 급등…4개월 만에 최고치",
+      "headline": "수명 다 된 10% 글로벌관세…트럼프 '301조 관세' 부과 임박(종합)",
       "impacts": {
-        "방산": 1
+        "전체시장": -1
       },
       "source": "keyword"
     },
@@ -564,15 +564,14 @@
       "date": "20260721",
       "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -4,
+        "방산": 1,
+        "전체시장": -3,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 41,
-  "total_positives": 32,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
