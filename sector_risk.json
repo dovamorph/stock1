@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T15:32:00.501318+09:00",
+  "updated_at": "2026-07-21T19:27:40.109291+09:00",
   "date": "20260721",
   "window_days": 14,
   "sectors": [
@@ -55,7 +55,7 @@
           "date": "20260721",
           "type": "negative",
           "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
-          "score": -2
+          "score": -1
         },
         {
           "date": "20260720",
@@ -91,14 +91,14 @@
         {
           "date": "20260721",
           "type": "positive",
-          "headline": "Russia launches major ballistic missile attack on Ukrainian cities",
+          "headline": "중동 긴장 고조에 유럽 가스 가격 급등…4개월 만에 최고치",
           "score": 1
         },
         {
           "date": "20260721",
           "type": "positive",
           "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
-          "score": 3
+          "score": 2
         },
         {
           "date": "20260720",
@@ -209,7 +209,7 @@
           "date": "20260721",
           "type": "negative",
           "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
-          "score": -6
+          "score": -4
         },
         {
           "date": "20260720",
@@ -554,7 +554,7 @@
     },
     {
       "date": "20260721",
-      "headline": "Russia launches major ballistic missile attack on Ukrainian cities",
+      "headline": "중동 긴장 고조에 유럽 가스 가격 급등…4개월 만에 최고치",
       "impacts": {
         "방산": 1
       },
@@ -564,9 +564,9 @@
       "date": "20260721",
       "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -6,
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -4,
         "금융": -1
       },
       "source": "geo_categories"
