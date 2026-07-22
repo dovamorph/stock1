@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T19:28:38.427502+09:00",
+  "updated_at": "2026-07-22T23:03:13.916301+09:00",
   "date": "20260722",
   "window_days": 14,
   "sectors": [
@@ -16,15 +16,15 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 2,
-      "positive_count": 4,
-      "negative_count": 1,
+      "score": -1,
+      "positive_count": 3,
+      "negative_count": 2,
       "recent_events": [
         {
           "date": "20260722",
-          "type": "positive",
-          "headline": "‘Unprecedented’: OpenAI says AI models autonomously hacked another company",
-          "score": 1
+          "type": "negative",
+          "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
+          "score": -2
         },
         {
           "date": "20260717",
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260722",
+          "type": "negative",
+          "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
+          "score": -2
+        },
         {
           "date": "20260720",
           "type": "negative",
@@ -80,31 +86,25 @@
           "type": "negative",
           "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
           "score": -2
-        },
-        {
-          "date": "20260712",
-          "type": "positive",
-          "headline": "베네수엘라 '대규모 재건' 시동…주택 2만5천채 공급 추진",
-          "score": 1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 20,
-      "negative_count": 3,
+      "positive_count": 21,
+      "negative_count": 2,
       "recent_events": [
         {
           "date": "20260722",
-          "type": "negative",
-          "headline": "종전 합의로 호르무즈 빠져나온 원유 운반선 여수 입항",
-          "score": -1
+          "type": "positive",
+          "headline": "이란 보건부 \"美 공습으로 53명 사망·592명 부상\"",
+          "score": 1
         },
         {
           "date": "20260722",
           "type": "positive",
           "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
-          "score": 1
+          "score": 3
         },
         {
           "date": "20260721",
@@ -141,8 +141,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260722",
+          "type": "negative",
+          "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
+          "score": -1
+        },
         {
           "date": "20260721",
           "type": "negative",
@@ -165,12 +171,6 @@
           "date": "20260717",
           "type": "negative",
           "headline": "[거시분석] Iran accuses US of hitting civilian infrastru...",
-          "score": -1
-        },
-        {
-          "date": "20260715",
-          "type": "negative",
-          "headline": "[거시분석] Iran threatens to block more trade routes as ...",
           "score": -1
         }
       ]
@@ -208,20 +208,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 5,
+      "positive_count": 4,
       "negative_count": 19,
       "recent_events": [
         {
           "date": "20260722",
-          "type": "positive",
-          "headline": "종전 합의로 호르무즈 빠져나온 원유 운반선 여수 입항",
-          "score": 1
-        },
-        {
-          "date": "20260722",
           "type": "negative",
           "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
-          "score": -1
+          "score": -7
         },
         {
           "date": "20260721",
@@ -240,6 +234,12 @@
           "type": "positive",
           "headline": "하마스 새 수장에 칼릴 알하야…휴전 협상 주도한 인물",
           "score": 1
+        },
+        {
+          "date": "20260720",
+          "type": "negative",
+          "headline": "[거시분석] Trump says US strikes hit Iran in 'honour' of...",
+          "score": -4
         }
       ]
     }
@@ -560,18 +560,9 @@
     },
     {
       "date": "20260722",
-      "headline": "‘Unprecedented’: OpenAI says AI models autonomously hacked another company",
+      "headline": "이란 보건부 \"美 공습으로 53명 사망·592명 부상\"",
       "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260722",
-      "headline": "종전 합의로 호르무즈 빠져나온 원유 운반선 여수 입항",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
+        "방산": 1
       },
       "source": "keyword"
     },
@@ -579,13 +570,16 @@
       "date": "20260722",
       "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -1
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -7,
+        "금융": -1,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 40,
-  "total_positives": 33,
+  "total_negatives": 42,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
