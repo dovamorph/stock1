@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T04:25:30.374707+09:00",
+  "updated_at": "2026-07-23T06:12:54.031520+09:00",
   "date": "20260723",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 0,
-      "positive_count": 4,
+      "score": -1,
+      "positive_count": 3,
       "negative_count": 2,
       "recent_events": [
-        {
-          "date": "20260723",
-          "type": "positive",
-          "headline": "OpenAI says its AI model ‘went rogue’: What do we know?",
-          "score": 1
-        },
         {
           "date": "20260722",
           "type": "negative",
@@ -49,20 +43,20 @@
           "type": "negative",
           "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
           "score": -2
+        },
+        {
+          "date": "20260711",
+          "type": "positive",
+          "headline": "Apple sues OpenAI, its employees claiming theft of trade secrets",
+          "score": 1
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20260723",
-          "type": "negative",
-          "headline": "[거시분석] Trump threatens to target Iran's bridges and ...",
-          "score": -2
-        },
         {
           "date": "20260722",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] Iran threatens to block more trade routes as ...",
           "score": -2
+        },
+        {
+          "date": "20260713",
+          "type": "negative",
+          "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
+          "score": -2
         }
       ]
     },
@@ -98,7 +98,7 @@
           "date": "20260723",
           "type": "positive",
           "headline": "[거시분석] Trump threatens to target Iran's bridges and ...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260722",
@@ -209,19 +209,13 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 20,
+      "negative_count": 19,
       "recent_events": [
         {
           "date": "20260723",
           "type": "negative",
-          "headline": "노르웨이 에너지회사, 중동 전쟁에 횡재…순이익 3배 '껑충'",
-          "score": -1
-        },
-        {
-          "date": "20260723",
-          "type": "negative",
           "headline": "[거시분석] Trump threatens to target Iran's bridges and ...",
-          "score": -6
+          "score": -2
         },
         {
           "date": "20260722",
@@ -240,6 +234,12 @@
           "type": "negative",
           "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
           "score": -3
+        },
+        {
+          "date": "20260720",
+          "type": "positive",
+          "headline": "하마스 새 수장에 칼릴 알하야…휴전 협상 주도한 인물",
+          "score": 1
         }
       ]
     }
@@ -562,33 +562,16 @@
     },
     {
       "date": "20260723",
-      "headline": "OpenAI says its AI model ‘went rogue’: What do we know?",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260723",
-      "headline": "노르웨이 에너지회사, 중동 전쟁에 횡재…순이익 3배 '껑충'",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260723",
       "headline": "[거시분석] Trump threatens to target Iran's bridges and ...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -6,
+        "방산": 1,
+        "전체시장": -2,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 44,
-  "total_positives": 32,
+  "total_negatives": 42,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
