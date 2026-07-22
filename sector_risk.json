@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T06:12:54.031520+09:00",
+  "updated_at": "2026-07-23T08:08:16.939946+09:00",
   "date": "20260723",
   "window_days": 14,
   "sectors": [
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260723",
+          "type": "negative",
+          "headline": "[거시분석] Trump threatens to target Iran's bridges and ...",
+          "score": -2
+        },
         {
           "date": "20260722",
           "type": "negative",
@@ -80,25 +86,25 @@
           "type": "negative",
           "headline": "[거시분석] Iran threatens to block more trade routes as ...",
           "score": -2
-        },
-        {
-          "date": "20260713",
-          "type": "negative",
-          "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 20,
+      "positive_count": 21,
       "negative_count": 2,
       "recent_events": [
         {
           "date": "20260723",
           "type": "positive",
-          "headline": "[거시분석] Trump threatens to target Iran's bridges and ...",
+          "headline": "미군, 12일째 야간 공습…\"이란군 표적 추가 타격\"",
           "score": 1
+        },
+        {
+          "date": "20260723",
+          "type": "positive",
+          "headline": "[거시분석] Trump threatens to target Iran's bridges and ...",
+          "score": 3
         },
         {
           "date": "20260722",
@@ -116,12 +122,6 @@
           "date": "20260721",
           "type": "positive",
           "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
-          "score": 1
-        },
-        {
-          "date": "20260720",
-          "type": "positive",
-          "headline": "Russia launches major ballistic missile attack on Ukrainian cities",
           "score": 1
         }
       ]
@@ -215,7 +215,7 @@
           "date": "20260723",
           "type": "negative",
           "headline": "[거시분석] Trump threatens to target Iran's bridges and ...",
-          "score": -2
+          "score": -5
         },
         {
           "date": "20260722",
@@ -562,16 +562,25 @@
     },
     {
       "date": "20260723",
+      "headline": "미군, 12일째 야간 공습…\"이란군 표적 추가 타격\"",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260723",
       "headline": "[거시분석] Trump threatens to target Iran's bridges and ...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -2,
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
-  "total_positives": 31,
+  "total_negatives": 43,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
