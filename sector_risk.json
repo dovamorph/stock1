@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T02:24:01.040990+09:00",
+  "updated_at": "2026-07-23T04:25:30.374707+09:00",
   "date": "20260723",
   "window_days": 14,
   "sectors": [
@@ -221,7 +221,7 @@
           "date": "20260723",
           "type": "negative",
           "headline": "[거시분석] Trump threatens to target Iran's bridges and ...",
-          "score": -5
+          "score": -6
         },
         {
           "date": "20260722",
@@ -582,7 +582,7 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -5,
+        "전체시장": -6,
         "금융": -1
       },
       "source": "geo_categories"
