@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T08:00:35.358810+09:00",
+  "updated_at": "2026-07-22T11:54:10.660028+09:00",
   "date": "20260722",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 1,
-      "positive_count": 3,
+      "score": 2,
+      "positive_count": 4,
       "negative_count": 1,
       "recent_events": [
+        {
+          "date": "20260722",
+          "type": "positive",
+          "headline": "‘Unprecedented’: OpenAI says AI models autonomously hacked another company",
+          "score": 1
+        },
         {
           "date": "20260717",
           "type": "positive",
@@ -48,21 +54,9 @@
     },
     "건설": {
       "score": -10,
-      "positive_count": 2,
-      "negative_count": 8,
+      "positive_count": 1,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20260722",
-          "type": "positive",
-          "headline": "강남구청장, 압구정 재건축단지 방문…\"속도감 있게 추진\"",
-          "score": 1
-        },
-        {
-          "date": "20260722",
-          "type": "negative",
-          "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
-          "score": -2
-        },
         {
           "date": "20260720",
           "type": "negative",
@@ -80,25 +74,31 @@
           "type": "negative",
           "headline": "[거시분석] Iran threatens to block more trade routes as ...",
           "score": -2
+        },
+        {
+          "date": "20260713",
+          "type": "negative",
+          "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
+          "score": -2
+        },
+        {
+          "date": "20260712",
+          "type": "positive",
+          "headline": "베네수엘라 '대규모 재건' 시동…주택 2만5천채 공급 추진",
+          "score": 1
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 20,
-      "negative_count": 3,
+      "negative_count": 2,
       "recent_events": [
-        {
-          "date": "20260722",
-          "type": "negative",
-          "headline": "Can mediators broker a truce between the US and Iran?",
-          "score": -1
-        },
         {
           "date": "20260722",
           "type": "positive",
           "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260721",
@@ -117,6 +117,12 @@
           "type": "negative",
           "headline": "하마스 새 수장에 칼릴 알하야…휴전 협상 주도한 인물",
           "score": -1
+        },
+        {
+          "date": "20260720",
+          "type": "positive",
+          "headline": "[거시분석] Trump says US strikes hit Iran in 'honour' of...",
+          "score": 3
         }
       ]
     },
@@ -127,10 +133,17 @@
       "recent_events": []
     },
     "로봇": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20260722",
+          "type": "positive",
+          "headline": "[영상] 압도적인 '로봇 UFC'…中 세계 첫 휴머노이드 격투리그 개막",
+          "score": 1
+        }
+      ]
     },
     "금융": {
       "score": -10,
@@ -202,20 +215,20 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 5,
-      "negative_count": 19,
+      "positive_count": 4,
+      "negative_count": 20,
       "recent_events": [
         {
           "date": "20260722",
-          "type": "positive",
-          "headline": "Can mediators broker a truce between the US and Iran?",
-          "score": 1
+          "type": "negative",
+          "headline": "트럼프 \"복제약 관세 2년 유예…2028년부터 100%·1년 뒤 200%\"",
+          "score": -1
         },
         {
           "date": "20260722",
           "type": "negative",
           "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
-          "score": -5
+          "score": -3
         },
         {
           "date": "20260721",
@@ -554,18 +567,25 @@
     },
     {
       "date": "20260722",
-      "headline": "Can mediators broker a truce between the US and Iran?",
+      "headline": "‘Unprecedented’: OpenAI says AI models autonomously hacked another company",
       "impacts": {
-        "방산": -1,
-        "전체시장": 1
+        "반도체·AI": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260722",
-      "headline": "강남구청장, 압구정 재건축단지 방문…\"속도감 있게 추진\"",
+      "headline": "[영상] 압도적인 '로봇 UFC'…中 세계 첫 휴머노이드 격투리그 개막",
       "impacts": {
-        "건설": 1
+        "로봇": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260722",
+      "headline": "트럼프 \"복제약 관세 2년 유예…2028년부터 100%·1년 뒤 200%\"",
+      "impacts": {
+        "전체시장": -1
       },
       "source": "keyword"
     },
@@ -573,15 +593,14 @@
       "date": "20260722",
       "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
+        "방산": 1,
+        "전체시장": -3,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
+  "total_negatives": 41,
   "total_positives": 33,
   "risk_level": "EXTREME"
 }
