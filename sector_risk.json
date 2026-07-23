@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-23T23:09:13.863063+09:00",
-  "date": "20260723",
+  "updated_at": "2026-07-24T02:25:30.936907+09:00",
+  "date": "20260724",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 0,
-      "positive_count": 4,
+      "score": 1,
+      "positive_count": 5,
       "negative_count": 2,
       "recent_events": [
+        {
+          "date": "20260724",
+          "type": "positive",
+          "headline": "How are companies, governments responding to the OpenAI hack?",
+          "score": 1
+        },
         {
           "date": "20260723",
           "type": "positive",
@@ -43,12 +49,6 @@
           "type": "positive",
           "headline": "Chip giant TSMC pledges another $100bn to expand US production",
           "score": 1
-        },
-        {
-          "date": "20260713",
-          "type": "negative",
-          "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
-          "score": -2
         }
       ]
     },
@@ -95,6 +95,12 @@
       "negative_count": 2,
       "recent_events": [
         {
+          "date": "20260724",
+          "type": "positive",
+          "headline": "[거시분석] How shipping insurance rates are rising, as H...",
+          "score": 1
+        },
+        {
           "date": "20260723",
           "type": "positive",
           "headline": "[2보] 중동 긴장 고조에 브렌트유 두달만에 100달러 돌파",
@@ -117,20 +123,20 @@
           "type": "positive",
           "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
           "score": 3
-        },
-        {
-          "date": "20260721",
-          "type": "positive",
-          "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
-          "score": 1
         }
       ]
     },
     "전력·에너지": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260724",
+          "type": "positive",
+          "headline": "뉴욕증시, AI 자본지출 우려·유가 상승에 하락 출발",
+          "score": 1
+        },
         {
           "date": "20260723",
           "type": "positive",
@@ -148,8 +154,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 12,
+      "negative_count": 13,
       "recent_events": [
+        {
+          "date": "20260724",
+          "type": "negative",
+          "headline": "[거시분석] How shipping insurance rates are rising, as H...",
+          "score": -2
+        },
         {
           "date": "20260723",
           "type": "negative",
@@ -172,12 +184,6 @@
           "date": "20260719",
           "type": "negative",
           "headline": "[거시분석] US and Iran trade fire after two US soldiers ...",
-          "score": -1
-        },
-        {
-          "date": "20260718",
-          "type": "negative",
-          "headline": "[거시분석] US strikes hit Iran for seventh consecutive n...",
           "score": -1
         }
       ]
@@ -219,6 +225,12 @@
       "negative_count": 19,
       "recent_events": [
         {
+          "date": "20260724",
+          "type": "negative",
+          "headline": "[거시분석] How shipping insurance rates are rising, as H...",
+          "score": -4
+        },
+        {
           "date": "20260723",
           "type": "negative",
           "headline": "[거시분석] Houthis claim attack on oil tankers as US lau...",
@@ -241,26 +253,11 @@
           "type": "negative",
           "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
           "score": -3
-        },
-        {
-          "date": "20260720",
-          "type": "positive",
-          "headline": "하마스 새 수장에 칼릴 알하야…휴전 협상 주도한 인물",
-          "score": 1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260709",
-      "headline": "[거시분석] US and Iran trade strikes for second night in...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -3
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260710",
       "headline": "US-Iran war: Will peace talks resume, and when?",
@@ -601,9 +598,35 @@
         "금융": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260724",
+      "headline": "How are companies, governments responding to the OpenAI hack?",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260724",
+      "headline": "뉴욕증시, AI 자본지출 우려·유가 상승에 하락 출발",
+      "impacts": {
+        "전력·에너지": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260724",
+      "headline": "[거시분석] How shipping insurance rates are rising, as H...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -4,
+        "금융": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 43,
-  "total_positives": 34,
+  "total_negatives": 44,
+  "total_positives": 36,
   "risk_level": "EXTREME"
 }
