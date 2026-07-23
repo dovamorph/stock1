@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T15:33:04.073905+09:00",
+  "updated_at": "2026-07-23T19:25:56.210529+09:00",
   "date": "20260723",
   "window_days": 14,
   "sectors": [
@@ -61,7 +61,7 @@
           "date": "20260723",
           "type": "negative",
           "headline": "[거시분석] Houthis claim attack on oil tankers as US lau...",
-          "score": -1
+          "score": -2
         },
         {
           "date": "20260722",
@@ -98,7 +98,7 @@
           "date": "20260723",
           "type": "positive",
           "headline": "[거시분석] Houthis claim attack on oil tankers as US lau...",
-          "score": 2
+          "score": 3
         },
         {
           "date": "20260722",
@@ -215,7 +215,7 @@
           "date": "20260723",
           "type": "negative",
           "headline": "[거시분석] Houthis claim attack on oil tankers as US lau...",
-          "score": -4
+          "score": -6
         },
         {
           "date": "20260722",
@@ -564,9 +564,9 @@
       "date": "20260723",
       "headline": "[거시분석] Houthis claim attack on oil tankers as US lau...",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -4,
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -6,
         "금융": -1
       },
       "source": "geo_categories"
