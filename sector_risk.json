@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T19:25:56.210529+09:00",
+  "updated_at": "2026-07-23T23:09:13.863063+09:00",
   "date": "20260723",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -1,
-      "positive_count": 3,
+      "score": 0,
+      "positive_count": 4,
       "negative_count": 2,
       "recent_events": [
+        {
+          "date": "20260723",
+          "type": "positive",
+          "headline": "How are companies, governments responding to the OpenAI hack?",
+          "score": 1
+        },
         {
           "date": "20260722",
           "type": "negative",
@@ -43,12 +49,6 @@
           "type": "negative",
           "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
           "score": -2
-        },
-        {
-          "date": "20260711",
-          "type": "positive",
-          "headline": "Apple sues OpenAI, its employees claiming theft of trade secrets",
-          "score": 1
         }
       ]
     },
@@ -91,9 +91,15 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 20,
+      "positive_count": 21,
       "negative_count": 2,
       "recent_events": [
+        {
+          "date": "20260723",
+          "type": "positive",
+          "headline": "[2보] 중동 긴장 고조에 브렌트유 두달만에 100달러 돌파",
+          "score": 1
+        },
         {
           "date": "20260723",
           "type": "positive",
@@ -117,20 +123,21 @@
           "type": "positive",
           "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
           "score": 1
-        },
-        {
-          "date": "20260720",
-          "type": "positive",
-          "headline": "Russia launches major ballistic missile attack on Ukrainian cities",
-          "score": 1
         }
       ]
     },
     "전력·에너지": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20260723",
+          "type": "positive",
+          "headline": "뉴욕증시, AI 자본지출 우려·유가 상승에 하락 출발",
+          "score": 1
+        }
+      ]
     },
     "로봇": {
       "score": 0,
@@ -147,7 +154,7 @@
           "date": "20260723",
           "type": "negative",
           "headline": "[거시분석] Houthis claim attack on oil tankers as US lau...",
-          "score": -1
+          "score": -2
         },
         {
           "date": "20260722",
@@ -562,17 +569,41 @@
     },
     {
       "date": "20260723",
+      "headline": "How are companies, governments responding to the OpenAI hack?",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260723",
+      "headline": "뉴욕증시, AI 자본지출 우려·유가 상승에 하락 출발",
+      "impacts": {
+        "전력·에너지": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260723",
+      "headline": "[2보] 중동 긴장 고조에 브렌트유 두달만에 100달러 돌파",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260723",
       "headline": "[거시분석] Houthis claim attack on oil tankers as US lau...",
       "impacts": {
         "방산": 3,
         "건설": -2,
         "전체시장": -6,
-        "금융": -1
+        "금융": -2
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 43,
-  "total_positives": 31,
+  "total_positives": 34,
   "risk_level": "EXTREME"
 }
