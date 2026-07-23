@@ -1,10 +1,10 @@
 {
-  "updated": "2026-07-24 02:25",
-  "news_count": 83,
-  "intl_count": 53,
+  "updated": "2026-07-24 04:23",
+  "news_count": 84,
+  "intl_count": 54,
   "domestic_count": 30,
   "source_stats": {
-    "BBC World": 28,
+    "BBC World": 29,
     "Al Jazeera": 25,
     "연합뉴스": 30,
     "한국경제": 0,
@@ -15,27 +15,28 @@
   "news_sample": [
     "Oil prices hit $100 for the first time since May",
     "Saudis must recognise Israel for nuclear deal, says Trump",
+    "Ukraine's ousted defence minister insists on being reinstated",
     "France evacuates 20,000 as wildfires spread in south-west",
-    "Yemen's Houthis attack Saudi tanker as US launches more Iran strikes",
-    "'I am still alive': Indian activist on hunger strike for 26 days loses 11kg"
+    "Yemen's Houthis attack Saudi tanker as US launches more Iran strikes"
   ],
   "all_headlines": [
     "Oil prices hit $100 for the first time since May",
     "Saudis must recognise Israel for nuclear deal, says Trump",
+    "Ukraine's ousted defence minister insists on being reinstated",
     "France evacuates 20,000 as wildfires spread in south-west",
     "Yemen's Houthis attack Saudi tanker as US launches more Iran strikes",
     "'I am still alive': Indian activist on hunger strike for 26 days loses 11kg",
     "Teen jailed for exam cheating in Guinea dies after sickle cell complications, father says",
-    "Canada's 'powerful' dairy sector is in Trump's trade crosshairs",
     "'Let's enjoy the ride' says Elon Musk, as AI fears mount",
     "Nicaragua's legislature debates barring opposition from elections",
     "Ex-governor convicted of murdering a pregnant student in Kenya",
     "Blocked by censors, China's animal lovers take fight against abuse offline and overseas",
     "South Korea woman acquitted of murdering newborn after hospital delivery",
     "Russia's businesses under strain from Ukraine's attacks on Wildberries",
+    "Canada's 'powerful' dairy sector is in Trump's trade crosshairs",
     "Ghanaians' ICC petition over migrant attacks 'opportunistic', says South Africa",
     "Wreckage of Pan Am plane that shaped aviation safety found 74 years on",
-    "Google burning through cash with spiralling AI costs",
+    "Google and Tesla shares plunge as AI spending rattles markets",
     "Fire kills 10 members of same family in Peru, police say",
     "Mamdani backs off pledge to arrest Netanyahu citing lack of authority",
     "Houthi attacks raise fears of wider Middle East conflict and more global economic damage",
@@ -49,6 +50,14 @@
     "Watch: Louvre reopens gallery after jewellery heist",
     "Watch: Beluga whales travel by plane and lorry to US from closed Canadian marine park",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Can India’s youth-led protest movement bring lasting change?",
+    "Children wounded in Israeli strike on Khan Younis",
+    "World Bank estimates Venezuela earthquakes caused $19.6bn in damage",
+    "Iraqi PM makes first official visit to Iran in bid to deepen ties",
+    "Bordeaux wildfire burns 3,100 hectares, 20,000 evacuated",
+    "UK’s Burnham tells Scotland new independence vote is off limits",
+    "What are the security implications of the US-Saudi nuclear deal?",
+    "Far-right Israeli incursion heightens tensions at Al-Aqsa ahead of election",
     "Oil surges past $100 in a first since May as Middle East conflicts rage",
     "A Game of Double Standards",
     "Trump: US-Saudi nuclear deal hinges on Saudi joining Abraham Accords",
@@ -65,14 +74,12 @@
     "How shipping insurance rates are rising, as Hormuz, Bab al-Mandeb shut down",
     "Has Russia helped Iran target CIA sites in the Gulf?",
     "Ebola death toll in DR Congo surpasses 1,000",
-    "Why do some of the cheapest cities cost the most to live in?",
-    "Kashmiri activist Khurram Parvez and journalist Irfan Mehraj freed on bail",
-    "Rebuilding Gaza to cost $71bn, must include Palestinians, report finds",
-    "How are companies, governments responding to the OpenAI hack?",
-    "‘Our fight is to fix the system’: India protesters demand accountability",
-    "Which Middle East nations have nuclear programmes, and how were they built?",
-    "Cricket: No Ashes 2027 Tests to take place in the north of England",
-    "EU hits Google with new $1bn fine, saying it broke digital antitrust rules",
+    "IMO \"홍해 선박 공격 규탄…선원들 안전과 공급망 위협\"",
+    "'마스가' 띄운 한미 조선협력센터…성과 의지 다지며 첫발 뗐다",
+    "\"이란, '사우디 해상 봉쇄' 후티에 미사일 장비 비밀 이송\"",
+    "페루 중견 시인 소토, 집 앞에서 피살",
+    "통제 뚫은 AI해킹에 백악관도 주시…美하원서 '킬스위치법' 발의",
+    "EU, 구글에 1조5천억원 과징금…\"디지털 경쟁법 위반\"(종합2보)",
     "아세안 외교장관회의 폐막…'호르무즈 항행·비행 자유' 촉구",
     "세계은행 \"베네수엘라 지진 피해 규모 29조원\"",
     "트럼프, 사우디 핵협정 하루만에 \"이스라엘 관계정상화 조건부\"(종합)",
@@ -96,23 +103,17 @@
     "젤렌스키 \"러, 우크라 흑해 곡물 수출 무력화 노려\"",
     "평창의 여름밤 밝힌 선우예권의 베토벤…평창대관령음악제 개막",
     "네타냐후 \"이스라엘-사우디 관계 정상화는 역사적 도약\"",
-    "외교부 \"한미 안보협의 지연 '빨간불' 아냐…가급적 빨리 재개\"",
-    "국힘 일부 의원 상임위 배정에 반발…고성 항의에 멱살잡이(종합)",
-    "성동구 아파트 화재로 주민 47명 대피…인명피해 없어",
-    "워싱턴에 한미 조선협력센터 개소…'마스가' 속도 낸다",
-    "뉴욕증시, AI 자본지출 우려·유가 상승에 하락 출발",
-    "미·이란 충돌에 홍해 유조선 피격까지…브렌트유 100달러 돌파(종합)",
-    "조현 \"인내심 갖고 北 대화 재개 노력\"…EAS 회원국에 협조 당부(종합)"
+    "외교부 \"한미 안보협의 지연 '빨간불' 아냐…가급적 빨리 재개\""
   ],
   "categories": {
     "geopolitical": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "Yemen's Houthis attack Saudi tanker as US lau...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 12,
-      "score": 17.6
+      "level": "경고",
+      "color": "orange",
+      "signal": "🟠",
+      "summary": "Ukraine's ousted defence minister insists on ...",
+      "action": "포지션 축소 검토 / 모니터링 강화",
+      "matched": 13,
+      "score": 3.0
     },
     "macro": {
       "level": "경고",
@@ -138,8 +139,8 @@
       "signal": "🟡",
       "summary": "Yemen's Houthis attack Saudi tanker as US lau...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 8,
-      "score": 3.0
+      "matched": 9,
+      "score": 4.5
     },
     "policy": {
       "level": "안전",
@@ -152,9 +153,9 @@
     }
   },
   "overall": {
-    "level": "주의",
-    "color": "yellow",
-    "summary": "주의 필요: 거시/통화 정책",
-    "action": "신규 매수 자제 / 추이 관찰"
+    "level": "경고",
+    "color": "orange",
+    "summary": "주의 필요: 지정학적 충돌, 거시/통화 정책",
+    "action": "포지션 축소 검토 / 모니터링 강화"
   }
 }
