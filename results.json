@@ -1,6 +1,6 @@
 {
   "date": "20260723",
-  "generated_at": "2026-07-23T19:00:49+09:00",
+  "generated_at": "2026-07-23T19:30:40+09:00",
   "reference_date": "20260722",
   "reference_ranks": {
     "000660": 1,
@@ -61,7 +61,7 @@
     "rsi_14": 43.1,
     "basis": null,
     "basis_signal": "조회불가",
-    "usdkrw": 1468.68,
+    "usdkrw": 1468.67,
     "usdkrw_ch1": -0.75,
     "usdkrw_ch5": -0.69,
     "kosdaq_ch1": 5.22,
@@ -97,7 +97,7 @@
       "ndx_ma60": 25977.72
     },
     "adr": 93.3,
-    "adr_advances": 445,
+    "adr_advances": 449,
     "adr_declines": 32,
     "adr_signal": "🟢",
     "adr_desc": "건강 (93%) — 지수 상승이 진짜",
