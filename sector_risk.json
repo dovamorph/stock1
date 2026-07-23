@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T04:23:27.920470+09:00",
+  "updated_at": "2026-07-24T06:07:21.653677+09:00",
   "date": "20260724",
   "window_days": 14,
   "sectors": [
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 9,
+      "negative_count": 8,
       "recent_events": [
-        {
-          "date": "20260724",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine's ousted defence minister insists on ...",
-          "score": -1
-        },
         {
           "date": "20260723",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] US and Iran trade fire after two US soldiers ...",
           "score": -2
+        },
+        {
+          "date": "20260715",
+          "type": "negative",
+          "headline": "[거시분석] Iran threatens to block more trade routes as ...",
+          "score": -2
         }
       ]
     },
@@ -98,7 +98,7 @@
           "date": "20260724",
           "type": "positive",
           "headline": "[거시분석] Ukraine's ousted defence minister insists on ...",
-          "score": 2
+          "score": 1
         },
         {
           "date": "20260723",
@@ -154,7 +154,7 @@
           "date": "20260724",
           "type": "negative",
           "headline": "[거시분석] Ukraine's ousted defence minister insists on ...",
-          "score": -2
+          "score": -1
         },
         {
           "date": "20260723",
@@ -222,7 +222,7 @@
           "date": "20260724",
           "type": "negative",
           "headline": "[거시분석] Ukraine's ousted defence minister insists on ...",
-          "score": -5
+          "score": -3
         },
         {
           "date": "20260723",
@@ -597,15 +597,14 @@
       "date": "20260724",
       "headline": "[거시분석] Ukraine's ousted defence minister insists on ...",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -5,
-        "금융": -2
+        "방산": 1,
+        "전체시장": -3,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 45,
+  "total_negatives": 44,
   "total_positives": 34,
   "risk_level": "EXTREME"
 }
