@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-25T00:26:45.312912+09:00",
+  "updated_at": "2026-07-25T02:40:31.770140+09:00",
   "date": "20260725",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 0,
+      "score": -2,
       "positive_count": 4,
-      "negative_count": 2,
+      "negative_count": 3,
       "recent_events": [
+        {
+          "date": "20260725",
+          "type": "negative",
+          "headline": "[거시분석] US hits dozens of countries with new wave of ...",
+          "score": -2
+        },
         {
           "date": "20260723",
           "type": "positive",
@@ -43,12 +49,6 @@
           "type": "positive",
           "headline": "Chip giant TSMC pledges another $100bn to expand US production",
           "score": 1
-        },
-        {
-          "date": "20260713",
-          "type": "negative",
-          "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
-          "score": -2
         }
       ]
     },
@@ -60,7 +60,7 @@
         {
           "date": "20260725",
           "type": "negative",
-          "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
+          "headline": "[거시분석] US hits dozens of countries with new wave of ...",
           "score": -1
         },
         {
@@ -97,7 +97,7 @@
         {
           "date": "20260725",
           "type": "positive",
-          "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
+          "headline": "[거시분석] US hits dozens of countries with new wave of ...",
           "score": 2
         },
         {
@@ -153,7 +153,7 @@
         {
           "date": "20260725",
           "type": "negative",
-          "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
+          "headline": "[거시분석] US hits dozens of countries with new wave of ...",
           "score": -1
         },
         {
@@ -216,37 +216,37 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 19,
+      "negative_count": 22,
       "recent_events": [
         {
           "date": "20260725",
           "type": "negative",
-          "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
-          "score": -4
+          "headline": "트럼프 \"EU '美기업 약탈'에 301조 관세…큰 대가 치르게 될 것\"",
+          "score": -1
+        },
+        {
+          "date": "20260725",
+          "type": "negative",
+          "headline": "[속보] 트럼프, EU 구글 과징금에 '무역법 301조 관세' 위협",
+          "score": -1
+        },
+        {
+          "date": "20260725",
+          "type": "negative",
+          "headline": "\"물가 안정되나 했는데…\" 트럼프 새 관세, 美경제도 위협",
+          "score": -1
+        },
+        {
+          "date": "20260725",
+          "type": "negative",
+          "headline": "[거시분석] US hits dozens of countries with new wave of ...",
+          "score": -6
         },
         {
           "date": "20260724",
           "type": "negative",
           "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
           "score": -4
-        },
-        {
-          "date": "20260723",
-          "type": "negative",
-          "headline": "[거시분석] Houthis claim attack on oil tankers as US lau...",
-          "score": -6
-        },
-        {
-          "date": "20260722",
-          "type": "negative",
-          "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
-          "score": -7
-        },
-        {
-          "date": "20260721",
-          "type": "negative",
-          "headline": "수명 다 된 10% 글로벌관세…트럼프 '301조 관세' 부과 임박(종합)",
-          "score": -1
         }
       ]
     }
@@ -587,17 +587,42 @@
     },
     {
       "date": "20260725",
-      "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
+      "headline": "트럼프 \"EU '美기업 약탈'에 301조 관세…큰 대가 치르게 될 것\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260725",
+      "headline": "[속보] 트럼프, EU 구글 과징금에 '무역법 301조 관세' 위협",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260725",
+      "headline": "\"물가 안정되나 했는데…\" 트럼프 새 관세, 美경제도 위협",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260725",
+      "headline": "[거시분석] US hits dozens of countries with new wave of ...",
       "impacts": {
         "방산": 2,
         "건설": -1,
-        "전체시장": -4,
-        "금융": -1
+        "전체시장": -6,
+        "금융": -1,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 44,
+  "total_negatives": 48,
   "total_positives": 34,
   "risk_level": "EXTREME"
 }
