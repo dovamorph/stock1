@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-25T06:06:50.259945+09:00",
+  "updated_at": "2026-07-25T08:04:07.663637+09:00",
   "date": "20260725",
   "window_days": 14,
   "sectors": [
@@ -61,7 +61,7 @@
           "date": "20260725",
           "type": "negative",
           "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
-          "score": -1
+          "score": -2
         },
         {
           "date": "20260724",
@@ -91,14 +91,20 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 21,
+      "positive_count": 22,
       "negative_count": 1,
       "recent_events": [
         {
           "date": "20260725",
           "type": "positive",
+          "headline": "사우디, 후티반군 점령한 호데이다 공습…\"비례적 군사 대응\"",
+          "score": 1
+        },
+        {
+          "date": "20260725",
+          "type": "positive",
           "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
-          "score": 2
+          "score": 3
         },
         {
           "date": "20260724",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] Houthis claim attack on oil tankers as US lau...",
           "score": 3
-        },
-        {
-          "date": "20260722",
-          "type": "positive",
-          "headline": "이란 보건부 \"美 공습으로 53명 사망·592명 부상\"",
-          "score": 1
         }
       ]
     },
@@ -148,8 +148,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 12,
+      "negative_count": 13,
       "recent_events": [
+        {
+          "date": "20260725",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
+          "score": -1
+        },
         {
           "date": "20260724",
           "type": "negative",
@@ -172,12 +178,6 @@
           "date": "20260721",
           "type": "negative",
           "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
-          "score": -1
-        },
-        {
-          "date": "20260719",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran trade fire after two US soldiers ...",
           "score": -1
         }
       ]
@@ -228,7 +228,7 @@
           "date": "20260725",
           "type": "negative",
           "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
-          "score": -5
+          "score": -7
         },
         {
           "date": "20260724",
@@ -595,17 +595,26 @@
     },
     {
       "date": "20260725",
+      "headline": "사우디, 후티반군 점령한 호데이다 공습…\"비례적 군사 대응\"",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260725",
       "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -5,
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -7,
+        "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 45,
-  "total_positives": 34,
+  "total_negatives": 46,
+  "total_positives": 35,
   "risk_level": "EXTREME"
 }
