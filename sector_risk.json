@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T19:22:06.781831+09:00",
+  "updated_at": "2026-07-24T22:51:20.834830+09:00",
   "date": "20260724",
   "window_days": 14,
   "sectors": [
@@ -140,17 +140,10 @@
       ]
     },
     "로봇": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 0,
+      "positive_count": 0,
       "negative_count": 0,
-      "recent_events": [
-        {
-          "date": "20260724",
-          "type": "positive",
-          "headline": "서울대·엔비디아, '피지컬 AI' 공동 연구 파트너십 체결 추진",
-          "score": 1
-        }
-      ]
+      "recent_events": []
     },
     "금융": {
       "score": -10,
@@ -222,21 +215,9 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 6,
+      "positive_count": 4,
       "negative_count": 19,
       "recent_events": [
-        {
-          "date": "20260724",
-          "type": "positive",
-          "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
-          "score": 1
-        },
-        {
-          "date": "20260724",
-          "type": "positive",
-          "headline": "[표] 주간 거래소 외국인 순매수도 상위종목",
-          "score": 1
-        },
         {
           "date": "20260724",
           "type": "negative",
@@ -254,6 +235,18 @@
           "type": "negative",
           "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
           "score": -7
+        },
+        {
+          "date": "20260721",
+          "type": "negative",
+          "headline": "수명 다 된 10% 글로벌관세…트럼프 '301조 관세' 부과 임박(종합)",
+          "score": -1
+        },
+        {
+          "date": "20260721",
+          "type": "negative",
+          "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
+          "score": -3
         }
       ]
     }
@@ -602,30 +595,6 @@
     },
     {
       "date": "20260724",
-      "headline": "서울대·엔비디아, '피지컬 AI' 공동 연구 파트너십 체결 추진",
-      "impacts": {
-        "로봇": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260724",
-      "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
-      "impacts": {
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260724",
-      "headline": "[표] 주간 거래소 외국인 순매수도 상위종목",
-      "impacts": {
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260724",
       "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
       "impacts": {
         "방산": 2,
@@ -637,6 +606,6 @@
     }
   ],
   "total_negatives": 45,
-  "total_positives": 37,
+  "total_positives": 34,
   "risk_level": "EXTREME"
 }
