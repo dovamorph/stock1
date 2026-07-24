@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T07:59:08.868741+09:00",
+  "updated_at": "2026-07-24T11:54:56.259285+09:00",
   "date": "20260724",
   "window_days": 14,
   "sectors": [
@@ -54,14 +54,14 @@
     },
     "건설": {
       "score": -10,
-      "positive_count": 2,
-      "negative_count": 8,
+      "positive_count": 1,
+      "negative_count": 9,
       "recent_events": [
         {
           "date": "20260724",
-          "type": "positive",
-          "headline": "강남구, 일원한솔 재건축추진위 10일만에 승인…처리기간 대폭 단축",
-          "score": 1
+          "type": "negative",
+          "headline": "[거시분석] Ukraine's ousted defence minister insists on ...",
+          "score": -1
         },
         {
           "date": "20260723",
@@ -98,7 +98,7 @@
           "date": "20260724",
           "type": "positive",
           "headline": "[거시분석] Ukraine's ousted defence minister insists on ...",
-          "score": 1
+          "score": 2
         },
         {
           "date": "20260723",
@@ -148,8 +148,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 12,
+      "negative_count": 13,
       "recent_events": [
+        {
+          "date": "20260724",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine's ousted defence minister insists on ...",
+          "score": -1
+        },
         {
           "date": "20260723",
           "type": "negative",
@@ -172,12 +178,6 @@
           "date": "20260719",
           "type": "negative",
           "headline": "[거시분석] US and Iran trade fire after two US soldiers ...",
-          "score": -1
-        },
-        {
-          "date": "20260718",
-          "type": "negative",
-          "headline": "[거시분석] US strikes hit Iran for seventh consecutive n...",
           "score": -1
         }
       ]
@@ -221,14 +221,14 @@
         {
           "date": "20260724",
           "type": "negative",
-          "headline": "美, '301조 강제노동 관세' 60개국에 부과…한국 12.5%(종합)",
+          "headline": "정부 \"미측, 한국 관세 15% 상한선 준수 입장 재확인\"(종합)",
           "score": -1
         },
         {
           "date": "20260724",
           "type": "negative",
           "headline": "[거시분석] Ukraine's ousted defence minister insists on ...",
-          "score": -2
+          "score": -4
         },
         {
           "date": "20260723",
@@ -595,7 +595,7 @@
     },
     {
       "date": "20260724",
-      "headline": "美, '301조 강제노동 관세' 60개국에 부과…한국 12.5%(종합)",
+      "headline": "정부 \"미측, 한국 관세 15% 상한선 준수 입장 재확인\"(종합)",
       "impacts": {
         "전체시장": -1
       },
@@ -603,23 +603,17 @@
     },
     {
       "date": "20260724",
-      "headline": "강남구, 일원한솔 재건축추진위 10일만에 승인…처리기간 대폭 단축",
-      "impacts": {
-        "건설": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260724",
       "headline": "[거시분석] Ukraine's ousted defence minister insists on ...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -2
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -4,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 44,
-  "total_positives": 35,
+  "total_negatives": 46,
+  "total_positives": 34,
   "risk_level": "EXTREME"
 }
