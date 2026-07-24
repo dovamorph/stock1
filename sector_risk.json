@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-24T22:51:20.834830+09:00",
-  "date": "20260724",
+  "updated_at": "2026-07-25T00:26:45.312912+09:00",
+  "date": "20260725",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -58,6 +58,12 @@
       "negative_count": 9,
       "recent_events": [
         {
+          "date": "20260725",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
+          "score": -1
+        },
+        {
           "date": "20260724",
           "type": "negative",
           "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
@@ -80,20 +86,20 @@
           "type": "negative",
           "headline": "[거시분석] Trump says US strikes hit Iran in 'honour' of...",
           "score": -2
-        },
-        {
-          "date": "20260719",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran trade fire after two US soldiers ...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 21,
-      "negative_count": 2,
+      "negative_count": 1,
       "recent_events": [
+        {
+          "date": "20260725",
+          "type": "positive",
+          "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
+          "score": 2
+        },
         {
           "date": "20260724",
           "type": "positive",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "이란 보건부 \"美 공습으로 53명 사망·592명 부상\"",
           "score": 1
-        },
-        {
-          "date": "20260722",
-          "type": "positive",
-          "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
-          "score": 3
         }
       ]
     },
@@ -151,6 +151,12 @@
       "negative_count": 13,
       "recent_events": [
         {
+          "date": "20260725",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
+          "score": -1
+        },
+        {
           "date": "20260724",
           "type": "negative",
           "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
@@ -172,12 +178,6 @@
           "date": "20260721",
           "type": "negative",
           "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
-          "score": -1
-        },
-        {
-          "date": "20260719",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran trade fire after two US soldiers ...",
           "score": -1
         }
       ]
@@ -219,6 +219,12 @@
       "negative_count": 19,
       "recent_events": [
         {
+          "date": "20260725",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
+          "score": -4
+        },
+        {
           "date": "20260724",
           "type": "negative",
           "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
@@ -241,36 +247,11 @@
           "type": "negative",
           "headline": "수명 다 된 10% 글로벌관세…트럼프 '301조 관세' 부과 임박(종합)",
           "score": -1
-        },
-        {
-          "date": "20260721",
-          "type": "negative",
-          "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
-          "score": -3
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260710",
-      "headline": "US-Iran war: Will peace talks resume, and when?",
-      "impacts": {
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260710",
-      "headline": "[거시분석] Huge crowds in Mashhad as Iran's late supreme...",
-      "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -4,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260711",
       "headline": "Apple sues OpenAI, its employees claiming theft of trade secrets",
@@ -603,9 +584,20 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260725",
+      "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
+      "impacts": {
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -4,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 45,
+  "total_negatives": 44,
   "total_positives": 34,
   "risk_level": "EXTREME"
 }
