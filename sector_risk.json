@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T11:54:56.259285+09:00",
+  "updated_at": "2026-07-24T15:28:49.198231+09:00",
   "date": "20260724",
   "window_days": 14,
   "sectors": [
@@ -148,14 +148,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 13,
+      "negative_count": 12,
       "recent_events": [
-        {
-          "date": "20260724",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine's ousted defence minister insists on ...",
-          "score": -1
-        },
         {
           "date": "20260723",
           "type": "negative",
@@ -178,6 +172,12 @@
           "date": "20260719",
           "type": "negative",
           "headline": "[거시분석] US and Iran trade fire after two US soldiers ...",
+          "score": -1
+        },
+        {
+          "date": "20260718",
+          "type": "negative",
+          "headline": "[거시분석] US strikes hit Iran for seventh consecutive n...",
           "score": -1
         }
       ]
@@ -216,19 +216,13 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 20,
+      "negative_count": 19,
       "recent_events": [
         {
           "date": "20260724",
           "type": "negative",
-          "headline": "정부 \"미측, 한국 관세 15% 상한선 준수 입장 재확인\"(종합)",
-          "score": -1
-        },
-        {
-          "date": "20260724",
-          "type": "negative",
           "headline": "[거시분석] Ukraine's ousted defence minister insists on ...",
-          "score": -4
+          "score": -3
         },
         {
           "date": "20260723",
@@ -247,6 +241,12 @@
           "type": "negative",
           "headline": "수명 다 된 10% 글로벌관세…트럼프 '301조 관세' 부과 임박(종합)",
           "score": -1
+        },
+        {
+          "date": "20260721",
+          "type": "negative",
+          "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
+          "score": -3
         }
       ]
     }
@@ -595,25 +595,16 @@
     },
     {
       "date": "20260724",
-      "headline": "정부 \"미측, 한국 관세 15% 상한선 준수 입장 재확인\"(종합)",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260724",
       "headline": "[거시분석] Ukraine's ousted defence minister insists on ...",
       "impacts": {
         "방산": 2,
         "건설": -1,
-        "전체시장": -4,
-        "금융": -1
+        "전체시장": -3
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 46,
+  "total_negatives": 44,
   "total_positives": 34,
   "risk_level": "EXTREME"
 }
