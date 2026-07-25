@@ -1,21 +1,21 @@
 {
-  "regime": "SIDEWAYS",
-  "label": "횡보장 🟡",
-  "kospi": NaN,
-  "ma20": NaN,
-  "ma60": NaN,
-  "ret_5d": NaN,
-  "ret_20d": NaN,
+  "regime": "BEAR",
+  "label": "약세장 🔴",
+  "kospi": 6690.62,
+  "ma20": 7433.13,
+  "ma60": 7774.37,
+  "ret_5d": 2.68,
+  "ret_20d": -20.46,
   "vol_trend": false,
-  "cycle_stage": "unknown",
+  "cycle_stage": "uptrend",
   "cycle_multiplier_adj": 0.0,
-  "longterm_new_buy_ok": true,
+  "longterm_new_buy_ok": false,
   "daytrend_new_buy_ok": false,
   "params": {
-    "label": "횡보장 🟡",
-    "allow_new_longterm": true,
+    "label": "약세장 🔴",
+    "allow_new_longterm": false,
     "allow_new_daytrend": false,
-    "position_multiplier": 0.6,
+    "position_multiplier": 0.0,
     "long_tp": [
       0.3,
       0.4
@@ -26,9 +26,9 @@
     ],
     "long_sl": -0.15,
     "short_sl": -0.15,
-    "min_buy_score": 6,
+    "min_buy_score": 9,
     "trailing_stop": 0.1
   },
-  "effective_position_multiplier": 0.6,
-  "cached_at": "2026-07-25T11:13:58.591150"
+  "effective_position_multiplier": 0.0,
+  "cached_at": "2026-07-25T13:41:56.839933"
 }
