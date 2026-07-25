@@ -1,10 +1,10 @@
 {
-  "updated": "2026-07-25 18:51",
-  "news_count": 52,
-  "intl_count": 52,
+  "updated": "2026-07-25 20:13",
+  "news_count": 51,
+  "intl_count": 51,
   "domestic_count": 0,
   "source_stats": {
-    "BBC World": 26,
+    "BBC World": 25,
     "Al Jazeera": 26,
     "연합뉴스": 0,
     "한국경제": 0,
@@ -13,22 +13,21 @@
     "StockPlus": 0
   },
   "news_sample": [
-    "More than 220,000 evacuated in France and Spain due to wildfires",
+    "Trump takes swipes at press during White House Correspondents' Dinner",
+    "Iran-backed Houthis claim missile attack on Saudi Arabia",
     "Ten killed in Russian attack on drone exhibition near Kyiv",
     "Zelensky tries to fix crisis over removal of defence minister and counts the cost",
-    "Four Palestinians and two Israelis killed in West Bank shooting",
-    "Texts reveal 14-year-old allegedly murdered by singer D4vd had pregnancy and abortion"
+    "Four Palestinians and two Israelis killed in West Bank shooting"
   ],
   "all_headlines": [
-    "More than 220,000 evacuated in France and Spain due to wildfires",
+    "Trump takes swipes at press during White House Correspondents' Dinner",
+    "Iran-backed Houthis claim missile attack on Saudi Arabia",
     "Ten killed in Russian attack on drone exhibition near Kyiv",
     "Zelensky tries to fix crisis over removal of defence minister and counts the cost",
     "Four Palestinians and two Israelis killed in West Bank shooting",
-    "Texts reveal 14-year-old allegedly murdered by singer D4vd had pregnancy and abortion",
-    "Iran-backed Houthis claim missile attack on Saudi Arabia",
-    "Trump vows to investigate EU over fining of US tech companies",
     "ICC top prosecutor removed over sexual misconduct allegations",
-    "Trump takes swipes at press during White House Correspondents' Dinner",
+    "Texts reveal 14-year-old allegedly murdered by singer D4vd had pregnancy and abortion",
+    "Trump vows to investigate EU over fining of US tech companies",
     "Trump orders Smithsonian to post warnings about 'inaccurate' US history",
     "US hits dozens of countries with new wave of tariffs",
     "Nigeria's president approves largest military expansion in recent times",
@@ -47,6 +46,7 @@
     "Families still search for bodies a month after Venezuela earthquakes",
     "Watch: Driver dressed as Spider-Man whisks man in a wheelchair across busy road",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "How Volker Turk won a new term as UN rights chief despite Israel opposition",
     "Israel arrests dozens of Palestinians in West Bank amid settler attacks",
     "India’s education minister resigns after weeks of ‘Cockroach’ protests",
     "Dodging snipers, housing crisis forces Yemenis to live on front line",
@@ -70,8 +70,7 @@
     "Trump says ‘it’s time’ for Saudi Arabia to normalise ties with Israel",
     "Premier League, La Liga, Champions League? How to fill World Cup void",
     "IOC rejects human rights group’s complaint against Trump ally Infantino",
-    "China, Philippine coastguard vessels clash in South China Sea",
-    "Paramount agrees to pause Warner Bros deal while court case plays out"
+    "China, Philippine coastguard vessels clash in South China Sea"
   ],
   "categories": {
     "geopolitical": {
