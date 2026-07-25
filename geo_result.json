@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-26 05:56",
+  "updated": "2026-07-26 07:57",
   "news_count": 52,
   "intl_count": 52,
   "domestic_count": 0,
@@ -14,13 +14,14 @@
   },
   "news_sample": [
     "More than 250,000 flee wildfires in France and Spain",
+    "Several injured at Berlin Pride after reports vehicle drove into crowd, police say",
     "Trump takes swipes at press during White House Correspondents' Dinner",
     "India's 'cockroach' protest called off after education minister quits",
-    "Iran-backed Houthis claim missile attack on Saudi Arabia",
-    "Ten killed in Russian attack on drone exhibition near Kyiv"
+    "Iran-backed Houthis claim missile attack on Saudi Arabia"
   ],
   "all_headlines": [
     "More than 250,000 flee wildfires in France and Spain",
+    "Several injured at Berlin Pride after reports vehicle drove into crowd, police say",
     "Trump takes swipes at press during White House Correspondents' Dinner",
     "India's 'cockroach' protest called off after education minister quits",
     "Iran-backed Houthis claim missile attack on Saudi Arabia",
@@ -34,19 +35,23 @@
     "US hits dozens of countries with new wave of tariffs",
     "Nigeria's president approves largest military expansion in recent times",
     "World chess chief faces endgame after EU announces Russia war sanctions",
-    "PlayStation Network outage resolved after thousands of gamers unable to play",
+    "Smash hit: How Alex Eala's Wimbledon run made everyday Filipinos fall in love with tennis",
     "CJP protest: The youth movement India's Modi didn't see coming",
     "Warning shot or publicity stunt - how worried should we be about the OpenAI hack?",
     "Indonesian babies were trafficked to Singapore. What happens to them now?",
     "The pop band who went from playing for rescue dogs to selling out arenas",
     "South Africa's president wins bid to temporarily halt impeachment inquiry over 'Farmgate'",
-    "Houthi attacks raise fears of wider Middle East conflict and more global economic damage",
     "Protesters celebrate resignation of India's education minister",
     "India cockroach protests: Videos show officers firing 'pellet guns'",
     "Watch: Another day, more Trump tariffs - but are they working?",
     "Watch: Wildfires rage across Spain and France",
     "Families still search for bodies a month after Venezuela earthquakes",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "One dead, 14 injured as car reportedly strikes crowd at Berlin LGBTQ event",
+    "Israeli forces target Gaza’s Al-Aqsa hospital",
+    "What’s next for Venezuela’s path to recovery from devastating earthquakes?",
+    "Israeli forces tear gas journalists reporting Nablus shootout",
+    "How India’s ‘Cockroach’ protesters shook the Modi government",
     "Head of Hamas-led police in northern Gaza killed by Israeli strike",
     "At least 35 killed after two buses collide in eastern Syria",
     "Ebola deaths in DRC surge past 1,300 as virus ‘spreading like a wildfire’",
@@ -66,12 +71,7 @@
     "Iran blames US for Hormuz dispute as both sides confirm ongoing talks",
     "Baby rescued after Israeli settlers set home on fire amid raids",
     "At least 15 killed in Ukrainian and Russian strikes as holiday camp hit",
-    "Trump faces backlash for using ‘Palestinian’ as an insult",
-    "Scrutiny of WNBA intensifies as disarray looms over All-Star festivities",
-    "Tuberculosis: How drones are transforming care in the Philippines",
-    "Two buses collide in Syria, killing at least 35 people",
-    "India’s youth protesters are fighting Modi with irreverent humour and memes",
-    "How Volker Turk won new UN rights chief term despite US, Israel opposition"
+    "Trump faces backlash for using ‘Palestinian’ as an insult"
   ],
   "categories": {
     "geopolitical": {
@@ -80,17 +80,17 @@
       "signal": "🔴",
       "summary": "Iran-backed Houthis claim missile attack on S...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 5,
+      "matched": 6,
       "score": 1.5
     },
     "macro": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "Tuberculosis: How drones are transforming car...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.4
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     },
     "disaster": {
       "level": "안전",
