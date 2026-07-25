@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25 22:41",
+  "updated": "2026-07-26 00:05",
   "news_count": 50,
   "intl_count": 50,
   "domestic_count": 0,
@@ -39,12 +39,15 @@
     "The pop band who went from playing for rescue dogs to selling out arenas",
     "South Africa's president wins bid to temporarily halt impeachment inquiry over 'Farmgate'",
     "Houthi attacks raise fears of wider Middle East conflict and more global economic damage",
+    "Protesters celebrate resignation of India's education minister",
     "India cockroach protests: Videos show officers firing 'pellet guns'",
     "Watch: Another day, more Trump tariffs - but are they working?",
     "Watch: Wildfires rage across Spain and France",
     "Families still search for bodies a month after Venezuela earthquakes",
-    "Watch: Driver dressed as Spider-Man whisks man in a wheelchair across busy road",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "The Global South is being forced to choose creditors over children",
+    "Atletico Madrid sign South Korea World Cup star Lee Kang-In from PSG",
+    "War on Iran: Phase II: Day 14",
     "F1 needs better balance between business and sport, says Norris",
     "What’s behind the ICC investigation into Karim Khan?",
     "Iran blames US for Hormuz dispute as both sides confirm ongoing talks",
@@ -66,10 +69,7 @@
     "Commonwealth Games: Gymnast Langton’s headfirst crash leads to concussion",
     "Venezuelans hold vigil one month after devastating earthquakes",
     "South Africa’s le Clos breaks Commonwealth Games record with 19th medal",
-    "Funerals held for four Palestinians killed in deadly West Bank shooting",
-    "‘The show must go on’: Trump returns to rescheduled White House press gala",
-    "Firefighters battle fire after fertiliser explosion in England",
-    "From palava huts to TikTok: How Liberians are preserving their past"
+    "Funerals held for four Palestinians killed in deadly West Bank shooting"
   ],
   "categories": {
     "geopolitical": {
@@ -78,7 +78,7 @@
       "signal": "🔴",
       "summary": "Iran-backed Houthis claim missile attack on S...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 3,
+      "matched": 4,
       "score": 1.5
     },
     "macro": {
@@ -105,7 +105,7 @@
       "signal": "🔴",
       "summary": "Iran-backed Houthis claim missile attack on S...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 5,
+      "matched": 6,
       "score": 1.5
     },
     "policy": {

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-25T22:41:55.651596+09:00",
-  "date": "20260725",
+  "updated_at": "2026-07-26T00:06:03.860591+09:00",
+  "date": "20260726",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,10 +16,22 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -1,
+      "score": -3,
       "positive_count": 5,
-      "negative_count": 3,
+      "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20260726",
+          "type": "positive",
+          "headline": "Warning shot or publicity stunt - how worried should we be about the OpenAI hack?",
+          "score": 1
+        },
+        {
+          "date": "20260726",
+          "type": "negative",
+          "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
+          "score": -2
+        },
         {
           "date": "20260725",
           "type": "positive",
@@ -37,26 +49,20 @@
           "type": "positive",
           "headline": "How are companies, governments responding to the OpenAI hack?",
           "score": 1
-        },
-        {
-          "date": "20260722",
-          "type": "negative",
-          "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
-          "score": -2
-        },
-        {
-          "date": "20260717",
-          "type": "positive",
-          "headline": "Chip giant TSMC pledges another $100bn to expand US production",
-          "score": 1
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20260726",
+          "type": "negative",
+          "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
+          "score": -2
+        },
         {
           "date": "20260725",
           "type": "negative",
@@ -80,20 +86,26 @@
           "type": "negative",
           "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
           "score": -2
-        },
-        {
-          "date": "20260720",
-          "type": "negative",
-          "headline": "[거시분석] Trump says US strikes hit Iran in 'honour' of...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 22,
+      "positive_count": 23,
       "negative_count": 1,
       "recent_events": [
+        {
+          "date": "20260726",
+          "type": "positive",
+          "headline": "Iran-backed Houthis claim missile attack on Saudi Arabia",
+          "score": 1
+        },
+        {
+          "date": "20260726",
+          "type": "positive",
+          "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
+          "score": 3
+        },
         {
           "date": "20260725",
           "type": "positive",
@@ -111,18 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
           "score": 2
-        },
-        {
-          "date": "20260723",
-          "type": "positive",
-          "headline": "[2보] 중동 긴장 고조에 브렌트유 두달만에 100달러 돌파",
-          "score": 1
-        },
-        {
-          "date": "20260723",
-          "type": "positive",
-          "headline": "[거시분석] Houthis claim attack on oil tankers as US lau...",
-          "score": 3
         }
       ]
     },
@@ -151,6 +151,12 @@
       "negative_count": 13,
       "recent_events": [
         {
+          "date": "20260726",
+          "type": "negative",
+          "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
+          "score": -1
+        },
+        {
           "date": "20260725",
           "type": "negative",
           "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
@@ -172,12 +178,6 @@
           "date": "20260722",
           "type": "negative",
           "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
-          "score": -1
-        },
-        {
-          "date": "20260721",
-          "type": "negative",
-          "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
           "score": -1
         }
       ]
@@ -219,6 +219,12 @@
       "negative_count": 19,
       "recent_events": [
         {
+          "date": "20260726",
+          "type": "negative",
+          "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
+          "score": -7
+        },
+        {
           "date": "20260725",
           "type": "negative",
           "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
@@ -241,35 +247,11 @@
           "type": "negative",
           "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
           "score": -7
-        },
-        {
-          "date": "20260721",
-          "type": "negative",
-          "headline": "수명 다 된 10% 글로벌관세…트럼프 '301조 관세' 부과 임박(종합)",
-          "score": -1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260711",
-      "headline": "Apple sues OpenAI, its employees claiming theft of trade secrets",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260711",
-      "headline": "[거시분석] US wants Iran to pledge to stop shooting at s...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -3,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260712",
       "headline": "베네수엘라 '대규모 재건' 시동…주택 2만5천채 공급 추진",
@@ -612,9 +594,37 @@
         "반도체·AI": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260726",
+      "headline": "Iran-backed Houthis claim missile attack on Saudi Arabia",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260726",
+      "headline": "Warning shot or publicity stunt - how worried should we be about the OpenAI hack?",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260726",
+      "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -7,
+        "금융": -1,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 45,
-  "total_positives": 36,
+  "total_negatives": 47,
+  "total_positives": 37,
   "risk_level": "EXTREME"
 }
