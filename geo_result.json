@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-26 04:12",
+  "updated": "2026-07-26 05:56",
   "news_count": 52,
   "intl_count": 52,
   "domestic_count": 0,
@@ -47,6 +47,8 @@
     "Watch: Wildfires rage across Spain and France",
     "Families still search for bodies a month after Venezuela earthquakes",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Head of Hamas-led police in northern Gaza killed by Israeli strike",
+    "At least 35 killed after two buses collide in eastern Syria",
     "Ebola deaths in DRC surge past 1,300 as virus ‘spreading like a wildfire’",
     "How Netanyahu gov’t media reforms risk deepening Israeli press bias",
     "Why Epstein’s survivors are still fighting",
@@ -63,15 +65,13 @@
     "What’s behind the ICC investigation into Karim Khan?",
     "Iran blames US for Hormuz dispute as both sides confirm ongoing talks",
     "Baby rescued after Israeli settlers set home on fire amid raids",
-    "At least 11 killed in Ukrainian and Russian strikes as holiday camp hit",
+    "At least 15 killed in Ukrainian and Russian strikes as holiday camp hit",
     "Trump faces backlash for using ‘Palestinian’ as an insult",
     "Scrutiny of WNBA intensifies as disarray looms over All-Star festivities",
     "Tuberculosis: How drones are transforming care in the Philippines",
     "Two buses collide in Syria, killing at least 35 people",
     "India’s youth protesters are fighting Modi with irreverent humour and memes",
-    "How Volker Turk won new UN rights chief term despite US, Israel opposition",
-    "Israel arrests dozens of Palestinians in West Bank amid settler attacks",
-    "India’s ‘Cockroach’ youth call off protests after education minister quits"
+    "How Volker Turk won new UN rights chief term despite US, Israel opposition"
   ],
   "categories": {
     "geopolitical": {
@@ -80,7 +80,7 @@
       "signal": "🔴",
       "summary": "Iran-backed Houthis claim missile attack on S...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 4,
+      "matched": 5,
       "score": 1.5
     },
     "macro": {
