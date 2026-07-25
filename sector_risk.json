@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-25T11:54:35.354435+09:00",
+  "updated_at": "2026-07-25T15:20:30.888371+09:00",
   "date": "20260725",
   "window_days": 14,
   "sectors": [
@@ -29,7 +29,7 @@
         {
           "date": "20260725",
           "type": "negative",
-          "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
+          "headline": "[거시분석] US hits dozens of countries with new wave of ...",
           "score": -2
         },
         {
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 9,
+      "negative_count": 8,
       "recent_events": [
-        {
-          "date": "20260725",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
-          "score": -1
-        },
         {
           "date": "20260724",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] Trump says US strikes hit Iran in 'honour' of...",
           "score": -2
+        },
+        {
+          "date": "20260719",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran trade fire after two US soldiers ...",
+          "score": -2
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20260725",
           "type": "positive",
-          "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
-          "score": 2
+          "headline": "[거시분석] US hits dozens of countries with new wave of ...",
+          "score": 1
         },
         {
           "date": "20260724",
@@ -153,7 +153,7 @@
         {
           "date": "20260725",
           "type": "negative",
-          "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
+          "headline": "[거시분석] US hits dozens of countries with new wave of ...",
           "score": -1
         },
         {
@@ -216,19 +216,13 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 20,
+      "negative_count": 19,
       "recent_events": [
         {
           "date": "20260725",
           "type": "negative",
-          "headline": "Canada marks Gordie Howe bridge opening without US after trade war deepens",
-          "score": -1
-        },
-        {
-          "date": "20260725",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
-          "score": -6
+          "headline": "[거시분석] US hits dozens of countries with new wave of ...",
+          "score": -5
         },
         {
           "date": "20260724",
@@ -247,6 +241,12 @@
           "type": "negative",
           "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
           "score": -7
+        },
+        {
+          "date": "20260721",
+          "type": "negative",
+          "headline": "수명 다 된 10% 글로벌관세…트럼프 '301조 관세' 부과 임박(종합)",
+          "score": -1
         }
       ]
     }
@@ -595,26 +595,17 @@
     },
     {
       "date": "20260725",
-      "headline": "Canada marks Gordie Howe bridge opening without US after trade war deepens",
+      "headline": "[거시분석] US hits dozens of countries with new wave of ...",
       "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260725",
-      "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
-      "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -6,
+        "방산": 1,
+        "전체시장": -5,
         "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 46,
+  "total_negatives": 44,
   "total_positives": 35,
   "risk_level": "EXTREME"
 }

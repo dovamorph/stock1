@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25 11:54",
+  "updated": "2026-07-25 15:20",
   "news_count": 52,
   "intl_count": 52,
   "domestic_count": 0,
@@ -16,30 +16,30 @@
     "More than 220,000 evacuated in France and Spain due to wildfires",
     "Ten killed in Russian attack on drone exhibition near Kyiv",
     "Zelensky tries to fix crisis over removal of defence minister and counts the cost",
-    "Texts reveal 14-year-old allegedly murdered by singer D4vd had pregnancy and abortion",
-    "Trump vows to investigate EU over fining of US tech companies"
+    "Four Palestinians and two Israelis killed in West Bank shooting",
+    "Texts reveal 14-year-old allegedly murdered by singer D4vd had pregnancy and abortion"
   ],
   "all_headlines": [
     "More than 220,000 evacuated in France and Spain due to wildfires",
     "Ten killed in Russian attack on drone exhibition near Kyiv",
     "Zelensky tries to fix crisis over removal of defence minister and counts the cost",
+    "Four Palestinians and two Israelis killed in West Bank shooting",
     "Texts reveal 14-year-old allegedly murdered by singer D4vd had pregnancy and abortion",
+    "Saudi Arabia and Houthis exchange fire as US attacks tanker in Hormuz Strait",
     "Trump vows to investigate EU over fining of US tech companies",
-    "US and Iran trade more strikes in Gulf as fears of escalation mount",
     "ICC top prosecutor removed over sexual misconduct allegations",
+    "Trump takes swipes at press during White House Correspondents' Dinner",
     "Trump orders Smithsonian to post warnings about 'inaccurate' US history",
     "US hits dozens of countries with new wave of tariffs",
-    "Four Palestinians and two Israelis killed in West Bank shooting",
     "Nigeria's president approves largest military expansion in recent times",
     "World chess chief faces endgame after EU announces Russia war sanctions",
-    "South Africa's president wins bid to temporarily halt impeachment inquiry over 'Farmgate'",
-    "India's 'cockroach' protesters hold talks with government as stalemate continues",
+    "PlayStation Network outage resolved after thousands of gamers unable to play",
     "Warning shot or publicity stunt - how worried should we be about the OpenAI hack?",
     "Indonesian babies were trafficked to Singapore. What happens to them now?",
     "'The dogs were getting upset': How LA band Muna survived their worst ever gig",
     "CJP protest: The youth movement India's Modi didn't see coming",
+    "South Africa's president wins bid to temporarily halt impeachment inquiry over 'Farmgate'",
     "Houthi attacks raise fears of wider Middle East conflict and more global economic damage",
-    "Trump's nuclear deal with Saudis jettisons longstanding US demands",
     "'What was their crime?': BBC visits Iran school where strike killed 120 children",
     "India cockroach protests: Videos show officers firing 'pellet guns'",
     "Watch: Another day, more Trump tariffs - but are they working?",
@@ -47,6 +47,10 @@
     "Families still search for bodies a month after Venezuela earthquakes",
     "Watch: Driver dressed as Spider-Man whisks man in a wheelchair across busy road",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Venezuelans hold vigil one month after devastating earthquakes",
+    "South Africa’s le Clos breaks Commonwealth Games record with 19th medal",
+    "Funerals held for four Palestinians killed in deadly West Bank shooting",
+    "‘The show must go on’: Trump returns to rescheduled White House press gala",
     "Firefighters battle fire after fertiliser explosion in England",
     "From palava huts to TikTok: How Liberians are preserving their past",
     "Sons of immigrant killed by ICE in Texas share grief, demand accountability",
@@ -56,7 +60,7 @@
     "UN rights chief Turk wins second term despite US and Israeli opposition",
     "Iran war live: Trump says US ‘locked and loaded’ as it seeks Iran talks",
     "Trump says ‘it’s time’ for Saudi Arabia to normalise ties with Israel",
-    "Which matches and tournaments can football fans watch after the World Cup?",
+    "Premier League, La Liga, Champions League? How to fill World Cup void",
     "IOC rejects human rights group’s complaint against Trump ally Infantino",
     "China, Philippine coastguard vessels clash in South China Sea",
     "Paramount agrees to pause Warner Bros deal while court case plays out",
@@ -67,21 +71,17 @@
     "US small businesses challenge Trump’s new forced labour tariffs",
     "Israeli settlers escalate attacks on Palestinians near Nablus",
     "Venezuela to exit International Criminal Court, accusing it of ‘bias’",
-    "Saudi Arabia strikes Houthi-held Hodeidah, Yemeni group says",
-    "Canada marks Gordie Howe bridge opening without US after trade war deepens",
-    "Who is Afrah al-Zouba, Yemen’s first female foreign minister?",
-    "Wildfire survivors tell of narrow escape as Spain declares emergency",
-    "Car bomb attack kills 27 in northwest Pakistan"
+    "Saudi Arabia strikes Houthi-held Hodeidah, Yemeni group says"
   ],
   "categories": {
     "geopolitical": {
-      "level": "경고",
-      "color": "orange",
-      "signal": "🟠",
-      "summary": "US and Iran trade more strikes in Gulf as fea...",
-      "action": "포지션 축소 검토 / 모니터링 강화",
-      "matched": 4,
-      "score": 1.5
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "'What was their crime?': BBC visits Iran scho...",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 3,
+      "score": 4.3
     },
     "macro": {
       "level": "주의",
@@ -105,10 +105,10 @@
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "US and Iran trade more strikes in Gulf as fea...",
+      "summary": "US hits dozens of countries with new wave of ...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 9,
-      "score": 2.9
+      "matched": 7,
+      "score": 1.5
     },
     "policy": {
       "level": "안전",
@@ -121,9 +121,9 @@
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
-    "summary": "주의 필요: 지정학적 충돌, 보호무역·공급망",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "level": "주의",
+    "color": "yellow",
+    "summary": "주의 필요: 보호무역·공급망",
+    "action": "신규 매수 자제 / 추이 관찰"
   }
 }
