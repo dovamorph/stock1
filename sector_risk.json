@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T02:02:18.319023+09:00",
+  "updated_at": "2026-07-26T04:12:31.440423+09:00",
   "date": "20260726",
   "window_days": 14,
   "sectors": [
@@ -91,25 +91,13 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 25,
+      "positive_count": 23,
       "negative_count": 1,
       "recent_events": [
         {
           "date": "20260726",
           "type": "positive",
           "headline": "Iran-backed Houthis claim missile attack on Saudi Arabia",
-          "score": 1
-        },
-        {
-          "date": "20260726",
-          "type": "positive",
-          "headline": "후티 \"아람코 석유시설 공격\"…'중동 제2전선' 긴장 고조(종합2보)",
-          "score": 1
-        },
-        {
-          "date": "20260726",
-          "type": "positive",
-          "headline": "러·우 상호 공습 계속…양국서 최소 20명 사망",
           "score": 1
         },
         {
@@ -123,6 +111,18 @@
           "type": "positive",
           "headline": "Iran-backed Houthis claim missile attack on Saudi Arabia",
           "score": 1
+        },
+        {
+          "date": "20260725",
+          "type": "positive",
+          "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
+          "score": 3
+        },
+        {
+          "date": "20260724",
+          "type": "positive",
+          "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
+          "score": 2
         }
       ]
     },
@@ -216,14 +216,8 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 20,
+      "negative_count": 19,
       "recent_events": [
-        {
-          "date": "20260726",
-          "type": "negative",
-          "headline": "\"美 대체관세 10년 세수, 무효된 기존관세보다 1천207조원 적어\"",
-          "score": -1
-        },
         {
           "date": "20260726",
           "type": "negative",
@@ -247,6 +241,12 @@
           "type": "negative",
           "headline": "[거시분석] Houthis claim attack on oil tankers as US lau...",
           "score": -6
+        },
+        {
+          "date": "20260722",
+          "type": "negative",
+          "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
+          "score": -7
         }
       ]
     }
@@ -621,30 +621,6 @@
     },
     {
       "date": "20260726",
-      "headline": "후티 \"아람코 석유시설 공격\"…'중동 제2전선' 긴장 고조(종합2보)",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260726",
-      "headline": "\"美 대체관세 10년 세수, 무효된 기존관세보다 1천207조원 적어\"",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260726",
-      "headline": "러·우 상호 공습 계속…양국서 최소 20명 사망",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260726",
       "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
       "impacts": {
         "방산": 3,
@@ -656,7 +632,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 48,
-  "total_positives": 40,
+  "total_negatives": 47,
+  "total_positives": 38,
   "risk_level": "EXTREME"
 }
