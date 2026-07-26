@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T06:02:04.049453+09:00",
+  "updated_at": "2026-07-27T08:02:05.240115+09:00",
   "date": "20260727",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -6,
+      "score": -4,
       "positive_count": 4,
-      "negative_count": 5,
+      "negative_count": 4,
       "recent_events": [
-        {
-          "date": "20260727",
-          "type": "negative",
-          "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
-          "score": -2
-        },
         {
           "date": "20260726",
           "type": "negative",
@@ -49,6 +43,12 @@
           "type": "positive",
           "headline": "How are companies, governments responding to the OpenAI hack?",
           "score": 1
+        },
+        {
+          "date": "20260722",
+          "type": "negative",
+          "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
+          "score": -2
         }
       ]
     },
@@ -60,7 +60,7 @@
         {
           "date": "20260727",
           "type": "negative",
-          "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
+          "headline": "[거시분석] PM pledges continued support for Ukraine ahea...",
           "score": -2
         },
         {
@@ -103,7 +103,7 @@
         {
           "date": "20260727",
           "type": "positive",
-          "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
+          "headline": "[거시분석] PM pledges continued support for Ukraine ahea...",
           "score": 3
         },
         {
@@ -221,8 +221,8 @@
         {
           "date": "20260727",
           "type": "negative",
-          "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
-          "score": -6
+          "headline": "[거시분석] PM pledges continued support for Ukraine ahea...",
+          "score": -4
         },
         {
           "date": "20260726",
@@ -605,17 +605,16 @@
     },
     {
       "date": "20260727",
-      "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
+      "headline": "[거시분석] PM pledges continued support for Ukraine ahea...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -6,
-        "반도체·AI": -2
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 46,
+  "total_negatives": 45,
   "total_positives": 36,
   "risk_level": "EXTREME"
 }
