@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27 00:08",
+  "updated": "2026-07-27 02:05",
   "news_count": 52,
   "intl_count": 52,
   "domestic_count": 0,
@@ -47,6 +47,15 @@
     "India cockroach protests: Videos show officers firing 'pellet guns'",
     "Watch: Another day, more Trump tariffs - but are they working?",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Israel obstructing takeover of pilot zones in Lebanon’s south: Military",
+    "Heatwave drives major wildfires across North Africa",
+    "Darfur: Weaponising Identity",
+    "Typhoon Noul batters Southeast China",
+    "Who is India’s new education minister Pralhad Joshi?",
+    "Senator Whitehouse: Netanyahu a ‘walking provocation’ for Americans",
+    "Lando Norris wins Hungarian Grand Prix for first F1 triumph in 2026",
+    "More than 360,000 evacuated as wildfires rage in France and Spain",
+    "Israel carries out double tap strike in central Gaza",
     "Tunisia grapples with five years of crisis since Saied’s power grab",
     "Senegal’s Faye launches a new party, formalising his split with Sonko",
     "Controversial Argentina World Cup banner gets new life in print",
@@ -62,16 +71,7 @@
     "Eighteen people missing in South China Sea after Vietnamese ship sank",
     "President Ahmed al-Sharaa: Syria seeking security deal with Israel",
     "What is the AI Kill Switch Act proposed in the US and how will it work?",
-    "Casemiro makes Inter Miami debut despite MLS investigation into transfer",
-    "Iran’s army issues warning ahead of Netanyahu’s US visit",
-    "‘No accountability for settler war crimes against Palestinians’",
-    "Malaysia to host rescheduled Bahrain Grand Prix F1 race in October",
-    "Anti-war protesters demand end to US use of UK airbase to strike Iran",
-    "Female football referee suffers concussion amid male players’ melee",
-    "Why the UK cancelled a military exercise in Kenya – and what it means",
-    "After Strait of Hormuz and Red Sea, has Iran war now reached Caspian Sea?",
-    "Who is India’s new education minister?",
-    "Japanese football legend ‘King Kazu’, 59, scores first goal in four years"
+    "Casemiro makes Inter Miami debut despite MLS investigation into transfer"
   ],
   "categories": {
     "geopolitical": {
@@ -80,7 +80,7 @@
       "signal": "🔴",
       "summary": "Iran-backed Houthis claim missile attack on S...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 6,
+      "matched": 4,
       "score": 1.5
     },
     "macro": {
@@ -107,7 +107,7 @@
       "signal": "🔴",
       "summary": "Iran-backed Houthis claim missile attack on S...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 8,
+      "matched": 5,
       "score": 1.5
     },
     "policy": {
