@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T07:57:46.917938+09:00",
+  "updated_at": "2026-07-26T12:20:13.677380+09:00",
   "date": "20260726",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -3,
-      "positive_count": 5,
+      "score": -4,
+      "positive_count": 4,
       "negative_count": 4,
       "recent_events": [
-        {
-          "date": "20260726",
-          "type": "positive",
-          "headline": "Warning shot or publicity stunt - how worried should we be about the OpenAI hack?",
-          "score": 1
-        },
         {
           "date": "20260726",
           "type": "negative",
@@ -49,6 +43,12 @@
           "type": "positive",
           "headline": "How are companies, governments responding to the OpenAI hack?",
           "score": 1
+        },
+        {
+          "date": "20260722",
+          "type": "negative",
+          "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
+          "score": -2
         }
       ]
     },
@@ -605,14 +605,6 @@
     },
     {
       "date": "20260726",
-      "headline": "Warning shot or publicity stunt - how worried should we be about the OpenAI hack?",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260726",
       "headline": "Worker dies during reconstruction of Barcelona’s Camp Nou Stadium",
       "impacts": {
         "건설": 1
@@ -632,6 +624,6 @@
     }
   ],
   "total_negatives": 46,
-  "total_positives": 38,
+  "total_positives": 37,
   "risk_level": "EXTREME"
 }
