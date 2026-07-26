@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-26 22:36",
+  "updated": "2026-07-27 00:08",
   "news_count": 52,
   "intl_count": 52,
   "domestic_count": 0,
@@ -47,6 +47,16 @@
     "India cockroach protests: Videos show officers firing 'pellet guns'",
     "Watch: Another day, more Trump tariffs - but are they working?",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Tunisia grapples with five years of crisis since Saied’s power grab",
+    "Senegal’s Faye launches a new party, formalising his split with Sonko",
+    "Controversial Argentina World Cup banner gets new life in print",
+    "Israel and the cost paradox of the Iran war",
+    "Israeli air strike on a vehicle in Gaza kills two Hamas security officials",
+    "Yemen’s health workers race to halt latest outbreak of deadly dengue fever",
+    "From paradise to ‘pilot zone’ disaster: Returning to destroyed Lebanon home",
+    "Why are Israeli settlers on a rampage in the occupied West Bank?",
+    "Langton released from hospital after concussion at Commonwealth Games",
+    "‘New education minister can’t bring my dead daughter back’",
     "What next for India’s ‘Cockroach’ movement after education minister sacked",
     "Israeli crackdown in occupied West Bank intensifies, settlers cause mayhem",
     "Eighteen people missing in South China Sea after Vietnamese ship sank",
@@ -61,17 +71,7 @@
     "Why the UK cancelled a military exercise in Kenya – and what it means",
     "After Strait of Hormuz and Red Sea, has Iran war now reached Caspian Sea?",
     "Who is India’s new education minister?",
-    "Japanese football legend ‘King Kazu’, 59, scores first goal in four years",
-    "Photos: Wildfires in France drive 250,000 people from their homes",
-    "Israeli protesters denounce deadly settler violence",
-    "The Cockroach Effect: Modi vs India’s Gen Z",
-    "Thousands rally against Tunisia’s president five years after power grab",
-    "Becoming the story: Injured journalists battle to leave Gaza for treatment",
-    "Israel debate boils over in the United States",
-    "Israel raids West Bank live: PM Netanyahu threatens ‘more broad action’",
-    "Tour de France final stage shortened as emergency teams tackle wildfires",
-    "Israeli settlers set fire to mosque in occupied West Bank",
-    "Cape Verde World Cup star Vozinha agrees deal with Chile’s Colo Colo"
+    "Japanese football legend ‘King Kazu’, 59, scores first goal in four years"
   ],
   "categories": {
     "geopolitical": {
@@ -80,7 +80,7 @@
       "signal": "🔴",
       "summary": "Iran-backed Houthis claim missile attack on S...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 5,
+      "matched": 6,
       "score": 1.5
     },
     "macro": {
@@ -107,7 +107,7 @@
       "signal": "🔴",
       "summary": "Iran-backed Houthis claim missile attack on S...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 7,
+      "matched": 8,
       "score": 1.5
     },
     "policy": {
