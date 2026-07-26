@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T12:20:13.677380+09:00",
+  "updated_at": "2026-07-26T15:39:58.863109+09:00",
   "date": "20260726",
   "window_days": 14,
   "sectors": [
@@ -54,15 +54,9 @@
     },
     "건설": {
       "score": -10,
-      "positive_count": 2,
+      "positive_count": 1,
       "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20260726",
-          "type": "positive",
-          "headline": "Worker dies during reconstruction of Barcelona’s Camp Nou Stadium",
-          "score": 1
-        },
         {
           "date": "20260726",
           "type": "negative",
@@ -85,6 +79,12 @@
           "date": "20260723",
           "type": "negative",
           "headline": "[거시분석] Houthis claim attack on oil tankers as US lau...",
+          "score": -2
+        },
+        {
+          "date": "20260722",
+          "type": "negative",
+          "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
           "score": -2
         }
       ]
@@ -605,14 +605,6 @@
     },
     {
       "date": "20260726",
-      "headline": "Worker dies during reconstruction of Barcelona’s Camp Nou Stadium",
-      "impacts": {
-        "건설": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260726",
       "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
       "impacts": {
         "방산": 3,
@@ -624,6 +616,6 @@
     }
   ],
   "total_negatives": 46,
-  "total_positives": 37,
+  "total_positives": 36,
   "risk_level": "EXTREME"
 }
