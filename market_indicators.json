@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27 00:19",
+  "updated": "2026-07-27 01:33",
   "indicators": {
     "usdkrw": {
       "label": "USD/KRW",
@@ -21,12 +21,12 @@
     },
     "us10y": {
       "label": "미국 10년물",
-      "value": 4.679,
+      "value": 4.703,
       "unit": "%",
-      "change": -0.024,
-      "change_pct": -0.51,
+      "change": 0.046,
+      "change_pct": 0.99,
       "signal": "🟡",
-      "desc": "4.68% (위험)"
+      "desc": "4.70% (위험)"
     },
     "gold": {
       "label": "금",
