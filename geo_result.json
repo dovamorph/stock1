@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27 02:05",
+  "updated": "2026-07-27 04:16",
   "news_count": 52,
   "intl_count": 52,
   "domestic_count": 0,
@@ -47,6 +47,12 @@
     "India cockroach protests: Videos show officers firing 'pellet guns'",
     "Watch: Another day, more Trump tariffs - but are they working?",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Israeli settlers burn two mosques in occupied West Bank",
+    "Romania summons Russian envoy as it shoots down third intruding drone",
+    "Al-Sharaa praises Trump’s decision to remove Syria from terrorism list",
+    "Berlin police shoot dead suspect in car-ramming attack at Pride event",
+    "Israel launches military incursion into Syria amid UN condemnation",
+    "‘Freeze the conflict’: Drones slow Kazakh oil flow amid Russia-Ukraine war",
     "Israel obstructing takeover of pilot zones in Lebanon’s south: Military",
     "Heatwave drives major wildfires across North Africa",
     "Darfur: Weaponising Identity",
@@ -65,13 +71,7 @@
     "From paradise to ‘pilot zone’ disaster: Returning to destroyed Lebanon home",
     "Why are Israeli settlers on a rampage in the occupied West Bank?",
     "Langton released from hospital after concussion at Commonwealth Games",
-    "‘New education minister can’t bring my dead daughter back’",
-    "What next for India’s ‘Cockroach’ movement after education minister sacked",
-    "Israeli crackdown in occupied West Bank intensifies, settlers cause mayhem",
-    "Eighteen people missing in South China Sea after Vietnamese ship sank",
-    "President Ahmed al-Sharaa: Syria seeking security deal with Israel",
-    "What is the AI Kill Switch Act proposed in the US and how will it work?",
-    "Casemiro makes Inter Miami debut despite MLS investigation into transfer"
+    "‘New education minister can’t bring my dead daughter back’"
   ],
   "categories": {
     "geopolitical": {
@@ -80,7 +80,7 @@
       "signal": "🔴",
       "summary": "Iran-backed Houthis claim missile attack on S...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 4,
+      "matched": 5,
       "score": 1.5
     },
     "macro": {
