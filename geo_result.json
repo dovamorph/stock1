@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-26 15:39",
+  "updated": "2026-07-26 19:02",
   "news_count": 51,
   "intl_count": 51,
   "domestic_count": 0,
@@ -13,14 +13,15 @@
     "StockPlus": 0
   },
   "news_sample": [
-    "More than 300,000 flee wildfires in France and Spain",
+    "What we know so far about the Berlin Pride ramming attack",
+    "France battles fire 'whirlwinds' as another 55,000 evacuated",
     "Trump takes swipes at press during White House Correspondents' Dinner",
     "India's 'cockroach' protest called off after education minister quits",
-    "Iran-backed Houthis claim missile attack on Saudi Arabia",
-    "Ten killed in Russian attack on drone exhibition near Kyiv"
+    "Iran-backed Houthis claim missile attack on Saudi Arabia"
   ],
   "all_headlines": [
-    "More than 300,000 flee wildfires in France and Spain",
+    "What we know so far about the Berlin Pride ramming attack",
+    "France battles fire 'whirlwinds' as another 55,000 evacuated",
     "Trump takes swipes at press during White House Correspondents' Dinner",
     "India's 'cockroach' protest called off after education minister quits",
     "Iran-backed Houthis claim missile attack on Saudi Arabia",
@@ -40,15 +41,22 @@
     "What Love Island tells us about the changing face of dating",
     "Pizza, pasta, potatoes, protein - how Italian children became so overweight",
     "Smash hit: How Alex Eala's Wimbledon run made everyday Filipinos fall in love with tennis",
+    "Watch: At the scene of Berlin Pride attack as manhunt continues",
     "Protesters celebrate resignation of India's education minister",
     "India cockroach protests: Videos show officers firing 'pellet guns'",
     "Watch: Another day, more Trump tariffs - but are they working?",
-    "Watch: Wildfires rage across Spain and France",
-    "Families still search for bodies a month after Venezuela earthquakes",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "The Cockroach Effect: Modi vs India’s Gen Z",
+    "Thousands rally against Tunisia’s president five years after power grab",
+    "Becoming the story: Injured journalists battle to leave Gaza for treatment",
+    "Israel debate boils over in the United States",
+    "Israel raids West Bank live: Dozens of Palestinians detained during assault",
+    "Tour de France final stage shortened as emergency teams tackle wildfires",
+    "Israeli settlers set fire to mosque in occupied West Bank",
+    "Cape Verde World Cup star Vozinha agrees deal with Chile’s Colo Colo",
+    "Joshua comes back twice to knock out Prenga and set up Fury showdown",
     "House of Hope: New film follows a Waldorf-inspired school in the West Bank",
     "Typhoon Noul makes landfall in China, with hundreds of thousands evacuated",
-    "https://drive.google.com/drive/folders/17KZlAAj-H_rMiqJSrup6WfcERG75cAjR?us",
     "New front in US-Iran war escalates as Houthis fire at Saudi oil facilities",
     "US military disables tanker accused of breaking the Iran blockade",
     "Tunisians mark fifth year of emergency rule with calls for Saied to go",
@@ -59,18 +67,10 @@
     "Israel arrests nine at Tel Aviv protest against West Bank settler violence",
     "Yemen’s Houthis target Saudi oil facilities along the Red Sea",
     "Bolsonaro’s son begins Brazil presidential bid with Netanyahu, Milei kudos",
-    "Iran war live: Tehran slams Ukraine attack; West Bank unrest continues",
+    "Iran war live: Baghaei says progress made in Oman talks on Strait of Hormuz",
     "What’s behind the Israeli crackdown in the occupied West Bank?",
     "Iran accuses Ukraine of deadly attack on Caspian commercial vessel",
-    "Fire tears through Indonesian village in West Java",
-    "One dead, 16 injured as car slams into crowd at Berlin LGBTQ event",
-    "Israeli forces target Gaza’s Al-Aqsa hospital",
-    "What’s next for Venezuela’s path to recovery from devastating earthquakes?",
-    "Israeli forces tear gas journalists reporting Nablus shootout",
-    "How India’s ‘Cockroach’ protesters shook the Modi government",
-    "Head of police in northern Gaza killed in Israeli strike",
-    "At least 35 killed after two buses collide in eastern Syria",
-    "Ebola deaths in DRC surge past 1,300 as virus ‘spreading like a wildfire’"
+    "Fire tears through Indonesian village in West Java"
   ],
   "categories": {
     "geopolitical": {
@@ -79,7 +79,7 @@
       "signal": "🔴",
       "summary": "Iran-backed Houthis claim missile attack on S...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 8,
+      "matched": 7,
       "score": 1.5
     },
     "macro": {
