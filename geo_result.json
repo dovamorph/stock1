@@ -1,10 +1,10 @@
 {
-  "updated": "2026-07-27 04:16",
-  "news_count": 52,
-  "intl_count": 52,
+  "updated": "2026-07-27 06:01",
+  "news_count": 53,
+  "intl_count": 53,
   "domestic_count": 0,
   "source_stats": {
-    "BBC World": 26,
+    "BBC World": 27,
     "Al Jazeera": 26,
     "연합뉴스": 0,
     "한국경제": 0,
@@ -13,13 +13,14 @@
     "StockPlus": 0
   },
   "news_sample": [
+    "Berlin Pride attack suspect shot and killed during police operation",
     "What we know so far about the Berlin Pride ramming attack",
     "Israeli settlers set fire to mosques, cars and farm land in West Bank, Palestinians say",
     "Firefighters battle wildfire as tens of thousands evacuated near Bordeaux",
-    "Trump takes swipes at press during White House Correspondents' Dinner",
-    "India's 'cockroach' protest called off after education minister quits"
+    "Trump takes swipes at press during White House Correspondents' Dinner"
   ],
   "all_headlines": [
+    "Berlin Pride attack suspect shot and killed during police operation",
     "What we know so far about the Berlin Pride ramming attack",
     "Israeli settlers set fire to mosques, cars and farm land in West Bank, Palestinians say",
     "Firefighters battle wildfire as tens of thousands evacuated near Bordeaux",
@@ -47,10 +48,17 @@
     "India cockroach protests: Videos show officers firing 'pellet guns'",
     "Watch: Another day, more Trump tariffs - but are they working?",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Former President Hernandez returns to Honduras after Trump pardon",
+    "Houthis claim Saudi drone downed over northwestern Yemen",
+    "What lies ahead for Iran’s economy as scope of US war grows beyond Hormuz?",
+    "Al-Sharaa outlines Syria’s approach to security with Israel and Lebanon",
+    "46 people rescued from sunken ship in South China Sea",
+    "Cuban president accuses US of genocide, seeking takeover",
+    "Netanyahu vows to go to New York City despite ICC arrest warrant, Mamdani",
     "Israeli settlers burn two mosques in occupied West Bank",
     "Romania summons Russian envoy as it shoots down third intruding drone",
     "Al-Sharaa praises Trump’s decision to remove Syria from terrorism list",
-    "Berlin police shoot dead suspect in car-ramming attack at Pride event",
+    "Police shoot dead Berlin Pride car-ramming attack suspect",
     "Israel launches military incursion into Syria amid UN condemnation",
     "‘Freeze the conflict’: Drones slow Kazakh oil flow amid Russia-Ukraine war",
     "Israel obstructing takeover of pilot zones in Lebanon’s south: Military",
@@ -64,14 +72,7 @@
     "Israel carries out double tap strike in central Gaza",
     "Tunisia grapples with five years of crisis since Saied’s power grab",
     "Senegal’s Faye launches a new party, formalising his split with Sonko",
-    "Controversial Argentina World Cup banner gets new life in print",
-    "Israel and the cost paradox of the Iran war",
-    "Israeli air strike on a vehicle in Gaza kills two Hamas security officials",
-    "Yemen’s health workers race to halt latest outbreak of deadly dengue fever",
-    "From paradise to ‘pilot zone’ disaster: Returning to destroyed Lebanon home",
-    "Why are Israeli settlers on a rampage in the occupied West Bank?",
-    "Langton released from hospital after concussion at Commonwealth Games",
-    "‘New education minister can’t bring my dead daughter back’"
+    "Controversial Argentina World Cup banner gets new life in print"
   ],
   "categories": {
     "geopolitical": {
@@ -80,7 +81,7 @@
       "signal": "🔴",
       "summary": "Iran-backed Houthis claim missile attack on S...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 5,
+      "matched": 4,
       "score": 1.5
     },
     "macro": {
