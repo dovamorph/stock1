@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T16:36:30.926657+09:00",
+  "updated_at": "2026-07-27T20:28:08.043609+09:00",
   "date": "20260727",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -4,
-      "positive_count": 4,
+      "score": -3,
+      "positive_count": 5,
       "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20260727",
+          "type": "positive",
+          "headline": "Chinese chipmaker shares surge nearly 470% in blockbuster stock market debut",
+          "score": 1
+        },
         {
           "date": "20260726",
           "type": "negative",
@@ -43,26 +49,14 @@
           "type": "positive",
           "headline": "How are companies, governments responding to the OpenAI hack?",
           "score": 1
-        },
-        {
-          "date": "20260722",
-          "type": "negative",
-          "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
-          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 9,
       "recent_events": [
-        {
-          "date": "20260727",
-          "type": "negative",
-          "headline": "[거시분석] PM pledges continued support for Ukraine ahea...",
-          "score": -2
-        },
         {
           "date": "20260726",
           "type": "negative",
@@ -86,25 +80,25 @@
           "type": "negative",
           "headline": "[거시분석] Houthis claim attack on oil tankers as US lau...",
           "score": -2
+        },
+        {
+          "date": "20260722",
+          "type": "negative",
+          "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
+          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 24,
+      "positive_count": 23,
       "negative_count": 1,
       "recent_events": [
         {
           "date": "20260727",
           "type": "positive",
-          "headline": "Iran-backed Houthis claim missile attack on Saudi Arabia",
+          "headline": "[거시분석] Oil price dives as US and Iran pause attacks",
           "score": 1
-        },
-        {
-          "date": "20260727",
-          "type": "positive",
-          "headline": "[거시분석] PM pledges continued support for Ukraine ahea...",
-          "score": 3
         },
         {
           "date": "20260726",
@@ -123,6 +117,12 @@
           "type": "positive",
           "headline": "Iran-backed Houthis claim missile attack on Saudi Arabia",
           "score": 1
+        },
+        {
+          "date": "20260725",
+          "type": "positive",
+          "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
+          "score": 3
         }
       ]
     },
@@ -153,7 +153,7 @@
         {
           "date": "20260727",
           "type": "negative",
-          "headline": "[거시분석] PM pledges continued support for Ukraine ahea...",
+          "headline": "[거시분석] Oil price dives as US and Iran pause attacks",
           "score": -1
         },
         {
@@ -221,8 +221,8 @@
         {
           "date": "20260727",
           "type": "negative",
-          "headline": "[거시분석] PM pledges continued support for Ukraine ahea...",
-          "score": -5
+          "headline": "[거시분석] Oil price dives as US and Iran pause attacks",
+          "score": -3
         },
         {
           "date": "20260726",
@@ -597,25 +597,24 @@
     },
     {
       "date": "20260727",
-      "headline": "Iran-backed Houthis claim missile attack on Saudi Arabia",
+      "headline": "Chinese chipmaker shares surge nearly 470% in blockbuster stock market debut",
       "impacts": {
-        "방산": 1
+        "반도체·AI": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260727",
-      "headline": "[거시분석] PM pledges continued support for Ukraine ahea...",
+      "headline": "[거시분석] Oil price dives as US and Iran pause attacks",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
+        "방산": 1,
+        "전체시장": -3,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 46,
+  "total_negatives": 45,
   "total_positives": 36,
   "risk_level": "EXTREME"
 }
