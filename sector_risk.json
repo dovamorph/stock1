@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-28T06:14:15.245656+09:00",
+  "updated_at": "2026-07-28T08:05:28.126123+09:00",
   "date": "20260728",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260728",
           "type": "positive",
-          "headline": "Chinese chipmaker shares surge nearly 470% in blockbuster stock market debut",
+          "headline": "Nvidia plans $250bn push to bolster OpenAI’s infrastructure ambitions",
           "score": 1
         },
         {
@@ -216,7 +216,7 @@
           "date": "20260728",
           "type": "negative",
           "headline": "[거시분석] Trump says Iran war talks taking place during...",
-          "score": -3
+          "score": -2
         },
         {
           "date": "20260727",
@@ -572,7 +572,7 @@
     },
     {
       "date": "20260728",
-      "headline": "Chinese chipmaker shares surge nearly 470% in blockbuster stock market debut",
+      "headline": "Nvidia plans $250bn push to bolster OpenAI’s infrastructure ambitions",
       "impacts": {
         "반도체·AI": 1
       },
@@ -583,7 +583,7 @@
       "headline": "[거시분석] Trump says Iran war talks taking place during...",
       "impacts": {
         "방산": 1,
-        "전체시장": -3,
+        "전체시장": -2,
         "금융": -1
       },
       "source": "geo_categories"

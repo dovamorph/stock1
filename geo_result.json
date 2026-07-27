@@ -1,10 +1,10 @@
 {
-  "updated": "2026-07-28 06:14",
-  "news_count": 56,
-  "intl_count": 56,
+  "updated": "2026-07-28 08:05",
+  "news_count": 54,
+  "intl_count": 54,
   "domestic_count": 0,
   "source_stats": {
-    "BBC World": 30,
+    "BBC World": 28,
     "Al Jazeera": 26,
     "연합뉴스": 0,
     "한국경제": 0,
@@ -14,35 +14,29 @@
   },
   "news_sample": [
     "Wildfire now nine miles from French city of Bordeaux, mayor warns",
-    "Wildfire witnesses describe 'wall of flames', fear and stress",
     "Trump says Iran war talks taking place during lull in strikes",
     "Ukraine dismisses Iranian threats as Caspian Sea strike directly links wars",
-    "More than 600 US military service members injured since Iran War began in February"
+    "A Japanese town wrestles with identity after protests over its first mosque",
+    "Anger as Berlin Pride attacker revealed to have been freed weeks earlier"
   ],
   "all_headlines": [
     "Wildfire now nine miles from French city of Bordeaux, mayor warns",
-    "Wildfire witnesses describe 'wall of flames', fear and stress",
     "Trump says Iran war talks taking place during lull in strikes",
     "Ukraine dismisses Iranian threats as Caspian Sea strike directly links wars",
-    "More than 600 US military service members injured since Iran War began in February",
+    "A Japanese town wrestles with identity after protests over its first mosque",
     "Anger as Berlin Pride attacker revealed to have been freed weeks earlier",
+    "US singer D4vd to go on trial for murder in death of 14-year-old",
+    "Wildfire witnesses describe 'wall of flames', fear and stress",
     "Shots fired at US consulate in Toronto for a second time this year",
-    "Carly Simon reveals Parkinson's diagnosis",
-    "Oil price dives as US and Iran pause attacks",
     "Chile captures fugitive convicted of singer Victor Jara's murder under Pinochet",
-    "South Africa investigates death of Nigerian who collapsed during arrest",
-    "Police still searching for second suspect in fatal Seattle food festival shooting",
+    "Carly Simon reveals Parkinson's diagnosis",
+    "'Do the right thing': Savannah Guthrie makes another plea to mother's kidnappers",
+    "Number of suspects in fatal Seattle food festival shooting rises to three",
     "Bali bans Dutch expats whose run club allegedly excluded Indonesians",
+    "South Africa investigates death of Nigerian who collapsed during arrest",
+    "More than 600 US military service members injured since Iran War began in February",
+    "Oil price dives as US and Iran pause attacks",
     "'Dr Death', Body Worlds creator Gunther von Hagens, dies at 81",
-    "Millions see leaked copy of The Odyssey movie on X",
-    "Netanyahu accuses NYC Mayor Mamdani of 'fomenting hate' after arrest threat",
-    "US deports Kenyan former NFL player Daniel Adongo",
-    "Zelensky visit sends clear message of support for Ukraine, Burnham says",
-    "Argentine leader calls Brazilian president a 'thief' and a 'convict'",
-    "Rapper Yung Filly tells trial 'vibes were good' with woman who accuses him of rape",
-    "Australian court upholds racial discrimination ruling against Pauline Hanson",
-    "Shein swings to $99m loss as Trump tariffs hit sales",
-    "Chinese chipmaker shares surge nearly 470% in blockbuster stock market debut",
     "As the US pauses the war with Iran, is Trump really running out of weapons?",
     "Devastating European wildfires in maps - and how they're being tackled",
     "A Nigerian soldier is arrested for tipping off criminals - but does it go deeper?",
@@ -50,7 +44,17 @@
     "Pirlo out of Italy football top job after backlash over Russian betting firm links",
     "'This is just the start': India's Gen Z protesters force out a minister, but what next?",
     "Musk takes 'crusade' to Europe with Armie Hammer film",
+    "What you need to know if you're travelling to France or Spain",
+    "Watch: Scaffolding tumbles from Hong Kong building as Typhoon Noul makes landfall",
+    "Watch: At the scene of Berlin Pride attack as manhunt continues",
+    "Protesters celebrate resignation of India's education minister",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Shot fired outside US consulate in Canada for second time this year",
+    "Video shows man subdued after stabbing three women in Paris",
+    "Trump asks US Supreme Court to allow mail-in voting restrictions",
+    "UN slams Israel’s expansion of illegal settlements in occupied West Bank",
+    "Nvidia plans $250bn push to bolster OpenAI’s infrastructure ambitions",
+    "Hopes of return to diplomacy as US-Iran hold fire for third day",
     "Will Peru’s new leader Keiko Fujimori reject her father’s legacy?",
     "British court dismisses Bahrain’s bid to block activists’ spyware lawsuit",
     "Hakeem Jeffries puts affordability at centre of Democrats’ midterm campaign",
@@ -69,13 +73,7 @@
     "New UK PM Burnham assures Zelenskyy of continuing Ukraine support",
     "Will UNESCO’s heritage listing halt Israeli plans for West Bank’s Sebastia?",
     "What drove Venezuela’s decision to leave the ICC?",
-    "India suspends police officer for firing AK-47 at student protesters",
-    "Chad to join raft of withdrawals from International Criminal Court",
-    "Iran: Currently no negotiations with the US",
-    "Israeli raid sparks fire at UN Palestinian refugee centre",
-    "Mapping Israeli settler violence in the West Bank",
-    "How Israel uses settler-soldier terror to colonise the West Bank",
-    "Why Venezuela is leaving the ICC"
+    "India suspends police officer for firing AK-47 at student protesters"
   ],
   "categories": {
     "geopolitical": {
@@ -84,8 +82,8 @@
       "signal": "🟡",
       "summary": "Trump says Iran war talks taking place during...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 13,
-      "score": 20.3
+      "matched": 12,
+      "score": 18.8
     },
     "macro": {
       "level": "주의",
@@ -93,8 +91,8 @@
       "signal": "🟡",
       "summary": "A Nigerian soldier is arrested for tipping of...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 2,
-      "score": 2.9
+      "matched": 1,
+      "score": 1.5
     },
     "disaster": {
       "level": "안전",
@@ -106,13 +104,13 @@
       "score": 0
     },
     "trade": {
-      "level": "주의",
+      "level": "신호",
       "color": "yellow",
       "signal": "🟡",
       "summary": "Trump says Iran war talks taking place during...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 11,
-      "score": 1.5
+      "action": "관련 지표 추가 확인 후 판단",
+      "matched": 10,
+      "score": 14.5
     },
     "policy": {
       "level": "안전",
