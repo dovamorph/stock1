@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-27T23:43:08.674842+09:00",
-  "date": "20260727",
+  "updated_at": "2026-07-28T02:44:58.499212+09:00",
+  "date": "20260728",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -3,
-      "positive_count": 5,
-      "negative_count": 4,
+      "score": 0,
+      "positive_count": 6,
+      "negative_count": 3,
       "recent_events": [
+        {
+          "date": "20260728",
+          "type": "positive",
+          "headline": "Chinese chipmaker shares surge nearly 470% in blockbuster stock market debut",
+          "score": 1
+        },
         {
           "date": "20260727",
           "type": "positive",
@@ -43,19 +49,13 @@
           "type": "negative",
           "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
           "score": -2
-        },
-        {
-          "date": "20260723",
-          "type": "positive",
-          "headline": "How are companies, governments responding to the OpenAI hack?",
-          "score": 1
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 8,
       "recent_events": [
         {
           "date": "20260726",
@@ -91,9 +91,15 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 23,
+      "positive_count": 22,
       "negative_count": 1,
       "recent_events": [
+        {
+          "date": "20260728",
+          "type": "positive",
+          "headline": "[거시분석] Ukraine dismisses Iranian threats as Caspian ...",
+          "score": 1
+        },
         {
           "date": "20260727",
           "type": "positive",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "Iran-backed Houthis claim missile attack on Saudi Arabia",
           "score": 1
-        },
-        {
-          "date": "20260725",
-          "type": "positive",
-          "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
-          "score": 3
         }
       ]
     },
@@ -151,6 +151,12 @@
       "negative_count": 11,
       "recent_events": [
         {
+          "date": "20260728",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine dismisses Iranian threats as Caspian ...",
+          "score": -1
+        },
+        {
           "date": "20260725",
           "type": "negative",
           "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
@@ -173,18 +179,12 @@
           "type": "negative",
           "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
           "score": -1
-        },
-        {
-          "date": "20260721",
-          "type": "negative",
-          "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 3,
-      "positive_count": 3,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
         {
@@ -195,12 +195,6 @@
         },
         {
           "date": "20260714",
-          "type": "positive",
-          "headline": "The SpaceX IPO made history. One month on has it lost momentum?",
-          "score": 1
-        },
-        {
-          "date": "20260713",
           "type": "positive",
           "headline": "The SpaceX IPO made history. One month on has it lost momentum?",
           "score": 1
@@ -215,9 +209,15 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 4,
+      "positive_count": 3,
       "negative_count": 19,
       "recent_events": [
+        {
+          "date": "20260728",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine dismisses Iranian threats as Caspian ...",
+          "score": -3
+        },
         {
           "date": "20260727",
           "type": "negative",
@@ -241,53 +241,11 @@
           "type": "negative",
           "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
           "score": -4
-        },
-        {
-          "date": "20260723",
-          "type": "negative",
-          "headline": "[거시분석] Houthis claim attack on oil tankers as US lau...",
-          "score": -6
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260713",
-      "headline": "The SpaceX IPO made history. One month on has it lost momentum?",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260713",
-      "headline": "예멘 수도 공항에 공습…후티 \"사우디 소행, 휴전 종료\"(종합)",
-      "impacts": {
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260713",
-      "headline": "예멘 수도 사나 공항에 수차례 공습…후티 \"사우디 소행\"",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260713",
-      "headline": "[거시분석] People flee as Russian strike hits near Ukrai...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -7,
-        "금융": -1,
-        "반도체·AI": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260714",
       "headline": "The SpaceX IPO made history. One month on has it lost momentum?",
@@ -611,9 +569,27 @@
         "전체시장": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260728",
+      "headline": "Chinese chipmaker shares surge nearly 470% in blockbuster stock market debut",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260728",
+      "headline": "[거시분석] Ukraine dismisses Iranian threats as Caspian ...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -3,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 44,
-  "total_positives": 36,
+  "total_negatives": 42,
+  "total_positives": 34,
   "risk_level": "EXTREME"
 }
