@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-28T04:39:13.963640+09:00",
+  "updated_at": "2026-07-28T06:14:15.245656+09:00",
   "date": "20260728",
   "window_days": 14,
   "sectors": [
@@ -97,7 +97,7 @@
         {
           "date": "20260728",
           "type": "positive",
-          "headline": "[거시분석] Ukraine dismisses Iranian threats as Caspian ...",
+          "headline": "[거시분석] Trump says Iran war talks taking place during...",
           "score": 1
         },
         {
@@ -153,7 +153,7 @@
         {
           "date": "20260728",
           "type": "negative",
-          "headline": "[거시분석] Ukraine dismisses Iranian threats as Caspian ...",
+          "headline": "[거시분석] Trump says Iran war talks taking place during...",
           "score": -1
         },
         {
@@ -215,7 +215,7 @@
         {
           "date": "20260728",
           "type": "negative",
-          "headline": "[거시분석] Ukraine dismisses Iranian threats as Caspian ...",
+          "headline": "[거시분석] Trump says Iran war talks taking place during...",
           "score": -3
         },
         {
@@ -580,7 +580,7 @@
     },
     {
       "date": "20260728",
-      "headline": "[거시분석] Ukraine dismisses Iranian threats as Caspian ...",
+      "headline": "[거시분석] Trump says Iran war talks taking place during...",
       "impacts": {
         "방산": 1,
         "전체시장": -3,
