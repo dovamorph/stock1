@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T20:28:08.043609+09:00",
+  "updated_at": "2026-07-27T23:43:08.674842+09:00",
   "date": "20260727",
   "window_days": 14,
   "sectors": [
@@ -148,14 +148,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 12,
+      "negative_count": 11,
       "recent_events": [
-        {
-          "date": "20260727",
-          "type": "negative",
-          "headline": "[거시분석] Oil price dives as US and Iran pause attacks",
-          "score": -1
-        },
         {
           "date": "20260725",
           "type": "negative",
@@ -178,6 +172,12 @@
           "date": "20260722",
           "type": "negative",
           "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
+          "score": -1
+        },
+        {
+          "date": "20260721",
+          "type": "negative",
+          "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
           "score": -1
         }
       ]
@@ -222,7 +222,7 @@
           "date": "20260727",
           "type": "negative",
           "headline": "[거시분석] Oil price dives as US and Iran pause attacks",
-          "score": -3
+          "score": -2
         },
         {
           "date": "20260726",
@@ -608,13 +608,12 @@
       "headline": "[거시분석] Oil price dives as US and Iran pause attacks",
       "impacts": {
         "방산": 1,
-        "전체시장": -3,
-        "금융": -1
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 45,
+  "total_negatives": 44,
   "total_positives": 36,
   "risk_level": "EXTREME"
 }
