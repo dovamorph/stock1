@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28 02:44",
+  "updated": "2026-07-28 04:39",
   "news_count": 56,
   "intl_count": 56,
   "domestic_count": 0,
@@ -13,13 +13,14 @@
     "StockPlus": 0
   },
   "news_sample": [
+    "Wildfire now nine miles away from French city of Bordeaux, mayor warns",
     "Devastating European wildfires in maps - and how they're being tackled",
     "Ukraine dismisses Iranian threats as Caspian Sea strike directly links wars",
     "More than 600 US military service members injured since Iran War began in February",
-    "Anger as Berlin Pride attacker revealed to have been freed weeks earlier",
-    "Shots fired at US consulate in Toronto for a second time this year"
+    "Anger as Berlin Pride attacker revealed to have been freed weeks earlier"
   ],
   "all_headlines": [
+    "Wildfire now nine miles away from French city of Bordeaux, mayor warns",
     "Devastating European wildfires in maps - and how they're being tackled",
     "Ukraine dismisses Iranian threats as Caspian Sea strike directly links wars",
     "More than 600 US military service members injured since Iran War began in February",
@@ -30,7 +31,7 @@
     "Chile captures fugitive convicted of singer Victor Jara's murder under Pinochet",
     "South Africa investigates death of Nigerian who collapsed during arrest",
     "Bali bans Dutch expats whose run club allegedly excluded Indonesians",
-    "Three dead and several injured in shooting at food festival near Seattle's Space Needle",
+    "Police still searching for second suspect in fatal Seattle food festival shooting",
     "'Dr Death', Body Worlds creator Gunther von Hagens, dies at 81",
     "Millions see leaked copy of The Odyssey movie on X",
     "Netanyahu accuses NYC Mayor Mamdani of 'fomenting hate' after arrest threat",
@@ -41,6 +42,7 @@
     "Australian court upholds racial discrimination ruling against Pauline Hanson",
     "Shein swings to $99m loss as Trump tariffs hit sales",
     "Chinese chipmaker shares surge nearly 470% in blockbuster stock market debut",
+    "France and Spain wildfire witnesses describe 'wall of flames', fear and stress",
     "A Nigerian soldier is arrested for tipping off criminals - but does it go deeper?",
     "How 'fire-generated thunderstorms' make wildfires more deadly",
     "Pirlo out of Italy football top job after backlash over Russian betting firm links",
@@ -48,9 +50,14 @@
     "Musk takes 'crusade' to Europe with Armie Hammer film",
     "The Indian Army's first woman boxer is now chasing Commonwealth gold",
     "What you need to know if you're travelling to France or Spain",
-    "Watch: Scaffolding tumbles from Hong Kong building as Typhoon Noul makes landfall",
-    "Watch: At the scene of Berlin Pride attack as manhunt continues",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Pakistan-administered Kashmir opens polls in violence-wracked vote",
+    "Are the US and Iran heading towards a forever war?",
+    "Lebanon’s displaced endure ‘exhaustion and despair’",
+    "Saudi Arabia defends against drone strikes from ‘Iran-backed’ groups",
+    "War on Iran: Phase II: Day 16",
+    "Burnham welcomes Zelenskyy as first international guest",
+    "New UK PM Burnham assures Zelenskyy of continuing Ukraine support",
     "Will UNESCO’s heritage listing halt Israeli plans for West Bank’s Sebastia?",
     "What drove Venezuela’s decision to leave the ICC?",
     "India suspends police officer for firing AK-47 at student protesters",
@@ -68,14 +75,7 @@
     "Australian court rejects racial discrimination appeal by Pauline Hanson",
     "Former Honduras president returns home after Trump pardon",
     "Israel’s approval of limited Gaza force a calculated manoeuvre, experts say",
-    "Dutch pair banned from Bali after run club ‘excludes locals’",
-    "Three killed in suspected shootout in US city of Seattle, police say",
-    "Gaza student tops national exams despite war and displacement",
-    "Students and staff work to bring Islamic University of Gaza back to life",
-    "Wildfires in southwest Europe: What we know so far",
-    "Sooryavanshi praised by Laxman after teen stars against Zimbabwe in T20",
-    "Photos: France, Spain battle ‘monster’ wildfires as more heat looms",
-    "Moment Ukrainian drones strike Russia’s Belgorod"
+    "Dutch pair banned from Bali after run club ‘excludes locals’"
   ],
   "categories": {
     "geopolitical": {
@@ -84,8 +84,8 @@
       "signal": "🟡",
       "summary": "Ukraine dismisses Iranian threats as Caspian ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 9,
-      "score": 14.5
+      "matched": 11,
+      "score": 17.3
     },
     "macro": {
       "level": "주의",
@@ -111,7 +111,7 @@
       "signal": "🟡",
       "summary": "Ukraine dismisses Iranian threats as Caspian ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 6,
+      "matched": 9,
       "score": 1.5
     },
     "policy": {
