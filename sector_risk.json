@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T12:29:52.859592+09:00",
+  "updated_at": "2026-07-27T16:36:30.926657+09:00",
   "date": "20260727",
   "window_days": 14,
   "sectors": [
@@ -148,8 +148,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 12,
       "recent_events": [
+        {
+          "date": "20260727",
+          "type": "negative",
+          "headline": "[거시분석] PM pledges continued support for Ukraine ahea...",
+          "score": -1
+        },
         {
           "date": "20260725",
           "type": "negative",
@@ -172,12 +178,6 @@
           "date": "20260722",
           "type": "negative",
           "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
-          "score": -1
-        },
-        {
-          "date": "20260721",
-          "type": "negative",
-          "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
           "score": -1
         }
       ]
@@ -222,7 +222,7 @@
           "date": "20260727",
           "type": "negative",
           "headline": "[거시분석] PM pledges continued support for Ukraine ahea...",
-          "score": -3
+          "score": -5
         },
         {
           "date": "20260726",
@@ -609,12 +609,13 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -3
+        "전체시장": -5,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 45,
+  "total_negatives": 46,
   "total_positives": 36,
   "risk_level": "EXTREME"
 }

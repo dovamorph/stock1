@@ -1,10 +1,10 @@
 {
-  "updated": "2026-07-27 12:29",
-  "news_count": 51,
-  "intl_count": 51,
+  "updated": "2026-07-27 16:36",
+  "news_count": 50,
+  "intl_count": 50,
   "domestic_count": 0,
   "source_stats": {
-    "BBC World": 25,
+    "BBC World": 24,
     "Al Jazeera": 26,
     "연합뉴스": 0,
     "한국경제": 0,
@@ -13,14 +13,13 @@
     "StockPlus": 0
   },
   "news_sample": [
-    "Firefighters battle wildfire as tens of thousands evacuated near Bordeaux",
     "Netanyahu accuses NYC Mayor Mamdani of 'fomenting hate' after arrest threat",
     "Berlin Pride attack suspect shot and killed during police operation",
     "What we know so far about the Berlin Pride ramming attack",
-    "Israeli settlers set fire to mosques, cars and farm land in West Bank, Palestinians say"
+    "Israeli settlers set fire to mosques, cars and farm land in West Bank, Palestinians say",
+    "Argentinian leader calls Brazilian president a 'thief' and a 'convict'"
   ],
   "all_headlines": [
-    "Firefighters battle wildfire as tens of thousands evacuated near Bordeaux",
     "Netanyahu accuses NYC Mayor Mamdani of 'fomenting hate' after arrest threat",
     "Berlin Pride attack suspect shot and killed during police operation",
     "What we know so far about the Berlin Pride ramming attack",
@@ -41,11 +40,22 @@
     "Would you pay $58.5m to live in this iconic New York building?",
     "What Love Island tells us about the changing face of dating",
     "Pizza, pasta, potatoes, protein - how Italian children became so overweight",
-    "Watch: Scaffolding ripped from Hong Kong building as Typhoon Noul makes landfall",
+    "Watch: Scaffolding tumbles from Hong Kong building as Typhoon Noul makes landfall",
     "Watch: At the scene of Berlin Pride attack as manhunt continues",
     "Protesters celebrate resignation of India's education minister",
     "India cockroach protests: Videos show officers firing 'pellet guns'",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "German arms export licences for Israel surge with focus on sub project",
+    "Iran warns Ukraine of retaliation after deadly Caspian Sea strike",
+    "Climate change presents new threat to Philippines’ UNESCO rice terraces",
+    "Pakistan’s Kashmir votes: Why the election hinges on 12 disputed seats",
+    "Protests erupt in Libya’s Tripoli as anger grows over power cuts",
+    "Firefighters battle wildfires in Spain’s eastern Castellon province",
+    "Thousands march in Pakistan-administered Kashmir amid election unrest",
+    "Sudan’s army claims control of major highway linking Khartoum and el-Obeid",
+    "Vendor’s livestream captures chaos as gunfire erupts at Seattle Center",
+    "Sudan’s army regains control of highway linking Khartoum with El Obeid",
+    "Russia and Ukraine trade attacks, killing 10, including child in Chernihiv",
     "Firefighters battle to contain wildfires still burning near Bordeaux",
     "Why Mali’s northern conflict has entered a dangerous new phase",
     "Massive iceberg capsizes off the coast of Greenland",
@@ -59,18 +69,7 @@
     "Israeli government nods to international stabilisation force in Gaza",
     "Palestinians hope international peace force can rebuild Gaza",
     "US and Iran hit pause on strikes for second day",
-    "Former President Hernandez returns to Honduras after Trump pardon",
-    "Houthis claim Saudi drone downed over northwestern Yemen",
-    "What lies ahead for Iran’s economy as scope of US war grows beyond Hormuz?",
-    "Al-Sharaa outlines Syria’s approach to security with Israel and Lebanon",
-    "46 people rescued from sunken ship in South China Sea",
-    "Cuban president accuses US of genocide, seeking takeover",
-    "Netanyahu vows to go to New York City despite ICC arrest warrant, Mamdani",
-    "Israeli settlers burn two mosques in occupied West Bank",
-    "Romania summons Russian envoy as it shoots down third intruding drone",
-    "Al-Sharaa praises Trump’s decision to remove Syria from terrorism list",
-    "Police shoot dead Berlin Pride car-ramming attack suspect",
-    "Israel launches military incursion into Syria amid UN condemnation"
+    "Former President Hernandez returns to Honduras after Trump pardon"
   ],
   "categories": {
     "geopolitical": {
@@ -79,17 +78,17 @@
       "signal": "🔴",
       "summary": "PM pledges continued support for Ukraine ahea...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 8,
+      "matched": 9,
       "score": 1.5
     },
     "macro": {
-      "level": "안전",
-      "color": "green",
-      "signal": "🟢",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "Climate change presents new threat to Philipp...",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 1,
+      "score": 1.4
     },
     "disaster": {
       "level": "안전",
@@ -101,13 +100,13 @@
       "score": 0
     },
     "trade": {
-      "level": "신호",
+      "level": "주의",
       "color": "yellow",
       "signal": "🟡",
       "summary": "Iran-backed Houthis claim missile attack on S...",
-      "action": "관련 지표 추가 확인 후 판단",
-      "matched": 5,
-      "score": 7.1
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 6,
+      "score": 1.4
     },
     "policy": {
       "level": "안전",
