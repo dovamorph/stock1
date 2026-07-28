@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-28T11:46:52.695242+09:00",
+  "updated_at": "2026-07-28T15:29:16.627802+09:00",
   "date": "20260728",
   "window_days": 14,
   "sectors": [
@@ -54,9 +54,21 @@
     },
     "건설": {
       "score": -10,
-      "positive_count": 0,
-      "negative_count": 8,
+      "positive_count": 1,
+      "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20260728",
+          "type": "positive",
+          "headline": "[르포] 뼛조각 골라내고 콘크리트 재생…韓도움에 재건 한창인 시리아",
+          "score": 1
+        },
+        {
+          "date": "20260728",
+          "type": "negative",
+          "headline": "[거시분석] Trump says Iran war talks taking place during...",
+          "score": -2
+        },
         {
           "date": "20260726",
           "type": "negative",
@@ -74,18 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
           "score": -1
-        },
-        {
-          "date": "20260723",
-          "type": "negative",
-          "headline": "[거시분석] Houthis claim attack on oil tankers as US lau...",
-          "score": -2
-        },
-        {
-          "date": "20260722",
-          "type": "negative",
-          "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
-          "score": -2
         }
       ]
     },
@@ -98,7 +98,7 @@
           "date": "20260728",
           "type": "positive",
           "headline": "[거시분석] Trump says Iran war talks taking place during...",
-          "score": 1
+          "score": 3
         },
         {
           "date": "20260727",
@@ -216,7 +216,7 @@
           "date": "20260728",
           "type": "negative",
           "headline": "[거시분석] Trump says Iran war talks taking place during...",
-          "score": -2
+          "score": -5
         },
         {
           "date": "20260727",
@@ -580,16 +580,25 @@
     },
     {
       "date": "20260728",
+      "headline": "[르포] 뼛조각 골라내고 콘크리트 재생…韓도움에 재건 한창인 시리아",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260728",
       "headline": "[거시분석] Trump says Iran war talks taking place during...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -2,
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
-  "total_positives": 34,
+  "total_negatives": 43,
+  "total_positives": 35,
   "risk_level": "EXTREME"
 }
