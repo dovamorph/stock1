@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T04:37:35.172958+09:00",
+  "updated_at": "2026-07-29T06:11:18.389232+09:00",
   "date": "20260729",
   "window_days": 14,
   "sectors": [
@@ -61,7 +61,7 @@
           "date": "20260729",
           "type": "negative",
           "headline": "[거시분석] As the US pauses the war with Iran, is Trump ...",
-          "score": -2
+          "score": -1
         },
         {
           "date": "20260728",
@@ -91,20 +91,14 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 23,
+      "positive_count": 22,
       "negative_count": 1,
       "recent_events": [
         {
           "date": "20260729",
           "type": "positive",
-          "headline": "산불 잡기도 전에 다시 폭염…서유럽 긴장 고조(종합)",
-          "score": 1
-        },
-        {
-          "date": "20260729",
-          "type": "positive",
           "headline": "[거시분석] As the US pauses the war with Iran, is Trump ...",
-          "score": 3
+          "score": 2
         },
         {
           "date": "20260728",
@@ -123,6 +117,12 @@
           "type": "positive",
           "headline": "Iran-backed Houthis claim missile attack on Saudi Arabia",
           "score": 1
+        },
+        {
+          "date": "20260726",
+          "type": "positive",
+          "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
+          "score": 3
         }
       ]
     },
@@ -210,7 +210,7 @@
           "date": "20260729",
           "type": "negative",
           "headline": "[거시분석] As the US pauses the war with Iran, is Trump ...",
-          "score": -4
+          "score": -3
         },
         {
           "date": "20260728",
@@ -550,24 +550,16 @@
     },
     {
       "date": "20260729",
-      "headline": "산불 잡기도 전에 다시 폭염…서유럽 긴장 고조(종합)",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260729",
       "headline": "[거시분석] As the US pauses the war with Iran, is Trump ...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -4
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -3
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 41,
-  "total_positives": 33,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
