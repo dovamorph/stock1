@@ -2,7 +2,7 @@
   "consecutive_losses": 0,
   "trading_suspended": true,
   "suspend_reason": "서킷브레이커 발동",
-  "suspend_until": "2026-07-29T10:00:00.907032",
+  "suspend_until": "2026-07-29T10:00:00.756572",
   "blacklist": {},
   "daily_loss": 0,
   "total_loss": -408700,
@@ -11,16 +11,6 @@
   "circuit_breaker_today": true,
   "hard_stop_active": false,
   "log": [
-    {
-      "time": "2026-07-24 09:33:00",
-      "level": "WARN",
-      "event": "갭다운 -5.72% [KOSPI]"
-    },
-    {
-      "time": "2026-07-24 10:03:07",
-      "level": "WARN",
-      "event": "갭다운 -5.72% [KOSPI]"
-    },
     {
       "time": "2026-07-24 10:32:59",
       "level": "WARN",
@@ -258,6 +248,16 @@
     },
     {
       "time": "2026-07-28 10:02:52",
+      "level": "CRITICAL",
+      "event": "서킷브레이커 -10.84%"
+    },
+    {
+      "time": "2026-07-28 10:32:47",
+      "level": "WARN",
+      "event": "갭다운 -10.84% [KOSPI]"
+    },
+    {
+      "time": "2026-07-28 10:32:47",
       "level": "CRITICAL",
       "event": "서킷브레이커 -10.84%"
     }
