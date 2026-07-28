@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-28T19:38:59.994360+09:00",
+  "updated_at": "2026-07-28T23:15:26.189866+09:00",
   "date": "20260728",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -3,
+      "score": -1,
       "positive_count": 5,
-      "negative_count": 4,
+      "negative_count": 3,
       "recent_events": [
-        {
-          "date": "20260728",
-          "type": "negative",
-          "headline": "[거시분석] Trump says Iran war talks taking place during...",
-          "score": -2
-        },
         {
           "date": "20260727",
           "type": "positive",
@@ -49,6 +43,12 @@
           "type": "negative",
           "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
           "score": -2
+        },
+        {
+          "date": "20260723",
+          "type": "positive",
+          "headline": "How are companies, governments responding to the OpenAI hack?",
+          "score": 1
         }
       ]
     },
@@ -60,7 +60,7 @@
         {
           "date": "20260728",
           "type": "negative",
-          "headline": "[거시분석] Trump says Iran war talks taking place during...",
+          "headline": "[거시분석] As the US pauses the war with Iran, is Trump ...",
           "score": -2
         },
         {
@@ -97,7 +97,7 @@
         {
           "date": "20260728",
           "type": "positive",
-          "headline": "[거시분석] Trump says Iran war talks taking place during...",
+          "headline": "[거시분석] As the US pauses the war with Iran, is Trump ...",
           "score": 3
         },
         {
@@ -210,19 +210,13 @@
     "전체시장": {
       "score": -10,
       "positive_count": 3,
-      "negative_count": 20,
+      "negative_count": 19,
       "recent_events": [
         {
           "date": "20260728",
           "type": "negative",
-          "headline": "\"미국, 베트남 내 중국계 공장 불시검사…추가관세 부과 우려\"",
-          "score": -1
-        },
-        {
-          "date": "20260728",
-          "type": "negative",
-          "headline": "[거시분석] Trump says Iran war talks taking place during...",
-          "score": -6
+          "headline": "[거시분석] As the US pauses the war with Iran, is Trump ...",
+          "score": -4
         },
         {
           "date": "20260727",
@@ -241,6 +235,12 @@
           "type": "negative",
           "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
           "score": -7
+        },
+        {
+          "date": "20260724",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
+          "score": -4
         }
       ]
     }
@@ -572,25 +572,16 @@
     },
     {
       "date": "20260728",
-      "headline": "\"미국, 베트남 내 중국계 공장 불시검사…추가관세 부과 우려\"",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260728",
-      "headline": "[거시분석] Trump says Iran war talks taking place during...",
+      "headline": "[거시분석] As the US pauses the war with Iran, is Trump ...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -6,
-        "반도체·AI": -2
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 44,
+  "total_negatives": 42,
   "total_positives": 33,
   "risk_level": "EXTREME"
 }
