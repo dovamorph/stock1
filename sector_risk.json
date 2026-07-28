@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-28T23:15:26.189866+09:00",
-  "date": "20260728",
+  "updated_at": "2026-07-29T02:38:06.177330+09:00",
+  "date": "20260729",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20260729",
+          "type": "negative",
+          "headline": "[거시분석] As the US pauses the war with Iran, is Trump ...",
+          "score": -2
+        },
         {
           "date": "20260728",
           "type": "negative",
@@ -80,20 +86,26 @@
           "type": "negative",
           "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
           "score": -1
-        },
-        {
-          "date": "20260723",
-          "type": "negative",
-          "headline": "[거시분석] Houthis claim attack on oil tankers as US lau...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 22,
+      "positive_count": 23,
       "negative_count": 1,
       "recent_events": [
+        {
+          "date": "20260729",
+          "type": "positive",
+          "headline": "산불 잡기도 전에 다시 폭염…서유럽 긴장 고조(종합)",
+          "score": 1
+        },
+        {
+          "date": "20260729",
+          "type": "positive",
+          "headline": "[거시분석] As the US pauses the war with Iran, is Trump ...",
+          "score": 3
+        },
         {
           "date": "20260728",
           "type": "positive",
@@ -108,18 +120,6 @@
         },
         {
           "date": "20260726",
-          "type": "positive",
-          "headline": "Iran-backed Houthis claim missile attack on Saudi Arabia",
-          "score": 1
-        },
-        {
-          "date": "20260726",
-          "type": "positive",
-          "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
-          "score": 3
-        },
-        {
-          "date": "20260725",
           "type": "positive",
           "headline": "Iran-backed Houthis claim missile attack on Saudi Arabia",
           "score": 1
@@ -148,7 +148,7 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 9,
       "recent_events": [
         {
           "date": "20260725",
@@ -183,18 +183,12 @@
       ]
     },
     "우주ETF": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20260715",
-          "type": "positive",
-          "headline": "The SpaceX IPO made history. One month on has it lost momentum?",
-          "score": 1
-        },
-        {
-          "date": "20260714",
           "type": "positive",
           "headline": "The SpaceX IPO made history. One month on has it lost momentum?",
           "score": 1
@@ -210,8 +204,14 @@
     "전체시장": {
       "score": -10,
       "positive_count": 3,
-      "negative_count": 19,
+      "negative_count": 18,
       "recent_events": [
+        {
+          "date": "20260729",
+          "type": "negative",
+          "headline": "[거시분석] As the US pauses the war with Iran, is Trump ...",
+          "score": -4
+        },
         {
           "date": "20260728",
           "type": "negative",
@@ -235,43 +235,11 @@
           "type": "negative",
           "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
           "score": -7
-        },
-        {
-          "date": "20260724",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
-          "score": -4
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260714",
-      "headline": "The SpaceX IPO made history. One month on has it lost momentum?",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260714",
-      "headline": "관세청 차장에 박헌 인천공항세관장 임명",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260714",
-      "headline": "[거시분석] Iran lawmakers present Hormuz management bill...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -4,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260715",
       "headline": "From Wimbledon towels to Scotch: What India-UK trade deal could mean for shoppers",
@@ -579,9 +547,27 @@
         "전체시장": -4
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260729",
+      "headline": "산불 잡기도 전에 다시 폭염…서유럽 긴장 고조(종합)",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260729",
+      "headline": "[거시분석] As the US pauses the war with Iran, is Trump ...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -4
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
+  "total_negatives": 41,
   "total_positives": 33,
   "risk_level": "EXTREME"
 }
