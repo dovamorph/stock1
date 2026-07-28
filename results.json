@@ -1,6 +1,6 @@
 {
   "date": "20260728",
-  "generated_at": "2026-07-28T19:30:46+09:00",
+  "generated_at": "2026-07-28T20:00:57+09:00",
   "reference_date": "20260727",
   "reference_ranks": {
     "000660": 1,
@@ -61,9 +61,9 @@
     "rsi_14": 31.2,
     "basis": null,
     "basis_signal": "조회불가",
-    "usdkrw": 1459.68,
+    "usdkrw": 1459.63,
     "usdkrw_ch1": 0.11,
-    "usdkrw_ch5": -1.35,
+    "usdkrw_ch5": -1.36,
     "kosdaq_ch1": -7.72,
     "kospi_ch1": -10.84,
     "kospi_ch2": -9.97,
@@ -73,32 +73,32 @@
     "signal_en": "SELL",
     "us": {
       "sp500_close": 7413.18,
-      "sp500_ch5": -1.28,
-      "sp500_ch20": -0.37,
-      "sp500_ma5": 7448.32,
-      "sp500_ma20": 7492.85,
-      "sp500_ma60": 7447.13,
+      "sp500_ch5": -0.4,
+      "sp500_ch20": 0.8,
+      "sp500_ma5": 7454.58,
+      "sp500_ma20": 7489.95,
+      "sp500_ma60": 7442.53,
       "sp500_aligned": "혼조",
       "ndx_close": 24932.08,
-      "ndx_ch5": -3.5,
-      "ndx_ch20": -3.44,
-      "ndx_ma5": 25314.74,
-      "ndx_ma20": 25796.95,
+      "ndx_ch5": -2.26,
+      "ndx_ch20": -1.44,
+      "ndx_ma5": 25421.19,
+      "ndx_ma20": 25813.04,
       "ndx_aligned": "역배열",
-      "ndx_rsi": 36.4,
+      "ndx_rsi": 33.3,
       "vix_close": 18.67,
       "vix_level": "안정",
-      "sp500_rsi": 41.5,
+      "sp500_rsi": 39.0,
       "us_signal": "📉 약한 하락",
       "us_signal_en": "SELL",
       "us_reason": "SP500 하락추세 · NASDAQ 하락추세 · VIX 18.7 안정",
-      "sp500_ch1": 0.02,
-      "ndx_ch1": -0.18,
-      "ndx_ma60": 25991.41
+      "sp500_ch1": 0.07,
+      "ndx_ch1": -0.82,
+      "ndx_ma60": 25986.37
     },
-    "adr": 2.2,
-    "adr_advances": 11,
-    "adr_declines": 478,
+    "adr": 2.1,
+    "adr_advances": 10,
+    "adr_declines": 465,
     "adr_signal": "🔴",
     "adr_desc": "투매권 (2%) — 바닥 근접 가능",
     "breadth": {
@@ -107,7 +107,7 @@
       "desc": "지수↓·폭 좁음 — 신규매수 보수적",
       "kospi_ch1": -10.84,
       "kosdaq_ch1": -7.72,
-      "adr": 2.2
+      "adr": 2.1
     },
     "pool_flow": {
       "total": 40,
@@ -143,7 +143,7 @@
       "reasons": [
         "삼성·하이닉스 외인 동반 순매도",
         "코스피 당일 급락 -10.84%",
-        "ADR 투매권 2.2%"
+        "ADR 투매권 2.1%"
       ]
     },
     "rotation": {
