@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-30T04:21:32.384897+09:00",
+  "updated_at": "2026-07-30T05:59:30.686384+09:00",
   "date": "20260730",
   "window_days": 14,
   "sectors": [
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 8,
       "recent_events": [
-        {
-          "date": "20260730",
-          "type": "negative",
-          "headline": "[거시분석] Saudi Arabia's dilemma as it tries to stay ou...",
-          "score": -2
-        },
         {
           "date": "20260728",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
           "score": -1
+        },
+        {
+          "date": "20260723",
+          "type": "negative",
+          "headline": "[거시분석] Houthis claim attack on oil tankers as US lau...",
+          "score": -2
         }
       ]
     },
@@ -98,7 +98,7 @@
           "date": "20260730",
           "type": "positive",
           "headline": "[거시분석] Saudi Arabia's dilemma as it tries to stay ou...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260729",
@@ -154,7 +154,7 @@
           "date": "20260730",
           "type": "negative",
           "headline": "[거시분석] Saudi Arabia's dilemma as it tries to stay ou...",
-          "score": -2
+          "score": -1
         },
         {
           "date": "20260729",
@@ -203,7 +203,7 @@
           "date": "20260730",
           "type": "negative",
           "headline": "[거시분석] Saudi Arabia's dilemma as it tries to stay ou...",
-          "score": -6
+          "score": -3
         },
         {
           "date": "20260729",
@@ -496,15 +496,14 @@
       "date": "20260730",
       "headline": "[거시분석] Saudi Arabia's dilemma as it tries to stay ou...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -6,
-        "금융": -2
+        "방산": 1,
+        "전체시장": -3,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 39,
+  "total_negatives": 38,
   "total_positives": 28,
   "risk_level": "EXTREME"
 }
