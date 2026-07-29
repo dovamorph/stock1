@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T11:53:39.718813+09:00",
+  "updated_at": "2026-07-29T15:34:39.923023+09:00",
   "date": "20260729",
   "window_days": 14,
   "sectors": [
@@ -109,7 +109,7 @@
         {
           "date": "20260729",
           "type": "positive",
-          "headline": "[영상] 우크라, 모스크바 외곽 대규모 드론 공습…러 \"80여대 요격\"",
+          "headline": "이란, 중동 미군기지 다시 공격…미군도 '대리세력' 공습(종합2보)",
           "score": 1
         },
         {
@@ -140,17 +140,10 @@
       ]
     },
     "로봇": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 0,
+      "positive_count": 0,
       "negative_count": 0,
-      "recent_events": [
-        {
-          "date": "20260729",
-          "type": "positive",
-          "headline": "정부, 고용서비스 상담 중심 전환…행정업무는 AI 자동화 추진(종합)",
-          "score": 1
-        }
-      ]
+      "recent_events": []
     },
     "금융": {
       "score": -10,
@@ -190,10 +183,16 @@
       ]
     },
     "우주ETF": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260729",
+          "type": "positive",
+          "headline": "[만나보니] NASA \"한국, 달기지 협력 역량 갖췄다\"",
+          "score": 1
+        },
         {
           "date": "20260715",
           "type": "positive",
@@ -217,7 +216,7 @@
           "date": "20260729",
           "type": "negative",
           "headline": "[거시분석] Iran and US trade strikes, shattering brief l...",
-          "score": -6
+          "score": -5
         },
         {
           "date": "20260728",
@@ -581,17 +580,17 @@
     },
     {
       "date": "20260729",
-      "headline": "정부, 고용서비스 상담 중심 전환…행정업무는 AI 자동화 추진(종합)",
+      "headline": "이란, 중동 미군기지 다시 공격…미군도 '대리세력' 공습(종합2보)",
       "impacts": {
-        "로봇": 1
+        "방산": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260729",
-      "headline": "[영상] 우크라, 모스크바 외곽 대규모 드론 공습…러 \"80여대 요격\"",
+      "headline": "[만나보니] NASA \"한국, 달기지 협력 역량 갖췄다\"",
       "impacts": {
-        "방산": 1
+        "우주ETF": 1
       },
       "source": "keyword"
     },
@@ -601,7 +600,7 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -6,
+        "전체시장": -5,
         "금융": -1
       },
       "source": "geo_categories"
