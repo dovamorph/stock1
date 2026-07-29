@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-30T02:18:11.286945+09:00",
+  "updated_at": "2026-07-30T04:21:32.384897+09:00",
   "date": "20260730",
   "window_days": 14,
   "sectors": [
@@ -60,7 +60,7 @@
         {
           "date": "20260730",
           "type": "negative",
-          "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
+          "headline": "[거시분석] Saudi Arabia's dilemma as it tries to stay ou...",
           "score": -2
         },
         {
@@ -91,19 +91,13 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 22,
+      "positive_count": 21,
       "negative_count": 1,
       "recent_events": [
         {
           "date": "20260730",
           "type": "positive",
-          "headline": "\"美·사우디 이라크 공습에 이란 군사고문 5명 사망\"",
-          "score": 1
-        },
-        {
-          "date": "20260730",
-          "type": "positive",
-          "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
+          "headline": "[거시분석] Saudi Arabia's dilemma as it tries to stay ou...",
           "score": 3
         },
         {
@@ -122,6 +116,12 @@
           "date": "20260727",
           "type": "positive",
           "headline": "[거시분석] Oil price dives as US and Iran pause attacks",
+          "score": 1
+        },
+        {
+          "date": "20260726",
+          "type": "positive",
+          "headline": "Iran-backed Houthis claim missile attack on Saudi Arabia",
           "score": 1
         }
       ]
@@ -153,8 +153,8 @@
         {
           "date": "20260730",
           "type": "negative",
-          "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
-          "score": -1
+          "headline": "[거시분석] Saudi Arabia's dilemma as it tries to stay ou...",
+          "score": -2
         },
         {
           "date": "20260729",
@@ -202,8 +202,8 @@
         {
           "date": "20260730",
           "type": "negative",
-          "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
-          "score": -5
+          "headline": "[거시분석] Saudi Arabia's dilemma as it tries to stay ou...",
+          "score": -6
         },
         {
           "date": "20260729",
@@ -494,25 +494,17 @@
     },
     {
       "date": "20260730",
-      "headline": "\"美·사우디 이라크 공습에 이란 군사고문 5명 사망\"",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260730",
-      "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
+      "headline": "[거시분석] Saudi Arabia's dilemma as it tries to stay ou...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -5,
-        "금융": -1
+        "전체시장": -6,
+        "금융": -2
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 39,
-  "total_positives": 29,
+  "total_positives": 28,
   "risk_level": "EXTREME"
 }
