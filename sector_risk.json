@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T19:42:02.958794+09:00",
+  "updated_at": "2026-07-29T23:18:15.363021+09:00",
   "date": "20260729",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 0,
-      "positive_count": 6,
+      "score": -1,
+      "positive_count": 5,
       "negative_count": 3,
       "recent_events": [
-        {
-          "date": "20260729",
-          "type": "positive",
-          "headline": "OpenAI’s rogue agent hacked an account at a second technology firm: Report",
-          "score": 1
-        },
         {
           "date": "20260727",
           "type": "positive",
@@ -49,20 +43,20 @@
           "type": "negative",
           "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
           "score": -2
+        },
+        {
+          "date": "20260723",
+          "type": "positive",
+          "headline": "How are companies, governments responding to the OpenAI hack?",
+          "score": 1
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 9,
       "recent_events": [
-        {
-          "date": "20260729",
-          "type": "negative",
-          "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
-          "score": -2
-        },
         {
           "date": "20260728",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
           "score": -1
+        },
+        {
+          "date": "20260723",
+          "type": "negative",
+          "headline": "[거시분석] Houthis claim attack on oil tankers as US lau...",
+          "score": -2
         }
       ]
     },
@@ -98,7 +98,7 @@
           "date": "20260729",
           "type": "positive",
           "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260728",
@@ -148,8 +148,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20260729",
+          "type": "negative",
+          "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
+          "score": -1
+        },
         {
           "date": "20260725",
           "type": "negative",
@@ -172,12 +178,6 @@
           "date": "20260722",
           "type": "negative",
           "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
-          "score": -1
-        },
-        {
-          "date": "20260721",
-          "type": "negative",
-          "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
           "score": -1
         }
       ]
@@ -210,7 +210,7 @@
           "date": "20260729",
           "type": "negative",
           "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
-          "score": -3
+          "score": -4
         },
         {
           "date": "20260728",
@@ -550,24 +550,16 @@
     },
     {
       "date": "20260729",
-      "headline": "OpenAI’s rogue agent hacked an account at a second technology firm: Report",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260729",
       "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -3
+        "방산": 1,
+        "전체시장": -4,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 41,
-  "total_positives": 33,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
