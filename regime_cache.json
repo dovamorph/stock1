@@ -1,7 +1,7 @@
 {
   "regime": "BEAR",
   "label": "약세장 🔴",
-  "kospi": 5663.08,
+  "kospi": 5663.24,
   "ma20": 7079.77,
   "ma60": 7745.5,
   "ret_5d": -20.2,
@@ -31,5 +31,5 @@
   },
   "effective_position_multiplier": 0.0,
   "source": "results.json_fallback",
-  "cached_at": "2026-07-29T06:34:41.771816"
+  "cached_at": "2026-07-29T07:32:28.253075"
 }
