@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T08:03:02.583815+09:00",
+  "updated_at": "2026-07-29T11:53:39.718813+09:00",
   "date": "20260729",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -1,
-      "positive_count": 5,
+      "score": 0,
+      "positive_count": 6,
       "negative_count": 3,
       "recent_events": [
+        {
+          "date": "20260729",
+          "type": "positive",
+          "headline": "OpenAI’s rogue agent hacked an account at a second technology firm: Report",
+          "score": 1
+        },
         {
           "date": "20260727",
           "type": "positive",
@@ -43,12 +49,6 @@
           "type": "negative",
           "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
           "score": -2
-        },
-        {
-          "date": "20260723",
-          "type": "positive",
-          "headline": "How are companies, governments responding to the OpenAI hack?",
-          "score": 1
         }
       ]
     },
@@ -60,7 +60,7 @@
         {
           "date": "20260729",
           "type": "negative",
-          "headline": "[거시분석] As the US pauses the war with Iran, is Trump ...",
+          "headline": "[거시분석] Iran and US trade strikes, shattering brief l...",
           "score": -2
         },
         {
@@ -91,9 +91,15 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 23,
+      "positive_count": 25,
       "negative_count": 1,
       "recent_events": [
+        {
+          "date": "20260729",
+          "type": "positive",
+          "headline": "Yemen’s Houthis claim missile attack on Saudi Arabia oil tanker",
+          "score": 1
+        },
         {
           "date": "20260729",
           "type": "positive",
@@ -103,7 +109,13 @@
         {
           "date": "20260729",
           "type": "positive",
-          "headline": "[거시분석] As the US pauses the war with Iran, is Trump ...",
+          "headline": "[영상] 우크라, 모스크바 외곽 대규모 드론 공습…러 \"80여대 요격\"",
+          "score": 1
+        },
+        {
+          "date": "20260729",
+          "type": "positive",
+          "headline": "[거시분석] Iran and US trade strikes, shattering brief l...",
           "score": 3
         },
         {
@@ -111,18 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] As the US pauses the war with Iran, is Trump ...",
           "score": 3
-        },
-        {
-          "date": "20260727",
-          "type": "positive",
-          "headline": "[거시분석] Oil price dives as US and Iran pause attacks",
-          "score": 1
-        },
-        {
-          "date": "20260726",
-          "type": "positive",
-          "headline": "Iran-backed Houthis claim missile attack on Saudi Arabia",
-          "score": 1
         }
       ]
     },
@@ -140,16 +140,29 @@
       ]
     },
     "로봇": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20260729",
+          "type": "positive",
+          "headline": "정부, 고용서비스 상담 중심 전환…행정업무는 AI 자동화 추진(종합)",
+          "score": 1
+        }
+      ]
     },
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20260729",
+          "type": "negative",
+          "headline": "[거시분석] Iran and US trade strikes, shattering brief l...",
+          "score": -1
+        },
         {
           "date": "20260725",
           "type": "negative",
@@ -172,12 +185,6 @@
           "date": "20260722",
           "type": "negative",
           "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
-          "score": -1
-        },
-        {
-          "date": "20260721",
-          "type": "negative",
-          "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
           "score": -1
         }
       ]
@@ -209,8 +216,8 @@
         {
           "date": "20260729",
           "type": "negative",
-          "headline": "[거시분석] As the US pauses the war with Iran, is Trump ...",
-          "score": -3
+          "headline": "[거시분석] Iran and US trade strikes, shattering brief l...",
+          "score": -6
         },
         {
           "date": "20260728",
@@ -550,6 +557,22 @@
     },
     {
       "date": "20260729",
+      "headline": "OpenAI’s rogue agent hacked an account at a second technology firm: Report",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260729",
+      "headline": "Yemen’s Houthis claim missile attack on Saudi Arabia oil tanker",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260729",
       "headline": "Israeli airstrike destroys Gaza City mosque near displacement camp",
       "impacts": {
         "방산": 1
@@ -558,16 +581,33 @@
     },
     {
       "date": "20260729",
-      "headline": "[거시분석] As the US pauses the war with Iran, is Trump ...",
+      "headline": "정부, 고용서비스 상담 중심 전환…행정업무는 AI 자동화 추진(종합)",
+      "impacts": {
+        "로봇": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260729",
+      "headline": "[영상] 우크라, 모스크바 외곽 대규모 드론 공습…러 \"80여대 요격\"",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260729",
+      "headline": "[거시분석] Iran and US trade strikes, shattering brief l...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -3
+        "전체시장": -6,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 41,
-  "total_positives": 33,
+  "total_negatives": 42,
+  "total_positives": 37,
   "risk_level": "EXTREME"
 }
