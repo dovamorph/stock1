@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T15:34:39.923023+09:00",
+  "updated_at": "2026-07-29T19:42:02.958794+09:00",
   "date": "20260729",
   "window_days": 14,
   "sectors": [
@@ -60,7 +60,7 @@
         {
           "date": "20260729",
           "type": "negative",
-          "headline": "[거시분석] Iran and US trade strikes, shattering brief l...",
+          "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
           "score": -2
         },
         {
@@ -91,37 +91,37 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 25,
+      "positive_count": 22,
       "negative_count": 1,
       "recent_events": [
         {
           "date": "20260729",
           "type": "positive",
-          "headline": "Yemen’s Houthis claim missile attack on Saudi Arabia oil tanker",
-          "score": 1
-        },
-        {
-          "date": "20260729",
-          "type": "positive",
-          "headline": "Israeli airstrike destroys Gaza City mosque near displacement camp",
-          "score": 1
-        },
-        {
-          "date": "20260729",
-          "type": "positive",
-          "headline": "이란, 중동 미군기지 다시 공격…미군도 '대리세력' 공습(종합2보)",
-          "score": 1
-        },
-        {
-          "date": "20260729",
-          "type": "positive",
-          "headline": "[거시분석] Iran and US trade strikes, shattering brief l...",
+          "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
           "score": 3
         },
         {
           "date": "20260728",
           "type": "positive",
           "headline": "[거시분석] As the US pauses the war with Iran, is Trump ...",
+          "score": 3
+        },
+        {
+          "date": "20260727",
+          "type": "positive",
+          "headline": "[거시분석] Oil price dives as US and Iran pause attacks",
+          "score": 1
+        },
+        {
+          "date": "20260726",
+          "type": "positive",
+          "headline": "Iran-backed Houthis claim missile attack on Saudi Arabia",
+          "score": 1
+        },
+        {
+          "date": "20260726",
+          "type": "positive",
+          "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
           "score": 3
         }
       ]
@@ -148,14 +148,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 9,
       "recent_events": [
-        {
-          "date": "20260729",
-          "type": "negative",
-          "headline": "[거시분석] Iran and US trade strikes, shattering brief l...",
-          "score": -1
-        },
         {
           "date": "20260725",
           "type": "negative",
@@ -179,20 +173,20 @@
           "type": "negative",
           "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
           "score": -1
+        },
+        {
+          "date": "20260721",
+          "type": "negative",
+          "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
+          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260729",
-          "type": "positive",
-          "headline": "[만나보니] NASA \"한국, 달기지 협력 역량 갖췄다\"",
-          "score": 1
-        },
         {
           "date": "20260715",
           "type": "positive",
@@ -215,8 +209,8 @@
         {
           "date": "20260729",
           "type": "negative",
-          "headline": "[거시분석] Iran and US trade strikes, shattering brief l...",
-          "score": -5
+          "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
+          "score": -3
         },
         {
           "date": "20260728",
@@ -564,49 +558,16 @@
     },
     {
       "date": "20260729",
-      "headline": "Yemen’s Houthis claim missile attack on Saudi Arabia oil tanker",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260729",
-      "headline": "Israeli airstrike destroys Gaza City mosque near displacement camp",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260729",
-      "headline": "이란, 중동 미군기지 다시 공격…미군도 '대리세력' 공습(종합2보)",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260729",
-      "headline": "[만나보니] NASA \"한국, 달기지 협력 역량 갖췄다\"",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260729",
-      "headline": "[거시분석] Iran and US trade strikes, shattering brief l...",
+      "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -5,
-        "금융": -1
+        "전체시장": -3
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
-  "total_positives": 37,
+  "total_negatives": 41,
+  "total_positives": 33,
   "risk_level": "EXTREME"
 }
