@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-30T05:59:30.686384+09:00",
+  "updated_at": "2026-07-30T08:00:39.553121+09:00",
   "date": "20260730",
   "window_days": 14,
   "sectors": [
@@ -17,9 +17,21 @@
   "sector_stats": {
     "반도체·AI": {
       "score": -1,
-      "positive_count": 5,
-      "negative_count": 3,
+      "positive_count": 6,
+      "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20260730",
+          "type": "positive",
+          "headline": "Sam Altman meets lawmakers on back of OpenAI agents hacking companies",
+          "score": 1
+        },
+        {
+          "date": "20260730",
+          "type": "negative",
+          "headline": "[거시분석] US Fed holds interest rates steady, citing ‘e...",
+          "score": -1
+        },
         {
           "date": "20260727",
           "type": "positive",
@@ -37,26 +49,20 @@
           "type": "positive",
           "headline": "Warning shot or publicity stunt - how worried should we be about the OpenAI hack?",
           "score": 1
-        },
-        {
-          "date": "20260725",
-          "type": "negative",
-          "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
-          "score": -2
-        },
-        {
-          "date": "20260723",
-          "type": "positive",
-          "headline": "How are companies, governments responding to the OpenAI hack?",
-          "score": 1
         }
       ]
     },
     "건설": {
       "score": -10,
-      "positive_count": 0,
+      "positive_count": 1,
       "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260730",
+          "type": "positive",
+          "headline": "강남구, 재건축 '신속추진 전문가 지원단' 출범",
+          "score": 1
+        },
         {
           "date": "20260728",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
           "score": -1
-        },
-        {
-          "date": "20260723",
-          "type": "negative",
-          "headline": "[거시분석] Houthis claim attack on oil tankers as US lau...",
-          "score": -2
         }
       ]
     },
@@ -97,7 +97,7 @@
         {
           "date": "20260730",
           "type": "positive",
-          "headline": "[거시분석] Saudi Arabia's dilemma as it tries to stay ou...",
+          "headline": "[거시분석] US Fed holds interest rates steady, citing ‘e...",
           "score": 1
         },
         {
@@ -148,13 +148,19 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
         {
           "date": "20260730",
           "type": "negative",
-          "headline": "[거시분석] Saudi Arabia's dilemma as it tries to stay ou...",
+          "headline": "美 연준 매파적 동결…한은, 기준금리 인상 속도 내나",
           "score": -1
+        },
+        {
+          "date": "20260730",
+          "type": "negative",
+          "headline": "[거시분석] US Fed holds interest rates steady, citing ‘e...",
+          "score": -3
         },
         {
           "date": "20260729",
@@ -173,12 +179,6 @@
           "type": "negative",
           "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
           "score": -1
-        },
-        {
-          "date": "20260723",
-          "type": "negative",
-          "headline": "[거시분석] Houthis claim attack on oil tankers as US lau...",
-          "score": -2
         }
       ]
     },
@@ -202,8 +202,8 @@
         {
           "date": "20260730",
           "type": "negative",
-          "headline": "[거시분석] Saudi Arabia's dilemma as it tries to stay ou...",
-          "score": -3
+          "headline": "[거시분석] US Fed holds interest rates steady, citing ‘e...",
+          "score": -6
         },
         {
           "date": "20260729",
@@ -494,16 +494,41 @@
     },
     {
       "date": "20260730",
-      "headline": "[거시분석] Saudi Arabia's dilemma as it tries to stay ou...",
+      "headline": "Sam Altman meets lawmakers on back of OpenAI agents hacking companies",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260730",
+      "headline": "美 연준 매파적 동결…한은, 기준금리 인상 속도 내나",
+      "impacts": {
+        "금융": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260730",
+      "headline": "강남구, 재건축 '신속추진 전문가 지원단' 출범",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260730",
+      "headline": "[거시분석] US Fed holds interest rates steady, citing ‘e...",
       "impacts": {
         "방산": 1,
-        "전체시장": -3,
-        "금융": -1
+        "전체시장": -6,
+        "금융": -3,
+        "반도체·AI": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 38,
-  "total_positives": 28,
+  "total_negatives": 40,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
