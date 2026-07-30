@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31 06:14",
+  "updated": "2026-07-31 08:10",
   "news_count": 56,
   "intl_count": 56,
   "domestic_count": 0,
@@ -51,6 +51,11 @@
     "Man impaled by a hiking pole treks 10 miles down mountain",
     "Watch: Giant iceberg turns over near  Greenland's coast",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Trump says Board of Peace reaches agreement on disarmament of Hamas in Gaza",
+    "Amazon’s Zoox secures US federal approval for steering-wheel-free robotaxis",
+    "Why is US GDP growth slowing, and how can it be reversed?",
+    "French teen fined in Singapore over ‘straw licking’ stunt",
+    "Argentina’s Milei seeks to deport foreigners that spread ‘hate’ of country",
     "Will Saudi Arabia be dragged further into the war in Iran?",
     "Prague Zoo keeps polar bears cool with ice amid heatwave",
     "UN launches hunt for next chief amid rising challenges",
@@ -70,12 +75,7 @@
     "Rights report reconstructs fatal shooting of Palestinian man",
     "‘To play God’: Cuba’s healthcare system collapses under US pressure",
     "In Their Own Hands: Ghana’s Drug Vigilantes",
-    "NATO jets scramble as Russian missile detonates in Poland",
-    "IRGC video of retaliatory strikes on US targets in Jordan",
-    "US GDP growth dips as inflation and trade deficits pressure economy",
-    "Spainish enclave Ceuta raises alarm as thousands cross border from Morocco",
-    "Republicans delay vote on Trump’s US attorney general pick amid concerns",
-    "UEFA members vote to boycott FIFA if Infantino’s World Cup plans pursued"
+    "NATO jets scramble as Russian missile detonates in Poland"
   ],
   "categories": {
     "geopolitical": {
@@ -84,14 +84,14 @@
       "signal": "🔴",
       "summary": "US launches 'heavy' strikes on Iran after att...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 5,
+      "matched": 6,
       "score": 1.5
     },
     "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "US GDP growth dips as inflation and trade def...",
+      "summary": "Amazon’s Zoox secures US federal approval for...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 1,
       "score": 1.4
@@ -106,13 +106,13 @@
       "score": 0
     },
     "trade": {
-      "level": "주의",
+      "level": "신호",
       "color": "yellow",
       "signal": "🟡",
       "summary": "US launches 'heavy' strikes on Iran after att...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 7,
-      "score": 1.4
+      "action": "관련 지표 추가 확인 후 판단",
+      "matched": 6,
+      "score": 8.8
     },
     "policy": {
       "level": "안전",
