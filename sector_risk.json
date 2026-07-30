@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-30T11:38:49.578853+09:00",
+  "updated_at": "2026-07-30T15:31:18.318534+09:00",
   "date": "20260730",
   "window_days": 14,
   "sectors": [
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20260730",
+          "type": "negative",
+          "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
+          "score": -2
+        },
         {
           "date": "20260728",
           "type": "negative",
@@ -80,25 +86,25 @@
           "type": "negative",
           "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
           "score": -1
-        },
-        {
-          "date": "20260723",
-          "type": "negative",
-          "headline": "[거시분석] Houthis claim attack on oil tankers as US lau...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 21,
+      "positive_count": 22,
       "negative_count": 1,
       "recent_events": [
         {
           "date": "20260730",
           "type": "positive",
-          "headline": "[거시분석] Saudi Arabia's dilemma as it tries to stay ou...",
+          "headline": "\"미 중부사령관, 최장 2주 가혹한 이란 공습 주장\"",
           "score": 1
+        },
+        {
+          "date": "20260730",
+          "type": "positive",
+          "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
+          "score": 3
         },
         {
           "date": "20260729",
@@ -117,20 +123,20 @@
           "type": "positive",
           "headline": "[거시분석] Oil price dives as US and Iran pause attacks",
           "score": 1
-        },
-        {
-          "date": "20260726",
-          "type": "positive",
-          "headline": "Iran-backed Houthis claim missile attack on Saudi Arabia",
-          "score": 1
         }
       ]
     },
     "전력·에너지": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260730",
+          "type": "positive",
+          "headline": "경남 원전기업·연구기관, SMR 제작기간 단축 기술 개발 주도",
+          "score": 1
+        },
         {
           "date": "20260723",
           "type": "positive",
@@ -202,8 +208,8 @@
         {
           "date": "20260730",
           "type": "negative",
-          "headline": "[거시분석] Saudi Arabia's dilemma as it tries to stay ou...",
-          "score": -1
+          "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
+          "score": -5
         },
         {
           "date": "20260729",
@@ -510,15 +516,32 @@
     },
     {
       "date": "20260730",
-      "headline": "[거시분석] Saudi Arabia's dilemma as it tries to stay ou...",
+      "headline": "\"미 중부사령관, 최장 2주 가혹한 이란 공습 주장\"",
       "impacts": {
-        "방산": 1,
-        "전체시장": -1
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260730",
+      "headline": "경남 원전기업·연구기관, SMR 제작기간 단축 기술 개발 주도",
+      "impacts": {
+        "전력·에너지": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260730",
+      "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 37,
-  "total_positives": 30,
+  "total_negatives": 38,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
