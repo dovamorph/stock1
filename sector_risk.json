@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-30T23:09:39.464210+09:00",
-  "date": "20260730",
+  "updated_at": "2026-07-31T02:38:30.808930+09:00",
+  "date": "20260731",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -20,6 +20,12 @@
       "positive_count": 6,
       "negative_count": 3,
       "recent_events": [
+        {
+          "date": "20260731",
+          "type": "positive",
+          "headline": "Trump considering AI controls after OpenAI hacking incidents",
+          "score": 1
+        },
         {
           "date": "20260730",
           "type": "positive",
@@ -43,20 +49,20 @@
           "type": "positive",
           "headline": "Warning shot or publicity stunt - how worried should we be about the OpenAI hack?",
           "score": 1
-        },
-        {
-          "date": "20260725",
-          "type": "negative",
-          "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
-          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20260731",
+          "type": "negative",
+          "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
+          "score": -2
+        },
         {
           "date": "20260728",
           "type": "negative",
@@ -80,20 +86,26 @@
           "type": "negative",
           "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
           "score": -1
-        },
-        {
-          "date": "20260723",
-          "type": "negative",
-          "headline": "[거시분석] Houthis claim attack on oil tankers as US lau...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 21,
+      "positive_count": 22,
       "negative_count": 1,
       "recent_events": [
+        {
+          "date": "20260731",
+          "type": "positive",
+          "headline": "At least five members of same family killed in Russian missile attack, Zelensky says",
+          "score": 1
+        },
+        {
+          "date": "20260731",
+          "type": "positive",
+          "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
+          "score": 3
+        },
         {
           "date": "20260730",
           "type": "positive",
@@ -111,18 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] As the US pauses the war with Iran, is Trump ...",
           "score": 3
-        },
-        {
-          "date": "20260727",
-          "type": "positive",
-          "headline": "[거시분석] Oil price dives as US and Iran pause attacks",
-          "score": 1
-        },
-        {
-          "date": "20260726",
-          "type": "positive",
-          "headline": "Iran-backed Houthis claim missile attack on Saudi Arabia",
-          "score": 1
         }
       ]
     },
@@ -148,8 +148,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260731",
+          "type": "negative",
+          "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
+          "score": -1
+        },
         {
           "date": "20260730",
           "type": "negative",
@@ -173,12 +179,6 @@
           "type": "negative",
           "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
           "score": -1
-        },
-        {
-          "date": "20260723",
-          "type": "negative",
-          "headline": "[거시분석] Houthis claim attack on oil tankers as US lau...",
-          "score": -2
         }
       ]
     },
@@ -199,6 +199,12 @@
       "positive_count": 1,
       "negative_count": 16,
       "recent_events": [
+        {
+          "date": "20260731",
+          "type": "negative",
+          "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
+          "score": -5
+        },
         {
           "date": "20260730",
           "type": "negative",
@@ -222,34 +228,11 @@
           "type": "negative",
           "headline": "[거시분석] Oil price dives as US and Iran pause attacks",
           "score": -2
-        },
-        {
-          "date": "20260726",
-          "type": "negative",
-          "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
-          "score": -6
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260716",
-      "headline": "Chip giant TSMC pledges another $100bn to expand US production",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260716",
-      "headline": "[거시분석] Iran targets military bases as US launches wa...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260717",
       "headline": "Chip giant TSMC pledges another $100bn to expand US production",
@@ -509,9 +492,36 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260731",
+      "headline": "At least five members of same family killed in Russian missile attack, Zelensky says",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260731",
+      "headline": "Trump considering AI controls after OpenAI hacking incidents",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260731",
+      "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 38,
-  "total_positives": 29,
+  "total_negatives": 40,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
