@@ -1,10 +1,10 @@
 {
-  "updated": "2026-07-31 02:38",
-  "news_count": 54,
-  "intl_count": 54,
+  "updated": "2026-07-31 04:37",
+  "news_count": 56,
+  "intl_count": 56,
   "domestic_count": 0,
   "source_stats": {
-    "BBC World": 28,
+    "BBC World": 30,
     "Al Jazeera": 26,
     "연합뉴스": 0,
     "한국경제": 0,
@@ -25,9 +25,10 @@
     "Hundreds of migrants swim from Morocco to Spanish enclave of Ceuta",
     "Missile that left crater deep inside Poland was probably Russian - Polish PM",
     "At least five members of same family killed in Russian missile attack, Zelensky says",
-    "Nicaraguan leader proposes extending presidential term by another year",
+    "Danube's record low levels force shutdown of Hungary's only nuclear plant",
     "Cyanide in tomato pesticide killed 15 elephants, Kenyan officials suspect",
     "Father of teen school shooter sentenced to 15 years in prison",
+    "Nicaraguan leader proposes extending presidential term by another year",
     "Thousands evacuated in Crete as wildfires threaten tourist resorts",
     "Trump considering AI controls after OpenAI hacking incidents",
     "Veteran Ugandan opposition leader collapses in court and in ICU, his wife says",
@@ -44,11 +45,20 @@
     "Zendaya on working with Tom Holland in Spider-Man: ‘When you’re best friends it’s easy’",
     "The Chinese robot army transforming the UK's retail industry",
     "India's CJP protests: Why tech alone won't stop exam paper leaks",
+    "Migrants seen swimming around border fence of Spanish enclave Ceuta",
+    "Dashcam captures tornado toppling power lines onto car",
     "Man impaled by a hiking pole treks 10 miles down mountain",
     "Watch: Giant iceberg turns over near  Greenland's coast",
     "Watch: Japanese mall explodes after magnitude 6.8 earthquake",
-    "Planes dump water on French wildfires as temperatures rise",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Congo’s Ebola death toll passes 1,500 as it struggles to halt spread",
+    "UN demands end of Ugandan clampdown on dissent",
+    "ABC News says FCC is carrying out intimidation campaign to shape coverage",
+    "Spain’s Ceuta declares emergency over surge in migrant arrivals",
+    "Turtle rescued from rubble a month after Venezuela earthquake",
+    "Viral cricket scandal sees ‘Clicky Ponting’ suspended from UK team",
+    "Europe’s heating climate sparks ‘major intensification’ of fires: Report",
+    "Rights report reconstructs fatal shooting of Palestinian man",
     "‘To play God’: Cuba’s healthcare system collapses under US pressure",
     "In Their Own Hands: Ghana’s Drug Vigilantes",
     "NATO jets scramble as Russian missile detonates in Poland",
@@ -65,15 +75,7 @@
     "‘Go back to your own country’: NZ foreign minister faces backlash",
     "Islamabad residents rally in solidarity with Kashmir protests",
     "Sudan’s RSF vows to return to Khartoum",
-    "World Cup: What has FIFA charged Argentina with, what could punishment be?",
-    "Detained Ugandan opposition leader Besigye in intensive care, wife says",
-    "England appoint Root and Fleming as Test cricket captain and coach",
-    "How does a safe zone in Lebanon become a target three times?",
-    "Israeli strikes kill at least four, including children, across Gaza Strip",
-    "AFC president doubles down on FIFA, calling World Cup plan ‘unacceptable’",
-    "Israeli raids and settler attacks intensify across the occupied West Bank",
-    "Attack on northwest Pakistan police post kills 11 officers",
-    "Several children killed and wounded in Israeli attacks across Gaza"
+    "World Cup: What has FIFA charged Argentina with, what could punishment be?"
   ],
   "categories": {
     "geopolitical": {
@@ -82,7 +84,7 @@
       "signal": "🔴",
       "summary": "US launches 'heavy' strikes on Iran after att...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 8,
+      "matched": 6,
       "score": 1.5
     },
     "macro": {
@@ -109,7 +111,7 @@
       "signal": "🟡",
       "summary": "US launches 'heavy' strikes on Iran after att...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 7,
+      "matched": 8,
       "score": 1.4
     },
     "policy": {
