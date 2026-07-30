@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31 04:37",
+  "updated": "2026-07-31 06:14",
   "news_count": 56,
   "intl_count": 56,
   "domestic_count": 0,
@@ -13,21 +13,22 @@
     "StockPlus": 0
   },
   "news_sample": [
+    "Uefa to boycott World Cups if Fifa plans approved",
     "US launches 'heavy' strikes on Iran after attempted attack on American troops",
     "Why limited war with the US may suit Iran better than peace",
     "Hundreds of migrants swim from Morocco to Spanish enclave of Ceuta",
-    "Missile that left crater deep inside Poland was probably Russian - Polish PM",
-    "At least five members of same family killed in Russian missile attack, Zelensky says"
+    "Missile that left crater deep inside Poland was probably Russian - Polish PM"
   ],
   "all_headlines": [
+    "Uefa to boycott World Cups if Fifa plans approved",
     "US launches 'heavy' strikes on Iran after attempted attack on American troops",
     "Why limited war with the US may suit Iran better than peace",
     "Hundreds of migrants swim from Morocco to Spanish enclave of Ceuta",
     "Missile that left crater deep inside Poland was probably Russian - Polish PM",
     "At least five members of same family killed in Russian missile attack, Zelensky says",
     "Danube's record low levels force shutdown of Hungary's only nuclear plant",
-    "Cyanide in tomato pesticide killed 15 elephants, Kenyan officials suspect",
     "Father of teen school shooter sentenced to 15 years in prison",
+    "Cyanide in tomato pesticide killed 15 elephants, Kenyan officials suspect",
     "Nicaraguan leader proposes extending presidential term by another year",
     "Thousands evacuated in Crete as wildfires threaten tourist resorts",
     "Trump considering AI controls after OpenAI hacking incidents",
@@ -49,8 +50,16 @@
     "Dashcam captures tornado toppling power lines onto car",
     "Man impaled by a hiking pole treks 10 miles down mountain",
     "Watch: Giant iceberg turns over near  Greenland's coast",
-    "Watch: Japanese mall explodes after magnitude 6.8 earthquake",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Will Saudi Arabia be dragged further into the war in Iran?",
+    "Prague Zoo keeps polar bears cool with ice amid heatwave",
+    "UN launches hunt for next chief amid rising challenges",
+    "Security camera shows ‘Russian missile’ exploding in Poland",
+    "Father of Georgia Apalachee school shooter sentenced to 15 years in prison",
+    "US authorities probe cyberattack on water systems in Minnesota",
+    "Palestine Action co-founder wins UK Supreme Court appeal bid",
+    "Pakistan coal mine explosion kills at least 11, traps dozens",
+    "Saudi Arabia announces maritime defence alliance to secure vital waterways",
     "Congo’s Ebola death toll passes 1,500 as it struggles to halt spread",
     "UN demands end of Ugandan clampdown on dissent",
     "ABC News says FCC is carrying out intimidation campaign to shape coverage",
@@ -64,18 +73,9 @@
     "NATO jets scramble as Russian missile detonates in Poland",
     "IRGC video of retaliatory strikes on US targets in Jordan",
     "US GDP growth dips as inflation and trade deficits pressure economy",
-    "Spain’s enclave Ceuta raises alarm as thousands cross border from Morocco",
+    "Spainish enclave Ceuta raises alarm as thousands cross border from Morocco",
     "Republicans delay vote on Trump’s US attorney general pick amid concerns",
-    "UEFA members vote to boycott FIFA if Infantino’s World Cup plans pursued",
-    "Is Pakistan ‘using India’s playbook’ in Kashmir?",
-    "Smoke rises over southern Iran after renewed US attacks",
-    "War on Iran: Phase II: Day 19",
-    "Police arrest dozens at London rally supporting Palestine Action",
-    "El Salvador sentences gang members to 1,000 years in prison",
-    "‘Go back to your own country’: NZ foreign minister faces backlash",
-    "Islamabad residents rally in solidarity with Kashmir protests",
-    "Sudan’s RSF vows to return to Khartoum",
-    "World Cup: What has FIFA charged Argentina with, what could punishment be?"
+    "UEFA members vote to boycott FIFA if Infantino’s World Cup plans pursued"
   ],
   "categories": {
     "geopolitical": {
@@ -84,7 +84,7 @@
       "signal": "🔴",
       "summary": "US launches 'heavy' strikes on Iran after att...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 6,
+      "matched": 5,
       "score": 1.5
     },
     "macro": {
@@ -111,7 +111,7 @@
       "signal": "🟡",
       "summary": "US launches 'heavy' strikes on Iran after att...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 8,
+      "matched": 7,
       "score": 1.4
     },
     "policy": {
