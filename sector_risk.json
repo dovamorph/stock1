@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-30T19:28:02.328270+09:00",
+  "updated_at": "2026-07-30T23:09:39.464210+09:00",
   "date": "20260730",
   "window_days": 14,
   "sectors": [
@@ -148,8 +148,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20260730",
+          "type": "negative",
+          "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
+          "score": -1
+        },
         {
           "date": "20260729",
           "type": "negative",
@@ -173,12 +179,6 @@
           "type": "negative",
           "headline": "[거시분석] Houthis claim attack on oil tankers as US lau...",
           "score": -2
-        },
-        {
-          "date": "20260722",
-          "type": "negative",
-          "headline": "[거시분석] Zelensky sacks Ukraine's top army commander a...",
-          "score": -1
         }
       ]
     },
@@ -203,7 +203,7 @@
           "date": "20260730",
           "type": "negative",
           "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
-          "score": -1
+          "score": -3
         },
         {
           "date": "20260729",
@@ -505,12 +505,13 @@
       "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
       "impacts": {
         "방산": 1,
-        "전체시장": -1
+        "전체시장": -3,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 37,
+  "total_negatives": 38,
   "total_positives": 29,
   "risk_level": "EXTREME"
 }
