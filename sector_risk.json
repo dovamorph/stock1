@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-31T23:15:36.076767+09:00",
-  "date": "20260731",
+  "updated_at": "2026-08-01T02:42:10.450093+09:00",
+  "date": "20260801",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -20,6 +20,12 @@
       "positive_count": 6,
       "negative_count": 3,
       "recent_events": [
+        {
+          "date": "20260801",
+          "type": "positive",
+          "headline": "Trump considering AI controls after OpenAI hacking incidents",
+          "score": 1
+        },
         {
           "date": "20260731",
           "type": "positive",
@@ -43,20 +49,20 @@
           "type": "negative",
           "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
           "score": -2
-        },
-        {
-          "date": "20260725",
-          "type": "positive",
-          "headline": "Warning shot or publicity stunt - how worried should we be about the OpenAI hack?",
-          "score": 1
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20260801",
+          "type": "negative",
+          "headline": "[거시분석] Bowen: Plan for Hamas to disarm faces big obs...",
+          "score": -2
+        },
         {
           "date": "20260731",
           "type": "negative",
@@ -80,20 +86,32 @@
           "type": "negative",
           "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
           "score": -2
-        },
-        {
-          "date": "20260724",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
-          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 22,
-      "negative_count": 2,
+      "positive_count": 23,
+      "negative_count": 3,
       "recent_events": [
+        {
+          "date": "20260801",
+          "type": "positive",
+          "headline": "At least five members of same family killed in Russian missile attack, Zelensky says",
+          "score": 1
+        },
+        {
+          "date": "20260801",
+          "type": "negative",
+          "headline": "하마스 \"무장해제 조건은 이스라엘 철군…살상 중단 약속 먼저\"",
+          "score": -1
+        },
+        {
+          "date": "20260801",
+          "type": "positive",
+          "headline": "[거시분석] Bowen: Plan for Hamas to disarm faces big obs...",
+          "score": 3
+        },
         {
           "date": "20260731",
           "type": "positive",
@@ -105,24 +123,6 @@
           "type": "negative",
           "headline": "하마스 \"무장해제 조건은 이스라엘 철군…살상 중단 약속 먼저\"",
           "score": -1
-        },
-        {
-          "date": "20260731",
-          "type": "positive",
-          "headline": "[거시분석] If Hamas disarmament plan holds, it could mar...",
-          "score": 3
-        },
-        {
-          "date": "20260730",
-          "type": "positive",
-          "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
-          "score": 1
-        },
-        {
-          "date": "20260729",
-          "type": "positive",
-          "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
-          "score": 1
         }
       ]
     },
@@ -148,7 +148,7 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
         {
           "date": "20260731",
@@ -200,6 +200,12 @@
       "negative_count": 16,
       "recent_events": [
         {
+          "date": "20260801",
+          "type": "negative",
+          "headline": "[거시분석] Bowen: Plan for Hamas to disarm faces big obs...",
+          "score": -5
+        },
+        {
           "date": "20260731",
           "type": "negative",
           "headline": "[거시분석] If Hamas disarmament plan holds, it could mar...",
@@ -222,35 +228,11 @@
           "type": "negative",
           "headline": "[거시분석] As the US pauses the war with Iran, is Trump ...",
           "score": -4
-        },
-        {
-          "date": "20260727",
-          "type": "negative",
-          "headline": "[거시분석] Oil price dives as US and Iran pause attacks",
-          "score": -2
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260717",
-      "headline": "Chip giant TSMC pledges another $100bn to expand US production",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260717",
-      "headline": "[거시분석] Iran accuses US of hitting civilian infrastru...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -3,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260718",
       "headline": "[거시분석] US strikes hit Iran for seventh consecutive n...",
@@ -527,9 +509,43 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260801",
+      "headline": "At least five members of same family killed in Russian missile attack, Zelensky says",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260801",
+      "headline": "Trump considering AI controls after OpenAI hacking incidents",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260801",
+      "headline": "하마스 \"무장해제 조건은 이스라엘 철군…살상 중단 약속 먼저\"",
+      "impacts": {
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260801",
+      "headline": "[거시분석] Bowen: Plan for Hamas to disarm faces big obs...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 41,
-  "total_positives": 30,
+  "total_negatives": 42,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
