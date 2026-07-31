@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-31T19:42:30.192976+09:00",
+  "updated_at": "2026-07-31T23:15:36.076767+09:00",
   "date": "20260731",
   "window_days": 14,
   "sectors": [
@@ -16,27 +16,15 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -1,
-      "positive_count": 7,
-      "negative_count": 4,
+      "score": 0,
+      "positive_count": 6,
+      "negative_count": 3,
       "recent_events": [
         {
           "date": "20260731",
           "type": "positive",
           "headline": "Trump considering AI controls after OpenAI hacking incidents",
           "score": 1
-        },
-        {
-          "date": "20260731",
-          "type": "positive",
-          "headline": "After OpenAI disclosure, Anthropic says Claude also hacked outside systems",
-          "score": 1
-        },
-        {
-          "date": "20260731",
-          "type": "negative",
-          "headline": "[거시분석] If Hamas disarmament plan holds, it could mar...",
-          "score": -2
         },
         {
           "date": "20260730",
@@ -48,6 +36,18 @@
           "date": "20260727",
           "type": "positive",
           "headline": "Chinese chipmaker shares surge nearly 470% in blockbuster stock market debut",
+          "score": 1
+        },
+        {
+          "date": "20260726",
+          "type": "negative",
+          "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
+          "score": -2
+        },
+        {
+          "date": "20260725",
+          "type": "positive",
+          "headline": "Warning shot or publicity stunt - how worried should we be about the OpenAI hack?",
           "score": 1
         }
       ]
@@ -92,13 +92,19 @@
     "방산": {
       "score": 10,
       "positive_count": 22,
-      "negative_count": 1,
+      "negative_count": 2,
       "recent_events": [
         {
           "date": "20260731",
           "type": "positive",
           "headline": "At least five members of same family killed in Russian missile attack, Zelensky says",
           "score": 1
+        },
+        {
+          "date": "20260731",
+          "type": "negative",
+          "headline": "하마스 \"무장해제 조건은 이스라엘 철군…살상 중단 약속 먼저\"",
+          "score": -1
         },
         {
           "date": "20260731",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
           "score": 1
-        },
-        {
-          "date": "20260728",
-          "type": "positive",
-          "headline": "[거시분석] As the US pauses the war with Iran, is Trump ...",
-          "score": 3
         }
       ]
     },
@@ -511,9 +511,9 @@
     },
     {
       "date": "20260731",
-      "headline": "After OpenAI disclosure, Anthropic says Claude also hacked outside systems",
+      "headline": "하마스 \"무장해제 조건은 이스라엘 철군…살상 중단 약속 먼저\"",
       "impacts": {
-        "반도체·AI": 1
+        "방산": -1
       },
       "source": "keyword"
     },
@@ -524,13 +524,12 @@
         "방산": 3,
         "건설": -2,
         "전체시장": -7,
-        "금융": -1,
-        "반도체·AI": -2
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 41,
-  "total_positives": 31,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
