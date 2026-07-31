@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01 02:42",
+  "updated": "2026-08-01 04:38",
   "news_count": 86,
   "intl_count": 56,
   "domestic_count": 30,
@@ -51,6 +51,12 @@
     "What could happen to Fifa if Uefa boycotts World Cup?",
     "Saudi Arabia's dilemma as it tries to stay out of US-Iran war",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "World reacts with cautious optimism to Hamas disarmament agreement",
+    "Trump says Hamas disarmament deal will be complex to deliver",
+    "Syrian lawyer takes on ex-Assad official in landmark trial",
+    "Why is Israel arming illegal settlers?",
+    "New York sues Kalshi, says its prediction markets are ‘illegal gambling’",
+    "FIFA COO Lamour says staff deceived over Infantino’s World Cup plan",
     "Western allies warn North Korean IT workers funding nuclear arsenal",
     "DR Congo Ebola epidemic becomes world’s second largest outbreak",
     "Three-year roadmap proposed for Hamas disarmament in Gaza",
@@ -70,12 +76,12 @@
     "The waiting game: Gaza’s CT scan shortage causing worries and worse",
     "Approval for China’s mega embassy in London was lawful, UK court rules",
     "Inside Barcelona’s most sweltering neighbourhood: El Raval",
-    "Second day of Spain – Morocco border clashes amid mass migrant influx",
-    "‘Migrant tsunami’: Second day of Spain – Morocco border clashes",
-    "Russia’s Africa Corps killed Mali civilians in air strike: HRW",
-    "Gaza Board of Peace announces Hamas disarmament agreement: What we know",
-    "Palestinians in Gaza are sceptical about the latest peace plan",
-    "Spain’s PM visits Ceuta after 57 migrants die breaching border from Morocco",
+    "오픈AI, 활성이용자 10억명 달성…출시 3년 8개월만",
+    "뉴욕주, 예측 시장 플랫폼 '칼시' 고소…\"불법 도박 운영\"",
+    "아르헨서 내년부터 원유 수입…리튬 채굴 공동프로젝트 추진",
+    "트럼프 \"이스라엘 매우 만족\"…하마스 무장해제 합의 호응 압박(종합)",
+    "스페인, 이주민 수만명 난입에 수습 안간힘…\"4만8천명 돌아가\"(종합)",
+    "'스파이더맨4', 북미 박스오피스서 시사회 흥행성적 역대 최고",
     "美국무부, AI생성 '엉터리' 아프리카 지도 썼다가 국제회의 망신",
     "트럼프 \"이스라엘 매우 만족\"…하마스 무장해제 합의 호응 압박",
     "트럼프 \"이란 강하게 타격할 것…이란 거짓말에 신뢰 잃고 있어\"",
@@ -99,13 +105,7 @@
     "李대통령 \"韓, 셰일가스 등 에너지 수출국 아르헨티나 주목\"",
     "'연패 끊은' 1위 삼성·'4연승' 2위 kt…반게임 차 선두 경쟁(종합)",
     "EU \"테무, 작년 EU 역외보조금 규정 조사 방해\"",
-    "스페인 총리 \"이주민 난입은 영토 공격…신속히 내보낼 것\"",
-    "[프로야구] 1일 선발투수",
-    "[프로야구 중간순위] 31일",
-    "'폭염특보' 인천 백령도서 한때 정전…8시간만에 복구(종합)",
-    "[프로야구 부산전적] 삼성 9-7 롯데",
-    "[프로야구 고척전적] 키움 12-7 SSG",
-    "노동장관, 극한 폭염에 택배 상하차장 점검…9월까지 감독 강화"
+    "스페인 총리 \"이주민 난입은 영토 공격…신속히 내보낼 것\""
   ],
   "categories": {
     "geopolitical": {
@@ -114,7 +114,7 @@
       "signal": "🔴",
       "summary": "Bowen: Plan for Hamas to disarm faces big obs...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 15,
+      "matched": 14,
       "score": 1.5
     },
     "macro": {
@@ -127,13 +127,13 @@
       "score": 0
     },
     "disaster": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "‘Migrant tsunami’: Second day of Spain – Moro...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.4
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     },
     "trade": {
       "level": "주의",
@@ -148,10 +148,10 @@
       "level": "신호",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "EU \"테무, 작년 EU 역외보조금 규정 조사 방해\"",
+      "summary": "아르헨서 내년부터 원유 수입…리튬 채굴 공동프로젝트 추진",
       "action": "관련 지표 추가 확인 후 판단",
-      "matched": 1,
-      "score": 1.5
+      "matched": 2,
+      "score": 3.0
     }
   },
   "overall": {

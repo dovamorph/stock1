@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01T02:42:10.450093+09:00",
+  "updated_at": "2026-08-01T04:38:55.735324+09:00",
   "date": "20260801",
   "window_days": 14,
   "sectors": [
@@ -203,7 +203,7 @@
           "date": "20260801",
           "type": "negative",
           "headline": "[거시분석] Bowen: Plan for Hamas to disarm faces big obs...",
-          "score": -5
+          "score": -4
         },
         {
           "date": "20260731",
@@ -540,7 +540,7 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -5
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
