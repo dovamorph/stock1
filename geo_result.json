@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01 04:38",
+  "updated": "2026-08-01 06:08",
   "news_count": 86,
   "intl_count": 56,
   "domestic_count": 30,
@@ -15,14 +15,14 @@
   "news_sample": [
     "Spain's PM blames traffickers after 60,000 migrants reach Ceuta from Morocco",
     "Bowen: Plan for Hamas to disarm faces big obstacles, yet it offers rare hope for Gaza",
-    "Two bodies located and search ongoing after avalanche hits Nirmal Purja's team",
+    "Body of US climber the latest recovered after Pakistan avalanche",
     "Peru's ex-president has 15-year jail sentence for corruption charges overturned",
     "Hundreds escape Greek wildfire by sea as blazes continue across Europe"
   ],
   "all_headlines": [
     "Spain's PM blames traffickers after 60,000 migrants reach Ceuta from Morocco",
     "Bowen: Plan for Hamas to disarm faces big obstacles, yet it offers rare hope for Gaza",
-    "Two bodies located and search ongoing after avalanche hits Nirmal Purja's team",
+    "Body of US climber the latest recovered after Pakistan avalanche",
     "Peru's ex-president has 15-year jail sentence for corruption charges overturned",
     "Hundreds escape Greek wildfire by sea as blazes continue across Europe",
     "Fifa says 'nobody selling football' as plan continues",
@@ -51,6 +51,15 @@
     "What could happen to Fifa if Uefa boycotts World Cup?",
     "Saudi Arabia's dilemma as it tries to stay out of US-Iran war",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Cambridge students on why they protested at graduation ceremony",
+    "Powerful El Nino to intensify heat on ‘a planet already on fire’: UN",
+    "Venezuela gov’t and opposition to hold talks aimed at path to elections",
+    "At least 25 people killed, dozens injured in Algeria bus crash",
+    "Does FIFA need private investment?",
+    "Algerian bus plunges into ravine killing at least 27",
+    "‘Strategic partner’: Peru’s Fujimori plans to intensify ties with the US",
+    "Poland protests to Russian ambassador over missile incursion",
+    "Trump says US has ‘understanding’ with Israel on Hamas disarmament deal",
     "World reacts with cautious optimism to Hamas disarmament agreement",
     "Trump says Hamas disarmament deal will be complex to deliver",
     "Syrian lawyer takes on ex-Assad official in landmark trial",
@@ -67,15 +76,23 @@
     "World Cup: FIFA studying impact of expanding to 64 teams for 2030 edition",
     "Police chief resigns days after deadly shooting in US city of Seattle",
     "Chelsea fined $13.5m for FA breaches, avoid Premier League points deduction",
-    "Russia and Ukraine report casualties as they continue to trade attacks",
-    "Turkiye’s Davutoglu steps back from politics: A timeline of his career",
-    "Spain deploys military to Ceuta after migrant surge: What we know",
-    "Russia appears to infiltrate first ‘fortress city’ as Ukraine changes guard",
-    "Why is UEFA threatening FIFA boycott? Infantino’s World Cup plan explained",
-    "Palestinians in Gaza react to latest ceasefire deal",
-    "The waiting game: Gaza’s CT scan shortage causing worries and worse",
-    "Approval for China’s mega embassy in London was lawful, UK court rules",
-    "Inside Barcelona’s most sweltering neighbourhood: El Raval",
+    "전세계 '강제노동 관세' 때린 美…中 관련 수입품 단속은 급감",
+    "반도체 넘어 소부장까지…'뉴노멀' 된 장기공급계약",
+    "주유소 기름값 11주째 하락…휘발유·경유 1천800원대 유지",
+    "[사이테크+] \"북극 영구동토층 녹아도 탄소 대부분 해저에 저장된다\"",
+    "[부동산캘린더] 내주 부산 '더샵트리센트' 등 전국 3천34가구 분양",
+    "'생명 구한' AI돌봄 로봇…노인들 복통·우울증 등 위기서 역할",
+    "\"선관위, 작년 대선 투표자 수 수정 81건…재작년 총선은 65건\"",
+    "뉴욕증시, 아마존 실적 훈풍에 강세 마감…나스닥 1%↑(종합)",
+    "트럼프 \"스페인서 이주민 침략 재앙…민주 집권하면 미국서 재현\"(종합)",
+    "8월 첫날도 '폭염'…전국 체감온도 35도 안팎 무더위·열대야",
+    "뉴욕증시, 아마존 실적 훈풍에 강세 마감…나스닥 1%↑",
+    "'어둠의 공주' 모금책 둔 트럼프…\"'보스의 뜻' 압박해 1조 걷어\"",
+    "與, 오늘 충청서 첫 순회경선…鄭 우세 관측 속 金 추격 주목",
+    "美연준위원 3인, 금리인상 공개 촉구…\"늦기 전에 행동해야\"",
+    "아르헨서 내년부터 원유 수입…이중과세 방지협정 최종 타결(종합)",
+    "靑 \"호르무즈 기여 방안, 다양한 가능성 검토하는 단계\"",
+    "국제유가, 호르무즈 유조선 피습에 1% 상승…브렌트 90달러대",
     "오픈AI, 활성이용자 10억명 달성…출시 3년 8개월만",
     "뉴욕주, 예측 시장 플랫폼 '칼시' 고소…\"불법 도박 운영\"",
     "아르헨서 내년부터 원유 수입…리튬 채굴 공동프로젝트 추진",
@@ -88,24 +105,7 @@
     "영국 법원, '초대형 중국 대사관' 반대 주민 소송 기각",
     "쿠바 대통령 \"7개월간 유조선 한 척만 입항…견디기 힘든 수준\"",
     "美 '만화계 오스카' 아이스너서 '연옥당' 수상…한국 작품 최초",
-    "이탈리아 \"스페인에 EU 자유 이동 협정 적용 중단\"(종합)",
-    "북아프리카 알제리서 버스 계곡 추락…최소 25명 사망",
-    "트럼프, 스페인 '이주민 난입'에 \"재앙…민주 집권시 美도 침략당해\"",
-    "미 7월 미시간대 소비심리지수 55.2…2개월 연속 개선",
-    "민주콩고 에볼라 확진자 3천500명 넘어…역대 2번째 규모",
-    "韓-아르헨 정상회담…핵심광물 공급망·무역협상 재개 등 논의",
-    "교황청 순자산 4.4조원…금·부동산값 호조로 1천500억↑",
-    "[알림] 연합뉴스 콘텐츠 저작권 고지",
-    "힘 빠진 '마가 미디어'…美공화 중간선거 여론전 악재 되나",
-    "버넘 영국 총리 \"인판티노 FIFA 회장으로 부적절\"",
-    "김고은, 제5회 청룡시리즈어워즈 대상…\"매 작품 절실해\"",
-    "영 김 美하원 동아태 소위원장, 北 IT 위장취업 저지법 발의",
-    "뉴욕증시, 아마존 실적·반도체 강세 속 혼조 출발",
-    "하마스 \"무장해제 조건은 이스라엘 철군…살상 중단 약속 먼저\"",
-    "李대통령 \"韓, 셰일가스 등 에너지 수출국 아르헨티나 주목\"",
-    "'연패 끊은' 1위 삼성·'4연승' 2위 kt…반게임 차 선두 경쟁(종합)",
-    "EU \"테무, 작년 EU 역외보조금 규정 조사 방해\"",
-    "스페인 총리 \"이주민 난입은 영토 공격…신속히 내보낼 것\""
+    "이탈리아 \"스페인에 EU 자유 이동 협정 적용 중단\"(종합)"
   ],
   "categories": {
     "geopolitical": {
@@ -114,17 +114,17 @@
       "signal": "🔴",
       "summary": "Bowen: Plan for Hamas to disarm faces big obs...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 14,
+      "matched": 9,
       "score": 1.5
     },
     "macro": {
-      "level": "안전",
-      "color": "green",
-      "signal": "🟢",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "美연준위원 3인, 금리인상 공개 촉구…\"늦기 전에 행동해야\"",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 1,
+      "score": 3.0
     },
     "disaster": {
       "level": "안전",
@@ -141,8 +141,8 @@
       "signal": "🟡",
       "summary": "Why limited war with the US may suit Iran bet...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 7,
-      "score": 5.9
+      "matched": 6,
+      "score": 3.0
     },
     "policy": {
       "level": "신호",
@@ -150,14 +150,14 @@
       "signal": "🟡",
       "summary": "아르헨서 내년부터 원유 수입…리튬 채굴 공동프로젝트 추진",
       "action": "관련 지표 추가 확인 후 판단",
-      "matched": 2,
-      "score": 3.0
+      "matched": 1,
+      "score": 1.5
     }
   },
   "overall": {
-    "level": "주의",
-    "color": "yellow",
+    "level": "위험",
+    "color": "red",
     "summary": "주의 필요: 지정학적 충돌",
-    "action": "신규 매수 자제 / 추이 관찰"
+    "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
