@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31 08:10",
+  "updated": "2026-07-31 12:19",
   "news_count": 56,
   "intl_count": 56,
   "domestic_count": 0,
@@ -13,17 +13,19 @@
     "StockPlus": 0
   },
   "news_sample": [
+    "Hamas says it has agreed to disarm after Trump announces Board of Peace plan",
+    "Spain sending troops as thousands enter enclave of Ceuta from Morocco",
+    "Nirmal Purja among 10 climbers feared missing after avalanche",
     "Uefa to boycott World Cups if Fifa plans approved",
-    "US launches 'heavy' strikes on Iran after attempted attack on American troops",
-    "Why limited war with the US may suit Iran better than peace",
-    "Hundreds of migrants swim from Morocco to Spanish enclave of Ceuta",
-    "Missile that left crater deep inside Poland was probably Russian - Polish PM"
+    "Anthropic says Claude AI hacked three firms during cyber tests"
   ],
   "all_headlines": [
+    "Hamas says it has agreed to disarm after Trump announces Board of Peace plan",
+    "Spain sending troops as thousands enter enclave of Ceuta from Morocco",
+    "Nirmal Purja among 10 climbers feared missing after avalanche",
     "Uefa to boycott World Cups if Fifa plans approved",
-    "US launches 'heavy' strikes on Iran after attempted attack on American troops",
+    "Anthropic says Claude AI hacked three firms during cyber tests",
     "Why limited war with the US may suit Iran better than peace",
-    "Hundreds of migrants swim from Morocco to Spanish enclave of Ceuta",
     "Missile that left crater deep inside Poland was probably Russian - Polish PM",
     "At least five members of same family killed in Russian missile attack, Zelensky says",
     "Danube's record low levels force shutdown of Hungary's only nuclear plant",
@@ -39,8 +41,6 @@
     "Four women accuse Jared Leto of criminal sexual conduct",
     "Salman Rushdie attacker convicted of terror offences",
     "Oscar-winning songwriter Glen Hansard killed in crash",
-    "More than 100 aftershocks hit Japan after powerful quake that killed 13",
-    "Anthony Fauci refuses to answer questions during tense US Senate hearing about Covid origins",
     "Saudi Arabia's dilemma as it tries to stay out of US-Iran war",
     "'It's our home, it's our forest': BBC speaks to locals fighting France wildfire",
     "Zendaya on working with Tom Holland in Spider-Man: ‘When you’re best friends it’s easy’",
@@ -51,7 +51,22 @@
     "Man impaled by a hiking pole treks 10 miles down mountain",
     "Watch: Giant iceberg turns over near  Greenland's coast",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-    "Trump says Board of Peace reaches agreement on disarmament of Hamas in Gaza",
+    "Trump says Morocco named Tiznit-Dakhla highway after him: Why it matters",
+    "Clashes near Morocco’s border with Spain over beefed up migrant security",
+    "Pacific island nation Nauru officially changes name to ‘Naoero’",
+    "‘They got trapped:’ Race to save miners after deadly blast in Pakistan",
+    "Israeli soldiers mutiny at notorious Sde Teiman base",
+    "Spain deploys military to Ceuta after deadly migrant surge",
+    "Nepal’s PM urges calm as three people killed after Hindu-Muslim unrest",
+    "London protesters march through streets in solidarity with Azad Kashmir",
+    "US Escalation with Iran is ‘pointless’, warns former US diplomat",
+    "Iran war live: Gaza Board of Peace lauds ‘historic’ disarmament agreement",
+    "Trump announces Hamas to disarm paving way for Israel to withdraw from Gaza",
+    "UK left-wing MP Diane Abbott reinstated by Labour Party after suspension",
+    "Pathirage challenges Chopra-Nadeem javelin rivalry in Commonwealth final",
+    "US appeals court rejects Trump expansion of mandatory migrant detention",
+    "Trump administration appeals to never-before-used court for deportation",
+    "Hamas reaches Gaza disarmament agreement with Board of Peace",
     "Amazon’s Zoox secures US federal approval for steering-wheel-free robotaxis",
     "Why is US GDP growth slowing, and how can it be reversed?",
     "French teen fined in Singapore over ‘straw licking’ stunt",
@@ -60,41 +75,26 @@
     "Prague Zoo keeps polar bears cool with ice amid heatwave",
     "UN launches hunt for next chief amid rising challenges",
     "Security camera shows ‘Russian missile’ exploding in Poland",
-    "Father of Georgia Apalachee school shooter sentenced to 15 years in prison",
-    "US authorities probe cyberattack on water systems in Minnesota",
-    "Palestine Action co-founder wins UK Supreme Court appeal bid",
-    "Pakistan coal mine explosion kills at least 11, traps dozens",
-    "Saudi Arabia announces maritime defence alliance to secure vital waterways",
-    "Congo’s Ebola death toll passes 1,500 as it struggles to halt spread",
-    "UN demands end of Ugandan clampdown on dissent",
-    "ABC News says FCC is carrying out intimidation campaign to shape coverage",
-    "Spain’s Ceuta declares emergency over surge in migrant arrivals",
-    "Turtle rescued from rubble a month after Venezuela earthquake",
-    "Viral cricket scandal sees ‘Clicky Ponting’ suspended from UK team",
-    "Europe’s heating climate sparks ‘major intensification’ of fires: Report",
-    "Rights report reconstructs fatal shooting of Palestinian man",
-    "‘To play God’: Cuba’s healthcare system collapses under US pressure",
-    "In Their Own Hands: Ghana’s Drug Vigilantes",
-    "NATO jets scramble as Russian missile detonates in Poland"
+    "Father of Georgia Apalachee school shooter sentenced to 15 years in prison"
   ],
   "categories": {
     "geopolitical": {
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "US launches 'heavy' strikes on Iran after att...",
+      "summary": "Why limited war with the US may suit Iran bet...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 6,
+      "matched": 8,
       "score": 1.5
     },
     "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Amazon’s Zoox secures US federal approval for...",
+      "summary": "Clashes near Morocco’s border with Spain over...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.4
+      "matched": 2,
+      "score": 2.8
     },
     "disaster": {
       "level": "안전",
@@ -109,10 +109,10 @@
       "level": "신호",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "US launches 'heavy' strikes on Iran after att...",
+      "summary": "Why limited war with the US may suit Iran bet...",
       "action": "관련 지표 추가 확인 후 판단",
-      "matched": 6,
-      "score": 8.8
+      "matched": 7,
+      "score": 10.1
     },
     "policy": {
       "level": "안전",
@@ -125,9 +125,9 @@
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
+    "level": "신호",
+    "color": "yellow",
     "summary": "주의 필요: 지정학적 충돌",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "action": "관련 지표 추가 확인 후 판단"
   }
 }
