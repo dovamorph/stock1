@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31 12:19",
+  "updated": "2026-07-31 15:47",
   "news_count": 56,
   "intl_count": 56,
   "domestic_count": 0,
@@ -14,24 +14,27 @@
   },
   "news_sample": [
     "Hamas says it has agreed to disarm after Trump announces Board of Peace plan",
-    "Spain sending troops as thousands enter enclave of Ceuta from Morocco",
+    "If Hamas disarmament plan holds, it could mark first credible step to ending Gaza war",
     "Nirmal Purja among 10 climbers feared missing after avalanche",
-    "Uefa to boycott World Cups if Fifa plans approved",
-    "Anthropic says Claude AI hacked three firms during cyber tests"
+    "Spain sending troops as thousands enter enclave of Ceuta from Morocco",
+    "UK rapper Yung Filly found not guilty of raping woman after Australian show"
   ],
   "all_headlines": [
     "Hamas says it has agreed to disarm after Trump announces Board of Peace plan",
-    "Spain sending troops as thousands enter enclave of Ceuta from Morocco",
+    "If Hamas disarmament plan holds, it could mark first credible step to ending Gaza war",
     "Nirmal Purja among 10 climbers feared missing after avalanche",
-    "Uefa to boycott World Cups if Fifa plans approved",
-    "Anthropic says Claude AI hacked three firms during cyber tests",
-    "Why limited war with the US may suit Iran better than peace",
-    "Missile that left crater deep inside Poland was probably Russian - Polish PM",
+    "Spain sending troops as thousands enter enclave of Ceuta from Morocco",
+    "UK rapper Yung Filly found not guilty of raping woman after Australian show",
+    "Fifa says 'nobody selling football' as plan continues",
     "At least five members of same family killed in Russian missile attack, Zelensky says",
+    "Why limited war with the US may suit Iran better than peace",
+    "Uefa to boycott World Cups if Fifa plans approved",
     "Danube's record low levels force shutdown of Hungary's only nuclear plant",
+    "Missile that left crater deep inside Poland was probably Russian - Polish PM",
     "Father of teen school shooter sentenced to 15 years in prison",
     "Cyanide in tomato pesticide killed 15 elephants, Kenyan officials suspect",
     "Nicaraguan leader proposes extending presidential term by another year",
+    "Anthropic's Claude AI escapes tests to hack 3 organisations",
     "Thousands evacuated in Crete as wildfires threaten tourist resorts",
     "Trump considering AI controls after OpenAI hacking incidents",
     "Veteran Ugandan opposition leader collapses in court and in ICU, his wife says",
@@ -41,16 +44,23 @@
     "Four women accuse Jared Leto of criminal sexual conduct",
     "Salman Rushdie attacker convicted of terror offences",
     "Oscar-winning songwriter Glen Hansard killed in crash",
+    "India wants to join the strawberry superpowers",
+    "What could happen to Fifa if Uefa boycotts World Cup?",
     "Saudi Arabia's dilemma as it tries to stay out of US-Iran war",
     "'It's our home, it's our forest': BBC speaks to locals fighting France wildfire",
     "Zendaya on working with Tom Holland in Spider-Man: ‘When you’re best friends it’s easy’",
     "The Chinese robot army transforming the UK's retail industry",
-    "India's CJP protests: Why tech alone won't stop exam paper leaks",
-    "Migrants seen swimming around border fence of Spanish enclave Ceuta",
-    "Dashcam captures tornado toppling power lines onto car",
-    "Man impaled by a hiking pole treks 10 miles down mountain",
-    "Watch: Giant iceberg turns over near  Greenland's coast",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Ten climbers led by renowned Nepali mountaineer ‘missing’ on Pakistan peak",
+    "Families sleep in cars after homes destroyed in Japan earthquake",
+    "‘First somewhat optimistic day’ in France since fire outbreak says prefect",
+    "Iran holds funeral for Revolutionary Guard members reportedly killed in US",
+    "Southern Lebanese towns near Beaufort Castle hit by Israeli strikes",
+    "Death toll from Japan earthquake climbs to 34",
+    "After OpenAI disclosure, Anthropic says Claude also hacked outside systems",
+    "Israeli blockades seal off village in the occupied West Bank",
+    "India to increase penalties for exam leaks after Cockroach party protests",
+    "Why a MAGA influencer’s shift to support Ukraine war is good for Trump",
     "Trump says Morocco named Tiznit-Dakhla highway after him: Why it matters",
     "Clashes near Morocco’s border with Spain over beefed up migrant security",
     "Pacific island nation Nauru officially changes name to ‘Naoero’",
@@ -60,31 +70,21 @@
     "Nepal’s PM urges calm as three people killed after Hindu-Muslim unrest",
     "London protesters march through streets in solidarity with Azad Kashmir",
     "US Escalation with Iran is ‘pointless’, warns former US diplomat",
-    "Iran war live: Gaza Board of Peace lauds ‘historic’ disarmament agreement",
+    "Gaza live: Hamas reportedly agrees to ‘historic’ disarmament agreement",
     "Trump announces Hamas to disarm paving way for Israel to withdraw from Gaza",
     "UK left-wing MP Diane Abbott reinstated by Labour Party after suspension",
     "Pathirage challenges Chopra-Nadeem javelin rivalry in Commonwealth final",
     "US appeals court rejects Trump expansion of mandatory migrant detention",
-    "Trump administration appeals to never-before-used court for deportation",
-    "Hamas reaches Gaza disarmament agreement with Board of Peace",
-    "Amazon’s Zoox secures US federal approval for steering-wheel-free robotaxis",
-    "Why is US GDP growth slowing, and how can it be reversed?",
-    "French teen fined in Singapore over ‘straw licking’ stunt",
-    "Argentina’s Milei seeks to deport foreigners that spread ‘hate’ of country",
-    "Will Saudi Arabia be dragged further into the war in Iran?",
-    "Prague Zoo keeps polar bears cool with ice amid heatwave",
-    "UN launches hunt for next chief amid rising challenges",
-    "Security camera shows ‘Russian missile’ exploding in Poland",
-    "Father of Georgia Apalachee school shooter sentenced to 15 years in prison"
+    "Trump administration appeals to never-before-used court for deportation"
   ],
   "categories": {
     "geopolitical": {
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "Why limited war with the US may suit Iran bet...",
+      "summary": "If Hamas disarmament plan holds, it could mar...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 8,
+      "matched": 9,
       "score": 1.5
     },
     "macro": {
@@ -93,8 +93,8 @@
       "signal": "🟡",
       "summary": "Clashes near Morocco’s border with Spain over...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 2,
-      "score": 2.8
+      "matched": 1,
+      "score": 1.4
     },
     "disaster": {
       "level": "안전",
@@ -111,8 +111,8 @@
       "signal": "🟡",
       "summary": "Why limited war with the US may suit Iran bet...",
       "action": "관련 지표 추가 확인 후 판단",
-      "matched": 7,
-      "score": 10.1
+      "matched": 6,
+      "score": 8.7
     },
     "policy": {
       "level": "안전",
@@ -125,9 +125,9 @@
     }
   },
   "overall": {
-    "level": "신호",
-    "color": "yellow",
+    "level": "위험",
+    "color": "red",
     "summary": "주의 필요: 지정학적 충돌",
-    "action": "관련 지표 추가 확인 후 판단"
+    "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
