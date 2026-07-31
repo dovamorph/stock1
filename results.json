@@ -1,6 +1,6 @@
 {
   "date": "20260731",
-  "generated_at": "2026-07-31T20:01:02+09:00",
+  "generated_at": "2026-07-31T20:30:45+09:00",
   "reference_date": "20260730",
   "reference_ranks": {
     "000660": 1,
@@ -96,18 +96,18 @@
       "ndx_ch1": 2.78,
       "ndx_ma60": 25980.87
     },
-    "adr": 87.6,
-    "adr_advances": 417,
-    "adr_declines": 59,
+    "adr": 87.1,
+    "adr_advances": 424,
+    "adr_declines": 63,
     "adr_signal": "🟢",
-    "adr_desc": "건강 (88%) — 지수 상승이 진짜",
+    "adr_desc": "건강 (87%) — 지수 상승이 진짜",
     "breadth": {
       "regime": "광범위강세",
       "label": "광범위강세 🟢",
       "desc": "지수↑·폭 넓음 — 전 종목 건강",
       "kospi_ch1": 17.91,
       "kosdaq_ch1": 11.63,
-      "adr": 87.6
+      "adr": 87.1
     },
     "pool_flow": {
       "total": 40,
