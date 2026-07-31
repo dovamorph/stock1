@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-31T15:47:45.786606+09:00",
+  "updated_at": "2026-07-31T19:42:30.192976+09:00",
   "date": "20260731",
   "window_days": 14,
   "sectors": [
@@ -16,9 +16,9 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 1,
+      "score": -1,
       "positive_count": 7,
-      "negative_count": 3,
+      "negative_count": 4,
       "recent_events": [
         {
           "date": "20260731",
@@ -33,6 +33,12 @@
           "score": 1
         },
         {
+          "date": "20260731",
+          "type": "negative",
+          "headline": "[거시분석] If Hamas disarmament plan holds, it could mar...",
+          "score": -2
+        },
+        {
           "date": "20260730",
           "type": "positive",
           "headline": "Trump considering AI controls after OpenAI hacking incidents",
@@ -43,12 +49,6 @@
           "type": "positive",
           "headline": "Chinese chipmaker shares surge nearly 470% in blockbuster stock market debut",
           "score": 1
-        },
-        {
-          "date": "20260726",
-          "type": "negative",
-          "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
-          "score": -2
         }
       ]
     },
@@ -203,7 +203,7 @@
           "date": "20260731",
           "type": "negative",
           "headline": "[거시분석] If Hamas disarmament plan holds, it could mar...",
-          "score": -4
+          "score": -7
         },
         {
           "date": "20260730",
@@ -523,13 +523,14 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -4,
-        "금융": -1
+        "전체시장": -7,
+        "금융": -1,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 40,
+  "total_negatives": 41,
   "total_positives": 31,
   "risk_level": "EXTREME"
 }
