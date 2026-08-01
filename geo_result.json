@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-02 00:03",
+  "updated": "2026-08-02 02:03",
   "news_count": 83,
   "intl_count": 53,
   "domestic_count": 30,
@@ -14,19 +14,19 @@
   },
   "news_sample": [
     "Spain attacks 'selfish' response of some EU countries to Ceuta migrant crossings",
-    "Uefa has 'lost confidence' in Infantino's Fifa leadership",
+    "Call for 'full review' as pressure grows on Infantino",
     "Israeli West Bank settler tells BBC attacks on Palestinians are justified as revenge",
     "Mountaineer Nirmal Purja killed in Pakistan avalanche, his company says",
     "Nine killed in strikes on Kyiv, as Ukraine sinks Russian container ship"
   ],
   "all_headlines": [
     "Spain attacks 'selfish' response of some EU countries to Ceuta migrant crossings",
-    "Uefa has 'lost confidence' in Infantino's Fifa leadership",
+    "Call for 'full review' as pressure grows on Infantino",
     "Israeli West Bank settler tells BBC attacks on Palestinians are justified as revenge",
     "Mountaineer Nirmal Purja killed in Pakistan avalanche, his company says",
     "Nine killed in strikes on Kyiv, as Ukraine sinks Russian container ship",
+    "Current Ebola outbreak worst ever in DR Congo, WHO says",
     "Peru's ex-president leaves jail after 15-year jail term for corruption overturned",
-    "Hundreds escape Greek wildfire by sea as blazes continue across Europe",
     "India's 'cockroach' protesters have wounds consistent with pellet-gun fire, say experts",
     "Trump administration drops Reflecting Pool vandalism charge and admits 'botched' repairs",
     "UK rapper Yung Filly found not guilty of raping woman after Australian show",
@@ -48,6 +48,11 @@
     "Watch: Tens of thousands of migrants enter Spain's Ceuta from Morocco",
     "Dashcam captures tornado toppling power lines onto car",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Turkiye and Iraq sign one-year oil pipeline deal amid global shift",
+    "Moroccan rapper Mehdi El Youbi temporarily released from prison",
+    "Israeli strikes kill four across Gaza, destroy medical supply warehouse",
+    "At least 11 wounded by Colombia car bomb days before presidential election",
+    "Two ex-Sri Lanka officials sentenced to death over 2019 Easter bombings",
     "India cracks down on protesters accused of ‘abusing’ Modi",
     "Israeli strike destroys Gaza hospital warehouse",
     "Infantino’s FIFA crisis: What is reaction to World Cup investment U-turn?",
@@ -68,11 +73,13 @@
     "Iranian Kurdish parties in Iraq face a delicate balance amid Iran attacks",
     "Beneath Tunisia’s silence, public anger simmers",
     "Sri Lanka sentences two officials to death for not stopping Easter bombings",
-    "FIFA World Cup plan fallout: AFC reacts as Infantino scraps investment push",
-    "Protesters detained at rally in support of Pakistan-administered Kashmir",
-    "US drops charges against Olympian for damage to Reflecting Pool",
-    "Peru’s ex-president Humala released after conviction overturned",
-    "Yemen’s Houthis deny plan to charge ships transiting Red Sea",
+    "EU 법무·내무장관들, 4일 '세우타 사태' 긴급 화상회의(종합)",
+    "\"美유럽사령관, 펜타곤에 이스라엘 방어용 해군전력 부족 호소\"",
+    "\"배고픔·냉대에 좌절\"…세우타서 발길 돌린 이민자들",
+    "K리그2 수원 팬들, 역전골 취소 판정에 \"심판 나와\" 점거 시위(종합)",
+    "태안 만리포 등 일대 기습 단수…피서객 \"씻을 물 없어 생수 사\"",
+    "[알림] 연합뉴스 콘텐츠 저작권 고지",
+    "러, 연일 키이우 공습…우크라는 러 컨테이너선 격침",
     "K리그2 수원 팬들, 역전골 취소 판정에 \"심판 나와\" 점거 시위",
     "'친명후보' 내건 金, 예상외 303표차 승리…'석패' 鄭 저력도 확인",
     "프랑스 남서부 산불 확산 차단…전체 20만명 귀가",
@@ -95,24 +102,17 @@
     "중동 美대사관들 \"사태 악화 대비 출국 준비\"…교민에 권고",
     "[프로야구 잠실전적] LG 2-2 두산",
     "[프로야구 고척전적] SSG 10-2 키움",
-    "뒤바뀐 AI 왕좌…WSJ \"오픈AI 챗GPT 공들이다 앤트로픽에 추월\"",
-    "김민석, '與대표 첫 경선' 충청 당원투표서 정청래에 박빙 승리(종합)",
-    "맥도날드 충주찰옥수수버거, '돌 씹힌다' 민원에 판매 조기 종료",
-    "'英총리 교체로 공석' 맨체스터시장 선거 집권 노동당 압승",
-    "진격의 5연승 kt, 한화 꺾고 76일 만에 1위 탈환",
-    "[프로야구 수원전적] kt 7-4 한화",
-    "\"사진 찍으러…\" 선로 무단출입 초등학생들에 열차 지연",
-    "서울 전역에 '열대야주의보'…어제 온열질환자 5명 발생"
+    "뒤바뀐 AI 왕좌…WSJ \"오픈AI 챗GPT 공들이다 앤트로픽에 추월\""
   ],
   "categories": {
     "geopolitical": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
       "summary": "Nine killed in strikes on Kyiv, as Ukraine si...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 10,
-      "score": 14.5
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 13,
+      "score": 1.5
     },
     "macro": {
       "level": "주의",
@@ -138,23 +138,23 @@
       "signal": "🟡",
       "summary": "Why limited war with the US may suit Iran bet...",
       "action": "관련 지표 추가 확인 후 판단",
-      "matched": 4,
-      "score": 5.7
+      "matched": 5,
+      "score": 7.1
     },
     "policy": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "[프로야구 수원전적] kt 7-4 한화",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
-    "level": "안전",
-    "color": "green",
-    "summary": "전반적 안정. 정상 운용 유지",
-    "action": "정상 운용 유지"
+    "level": "위험",
+    "color": "red",
+    "summary": "주의 필요: 지정학적 충돌",
+    "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
