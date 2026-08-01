@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-02 02:03",
+  "updated": "2026-08-02 04:13",
   "news_count": 83,
   "intl_count": 53,
   "domestic_count": 30,
@@ -16,13 +16,14 @@
     "Spain attacks 'selfish' response of some EU countries to Ceuta migrant crossings",
     "Call for 'full review' as pressure grows on Infantino",
     "Israeli West Bank settler tells BBC attacks on Palestinians are justified as revenge",
-    "Mountaineer Nirmal Purja killed in Pakistan avalanche, his company says",
-    "Nine killed in strikes on Kyiv, as Ukraine sinks Russian container ship"
+    "Italy putting nearly all major cities on highest heat alert",
+    "Mountaineer Nirmal Purja killed in Pakistan avalanche, his company says"
   ],
   "all_headlines": [
     "Spain attacks 'selfish' response of some EU countries to Ceuta migrant crossings",
     "Call for 'full review' as pressure grows on Infantino",
     "Israeli West Bank settler tells BBC attacks on Palestinians are justified as revenge",
+    "Italy putting nearly all major cities on highest heat alert",
     "Mountaineer Nirmal Purja killed in Pakistan avalanche, his company says",
     "Nine killed in strikes on Kyiv, as Ukraine sinks Russian container ship",
     "Current Ebola outbreak worst ever in DR Congo, WHO says",
@@ -33,7 +34,6 @@
     "Danube's record low levels force shutdown of Hungary's only nuclear plant",
     "Missile that left crater deep inside Poland was probably Russian - Polish PM",
     "Father of teen school shooter sentenced to 15 years in prison",
-    "Anthropic's Claude AI escapes to hack into three organisations",
     "Death row inmates desperate to escape execution in Saudi Arabia call the BBC",
     "Infantino on the brink? Who might replace him if he goes?",
     "Bowen: Plan for Hamas to disarm faces big obstacles, yet it offers rare hope for Gaza",
@@ -48,6 +48,13 @@
     "Watch: Tens of thousands of migrants enter Spain's Ceuta from Morocco",
     "Dashcam captures tornado toppling power lines onto car",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Palestinian children among those detained in Israeli West Bank raids",
+    "At least three killed in explosion near cafe in Russia’s Moscow",
+    "‘Marathon’ shines light on Gaza’s orphaned children and humanitarian crisis",
+    "Trump pledges to pursue ‘anti-weaponisation’ fund amid Blanche standoff",
+    "At least 9 people killed in Russian missile attacks on Kyiv",
+    "Care for a dirty soda? How this drink trend became a US obsession",
+    "Israeli forces detain residents and demolish homes in southern Syria",
     "Turkiye and Iraq sign one-year oil pipeline deal amid global shift",
     "Moroccan rapper Mehdi El Youbi temporarily released from prison",
     "Israeli strikes kill four across Gaza, destroy medical supply warehouse",
@@ -66,13 +73,10 @@
     "Vanishing forests: Why is the Philippines failing at reforestation?",
     "Spain says migrants in Ceuta have returned to Morocco",
     "Trump mimics sound of Patriot missile interceptions",
-    "India’s Modi says he forgives students who abused him in Cockroach protests",
-    "Famed climber Purja confirmed dead as bodies recovered from Broad Peak",
-    "Iran: The Making of a War",
-    "Infantino’s World Cup crisis: UEFA has ‘lost confidence’ in FIFA leadership",
-    "Iranian Kurdish parties in Iraq face a delicate balance amid Iran attacks",
-    "Beneath Tunisia’s silence, public anger simmers",
-    "Sri Lanka sentences two officials to death for not stopping Easter bombings",
+    "러 모스크바 시내 카페에서 폭발…3명 사망·15명 부상",
+    "이탈리아 나폴리 인근 규모 4.7 지진…26명 부상",
+    "트럼프, 논란의 사법피해자기금 재추진 위협하며 측근 인준 압박",
+    "李대통령, 남미 3개국 순방 마무리…독일 향해 출발",
     "EU 법무·내무장관들, 4일 '세우타 사태' 긴급 화상회의(종합)",
     "\"美유럽사령관, 펜타곤에 이스라엘 방어용 해군전력 부족 호소\"",
     "\"배고픔·냉대에 좌절\"…세우타서 발길 돌린 이민자들",
@@ -98,11 +102,7 @@
     "[프로축구 포항전적] 김천 1-0 포항",
     "[프로축구 강릉전적] 부천 3-0 강원",
     "[프로야구 중간순위] 1일",
-    "LG, 카라스코 7이닝 퍼펙트 데뷔전에도 무승부(종합)",
-    "중동 美대사관들 \"사태 악화 대비 출국 준비\"…교민에 권고",
-    "[프로야구 잠실전적] LG 2-2 두산",
-    "[프로야구 고척전적] SSG 10-2 키움",
-    "뒤바뀐 AI 왕좌…WSJ \"오픈AI 챗GPT 공들이다 앤트로픽에 추월\""
+    "LG, 카라스코 7이닝 퍼펙트 데뷔전에도 무승부(종합)"
   ],
   "categories": {
     "geopolitical": {
@@ -111,8 +111,8 @@
       "signal": "🔴",
       "summary": "Nine killed in strikes on Kyiv, as Ukraine si...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 13,
-      "score": 1.5
+      "matched": 12,
+      "score": 2.9
     },
     "macro": {
       "level": "주의",
@@ -120,8 +120,8 @@
       "signal": "🟡",
       "summary": "Vanishing forests: Why is the Philippines fai...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 2,
-      "score": 2.8
+      "matched": 1,
+      "score": 1.4
     },
     "disaster": {
       "level": "안전",
@@ -138,8 +138,8 @@
       "signal": "🟡",
       "summary": "Why limited war with the US may suit Iran bet...",
       "action": "관련 지표 추가 확인 후 판단",
-      "matched": 5,
-      "score": 7.1
+      "matched": 3,
+      "score": 4.3
     },
     "policy": {
       "level": "안전",
