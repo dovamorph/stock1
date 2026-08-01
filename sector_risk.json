@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-02T04:13:11.985166+09:00",
+  "updated_at": "2026-08-02T05:57:14.449717+09:00",
   "date": "20260802",
   "window_days": 14,
   "sectors": [
@@ -197,8 +197,14 @@
     "전체시장": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 16,
+      "negative_count": 17,
       "recent_events": [
+        {
+          "date": "20260802",
+          "type": "negative",
+          "headline": "정부, 증시 긴급조치권한 확보 착수…금융위기·코로나 복기",
+          "score": -1
+        },
         {
           "date": "20260802",
           "type": "negative",
@@ -222,12 +228,6 @@
           "type": "negative",
           "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
           "score": -3
-        },
-        {
-          "date": "20260729",
-          "type": "negative",
-          "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
-          "score": -4
         }
       ]
     }
@@ -513,6 +513,14 @@
     },
     {
       "date": "20260802",
+      "headline": "정부, 증시 긴급조치권한 확보 착수…금융위기·코로나 복기",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260802",
       "headline": "러, 연일 키이우 공습…우크라는 러 컨테이너선 격침",
       "impacts": {
         "방산": 1
@@ -531,7 +539,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 43,
+  "total_negatives": 44,
   "total_positives": 30,
   "risk_level": "EXTREME"
 }
