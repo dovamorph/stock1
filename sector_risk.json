@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01T19:02:17.437647+09:00",
+  "updated_at": "2026-08-01T22:34:40.460839+09:00",
   "date": "20260801",
   "window_days": 14,
   "sectors": [
@@ -60,7 +60,7 @@
         {
           "date": "20260801",
           "type": "negative",
-          "headline": "[거시분석] Russian strikes on Kyiv kill at least nine, U...",
+          "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
           "score": -2
         },
         {
@@ -97,7 +97,7 @@
         {
           "date": "20260801",
           "type": "positive",
-          "headline": "[거시분석] Russian strikes on Kyiv kill at least nine, U...",
+          "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
           "score": 3
         },
         {
@@ -153,7 +153,7 @@
         {
           "date": "20260801",
           "type": "negative",
-          "headline": "[거시분석] Russian strikes on Kyiv kill at least nine, U...",
+          "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
           "score": -1
         },
         {
@@ -202,8 +202,8 @@
         {
           "date": "20260801",
           "type": "negative",
-          "headline": "[거시분석] Russian strikes on Kyiv kill at least nine, U...",
-          "score": -5
+          "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
+          "score": -6
         },
         {
           "date": "20260731",
@@ -512,11 +512,11 @@
     },
     {
       "date": "20260801",
-      "headline": "[거시분석] Russian strikes on Kyiv kill at least nine, U...",
+      "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -5,
+        "전체시장": -6,
         "금융": -1
       },
       "source": "geo_categories"
