@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01T15:32:24.281582+09:00",
+  "updated_at": "2026-08-01T19:02:17.437647+09:00",
   "date": "20260801",
   "window_days": 14,
   "sectors": [
@@ -91,15 +91,9 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 23,
+      "positive_count": 22,
       "negative_count": 2,
       "recent_events": [
-        {
-          "date": "20260801",
-          "type": "positive",
-          "headline": "Russian missile attack kills three in Ukraine’s Kyiv",
-          "score": 1
-        },
         {
           "date": "20260801",
           "type": "positive",
@@ -123,6 +117,12 @@
           "type": "positive",
           "headline": "[거시분석] If Hamas disarmament plan holds, it could mar...",
           "score": 3
+        },
+        {
+          "date": "20260730",
+          "type": "positive",
+          "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
+          "score": 1
         }
       ]
     },
@@ -140,23 +140,22 @@
       ]
     },
     "로봇": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 0,
+      "positive_count": 0,
       "negative_count": 0,
-      "recent_events": [
-        {
-          "date": "20260801",
-          "type": "positive",
-          "headline": "경남교육청 '청소년 로보틱스 챌린지' 권역 예선 개최",
-          "score": 1
-        }
-      ]
+      "recent_events": []
     },
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260801",
+          "type": "negative",
+          "headline": "[거시분석] Russian strikes on Kyiv kill at least nine, U...",
+          "score": -1
+        },
         {
           "date": "20260731",
           "type": "negative",
@@ -179,12 +178,6 @@
           "date": "20260725",
           "type": "negative",
           "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
-          "score": -1
-        },
-        {
-          "date": "20260724",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
           "score": -1
         }
       ]
@@ -210,7 +203,7 @@
           "date": "20260801",
           "type": "negative",
           "headline": "[거시분석] Russian strikes on Kyiv kill at least nine, U...",
-          "score": -4
+          "score": -5
         },
         {
           "date": "20260731",
@@ -519,32 +512,17 @@
     },
     {
       "date": "20260801",
-      "headline": "Russian missile attack kills three in Ukraine’s Kyiv",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260801",
-      "headline": "경남교육청 '청소년 로보틱스 챌린지' 권역 예선 개최",
-      "impacts": {
-        "로봇": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260801",
       "headline": "[거시분석] Russian strikes on Kyiv kill at least nine, U...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -4
+        "전체시장": -5,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 41,
-  "total_positives": 31,
+  "total_negatives": 42,
+  "total_positives": 29,
   "risk_level": "EXTREME"
 }
