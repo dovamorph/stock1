@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01T08:04:35.334946+09:00",
+  "updated_at": "2026-08-01T12:18:21.539130+09:00",
   "date": "20260801",
   "window_days": 14,
   "sectors": [
@@ -103,7 +103,7 @@
         {
           "date": "20260801",
           "type": "positive",
-          "headline": "\"美·이, 주말 이란 에너지시설 공습계획\"…전쟁 격화 가능성",
+          "headline": "Russian missile attack kills three in Ukraine’s Kyiv",
           "score": 1
         },
         {
@@ -148,14 +148,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20260801",
-          "type": "negative",
-          "headline": "[거시분석] Bowen: Plan for Hamas to disarm faces big obs...",
-          "score": -1
-        },
         {
           "date": "20260731",
           "type": "negative",
@@ -178,6 +172,12 @@
           "date": "20260725",
           "type": "negative",
           "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
+          "score": -1
+        },
+        {
+          "date": "20260724",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
           "score": -1
         }
       ]
@@ -528,7 +528,7 @@
     },
     {
       "date": "20260801",
-      "headline": "\"美·이, 주말 이란 에너지시설 공습계획\"…전쟁 격화 가능성",
+      "headline": "Russian missile attack kills three in Ukraine’s Kyiv",
       "impacts": {
         "방산": 1
       },
@@ -540,13 +540,12 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -4,
-        "금융": -1
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
+  "total_negatives": 41,
   "total_positives": 32,
   "risk_level": "EXTREME"
 }
