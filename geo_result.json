@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01 22:34",
+  "updated": "2026-08-02 00:03",
   "news_count": 83,
   "intl_count": 53,
   "domestic_count": 30,
@@ -48,16 +48,21 @@
     "Watch: Tens of thousands of migrants enter Spain's Ceuta from Morocco",
     "Dashcam captures tornado toppling power lines onto car",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "India cracks down on protesters accused of ‘abusing’ Modi",
+    "Israeli strike destroys Gaza hospital warehouse",
+    "Infantino’s FIFA crisis: What is reaction to World Cup investment U-turn?",
+    "Is Spain being punished?",
+    "Children run marathon to spotlight Gaza’s growing orphan crises",
     "Most Australian teens still online three months after under-16 ban",
     "Spain says migrants leaving Ceuta after mass influx in which 67 died",
     "Iran warns against ‘flames of war’ amid US strike threats on energy sites",
     "Sde Teiman walkout lays bare an Israeli military running out of trust",
-    "FIFA World Cup crisis: Who could replace Infantino as president?",
+    "Infantino’s FIFA World Cup crisis: Who could replace president?",
     "Vanishing forests: Why is the Philippines failing at reforestation?",
     "Spain says migrants in Ceuta have returned to Morocco",
     "Trump mimics sound of Patriot missile interceptions",
     "India’s Modi says he forgives students who abused him in Cockroach protests",
-    "Omani legend, US novice: Pakistan recovers bodies from Broad Peak",
+    "Famed climber Purja confirmed dead as bodies recovered from Broad Peak",
     "Iran: The Making of a War",
     "Infantino’s World Cup crisis: UEFA has ‘lost confidence’ in FIFA leadership",
     "Iranian Kurdish parties in Iraq face a delicate balance amid Iran attacks",
@@ -68,14 +73,13 @@
     "US drops charges against Olympian for damage to Reflecting Pool",
     "Peru’s ex-president Humala released after conviction overturned",
     "Yemen’s Houthis deny plan to charge ships transiting Red Sea",
-    "Is Israel really ready to withdraw from Gaza?",
-    "Liberia’s kush crisis: The hidden trade behind a generation at risk",
-    "Russian missile attacks kill at least nine in Ukraine’s Kyiv",
-    "US military says F-35B jet fighter crashes in California, pilot safe",
-    "Why has Infantino scrapped FIFA’s World Cup investment plan? What to know",
+    "K리그2 수원 팬들, 역전골 취소 판정에 \"심판 나와\" 점거 시위",
+    "'친명후보' 내건 金, 예상외 303표차 승리…'석패' 鄭 저력도 확인",
+    "프랑스 남서부 산불 확산 차단…전체 20만명 귀가",
+    "\"관저이전 무관\" 부인한 윤한홍…특검은 \"지속 관여\" 진술 확보(종합)",
     "무더위와도 싸우는 FC서울 김기동 \"8월, 지지 않고 버텨보겠다\"",
     "폭염보다 뜨거웠던 펜타포트…英 매시브어택 '시대유감' 열창도",
-    "2골 내주고 헤이스 ２골…K리그2 수원, 충북청주와 극적 무승부",
+    "2골 내주고 헤이스 2골…K리그2 수원, 충북청주와 극적 무승부",
     "EU 22개국, '세우타 사태' 긴급 화상회의 소집 요구",
     "K리그1 선두 서울, 2위 전북과 '헛심 공방'…부천은 강원 완파(종합)",
     "진격의 5연승 kt, 한화 꺾고 76일 만에 1위 탈환(종합)",
@@ -98,21 +102,17 @@
     "진격의 5연승 kt, 한화 꺾고 76일 만에 1위 탈환",
     "[프로야구 수원전적] kt 7-4 한화",
     "\"사진 찍으러…\" 선로 무단출입 초등학생들에 열차 지연",
-    "서울 전역에 '열대야주의보'…어제 온열질환자 5명 발생",
-    "1235회 로또 1등 9명…당첨금 각 30억9천만원(종합)",
-    "中, 남중국해 분쟁 해역서 군사훈련…\"필리핀 영해기선은 불법\"(종합)",
-    "1235회 로또 1등 '6, 7, 11, 15, 39, 43'",
-    "156명 탄 여객선, 독도 인근서 엔진 이상…해경 '전원 안전'"
+    "서울 전역에 '열대야주의보'…어제 온열질환자 5명 발생"
   ],
   "categories": {
     "geopolitical": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
       "summary": "Nine killed in strikes on Kyiv, as Ukraine si...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 11,
-      "score": 1.4
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 10,
+      "score": 14.5
     },
     "macro": {
       "level": "주의",
@@ -133,13 +133,13 @@
       "score": 0
     },
     "trade": {
-      "level": "주의",
+      "level": "신호",
       "color": "yellow",
       "signal": "🟡",
       "summary": "Why limited war with the US may suit Iran bet...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 6,
-      "score": 2.9
+      "action": "관련 지표 추가 확인 후 판단",
+      "matched": 4,
+      "score": 5.7
     },
     "policy": {
       "level": "주의",
@@ -152,9 +152,9 @@
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
-    "summary": "주의 필요: 지정학적 충돌",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "level": "안전",
+    "color": "green",
+    "summary": "전반적 안정. 정상 운용 유지",
+    "action": "정상 운용 유지"
   }
 }

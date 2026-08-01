@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-01T22:34:40.460839+09:00",
-  "date": "20260801",
+  "updated_at": "2026-08-02T00:03:11.031593+09:00",
+  "date": "20260802",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -95,6 +95,12 @@
       "negative_count": 2,
       "recent_events": [
         {
+          "date": "20260802",
+          "type": "positive",
+          "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
+          "score": 1
+        },
+        {
           "date": "20260801",
           "type": "positive",
           "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] If Hamas disarmament plan holds, it could mar...",
           "score": 3
-        },
-        {
-          "date": "20260730",
-          "type": "positive",
-          "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
-          "score": 1
         }
       ]
     },
@@ -151,6 +151,12 @@
       "negative_count": 11,
       "recent_events": [
         {
+          "date": "20260802",
+          "type": "negative",
+          "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
+          "score": -1
+        },
+        {
           "date": "20260801",
           "type": "negative",
           "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
@@ -173,12 +179,6 @@
           "type": "negative",
           "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
           "score": -1
-        },
-        {
-          "date": "20260725",
-          "type": "negative",
-          "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
-          "score": -1
         }
       ]
     },
@@ -199,6 +199,12 @@
       "positive_count": 1,
       "negative_count": 16,
       "recent_events": [
+        {
+          "date": "20260802",
+          "type": "negative",
+          "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
+          "score": -3
+        },
         {
           "date": "20260801",
           "type": "negative",
@@ -222,27 +228,11 @@
           "type": "negative",
           "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
           "score": -4
-        },
-        {
-          "date": "20260728",
-          "type": "negative",
-          "headline": "[거시분석] As the US pauses the war with Iran, is Trump ...",
-          "score": -4
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260718",
-      "headline": "[거시분석] US strikes hit Iran for seventh consecutive n...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -4,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260719",
       "headline": "Russia launches major ballistic missile attack on Ukrainian cities",
@@ -517,6 +507,16 @@
         "방산": 3,
         "건설": -2,
         "전체시장": -6,
+        "금융": -1
+      },
+      "source": "geo_categories"
+    },
+    {
+      "date": "20260802",
+      "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -3,
         "금융": -1
       },
       "source": "geo_categories"
