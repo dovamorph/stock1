@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-02T05:57:14.449717+09:00",
+  "updated_at": "2026-08-02T07:57:46.368118+09:00",
   "date": "20260802",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -1,
+      "score": -2,
       "positive_count": 5,
-      "negative_count": 3,
+      "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20260802",
+          "type": "negative",
+          "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
+          "score": -1
+        },
         {
           "date": "20260731",
           "type": "positive",
@@ -43,12 +49,6 @@
           "type": "negative",
           "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
           "score": -2
-        },
-        {
-          "date": "20260725",
-          "type": "positive",
-          "headline": "Warning shot or publicity stunt - how worried should we be about the OpenAI hack?",
-          "score": 1
         }
       ]
     },
@@ -97,7 +97,7 @@
         {
           "date": "20260802",
           "type": "positive",
-          "headline": "러, 연일 키이우 공습…우크라는 러 컨테이너선 격침",
+          "headline": "이란, 美 공습 임박설에 \"어떤 침략에도 단호히 대응\"",
           "score": 1
         },
         {
@@ -127,10 +127,16 @@
       ]
     },
     "전력·에너지": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260802",
+          "type": "positive",
+          "headline": "SK온, 창사 첫 연간 흑자 가시권…그룹 AI 투자·ESS 수주 기대",
+          "score": 1
+        },
         {
           "date": "20260723",
           "type": "positive",
@@ -148,14 +154,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20260802",
-          "type": "negative",
-          "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
-          "score": -1
-        },
         {
           "date": "20260801",
           "type": "negative",
@@ -179,6 +179,12 @@
           "type": "negative",
           "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
           "score": -1
+        },
+        {
+          "date": "20260725",
+          "type": "negative",
+          "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
+          "score": -1
         }
       ]
     },
@@ -197,19 +203,13 @@
     "전체시장": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 17,
+      "negative_count": 16,
       "recent_events": [
         {
           "date": "20260802",
           "type": "negative",
-          "headline": "정부, 증시 긴급조치권한 확보 착수…금융위기·코로나 복기",
-          "score": -1
-        },
-        {
-          "date": "20260802",
-          "type": "negative",
           "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
-          "score": -4
+          "score": -5
         },
         {
           "date": "20260801",
@@ -228,6 +228,12 @@
           "type": "negative",
           "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
           "score": -3
+        },
+        {
+          "date": "20260729",
+          "type": "negative",
+          "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
+          "score": -4
         }
       ]
     }
@@ -513,17 +519,17 @@
     },
     {
       "date": "20260802",
-      "headline": "정부, 증시 긴급조치권한 확보 착수…금융위기·코로나 복기",
+      "headline": "이란, 美 공습 임박설에 \"어떤 침략에도 단호히 대응\"",
       "impacts": {
-        "전체시장": -1
+        "방산": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260802",
-      "headline": "러, 연일 키이우 공습…우크라는 러 컨테이너선 격침",
+      "headline": "SK온, 창사 첫 연간 흑자 가시권…그룹 AI 투자·ESS 수주 기대",
       "impacts": {
-        "방산": 1
+        "전력·에너지": 1
       },
       "source": "keyword"
     },
@@ -533,13 +539,13 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -4,
-        "금융": -1
+        "전체시장": -5,
+        "반도체·AI": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 44,
-  "total_positives": 30,
+  "total_negatives": 43,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
