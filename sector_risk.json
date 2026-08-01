@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01T12:18:21.539130+09:00",
+  "updated_at": "2026-08-01T15:32:24.281582+09:00",
   "date": "20260801",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 0,
-      "positive_count": 6,
+      "score": -1,
+      "positive_count": 5,
       "negative_count": 3,
       "recent_events": [
-        {
-          "date": "20260801",
-          "type": "positive",
-          "headline": "Trump considering AI controls after OpenAI hacking incidents",
-          "score": 1
-        },
         {
           "date": "20260731",
           "type": "positive",
@@ -49,6 +43,12 @@
           "type": "negative",
           "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
           "score": -2
+        },
+        {
+          "date": "20260725",
+          "type": "positive",
+          "headline": "Warning shot or publicity stunt - how worried should we be about the OpenAI hack?",
+          "score": 1
         }
       ]
     },
@@ -60,7 +60,7 @@
         {
           "date": "20260801",
           "type": "negative",
-          "headline": "[거시분석] Bowen: Plan for Hamas to disarm faces big obs...",
+          "headline": "[거시분석] Russian strikes on Kyiv kill at least nine, U...",
           "score": -2
         },
         {
@@ -91,15 +91,9 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 24,
+      "positive_count": 23,
       "negative_count": 2,
       "recent_events": [
-        {
-          "date": "20260801",
-          "type": "positive",
-          "headline": "At least five members of same family killed in Russian missile attack, Zelensky says",
-          "score": 1
-        },
         {
           "date": "20260801",
           "type": "positive",
@@ -109,7 +103,7 @@
         {
           "date": "20260801",
           "type": "positive",
-          "headline": "[거시분석] Bowen: Plan for Hamas to disarm faces big obs...",
+          "headline": "[거시분석] Russian strikes on Kyiv kill at least nine, U...",
           "score": 3
         },
         {
@@ -123,6 +117,12 @@
           "type": "negative",
           "headline": "하마스 \"무장해제 조건은 이스라엘 철군…살상 중단 약속 먼저\"",
           "score": -1
+        },
+        {
+          "date": "20260731",
+          "type": "positive",
+          "headline": "[거시분석] If Hamas disarmament plan holds, it could mar...",
+          "score": 3
         }
       ]
     },
@@ -140,10 +140,17 @@
       ]
     },
     "로봇": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20260801",
+          "type": "positive",
+          "headline": "경남교육청 '청소년 로보틱스 챌린지' 권역 예선 개최",
+          "score": 1
+        }
+      ]
     },
     "금융": {
       "score": -10,
@@ -202,7 +209,7 @@
         {
           "date": "20260801",
           "type": "negative",
-          "headline": "[거시분석] Bowen: Plan for Hamas to disarm faces big obs...",
+          "headline": "[거시분석] Russian strikes on Kyiv kill at least nine, U...",
           "score": -4
         },
         {
@@ -512,22 +519,6 @@
     },
     {
       "date": "20260801",
-      "headline": "At least five members of same family killed in Russian missile attack, Zelensky says",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260801",
-      "headline": "Trump considering AI controls after OpenAI hacking incidents",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260801",
       "headline": "Russian missile attack kills three in Ukraine’s Kyiv",
       "impacts": {
         "방산": 1
@@ -536,7 +527,15 @@
     },
     {
       "date": "20260801",
-      "headline": "[거시분석] Bowen: Plan for Hamas to disarm faces big obs...",
+      "headline": "경남교육청 '청소년 로보틱스 챌린지' 권역 예선 개최",
+      "impacts": {
+        "로봇": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260801",
+      "headline": "[거시분석] Russian strikes on Kyiv kill at least nine, U...",
       "impacts": {
         "방산": 3,
         "건설": -2,
@@ -546,6 +545,6 @@
     }
   ],
   "total_negatives": 41,
-  "total_positives": 32,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
