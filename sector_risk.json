@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-03T05:59:11.373446+09:00",
+  "updated_at": "2026-08-03T07:58:30.410610+09:00",
   "date": "20260803",
   "window_days": 14,
   "sectors": [
@@ -203,7 +203,7 @@
           "date": "20260803",
           "type": "negative",
           "headline": "[거시분석] Trump cancels Iran strikes subject to deal be...",
-          "score": -3
+          "score": -2
         },
         {
           "date": "20260802",
@@ -508,7 +508,7 @@
       "headline": "[거시분석] Trump cancels Iran strikes subject to deal be...",
       "impacts": {
         "방산": 1,
-        "전체시장": -3
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
