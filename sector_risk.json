@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-02T07:57:46.368118+09:00",
+  "updated_at": "2026-08-02T12:18:42.620035+09:00",
   "date": "20260802",
   "window_days": 14,
   "sectors": [
@@ -16,15 +16,15 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -2,
+      "score": -3,
       "positive_count": 5,
       "negative_count": 4,
       "recent_events": [
         {
           "date": "20260802",
           "type": "negative",
-          "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
-          "score": -1
+          "headline": "[거시분석] Trump says he is cancelling strikes on Iran s...",
+          "score": -2
         },
         {
           "date": "20260731",
@@ -60,7 +60,7 @@
         {
           "date": "20260802",
           "type": "negative",
-          "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
+          "headline": "[거시분석] Trump says he is cancelling strikes on Iran s...",
           "score": -2
         },
         {
@@ -91,19 +91,25 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 23,
+      "positive_count": 24,
       "negative_count": 2,
       "recent_events": [
         {
           "date": "20260802",
           "type": "positive",
-          "headline": "이란, 美 공습 임박설에 \"어떤 침략에도 단호히 대응\"",
+          "headline": "트럼프 \"이란 공격 취소\" 발표…'주말 대공습' 일단 보류(종합)",
           "score": 1
         },
         {
           "date": "20260802",
           "type": "positive",
-          "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
+          "headline": "트럼프 \"이란 공격 취소\" 발표…'주말 대공습' 일단 보류",
+          "score": 1
+        },
+        {
+          "date": "20260802",
+          "type": "positive",
+          "headline": "[거시분석] Trump says he is cancelling strikes on Iran s...",
           "score": 3
         },
         {
@@ -117,26 +123,14 @@
           "type": "positive",
           "headline": "At least five members of same family killed in Russian missile attack, Zelensky says",
           "score": 1
-        },
-        {
-          "date": "20260731",
-          "type": "negative",
-          "headline": "하마스 \"무장해제 조건은 이스라엘 철군…살상 중단 약속 먼저\"",
-          "score": -1
         }
       ]
     },
     "전력·에너지": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260802",
-          "type": "positive",
-          "headline": "SK온, 창사 첫 연간 흑자 가시권…그룹 AI 투자·ESS 수주 기대",
-          "score": 1
-        },
         {
           "date": "20260723",
           "type": "positive",
@@ -208,8 +202,8 @@
         {
           "date": "20260802",
           "type": "negative",
-          "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
-          "score": -5
+          "headline": "[거시분석] Trump says he is cancelling strikes on Iran s...",
+          "score": -6
         },
         {
           "date": "20260801",
@@ -519,7 +513,7 @@
     },
     {
       "date": "20260802",
-      "headline": "이란, 美 공습 임박설에 \"어떤 침략에도 단호히 대응\"",
+      "headline": "트럼프 \"이란 공격 취소\" 발표…'주말 대공습' 일단 보류(종합)",
       "impacts": {
         "방산": 1
       },
@@ -527,20 +521,20 @@
     },
     {
       "date": "20260802",
-      "headline": "SK온, 창사 첫 연간 흑자 가시권…그룹 AI 투자·ESS 수주 기대",
+      "headline": "트럼프 \"이란 공격 취소\" 발표…'주말 대공습' 일단 보류",
       "impacts": {
-        "전력·에너지": 1
+        "방산": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260802",
-      "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
+      "headline": "[거시분석] Trump says he is cancelling strikes on Iran s...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -5,
-        "반도체·AI": -1
+        "전체시장": -6,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
