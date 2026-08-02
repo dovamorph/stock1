@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-02 22:34",
-  "news_count": 80,
-  "intl_count": 50,
+  "updated": "2026-08-03 00:05",
+  "news_count": 79,
+  "intl_count": 49,
   "domestic_count": 30,
   "source_stats": {
-    "BBC World": 24,
+    "BBC World": 23,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 0,
@@ -14,13 +14,14 @@
   },
   "news_sample": [
     "Trump cancels Iran strikes subject to deal being made 'rapidly'",
+    "At least eight killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
     "How Spain's migrant crisis created a political storm - whipped up by social media",
     "Five dead, 41 missing, after Indonesia ferry catches fire",
-    "Young guns for hire - the teenage hitmen recruited to kill across Europe",
-    "A bruising 24 hours - what next for Fifa and under-pressure Infantino?"
+    "Young guns for hire - the teenage hitmen recruited to kill across Europe"
   ],
   "all_headlines": [
     "Trump cancels Iran strikes subject to deal being made 'rapidly'",
+    "At least eight killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
     "How Spain's migrant crisis created a political storm - whipped up by social media",
     "Five dead, 41 missing, after Indonesia ferry catches fire",
     "Young guns for hire - the teenage hitmen recruited to kill across Europe",
@@ -30,9 +31,7 @@
     "The Sopranos star Vincent Pastore dies aged 80",
     "Why Uganda seems to be winning the battle against Ebola as virus spreads in DR Congo",
     "Three killed after bomb detonated at Moscow restaurant, state media say",
-    "Israeli West Bank settler tells BBC attacks on Palestinians are justified as revenge",
     "Body of mountaineer Nirmal Purja recovered after Pakistan avalanche",
-    "Current Ebola outbreak worst ever in DR Congo, WHO says",
     "How Australia combines modern tech and Indigenous knowledge to fight wildfires",
     "Solitude as a new aspirational lifestyle: 'We are not lonely'",
     "Ginger hair portraits show unexpected 'golden thread' connecting Americans",
@@ -40,11 +39,21 @@
     "Infantino on the brink? Who might replace him if he goes?",
     "Bowen: Plan for Hamas to disarm faces big obstacles, yet it offers rare hope for Gaza",
     "Fastest runner to cross the Alps says it was an incredible experience",
-    "Washington state wildfires trigger evacuations",
+    "Wildfires scorch Washington state as thousands evacuated and emergency declared",
     "Crowds line Amsterdam's canals for Pride boat parade",
     "Watch: Why Fifa dropped plans to sell stakes in the World Cup",
     "Watch: Tens of thousands of migrants enter Spain's Ceuta from Morocco",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Heatwave forces nuclear shutdown in Hungary",
+    "Tanks, troops and space",
+    "CIA whistleblower John Kiriakou on accountability and CIA’s history",
+    "Firefighting helicopters collide near Athens as Greece battles wildfires",
+    "Deadly ferry fire leaves dozens missing in Indonesia’s Java Sea",
+    "No breakthrough on Strait of Hormuz as Trump halts attack on Iran",
+    "Rubio’s bypass plan: Can the world escape the Strait of Hormuz chokepoint?",
+    "Communal violence between Hindus and Muslims grips southern Nepal",
+    "Hundreds mourn Moroccan footballer who died trying to reach Ceuta",
+    "Pakistan-administered Kashmir election boycott follows deadly crackdown",
     "Yemen’s crumbling roads mean an arduous quest for water for Taiz villagers",
     "South Korea has hottest day on record amid extreme weather globally",
     "At least five dead, 41 missing after ferry catches fire off Indonesia",
@@ -60,16 +69,13 @@
     "Residents of Spain’s Ceuta shut down far-right anti-migrant rally",
     "A quiet day in Harare after Zimbabwe’s shutdown call",
     "Why has Trump halted Iran attacks, and what is the deal he is hinting at?",
-    "How Davutoglu helped shape Erdogan’s Turkiye but failed to challenge it",
-    "Trump ‘cancels attack on Iran’ saying deal is near",
-    "Petro urges global support to stop possible US invasion of Cuba",
-    "Lionel Messi returns for Inter Miami after extended post-World Cup break",
-    "Tarik Skubal acquired by LA Dodgers at the MLB trade deadline",
-    "Arsenal’s Arteta expects more signings as Tzolis scores against Girona",
-    "At least three dead in Idaho shopping mall mass shooting",
-    "Gaza students overcome Israel’s genocide to mark Tawjihi results",
-    "Three dead including female bomber in Moscow restaurant attack",
-    "Why isn’t anyone challenging Infantino for FIFA’s top job?",
+    "EU, AI 규제 시행…위반 기업 제재 권한",
+    "유럽 가뭄에 셧다운 위기…헝가리 원전 가동 완전 중단",
+    "지선 유세했던 박근혜, 울산 찾아 영남 의원 등과 만찬 회동",
+    "與전대 초반 대세론 없는 박빙흐름…경쟁 격화 속 호남향배 주목",
+    "OPEC+, 9월부터 하루 18만8천배럴 증산 합의(종합)",
+    "그칠줄 모르는 폭염에 온열질환자 하루 96명 응급실행",
+    "정청래, 與전대 부울경 당원투표 1위…초반 판세 대혼전 양상(종합2보)",
     "'2타점 결승타' 두산 박찬호 \"야구는 나쁜 놈…정말 쉽지 않다\"",
     "모스크바 시장 \"고급 식당 자폭 테러는 테러 행위\"",
     "고영표, 20이닝 연속 무실점 쾌투…6연승 kt 단독 선두 질주(종합)",
@@ -92,14 +98,7 @@
     "경남 진주·사천 오존주의보 발령",
     "강원 평창 국도서 차량 3중 추돌 사고…2명 중상",
     "'장단 13안타' 두산, 잠실 더비서 LG 꺾고 3연승 행진",
-    "[프로야구 잠실전적] 두산 8-3 LG",
-    "형소법 개정에 '변호사 수요' 늘어…피해자는 법률비용 부담 증가",
-    "OPEC+, 9월부터 하루 18만8천배럴 증산 합의",
-    "[표] 與 당대표·최고위원 권리당원 누적 투표 결과",
-    "정청래, 與전대 부울경 당원투표 1위…김민석과 1승씩 주고받아(종합)",
-    "복지부, 극한 폭염에 지방정부 취약계층 보호 강화 요청",
-    "[표] 與 당대표·최고위원 경선 부·울·경 권리당원 투표 결과",
-    "[날씨] 전국 폭염 계속…강원남부·충북북부 오후 소나기"
+    "[프로야구 잠실전적] 두산 8-3 LG"
   ],
   "categories": {
     "geopolitical": {
@@ -108,17 +107,17 @@
       "signal": "🔴",
       "summary": "Trump cancels Iran strikes subject to deal be...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 8,
-      "score": 2.9
+      "matched": 7,
+      "score": 1.5
     },
     "macro": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "At least three dead in Idaho shopping mall ma...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.4
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     },
     "disaster": {
       "level": "안전",
@@ -136,16 +135,16 @@
       "summary": "Trump cancels Iran strikes subject to deal be...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 5,
-      "score": 1.4
+      "score": 1.5
     },
     "policy": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "[프로야구 수원전적] kt 12-1 한화",
+      "summary": "유럽 가뭄에 셧다운 위기…헝가리 원전 가동 완전 중단",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "matched": 2,
+      "score": 3.0
     }
   },
   "overall": {

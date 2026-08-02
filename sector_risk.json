@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-02T22:35:07.556871+09:00",
-  "date": "20260802",
+  "updated_at": "2026-08-03T00:05:14.814876+09:00",
+  "date": "20260803",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -58,6 +58,12 @@
       "negative_count": 11,
       "recent_events": [
         {
+          "date": "20260803",
+          "type": "negative",
+          "headline": "[거시분석] Trump cancels Iran strikes subject to deal be...",
+          "score": -2
+        },
+        {
           "date": "20260802",
           "type": "negative",
           "headline": "[거시분석] Trump cancels Iran strikes subject to deal be...",
@@ -80,20 +86,20 @@
           "type": "negative",
           "headline": "[거시분석] As the US pauses the war with Iran, is Trump ...",
           "score": -2
-        },
-        {
-          "date": "20260726",
-          "type": "negative",
-          "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 22,
+      "positive_count": 21,
       "negative_count": 2,
       "recent_events": [
+        {
+          "date": "20260803",
+          "type": "positive",
+          "headline": "[거시분석] Trump cancels Iran strikes subject to deal be...",
+          "score": 3
+        },
         {
           "date": "20260802",
           "type": "positive",
@@ -117,12 +123,6 @@
           "type": "negative",
           "headline": "하마스 \"무장해제 조건은 이스라엘 철군…살상 중단 약속 먼저\"",
           "score": -1
-        },
-        {
-          "date": "20260731",
-          "type": "positive",
-          "headline": "[거시분석] If Hamas disarmament plan holds, it could mar...",
-          "score": 3
         }
       ]
     },
@@ -148,7 +148,7 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
         {
           "date": "20260802",
@@ -200,6 +200,12 @@
       "negative_count": 16,
       "recent_events": [
         {
+          "date": "20260803",
+          "type": "negative",
+          "headline": "[거시분석] Trump cancels Iran strikes subject to deal be...",
+          "score": -5
+        },
+        {
           "date": "20260802",
           "type": "negative",
           "headline": "[거시분석] Trump cancels Iran strikes subject to deal be...",
@@ -222,36 +228,11 @@
           "type": "negative",
           "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
           "score": -3
-        },
-        {
-          "date": "20260729",
-          "type": "negative",
-          "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
-          "score": -4
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260719",
-      "headline": "Russia launches major ballistic missile attack on Ukrainian cities",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260719",
-      "headline": "[거시분석] US and Iran trade fire after two US soldiers ...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -6,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260720",
       "headline": "Russia launches major ballistic missile attack on Ukrainian cities",
@@ -521,9 +502,19 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260803",
+      "headline": "[거시분석] Trump cancels Iran strikes subject to deal be...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 43,
-  "total_positives": 29,
+  "total_negatives": 42,
+  "total_positives": 28,
   "risk_level": "EXTREME"
 }
