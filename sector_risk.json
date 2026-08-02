@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-02T19:00:30.013390+09:00",
+  "updated_at": "2026-08-02T22:35:07.556871+09:00",
   "date": "20260802",
   "window_days": 14,
   "sectors": [
@@ -127,16 +127,10 @@
       ]
     },
     "전력·에너지": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260802",
-          "type": "positive",
-          "headline": "펄펄 끓는 폭염에도 전력 수요 피크 아직…\"수급 안정적\"",
-          "score": 1
-        },
         {
           "date": "20260723",
           "type": "positive",
@@ -209,7 +203,7 @@
           "date": "20260802",
           "type": "negative",
           "headline": "[거시분석] Trump cancels Iran strikes subject to deal be...",
-          "score": -5
+          "score": -6
         },
         {
           "date": "20260801",
@@ -519,25 +513,17 @@
     },
     {
       "date": "20260802",
-      "headline": "펄펄 끓는 폭염에도 전력 수요 피크 아직…\"수급 안정적\"",
-      "impacts": {
-        "전력·에너지": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260802",
       "headline": "[거시분석] Trump cancels Iran strikes subject to deal be...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -5,
+        "전체시장": -6,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 43,
-  "total_positives": 30,
+  "total_positives": 29,
   "risk_level": "EXTREME"
 }
