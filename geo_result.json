@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03 04:15",
+  "updated": "2026-08-03 05:59",
   "news_count": 80,
   "intl_count": 50,
   "domestic_count": 30,
@@ -13,14 +13,14 @@
     "StockPlus": 0
   },
   "news_sample": [
-    "Two crew killed as British pilot survives after firefighting helicopters collide in Greece",
+    "Two crew killed after firefighting helicopters collide in Greece, as British pilot survives",
     "Trump cancels Iran strikes subject to deal being made 'rapidly'",
     "At least 13 killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
     "How Spain's migrant crisis created a political storm - whipped up by social media",
     "Ukraine says major Russian oil refinery and airfield hit, as Moscow reports eight deaths"
   ],
   "all_headlines": [
-    "Two crew killed as British pilot survives after firefighting helicopters collide in Greece",
+    "Two crew killed after firefighting helicopters collide in Greece, as British pilot survives",
     "Trump cancels Iran strikes subject to deal being made 'rapidly'",
     "At least 13 killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
     "How Spain's migrant crisis created a political storm - whipped up by social media",
@@ -45,6 +45,12 @@
     "Crowds line Amsterdam's canals for Pride boat parade",
     "Watch: Why Fifa dropped plans to sell stakes in the World Cup",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Is Washington dictating the agenda for talks in Venezuela?",
+    "How much has AIPAC spent against Michigan’s Abdul El-Sayed? And why?",
+    "Israelis attack Armenian monastery in Jerusalem’s Old City",
+    "Body of climber Nirmal Purja, six others recovered after Pakistan avalanche",
+    "Most Americans say Trump has gone too far on US immigration: Poll",
+    "Iran says negotiations with Oman over Strait of Hormuz in final stages",
     "Two helicopters collide mid-air while tackling wildfires in Greece",
     "Ukrainian drone attacks kill eight in response to Russian missiles",
     "‘Iron fist’ doesn’t work with Iran: Former US hostage in Tehran",
@@ -64,12 +70,20 @@
     "CIA whistleblower John Kiriakou on accountability and CIA’s history",
     "Firefighting helicopters collide, killing two, as Greece battles wildfires",
     "Deadly ferry fire leaves dozens missing in Indonesia’s Java Sea",
-    "No breakthrough on Strait of Hormuz as Trump halts attack on Iran",
-    "Rubio’s bypass plan: Can the world escape the Strait of Hormuz chokepoint?",
-    "Communal violence between Hindus and Muslims grips southern Nepal",
-    "Hundreds mourn Moroccan footballer who died trying to reach Ceuta",
-    "Pakistan-administered Kashmir election boycott follows deadly crackdown",
-    "Yemen’s crumbling roads mean an arduous quest for water for Taiz villagers",
+    "홈플發 '경영책임자 최우선 변제 제한' 실현될까…부작용 우려도",
+    "\"상반기 방한 외국인 카드이용액 54%↑…의료관광 소비 2배로\"",
+    "'메이저 3연승 불발' 유해란 \"도전 자체 좋은 경험…톱10 만족\"",
+    "베네수엘라, 중남미 국가들과 외교 관계 복원 '급물살'",
+    "칠레 시속 100㎞ 폭풍·아르헨 기록적 폭설…남미 피해 속출",
+    "낮 최고 39도 무더위…강원·충북 일부 소나기",
+    "스파이더맨4, 북미 첫주말 5천100억원 수입…역대 2위 기록경신",
+    "트럼프-與상원 이상기류…\"원내대표와 2주간 전화 한통 없었다\"",
+    "트럼프, 중동 긴장 여전한데 골프 우승 자랑…\"내 재능 덕분\"",
+    "국힘, 오늘 靑앞 최고위…\"보완수사권 폐지법 거부권 촉구\"",
+    "룰라 브라질 대통령, 노동자당 대선후보로…통산 4선 도전",
+    "47도 찍은 美서부 열돔 폭염…워싱턴주 대형산불로 5천가구 대피",
+    "\"트럼프의 이란 공격 취소, 이스라엘은 까맣게 몰랐다\"",
+    "\"해고에 엄마가 항의\"…美Z세대 직장 참견하는 '헬리콥터 부모'",
     "[최종순위] AIG 여자오픈",
     "유해란, AIG 여자오픈 6위·'메이저 3연승' 불발…우승은 구와키",
     "이란 외무부 \"오만과 호르무즈 해협 관리 협의 막바지\"",
@@ -85,31 +99,17 @@
     "EU, AI 규제 시행…위반 기업 제재 권한",
     "유럽 가뭄에 셧다운 위기…헝가리 원전 가동 완전 중단",
     "지선 유세했던 박근혜, 울산 찾아 영남 의원 등과 만찬 회동",
-    "與전대 초반 대세론 없는 박빙흐름…경쟁 격화 속 호남향배 주목",
-    "OPEC+, 9월부터 하루 18만8천배럴 증산 합의(종합)",
-    "그칠줄 모르는 폭염에 온열질환자 하루 96명 응급실행",
-    "정청래, 與전대 부울경 당원투표 1위…초반 판세 대혼전 양상(종합2보)",
-    "'2타점 결승타' 두산 박찬호 \"야구는 나쁜 놈…정말 쉽지 않다\"",
-    "모스크바 시장 \"고급 식당 폭탄 공격은 테러 행위\"",
-    "고영표, 20이닝 연속 무실점 쾌투…6연승 kt 단독 선두 질주(종합)",
-    "[프로축구 중간순위] 2일",
-    "K리그1 울산, 안양 3-1 격파하고 '2위' 전진…이동경 멀티골",
-    "李대통령 \"한국과 독일, 많이 닮아…전쟁·분단 딛고 일어서\"",
-    "[프로야구 중간순위] 2일",
-    "[프로야구 부산전적] 롯데 10-7  삼성",
-    "미국 상수도망 털렸다…당국, 해킹 배후로 이란 점점 더 의심",
-    "[프로축구 울산전적] 울산 3-1 안양",
-    "李대통령, 순방 마치자마자 부동산·증시 점검…3일 비공개 회의(종합)"
+    "與전대 초반 대세론 없는 박빙흐름…경쟁 격화 속 호남향배 주목"
   ],
   "categories": {
     "geopolitical": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
       "summary": "Trump cancels Iran strikes subject to deal be...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
+      "action": "신규 매수 자제 / 추이 관찰",
       "matched": 11,
-      "score": 1.5
+      "score": 17.5
     },
     "macro": {
       "level": "안전",
@@ -149,9 +149,9 @@
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
-    "summary": "주의 필요: 지정학적 충돌",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "level": "안전",
+    "color": "green",
+    "summary": "전반적 안정. 정상 운용 유지",
+    "action": "정상 운용 유지"
   }
 }
