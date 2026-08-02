@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03 02:03",
+  "updated": "2026-08-03 04:15",
   "news_count": 80,
   "intl_count": 50,
   "domestic_count": 30,
@@ -13,19 +13,19 @@
     "StockPlus": 0
   },
   "news_sample": [
-    "Helicopters fighting Greece wildfires collide in mid-air",
+    "Two crew killed as British pilot survives after firefighting helicopters collide in Greece",
     "Trump cancels Iran strikes subject to deal being made 'rapidly'",
     "At least 13 killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
     "How Spain's migrant crisis created a political storm - whipped up by social media",
     "Ukraine says major Russian oil refinery and airfield hit, as Moscow reports eight deaths"
   ],
   "all_headlines": [
-    "Helicopters fighting Greece wildfires collide in mid-air",
+    "Two crew killed as British pilot survives after firefighting helicopters collide in Greece",
     "Trump cancels Iran strikes subject to deal being made 'rapidly'",
     "At least 13 killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
     "How Spain's migrant crisis created a political storm - whipped up by social media",
     "Ukraine says major Russian oil refinery and airfield hit, as Moscow reports eight deaths",
-    "Five dead, 41 missing, after Indonesia ferry catches fire",
+    "Five dead and 41 missing after Indonesia ferry catches fire",
     "Young guns for hire - the teenage hitmen recruited to kill across Europe",
     "Uganda unveils statue of Israel PM's brother who died in Entebbe rescue mission",
     "Tourist plane crashes in Peru, killing 13",
@@ -45,6 +45,14 @@
     "Crowds line Amsterdam's canals for Pride boat parade",
     "Watch: Why Fifa dropped plans to sell stakes in the World Cup",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Two helicopters collide mid-air while tackling wildfires in Greece",
+    "Ukrainian drone attacks kill eight in response to Russian missiles",
+    "‘Iron fist’ doesn’t work with Iran: Former US hostage in Tehran",
+    "Republican senator says former son-in-law should resign from US Congress",
+    "Fetus found among the ruins of a deadly Israeli strike on Gaza",
+    "Migrant deaths in Ceuta rise to 72 after border surge from Morocco",
+    "‘Iran war participation trophy’ mocking Trump appears in New York",
+    "Deadly floods and landslide hit India’s Kerala",
     "Suicide bomber kills 14 outside police station in Pakistan’s Swat",
     "Capital One cites anti-money laundering concerns in Trump Organization case",
     "Saudi Crown Prince MBS urges Trump to ‘prioritise dialogue’ in US-Iran war",
@@ -62,14 +70,10 @@
     "Hundreds mourn Moroccan footballer who died trying to reach Ceuta",
     "Pakistan-administered Kashmir election boycott follows deadly crackdown",
     "Yemen’s crumbling roads mean an arduous quest for water for Taiz villagers",
-    "South Korea has hottest day on record amid extreme weather globally",
-    "At least five dead, 41 missing after ferry catches fire off Indonesia",
-    "Why has EU called an emergency meeting on Spain migrant surge?",
-    "Spanish Ceuta witnesses a deadly ‘game’ for Moroccan migrants",
-    "The Board of Peace is a failed body and should be abandoned",
-    "Israel’s influence industry in the US",
-    "Indigenous groups oppose Milei plan to open Argentina to foreign buyers",
-    "Ben-Gvir mocks Palestinian detainee over prison conditions",
+    "[최종순위] AIG 여자오픈",
+    "유해란, AIG 여자오픈 6위·'메이저 3연승' 불발…우승은 구와키",
+    "이란 외무부 \"오만과 호르무즈 해협 관리 협의 막바지\"",
+    "오픈AI, 차세대 AI모델 '아스트라' 예고…\"수학 난제 10개 해결\"",
     "스페인 세우타 이주민 난입사태 사망자 72명으로 늘어(종합)",
     "멕시코군, 美가 500만달러 내건 마약 카르텔 두목 체포",
     "인판티노 4연임 물건너가나…FIFA 새판짜기 본격화(종합)",
@@ -95,11 +99,7 @@
     "[프로야구 부산전적] 롯데 10-7  삼성",
     "미국 상수도망 털렸다…당국, 해킹 배후로 이란 점점 더 의심",
     "[프로축구 울산전적] 울산 3-1 안양",
-    "李대통령, 순방 마치자마자 부동산·증시 점검…3일 비공개 회의(종합)",
-    "[프로축구 서귀포전적] 제주 3-3 인천",
-    "경남 진주·사천 오존주의보 해제",
-    "전남광주서 70대 2명 잇달아 숨져…온열질환 추정",
-    "[프로축구 대전전적] 대전 2-0 광주"
+    "李대통령, 순방 마치자마자 부동산·증시 점검…3일 비공개 회의(종합)"
   ],
   "categories": {
     "geopolitical": {
@@ -108,7 +108,7 @@
       "signal": "🔴",
       "summary": "Trump cancels Iran strikes subject to deal be...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 7,
+      "matched": 11,
       "score": 1.5
     },
     "macro": {
@@ -135,7 +135,7 @@
       "signal": "🟡",
       "summary": "Trump cancels Iran strikes subject to deal be...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 5,
+      "matched": 7,
       "score": 1.5
     },
     "policy": {
