@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-03T23:46:40.016095+09:00",
-  "date": "20260803",
+  "updated_at": "2026-08-04T02:53:59.744498+09:00",
+  "date": "20260804",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -58,6 +58,12 @@
       "negative_count": 11,
       "recent_events": [
         {
+          "date": "20260804",
+          "type": "negative",
+          "headline": "[거시분석] Iran says it is in talks with Oman but not th...",
+          "score": -2
+        },
+        {
           "date": "20260803",
           "type": "negative",
           "headline": "[거시분석] Iran says it is in talks with Oman but not th...",
@@ -80,20 +86,26 @@
           "type": "negative",
           "headline": "[거시분석] If Hamas disarmament plan holds, it could mar...",
           "score": -2
-        },
-        {
-          "date": "20260728",
-          "type": "negative",
-          "headline": "[거시분석] As the US pauses the war with Iran, is Trump ...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 21,
+      "positive_count": 20,
       "negative_count": 2,
       "recent_events": [
+        {
+          "date": "20260804",
+          "type": "negative",
+          "headline": "독일 DAX지수 사상 최고치…중동 긴장 완화 기대(종합)",
+          "score": -1
+        },
+        {
+          "date": "20260804",
+          "type": "positive",
+          "headline": "[거시분석] Iran says it is in talks with Oman but not th...",
+          "score": 3
+        },
         {
           "date": "20260803",
           "type": "positive",
@@ -111,26 +123,20 @@
           "type": "positive",
           "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
           "score": 3
-        },
-        {
-          "date": "20260731",
-          "type": "positive",
-          "headline": "At least five members of same family killed in Russian missile attack, Zelensky says",
-          "score": 1
-        },
-        {
-          "date": "20260731",
-          "type": "negative",
-          "headline": "하마스 \"무장해제 조건은 이스라엘 철군…살상 중단 약속 먼저\"",
-          "score": -1
         }
       ]
     },
     "전력·에너지": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 3,
+      "positive_count": 3,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260804",
+          "type": "positive",
+          "headline": "현대전 새 표적된 AI 데이터센터…美·이란 전쟁서 5곳 피격",
+          "score": 1
+        },
         {
           "date": "20260803",
           "type": "positive",
@@ -206,6 +212,18 @@
       "negative_count": 16,
       "recent_events": [
         {
+          "date": "20260804",
+          "type": "positive",
+          "headline": "독일 DAX지수 사상 최고치…중동 긴장 완화 기대(종합)",
+          "score": 1
+        },
+        {
+          "date": "20260804",
+          "type": "negative",
+          "headline": "[거시분석] Iran says it is in talks with Oman but not th...",
+          "score": -5
+        },
+        {
           "date": "20260803",
           "type": "negative",
           "headline": "[거시분석] Iran says it is in talks with Oman but not th...",
@@ -222,50 +240,11 @@
           "type": "negative",
           "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
           "score": -6
-        },
-        {
-          "date": "20260731",
-          "type": "negative",
-          "headline": "[거시분석] If Hamas disarmament plan holds, it could mar...",
-          "score": -7
-        },
-        {
-          "date": "20260730",
-          "type": "negative",
-          "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
-          "score": -3
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260720",
-      "headline": "Russia launches major ballistic missile attack on Ukrainian cities",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260720",
-      "headline": "하마스 새 수장에 칼릴 알하야…휴전 협상 주도한 인물",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260720",
-      "headline": "[거시분석] Trump says US strikes hit Iran in 'honour' of...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -4
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260721",
       "headline": "수명 다 된 10% 글로벌관세…트럼프 '301조 관세' 부과 임박(종합)",
@@ -519,6 +498,33 @@
     },
     {
       "date": "20260803",
+      "headline": "[거시분석] Iran says it is in talks with Oman but not th...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5
+      },
+      "source": "geo_categories"
+    },
+    {
+      "date": "20260804",
+      "headline": "독일 DAX지수 사상 최고치…중동 긴장 완화 기대(종합)",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260804",
+      "headline": "현대전 새 표적된 AI 데이터센터…美·이란 전쟁서 5곳 피격",
+      "impacts": {
+        "전력·에너지": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260804",
       "headline": "[거시분석] Iran says it is in talks with Oman but not th...",
       "impacts": {
         "방산": 3,
