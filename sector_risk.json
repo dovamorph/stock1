@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-03T20:28:44.822735+09:00",
+  "updated_at": "2026-08-03T23:46:40.016095+09:00",
   "date": "20260803",
   "window_days": 14,
   "sectors": [
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260803",
+          "type": "negative",
+          "headline": "[거시분석] Iran says it is in talks with Oman but not th...",
+          "score": -2
+        },
         {
           "date": "20260802",
           "type": "negative",
@@ -80,31 +86,19 @@
           "type": "negative",
           "headline": "[거시분석] As the US pauses the war with Iran, is Trump ...",
           "score": -2
-        },
-        {
-          "date": "20260726",
-          "type": "negative",
-          "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 21,
-      "negative_count": 3,
+      "negative_count": 2,
       "recent_events": [
         {
           "date": "20260803",
-          "type": "negative",
-          "headline": "휴전선 코앞서 '불통' 드러낸 한미…군내 기강 지적도",
-          "score": -1
-        },
-        {
-          "date": "20260803",
           "type": "positive",
-          "headline": "[거시분석] Iran denies Trump's claim that new talks will...",
-          "score": 1
+          "headline": "[거시분석] Iran says it is in talks with Oman but not th...",
+          "score": 3
         },
         {
           "date": "20260802",
@@ -123,14 +117,26 @@
           "type": "positive",
           "headline": "At least five members of same family killed in Russian missile attack, Zelensky says",
           "score": 1
+        },
+        {
+          "date": "20260731",
+          "type": "negative",
+          "headline": "하마스 \"무장해제 조건은 이스라엘 철군…살상 중단 약속 먼저\"",
+          "score": -1
         }
       ]
     },
     "전력·에너지": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260803",
+          "type": "positive",
+          "headline": "현대전 새 표적된 AI 데이터센터…美·이란 전쟁서 5곳 피격",
+          "score": 1
+        },
         {
           "date": "20260723",
           "type": "positive",
@@ -196,20 +202,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 2,
+      "positive_count": 1,
       "negative_count": 16,
       "recent_events": [
         {
           "date": "20260803",
-          "type": "positive",
-          "headline": "휴전선 코앞서 '불통' 드러낸 한미…군내 기강 지적도",
-          "score": 1
-        },
-        {
-          "date": "20260803",
           "type": "negative",
-          "headline": "[거시분석] Iran denies Trump's claim that new talks will...",
-          "score": -2
+          "headline": "[거시분석] Iran says it is in talks with Oman but not th...",
+          "score": -5
         },
         {
           "date": "20260802",
@@ -228,6 +228,12 @@
           "type": "negative",
           "headline": "[거시분석] If Hamas disarmament plan holds, it could mar...",
           "score": -7
+        },
+        {
+          "date": "20260730",
+          "type": "negative",
+          "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
+          "score": -3
         }
       ]
     }
@@ -505,19 +511,19 @@
     },
     {
       "date": "20260803",
-      "headline": "휴전선 코앞서 '불통' 드러낸 한미…군내 기강 지적도",
+      "headline": "현대전 새 표적된 AI 데이터센터…美·이란 전쟁서 5곳 피격",
       "impacts": {
-        "방산": -1,
-        "전체시장": 1
+        "전력·에너지": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260803",
-      "headline": "[거시분석] Iran denies Trump's claim that new talks will...",
+      "headline": "[거시분석] Iran says it is in talks with Oman but not th...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -2
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5
       },
       "source": "geo_categories"
     }
