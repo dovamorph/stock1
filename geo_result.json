@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-04 02:53",
-  "news_count": 82,
-  "intl_count": 52,
+  "updated": "2026-08-04 04:41",
+  "news_count": 83,
+  "intl_count": 53,
   "domestic_count": 30,
   "source_stats": {
-    "BBC World": 26,
+    "BBC World": 27,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 0,
@@ -13,13 +13,14 @@
     "StockPlus": 0
   },
   "news_sample": [
+    "Russia says seven killed and 40 injured by Ukrainian drone hitting busy beach",
     "Rhine falls to record low levels as drought strains Europe's rivers",
     "Iran says it is in talks with Oman but not the US after Trump says negotiations to resume",
     "Threat to oil tankers in Middle East  worst since start of Iran war, analysts say",
-    "'My only son was shot standing up for justice' - inside city gripped by deadly protests in Pakistan-administered Kashmir",
-    "Russian anti-war politician says he has fled the country"
+    "'My only son was shot standing up for justice' - inside city gripped by deadly protests in Pakistan-administered Kashmir"
   ],
   "all_headlines": [
+    "Russia says seven killed and 40 injured by Ukrainian drone hitting busy beach",
     "Rhine falls to record low levels as drought strains Europe's rivers",
     "Iran says it is in talks with Oman but not the US after Trump says negotiations to resume",
     "Threat to oil tankers in Middle East  worst since start of Iran war, analysts say",
@@ -47,6 +48,11 @@
     "Crowds line Amsterdam's canals for Pride boat parade",
     "Watch: Why Fifa dropped plans to sell stakes in the World Cup",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Bomb disposal underway in Le Porge after wildfires unearth WWII shells",
+    "US announces first two deaths from cyclospora outbreak",
+    "Can Netanyahu survive Israel’s most consequential election?",
+    "Israel top court hears challenge to UNRWA ban",
+    "Drone slams into Russian beach, killing at least 7 people",
     "Republicans say they will back Blanche after US Justice Department order",
     "Trump blasts ‘duplicitous’ Iran after Tehran denies it is in talks with the US",
     "New illegal Israeli outpost spotted in occupied West Bank",
@@ -67,11 +73,16 @@
     "Why does Spain have ‘enclaves’ in North Africa?",
     "Families search for loved ones after deadly Ceuta crossings",
     "Heatwave in Gaza compounds Palestinian suffering",
-    "People flee as rain triggers landslide in India’s Kerala",
-    "Massive Attack says members held after pro-Palestine display in Singapore",
-    "Why genocide keeps repeating in Sudan",
-    "Detained Myanmar leader Suu Kyi  has first foreign visitor in five years",
-    "Protests, boycott cast shadow on Pakistan-administered Kashmir election",
+    "트럼프 \"참수 전 마지막 기회\"…이란에 신속 합의 고강도 압박(종합)",
+    "국제유가, 트럼프 이란공격 취소에 급락…브렌트 5%↓",
+    "트럼프의 엔화부양 배경은…'美국채금리·대미투자 관리' 셈법",
+    "모로코, 서사하라 잇는 고속도로 '트럼프 고속도로'로 명명",
+    "트럼프 \"이란과 대화 중…이번이 마지막 기회\" 합의 압박",
+    "4선 도전 룰라, 브라질 대선 여론조사서 보우소나루와 '팽팽'",
+    "백악관, 첨단AI 보안 검증방안 확정…AI기업과 비공개 논의키로",
+    "[속보] 트럼프 \"이란과 현재 대화 중…이번이 마지막 기회\"",
+    "'트럼프 충성파' 美법무 인준 청신호…공화의원 2명 반대 접어",
+    "美 기생충 감염사태 첫 사망자 발생…기저질환자 2명 숨져",
     "美상원, '셧다운 방지' 임시예산안 마련…올해는 파국 피할까",
     "이란의 '대화없다' 버티기…트럼프, 공격보류했더니 협상도 난관",
     "독일 DAX지수 사상 최고치…중동 긴장 완화 기대(종합)",
@@ -91,17 +102,7 @@
     "'손흥민 스승' 포체티노, 2030월드컵까지 美축구대표팀 지휘봉",
     "뉴욕증시, 중동 갈등 완화 기대감에 상승 출발",
     "네타냐후 형 동상이 우간다에 세워진 이유는",
-    "美국방부, 재고 우려 속 '패트리엇 3배·사드 4배 증산' 계약",
-    "게임하듯 SNS로 10대 킬러 모집…유럽 번지는 '살인 외주'",
-    "경북 성주 어린이집서 상습 아동 학대…경찰, 원장·교사 송치",
-    "日방위성, 중러 해군 합동 순항 종료 확인…\"일본 열도 일주\"",
-    "90분간 활공폭탄 8발 퍼부은 러…우크라 방공망 또 뚫려",
-    "강화 서검도 수돗물 우라늄 기준 초과에 정부 \"北공장 영향아냐\"",
-    "與, 정부 부동산 세제 개편안 발표에 신중…민심 향배 '촉각'(종합)",
-    "이주민 사태로 궁지 스페인 총리…EU 수장 \"위기 적절 대처\" 감싸",
-    "서울 폭염에 어제 18명 온열질환…내일 '중대경보'에 긴장",
-    "오세훈·유승민 만찬 회동…\"총선 승리에 보수 통합·개혁 필수\"",
-    "망치로 무인점포 털려던 10대 2명 검거…매장 돌며 절도행각"
+    "美국방부, 재고 우려 속 '패트리엇 3배·사드 4배 증산' 계약"
   ],
   "categories": {
     "geopolitical": {
@@ -110,17 +111,17 @@
       "signal": "🔴",
       "summary": "Iran says it is in talks with Oman but not th...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 12,
+      "matched": 16,
       "score": 1.5
     },
     "macro": {
-      "level": "안전",
-      "color": "green",
-      "signal": "🟢",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "트럼프의 엔화부양 배경은…'美국채금리·대미투자 관리' 셈법",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 1,
+      "score": 1.5
     },
     "disaster": {
       "level": "안전",

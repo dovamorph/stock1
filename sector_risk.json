@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-04T02:53:59.744498+09:00",
+  "updated_at": "2026-08-04T04:41:58.931800+09:00",
   "date": "20260804",
   "window_days": 14,
   "sectors": [
@@ -160,8 +160,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260804",
+          "type": "negative",
+          "headline": "[거시분석] Iran says it is in talks with Oman but not th...",
+          "score": -1
+        },
         {
           "date": "20260802",
           "type": "negative",
@@ -184,12 +190,6 @@
           "date": "20260730",
           "type": "negative",
           "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
-          "score": -1
-        },
-        {
-          "date": "20260729",
-          "type": "negative",
-          "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
           "score": -1
         }
       ]
@@ -221,7 +221,7 @@
           "date": "20260804",
           "type": "negative",
           "headline": "[거시분석] Iran says it is in talks with Oman but not th...",
-          "score": -5
+          "score": -6
         },
         {
           "date": "20260803",
@@ -529,12 +529,13 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -5
+        "전체시장": -6,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
+  "total_negatives": 43,
   "total_positives": 29,
   "risk_level": "EXTREME"
 }
