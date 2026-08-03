@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-04T06:06:53.043361+09:00",
+  "updated_at": "2026-08-04T08:04:31.359342+09:00",
   "date": "20260804",
   "window_days": 14,
   "sectors": [
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20260804",
-          "type": "negative",
-          "headline": "[거시분석] Iran says it is in talks with Oman but not th...",
-          "score": -2
-        },
         {
           "date": "20260803",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] If Hamas disarmament plan holds, it could mar...",
           "score": -2
+        },
+        {
+          "date": "20260728",
+          "type": "negative",
+          "headline": "[거시분석] As the US pauses the war with Iran, is Trump ...",
+          "score": -2
         }
       ]
     },
@@ -98,7 +98,7 @@
           "date": "20260804",
           "type": "positive",
           "headline": "[거시분석] Iran says it is in talks with Oman but not th...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260803",
@@ -203,13 +203,19 @@
     "전체시장": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 16,
+      "negative_count": 17,
       "recent_events": [
         {
           "date": "20260804",
           "type": "negative",
+          "headline": "美 민주당 소속 25개州 \"301조 강제노동 관세는 위법\" 제소",
+          "score": -1
+        },
+        {
+          "date": "20260804",
+          "type": "negative",
           "headline": "[거시분석] Iran says it is in talks with Oman but not th...",
-          "score": -5
+          "score": -3
         },
         {
           "date": "20260803",
@@ -228,12 +234,6 @@
           "type": "negative",
           "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
           "score": -6
-        },
-        {
-          "date": "20260731",
-          "type": "negative",
-          "headline": "[거시분석] If Hamas disarmament plan holds, it could mar...",
-          "score": -7
         }
       ]
     }
@@ -502,11 +502,18 @@
     },
     {
       "date": "20260804",
+      "headline": "美 민주당 소속 25개州 \"301조 강제노동 관세는 위법\" 제소",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260804",
       "headline": "[거시분석] Iran says it is in talks with Oman but not th...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
+        "방산": 1,
+        "전체시장": -3,
         "금융": -1
       },
       "source": "geo_categories"
