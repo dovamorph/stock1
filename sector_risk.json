@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-04T11:49:33.213478+09:00",
+  "updated_at": "2026-08-04T15:30:31.979670+09:00",
   "date": "20260804",
   "window_days": 14,
   "sectors": [
@@ -91,15 +91,9 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 21,
+      "positive_count": 20,
       "negative_count": 1,
       "recent_events": [
-        {
-          "date": "20260804",
-          "type": "positive",
-          "headline": "이스라엘, '하마스 무장해제 합의' 후에도 가자지구 공습 지속",
-          "score": 1
-        },
         {
           "date": "20260804",
           "type": "positive",
@@ -123,6 +117,12 @@
           "type": "positive",
           "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
           "score": 3
+        },
+        {
+          "date": "20260731",
+          "type": "positive",
+          "headline": "At least five members of same family killed in Russian missile attack, Zelensky says",
+          "score": 1
         }
       ]
     },
@@ -502,14 +502,6 @@
     },
     {
       "date": "20260804",
-      "headline": "이스라엘, '하마스 무장해제 합의' 후에도 가자지구 공습 지속",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260804",
       "headline": "[거시분석] Iran says it is in talks with Oman but not th...",
       "impacts": {
         "방산": 3,
@@ -521,6 +513,6 @@
     }
   ],
   "total_negatives": 42,
-  "total_positives": 28,
+  "total_positives": 27,
   "risk_level": "EXTREME"
 }
