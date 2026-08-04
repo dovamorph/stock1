@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-04T19:42:31.277456+09:00",
+  "updated_at": "2026-08-04T23:23:04.616859+09:00",
   "date": "20260804",
   "window_days": 14,
   "sectors": [
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20260804",
-          "type": "negative",
-          "headline": "[거시분석] Five dead in Moscow region as Ukraine continu...",
-          "score": -2
-        },
         {
           "date": "20260803",
           "type": "negative",
@@ -86,19 +80,31 @@
           "type": "negative",
           "headline": "[거시분석] If Hamas disarmament plan holds, it could mar...",
           "score": -2
+        },
+        {
+          "date": "20260728",
+          "type": "negative",
+          "headline": "[거시분석] As the US pauses the war with Iran, is Trump ...",
+          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 20,
-      "negative_count": 1,
+      "negative_count": 2,
       "recent_events": [
         {
           "date": "20260804",
+          "type": "negative",
+          "headline": "임성재 \" PGA 투어 플레이오프 최종전까지 가겠다\"",
+          "score": -1
+        },
+        {
+          "date": "20260804",
           "type": "positive",
-          "headline": "[거시분석] Five dead in Moscow region as Ukraine continu...",
-          "score": 3
+          "headline": "[거시분석] Ukraine hits more Wildberries sites as strike...",
+          "score": 1
         },
         {
           "date": "20260803",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
           "score": 3
-        },
-        {
-          "date": "20260731",
-          "type": "positive",
-          "headline": "At least five members of same family killed in Russian missile attack, Zelensky says",
-          "score": 1
         }
       ]
     },
@@ -154,14 +154,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20260804",
-          "type": "negative",
-          "headline": "[거시분석] Five dead in Moscow region as Ukraine continu...",
-          "score": -1
-        },
         {
           "date": "20260802",
           "type": "negative",
@@ -184,6 +178,12 @@
           "date": "20260730",
           "type": "negative",
           "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
+          "score": -1
+        },
+        {
+          "date": "20260729",
+          "type": "negative",
+          "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
           "score": -1
         }
       ]
@@ -209,14 +209,20 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 0,
+      "positive_count": 1,
       "negative_count": 16,
       "recent_events": [
         {
           "date": "20260804",
+          "type": "positive",
+          "headline": "임성재 \" PGA 투어 플레이오프 최종전까지 가겠다\"",
+          "score": 1
+        },
+        {
+          "date": "20260804",
           "type": "negative",
-          "headline": "[거시분석] Five dead in Moscow region as Ukraine continu...",
-          "score": -5
+          "headline": "[거시분석] Ukraine hits more Wildberries sites as strike...",
+          "score": -2
         },
         {
           "date": "20260803",
@@ -235,12 +241,6 @@
           "type": "negative",
           "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
           "score": -6
-        },
-        {
-          "date": "20260731",
-          "type": "negative",
-          "headline": "[거시분석] If Hamas disarmament plan holds, it could mar...",
-          "score": -7
         }
       ]
     }
@@ -517,17 +517,24 @@
     },
     {
       "date": "20260804",
-      "headline": "[거시분석] Five dead in Moscow region as Ukraine continu...",
+      "headline": "임성재 \" PGA 투어 플레이오프 최종전까지 가겠다\"",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
-        "금융": -1
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260804",
+      "headline": "[거시분석] Ukraine hits more Wildberries sites as strike...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
-  "total_positives": 28,
+  "total_negatives": 41,
+  "total_positives": 29,
   "risk_level": "EXTREME"
 }
