@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-04T23:23:04.616859+09:00",
-  "date": "20260804",
+  "updated_at": "2026-08-05T02:51:13.333544+09:00",
+  "date": "20260805",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260805",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine hits more Wildberries sites as strike...",
+          "score": -2
+        },
         {
           "date": "20260803",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] If Hamas disarmament plan holds, it could mar...",
           "score": -2
-        },
-        {
-          "date": "20260728",
-          "type": "negative",
-          "headline": "[거시분석] As the US pauses the war with Iran, is Trump ...",
-          "score": -2
         }
       ]
     },
@@ -94,6 +94,12 @@
       "positive_count": 20,
       "negative_count": 2,
       "recent_events": [
+        {
+          "date": "20260805",
+          "type": "positive",
+          "headline": "[거시분석] Ukraine hits more Wildberries sites as strike...",
+          "score": 3
+        },
         {
           "date": "20260804",
           "type": "negative",
@@ -116,12 +122,6 @@
           "date": "20260802",
           "type": "positive",
           "headline": "[거시분석] Trump cancels Iran strikes subject to deal be...",
-          "score": 3
-        },
-        {
-          "date": "20260801",
-          "type": "positive",
-          "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
           "score": 3
         }
       ]
@@ -154,7 +154,7 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 9,
       "recent_events": [
         {
           "date": "20260802",
@@ -189,10 +189,16 @@
       ]
     },
     "우주ETF": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260805",
+          "type": "positive",
+          "headline": "What will happen when a SpaceX rocket collides with the Moon?",
+          "score": 1
+        },
         {
           "date": "20260804",
           "type": "positive",
@@ -210,8 +216,14 @@
     "전체시장": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 16,
+      "negative_count": 15,
       "recent_events": [
+        {
+          "date": "20260805",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine hits more Wildberries sites as strike...",
+          "score": -4
+        },
         {
           "date": "20260804",
           "type": "positive",
@@ -235,35 +247,11 @@
           "type": "negative",
           "headline": "[거시분석] Trump cancels Iran strikes subject to deal be...",
           "score": -6
-        },
-        {
-          "date": "20260801",
-          "type": "negative",
-          "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
-          "score": -6
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260721",
-      "headline": "수명 다 된 10% 글로벌관세…트럼프 '301조 관세' 부과 임박(종합)",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260721",
-      "headline": "[거시분석] US launches fresh strikes on Iran, as Trump w...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -3,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260722",
       "headline": "이란 보건부 \"美 공습으로 53명 사망·592명 부상\"",
@@ -532,9 +520,27 @@
         "전체시장": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260805",
+      "headline": "What will happen when a SpaceX rocket collides with the Moon?",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260805",
+      "headline": "[거시분석] Ukraine hits more Wildberries sites as strike...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -4
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 41,
-  "total_positives": 29,
+  "total_negatives": 40,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
