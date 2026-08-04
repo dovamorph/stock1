@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-04T15:30:31.979670+09:00",
+  "updated_at": "2026-08-04T19:42:31.277456+09:00",
   "date": "20260804",
   "window_days": 14,
   "sectors": [
@@ -60,7 +60,7 @@
         {
           "date": "20260804",
           "type": "negative",
-          "headline": "[거시분석] Iran says it is in talks with Oman but not th...",
+          "headline": "[거시분석] Five dead in Moscow region as Ukraine continu...",
           "score": -2
         },
         {
@@ -97,7 +97,7 @@
         {
           "date": "20260804",
           "type": "positive",
-          "headline": "[거시분석] Iran says it is in talks with Oman but not th...",
+          "headline": "[거시분석] Five dead in Moscow region as Ukraine continu...",
           "score": 3
         },
         {
@@ -159,7 +159,7 @@
         {
           "date": "20260804",
           "type": "negative",
-          "headline": "[거시분석] Iran says it is in talks with Oman but not th...",
+          "headline": "[거시분석] Five dead in Moscow region as Ukraine continu...",
           "score": -1
         },
         {
@@ -189,10 +189,17 @@
       ]
     },
     "우주ETF": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20260804",
+          "type": "positive",
+          "headline": "What will happen when a SpaceX rocket collides with the Moon?",
+          "score": 1
+        }
+      ]
     },
     "양자컴퓨팅": {
       "score": 0,
@@ -208,7 +215,7 @@
         {
           "date": "20260804",
           "type": "negative",
-          "headline": "[거시분석] Iran says it is in talks with Oman but not th...",
+          "headline": "[거시분석] Five dead in Moscow region as Ukraine continu...",
           "score": -5
         },
         {
@@ -502,7 +509,15 @@
     },
     {
       "date": "20260804",
-      "headline": "[거시분석] Iran says it is in talks with Oman but not th...",
+      "headline": "What will happen when a SpaceX rocket collides with the Moon?",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260804",
+      "headline": "[거시분석] Five dead in Moscow region as Ukraine continu...",
       "impacts": {
         "방산": 3,
         "건설": -2,
@@ -513,6 +528,6 @@
     }
   ],
   "total_negatives": 42,
-  "total_positives": 27,
+  "total_positives": 28,
   "risk_level": "EXTREME"
 }
