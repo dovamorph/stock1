@@ -1,23 +1,23 @@
 {
-  "updated": "2026-08-05 06:55",
+  "updated": "2026-08-05 08:17",
   "indicators": {
     "usdkrw": {
       "label": "USD/KRW",
-      "value": 1429.0,
+      "value": 1430.0,
       "unit": "원",
-      "change": -6.4,
-      "change_pct": -0.44,
-      "signal": "🟢",
+      "change": 1.0,
+      "change_pct": 0.07,
+      "signal": "🟡",
       "desc": "안정"
     },
     "wti": {
       "label": "WTI 유가",
-      "value": 75.14,
+      "value": 75.3,
       "unit": "$/배럴",
-      "change": -5.2,
-      "change_pct": -6.47,
+      "change": -5.04,
+      "change_pct": -6.27,
       "signal": "🟢",
-      "desc": "$75.1/배럴"
+      "desc": "$75.3/배럴"
     },
     "us10y": {
       "label": "미국 10년물",
@@ -30,12 +30,12 @@
     },
     "gold": {
       "label": "금",
-      "value": 4134.2,
+      "value": 4128.1,
       "unit": "$/oz",
-      "change": 100.5,
-      "change_pct": 2.49,
+      "change": 94.4,
+      "change_pct": 2.34,
       "signal": "🔴",
-      "desc": "$4,134/oz"
+      "desc": "$4,128/oz"
     }
   }
 }
