@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05T02:51:13.333544+09:00",
+  "updated_at": "2026-08-05T04:41:23.768069+09:00",
   "date": "20260805",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -1,
-      "positive_count": 5,
+      "score": 0,
+      "positive_count": 6,
       "negative_count": 3,
       "recent_events": [
+        {
+          "date": "20260805",
+          "type": "positive",
+          "headline": "\"韓, 2031년까지 '메모리 최강' 유지…엔비디아, HBM 독점 완화\"",
+          "score": 1
+        },
         {
           "date": "20260731",
           "type": "positive",
@@ -43,12 +49,6 @@
           "type": "negative",
           "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
           "score": -2
-        },
-        {
-          "date": "20260725",
-          "type": "positive",
-          "headline": "Warning shot or publicity stunt - how worried should we be about the OpenAI hack?",
-          "score": 1
         }
       ]
     },
@@ -154,8 +154,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20260805",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine hits more Wildberries sites as strike...",
+          "score": -1
+        },
         {
           "date": "20260802",
           "type": "negative",
@@ -178,12 +184,6 @@
           "date": "20260730",
           "type": "negative",
           "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
-          "score": -1
-        },
-        {
-          "date": "20260729",
-          "type": "negative",
-          "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
           "score": -1
         }
       ]
@@ -222,7 +222,7 @@
           "date": "20260805",
           "type": "negative",
           "headline": "[거시분석] Ukraine hits more Wildberries sites as strike...",
-          "score": -4
+          "score": -5
         },
         {
           "date": "20260804",
@@ -531,16 +531,25 @@
     },
     {
       "date": "20260805",
+      "headline": "\"韓, 2031년까지 '메모리 최강' 유지…엔비디아, HBM 독점 완화\"",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260805",
       "headline": "[거시분석] Ukraine hits more Wildberries sites as strike...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -4
+        "전체시장": -5,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 40,
-  "total_positives": 30,
+  "total_negatives": 41,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
