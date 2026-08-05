@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06T02:42:55.952242+09:00",
+  "updated_at": "2026-08-06T04:40:04.244149+09:00",
   "date": "20260806",
   "window_days": 14,
   "sectors": [
@@ -60,7 +60,7 @@
         {
           "date": "20260806",
           "type": "negative",
-          "headline": "[거시분석] Russia strike kills 21 as Ukraine says it nee...",
+          "headline": "[거시분석] After deadly Kyiv strike, Ukraine warns inter...",
           "score": -2
         },
         {
@@ -97,7 +97,7 @@
         {
           "date": "20260806",
           "type": "positive",
-          "headline": "[거시분석] Russia strike kills 21 as Ukraine says it nee...",
+          "headline": "[거시분석] After deadly Kyiv strike, Ukraine warns inter...",
           "score": 3
         },
         {
@@ -189,20 +189,14 @@
       ]
     },
     "우주ETF": {
-      "score": 5,
-      "positive_count": 5,
+      "score": 4,
+      "positive_count": 4,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20260806",
           "type": "positive",
           "headline": "Why some scientists are thrilled that a SpaceX rocket has crashed into the Moon",
-          "score": 1
-        },
-        {
-          "date": "20260806",
-          "type": "positive",
-          "headline": "SpaceX rocket segment to crash into the moon: What happened?",
           "score": 1
         },
         {
@@ -233,19 +227,13 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 3,
+      "positive_count": 2,
       "negative_count": 15,
       "recent_events": [
         {
           "date": "20260806",
-          "type": "positive",
-          "headline": "이스라엘군, 레바논 남부 공습…\"헤즈볼라 휴전 위반\"",
-          "score": 1
-        },
-        {
-          "date": "20260806",
           "type": "negative",
-          "headline": "[거시분석] Russia strike kills 21 as Ukraine says it nee...",
+          "headline": "[거시분석] After deadly Kyiv strike, Ukraine warns inter...",
           "score": -3
         },
         {
@@ -265,6 +253,12 @@
           "type": "positive",
           "headline": "임성재 \" PGA 투어 플레이오프 최종전까지 가겠다\"",
           "score": 1
+        },
+        {
+          "date": "20260804",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine hits more Wildberries sites as strike...",
+          "score": -2
         }
       ]
     }
@@ -563,23 +557,7 @@
     },
     {
       "date": "20260806",
-      "headline": "SpaceX rocket segment to crash into the moon: What happened?",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260806",
-      "headline": "이스라엘군, 레바논 남부 공습…\"헤즈볼라 휴전 위반\"",
-      "impacts": {
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260806",
-      "headline": "[거시분석] Russia strike kills 21 as Ukraine says it nee...",
+      "headline": "[거시분석] After deadly Kyiv strike, Ukraine warns inter...",
       "impacts": {
         "방산": 3,
         "건설": -2,
@@ -589,6 +567,6 @@
     }
   ],
   "total_negatives": 38,
-  "total_positives": 34,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
