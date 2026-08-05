@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05T19:39:28.476147+09:00",
+  "updated_at": "2026-08-05T23:16:38.630498+09:00",
   "date": "20260805",
   "window_days": 14,
   "sectors": [
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260805",
+          "type": "negative",
+          "headline": "[거시분석] Russia strike kills 21 as Ukraine says it nee...",
+          "score": -2
+        },
         {
           "date": "20260803",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] If Hamas disarmament plan holds, it could mar...",
           "score": -2
-        },
-        {
-          "date": "20260728",
-          "type": "negative",
-          "headline": "[거시분석] As the US pauses the war with Iran, is Trump ...",
-          "score": -2
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20260805",
           "type": "positive",
-          "headline": "[거시분석] Trump says Iran will be 'hit very hard' if Ho...",
-          "score": 1
+          "headline": "[거시분석] Russia strike kills 21 as Ukraine says it nee...",
+          "score": 3
         },
         {
           "date": "20260804",
@@ -196,13 +196,13 @@
         {
           "date": "20260805",
           "type": "positive",
-          "headline": "What will happen when a SpaceX rocket collides with the Moon?",
+          "headline": "What can scientists learn from a stray SpaceX rocket hitting the Moon?",
           "score": 1
         },
         {
           "date": "20260805",
           "type": "positive",
-          "headline": "Piece of SpaceX rocket the size of a school bus crashes into the Moon",
+          "headline": "SpaceX rocket segment to crash into the moon: What happened?",
           "score": 1
         },
         {
@@ -221,14 +221,20 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 1,
+      "positive_count": 2,
       "negative_count": 15,
       "recent_events": [
         {
           "date": "20260805",
+          "type": "positive",
+          "headline": "이스라엘군, 레바논 남부 공습…\"헤즈볼라 휴전 위반\"",
+          "score": 1
+        },
+        {
+          "date": "20260805",
           "type": "negative",
-          "headline": "[거시분석] Trump says Iran will be 'hit very hard' if Ho...",
-          "score": -2
+          "headline": "[거시분석] Russia strike kills 21 as Ukraine says it nee...",
+          "score": -4
         },
         {
           "date": "20260804",
@@ -247,12 +253,6 @@
           "type": "negative",
           "headline": "[거시분석] Iran says it is in talks with Oman but not th...",
           "score": -5
-        },
-        {
-          "date": "20260802",
-          "type": "negative",
-          "headline": "[거시분석] Trump cancels Iran strikes subject to deal be...",
-          "score": -6
         }
       ]
     }
@@ -529,7 +529,7 @@
     },
     {
       "date": "20260805",
-      "headline": "What will happen when a SpaceX rocket collides with the Moon?",
+      "headline": "What can scientists learn from a stray SpaceX rocket hitting the Moon?",
       "impacts": {
         "우주ETF": 1
       },
@@ -537,7 +537,7 @@
     },
     {
       "date": "20260805",
-      "headline": "Piece of SpaceX rocket the size of a school bus crashes into the Moon",
+      "headline": "SpaceX rocket segment to crash into the moon: What happened?",
       "impacts": {
         "우주ETF": 1
       },
@@ -545,15 +545,24 @@
     },
     {
       "date": "20260805",
-      "headline": "[거시분석] Trump says Iran will be 'hit very hard' if Ho...",
+      "headline": "이스라엘군, 레바논 남부 공습…\"헤즈볼라 휴전 위반\"",
       "impacts": {
-        "방산": 1,
-        "전체시장": -2
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260805",
+      "headline": "[거시분석] Russia strike kills 21 as Ukraine says it nee...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 39,
-  "total_positives": 31,
+  "total_negatives": 40,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
