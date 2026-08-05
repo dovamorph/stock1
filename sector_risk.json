@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06T04:40:04.244149+09:00",
+  "updated_at": "2026-08-06T06:14:27.041929+09:00",
   "date": "20260806",
   "window_days": 14,
   "sectors": [
@@ -54,13 +54,19 @@
     },
     "건설": {
       "score": -10,
-      "positive_count": 0,
+      "positive_count": 1,
       "negative_count": 11,
       "recent_events": [
         {
           "date": "20260806",
+          "type": "positive",
+          "headline": "\"상생임대·재건축 매입임대 언제까지 팔아야 하나\"…시장 혼란",
+          "score": 1
+        },
+        {
+          "date": "20260806",
           "type": "negative",
-          "headline": "[거시분석] After deadly Kyiv strike, Ukraine warns inter...",
+          "headline": "[거시분석] Iran says it has agreed Strait of Hormuz ship...",
           "score": -2
         },
         {
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] Trump cancels Iran strikes subject to deal be...",
           "score": -2
-        },
-        {
-          "date": "20260801",
-          "type": "negative",
-          "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
-          "score": -2
         }
       ]
     },
@@ -97,7 +97,7 @@
         {
           "date": "20260806",
           "type": "positive",
-          "headline": "[거시분석] After deadly Kyiv strike, Ukraine warns inter...",
+          "headline": "[거시분석] Iran says it has agreed Strait of Hormuz ship...",
           "score": 3
         },
         {
@@ -152,10 +152,16 @@
       "recent_events": []
     },
     "금융": {
-      "score": -9,
+      "score": -10,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20260806",
+          "type": "negative",
+          "headline": "[거시분석] Iran says it has agreed Strait of Hormuz ship...",
+          "score": -1
+        },
         {
           "date": "20260802",
           "type": "negative",
@@ -179,24 +185,24 @@
           "type": "negative",
           "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
           "score": -1
-        },
-        {
-          "date": "20260729",
-          "type": "negative",
-          "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 4,
-      "positive_count": 4,
+      "score": 5,
+      "positive_count": 5,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20260806",
           "type": "positive",
           "headline": "Why some scientists are thrilled that a SpaceX rocket has crashed into the Moon",
+          "score": 1
+        },
+        {
+          "date": "20260806",
+          "type": "positive",
+          "headline": "SpaceX shares slide on the heels of first quarterly report",
           "score": 1
         },
         {
@@ -233,8 +239,8 @@
         {
           "date": "20260806",
           "type": "negative",
-          "headline": "[거시분석] After deadly Kyiv strike, Ukraine warns inter...",
-          "score": -3
+          "headline": "[거시분석] Iran says it has agreed Strait of Hormuz ship...",
+          "score": -5
         },
         {
           "date": "20260805",
@@ -557,16 +563,33 @@
     },
     {
       "date": "20260806",
-      "headline": "[거시분석] After deadly Kyiv strike, Ukraine warns inter...",
+      "headline": "SpaceX shares slide on the heels of first quarterly report",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260806",
+      "headline": "\"상생임대·재건축 매입임대 언제까지 팔아야 하나\"…시장 혼란",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260806",
+      "headline": "[거시분석] Iran says it has agreed Strait of Hormuz ship...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -3
+        "전체시장": -5,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 38,
-  "total_positives": 32,
+  "total_negatives": 39,
+  "total_positives": 34,
   "risk_level": "EXTREME"
 }
