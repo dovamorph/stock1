@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06T06:14:27.041929+09:00",
+  "updated_at": "2026-08-06T08:03:08.482767+09:00",
   "date": "20260806",
   "window_days": 14,
   "sectors": [
@@ -54,15 +54,9 @@
     },
     "건설": {
       "score": -10,
-      "positive_count": 1,
+      "positive_count": 0,
       "negative_count": 11,
       "recent_events": [
-        {
-          "date": "20260806",
-          "type": "positive",
-          "headline": "\"상생임대·재건축 매입임대 언제까지 팔아야 하나\"…시장 혼란",
-          "score": 1
-        },
         {
           "date": "20260806",
           "type": "negative",
@@ -85,6 +79,12 @@
           "date": "20260802",
           "type": "negative",
           "headline": "[거시분석] Trump cancels Iran strikes subject to deal be...",
+          "score": -2
+        },
+        {
+          "date": "20260801",
+          "type": "negative",
+          "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
           "score": -2
         }
       ]
@@ -571,14 +571,6 @@
     },
     {
       "date": "20260806",
-      "headline": "\"상생임대·재건축 매입임대 언제까지 팔아야 하나\"…시장 혼란",
-      "impacts": {
-        "건설": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260806",
       "headline": "[거시분석] Iran says it has agreed Strait of Hormuz ship...",
       "impacts": {
         "방산": 3,
@@ -590,6 +582,6 @@
     }
   ],
   "total_negatives": 39,
-  "total_positives": 34,
+  "total_positives": 33,
   "risk_level": "EXTREME"
 }
