@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05T15:31:21.846773+09:00",
+  "updated_at": "2026-08-05T19:39:28.476147+09:00",
   "date": "20260805",
   "window_days": 14,
   "sectors": [
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20260805",
-          "type": "negative",
-          "headline": "[거시분석] Trump says Iran will be 'hit very hard' if Ho...",
-          "score": -2
-        },
         {
           "date": "20260803",
           "type": "negative",
@@ -86,25 +80,25 @@
           "type": "negative",
           "headline": "[거시분석] If Hamas disarmament plan holds, it could mar...",
           "score": -2
+        },
+        {
+          "date": "20260728",
+          "type": "negative",
+          "headline": "[거시분석] As the US pauses the war with Iran, is Trump ...",
+          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 21,
+      "positive_count": 20,
       "negative_count": 2,
       "recent_events": [
         {
           "date": "20260805",
           "type": "positive",
-          "headline": "Russian missile attack kills 14, injures 27 in Ukraine’s Kyiv region",
-          "score": 1
-        },
-        {
-          "date": "20260805",
-          "type": "positive",
           "headline": "[거시분석] Trump says Iran will be 'hit very hard' if Ho...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260804",
@@ -122,6 +116,12 @@
           "date": "20260803",
           "type": "positive",
           "headline": "[거시분석] Iran says it is in talks with Oman but not th...",
+          "score": 3
+        },
+        {
+          "date": "20260802",
+          "type": "positive",
+          "headline": "[거시분석] Trump cancels Iran strikes subject to deal be...",
           "score": 3
         }
       ]
@@ -202,7 +202,7 @@
         {
           "date": "20260805",
           "type": "positive",
-          "headline": "Elon Musk’s SpaceX reports losses but less than expected",
+          "headline": "Piece of SpaceX rocket the size of a school bus crashes into the Moon",
           "score": 1
         },
         {
@@ -222,19 +222,13 @@
     "전체시장": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 16,
+      "negative_count": 15,
       "recent_events": [
         {
           "date": "20260805",
           "type": "negative",
-          "headline": "美, '해방의 날' 관세 140조원 환급…대법원 제동 후 60% 반환",
-          "score": -1
-        },
-        {
-          "date": "20260805",
-          "type": "negative",
           "headline": "[거시분석] Trump says Iran will be 'hit very hard' if Ho...",
-          "score": -4
+          "score": -2
         },
         {
           "date": "20260804",
@@ -253,6 +247,12 @@
           "type": "negative",
           "headline": "[거시분석] Iran says it is in talks with Oman but not th...",
           "score": -5
+        },
+        {
+          "date": "20260802",
+          "type": "negative",
+          "headline": "[거시분석] Trump cancels Iran strikes subject to deal be...",
+          "score": -6
         }
       ]
     }
@@ -537,15 +537,7 @@
     },
     {
       "date": "20260805",
-      "headline": "Russian missile attack kills 14, injures 27 in Ukraine’s Kyiv region",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260805",
-      "headline": "Elon Musk’s SpaceX reports losses but less than expected",
+      "headline": "Piece of SpaceX rocket the size of a school bus crashes into the Moon",
       "impacts": {
         "우주ETF": 1
       },
@@ -553,24 +545,15 @@
     },
     {
       "date": "20260805",
-      "headline": "美, '해방의 날' 관세 140조원 환급…대법원 제동 후 60% 반환",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260805",
       "headline": "[거시분석] Trump says Iran will be 'hit very hard' if Ho...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -4
+        "방산": 1,
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 41,
-  "total_positives": 32,
+  "total_negatives": 39,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
