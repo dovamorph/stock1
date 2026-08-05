@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05T11:46:51.845159+09:00",
+  "updated_at": "2026-08-05T15:31:21.846773+09:00",
   "date": "20260805",
   "window_days": 14,
   "sectors": [
@@ -60,7 +60,7 @@
         {
           "date": "20260805",
           "type": "negative",
-          "headline": "[거시분석] Ukraine hits more Wildberries sites as strike...",
+          "headline": "[거시분석] Trump says Iran will be 'hit very hard' if Ho...",
           "score": -2
         },
         {
@@ -97,13 +97,13 @@
         {
           "date": "20260805",
           "type": "positive",
-          "headline": "One killed, 12 injured in Russian ballistic missile attack on Kyiv",
+          "headline": "Russian missile attack kills 14, injures 27 in Ukraine’s Kyiv region",
           "score": 1
         },
         {
           "date": "20260805",
           "type": "positive",
-          "headline": "[거시분석] Ukraine hits more Wildberries sites as strike...",
+          "headline": "[거시분석] Trump says Iran will be 'hit very hard' if Ho...",
           "score": 3
         },
         {
@@ -222,12 +222,18 @@
     "전체시장": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 15,
+      "negative_count": 16,
       "recent_events": [
         {
           "date": "20260805",
           "type": "negative",
-          "headline": "[거시분석] Ukraine hits more Wildberries sites as strike...",
+          "headline": "美, '해방의 날' 관세 140조원 환급…대법원 제동 후 60% 반환",
+          "score": -1
+        },
+        {
+          "date": "20260805",
+          "type": "negative",
+          "headline": "[거시분석] Trump says Iran will be 'hit very hard' if Ho...",
           "score": -4
         },
         {
@@ -247,12 +253,6 @@
           "type": "negative",
           "headline": "[거시분석] Iran says it is in talks with Oman but not th...",
           "score": -5
-        },
-        {
-          "date": "20260802",
-          "type": "negative",
-          "headline": "[거시분석] Trump cancels Iran strikes subject to deal be...",
-          "score": -6
         }
       ]
     }
@@ -537,7 +537,7 @@
     },
     {
       "date": "20260805",
-      "headline": "One killed, 12 injured in Russian ballistic missile attack on Kyiv",
+      "headline": "Russian missile attack kills 14, injures 27 in Ukraine’s Kyiv region",
       "impacts": {
         "방산": 1
       },
@@ -553,7 +553,15 @@
     },
     {
       "date": "20260805",
-      "headline": "[거시분석] Ukraine hits more Wildberries sites as strike...",
+      "headline": "美, '해방의 날' 관세 140조원 환급…대법원 제동 후 60% 반환",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260805",
+      "headline": "[거시분석] Trump says Iran will be 'hit very hard' if Ho...",
       "impacts": {
         "방산": 3,
         "건설": -2,
@@ -562,7 +570,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 40,
+  "total_negatives": 41,
   "total_positives": 32,
   "risk_level": "EXTREME"
 }
