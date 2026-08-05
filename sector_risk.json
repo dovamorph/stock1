@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05T08:05:51.709600+09:00",
+  "updated_at": "2026-08-05T11:46:51.845159+09:00",
   "date": "20260805",
   "window_days": 14,
   "sectors": [
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260805",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine hits more Wildberries sites as strike...",
+          "score": -2
+        },
         {
           "date": "20260803",
           "type": "negative",
@@ -80,25 +86,25 @@
           "type": "negative",
           "headline": "[거시분석] If Hamas disarmament plan holds, it could mar...",
           "score": -2
-        },
-        {
-          "date": "20260728",
-          "type": "negative",
-          "headline": "[거시분석] As the US pauses the war with Iran, is Trump ...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 20,
+      "positive_count": 21,
       "negative_count": 2,
       "recent_events": [
         {
           "date": "20260805",
           "type": "positive",
-          "headline": "[거시분석] Ukraine hits more Wildberries sites as strike...",
+          "headline": "One killed, 12 injured in Russian ballistic missile attack on Kyiv",
           "score": 1
+        },
+        {
+          "date": "20260805",
+          "type": "positive",
+          "headline": "[거시분석] Ukraine hits more Wildberries sites as strike...",
+          "score": 3
         },
         {
           "date": "20260804",
@@ -116,12 +122,6 @@
           "date": "20260803",
           "type": "positive",
           "headline": "[거시분석] Iran says it is in talks with Oman but not th...",
-          "score": 3
-        },
-        {
-          "date": "20260802",
-          "type": "positive",
-          "headline": "[거시분석] Trump cancels Iran strikes subject to deal be...",
           "score": 3
         }
       ]
@@ -228,7 +228,7 @@
           "date": "20260805",
           "type": "negative",
           "headline": "[거시분석] Ukraine hits more Wildberries sites as strike...",
-          "score": -2
+          "score": -4
         },
         {
           "date": "20260804",
@@ -537,6 +537,14 @@
     },
     {
       "date": "20260805",
+      "headline": "One killed, 12 injured in Russian ballistic missile attack on Kyiv",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260805",
       "headline": "Elon Musk’s SpaceX reports losses but less than expected",
       "impacts": {
         "우주ETF": 1
@@ -547,13 +555,14 @@
       "date": "20260805",
       "headline": "[거시분석] Ukraine hits more Wildberries sites as strike...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -2
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 39,
-  "total_positives": 31,
+  "total_negatives": 40,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
