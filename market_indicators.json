@@ -1,41 +1,41 @@
 {
-  "updated": "2026-08-06 21:29",
+  "updated": "2026-08-06 23:58",
   "indicators": {
     "usdkrw": {
       "label": "USD/KRW",
-      "value": 1428.0,
+      "value": 1422.0,
       "unit": "원",
-      "change": -0.1,
-      "change_pct": -0.01,
-      "signal": "🟡",
+      "change": -6.0,
+      "change_pct": -0.42,
+      "signal": "🟢",
       "desc": "안정"
     },
     "wti": {
       "label": "WTI 유가",
-      "value": 75.2,
+      "value": 76.61,
       "unit": "$/배럴",
-      "change": -0.02,
-      "change_pct": -0.03,
-      "signal": "🟡",
-      "desc": "$75.2/배럴"
+      "change": 1.39,
+      "change_pct": 1.85,
+      "signal": "🔴",
+      "desc": "$76.6/배럴"
     },
     "us10y": {
       "label": "미국 10년물",
-      "value": 4.617,
+      "value": 4.641,
       "unit": "%",
-      "change": -0.01,
-      "change_pct": -0.22,
+      "change": 0.024,
+      "change_pct": 0.52,
       "signal": "🟡",
-      "desc": "4.62% (위험)"
+      "desc": "4.64% (위험)"
     },
     "gold": {
       "label": "금",
-      "value": 4320.7,
+      "value": 4328.0,
       "unit": "$/oz",
-      "change": 74.9,
-      "change_pct": 1.76,
+      "change": 82.2,
+      "change_pct": 1.94,
       "signal": "🔴",
-      "desc": "$4,321/oz"
+      "desc": "$4,328/oz"
     }
   }
 }
