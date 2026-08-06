@@ -12,11 +12,6 @@
   "hard_stop_active": false,
   "log": [
     {
-      "time": "2026-07-30 10:03:01",
-      "level": "INFO",
-      "event": "자동매매 정지 해제 (시간 만료)"
-    },
-    {
       "time": "2026-08-03 00:02:36",
       "level": "WARN",
       "event": "갭다운 -3.89% [KOSPI]"
@@ -258,6 +253,11 @@
     },
     {
       "time": "2026-08-06 09:33:03",
+      "level": "WARN",
+      "event": "갭다운 -4.58% [KOSPI]"
+    },
+    {
+      "time": "2026-08-06 10:03:06",
       "level": "WARN",
       "event": "갭다운 -4.58% [KOSPI]"
     }
