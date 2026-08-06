@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06T08:03:08.482767+09:00",
+  "updated_at": "2026-08-06T11:49:39.475103+09:00",
   "date": "20260806",
   "window_days": 14,
   "sectors": [
@@ -60,8 +60,8 @@
         {
           "date": "20260806",
           "type": "negative",
-          "headline": "[거시분석] Iran says it has agreed Strait of Hormuz ship...",
-          "score": -2
+          "headline": "[거시분석] Iran says deal with Oman on Strait of Hormuz ...",
+          "score": -1
         },
         {
           "date": "20260805",
@@ -97,8 +97,8 @@
         {
           "date": "20260806",
           "type": "positive",
-          "headline": "[거시분석] Iran says it has agreed Strait of Hormuz ship...",
-          "score": 3
+          "headline": "[거시분석] Iran says deal with Oman on Strait of Hormuz ...",
+          "score": 2
         },
         {
           "date": "20260805",
@@ -159,7 +159,7 @@
         {
           "date": "20260806",
           "type": "negative",
-          "headline": "[거시분석] Iran says it has agreed Strait of Hormuz ship...",
+          "headline": "[거시분석] Iran says deal with Oman on Strait of Hormuz ...",
           "score": -1
         },
         {
@@ -239,8 +239,8 @@
         {
           "date": "20260806",
           "type": "negative",
-          "headline": "[거시분석] Iran says it has agreed Strait of Hormuz ship...",
-          "score": -5
+          "headline": "[거시분석] Iran says deal with Oman on Strait of Hormuz ...",
+          "score": -4
         },
         {
           "date": "20260805",
@@ -571,11 +571,11 @@
     },
     {
       "date": "20260806",
-      "headline": "[거시분석] Iran says it has agreed Strait of Hormuz ship...",
+      "headline": "[거시분석] Iran says deal with Oman on Strait of Hormuz ...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -4,
         "금융": -1
       },
       "source": "geo_categories"
