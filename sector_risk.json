@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06T11:49:39.475103+09:00",
+  "updated_at": "2026-08-06T15:34:21.954985+09:00",
   "date": "20260806",
   "window_days": 14,
   "sectors": [
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20260806",
-          "type": "negative",
-          "headline": "[거시분석] Iran says deal with Oman on Strait of Hormuz ...",
-          "score": -1
-        },
         {
           "date": "20260805",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
           "score": -2
+        },
+        {
+          "date": "20260731",
+          "type": "negative",
+          "headline": "[거시분석] If Hamas disarmament plan holds, it could mar...",
+          "score": -2
         }
       ]
     },
@@ -98,7 +98,7 @@
           "date": "20260806",
           "type": "positive",
           "headline": "[거시분석] Iran says deal with Oman on Strait of Hormuz ...",
-          "score": 2
+          "score": 1
         },
         {
           "date": "20260805",
@@ -152,16 +152,10 @@
       "recent_events": []
     },
     "금융": {
-      "score": -10,
+      "score": -9,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 8,
       "recent_events": [
-        {
-          "date": "20260806",
-          "type": "negative",
-          "headline": "[거시분석] Iran says deal with Oman on Strait of Hormuz ...",
-          "score": -1
-        },
         {
           "date": "20260802",
           "type": "negative",
@@ -185,24 +179,24 @@
           "type": "negative",
           "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
           "score": -1
+        },
+        {
+          "date": "20260729",
+          "type": "negative",
+          "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
+          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 5,
-      "positive_count": 5,
+      "score": 4,
+      "positive_count": 4,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20260806",
           "type": "positive",
           "headline": "Why some scientists are thrilled that a SpaceX rocket has crashed into the Moon",
-          "score": 1
-        },
-        {
-          "date": "20260806",
-          "type": "positive",
-          "headline": "SpaceX shares slide on the heels of first quarterly report",
           "score": 1
         },
         {
@@ -240,7 +234,7 @@
           "date": "20260806",
           "type": "negative",
           "headline": "[거시분석] Iran says deal with Oman on Strait of Hormuz ...",
-          "score": -4
+          "score": -2
         },
         {
           "date": "20260805",
@@ -563,25 +557,15 @@
     },
     {
       "date": "20260806",
-      "headline": "SpaceX shares slide on the heels of first quarterly report",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260806",
       "headline": "[거시분석] Iran says deal with Oman on Strait of Hormuz ...",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -4,
-        "금융": -1
+        "방산": 1,
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 39,
-  "total_positives": 33,
+  "total_negatives": 37,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
