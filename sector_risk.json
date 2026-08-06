@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06T15:34:21.954985+09:00",
+  "updated_at": "2026-08-06T19:42:49.858669+09:00",
   "date": "20260806",
   "window_days": 14,
   "sectors": [
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260806",
+          "type": "negative",
+          "headline": "[거시분석] Iran says deal with Oman on Strait of Hormuz ...",
+          "score": -2
+        },
         {
           "date": "20260805",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
           "score": -2
-        },
-        {
-          "date": "20260731",
-          "type": "negative",
-          "headline": "[거시분석] If Hamas disarmament plan holds, it could mar...",
-          "score": -2
         }
       ]
     },
@@ -98,7 +98,7 @@
           "date": "20260806",
           "type": "positive",
           "headline": "[거시분석] Iran says deal with Oman on Strait of Hormuz ...",
-          "score": 1
+          "score": 3
         },
         {
           "date": "20260805",
@@ -127,10 +127,16 @@
       ]
     },
     "전력·에너지": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 3,
+      "positive_count": 3,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260806",
+          "type": "positive",
+          "headline": "中, 북부 네이멍구에 축구장 20개 크기 AI 데이터센터 가동",
+          "score": 1
+        },
         {
           "date": "20260803",
           "type": "positive",
@@ -152,10 +158,16 @@
       "recent_events": []
     },
     "금융": {
-      "score": -9,
+      "score": -10,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20260806",
+          "type": "negative",
+          "headline": "[거시분석] Iran says deal with Oman on Strait of Hormuz ...",
+          "score": -1
+        },
         {
           "date": "20260802",
           "type": "negative",
@@ -178,12 +190,6 @@
           "date": "20260730",
           "type": "negative",
           "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
-          "score": -1
-        },
-        {
-          "date": "20260729",
-          "type": "negative",
-          "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
           "score": -1
         }
       ]
@@ -234,7 +240,7 @@
           "date": "20260806",
           "type": "negative",
           "headline": "[거시분석] Iran says deal with Oman on Strait of Hormuz ...",
-          "score": -2
+          "score": -5
         },
         {
           "date": "20260805",
@@ -557,15 +563,25 @@
     },
     {
       "date": "20260806",
+      "headline": "中, 북부 네이멍구에 축구장 20개 크기 AI 데이터센터 가동",
+      "impacts": {
+        "전력·에너지": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260806",
       "headline": "[거시분석] Iran says deal with Oman on Strait of Hormuz ...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -2
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 37,
-  "total_positives": 32,
+  "total_negatives": 39,
+  "total_positives": 33,
   "risk_level": "EXTREME"
 }
