@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-07T23:55:57.541393+09:00",
-  "date": "20260807",
+  "updated_at": "2026-08-08T01:56:42.969109+09:00",
+  "date": "20260808",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -58,6 +58,12 @@
       "negative_count": 11,
       "recent_events": [
         {
+          "date": "20260808",
+          "type": "negative",
+          "headline": "[거시분석] Why was Taiwan’s president evacuated in the m...",
+          "score": -1
+        },
+        {
           "date": "20260807",
           "type": "negative",
           "headline": "[거시분석] Why was Taiwan’s president evacuated in the m...",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] Iran says it is in talks with Oman but not th...",
           "score": -2
-        },
-        {
-          "date": "20260802",
-          "type": "negative",
-          "headline": "[거시분석] Trump cancels Iran strikes subject to deal be...",
-          "score": -2
         }
       ]
     },
@@ -94,6 +94,12 @@
       "positive_count": 18,
       "negative_count": 3,
       "recent_events": [
+        {
+          "date": "20260808",
+          "type": "positive",
+          "headline": "[거시분석] Why was Taiwan’s president evacuated in the m...",
+          "score": 2
+        },
         {
           "date": "20260807",
           "type": "negative",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] Russia strike kills 21 as Ukraine says it nee...",
           "score": 3
-        },
-        {
-          "date": "20260804",
-          "type": "negative",
-          "headline": "임성재 \" PGA 투어 플레이오프 최종전까지 가겠다\"",
-          "score": -1
         }
       ]
     },
@@ -146,9 +146,9 @@
       "recent_events": []
     },
     "금융": {
-      "score": -7,
+      "score": -6,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
         {
           "date": "20260802",
@@ -183,10 +183,22 @@
       ]
     },
     "우주ETF": {
-      "score": 6,
-      "positive_count": 6,
+      "score": 8,
+      "positive_count": 8,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260808",
+          "type": "positive",
+          "headline": "South Korea space agency shares Moon images after SpaceX rocket debris crash",
+          "score": 1
+        },
+        {
+          "date": "20260808",
+          "type": "positive",
+          "headline": "Watch: Nasa astronauts conduct 6.5-hour spacewalk outside ISS",
+          "score": 1
+        },
         {
           "date": "20260807",
           "type": "positive",
@@ -204,18 +216,6 @@
           "type": "positive",
           "headline": "Why some scientists are thrilled that a SpaceX rocket has crashed into the Moon",
           "score": 1
-        },
-        {
-          "date": "20260805",
-          "type": "positive",
-          "headline": "What can scientists learn from a stray SpaceX rocket hitting the Moon?",
-          "score": 1
-        },
-        {
-          "date": "20260805",
-          "type": "positive",
-          "headline": "SpaceX rocket segment to crash into the moon: What happened?",
-          "score": 1
         }
       ]
     },
@@ -230,6 +230,12 @@
       "positive_count": 3,
       "negative_count": 15,
       "recent_events": [
+        {
+          "date": "20260808",
+          "type": "negative",
+          "headline": "[거시분석] Why was Taiwan’s president evacuated in the m...",
+          "score": -3
+        },
         {
           "date": "20260807",
           "type": "positive",
@@ -253,28 +259,11 @@
           "type": "positive",
           "headline": "이스라엘군, 레바논 남부 공습…\"헤즈볼라 휴전 위반\"",
           "score": 1
-        },
-        {
-          "date": "20260805",
-          "type": "negative",
-          "headline": "[거시분석] Russia strike kills 21 as Ukraine says it nee...",
-          "score": -4
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260724",
-      "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
-      "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -4,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260725",
       "headline": "Iran-backed Houthis claim missile attack on Saudi Arabia",
@@ -564,9 +553,35 @@
         "전체시장": -4
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260808",
+      "headline": "South Korea space agency shares Moon images after SpaceX rocket debris crash",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260808",
+      "headline": "Watch: Nasa astronauts conduct 6.5-hour spacewalk outside ISS",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260808",
+      "headline": "[거시분석] Why was Taiwan’s president evacuated in the m...",
+      "impacts": {
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -3
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 38,
-  "total_positives": 32,
+  "total_negatives": 37,
+  "total_positives": 34,
   "risk_level": "EXTREME"
 }
