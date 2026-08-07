@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07T19:55:39.300727+09:00",
+  "updated_at": "2026-08-07T22:11:02.775601+09:00",
   "date": "20260807",
   "window_days": 14,
   "sectors": [
@@ -60,8 +60,8 @@
         {
           "date": "20260807",
           "type": "negative",
-          "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
-          "score": -1
+          "headline": "[거시분석] Why was Taiwan’s president evacuated in the m...",
+          "score": -2
         },
         {
           "date": "20260806",
@@ -103,8 +103,8 @@
         {
           "date": "20260807",
           "type": "positive",
-          "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
-          "score": 2
+          "headline": "[거시분석] Why was Taiwan’s president evacuated in the m...",
+          "score": 3
         },
         {
           "date": "20260806",
@@ -140,17 +140,10 @@
       ]
     },
     "로봇": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 0,
+      "positive_count": 0,
       "negative_count": 0,
-      "recent_events": [
-        {
-          "date": "20260807",
-          "type": "positive",
-          "headline": "엠엑스로보틱스, 100억원 유상증자…엠엑스온에 제3자배정",
-          "score": 1
-        }
-      ]
+      "recent_events": []
     },
     "금융": {
       "score": -7,
@@ -234,15 +227,9 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 4,
-      "negative_count": 16,
+      "positive_count": 3,
+      "negative_count": 15,
       "recent_events": [
-        {
-          "date": "20260807",
-          "type": "negative",
-          "headline": "Trump imposes 15% tariff on key chip material to counter China",
-          "score": -1
-        },
         {
           "date": "20260807",
           "type": "positive",
@@ -251,20 +238,26 @@
         },
         {
           "date": "20260807",
-          "type": "positive",
-          "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
-          "score": 1
-        },
-        {
-          "date": "20260807",
           "type": "negative",
-          "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
-          "score": -3
+          "headline": "[거시분석] Why was Taiwan’s president evacuated in the m...",
+          "score": -4
         },
         {
           "date": "20260806",
           "type": "negative",
           "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
+          "score": -4
+        },
+        {
+          "date": "20260805",
+          "type": "positive",
+          "headline": "이스라엘군, 레바논 남부 공습…\"헤즈볼라 휴전 위반\"",
+          "score": 1
+        },
+        {
+          "date": "20260805",
+          "type": "negative",
+          "headline": "[거시분석] Russia strike kills 21 as Ukraine says it nee...",
           "score": -4
         }
       ]
@@ -547,14 +540,6 @@
     },
     {
       "date": "20260807",
-      "headline": "Trump imposes 15% tariff on key chip material to counter China",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260807",
       "headline": "Watch: Nasa astronauts conduct 6.5-hour spacewalk outside ISS",
       "impacts": {
         "우주ETF": 1
@@ -572,32 +557,16 @@
     },
     {
       "date": "20260807",
-      "headline": "엠엑스로보틱스, 100억원 유상증자…엠엑스온에 제3자배정",
+      "headline": "[거시분석] Why was Taiwan’s president evacuated in the m...",
       "impacts": {
-        "로봇": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260807",
-      "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
-      "impacts": {
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260807",
-      "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
-      "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -3
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 39,
-  "total_positives": 34,
+  "total_negatives": 38,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
