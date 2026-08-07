@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07T13:27:57.697067+09:00",
+  "updated_at": "2026-08-07T16:20:45.655181+09:00",
   "date": "20260807",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -2,
+      "score": 0,
       "positive_count": 4,
-      "negative_count": 3,
+      "negative_count": 2,
       "recent_events": [
-        {
-          "date": "20260807",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
-          "score": -2
-        },
         {
           "date": "20260731",
           "type": "positive",
@@ -49,6 +43,12 @@
           "type": "negative",
           "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
           "score": -2
+        },
+        {
+          "date": "20260725",
+          "type": "positive",
+          "headline": "Warning shot or publicity stunt - how worried should we be about the OpenAI hack?",
+          "score": 1
         }
       ]
     },
@@ -60,8 +60,8 @@
         {
           "date": "20260807",
           "type": "negative",
-          "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
-          "score": -3
+          "headline": "[거시분석] Artificial Intelligence used to design brand ...",
+          "score": -1
         },
         {
           "date": "20260806",
@@ -97,8 +97,8 @@
         {
           "date": "20260807",
           "type": "positive",
-          "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
-          "score": 3
+          "headline": "[거시분석] Artificial Intelligence used to design brand ...",
+          "score": 1
         },
         {
           "date": "20260806",
@@ -146,10 +146,16 @@
       "recent_events": []
     },
     "금융": {
-      "score": -7,
+      "score": -8,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260807",
+          "type": "negative",
+          "headline": "[거시분석] Artificial Intelligence used to design brand ...",
+          "score": -1
+        },
         {
           "date": "20260802",
           "type": "negative",
@@ -172,12 +178,6 @@
           "date": "20260730",
           "type": "negative",
           "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
-          "score": -1
-        },
-        {
-          "date": "20260729",
-          "type": "negative",
-          "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
           "score": -1
         }
       ]
@@ -239,8 +239,8 @@
         {
           "date": "20260807",
           "type": "negative",
-          "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
-          "score": -8
+          "headline": "[거시분석] Artificial Intelligence used to design brand ...",
+          "score": -5
         },
         {
           "date": "20260806",
@@ -548,12 +548,12 @@
     },
     {
       "date": "20260807",
-      "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
+      "headline": "[거시분석] Artificial Intelligence used to design brand ...",
       "impacts": {
-        "방산": 3,
-        "건설": -3,
-        "전체시장": -8,
-        "반도체·AI": -2
+        "방산": 1,
+        "전체시장": -5,
+        "금융": -1,
+        "건설": -1
       },
       "source": "geo_categories"
     }
