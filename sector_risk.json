@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T01:56:42.969109+09:00",
+  "updated_at": "2026-08-08T04:01:35.282265+09:00",
   "date": "20260808",
   "window_days": 14,
   "sectors": [
@@ -61,7 +61,7 @@
           "date": "20260808",
           "type": "negative",
           "headline": "[거시분석] Why was Taiwan’s president evacuated in the m...",
-          "score": -1
+          "score": -2
         },
         {
           "date": "20260807",
@@ -98,7 +98,7 @@
           "date": "20260808",
           "type": "positive",
           "headline": "[거시분석] Why was Taiwan’s president evacuated in the m...",
-          "score": 2
+          "score": 3
         },
         {
           "date": "20260807",
@@ -146,10 +146,16 @@
       "recent_events": []
     },
     "금융": {
-      "score": -6,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260808",
+          "type": "negative",
+          "headline": "[거시분석] Why was Taiwan’s president evacuated in the m...",
+          "score": -1
+        },
         {
           "date": "20260802",
           "type": "negative",
@@ -172,12 +178,6 @@
           "date": "20260730",
           "type": "negative",
           "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
-          "score": -1
-        },
-        {
-          "date": "20260729",
-          "type": "negative",
-          "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
           "score": -1
         }
       ]
@@ -228,13 +228,19 @@
     "전체시장": {
       "score": -10,
       "positive_count": 3,
-      "negative_count": 15,
+      "negative_count": 16,
       "recent_events": [
         {
           "date": "20260808",
           "type": "negative",
+          "headline": "'트럼프 측근' 故그레이엄 의원의 러·이란 제재법안 상원 통과",
+          "score": -1
+        },
+        {
+          "date": "20260808",
+          "type": "negative",
           "headline": "[거시분석] Why was Taiwan’s president evacuated in the m...",
-          "score": -3
+          "score": -5
         },
         {
           "date": "20260807",
@@ -253,12 +259,6 @@
           "type": "negative",
           "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
           "score": -4
-        },
-        {
-          "date": "20260805",
-          "type": "positive",
-          "headline": "이스라엘군, 레바논 남부 공습…\"헤즈볼라 휴전 위반\"",
-          "score": 1
         }
       ]
     }
@@ -572,16 +572,25 @@
     },
     {
       "date": "20260808",
+      "headline": "'트럼프 측근' 故그레이엄 의원의 러·이란 제재법안 상원 통과",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260808",
       "headline": "[거시분석] Why was Taiwan’s president evacuated in the m...",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -3
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 37,
+  "total_negatives": 39,
   "total_positives": 34,
   "risk_level": "EXTREME"
 }

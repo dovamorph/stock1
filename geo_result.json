@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08 01:56",
+  "updated": "2026-08-08 04:01",
   "news_count": 85,
   "intl_count": 55,
   "domestic_count": 30,
@@ -51,6 +51,10 @@
     "Watch: Nasa astronauts conduct 6.5-hour spacewalk outside ISS",
     "Why was Taiwan’s president evacuated in the middle of the night?",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Inside the results: How redistricting shaped Tennessee’s primary election",
+    "New Delhi on red alert as heavy rains pound the city",
+    "Mediterranean smuggling network ‘dismantled’ in Spain-led raid, 78 arrested",
+    "Hun Manet is refining Cambodia’s authoritarian model",
     "War on Iran: Saudi Arabia, Turkiye and Pakistan sign defence pact",
     "US labour market sheds jobs in July as labour force participation slumps",
     "Saudi Arabia, Pakistan, Turkiye defence pact challenges US role",
@@ -71,10 +75,15 @@
     "Trump says war ‘can’t go much longer’ – what’s the latest on talks?",
     "Houthi attacks on gov’t forces hint that a major battle in Yemen is brewing",
     "Saudi ⁠Arabia, Pakistan and Turkiye sign defence deal amid regional turmoil",
-    "Why Trump is caught in an ‘escalation trap’ with Iran",
-    "Houthi strikes in Yemen as Saudi Arabia braces for attacks: What we know",
-    "Central Europe sees record temperatures as heatwave continues",
-    "Ivan Toney: Saudi Pro League’s England international charged with assault",
+    "'트럼프 측근' 故그레이엄 의원의 러·이란 제재법안 상원 통과",
+    "美법원, 백악관 연회장 공사에 또 제동…트럼프 \"정치적 판결\"",
+    "트럼프, 대법원 제동에도 '눈엣가시' 연준 이사 해임 재추진",
+    "시장지배력 노린 오픈AI, 챗GPT 무료고객에 최신 모델 무한제공",
+    "'30년 난제' 자가염증질환 원인 '파이린' 활성화 원리 규명",
+    "세계최고령 도전 119세…\"오래 살려면 일하고 건강하게 먹어라\"",
+    "독일, 라인강 물류 운송 막히자 화물차 대체 투입",
+    "'전쟁 반대' 러 야당, 9월 총선 후보 못 내나",
+    "폭염 속 대구 아파트단지 정전…1천200세대 2시간 넘게 불편",
     "美, 쿠바 고사작전 성공할까…국무장관 \"인내와 끈기로 옥죌 것\"",
     "멕시코-페루 약 10개월 만에 외교 재개 공식화",
     "'트럼프 충성파' 美법무 인준 다시 청신호…과반 찬성표 확보(종합)",
@@ -95,35 +104,26 @@
     "전남광주 폐기물 처리업체서 불…진화 중",
     "제주 남부 앞바다·동부 앞바다에 8일 0시 풍랑경보",
     "청양 비닐하우스 앞서 90대 숨진 채 발견…온열질환 여부 조사",
-    "폭염·산불에 놀란 프랑스…대규모 정전 대응 훈련 추진",
-    "교회에서 고열·의식 저하 상태로 병원 옮겨진 어린이 사망",
-    "뉴욕증시, 비농업 고용지표 소화하며 혼조 출발",
-    "홍제동서 마을버스가 차량 들이받고 상가 돌진…8명 부상",
-    "\"대만인 교사, 중국서 3개월째 구금…종교 관련 가능성\"",
-    "복지부, 불볕더위 길어지자 '폭염 대응 비상대책본부' 구성",
-    "'트럼프 충성파' 美법무 인준 무산 가능성…與 1명 추가 반대",
-    "교황, 내달 프랑스 국빈 방문…성직자 성학대 피해자 만난다",
-    "삼전닉스 레버리지 상장심사기간 29일…\"절반 단축\"·\"사실아냐\"",
-    "EU, 러시아 군수산업 복합체 관계자 5명 추가 제재"
+    "폭염·산불에 놀란 프랑스…대규모 정전 대응 훈련 추진"
   ],
   "categories": {
     "geopolitical": {
-      "level": "경고",
-      "color": "orange",
-      "signal": "🟠",
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
       "summary": "Why was Taiwan’s president evacuated in the m...",
-      "action": "포지션 축소 검토 / 모니터링 강화",
+      "action": "포지션 현금화 고려 / 즉각 대응",
       "matched": 7,
-      "score": 2.8
+      "score": 1.5
     },
     "macro": {
-      "level": "안전",
-      "color": "green",
-      "signal": "🟢",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "트럼프, 대법원 제동에도 '눈엣가시' 연준 이사 해임 재추진",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 1,
+      "score": 1.5
     },
     "disaster": {
       "level": "안전",
@@ -140,8 +140,8 @@
       "signal": "🟡",
       "summary": "War on Iran: Saudi Arabia, Turkiye and Pakist...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 6,
-      "score": 5.9
+      "matched": 4,
+      "score": 4.4
     },
     "policy": {
       "level": "안전",
