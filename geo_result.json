@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08 04:01",
+  "updated": "2026-08-08 05:44",
   "news_count": 85,
   "intl_count": 55,
   "domestic_count": 30,
@@ -14,14 +14,14 @@
   },
   "news_sample": [
     "Seven killed after Thai student opens fire at home and school",
-    "Spain threatens retaliation if Italy fails to lift border controls after Ceuta crossings",
+    "Spain to impose border controls against Italy as row over Ceuta migrant influx intensifies",
     "Saudi Arabia, Turkey and Pakistan sign defence pact",
     "Meta fined $567m in largest child safety ruling against social media giant",
     "Spanish police arrest 78 people in bust of 'one of largest' smuggling networks"
   ],
   "all_headlines": [
     "Seven killed after Thai student opens fire at home and school",
-    "Spain threatens retaliation if Italy fails to lift border controls after Ceuta crossings",
+    "Spain to impose border controls against Italy as row over Ceuta migrant influx intensifies",
     "Saudi Arabia, Turkey and Pakistan sign defence pact",
     "Meta fined $567m in largest child safety ruling against social media giant",
     "Spanish police arrest 78 people in bust of 'one of largest' smuggling networks",
@@ -46,11 +46,15 @@
     "Banned from football at home, Afghan women's team reunite 8,000 miles away",
     "El-Sayed's victory sends tremors through Democratic Party",
     "'My grandmother subjected my baby to female genital mutilation behind my back'",
+    "Watch: BBC questions Infantino over backing as Fifa president",
     "Moment earthquake shakes hospital operating room in Japan",
     "‘Wiped out’ - BBC reports from Spokane neighbourhood devastated by fires",
     "Watch: Nasa astronauts conduct 6.5-hour spacewalk outside ISS",
-    "Why was Taiwan’s president evacuated in the middle of the night?",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "US appeals court upholds injunction pausing Trump’s White House ballroom",
+    "Contaminated water putting Gaza families at risk",
+    "DR Congo releases 15 prisoners to M23 rebels as part of Doha peace process",
+    "Several killed in attacks on Ukraine as Kyiv hits Russian e-commerce giant",
     "Inside the results: How redistricting shaped Tennessee’s primary election",
     "New Delhi on red alert as heavy rains pound the city",
     "Mediterranean smuggling network ‘dismantled’ in Spain-led raid, 78 arrested",
@@ -71,10 +75,17 @@
     "Argentina and Mexico join Africa in backing FIFA’s Infantino: What to know",
     "First school for robots opens in China",
     "Bangladesh cricket’s Shakib, an Hasina ally, will face trial if he is safe",
-    "Northern Ethiopia’s shifting alliances explained",
-    "Trump says war ‘can’t go much longer’ – what’s the latest on talks?",
-    "Houthi attacks on gov’t forces hint that a major battle in Yemen is brewing",
-    "Saudi ⁠Arabia, Pakistan and Turkiye sign defence deal amid regional turmoil",
+    "양양평지 등 강원 5곳 호우주의보…원주 등 7곳 폭염경보 유지",
+    "대전·세종·충남 낮 최고 34∼36도…일부에 5∼40㎜ 소나기",
+    "美증시, 금리인상 기대론 후퇴에 상승…S&P500 사상최고치 마감",
+    "與전대, 오늘 제주·인천 경선…정청래·김민석 박빙 속 2차전",
+    "콜로라도강이 말라간다…美 최대 저수지 수위 역대 최저로",
+    "국제유가, 호르무즈 협상 추이 주목하며 상승…브렌트 1%↑",
+    "이란 외무 \"무슬림 하나로 뭉쳐야\"…'형제애' 강조 왜?",
+    "美재무부 \"'이란 자금세탁' 가상화폐 거래소들 제재\"",
+    "中 AI '키미'도 통제환경 탈출…\"해킹용 모델 될수도\" 우려",
+    "\"6개월차 접어든 이란전쟁 탓 美가구 140만원 추가 부담\"",
+    "\"고가 세컨드하우스 세금은 부당 과세\"…뉴욕시 상대 소송",
     "'트럼프 측근' 故그레이엄 의원의 러·이란 제재법안 상원 통과",
     "美법원, 백악관 연회장 공사에 또 제동…트럼프 \"정치적 판결\"",
     "트럼프, 대법원 제동에도 '눈엣가시' 연준 이사 해임 재추진",
@@ -93,37 +104,26 @@
     "밀레이, 브라질 대선 앞두고 '反룰라' 우파정상회의 추진",
     "경찰·고용부, '근로자 끼임사' HL만도 평택사업장 압수수색(종합)",
     "강원 원주 태장동 아파트서 정전…주민 불편(종합)",
-    "트럼프, '탄약부족' 보도에 격노…\"'누가 흘리나' 색출 지시\"",
-    "[알림] 연합뉴스 콘텐츠 저작권 고지",
-    "강원 원주 태장동 아파트서 2시간여 정전…주민 불편",
-    "UAE 국영석유사 \"호르무즈서 선박 15척 피격…이번주에도 3척\"",
-    "집에서 말다툼 중 어머니 흉기 살해…10대 아들 체포",
-    "법원, '무리한 기소' 워싱턴 인공연못 훼손 용의자 공소기각",
-    "美 7월 고용 예상밖 2만3천명 감소…실업률은 4.1%로 떨어져(종합)",
-    "흔들리는 미국 영향력…사우디·튀르키예·파키스탄 안보 손잡았다(종합)",
-    "전남광주 폐기물 처리업체서 불…진화 중",
-    "제주 남부 앞바다·동부 앞바다에 8일 0시 풍랑경보",
-    "청양 비닐하우스 앞서 90대 숨진 채 발견…온열질환 여부 조사",
-    "폭염·산불에 놀란 프랑스…대규모 정전 대응 훈련 추진"
+    "트럼프, '탄약부족' 보도에 격노…\"'누가 흘리나' 색출 지시\""
   ],
   "categories": {
     "geopolitical": {
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "Why was Taiwan’s president evacuated in the m...",
+      "summary": "Contaminated water putting Gaza families at r...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 7,
-      "score": 1.5
+      "matched": 11,
+      "score": 3.0
     },
     "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "트럼프, 대법원 제동에도 '눈엣가시' 연준 이사 해임 재추진",
+      "summary": "美증시, 금리인상 기대론 후퇴에 상승…S&P500 사상최고치 마감",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "matched": 2,
+      "score": 3.0
     },
     "disaster": {
       "level": "안전",
@@ -140,8 +140,8 @@
       "signal": "🟡",
       "summary": "War on Iran: Saudi Arabia, Turkiye and Pakist...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 4,
-      "score": 4.4
+      "matched": 5,
+      "score": 5.9
     },
     "policy": {
       "level": "안전",
@@ -154,9 +154,9 @@
     }
   },
   "overall": {
-    "level": "주의",
-    "color": "yellow",
+    "level": "위험",
+    "color": "red",
     "summary": "주의 필요: 지정학적 충돌",
-    "action": "신규 매수 자제 / 추이 관찰"
+    "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
