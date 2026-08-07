@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T05:44:34.086337+09:00",
+  "updated_at": "2026-08-08T07:39:35.415638+09:00",
   "date": "20260808",
   "window_days": 14,
   "sectors": [
@@ -146,16 +146,10 @@
       "recent_events": []
     },
     "금융": {
-      "score": -7,
+      "score": -6,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20260808",
-          "type": "negative",
-          "headline": "[거시분석] Contaminated water putting Gaza families at r...",
-          "score": -1
-        },
         {
           "date": "20260802",
           "type": "negative",
@@ -179,24 +173,24 @@
           "type": "negative",
           "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
           "score": -1
+        },
+        {
+          "date": "20260729",
+          "type": "negative",
+          "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
+          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 8,
-      "positive_count": 8,
+      "score": 7,
+      "positive_count": 7,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20260808",
           "type": "positive",
           "headline": "South Korea space agency shares Moon images after SpaceX rocket debris crash",
-          "score": 1
-        },
-        {
-          "date": "20260808",
-          "type": "positive",
-          "headline": "Watch: Nasa astronauts conduct 6.5-hour spacewalk outside ISS",
           "score": 1
         },
         {
@@ -216,6 +210,12 @@
           "type": "positive",
           "headline": "Why some scientists are thrilled that a SpaceX rocket has crashed into the Moon",
           "score": 1
+        },
+        {
+          "date": "20260805",
+          "type": "positive",
+          "headline": "What can scientists learn from a stray SpaceX rocket hitting the Moon?",
+          "score": 1
         }
       ]
     },
@@ -228,19 +228,13 @@
     "전체시장": {
       "score": -10,
       "positive_count": 3,
-      "negative_count": 16,
+      "negative_count": 15,
       "recent_events": [
         {
           "date": "20260808",
           "type": "negative",
-          "headline": "'트럼프 측근' 故그레이엄 의원의 러·이란 제재법안 상원 통과",
-          "score": -1
-        },
-        {
-          "date": "20260808",
-          "type": "negative",
           "headline": "[거시분석] Contaminated water putting Gaza families at r...",
-          "score": -5
+          "score": -3
         },
         {
           "date": "20260807",
@@ -259,6 +253,12 @@
           "type": "negative",
           "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
           "score": -4
+        },
+        {
+          "date": "20260805",
+          "type": "positive",
+          "headline": "이스라엘군, 레바논 남부 공습…\"헤즈볼라 휴전 위반\"",
+          "score": 1
         }
       ]
     }
@@ -564,33 +564,16 @@
     },
     {
       "date": "20260808",
-      "headline": "Watch: Nasa astronauts conduct 6.5-hour spacewalk outside ISS",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260808",
-      "headline": "'트럼프 측근' 故그레이엄 의원의 러·이란 제재법안 상원 통과",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260808",
       "headline": "[거시분석] Contaminated water putting Gaza families at r...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -5,
-        "금융": -1
+        "전체시장": -3
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 39,
-  "total_positives": 34,
+  "total_negatives": 37,
+  "total_positives": 33,
   "risk_level": "EXTREME"
 }
