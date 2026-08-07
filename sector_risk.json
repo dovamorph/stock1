@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-06T23:20:09.553316+09:00",
-  "date": "20260806",
+  "updated_at": "2026-08-07T09:04:56.591405+09:00",
+  "date": "20260807",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 1,
-      "positive_count": 5,
-      "negative_count": 2,
+      "score": -2,
+      "positive_count": 4,
+      "negative_count": 3,
       "recent_events": [
+        {
+          "date": "20260807",
+          "type": "negative",
+          "headline": "[거시분석] Iran says deal with Oman on Strait of Hormuz ...",
+          "score": -2
+        },
         {
           "date": "20260731",
           "type": "positive",
@@ -43,12 +49,6 @@
           "type": "negative",
           "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
           "score": -2
-        },
-        {
-          "date": "20260725",
-          "type": "positive",
-          "headline": "Warning shot or publicity stunt - how worried should we be about the OpenAI hack?",
-          "score": 1
         }
       ]
     },
@@ -57,6 +57,12 @@
       "positive_count": 0,
       "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260807",
+          "type": "negative",
+          "headline": "[거시분석] Iran says deal with Oman on Strait of Hormuz ...",
+          "score": -1
+        },
         {
           "date": "20260806",
           "type": "negative",
@@ -80,20 +86,26 @@
           "type": "negative",
           "headline": "[거시분석] Trump cancels Iran strikes subject to deal be...",
           "score": -2
-        },
-        {
-          "date": "20260801",
-          "type": "negative",
-          "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 19,
-      "negative_count": 2,
+      "positive_count": 18,
+      "negative_count": 3,
       "recent_events": [
+        {
+          "date": "20260807",
+          "type": "negative",
+          "headline": "이스라엘, 레바논에 약속했던 철군 거부…美중재 삐그덕",
+          "score": -1
+        },
+        {
+          "date": "20260807",
+          "type": "positive",
+          "headline": "[거시분석] Iran says deal with Oman on Strait of Hormuz ...",
+          "score": 1
+        },
         {
           "date": "20260806",
           "type": "positive",
@@ -111,36 +123,18 @@
           "type": "negative",
           "headline": "임성재 \" PGA 투어 플레이오프 최종전까지 가겠다\"",
           "score": -1
-        },
-        {
-          "date": "20260804",
-          "type": "positive",
-          "headline": "[거시분석] Ukraine hits more Wildberries sites as strike...",
-          "score": 1
-        },
-        {
-          "date": "20260803",
-          "type": "positive",
-          "headline": "[거시분석] Iran says it is in talks with Oman but not th...",
-          "score": 3
         }
       ]
     },
     "전력·에너지": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20260803",
           "type": "positive",
           "headline": "현대전 새 표적된 AI 데이터센터…美·이란 전쟁서 5곳 피격",
-          "score": 1
-        },
-        {
-          "date": "20260723",
-          "type": "positive",
-          "headline": "뉴욕증시, AI 자본지출 우려·유가 상승에 하락 출발",
           "score": 1
         }
       ]
@@ -152,9 +146,9 @@
       "recent_events": []
     },
     "금융": {
-      "score": -9,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
         {
           "date": "20260802",
@@ -189,10 +183,16 @@
       ]
     },
     "우주ETF": {
-      "score": 4,
-      "positive_count": 4,
+      "score": 5,
+      "positive_count": 5,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260807",
+          "type": "positive",
+          "headline": "South Korea space agency shares Moon images after SpaceX rocket debris crash",
+          "score": 1
+        },
         {
           "date": "20260806",
           "type": "positive",
@@ -231,6 +231,12 @@
       "negative_count": 15,
       "recent_events": [
         {
+          "date": "20260807",
+          "type": "negative",
+          "headline": "[거시분석] Iran says deal with Oman on Strait of Hormuz ...",
+          "score": -6
+        },
+        {
           "date": "20260806",
           "type": "negative",
           "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
@@ -253,52 +259,11 @@
           "type": "positive",
           "headline": "임성재 \" PGA 투어 플레이오프 최종전까지 가겠다\"",
           "score": 1
-        },
-        {
-          "date": "20260804",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine hits more Wildberries sites as strike...",
-          "score": -2
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260723",
-      "headline": "How are companies, governments responding to the OpenAI hack?",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260723",
-      "headline": "뉴욕증시, AI 자본지출 우려·유가 상승에 하락 출발",
-      "impacts": {
-        "전력·에너지": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260723",
-      "headline": "[2보] 중동 긴장 고조에 브렌트유 두달만에 100달러 돌파",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260723",
-      "headline": "[거시분석] Houthis claim attack on oil tankers as US lau...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -6,
-        "금융": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260724",
       "headline": "[거시분석] US and Iran trade more strikes in Gulf as fea...",
@@ -564,9 +529,36 @@
         "전체시장": -4
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260807",
+      "headline": "South Korea space agency shares Moon images after SpaceX rocket debris crash",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260807",
+      "headline": "이스라엘, 레바논에 약속했던 철군 거부…美중재 삐그덕",
+      "impacts": {
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260807",
+      "headline": "[거시분석] Iran says deal with Oman on Strait of Hormuz ...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -6,
+        "건설": -1,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 38,
-  "total_positives": 32,
+  "total_negatives": 39,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
