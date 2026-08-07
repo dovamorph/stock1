@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07T16:20:45.655181+09:00",
+  "updated_at": "2026-08-07T18:02:52.883251+09:00",
   "date": "20260807",
   "window_days": 14,
   "sectors": [
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20260807",
-          "type": "negative",
-          "headline": "[거시분석] Artificial Intelligence used to design brand ...",
-          "score": -1
-        },
         {
           "date": "20260806",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] Trump cancels Iran strikes subject to deal be...",
           "score": -2
+        },
+        {
+          "date": "20260801",
+          "type": "negative",
+          "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
+          "score": -2
         }
       ]
     },
@@ -97,7 +97,7 @@
         {
           "date": "20260807",
           "type": "positive",
-          "headline": "[거시분석] Artificial Intelligence used to design brand ...",
+          "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
           "score": 1
         },
         {
@@ -146,16 +146,10 @@
       "recent_events": []
     },
     "금융": {
-      "score": -8,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20260807",
-          "type": "negative",
-          "headline": "[거시분석] Artificial Intelligence used to design brand ...",
-          "score": -1
-        },
         {
           "date": "20260802",
           "type": "negative",
@@ -179,18 +173,30 @@
           "type": "negative",
           "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
           "score": -1
+        },
+        {
+          "date": "20260729",
+          "type": "negative",
+          "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
+          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 5,
-      "positive_count": 5,
+      "score": 6,
+      "positive_count": 6,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20260807",
           "type": "positive",
           "headline": "South Korea space agency shares Moon images after SpaceX rocket debris crash",
+          "score": 1
+        },
+        {
+          "date": "20260807",
+          "type": "positive",
+          "headline": "Watch: Nasa astronauts conduct 6.5-hour spacewalk outside ISS",
           "score": 1
         },
         {
@@ -209,12 +215,6 @@
           "date": "20260805",
           "type": "positive",
           "headline": "SpaceX rocket segment to crash into the moon: What happened?",
-          "score": 1
-        },
-        {
-          "date": "20260804",
-          "type": "positive",
-          "headline": "What will happen when a SpaceX rocket collides with the Moon?",
           "score": 1
         }
       ]
@@ -239,8 +239,8 @@
         {
           "date": "20260807",
           "type": "negative",
-          "headline": "[거시분석] Artificial Intelligence used to design brand ...",
-          "score": -5
+          "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
+          "score": -2
         },
         {
           "date": "20260806",
@@ -548,17 +548,23 @@
     },
     {
       "date": "20260807",
-      "headline": "[거시분석] Artificial Intelligence used to design brand ...",
+      "headline": "Watch: Nasa astronauts conduct 6.5-hour spacewalk outside ISS",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260807",
+      "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
       "impacts": {
         "방산": 1,
-        "전체시장": -5,
-        "금융": -1,
-        "건설": -1
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 39,
-  "total_positives": 30,
+  "total_negatives": 37,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
