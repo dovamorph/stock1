@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07T18:02:52.883251+09:00",
+  "updated_at": "2026-08-07T19:55:39.300727+09:00",
   "date": "20260807",
   "window_days": 14,
   "sectors": [
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260807",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
+          "score": -1
+        },
         {
           "date": "20260806",
           "type": "negative",
@@ -80,25 +86,25 @@
           "type": "negative",
           "headline": "[거시분석] Trump cancels Iran strikes subject to deal be...",
           "score": -2
-        },
-        {
-          "date": "20260801",
-          "type": "negative",
-          "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 18,
-      "negative_count": 2,
+      "negative_count": 3,
       "recent_events": [
+        {
+          "date": "20260807",
+          "type": "negative",
+          "headline": "‘De-escalation’: Europe hesitates as US pushes for Hormuz naval mission",
+          "score": -1
+        },
         {
           "date": "20260807",
           "type": "positive",
           "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
-          "score": 1
+          "score": 2
         },
         {
           "date": "20260806",
@@ -117,12 +123,6 @@
           "type": "negative",
           "headline": "임성재 \" PGA 투어 플레이오프 최종전까지 가겠다\"",
           "score": -1
-        },
-        {
-          "date": "20260804",
-          "type": "positive",
-          "headline": "[거시분석] Ukraine hits more Wildberries sites as strike...",
-          "score": 1
         }
       ]
     },
@@ -140,10 +140,17 @@
       ]
     },
     "로봇": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20260807",
+          "type": "positive",
+          "headline": "엠엑스로보틱스, 100억원 유상증자…엠엑스온에 제3자배정",
+          "score": 1
+        }
+      ]
     },
     "금융": {
       "score": -7,
@@ -227,7 +234,7 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 2,
+      "positive_count": 4,
       "negative_count": 16,
       "recent_events": [
         {
@@ -238,26 +245,26 @@
         },
         {
           "date": "20260807",
+          "type": "positive",
+          "headline": "‘De-escalation’: Europe hesitates as US pushes for Hormuz naval mission",
+          "score": 1
+        },
+        {
+          "date": "20260807",
+          "type": "positive",
+          "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
+          "score": 1
+        },
+        {
+          "date": "20260807",
           "type": "negative",
           "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
-          "score": -2
+          "score": -3
         },
         {
           "date": "20260806",
           "type": "negative",
           "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
-          "score": -4
-        },
-        {
-          "date": "20260805",
-          "type": "positive",
-          "headline": "이스라엘군, 레바논 남부 공습…\"헤즈볼라 휴전 위반\"",
-          "score": 1
-        },
-        {
-          "date": "20260805",
-          "type": "negative",
-          "headline": "[거시분석] Russia strike kills 21 as Ukraine says it nee...",
           "score": -4
         }
       ]
@@ -556,15 +563,41 @@
     },
     {
       "date": "20260807",
+      "headline": "‘De-escalation’: Europe hesitates as US pushes for Hormuz naval mission",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260807",
+      "headline": "엠엑스로보틱스, 100억원 유상증자…엠엑스온에 제3자배정",
+      "impacts": {
+        "로봇": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260807",
+      "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
+      "impacts": {
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260807",
       "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -2
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -3
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 37,
-  "total_positives": 31,
+  "total_negatives": 39,
+  "total_positives": 34,
   "risk_level": "EXTREME"
 }
