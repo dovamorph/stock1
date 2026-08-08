@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T07:39:35.415638+09:00",
+  "updated_at": "2026-08-08T10:51:19.431012+09:00",
   "date": "20260808",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 0,
+      "score": -2,
       "positive_count": 4,
-      "negative_count": 2,
+      "negative_count": 3,
       "recent_events": [
+        {
+          "date": "20260808",
+          "type": "negative",
+          "headline": "[거시분석] US Senate passes sweeping Russian energy sanc...",
+          "score": -2
+        },
         {
           "date": "20260731",
           "type": "positive",
@@ -43,26 +49,14 @@
           "type": "negative",
           "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
           "score": -2
-        },
-        {
-          "date": "20260725",
-          "type": "positive",
-          "headline": "Warning shot or publicity stunt - how worried should we be about the OpenAI hack?",
-          "score": 1
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20260808",
-          "type": "negative",
-          "headline": "[거시분석] Contaminated water putting Gaza families at r...",
-          "score": -2
-        },
         {
           "date": "20260807",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] Iran says it is in talks with Oman but not th...",
           "score": -2
+        },
+        {
+          "date": "20260802",
+          "type": "negative",
+          "headline": "[거시분석] Trump cancels Iran strikes subject to deal be...",
+          "score": -2
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20260808",
           "type": "positive",
-          "headline": "[거시분석] Contaminated water putting Gaza families at r...",
-          "score": 3
+          "headline": "[거시분석] US Senate passes sweeping Russian energy sanc...",
+          "score": 1
         },
         {
           "date": "20260807",
@@ -146,10 +146,16 @@
       "recent_events": []
     },
     "금융": {
-      "score": -6,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260808",
+          "type": "negative",
+          "headline": "[거시분석] US Senate passes sweeping Russian energy sanc...",
+          "score": -1
+        },
         {
           "date": "20260802",
           "type": "negative",
@@ -172,12 +178,6 @@
           "date": "20260730",
           "type": "negative",
           "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
-          "score": -1
-        },
-        {
-          "date": "20260729",
-          "type": "negative",
-          "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
           "score": -1
         }
       ]
@@ -233,8 +233,8 @@
         {
           "date": "20260808",
           "type": "negative",
-          "headline": "[거시분석] Contaminated water putting Gaza families at r...",
-          "score": -3
+          "headline": "[거시분석] US Senate passes sweeping Russian energy sanc...",
+          "score": -5
         },
         {
           "date": "20260807",
@@ -564,16 +564,17 @@
     },
     {
       "date": "20260808",
-      "headline": "[거시분석] Contaminated water putting Gaza families at r...",
+      "headline": "[거시분석] US Senate passes sweeping Russian energy sanc...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -3
+        "방산": 1,
+        "전체시장": -5,
+        "금융": -1,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 37,
+  "total_negatives": 38,
   "total_positives": 33,
   "risk_level": "EXTREME"
 }
