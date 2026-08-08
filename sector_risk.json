@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T21:54:36.495675+09:00",
+  "updated_at": "2026-08-08T23:34:28.996305+09:00",
   "date": "20260808",
   "window_days": 14,
   "sectors": [
@@ -146,16 +146,10 @@
       "recent_events": []
     },
     "금융": {
-      "score": -7,
+      "score": -6,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20260808",
-          "type": "negative",
-          "headline": "[거시분석] Child among three killed in Russian missile a...",
-          "score": -1
-        },
         {
           "date": "20260802",
           "type": "negative",
@@ -178,6 +172,12 @@
           "date": "20260730",
           "type": "negative",
           "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
+          "score": -1
+        },
+        {
+          "date": "20260729",
+          "type": "negative",
+          "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
           "score": -1
         }
       ]
@@ -234,7 +234,7 @@
           "date": "20260808",
           "type": "negative",
           "headline": "[거시분석] Child among three killed in Russian missile a...",
-          "score": -5
+          "score": -4
         },
         {
           "date": "20260807",
@@ -568,13 +568,12 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -5,
-        "금융": -1
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 38,
+  "total_negatives": 37,
   "total_positives": 33,
   "risk_level": "EXTREME"
 }
