@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-09 03:41",
-  "news_count": 82,
-  "intl_count": 52,
+  "updated": "2026-08-09 05:33",
+  "news_count": 85,
+  "intl_count": 55,
   "domestic_count": 30,
   "source_stats": {
-    "BBC World": 26,
+    "BBC World": 29,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 0,
@@ -13,20 +13,22 @@
     "StockPlus": 0
   },
   "news_sample": [
+    "Hormuz talks positive, Oman says, as Iran warns deal would not open strait",
     "Trump's ex-lawyer Todd Blanche narrowly confirmed as US attorney general",
     "US offers $1bn to Colombia on new right-wing president's first day of office",
     "Messi's father Jorge dies aged 68 after illness",
-    "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
     "Madonna pays tribute to 'genius, otherworldly' producer William Orbit"
   ],
   "all_headlines": [
+    "Hormuz talks positive, Oman says, as Iran warns deal would not open strait",
     "Trump's ex-lawyer Todd Blanche narrowly confirmed as US attorney general",
     "US offers $1bn to Colombia on new right-wing president's first day of office",
     "Messi's father Jorge dies aged 68 after illness",
-    "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
     "Madonna pays tribute to 'genius, otherworldly' producer William Orbit",
-    "Child among three killed in Russian missile attacks near Kyiv",
     "Watch: Moment opposition MP throws eggs at Kosovo's acting PM",
+    "Paris tells e-scooter riders to wear safety gear or face fines",
+    "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
+    "Child among three killed in Russian missile attacks near Kyiv",
     "Typhoon Dolphin batters Japan's Okinawa before bearing down on China",
     "Fast-moving Canada wildfire doubles in size forcing thousands to flee homes",
     "Thai PM vows to introduce stricter gun laws after eight killed in shooting",
@@ -36,6 +38,7 @@
     "Hunter Biden tells BBC his pardon was 'not good' for US or his father's legacy",
     "Book hidden in fireplace returned to Australian library 150 years overdue",
     "Kidnapped rare Serbian eagle freed into wild after rescue",
+    "Australia is the planet's extinction hotspot, but one animal offers a glimmer of hope",
     "The phone book that led us to Assad's spy chief in hiding",
     "'I ran because I knew I would die': Russian drones target medics in Ukraine",
     "He's been frozen on Everest for 30 years, now 'Green Boots' may finally be coming home",
@@ -47,6 +50,11 @@
     "What we know so far about the deadly Thailand shooting",
     "Moment earthquake shakes hospital operating room in Japan",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "At least 200 people evacuated as wildfire rages near Lake Garda",
+    "Lebanese soldiers injured while Israeli troops intrude on southern town",
+    "US slams Chinese ‘nature reserve’ as effort to claim South China Sea",
+    "‘Debilitating’: Hunter Biden speaks out about father Joe Biden’s cancer",
+    "Yemen’s government forces attack Houthis amid renewed shelling of Marib",
     "The influencers taking on far-right leader Nigel Farage",
     "Gaza health chief urges action to ‘save’ Dr Abu Safia before it’s too late",
     "British Columbia issues evacuation orders ahead of fast-moving wildfires",
@@ -67,11 +75,14 @@
     "Drones spotted in Bulgaria and Germany raise concerns about Russian escalation",
     "Police bodycam and CCTV catches Idaho mall shooting as it unfolds",
     "Atletico Madrid will not sell Alvarez amid Barcelona interest, says Simeone",
-    "Arsenal complete signing of Newcastle midfielder Bruno Guimaraes",
-    "‘Hi friends’: Modi’s curious campaign to win over Gen Z",
-    "The post-American Middle East is beginning to take shape",
-    "Thailand school shooting death toll rises to nine after girl dies",
-    "Woman screams in fear as Ukraine war recruiters pounce on man",
+    "여야, 13일 본회의 개최 두고 신경전…'재검표 일정' 확정도 아직",
+    "'金 2연승이냐, 鄭 재역전이냐'…與, 오늘 강원·TK서 순회경선",
+    "국힘 비당권파 4인 징계 급가속…張, '막말·논란' 앞세워 역공",
+    "北, 中과 밀착 속 대일 비난 강화…日견제 앞장 서나",
+    "한국전쟁유업재단, 美서 '월드 콩그레스' 행사 개최",
+    "튀르키예 외무 \"메카 공동방위조약, 이란 겨냥 아니다\"",
+    "\"트럼프, 혹시 부분가발 썼나?\"…'풍성 금발'에 시선 집중",
+    "불가리아 영공 침범한 드론 폭발…우크라 모델 추정(종합)",
     "AI인프라에 주목하는 엔비디아…전력업체 랜시엄에 4조원 투자",
     "젤렌스키, '러와 가까운' 세르비아 첫 공식 방문",
     "스페인도 이탈리아 국경 검문 돌입…세우타발 갈등 고조",
@@ -93,25 +104,17 @@
     "한국 남자배구, 중국 꺾고 동아시아선수권 결승행…9일 한일전",
     "[프로축구 중간순위] 8일",
     "K리그1 울산, 동해안 더비 2-0 완승…3연승·선두와 승점 7 차이",
-    "분당 1천600여세대 아파트서 7시간가량 정전…주민 불편",
-    "주차된 전동스쿠터서 불 번져…진압 시도 60대 2도 화상(종합)",
-    "경북 앞바다에 풍랑주의보…울산서부·울산동부 폭염주의보 유지",
-    "[프로축구 전주전적] 제주 3-1 전북",
-    "[프로축구 안양전적] 대전 2-1 안양",
-    "[프로축구 부천전적] 부천 0-0 광주",
-    "[프로축구 김천전적] 김천 0-0 서울",
-    "[프로축구 포항전적] 울산 2-0 포항",
-    "태평양 섬나라들 \"이달말 정상회의에 대만 참석\"…중국 반발할듯"
+    "분당 1천600여세대 아파트서 7시간가량 정전…주민 불편"
   ],
   "categories": {
     "geopolitical": {
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "Child among three killed in Russian missile a...",
+      "summary": "Hormuz talks positive, Oman says, as Iran war...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 9,
-      "score": 1.5
+      "matched": 11,
+      "score": 3.0
     },
     "macro": {
       "level": "안전",
@@ -135,10 +138,10 @@
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Serbia and Ukraine pledge closer economic tie...",
+      "summary": "Hormuz talks positive, Oman says, as Iran war...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 8,
-      "score": 5.9
+      "score": 4.4
     },
     "policy": {
       "level": "안전",
@@ -151,9 +154,9 @@
     }
   },
   "overall": {
-    "level": "주의",
-    "color": "yellow",
+    "level": "위험",
+    "color": "red",
     "summary": "주의 필요: 지정학적 충돌",
-    "action": "신규 매수 자제 / 추이 관찰"
+    "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
