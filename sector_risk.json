@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-08T23:34:28.996305+09:00",
-  "date": "20260808",
+  "updated_at": "2026-08-09T01:37:11.986753+09:00",
+  "date": "20260809",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,9 +16,9 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 0,
-      "positive_count": 4,
-      "negative_count": 2,
+      "score": 1,
+      "positive_count": 3,
+      "negative_count": 1,
       "recent_events": [
         {
           "date": "20260731",
@@ -43,12 +43,6 @@
           "type": "negative",
           "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
           "score": -2
-        },
-        {
-          "date": "20260725",
-          "type": "positive",
-          "headline": "Warning shot or publicity stunt - how worried should we be about the OpenAI hack?",
-          "score": 1
         }
       ]
     },
@@ -57,6 +51,12 @@
       "positive_count": 0,
       "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260809",
+          "type": "negative",
+          "headline": "[거시분석] Child among three killed in Russian missile a...",
+          "score": -2
+        },
         {
           "date": "20260808",
           "type": "negative",
@@ -80,20 +80,20 @@
           "type": "negative",
           "headline": "[거시분석] Russia strike kills 21 as Ukraine says it nee...",
           "score": -2
-        },
-        {
-          "date": "20260803",
-          "type": "negative",
-          "headline": "[거시분석] Iran says it is in talks with Oman but not th...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 18,
+      "positive_count": 17,
       "negative_count": 3,
       "recent_events": [
+        {
+          "date": "20260809",
+          "type": "positive",
+          "headline": "[거시분석] Child among three killed in Russian missile a...",
+          "score": 3
+        },
         {
           "date": "20260808",
           "type": "positive",
@@ -116,12 +116,6 @@
           "date": "20260806",
           "type": "positive",
           "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
-          "score": 3
-        },
-        {
-          "date": "20260805",
-          "type": "positive",
-          "headline": "[거시분석] Russia strike kills 21 as Ukraine says it nee...",
           "score": 3
         }
       ]
@@ -146,9 +140,9 @@
       "recent_events": []
     },
     "금융": {
-      "score": -6,
+      "score": -5,
       "positive_count": 0,
-      "negative_count": 6,
+      "negative_count": 5,
       "recent_events": [
         {
           "date": "20260802",
@@ -183,10 +177,16 @@
       ]
     },
     "우주ETF": {
-      "score": 7,
-      "positive_count": 7,
+      "score": 8,
+      "positive_count": 8,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260809",
+          "type": "positive",
+          "headline": "South Korea space agency shares Moon images after SpaceX rocket debris crash",
+          "score": 1
+        },
         {
           "date": "20260808",
           "type": "positive",
@@ -210,12 +210,6 @@
           "type": "positive",
           "headline": "Why some scientists are thrilled that a SpaceX rocket has crashed into the Moon",
           "score": 1
-        },
-        {
-          "date": "20260805",
-          "type": "positive",
-          "headline": "What can scientists learn from a stray SpaceX rocket hitting the Moon?",
-          "score": 1
         }
       ]
     },
@@ -230,6 +224,12 @@
       "positive_count": 3,
       "negative_count": 15,
       "recent_events": [
+        {
+          "date": "20260809",
+          "type": "negative",
+          "headline": "[거시분석] Child among three killed in Russian missile a...",
+          "score": -4
+        },
         {
           "date": "20260808",
           "type": "negative",
@@ -253,45 +253,11 @@
           "type": "negative",
           "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
           "score": -4
-        },
-        {
-          "date": "20260805",
-          "type": "positive",
-          "headline": "이스라엘군, 레바논 남부 공습…\"헤즈볼라 휴전 위반\"",
-          "score": 1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260725",
-      "headline": "Iran-backed Houthis claim missile attack on Saudi Arabia",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260725",
-      "headline": "Warning shot or publicity stunt - how worried should we be about the OpenAI hack?",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260725",
-      "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -7,
-        "금융": -1,
-        "반도체·AI": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260726",
       "headline": "Iran-backed Houthis claim missile attack on Saudi Arabia",
@@ -571,9 +537,27 @@
         "전체시장": -4
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260809",
+      "headline": "South Korea space agency shares Moon images after SpaceX rocket debris crash",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260809",
+      "headline": "[거시분석] Child among three killed in Russian missile a...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -4
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 37,
-  "total_positives": 33,
+  "total_negatives": 35,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
