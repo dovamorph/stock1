@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T14:00:24.114809+09:00",
+  "updated_at": "2026-08-08T15:58:26.821772+09:00",
   "date": "20260808",
   "window_days": 14,
   "sectors": [
@@ -91,9 +91,15 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 18,
+      "positive_count": 19,
       "negative_count": 3,
       "recent_events": [
+        {
+          "date": "20260808",
+          "type": "positive",
+          "headline": "공습 한계, 탄약 고갈…\"미군 수뇌부, 이란전 출구전략 모색중\"",
+          "score": 1
+        },
         {
           "date": "20260808",
           "type": "positive",
@@ -116,12 +122,6 @@
           "date": "20260806",
           "type": "positive",
           "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
-          "score": 3
-        },
-        {
-          "date": "20260805",
-          "type": "positive",
-          "headline": "[거시분석] Russia strike kills 21 as Ukraine says it nee...",
           "score": 3
         }
       ]
@@ -564,6 +564,14 @@
     },
     {
       "date": "20260808",
+      "headline": "공습 한계, 탄약 고갈…\"미군 수뇌부, 이란전 출구전략 모색중\"",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260808",
       "headline": "[거시분석] Child among three killed in Russian missile a...",
       "impacts": {
         "방산": 3,
@@ -576,6 +584,6 @@
     }
   ],
   "total_negatives": 39,
-  "total_positives": 33,
+  "total_positives": 34,
   "risk_level": "EXTREME"
 }
