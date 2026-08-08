@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09T01:37:11.986753+09:00",
+  "updated_at": "2026-08-09T03:41:36.967598+09:00",
   "date": "20260809",
   "window_days": 14,
   "sectors": [
@@ -177,16 +177,10 @@
       ]
     },
     "우주ETF": {
-      "score": 8,
-      "positive_count": 8,
+      "score": 7,
+      "positive_count": 7,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260809",
-          "type": "positive",
-          "headline": "South Korea space agency shares Moon images after SpaceX rocket debris crash",
-          "score": 1
-        },
         {
           "date": "20260808",
           "type": "positive",
@@ -210,6 +204,12 @@
           "type": "positive",
           "headline": "Why some scientists are thrilled that a SpaceX rocket has crashed into the Moon",
           "score": 1
+        },
+        {
+          "date": "20260805",
+          "type": "positive",
+          "headline": "What can scientists learn from a stray SpaceX rocket hitting the Moon?",
+          "score": 1
         }
       ]
     },
@@ -221,9 +221,15 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 3,
+      "positive_count": 4,
       "negative_count": 15,
       "recent_events": [
+        {
+          "date": "20260809",
+          "type": "positive",
+          "headline": "Serbia and Ukraine pledge closer economic ties, eye free trade deal",
+          "score": 1
+        },
         {
           "date": "20260809",
           "type": "negative",
@@ -246,12 +252,6 @@
           "date": "20260807",
           "type": "negative",
           "headline": "[거시분석] Why was Taiwan’s president evacuated in the m...",
-          "score": -4
-        },
-        {
-          "date": "20260806",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
           "score": -4
         }
       ]
@@ -540,9 +540,9 @@
     },
     {
       "date": "20260809",
-      "headline": "South Korea space agency shares Moon images after SpaceX rocket debris crash",
+      "headline": "Serbia and Ukraine pledge closer economic ties, eye free trade deal",
       "impacts": {
-        "우주ETF": 1
+        "전체시장": 1
       },
       "source": "keyword"
     },
