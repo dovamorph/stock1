@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T19:37:12.966640+09:00",
+  "updated_at": "2026-08-08T21:54:36.495675+09:00",
   "date": "20260808",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -2,
+      "score": 0,
       "positive_count": 4,
-      "negative_count": 3,
+      "negative_count": 2,
       "recent_events": [
-        {
-          "date": "20260808",
-          "type": "negative",
-          "headline": "[거시분석] Child among three killed in Russian missile a...",
-          "score": -2
-        },
         {
           "date": "20260731",
           "type": "positive",
@@ -49,6 +43,12 @@
           "type": "negative",
           "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
           "score": -2
+        },
+        {
+          "date": "20260725",
+          "type": "positive",
+          "headline": "Warning shot or publicity stunt - how worried should we be about the OpenAI hack?",
+          "score": 1
         }
       ]
     },
@@ -234,7 +234,7 @@
           "date": "20260808",
           "type": "negative",
           "headline": "[거시분석] Child among three killed in Russian missile a...",
-          "score": -7
+          "score": -5
         },
         {
           "date": "20260807",
@@ -568,14 +568,13 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -7,
-        "금융": -1,
-        "반도체·AI": -2
+        "전체시장": -5,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 39,
+  "total_negatives": 38,
   "total_positives": 33,
   "risk_level": "EXTREME"
 }
