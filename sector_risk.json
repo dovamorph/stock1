@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-10T05:36:28.379708+09:00",
+  "updated_at": "2026-08-10T07:34:33.707204+09:00",
   "date": "20260810",
   "window_days": 14,
   "sectors": [
@@ -80,24 +80,12 @@
     "방산": {
       "score": 10,
       "positive_count": 18,
-      "negative_count": 6,
+      "negative_count": 4,
       "recent_events": [
         {
           "date": "20260810",
-          "type": "negative",
-          "headline": "교황 \"러·우크라 모두 민간 목표물 공격 중단해야\"",
-          "score": -1
-        },
-        {
-          "date": "20260810",
-          "type": "negative",
-          "headline": "네타냐후 \"하마스 무장해제까지 철군 없다\"…트럼프에 반기",
-          "score": -1
-        },
-        {
-          "date": "20260810",
           "type": "positive",
-          "headline": "美국무부, 스카버러 긴장 고조에 \"中 강압적 영유권 관철 시도\"",
+          "headline": "Germany warns of ‘daily hybrid warfare’ after explosive-laden drone found",
           "score": 1
         },
         {
@@ -111,6 +99,18 @@
           "type": "negative",
           "headline": "네타냐후 \"하마스 무장해제까지 철군 없다\"…트럼프에 반기",
           "score": -1
+        },
+        {
+          "date": "20260809",
+          "type": "positive",
+          "headline": "美국무부, 스카버러 긴장 고조에 \"中 강압적 영유권 관철 시도\"",
+          "score": 1
+        },
+        {
+          "date": "20260809",
+          "type": "positive",
+          "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
+          "score": 3
         }
       ]
     },
@@ -134,16 +134,10 @@
       "recent_events": []
     },
     "금융": {
-      "score": -6,
+      "score": -5,
       "positive_count": 0,
-      "negative_count": 6,
+      "negative_count": 5,
       "recent_events": [
-        {
-          "date": "20260810",
-          "type": "negative",
-          "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
-          "score": -1
-        },
         {
           "date": "20260802",
           "type": "negative",
@@ -166,6 +160,12 @@
           "date": "20260730",
           "type": "negative",
           "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
+          "score": -1
+        },
+        {
+          "date": "20260729",
+          "type": "negative",
+          "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
           "score": -1
         }
       ]
@@ -222,7 +222,7 @@
           "date": "20260810",
           "type": "negative",
           "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
-          "score": -4
+          "score": -3
         },
         {
           "date": "20260809",
@@ -541,23 +541,7 @@
     },
     {
       "date": "20260810",
-      "headline": "교황 \"러·우크라 모두 민간 목표물 공격 중단해야\"",
-      "impacts": {
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260810",
-      "headline": "네타냐후 \"하마스 무장해제까지 철군 없다\"…트럼프에 반기",
-      "impacts": {
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260810",
-      "headline": "美국무부, 스카버러 긴장 고조에 \"中 강압적 영유권 관철 시도\"",
+      "headline": "Germany warns of ‘daily hybrid warfare’ after explosive-laden drone found",
       "impacts": {
         "방산": 1
       },
@@ -569,13 +553,12 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -4,
-        "금융": -1
+        "전체시장": -3
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 38,
+  "total_negatives": 35,
   "total_positives": 32,
   "risk_level": "EXTREME"
 }
