@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09T12:49:29.292221+09:00",
+  "updated_at": "2026-08-09T14:08:57.378698+09:00",
   "date": "20260809",
   "window_days": 14,
   "sectors": [
@@ -140,16 +140,10 @@
       "recent_events": []
     },
     "금융": {
-      "score": -6,
+      "score": -5,
       "positive_count": 0,
-      "negative_count": 6,
+      "negative_count": 5,
       "recent_events": [
-        {
-          "date": "20260809",
-          "type": "negative",
-          "headline": "[거시분석] Hormuz talks positive, Oman says, as Iran war...",
-          "score": -1
-        },
         {
           "date": "20260802",
           "type": "negative",
@@ -172,6 +166,12 @@
           "date": "20260730",
           "type": "negative",
           "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
+          "score": -1
+        },
+        {
+          "date": "20260729",
+          "type": "negative",
+          "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
           "score": -1
         }
       ]
@@ -222,7 +222,7 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 16,
+      "negative_count": 15,
       "recent_events": [
         {
           "date": "20260809",
@@ -233,14 +233,8 @@
         {
           "date": "20260809",
           "type": "negative",
-          "headline": "中 7월 생산자물가 3.5%↑·소비자물가 0.5%↑…중동 영향 지속",
-          "score": -1
-        },
-        {
-          "date": "20260809",
-          "type": "negative",
           "headline": "[거시분석] Hormuz talks positive, Oman says, as Iran war...",
-          "score": -5
+          "score": -4
         },
         {
           "date": "20260808",
@@ -253,6 +247,12 @@
           "type": "positive",
           "headline": "‘De-escalation’: Europe hesitates as US pushes for Hormuz naval mission",
           "score": 1
+        },
+        {
+          "date": "20260807",
+          "type": "negative",
+          "headline": "[거시분석] Why was Taiwan’s president evacuated in the m...",
+          "score": -4
         }
       ]
     }
@@ -548,25 +548,16 @@
     },
     {
       "date": "20260809",
-      "headline": "中 7월 생산자물가 3.5%↑·소비자물가 0.5%↑…중동 영향 지속",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260809",
       "headline": "[거시분석] Hormuz talks positive, Oman says, as Iran war...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -5,
-        "금융": -1
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 37,
+  "total_negatives": 35,
   "total_positives": 32,
   "risk_level": "EXTREME"
 }
