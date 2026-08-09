@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09T21:57:27.760128+09:00",
+  "updated_at": "2026-08-09T23:37:31.515031+09:00",
   "date": "20260809",
   "window_days": 14,
   "sectors": [
@@ -85,9 +85,21 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 17,
-      "negative_count": 3,
+      "positive_count": 18,
+      "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20260809",
+          "type": "negative",
+          "headline": "네타냐후 \"하마스 무장해제까지 철군 없다\"…트럼프에 반기",
+          "score": -1
+        },
+        {
+          "date": "20260809",
+          "type": "positive",
+          "headline": "美국무부, 스카버러 긴장 고조에 \"中 강압적 영유권 관철 시도\"",
+          "score": 1
+        },
         {
           "date": "20260809",
           "type": "positive",
@@ -105,18 +117,6 @@
           "type": "negative",
           "headline": "‘De-escalation’: Europe hesitates as US pushes for Hormuz naval mission",
           "score": -1
-        },
-        {
-          "date": "20260807",
-          "type": "positive",
-          "headline": "[거시분석] Why was Taiwan’s president evacuated in the m...",
-          "score": 3
-        },
-        {
-          "date": "20260806",
-          "type": "positive",
-          "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
-          "score": 3
         }
       ]
     },
@@ -540,6 +540,22 @@
     },
     {
       "date": "20260809",
+      "headline": "네타냐후 \"하마스 무장해제까지 철군 없다\"…트럼프에 반기",
+      "impacts": {
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260809",
+      "headline": "美국무부, 스카버러 긴장 고조에 \"中 강압적 영유권 관철 시도\"",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260809",
       "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
       "impacts": {
         "방산": 3,
@@ -549,7 +565,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 35,
-  "total_positives": 31,
+  "total_negatives": 36,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
