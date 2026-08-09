@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10 01:38",
+  "updated": "2026-08-10 03:45",
   "news_count": 85,
   "intl_count": 55,
   "domestic_count": 30,
@@ -14,23 +14,23 @@
   },
   "news_sample": [
     "Israel rejects Trump's 15-point plan for Gaza, Netanyahu says",
-    "Suspected crime boss Daniel Kinahan returning to Ireland in high-security operation",
     "Ancient Roman shipwreck discovered off Sicily coast",
     "Perez Hilton faces long recovery after reports he self-harmed during livestream",
-    "Residents warned to brace for the worst as Canada wildfire rages out of control"
+    "Residents warned to brace for the worst as Canada wildfire rages out of control",
+    "Ecuador charges ex-minister over presidential candidate assassination case"
   ],
   "all_headlines": [
     "Israel rejects Trump's 15-point plan for Gaza, Netanyahu says",
-    "Suspected crime boss Daniel Kinahan returning to Ireland in high-security operation",
     "Ancient Roman shipwreck discovered off Sicily coast",
     "Perez Hilton faces long recovery after reports he self-harmed during livestream",
     "Residents warned to brace for the worst as Canada wildfire rages out of control",
     "Ecuador charges ex-minister over presidential candidate assassination case",
     "Drones spotted over German base days after Leipzig bomb incident",
+    "Puerto Rico rations water supplies due to intense drought",
+    "An unbearable rotting stench is plaguing an LA neighbourhood",
     "Israel accused of weaponising archaeology at ancient West Bank sites",
     "Man arrested after boat capsizes near Statue of Liberty killing woman and infant",
     "Hormuz talks positive, Oman says, as Iran warns deal would not open strait",
-    "An unbearable rotting stench is plaguing an LA neighbourhood",
     "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
     "Child among three killed in Russian missile attacks near Kyiv",
     "Typhoon Dolphin batters Japan's Okinawa before bearing down on China",
@@ -50,6 +50,9 @@
     "What we know so far about the deadly Thailand shooting",
     "Moment earthquake shakes hospital operating room in Japan",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Jannik Sinner withdraws from Cincinnati Open with knee injury",
+    "Former Iraqi provincial governor arrested as graft crackdown continues",
+    "Wildfires in Albania and Spain cause hundreds to evacuate",
     "How Israel’s occupation fuels resistance",
     "‘No surprise’: Netanyahu rejects US-backed Gaza plan",
     "Incumbents secure Hawaii primary wins, defying progressive challengers",
@@ -72,9 +75,11 @@
     "Netanyahu rejects Trump’s Board of Peace plan for Gaza",
     "Indonesia closes national park in East Java as wildfire expands",
     "Israel rejects Donald Trump’s Gaza Board of Peace plan",
-    "La Liga: Five key talking points heading into the 2026-2027 season",
-    "Nigeria mass weddings ease financial burden for couples",
-    "Which other countries could join the Turkiye-Saudi-Pakistan defence pact?",
+    "39년 만에 교황 맞는 아르헨 정부, '레오14세 메시지' 촉각",
+    "인천 자월도 해상서 3명 탄 모터보트 연락 두절…해경 수색",
+    "트럼프, 이란 강경 요구에 \"로키로 대응 중…이건 체스게임\"",
+    "아르헨, 외국인 토지 매입 완화 추진하다 후퇴…정치적 후폭풍",
+    "전주 송천동 농수산물시장서 화재…1시간 50분 만에 초진(종합)",
     "백악관 해싯 \"식료품값·유가, 바라는 것보다 여전히 높아\"",
     "교황 \"러·우크라 모두 민간 목표물 공격 중단해야\"",
     "후티 반군 \"예멘 모카항의 사우디군 집결지 타격\"(종합)",
@@ -99,12 +104,7 @@
     "해남서 어구·대나무 태우다 산불 잇따라(종합)",
     "이란 매체 \"최고지도자 사진 곧 공개\"…위독설 불식 나서",
     "주한미군 방공부대, '제2도련선' 팔라우 전개해 실사격 훈련",
-    "전남광주 하남산단 인근 도로서 연쇄 충돌…5명 중경상",
-    "탁구 오준성, 5위 하리모토 못 넘고 WTT 챔피언스 요코하마 준우승",
-    "육상 나마디 조엘진, 100ｍ 비공인 10초07…한국 기록 보인다",
-    "제주 남쪽 먼바다에 풍랑경보",
-    "새끼 코끼리 전선 걸리자 성체가 충전기 '쾅'…中서 포착",
-    "부산서 푸드트럭에 가스누출 추정 불…인명피해 없어"
+    "전남광주 하남산단 인근 도로서 연쇄 충돌…5명 중경상"
   ],
   "categories": {
     "geopolitical": {
@@ -113,7 +113,7 @@
       "signal": "🔴",
       "summary": "Israel rejects Trump's 15-point plan for Gaza...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 17,
+      "matched": 18,
       "score": 1.5
     },
     "macro": {
@@ -140,8 +140,8 @@
       "signal": "🟡",
       "summary": "Hormuz talks positive, Oman says, as Iran war...",
       "action": "관련 지표 추가 확인 후 판단",
-      "matched": 5,
-      "score": 7.1
+      "matched": 6,
+      "score": 8.5
     },
     "policy": {
       "level": "안전",
