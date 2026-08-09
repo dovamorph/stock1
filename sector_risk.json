@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-09T23:37:31.515031+09:00",
-  "date": "20260809",
+  "updated_at": "2026-08-10T01:38:48.029128+09:00",
+  "date": "20260810",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,9 +16,9 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 1,
+      "score": 3,
       "positive_count": 3,
-      "negative_count": 1,
+      "negative_count": 0,
       "recent_events": [
         {
           "date": "20260731",
@@ -37,12 +37,6 @@
           "type": "positive",
           "headline": "Chinese chipmaker shares surge nearly 470% in blockbuster stock market debut",
           "score": 1
-        },
-        {
-          "date": "20260726",
-          "type": "negative",
-          "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
-          "score": -2
         }
       ]
     },
@@ -51,6 +45,12 @@
       "positive_count": 0,
       "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260810",
+          "type": "negative",
+          "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
+          "score": -2
+        },
         {
           "date": "20260809",
           "type": "negative",
@@ -74,48 +74,42 @@
           "type": "negative",
           "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
           "score": -2
-        },
-        {
-          "date": "20260805",
-          "type": "negative",
-          "headline": "[거시분석] Russia strike kills 21 as Ukraine says it nee...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 18,
-      "negative_count": 4,
+      "negative_count": 6,
       "recent_events": [
         {
-          "date": "20260809",
+          "date": "20260810",
+          "type": "negative",
+          "headline": "교황 \"러·우크라 모두 민간 목표물 공격 중단해야\"",
+          "score": -1
+        },
+        {
+          "date": "20260810",
           "type": "negative",
           "headline": "네타냐후 \"하마스 무장해제까지 철군 없다\"…트럼프에 반기",
           "score": -1
         },
         {
-          "date": "20260809",
+          "date": "20260810",
           "type": "positive",
           "headline": "美국무부, 스카버러 긴장 고조에 \"中 강압적 영유권 관철 시도\"",
           "score": 1
         },
         {
-          "date": "20260809",
+          "date": "20260810",
           "type": "positive",
           "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
           "score": 3
         },
         {
-          "date": "20260808",
-          "type": "positive",
-          "headline": "[거시분석] Child among three killed in Russian missile a...",
-          "score": 3
-        },
-        {
-          "date": "20260807",
+          "date": "20260809",
           "type": "negative",
-          "headline": "‘De-escalation’: Europe hesitates as US pushes for Hormuz naval mission",
+          "headline": "네타냐후 \"하마스 무장해제까지 철군 없다\"…트럼프에 반기",
           "score": -1
         }
       ]
@@ -225,6 +219,12 @@
       "negative_count": 15,
       "recent_events": [
         {
+          "date": "20260810",
+          "type": "negative",
+          "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
+          "score": -3
+        },
+        {
           "date": "20260809",
           "type": "negative",
           "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
@@ -247,36 +247,11 @@
           "type": "negative",
           "headline": "[거시분석] Why was Taiwan’s president evacuated in the m...",
           "score": -4
-        },
-        {
-          "date": "20260806",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
-          "score": -4
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260726",
-      "headline": "Iran-backed Houthis claim missile attack on Saudi Arabia",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260726",
-      "headline": "[거시분석] Iran-backed Houthis claim missile attack on S...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -6,
-        "반도체·AI": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260727",
       "headline": "Chinese chipmaker shares surge nearly 470% in blockbuster stock market debut",
@@ -563,9 +538,43 @@
         "전체시장": -3
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260810",
+      "headline": "교황 \"러·우크라 모두 민간 목표물 공격 중단해야\"",
+      "impacts": {
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260810",
+      "headline": "네타냐후 \"하마스 무장해제까지 철군 없다\"…트럼프에 반기",
+      "impacts": {
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260810",
+      "headline": "美국무부, 스카버러 긴장 고조에 \"中 강압적 영유권 관철 시도\"",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260810",
+      "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -3
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 36,
+  "total_negatives": 37,
   "total_positives": 32,
   "risk_level": "EXTREME"
 }
