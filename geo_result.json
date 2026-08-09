@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-10 03:45",
-  "news_count": 85,
-  "intl_count": 55,
+  "updated": "2026-08-10 05:36",
+  "news_count": 86,
+  "intl_count": 56,
   "domestic_count": 30,
   "source_stats": {
-    "BBC World": 29,
+    "BBC World": 30,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 0,
@@ -15,17 +15,18 @@
   "news_sample": [
     "Israel rejects Trump's 15-point plan for Gaza, Netanyahu says",
     "Ancient Roman shipwreck discovered off Sicily coast",
-    "Perez Hilton faces long recovery after reports he self-harmed during livestream",
     "Residents warned to brace for the worst as Canada wildfire rages out of control",
-    "Ecuador charges ex-minister over presidential candidate assassination case"
+    "Ecuador charges ex-minister over presidential candidate assassination case",
+    "Drones spotted over German base days after Leipzig bomb incident"
   ],
   "all_headlines": [
     "Israel rejects Trump's 15-point plan for Gaza, Netanyahu says",
     "Ancient Roman shipwreck discovered off Sicily coast",
-    "Perez Hilton faces long recovery after reports he self-harmed during livestream",
     "Residents warned to brace for the worst as Canada wildfire rages out of control",
     "Ecuador charges ex-minister over presidential candidate assassination case",
     "Drones spotted over German base days after Leipzig bomb incident",
+    "Nigerian army says it safely rescued 33 people kidnapped by gunmen",
+    "Perez Hilton faces long recovery after reports he self-harmed during livestream",
     "Puerto Rico rations water supplies due to intense drought",
     "An unbearable rotting stench is plaguing an LA neighbourhood",
     "Israel accused of weaponising archaeology at ancient West Bank sites",
@@ -50,6 +51,10 @@
     "What we know so far about the deadly Thailand shooting",
     "Moment earthquake shakes hospital operating room in Japan",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Israel is ‘trying to make Palestine disappear’: The Elders",
+    "Can the Doha Framework end the conflict in eastern DRC?",
+    "Hundreds of anti-tourism Spanish protesters march in Mallorca’s Soller",
+    "Where does Iran stand on Saudi-Pakistan-Turkiye pact?",
     "Jannik Sinner withdraws from Cincinnati Open with knee injury",
     "Former Iraqi provincial governor arrested as graft crackdown continues",
     "Wildfires in Albania and Spain cause hundreds to evacuate",
@@ -71,10 +76,11 @@
     "British MotoGP: Raul Fernandez dominates at Silverstone to beat Martin",
     "Why does Iran defeat the empires trying to conquer it?",
     "Barzani says Iraqi Kurdistan wants peace as regional tensions rise",
-    "‘The wealthy poor’: Soaring food prices hurt Iranian families",
-    "Netanyahu rejects Trump’s Board of Peace plan for Gaza",
-    "Indonesia closes national park in East Java as wildfire expands",
-    "Israel rejects Donald Trump’s Gaza Board of Peace plan",
+    "정비사업 추가 이주비 대출에 공적보증 검토…병목 뚫는다",
+    "한 달 연장된 선관위 국조특위, 오늘 3차 청문회 실시",
+    "\"베선트 美재무, 장기채 금리 상승 방어의지 시장에 시사\"",
+    "전주 농수산물시장 화재 4시간 만에 완진…인명피해 없어(종합2보)",
+    "韓총리, 인천 모터보트 위치소실에 '인명구조 최우선' 긴급지시",
     "39년 만에 교황 맞는 아르헨 정부, '레오14세 메시지' 촉각",
     "인천 자월도 해상서 3명 탄 모터보트 연락 두절…해경 수색",
     "트럼프, 이란 강경 요구에 \"로키로 대응 중…이건 체스게임\"",
@@ -99,12 +105,7 @@
     "폭염중대경보 끝났지만 전날 서울 온열질환 22명…7일째 두자리",
     "'이강인 첫선' AT마드리드, 친선경기서 맨시티에 1-3 역전패",
     "여성의당 \"보완수사권 폐지, 여성 폭력 피해자 외면한 조치\"",
-    "붉은 줄무늬 유니폼의 이강인, 상암벌 5만 관중앞 성대한 신고식",
-    "세우타 사태때 성폭력도…\"미성년 피해자 최소 5명 치료\"",
-    "해남서 어구·대나무 태우다 산불 잇따라(종합)",
-    "이란 매체 \"최고지도자 사진 곧 공개\"…위독설 불식 나서",
-    "주한미군 방공부대, '제2도련선' 팔라우 전개해 실사격 훈련",
-    "전남광주 하남산단 인근 도로서 연쇄 충돌…5명 중경상"
+    "붉은 줄무늬 유니폼의 이강인, 상암벌 5만 관중앞 성대한 신고식"
   ],
   "categories": {
     "geopolitical": {
@@ -113,17 +114,17 @@
       "signal": "🔴",
       "summary": "Israel rejects Trump's 15-point plan for Gaza...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 18,
+      "matched": 15,
       "score": 1.5
     },
     "macro": {
-      "level": "안전",
-      "color": "green",
-      "signal": "🟢",
-      "summary": "관련 이슈 없음",
-      "action": "정상 운용 유지",
-      "matched": 0,
-      "score": 0
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
+      "summary": "\"베선트 美재무, 장기채 금리 상승 방어의지 시장에 시사\"",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 1,
+      "score": 1.5
     },
     "disaster": {
       "level": "안전",
