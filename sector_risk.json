@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09T16:01:06.308765+09:00",
+  "updated_at": "2026-08-09T17:47:24.124513+09:00",
   "date": "20260809",
   "window_days": 14,
   "sectors": [
@@ -228,7 +228,7 @@
           "date": "20260809",
           "type": "negative",
           "headline": "[거시분석] Hormuz talks positive, Oman says, as Iran war...",
-          "score": -4
+          "score": -3
         },
         {
           "date": "20260808",
@@ -544,7 +544,7 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -4
+        "전체시장": -3
       },
       "source": "geo_categories"
     }
