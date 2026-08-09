@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09T19:37:46.770279+09:00",
+  "updated_at": "2026-08-09T21:57:27.760128+09:00",
   "date": "20260809",
   "window_days": 14,
   "sectors": [
@@ -54,7 +54,7 @@
         {
           "date": "20260809",
           "type": "negative",
-          "headline": "[거시분석] Hormuz talks positive, Oman says, as Iran war...",
+          "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
           "score": -2
         },
         {
@@ -91,7 +91,7 @@
         {
           "date": "20260809",
           "type": "positive",
-          "headline": "[거시분석] Hormuz talks positive, Oman says, as Iran war...",
+          "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
           "score": 3
         },
         {
@@ -227,7 +227,7 @@
         {
           "date": "20260809",
           "type": "negative",
-          "headline": "[거시분석] Hormuz talks positive, Oman says, as Iran war...",
+          "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
           "score": -3
         },
         {
@@ -540,7 +540,7 @@
     },
     {
       "date": "20260809",
-      "headline": "[거시분석] Hormuz talks positive, Oman says, as Iran war...",
+      "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
       "impacts": {
         "방산": 3,
         "건설": -2,
