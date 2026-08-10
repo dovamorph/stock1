@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-10T18:25:52.307924+09:00",
+  "updated_at": "2026-08-10T20:11:05.316536+09:00",
   "date": "20260810",
   "window_days": 14,
   "sectors": [
@@ -85,15 +85,9 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 18,
+      "positive_count": 17,
       "negative_count": 4,
       "recent_events": [
-        {
-          "date": "20260810",
-          "type": "positive",
-          "headline": "Germany warns of ‘daily hybrid warfare’ after explosive-laden drone found",
-          "score": 1
-        },
         {
           "date": "20260810",
           "type": "positive",
@@ -117,6 +111,12 @@
           "type": "positive",
           "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
           "score": 3
+        },
+        {
+          "date": "20260808",
+          "type": "positive",
+          "headline": "[거시분석] Child among three killed in Russian missile a...",
+          "score": 3
         }
       ]
     },
@@ -134,10 +134,17 @@
       ]
     },
     "로봇": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20260810",
+          "type": "positive",
+          "headline": "정부, 피지컬 AI 구매 대폭 확대…로봇 생태계 키운다",
+          "score": 1
+        }
+      ]
     },
     "금융": {
       "score": -5,
@@ -222,13 +229,19 @@
     "전체시장": {
       "score": -10,
       "positive_count": 3,
-      "negative_count": 15,
+      "negative_count": 16,
       "recent_events": [
         {
           "date": "20260810",
           "type": "negative",
+          "headline": "\"도금강판 반덤핑관세 과도\"…포스코, 일본 정부에 반박의견서",
+          "score": -1
+        },
+        {
+          "date": "20260810",
+          "type": "negative",
           "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
-          "score": -3
+          "score": -4
         },
         {
           "date": "20260809",
@@ -247,12 +260,6 @@
           "type": "positive",
           "headline": "‘De-escalation’: Europe hesitates as US pushes for Hormuz naval mission",
           "score": 1
-        },
-        {
-          "date": "20260807",
-          "type": "negative",
-          "headline": "[거시분석] Why was Taiwan’s president evacuated in the m...",
-          "score": -4
         }
       ]
     }
@@ -555,9 +562,17 @@
     },
     {
       "date": "20260810",
-      "headline": "Germany warns of ‘daily hybrid warfare’ after explosive-laden drone found",
+      "headline": "정부, 피지컬 AI 구매 대폭 확대…로봇 생태계 키운다",
       "impacts": {
-        "방산": 1
+        "로봇": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260810",
+      "headline": "\"도금강판 반덤핑관세 과도\"…포스코, 일본 정부에 반박의견서",
+      "impacts": {
+        "전체시장": -1
       },
       "source": "keyword"
     },
@@ -567,12 +582,12 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -3
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 35,
+  "total_negatives": 36,
   "total_positives": 33,
   "risk_level": "EXTREME"
 }
