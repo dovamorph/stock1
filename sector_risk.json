@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-11T00:01:17.673963+09:00",
+  "updated_at": "2026-08-11T01:56:21.370153+09:00",
   "date": "20260811",
   "window_days": 14,
   "sectors": [
@@ -140,16 +140,10 @@
       ]
     },
     "로봇": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260811",
-          "type": "positive",
-          "headline": "진격의 中 휴머노이드 로봇…상반기 세계 출하량 97%(종합)",
-          "score": 1
-        },
         {
           "date": "20260810",
           "type": "positive",
@@ -196,10 +190,16 @@
       ]
     },
     "우주ETF": {
-      "score": 7,
+      "score": 6,
       "positive_count": 7,
-      "negative_count": 0,
+      "negative_count": 1,
       "recent_events": [
+        {
+          "date": "20260811",
+          "type": "negative",
+          "headline": "중국, 창정7A 운반 로켓 발사 실패…\"원인 조사 중\"",
+          "score": -1
+        },
         {
           "date": "20260808",
           "type": "positive",
@@ -222,12 +222,6 @@
           "date": "20260806",
           "type": "positive",
           "headline": "Why some scientists are thrilled that a SpaceX rocket has crashed into the Moon",
-          "score": 1
-        },
-        {
-          "date": "20260805",
-          "type": "positive",
-          "headline": "What can scientists learn from a stray SpaceX rocket hitting the Moon?",
           "score": 1
         }
       ]
@@ -576,9 +570,9 @@
     },
     {
       "date": "20260811",
-      "headline": "진격의 中 휴머노이드 로봇…상반기 세계 출하량 97%(종합)",
+      "headline": "중국, 창정7A 운반 로켓 발사 실패…\"원인 조사 중\"",
       "impacts": {
-        "로봇": 1
+        "우주ETF": -1
       },
       "source": "keyword"
     },
@@ -594,7 +588,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 38,
-  "total_positives": 33,
+  "total_negatives": 39,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
