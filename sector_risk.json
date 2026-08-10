@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-10T22:15:29.235529+09:00",
-  "date": "20260810",
+  "updated_at": "2026-08-11T00:01:17.673963+09:00",
+  "date": "20260811",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 2,
-      "positive_count": 4,
-      "negative_count": 1,
+      "score": -1,
+      "positive_count": 3,
+      "negative_count": 2,
       "recent_events": [
+        {
+          "date": "20260811",
+          "type": "negative",
+          "headline": "[거시분석] Netanyahu's rejection of Trump's 15-point Gaz...",
+          "score": -2
+        },
         {
           "date": "20260810",
           "type": "positive",
@@ -43,20 +49,20 @@
           "type": "positive",
           "headline": "Trump considering AI controls after OpenAI hacking incidents",
           "score": 1
-        },
-        {
-          "date": "20260727",
-          "type": "positive",
-          "headline": "Chinese chipmaker shares surge nearly 470% in blockbuster stock market debut",
-          "score": 1
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 12,
       "recent_events": [
+        {
+          "date": "20260811",
+          "type": "negative",
+          "headline": "[거시분석] Netanyahu's rejection of Trump's 15-point Gaz...",
+          "score": -2
+        },
         {
           "date": "20260810",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] Why was Taiwan’s president evacuated in the m...",
           "score": -2
-        },
-        {
-          "date": "20260806",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
-          "score": -2
         }
       ]
     },
@@ -94,6 +94,12 @@
       "positive_count": 17,
       "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20260811",
+          "type": "positive",
+          "headline": "[거시분석] Netanyahu's rejection of Trump's 15-point Gaz...",
+          "score": 3
+        },
         {
           "date": "20260810",
           "type": "positive",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
           "score": 3
-        },
-        {
-          "date": "20260808",
-          "type": "positive",
-          "headline": "[거시분석] Child among three killed in Russian missile a...",
-          "score": 3
         }
       ]
     },
@@ -140,10 +140,16 @@
       ]
     },
     "로봇": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260811",
+          "type": "positive",
+          "headline": "진격의 中 휴머노이드 로봇…상반기 세계 출하량 97%(종합)",
+          "score": 1
+        },
         {
           "date": "20260810",
           "type": "positive",
@@ -238,6 +244,12 @@
       "negative_count": 15,
       "recent_events": [
         {
+          "date": "20260811",
+          "type": "negative",
+          "headline": "[거시분석] Netanyahu's rejection of Trump's 15-point Gaz...",
+          "score": -6
+        },
+        {
           "date": "20260810",
           "type": "negative",
           "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
@@ -260,34 +272,11 @@
           "type": "positive",
           "headline": "‘De-escalation’: Europe hesitates as US pushes for Hormuz naval mission",
           "score": 1
-        },
-        {
-          "date": "20260807",
-          "type": "negative",
-          "headline": "[거시분석] Why was Taiwan’s president evacuated in the m...",
-          "score": -4
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260727",
-      "headline": "Chinese chipmaker shares surge nearly 470% in blockbuster stock market debut",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260727",
-      "headline": "[거시분석] Oil price dives as US and Iran pause attacks",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260728",
       "headline": "[거시분석] As the US pauses the war with Iran, is Trump ...",
@@ -584,9 +573,28 @@
         "반도체·AI": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260811",
+      "headline": "진격의 中 휴머노이드 로봇…상반기 세계 출하량 97%(종합)",
+      "impacts": {
+        "로봇": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260811",
+      "headline": "[거시분석] Netanyahu's rejection of Trump's 15-point Gaz...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -6,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 36,
+  "total_negatives": 38,
   "total_positives": 33,
   "risk_level": "EXTREME"
 }
