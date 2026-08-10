@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-10T16:47:09.488647+09:00",
+  "updated_at": "2026-08-10T18:25:52.307924+09:00",
   "date": "20260810",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 3,
-      "positive_count": 3,
+      "score": 4,
+      "positive_count": 4,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260810",
+          "type": "positive",
+          "headline": "North Korea’s hackers using AI for attacks, cybersecurity firm says",
+          "score": 1
+        },
         {
           "date": "20260731",
           "type": "positive",
@@ -134,16 +140,10 @@
       "recent_events": []
     },
     "금융": {
-      "score": -8,
+      "score": -5,
       "positive_count": 0,
-      "negative_count": 6,
+      "negative_count": 5,
       "recent_events": [
-        {
-          "date": "20260810",
-          "type": "negative",
-          "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
-          "score": -3
-        },
         {
           "date": "20260802",
           "type": "negative",
@@ -166,6 +166,12 @@
           "date": "20260730",
           "type": "negative",
           "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
+          "score": -1
+        },
+        {
+          "date": "20260729",
+          "type": "negative",
+          "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
           "score": -1
         }
       ]
@@ -222,7 +228,7 @@
           "date": "20260810",
           "type": "negative",
           "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
-          "score": -6
+          "score": -3
         },
         {
           "date": "20260809",
@@ -541,6 +547,14 @@
     },
     {
       "date": "20260810",
+      "headline": "North Korea’s hackers using AI for attacks, cybersecurity firm says",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260810",
       "headline": "Germany warns of ‘daily hybrid warfare’ after explosive-laden drone found",
       "impacts": {
         "방산": 1
@@ -553,13 +567,12 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -6,
-        "금융": -3
+        "전체시장": -3
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 36,
-  "total_positives": 32,
+  "total_negatives": 35,
+  "total_positives": 33,
   "risk_level": "EXTREME"
 }
