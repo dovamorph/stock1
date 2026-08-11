@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-11T18:01:24.494002+09:00",
+  "updated_at": "2026-08-11T19:52:13.003909+09:00",
   "date": "20260811",
   "window_days": 14,
   "sectors": [
@@ -60,7 +60,7 @@
         {
           "date": "20260811",
           "type": "negative",
-          "headline": "[거시분석] Netanyahu's rejection of Trump's 15-point Gaz...",
+          "headline": "[거시분석] Trump hid in catering truck in secret plane s...",
           "score": -2
         },
         {
@@ -97,7 +97,7 @@
         {
           "date": "20260811",
           "type": "positive",
-          "headline": "[거시분석] Netanyahu's rejection of Trump's 15-point Gaz...",
+          "headline": "[거시분석] Trump hid in catering truck in secret plane s...",
           "score": 3
         },
         {
@@ -140,10 +140,16 @@
       ]
     },
     "로봇": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260811",
+          "type": "positive",
+          "headline": "[과학스냅] 국립어린이과학관, 15∼17일 'AI 로봇 놀이터'",
+          "score": 1
+        },
         {
           "date": "20260810",
           "type": "positive",
@@ -190,10 +196,16 @@
       ]
     },
     "우주ETF": {
-      "score": 7,
-      "positive_count": 7,
+      "score": 8,
+      "positive_count": 8,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260811",
+          "type": "positive",
+          "headline": "Vietnam’s VinSpace announces deal with SpaceX to launch first satellite",
+          "score": 1
+        },
         {
           "date": "20260808",
           "type": "positive",
@@ -217,12 +229,6 @@
           "type": "positive",
           "headline": "Why some scientists are thrilled that a SpaceX rocket has crashed into the Moon",
           "score": 1
-        },
-        {
-          "date": "20260805",
-          "type": "positive",
-          "headline": "What can scientists learn from a stray SpaceX rocket hitting the Moon?",
-          "score": 1
         }
       ]
     },
@@ -240,8 +246,8 @@
         {
           "date": "20260811",
           "type": "negative",
-          "headline": "[거시분석] Netanyahu's rejection of Trump's 15-point Gaz...",
-          "score": -4
+          "headline": "[거시분석] Trump hid in catering truck in secret plane s...",
+          "score": -3
         },
         {
           "date": "20260810",
@@ -578,16 +584,32 @@
     },
     {
       "date": "20260811",
-      "headline": "[거시분석] Netanyahu's rejection of Trump's 15-point Gaz...",
+      "headline": "Vietnam’s VinSpace announces deal with SpaceX to launch first satellite",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260811",
+      "headline": "[과학스냅] 국립어린이과학관, 15∼17일 'AI 로봇 놀이터'",
+      "impacts": {
+        "로봇": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260811",
+      "headline": "[거시분석] Trump hid in catering truck in secret plane s...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -4
+        "전체시장": -3
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 37,
-  "total_positives": 33,
+  "total_positives": 35,
   "risk_level": "EXTREME"
 }
