@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-11T19:52:13.003909+09:00",
+  "updated_at": "2026-08-11T22:12:33.788084+09:00",
   "date": "20260811",
   "window_days": 14,
   "sectors": [
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 12,
+      "negative_count": 11,
       "recent_events": [
-        {
-          "date": "20260811",
-          "type": "negative",
-          "headline": "[거시분석] Trump hid in catering truck in secret plane s...",
-          "score": -2
-        },
         {
           "date": "20260810",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] Why was Taiwan’s president evacuated in the m...",
           "score": -2
+        },
+        {
+          "date": "20260806",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
+          "score": -2
         }
       ]
     },
@@ -98,7 +98,7 @@
           "date": "20260811",
           "type": "positive",
           "headline": "[거시분석] Trump hid in catering truck in secret plane s...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260810",
@@ -140,16 +140,10 @@
       ]
     },
     "로봇": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260811",
-          "type": "positive",
-          "headline": "[과학스냅] 국립어린이과학관, 15∼17일 'AI 로봇 놀이터'",
-          "score": 1
-        },
         {
           "date": "20260810",
           "type": "positive",
@@ -159,10 +153,16 @@
       ]
     },
     "금융": {
-      "score": -5,
+      "score": -6,
       "positive_count": 0,
-      "negative_count": 5,
+      "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20260811",
+          "type": "negative",
+          "headline": "[거시분석] Trump hid in catering truck in secret plane s...",
+          "score": -1
+        },
         {
           "date": "20260802",
           "type": "negative",
@@ -185,12 +185,6 @@
           "date": "20260730",
           "type": "negative",
           "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
-          "score": -1
-        },
-        {
-          "date": "20260729",
-          "type": "negative",
-          "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
           "score": -1
         }
       ]
@@ -247,7 +241,7 @@
           "date": "20260811",
           "type": "negative",
           "headline": "[거시분석] Trump hid in catering truck in secret plane s...",
-          "score": -3
+          "score": -2
         },
         {
           "date": "20260810",
@@ -592,24 +586,16 @@
     },
     {
       "date": "20260811",
-      "headline": "[과학스냅] 국립어린이과학관, 15∼17일 'AI 로봇 놀이터'",
-      "impacts": {
-        "로봇": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260811",
       "headline": "[거시분석] Trump hid in catering truck in secret plane s...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -3
+        "방산": 1,
+        "전체시장": -2,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 37,
-  "total_positives": 35,
+  "total_positives": 34,
   "risk_level": "EXTREME"
 }
