@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-11T22:12:33.788084+09:00",
-  "date": "20260811",
+  "updated_at": "2026-08-12T00:01:23.801546+09:00",
+  "date": "20260812",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -58,6 +58,12 @@
       "negative_count": 11,
       "recent_events": [
         {
+          "date": "20260812",
+          "type": "negative",
+          "headline": "[거시분석] Trump hid in catering truck in secret plane s...",
+          "score": -1
+        },
+        {
           "date": "20260810",
           "type": "negative",
           "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] Why was Taiwan’s president evacuated in the m...",
           "score": -2
-        },
-        {
-          "date": "20260806",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
-          "score": -2
         }
       ]
     },
@@ -94,6 +94,12 @@
       "positive_count": 17,
       "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20260812",
+          "type": "positive",
+          "headline": "[거시분석] Trump hid in catering truck in secret plane s...",
+          "score": 2
+        },
         {
           "date": "20260811",
           "type": "positive",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "美국무부, 스카버러 긴장 고조에 \"中 강압적 영유권 관철 시도\"",
           "score": 1
-        },
-        {
-          "date": "20260809",
-          "type": "positive",
-          "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
-          "score": 3
         }
       ]
     },
@@ -153,10 +153,16 @@
       ]
     },
     "금융": {
-      "score": -6,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260812",
+          "type": "negative",
+          "headline": "[거시분석] Trump hid in catering truck in secret plane s...",
+          "score": -1
+        },
         {
           "date": "20260811",
           "type": "negative",
@@ -179,12 +185,6 @@
           "date": "20260731",
           "type": "negative",
           "headline": "[거시분석] If Hamas disarmament plan holds, it could mar...",
-          "score": -1
-        },
-        {
-          "date": "20260730",
-          "type": "negative",
-          "headline": "[거시분석] US launches 'heavy' strikes on Iran after att...",
           "score": -1
         }
       ]
@@ -238,6 +238,12 @@
       "negative_count": 15,
       "recent_events": [
         {
+          "date": "20260812",
+          "type": "negative",
+          "headline": "[거시분석] Trump hid in catering truck in secret plane s...",
+          "score": -4
+        },
+        {
           "date": "20260811",
           "type": "negative",
           "headline": "[거시분석] Trump hid in catering truck in secret plane s...",
@@ -260,27 +266,11 @@
           "type": "negative",
           "headline": "[거시분석] Child among three killed in Russian missile a...",
           "score": -4
-        },
-        {
-          "date": "20260807",
-          "type": "positive",
-          "headline": "‘De-escalation’: Europe hesitates as US pushes for Hormuz naval mission",
-          "score": 1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260728",
-      "headline": "[거시분석] As the US pauses the war with Iran, is Trump ...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -4
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260729",
       "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
@@ -593,9 +583,20 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260812",
+      "headline": "[거시분석] Trump hid in catering truck in secret plane s...",
+      "impacts": {
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -4,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 37,
+  "total_negatives": 38,
   "total_positives": 34,
   "risk_level": "EXTREME"
 }
