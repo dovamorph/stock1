@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-11T07:40:39.569324+09:00",
+  "updated_at": "2026-08-11T10:58:05.196969+09:00",
   "date": "20260811",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 1,
-      "positive_count": 3,
+      "score": 2,
+      "positive_count": 4,
       "negative_count": 1,
       "recent_events": [
+        {
+          "date": "20260811",
+          "type": "positive",
+          "headline": "UBS \"엔비디아 디스펙, 내년 HBM 소비량 늘릴 가능성\"",
+          "score": 1
+        },
         {
           "date": "20260810",
           "type": "positive",
@@ -49,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 12,
+      "negative_count": 11,
       "recent_events": [
-        {
-          "date": "20260811",
-          "type": "negative",
-          "headline": "[거시분석] Netanyahu's rejection of Trump's 15-point Gaz...",
-          "score": -2
-        },
         {
           "date": "20260810",
           "type": "negative",
@@ -80,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] Why was Taiwan’s president evacuated in the m...",
           "score": -2
+        },
+        {
+          "date": "20260806",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
+          "score": -2
         }
       ]
     },
@@ -92,7 +98,7 @@
           "date": "20260811",
           "type": "positive",
           "headline": "[거시분석] Netanyahu's rejection of Trump's 15-point Gaz...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260810",
@@ -121,16 +127,10 @@
       ]
     },
     "전력·에너지": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260811",
-          "type": "positive",
-          "headline": "AI 데이터센터, 美선거 쟁점화…환경·생활비·일자리 이슈로",
-          "score": 1
-        },
         {
           "date": "20260803",
           "type": "positive",
@@ -190,15 +190,15 @@
       ]
     },
     "우주ETF": {
-      "score": 8,
-      "positive_count": 8,
-      "negative_count": 0,
+      "score": 6,
+      "positive_count": 7,
+      "negative_count": 1,
       "recent_events": [
         {
           "date": "20260811",
-          "type": "positive",
-          "headline": "日 로켓 H3 9호기 발사 성공…'일본판 GPS 위성' 궤도 안착",
-          "score": 1
+          "type": "negative",
+          "headline": "중국, 창정7A 운반로켓 발사 실패…\"90초도 안 돼 폭발\"(종합)",
+          "score": -1
         },
         {
           "date": "20260808",
@@ -241,7 +241,7 @@
           "date": "20260811",
           "type": "negative",
           "headline": "[거시분석] Netanyahu's rejection of Trump's 15-point Gaz...",
-          "score": -4
+          "score": -3
         },
         {
           "date": "20260810",
@@ -570,17 +570,17 @@
     },
     {
       "date": "20260811",
-      "headline": "日 로켓 H3 9호기 발사 성공…'일본판 GPS 위성' 궤도 안착",
+      "headline": "UBS \"엔비디아 디스펙, 내년 HBM 소비량 늘릴 가능성\"",
       "impacts": {
-        "우주ETF": 1
+        "반도체·AI": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260811",
-      "headline": "AI 데이터센터, 美선거 쟁점화…환경·생활비·일자리 이슈로",
+      "headline": "중국, 창정7A 운반로켓 발사 실패…\"90초도 안 돼 폭발\"(종합)",
       "impacts": {
-        "전력·에너지": 1
+        "우주ETF": -1
       },
       "source": "keyword"
     },
@@ -588,15 +588,14 @@
       "date": "20260811",
       "headline": "[거시분석] Netanyahu's rejection of Trump's 15-point Gaz...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -4,
+        "방산": 1,
+        "전체시장": -3,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 38,
-  "total_positives": 34,
+  "total_positives": 33,
   "risk_level": "EXTREME"
 }
