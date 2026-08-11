@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12T05:50:21.974215+09:00",
+  "updated_at": "2026-08-12T07:47:26.744991+09:00",
   "date": "20260812",
   "window_days": 14,
   "sectors": [
@@ -54,14 +54,20 @@
     },
     "건설": {
       "score": -10,
-      "positive_count": 0,
+      "positive_count": 1,
       "negative_count": 11,
       "recent_events": [
         {
           "date": "20260812",
+          "type": "positive",
+          "headline": "강남구, 재건축상가 용도변경절차 개선…\"병원 입점 지연 해결\"",
+          "score": 1
+        },
+        {
+          "date": "20260812",
           "type": "negative",
           "headline": "[거시분석] US says helicopter fired missiles to disable ...",
-          "score": -3
+          "score": -2
         },
         {
           "date": "20260810",
@@ -79,12 +85,6 @@
           "date": "20260808",
           "type": "negative",
           "headline": "[거시분석] Child among three killed in Russian missile a...",
-          "score": -2
-        },
-        {
-          "date": "20260807",
-          "type": "negative",
-          "headline": "[거시분석] Why was Taiwan’s president evacuated in the m...",
           "score": -2
         }
       ]
@@ -241,7 +241,7 @@
           "date": "20260812",
           "type": "negative",
           "headline": "[거시분석] US says helicopter fired missiles to disable ...",
-          "score": -7
+          "score": -4
         },
         {
           "date": "20260811",
@@ -586,17 +586,25 @@
     },
     {
       "date": "20260812",
+      "headline": "강남구, 재건축상가 용도변경절차 개선…\"병원 입점 지연 해결\"",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260812",
       "headline": "[거시분석] US says helicopter fired missiles to disable ...",
       "impacts": {
         "방산": 3,
-        "건설": -3,
-        "전체시장": -7,
+        "건설": -2,
+        "전체시장": -4,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 38,
-  "total_positives": 34,
+  "total_positives": 35,
   "risk_level": "EXTREME"
 }
