@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-11T16:12:48.342706+09:00",
+  "updated_at": "2026-08-11T18:01:24.494002+09:00",
   "date": "20260811",
   "window_days": 14,
   "sectors": [
@@ -241,7 +241,7 @@
           "date": "20260811",
           "type": "negative",
           "headline": "[거시분석] Netanyahu's rejection of Trump's 15-point Gaz...",
-          "score": -3
+          "score": -4
         },
         {
           "date": "20260810",
@@ -582,7 +582,7 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -3
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
