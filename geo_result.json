@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12 01:59",
+  "updated": "2026-08-12 04:05",
   "news_count": 81,
   "intl_count": 51,
   "domestic_count": 30,
@@ -27,6 +27,7 @@
     "Watch: Family escapes home during Colombia earthquake",
     "Lebanon parliament votes to abolish death penalty",
     "France bans unsolicited telemarketing calls",
+    "Former judge removed by Orbán elected Hungarian president",
     "Luigi Mangione appears in court as questions remain in case ahead of murder trial",
     "Houthis reportedly kill four in first deadly attack since start of Iran war",
     "Thailand suspends new gun permits after mass shooting",
@@ -36,7 +37,6 @@
     "Trump signs order to limit childhood vaccines and split MMR shots",
     "Watch: What we know about Tupac murder suspect Duane 'Keffe D' Davis",
     "Jackie, the famous California bald eagle, dies after weeks of intensive care",
-    "New train service connects Finland and Sweden for first time in decades",
     "The transgender controversy surrounding the WNBA",
     "The lonely Chinese men being conned by fake brides",
     "Hundreds arrested over French wildfires, but who is to blame?",
@@ -46,6 +46,18 @@
     "Drone captures devastating aftermath of Spokane wildfires",
     "Young girl finds whale stranded on Australian beach",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Paramount CEO may remove operations from California over stalled merger",
+    "‘Justice at last’: Syrians react to Assad death sentence",
+    "South Africa mine collapse kills 14 suspected illegal miners",
+    "Tourists rush to Iceland to witness rare total solar eclipse",
+    "Rights groups launch new legal challenge to Trump campaign against ICC",
+    "Brazil’s Supreme Court to weigh cases that could weaken Amazon protections",
+    "Syrian court sentences Bashar al-Assad and Atef Najib to death",
+    "US jury in Luigi Mangione murder trial to remain anonymous",
+    "Russia frees ex-US Marine Robert Gilman from detention",
+    "Poland says Women’s World Cup plan on course despite UEFA boycott of FIFA",
+    "PSG vs Aston Villa: UEFA Super Cup – prediction, lineups, teams",
+    "Trump faces lawsuit over push to limit birthright citizenship",
     "Hungary elects supreme court judge ousted by Orban as new president",
     "Rwanda: The genocide against the Tutsi",
     "Lebanon parliament votes to end death penalty, 1st in Middle East to do so",
@@ -59,18 +71,11 @@
     "Liverpool fans seek clarity on Bezos bid to buy stake",
     "What’s behind Iran’s new military appointments and what do they indicate?",
     "Hunter Biden defends Tucker Carlson over Netanyahu comments",
-    "Somali denied World Cup ‘proud’ to referee PSG vs Villa in UEFA Super Cup",
-    "What to know about the US primary election in Minnesota",
-    "Philippines sailors say they will work despite wartime risks",
-    "Late snow blankets parts of southern Africa as winter nears its end",
-    "Hockey World Cup 2026: Full match schedule, groups, India vs Pakistan",
-    "Iran, US set new conditions during Hormuz talks: What does this mean?",
-    "Final phase of voting in Pakistan-administered Kashmir amid security fears",
-    "What to watch in Wisconsin’s high-stakes primary",
-    "Syrian court sentences Bashar al-Assad to death in absentia",
-    "‘New level of danger’: Drone incidents scare Europe amid Russia-Ukraine war",
-    "Future of southern Lebanon peacekeeping uncertain ahead of UNIFIL phase-out",
-    "Palestine weekly: Netanyahu hedges on Gaza roadmap",
+    "'개방형 옹호' 엔비디아, 자체 AI 출시…초대형 모델도 준비중",
+    "FBI, '美연방정부기관 위장취업' 北원격 IT 근로자 적발",
+    "미국 가계대출 소폭 개선…총액 줄고 연체율 4.7%로 하락",
+    "선박 공격 수위 높이는 후티…'호르무즈 우회' 홍해 항로 위태(종합2보)",
+    "前 미 무역부대표 \"한미, 하나의 문제 말고 큰 그림 집중해야\"",
     "라인강 극한 가뭄에 두손 든 독일 기업…일부 제품 불가항력 선언",
     "팔 자치수반 아바스 튀르키예행…에르도안과 회담 예정",
     "리비아 서부 정유공장서 드론 공격에 대형 화재",
@@ -95,12 +100,7 @@
     "김포공항 국내선 천장 마감재 '와르르'…다친 사람은 없어",
     "암살 겁났나…골프 치는 트럼프 옆 이동식 방공미사일 시스템",
     "[프로야구] 12일 선발투수",
-    "[프로야구 중간순위] 11일",
-    "이틀 차로 강백호 제치고 결승타 신기록 세운 두산 박준순",
-    "[프로야구 창원전적] kt 7-3 NC",
-    "김천 중부내륙고속도로서 화물차 불…3㎞ 정체",
-    "[프로야구 고척전적] LG 8-3 키움",
-    "추자도 해일주의보…서귀포시동부 등 제주 3곳 해일주의보 해제"
+    "[프로야구 중간순위] 11일"
   ],
   "categories": {
     "geopolitical": {
@@ -109,7 +109,7 @@
       "signal": "🔴",
       "summary": "Trump hid in catering truck in secret plane s...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 12,
+      "matched": 9,
       "score": 1.5
     },
     "macro": {
@@ -118,8 +118,8 @@
       "signal": "🟡",
       "summary": "Watch: Tide of rubbish blankets Philippines r...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 4,
-      "score": 5.8
+      "matched": 3,
+      "score": 4.4
     },
     "disaster": {
       "level": "경고",
@@ -131,22 +131,22 @@
       "score": 1.5
     },
     "trade": {
-      "level": "신호",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "Trump hid in catering truck in secret plane s...",
-      "action": "관련 지표 추가 확인 후 판단",
-      "matched": 5,
-      "score": 7.2
-    },
-    "policy": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "[프로야구 창원전적] kt 7-3 NC",
+      "summary": "Trump hid in catering truck in secret plane s...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
+      "matched": 5,
       "score": 1.5
+    },
+    "policy": {
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
