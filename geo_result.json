@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12 04:05",
+  "updated": "2026-08-12 05:50",
   "news_count": 81,
   "intl_count": 51,
   "domestic_count": 30,
@@ -13,23 +13,23 @@
     "StockPlus": 0
   },
   "news_sample": [
+    "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
+    "US says helicopter fired missiles to disable ship breaking Iran blockade",
     "Trump hid in catering truck in secret plane swap over Iran threat, reports say",
     "Russia using North Korean missiles to strike Ukraine, Zelensky says",
-    "Ousted Syrian dictator Bashar al-Assad sentenced to death in absentia",
-    "Russia releases former US Marine reported in poor health",
-    "Watch: Family escapes home during Colombia earthquake"
+    "Russia releases former US Marine reported in poor health"
   ],
   "all_headlines": [
+    "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
+    "US says helicopter fired missiles to disable ship breaking Iran blockade",
     "Trump hid in catering truck in secret plane swap over Iran threat, reports say",
     "Russia using North Korean missiles to strike Ukraine, Zelensky says",
-    "Ousted Syrian dictator Bashar al-Assad sentenced to death in absentia",
     "Russia releases former US Marine reported in poor health",
-    "Watch: Family escapes home during Colombia earthquake",
     "Lebanon parliament votes to abolish death penalty",
     "France bans unsolicited telemarketing calls",
     "Former judge removed by Orbán elected Hungarian president",
-    "Luigi Mangione appears in court as questions remain in case ahead of murder trial",
-    "Houthis reportedly kill four in first deadly attack since start of Iran war",
+    "Luigi Mangione murder trial to have anonymous jury and overflow seating",
+    "Ousted Syrian dictator Bashar al-Assad sentenced to death in absentia",
     "Thailand suspends new gun permits after mass shooting",
     "Libyan authorities battle big blaze at major oil refinery",
     "Australia PM under fire for remarks on Japanese counterpart's melon gifts",
@@ -46,6 +46,14 @@
     "Drone captures devastating aftermath of Spokane wildfires",
     "Young girl finds whale stranded on Australian beach",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "DR Congo Ebola death toll surpasses 2,000",
+    "Trump warns of ‘jihadists’ ruling in Washington as Democrats show momentum",
+    "Search for survivors underway in Colombia’s earthquake aftermath",
+    "US military fires on cargo vessel it said sought to break Iran blockade",
+    "Truck crash in Egypt kills 18, many of them child labourers",
+    "UNESCO says 2.4 million Afghan girls denied access to further education",
+    "Venezuela and Israel restore consular ties as relations warm",
+    "Tightened blockade on Gaza causes prices to soar",
     "Paramount CEO may remove operations from California over stalled merger",
     "‘Justice at last’: Syrians react to Assad death sentence",
     "South Africa mine collapse kills 14 suspected illegal miners",
@@ -63,14 +71,20 @@
     "Lebanon parliament votes to end death penalty, 1st in Middle East to do so",
     "DC residents debate safety gains a year into Trump’s Guard deployment",
     "Total solar eclipse 2026: Where, when and how to watch on Wednesday?",
-    "Ten police and 17 ‘bandits’ killed in firefight in northwestern Nigeria",
-    "War on Iran: Mojtaba Khamenei is in ‘perfect health’, Iran says",
-    "‘Only job I know’: Philippine sailors return to sea despite wartime risks",
-    "What are Saudi Arabia, Turkiye and Pakistan’s joint military capabilities?",
-    "Under Fire: Lebanon’s first responders | Al Jazeera Originals",
-    "Liverpool fans seek clarity on Bezos bid to buy stake",
-    "What’s behind Iran’s new military appointments and what do they indicate?",
-    "Hunter Biden defends Tucker Carlson over Netanyahu comments",
+    "강원·경북 동해안 사흘간 최고 60㎜ 비…무더위는 지속",
+    "트럼프 '전용기 바꿔타기' 언론에 안알려…\"클린턴 땐 사전고지\"",
+    "뉴욕증시, 호르무즈 불확실성 지속에 하락…다우 0.3%↓",
+    "美판사, 인도 아다니 회장 면죄부 준 법무부 질타…\"이례적\"",
+    "[건강포커스] \"복부 지방, 체질량지수보다 심혈관질환 위험 더 잘 예측\"",
+    "宋·鄭·金, 오늘 마지막 TV토론…사활 건 난타전 예고",
+    "美 \"대이란 봉쇄위반 선박에 헬기로 미사일 쏴 무력화\"(종합)",
+    "러에 4년반 구금된 30대 美남성 풀려나…트럼프 \"석방 감사\"",
+    "오픈AI, IPO앞 또다시 임원 줄퇴사…윤리책임자 이어 前COO도",
+    "브렌트 1.4% 상승…중재국發 '미·이란 합의근접' 소식에도 상승",
+    "후티 반군 매체 \"홍해서 사우디 군수물자 수송선 공격\"",
+    "美본토 48개州, 역대 가장 더웠던 7월 기록…평균 25도",
+    "\"좀비도시\" 망연자실…콜롬비아 지진 '실종 3천명' 구조 사투",
+    "젤렌스키 \"푸틴, 북한군 투입으로 전쟁 장기화 노려\"",
     "'개방형 옹호' 엔비디아, 자체 AI 출시…초대형 모델도 준비중",
     "FBI, '美연방정부기관 위장취업' 北원격 IT 근로자 적발",
     "미국 가계대출 소폭 개선…총액 줄고 연체율 4.7%로 하락",
@@ -86,31 +100,17 @@
     "\"美정보당국 '이란 전략적 우선순위 핵에서 호르무즈로' 평가\"",
     "서귀포시서부 등 제주 3곳 해일주의보 해제",
     "\"구글 AI가 독자 빼앗아\"…프랑스 언론사들, 경쟁당국에 제소",
-    "[알림] 연합뉴스 콘텐츠 저작권 고지",
-    "러시아, 아사드 몰락 후 시리아 영향력 회복 나서나",
-    "헝가리 새 대통령에 오르반에 반기 들었던 전 대법원장",
-    "트럼프 부정선거론에 빌미줄라…주정부들, 선거관리 바짝 긴장",
-    "베이조스, 리버풀FC 지분 사나…\"계약 발표 임박\"",
-    "라트비아 \"벨라루스 접경서 이주민 입국용 지하통로 적발\"",
-    "프로야구 재개 첫날 900만 관중 돌파…역대 최소 경기",
-    "\"후티, 홍해 바브엘만데브 해협서 화물선 공격…선원 4명 사망\"(종합)",
-    "제주 북부 앞바다에 12일 0시 풍랑주의보 해제",
-    "'9회 6득점' kt, 60승 선착…재개된 프로야구서 7연승 질주(종합)",
-    "뉴욕증시, 미-이란 합의 기대 재점화 속 혼조 출발",
-    "김포공항 국내선 천장 마감재 '와르르'…다친 사람은 없어",
-    "암살 겁났나…골프 치는 트럼프 옆 이동식 방공미사일 시스템",
-    "[프로야구] 12일 선발투수",
-    "[프로야구 중간순위] 11일"
+    "[알림] 연합뉴스 콘텐츠 저작권 고지"
   ],
   "categories": {
     "geopolitical": {
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "Trump hid in catering truck in secret plane s...",
+      "summary": "US says helicopter fired missiles to disable ...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 9,
-      "score": 1.5
+      "matched": 10,
+      "score": 3.0
     },
     "macro": {
       "level": "주의",
@@ -118,8 +118,8 @@
       "signal": "🟡",
       "summary": "Watch: Tide of rubbish blankets Philippines r...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 3,
-      "score": 4.4
+      "matched": 2,
+      "score": 3.0
     },
     "disaster": {
       "level": "경고",
@@ -134,9 +134,9 @@
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Trump hid in catering truck in secret plane s...",
+      "summary": "US says helicopter fired missiles to disable ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 5,
+      "matched": 4,
       "score": 1.5
     },
     "policy": {
@@ -150,9 +150,9 @@
     }
   },
   "overall": {
-    "level": "주의",
-    "color": "yellow",
+    "level": "위험",
+    "color": "red",
     "summary": "주의 필요: 지정학적 충돌, 환경·대규모 재난",
-    "action": "신규 매수 자제 / 추이 관찰"
+    "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
