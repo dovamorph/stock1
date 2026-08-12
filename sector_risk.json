@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T00:00:08.542503+09:00",
+  "updated_at": "2026-08-13T01:59:06.188310+09:00",
   "date": "20260813",
   "window_days": 14,
   "sectors": [
@@ -60,7 +60,7 @@
         {
           "date": "20260813",
           "type": "negative",
-          "headline": "[거시분석] Trump's dramatic plane swap hints at personal...",
+          "headline": "[거시분석] US says helicopter fired missiles to disable ...",
           "score": -2
         },
         {
@@ -97,7 +97,7 @@
         {
           "date": "20260813",
           "type": "positive",
-          "headline": "[거시분석] Trump's dramatic plane swap hints at personal...",
+          "headline": "[거시분석] US says helicopter fired missiles to disable ...",
           "score": 3
         },
         {
@@ -160,7 +160,7 @@
         {
           "date": "20260813",
           "type": "negative",
-          "headline": "[거시분석] Trump's dramatic plane swap hints at personal...",
+          "headline": "[거시분석] US says helicopter fired missiles to disable ...",
           "score": -1
         },
         {
@@ -240,7 +240,7 @@
         {
           "date": "20260813",
           "type": "negative",
-          "headline": "[거시분석] Trump's dramatic plane swap hints at personal...",
+          "headline": "[거시분석] US says helicopter fired missiles to disable ...",
           "score": -6
         },
         {
@@ -595,7 +595,7 @@
     },
     {
       "date": "20260813",
-      "headline": "[거시분석] Trump's dramatic plane swap hints at personal...",
+      "headline": "[거시분석] US says helicopter fired missiles to disable ...",
       "impacts": {
         "방산": 3,
         "건설": -2,
