@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12T18:14:36.328362+09:00",
+  "updated_at": "2026-08-12T20:02:03.916949+09:00",
   "date": "20260812",
   "window_days": 14,
   "sectors": [
@@ -127,10 +127,16 @@
       ]
     },
     "전력·에너지": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260812",
+          "type": "positive",
+          "headline": "HD현대 정기선, 빌 게이츠와 14일 회동…SMR 협력 논의",
+          "score": 1
+        },
         {
           "date": "20260803",
           "type": "positive",
@@ -241,7 +247,7 @@
           "date": "20260812",
           "type": "negative",
           "headline": "[거시분석] Trump's dramatic plane swap hints at personal...",
-          "score": -5
+          "score": -4
         },
         {
           "date": "20260811",
@@ -586,17 +592,25 @@
     },
     {
       "date": "20260812",
+      "headline": "HD현대 정기선, 빌 게이츠와 14일 회동…SMR 협력 논의",
+      "impacts": {
+        "전력·에너지": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260812",
       "headline": "[거시분석] Trump's dramatic plane swap hints at personal...",
       "impacts": {
         "방산": 2,
         "건설": -1,
-        "전체시장": -5,
+        "전체시장": -4,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 38,
-  "total_positives": 34,
+  "total_positives": 35,
   "risk_level": "EXTREME"
 }
