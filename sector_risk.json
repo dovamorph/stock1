@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-12T22:16:25.164548+09:00",
-  "date": "20260812",
+  "updated_at": "2026-08-13T00:00:08.542503+09:00",
+  "date": "20260813",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260813",
+          "type": "negative",
+          "headline": "[거시분석] Trump's dramatic plane swap hints at personal...",
+          "score": -2
+        },
         {
           "date": "20260810",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] Why was Taiwan’s president evacuated in the m...",
           "score": -2
-        },
-        {
-          "date": "20260806",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
-          "score": -2
         }
       ]
     },
@@ -94,6 +94,12 @@
       "positive_count": 17,
       "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20260813",
+          "type": "positive",
+          "headline": "[거시분석] Trump's dramatic plane swap hints at personal...",
+          "score": 3
+        },
         {
           "date": "20260812",
           "type": "negative",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
           "score": 3
-        },
-        {
-          "date": "20260809",
-          "type": "negative",
-          "headline": "네타냐후 \"하마스 무장해제까지 철군 없다\"…트럼프에 반기",
-          "score": -1
         }
       ]
     },
@@ -158,6 +158,12 @@
       "negative_count": 7,
       "recent_events": [
         {
+          "date": "20260813",
+          "type": "negative",
+          "headline": "[거시분석] Trump's dramatic plane swap hints at personal...",
+          "score": -1
+        },
+        {
           "date": "20260812",
           "type": "negative",
           "headline": "[거시분석] Trump's dramatic plane swap hints at personal...",
@@ -179,12 +185,6 @@
           "date": "20260801",
           "type": "negative",
           "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
-          "score": -1
-        },
-        {
-          "date": "20260731",
-          "type": "negative",
-          "headline": "[거시분석] If Hamas disarmament plan holds, it could mar...",
           "score": -1
         }
       ]
@@ -238,6 +238,12 @@
       "negative_count": 15,
       "recent_events": [
         {
+          "date": "20260813",
+          "type": "negative",
+          "headline": "[거시분석] Trump's dramatic plane swap hints at personal...",
+          "score": -6
+        },
+        {
           "date": "20260812",
           "type": "positive",
           "headline": "튀르키예 국영통신 \"美·이란, 휴전 연장 합의\"",
@@ -260,27 +266,11 @@
           "type": "negative",
           "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
           "score": -6
-        },
-        {
-          "date": "20260809",
-          "type": "negative",
-          "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
-          "score": -3
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260729",
-      "headline": "[거시분석] Saudi Arabia joins US in strikes on Iran-back...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -4,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260730",
       "headline": "Trump considering AI controls after OpenAI hacking incidents",
@@ -602,9 +592,20 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260813",
+      "headline": "[거시분석] Trump's dramatic plane swap hints at personal...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -6,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 38,
+  "total_negatives": 39,
   "total_positives": 35,
   "risk_level": "EXTREME"
 }
