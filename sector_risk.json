@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12T07:47:26.744991+09:00",
+  "updated_at": "2026-08-12T11:10:43.741459+09:00",
   "date": "20260812",
   "window_days": 14,
   "sectors": [
@@ -54,21 +54,9 @@
     },
     "건설": {
       "score": -10,
-      "positive_count": 1,
-      "negative_count": 11,
+      "positive_count": 0,
+      "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20260812",
-          "type": "positive",
-          "headline": "강남구, 재건축상가 용도변경절차 개선…\"병원 입점 지연 해결\"",
-          "score": 1
-        },
-        {
-          "date": "20260812",
-          "type": "negative",
-          "headline": "[거시분석] US says helicopter fired missiles to disable ...",
-          "score": -2
-        },
         {
           "date": "20260810",
           "type": "negative",
@@ -86,6 +74,18 @@
           "type": "negative",
           "headline": "[거시분석] Child among three killed in Russian missile a...",
           "score": -2
+        },
+        {
+          "date": "20260807",
+          "type": "negative",
+          "headline": "[거시분석] Why was Taiwan’s president evacuated in the m...",
+          "score": -2
+        },
+        {
+          "date": "20260806",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
+          "score": -2
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20260812",
           "type": "positive",
-          "headline": "[거시분석] US says helicopter fired missiles to disable ...",
-          "score": 3
+          "headline": "[거시분석] Trump's dramatic plane swap hints at personal...",
+          "score": 1
         },
         {
           "date": "20260811",
@@ -160,7 +160,7 @@
         {
           "date": "20260812",
           "type": "negative",
-          "headline": "[거시분석] US says helicopter fired missiles to disable ...",
+          "headline": "[거시분석] Trump's dramatic plane swap hints at personal...",
           "score": -1
         },
         {
@@ -240,8 +240,8 @@
         {
           "date": "20260812",
           "type": "negative",
-          "headline": "[거시분석] US says helicopter fired missiles to disable ...",
-          "score": -4
+          "headline": "[거시분석] Trump's dramatic plane swap hints at personal...",
+          "score": -3
         },
         {
           "date": "20260811",
@@ -586,25 +586,16 @@
     },
     {
       "date": "20260812",
-      "headline": "강남구, 재건축상가 용도변경절차 개선…\"병원 입점 지연 해결\"",
+      "headline": "[거시분석] Trump's dramatic plane swap hints at personal...",
       "impacts": {
-        "건설": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260812",
-      "headline": "[거시분석] US says helicopter fired missiles to disable ...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -4,
+        "방산": 1,
+        "전체시장": -3,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 38,
-  "total_positives": 35,
+  "total_negatives": 37,
+  "total_positives": 34,
   "risk_level": "EXTREME"
 }
