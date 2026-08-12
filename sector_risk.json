@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T01:59:06.188310+09:00",
+  "updated_at": "2026-08-13T04:04:47.193587+09:00",
   "date": "20260813",
   "window_days": 14,
   "sectors": [
@@ -60,7 +60,7 @@
         {
           "date": "20260813",
           "type": "negative",
-          "headline": "[거시분석] US says helicopter fired missiles to disable ...",
+          "headline": "[거시분석] Major Russian grain export terminals hit in U...",
           "score": -2
         },
         {
@@ -91,13 +91,19 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 17,
+      "positive_count": 18,
       "negative_count": 5,
       "recent_events": [
         {
           "date": "20260813",
           "type": "positive",
-          "headline": "[거시분석] US says helicopter fired missiles to disable ...",
+          "headline": "트럼프 평화 중재안 압박에도 이스라엘, 또 가자지구 공습",
+          "score": 1
+        },
+        {
+          "date": "20260813",
+          "type": "positive",
+          "headline": "[거시분석] Major Russian grain export terminals hit in U...",
           "score": 3
         },
         {
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] Trump hid in catering truck in secret plane s...",
           "score": 1
-        },
-        {
-          "date": "20260810",
-          "type": "positive",
-          "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
-          "score": 3
         }
       ]
     },
@@ -160,7 +160,7 @@
         {
           "date": "20260813",
           "type": "negative",
-          "headline": "[거시분석] US says helicopter fired missiles to disable ...",
+          "headline": "[거시분석] Major Russian grain export terminals hit in U...",
           "score": -1
         },
         {
@@ -240,7 +240,7 @@
         {
           "date": "20260813",
           "type": "negative",
-          "headline": "[거시분석] US says helicopter fired missiles to disable ...",
+          "headline": "[거시분석] Major Russian grain export terminals hit in U...",
           "score": -6
         },
         {
@@ -595,7 +595,15 @@
     },
     {
       "date": "20260813",
-      "headline": "[거시분석] US says helicopter fired missiles to disable ...",
+      "headline": "트럼프 평화 중재안 압박에도 이스라엘, 또 가자지구 공습",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260813",
+      "headline": "[거시분석] Major Russian grain export terminals hit in U...",
       "impacts": {
         "방산": 3,
         "건설": -2,
@@ -606,6 +614,6 @@
     }
   ],
   "total_negatives": 39,
-  "total_positives": 35,
+  "total_positives": 36,
   "risk_level": "EXTREME"
 }
