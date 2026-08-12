@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12T20:02:03.916949+09:00",
+  "updated_at": "2026-08-12T22:16:25.164548+09:00",
   "date": "20260812",
   "window_days": 14,
   "sectors": [
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20260812",
-          "type": "negative",
-          "headline": "[거시분석] Trump's dramatic plane swap hints at personal...",
-          "score": -1
-        },
         {
           "date": "20260810",
           "type": "negative",
@@ -86,19 +80,31 @@
           "type": "negative",
           "headline": "[거시분석] Why was Taiwan’s president evacuated in the m...",
           "score": -2
+        },
+        {
+          "date": "20260806",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
+          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 17,
-      "negative_count": 4,
+      "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20260812",
+          "type": "negative",
+          "headline": "튀르키예 국영통신 \"美·이란, 휴전 연장 합의\"",
+          "score": -1
+        },
         {
           "date": "20260812",
           "type": "positive",
           "headline": "[거시분석] Trump's dramatic plane swap hints at personal...",
-          "score": 2
+          "score": 1
         },
         {
           "date": "20260811",
@@ -117,26 +123,14 @@
           "type": "negative",
           "headline": "네타냐후 \"하마스 무장해제까지 철군 없다\"…트럼프에 반기",
           "score": -1
-        },
-        {
-          "date": "20260809",
-          "type": "positive",
-          "headline": "美국무부, 스카버러 긴장 고조에 \"中 강압적 영유권 관철 시도\"",
-          "score": 1
         }
       ]
     },
     "전력·에너지": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260812",
-          "type": "positive",
-          "headline": "HD현대 정기선, 빌 게이츠와 14일 회동…SMR 협력 논의",
-          "score": 1
-        },
         {
           "date": "20260803",
           "type": "positive",
@@ -240,9 +234,15 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 3,
+      "positive_count": 4,
       "negative_count": 15,
       "recent_events": [
+        {
+          "date": "20260812",
+          "type": "positive",
+          "headline": "튀르키예 국영통신 \"美·이란, 휴전 연장 합의\"",
+          "score": 1
+        },
         {
           "date": "20260812",
           "type": "negative",
@@ -266,12 +266,6 @@
           "type": "negative",
           "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
           "score": -3
-        },
-        {
-          "date": "20260808",
-          "type": "negative",
-          "headline": "[거시분석] Child among three killed in Russian missile a...",
-          "score": -4
         }
       ]
     }
@@ -592,9 +586,10 @@
     },
     {
       "date": "20260812",
-      "headline": "HD현대 정기선, 빌 게이츠와 14일 회동…SMR 협력 논의",
+      "headline": "튀르키예 국영통신 \"美·이란, 휴전 연장 합의\"",
       "impacts": {
-        "전력·에너지": 1
+        "방산": -1,
+        "전체시장": 1
       },
       "source": "keyword"
     },
@@ -602,8 +597,7 @@
       "date": "20260812",
       "headline": "[거시분석] Trump's dramatic plane swap hints at personal...",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
+        "방산": 1,
         "전체시장": -4,
         "금융": -1
       },
