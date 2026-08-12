@@ -1,6 +1,6 @@
 {
   "date": "20260812",
-  "generated_at": "2026-08-12T19:30:43+09:00",
+  "generated_at": "2026-08-12T20:00:47+09:00",
   "reference_date": "20260811",
   "reference_ranks": {
     "005930": 1,
@@ -61,9 +61,9 @@
     "rsi_14": 43.5,
     "basis": null,
     "basis_signal": "조회불가",
-    "usdkrw": 1415.43,
-    "usdkrw_ch1": -0.13,
-    "usdkrw_ch5": -0.4,
+    "usdkrw": 1416.79,
+    "usdkrw_ch1": -0.04,
+    "usdkrw_ch5": -0.31,
     "kosdaq_ch1": 0.12,
     "kospi_ch1": 3.68,
     "kospi_ch2": 4.43,
@@ -81,11 +81,11 @@
       "sp500_aligned": "혼조",
       "ndx_close": 26445.45,
       "ndx_ch5": 0.31,
-      "ndx_ch20": 0.62,
+      "ndx_ch20": 0.67,
       "ndx_ma5": 26490.64,
-      "ndx_ma20": 25794.05,
+      "ndx_ma20": 25726.06,
       "ndx_aligned": "혼조",
-      "ndx_rsi": 61.4,
+      "ndx_rsi": 59.0,
       "vix_close": 15.28,
       "vix_level": "안정",
       "sp500_rsi": 65.3,
@@ -94,20 +94,20 @@
       "us_reason": "SP500 혼조 · NASDAQ 혼조 · VIX 15.3 안정",
       "sp500_ch1": -0.32,
       "ndx_ch1": -0.6,
-      "ndx_ma60": 25794.05
+      "ndx_ma60": 26009.33
     },
-    "adr": 47.9,
-    "adr_advances": 227,
-    "adr_declines": 247,
+    "adr": 47.4,
+    "adr_advances": 220,
+    "adr_declines": 244,
     "adr_signal": "🔴",
-    "adr_desc": "투매권 (48%) — 바닥 근접 가능",
+    "adr_desc": "투매권 (47%) — 바닥 근접 가능",
     "breadth": {
       "regime": "혼조",
       "label": "혼조 ⚪",
       "desc": "뚜렷한 쏠림 없음",
       "kospi_ch1": 3.68,
       "kosdaq_ch1": 0.12,
-      "adr": 47.9
+      "adr": 47.4
     },
     "pool_flow": {
       "total": 40,
