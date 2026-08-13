@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T00:00:32.220908+09:00",
+  "updated_at": "2026-08-14T01:58:21.432873+09:00",
   "date": "20260814",
   "window_days": 14,
   "sectors": [
@@ -49,14 +49,8 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 12,
+      "negative_count": 11,
       "recent_events": [
-        {
-          "date": "20260814",
-          "type": "negative",
-          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-          "score": -1
-        },
         {
           "date": "20260813",
           "type": "negative",
@@ -80,19 +74,31 @@
           "type": "negative",
           "headline": "[거시분석] Child among three killed in Russian missile a...",
           "score": -2
+        },
+        {
+          "date": "20260807",
+          "type": "negative",
+          "headline": "[거시분석] Why was Taiwan’s president evacuated in the m...",
+          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 17,
-      "negative_count": 5,
+      "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20260814",
+          "type": "negative",
+          "headline": "\"우크라, 러시아에 흑해 민간 표적 공격 중단 제안\"",
+          "score": -1
+        },
         {
           "date": "20260814",
           "type": "positive",
           "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-          "score": 2
+          "score": 1
         },
         {
           "date": "20260813",
@@ -110,12 +116,6 @@
           "date": "20260812",
           "type": "positive",
           "headline": "[거시분석] Trump's dramatic plane swap hints at personal...",
-          "score": 1
-        },
-        {
-          "date": "20260811",
-          "type": "positive",
-          "headline": "[거시분석] Trump hid in catering truck in secret plane s...",
           "score": 1
         }
       ]
@@ -241,8 +241,20 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 19,
+      "negative_count": 20,
       "recent_events": [
+        {
+          "date": "20260814",
+          "type": "negative",
+          "headline": "\"애플·나이키 등 美기업 40여곳, 14조원 관세 환급\"",
+          "score": -1
+        },
+        {
+          "date": "20260814",
+          "type": "negative",
+          "headline": "美 \"中, 40여개국 불법환적해 관세회피\"…韓도 '中환적 위험국' 거론(종합)",
+          "score": -1
+        },
         {
           "date": "20260814",
           "type": "negative",
@@ -252,25 +264,13 @@
         {
           "date": "20260814",
           "type": "negative",
-          "headline": "미 7월 생산자물가 전달 대비 보합…전망치 하회",
-          "score": -1
-        },
-        {
-          "date": "20260814",
-          "type": "negative",
           "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-          "score": -5
+          "score": -4
         },
         {
           "date": "20260813",
           "type": "negative",
           "headline": "미 7월 생산자물가 전달 대비 보합…전망치 하회",
-          "score": -1
-        },
-        {
-          "date": "20260813",
-          "type": "negative",
-          "headline": "美 \"중국산 상품 40여개국 통해 불법 관세회피\"…한국도 거론",
           "score": -1
         }
       ]
@@ -626,7 +626,7 @@
     },
     {
       "date": "20260814",
-      "headline": "미 7월 생산자물가 전달 대비 보합…인플레 압력 완화(종합)",
+      "headline": "\"애플·나이키 등 美기업 40여곳, 14조원 관세 환급\"",
       "impacts": {
         "전체시장": -1
       },
@@ -634,7 +634,23 @@
     },
     {
       "date": "20260814",
-      "headline": "미 7월 생산자물가 전달 대비 보합…전망치 하회",
+      "headline": "\"우크라, 러시아에 흑해 민간 표적 공격 중단 제안\"",
+      "impacts": {
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260814",
+      "headline": "美 \"中, 40여개국 불법환적해 관세회피\"…韓도 '中환적 위험국' 거론(종합)",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260814",
+      "headline": "미 7월 생산자물가 전달 대비 보합…인플레 압력 완화(종합)",
       "impacts": {
         "전체시장": -1
       },
@@ -644,15 +660,14 @@
       "date": "20260814",
       "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -5,
+        "방산": 1,
+        "전체시장": -4,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 44,
+  "total_negatives": 45,
   "total_positives": 36,
   "risk_level": "EXTREME"
 }
