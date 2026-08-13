@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14 01:58",
+  "updated": "2026-08-14 04:05",
   "news_count": 86,
   "intl_count": 56,
   "domestic_count": 30,
@@ -14,22 +14,23 @@
   },
   "news_sample": [
     "Palestinians told to leave homes in village where Israeli settlers besieged houses",
+    "Romania shuts only nuclear plant as heat causes huge drop in Danube River level",
     "Putin can no longer claim victory in Ukraine, Nobel Peace Prize winner tells BBC",
-    "Ebola outbreak on track to be deadliest ever, WHO chief says",
     "Conditions on US aircraft carrier at sea for more than 250 days raise alarms",
     "Person fined after using foghorn to wake sleeping polar bear"
   ],
   "all_headlines": [
     "Palestinians told to leave homes in village where Israeli settlers besieged houses",
+    "Romania shuts only nuclear plant as heat causes huge drop in Danube River level",
     "Putin can no longer claim victory in Ukraine, Nobel Peace Prize winner tells BBC",
-    "Ebola outbreak on track to be deadliest ever, WHO chief says",
     "Conditions on US aircraft carrier at sea for more than 250 days raise alarms",
     "Person fined after using foghorn to wake sleeping polar bear",
     "Eurovision Song Contest 2027 to be held in Burgas, Bulgaria",
     "Mangione lawyers to meet federal prosecutors amid reports of plea deal",
+    "Air India to test all pilots for banned substances",
     "UK defends seizing shadow fleet tanker after Putin threat",
-    "Romania shuts only nuclear plant as heat causes huge drop in Danube River level",
     "Four Canadian hockey stars remain suspended after sexual assault acquittal",
+    "Ebola outbreak on track to be deadliest ever, WHO chief says",
     "Presidential pardon for French alleged spy accused of plotting Mali coup",
     "Travis Kelce shares first details from his wedding to Taylor Swift: 'Best night of my life'",
     "French ambassador to CAR accused of misconduct at official residence faces disciplinary action",
@@ -46,11 +47,17 @@
     "Twitch users outraged as Amazon uses their content to train AI in opt-out feature",
     "Woman pulled alive from rubble 36 hours after Colombia quake",
     "At least 44 die as ferry sinks in Zimbabwe's Lake Kariba",
-    "Danube river's low water levels reveal remains of WWII soldiers and motorcycle",
-    "Who could potentially replace White House Press Secretary Karoline Leavitt?",
+    "Who could replace White House Press Secretary Karoline Leavitt?",
     "Vultures are disappearing in Nigeria - but the 'Vulture King' is fighting to reverse the trend",
     "Australia's game-changing disability support is in crisis – what went wrong?",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Europe swelters in latest wave of extreme heat",
+    "Carrick urges Manchester United to sign more transfers to boost title bid",
+    "Judge nixes Trump lawsuit alleging Harvard did not protect Jewish students",
+    "Poland arrests man who allegedly tried to kill Ukrainian American",
+    "Gaza mural for Burger King worker fired for shouting ‘Free Palestine’",
+    "Trump administration ‘gutted’ federal civil rights enforcement, HRW says",
+    "DR Congo Ebola outbreak spreads to a sixth province",
     "China and Indonesia’s joint naval drills anger Taiwan",
     "Reports of US sailors in Middle East trying to jump ship spark outcry",
     "Is Russia’s economy cracking despite the Iran war windfall?",
@@ -69,13 +76,13 @@
     "Falling Danube flow forces shutdown of Romania’s sole nuclear plant",
     "Infantino’s FIFA fate must go to an election, says Africa football chief",
     "Five charts that explain the high cost of living in the UK",
-    "US-Iran talks in deadlock – what’s the latest?",
-    "Colombia earthquake response tests new far-right government",
-    "More than 135 million people in Europe face temperatures over 35C",
-    "Israel trucks out Gaza’s rubble to ‘hide genocide’ and ‘redraw the map’",
-    "Fulham walk off in Malaga in friendly repeat of Senegal AFCON final protest",
-    "Civilian deaths in Ukraine in July hit highest level since May 2022: UN",
-    "Eurovision to bar countries at war from hosting: What that means",
+    "IPO 마음 급한 오픈AI, 1년도 안돼 최고매출책임자 교체",
+    "법원이 제동건 케네디센터 개보수, 트럼프 방침따라 재추진",
+    "영국 남부서 여객 기차 탈선…중상 2명 포함 11명 부상",
+    "美, 하루새 사형 3건 연이어 집행…16년 만에 처음",
+    "\"美항모 워싱턴함 중동 파견…9개월째 작전 링컨함과 교대\"",
+    "튀르키예, 2027년 자체 개발 달 탐사선 발사 계획",
+    "런던 38.1도 찍었다…영국 또 폭염 신기록(종합)",
     "빅터차 \"김정은, 美중간선거 후 트럼프와 회담 추진할 수도\"",
     "민주콩고 6번째 주에서 에볼라 사망자 발생…확산 우려",
     "\"애플·나이키 등 美기업 40여곳, 14조원 관세 환급\"",
@@ -98,14 +105,7 @@
     "서귀포시동부 등 제주 3곳 해일주의보 해제",
     "삼성, 9회초 류지혁 동점타·강민호 역전타…4연패 탈출(종합)",
     "[프로야구] 14일 선발투수",
-    "[프로야구 중간순위] 13일",
-    "뉴욕증시, 유가 하락·PPI 소화하며 상승 출발",
-    "튀르키예 \"메카방위조약 따라 사우디·파키스탄과 연합훈련 계획\"",
-    "[프로야구 광주전적] 삼성 9-8 KIA",
-    "미 7월 생산자물가 전달 대비 보합…인플레 압력 완화(종합)",
-    "3전 4기 최민석 10승 달성…두산, 장단 11안타로 한화 제압",
-    "[프로야구 잠실전적] 두산 9-6 한화",
-    "주중대사, 주룽지 前중국총리 별세 애도…\"한중관계 발전 추동\""
+    "[프로야구 중간순위] 13일"
   ],
   "categories": {
     "geopolitical": {
@@ -114,8 +114,8 @@
       "signal": "🟡",
       "summary": "Putin can no longer claim victory in Ukraine,...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 11,
-      "score": 15.8
+      "matched": 10,
+      "score": 14.5
     },
     "macro": {
       "level": "주의",
@@ -123,8 +123,8 @@
       "signal": "🟡",
       "summary": "Mangione lawyers to meet federal prosecutors ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 3,
-      "score": 6.0
+      "matched": 2,
+      "score": 2.9
     },
     "disaster": {
       "level": "안전",
@@ -141,8 +141,8 @@
       "signal": "🟡",
       "summary": "Is Russia’s economy cracking despite the Iran...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 6,
-      "score": 4.5
+      "matched": 4,
+      "score": 3.0
     },
     "policy": {
       "level": "주의",
