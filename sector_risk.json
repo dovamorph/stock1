@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T04:05:55.799740+09:00",
+  "updated_at": "2026-08-14T05:48:05.049691+09:00",
   "date": "20260814",
   "window_days": 14,
   "sectors": [
@@ -259,7 +259,7 @@
           "date": "20260814",
           "type": "negative",
           "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-          "score": -4
+          "score": -3
         },
         {
           "date": "20260813",
@@ -653,7 +653,7 @@
       "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
       "impacts": {
         "방산": 1,
-        "전체시장": -4,
+        "전체시장": -3,
         "금융": -1
       },
       "source": "geo_categories"

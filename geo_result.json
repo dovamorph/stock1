@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14 04:05",
+  "updated": "2026-08-14 05:47",
   "news_count": 86,
   "intl_count": 56,
   "domestic_count": 30,
@@ -27,8 +27,8 @@
     "Person fined after using foghorn to wake sleeping polar bear",
     "Eurovision Song Contest 2027 to be held in Burgas, Bulgaria",
     "Mangione lawyers to meet federal prosecutors amid reports of plea deal",
+    "Family of Irish plane crash victim awarded $29m in damages",
     "Air India to test all pilots for banned substances",
-    "UK defends seizing shadow fleet tanker after Putin threat",
     "Four Canadian hockey stars remain suspended after sexual assault acquittal",
     "Ebola outbreak on track to be deadliest ever, WHO chief says",
     "Presidential pardon for French alleged spy accused of plotting Mali coup",
@@ -51,6 +51,11 @@
     "Vultures are disappearing in Nigeria - but the 'Vulture King' is fighting to reverse the trend",
     "Australia's game-changing disability support is in crisis – what went wrong?",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Are We in the Singularity?",
+    "Sudan army says RSF advance on key town bordering Ethiopia",
+    "Passenger train derails, injuring several in southern England",
+    "Israeli forces order families to evacuate homes in Qusra",
+    "Colombia earthquake: Hospitals adapt to save lives amid widespread damage",
     "Europe swelters in latest wave of extreme heat",
     "Carrick urges Manchester United to sign more transfers to boost title bid",
     "Judge nixes Trump lawsuit alleging Harvard did not protect Jewish students",
@@ -71,11 +76,17 @@
     "Ebola outbreak caused by new ‘animal transmission’: What that means",
     "Report from scene of Palestinian homes besieged by settlers",
     "Lebanese Americans sue US over Israel’s rights abuses in Lebanon war",
-    "Spanish Super Cup will be held in Turkiye in 2027",
-    "Turkiye lays out ‘mechanisms’ of defence pact with Pakistan, Saudi Arabia",
-    "Falling Danube flow forces shutdown of Romania’s sole nuclear plant",
-    "Infantino’s FIFA fate must go to an election, says Africa football chief",
-    "Five charts that explain the high cost of living in the UK",
+    "국제유가, '석유 수요 감소' IEA 전망에 하락…WTI 2.4%↓",
+    "전국 곳곳 소나기…돌풍 및 천둥·번개 주의",
+    "뉴욕증시, 물가압력 완화·유가 하락에 상승…S&P500 최고치",
+    "장동혁, 밀양 가뭄 현장 방문…오세훈, 국힘 회의 참석",
+    "'구리 부국' 잠비아 대선…\"히칠레마 대통령 우세 전망\"",
+    "[건강포커스] \"3분간 전력 질주, 90분 중강도 운동보다 혈액 단백질 변화 커\"",
+    "선관위 특검 국민추천위, 오늘 '특검 후보 2인 압축' 논의",
+    "이란 앞바다 美링컨함, 9개월간 무슨 일이…\"투신시도 여러번\"",
+    "\"美, 이란전서 MQ-9 리퍼 드론 25% 손실…무기고갈 우려 고조\"",
+    "\"美위스콘신 주지사 野경선서 또 여론조사 한계 드러나\"",
+    "말리, 프랑스에 유화 제스처…간첩 혐의 佛 정보요원 사면",
     "IPO 마음 급한 오픈AI, 1년도 안돼 최고매출책임자 교체",
     "법원이 제동건 케네디센터 개보수, 트럼프 방침따라 재추진",
     "영국 남부서 여객 기차 탈선…중상 2명 포함 11명 부상",
@@ -94,18 +105,7 @@
     "\"진화하는 北 IT위장취업…AI로 한 조직이 석달간 1천곳 지원\"",
     "파리서 전동 킥보드 헬멧·반사 조끼 의무화",
     "영국 또 폭염 신기록…4개월째 최고기온 35도 넘어",
-    "일본전 완패에 고개 숙인 이해란 \"내 플레이 30점…반성 많아\"",
-    "'문학으로 일제에 맞선 독립운동가' 조명희 선생 조명",
-    "바이러스서 찾은 RNA 보호전략…mRNA 수명 3배 늘렸다",
-    "[알림] 연합뉴스 콘텐츠 저작권 고지",
-    "'팀 최연소 10승' 최민석 \"무의식적으로 의식했고 조급했다\"",
-    "\"폭염에 유럽 원전·화력 차질…전력 공백 메운 태양광\"",
-    "창원 등 5곳 해일주의보 해제…창원 등 9곳 폭염주의보 유지",
-    "전남 진도에 해일주의보…보성 등 4곳 해일주의보 해제",
-    "서귀포시동부 등 제주 3곳 해일주의보 해제",
-    "삼성, 9회초 류지혁 동점타·강민호 역전타…4연패 탈출(종합)",
-    "[프로야구] 14일 선발투수",
-    "[프로야구 중간순위] 13일"
+    "일본전 완패에 고개 숙인 이해란 \"내 플레이 30점…반성 많아\""
   ],
   "categories": {
     "geopolitical": {
@@ -114,8 +114,8 @@
       "signal": "🟡",
       "summary": "Putin can no longer claim victory in Ukraine,...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 10,
-      "score": 14.5
+      "matched": 12,
+      "score": 17.5
     },
     "macro": {
       "level": "주의",
@@ -123,8 +123,8 @@
       "signal": "🟡",
       "summary": "Mangione lawyers to meet federal prosecutors ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 2,
-      "score": 2.9
+      "matched": 3,
+      "score": 4.4
     },
     "disaster": {
       "level": "안전",
@@ -145,13 +145,13 @@
       "score": 3.0
     },
     "policy": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
-      "summary": "\"폭염에 유럽 원전·화력 차질…전력 공백 메운 태양광\"",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.5
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     }
   },
   "overall": {
