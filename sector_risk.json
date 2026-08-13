@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T07:44:12.780629+09:00",
+  "updated_at": "2026-08-13T11:13:07.706314+09:00",
   "date": "20260813",
   "window_days": 14,
   "sectors": [
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20260813",
-          "type": "negative",
-          "headline": "[거시분석] Major Russian grain export terminals hit in U...",
-          "score": -2
-        },
         {
           "date": "20260810",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] Why was Taiwan’s president evacuated in the m...",
           "score": -2
+        },
+        {
+          "date": "20260806",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
+          "score": -2
         }
       ]
     },
@@ -98,7 +98,7 @@
           "date": "20260813",
           "type": "positive",
           "headline": "[거시분석] Major Russian grain export terminals hit in U...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260812",
@@ -241,7 +241,7 @@
           "date": "20260813",
           "type": "negative",
           "headline": "[거시분석] Major Russian grain export terminals hit in U...",
-          "score": -5
+          "score": -3
         },
         {
           "date": "20260812",
@@ -597,15 +597,14 @@
       "date": "20260813",
       "headline": "[거시분석] Major Russian grain export terminals hit in U...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
+        "방산": 1,
+        "전체시장": -3,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 39,
+  "total_negatives": 38,
   "total_positives": 35,
   "risk_level": "EXTREME"
 }
