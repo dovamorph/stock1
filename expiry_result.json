@@ -1,13 +1,13 @@
 {
   "expiry_date": "2026-08-13",
   "d_day": 0,
-  "updated": "2026-08-13 20:32",
+  "updated": "2026-08-14 08:39",
   "deadline_time": "15:20",
-  "deadline_str": "오늘 만기 마감 완료 (15:20)",
+  "deadline_str": "6시간 40분 후 마감",
   "guard": {
     "allow_new_longterm": false,
     "allow_new_daytrend": false,
-    "sell_priority": true,
+    "sell_priority": false,
     "score_penalty": 3,
     "pos_mult_adj": -0.5,
     "note": "만기일 마감 전 — 익절 청산 구간",
