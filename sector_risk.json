@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T05:48:05.049691+09:00",
+  "updated_at": "2026-08-14T07:46:11.159829+09:00",
   "date": "20260814",
   "window_days": 14,
   "sectors": [
@@ -86,14 +86,8 @@
     "방산": {
       "score": 10,
       "positive_count": 17,
-      "negative_count": 6,
+      "negative_count": 5,
       "recent_events": [
-        {
-          "date": "20260814",
-          "type": "negative",
-          "headline": "\"우크라, 러시아에 흑해 민간 표적 공격 중단 제안\"",
-          "score": -1
-        },
         {
           "date": "20260814",
           "type": "positive",
@@ -116,6 +110,12 @@
           "date": "20260812",
           "type": "positive",
           "headline": "[거시분석] Trump's dramatic plane swap hints at personal...",
+          "score": 1
+        },
+        {
+          "date": "20260811",
+          "type": "positive",
+          "headline": "[거시분석] Trump hid in catering truck in secret plane s...",
           "score": 1
         }
       ]
@@ -241,18 +241,24 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 19,
+      "negative_count": 20,
       "recent_events": [
         {
           "date": "20260814",
           "type": "negative",
-          "headline": "\"애플·나이키 등 美기업 40여곳, 14조원 관세 환급\"",
+          "headline": "트럼프, 中겨냥 드론·드론부품에 최대 100% 관세…한국은 15%",
           "score": -1
         },
         {
           "date": "20260814",
           "type": "negative",
-          "headline": "美 \"中, 40여개국 불법환적해 관세회피\"…韓도 '中환적 위험국' 거론(종합)",
+          "headline": "[속보] 트럼프, 드론·드론부품에 최대 100% 관세…한국은 15%",
+          "score": -1
+        },
+        {
+          "date": "20260814",
+          "type": "negative",
+          "headline": "美법원 '소액소포 관세' 합법 판단…트럼프 \"커다란 승리\"",
           "score": -1
         },
         {
@@ -265,12 +271,6 @@
           "date": "20260813",
           "type": "negative",
           "headline": "미 7월 생산자물가 전달 대비 보합…전망치 하회",
-          "score": -1
-        },
-        {
-          "date": "20260813",
-          "type": "negative",
-          "headline": "美 \"중국산 상품 40여개국 통해 불법 관세회피\"…한국도 거론",
           "score": -1
         }
       ]
@@ -626,7 +626,7 @@
     },
     {
       "date": "20260814",
-      "headline": "\"애플·나이키 등 美기업 40여곳, 14조원 관세 환급\"",
+      "headline": "트럼프, 中겨냥 드론·드론부품에 최대 100% 관세…한국은 15%",
       "impacts": {
         "전체시장": -1
       },
@@ -634,15 +634,15 @@
     },
     {
       "date": "20260814",
-      "headline": "\"우크라, 러시아에 흑해 민간 표적 공격 중단 제안\"",
+      "headline": "[속보] 트럼프, 드론·드론부품에 최대 100% 관세…한국은 15%",
       "impacts": {
-        "방산": -1
+        "전체시장": -1
       },
       "source": "keyword"
     },
     {
       "date": "20260814",
-      "headline": "美 \"中, 40여개국 불법환적해 관세회피\"…韓도 '中환적 위험국' 거론(종합)",
+      "headline": "美법원 '소액소포 관세' 합법 판단…트럼프 \"커다란 승리\"",
       "impacts": {
         "전체시장": -1
       },
