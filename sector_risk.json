@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T05:34:19.471906+09:00",
+  "updated_at": "2026-08-15T07:26:37.170165+09:00",
   "date": "20260815",
   "window_days": 14,
   "sectors": [
@@ -235,14 +235,8 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 19,
+      "negative_count": 18,
       "recent_events": [
-        {
-          "date": "20260815",
-          "type": "negative",
-          "headline": "국제유가, 호르무즈 유조선 피격·美 대이란 제재 예고에 1%대↑",
-          "score": -1
-        },
         {
           "date": "20260815",
           "type": "negative",
@@ -265,6 +259,12 @@
           "date": "20260813",
           "type": "negative",
           "headline": "미 7월 생산자물가 전달 대비 보합…전망치 하회",
+          "score": -1
+        },
+        {
+          "date": "20260813",
+          "type": "negative",
+          "headline": "美 \"중국산 상품 40여개국 통해 불법 관세회피\"…한국도 거론",
           "score": -1
         }
       ]
@@ -603,14 +603,6 @@
     },
     {
       "date": "20260815",
-      "headline": "국제유가, 호르무즈 유조선 피격·美 대이란 제재 예고에 1%대↑",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260815",
       "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
       "impacts": {
         "방산": 1,
@@ -620,7 +612,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 41,
+  "total_negatives": 40,
   "total_positives": 34,
   "risk_level": "EXTREME"
 }
