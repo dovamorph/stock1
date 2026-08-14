@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T16:36:48.508968+09:00",
+  "updated_at": "2026-08-14T18:10:41.099540+09:00",
   "date": "20260814",
   "window_days": 14,
   "sectors": [
@@ -49,8 +49,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 12,
       "recent_events": [
+        {
+          "date": "20260814",
+          "type": "negative",
+          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
+          "score": -2
+        },
         {
           "date": "20260813",
           "type": "negative",
@@ -74,31 +80,19 @@
           "type": "negative",
           "headline": "[거시분석] Child among three killed in Russian missile a...",
           "score": -2
-        },
-        {
-          "date": "20260807",
-          "type": "negative",
-          "headline": "[거시분석] Why was Taiwan’s president evacuated in the m...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 17,
-      "negative_count": 6,
+      "negative_count": 5,
       "recent_events": [
-        {
-          "date": "20260814",
-          "type": "negative",
-          "headline": "Yemen faces highest risk of returning to war since 2022 truce, UN warns",
-          "score": -1
-        },
         {
           "date": "20260814",
           "type": "positive",
           "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-          "score": 1
+          "score": 3
         },
         {
           "date": "20260813",
@@ -117,14 +111,32 @@
           "type": "positive",
           "headline": "[거시분석] Trump's dramatic plane swap hints at personal...",
           "score": 1
+        },
+        {
+          "date": "20260811",
+          "type": "positive",
+          "headline": "[거시분석] Trump hid in catering truck in secret plane s...",
+          "score": 1
         }
       ]
     },
     "전력·에너지": {
-      "score": 3,
-      "positive_count": 3,
+      "score": 5,
+      "positive_count": 5,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260814",
+          "type": "positive",
+          "headline": "SK이노·테라파워, 차세대 나트륨 SMR 협력…'AI 풀스택' 확장",
+          "score": 1
+        },
+        {
+          "date": "20260814",
+          "type": "positive",
+          "headline": "수출입은행, 빌 게이츠와 소형모듈원자로 상용화 협력 논의",
+          "score": 1
+        },
         {
           "date": "20260813",
           "type": "positive",
@@ -240,20 +252,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 5,
+      "positive_count": 4,
       "negative_count": 17,
       "recent_events": [
         {
           "date": "20260814",
-          "type": "positive",
-          "headline": "Yemen faces highest risk of returning to war since 2022 truce, UN warns",
-          "score": 1
-        },
-        {
-          "date": "20260814",
           "type": "negative",
           "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-          "score": -3
+          "score": -6
         },
         {
           "date": "20260813",
@@ -272,6 +278,12 @@
           "type": "negative",
           "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
           "score": -5
+        },
+        {
+          "date": "20260812",
+          "type": "positive",
+          "headline": "튀르키예 국영통신 \"美·이란, 휴전 연장 합의\"",
+          "score": 1
         }
       ]
     }
@@ -626,10 +638,17 @@
     },
     {
       "date": "20260814",
-      "headline": "Yemen faces highest risk of returning to war since 2022 truce, UN warns",
+      "headline": "SK이노·테라파워, 차세대 나트륨 SMR 협력…'AI 풀스택' 확장",
       "impacts": {
-        "방산": -1,
-        "전체시장": 1
+        "전력·에너지": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260814",
+      "headline": "수출입은행, 빌 게이츠와 소형모듈원자로 상용화 협력 논의",
+      "impacts": {
+        "전력·에너지": 1
       },
       "source": "keyword"
     },
@@ -637,14 +656,15 @@
       "date": "20260814",
       "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -3,
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -6,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 42,
-  "total_positives": 37,
+  "total_positives": 38,
   "risk_level": "EXTREME"
 }
