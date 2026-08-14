@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T22:13:12.740903+09:00",
+  "updated_at": "2026-08-14T23:54:28.544694+09:00",
   "date": "20260814",
   "window_days": 14,
   "sectors": [
@@ -49,8 +49,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 12,
       "recent_events": [
+        {
+          "date": "20260814",
+          "type": "negative",
+          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
+          "score": -2
+        },
         {
           "date": "20260813",
           "type": "negative",
@@ -74,12 +80,6 @@
           "type": "negative",
           "headline": "[거시분석] Child among three killed in Russian missile a...",
           "score": -2
-        },
-        {
-          "date": "20260807",
-          "type": "negative",
-          "headline": "[거시분석] Why was Taiwan’s president evacuated in the m...",
-          "score": -2
         }
       ]
     },
@@ -92,7 +92,7 @@
           "date": "20260814",
           "type": "positive",
           "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-          "score": 1
+          "score": 3
         },
         {
           "date": "20260813",
@@ -159,16 +159,10 @@
       ]
     },
     "금융": {
-      "score": -7,
+      "score": -6,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20260814",
-          "type": "negative",
-          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-          "score": -1
-        },
         {
           "date": "20260813",
           "type": "negative",
@@ -191,6 +185,12 @@
           "date": "20260802",
           "type": "negative",
           "headline": "[거시분석] Trump cancels Iran strikes subject to deal be...",
+          "score": -1
+        },
+        {
+          "date": "20260801",
+          "type": "negative",
+          "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
           "score": -1
         }
       ]
@@ -253,7 +253,7 @@
           "date": "20260814",
           "type": "negative",
           "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-          "score": -3
+          "score": -5
         },
         {
           "date": "20260813",
@@ -636,9 +636,9 @@
       "date": "20260814",
       "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -3,
-        "금융": -1
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5
       },
       "source": "geo_categories"
     }
