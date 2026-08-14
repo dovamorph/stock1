@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T03:58:31.539496+09:00",
+  "updated_at": "2026-08-15T05:34:19.471906+09:00",
   "date": "20260815",
   "window_days": 14,
   "sectors": [
@@ -43,14 +43,8 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 12,
+      "negative_count": 11,
       "recent_events": [
-        {
-          "date": "20260815",
-          "type": "negative",
-          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-          "score": -2
-        },
         {
           "date": "20260814",
           "type": "negative",
@@ -74,6 +68,12 @@
           "type": "negative",
           "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
           "score": -2
+        },
+        {
+          "date": "20260808",
+          "type": "negative",
+          "headline": "[거시분석] Child among three killed in Russian missile a...",
+          "score": -2
         }
       ]
     },
@@ -86,7 +86,7 @@
           "date": "20260815",
           "type": "positive",
           "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260814",
@@ -235,13 +235,19 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 18,
+      "negative_count": 19,
       "recent_events": [
         {
           "date": "20260815",
           "type": "negative",
+          "headline": "국제유가, 호르무즈 유조선 피격·美 대이란 제재 예고에 1%대↑",
+          "score": -1
+        },
+        {
+          "date": "20260815",
+          "type": "negative",
           "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-          "score": -5
+          "score": -3
         },
         {
           "date": "20260814",
@@ -259,12 +265,6 @@
           "date": "20260813",
           "type": "negative",
           "headline": "미 7월 생산자물가 전달 대비 보합…전망치 하회",
-          "score": -1
-        },
-        {
-          "date": "20260813",
-          "type": "negative",
-          "headline": "美 \"중국산 상품 40여개국 통해 불법 관세회피\"…한국도 거론",
           "score": -1
         }
       ]
@@ -603,11 +603,18 @@
     },
     {
       "date": "20260815",
+      "headline": "국제유가, 호르무즈 유조선 피격·美 대이란 제재 예고에 1%대↑",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260815",
       "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
+        "방산": 1,
+        "전체시장": -3,
         "금융": -1
       },
       "source": "geo_categories"
