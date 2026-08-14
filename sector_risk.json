@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-14T23:54:28.544694+09:00",
-  "date": "20260814",
+  "updated_at": "2026-08-15T01:57:12.563179+09:00",
+  "date": "20260815",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,8 +16,8 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 1,
-      "positive_count": 3,
+      "score": 0,
+      "positive_count": 2,
       "negative_count": 1,
       "recent_events": [
         {
@@ -37,12 +37,6 @@
           "type": "negative",
           "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
           "score": -2
-        },
-        {
-          "date": "20260731",
-          "type": "positive",
-          "headline": "Trump considering AI controls after OpenAI hacking incidents",
-          "score": 1
         }
       ]
     },
@@ -51,6 +45,12 @@
       "positive_count": 0,
       "negative_count": 12,
       "recent_events": [
+        {
+          "date": "20260815",
+          "type": "negative",
+          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
+          "score": -2
+        },
         {
           "date": "20260814",
           "type": "negative",
@@ -74,20 +74,20 @@
           "type": "negative",
           "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
           "score": -2
-        },
-        {
-          "date": "20260808",
-          "type": "negative",
-          "headline": "[거시분석] Child among three killed in Russian missile a...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 17,
-      "negative_count": 5,
+      "positive_count": 16,
+      "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20260815",
+          "type": "positive",
+          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
+          "score": 3
+        },
         {
           "date": "20260814",
           "type": "positive",
@@ -110,12 +110,6 @@
           "date": "20260812",
           "type": "positive",
           "headline": "[거시분석] Trump's dramatic plane swap hints at personal...",
-          "score": 1
-        },
-        {
-          "date": "20260811",
-          "type": "positive",
-          "headline": "[거시분석] Trump hid in catering truck in secret plane s...",
           "score": 1
         }
       ]
@@ -164,6 +158,12 @@
       "negative_count": 6,
       "recent_events": [
         {
+          "date": "20260815",
+          "type": "negative",
+          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
+          "score": -1
+        },
+        {
           "date": "20260813",
           "type": "negative",
           "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
@@ -185,12 +185,6 @@
           "date": "20260802",
           "type": "negative",
           "headline": "[거시분석] Trump cancels Iran strikes subject to deal be...",
-          "score": -1
-        },
-        {
-          "date": "20260801",
-          "type": "negative",
-          "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
           "score": -1
         }
       ]
@@ -244,6 +238,12 @@
       "negative_count": 18,
       "recent_events": [
         {
+          "date": "20260815",
+          "type": "negative",
+          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
+          "score": -5
+        },
+        {
           "date": "20260814",
           "type": "negative",
           "headline": "中관영지, 美 드론 최대 100% 관세에 \"중국 겨냥한 보호주의\"",
@@ -266,52 +266,11 @@
           "type": "negative",
           "headline": "美 \"중국산 상품 40여개국 통해 불법 관세회피\"…한국도 거론",
           "score": -1
-        },
-        {
-          "date": "20260813",
-          "type": "negative",
-          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-          "score": -5
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260731",
-      "headline": "At least five members of same family killed in Russian missile attack, Zelensky says",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260731",
-      "headline": "Trump considering AI controls after OpenAI hacking incidents",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260731",
-      "headline": "하마스 \"무장해제 조건은 이스라엘 철군…살상 중단 약속 먼저\"",
-      "impacts": {
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260731",
-      "headline": "[거시분석] If Hamas disarmament plan holds, it could mar...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -7,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260801",
       "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
@@ -641,9 +600,20 @@
         "전체시장": -5
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260815",
+      "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
-  "total_positives": 36,
+  "total_negatives": 41,
+  "total_positives": 34,
   "risk_level": "EXTREME"
 }
