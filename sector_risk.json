@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T11:11:05.587202+09:00",
+  "updated_at": "2026-08-14T14:39:39.996932+09:00",
   "date": "20260814",
   "window_days": 14,
   "sectors": [
@@ -48,15 +48,9 @@
     },
     "건설": {
       "score": -10,
-      "positive_count": 1,
+      "positive_count": 0,
       "negative_count": 12,
       "recent_events": [
-        {
-          "date": "20260814",
-          "type": "positive",
-          "headline": "용산구, 한강변 '산호아파트 재건축' 관리처분계획인가 고시",
-          "score": 1
-        },
         {
           "date": "20260814",
           "type": "negative",
@@ -79,6 +73,12 @@
           "date": "20260809",
           "type": "negative",
           "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
+          "score": -2
+        },
+        {
+          "date": "20260808",
+          "type": "negative",
+          "headline": "[거시분석] Child among three killed in Russian missile a...",
           "score": -2
         }
       ]
@@ -146,16 +146,10 @@
       ]
     },
     "로봇": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260814",
-          "type": "positive",
-          "headline": "中휴머노이드 로봇 운동회 다음주 개막…출전 로봇 수 4배↑",
-          "score": 1
-        },
         {
           "date": "20260810",
           "type": "positive",
@@ -649,22 +643,6 @@
     },
     {
       "date": "20260814",
-      "headline": "中휴머노이드 로봇 운동회 다음주 개막…출전 로봇 수 4배↑",
-      "impacts": {
-        "로봇": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260814",
-      "headline": "용산구, 한강변 '산호아파트 재건축' 관리처분계획인가 고시",
-      "impacts": {
-        "건설": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260814",
       "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
       "impacts": {
         "방산": 2,
@@ -676,6 +654,6 @@
     }
   ],
   "total_negatives": 43,
-  "total_positives": 40,
+  "total_positives": 38,
   "risk_level": "EXTREME"
 }
