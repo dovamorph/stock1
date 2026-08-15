@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-16T05:25:53.434576+09:00",
+  "updated_at": "2026-08-16T07:25:25.661929+09:00",
   "date": "20260816",
   "window_days": 14,
   "sectors": [
@@ -85,13 +85,13 @@
         {
           "date": "20260816",
           "type": "negative",
-          "headline": "이스라엘 공격에 레바논서 11명 사망…\"6월 휴전 이후 최다\"(종합2보)",
+          "headline": "[뉴욕증시-주간전망] 美·이란 휴전 분수령…FOMC 회의록·월마트 실적 촉각",
           "score": -1
         },
         {
           "date": "20260816",
           "type": "positive",
-          "headline": "[거시분석] Ukraine hits Russian Starlink-style network, ...",
+          "headline": "[거시분석] Qatar denies capturing three Iranian pilots a...",
           "score": 1
         },
         {
@@ -234,13 +234,13 @@
         {
           "date": "20260816",
           "type": "positive",
-          "headline": "이스라엘 공격에 레바논서 11명 사망…\"6월 휴전 이후 최다\"(종합2보)",
+          "headline": "[뉴욕증시-주간전망] 美·이란 휴전 분수령…FOMC 회의록·월마트 실적 촉각",
           "score": 1
         },
         {
           "date": "20260816",
           "type": "negative",
-          "headline": "[거시분석] Ukraine hits Russian Starlink-style network, ...",
+          "headline": "[거시분석] Qatar denies capturing three Iranian pilots a...",
           "score": -1
         },
         {
@@ -612,7 +612,7 @@
     },
     {
       "date": "20260816",
-      "headline": "이스라엘 공격에 레바논서 11명 사망…\"6월 휴전 이후 최다\"(종합2보)",
+      "headline": "[뉴욕증시-주간전망] 美·이란 휴전 분수령…FOMC 회의록·월마트 실적 촉각",
       "impacts": {
         "방산": -1,
         "전체시장": 1
@@ -621,7 +621,7 @@
     },
     {
       "date": "20260816",
-      "headline": "[거시분석] Ukraine hits Russian Starlink-style network, ...",
+      "headline": "[거시분석] Qatar denies capturing three Iranian pilots a...",
       "impacts": {
         "방산": 1,
         "전체시장": -1
