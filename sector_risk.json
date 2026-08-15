@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T10:23:47.235247+09:00",
+  "updated_at": "2026-08-15T11:54:25.824172+09:00",
   "date": "20260815",
   "window_days": 14,
   "sectors": [
@@ -43,8 +43,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 12,
       "recent_events": [
+        {
+          "date": "20260815",
+          "type": "negative",
+          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
+          "score": -2
+        },
         {
           "date": "20260814",
           "type": "negative",
@@ -68,12 +74,6 @@
           "type": "negative",
           "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
           "score": -2
-        },
-        {
-          "date": "20260808",
-          "type": "negative",
-          "headline": "[거시분석] Child among three killed in Russian missile a...",
-          "score": -2
         }
       ]
     },
@@ -92,7 +92,7 @@
           "date": "20260815",
           "type": "positive",
           "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-          "score": 1
+          "score": 3
         },
         {
           "date": "20260814",
@@ -247,7 +247,7 @@
           "date": "20260815",
           "type": "negative",
           "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-          "score": -4
+          "score": -6
         },
         {
           "date": "20260814",
@@ -614,14 +614,15 @@
       "date": "20260815",
       "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -4,
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -6,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 41,
+  "total_negatives": 42,
   "total_positives": 35,
   "risk_level": "EXTREME"
 }
