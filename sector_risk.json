@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-16T03:33:37.473489+09:00",
+  "updated_at": "2026-08-16T05:25:53.434576+09:00",
   "date": "20260816",
   "window_days": 14,
   "sectors": [
@@ -241,7 +241,7 @@
           "date": "20260816",
           "type": "negative",
           "headline": "[거시분석] Ukraine hits Russian Starlink-style network, ...",
-          "score": -2
+          "score": -1
         },
         {
           "date": "20260815",
@@ -624,7 +624,7 @@
       "headline": "[거시분석] Ukraine hits Russian Starlink-style network, ...",
       "impacts": {
         "방산": 1,
-        "전체시장": -2
+        "전체시장": -1
       },
       "source": "geo_categories"
     }
