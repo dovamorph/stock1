@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T21:42:22.755627+09:00",
+  "updated_at": "2026-08-15T23:25:47.911549+09:00",
   "date": "20260815",
   "window_days": 14,
   "sectors": [
@@ -247,7 +247,7 @@
           "date": "20260815",
           "type": "negative",
           "headline": "[거시분석] Is China seeking to copy Iran’s Strait of Hor...",
-          "score": -1
+          "score": -2
         },
         {
           "date": "20260814",
@@ -615,7 +615,7 @@
       "headline": "[거시분석] Is China seeking to copy Iran’s Strait of Hor...",
       "impacts": {
         "방산": 1,
-        "전체시장": -1
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
