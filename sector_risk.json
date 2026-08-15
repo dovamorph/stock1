@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T19:26:04.919175+09:00",
+  "updated_at": "2026-08-15T21:42:22.755627+09:00",
   "date": "20260815",
   "window_days": 14,
   "sectors": [
@@ -80,12 +80,18 @@
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 4,
+      "negative_count": 5,
       "recent_events": [
         {
           "date": "20260815",
+          "type": "negative",
+          "headline": "이스라엘 공격에 레바논서 9명 사망…\"6월 휴전 이후 최다\"(종합)",
+          "score": -1
+        },
+        {
+          "date": "20260815",
           "type": "positive",
-          "headline": "[거시분석] Small-scale projects offer hope for Gaza farm...",
+          "headline": "[거시분석] Is China seeking to copy Iran’s Strait of Hor...",
           "score": 1
         },
         {
@@ -105,12 +111,6 @@
           "type": "negative",
           "headline": "튀르키예 국영통신 \"美·이란, 휴전 연장 합의\"",
           "score": -1
-        },
-        {
-          "date": "20260812",
-          "type": "positive",
-          "headline": "[거시분석] Trump's dramatic plane swap hints at personal...",
-          "score": 1
         }
       ]
     },
@@ -234,13 +234,19 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 4,
+      "positive_count": 5,
       "negative_count": 18,
       "recent_events": [
         {
           "date": "20260815",
+          "type": "positive",
+          "headline": "이스라엘 공격에 레바논서 9명 사망…\"6월 휴전 이후 최다\"(종합)",
+          "score": 1
+        },
+        {
+          "date": "20260815",
           "type": "negative",
-          "headline": "[거시분석] Small-scale projects offer hope for Gaza farm...",
+          "headline": "[거시분석] Is China seeking to copy Iran’s Strait of Hor...",
           "score": -1
         },
         {
@@ -259,12 +265,6 @@
           "date": "20260813",
           "type": "negative",
           "headline": "미 7월 생산자물가 전달 대비 보합…전망치 하회",
-          "score": -1
-        },
-        {
-          "date": "20260813",
-          "type": "negative",
-          "headline": "美 \"중국산 상품 40여개국 통해 불법 관세회피\"…한국도 거론",
           "score": -1
         }
       ]
@@ -603,7 +603,16 @@
     },
     {
       "date": "20260815",
-      "headline": "[거시분석] Small-scale projects offer hope for Gaza farm...",
+      "headline": "이스라엘 공격에 레바논서 9명 사망…\"6월 휴전 이후 최다\"(종합)",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260815",
+      "headline": "[거시분석] Is China seeking to copy Iran’s Strait of Hor...",
       "impacts": {
         "방산": 1,
         "전체시장": -1
@@ -611,7 +620,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 39,
-  "total_positives": 34,
+  "total_negatives": 40,
+  "total_positives": 35,
   "risk_level": "EXTREME"
 }
