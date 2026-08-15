@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T17:32:43.829558+09:00",
+  "updated_at": "2026-08-15T19:26:04.919175+09:00",
   "date": "20260815",
   "window_days": 14,
   "sectors": [
@@ -43,14 +43,8 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 12,
+      "negative_count": 11,
       "recent_events": [
-        {
-          "date": "20260815",
-          "type": "negative",
-          "headline": "[거시분석] Small-scale projects offer hope for Gaza farm...",
-          "score": -2
-        },
         {
           "date": "20260814",
           "type": "negative",
@@ -74,31 +68,25 @@
           "type": "negative",
           "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
           "score": -2
+        },
+        {
+          "date": "20260808",
+          "type": "negative",
+          "headline": "[거시분석] Child among three killed in Russian missile a...",
+          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 6,
+      "negative_count": 4,
       "recent_events": [
-        {
-          "date": "20260815",
-          "type": "negative",
-          "headline": "이스라엘 공격에 레바논서 7명 사망…\"6월 휴전 이후 최다\"",
-          "score": -1
-        },
-        {
-          "date": "20260815",
-          "type": "negative",
-          "headline": "李대통령, 종전 위한 다자논의 제안…'북핵 중단 방안'도 모색(종합)",
-          "score": -1
-        },
         {
           "date": "20260815",
           "type": "positive",
           "headline": "[거시분석] Small-scale projects offer hope for Gaza farm...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260814",
@@ -111,6 +99,18 @@
           "type": "positive",
           "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
           "score": 2
+        },
+        {
+          "date": "20260812",
+          "type": "negative",
+          "headline": "튀르키예 국영통신 \"美·이란, 휴전 연장 합의\"",
+          "score": -1
+        },
+        {
+          "date": "20260812",
+          "type": "positive",
+          "headline": "[거시분석] Trump's dramatic plane swap hints at personal...",
+          "score": 1
         }
       ]
     },
@@ -234,26 +234,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 6,
+      "positive_count": 4,
       "negative_count": 18,
       "recent_events": [
         {
           "date": "20260815",
-          "type": "positive",
-          "headline": "이스라엘 공격에 레바논서 7명 사망…\"6월 휴전 이후 최다\"",
-          "score": 1
-        },
-        {
-          "date": "20260815",
-          "type": "positive",
-          "headline": "李대통령, 종전 위한 다자논의 제안…'북핵 중단 방안'도 모색(종합)",
-          "score": 1
-        },
-        {
-          "date": "20260815",
           "type": "negative",
           "headline": "[거시분석] Small-scale projects offer hope for Gaza farm...",
-          "score": -3
+          "score": -1
         },
         {
           "date": "20260814",
@@ -266,6 +254,18 @@
           "type": "negative",
           "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
           "score": -5
+        },
+        {
+          "date": "20260813",
+          "type": "negative",
+          "headline": "미 7월 생산자물가 전달 대비 보합…전망치 하회",
+          "score": -1
+        },
+        {
+          "date": "20260813",
+          "type": "negative",
+          "headline": "美 \"중국산 상품 40여개국 통해 불법 관세회피\"…한국도 거론",
+          "score": -1
         }
       ]
     }
@@ -603,34 +603,15 @@
     },
     {
       "date": "20260815",
-      "headline": "이스라엘 공격에 레바논서 7명 사망…\"6월 휴전 이후 최다\"",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260815",
-      "headline": "李대통령, 종전 위한 다자논의 제안…'북핵 중단 방안'도 모색(종합)",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260815",
       "headline": "[거시분석] Small-scale projects offer hope for Gaza farm...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -3
+        "방산": 1,
+        "전체시장": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
-  "total_positives": 36,
+  "total_negatives": 39,
+  "total_positives": 34,
   "risk_level": "EXTREME"
 }
