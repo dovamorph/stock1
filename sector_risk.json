@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-15T23:25:47.911549+09:00",
-  "date": "20260815",
+  "updated_at": "2026-08-16T01:28:15.000332+09:00",
+  "date": "20260816",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -43,7 +43,7 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
         {
           "date": "20260814",
@@ -80,8 +80,20 @@
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 5,
+      "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20260816",
+          "type": "negative",
+          "headline": "이스라엘 공격에 레바논서 9명 사망…\"6월 휴전 이후 최다\"(종합)",
+          "score": -1
+        },
+        {
+          "date": "20260816",
+          "type": "positive",
+          "headline": "[거시분석] Ukraine hits Russian Starlink-style network, ...",
+          "score": 1
+        },
         {
           "date": "20260815",
           "type": "negative",
@@ -99,18 +111,6 @@
           "type": "positive",
           "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
           "score": 3
-        },
-        {
-          "date": "20260813",
-          "type": "positive",
-          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-          "score": 2
-        },
-        {
-          "date": "20260812",
-          "type": "negative",
-          "headline": "튀르키예 국영통신 \"美·이란, 휴전 연장 합의\"",
-          "score": -1
         }
       ]
     },
@@ -153,9 +153,9 @@
       ]
     },
     "금융": {
-      "score": -5,
+      "score": -4,
       "positive_count": 0,
-      "negative_count": 5,
+      "negative_count": 4,
       "recent_events": [
         {
           "date": "20260813",
@@ -180,20 +180,20 @@
           "type": "negative",
           "headline": "[거시분석] Trump cancels Iran strikes subject to deal be...",
           "score": -1
-        },
-        {
-          "date": "20260801",
-          "type": "negative",
-          "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 8,
-      "positive_count": 8,
+      "score": 9,
+      "positive_count": 9,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260816",
+          "type": "positive",
+          "headline": "Ukraine hits Russian Starlink-style network, Moscow tracks arms package",
+          "score": 1
+        },
         {
           "date": "20260811",
           "type": "positive",
@@ -217,12 +217,6 @@
           "type": "positive",
           "headline": "Watch: Nasa astronauts conduct 6.5-hour spacewalk outside ISS",
           "score": 1
-        },
-        {
-          "date": "20260806",
-          "type": "positive",
-          "headline": "Why some scientists are thrilled that a SpaceX rocket has crashed into the Moon",
-          "score": 1
         }
       ]
     },
@@ -234,9 +228,21 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 5,
+      "positive_count": 6,
       "negative_count": 18,
       "recent_events": [
+        {
+          "date": "20260816",
+          "type": "positive",
+          "headline": "이스라엘 공격에 레바논서 9명 사망…\"6월 휴전 이후 최다\"(종합)",
+          "score": 1
+        },
+        {
+          "date": "20260816",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine hits Russian Starlink-style network, ...",
+          "score": -2
+        },
         {
           "date": "20260815",
           "type": "positive",
@@ -254,34 +260,11 @@
           "type": "negative",
           "headline": "中관영지, 美 드론 최대 100% 관세에 \"중국 겨냥한 보호주의\"",
           "score": -1
-        },
-        {
-          "date": "20260814",
-          "type": "negative",
-          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-          "score": -5
-        },
-        {
-          "date": "20260813",
-          "type": "negative",
-          "headline": "미 7월 생산자물가 전달 대비 보합…전망치 하회",
-          "score": -1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260801",
-      "headline": "[거시분석] Nine killed in strikes on Kyiv, as Ukraine si...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -6,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260802",
       "headline": "[거시분석] Trump cancels Iran strikes subject to deal be...",
@@ -618,9 +601,35 @@
         "전체시장": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260816",
+      "headline": "Ukraine hits Russian Starlink-style network, Moscow tracks arms package",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260816",
+      "headline": "이스라엘 공격에 레바논서 9명 사망…\"6월 휴전 이후 최다\"(종합)",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260816",
+      "headline": "[거시분석] Ukraine hits Russian Starlink-style network, ...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 40,
-  "total_positives": 35,
+  "total_negatives": 39,
+  "total_positives": 37,
   "risk_level": "EXTREME"
 }
