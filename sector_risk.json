@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T05:25:57.897287+09:00",
+  "updated_at": "2026-08-17T07:24:27.360870+09:00",
   "date": "20260817",
   "window_days": 14,
   "sectors": [
@@ -42,9 +42,15 @@
     },
     "건설": {
       "score": -10,
-      "positive_count": 0,
+      "positive_count": 1,
       "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20260817",
+          "type": "positive",
+          "headline": "\"동 이름 둔산으로 바꿀래요\" 왜…재건축사업 아파트 값 상승효과?",
+          "score": 1
+        },
         {
           "date": "20260814",
           "type": "negative",
@@ -68,24 +74,24 @@
           "type": "negative",
           "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
           "score": -2
-        },
-        {
-          "date": "20260808",
-          "type": "negative",
-          "headline": "[거시분석] Child among three killed in Russian missile a...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 5,
+      "negative_count": 6,
       "recent_events": [
         {
           "date": "20260817",
+          "type": "negative",
+          "headline": "김정은, 광복절 공연 관람…李 '종전 다자논의' 제안에 北무반응",
+          "score": -1
+        },
+        {
+          "date": "20260817",
           "type": "positive",
-          "headline": "[거시분석] Trump envoy Kushner meets Hamas leader to pus...",
+          "headline": "[거시분석] Trump says US to scale back military drills w...",
           "score": 1
         },
         {
@@ -105,12 +111,6 @@
           "type": "positive",
           "headline": "[거시분석] Is China seeking to copy Iran’s Strait of Hor...",
           "score": 1
-        },
-        {
-          "date": "20260814",
-          "type": "positive",
-          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-          "score": 3
         }
       ]
     },
@@ -222,13 +222,19 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 5,
+      "positive_count": 6,
       "negative_count": 18,
       "recent_events": [
         {
           "date": "20260817",
+          "type": "positive",
+          "headline": "김정은, 광복절 공연 관람…李 '종전 다자논의' 제안에 北무반응",
+          "score": 1
+        },
+        {
+          "date": "20260817",
           "type": "negative",
-          "headline": "[거시분석] Trump envoy Kushner meets Hamas leader to pus...",
+          "headline": "[거시분석] Trump says US to scale back military drills w...",
           "score": -1
         },
         {
@@ -248,12 +254,6 @@
           "type": "negative",
           "headline": "[거시분석] Is China seeking to copy Iran’s Strait of Hor...",
           "score": -2
-        },
-        {
-          "date": "20260814",
-          "type": "negative",
-          "headline": "中관영지, 美 드론 최대 100% 관세에 \"중국 겨냥한 보호주의\"",
-          "score": -1
         }
       ]
     }
@@ -596,7 +596,24 @@
     },
     {
       "date": "20260817",
-      "headline": "[거시분석] Trump envoy Kushner meets Hamas leader to pus...",
+      "headline": "김정은, 광복절 공연 관람…李 '종전 다자논의' 제안에 北무반응",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260817",
+      "headline": "\"동 이름 둔산으로 바꿀래요\" 왜…재건축사업 아파트 값 상승효과?",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260817",
+      "headline": "[거시분석] Trump says US to scale back military drills w...",
       "impacts": {
         "방산": 1,
         "전체시장": -1
@@ -604,7 +621,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 36,
-  "total_positives": 35,
+  "total_negatives": 37,
+  "total_positives": 37,
   "risk_level": "EXTREME"
 }
