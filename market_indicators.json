@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16 16:43",
+  "updated": "2026-08-16 17:00",
   "indicators": {
     "usdkrw": {
       "label": "USD/KRW",
@@ -30,12 +30,12 @@
     },
     "gold": {
       "label": "금",
-      "value": 4380.4,
+      "value": 4437.3,
       "unit": "$/oz",
-      "change": 16.8,
-      "change_pct": 0.38,
-      "signal": "🟡",
-      "desc": "$4,380/oz"
+      "change": 73.7,
+      "change_pct": 1.69,
+      "signal": "🔴",
+      "desc": "$4,437/oz"
     }
   }
 }
