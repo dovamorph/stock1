@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-16T23:26:21.849757+09:00",
-  "date": "20260816",
+  "updated_at": "2026-08-17T01:29:00.249233+09:00",
+  "date": "20260817",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -43,7 +43,7 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 9,
       "recent_events": [
         {
           "date": "20260814",
@@ -83,6 +83,12 @@
       "negative_count": 5,
       "recent_events": [
         {
+          "date": "20260817",
+          "type": "positive",
+          "headline": "[거시분석] Qatar denies capturing three Iranian pilots a...",
+          "score": 1
+        },
+        {
           "date": "20260816",
           "type": "positive",
           "headline": "[거시분석] Five killed as Russia launches fresh aerial a...",
@@ -105,12 +111,6 @@
           "type": "positive",
           "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
           "score": 3
-        },
-        {
-          "date": "20260813",
-          "type": "positive",
-          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-          "score": 2
         }
       ]
     },
@@ -153,9 +153,9 @@
       ]
     },
     "금융": {
-      "score": -4,
+      "score": -3,
       "positive_count": 0,
-      "negative_count": 4,
+      "negative_count": 3,
       "recent_events": [
         {
           "date": "20260813",
@@ -173,12 +173,6 @@
           "date": "20260811",
           "type": "negative",
           "headline": "[거시분석] Trump hid in catering truck in secret plane s...",
-          "score": -1
-        },
-        {
-          "date": "20260802",
-          "type": "negative",
-          "headline": "[거시분석] Trump cancels Iran strikes subject to deal be...",
           "score": -1
         }
       ]
@@ -232,6 +226,12 @@
       "negative_count": 18,
       "recent_events": [
         {
+          "date": "20260817",
+          "type": "negative",
+          "headline": "[거시분석] Qatar denies capturing three Iranian pilots a...",
+          "score": -2
+        },
+        {
           "date": "20260816",
           "type": "negative",
           "headline": "[거시분석] Five killed as Russia launches fresh aerial a...",
@@ -254,28 +254,11 @@
           "type": "negative",
           "headline": "中관영지, 美 드론 최대 100% 관세에 \"중국 겨냥한 보호주의\"",
           "score": -1
-        },
-        {
-          "date": "20260814",
-          "type": "negative",
-          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-          "score": -5
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260802",
-      "headline": "[거시분석] Trump cancels Iran strikes subject to deal be...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -6,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260803",
       "headline": "현대전 새 표적된 AI 데이터센터…美·이란 전쟁서 5곳 피격",
@@ -610,9 +593,18 @@
         "전체시장": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260817",
+      "headline": "[거시분석] Qatar denies capturing three Iranian pilots a...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 38,
+  "total_negatives": 36,
   "total_positives": 35,
   "risk_level": "EXTREME"
 }
