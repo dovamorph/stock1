@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-16T17:33:29.617752+09:00",
+  "updated_at": "2026-08-16T19:26:19.806792+09:00",
   "date": "20260816",
   "window_days": 14,
   "sectors": [
@@ -80,18 +80,12 @@
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 6,
+      "negative_count": 5,
       "recent_events": [
         {
           "date": "20260816",
-          "type": "negative",
-          "headline": "국힘 \"李대통령 '종전 논의' 제안, 스스로 무장해제 평화구걸\"(종합)",
-          "score": -1
-        },
-        {
-          "date": "20260816",
           "type": "positive",
-          "headline": "[거시분석] Three killed as Russia launches fresh aerial ...",
+          "headline": "[거시분석] Five killed as Russia launches fresh aerial a...",
           "score": 1
         },
         {
@@ -111,6 +105,12 @@
           "type": "positive",
           "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
           "score": 3
+        },
+        {
+          "date": "20260813",
+          "type": "positive",
+          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
+          "score": 2
         }
       ]
     },
@@ -228,20 +228,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 6,
+      "positive_count": 5,
       "negative_count": 18,
       "recent_events": [
         {
           "date": "20260816",
-          "type": "positive",
-          "headline": "국힘 \"李대통령 '종전 논의' 제안, 스스로 무장해제 평화구걸\"(종합)",
-          "score": 1
-        },
-        {
-          "date": "20260816",
           "type": "negative",
-          "headline": "[거시분석] Three killed as Russia launches fresh aerial ...",
-          "score": -2
+          "headline": "[거시분석] Five killed as Russia launches fresh aerial a...",
+          "score": -1
         },
         {
           "date": "20260815",
@@ -260,6 +254,12 @@
           "type": "negative",
           "headline": "中관영지, 美 드론 최대 100% 관세에 \"중국 겨냥한 보호주의\"",
           "score": -1
+        },
+        {
+          "date": "20260814",
+          "type": "negative",
+          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
+          "score": -5
         }
       ]
     }
@@ -604,24 +604,15 @@
     },
     {
       "date": "20260816",
-      "headline": "국힘 \"李대통령 '종전 논의' 제안, 스스로 무장해제 평화구걸\"(종합)",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260816",
-      "headline": "[거시분석] Three killed as Russia launches fresh aerial ...",
+      "headline": "[거시분석] Five killed as Russia launches fresh aerial a...",
       "impacts": {
         "방산": 1,
-        "전체시장": -2
+        "전체시장": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 39,
-  "total_positives": 36,
+  "total_negatives": 38,
+  "total_positives": 35,
   "risk_level": "EXTREME"
 }
