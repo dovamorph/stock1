@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-16T10:34:56.270301+09:00",
+  "updated_at": "2026-08-16T12:02:58.081593+09:00",
   "date": "20260816",
   "window_days": 14,
   "sectors": [
@@ -184,16 +184,10 @@
       ]
     },
     "우주ETF": {
-      "score": 9,
-      "positive_count": 9,
+      "score": 8,
+      "positive_count": 8,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260816",
-          "type": "positive",
-          "headline": "Ukraine hits Russian Starlink-style network, Moscow tracks arms package",
-          "score": 1
-        },
         {
           "date": "20260811",
           "type": "positive",
@@ -216,6 +210,12 @@
           "date": "20260807",
           "type": "positive",
           "headline": "Watch: Nasa astronauts conduct 6.5-hour spacewalk outside ISS",
+          "score": 1
+        },
+        {
+          "date": "20260806",
+          "type": "positive",
+          "headline": "Why some scientists are thrilled that a SpaceX rocket has crashed into the Moon",
           "score": 1
         }
       ]
@@ -604,14 +604,6 @@
     },
     {
       "date": "20260816",
-      "headline": "Ukraine hits Russian Starlink-style network, Moscow tracks arms package",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260816",
       "headline": "[거시분석] Qatar denies capturing three Iranian pilots a...",
       "impacts": {
         "방산": 1,
@@ -621,6 +613,6 @@
     }
   ],
   "total_negatives": 38,
-  "total_positives": 36,
+  "total_positives": 35,
   "risk_level": "EXTREME"
 }
