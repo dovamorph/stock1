@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17 01:28",
+  "updated": "2026-08-17 03:33",
   "news_count": 86,
   "intl_count": 56,
   "domestic_count": 30,
@@ -17,14 +17,14 @@
     "Thousands displaced by deadly Indonesia earthquake as rescue efforts continue",
     "Hurricane Lala sparks flash floods in Hawaii as strong winds and rain persist",
     "Twelve killed as Polish bus veers off Hungarian motorway",
-    "Two dead and evacuation under way as fires break out on Greek island"
+    "Two dead and hundreds evacuated as twin fires break out on Greek island"
   ],
   "all_headlines": [
     "Russia says at least seven killed in largest Ukrainian attack of 2026",
     "Thousands displaced by deadly Indonesia earthquake as rescue efforts continue",
     "Hurricane Lala sparks flash floods in Hawaii as strong winds and rain persist",
     "Twelve killed as Polish bus veers off Hungarian motorway",
-    "Two dead and evacuation under way as fires break out on Greek island",
+    "Two dead and hundreds evacuated as twin fires break out on Greek island",
     "Europe's tallest Virgin Mary statue unveiled in rural Poland",
     "Belgian wildfire doubles in size on third day tearing through nature reserve",
     "Qatar denies capturing three Iranian pilots after downing fighter jets",
@@ -51,6 +51,12 @@
     "World's Ugliest Dog contest crowns 2026 winner",
     "Moment family rescued after 16 hours floating on jet ski off Thailand",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Former Israeli captive asks Ben-Gvir to let him execute Palestinian prisone",
+    "Israeli army besieges Palestinian homes in occupied West Bank",
+    "Why are sandwiches more regulated than AI?",
+    "‘Water and salt’: Qusra residents trapped in Israeli settler siege",
+    "Cristiano Ronaldo hints at retirement at end of season",
+    "Arsenal cruise to win over Manchester City in Community Shield",
     "Moroccan migrants stage sit-in as thousands remain stranded in Ceuta",
     "Largest Ukrainian drone attack on Russia, Moscow says 822 drones shot down",
     "Hurricane Lala weakens to a tropical storm, but flooding persists in Hawaii",
@@ -65,17 +71,20 @@
     "‘Spearhead of annexation’: Israel hands West Bank rule to civilian police",
     "‘Limited options’ for many Iranians as war with US chokes economy",
     "Trump threatens to make the Strait of Hormuz a US territory: Can he?",
-    "LIVE: Arsenal vs Manchester City 3-0 – Community Shield",
+    "Arsenal 3-0 Manchester City: Community Shield – as it happened",
     "Why has Israel escalated attacks in southern Lebanon despite ceasefire?",
     "Premier League: Key talking points heading into the new 2026-27 season",
     "Doctor describes amputating girl’s leg in Gaza without anaesthesia",
     "The post-Hormuz era offers Africa a great opportunity",
-    "Mohamed Salah’s Trabzonspor debut ends in draw with Kasimpasa",
-    "Live video captures panic as gunman opens fire at park in Kentucky",
-    "Cincinnati Open: Djokovic stunned by Tirante in second round",
-    "3-year-old girl rescued 100 hours after Colombia earthquake",
-    "At least 12 people killed in Hungary bus crash",
-    "Photos: Patriotic music and flags mark Taliban rule anniversary in Kabul",
+    "충남 홍성서부·홍성동부에 호우주의보 해제",
+    "방미 김정관 \"대미투자 막판 다양한 쟁점…어떻게든 해결 목표\"(종합)",
+    "제주시동부에 호우경보…제주 서귀포시동부에 호우경보 유지",
+    "경남 거제 집중호우로 산사태 위험…\"안전지역으로 대피해달라\"",
+    "경남 진주에 호우주의보…거제 등 5곳 호우경보 유지",
+    "경남 거제 호우로 긴급재난문자…\"즉시 안전 확보\"",
+    "서귀포시중산간 등 제주 3곳 호우주의보",
+    "방미 김정관 \"대미투자 막판 다양한 쟁점…어떻게든 해결 목표\"",
+    "그리스 아테네 인근 살라미나섬 산불로 2명 사망…수백명 대피",
     "제주 서귀포시동부에 호우경보",
     "콜롬비아 지진…아기는 32시간 버텼지만 엄마는 끝내 시신으로",
     "전남 광양에 호우주의보",
@@ -96,16 +105,7 @@
     "우크라, 모스크바 겨냥 \"역대 최대\" 공격…러, 탄도미사일 공격(종합)",
     "최원준 역전타＋안현민 쐐기포…1위 kt, 꼴찌 키움에 역전승(종합)",
     "[프로야구 중간순위] 16일",
-    "[프로야구 수원전적] kt 6-2 키움",
-    "아빌라 7이닝 무실점…SSG, 1천480일 만에 LG에 위닝시리즈",
-    "[프로야구 잠실전적] SSG 6-0 LG",
-    "KIA, 두산 꺾고 나흘 만에 4위 복귀…올러, 다승 단독 선두",
-    "[프로축구 중간순위] 16일",
-    "K리그1 부천, 전북 3-2 격파…4경기 무패로 9위 전진",
-    "[프로야구 광주전적] KIA 2-1 두산",
-    "임미애·김영호, 與최고위원 후보 사퇴…\"김용 선택해달라\"",
-    "김민석, 수도권 경선 鄭에 0.38%p차 박빙 승리…누적득표 49.91%(종합2보)",
-    "[프로축구 울산전적] 강원 3-2 울산"
+    "[프로야구 수원전적] kt 6-2 키움"
   ],
   "categories": {
     "geopolitical": {
@@ -114,8 +114,8 @@
       "signal": "🟡",
       "summary": "Qatar denies capturing three Iranian pilots a...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 9,
-      "score": 13.0
+      "matched": 8,
+      "score": 11.6
     },
     "macro": {
       "level": "안전",
@@ -141,8 +141,8 @@
       "signal": "🟡",
       "summary": "Qatar denies capturing three Iranian pilots a...",
       "action": "관련 지표 추가 확인 후 판단",
-      "matched": 3,
-      "score": 4.3
+      "matched": 2,
+      "score": 2.9
     },
     "policy": {
       "level": "주의",
