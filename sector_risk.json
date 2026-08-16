@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T03:33:08.391370+09:00",
+  "updated_at": "2026-08-17T05:25:57.897287+09:00",
   "date": "20260817",
   "window_days": 14,
   "sectors": [
@@ -85,7 +85,7 @@
         {
           "date": "20260817",
           "type": "positive",
-          "headline": "[거시분석] Qatar denies capturing three Iranian pilots a...",
+          "headline": "[거시분석] Trump envoy Kushner meets Hamas leader to pus...",
           "score": 1
         },
         {
@@ -228,8 +228,8 @@
         {
           "date": "20260817",
           "type": "negative",
-          "headline": "[거시분석] Qatar denies capturing three Iranian pilots a...",
-          "score": -2
+          "headline": "[거시분석] Trump envoy Kushner meets Hamas leader to pus...",
+          "score": -1
         },
         {
           "date": "20260816",
@@ -596,10 +596,10 @@
     },
     {
       "date": "20260817",
-      "headline": "[거시분석] Qatar denies capturing three Iranian pilots a...",
+      "headline": "[거시분석] Trump envoy Kushner meets Hamas leader to pus...",
       "impacts": {
         "방산": 1,
-        "전체시장": -2
+        "전체시장": -1
       },
       "source": "geo_categories"
     }
