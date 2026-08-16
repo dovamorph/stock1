@@ -1,13 +1,13 @@
 {
-  "updated": "2026-08-16 22:59",
+  "updated": "2026-08-16 23:36",
   "indicators": {
     "usdkrw": {
       "label": "USD/KRW",
-      "value": 1412.0,
+      "value": 1416.0,
       "unit": "원",
-      "change": -4.8,
-      "change_pct": -0.34,
-      "signal": "🟢",
+      "change": -0.4,
+      "change_pct": -0.03,
+      "signal": "🟡",
       "desc": "안정"
     },
     "wti": {
