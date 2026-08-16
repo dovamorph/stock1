@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-16T21:44:46.652343+09:00",
+  "updated_at": "2026-08-16T23:26:21.849757+09:00",
   "date": "20260816",
   "window_days": 14,
   "sectors": [
@@ -235,7 +235,7 @@
           "date": "20260816",
           "type": "negative",
           "headline": "[거시분석] Five killed as Russia launches fresh aerial a...",
-          "score": -1
+          "score": -2
         },
         {
           "date": "20260815",
@@ -607,7 +607,7 @@
       "headline": "[거시분석] Five killed as Russia launches fresh aerial a...",
       "impacts": {
         "방산": 1,
-        "전체시장": -1
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
