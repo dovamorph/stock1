@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T19:34:48.266023+09:00",
+  "updated_at": "2026-08-17T21:49:56.540280+09:00",
   "date": "20260817",
   "window_days": 14,
   "sectors": [
@@ -43,14 +43,8 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 9,
       "recent_events": [
-        {
-          "date": "20260817",
-          "type": "negative",
-          "headline": "[거시분석] Trump says US to reduce military drills with ...",
-          "score": -2
-        },
         {
           "date": "20260814",
           "type": "negative",
@@ -74,25 +68,25 @@
           "type": "negative",
           "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
           "score": -2
+        },
+        {
+          "date": "20260808",
+          "type": "negative",
+          "headline": "[거시분석] Child among three killed in Russian missile a...",
+          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 17,
+      "positive_count": 16,
       "negative_count": 5,
       "recent_events": [
         {
           "date": "20260817",
           "type": "positive",
-          "headline": "At least six people killed in Ukrainian missile attack on Russia’s Belgorod",
-          "score": 1
-        },
-        {
-          "date": "20260817",
-          "type": "positive",
           "headline": "[거시분석] Trump says US to reduce military drills with ...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260816",
@@ -111,6 +105,12 @@
           "type": "positive",
           "headline": "[거시분석] Is China seeking to copy Iran’s Strait of Hor...",
           "score": 1
+        },
+        {
+          "date": "20260814",
+          "type": "positive",
+          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
+          "score": 3
         }
       ]
     },
@@ -229,7 +229,7 @@
           "date": "20260817",
           "type": "negative",
           "headline": "[거시분석] Trump says US to reduce military drills with ...",
-          "score": -4
+          "score": -2
         },
         {
           "date": "20260816",
@@ -596,24 +596,15 @@
     },
     {
       "date": "20260817",
-      "headline": "At least six people killed in Ukrainian missile attack on Russia’s Belgorod",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260817",
       "headline": "[거시분석] Trump says US to reduce military drills with ...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -4
+        "방산": 1,
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 37,
-  "total_positives": 36,
+  "total_negatives": 36,
+  "total_positives": 35,
   "risk_level": "EXTREME"
 }
