@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T17:46:53.527918+09:00",
+  "updated_at": "2026-08-17T19:34:48.266023+09:00",
   "date": "20260817",
   "window_days": 14,
   "sectors": [
@@ -48,7 +48,7 @@
         {
           "date": "20260817",
           "type": "negative",
-          "headline": "[거시분석] Trump envoy Kushner arrives in Israel after r...",
+          "headline": "[거시분석] Trump says US to reduce military drills with ...",
           "score": -2
         },
         {
@@ -91,7 +91,7 @@
         {
           "date": "20260817",
           "type": "positive",
-          "headline": "[거시분석] Trump envoy Kushner arrives in Israel after r...",
+          "headline": "[거시분석] Trump says US to reduce military drills with ...",
           "score": 3
         },
         {
@@ -153,16 +153,10 @@
       ]
     },
     "금융": {
-      "score": -4,
+      "score": -3,
       "positive_count": 0,
-      "negative_count": 4,
+      "negative_count": 3,
       "recent_events": [
-        {
-          "date": "20260817",
-          "type": "negative",
-          "headline": "[거시분석] Trump envoy Kushner arrives in Israel after r...",
-          "score": -1
-        },
         {
           "date": "20260813",
           "type": "negative",
@@ -234,7 +228,7 @@
         {
           "date": "20260817",
           "type": "negative",
-          "headline": "[거시분석] Trump envoy Kushner arrives in Israel after r...",
+          "headline": "[거시분석] Trump says US to reduce military drills with ...",
           "score": -4
         },
         {
@@ -610,17 +604,16 @@
     },
     {
       "date": "20260817",
-      "headline": "[거시분석] Trump envoy Kushner arrives in Israel after r...",
+      "headline": "[거시분석] Trump says US to reduce military drills with ...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -4,
-        "금융": -1
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 38,
+  "total_negatives": 37,
   "total_positives": 36,
   "risk_level": "EXTREME"
 }
