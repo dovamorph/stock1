@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T13:45:38.926234+09:00",
+  "updated_at": "2026-08-17T16:01:13.865420+09:00",
   "date": "20260817",
   "window_days": 14,
   "sectors": [
@@ -43,8 +43,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20260817",
+          "type": "negative",
+          "headline": "[거시분석] Trump envoy Kushner arrives in Israel after r...",
+          "score": -2
+        },
         {
           "date": "20260814",
           "type": "negative",
@@ -68,31 +74,19 @@
           "type": "negative",
           "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
           "score": -2
-        },
-        {
-          "date": "20260808",
-          "type": "negative",
-          "headline": "[거시분석] Child among three killed in Russian missile a...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 6,
+      "negative_count": 5,
       "recent_events": [
         {
           "date": "20260817",
-          "type": "negative",
-          "headline": "\"이란 강경파 지도부, 종전 MOU 불신하고 미국과의 확전 준비\"",
-          "score": -1
-        },
-        {
-          "date": "20260817",
           "type": "positive",
-          "headline": "[거시분석] Trump says US to scale back South Korea milit...",
-          "score": 1
+          "headline": "[거시분석] Trump envoy Kushner arrives in Israel after r...",
+          "score": 3
         },
         {
           "date": "20260816",
@@ -111,6 +105,12 @@
           "type": "positive",
           "headline": "[거시분석] Is China seeking to copy Iran’s Strait of Hor...",
           "score": 1
+        },
+        {
+          "date": "20260814",
+          "type": "positive",
+          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
+          "score": 3
         }
       ]
     },
@@ -153,10 +153,16 @@
       ]
     },
     "금융": {
-      "score": -3,
+      "score": -4,
       "positive_count": 0,
-      "negative_count": 3,
+      "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20260817",
+          "type": "negative",
+          "headline": "[거시분석] Trump envoy Kushner arrives in Israel after r...",
+          "score": -1
+        },
         {
           "date": "20260813",
           "type": "negative",
@@ -178,16 +184,10 @@
       ]
     },
     "우주ETF": {
-      "score": 9,
-      "positive_count": 9,
+      "score": 8,
+      "positive_count": 8,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260817",
-          "type": "positive",
-          "headline": "국산 우주방사선 측정기, NASA 달 착륙선 타고 달 간다",
-          "score": 1
-        },
         {
           "date": "20260811",
           "type": "positive",
@@ -211,6 +211,12 @@
           "type": "positive",
           "headline": "Watch: Nasa astronauts conduct 6.5-hour spacewalk outside ISS",
           "score": 1
+        },
+        {
+          "date": "20260806",
+          "type": "positive",
+          "headline": "Why some scientists are thrilled that a SpaceX rocket has crashed into the Moon",
+          "score": 1
         }
       ]
     },
@@ -222,20 +228,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 6,
+      "positive_count": 5,
       "negative_count": 18,
       "recent_events": [
         {
           "date": "20260817",
-          "type": "positive",
-          "headline": "\"이란 강경파 지도부, 종전 MOU 불신하고 미국과의 확전 준비\"",
-          "score": 1
-        },
-        {
-          "date": "20260817",
           "type": "negative",
-          "headline": "[거시분석] Trump says US to scale back South Korea milit...",
-          "score": -1
+          "headline": "[거시분석] Trump envoy Kushner arrives in Israel after r...",
+          "score": -5
         },
         {
           "date": "20260816",
@@ -254,6 +254,12 @@
           "type": "negative",
           "headline": "[거시분석] Is China seeking to copy Iran’s Strait of Hor...",
           "score": -2
+        },
+        {
+          "date": "20260814",
+          "type": "negative",
+          "headline": "中관영지, 美 드론 최대 100% 관세에 \"중국 겨냥한 보호주의\"",
+          "score": -1
         }
       ]
     }
@@ -596,32 +602,17 @@
     },
     {
       "date": "20260817",
-      "headline": "\"이란 강경파 지도부, 종전 MOU 불신하고 미국과의 확전 준비\"",
+      "headline": "[거시분석] Trump envoy Kushner arrives in Israel after r...",
       "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260817",
-      "headline": "국산 우주방사선 측정기, NASA 달 착륙선 타고 달 간다",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260817",
-      "headline": "[거시분석] Trump says US to scale back South Korea milit...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -1
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 37,
-  "total_positives": 37,
+  "total_negatives": 38,
+  "total_positives": 35,
   "risk_level": "EXTREME"
 }
