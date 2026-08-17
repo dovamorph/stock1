@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T10:26:28.449092+09:00",
+  "updated_at": "2026-08-17T12:02:42.222988+09:00",
   "date": "20260817",
   "window_days": 14,
   "sectors": [
@@ -85,7 +85,7 @@
         {
           "date": "20260817",
           "type": "positive",
-          "headline": "[거시분석] Trump says US to scale back military drills w...",
+          "headline": "[거시분석] Trump says US to scale back South Korea milit...",
           "score": 1
         },
         {
@@ -153,10 +153,16 @@
       ]
     },
     "금융": {
-      "score": -3,
+      "score": -4,
       "positive_count": 0,
-      "negative_count": 3,
+      "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20260817",
+          "type": "negative",
+          "headline": "[거시분석] Trump says US to scale back South Korea milit...",
+          "score": -1
+        },
         {
           "date": "20260813",
           "type": "negative",
@@ -228,8 +234,8 @@
         {
           "date": "20260817",
           "type": "negative",
-          "headline": "[거시분석] Trump says US to scale back military drills w...",
-          "score": -1
+          "headline": "[거시분석] Trump says US to scale back South Korea milit...",
+          "score": -2
         },
         {
           "date": "20260816",
@@ -596,15 +602,16 @@
     },
     {
       "date": "20260817",
-      "headline": "[거시분석] Trump says US to scale back military drills w...",
+      "headline": "[거시분석] Trump says US to scale back South Korea milit...",
       "impacts": {
         "방산": 1,
-        "전체시장": -1
+        "전체시장": -2,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 36,
+  "total_negatives": 37,
   "total_positives": 35,
   "risk_level": "EXTREME"
 }
