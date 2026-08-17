@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-17T23:30:41.962006+09:00",
-  "date": "20260817",
+  "updated_at": "2026-08-18T01:31:01.568092+09:00",
+  "date": "20260818",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -46,6 +46,12 @@
       "negative_count": 10,
       "recent_events": [
         {
+          "date": "20260818",
+          "type": "negative",
+          "headline": "[거시분석] Trump threatens to bomb US ally Oman if it 'g...",
+          "score": -2
+        },
+        {
           "date": "20260817",
           "type": "negative",
           "headline": "[거시분석] Trump says US to reduce military drills with ...",
@@ -68,12 +74,6 @@
           "type": "negative",
           "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
           "score": -2
-        },
-        {
-          "date": "20260809",
-          "type": "negative",
-          "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
-          "score": -2
         }
       ]
     },
@@ -82,6 +82,12 @@
       "positive_count": 16,
       "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20260818",
+          "type": "positive",
+          "headline": "[거시분석] Trump threatens to bomb US ally Oman if it 'g...",
+          "score": 3
+        },
         {
           "date": "20260817",
           "type": "positive",
@@ -105,18 +111,12 @@
           "type": "positive",
           "headline": "[거시분석] Is China seeking to copy Iran’s Strait of Hor...",
           "score": 1
-        },
-        {
-          "date": "20260814",
-          "type": "positive",
-          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-          "score": 3
         }
       ]
     },
     "전력·에너지": {
-      "score": 3,
-      "positive_count": 3,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
         {
@@ -129,12 +129,6 @@
           "date": "20260813",
           "type": "positive",
           "headline": "[속보] 빌 게이츠 1년 만에 방한…정·재계와 SMR 협력 논의 예정",
-          "score": 1
-        },
-        {
-          "date": "20260803",
-          "type": "positive",
-          "headline": "현대전 새 표적된 AI 데이터센터…美·이란 전쟁서 5곳 피격",
           "score": 1
         }
       ]
@@ -226,6 +220,12 @@
       "negative_count": 18,
       "recent_events": [
         {
+          "date": "20260818",
+          "type": "negative",
+          "headline": "[거시분석] Trump threatens to bomb US ally Oman if it 'g...",
+          "score": -4
+        },
+        {
           "date": "20260817",
           "type": "negative",
           "headline": "[거시분석] Trump says US to reduce military drills with ...",
@@ -248,35 +248,11 @@
           "type": "negative",
           "headline": "[거시분석] Is China seeking to copy Iran’s Strait of Hor...",
           "score": -2
-        },
-        {
-          "date": "20260814",
-          "type": "negative",
-          "headline": "中관영지, 美 드론 최대 100% 관세에 \"중국 겨냥한 보호주의\"",
-          "score": -1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260803",
-      "headline": "현대전 새 표적된 AI 데이터센터…美·이란 전쟁서 5곳 피격",
-      "impacts": {
-        "전력·에너지": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260803",
-      "headline": "[거시분석] Iran says it is in talks with Oman but not th...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260804",
       "headline": "What will happen when a SpaceX rocket collides with the Moon?",
@@ -603,9 +579,19 @@
         "전체시장": -4
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260818",
+      "headline": "[거시분석] Trump threatens to bomb US ally Oman if it 'g...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -4
+      },
+      "source": "geo_categories"
     }
   ],
   "total_negatives": 37,
-  "total_positives": 35,
+  "total_positives": 34,
   "risk_level": "EXTREME"
 }
