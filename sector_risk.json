@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T21:49:56.540280+09:00",
+  "updated_at": "2026-08-17T23:30:41.962006+09:00",
   "date": "20260817",
   "window_days": 14,
   "sectors": [
@@ -43,8 +43,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20260817",
+          "type": "negative",
+          "headline": "[거시분석] Trump says US to reduce military drills with ...",
+          "score": -2
+        },
         {
           "date": "20260814",
           "type": "negative",
@@ -68,12 +74,6 @@
           "type": "negative",
           "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
           "score": -2
-        },
-        {
-          "date": "20260808",
-          "type": "negative",
-          "headline": "[거시분석] Child among three killed in Russian missile a...",
-          "score": -2
         }
       ]
     },
@@ -86,7 +86,7 @@
           "date": "20260817",
           "type": "positive",
           "headline": "[거시분석] Trump says US to reduce military drills with ...",
-          "score": 1
+          "score": 3
         },
         {
           "date": "20260816",
@@ -229,7 +229,7 @@
           "date": "20260817",
           "type": "negative",
           "headline": "[거시분석] Trump says US to reduce military drills with ...",
-          "score": -2
+          "score": -4
         },
         {
           "date": "20260816",
@@ -598,13 +598,14 @@
       "date": "20260817",
       "headline": "[거시분석] Trump says US to reduce military drills with ...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -2
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 36,
+  "total_negatives": 37,
   "total_positives": 35,
   "risk_level": "EXTREME"
 }

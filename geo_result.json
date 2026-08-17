@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17 21:49",
+  "updated": "2026-08-17 23:30",
   "news_count": 84,
   "intl_count": 54,
   "domestic_count": 30,
@@ -15,14 +15,14 @@
   "news_sample": [
     "Trump says US to reduce military drills with South Korea after it stayed out of Iran war",
     "Trump envoy Kushner meets Netanyahu after Hamas talks on peace plan",
-    "Ukrainian strikes kill six in Russia, acting governor says",
+    "Russia and Ukraine trade more deadly strikes",
     "Aid shortages and fears of starvation as Indonesia reels from deadly earthquake",
     "Ebola outbreak in DR Congo becomes deadliest in its history"
   ],
   "all_headlines": [
     "Trump says US to reduce military drills with South Korea after it stayed out of Iran war",
     "Trump envoy Kushner meets Netanyahu after Hamas talks on peace plan",
-    "Ukrainian strikes kill six in Russia, acting governor says",
+    "Russia and Ukraine trade more deadly strikes",
     "Aid shortages and fears of starvation as Indonesia reels from deadly earthquake",
     "Ebola outbreak in DR Congo becomes deadliest in its history",
     "Top Zambian opposition figures arrested days after presidential vote",
@@ -49,6 +49,14 @@
     "World's Ugliest Dog contest crowns 2026 winner",
     "Moment family rescued after 16 hours floating on jet ski off Thailand",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Boat sets sail from Bristol, aiming to break Israel’s siege of Gaza",
+    "Lula and Bolsonaro’s son launch rival bids for Brazil presidency",
+    "Global condemnation of Israeli settler violence against Palestinians",
+    "Trump hails Mecca pact: Can it replace the region’s US security umbrella?",
+    "French Serie A footballer Yael Trepy in intensive care after near-drowning",
+    "Why Kushner met Hamas leaders, and what it means for Trump’s Gaza roadmap",
+    "Cameroon celebrates after winning first ever WAFCON title",
+    "Yemen’s drone war: Rivals flex growing aerial muscle",
     "Trump scales down war games with South Korea: Why it matters",
     "Will Europe hear a landmark Russian climate change case?",
     "Israel’s religious right is changing the state from within",
@@ -60,24 +68,23 @@
     "USS Lincoln crisis: How it compares to past aircraft carrier deployments",
     "Iraqi Kurdish PM Barzani’s office targeted in drone attack",
     "Indian temple stampede kills seven people and injures dozens",
-    "Is China encroaching upon Indian territory in Arunachal Pradesh?",
+    "How China-India border tensions are rising again over encroachment claims",
     "Watch: Young chef, 16, cooking up gourmet meals in Gaza",
     "Thousands await aid after deadly Indonesia quake as rescue work under way",
     "Inside the UK’s ‘stressful’ cost of living crisis Burnham hopes to tackle",
     "Will India’s ‘Cockroach’ movement force Modi’s BJP to rethink its politics?",
     "Photos: Rising energy prices disrupt education on Cambodia’s Tonle Sap lake",
-    "Scottie Scheffler wins St Jude Championship by eight shots",
-    "Cincinnati Open: Sabalenka takes six match points to defeat Gibson",
-    "Outrage as Colombia’s president hands out footballs as residents await aid",
-    "Kushner meets Netanyahu to push Trump Gaza plan",
-    "At least seven people killed in Ukrainian air attacks on Russia",
-    "Rodri headed to Barcelona after Man City accepts transfer bid",
-    "Japan’s economy slows, missing growth forecasts",
-    "Cameroon dominate Malawi to win first Women’s Africa Cup of Nations title",
+    "우크라전쟁 비판한 러 야권 정치인 징역 11년",
+    "뉴욕증시, 미-이란 갈등 속 혼조 출발",
+    "원주 등 강원 3곳 호우주의보 해제",
+    "장동혁, 내일 오전 경남 수해현장 방문…\"복구·지원에 최선\"",
+    "국힘 3선 만찬 회동…\"정점식 원내대표 중심 위기 극복\"",
+    "강원 횡성·양구 평지에 호우주의보 해제",
+    "후티 \"예멘 모카항 인근 사우디 군함 5척 탄도미사일로 공격\"",
     "김민석, 선출 직후 정청래·송영길 포옹…\"저보다 뛰어난 역량\"",
     "강원 인제 평지에 호우주의보…원주 등 4곳 호우주의보 유지",
     "러 \"쿠릴열도 관련 日발언 도넘어\"…日대사는 소환 불응",
-    "트럼프 달래기?…韓, 호르무즈 \"군사적 기여 방안 협의\" 첫 언급",
+    "韓, 호르무즈 \"군사적 기여\" 첫언급…초계기·군함 등 투입 검토",
     "韓총리, '집중호우' 거제 찾아 이재민 위로…\"신속 복구\"",
     "EU \"러 경제 1천600조원 타격\"…대폭 추가제재 예고(종합)",
     "인니 플로레스섬 강진 사망자 68명으로 늘어…이재민 1만3천명(종합)",
@@ -96,24 +103,17 @@
     "드골 다룬 프랑스 영화 대흥행…\"통합 이끌 인물에 대한 열망\"",
     "개혁신당, 김민석 선출에 \"靑 거수기 아닌 할 말 하는 대표되길\"",
     "강원 춘천·화천에 호우주의보 해제",
-    "시신까지 기증한 '의령 봉사왕'…마지막 봉사 마치고 영면",
-    "민주, 새 당대표에 '친명' 김민석…\"내우외환 반드시 돌파\"(종합)",
-    "이라크 쿠르드자치정부 총리 \"이란 드론이 총리실 공격\"",
-    "김민석 대표비서실장에 김태선…수석대변인은 박성준",
-    "[날씨] 남부지방 곳곳 비…제주·경남남해안 최대 60㎜ '우산 챙기세요'",
-    "'18년 광야생활' 김민석, 총리 이어 與대표로…2030 대망론도 시선(종합)",
-    "[북한단신] 김정은, 인니 대통령에게 독립기념일 축전(종합)",
-    "[속보] 與 수석대변인에 박성준…대표 비서실장에 김태선"
+    "시신까지 기증한 '의령 봉사왕'…마지막 봉사 마치고 영면"
   ],
   "categories": {
     "geopolitical": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
       "summary": "Trump says US to reduce military drills with ...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 6,
-      "score": 8.7
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 8,
+      "score": 1.5
     },
     "macro": {
       "level": "안전",
@@ -139,8 +139,8 @@
       "signal": "🟡",
       "summary": "Trump says US to reduce military drills with ...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 5,
-      "score": 1.5
+      "matched": 6,
+      "score": 3.0
     },
     "policy": {
       "level": "신호",
@@ -153,9 +153,9 @@
     }
   },
   "overall": {
-    "level": "안전",
-    "color": "green",
-    "summary": "전반적 안정. 정상 운용 유지",
-    "action": "정상 운용 유지"
+    "level": "위험",
+    "color": "red",
+    "summary": "주의 필요: 지정학적 충돌",
+    "action": "포지션 현금화 고려 / 즉각 대응"
   }
 }
