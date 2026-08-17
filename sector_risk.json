@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T03:43:18.916795+09:00",
+  "updated_at": "2026-08-18T05:30:21.615213+09:00",
   "date": "20260818",
   "window_days": 14,
   "sectors": [
@@ -115,10 +115,16 @@
       ]
     },
     "전력·에너지": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 3,
+      "positive_count": 3,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260818",
+          "type": "positive",
+          "headline": "뉴욕증시, 국제유가 상승에 일제히 하락…다우 0.5%↓",
+          "score": 1
+        },
         {
           "date": "20260813",
           "type": "positive",
@@ -147,10 +153,16 @@
       ]
     },
     "금융": {
-      "score": -3,
+      "score": -4,
       "positive_count": 0,
-      "negative_count": 3,
+      "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20260818",
+          "type": "negative",
+          "headline": "[거시분석] Trump threatens to bomb US ally Oman if it 'g...",
+          "score": -1
+        },
         {
           "date": "20260813",
           "type": "negative",
@@ -223,7 +235,7 @@
           "date": "20260818",
           "type": "negative",
           "headline": "[거시분석] Trump threatens to bomb US ally Oman if it 'g...",
-          "score": -4
+          "score": -5
         },
         {
           "date": "20260817",
@@ -582,16 +594,25 @@
     },
     {
       "date": "20260818",
+      "headline": "뉴욕증시, 국제유가 상승에 일제히 하락…다우 0.5%↓",
+      "impacts": {
+        "전력·에너지": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260818",
       "headline": "[거시분석] Trump threatens to bomb US ally Oman if it 'g...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -4
+        "전체시장": -5,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 37,
-  "total_positives": 34,
+  "total_negatives": 38,
+  "total_positives": 35,
   "risk_level": "EXTREME"
 }
