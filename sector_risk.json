@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T16:01:13.865420+09:00",
+  "updated_at": "2026-08-17T17:46:53.527918+09:00",
   "date": "20260817",
   "window_days": 14,
   "sectors": [
@@ -79,9 +79,15 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 16,
+      "positive_count": 17,
       "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20260817",
+          "type": "positive",
+          "headline": "At least six people killed in Ukrainian missile attack on Russia’s Belgorod",
+          "score": 1
+        },
         {
           "date": "20260817",
           "type": "positive",
@@ -105,12 +111,6 @@
           "type": "positive",
           "headline": "[거시분석] Is China seeking to copy Iran’s Strait of Hor...",
           "score": 1
-        },
-        {
-          "date": "20260814",
-          "type": "positive",
-          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-          "score": 3
         }
       ]
     },
@@ -235,7 +235,7 @@
           "date": "20260817",
           "type": "negative",
           "headline": "[거시분석] Trump envoy Kushner arrives in Israel after r...",
-          "score": -5
+          "score": -4
         },
         {
           "date": "20260816",
@@ -602,17 +602,25 @@
     },
     {
       "date": "20260817",
+      "headline": "At least six people killed in Ukrainian missile attack on Russia’s Belgorod",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260817",
       "headline": "[거시분석] Trump envoy Kushner arrives in Israel after r...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -5,
+        "전체시장": -4,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 38,
-  "total_positives": 35,
+  "total_positives": 36,
   "risk_level": "EXTREME"
 }
