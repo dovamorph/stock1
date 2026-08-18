@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T15:48:46.305568+09:00",
+  "updated_at": "2026-08-18T17:40:33.317026+09:00",
   "date": "20260818",
   "window_days": 14,
   "sectors": [
@@ -85,7 +85,7 @@
         {
           "date": "20260818",
           "type": "negative",
-          "headline": "中 왕이 19∼20일 방한…종전 다자대화 등 한반도정세 논의 주목(종합)",
+          "headline": "트럼프 대북 구애에 왕이 방한까지…종전 다자논의 탄력받나(종합)",
           "score": -1
         },
         {
@@ -134,10 +134,16 @@
       ]
     },
     "로봇": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260818",
+          "type": "positive",
+          "headline": "Chinese company unveils new ‘Superman’ humanoid robot",
+          "score": 1
+        },
         {
           "date": "20260810",
           "type": "positive",
@@ -228,7 +234,7 @@
         {
           "date": "20260818",
           "type": "positive",
-          "headline": "中 왕이 19∼20일 방한…종전 다자대화 등 한반도정세 논의 주목(종합)",
+          "headline": "트럼프 대북 구애에 왕이 방한까지…종전 다자논의 탄력받나(종합)",
           "score": 1
         },
         {
@@ -588,7 +594,15 @@
     },
     {
       "date": "20260818",
-      "headline": "中 왕이 19∼20일 방한…종전 다자대화 등 한반도정세 논의 주목(종합)",
+      "headline": "Chinese company unveils new ‘Superman’ humanoid robot",
+      "impacts": {
+        "로봇": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260818",
+      "headline": "트럼프 대북 구애에 왕이 방한까지…종전 다자논의 탄력받나(종합)",
       "impacts": {
         "방산": -1,
         "전체시장": 1
@@ -607,6 +621,6 @@
     }
   ],
   "total_negatives": 38,
-  "total_positives": 35,
+  "total_positives": 36,
   "risk_level": "EXTREME"
 }
