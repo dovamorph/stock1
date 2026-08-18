@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T01:35:03.276371+09:00",
+  "updated_at": "2026-08-19T03:41:45.223581+09:00",
   "date": "20260819",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 0,
+      "score": -2,
       "positive_count": 2,
-      "negative_count": 1,
+      "negative_count": 2,
       "recent_events": [
+        {
+          "date": "20260819",
+          "type": "negative",
+          "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
+          "score": -2
+        },
         {
           "date": "20260811",
           "type": "positive",
@@ -79,9 +85,21 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 16,
+      "positive_count": 18,
       "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20260819",
+          "type": "positive",
+          "headline": "'트럼프의 평화안' 거부 이스라엘, 가자지구 또 공습…6명 사망",
+          "score": 1
+        },
+        {
+          "date": "20260819",
+          "type": "positive",
+          "headline": "\"이스라엘, 시리아 군공항 공습\"…트럼프 특사 \"불필요한 긴장\" (종합2보)",
+          "score": 1
+        },
         {
           "date": "20260819",
           "type": "positive",
@@ -99,18 +117,6 @@
           "type": "positive",
           "headline": "[거시분석] Trump says US to reduce military drills with ...",
           "score": 3
-        },
-        {
-          "date": "20260816",
-          "type": "positive",
-          "headline": "[거시분석] Five killed as Russia launches fresh aerial a...",
-          "score": 1
-        },
-        {
-          "date": "20260815",
-          "type": "negative",
-          "headline": "이스라엘 공격에 레바논서 9명 사망…\"6월 휴전 이후 최다\"(종합)",
-          "score": -1
         }
       ]
     },
@@ -235,7 +241,7 @@
           "date": "20260819",
           "type": "negative",
           "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
-          "score": -6
+          "score": -7
         },
         {
           "date": "20260818",
@@ -579,6 +585,22 @@
     },
     {
       "date": "20260819",
+      "headline": "'트럼프의 평화안' 거부 이스라엘, 가자지구 또 공습…6명 사망",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260819",
+      "headline": "\"이스라엘, 시리아 군공항 공습\"…트럼프 특사 \"불필요한 긴장\" (종합2보)",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260819",
       "headline": "팝스타 샤키라, 지진피해 고국 콜롬비아 방문해 학교 재건지원",
       "impacts": {
         "건설": 1
@@ -591,13 +613,14 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -6,
-        "금융": -1
+        "전체시장": -7,
+        "금융": -1,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 39,
-  "total_positives": 33,
+  "total_negatives": 40,
+  "total_positives": 35,
   "risk_level": "EXTREME"
 }
