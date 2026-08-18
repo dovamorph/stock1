@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T13:38:08.327911+09:00",
+  "updated_at": "2026-08-18T15:48:46.305568+09:00",
   "date": "20260818",
   "window_days": 14,
   "sectors": [
@@ -80,12 +80,18 @@
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 5,
+      "negative_count": 6,
       "recent_events": [
         {
           "date": "20260818",
+          "type": "negative",
+          "headline": "中 왕이 19∼20일 방한…종전 다자대화 등 한반도정세 논의 주목(종합)",
+          "score": -1
+        },
+        {
+          "date": "20260818",
           "type": "positive",
-          "headline": "[거시분석] Trump threatens to bomb US ally Oman if it 'g...",
+          "headline": "[거시분석] Russia says UK 'will pay' for supplying drone...",
           "score": 1
         },
         {
@@ -105,12 +111,6 @@
           "type": "negative",
           "headline": "이스라엘 공격에 레바논서 9명 사망…\"6월 휴전 이후 최다\"(종합)",
           "score": -1
-        },
-        {
-          "date": "20260815",
-          "type": "positive",
-          "headline": "[거시분석] Is China seeking to copy Iran’s Strait of Hor...",
-          "score": 1
         }
       ]
     },
@@ -134,16 +134,10 @@
       ]
     },
     "로봇": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260818",
-          "type": "positive",
-          "headline": "서울대 로보틱스 국가연구소 출범…\"사람 향하는 기술 만들 것\"(종합)",
-          "score": 1
-        },
         {
           "date": "20260810",
           "type": "positive",
@@ -160,7 +154,7 @@
         {
           "date": "20260818",
           "type": "negative",
-          "headline": "[거시분석] Trump threatens to bomb US ally Oman if it 'g...",
+          "headline": "[거시분석] Russia says UK 'will pay' for supplying drone...",
           "score": -1
         },
         {
@@ -228,14 +222,20 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 5,
+      "positive_count": 6,
       "negative_count": 18,
       "recent_events": [
         {
           "date": "20260818",
+          "type": "positive",
+          "headline": "中 왕이 19∼20일 방한…종전 다자대화 등 한반도정세 논의 주목(종합)",
+          "score": 1
+        },
+        {
+          "date": "20260818",
           "type": "negative",
-          "headline": "[거시분석] Trump threatens to bomb US ally Oman if it 'g...",
-          "score": -4
+          "headline": "[거시분석] Russia says UK 'will pay' for supplying drone...",
+          "score": -3
         },
         {
           "date": "20260817",
@@ -254,12 +254,6 @@
           "type": "positive",
           "headline": "이스라엘 공격에 레바논서 9명 사망…\"6월 휴전 이후 최다\"(종합)",
           "score": 1
-        },
-        {
-          "date": "20260815",
-          "type": "negative",
-          "headline": "[거시분석] Is China seeking to copy Iran’s Strait of Hor...",
-          "score": -2
         }
       ]
     }
@@ -594,24 +588,25 @@
     },
     {
       "date": "20260818",
-      "headline": "서울대 로보틱스 국가연구소 출범…\"사람 향하는 기술 만들 것\"(종합)",
+      "headline": "中 왕이 19∼20일 방한…종전 다자대화 등 한반도정세 논의 주목(종합)",
       "impacts": {
-        "로봇": 1
+        "방산": -1,
+        "전체시장": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260818",
-      "headline": "[거시분석] Trump threatens to bomb US ally Oman if it 'g...",
+      "headline": "[거시분석] Russia says UK 'will pay' for supplying drone...",
       "impacts": {
         "방산": 1,
-        "전체시장": -4,
+        "전체시장": -3,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 37,
+  "total_negatives": 38,
   "total_positives": 35,
   "risk_level": "EXTREME"
 }
