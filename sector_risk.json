@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T10:23:03.670428+09:00",
+  "updated_at": "2026-08-18T11:58:03.040183+09:00",
   "date": "20260818",
   "window_days": 14,
   "sectors": [
@@ -147,10 +147,16 @@
       ]
     },
     "금융": {
-      "score": -3,
+      "score": -4,
       "positive_count": 0,
-      "negative_count": 3,
+      "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20260818",
+          "type": "negative",
+          "headline": "[거시분석] Trump threatens to bomb US ally Oman if it 'g...",
+          "score": -1
+        },
         {
           "date": "20260813",
           "type": "negative",
@@ -223,7 +229,7 @@
           "date": "20260818",
           "type": "negative",
           "headline": "[거시분석] Trump threatens to bomb US ally Oman if it 'g...",
-          "score": -2
+          "score": -4
         },
         {
           "date": "20260817",
@@ -585,12 +591,13 @@
       "headline": "[거시분석] Trump threatens to bomb US ally Oman if it 'g...",
       "impacts": {
         "방산": 1,
-        "전체시장": -2
+        "전체시장": -4,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 36,
+  "total_negatives": 37,
   "total_positives": 34,
   "risk_level": "EXTREME"
 }
