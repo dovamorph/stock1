@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-18T23:36:30.457072+09:00",
-  "date": "20260818",
+  "updated_at": "2026-08-19T01:35:03.276371+09:00",
+  "date": "20260819",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -42,9 +42,21 @@
     },
     "건설": {
       "score": -10,
-      "positive_count": 0,
-      "negative_count": 10,
+      "positive_count": 1,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260819",
+          "type": "positive",
+          "headline": "팝스타 샤키라, 지진피해 고국 콜롬비아 방문해 학교 재건지원",
+          "score": 1
+        },
+        {
+          "date": "20260819",
+          "type": "negative",
+          "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
+          "score": -2
+        },
         {
           "date": "20260818",
           "type": "negative",
@@ -62,26 +74,20 @@
           "type": "negative",
           "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
           "score": -2
-        },
-        {
-          "date": "20260813",
-          "type": "negative",
-          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-          "score": -1
-        },
-        {
-          "date": "20260810",
-          "type": "negative",
-          "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 5,
+      "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20260819",
+          "type": "positive",
+          "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
+          "score": 3
+        },
         {
           "date": "20260818",
           "type": "positive",
@@ -105,12 +111,6 @@
           "type": "negative",
           "headline": "이스라엘 공격에 레바논서 9명 사망…\"6월 휴전 이후 최다\"(종합)",
           "score": -1
-        },
-        {
-          "date": "20260815",
-          "type": "positive",
-          "headline": "[거시분석] Is China seeking to copy Iran’s Strait of Hor...",
-          "score": 1
         }
       ]
     },
@@ -147,10 +147,16 @@
       ]
     },
     "금융": {
-      "score": -4,
+      "score": -5,
       "positive_count": 0,
-      "negative_count": 4,
+      "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20260819",
+          "type": "negative",
+          "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
+          "score": -1
+        },
         {
           "date": "20260818",
           "type": "negative",
@@ -178,8 +184,8 @@
       ]
     },
     "우주ETF": {
-      "score": 8,
-      "positive_count": 8,
+      "score": 7,
+      "positive_count": 7,
       "negative_count": 0,
       "recent_events": [
         {
@@ -222,9 +228,15 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 5,
+      "positive_count": 4,
       "negative_count": 18,
       "recent_events": [
+        {
+          "date": "20260819",
+          "type": "negative",
+          "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
+          "score": -6
+        },
         {
           "date": "20260818",
           "type": "negative",
@@ -248,43 +260,11 @@
           "type": "positive",
           "headline": "이스라엘 공격에 레바논서 9명 사망…\"6월 휴전 이후 최다\"(종합)",
           "score": 1
-        },
-        {
-          "date": "20260815",
-          "type": "negative",
-          "headline": "[거시분석] Is China seeking to copy Iran’s Strait of Hor...",
-          "score": -2
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260804",
-      "headline": "What will happen when a SpaceX rocket collides with the Moon?",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260804",
-      "headline": "임성재 \" PGA 투어 플레이오프 최종전까지 가겠다\"",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260804",
-      "headline": "[거시분석] Ukraine hits more Wildberries sites as strike...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260805",
       "headline": "What can scientists learn from a stray SpaceX rocket hitting the Moon?",
@@ -596,9 +576,28 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260819",
+      "headline": "팝스타 샤키라, 지진피해 고국 콜롬비아 방문해 학교 재건지원",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260819",
+      "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -6,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 38,
-  "total_positives": 34,
+  "total_negatives": 39,
+  "total_positives": 33,
   "risk_level": "EXTREME"
 }
