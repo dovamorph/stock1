@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T19:31:40.238799+09:00",
+  "updated_at": "2026-08-18T21:52:20.260341+09:00",
   "date": "20260818",
   "window_days": 14,
   "sectors": [
@@ -48,7 +48,7 @@
         {
           "date": "20260818",
           "type": "negative",
-          "headline": "[거시분석] Russia warns UK will pay for supplying drones...",
+          "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
           "score": -2
         },
         {
@@ -79,13 +79,19 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 16,
+      "positive_count": 17,
       "negative_count": 5,
       "recent_events": [
         {
           "date": "20260818",
           "type": "positive",
-          "headline": "[거시분석] Russia warns UK will pay for supplying drones...",
+          "headline": "시리아 군 공항, 전투기에 피격…국영TV \"이스라엘이 공습\"(종합)",
+          "score": 1
+        },
+        {
+          "date": "20260818",
+          "type": "positive",
+          "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
           "score": 3
         },
         {
@@ -105,12 +111,6 @@
           "type": "negative",
           "headline": "이스라엘 공격에 레바논서 9명 사망…\"6월 휴전 이후 최다\"(종합)",
           "score": -1
-        },
-        {
-          "date": "20260815",
-          "type": "positive",
-          "headline": "[거시분석] Is China seeking to copy Iran’s Strait of Hor...",
-          "score": 1
         }
       ]
     },
@@ -160,7 +160,7 @@
         {
           "date": "20260818",
           "type": "negative",
-          "headline": "[거시분석] Russia warns UK will pay for supplying drones...",
+          "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
           "score": -1
         },
         {
@@ -234,7 +234,7 @@
         {
           "date": "20260818",
           "type": "negative",
-          "headline": "[거시분석] Russia warns UK will pay for supplying drones...",
+          "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
           "score": -5
         },
         {
@@ -602,7 +602,15 @@
     },
     {
       "date": "20260818",
-      "headline": "[거시분석] Russia warns UK will pay for supplying drones...",
+      "headline": "시리아 군 공항, 전투기에 피격…국영TV \"이스라엘이 공습\"(종합)",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260818",
+      "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
       "impacts": {
         "방산": 3,
         "건설": -2,
@@ -613,6 +621,6 @@
     }
   ],
   "total_negatives": 38,
-  "total_positives": 35,
+  "total_positives": 36,
   "risk_level": "EXTREME"
 }
