@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T07:27:26.912689+09:00",
+  "updated_at": "2026-08-18T10:23:03.670428+09:00",
   "date": "20260818",
   "window_days": 14,
   "sectors": [
@@ -115,16 +115,10 @@
       ]
     },
     "전력·에너지": {
-      "score": 3,
-      "positive_count": 3,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260818",
-          "type": "positive",
-          "headline": "뉴욕증시, 국제유가 상승에 일제히 하락…다우 0.5%↓(종합)",
-          "score": 1
-        },
         {
           "date": "20260813",
           "type": "positive",
@@ -588,14 +582,6 @@
     },
     {
       "date": "20260818",
-      "headline": "뉴욕증시, 국제유가 상승에 일제히 하락…다우 0.5%↓(종합)",
-      "impacts": {
-        "전력·에너지": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260818",
       "headline": "[거시분석] Trump threatens to bomb US ally Oman if it 'g...",
       "impacts": {
         "방산": 1,
@@ -605,6 +591,6 @@
     }
   ],
   "total_negatives": 36,
-  "total_positives": 35,
+  "total_positives": 34,
   "risk_level": "EXTREME"
 }
