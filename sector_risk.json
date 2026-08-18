@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T17:40:33.317026+09:00",
+  "updated_at": "2026-08-18T19:31:40.238799+09:00",
   "date": "20260818",
   "window_days": 14,
   "sectors": [
@@ -43,8 +43,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20260818",
+          "type": "negative",
+          "headline": "[거시분석] Russia warns UK will pay for supplying drones...",
+          "score": -2
+        },
         {
           "date": "20260817",
           "type": "negative",
@@ -68,31 +74,19 @@
           "type": "negative",
           "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
           "score": -2
-        },
-        {
-          "date": "20260809",
-          "type": "negative",
-          "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 6,
+      "negative_count": 5,
       "recent_events": [
         {
           "date": "20260818",
-          "type": "negative",
-          "headline": "트럼프 대북 구애에 왕이 방한까지…종전 다자논의 탄력받나(종합)",
-          "score": -1
-        },
-        {
-          "date": "20260818",
           "type": "positive",
-          "headline": "[거시분석] Russia says UK 'will pay' for supplying drone...",
-          "score": 1
+          "headline": "[거시분석] Russia warns UK will pay for supplying drones...",
+          "score": 3
         },
         {
           "date": "20260817",
@@ -111,6 +105,12 @@
           "type": "negative",
           "headline": "이스라엘 공격에 레바논서 9명 사망…\"6월 휴전 이후 최다\"(종합)",
           "score": -1
+        },
+        {
+          "date": "20260815",
+          "type": "positive",
+          "headline": "[거시분석] Is China seeking to copy Iran’s Strait of Hor...",
+          "score": 1
         }
       ]
     },
@@ -160,7 +160,7 @@
         {
           "date": "20260818",
           "type": "negative",
-          "headline": "[거시분석] Russia says UK 'will pay' for supplying drone...",
+          "headline": "[거시분석] Russia warns UK will pay for supplying drones...",
           "score": -1
         },
         {
@@ -228,20 +228,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 6,
+      "positive_count": 5,
       "negative_count": 18,
       "recent_events": [
         {
           "date": "20260818",
-          "type": "positive",
-          "headline": "트럼프 대북 구애에 왕이 방한까지…종전 다자논의 탄력받나(종합)",
-          "score": 1
-        },
-        {
-          "date": "20260818",
           "type": "negative",
-          "headline": "[거시분석] Russia says UK 'will pay' for supplying drone...",
-          "score": -3
+          "headline": "[거시분석] Russia warns UK will pay for supplying drones...",
+          "score": -5
         },
         {
           "date": "20260817",
@@ -260,6 +254,12 @@
           "type": "positive",
           "headline": "이스라엘 공격에 레바논서 9명 사망…\"6월 휴전 이후 최다\"(종합)",
           "score": 1
+        },
+        {
+          "date": "20260815",
+          "type": "negative",
+          "headline": "[거시분석] Is China seeking to copy Iran’s Strait of Hor...",
+          "score": -2
         }
       ]
     }
@@ -602,25 +602,17 @@
     },
     {
       "date": "20260818",
-      "headline": "트럼프 대북 구애에 왕이 방한까지…종전 다자논의 탄력받나(종합)",
+      "headline": "[거시분석] Russia warns UK will pay for supplying drones...",
       "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260818",
-      "headline": "[거시분석] Russia says UK 'will pay' for supplying drone...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -3,
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 38,
-  "total_positives": 36,
+  "total_positives": 35,
   "risk_level": "EXTREME"
 }
