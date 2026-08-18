@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T05:27:26.234635+09:00",
+  "updated_at": "2026-08-19T07:26:50.246714+09:00",
   "date": "20260819",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260819",
           "type": "negative",
-          "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
+          "headline": "[거시분석] US announces new sanctions on top ICC figures",
           "score": -2
         },
         {
@@ -49,14 +49,8 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20260819",
-          "type": "negative",
-          "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
-          "score": -2
-        },
         {
           "date": "20260818",
           "type": "negative",
@@ -80,43 +74,49 @@
           "type": "negative",
           "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
           "score": -1
+        },
+        {
+          "date": "20260810",
+          "type": "negative",
+          "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
+          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 18,
-      "negative_count": 5,
+      "positive_count": 16,
+      "negative_count": 4,
       "recent_events": [
         {
           "date": "20260819",
-          "type": "negative",
-          "headline": "이란 외무 \"미국과 일시적 휴전 아닌 완전한 종전 원해\"",
-          "score": -1
-        },
-        {
-          "date": "20260819",
           "type": "positive",
-          "headline": "'트럼프의 평화안' 거부 이스라엘, 가자지구 또 공습…6명 사망",
+          "headline": "[거시분석] US announces new sanctions on top ICC figures",
           "score": 1
-        },
-        {
-          "date": "20260819",
-          "type": "positive",
-          "headline": "\"이스라엘, 시리아 군공항 공습\"…트럼프 특사 \"불필요한 긴장\" (종합2보)",
-          "score": 1
-        },
-        {
-          "date": "20260819",
-          "type": "positive",
-          "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
-          "score": 3
         },
         {
           "date": "20260818",
           "type": "positive",
           "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
           "score": 3
+        },
+        {
+          "date": "20260817",
+          "type": "positive",
+          "headline": "[거시분석] Trump says US to reduce military drills with ...",
+          "score": 3
+        },
+        {
+          "date": "20260816",
+          "type": "positive",
+          "headline": "[거시분석] Five killed as Russia launches fresh aerial a...",
+          "score": 1
+        },
+        {
+          "date": "20260815",
+          "type": "negative",
+          "headline": "이스라엘 공격에 레바논서 9명 사망…\"6월 휴전 이후 최다\"(종합)",
+          "score": -1
         }
       ]
     },
@@ -160,7 +160,7 @@
         {
           "date": "20260819",
           "type": "negative",
-          "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
+          "headline": "[거시분석] US announces new sanctions on top ICC figures",
           "score": -1
         },
         {
@@ -234,26 +234,26 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 5,
-      "negative_count": 19,
+      "positive_count": 4,
+      "negative_count": 20,
       "recent_events": [
         {
           "date": "20260819",
-          "type": "positive",
-          "headline": "이란 외무 \"미국과 일시적 휴전 아닌 완전한 종전 원해\"",
-          "score": 1
-        },
-        {
-          "date": "20260819",
           "type": "negative",
-          "headline": "'캐나다에 50% 관세' 하루 전…美·加 정상 통화에도 협상 난항",
+          "headline": "Trump and Carney speak ahead of US tariff deadline",
           "score": -1
         },
         {
           "date": "20260819",
           "type": "negative",
-          "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
-          "score": -7
+          "headline": "美 압박 통했나…멕시코 중국에 추가 관세 검토",
+          "score": -1
+        },
+        {
+          "date": "20260819",
+          "type": "negative",
+          "headline": "[거시분석] US announces new sanctions on top ICC figures",
+          "score": -5
         },
         {
           "date": "20260818",
@@ -585,16 +585,7 @@
     },
     {
       "date": "20260819",
-      "headline": "이란 외무 \"미국과 일시적 휴전 아닌 완전한 종전 원해\"",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260819",
-      "headline": "'캐나다에 50% 관세' 하루 전…美·加 정상 통화에도 협상 난항",
+      "headline": "Trump and Carney speak ahead of US tariff deadline",
       "impacts": {
         "전체시장": -1
       },
@@ -602,34 +593,25 @@
     },
     {
       "date": "20260819",
-      "headline": "'트럼프의 평화안' 거부 이스라엘, 가자지구 또 공습…6명 사망",
+      "headline": "美 압박 통했나…멕시코 중국에 추가 관세 검토",
       "impacts": {
-        "방산": 1
+        "전체시장": -1
       },
       "source": "keyword"
     },
     {
       "date": "20260819",
-      "headline": "\"이스라엘, 시리아 군공항 공습\"…트럼프 특사 \"불필요한 긴장\" (종합2보)",
+      "headline": "[거시분석] US announces new sanctions on top ICC figures",
       "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260819",
-      "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -7,
+        "방산": 1,
+        "전체시장": -5,
         "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
-  "total_positives": 35,
+  "total_negatives": 41,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
