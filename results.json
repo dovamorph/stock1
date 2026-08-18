@@ -1,6 +1,6 @@
 {
   "date": "20260818",
-  "generated_at": "2026-08-18T20:00:46+09:00",
+  "generated_at": "2026-08-18T20:30:39+09:00",
   "reference_date": "20260817",
   "reference_ranks": {
     "000660": 1,
@@ -61,9 +61,9 @@
     "rsi_14": 62.9,
     "basis": null,
     "basis_signal": "조회불가",
-    "usdkrw": 1409.74,
-    "usdkrw_ch1": -0.4,
-    "usdkrw_ch5": -0.17,
+    "usdkrw": 1410.24,
+    "usdkrw_ch1": -0.36,
+    "usdkrw_ch5": -0.14,
     "kosdaq_ch1": -3.52,
     "kospi_ch1": -1.55,
     "kospi_ch2": 0.83,
@@ -96,18 +96,18 @@
       "ndx_ch1": -0.28,
       "ndx_ma60": 26041.57
     },
-    "adr": 17.5,
-    "adr_advances": 84,
-    "adr_declines": 395,
+    "adr": 17.0,
+    "adr_advances": 82,
+    "adr_declines": 400,
     "adr_signal": "🔴",
-    "adr_desc": "투매권 (18%) — 바닥 근접 가능",
+    "adr_desc": "투매권 (17%) — 바닥 근접 가능",
     "breadth": {
       "regime": "전면약세",
       "label": "전면약세 🔴",
       "desc": "지수↓·폭 좁음 — 신규매수 보수적",
       "kospi_ch1": -1.55,
       "kosdaq_ch1": -3.52,
-      "adr": 17.5
+      "adr": 17.0
     },
     "pool_flow": {
       "total": 40,
