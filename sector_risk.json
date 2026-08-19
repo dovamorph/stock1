@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T17:40:38.434331+09:00",
+  "updated_at": "2026-08-19T19:32:06.171711+09:00",
   "date": "20260819",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -2,
+      "score": 0,
       "positive_count": 2,
-      "negative_count": 2,
+      "negative_count": 1,
       "recent_events": [
-        {
-          "date": "20260819",
-          "type": "negative",
-          "headline": "[거시분석] US condemns 'unnecessary escalation' after Is...",
-          "score": -2
-        },
         {
           "date": "20260811",
           "type": "positive",
@@ -235,7 +229,7 @@
           "date": "20260819",
           "type": "negative",
           "headline": "[거시분석] US condemns 'unnecessary escalation' after Is...",
-          "score": -6
+          "score": -4
         },
         {
           "date": "20260818",
@@ -583,13 +577,12 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -6,
-        "반도체·AI": -2
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 39,
+  "total_negatives": 38,
   "total_positives": 32,
   "risk_level": "EXTREME"
 }
