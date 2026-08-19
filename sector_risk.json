@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T10:24:33.726855+09:00",
+  "updated_at": "2026-08-19T12:00:23.210833+09:00",
   "date": "20260819",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260819",
           "type": "negative",
-          "headline": "[거시분석] US announces new sanctions on top ICC figures",
+          "headline": "[거시분석] Trump pauses new tariffs on Canada and says c...",
           "score": -2
         },
         {
@@ -49,8 +49,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260819",
+          "type": "negative",
+          "headline": "[거시분석] Trump pauses new tariffs on Canada and says c...",
+          "score": -1
+        },
         {
           "date": "20260818",
           "type": "negative",
@@ -74,12 +80,6 @@
           "type": "negative",
           "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
           "score": -1
-        },
-        {
-          "date": "20260810",
-          "type": "negative",
-          "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
-          "score": -2
         }
       ]
     },
@@ -91,8 +91,8 @@
         {
           "date": "20260819",
           "type": "positive",
-          "headline": "[거시분석] US announces new sanctions on top ICC figures",
-          "score": 1
+          "headline": "[거시분석] Trump pauses new tariffs on Canada and says c...",
+          "score": 2
         },
         {
           "date": "20260818",
@@ -153,10 +153,16 @@
       ]
     },
     "금융": {
-      "score": -4,
+      "score": -5,
       "positive_count": 0,
-      "negative_count": 4,
+      "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20260819",
+          "type": "negative",
+          "headline": "[거시분석] Trump pauses new tariffs on Canada and says c...",
+          "score": -1
+        },
         {
           "date": "20260818",
           "type": "negative",
@@ -228,9 +234,15 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 4,
-      "negative_count": 19,
+      "positive_count": 5,
+      "negative_count": 20,
       "recent_events": [
+        {
+          "date": "20260819",
+          "type": "positive",
+          "headline": "US, Canada reach trade deal to avert steep tariffs, Trump says",
+          "score": 1
+        },
         {
           "date": "20260819",
           "type": "negative",
@@ -240,26 +252,20 @@
         {
           "date": "20260819",
           "type": "negative",
-          "headline": "[거시분석] US announces new sanctions on top ICC figures",
-          "score": -5
+          "headline": "트럼프 \"캐나다 부과 예정이던 50% 관세 사흘간 중단\"",
+          "score": -1
+        },
+        {
+          "date": "20260819",
+          "type": "negative",
+          "headline": "[거시분석] Trump pauses new tariffs on Canada and says c...",
+          "score": -6
         },
         {
           "date": "20260818",
           "type": "negative",
           "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
           "score": -5
-        },
-        {
-          "date": "20260817",
-          "type": "negative",
-          "headline": "[거시분석] Trump says US to reduce military drills with ...",
-          "score": -4
-        },
-        {
-          "date": "20260816",
-          "type": "negative",
-          "headline": "[거시분석] Five killed as Russia launches fresh aerial a...",
-          "score": -2
         }
       ]
     }
@@ -579,6 +585,14 @@
     },
     {
       "date": "20260819",
+      "headline": "US, Canada reach trade deal to avert steep tariffs, Trump says",
+      "impacts": {
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260819",
       "headline": "Trump and Carney speak ahead of US tariff deadline",
       "impacts": {
         "전체시장": -1
@@ -587,16 +601,26 @@
     },
     {
       "date": "20260819",
-      "headline": "[거시분석] US announces new sanctions on top ICC figures",
+      "headline": "트럼프 \"캐나다 부과 예정이던 50% 관세 사흘간 중단\"",
       "impacts": {
-        "방산": 1,
-        "전체시장": -5,
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260819",
+      "headline": "[거시분석] Trump pauses new tariffs on Canada and says c...",
+      "impacts": {
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -6,
+        "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 39,
-  "total_positives": 32,
+  "total_negatives": 42,
+  "total_positives": 33,
   "risk_level": "EXTREME"
 }
