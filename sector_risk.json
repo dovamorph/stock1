@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T05:31:32.634710+09:00",
+  "updated_at": "2026-08-20T07:27:39.016313+09:00",
   "date": "20260820",
   "window_days": 14,
   "sectors": [
@@ -54,7 +54,7 @@
         {
           "date": "20260820",
           "type": "negative",
-          "headline": "[거시분석] US charges 17 Iranians over 'massive' cyber t...",
+          "headline": "[거시분석] Australia 'outraged' after Israeli decision n...",
           "score": -2
         },
         {
@@ -85,25 +85,13 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 17,
-      "negative_count": 7,
+      "positive_count": 16,
+      "negative_count": 6,
       "recent_events": [
         {
           "date": "20260820",
-          "type": "negative",
-          "headline": "李대통령, 오늘 왕이 접견…종전 다자논의·북미대화 의견교환 주목",
-          "score": -1
-        },
-        {
-          "date": "20260820",
           "type": "positive",
-          "headline": "네타냐후 \"시리아 공군기지 공습, 튀르키예가 경고 무시한 결과\"",
-          "score": 1
-        },
-        {
-          "date": "20260820",
-          "type": "positive",
-          "headline": "[거시분석] US charges 17 Iranians over 'massive' cyber t...",
+          "headline": "[거시분석] Australia 'outraged' after Israeli decision n...",
           "score": 3
         },
         {
@@ -117,6 +105,18 @@
           "type": "negative",
           "headline": "종전 협상은 멈췄지만…러·우크라, 포로 103명씩 맞교환",
           "score": -1
+        },
+        {
+          "date": "20260819",
+          "type": "positive",
+          "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
+          "score": 3
+        },
+        {
+          "date": "20260818",
+          "type": "positive",
+          "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
+          "score": 3
         }
       ]
     },
@@ -160,7 +160,7 @@
         {
           "date": "20260820",
           "type": "negative",
-          "headline": "[거시분석] US charges 17 Iranians over 'massive' cyber t...",
+          "headline": "[거시분석] Australia 'outraged' after Israeli decision n...",
           "score": -1
         },
         {
@@ -234,7 +234,7 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 7,
+      "positive_count": 6,
       "negative_count": 19,
       "recent_events": [
         {
@@ -251,20 +251,20 @@
         },
         {
           "date": "20260820",
-          "type": "positive",
-          "headline": "李대통령, 오늘 왕이 접견…종전 다자논의·북미대화 의견교환 주목",
-          "score": 1
-        },
-        {
-          "date": "20260820",
           "type": "negative",
-          "headline": "[거시분석] US charges 17 Iranians over 'massive' cyber t...",
+          "headline": "[거시분석] Australia 'outraged' after Israeli decision n...",
           "score": -5
         },
         {
           "date": "20260819",
           "type": "positive",
           "headline": "임성재 \"8년 연속 PGA 투어 최종전 진출, 이루겠다\"",
+          "score": 1
+        },
+        {
+          "date": "20260819",
+          "type": "positive",
+          "headline": "종전 협상은 멈췄지만…러·우크라, 포로 103명씩 맞교환",
           "score": 1
         }
       ]
@@ -612,24 +612,7 @@
     },
     {
       "date": "20260820",
-      "headline": "李대통령, 오늘 왕이 접견…종전 다자논의·북미대화 의견교환 주목",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260820",
-      "headline": "네타냐후 \"시리아 공군기지 공습, 튀르키예가 경고 무시한 결과\"",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260820",
-      "headline": "[거시분석] US charges 17 Iranians over 'massive' cyber t...",
+      "headline": "[거시분석] Australia 'outraged' after Israeli decision n...",
       "impacts": {
         "방산": 3,
         "건설": -2,
@@ -639,7 +622,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 44,
-  "total_positives": 36,
+  "total_negatives": 43,
+  "total_positives": 34,
   "risk_level": "EXTREME"
 }
