@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T19:32:06.171711+09:00",
+  "updated_at": "2026-08-19T21:53:00.852749+09:00",
   "date": "20260819",
   "window_days": 14,
   "sectors": [
@@ -48,7 +48,7 @@
         {
           "date": "20260819",
           "type": "negative",
-          "headline": "[거시분석] US condemns 'unnecessary escalation' after Is...",
+          "headline": "[거시분석] Israeli army orders criminal investigation in...",
           "score": -2
         },
         {
@@ -85,7 +85,7 @@
         {
           "date": "20260819",
           "type": "positive",
-          "headline": "[거시분석] US condemns 'unnecessary escalation' after Is...",
+          "headline": "[거시분석] Israeli army orders criminal investigation in...",
           "score": 3
         },
         {
@@ -228,8 +228,8 @@
         {
           "date": "20260819",
           "type": "negative",
-          "headline": "[거시분석] US condemns 'unnecessary escalation' after Is...",
-          "score": -4
+          "headline": "[거시분석] Israeli army orders criminal investigation in...",
+          "score": -5
         },
         {
           "date": "20260818",
@@ -573,11 +573,11 @@
     },
     {
       "date": "20260819",
-      "headline": "[거시분석] US condemns 'unnecessary escalation' after Is...",
+      "headline": "[거시분석] Israeli army orders criminal investigation in...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -4
+        "전체시장": -5
       },
       "source": "geo_categories"
     }
