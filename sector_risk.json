@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T15:49:44.577278+09:00",
+  "updated_at": "2026-08-19T17:40:38.434331+09:00",
   "date": "20260819",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260819",
           "type": "negative",
-          "headline": "[거시분석] Iranian academic writes of US detention 'hell...",
+          "headline": "[거시분석] US condemns 'unnecessary escalation' after Is...",
           "score": -2
         },
         {
@@ -54,7 +54,7 @@
         {
           "date": "20260819",
           "type": "negative",
-          "headline": "[거시분석] Iranian academic writes of US detention 'hell...",
+          "headline": "[거시분석] US condemns 'unnecessary escalation' after Is...",
           "score": -2
         },
         {
@@ -91,7 +91,7 @@
         {
           "date": "20260819",
           "type": "positive",
-          "headline": "[거시분석] Iranian academic writes of US detention 'hell...",
+          "headline": "[거시분석] US condemns 'unnecessary escalation' after Is...",
           "score": 3
         },
         {
@@ -153,16 +153,10 @@
       ]
     },
     "금융": {
-      "score": -5,
+      "score": -4,
       "positive_count": 0,
-      "negative_count": 5,
+      "negative_count": 4,
       "recent_events": [
-        {
-          "date": "20260819",
-          "type": "negative",
-          "headline": "[거시분석] Iranian academic writes of US detention 'hell...",
-          "score": -1
-        },
         {
           "date": "20260818",
           "type": "negative",
@@ -235,19 +229,13 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 19,
+      "negative_count": 18,
       "recent_events": [
         {
           "date": "20260819",
           "type": "negative",
-          "headline": "Trump pauses 50-percent tariff on Canada in last-minute deal",
-          "score": -1
-        },
-        {
-          "date": "20260819",
-          "type": "negative",
-          "headline": "[거시분석] Iranian academic writes of US detention 'hell...",
-          "score": -7
+          "headline": "[거시분석] US condemns 'unnecessary escalation' after Is...",
+          "score": -6
         },
         {
           "date": "20260818",
@@ -266,6 +254,12 @@
           "type": "negative",
           "headline": "[거시분석] Five killed as Russia launches fresh aerial a...",
           "score": -2
+        },
+        {
+          "date": "20260815",
+          "type": "positive",
+          "headline": "이스라엘 공격에 레바논서 9명 사망…\"6월 휴전 이후 최다\"(종합)",
+          "score": 1
         }
       ]
     }
@@ -585,26 +579,17 @@
     },
     {
       "date": "20260819",
-      "headline": "Trump pauses 50-percent tariff on Canada in last-minute deal",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260819",
-      "headline": "[거시분석] Iranian academic writes of US detention 'hell...",
+      "headline": "[거시분석] US condemns 'unnecessary escalation' after Is...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -7,
-        "금융": -1,
+        "전체시장": -6,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 41,
+  "total_negatives": 39,
   "total_positives": 32,
   "risk_level": "EXTREME"
 }
