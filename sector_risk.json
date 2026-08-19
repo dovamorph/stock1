@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T12:00:23.210833+09:00",
+  "updated_at": "2026-08-19T13:40:05.192437+09:00",
   "date": "20260819",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260819",
           "type": "negative",
-          "headline": "[거시분석] Trump pauses new tariffs on Canada and says c...",
+          "headline": "[거시분석] Iranian academic writes of US detention 'hell...",
           "score": -2
         },
         {
@@ -54,8 +54,8 @@
         {
           "date": "20260819",
           "type": "negative",
-          "headline": "[거시분석] Trump pauses new tariffs on Canada and says c...",
-          "score": -1
+          "headline": "[거시분석] Iranian academic writes of US detention 'hell...",
+          "score": -2
         },
         {
           "date": "20260818",
@@ -91,8 +91,8 @@
         {
           "date": "20260819",
           "type": "positive",
-          "headline": "[거시분석] Trump pauses new tariffs on Canada and says c...",
-          "score": 2
+          "headline": "[거시분석] Iranian academic writes of US detention 'hell...",
+          "score": 3
         },
         {
           "date": "20260818",
@@ -153,16 +153,10 @@
       ]
     },
     "금융": {
-      "score": -5,
+      "score": -4,
       "positive_count": 0,
-      "negative_count": 5,
+      "negative_count": 4,
       "recent_events": [
-        {
-          "date": "20260819",
-          "type": "negative",
-          "headline": "[거시분석] Trump pauses new tariffs on Canada and says c...",
-          "score": -1
-        },
         {
           "date": "20260818",
           "type": "negative",
@@ -234,31 +228,19 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 5,
-      "negative_count": 20,
+      "positive_count": 4,
+      "negative_count": 19,
       "recent_events": [
         {
           "date": "20260819",
-          "type": "positive",
-          "headline": "US, Canada reach trade deal to avert steep tariffs, Trump says",
-          "score": 1
-        },
-        {
-          "date": "20260819",
           "type": "negative",
-          "headline": "Trump and Carney speak ahead of US tariff deadline",
+          "headline": "Trump pauses 50 percent tariff on Canada in last-minute deal",
           "score": -1
         },
         {
           "date": "20260819",
           "type": "negative",
-          "headline": "트럼프 \"캐나다 부과 예정이던 50% 관세 사흘간 중단\"",
-          "score": -1
-        },
-        {
-          "date": "20260819",
-          "type": "negative",
-          "headline": "[거시분석] Trump pauses new tariffs on Canada and says c...",
+          "headline": "[거시분석] Iranian academic writes of US detention 'hell...",
           "score": -6
         },
         {
@@ -266,6 +248,18 @@
           "type": "negative",
           "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
           "score": -5
+        },
+        {
+          "date": "20260817",
+          "type": "negative",
+          "headline": "[거시분석] Trump says US to reduce military drills with ...",
+          "score": -4
+        },
+        {
+          "date": "20260816",
+          "type": "negative",
+          "headline": "[거시분석] Five killed as Russia launches fresh aerial a...",
+          "score": -2
         }
       ]
     }
@@ -585,15 +579,7 @@
     },
     {
       "date": "20260819",
-      "headline": "US, Canada reach trade deal to avert steep tariffs, Trump says",
-      "impacts": {
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260819",
-      "headline": "Trump and Carney speak ahead of US tariff deadline",
+      "headline": "Trump pauses 50 percent tariff on Canada in last-minute deal",
       "impacts": {
         "전체시장": -1
       },
@@ -601,26 +587,17 @@
     },
     {
       "date": "20260819",
-      "headline": "트럼프 \"캐나다 부과 예정이던 50% 관세 사흘간 중단\"",
+      "headline": "[거시분석] Iranian academic writes of US detention 'hell...",
       "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260819",
-      "headline": "[거시분석] Trump pauses new tariffs on Canada and says c...",
-      "impacts": {
-        "방산": 2,
-        "건설": -1,
+        "방산": 3,
+        "건설": -2,
         "전체시장": -6,
-        "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
-  "total_positives": 33,
+  "total_negatives": 40,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
