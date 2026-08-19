@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T07:26:50.246714+09:00",
+  "updated_at": "2026-08-19T10:24:33.726855+09:00",
   "date": "20260819",
   "window_days": 14,
   "sectors": [
@@ -153,16 +153,10 @@
       ]
     },
     "금융": {
-      "score": -5,
+      "score": -4,
       "positive_count": 0,
-      "negative_count": 5,
+      "negative_count": 4,
       "recent_events": [
-        {
-          "date": "20260819",
-          "type": "negative",
-          "headline": "[거시분석] US announces new sanctions on top ICC figures",
-          "score": -1
-        },
         {
           "date": "20260818",
           "type": "negative",
@@ -235,18 +229,12 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 20,
+      "negative_count": 19,
       "recent_events": [
         {
           "date": "20260819",
           "type": "negative",
           "headline": "Trump and Carney speak ahead of US tariff deadline",
-          "score": -1
-        },
-        {
-          "date": "20260819",
-          "type": "negative",
-          "headline": "美 압박 통했나…멕시코 중국에 추가 관세 검토",
           "score": -1
         },
         {
@@ -266,6 +254,12 @@
           "type": "negative",
           "headline": "[거시분석] Trump says US to reduce military drills with ...",
           "score": -4
+        },
+        {
+          "date": "20260816",
+          "type": "negative",
+          "headline": "[거시분석] Five killed as Russia launches fresh aerial a...",
+          "score": -2
         }
       ]
     }
@@ -593,25 +587,16 @@
     },
     {
       "date": "20260819",
-      "headline": "美 압박 통했나…멕시코 중국에 추가 관세 검토",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260819",
       "headline": "[거시분석] US announces new sanctions on top ICC figures",
       "impacts": {
         "방산": 1,
         "전체시장": -5,
-        "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 41,
+  "total_negatives": 39,
   "total_positives": 32,
   "risk_level": "EXTREME"
 }
