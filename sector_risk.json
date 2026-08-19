@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-19T23:37:01.192581+09:00",
-  "date": "20260819",
+  "updated_at": "2026-08-20T01:34:56.725088+09:00",
+  "date": "20260820",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -2,
+      "score": -4,
       "positive_count": 2,
-      "negative_count": 2,
+      "negative_count": 3,
       "recent_events": [
+        {
+          "date": "20260820",
+          "type": "negative",
+          "headline": "[거시분석] US charges 17 Iranians over 'massive' cyber t...",
+          "score": -2
+        },
         {
           "date": "20260819",
           "type": "negative",
@@ -52,6 +58,12 @@
       "negative_count": 11,
       "recent_events": [
         {
+          "date": "20260820",
+          "type": "negative",
+          "headline": "[거시분석] US charges 17 Iranians over 'massive' cyber t...",
+          "score": -2
+        },
+        {
           "date": "20260819",
           "type": "negative",
           "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
@@ -74,49 +86,43 @@
           "type": "negative",
           "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
           "score": -2
-        },
-        {
-          "date": "20260813",
-          "type": "negative",
-          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 16,
-      "negative_count": 6,
+      "positive_count": 17,
+      "negative_count": 8,
       "recent_events": [
         {
-          "date": "20260819",
+          "date": "20260820",
+          "type": "positive",
+          "headline": "이스라엘군, 가자지구 공세 강화…이번엔 경찰서 공습, 9명 사망",
+          "score": 1
+        },
+        {
+          "date": "20260820",
           "type": "negative",
           "headline": "임성재 \"8년 연속 PGA 투어 최종전 진출, 이루겠다\"",
           "score": -1
         },
         {
-          "date": "20260819",
+          "date": "20260820",
           "type": "negative",
           "headline": "종전 협상은 멈췄지만…러·우크라, 포로 103명씩 맞교환",
           "score": -1
         },
         {
+          "date": "20260820",
+          "type": "positive",
+          "headline": "[거시분석] US charges 17 Iranians over 'massive' cyber t...",
+          "score": 3
+        },
+        {
           "date": "20260819",
-          "type": "positive",
-          "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
-          "score": 3
-        },
-        {
-          "date": "20260818",
-          "type": "positive",
-          "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
-          "score": 3
-        },
-        {
-          "date": "20260817",
-          "type": "positive",
-          "headline": "[거시분석] Trump says US to reduce military drills with ...",
-          "score": 3
+          "type": "negative",
+          "headline": "임성재 \"8년 연속 PGA 투어 최종전 진출, 이루겠다\"",
+          "score": -1
         }
       ]
     },
@@ -153,10 +159,16 @@
       ]
     },
     "금융": {
-      "score": -4,
+      "score": -5,
       "positive_count": 0,
-      "negative_count": 4,
+      "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20260820",
+          "type": "negative",
+          "headline": "[거시분석] US charges 17 Iranians over 'massive' cyber t...",
+          "score": -1
+        },
         {
           "date": "20260818",
           "type": "negative",
@@ -184,10 +196,16 @@
       ]
     },
     "우주ETF": {
-      "score": 7,
-      "positive_count": 7,
+      "score": 6,
+      "positive_count": 6,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260820",
+          "type": "positive",
+          "headline": "Watch: SpaceX rocket spotted off Christmas Island coast",
+          "score": 1
+        },
         {
           "date": "20260811",
           "type": "positive",
@@ -211,12 +229,6 @@
           "type": "positive",
           "headline": "Watch: Nasa astronauts conduct 6.5-hour spacewalk outside ISS",
           "score": 1
-        },
-        {
-          "date": "20260806",
-          "type": "positive",
-          "headline": "Why some scientists are thrilled that a SpaceX rocket has crashed into the Moon",
-          "score": 1
         }
       ]
     },
@@ -228,77 +240,43 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 6,
-      "negative_count": 18,
+      "positive_count": 7,
+      "negative_count": 19,
       "recent_events": [
         {
-          "date": "20260819",
+          "date": "20260820",
+          "type": "negative",
+          "headline": "Retail giant Target receives $1bn boost from tariff refunds",
+          "score": -1
+        },
+        {
+          "date": "20260820",
           "type": "positive",
           "headline": "임성재 \"8년 연속 PGA 투어 최종전 진출, 이루겠다\"",
           "score": 1
         },
         {
-          "date": "20260819",
+          "date": "20260820",
           "type": "positive",
           "headline": "종전 협상은 멈췄지만…러·우크라, 포로 103명씩 맞교환",
           "score": 1
         },
         {
-          "date": "20260819",
+          "date": "20260820",
           "type": "negative",
-          "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
+          "headline": "[거시분석] US charges 17 Iranians over 'massive' cyber t...",
           "score": -7
         },
         {
-          "date": "20260818",
-          "type": "negative",
-          "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
-          "score": -5
-        },
-        {
-          "date": "20260817",
-          "type": "negative",
-          "headline": "[거시분석] Trump says US to reduce military drills with ...",
-          "score": -4
+          "date": "20260819",
+          "type": "positive",
+          "headline": "임성재 \"8년 연속 PGA 투어 최종전 진출, 이루겠다\"",
+          "score": 1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260805",
-      "headline": "What can scientists learn from a stray SpaceX rocket hitting the Moon?",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260805",
-      "headline": "SpaceX rocket segment to crash into the moon: What happened?",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260805",
-      "headline": "이스라엘군, 레바논 남부 공습…\"헤즈볼라 휴전 위반\"",
-      "impacts": {
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260805",
-      "headline": "[거시분석] Russia strike kills 21 as Ukraine says it nee...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -4
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260806",
       "headline": "Why some scientists are thrilled that a SpaceX rocket has crashed into the Moon",
@@ -605,9 +583,63 @@
         "반도체·AI": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260820",
+      "headline": "Watch: SpaceX rocket spotted off Christmas Island coast",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260820",
+      "headline": "Retail giant Target receives $1bn boost from tariff refunds",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260820",
+      "headline": "이스라엘군, 가자지구 공세 강화…이번엔 경찰서 공습, 9명 사망",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260820",
+      "headline": "임성재 \"8년 연속 PGA 투어 최종전 진출, 이루겠다\"",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260820",
+      "headline": "종전 협상은 멈췄지만…러·우크라, 포로 103명씩 맞교환",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260820",
+      "headline": "[거시분석] US charges 17 Iranians over 'massive' cyber t...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -7,
+        "금융": -1,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 41,
-  "total_positives": 34,
+  "total_negatives": 46,
+  "total_positives": 35,
   "risk_level": "EXTREME"
 }
