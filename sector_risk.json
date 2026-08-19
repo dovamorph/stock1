@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T01:34:56.725088+09:00",
+  "updated_at": "2026-08-20T03:39:13.263154+09:00",
   "date": "20260820",
   "window_days": 14,
   "sectors": [
@@ -92,7 +92,7 @@
     "방산": {
       "score": 10,
       "positive_count": 17,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
         {
           "date": "20260820",
@@ -108,12 +108,6 @@
         },
         {
           "date": "20260820",
-          "type": "negative",
-          "headline": "종전 협상은 멈췄지만…러·우크라, 포로 103명씩 맞교환",
-          "score": -1
-        },
-        {
-          "date": "20260820",
           "type": "positive",
           "headline": "[거시분석] US charges 17 Iranians over 'massive' cyber t...",
           "score": 3
@@ -122,6 +116,12 @@
           "date": "20260819",
           "type": "negative",
           "headline": "임성재 \"8년 연속 PGA 투어 최종전 진출, 이루겠다\"",
+          "score": -1
+        },
+        {
+          "date": "20260819",
+          "type": "negative",
+          "headline": "종전 협상은 멈췄지만…러·우크라, 포로 103명씩 맞교환",
           "score": -1
         }
       ]
@@ -196,14 +196,20 @@
       ]
     },
     "우주ETF": {
-      "score": 6,
-      "positive_count": 6,
+      "score": 7,
+      "positive_count": 7,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20260820",
           "type": "positive",
           "headline": "Watch: SpaceX rocket spotted off Christmas Island coast",
+          "score": 1
+        },
+        {
+          "date": "20260820",
+          "type": "positive",
+          "headline": "'Incredible': SpaceX rocket spotted off Christmas Island coast",
           "score": 1
         },
         {
@@ -223,12 +229,6 @@
           "type": "positive",
           "headline": "South Korea space agency shares Moon images after SpaceX rocket debris crash",
           "score": 1
-        },
-        {
-          "date": "20260807",
-          "type": "positive",
-          "headline": "Watch: Nasa astronauts conduct 6.5-hour spacewalk outside ISS",
-          "score": 1
         }
       ]
     },
@@ -245,6 +245,12 @@
       "recent_events": [
         {
           "date": "20260820",
+          "type": "positive",
+          "headline": "Canada and US say they are finalising a trade deal, but details remain murky",
+          "score": 1
+        },
+        {
+          "date": "20260820",
           "type": "negative",
           "headline": "Retail giant Target receives $1bn boost from tariff refunds",
           "score": -1
@@ -253,12 +259,6 @@
           "date": "20260820",
           "type": "positive",
           "headline": "임성재 \"8년 연속 PGA 투어 최종전 진출, 이루겠다\"",
-          "score": 1
-        },
-        {
-          "date": "20260820",
-          "type": "positive",
-          "headline": "종전 협상은 멈췄지만…러·우크라, 포로 103명씩 맞교환",
           "score": 1
         },
         {
@@ -586,6 +586,14 @@
     },
     {
       "date": "20260820",
+      "headline": "Canada and US say they are finalising a trade deal, but details remain murky",
+      "impacts": {
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260820",
       "headline": "Watch: SpaceX rocket spotted off Christmas Island coast",
       "impacts": {
         "우주ETF": 1
@@ -597,6 +605,14 @@
       "headline": "Retail giant Target receives $1bn boost from tariff refunds",
       "impacts": {
         "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260820",
+      "headline": "'Incredible': SpaceX rocket spotted off Christmas Island coast",
+      "impacts": {
+        "우주ETF": 1
       },
       "source": "keyword"
     },
@@ -619,15 +635,6 @@
     },
     {
       "date": "20260820",
-      "headline": "종전 협상은 멈췄지만…러·우크라, 포로 103명씩 맞교환",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260820",
       "headline": "[거시분석] US charges 17 Iranians over 'massive' cyber t...",
       "impacts": {
         "방산": 3,
@@ -639,7 +646,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 46,
-  "total_positives": 35,
+  "total_negatives": 45,
+  "total_positives": 36,
   "risk_level": "EXTREME"
 }
