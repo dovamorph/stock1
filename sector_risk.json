@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T21:53:00.852749+09:00",
+  "updated_at": "2026-08-19T23:37:01.192581+09:00",
   "date": "20260819",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 0,
+      "score": -2,
       "positive_count": 2,
-      "negative_count": 1,
+      "negative_count": 2,
       "recent_events": [
+        {
+          "date": "20260819",
+          "type": "negative",
+          "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
+          "score": -2
+        },
         {
           "date": "20260811",
           "type": "positive",
@@ -48,7 +54,7 @@
         {
           "date": "20260819",
           "type": "negative",
-          "headline": "[거시분석] Israeli army orders criminal investigation in...",
+          "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
           "score": -2
         },
         {
@@ -80,12 +86,24 @@
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 4,
+      "negative_count": 6,
       "recent_events": [
         {
           "date": "20260819",
+          "type": "negative",
+          "headline": "임성재 \"8년 연속 PGA 투어 최종전 진출, 이루겠다\"",
+          "score": -1
+        },
+        {
+          "date": "20260819",
+          "type": "negative",
+          "headline": "종전 협상은 멈췄지만…러·우크라, 포로 103명씩 맞교환",
+          "score": -1
+        },
+        {
+          "date": "20260819",
           "type": "positive",
-          "headline": "[거시분석] Israeli army orders criminal investigation in...",
+          "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
           "score": 3
         },
         {
@@ -99,18 +117,6 @@
           "type": "positive",
           "headline": "[거시분석] Trump says US to reduce military drills with ...",
           "score": 3
-        },
-        {
-          "date": "20260816",
-          "type": "positive",
-          "headline": "[거시분석] Five killed as Russia launches fresh aerial a...",
-          "score": 1
-        },
-        {
-          "date": "20260815",
-          "type": "negative",
-          "headline": "이스라엘 공격에 레바논서 9명 사망…\"6월 휴전 이후 최다\"(종합)",
-          "score": -1
         }
       ]
     },
@@ -222,14 +228,26 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 4,
+      "positive_count": 6,
       "negative_count": 18,
       "recent_events": [
         {
           "date": "20260819",
+          "type": "positive",
+          "headline": "임성재 \"8년 연속 PGA 투어 최종전 진출, 이루겠다\"",
+          "score": 1
+        },
+        {
+          "date": "20260819",
+          "type": "positive",
+          "headline": "종전 협상은 멈췄지만…러·우크라, 포로 103명씩 맞교환",
+          "score": 1
+        },
+        {
+          "date": "20260819",
           "type": "negative",
-          "headline": "[거시분석] Israeli army orders criminal investigation in...",
-          "score": -5
+          "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
+          "score": -7
         },
         {
           "date": "20260818",
@@ -242,18 +260,6 @@
           "type": "negative",
           "headline": "[거시분석] Trump says US to reduce military drills with ...",
           "score": -4
-        },
-        {
-          "date": "20260816",
-          "type": "negative",
-          "headline": "[거시분석] Five killed as Russia launches fresh aerial a...",
-          "score": -2
-        },
-        {
-          "date": "20260815",
-          "type": "positive",
-          "headline": "이스라엘 공격에 레바논서 9명 사망…\"6월 휴전 이후 최다\"(종합)",
-          "score": 1
         }
       ]
     }
@@ -573,16 +579,35 @@
     },
     {
       "date": "20260819",
-      "headline": "[거시분석] Israeli army orders criminal investigation in...",
+      "headline": "임성재 \"8년 연속 PGA 투어 최종전 진출, 이루겠다\"",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260819",
+      "headline": "종전 협상은 멈췄지만…러·우크라, 포로 103명씩 맞교환",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260819",
+      "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -5
+        "전체시장": -7,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 38,
-  "total_positives": 32,
+  "total_negatives": 41,
+  "total_positives": 34,
   "risk_level": "EXTREME"
 }
