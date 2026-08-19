@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T03:39:13.263154+09:00",
+  "updated_at": "2026-08-20T05:31:32.634710+09:00",
   "date": "20260820",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -4,
+      "score": -2,
       "positive_count": 2,
-      "negative_count": 3,
+      "negative_count": 2,
       "recent_events": [
-        {
-          "date": "20260820",
-          "type": "negative",
-          "headline": "[거시분석] US charges 17 Iranians over 'massive' cyber t...",
-          "score": -2
-        },
         {
           "date": "20260819",
           "type": "negative",
@@ -96,15 +90,15 @@
       "recent_events": [
         {
           "date": "20260820",
-          "type": "positive",
-          "headline": "이스라엘군, 가자지구 공세 강화…이번엔 경찰서 공습, 9명 사망",
-          "score": 1
+          "type": "negative",
+          "headline": "李대통령, 오늘 왕이 접견…종전 다자논의·북미대화 의견교환 주목",
+          "score": -1
         },
         {
           "date": "20260820",
-          "type": "negative",
-          "headline": "임성재 \"8년 연속 PGA 투어 최종전 진출, 이루겠다\"",
-          "score": -1
+          "type": "positive",
+          "headline": "네타냐후 \"시리아 공군기지 공습, 튀르키예가 경고 무시한 결과\"",
+          "score": 1
         },
         {
           "date": "20260820",
@@ -258,14 +252,14 @@
         {
           "date": "20260820",
           "type": "positive",
-          "headline": "임성재 \"8년 연속 PGA 투어 최종전 진출, 이루겠다\"",
+          "headline": "李대통령, 오늘 왕이 접견…종전 다자논의·북미대화 의견교환 주목",
           "score": 1
         },
         {
           "date": "20260820",
           "type": "negative",
           "headline": "[거시분석] US charges 17 Iranians over 'massive' cyber t...",
-          "score": -7
+          "score": -5
         },
         {
           "date": "20260819",
@@ -618,18 +612,18 @@
     },
     {
       "date": "20260820",
-      "headline": "이스라엘군, 가자지구 공세 강화…이번엔 경찰서 공습, 9명 사망",
+      "headline": "李대통령, 오늘 왕이 접견…종전 다자논의·북미대화 의견교환 주목",
       "impacts": {
-        "방산": 1
+        "방산": -1,
+        "전체시장": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260820",
-      "headline": "임성재 \"8년 연속 PGA 투어 최종전 진출, 이루겠다\"",
+      "headline": "네타냐후 \"시리아 공군기지 공습, 튀르키예가 경고 무시한 결과\"",
       "impacts": {
-        "방산": -1,
-        "전체시장": 1
+        "방산": 1
       },
       "source": "keyword"
     },
@@ -639,14 +633,13 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -7,
-        "금융": -1,
-        "반도체·AI": -2
+        "전체시장": -5,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 45,
+  "total_negatives": 44,
   "total_positives": 36,
   "risk_level": "EXTREME"
 }
