@@ -1,11 +1,11 @@
 {
   "regime": "SIDEWAYS",
   "label": "횡보장 🟡",
-  "kospi": 6471.17,
-  "ma20": 6468.32,
-  "ma60": 7513.19,
-  "ret_5d": -1.64,
-  "ret_20d": 0.04,
+  "kospi": 6467.77,
+  "ma20": 6466.99,
+  "ma60": 7512.75,
+  "ret_5d": -1.69,
+  "ret_20d": -4.85,
   "vol_trend": false,
   "cycle_stage": "uptrend",
   "cycle_multiplier_adj": 0.0,
@@ -30,6 +30,5 @@
     "trailing_stop": 0.1
   },
   "effective_position_multiplier": 0.6,
-  "source": "results.json_fallback",
-  "cached_at": "2026-08-19T06:32:58.325081"
+  "cached_at": "2026-08-19T06:49:45.645550"
 }

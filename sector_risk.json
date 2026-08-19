@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T13:40:05.192437+09:00",
+  "updated_at": "2026-08-19T15:49:44.577278+09:00",
   "date": "20260819",
   "window_days": 14,
   "sectors": [
@@ -153,10 +153,16 @@
       ]
     },
     "금융": {
-      "score": -4,
+      "score": -5,
       "positive_count": 0,
-      "negative_count": 4,
+      "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20260819",
+          "type": "negative",
+          "headline": "[거시분석] Iranian academic writes of US detention 'hell...",
+          "score": -1
+        },
         {
           "date": "20260818",
           "type": "negative",
@@ -234,14 +240,14 @@
         {
           "date": "20260819",
           "type": "negative",
-          "headline": "Trump pauses 50 percent tariff on Canada in last-minute deal",
+          "headline": "Trump pauses 50-percent tariff on Canada in last-minute deal",
           "score": -1
         },
         {
           "date": "20260819",
           "type": "negative",
           "headline": "[거시분석] Iranian academic writes of US detention 'hell...",
-          "score": -6
+          "score": -7
         },
         {
           "date": "20260818",
@@ -579,7 +585,7 @@
     },
     {
       "date": "20260819",
-      "headline": "Trump pauses 50 percent tariff on Canada in last-minute deal",
+      "headline": "Trump pauses 50-percent tariff on Canada in last-minute deal",
       "impacts": {
         "전체시장": -1
       },
@@ -591,13 +597,14 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -6,
+        "전체시장": -7,
+        "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 40,
+  "total_negatives": 41,
   "total_positives": 32,
   "risk_level": "EXTREME"
 }
