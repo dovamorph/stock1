@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T15:51:23.248182+09:00",
+  "updated_at": "2026-08-20T17:41:36.792077+09:00",
   "date": "20260820",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -4,
+      "score": -2,
       "positive_count": 2,
-      "negative_count": 3,
+      "negative_count": 2,
       "recent_events": [
-        {
-          "date": "20260820",
-          "type": "negative",
-          "headline": "[거시분석] Australia 'outraged' after Israel decides not...",
-          "score": -2
-        },
         {
           "date": "20260819",
           "type": "negative",
@@ -55,14 +49,8 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20260820",
-          "type": "negative",
-          "headline": "[거시분석] Australia 'outraged' after Israel decides not...",
-          "score": -2
-        },
         {
           "date": "20260819",
           "type": "negative",
@@ -86,12 +74,18 @@
           "type": "negative",
           "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
           "score": -2
+        },
+        {
+          "date": "20260813",
+          "type": "negative",
+          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
+          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 17,
+      "positive_count": 18,
       "negative_count": 6,
       "recent_events": [
         {
@@ -103,8 +97,14 @@
         {
           "date": "20260820",
           "type": "positive",
-          "headline": "[거시분석] Australia 'outraged' after Israel decides not...",
-          "score": 3
+          "headline": "Iran war live: Tehran says Trump’s ‘economic warfare’ will fail",
+          "score": 1
+        },
+        {
+          "date": "20260820",
+          "type": "positive",
+          "headline": "[거시분석] At least 13 killed in Kyiv as Ukraine grapple...",
+          "score": 1
         },
         {
           "date": "20260819",
@@ -117,12 +117,6 @@
           "type": "negative",
           "headline": "종전 협상은 멈췄지만…러·우크라, 포로 103명씩 맞교환",
           "score": -1
-        },
-        {
-          "date": "20260819",
-          "type": "positive",
-          "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
-          "score": 3
         }
       ]
     },
@@ -234,38 +228,38 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 8,
+      "positive_count": 5,
       "negative_count": 18,
       "recent_events": [
         {
           "date": "20260820",
-          "type": "positive",
-          "headline": "Canada and US say they are finalising a trade deal",
-          "score": 1
-        },
-        {
-          "date": "20260820",
-          "type": "positive",
-          "headline": "[표] 코스닥 외국인 순매수도 상위종목(20일)",
-          "score": 1
-        },
-        {
-          "date": "20260820",
-          "type": "positive",
-          "headline": "[표] 거래소 외국인 순매수도 상위종목(20일)",
-          "score": 1
-        },
-        {
-          "date": "20260820",
           "type": "negative",
-          "headline": "[거시분석] Australia 'outraged' after Israel decides not...",
-          "score": -7
+          "headline": "[거시분석] At least 13 killed in Kyiv as Ukraine grapple...",
+          "score": -2
         },
         {
           "date": "20260819",
           "type": "positive",
           "headline": "임성재 \"8년 연속 PGA 투어 최종전 진출, 이루겠다\"",
           "score": 1
+        },
+        {
+          "date": "20260819",
+          "type": "positive",
+          "headline": "종전 협상은 멈췄지만…러·우크라, 포로 103명씩 맞교환",
+          "score": 1
+        },
+        {
+          "date": "20260819",
+          "type": "negative",
+          "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
+          "score": -7
+        },
+        {
+          "date": "20260818",
+          "type": "negative",
+          "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
+          "score": -5
         }
       ]
     }
@@ -580,14 +574,6 @@
     },
     {
       "date": "20260820",
-      "headline": "Canada and US say they are finalising a trade deal",
-      "impacts": {
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260820",
       "headline": "'Incredible': SpaceX rocket spotted off Christmas Island coast",
       "impacts": {
         "우주ETF": 1
@@ -604,33 +590,23 @@
     },
     {
       "date": "20260820",
-      "headline": "[표] 코스닥 외국인 순매수도 상위종목(20일)",
+      "headline": "Iran war live: Tehran says Trump’s ‘economic warfare’ will fail",
       "impacts": {
-        "전체시장": 1
+        "방산": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260820",
-      "headline": "[표] 거래소 외국인 순매수도 상위종목(20일)",
+      "headline": "[거시분석] At least 13 killed in Kyiv as Ukraine grapple...",
       "impacts": {
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260820",
-      "headline": "[거시분석] Australia 'outraged' after Israel decides not...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -7,
-        "반도체·AI": -2
+        "방산": 1,
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
-  "total_positives": 36,
+  "total_negatives": 40,
+  "total_positives": 34,
   "risk_level": "EXTREME"
 }
