@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T07:27:39.016313+09:00",
+  "updated_at": "2026-08-20T10:23:57.138132+09:00",
   "date": "20260820",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -2,
+      "score": -4,
       "positive_count": 2,
-      "negative_count": 2,
+      "negative_count": 3,
       "recent_events": [
+        {
+          "date": "20260820",
+          "type": "negative",
+          "headline": "[거시분석] Trump threatens 'tremendous economic conseque...",
+          "score": -2
+        },
         {
           "date": "20260819",
           "type": "negative",
@@ -49,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20260820",
-          "type": "negative",
-          "headline": "[거시분석] Australia 'outraged' after Israeli decision n...",
-          "score": -2
-        },
         {
           "date": "20260819",
           "type": "negative",
@@ -80,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
           "score": -2
+        },
+        {
+          "date": "20260813",
+          "type": "negative",
+          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
+          "score": -1
         }
       ]
     },
@@ -91,8 +97,8 @@
         {
           "date": "20260820",
           "type": "positive",
-          "headline": "[거시분석] Australia 'outraged' after Israeli decision n...",
-          "score": 3
+          "headline": "[거시분석] Trump threatens 'tremendous economic conseque...",
+          "score": 1
         },
         {
           "date": "20260819",
@@ -140,10 +146,16 @@
       ]
     },
     "로봇": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260820",
+          "type": "positive",
+          "headline": "HL로보틱스, '파키·스탠'으로 로봇 주차시장 공략",
+          "score": 1
+        },
         {
           "date": "20260810",
           "type": "positive",
@@ -160,7 +172,7 @@
         {
           "date": "20260820",
           "type": "negative",
-          "headline": "[거시분석] Australia 'outraged' after Israeli decision n...",
+          "headline": "[거시분석] Trump threatens 'tremendous economic conseque...",
           "score": -1
         },
         {
@@ -190,16 +202,10 @@
       ]
     },
     "우주ETF": {
-      "score": 7,
-      "positive_count": 7,
+      "score": 6,
+      "positive_count": 6,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260820",
-          "type": "positive",
-          "headline": "Watch: SpaceX rocket spotted off Christmas Island coast",
-          "score": 1
-        },
         {
           "date": "20260820",
           "type": "positive",
@@ -223,6 +229,12 @@
           "type": "positive",
           "headline": "South Korea space agency shares Moon images after SpaceX rocket debris crash",
           "score": 1
+        },
+        {
+          "date": "20260807",
+          "type": "positive",
+          "headline": "Watch: Nasa astronauts conduct 6.5-hour spacewalk outside ISS",
+          "score": 1
         }
       ]
     },
@@ -235,7 +247,7 @@
     "전체시장": {
       "score": -10,
       "positive_count": 6,
-      "negative_count": 19,
+      "negative_count": 18,
       "recent_events": [
         {
           "date": "20260820",
@@ -246,14 +258,8 @@
         {
           "date": "20260820",
           "type": "negative",
-          "headline": "Retail giant Target receives $1bn boost from tariff refunds",
-          "score": -1
-        },
-        {
-          "date": "20260820",
-          "type": "negative",
-          "headline": "[거시분석] Australia 'outraged' after Israeli decision n...",
-          "score": -5
+          "headline": "[거시분석] Trump threatens 'tremendous economic conseque...",
+          "score": -6
         },
         {
           "date": "20260819",
@@ -266,6 +272,12 @@
           "type": "positive",
           "headline": "종전 협상은 멈췄지만…러·우크라, 포로 103명씩 맞교환",
           "score": 1
+        },
+        {
+          "date": "20260819",
+          "type": "negative",
+          "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
+          "score": -7
         }
       ]
     }
@@ -588,22 +600,6 @@
     },
     {
       "date": "20260820",
-      "headline": "Watch: SpaceX rocket spotted off Christmas Island coast",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260820",
-      "headline": "Retail giant Target receives $1bn boost from tariff refunds",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260820",
       "headline": "'Incredible': SpaceX rocket spotted off Christmas Island coast",
       "impacts": {
         "우주ETF": 1
@@ -612,17 +608,25 @@
     },
     {
       "date": "20260820",
-      "headline": "[거시분석] Australia 'outraged' after Israeli decision n...",
+      "headline": "HL로보틱스, '파키·스탠'으로 로봇 주차시장 공략",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
-        "금융": -1
+        "로봇": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260820",
+      "headline": "[거시분석] Trump threatens 'tremendous economic conseque...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -6,
+        "금융": -1,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 43,
+  "total_negatives": 42,
   "total_positives": 34,
   "risk_level": "EXTREME"
 }
