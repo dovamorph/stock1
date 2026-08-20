@@ -2,10 +2,10 @@
   "regime": "SIDEWAYS",
   "label": "횡보장 🟡",
   "kospi": 6852.58,
-  "ma20": 6465.94,
-  "ma60": 7541.74,
+  "ma20": 6469.9,
+  "ma60": 7496.22,
   "ret_5d": 0.58,
-  "ret_20d": 5.16,
+  "ret_20d": -3.44,
   "vol_trend": true,
   "cycle_stage": "uptrend",
   "cycle_multiplier_adj": 0.0,
@@ -30,5 +30,5 @@
     "trailing_stop": 0.1
   },
   "effective_position_multiplier": 0.6,
-  "cached_at": "2026-08-20T11:32:56.794590"
+  "cached_at": "2026-08-20T12:55:00.716028"
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T19:33:45.927775+09:00",
+  "updated_at": "2026-08-20T21:54:58.817973+09:00",
   "date": "20260820",
   "window_days": 14,
   "sectors": [
@@ -54,7 +54,7 @@
         {
           "date": "20260820",
           "type": "negative",
-          "headline": "[거시분석] At least 13 killed in Kyiv as Ukraine grapple...",
+          "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
           "score": -2
         },
         {
@@ -97,7 +97,7 @@
         {
           "date": "20260820",
           "type": "positive",
-          "headline": "[거시분석] At least 13 killed in Kyiv as Ukraine grapple...",
+          "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
           "score": 3
         },
         {
@@ -153,16 +153,10 @@
       ]
     },
     "금융": {
-      "score": -5,
+      "score": -4,
       "positive_count": 0,
-      "negative_count": 5,
+      "negative_count": 4,
       "recent_events": [
-        {
-          "date": "20260820",
-          "type": "negative",
-          "headline": "[거시분석] At least 13 killed in Kyiv as Ukraine grapple...",
-          "score": -1
-        },
         {
           "date": "20260818",
           "type": "negative",
@@ -240,8 +234,8 @@
         {
           "date": "20260820",
           "type": "negative",
-          "headline": "[거시분석] At least 13 killed in Kyiv as Ukraine grapple...",
-          "score": -5
+          "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
+          "score": -3
         },
         {
           "date": "20260819",
@@ -596,17 +590,16 @@
     },
     {
       "date": "20260820",
-      "headline": "[거시분석] At least 13 killed in Kyiv as Ukraine grapple...",
+      "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -5,
-        "금융": -1
+        "전체시장": -3
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
+  "total_negatives": 41,
   "total_positives": 33,
   "risk_level": "EXTREME"
 }
