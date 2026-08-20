@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T17:41:36.792077+09:00",
+  "updated_at": "2026-08-20T19:33:45.927775+09:00",
   "date": "20260820",
   "window_days": 14,
   "sectors": [
@@ -49,8 +49,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260820",
+          "type": "negative",
+          "headline": "[거시분석] At least 13 killed in Kyiv as Ukraine grapple...",
+          "score": -2
+        },
         {
           "date": "20260819",
           "type": "negative",
@@ -74,18 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
           "score": -2
-        },
-        {
-          "date": "20260813",
-          "type": "negative",
-          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 18,
+      "positive_count": 17,
       "negative_count": 6,
       "recent_events": [
         {
@@ -97,14 +97,8 @@
         {
           "date": "20260820",
           "type": "positive",
-          "headline": "Iran war live: Tehran says Trump’s ‘economic warfare’ will fail",
-          "score": 1
-        },
-        {
-          "date": "20260820",
-          "type": "positive",
           "headline": "[거시분석] At least 13 killed in Kyiv as Ukraine grapple...",
-          "score": 1
+          "score": 3
         },
         {
           "date": "20260819",
@@ -117,6 +111,12 @@
           "type": "negative",
           "headline": "종전 협상은 멈췄지만…러·우크라, 포로 103명씩 맞교환",
           "score": -1
+        },
+        {
+          "date": "20260819",
+          "type": "positive",
+          "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
+          "score": 3
         }
       ]
     },
@@ -153,10 +153,16 @@
       ]
     },
     "금융": {
-      "score": -4,
+      "score": -5,
       "positive_count": 0,
-      "negative_count": 4,
+      "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20260820",
+          "type": "negative",
+          "headline": "[거시분석] At least 13 killed in Kyiv as Ukraine grapple...",
+          "score": -1
+        },
         {
           "date": "20260818",
           "type": "negative",
@@ -235,7 +241,7 @@
           "date": "20260820",
           "type": "negative",
           "headline": "[거시분석] At least 13 killed in Kyiv as Ukraine grapple...",
-          "score": -2
+          "score": -5
         },
         {
           "date": "20260819",
@@ -590,23 +596,17 @@
     },
     {
       "date": "20260820",
-      "headline": "Iran war live: Tehran says Trump’s ‘economic warfare’ will fail",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260820",
       "headline": "[거시분석] At least 13 killed in Kyiv as Ukraine grapple...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -2
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 40,
-  "total_positives": 34,
+  "total_negatives": 42,
+  "total_positives": 33,
   "risk_level": "EXTREME"
 }
