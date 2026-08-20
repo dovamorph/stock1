@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-20T23:39:31.151749+09:00",
-  "date": "20260820",
+  "updated_at": "2026-08-21T01:38:23.130834+09:00",
+  "date": "20260821",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -52,6 +52,12 @@
       "negative_count": 11,
       "recent_events": [
         {
+          "date": "20260821",
+          "type": "negative",
+          "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
+          "score": -2
+        },
+        {
           "date": "20260820",
           "type": "negative",
           "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
@@ -74,20 +80,26 @@
           "type": "negative",
           "headline": "[거시분석] Trump says US to reduce military drills with ...",
           "score": -2
-        },
-        {
-          "date": "20260814",
-          "type": "negative",
-          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 16,
+      "positive_count": 17,
       "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20260821",
+          "type": "positive",
+          "headline": "프랑스, 작년 34조원 규모 무기 수출 계약…미국 이어 2위",
+          "score": 1
+        },
+        {
+          "date": "20260821",
+          "type": "positive",
+          "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
+          "score": 3
+        },
         {
           "date": "20260820",
           "type": "positive",
@@ -105,18 +117,6 @@
           "type": "negative",
           "headline": "종전 협상은 멈췄지만…러·우크라, 포로 103명씩 맞교환",
           "score": -1
-        },
-        {
-          "date": "20260819",
-          "type": "positive",
-          "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
-          "score": 3
-        },
-        {
-          "date": "20260818",
-          "type": "positive",
-          "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
-          "score": 3
         }
       ]
     },
@@ -153,10 +153,16 @@
       ]
     },
     "금융": {
-      "score": -5,
+      "score": -6,
       "positive_count": 0,
-      "negative_count": 5,
+      "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20260821",
+          "type": "negative",
+          "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
+          "score": -1
+        },
         {
           "date": "20260820",
           "type": "negative",
@@ -180,12 +186,6 @@
           "type": "negative",
           "headline": "[거시분석] Trump's dramatic plane swap hints at personal...",
           "score": -1
-        },
-        {
-          "date": "20260811",
-          "type": "negative",
-          "headline": "[거시분석] Trump hid in catering truck in secret plane s...",
-          "score": -1
         }
       ]
     },
@@ -194,6 +194,12 @@
       "positive_count": 6,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260821",
+          "type": "positive",
+          "headline": "'Incredible': SpaceX rocket spotted off Christmas Island coast",
+          "score": 1
+        },
         {
           "date": "20260820",
           "type": "positive",
@@ -217,12 +223,6 @@
           "type": "positive",
           "headline": "South Korea space agency shares Moon images after SpaceX rocket debris crash",
           "score": 1
-        },
-        {
-          "date": "20260807",
-          "type": "positive",
-          "headline": "Watch: Nasa astronauts conduct 6.5-hour spacewalk outside ISS",
-          "score": 1
         }
       ]
     },
@@ -237,6 +237,12 @@
       "positive_count": 5,
       "negative_count": 18,
       "recent_events": [
+        {
+          "date": "20260821",
+          "type": "negative",
+          "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
+          "score": -5
+        },
         {
           "date": "20260820",
           "type": "negative",
@@ -260,35 +266,11 @@
           "type": "negative",
           "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
           "score": -7
-        },
-        {
-          "date": "20260818",
-          "type": "negative",
-          "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
-          "score": -5
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260806",
-      "headline": "Why some scientists are thrilled that a SpaceX rocket has crashed into the Moon",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260806",
-      "headline": "[거시분석] Ukraine hits two oil refineries deep in Russi...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -4
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260807",
       "headline": "South Korea space agency shares Moon images after SpaceX rocket debris crash",
@@ -596,9 +578,36 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260821",
+      "headline": "'Incredible': SpaceX rocket spotted off Christmas Island coast",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260821",
+      "headline": "프랑스, 작년 34조원 규모 무기 수출 계약…미국 이어 2위",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260821",
+      "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
-  "total_positives": 32,
+  "total_negatives": 43,
+  "total_positives": 33,
   "risk_level": "EXTREME"
 }
