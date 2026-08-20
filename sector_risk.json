@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T01:38:23.130834+09:00",
+  "updated_at": "2026-08-21T03:43:33.462505+09:00",
   "date": "20260821",
   "window_days": 14,
   "sectors": [
@@ -54,7 +54,7 @@
         {
           "date": "20260821",
           "type": "negative",
-          "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
+          "headline": "[거시분석] Bessent urges US partners to back plans to 's...",
           "score": -2
         },
         {
@@ -97,7 +97,7 @@
         {
           "date": "20260821",
           "type": "positive",
-          "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
+          "headline": "[거시분석] Bessent urges US partners to back plans to 's...",
           "score": 3
         },
         {
@@ -160,7 +160,7 @@
         {
           "date": "20260821",
           "type": "negative",
-          "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
+          "headline": "[거시분석] Bessent urges US partners to back plans to 's...",
           "score": -1
         },
         {
@@ -240,7 +240,7 @@
         {
           "date": "20260821",
           "type": "negative",
-          "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
+          "headline": "[거시분석] Bessent urges US partners to back plans to 's...",
           "score": -5
         },
         {
@@ -597,7 +597,7 @@
     },
     {
       "date": "20260821",
-      "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
+      "headline": "[거시분석] Bessent urges US partners to back plans to 's...",
       "impacts": {
         "방산": 3,
         "건설": -2,
