@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T21:54:58.817973+09:00",
+  "updated_at": "2026-08-20T23:39:31.151749+09:00",
   "date": "20260820",
   "window_days": 14,
   "sectors": [
@@ -85,15 +85,9 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 17,
+      "positive_count": 16,
       "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20260820",
-          "type": "positive",
-          "headline": "Trump vows ‘economic warfare’ on countries helping Iran",
-          "score": 1
-        },
         {
           "date": "20260820",
           "type": "positive",
@@ -116,6 +110,12 @@
           "date": "20260819",
           "type": "positive",
           "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
+          "score": 3
+        },
+        {
+          "date": "20260818",
+          "type": "positive",
+          "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
           "score": 3
         }
       ]
@@ -153,10 +153,16 @@
       ]
     },
     "금융": {
-      "score": -4,
+      "score": -5,
       "positive_count": 0,
-      "negative_count": 4,
+      "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20260820",
+          "type": "negative",
+          "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
+          "score": -1
+        },
         {
           "date": "20260818",
           "type": "negative",
@@ -235,7 +241,7 @@
           "date": "20260820",
           "type": "negative",
           "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
-          "score": -3
+          "score": -5
         },
         {
           "date": "20260819",
@@ -582,24 +588,17 @@
     },
     {
       "date": "20260820",
-      "headline": "Trump vows ‘economic warfare’ on countries helping Iran",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260820",
       "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -3
+        "전체시장": -5,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 41,
-  "total_positives": 33,
+  "total_negatives": 42,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
