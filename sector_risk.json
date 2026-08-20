@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T10:23:57.138132+09:00",
+  "updated_at": "2026-08-20T11:59:32.982779+09:00",
   "date": "20260820",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260820",
           "type": "negative",
-          "headline": "[거시분석] Trump threatens 'tremendous economic conseque...",
+          "headline": "[거시분석] Australia 'outraged' after Israeli decision n...",
           "score": -2
         },
         {
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260820",
+          "type": "negative",
+          "headline": "[거시분석] Australia 'outraged' after Israeli decision n...",
+          "score": -2
+        },
         {
           "date": "20260819",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
           "score": -2
-        },
-        {
-          "date": "20260813",
-          "type": "negative",
-          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-          "score": -1
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20260820",
           "type": "positive",
-          "headline": "[거시분석] Trump threatens 'tremendous economic conseque...",
-          "score": 1
+          "headline": "[거시분석] Australia 'outraged' after Israeli decision n...",
+          "score": 3
         },
         {
           "date": "20260819",
@@ -146,16 +146,10 @@
       ]
     },
     "로봇": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260820",
-          "type": "positive",
-          "headline": "HL로보틱스, '파키·스탠'으로 로봇 주차시장 공략",
-          "score": 1
-        },
         {
           "date": "20260810",
           "type": "positive",
@@ -172,7 +166,7 @@
         {
           "date": "20260820",
           "type": "negative",
-          "headline": "[거시분석] Trump threatens 'tremendous economic conseque...",
+          "headline": "[거시분석] Australia 'outraged' after Israeli decision n...",
           "score": -1
         },
         {
@@ -258,8 +252,8 @@
         {
           "date": "20260820",
           "type": "negative",
-          "headline": "[거시분석] Trump threatens 'tremendous economic conseque...",
-          "score": -6
+          "headline": "[거시분석] Australia 'outraged' after Israeli decision n...",
+          "score": -8
         },
         {
           "date": "20260819",
@@ -608,25 +602,18 @@
     },
     {
       "date": "20260820",
-      "headline": "HL로보틱스, '파키·스탠'으로 로봇 주차시장 공략",
+      "headline": "[거시분석] Australia 'outraged' after Israeli decision n...",
       "impacts": {
-        "로봇": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260820",
-      "headline": "[거시분석] Trump threatens 'tremendous economic conseque...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -6,
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -8,
         "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
-  "total_positives": 34,
+  "total_negatives": 43,
+  "total_positives": 33,
   "risk_level": "EXTREME"
 }
