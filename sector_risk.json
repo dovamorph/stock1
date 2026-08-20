@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T05:31:47.231201+09:00",
+  "updated_at": "2026-08-21T07:30:46.524550+09:00",
   "date": "20260821",
   "window_days": 14,
   "sectors": [
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260821",
+          "type": "negative",
+          "headline": "[거시분석] US says sanctions will 'squash' Iran's econom...",
+          "score": -2
+        },
         {
           "date": "20260820",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] Trump says US to reduce military drills with ...",
           "score": -2
-        },
-        {
-          "date": "20260814",
-          "type": "negative",
-          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-          "score": -2
         }
       ]
     },
@@ -98,7 +98,7 @@
           "date": "20260821",
           "type": "positive",
           "headline": "[거시분석] US says sanctions will 'squash' Iran's econom...",
-          "score": 1
+          "score": 3
         },
         {
           "date": "20260820",
@@ -196,16 +196,10 @@
       ]
     },
     "우주ETF": {
-      "score": 6,
-      "positive_count": 6,
+      "score": 5,
+      "positive_count": 5,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260821",
-          "type": "positive",
-          "headline": "'Incredible': SpaceX rocket spotted off Christmas Island coast",
-          "score": 1
-        },
         {
           "date": "20260820",
           "type": "positive",
@@ -229,6 +223,12 @@
           "type": "positive",
           "headline": "South Korea space agency shares Moon images after SpaceX rocket debris crash",
           "score": 1
+        },
+        {
+          "date": "20260807",
+          "type": "positive",
+          "headline": "Watch: Nasa astronauts conduct 6.5-hour spacewalk outside ISS",
+          "score": 1
         }
       ]
     },
@@ -247,7 +247,7 @@
           "date": "20260821",
           "type": "negative",
           "headline": "[거시분석] US says sanctions will 'squash' Iran's econom...",
-          "score": -6
+          "score": -7
         },
         {
           "date": "20260820",
@@ -587,25 +587,18 @@
     },
     {
       "date": "20260821",
-      "headline": "'Incredible': SpaceX rocket spotted off Christmas Island coast",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260821",
       "headline": "[거시분석] US says sanctions will 'squash' Iran's econom...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -6,
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -7,
         "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 43,
-  "total_positives": 32,
+  "total_negatives": 44,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
