@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T12:05:52.416825+09:00",
+  "updated_at": "2026-08-21T13:41:24.109504+09:00",
   "date": "20260821",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -3,
-      "positive_count": 3,
+      "score": -4,
+      "positive_count": 2,
       "negative_count": 3,
       "recent_events": [
-        {
-          "date": "20260821",
-          "type": "positive",
-          "headline": "중국가전 드리미 \"정보보호·AS 강화해 한국소비자에 다가갈 것\"",
-          "score": 1
-        },
         {
           "date": "20260821",
           "type": "negative",
@@ -49,6 +43,12 @@
           "type": "positive",
           "headline": "North Korea’s hackers using AI for attacks, cybersecurity firm says",
           "score": 1
+        },
+        {
+          "date": "20260810",
+          "type": "negative",
+          "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
+          "score": -2
         }
       ]
     },
@@ -247,7 +247,7 @@
           "date": "20260821",
           "type": "negative",
           "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
-          "score": -6
+          "score": -5
         },
         {
           "date": "20260820",
@@ -587,18 +587,10 @@
     },
     {
       "date": "20260821",
-      "headline": "중국가전 드리미 \"정보보호·AS 강화해 한국소비자에 다가갈 것\"",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260821",
       "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
       "impacts": {
         "방산": 1,
-        "전체시장": -6,
+        "전체시장": -5,
         "금융": -1,
         "반도체·AI": -2
       },
@@ -606,6 +598,6 @@
     }
   ],
   "total_negatives": 43,
-  "total_positives": 32,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
