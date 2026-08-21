@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T07:30:46.524550+09:00",
+  "updated_at": "2026-08-21T10:27:53.818061+09:00",
   "date": "20260821",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260821",
           "type": "negative",
-          "headline": "[거시분석] US says sanctions will 'squash' Iran's econom...",
+          "headline": "[거시분석] US Treasury secretary says new economic measu...",
           "score": -2
         },
         {
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20260821",
-          "type": "negative",
-          "headline": "[거시분석] US says sanctions will 'squash' Iran's econom...",
-          "score": -2
-        },
         {
           "date": "20260820",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] Trump says US to reduce military drills with ...",
           "score": -2
+        },
+        {
+          "date": "20260814",
+          "type": "negative",
+          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
+          "score": -2
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20260821",
           "type": "positive",
-          "headline": "[거시분석] US says sanctions will 'squash' Iran's econom...",
-          "score": 3
+          "headline": "[거시분석] US Treasury secretary says new economic measu...",
+          "score": 1
         },
         {
           "date": "20260820",
@@ -159,15 +159,21 @@
       ]
     },
     "금융": {
-      "score": -6,
+      "score": -9,
       "positive_count": 0,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
         {
           "date": "20260821",
           "type": "negative",
-          "headline": "[거시분석] US says sanctions will 'squash' Iran's econom...",
+          "headline": "한은 부총재 \"금리 인상 부작용도…균형있게 판단\"(종합)",
           "score": -1
+        },
+        {
+          "date": "20260821",
+          "type": "negative",
+          "headline": "[거시분석] US Treasury secretary says new economic measu...",
+          "score": -3
         },
         {
           "date": "20260820",
@@ -185,12 +191,6 @@
           "date": "20260813",
           "type": "negative",
           "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-          "score": -1
-        },
-        {
-          "date": "20260812",
-          "type": "negative",
-          "headline": "[거시분석] Trump's dramatic plane swap hints at personal...",
           "score": -1
         }
       ]
@@ -246,7 +246,7 @@
         {
           "date": "20260821",
           "type": "negative",
-          "headline": "[거시분석] US says sanctions will 'squash' Iran's econom...",
+          "headline": "[거시분석] US Treasury secretary says new economic measu...",
           "score": -7
         },
         {
@@ -587,12 +587,19 @@
     },
     {
       "date": "20260821",
-      "headline": "[거시분석] US says sanctions will 'squash' Iran's econom...",
+      "headline": "한은 부총재 \"금리 인상 부작용도…균형있게 판단\"(종합)",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
+        "금융": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260821",
+      "headline": "[거시분석] US Treasury secretary says new economic measu...",
+      "impacts": {
+        "방산": 1,
         "전체시장": -7,
-        "금융": -1,
+        "금융": -3,
         "반도체·AI": -2
       },
       "source": "geo_categories"
