@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T01:37:58.464075+09:00",
+  "updated_at": "2026-08-22T03:40:29.853676+09:00",
   "date": "20260822",
   "window_days": 14,
   "sectors": [
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20260822",
-          "type": "negative",
-          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
-          "score": -2
-        },
         {
           "date": "20260821",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
           "score": -2
+        },
+        {
+          "date": "20260817",
+          "type": "negative",
+          "headline": "[거시분석] Trump says US to reduce military drills with ...",
+          "score": -2
         }
       ]
     },
@@ -98,7 +98,7 @@
           "date": "20260822",
           "type": "positive",
           "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260821",
@@ -229,13 +229,19 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 18,
+      "negative_count": 19,
       "recent_events": [
         {
           "date": "20260822",
           "type": "negative",
+          "headline": "美선거 앞 물가 민심에…트럼프, 다진소고기 초과관세 면제",
+          "score": -1
+        },
+        {
+          "date": "20260822",
+          "type": "negative",
           "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
-          "score": -8
+          "score": -5
         },
         {
           "date": "20260821",
@@ -253,12 +259,6 @@
           "date": "20260819",
           "type": "positive",
           "headline": "임성재 \"8년 연속 PGA 투어 최종전 진출, 이루겠다\"",
-          "score": 1
-        },
-        {
-          "date": "20260819",
-          "type": "positive",
-          "headline": "종전 협상은 멈췄지만…러·우크라, 포로 103명씩 맞교환",
           "score": 1
         }
       ]
@@ -552,11 +552,18 @@
     },
     {
       "date": "20260822",
+      "headline": "美선거 앞 물가 민심에…트럼프, 다진소고기 초과관세 면제",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260822",
       "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -8,
+        "방산": 1,
+        "전체시장": -5,
         "금융": -1,
         "반도체·AI": -2
       },
