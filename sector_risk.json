@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-21T23:38:28.550235+09:00",
-  "date": "20260821",
+  "updated_at": "2026-08-22T01:37:58.464075+09:00",
+  "date": "20260822",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -4,
+      "score": -6,
       "positive_count": 2,
-      "negative_count": 3,
+      "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20260822",
+          "type": "negative",
+          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
+          "score": -2
+        },
         {
           "date": "20260821",
           "type": "negative",
@@ -43,12 +49,6 @@
           "type": "positive",
           "headline": "North Korea’s hackers using AI for attacks, cybersecurity firm says",
           "score": 1
-        },
-        {
-          "date": "20260810",
-          "type": "negative",
-          "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
-          "score": -2
         }
       ]
     },
@@ -57,6 +57,12 @@
       "positive_count": 0,
       "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260822",
+          "type": "negative",
+          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
+          "score": -2
+        },
         {
           "date": "20260821",
           "type": "negative",
@@ -80,20 +86,20 @@
           "type": "negative",
           "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
           "score": -2
-        },
-        {
-          "date": "20260817",
-          "type": "negative",
-          "headline": "[거시분석] Trump says US to reduce military drills with ...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 6,
+      "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20260822",
+          "type": "positive",
+          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
+          "score": 3
+        },
         {
           "date": "20260821",
           "type": "positive",
@@ -117,12 +123,6 @@
           "type": "negative",
           "headline": "종전 협상은 멈췄지만…러·우크라, 포로 103명씩 맞교환",
           "score": -1
-        },
-        {
-          "date": "20260819",
-          "type": "positive",
-          "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
-          "score": 3
         }
       ]
     },
@@ -159,10 +159,16 @@
       ]
     },
     "금융": {
-      "score": -6,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260822",
+          "type": "negative",
+          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
+          "score": -1
+        },
         {
           "date": "20260821",
           "type": "negative",
@@ -186,18 +192,12 @@
           "type": "negative",
           "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
           "score": -1
-        },
-        {
-          "date": "20260812",
-          "type": "negative",
-          "headline": "[거시분석] Trump's dramatic plane swap hints at personal...",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 5,
-      "positive_count": 5,
+      "score": 3,
+      "positive_count": 3,
       "negative_count": 0,
       "recent_events": [
         {
@@ -217,18 +217,6 @@
           "type": "positive",
           "headline": "South Korea space agency shares Moon images after SpaceX rocket debris crash",
           "score": 1
-        },
-        {
-          "date": "20260807",
-          "type": "positive",
-          "headline": "South Korea space agency shares Moon images after SpaceX rocket debris crash",
-          "score": 1
-        },
-        {
-          "date": "20260807",
-          "type": "positive",
-          "headline": "Watch: Nasa astronauts conduct 6.5-hour spacewalk outside ISS",
-          "score": 1
         }
       ]
     },
@@ -240,9 +228,15 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 5,
+      "positive_count": 4,
       "negative_count": 18,
       "recent_events": [
+        {
+          "date": "20260822",
+          "type": "negative",
+          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
+          "score": -8
+        },
         {
           "date": "20260821",
           "type": "negative",
@@ -266,52 +260,11 @@
           "type": "positive",
           "headline": "종전 협상은 멈췄지만…러·우크라, 포로 103명씩 맞교환",
           "score": 1
-        },
-        {
-          "date": "20260819",
-          "type": "negative",
-          "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
-          "score": -7
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260807",
-      "headline": "South Korea space agency shares Moon images after SpaceX rocket debris crash",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260807",
-      "headline": "Watch: Nasa astronauts conduct 6.5-hour spacewalk outside ISS",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260807",
-      "headline": "‘De-escalation’: Europe hesitates as US pushes for Hormuz naval mission",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260807",
-      "headline": "[거시분석] Why was Taiwan’s president evacuated in the m...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -4
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260808",
       "headline": "South Korea space agency shares Moon images after SpaceX rocket debris crash",
@@ -596,9 +549,21 @@
         "반도체·AI": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260822",
+      "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -8,
+        "금융": -1,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 44,
-  "total_positives": 31,
+  "total_negatives": 45,
+  "total_positives": 28,
   "risk_level": "EXTREME"
 }
