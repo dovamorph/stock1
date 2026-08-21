@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T15:52:17.666046+09:00",
+  "updated_at": "2026-08-21T17:44:04.576949+09:00",
   "date": "20260821",
   "window_days": 14,
   "sectors": [
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260821",
+          "type": "negative",
+          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
+          "score": -1
+        },
         {
           "date": "20260820",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] Trump says US to reduce military drills with ...",
           "score": -2
-        },
-        {
-          "date": "20260814",
-          "type": "negative",
-          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-          "score": -2
         }
       ]
     },
@@ -98,7 +98,7 @@
           "date": "20260821",
           "type": "positive",
           "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
-          "score": 1
+          "score": 2
         },
         {
           "date": "20260820",
@@ -146,10 +146,16 @@
       ]
     },
     "로봇": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260821",
+          "type": "positive",
+          "headline": "로봇이 춤 배우고 아이돌 도전…'피지컬 AI'로 진화한 엔터테크(종합)",
+          "score": 1
+        },
         {
           "date": "20260810",
           "type": "positive",
@@ -247,7 +253,7 @@
           "date": "20260821",
           "type": "negative",
           "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
-          "score": -5
+          "score": -7
         },
         {
           "date": "20260820",
@@ -587,17 +593,26 @@
     },
     {
       "date": "20260821",
+      "headline": "로봇이 춤 배우고 아이돌 도전…'피지컬 AI'로 진화한 엔터테크(종합)",
+      "impacts": {
+        "로봇": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260821",
       "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -5,
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -7,
         "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 43,
-  "total_positives": 31,
+  "total_negatives": 44,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
