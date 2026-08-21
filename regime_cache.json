@@ -1,7 +1,7 @@
 {
   "regime": "SIDEWAYS",
   "label": "횡보장 🟡",
-  "kospi": 6912.94,
+  "kospi": 6912.95,
   "ma20": 6460.71,
   "ma60": 7477.31,
   "ret_5d": -0.93,
@@ -30,5 +30,5 @@
     "trailing_stop": 0.1
   },
   "effective_position_multiplier": 0.6,
-  "cached_at": "2026-08-21T06:52:18.679247"
+  "cached_at": "2026-08-21T07:32:43.530478"
 }
