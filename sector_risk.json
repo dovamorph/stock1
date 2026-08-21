@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T05:29:07.852996+09:00",
+  "updated_at": "2026-08-22T07:27:59.818396+09:00",
   "date": "20260822",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -6,
+      "score": -4,
       "positive_count": 2,
-      "negative_count": 4,
+      "negative_count": 3,
       "recent_events": [
-        {
-          "date": "20260822",
-          "type": "negative",
-          "headline": "[거시분석] UK, Canada and Australia condemn Israel for r...",
-          "score": -2
-        },
         {
           "date": "20260821",
           "type": "negative",
@@ -49,6 +43,12 @@
           "type": "positive",
           "headline": "North Korea’s hackers using AI for attacks, cybersecurity firm says",
           "score": 1
+        },
+        {
+          "date": "20260810",
+          "type": "negative",
+          "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
+          "score": -2
         }
       ]
     },
@@ -91,15 +91,9 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 17,
+      "positive_count": 16,
       "negative_count": 5,
       "recent_events": [
-        {
-          "date": "20260822",
-          "type": "positive",
-          "headline": "러, 젤렌스키 고향 쇼핑몰 공습…15명 사망, 130명 부상",
-          "score": 1
-        },
         {
           "date": "20260822",
           "type": "positive",
@@ -122,6 +116,12 @@
           "date": "20260819",
           "type": "negative",
           "headline": "임성재 \"8년 연속 PGA 투어 최종전 진출, 이루겠다\"",
+          "score": -1
+        },
+        {
+          "date": "20260819",
+          "type": "negative",
+          "headline": "종전 협상은 멈췄지만…러·우크라, 포로 103명씩 맞교환",
           "score": -1
         }
       ]
@@ -229,7 +229,7 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 22,
+      "negative_count": 19,
       "recent_events": [
         {
           "date": "20260822",
@@ -240,26 +240,26 @@
         {
           "date": "20260822",
           "type": "negative",
-          "headline": "美선거 앞 물가 민심에…트럼프, 다진소고기 초과관세 면제(종합)",
-          "score": -1
-        },
-        {
-          "date": "20260822",
-          "type": "negative",
-          "headline": "룰라·트럼프, 80분간 통화…관세 문제 등 논의",
-          "score": -1
-        },
-        {
-          "date": "20260822",
-          "type": "negative",
-          "headline": "美선거 앞 물가 민심에…트럼프, 다진소고기 초과관세 면제",
-          "score": -1
-        },
-        {
-          "date": "20260822",
-          "type": "negative",
           "headline": "[거시분석] UK, Canada and Australia condemn Israel for r...",
-          "score": -7
+          "score": -5
+        },
+        {
+          "date": "20260821",
+          "type": "negative",
+          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
+          "score": -8
+        },
+        {
+          "date": "20260820",
+          "type": "negative",
+          "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
+          "score": -5
+        },
+        {
+          "date": "20260819",
+          "type": "positive",
+          "headline": "임성재 \"8년 연속 PGA 투어 최종전 진출, 이루겠다\"",
+          "score": 1
         }
       ]
     }
@@ -568,50 +568,17 @@
     },
     {
       "date": "20260822",
-      "headline": "美선거 앞 물가 민심에…트럼프, 다진소고기 초과관세 면제(종합)",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260822",
-      "headline": "러, 젤렌스키 고향 쇼핑몰 공습…15명 사망, 130명 부상",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260822",
-      "headline": "룰라·트럼프, 80분간 통화…관세 문제 등 논의",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260822",
-      "headline": "美선거 앞 물가 민심에…트럼프, 다진소고기 초과관세 면제",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260822",
       "headline": "[거시분석] UK, Canada and Australia condemn Israel for r...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -7,
-        "금융": -1,
-        "반도체·AI": -2
+        "전체시장": -5,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 49,
-  "total_positives": 30,
+  "total_negatives": 45,
+  "total_positives": 29,
   "risk_level": "EXTREME"
 }
