@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T03:40:29.853676+09:00",
+  "updated_at": "2026-08-22T05:29:07.852996+09:00",
   "date": "20260822",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260822",
           "type": "negative",
-          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
+          "headline": "[거시분석] UK, Canada and Australia condemn Israel for r...",
           "score": -2
         },
         {
@@ -54,9 +54,21 @@
     },
     "건설": {
       "score": -10,
-      "positive_count": 0,
-      "negative_count": 10,
+      "positive_count": 1,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260822",
+          "type": "positive",
+          "headline": "Pope Leo urges the world to ‘help begin reconstruction’ of Gaza",
+          "score": 1
+        },
+        {
+          "date": "20260822",
+          "type": "negative",
+          "headline": "[거시분석] UK, Canada and Australia condemn Israel for r...",
+          "score": -2
+        },
         {
           "date": "20260821",
           "type": "negative",
@@ -74,31 +86,25 @@
           "type": "negative",
           "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
           "score": -2
-        },
-        {
-          "date": "20260818",
-          "type": "negative",
-          "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
-          "score": -2
-        },
-        {
-          "date": "20260817",
-          "type": "negative",
-          "headline": "[거시분석] Trump says US to reduce military drills with ...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 16,
+      "positive_count": 17,
       "negative_count": 5,
       "recent_events": [
         {
           "date": "20260822",
           "type": "positive",
-          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
+          "headline": "러, 젤렌스키 고향 쇼핑몰 공습…15명 사망, 130명 부상",
           "score": 1
+        },
+        {
+          "date": "20260822",
+          "type": "positive",
+          "headline": "[거시분석] UK, Canada and Australia condemn Israel for r...",
+          "score": 3
         },
         {
           "date": "20260821",
@@ -116,12 +122,6 @@
           "date": "20260819",
           "type": "negative",
           "headline": "임성재 \"8년 연속 PGA 투어 최종전 진출, 이루겠다\"",
-          "score": -1
-        },
-        {
-          "date": "20260819",
-          "type": "negative",
-          "headline": "종전 협상은 멈췄지만…러·우크라, 포로 103명씩 맞교환",
           "score": -1
         }
       ]
@@ -166,7 +166,7 @@
         {
           "date": "20260822",
           "type": "negative",
-          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
+          "headline": "[거시분석] UK, Canada and Australia condemn Israel for r...",
           "score": -1
         },
         {
@@ -229,8 +229,26 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 19,
+      "negative_count": 22,
       "recent_events": [
+        {
+          "date": "20260822",
+          "type": "negative",
+          "headline": "US, Canada negotiators race to ink a deal as Trump’s tariff deadline looms",
+          "score": -1
+        },
+        {
+          "date": "20260822",
+          "type": "negative",
+          "headline": "美선거 앞 물가 민심에…트럼프, 다진소고기 초과관세 면제(종합)",
+          "score": -1
+        },
+        {
+          "date": "20260822",
+          "type": "negative",
+          "headline": "룰라·트럼프, 80분간 통화…관세 문제 등 논의",
+          "score": -1
+        },
         {
           "date": "20260822",
           "type": "negative",
@@ -240,26 +258,8 @@
         {
           "date": "20260822",
           "type": "negative",
-          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
-          "score": -5
-        },
-        {
-          "date": "20260821",
-          "type": "negative",
-          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
-          "score": -8
-        },
-        {
-          "date": "20260820",
-          "type": "negative",
-          "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
-          "score": -5
-        },
-        {
-          "date": "20260819",
-          "type": "positive",
-          "headline": "임성재 \"8년 연속 PGA 투어 최종전 진출, 이루겠다\"",
-          "score": 1
+          "headline": "[거시분석] UK, Canada and Australia condemn Israel for r...",
+          "score": -7
         }
       ]
     }
@@ -552,6 +552,46 @@
     },
     {
       "date": "20260822",
+      "headline": "Pope Leo urges the world to ‘help begin reconstruction’ of Gaza",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260822",
+      "headline": "US, Canada negotiators race to ink a deal as Trump’s tariff deadline looms",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260822",
+      "headline": "美선거 앞 물가 민심에…트럼프, 다진소고기 초과관세 면제(종합)",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260822",
+      "headline": "러, 젤렌스키 고향 쇼핑몰 공습…15명 사망, 130명 부상",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260822",
+      "headline": "룰라·트럼프, 80분간 통화…관세 문제 등 논의",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260822",
       "headline": "美선거 앞 물가 민심에…트럼프, 다진소고기 초과관세 면제",
       "impacts": {
         "전체시장": -1
@@ -560,17 +600,18 @@
     },
     {
       "date": "20260822",
-      "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
+      "headline": "[거시분석] UK, Canada and Australia condemn Israel for r...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -5,
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -7,
         "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 45,
-  "total_positives": 28,
+  "total_negatives": 49,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
