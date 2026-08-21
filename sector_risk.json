@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T19:33:42.035728+09:00",
+  "updated_at": "2026-08-21T21:54:03.548836+09:00",
   "date": "20260821",
   "window_days": 14,
   "sectors": [
@@ -240,15 +240,9 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 6,
+      "positive_count": 5,
       "negative_count": 18,
       "recent_events": [
-        {
-          "date": "20260821",
-          "type": "positive",
-          "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
-          "score": 1
-        },
         {
           "date": "20260821",
           "type": "negative",
@@ -272,6 +266,12 @@
           "type": "positive",
           "headline": "종전 협상은 멈췄지만…러·우크라, 포로 103명씩 맞교환",
           "score": 1
+        },
+        {
+          "date": "20260819",
+          "type": "negative",
+          "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
+          "score": -7
         }
       ]
     }
@@ -587,14 +587,6 @@
     },
     {
       "date": "20260821",
-      "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
-      "impacts": {
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260821",
       "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
       "impacts": {
         "방산": 1,
@@ -606,6 +598,6 @@
     }
   ],
   "total_negatives": 43,
-  "total_positives": 32,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
