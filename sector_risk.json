@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T10:27:53.818061+09:00",
+  "updated_at": "2026-08-21T12:05:52.416825+09:00",
   "date": "20260821",
   "window_days": 14,
   "sectors": [
@@ -16,14 +16,20 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -4,
-      "positive_count": 2,
+      "score": -3,
+      "positive_count": 3,
       "negative_count": 3,
       "recent_events": [
         {
           "date": "20260821",
+          "type": "positive",
+          "headline": "중국가전 드리미 \"정보보호·AS 강화해 한국소비자에 다가갈 것\"",
+          "score": 1
+        },
+        {
+          "date": "20260821",
           "type": "negative",
-          "headline": "[거시분석] US Treasury secretary says new economic measu...",
+          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
           "score": -2
         },
         {
@@ -43,12 +49,6 @@
           "type": "positive",
           "headline": "North Korea’s hackers using AI for attacks, cybersecurity firm says",
           "score": 1
-        },
-        {
-          "date": "20260810",
-          "type": "negative",
-          "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
-          "score": -2
         }
       ]
     },
@@ -97,7 +97,7 @@
         {
           "date": "20260821",
           "type": "positive",
-          "headline": "[거시분석] US Treasury secretary says new economic measu...",
+          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
           "score": 1
         },
         {
@@ -159,21 +159,15 @@
       ]
     },
     "금융": {
-      "score": -9,
+      "score": -6,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
         {
           "date": "20260821",
           "type": "negative",
-          "headline": "한은 부총재 \"금리 인상 부작용도…균형있게 판단\"(종합)",
+          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
           "score": -1
-        },
-        {
-          "date": "20260821",
-          "type": "negative",
-          "headline": "[거시분석] US Treasury secretary says new economic measu...",
-          "score": -3
         },
         {
           "date": "20260820",
@@ -191,6 +185,12 @@
           "date": "20260813",
           "type": "negative",
           "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
+          "score": -1
+        },
+        {
+          "date": "20260812",
+          "type": "negative",
+          "headline": "[거시분석] Trump's dramatic plane swap hints at personal...",
           "score": -1
         }
       ]
@@ -246,8 +246,8 @@
         {
           "date": "20260821",
           "type": "negative",
-          "headline": "[거시분석] US Treasury secretary says new economic measu...",
-          "score": -7
+          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
+          "score": -6
         },
         {
           "date": "20260820",
@@ -587,25 +587,25 @@
     },
     {
       "date": "20260821",
-      "headline": "한은 부총재 \"금리 인상 부작용도…균형있게 판단\"(종합)",
+      "headline": "중국가전 드리미 \"정보보호·AS 강화해 한국소비자에 다가갈 것\"",
       "impacts": {
-        "금융": -1
+        "반도체·AI": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260821",
-      "headline": "[거시분석] US Treasury secretary says new economic measu...",
+      "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
       "impacts": {
         "방산": 1,
-        "전체시장": -7,
-        "금융": -3,
+        "전체시장": -6,
+        "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 44,
-  "total_positives": 31,
+  "total_negatives": 43,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
