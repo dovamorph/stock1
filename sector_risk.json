@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T21:54:03.548836+09:00",
+  "updated_at": "2026-08-21T23:38:28.550235+09:00",
   "date": "20260821",
   "window_days": 14,
   "sectors": [
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260821",
+          "type": "negative",
+          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
+          "score": -2
+        },
         {
           "date": "20260820",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] Trump says US to reduce military drills with ...",
           "score": -2
-        },
-        {
-          "date": "20260814",
-          "type": "negative",
-          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-          "score": -2
         }
       ]
     },
@@ -98,7 +98,7 @@
           "date": "20260821",
           "type": "positive",
           "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
-          "score": 1
+          "score": 3
         },
         {
           "date": "20260820",
@@ -247,7 +247,7 @@
           "date": "20260821",
           "type": "negative",
           "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
-          "score": -5
+          "score": -8
         },
         {
           "date": "20260820",
@@ -589,15 +589,16 @@
       "date": "20260821",
       "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -5,
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -8,
         "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 43,
+  "total_negatives": 44,
   "total_positives": 31,
   "risk_level": "EXTREME"
 }
