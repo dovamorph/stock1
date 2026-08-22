@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T19:27:01.318928+09:00",
+  "updated_at": "2026-08-22T21:45:00.066690+09:00",
   "date": "20260822",
   "window_days": 14,
   "sectors": [
@@ -146,10 +146,16 @@
       ]
     },
     "로봇": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260822",
+          "type": "positive",
+          "headline": "Usain Bolt’s 100m record broken at World Humanoid Robot Games",
+          "score": 1
+        },
         {
           "date": "20260810",
           "type": "positive",
@@ -552,6 +558,14 @@
     },
     {
       "date": "20260822",
+      "headline": "Usain Bolt’s 100m record broken at World Humanoid Robot Games",
+      "impacts": {
+        "로봇": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260822",
       "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
       "impacts": {
         "방산": 3,
@@ -564,6 +578,6 @@
     }
   ],
   "total_negatives": 45,
-  "total_positives": 28,
+  "total_positives": 29,
   "risk_level": "EXTREME"
 }
