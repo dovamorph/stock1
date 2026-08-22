@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T05:26:07.002314+09:00",
+  "updated_at": "2026-08-23T07:25:17.870163+09:00",
   "date": "20260823",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -6,
-      "positive_count": 2,
+      "score": -5,
+      "positive_count": 3,
       "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20260823",
+          "type": "positive",
+          "headline": "[뉴욕증시-주간전망] '베선트 풋'에 곤란해진 워시…엔비디아 실적·PCE 지표도",
+          "score": 1
+        },
         {
           "date": "20260822",
           "type": "negative",
@@ -42,12 +48,6 @@
           "date": "20260811",
           "type": "positive",
           "headline": "Wall Street giants hand Nvidia $500bn to fund boom in AI projects",
-          "score": 1
-        },
-        {
-          "date": "20260810",
-          "type": "positive",
-          "headline": "North Korea’s hackers using AI for attacks, cybersecurity firm says",
           "score": 1
         }
       ]
@@ -235,19 +235,13 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 19,
+      "negative_count": 18,
       "recent_events": [
         {
           "date": "20260823",
           "type": "negative",
-          "headline": "캐나다 총리, 美에 보복관세 '맞불'…철강·낙농품 등에 부과",
-          "score": -1
-        },
-        {
-          "date": "20260823",
-          "type": "negative",
           "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
-          "score": -3
+          "score": -2
         },
         {
           "date": "20260822",
@@ -266,6 +260,12 @@
           "type": "negative",
           "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
           "score": -5
+        },
+        {
+          "date": "20260819",
+          "type": "positive",
+          "headline": "임성재 \"8년 연속 PGA 투어 최종전 진출, 이루겠다\"",
+          "score": 1
         }
       ]
     }
@@ -568,9 +568,9 @@
     },
     {
       "date": "20260823",
-      "headline": "캐나다 총리, 美에 보복관세 '맞불'…철강·낙농품 등에 부과",
+      "headline": "[뉴욕증시-주간전망] '베선트 풋'에 곤란해진 워시…엔비디아 실적·PCE 지표도",
       "impacts": {
-        "전체시장": -1
+        "반도체·AI": 1
       },
       "source": "keyword"
     },
@@ -579,12 +579,12 @@
       "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
       "impacts": {
         "방산": 1,
-        "전체시장": -3
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 45,
-  "total_positives": 29,
+  "total_negatives": 44,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
