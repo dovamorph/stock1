@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T07:27:59.818396+09:00",
+  "updated_at": "2026-08-22T10:22:50.382460+09:00",
   "date": "20260822",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -4,
+      "score": -6,
       "positive_count": 2,
-      "negative_count": 3,
+      "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20260822",
+          "type": "negative",
+          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
+          "score": -2
+        },
         {
           "date": "20260821",
           "type": "negative",
@@ -43,31 +49,19 @@
           "type": "positive",
           "headline": "North Korea’s hackers using AI for attacks, cybersecurity firm says",
           "score": 1
-        },
-        {
-          "date": "20260810",
-          "type": "negative",
-          "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
-          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
         {
           "date": "20260822",
           "type": "positive",
           "headline": "Pope Leo urges the world to ‘help begin reconstruction’ of Gaza",
           "score": 1
-        },
-        {
-          "date": "20260822",
-          "type": "negative",
-          "headline": "[거시분석] UK, Canada and Australia condemn Israel for r...",
-          "score": -2
         },
         {
           "date": "20260821",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
           "score": -2
+        },
+        {
+          "date": "20260818",
+          "type": "negative",
+          "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
+          "score": -2
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20260822",
           "type": "positive",
-          "headline": "[거시분석] UK, Canada and Australia condemn Israel for r...",
-          "score": 3
+          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
+          "score": 1
         },
         {
           "date": "20260821",
@@ -159,15 +159,15 @@
       ]
     },
     "금융": {
-      "score": -7,
+      "score": -8,
       "positive_count": 0,
       "negative_count": 7,
       "recent_events": [
         {
           "date": "20260822",
           "type": "negative",
-          "headline": "[거시분석] UK, Canada and Australia condemn Israel for r...",
-          "score": -1
+          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
+          "score": -2
         },
         {
           "date": "20260821",
@@ -229,19 +229,13 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 19,
+      "negative_count": 18,
       "recent_events": [
         {
           "date": "20260822",
           "type": "negative",
-          "headline": "US, Canada negotiators race to ink a deal as Trump’s tariff deadline looms",
-          "score": -1
-        },
-        {
-          "date": "20260822",
-          "type": "negative",
-          "headline": "[거시분석] UK, Canada and Australia condemn Israel for r...",
-          "score": -5
+          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
+          "score": -6
         },
         {
           "date": "20260821",
@@ -259,6 +253,12 @@
           "date": "20260819",
           "type": "positive",
           "headline": "임성재 \"8년 연속 PGA 투어 최종전 진출, 이루겠다\"",
+          "score": 1
+        },
+        {
+          "date": "20260819",
+          "type": "positive",
+          "headline": "종전 협상은 멈췄지만…러·우크라, 포로 103명씩 맞교환",
           "score": 1
         }
       ]
@@ -560,25 +560,17 @@
     },
     {
       "date": "20260822",
-      "headline": "US, Canada negotiators race to ink a deal as Trump’s tariff deadline looms",
+      "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
       "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260822",
-      "headline": "[거시분석] UK, Canada and Australia condemn Israel for r...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
-        "금융": -1
+        "방산": 1,
+        "전체시장": -6,
+        "금융": -2,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 45,
+  "total_negatives": 44,
   "total_positives": 29,
   "risk_level": "EXTREME"
 }
