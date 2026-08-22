@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22 23:24",
+  "updated": "2026-08-23 01:28",
   "news_count": 86,
   "intl_count": 56,
   "domestic_count": 30,
@@ -13,20 +13,21 @@
     "StockPlus": 0
   },
   "news_sample": [
-    "Canada says it will match US tariffs 'dollar for dollar' as trade talks break down",
+    "Carney calls Trump's fresh tariffs a 'miscalculation' after trade talks collapse",
+    "Carney faces crucial test after walking away from Trump's deal",
     "TikTok to pay $400m to US in one of largest child privacy settlements",
     "Fourteen killed in strike on Myanmar monastery",
-    "Israel re-establishes closed West Bank settlement, defying growing international protests",
-    "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike"
+    "Israel re-establishes closed West Bank settlement, defying growing international protests"
   ],
   "all_headlines": [
-    "Canada says it will match US tariffs 'dollar for dollar' as trade talks break down",
+    "Carney calls Trump's fresh tariffs a 'miscalculation' after trade talks collapse",
+    "Carney faces crucial test after walking away from Trump's deal",
     "TikTok to pay $400m to US in one of largest child privacy settlements",
     "Fourteen killed in strike on Myanmar monastery",
     "Israel re-establishes closed West Bank settlement, defying growing international protests",
     "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
+    "Father leaves 7-year-old son alone on Mount Fuji to continue hike",
     "One killed in sword attack at Swedish school",
-    "Father leaves 7-year-old son alone on Mount Fuji to continue hike, reports say",
     "Lindsay Clancy suffering 'command hallucination' when she killed children, court hears",
     "UK, Canada and Australia condemn Israel for refusing criminal probe into aid worker killings in Gaza",
     "Sydney Marathon medal mistakenly depicts Munich stadium",
@@ -38,9 +39,6 @@
     "Ebola vaccine trial to start in DR Congo as warning issued over speed of infections",
     "Meghan in talks for role in Netflix series The Gentlemen, BBC understands",
     "Peru earthquake damages buildings and causes power cuts",
-    "Five missing after fire in Swiss Alpine town",
-    "Ethiopia's Virgin Mary festival in Tigray cancelled over drone strike fears",
-    "Pakistan ex-PM Imran Khan back in jail after hospital examination",
     "These bookshops let Chinese readers question their country - now the doors are closing",
     "Drugs at their fingertips, intense pressure: Why child stars fall into addiction",
     "How Israel is expanding settlements in drive to reshape West Bank",
@@ -50,7 +48,15 @@
     "Watch: Moment robot attempts to beat Usain Bolt's 100m record",
     "'Quiet, quiet, quiet!' - What triggers Trump to shut down reporters?",
     "Robot horse and rider steal the spotlight at Chinese conference",
+    "Tornadoes touch down in New York and Delaware",
+    "Priyanka Chopra Jonas on making a film about love and caste inequality",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Walk-In “Human Fridges” are Japan’s newest heatwave weapon",
+    "Did DOGE cuts make America’s food safety problem worse?",
+    "Settlers target Palestinian homes in Occupied West Bank’s Area B",
+    "Over 100 ex-diplomats urge France, UK to sanction Israel over Palestine",
+    "Israeli drone strike on ‘civilian vehicle’ injures several in Syria",
+    "What did war with the US reveal about Iran’s weapons capabilities?",
     "Man Utd humiliated at Hull to open Premier League account",
     "Fans and police injured in pitch invasion during ‘high risk’ German Cup tie",
     "Indonesia bolsters troop numbers to combat Borneo wildfires",
@@ -70,12 +76,13 @@
     "Iran says new US sanctions violate sovereignty of other states",
     "Australia bite back as 18 wickets fall on day one of second Bangladesh Test",
     "Nakashima pounds Fritz, Bejlek beats Keys in Cincinnati upsets",
-    "How will Trump’s tariffs affect Canada’s economy?",
-    "Panama Canal to reduce shipping as ‘extreme’ El Nino approaches",
-    "Lionel Messi fined for striking opponent in Inter Miami MLS game",
-    "Libya’s brain drain, 15 years after Tripoli fell",
-    "World Bank projects war-hit Lebanon’s economy to contract by 6.4 percent",
-    "Somalia child hunger crisis deepens after aid cuts, UNICEF says",
+    "극우 테러 따라했나…스웨덴 흉기난동 배후 수사",
+    "교황 \"기술 발전이 파괴적이면 무장해제해야\"",
+    "트럼프가 띄운 자동차경주 개막…美 심장부서 시속 300㎞ 질주",
+    "'김상식호' 베트남, 현대컵 결승 1차전 원정서 태국에 2-0 완승",
+    "[알림] 연합뉴스 콘텐츠 저작권 고지",
+    "울산 방어진활어센터 화재…장비 24대·인력 50명 투입",
+    "높이뛰기 우상혁, 국제대회 복귀전서 2ｍ16 실패…AG 먹구름",
     "시리아 남부서 이스라엘 공격에 1명 부상…시리아 \"주권 침해\"",
     "'8회 재역전' 삼성, 2연패 탈출…1게임 차로 선두 kt 추격(종합)",
     "[프로야구] 23일 선발투수",
@@ -98,14 +105,7 @@
     "[프로축구 부천전적] 부천 3-0 포항",
     "충북서 호우 피해 잇따라…차량 고립 등 신고 16건",
     "북극항로 시범 운항 닻 올렸다…한국 컨테이너선 첫 출항",
-    "키움, 안우진 앞세워 5연패 탈출…3위 KIA는 6연승 마침표",
-    "제주도산지에 강풍주의보 해제…제주시서부에 폭염경보 유지",
-    "[프로야구 고척전적] 키움 3-1 KIA",
-    "1238회 로또 1등 23명…당첨금 각 12억원(종합)",
-    "1238회 로또 1등 '2, 13, 18, 32, 38, 42'",
-    "논산서 중앙선 침범 교통사고…운전자 '저혈당 쇼크'",
-    "\"축구부터 콩 집기·병뚜껑 열기까지\"…베이징서 로봇운동회 개막",
-    "경북 영천서 낙뢰로 화남·신령면 등 일부 지역 정전"
+    "키움, 안우진 앞세워 5연패 탈출…3위 KIA는 6연승 마침표"
   ],
   "categories": {
     "geopolitical": {
@@ -114,7 +114,7 @@
       "signal": "🔴",
       "summary": "Rescuers dig through Ukraine mall wreckage as...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 9,
+      "matched": 10,
       "score": 1.4
     },
     "macro": {
@@ -123,8 +123,8 @@
       "signal": "🟡",
       "summary": "Russian strikes kill 6 people in Ukraine, day...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 2,
-      "score": 2.8
+      "matched": 1,
+      "score": 1.4
     },
     "disaster": {
       "level": "안전",
@@ -139,9 +139,9 @@
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "Canada says it will match US tariffs 'dollar ...",
+      "summary": "Carney calls Trump's fresh tariffs a 'miscalc...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 4,
+      "matched": 5,
       "score": 1.4
     },
     "policy": {

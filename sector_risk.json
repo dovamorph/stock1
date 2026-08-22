@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-22T23:24:32.745310+09:00",
-  "date": "20260822",
+  "updated_at": "2026-08-23T01:28:13.688443+09:00",
+  "date": "20260823",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -6,
+      "score": -8,
       "positive_count": 2,
-      "negative_count": 4,
+      "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20260823",
+          "type": "negative",
+          "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
+          "score": -2
+        },
         {
           "date": "20260822",
           "type": "negative",
@@ -43,12 +49,6 @@
           "type": "positive",
           "headline": "Wall Street giants hand Nvidia $500bn to fund boom in AI projects",
           "score": 1
-        },
-        {
-          "date": "20260810",
-          "type": "positive",
-          "headline": "North Korea’s hackers using AI for attacks, cybersecurity firm says",
-          "score": 1
         }
       ]
     },
@@ -57,6 +57,12 @@
       "positive_count": 0,
       "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260823",
+          "type": "negative",
+          "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
+          "score": -2
+        },
         {
           "date": "20260822",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
           "score": -2
-        },
-        {
-          "date": "20260818",
-          "type": "negative",
-          "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
-          "score": -2
         }
       ]
     },
@@ -94,6 +94,12 @@
       "positive_count": 16,
       "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20260823",
+          "type": "positive",
+          "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
+          "score": 3
+        },
         {
           "date": "20260822",
           "type": "positive",
@@ -116,12 +122,6 @@
           "date": "20260819",
           "type": "negative",
           "headline": "임성재 \"8년 연속 PGA 투어 최종전 진출, 이루겠다\"",
-          "score": -1
-        },
-        {
-          "date": "20260819",
-          "type": "negative",
-          "headline": "종전 협상은 멈췄지만…러·우크라, 포로 103명씩 맞교환",
           "score": -1
         }
       ]
@@ -146,10 +146,16 @@
       ]
     },
     "로봇": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 3,
+      "positive_count": 3,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260823",
+          "type": "positive",
+          "headline": "Usain Bolt’s 100m record broken at World Humanoid Robot Games",
+          "score": 1
+        },
         {
           "date": "20260822",
           "type": "positive",
@@ -165,10 +171,16 @@
       ]
     },
     "금융": {
-      "score": -7,
+      "score": -8,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260823",
+          "type": "negative",
+          "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
+          "score": -1
+        },
         {
           "date": "20260822",
           "type": "negative",
@@ -192,18 +204,12 @@
           "type": "negative",
           "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
           "score": -1
-        },
-        {
-          "date": "20260813",
-          "type": "negative",
-          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 3,
-      "positive_count": 3,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
         {
@@ -216,12 +222,6 @@
           "date": "20260811",
           "type": "positive",
           "headline": "Vietnam’s VinSpace announces deal with SpaceX to launch first satellite",
-          "score": 1
-        },
-        {
-          "date": "20260808",
-          "type": "positive",
-          "headline": "South Korea space agency shares Moon images after SpaceX rocket debris crash",
           "score": 1
         }
       ]
@@ -237,6 +237,12 @@
       "positive_count": 4,
       "negative_count": 18,
       "recent_events": [
+        {
+          "date": "20260823",
+          "type": "negative",
+          "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
+          "score": -8
+        },
         {
           "date": "20260822",
           "type": "negative",
@@ -260,35 +266,11 @@
           "type": "positive",
           "headline": "임성재 \"8년 연속 PGA 투어 최종전 진출, 이루겠다\"",
           "score": 1
-        },
-        {
-          "date": "20260819",
-          "type": "positive",
-          "headline": "종전 협상은 멈췄지만…러·우크라, 포로 103명씩 맞교환",
-          "score": 1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260808",
-      "headline": "South Korea space agency shares Moon images after SpaceX rocket debris crash",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260808",
-      "headline": "[거시분석] Child among three killed in Russian missile a...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -4
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260809",
       "headline": "네타냐후 \"하마스 무장해제까지 철군 없다\"…트럼프에 반기",
@@ -575,9 +557,29 @@
         "반도체·AI": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260823",
+      "headline": "Usain Bolt’s 100m record broken at World Humanoid Robot Games",
+      "impacts": {
+        "로봇": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260823",
+      "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -8,
+        "금융": -1,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 45,
+  "total_negatives": 47,
   "total_positives": 29,
   "risk_level": "EXTREME"
 }
