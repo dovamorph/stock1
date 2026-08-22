@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T10:22:50.382460+09:00",
+  "updated_at": "2026-08-22T11:56:54.993495+09:00",
   "date": "20260822",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260822",
           "type": "negative",
-          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
+          "headline": "[거시분석] 'We have more work to do', says Canada negoti...",
           "score": -2
         },
         {
@@ -97,7 +97,7 @@
         {
           "date": "20260822",
           "type": "positive",
-          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
+          "headline": "[거시분석] 'We have more work to do', says Canada negoti...",
           "score": 1
         },
         {
@@ -159,16 +159,10 @@
       ]
     },
     "금융": {
-      "score": -8,
+      "score": -6,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20260822",
-          "type": "negative",
-          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
-          "score": -2
-        },
         {
           "date": "20260821",
           "type": "negative",
@@ -191,6 +185,12 @@
           "date": "20260813",
           "type": "negative",
           "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
+          "score": -1
+        },
+        {
+          "date": "20260812",
+          "type": "negative",
+          "headline": "[거시분석] Trump's dramatic plane swap hints at personal...",
           "score": -1
         }
       ]
@@ -234,8 +234,8 @@
         {
           "date": "20260822",
           "type": "negative",
-          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
-          "score": -6
+          "headline": "[거시분석] 'We have more work to do', says Canada negoti...",
+          "score": -4
         },
         {
           "date": "20260821",
@@ -560,17 +560,16 @@
     },
     {
       "date": "20260822",
-      "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
+      "headline": "[거시분석] 'We have more work to do', says Canada negoti...",
       "impacts": {
         "방산": 1,
-        "전체시장": -6,
-        "금융": -2,
+        "전체시장": -4,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 44,
+  "total_negatives": 43,
   "total_positives": 29,
   "risk_level": "EXTREME"
 }
