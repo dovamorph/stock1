@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23 03:34",
+  "updated": "2026-08-23 05:25",
   "news_count": 86,
   "intl_count": 56,
   "domestic_count": 30,
@@ -51,6 +51,15 @@
     "Robot horse and rider steal the spotlight at Chinese conference",
     "Tornadoes touch down in New York and Delaware",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Why is Israel building new illegal settlements?",
+    "More than 200,000 newly displaced in Sudan’s Kordofan region",
+    "Israeli strikes kill two and injure others as Gaza attacks continue",
+    "Putin warns Ukraine has opened ‘Pandora’s box’, rejects peace proposals",
+    "Envoy says Israel did not give the US notice before strikes on Syrian base",
+    "Canada to match US tariffs “dollar for dollar,” PM Carney says",
+    "Carney: Canada will enact retaliatory US tariffs starting September 8",
+    "Israel, Turkiye and the new regional reordering",
+    "Swedish police identify 17-year-old girl as victim in school sword attack",
     "Armed men kidnap dozens in attacks on Nigerian villages",
     "Israel’s Chief Rabbi says Palestinians are not a people and have no rights",
     "Trump seeks to block the BBC’s attempt to subpoena Ivanka Trump, Trump Jr",
@@ -67,15 +76,9 @@
     "Over 100 ex-diplomats urge France, UK to sanction Israel over Palestine",
     "Israeli drone strike on ‘civilian vehicle’ injures several in Syria",
     "What did war with the US reveal about Iran’s weapons capabilities?",
-    "Man Utd humiliated at Hull to open Premier League account",
-    "Fans and police injured in pitch invasion during ‘high risk’ German Cup tie",
-    "Indonesia bolsters troop numbers to combat Borneo wildfires",
-    "Is Trump making Latin America great again?",
-    "As families retrieve bodies, Gaza is running out of places to bury the dead",
-    "Jewish activists push back against Israeli settlers",
-    "CONCACAF asks Infantino to skip youth event amid FIFA governance crisis",
-    "The Berlin Wall separated his family. Its legacy still endures",
-    "Russian strikes kill seven in Ukraine, day after shopping complex attack",
+    "제주, 폭염 특보에 높은 습도…최고 체감 온도 35도 이상",
+    "美, 中다롄 APEC 고위관리회의 참석…\"美기업 기회 확대\"",
+    "'마약 카르텔 연루 혐의' 美 기소 멕시코 주지사 업무 복귀",
     "[부고] 임순주(매일일보 보성 주재기자)씨 본인상",
     "1980년대 인기미드 '브이' 출연 마이클 라이트 별세…향년 70세",
     "기상청 \"제주 서귀포 동쪽 바다서 규모 2.2 지진…피해 없을 듯\"",
@@ -102,29 +105,26 @@
     "李대통령, 명진 스님 입적 애도…\"불교계 큰 어른 떠나보내\"",
     "늘어가는 실종사건 허위종결…경찰 실종자처리 믿을 수 있나",
     "반등 절실한 K리그1 전북, 울산 1-0 격파…모따 5개월만에 골맛(종합)",
-    "우크라전 장기화 속…푸틴, 총선 한달 앞두고 결집 호소",
-    "[프로축구 중간순위] 22일",
-    "반등 절실한 K리그1 전북, 울산 1-0 격파…모따 5개월만에 골맛",
-    "[프로축구 전주전적] 전북 1-0 울산"
+    "우크라전 장기화 속…푸틴, 총선 한달 앞두고 결집 호소"
   ],
   "categories": {
     "geopolitical": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
-      "summary": "Rescuers dig through Ukraine mall wreckage as...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 8,
-      "score": 1.4
-    },
-    "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Russian strikes kill seven in Ukraine, day af...",
+      "summary": "Rescuers dig through Ukraine mall wreckage as...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.4
+      "matched": 7,
+      "score": 10.2
+    },
+    "macro": {
+      "level": "안전",
+      "color": "green",
+      "signal": "🟢",
+      "summary": "관련 이슈 없음",
+      "action": "정상 운용 유지",
+      "matched": 0,
+      "score": 0
     },
     "disaster": {
       "level": "안전",
@@ -141,8 +141,8 @@
       "signal": "🟡",
       "summary": "Carney calls Trump's fresh tariffs a 'miscalc...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 7,
-      "score": 8.8
+      "matched": 9,
+      "score": 11.6
     },
     "policy": {
       "level": "주의",
@@ -155,9 +155,9 @@
     }
   },
   "overall": {
-    "level": "주의",
-    "color": "yellow",
-    "summary": "주의 필요: 지정학적 충돌",
-    "action": "신규 매수 자제 / 추이 관찰"
+    "level": "안전",
+    "color": "green",
+    "summary": "전반적 안정. 정상 운용 유지",
+    "action": "정상 운용 유지"
   }
 }
