@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T15:44:29.822287+09:00",
+  "updated_at": "2026-08-22T17:33:59.383275+09:00",
   "date": "20260822",
   "window_days": 14,
   "sectors": [
@@ -229,8 +229,14 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 18,
+      "negative_count": 19,
       "recent_events": [
+        {
+          "date": "20260822",
+          "type": "negative",
+          "headline": "미·캐나다 무역협상 결렬…일부 캐나다 수입품 50% 관세(종합)",
+          "score": -1
+        },
         {
           "date": "20260822",
           "type": "negative",
@@ -253,12 +259,6 @@
           "date": "20260819",
           "type": "positive",
           "headline": "임성재 \"8년 연속 PGA 투어 최종전 진출, 이루겠다\"",
-          "score": 1
-        },
-        {
-          "date": "20260819",
-          "type": "positive",
-          "headline": "종전 협상은 멈췄지만…러·우크라, 포로 103명씩 맞교환",
           "score": 1
         }
       ]
@@ -552,6 +552,14 @@
     },
     {
       "date": "20260822",
+      "headline": "미·캐나다 무역협상 결렬…일부 캐나다 수입품 50% 관세(종합)",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260822",
       "headline": "[거시분석] Search for survivors after 16 killed by Russi...",
       "impacts": {
         "방산": 3,
@@ -563,7 +571,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 45,
+  "total_negatives": 46,
   "total_positives": 28,
   "risk_level": "EXTREME"
 }
