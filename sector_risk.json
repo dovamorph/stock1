@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T11:56:54.993495+09:00",
+  "updated_at": "2026-08-22T13:36:09.481473+09:00",
   "date": "20260822",
   "window_days": 14,
   "sectors": [
@@ -229,8 +229,20 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 18,
+      "negative_count": 20,
       "recent_events": [
+        {
+          "date": "20260822",
+          "type": "negative",
+          "headline": "미·캐나다 무역협상 결렬…트럼프 신규 관세 현실화",
+          "score": -1
+        },
+        {
+          "date": "20260822",
+          "type": "negative",
+          "headline": "[속보] 미·캐나다 협상 결렬…캐나다산 제품 50% 관세 현실화",
+          "score": -1
+        },
         {
           "date": "20260822",
           "type": "negative",
@@ -248,18 +260,6 @@
           "type": "negative",
           "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
           "score": -5
-        },
-        {
-          "date": "20260819",
-          "type": "positive",
-          "headline": "임성재 \"8년 연속 PGA 투어 최종전 진출, 이루겠다\"",
-          "score": 1
-        },
-        {
-          "date": "20260819",
-          "type": "positive",
-          "headline": "종전 협상은 멈췄지만…러·우크라, 포로 103명씩 맞교환",
-          "score": 1
         }
       ]
     }
@@ -560,6 +560,22 @@
     },
     {
       "date": "20260822",
+      "headline": "미·캐나다 무역협상 결렬…트럼프 신규 관세 현실화",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260822",
+      "headline": "[속보] 미·캐나다 협상 결렬…캐나다산 제품 50% 관세 현실화",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260822",
       "headline": "[거시분석] 'We have more work to do', says Canada negoti...",
       "impacts": {
         "방산": 1,
@@ -569,7 +585,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 43,
+  "total_negatives": 45,
   "total_positives": 29,
   "risk_level": "EXTREME"
 }
