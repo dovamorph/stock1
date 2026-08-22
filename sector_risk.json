@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T01:28:13.688443+09:00",
+  "updated_at": "2026-08-23T03:34:32.225548+09:00",
   "date": "20260823",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -8,
+      "score": -6,
       "positive_count": 2,
-      "negative_count": 5,
+      "negative_count": 4,
       "recent_events": [
-        {
-          "date": "20260823",
-          "type": "negative",
-          "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
-          "score": -2
-        },
         {
           "date": "20260822",
           "type": "negative",
@@ -48,6 +42,12 @@
           "date": "20260811",
           "type": "positive",
           "headline": "Wall Street giants hand Nvidia $500bn to fund boom in AI projects",
+          "score": 1
+        },
+        {
+          "date": "20260810",
+          "type": "positive",
+          "headline": "North Korea’s hackers using AI for attacks, cybersecurity firm says",
           "score": 1
         }
       ]
@@ -153,7 +153,7 @@
         {
           "date": "20260823",
           "type": "positive",
-          "headline": "Usain Bolt’s 100m record broken at World Humanoid Robot Games",
+          "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
           "score": 1
         },
         {
@@ -235,13 +235,19 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 18,
+      "negative_count": 19,
       "recent_events": [
         {
           "date": "20260823",
           "type": "negative",
+          "headline": "캐나다 총리, 美에 보복관세 '맞불'…철강·낙농품 등에 부과",
+          "score": -1
+        },
+        {
+          "date": "20260823",
+          "type": "negative",
           "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
-          "score": -8
+          "score": -6
         },
         {
           "date": "20260822",
@@ -260,12 +266,6 @@
           "type": "negative",
           "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
           "score": -5
-        },
-        {
-          "date": "20260819",
-          "type": "positive",
-          "headline": "임성재 \"8년 연속 PGA 투어 최종전 진출, 이루겠다\"",
-          "score": 1
         }
       ]
     }
@@ -560,9 +560,17 @@
     },
     {
       "date": "20260823",
-      "headline": "Usain Bolt’s 100m record broken at World Humanoid Robot Games",
+      "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
       "impacts": {
         "로봇": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260823",
+      "headline": "캐나다 총리, 美에 보복관세 '맞불'…철강·낙농품 등에 부과",
+      "impacts": {
+        "전체시장": -1
       },
       "source": "keyword"
     },
@@ -572,9 +580,8 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -8,
-        "금융": -1,
-        "반도체·AI": -2
+        "전체시장": -6,
+        "금융": -1
       },
       "source": "geo_categories"
     }

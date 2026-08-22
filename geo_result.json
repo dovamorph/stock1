@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23 01:28",
+  "updated": "2026-08-23 03:34",
   "news_count": 86,
   "intl_count": 56,
   "domestic_count": 30,
@@ -17,16 +17,17 @@
     "Carney faces crucial test after walking away from Trump's deal",
     "TikTok to pay $400m to US in one of largest child privacy settlements",
     "Fourteen killed in strike on Myanmar monastery",
-    "Israel re-establishes closed West Bank settlement, defying growing international protests"
+    "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike"
   ],
   "all_headlines": [
     "Carney calls Trump's fresh tariffs a 'miscalculation' after trade talks collapse",
     "Carney faces crucial test after walking away from Trump's deal",
     "TikTok to pay $400m to US in one of largest child privacy settlements",
     "Fourteen killed in strike on Myanmar monastery",
-    "Israel re-establishes closed West Bank settlement, defying growing international protests",
     "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
+    "US military newspaper editor voices censorship fears after being fired",
     "Father leaves 7-year-old son alone on Mount Fuji to continue hike",
+    "Israel re-establishes closed West Bank settlement, defying growing international protests",
     "One killed in sword attack at Swedish school",
     "Lindsay Clancy suffering 'command hallucination' when she killed children, court hears",
     "UK, Canada and Australia condemn Israel for refusing criminal probe into aid worker killings in Gaza",
@@ -45,12 +46,21 @@
     "Modi spent years building his strong image - why is he making Gen Z reels now?",
     "Rosenberg: Shortage of petrol but not patriotism as Russians feel growing impact of war",
     "How much could Trump's 'economic D-Day' hurt Iran?",
-    "Watch: Moment robot attempts to beat Usain Bolt's 100m record",
+    "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
     "'Quiet, quiet, quiet!' - What triggers Trump to shut down reporters?",
     "Robot horse and rider steal the spotlight at Chinese conference",
     "Tornadoes touch down in New York and Delaware",
-    "Priyanka Chopra Jonas on making a film about love and caste inequality",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Armed men kidnap dozens in attacks on Nigerian villages",
+    "Israel’s Chief Rabbi says Palestinians are not a people and have no rights",
+    "Trump seeks to block the BBC’s attempt to subpoena Ivanka Trump, Trump Jr",
+    "‘Not a small issue’: People deported by US to Liberia face uncertain future",
+    "Seven killed, including two police officers, in UK ‘wrong-side’ car crash",
+    "South Korea sending first container ship through Arctic route",
+    "Sanctioned by EU, Israeli settler steals and kills Palestinian donkey",
+    "LIVE: Espanyol vs Real Madrid: La Liga",
+    "How is the pro-Israel lobby influencing US elections?",
+    "Elche vs Barcelona: La Liga – prediction, team news, lineups",
     "Walk-In “Human Fridges” are Japan’s newest heatwave weapon",
     "Did DOGE cuts make America’s food safety problem worse?",
     "Settlers target Palestinian homes in Occupied West Bank’s Area B",
@@ -65,17 +75,13 @@
     "Jewish activists push back against Israeli settlers",
     "CONCACAF asks Infantino to skip youth event amid FIFA governance crisis",
     "The Berlin Wall separated his family. Its legacy still endures",
-    "Russian strikes kill 6 people in Ukraine, day after shopping complex attack",
-    "Hundreds of children take part in swimming class on Gaza’s shore",
-    "Usain Bolt’s 100m record broken at World Humanoid Robot Games",
-    "Ebola continues to spread in the DRC as 16,000 vaccine doses arrive",
-    "More than 16,000 doses of Ervebo vaccine arrive in Ebola-hit DR Congo",
-    "Pakistan’s PTI seeks contempt action over jailed Imran Khan’s hospital move",
-    "Manchester City preview: Five key questions heading into 2026-27 season",
-    "Former world champion boxer Zolani Tete shot and killed in South Africa",
-    "Iran says new US sanctions violate sovereignty of other states",
-    "Australia bite back as 18 wickets fall on day one of second Bangladesh Test",
-    "Nakashima pounds Fritz, Bejlek beats Keys in Cincinnati upsets",
+    "Russian strikes kill seven in Ukraine, day after shopping complex attack",
+    "[부고] 임순주(매일일보 보성 주재기자)씨 본인상",
+    "1980년대 인기미드 '브이' 출연 마이클 라이트 별세…향년 70세",
+    "기상청 \"제주 서귀포 동쪽 바다서 규모 2.2 지진…피해 없을 듯\"",
+    "일본 지바현 가시와시 북동쪽서 규모 5.9 지진 발생",
+    "美무역대표, 캐나다와 무역협상 결렬에 \"캐나다보복에 대응조치\"",
+    "캐나다 총리, 美에 보복관세 '맞불'…철강·낙농품 등에 부과",
     "극우 테러 따라했나…스웨덴 흉기난동 배후 수사",
     "교황 \"기술 발전이 파괴적이면 무장해제해야\"",
     "트럼프가 띄운 자동차경주 개막…美 심장부서 시속 300㎞ 질주",
@@ -99,13 +105,7 @@
     "우크라전 장기화 속…푸틴, 총선 한달 앞두고 결집 호소",
     "[프로축구 중간순위] 22일",
     "반등 절실한 K리그1 전북, 울산 1-0 격파…모따 5개월만에 골맛",
-    "[프로축구 전주전적] 전북 1-0 울산",
-    "[프로축구 서귀포전적] 제주 0-0 김천",
-    "[프로축구 안양전적] 서울 7-0 안양",
-    "[프로축구 부천전적] 부천 3-0 포항",
-    "충북서 호우 피해 잇따라…차량 고립 등 신고 16건",
-    "북극항로 시범 운항 닻 올렸다…한국 컨테이너선 첫 출항",
-    "키움, 안우진 앞세워 5연패 탈출…3위 KIA는 6연승 마침표"
+    "[프로축구 전주전적] 전북 1-0 울산"
   ],
   "categories": {
     "geopolitical": {
@@ -114,14 +114,14 @@
       "signal": "🔴",
       "summary": "Rescuers dig through Ukraine mall wreckage as...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 10,
+      "matched": 8,
       "score": 1.4
     },
     "macro": {
       "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "Russian strikes kill 6 people in Ukraine, day...",
+      "summary": "Russian strikes kill seven in Ukraine, day af...",
       "action": "신규 매수 자제 / 추이 관찰",
       "matched": 1,
       "score": 1.4
@@ -136,13 +136,13 @@
       "score": 0
     },
     "trade": {
-      "level": "위험",
-      "color": "red",
-      "signal": "🔴",
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
       "summary": "Carney calls Trump's fresh tariffs a 'miscalc...",
-      "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 5,
-      "score": 1.4
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 7,
+      "score": 8.8
     },
     "policy": {
       "level": "주의",
@@ -155,9 +155,9 @@
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
-    "summary": "주의 필요: 지정학적 충돌, 보호무역·공급망",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "level": "주의",
+    "color": "yellow",
+    "summary": "주의 필요: 지정학적 충돌",
+    "action": "신규 매수 자제 / 추이 관찰"
   }
 }
