@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T21:45:39.117091+09:00",
+  "updated_at": "2026-08-23T23:26:40.090908+09:00",
   "date": "20260823",
   "window_days": 14,
   "sectors": [
@@ -60,7 +60,7 @@
         {
           "date": "20260823",
           "type": "negative",
-          "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
+          "headline": "[거시분석] DR Congo and M23 rebels agree roadmap for pea...",
           "score": -1
         },
         {
@@ -97,7 +97,7 @@
         {
           "date": "20260823",
           "type": "negative",
-          "headline": "DR Congo, M23 rebels agree on roadmap for peace talks",
+          "headline": "DR Congo and M23 rebels agree roadmap for peace talks",
           "score": -1
         },
         {
@@ -109,7 +109,7 @@
         {
           "date": "20260823",
           "type": "positive",
-          "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
+          "headline": "[거시분석] DR Congo and M23 rebels agree roadmap for pea...",
           "score": 2
         },
         {
@@ -240,8 +240,8 @@
         {
           "date": "20260823",
           "type": "negative",
-          "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
-          "score": -5
+          "headline": "[거시분석] DR Congo and M23 rebels agree roadmap for pea...",
+          "score": -4
         },
         {
           "date": "20260822",
@@ -560,17 +560,17 @@
     },
     {
       "date": "20260823",
-      "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
+      "headline": "DR Congo and M23 rebels agree roadmap for peace talks",
       "impacts": {
-        "로봇": 1
+        "방산": -1
       },
       "source": "keyword"
     },
     {
       "date": "20260823",
-      "headline": "DR Congo, M23 rebels agree on roadmap for peace talks",
+      "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
       "impacts": {
-        "방산": -1
+        "로봇": 1
       },
       "source": "keyword"
     },
@@ -584,11 +584,11 @@
     },
     {
       "date": "20260823",
-      "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
+      "headline": "[거시분석] DR Congo and M23 rebels agree roadmap for pea...",
       "impacts": {
         "방산": 2,
         "건설": -1,
-        "전체시장": -5
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
