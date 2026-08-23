@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23 22:00",
+  "updated": "2026-08-23 22:44",
   "indicators": {
     "usdkrw": {
       "label": "USD/KRW",
@@ -14,8 +14,8 @@
       "label": "WTI 유가",
       "value": 87.06,
       "unit": "$/배럴",
-      "change": 0.0,
-      "change_pct": 0.0,
+      "change": -0.77,
+      "change_pct": -0.88,
       "signal": "🟡",
       "desc": "$87.1/배럴"
     },
