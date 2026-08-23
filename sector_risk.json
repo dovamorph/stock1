@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T19:26:59.794113+09:00",
+  "updated_at": "2026-08-23T21:45:39.117091+09:00",
   "date": "20260823",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -8,
+      "score": -6,
       "positive_count": 2,
-      "negative_count": 5,
+      "negative_count": 4,
       "recent_events": [
-        {
-          "date": "20260823",
-          "type": "negative",
-          "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
-          "score": -2
-        },
         {
           "date": "20260822",
           "type": "negative",
@@ -49,6 +43,12 @@
           "type": "positive",
           "headline": "Wall Street giants hand Nvidia $500bn to fund boom in AI projects",
           "score": 1
+        },
+        {
+          "date": "20260810",
+          "type": "positive",
+          "headline": "North Korea’s hackers using AI for attacks, cybersecurity firm says",
+          "score": 1
         }
       ]
     },
@@ -61,7 +61,7 @@
           "date": "20260823",
           "type": "negative",
           "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
-          "score": -2
+          "score": -1
         },
         {
           "date": "20260822",
@@ -91,7 +91,7 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 16,
+      "positive_count": 17,
       "negative_count": 6,
       "recent_events": [
         {
@@ -103,8 +103,14 @@
         {
           "date": "20260823",
           "type": "positive",
+          "headline": "물대포에 실사격 훈련까지…中·필리핀, 남중국해 군사긴장 고조",
+          "score": 1
+        },
+        {
+          "date": "20260823",
+          "type": "positive",
           "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
-          "score": 3
+          "score": 2
         },
         {
           "date": "20260822",
@@ -116,12 +122,6 @@
           "date": "20260821",
           "type": "positive",
           "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
-          "score": 3
-        },
-        {
-          "date": "20260820",
-          "type": "positive",
-          "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
           "score": 3
         }
       ]
@@ -235,25 +235,13 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 20,
+      "negative_count": 18,
       "recent_events": [
         {
           "date": "20260823",
           "type": "negative",
-          "headline": "‘You just can’t trust Trump’: Canadian premiers fire back in trade war",
-          "score": -1
-        },
-        {
-          "date": "20260823",
-          "type": "negative",
-          "headline": "Canada to hit US with retaliatory tariffs as trade war escalates",
-          "score": -1
-        },
-        {
-          "date": "20260823",
-          "type": "negative",
           "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
-          "score": -7
+          "score": -5
         },
         {
           "date": "20260822",
@@ -266,6 +254,18 @@
           "type": "negative",
           "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
           "score": -8
+        },
+        {
+          "date": "20260820",
+          "type": "negative",
+          "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
+          "score": -5
+        },
+        {
+          "date": "20260819",
+          "type": "positive",
+          "headline": "임성재 \"8년 연속 PGA 투어 최종전 진출, 이루겠다\"",
+          "score": 1
         }
       ]
     }
@@ -576,17 +576,9 @@
     },
     {
       "date": "20260823",
-      "headline": "‘You just can’t trust Trump’: Canadian premiers fire back in trade war",
+      "headline": "물대포에 실사격 훈련까지…中·필리핀, 남중국해 군사긴장 고조",
       "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260823",
-      "headline": "Canada to hit US with retaliatory tariffs as trade war escalates",
-      "impacts": {
-        "전체시장": -1
+        "방산": 1
       },
       "source": "keyword"
     },
@@ -594,15 +586,14 @@
       "date": "20260823",
       "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -7,
-        "반도체·AI": -2
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -5
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 49,
-  "total_positives": 29,
+  "total_negatives": 46,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
