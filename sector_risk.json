@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T01:29:46.918494+09:00",
+  "updated_at": "2026-08-24T03:33:43.910315+09:00",
   "date": "20260824",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260824",
           "type": "negative",
-          "headline": "[거시분석] Trump says Canada wants 'benefits' of being U...",
+          "headline": "[거시분석] DR Congo and M23 rebels agree roadmap for pea...",
           "score": -2
         },
         {
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260824",
+          "type": "negative",
+          "headline": "[거시분석] DR Congo and M23 rebels agree roadmap for pea...",
+          "score": -2
+        },
         {
           "date": "20260823",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
           "score": -2
-        },
-        {
-          "date": "20260819",
-          "type": "negative",
-          "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
-          "score": -2
         }
       ]
     },
@@ -103,8 +103,8 @@
         {
           "date": "20260824",
           "type": "positive",
-          "headline": "[거시분석] Trump says Canada wants 'benefits' of being U...",
-          "score": 1
+          "headline": "[거시분석] DR Congo and M23 rebels agree roadmap for pea...",
+          "score": 3
         },
         {
           "date": "20260823",
@@ -171,10 +171,16 @@
       ]
     },
     "금융": {
-      "score": -7,
+      "score": -8,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260824",
+          "type": "negative",
+          "headline": "[거시분석] DR Congo and M23 rebels agree roadmap for pea...",
+          "score": -1
+        },
         {
           "date": "20260822",
           "type": "negative",
@@ -197,12 +203,6 @@
           "date": "20260818",
           "type": "negative",
           "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
-          "score": -1
-        },
-        {
-          "date": "20260813",
-          "type": "negative",
-          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
           "score": -1
         }
       ]
@@ -235,13 +235,19 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 18,
+      "negative_count": 19,
       "recent_events": [
         {
           "date": "20260824",
           "type": "negative",
-          "headline": "[거시분석] Trump says Canada wants 'benefits' of being U...",
-          "score": -5
+          "headline": "국경 맞댄 미·캐나다, 맞불관세 무역전쟁…\"한때 동맹의 파탄\"",
+          "score": -1
+        },
+        {
+          "date": "20260824",
+          "type": "negative",
+          "headline": "[거시분석] DR Congo and M23 rebels agree roadmap for pea...",
+          "score": -8
         },
         {
           "date": "20260823",
@@ -260,12 +266,6 @@
           "type": "negative",
           "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
           "score": -8
-        },
-        {
-          "date": "20260820",
-          "type": "negative",
-          "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
-          "score": -5
         }
       ]
     }
@@ -576,16 +576,26 @@
     },
     {
       "date": "20260824",
-      "headline": "[거시분석] Trump says Canada wants 'benefits' of being U...",
+      "headline": "국경 맞댄 미·캐나다, 맞불관세 무역전쟁…\"한때 동맹의 파탄\"",
       "impacts": {
-        "방산": 1,
-        "전체시장": -5,
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260824",
+      "headline": "[거시분석] DR Congo and M23 rebels agree roadmap for pea...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -8,
+        "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 46,
+  "total_negatives": 49,
   "total_positives": 29,
   "risk_level": "EXTREME"
 }
