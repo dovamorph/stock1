@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23 23:26",
+  "updated": "2026-08-24 01:29",
   "news_count": 86,
   "intl_count": 56,
   "domestic_count": 30,
@@ -17,21 +17,23 @@
     "Zelensky should be asked what he knew about government corruption, sacked minister tells BBC",
     "DR Congo and M23 rebels agree roadmap for peace talks",
     "Dozens of co-ordinated arson attacks hit southern Thailand",
-    "The hotel booking mix-up that could free mushroom murderer"
+    "France links rise in drownings to heatwaves"
   ],
   "all_headlines": [
     "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
     "Zelensky should be asked what he knew about government corruption, sacked minister tells BBC",
     "DR Congo and M23 rebels agree roadmap for peace talks",
     "Dozens of co-ordinated arson attacks hit southern Thailand",
+    "France links rise in drownings to heatwaves",
+    "Thousands struggling without power in Indiana 12 days after severe storms",
     "The hotel booking mix-up that could free mushroom murderer",
-    "'New season, new trim' - Haaland reveals buzzcut",
-    "Golf brand apologises for advert that shows woman being pushed over",
     "Kejelcha breaks men's half marathon world record by 29 seconds",
+    "Golf brand apologises for advert that shows woman being pushed over",
     "'We're not going to run from it': Sydney Marathon laughs off medal error",
     "Girl, 17, killed in Swedish sword attack, police say",
+    "'New season, new trim' - Haaland reveals buzzcut",
     "Father leaves 7-year-old son alone on Mount Fuji to continue hike",
-    "Trump Mobile promoted a 'Made in the USA' phone - but the details kept changing",
+    "Man completes 2,800 mile scoot across Australia",
     "Syria says Israeli strike near Damascus violation of international law",
     "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
     "Fourteen killed in strike on Myanmar monastery",
@@ -48,9 +50,12 @@
     "How Israel is expanding settlements in drive to reshape West Bank",
     "Modi spent years building his strong image - why is he making Gen Z reels now?",
     "Rosenberg: Shortage of petrol but not patriotism as Russians feel growing impact of war",
-    "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
-    "'Quiet, quiet, quiet!' - What triggers Trump to shut down reporters?",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Can Nigeria cash in on Iran war?",
+    "Canada, US and tit-for-tat tariffs: How will they impact their economies?",
+    "Gaza families search for children missing after years of war",
+    "Iran government signals fuel price hike on eve of new US sanctions",
+    "Pezeshkian says Iran ‘has not become Venezuela’ despite war and sanctions",
     "PM Tarique Rahman’s trip stalled: What it means for Bangladesh-India ties",
     "Nordic nations ‘have lost confidence in Infantino’, demand FIFA reforms",
     "The Suez Crisis stopped the British Empire. Will Hormuz defeat the US?",
@@ -71,11 +76,11 @@
     "Far-right provocateur Jake Lang arrested after Minneapolis riot",
     "South Africa’s former boxing champion Tete shot dead outside home",
     "How the deadliest Bundibugyo Ebola outbreak can be stopped",
-    "Israel kills 3 Palestinians, including four-year-old child, in central Gaza",
-    "37 injured as magnitude 5.9 earthquake strikes eastern Japan",
-    "Where water conflicts pose the biggest threat in 2026",
-    "Israeli forces kill Palestinian boy in occupied West Bank raid",
-    "Flooding across Caracas, Venezuela, after heavy rains",
+    "트럼프 사위, '차기 하원의장 가능성' 민주 원내대표와 회동(종합)",
+    "튀니지 해상서 이민자 선박 침몰…8명 사망·6명 실종",
+    "펜스, 한국산 요격미사일 '美매개 우크라 우회배치론' 주장",
+    "러시아, 영국주재 대사 소환…\"우크라 적극 지원에 불만 표출\"",
+    "[알림] 연합뉴스 콘텐츠 저작권 고지",
     "진천 20층짜리 아파트 17층서 불…인명피해 없어(종합)",
     "빅뱅, 10만 팬과 20년 집대성한 '코스모스'…\"88세까지 팔팔하게\"",
     "푸틴 \"러 경제 파괴하려는 우크라, 판도라의 상자 열었다\"",
@@ -100,22 +105,17 @@
     "[프로축구 광주전적] 인천 1-0 광주",
     "[프로축구 대전전적] 대전 3-0 강원",
     "한국 여자배구, LA올림픽 티켓 걸린 아시아선수권서 일본에 완패",
-    "한동훈 \"제주 실종 CCTV영상 전량삭제…경찰 두달 뒤 열람 요청\"",
-    "광주 송정동서 버스·승용차 충돌…인명피해 없어",
-    "물대포에 실사격 훈련까지…中·필리핀, 남중국해 군사긴장 고조",
-    "중국축구협회, '韓성접대 의혹' 조사…\"입증할 증거 없어\"",
-    "[인사] 국무조정실·국무총리비서실",
-    "농구선수 우지원 딸 우서윤, 미스코리아 진 당선"
+    "한동훈 \"제주 실종 CCTV영상 전량삭제…경찰 두달 뒤 열람 요청\""
   ],
   "categories": {
     "geopolitical": {
-      "level": "경고",
-      "color": "orange",
-      "signal": "🟠",
+      "level": "주의",
+      "color": "yellow",
+      "signal": "🟡",
       "summary": "DR Congo and M23 rebels agree roadmap for pea...",
-      "action": "포지션 축소 검토 / 모니터링 강화",
-      "matched": 10,
-      "score": 1.5
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 13,
+      "score": 18.6
     },
     "macro": {
       "level": "안전",
@@ -136,13 +136,13 @@
       "score": 0
     },
     "trade": {
-      "level": "주의",
-      "color": "yellow",
-      "signal": "🟡",
+      "level": "위험",
+      "color": "red",
+      "signal": "🔴",
       "summary": "Trump says Canada wants 'benefits' of being U...",
-      "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 4,
-      "score": 4.5
+      "action": "포지션 현금화 고려 / 즉각 대응",
+      "matched": 6,
+      "score": 2.8
     },
     "policy": {
       "level": "주의",
@@ -157,7 +157,7 @@
   "overall": {
     "level": "주의",
     "color": "yellow",
-    "summary": "주의 필요: 지정학적 충돌",
+    "summary": "주의 필요: 보호무역·공급망",
     "action": "신규 매수 자제 / 추이 관찰"
   }
 }
