@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T15:46:16.774266+09:00",
+  "updated_at": "2026-08-23T17:33:37.471803+09:00",
   "date": "20260823",
   "window_days": 14,
   "sectors": [
@@ -54,15 +54,9 @@
     },
     "건설": {
       "score": -10,
-      "positive_count": 1,
+      "positive_count": 0,
       "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20260823",
-          "type": "positive",
-          "headline": "[속보] 당정 \"500세대↓ 재개발·재건축 '기초단체장에 권한' 제도개선\"",
-          "score": 1
-        },
         {
           "date": "20260822",
           "type": "negative",
@@ -86,14 +80,26 @@
           "type": "negative",
           "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
           "score": -2
+        },
+        {
+          "date": "20260818",
+          "type": "negative",
+          "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
+          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 5,
+      "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20260823",
+          "type": "negative",
+          "headline": "DR Congo, M23 rebels agree on roadmap for peace talks",
+          "score": -1
+        },
         {
           "date": "20260823",
           "type": "positive",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
           "score": 3
-        },
-        {
-          "date": "20260819",
-          "type": "negative",
-          "headline": "임성재 \"8년 연속 PGA 투어 최종전 진출, 이루겠다\"",
-          "score": -1
         }
       ]
     },
@@ -235,14 +235,8 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 21,
+      "negative_count": 20,
       "recent_events": [
-        {
-          "date": "20260823",
-          "type": "negative",
-          "headline": "Trump says Canada wants 'benefits' of being US state as Carney says countries in trade war",
-          "score": -1
-        },
         {
           "date": "20260823",
           "type": "negative",
@@ -265,6 +259,12 @@
           "date": "20260822",
           "type": "negative",
           "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
+          "score": -8
+        },
+        {
+          "date": "20260821",
+          "type": "negative",
+          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
           "score": -8
         }
       ]
@@ -560,17 +560,17 @@
     },
     {
       "date": "20260823",
-      "headline": "Trump says Canada wants 'benefits' of being US state as Carney says countries in trade war",
+      "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
       "impacts": {
-        "전체시장": -1
+        "로봇": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260823",
-      "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
+      "headline": "DR Congo, M23 rebels agree on roadmap for peace talks",
       "impacts": {
-        "로봇": 1
+        "방산": -1
       },
       "source": "keyword"
     },
@@ -592,14 +592,6 @@
     },
     {
       "date": "20260823",
-      "headline": "[속보] 당정 \"500세대↓ 재개발·재건축 '기초단체장에 권한' 제도개선\"",
-      "impacts": {
-        "건설": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260823",
       "headline": "[거시분석] Trump says Canada wants 'benefits' of being U...",
       "impacts": {
         "방산": 1,
@@ -610,6 +602,6 @@
     }
   ],
   "total_negatives": 48,
-  "total_positives": 30,
+  "total_positives": 29,
   "risk_level": "EXTREME"
 }
