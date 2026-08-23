@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T13:40:09.748864+09:00",
+  "updated_at": "2026-08-23T15:46:16.774266+09:00",
   "date": "20260823",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260823",
           "type": "negative",
-          "headline": "[거시분석] Carney say Trump started trade war with fresh...",
+          "headline": "[거시분석] Trump says Canada wants 'benefits' of being U...",
           "score": -2
         },
         {
@@ -54,9 +54,15 @@
     },
     "건설": {
       "score": -10,
-      "positive_count": 0,
+      "positive_count": 1,
       "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20260823",
+          "type": "positive",
+          "headline": "[속보] 당정 \"500세대↓ 재개발·재건축 '기초단체장에 권한' 제도개선\"",
+          "score": 1
+        },
         {
           "date": "20260822",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
           "score": -2
-        },
-        {
-          "date": "20260818",
-          "type": "negative",
-          "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
-          "score": -2
         }
       ]
     },
@@ -97,7 +97,7 @@
         {
           "date": "20260823",
           "type": "positive",
-          "headline": "[거시분석] Carney say Trump started trade war with fresh...",
+          "headline": "[거시분석] Trump says Canada wants 'benefits' of being U...",
           "score": 1
         },
         {
@@ -240,7 +240,7 @@
         {
           "date": "20260823",
           "type": "negative",
-          "headline": "Carney say Trump started trade war with fresh tarrifs 'attack'",
+          "headline": "Trump says Canada wants 'benefits' of being US state as Carney says countries in trade war",
           "score": -1
         },
         {
@@ -258,7 +258,7 @@
         {
           "date": "20260823",
           "type": "negative",
-          "headline": "[거시분석] Carney say Trump started trade war with fresh...",
+          "headline": "[거시분석] Trump says Canada wants 'benefits' of being U...",
           "score": -4
         },
         {
@@ -560,7 +560,7 @@
     },
     {
       "date": "20260823",
-      "headline": "Carney say Trump started trade war with fresh tarrifs 'attack'",
+      "headline": "Trump says Canada wants 'benefits' of being US state as Carney says countries in trade war",
       "impacts": {
         "전체시장": -1
       },
@@ -592,7 +592,15 @@
     },
     {
       "date": "20260823",
-      "headline": "[거시분석] Carney say Trump started trade war with fresh...",
+      "headline": "[속보] 당정 \"500세대↓ 재개발·재건축 '기초단체장에 권한' 제도개선\"",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260823",
+      "headline": "[거시분석] Trump says Canada wants 'benefits' of being U...",
       "impacts": {
         "방산": 1,
         "전체시장": -4,
@@ -602,6 +610,6 @@
     }
   ],
   "total_negatives": 48,
-  "total_positives": 29,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
