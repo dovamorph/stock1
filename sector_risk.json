@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T10:36:34.873710+09:00",
+  "updated_at": "2026-08-23T12:05:23.815843+09:00",
   "date": "20260823",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -6,
+      "score": -8,
       "positive_count": 2,
-      "negative_count": 4,
+      "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20260823",
+          "type": "negative",
+          "headline": "[거시분석] Carney calls Trump's fresh tariffs a 'miscalc...",
+          "score": -2
+        },
         {
           "date": "20260822",
           "type": "negative",
@@ -43,26 +49,14 @@
           "type": "positive",
           "headline": "Wall Street giants hand Nvidia $500bn to fund boom in AI projects",
           "score": 1
-        },
-        {
-          "date": "20260810",
-          "type": "positive",
-          "headline": "North Korea’s hackers using AI for attacks, cybersecurity firm says",
-          "score": 1
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20260823",
-          "type": "negative",
-          "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
-          "score": -2
-        },
         {
           "date": "20260822",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
           "score": -2
+        },
+        {
+          "date": "20260818",
+          "type": "negative",
+          "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
+          "score": -2
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20260823",
           "type": "positive",
-          "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
-          "score": 3
+          "headline": "[거시분석] Carney calls Trump's fresh tariffs a 'miscalc...",
+          "score": 1
         },
         {
           "date": "20260822",
@@ -235,12 +235,18 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 18,
+      "negative_count": 19,
       "recent_events": [
         {
           "date": "20260823",
           "type": "negative",
-          "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
+          "headline": "Canada to hit US with retaliatory tariffs as trade war escalates",
+          "score": -1
+        },
+        {
+          "date": "20260823",
+          "type": "negative",
+          "headline": "[거시분석] Carney calls Trump's fresh tariffs a 'miscalc...",
           "score": -4
         },
         {
@@ -260,12 +266,6 @@
           "type": "negative",
           "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
           "score": -5
-        },
-        {
-          "date": "20260819",
-          "type": "positive",
-          "headline": "임성재 \"8년 연속 PGA 투어 최종전 진출, 이루겠다\"",
-          "score": 1
         }
       ]
     }
@@ -568,16 +568,24 @@
     },
     {
       "date": "20260823",
-      "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
+      "headline": "Canada to hit US with retaliatory tariffs as trade war escalates",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -4
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260823",
+      "headline": "[거시분석] Carney calls Trump's fresh tariffs a 'miscalc...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -4,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 45,
+  "total_negatives": 46,
   "total_positives": 29,
   "risk_level": "EXTREME"
 }
