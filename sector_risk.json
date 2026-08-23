@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T05:26:46.712737+09:00",
+  "updated_at": "2026-08-24T07:25:18.040028+09:00",
   "date": "20260824",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260824",
           "type": "negative",
-          "headline": "[거시분석] DR Congo and M23 rebels agree roadmap for pea...",
+          "headline": "[거시분석] Trump says Canada wants 'benefits' of being U...",
           "score": -2
         },
         {
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20260824",
-          "type": "negative",
-          "headline": "[거시분석] DR Congo and M23 rebels agree roadmap for pea...",
-          "score": -2
-        },
         {
           "date": "20260823",
           "type": "negative",
@@ -86,13 +80,19 @@
           "type": "negative",
           "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
           "score": -2
+        },
+        {
+          "date": "20260819",
+          "type": "negative",
+          "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
+          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
         {
           "date": "20260824",
@@ -102,9 +102,15 @@
         },
         {
           "date": "20260824",
+          "type": "negative",
+          "headline": "김시우·김주형, PGA투어 PO 최종전 진출…임성재는 탈락",
+          "score": -1
+        },
+        {
+          "date": "20260824",
           "type": "positive",
-          "headline": "[거시분석] DR Congo and M23 rebels agree roadmap for pea...",
-          "score": 3
+          "headline": "[거시분석] Trump says Canada wants 'benefits' of being U...",
+          "score": 1
         },
         {
           "date": "20260823",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "물대포에 실사격 훈련까지…中·필리핀, 남중국해 군사긴장 고조",
           "score": 1
-        },
-        {
-          "date": "20260823",
-          "type": "positive",
-          "headline": "[거시분석] DR Congo and M23 rebels agree roadmap for pea...",
-          "score": 2
         }
       ]
     },
@@ -171,16 +171,10 @@
       ]
     },
     "금융": {
-      "score": -8,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20260824",
-          "type": "negative",
-          "headline": "[거시분석] DR Congo and M23 rebels agree roadmap for pea...",
-          "score": -1
-        },
         {
           "date": "20260822",
           "type": "negative",
@@ -203,6 +197,12 @@
           "date": "20260818",
           "type": "negative",
           "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
+          "score": -1
+        },
+        {
+          "date": "20260813",
+          "type": "negative",
+          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
           "score": -1
         }
       ]
@@ -234,20 +234,20 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 4,
-      "negative_count": 19,
+      "positive_count": 5,
+      "negative_count": 18,
       "recent_events": [
         {
           "date": "20260824",
-          "type": "negative",
-          "headline": "국경 맞댄 미·캐나다, 맞불관세 무역전쟁…\"한때 동맹의 파탄\"",
-          "score": -1
+          "type": "positive",
+          "headline": "김시우·김주형, PGA투어 PO 최종전 진출…임성재는 탈락",
+          "score": 1
         },
         {
           "date": "20260824",
           "type": "negative",
-          "headline": "[거시분석] DR Congo and M23 rebels agree roadmap for pea...",
-          "score": -8
+          "headline": "[거시분석] Trump says Canada wants 'benefits' of being U...",
+          "score": -4
         },
         {
           "date": "20260823",
@@ -576,26 +576,25 @@
     },
     {
       "date": "20260824",
-      "headline": "국경 맞댄 미·캐나다, 맞불관세 무역전쟁…\"한때 동맹의 파탄\"",
+      "headline": "김시우·김주형, PGA투어 PO 최종전 진출…임성재는 탈락",
       "impacts": {
-        "전체시장": -1
+        "방산": -1,
+        "전체시장": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260824",
-      "headline": "[거시분석] DR Congo and M23 rebels agree roadmap for pea...",
+      "headline": "[거시분석] Trump says Canada wants 'benefits' of being U...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -8,
-        "금융": -1,
+        "방산": 1,
+        "전체시장": -4,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 49,
-  "total_positives": 29,
+  "total_negatives": 47,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
