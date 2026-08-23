@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T12:05:23.815843+09:00",
+  "updated_at": "2026-08-23T13:40:09.748864+09:00",
   "date": "20260823",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260823",
           "type": "negative",
-          "headline": "[거시분석] Carney calls Trump's fresh tariffs a 'miscalc...",
+          "headline": "[거시분석] Carney say Trump started trade war with fresh...",
           "score": -2
         },
         {
@@ -97,7 +97,7 @@
         {
           "date": "20260823",
           "type": "positive",
-          "headline": "[거시분석] Carney calls Trump's fresh tariffs a 'miscalc...",
+          "headline": "[거시분석] Carney say Trump started trade war with fresh...",
           "score": 1
         },
         {
@@ -235,8 +235,20 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 19,
+      "negative_count": 21,
       "recent_events": [
+        {
+          "date": "20260823",
+          "type": "negative",
+          "headline": "Carney say Trump started trade war with fresh tarrifs 'attack'",
+          "score": -1
+        },
+        {
+          "date": "20260823",
+          "type": "negative",
+          "headline": "‘You just can’t trust Trump’: Canadian premiers fire back in trade war",
+          "score": -1
+        },
         {
           "date": "20260823",
           "type": "negative",
@@ -246,7 +258,7 @@
         {
           "date": "20260823",
           "type": "negative",
-          "headline": "[거시분석] Carney calls Trump's fresh tariffs a 'miscalc...",
+          "headline": "[거시분석] Carney say Trump started trade war with fresh...",
           "score": -4
         },
         {
@@ -254,18 +266,6 @@
           "type": "negative",
           "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
           "score": -8
-        },
-        {
-          "date": "20260821",
-          "type": "negative",
-          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
-          "score": -8
-        },
-        {
-          "date": "20260820",
-          "type": "negative",
-          "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
-          "score": -5
         }
       ]
     }
@@ -560,9 +560,25 @@
     },
     {
       "date": "20260823",
+      "headline": "Carney say Trump started trade war with fresh tarrifs 'attack'",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260823",
       "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
       "impacts": {
         "로봇": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260823",
+      "headline": "‘You just can’t trust Trump’: Canadian premiers fire back in trade war",
+      "impacts": {
+        "전체시장": -1
       },
       "source": "keyword"
     },
@@ -576,7 +592,7 @@
     },
     {
       "date": "20260823",
-      "headline": "[거시분석] Carney calls Trump's fresh tariffs a 'miscalc...",
+      "headline": "[거시분석] Carney say Trump started trade war with fresh...",
       "impacts": {
         "방산": 1,
         "전체시장": -4,
@@ -585,7 +601,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 46,
+  "total_negatives": 48,
   "total_positives": 29,
   "risk_level": "EXTREME"
 }
