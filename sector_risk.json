@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T07:25:17.870163+09:00",
+  "updated_at": "2026-08-23T10:36:34.873710+09:00",
   "date": "20260823",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -5,
-      "positive_count": 3,
+      "score": -6,
+      "positive_count": 2,
       "negative_count": 4,
       "recent_events": [
-        {
-          "date": "20260823",
-          "type": "positive",
-          "headline": "[뉴욕증시-주간전망] '베선트 풋'에 곤란해진 워시…엔비디아 실적·PCE 지표도",
-          "score": 1
-        },
         {
           "date": "20260822",
           "type": "negative",
@@ -49,14 +43,26 @@
           "type": "positive",
           "headline": "Wall Street giants hand Nvidia $500bn to fund boom in AI projects",
           "score": 1
+        },
+        {
+          "date": "20260810",
+          "type": "positive",
+          "headline": "North Korea’s hackers using AI for attacks, cybersecurity firm says",
+          "score": 1
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260823",
+          "type": "negative",
+          "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
+          "score": -2
+        },
         {
           "date": "20260822",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
           "score": -2
-        },
-        {
-          "date": "20260818",
-          "type": "negative",
-          "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
-          "score": -2
         }
       ]
     },
@@ -98,7 +98,7 @@
           "date": "20260823",
           "type": "positive",
           "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
-          "score": 1
+          "score": 3
         },
         {
           "date": "20260822",
@@ -241,7 +241,7 @@
           "date": "20260823",
           "type": "negative",
           "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
-          "score": -2
+          "score": -4
         },
         {
           "date": "20260822",
@@ -568,23 +568,16 @@
     },
     {
       "date": "20260823",
-      "headline": "[뉴욕증시-주간전망] '베선트 풋'에 곤란해진 워시…엔비디아 실적·PCE 지표도",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260823",
       "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -2
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 44,
-  "total_positives": 30,
+  "total_negatives": 45,
+  "total_positives": 29,
   "risk_level": "EXTREME"
 }
