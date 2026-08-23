@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T17:33:37.471803+09:00",
+  "updated_at": "2026-08-23T19:26:59.794113+09:00",
   "date": "20260823",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260823",
           "type": "negative",
-          "headline": "[거시분석] Trump says Canada wants 'benefits' of being U...",
+          "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
           "score": -2
         },
         {
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260823",
+          "type": "negative",
+          "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
+          "score": -2
+        },
         {
           "date": "20260822",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
           "score": -2
-        },
-        {
-          "date": "20260818",
-          "type": "negative",
-          "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
-          "score": -2
         }
       ]
     },
@@ -103,8 +103,8 @@
         {
           "date": "20260823",
           "type": "positive",
-          "headline": "[거시분석] Trump says Canada wants 'benefits' of being U...",
-          "score": 1
+          "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
+          "score": 3
         },
         {
           "date": "20260822",
@@ -252,8 +252,8 @@
         {
           "date": "20260823",
           "type": "negative",
-          "headline": "[거시분석] Trump says Canada wants 'benefits' of being U...",
-          "score": -4
+          "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
+          "score": -7
         },
         {
           "date": "20260822",
@@ -592,16 +592,17 @@
     },
     {
       "date": "20260823",
-      "headline": "[거시분석] Trump says Canada wants 'benefits' of being U...",
+      "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -4,
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -7,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 48,
+  "total_negatives": 49,
   "total_positives": 29,
   "risk_level": "EXTREME"
 }
