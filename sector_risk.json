@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T01:41:21.154953+09:00",
+  "updated_at": "2026-08-25T03:44:35.035728+09:00",
   "date": "20260825",
   "window_days": 14,
   "sectors": [
@@ -241,7 +241,7 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 27,
+      "negative_count": 26,
       "recent_events": [
         {
           "date": "20260825",
@@ -252,19 +252,13 @@
         {
           "date": "20260825",
           "type": "negative",
-          "headline": "WSJ, 트럼프의 캐나다 관세전에 \"가장 어리석은 무역전쟁\"",
+          "headline": "[속보] 美, 이란 핵·석유 연계 단체 등 60개 제재 대상 지정",
           "score": -1
         },
         {
           "date": "20260825",
           "type": "negative",
-          "headline": "트럼프, 보복관세 캐나다에 \"내년부터 자동차 관세 50%로\" 반격",
-          "score": -1
-        },
-        {
-          "date": "20260825",
-          "type": "negative",
-          "headline": "뉴욕증시, 대이란 제재 발표 대기하며 혼조 출발",
+          "headline": "[속보] 美재무, 대이란 제재 中포함 여부에 \"누구도 제재 못 벗어나\"",
           "score": -1
         },
         {
@@ -272,6 +266,12 @@
           "type": "negative",
           "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
           "score": -6
+        },
+        {
+          "date": "20260824",
+          "type": "negative",
+          "headline": "'Half my business will be gone' - firms in Canada and US fear trade war",
+          "score": -1
         }
       ]
     }
@@ -630,33 +630,25 @@
     },
     {
       "date": "20260825",
+      "headline": "[속보] 美, 이란 핵·석유 연계 단체 등 60개 제재 대상 지정",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260825",
+      "headline": "[속보] 美재무, 대이란 제재 中포함 여부에 \"누구도 제재 못 벗어나\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260825",
       "headline": "우크라 공습 직격탄 맞은 '러시아판 아마존'…러, 지원책 발표",
       "impacts": {
         "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260825",
-      "headline": "WSJ, 트럼프의 캐나다 관세전에 \"가장 어리석은 무역전쟁\"",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260825",
-      "headline": "트럼프, 보복관세 캐나다에 \"내년부터 자동차 관세 50%로\" 반격",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260825",
-      "headline": "뉴욕증시, 대이란 제재 발표 대기하며 혼조 출발",
-      "impacts": {
-        "전체시장": -1
       },
       "source": "keyword"
     },
@@ -672,7 +664,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 55,
+  "total_negatives": 54,
   "total_positives": 31,
   "risk_level": "EXTREME"
 }
