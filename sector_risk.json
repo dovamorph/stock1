@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T19:39:41.027602+09:00",
+  "updated_at": "2026-08-24T21:55:59.451516+09:00",
   "date": "20260824",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260824",
           "type": "negative",
-          "headline": "[거시분석] Trump says Canada wants 'benefits' of being U...",
+          "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
           "score": -2
         },
         {
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260824",
+          "type": "negative",
+          "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
+          "score": -2
+        },
         {
           "date": "20260823",
           "type": "negative",
@@ -80,37 +86,19 @@
           "type": "negative",
           "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
           "score": -2
-        },
-        {
-          "date": "20260819",
-          "type": "negative",
-          "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 7,
+      "negative_count": 5,
       "recent_events": [
         {
           "date": "20260824",
-          "type": "negative",
-          "headline": "DR Congo and M23 rebels agree roadmap for peace talks",
-          "score": -1
-        },
-        {
-          "date": "20260824",
-          "type": "negative",
-          "headline": "Pakistan’s army chief back in Iran: Can he break peace talks deadlock?",
-          "score": -1
-        },
-        {
-          "date": "20260824",
           "type": "positive",
-          "headline": "[거시분석] Trump says Canada wants 'benefits' of being U...",
-          "score": 1
+          "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
+          "score": 3
         },
         {
           "date": "20260823",
@@ -123,6 +111,18 @@
           "type": "positive",
           "headline": "물대포에 실사격 훈련까지…中·필리핀, 남중국해 군사긴장 고조",
           "score": 1
+        },
+        {
+          "date": "20260823",
+          "type": "positive",
+          "headline": "[거시분석] DR Congo and M23 rebels agree roadmap for pea...",
+          "score": 2
+        },
+        {
+          "date": "20260822",
+          "type": "positive",
+          "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
+          "score": 3
         }
       ]
     },
@@ -246,20 +246,20 @@
         {
           "date": "20260824",
           "type": "negative",
-          "headline": "'Half my business will be gone' - Firms in Canada and US fear trade war",
+          "headline": "'Half my business will be gone' - firms in Canada and US fear trade war",
           "score": -1
         },
         {
           "date": "20260824",
           "type": "negative",
-          "headline": "Canada-US trade war: Who wins? Who loses?",
+          "headline": "데이터센터로 부딪힌 트럼프-공화…캐나다 관세도 이견",
           "score": -1
         },
         {
           "date": "20260824",
           "type": "negative",
-          "headline": "[거시분석] Trump says Canada wants 'benefits' of being U...",
-          "score": -4
+          "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
+          "score": -6
         },
         {
           "date": "20260823",
@@ -574,15 +574,7 @@
     },
     {
       "date": "20260824",
-      "headline": "DR Congo and M23 rebels agree roadmap for peace talks",
-      "impacts": {
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260824",
-      "headline": "'Half my business will be gone' - Firms in Canada and US fear trade war",
+      "headline": "'Half my business will be gone' - firms in Canada and US fear trade war",
       "impacts": {
         "전체시장": -1
       },
@@ -598,7 +590,7 @@
     },
     {
       "date": "20260824",
-      "headline": "Canada-US trade war: Who wins? Who loses?",
+      "headline": "데이터센터로 부딪힌 트럼프-공화…캐나다 관세도 이견",
       "impacts": {
         "전체시장": -1
       },
@@ -606,24 +598,17 @@
     },
     {
       "date": "20260824",
-      "headline": "Pakistan’s army chief back in Iran: Can he break peace talks deadlock?",
+      "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
       "impacts": {
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260824",
-      "headline": "[거시분석] Trump says Canada wants 'benefits' of being U...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -4,
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -6,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 49,
+  "total_negatives": 48,
   "total_positives": 30,
   "risk_level": "EXTREME"
 }
