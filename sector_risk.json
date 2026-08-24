@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T07:25:18.040028+09:00",
+  "updated_at": "2026-08-24T10:34:58.590537+09:00",
   "date": "20260824",
   "window_days": 14,
   "sectors": [
@@ -92,18 +92,12 @@
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
         {
           "date": "20260824",
           "type": "negative",
           "headline": "DR Congo and M23 rebels agree roadmap for peace talks",
-          "score": -1
-        },
-        {
-          "date": "20260824",
-          "type": "negative",
-          "headline": "김시우·김주형, PGA투어 PO 최종전 진출…임성재는 탈락",
           "score": -1
         },
         {
@@ -123,6 +117,12 @@
           "type": "positive",
           "headline": "물대포에 실사격 훈련까지…中·필리핀, 남중국해 군사긴장 고조",
           "score": 1
+        },
+        {
+          "date": "20260823",
+          "type": "positive",
+          "headline": "[거시분석] DR Congo and M23 rebels agree roadmap for pea...",
+          "score": 2
         }
       ]
     },
@@ -234,15 +234,9 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 5,
+      "positive_count": 4,
       "negative_count": 18,
       "recent_events": [
-        {
-          "date": "20260824",
-          "type": "positive",
-          "headline": "김시우·김주형, PGA투어 PO 최종전 진출…임성재는 탈락",
-          "score": 1
-        },
         {
           "date": "20260824",
           "type": "negative",
@@ -266,6 +260,12 @@
           "type": "negative",
           "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
           "score": -8
+        },
+        {
+          "date": "20260820",
+          "type": "negative",
+          "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
+          "score": -5
         }
       ]
     }
@@ -576,15 +576,6 @@
     },
     {
       "date": "20260824",
-      "headline": "김시우·김주형, PGA투어 PO 최종전 진출…임성재는 탈락",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260824",
       "headline": "[거시분석] Trump says Canada wants 'benefits' of being U...",
       "impacts": {
         "방산": 1,
@@ -594,7 +585,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 47,
-  "total_positives": 30,
+  "total_negatives": 46,
+  "total_positives": 29,
   "risk_level": "EXTREME"
 }
