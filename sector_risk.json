@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T16:04:08.195727+09:00",
+  "updated_at": "2026-08-24T17:51:50.519495+09:00",
   "date": "20260824",
   "window_days": 14,
   "sectors": [
@@ -92,12 +92,24 @@
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 6,
+      "negative_count": 8,
       "recent_events": [
         {
           "date": "20260824",
           "type": "negative",
           "headline": "DR Congo and M23 rebels agree roadmap for peace talks",
+          "score": -1
+        },
+        {
+          "date": "20260824",
+          "type": "negative",
+          "headline": "Pakistan’s army chief back in Iran: Can he break peace talks deadlock?",
+          "score": -1
+        },
+        {
+          "date": "20260824",
+          "type": "negative",
+          "headline": "PGA 투어 PO 최종전 못 나가는 임성재, 세계랭킹은 57위로 상승",
           "score": -1
         },
         {
@@ -111,18 +123,6 @@
           "type": "negative",
           "headline": "DR Congo and M23 rebels agree roadmap for peace talks",
           "score": -1
-        },
-        {
-          "date": "20260823",
-          "type": "positive",
-          "headline": "물대포에 실사격 훈련까지…中·필리핀, 남중국해 군사긴장 고조",
-          "score": 1
-        },
-        {
-          "date": "20260823",
-          "type": "positive",
-          "headline": "[거시분석] DR Congo and M23 rebels agree roadmap for pea...",
-          "score": 2
         }
       ]
     },
@@ -240,19 +240,19 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 6,
-      "negative_count": 18,
+      "positive_count": 5,
+      "negative_count": 19,
       "recent_events": [
         {
           "date": "20260824",
-          "type": "positive",
-          "headline": "[표] 거래소 외국인 순매수도 상위종목(24일)",
-          "score": 1
+          "type": "negative",
+          "headline": "Canada-US trade war: Who wins? Who loses?",
+          "score": -1
         },
         {
           "date": "20260824",
           "type": "positive",
-          "headline": "[표] 코스닥 외국인 순매수도 상위종목(24일)",
+          "headline": "PGA 투어 PO 최종전 못 나가는 임성재, 세계랭킹은 57위로 상승",
           "score": 1
         },
         {
@@ -590,16 +590,25 @@
     },
     {
       "date": "20260824",
-      "headline": "[표] 거래소 외국인 순매수도 상위종목(24일)",
+      "headline": "Canada-US trade war: Who wins? Who loses?",
       "impacts": {
-        "전체시장": 1
+        "전체시장": -1
       },
       "source": "keyword"
     },
     {
       "date": "20260824",
-      "headline": "[표] 코스닥 외국인 순매수도 상위종목(24일)",
+      "headline": "Pakistan’s army chief back in Iran: Can he break peace talks deadlock?",
       "impacts": {
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260824",
+      "headline": "PGA 투어 PO 최종전 못 나가는 임성재, 세계랭킹은 57위로 상승",
+      "impacts": {
+        "방산": -1,
         "전체시장": 1
       },
       "source": "keyword"
@@ -615,7 +624,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 46,
-  "total_positives": 32,
+  "total_negatives": 49,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
