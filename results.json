@@ -1,6 +1,6 @@
 {
   "date": "20260824",
-  "generated_at": "2026-08-24T18:30:36+09:00",
+  "generated_at": "2026-08-24T19:00:44+09:00",
   "reference_date": "20260821",
   "reference_ranks": {
     "005930": 1,
@@ -61,9 +61,9 @@
     "rsi_14": 58.6,
     "basis": null,
     "basis_signal": "조회불가",
-    "usdkrw": 1381.85,
-    "usdkrw_ch1": -0.64,
-    "usdkrw_ch5": -2.32,
+    "usdkrw": 1382.38,
+    "usdkrw_ch1": -0.6,
+    "usdkrw_ch5": -2.29,
     "kosdaq_ch1": 1.42,
     "kospi_ch1": -3.12,
     "kospi_ch2": -2.27,
@@ -96,9 +96,9 @@
       "ndx_ch1": 0.43,
       "ndx_ma60": 26029.48
     },
-    "adr": 73.3,
-    "adr_advances": 343,
-    "adr_declines": 125,
+    "adr": 72.9,
+    "adr_advances": 347,
+    "adr_declines": 129,
     "adr_signal": "🟡",
     "adr_desc": "경계 (73%) — 이탈 징후 점검",
     "breadth": {
@@ -107,7 +107,7 @@
       "desc": "코스닥>코스피 — 중소형/테마 장",
       "kospi_ch1": -3.12,
       "kosdaq_ch1": 1.42,
-      "adr": 73.3
+      "adr": 72.9
     },
     "pool_flow": {
       "total": 40,
@@ -2110,10 +2110,10 @@
       "eps_trend": "유지",
       "eps_growth": 0.0,
       "debt_ratio": 440.1,
-      "ch20": 3.0,
-      "ch5": -9.8,
-      "vol_trend": -10.2,
-      "rsi": 51.4,
+      "ch20": 0.0,
+      "ch5": 0.0,
+      "vol_trend": 0.0,
+      "rsi": 50.0,
       "macd_line": 0.0,
       "signal_line": 0.0,
       "macd_bull": null,
