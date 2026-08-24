@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T13:49:11.830520+09:00",
+  "updated_at": "2026-08-24T16:04:08.195727+09:00",
   "date": "20260824",
   "window_days": 14,
   "sectors": [
@@ -146,10 +146,16 @@
       ]
     },
     "로봇": {
-      "score": 3,
-      "positive_count": 3,
+      "score": 4,
+      "positive_count": 4,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260824",
+          "type": "positive",
+          "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
+          "score": 1
+        },
         {
           "date": "20260823",
           "type": "positive",
@@ -234,9 +240,21 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 4,
+      "positive_count": 6,
       "negative_count": 18,
       "recent_events": [
+        {
+          "date": "20260824",
+          "type": "positive",
+          "headline": "[표] 거래소 외국인 순매수도 상위종목(24일)",
+          "score": 1
+        },
+        {
+          "date": "20260824",
+          "type": "positive",
+          "headline": "[표] 코스닥 외국인 순매수도 상위종목(24일)",
+          "score": 1
+        },
         {
           "date": "20260824",
           "type": "negative",
@@ -254,18 +272,6 @@
           "type": "negative",
           "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
           "score": -8
-        },
-        {
-          "date": "20260821",
-          "type": "negative",
-          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
-          "score": -8
-        },
-        {
-          "date": "20260820",
-          "type": "negative",
-          "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
-          "score": -5
         }
       ]
     }
@@ -576,6 +582,30 @@
     },
     {
       "date": "20260824",
+      "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
+      "impacts": {
+        "로봇": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260824",
+      "headline": "[표] 거래소 외국인 순매수도 상위종목(24일)",
+      "impacts": {
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260824",
+      "headline": "[표] 코스닥 외국인 순매수도 상위종목(24일)",
+      "impacts": {
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260824",
       "headline": "[거시분석] Trump says Canada wants 'benefits' of being U...",
       "impacts": {
         "방산": 1,
@@ -586,6 +616,6 @@
     }
   ],
   "total_negatives": 46,
-  "total_positives": 29,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
