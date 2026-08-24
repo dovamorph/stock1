@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T05:33:40.458843+09:00",
+  "updated_at": "2026-08-25T07:29:24.951903+09:00",
   "date": "20260825",
   "window_days": 14,
   "sectors": [
@@ -91,15 +91,9 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 17,
+      "positive_count": 16,
       "negative_count": 5,
       "recent_events": [
-        {
-          "date": "20260825",
-          "type": "positive",
-          "headline": "Are humanoid robots the future of warfare?",
-          "score": 1
-        },
         {
           "date": "20260825",
           "type": "positive",
@@ -123,6 +117,12 @@
           "type": "positive",
           "headline": "물대포에 실사격 훈련까지…中·필리핀, 남중국해 군사긴장 고조",
           "score": 1
+        },
+        {
+          "date": "20260823",
+          "type": "positive",
+          "headline": "[거시분석] DR Congo and M23 rebels agree roadmap for pea...",
+          "score": 2
         }
       ]
     },
@@ -177,16 +177,10 @@
       ]
     },
     "금융": {
-      "score": -7,
-      "positive_count": 1,
+      "score": -8,
+      "positive_count": 0,
       "negative_count": 8,
       "recent_events": [
-        {
-          "date": "20260825",
-          "type": "positive",
-          "headline": "금리 인하에 진심인 미국…트럼프 '가상화폐 밀어주기' 큰 그림",
-          "score": 1
-        },
         {
           "date": "20260825",
           "type": "negative",
@@ -209,6 +203,12 @@
           "date": "20260820",
           "type": "negative",
           "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
+          "score": -1
+        },
+        {
+          "date": "20260818",
+          "type": "negative",
+          "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
           "score": -1
         }
       ]
@@ -240,8 +240,8 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 5,
-      "negative_count": 27,
+      "positive_count": 4,
+      "negative_count": 24,
       "recent_events": [
         {
           "date": "20260825",
@@ -252,25 +252,25 @@
         {
           "date": "20260825",
           "type": "negative",
-          "headline": "국제유가, 대규모 이란 제재에도 2%대 하락…차익실현 매물 영향",
+          "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
+          "score": -5
+        },
+        {
+          "date": "20260824",
+          "type": "negative",
+          "headline": "'Half my business will be gone' - firms in Canada and US fear trade war",
           "score": -1
         },
         {
-          "date": "20260825",
-          "type": "positive",
-          "headline": "금리 인하에 진심인 미국…트럼프 '가상화폐 밀어주기' 큰 그림",
-          "score": 1
-        },
-        {
-          "date": "20260825",
+          "date": "20260824",
           "type": "negative",
-          "headline": "[속보] 美, 이란 핵·석유 연계 단체 등 60개 제재 대상 지정",
+          "headline": "WSJ, 트럼프의 캐나다 관세전에 \"가장 어리석은 무역전쟁\"",
           "score": -1
         },
         {
-          "date": "20260825",
+          "date": "20260824",
           "type": "negative",
-          "headline": "[속보] 美재무, 대이란 제재 中포함 여부에 \"누구도 제재 못 벗어나\"",
+          "headline": "트럼프, 보복관세 캐나다에 \"내년부터 자동차 관세 50%로\" 반격",
           "score": -1
         }
       ]
@@ -622,47 +622,6 @@
     },
     {
       "date": "20260825",
-      "headline": "Are humanoid robots the future of warfare?",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260825",
-      "headline": "국제유가, 대규모 이란 제재에도 2%대 하락…차익실현 매물 영향",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260825",
-      "headline": "금리 인하에 진심인 미국…트럼프 '가상화폐 밀어주기' 큰 그림",
-      "impacts": {
-        "금융": 1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260825",
-      "headline": "[속보] 美, 이란 핵·석유 연계 단체 등 60개 제재 대상 지정",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260825",
-      "headline": "[속보] 美재무, 대이란 제재 中포함 여부에 \"누구도 제재 못 벗어나\"",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260825",
       "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
       "impacts": {
         "방산": 1,
@@ -673,7 +632,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 55,
-  "total_positives": 32,
+  "total_negatives": 52,
+  "total_positives": 29,
   "risk_level": "EXTREME"
 }
