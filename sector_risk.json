@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T12:06:23.634498+09:00",
+  "updated_at": "2026-08-24T13:49:11.830520+09:00",
   "date": "20260824",
   "window_days": 14,
   "sectors": [
@@ -227,17 +227,10 @@
       ]
     },
     "양자컴퓨팅": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 0,
+      "positive_count": 0,
       "negative_count": 0,
-      "recent_events": [
-        {
-          "date": "20260824",
-          "type": "positive",
-          "headline": "양자컴퓨터 시대 대비…KISA, 양자내성암호 실무교육",
-          "score": 1
-        }
-      ]
+      "recent_events": []
     },
     "전체시장": {
       "score": -10,
@@ -583,14 +576,6 @@
     },
     {
       "date": "20260824",
-      "headline": "양자컴퓨터 시대 대비…KISA, 양자내성암호 실무교육",
-      "impacts": {
-        "양자컴퓨팅": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260824",
       "headline": "[거시분석] Trump says Canada wants 'benefits' of being U...",
       "impacts": {
         "방산": 1,
@@ -601,6 +586,6 @@
     }
   ],
   "total_negatives": 46,
-  "total_positives": 30,
+  "total_positives": 29,
   "risk_level": "EXTREME"
 }
