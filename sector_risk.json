@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-24T23:45:29.810070+09:00",
-  "date": "20260824",
+  "updated_at": "2026-08-25T01:41:21.154953+09:00",
+  "date": "20260825",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -8,
-      "positive_count": 2,
+      "score": -9,
+      "positive_count": 1,
       "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20260825",
+          "type": "negative",
+          "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
+          "score": -2
+        },
         {
           "date": "20260824",
           "type": "negative",
@@ -43,12 +49,6 @@
           "type": "negative",
           "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
           "score": -2
-        },
-        {
-          "date": "20260811",
-          "type": "positive",
-          "headline": "Wall Street giants hand Nvidia $500bn to fund boom in AI projects",
-          "score": 1
         }
       ]
     },
@@ -57,6 +57,12 @@
       "positive_count": 0,
       "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260825",
+          "type": "negative",
+          "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
+          "score": -2
+        },
         {
           "date": "20260824",
           "type": "negative",
@@ -80,20 +86,32 @@
           "type": "negative",
           "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
           "score": -2
-        },
-        {
-          "date": "20260820",
-          "type": "negative",
-          "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 16,
+      "positive_count": 18,
       "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20260825",
+          "type": "positive",
+          "headline": "Are humanoid robots the future of warfare?",
+          "score": 1
+        },
+        {
+          "date": "20260825",
+          "type": "positive",
+          "headline": "우크라 공습 직격탄 맞은 '러시아판 아마존'…러, 지원책 발표",
+          "score": 1
+        },
+        {
+          "date": "20260825",
+          "type": "positive",
+          "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
+          "score": 3
+        },
         {
           "date": "20260824",
           "type": "positive",
@@ -105,24 +123,6 @@
           "type": "negative",
           "headline": "DR Congo and M23 rebels agree roadmap for peace talks",
           "score": -1
-        },
-        {
-          "date": "20260823",
-          "type": "positive",
-          "headline": "물대포에 실사격 훈련까지…中·필리핀, 남중국해 군사긴장 고조",
-          "score": 1
-        },
-        {
-          "date": "20260823",
-          "type": "positive",
-          "headline": "[거시분석] DR Congo and M23 rebels agree roadmap for pea...",
-          "score": 2
-        },
-        {
-          "date": "20260822",
-          "type": "positive",
-          "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
-          "score": 3
         }
       ]
     },
@@ -151,6 +151,12 @@
       "negative_count": 0,
       "recent_events": [
         {
+          "date": "20260825",
+          "type": "positive",
+          "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
+          "score": 1
+        },
+        {
           "date": "20260824",
           "type": "positive",
           "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
@@ -166,12 +172,6 @@
           "date": "20260822",
           "type": "positive",
           "headline": "Usain Bolt’s 100m record broken at World Humanoid Robot Games",
-          "score": 1
-        },
-        {
-          "date": "20260810",
-          "type": "positive",
-          "headline": "진격의 中 휴머노이드 로봇…상반기 세계 출하량 97%(종합)",
           "score": 1
         }
       ]
@@ -241,69 +241,42 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 23,
+      "negative_count": 27,
       "recent_events": [
         {
-          "date": "20260824",
+          "date": "20260825",
           "type": "negative",
           "headline": "'Half my business will be gone' - firms in Canada and US fear trade war",
           "score": -1
         },
         {
-          "date": "20260824",
+          "date": "20260825",
           "type": "negative",
           "headline": "WSJ, 트럼프의 캐나다 관세전에 \"가장 어리석은 무역전쟁\"",
           "score": -1
         },
         {
-          "date": "20260824",
+          "date": "20260825",
           "type": "negative",
           "headline": "트럼프, 보복관세 캐나다에 \"내년부터 자동차 관세 50%로\" 반격",
           "score": -1
         },
         {
-          "date": "20260824",
+          "date": "20260825",
           "type": "negative",
           "headline": "뉴욕증시, 대이란 제재 발표 대기하며 혼조 출발",
           "score": -1
         },
         {
-          "date": "20260824",
+          "date": "20260825",
           "type": "negative",
-          "headline": "데이터센터로 부딪힌 트럼프-공화…캐나다 관세도 이견",
-          "score": -1
+          "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
+          "score": -6
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260810",
-      "headline": "North Korea’s hackers using AI for attacks, cybersecurity firm says",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260810",
-      "headline": "진격의 中 휴머노이드 로봇…상반기 세계 출하량 97%(종합)",
-      "impacts": {
-        "로봇": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260810",
-      "headline": "[거시분석] Israel rejects Trump's 15-point plan for Gaza...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -6,
-        "반도체·AI": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260811",
       "headline": "Wall Street giants hand Nvidia $500bn to fund boom in AI projects",
@@ -630,9 +603,76 @@
         "반도체·AI": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260825",
+      "headline": "'Half my business will be gone' - firms in Canada and US fear trade war",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260825",
+      "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
+      "impacts": {
+        "로봇": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260825",
+      "headline": "Are humanoid robots the future of warfare?",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260825",
+      "headline": "우크라 공습 직격탄 맞은 '러시아판 아마존'…러, 지원책 발표",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260825",
+      "headline": "WSJ, 트럼프의 캐나다 관세전에 \"가장 어리석은 무역전쟁\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260825",
+      "headline": "트럼프, 보복관세 캐나다에 \"내년부터 자동차 관세 50%로\" 반격",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260825",
+      "headline": "뉴욕증시, 대이란 제재 발표 대기하며 혼조 출발",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260825",
+      "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -6,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 51,
-  "total_positives": 30,
+  "total_negatives": 55,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
