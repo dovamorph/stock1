@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T21:55:59.451516+09:00",
+  "updated_at": "2026-08-24T23:45:29.810070+09:00",
   "date": "20260824",
   "window_days": 14,
   "sectors": [
@@ -241,7 +241,7 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 20,
+      "negative_count": 23,
       "recent_events": [
         {
           "date": "20260824",
@@ -252,26 +252,26 @@
         {
           "date": "20260824",
           "type": "negative",
-          "headline": "데이터센터로 부딪힌 트럼프-공화…캐나다 관세도 이견",
+          "headline": "WSJ, 트럼프의 캐나다 관세전에 \"가장 어리석은 무역전쟁\"",
           "score": -1
         },
         {
           "date": "20260824",
           "type": "negative",
-          "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
-          "score": -6
+          "headline": "트럼프, 보복관세 캐나다에 \"내년부터 자동차 관세 50%로\" 반격",
+          "score": -1
         },
         {
-          "date": "20260823",
+          "date": "20260824",
           "type": "negative",
-          "headline": "[거시분석] DR Congo and M23 rebels agree roadmap for pea...",
-          "score": -4
+          "headline": "뉴욕증시, 대이란 제재 발표 대기하며 혼조 출발",
+          "score": -1
         },
         {
-          "date": "20260822",
+          "date": "20260824",
           "type": "negative",
-          "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
-          "score": -8
+          "headline": "데이터센터로 부딪힌 트럼프-공화…캐나다 관세도 이견",
+          "score": -1
         }
       ]
     }
@@ -590,6 +590,30 @@
     },
     {
       "date": "20260824",
+      "headline": "WSJ, 트럼프의 캐나다 관세전에 \"가장 어리석은 무역전쟁\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260824",
+      "headline": "트럼프, 보복관세 캐나다에 \"내년부터 자동차 관세 50%로\" 반격",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260824",
+      "headline": "뉴욕증시, 대이란 제재 발표 대기하며 혼조 출발",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260824",
       "headline": "데이터센터로 부딪힌 트럼프-공화…캐나다 관세도 이견",
       "impacts": {
         "전체시장": -1
@@ -608,7 +632,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 48,
+  "total_negatives": 51,
   "total_positives": 30,
   "risk_level": "EXTREME"
 }
