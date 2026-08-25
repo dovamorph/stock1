@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T12:01:31.455358+09:00",
+  "updated_at": "2026-08-25T13:41:38.070352+09:00",
   "date": "20260825",
   "window_days": 14,
   "sectors": [
@@ -16,20 +16,14 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -8,
-      "positive_count": 2,
+      "score": -9,
+      "positive_count": 1,
       "negative_count": 5,
       "recent_events": [
         {
           "date": "20260825",
-          "type": "positive",
-          "headline": "삼전닉스 휘청에 코스피 하락 지속…엔비디아 실적 이벤트 주시",
-          "score": 1
-        },
-        {
-          "date": "20260825",
           "type": "negative",
-          "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
+          "headline": "[거시분석] Iran says it is ready for what US calls 'grea...",
           "score": -2
         },
         {
@@ -49,20 +43,20 @@
           "type": "negative",
           "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
           "score": -2
+        },
+        {
+          "date": "20260819",
+          "type": "negative",
+          "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
+          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
-      "positive_count": 1,
+      "positive_count": 0,
       "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20260825",
-          "type": "positive",
-          "headline": "오세훈 \"재개발·재건축 권한 자치구 이양은 위험천만 탁상행정\"",
-          "score": 1
-        },
         {
           "date": "20260824",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
           "score": -2
+        },
+        {
+          "date": "20260820",
+          "type": "negative",
+          "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
+          "score": -2
         }
       ]
     },
@@ -97,7 +97,7 @@
         {
           "date": "20260825",
           "type": "positive",
-          "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
+          "headline": "[거시분석] Iran says it is ready for what US calls 'grea...",
           "score": 1
         },
         {
@@ -146,14 +146,20 @@
       ]
     },
     "로봇": {
-      "score": 4,
-      "positive_count": 4,
+      "score": 5,
+      "positive_count": 5,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20260825",
           "type": "positive",
           "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
+          "score": 1
+        },
+        {
+          "date": "20260825",
+          "type": "positive",
+          "headline": "[AI픽] 휴머노이드도 '국가대표' 뽑는다…내년 챌린지 개최",
           "score": 1
         },
         {
@@ -177,16 +183,10 @@
       ]
     },
     "금융": {
-      "score": -8,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20260825",
-          "type": "negative",
-          "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
-          "score": -1
-        },
         {
           "date": "20260822",
           "type": "negative",
@@ -209,6 +209,12 @@
           "date": "20260818",
           "type": "negative",
           "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
+          "score": -1
+        },
+        {
+          "date": "20260813",
+          "type": "negative",
+          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
           "score": -1
         }
       ]
@@ -252,8 +258,8 @@
         {
           "date": "20260825",
           "type": "negative",
-          "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
-          "score": -5
+          "headline": "[거시분석] Iran says it is ready for what US calls 'grea...",
+          "score": -4
         },
         {
           "date": "20260824",
@@ -622,33 +628,24 @@
     },
     {
       "date": "20260825",
-      "headline": "오세훈 \"재개발·재건축 권한 자치구 이양은 위험천만 탁상행정\"",
+      "headline": "[AI픽] 휴머노이드도 '국가대표' 뽑는다…내년 챌린지 개최",
       "impacts": {
-        "건설": 1
+        "로봇": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260825",
-      "headline": "삼전닉스 휘청에 코스피 하락 지속…엔비디아 실적 이벤트 주시",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260825",
-      "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
+      "headline": "[거시분석] Iran says it is ready for what US calls 'grea...",
       "impacts": {
         "방산": 1,
-        "전체시장": -5,
-        "금융": -1,
+        "전체시장": -4,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 52,
-  "total_positives": 31,
+  "total_negatives": 51,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
