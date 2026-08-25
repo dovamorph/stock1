@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T15:53:35.209637+09:00",
+  "updated_at": "2026-08-25T17:47:11.488078+09:00",
   "date": "20260825",
   "window_days": 14,
   "sectors": [
@@ -177,10 +177,16 @@
       ]
     },
     "금융": {
-      "score": -7,
+      "score": -8,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260825",
+          "type": "negative",
+          "headline": "[거시분석] Iran says it is 'fully prepared' to counter w...",
+          "score": -1
+        },
         {
           "date": "20260822",
           "type": "negative",
@@ -203,12 +209,6 @@
           "date": "20260818",
           "type": "negative",
           "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
-          "score": -1
-        },
-        {
-          "date": "20260813",
-          "type": "negative",
-          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
           "score": -1
         }
       ]
@@ -240,8 +240,8 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 6,
-      "negative_count": 25,
+      "positive_count": 4,
+      "negative_count": 26,
       "recent_events": [
         {
           "date": "20260825",
@@ -257,21 +257,21 @@
         },
         {
           "date": "20260825",
-          "type": "positive",
-          "headline": "[표] 코스닥 외국인 순매수도 상위종목(25일)",
-          "score": 1
-        },
-        {
-          "date": "20260825",
-          "type": "positive",
-          "headline": "[표] 거래소 외국인 순매수도 상위종목(25일)",
-          "score": 1
+          "type": "negative",
+          "headline": "캐나다도 미국에 무역 강공 채비…\"보복관세 등 대응책 발표\"(종합)",
+          "score": -1
         },
         {
           "date": "20260825",
           "type": "negative",
           "headline": "[거시분석] Iran says it is 'fully prepared' to counter w...",
-          "score": -4
+          "score": -5
+        },
+        {
+          "date": "20260824",
+          "type": "negative",
+          "headline": "'Half my business will be gone' - firms in Canada and US fear trade war",
+          "score": -1
         }
       ]
     }
@@ -630,17 +630,9 @@
     },
     {
       "date": "20260825",
-      "headline": "[표] 코스닥 외국인 순매수도 상위종목(25일)",
+      "headline": "캐나다도 미국에 무역 강공 채비…\"보복관세 등 대응책 발표\"(종합)",
       "impacts": {
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260825",
-      "headline": "[표] 거래소 외국인 순매수도 상위종목(25일)",
-      "impacts": {
-        "전체시장": 1
+        "전체시장": -1
       },
       "source": "keyword"
     },
@@ -649,13 +641,14 @@
       "headline": "[거시분석] Iran says it is 'fully prepared' to counter w...",
       "impacts": {
         "방산": 1,
-        "전체시장": -4,
+        "전체시장": -5,
+        "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 52,
-  "total_positives": 31,
+  "total_negatives": 54,
+  "total_positives": 29,
   "risk_level": "EXTREME"
 }
