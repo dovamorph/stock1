@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T19:35:58.956506+09:00",
+  "updated_at": "2026-08-25T21:52:39.163764+09:00",
   "date": "20260825",
   "window_days": 14,
   "sectors": [
@@ -29,7 +29,7 @@
         {
           "date": "20260825",
           "type": "negative",
-          "headline": "[거시분석] Iran says it is 'fully prepared' to counter w...",
+          "headline": "[거시분석] China warns it will protect its interests aft...",
           "score": -2
         },
         {
@@ -54,15 +54,9 @@
     },
     "건설": {
       "score": -10,
-      "positive_count": 1,
+      "positive_count": 0,
       "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20260825",
-          "type": "positive",
-          "headline": "\"현장에서 재건축 물꼬 튼다\"…서울시 신속통합기획 자문 첫 발",
-          "score": 1
-        },
         {
           "date": "20260824",
           "type": "negative",
@@ -86,18 +80,30 @@
           "type": "negative",
           "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
           "score": -2
+        },
+        {
+          "date": "20260820",
+          "type": "negative",
+          "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
+          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 5,
+      "negative_count": 6,
       "recent_events": [
         {
           "date": "20260825",
+          "type": "negative",
+          "headline": "우크라, '돈바스 자유경제구역' 휴전안 제시…러 거부",
+          "score": -1
+        },
+        {
+          "date": "20260825",
           "type": "positive",
-          "headline": "[거시분석] Iran says it is 'fully prepared' to counter w...",
+          "headline": "[거시분석] China warns it will protect its interests aft...",
           "score": 1
         },
         {
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "물대포에 실사격 훈련까지…中·필리핀, 남중국해 군사긴장 고조",
           "score": 1
-        },
-        {
-          "date": "20260823",
-          "type": "positive",
-          "headline": "[거시분석] DR Congo and M23 rebels agree roadmap for pea...",
-          "score": 2
         }
       ]
     },
@@ -177,16 +177,10 @@
       ]
     },
     "금융": {
-      "score": -8,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20260825",
-          "type": "negative",
-          "headline": "[거시분석] Iran says it is 'fully prepared' to counter w...",
-          "score": -1
-        },
         {
           "date": "20260822",
           "type": "negative",
@@ -209,6 +203,12 @@
           "date": "20260818",
           "type": "negative",
           "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
+          "score": -1
+        },
+        {
+          "date": "20260813",
+          "type": "negative",
+          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
           "score": -1
         }
       ]
@@ -240,7 +240,7 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 4,
+      "positive_count": 5,
       "negative_count": 25,
       "recent_events": [
         {
@@ -257,20 +257,20 @@
         },
         {
           "date": "20260825",
+          "type": "positive",
+          "headline": "우크라, '돈바스 자유경제구역' 휴전안 제시…러 거부",
+          "score": 1
+        },
+        {
+          "date": "20260825",
           "type": "negative",
-          "headline": "[거시분석] Iran says it is 'fully prepared' to counter w...",
-          "score": -6
+          "headline": "[거시분석] China warns it will protect its interests aft...",
+          "score": -5
         },
         {
           "date": "20260824",
           "type": "negative",
           "headline": "'Half my business will be gone' - firms in Canada and US fear trade war",
-          "score": -1
-        },
-        {
-          "date": "20260824",
-          "type": "negative",
-          "headline": "WSJ, 트럼프의 캐나다 관세전에 \"가장 어리석은 무역전쟁\"",
           "score": -1
         }
       ]
@@ -638,19 +638,19 @@
     },
     {
       "date": "20260825",
-      "headline": "\"현장에서 재건축 물꼬 튼다\"…서울시 신속통합기획 자문 첫 발",
+      "headline": "우크라, '돈바스 자유경제구역' 휴전안 제시…러 거부",
       "impacts": {
-        "건설": 1
+        "방산": -1,
+        "전체시장": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260825",
-      "headline": "[거시분석] Iran says it is 'fully prepared' to counter w...",
+      "headline": "[거시분석] China warns it will protect its interests aft...",
       "impacts": {
         "방산": 1,
-        "전체시장": -6,
-        "금융": -1,
+        "전체시장": -5,
         "반도체·AI": -2
       },
       "source": "geo_categories"
