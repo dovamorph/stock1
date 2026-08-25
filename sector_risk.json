@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T03:42:46.443446+09:00",
+  "updated_at": "2026-08-26T05:32:29.060389+09:00",
   "date": "20260826",
   "window_days": 14,
   "sectors": [
@@ -92,8 +92,20 @@
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 5,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260826",
+          "type": "negative",
+          "headline": "러 통신사, 돌연 '美·이란 휴전합의' 보도…\"호르무즈 포함\"",
+          "score": -1
+        },
+        {
+          "date": "20260826",
+          "type": "negative",
+          "headline": "[속보] 러 통신사 \"美-이란 휴전 합의…호르무즈 자유통항 포함\"",
+          "score": -1
+        },
         {
           "date": "20260826",
           "type": "positive",
@@ -111,18 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
           "score": 3
-        },
-        {
-          "date": "20260823",
-          "type": "negative",
-          "headline": "DR Congo and M23 rebels agree roadmap for peace talks",
-          "score": -1
-        },
-        {
-          "date": "20260823",
-          "type": "positive",
-          "headline": "물대포에 실사격 훈련까지…中·필리핀, 남중국해 군사긴장 고조",
-          "score": 1
         }
       ]
     },
@@ -183,10 +183,16 @@
       ]
     },
     "금융": {
-      "score": -6,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260826",
+          "type": "negative",
+          "headline": "[거시분석] China hits out at 'illegal' new US sanctions ...",
+          "score": -1
+        },
         {
           "date": "20260822",
           "type": "negative",
@@ -209,12 +215,6 @@
           "date": "20260818",
           "type": "negative",
           "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
-          "score": -1
-        },
-        {
-          "date": "20260813",
-          "type": "negative",
-          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
           "score": -1
         }
       ]
@@ -240,8 +240,8 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 4,
-      "negative_count": 31,
+      "positive_count": 6,
+      "negative_count": 29,
       "recent_events": [
         {
           "date": "20260826",
@@ -251,26 +251,26 @@
         },
         {
           "date": "20260826",
+          "type": "positive",
+          "headline": "러 통신사, 돌연 '美·이란 휴전합의' 보도…\"호르무즈 포함\"",
+          "score": 1
+        },
+        {
+          "date": "20260826",
           "type": "negative",
-          "headline": "Trump floats renaming Lake Ontario to Lake America during Canada trade war",
+          "headline": "국제유가, 대이란 제재 우려 완화에 급락…브렌트유 3.89%↓",
           "score": -1
+        },
+        {
+          "date": "20260826",
+          "type": "positive",
+          "headline": "[속보] 러 통신사 \"美-이란 휴전 합의…호르무즈 자유통항 포함\"",
+          "score": 1
         },
         {
           "date": "20260826",
           "type": "negative",
           "headline": "'관세' 넘어 '주권'으로 번진 쟁점…미·캐나다 협상 결렬 내막",
-          "score": -1
-        },
-        {
-          "date": "20260826",
-          "type": "negative",
-          "headline": "캐나다, 美에 200억달러 보복관세…700개 품목에 15~50%(종합)",
-          "score": -1
-        },
-        {
-          "date": "20260826",
-          "type": "negative",
-          "headline": "캐나다, 美에 200억달러 규모 보복관세…700개 품목에 15~50%",
           "score": -1
         }
       ]
@@ -631,9 +631,27 @@
     },
     {
       "date": "20260826",
-      "headline": "Trump floats renaming Lake Ontario to Lake America during Canada trade war",
+      "headline": "러 통신사, 돌연 '美·이란 휴전합의' 보도…\"호르무즈 포함\"",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260826",
+      "headline": "국제유가, 대이란 제재 우려 완화에 급락…브렌트유 3.89%↓",
       "impacts": {
         "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260826",
+      "headline": "[속보] 러 통신사 \"美-이란 휴전 합의…호르무즈 자유통항 포함\"",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
       },
       "source": "keyword"
     },
@@ -655,33 +673,18 @@
     },
     {
       "date": "20260826",
-      "headline": "캐나다, 美에 200억달러 규모 보복관세…700개 품목에 15~50%",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260826",
-      "headline": "[속보] 캐나다, 9월 8일부터 미국산 700개 품목에 15∼50% 보복관세",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260826",
       "headline": "[거시분석] China hits out at 'illegal' new US sanctions ...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -6,
+        "전체시장": -7,
+        "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 60,
-  "total_positives": 28,
+  "total_negatives": 61,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
