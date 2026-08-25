@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T17:47:11.488078+09:00",
+  "updated_at": "2026-08-25T19:35:58.956506+09:00",
   "date": "20260825",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -9,
-      "positive_count": 1,
+      "score": -8,
+      "positive_count": 2,
       "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20260825",
+          "type": "positive",
+          "headline": "Nvidia, Supermicro employees charged over export of AI servers to China",
+          "score": 1
+        },
         {
           "date": "20260825",
           "type": "negative",
@@ -43,20 +49,20 @@
           "type": "negative",
           "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
           "score": -2
-        },
-        {
-          "date": "20260819",
-          "type": "negative",
-          "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
-          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
-      "positive_count": 0,
+      "positive_count": 1,
       "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20260825",
+          "type": "positive",
+          "headline": "\"현장에서 재건축 물꼬 튼다\"…서울시 신속통합기획 자문 첫 발",
+          "score": 1
+        },
         {
           "date": "20260824",
           "type": "negative",
@@ -79,12 +85,6 @@
           "date": "20260821",
           "type": "negative",
           "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
-          "score": -2
-        },
-        {
-          "date": "20260820",
-          "type": "negative",
-          "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
           "score": -2
         }
       ]
@@ -241,7 +241,7 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 26,
+      "negative_count": 25,
       "recent_events": [
         {
           "date": "20260825",
@@ -258,19 +258,19 @@
         {
           "date": "20260825",
           "type": "negative",
-          "headline": "캐나다도 미국에 무역 강공 채비…\"보복관세 등 대응책 발표\"(종합)",
-          "score": -1
-        },
-        {
-          "date": "20260825",
-          "type": "negative",
           "headline": "[거시분석] Iran says it is 'fully prepared' to counter w...",
-          "score": -5
+          "score": -6
         },
         {
           "date": "20260824",
           "type": "negative",
           "headline": "'Half my business will be gone' - firms in Canada and US fear trade war",
+          "score": -1
+        },
+        {
+          "date": "20260824",
+          "type": "negative",
+          "headline": "WSJ, 트럼프의 캐나다 관세전에 \"가장 어리석은 무역전쟁\"",
           "score": -1
         }
       ]
@@ -630,9 +630,17 @@
     },
     {
       "date": "20260825",
-      "headline": "캐나다도 미국에 무역 강공 채비…\"보복관세 등 대응책 발표\"(종합)",
+      "headline": "Nvidia, Supermicro employees charged over export of AI servers to China",
       "impacts": {
-        "전체시장": -1
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260825",
+      "headline": "\"현장에서 재건축 물꼬 튼다\"…서울시 신속통합기획 자문 첫 발",
+      "impacts": {
+        "건설": 1
       },
       "source": "keyword"
     },
@@ -641,14 +649,14 @@
       "headline": "[거시분석] Iran says it is 'fully prepared' to counter w...",
       "impacts": {
         "방산": 1,
-        "전체시장": -5,
+        "전체시장": -6,
         "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 54,
-  "total_positives": 29,
+  "total_negatives": 53,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
