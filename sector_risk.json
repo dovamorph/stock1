@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-25T23:49:40.759157+09:00",
-  "date": "20260825",
+  "updated_at": "2026-08-26T01:40:27.523641+09:00",
+  "date": "20260826",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -9,
-      "positive_count": 1,
-      "negative_count": 5,
+      "score": -10,
+      "positive_count": 0,
+      "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20260826",
+          "type": "negative",
+          "headline": "[거시분석] China hits out at 'illegal' new US sanctions ...",
+          "score": -2
+        },
         {
           "date": "20260825",
           "type": "negative",
@@ -43,20 +49,20 @@
           "type": "negative",
           "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
           "score": -2
-        },
-        {
-          "date": "20260819",
-          "type": "negative",
-          "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
-          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 12,
       "recent_events": [
+        {
+          "date": "20260826",
+          "type": "negative",
+          "headline": "[거시분석] China hits out at 'illegal' new US sanctions ...",
+          "score": -2
+        },
         {
           "date": "20260825",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
           "score": -2
-        },
-        {
-          "date": "20260821",
-          "type": "negative",
-          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
-          "score": -2
         }
       ]
     },
@@ -94,6 +94,12 @@
       "positive_count": 16,
       "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20260826",
+          "type": "positive",
+          "headline": "[거시분석] China hits out at 'illegal' new US sanctions ...",
+          "score": 3
+        },
         {
           "date": "20260825",
           "type": "positive",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "물대포에 실사격 훈련까지…中·필리핀, 남중국해 군사긴장 고조",
           "score": 1
-        },
-        {
-          "date": "20260823",
-          "type": "positive",
-          "headline": "[거시분석] DR Congo and M23 rebels agree roadmap for pea...",
-          "score": 2
         }
       ]
     },
@@ -146,10 +146,16 @@
       ]
     },
     "로봇": {
-      "score": 4,
-      "positive_count": 4,
+      "score": 5,
+      "positive_count": 5,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260826",
+          "type": "positive",
+          "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
+          "score": 1
+        },
         {
           "date": "20260825",
           "type": "positive",
@@ -177,9 +183,9 @@
       ]
     },
     "금융": {
-      "score": -7,
+      "score": -6,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
         {
           "date": "20260822",
@@ -214,20 +220,14 @@
       ]
     },
     "우주ETF": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20260820",
           "type": "positive",
           "headline": "'Incredible': SpaceX rocket spotted off Christmas Island coast",
-          "score": 1
-        },
-        {
-          "date": "20260811",
-          "type": "positive",
-          "headline": "Vietnam’s VinSpace announces deal with SpaceX to launch first satellite",
           "score": 1
         }
       ]
@@ -241,68 +241,42 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 25,
+      "negative_count": 31,
       "recent_events": [
         {
-          "date": "20260825",
+          "date": "20260826",
           "type": "negative",
           "headline": "'Half my business will be gone' - firms in Canada and US fear trade war",
           "score": -1
         },
         {
-          "date": "20260825",
+          "date": "20260826",
           "type": "negative",
-          "headline": "對캐나다 관세전쟁에 美북부 술렁…중간선거 영향 주시",
+          "headline": "Trump floats renaming Lake Ontario to Lake America during Canada trade war",
           "score": -1
         },
         {
-          "date": "20260825",
+          "date": "20260826",
           "type": "negative",
-          "headline": "[거시분석] China hits out at 'illegal' new US sanctions ...",
-          "score": -6
-        },
-        {
-          "date": "20260824",
-          "type": "negative",
-          "headline": "'Half my business will be gone' - firms in Canada and US fear trade war",
+          "headline": "캐나다, 美에 200억달러 보복관세…700개 품목에 15~50%(종합)",
           "score": -1
         },
         {
-          "date": "20260824",
+          "date": "20260826",
           "type": "negative",
-          "headline": "WSJ, 트럼프의 캐나다 관세전에 \"가장 어리석은 무역전쟁\"",
+          "headline": "캐나다, 美에 200억달러 규모 보복관세…700개 품목에 15~50%",
+          "score": -1
+        },
+        {
+          "date": "20260826",
+          "type": "negative",
+          "headline": "[속보] 캐나다, 9월 8일부터 미국산 700개 품목에 15∼50% 보복관세",
           "score": -1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260811",
-      "headline": "Wall Street giants hand Nvidia $500bn to fund boom in AI projects",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260811",
-      "headline": "Vietnam’s VinSpace announces deal with SpaceX to launch first satellite",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260811",
-      "headline": "[거시분석] Trump hid in catering truck in secret plane s...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -2,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260812",
       "headline": "튀르키예 국영통신 \"美·이란, 휴전 연장 합의\"",
@@ -638,9 +612,76 @@
         "반도체·AI": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260826",
+      "headline": "'Half my business will be gone' - firms in Canada and US fear trade war",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260826",
+      "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
+      "impacts": {
+        "로봇": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260826",
+      "headline": "Trump floats renaming Lake Ontario to Lake America during Canada trade war",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260826",
+      "headline": "캐나다, 美에 200억달러 보복관세…700개 품목에 15~50%(종합)",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260826",
+      "headline": "캐나다, 美에 200억달러 규모 보복관세…700개 품목에 15~50%",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260826",
+      "headline": "[속보] 캐나다, 9월 8일부터 미국산 700개 품목에 15∼50% 보복관세",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260826",
+      "headline": "對캐나다 관세전쟁에 美북부 술렁…중간선거 영향 주시",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260826",
+      "headline": "[거시분석] China hits out at 'illegal' new US sanctions ...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -6,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 53,
-  "total_positives": 29,
+  "total_negatives": 60,
+  "total_positives": 28,
   "risk_level": "EXTREME"
 }
