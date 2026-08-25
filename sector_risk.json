@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T10:25:08.959824+09:00",
+  "updated_at": "2026-08-25T12:01:31.455358+09:00",
   "date": "20260825",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -9,
-      "positive_count": 1,
+      "score": -8,
+      "positive_count": 2,
       "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20260825",
+          "type": "positive",
+          "headline": "삼전닉스 휘청에 코스피 하락 지속…엔비디아 실적 이벤트 주시",
+          "score": 1
+        },
         {
           "date": "20260825",
           "type": "negative",
@@ -43,20 +49,20 @@
           "type": "negative",
           "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
           "score": -2
-        },
-        {
-          "date": "20260819",
-          "type": "negative",
-          "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
-          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
-      "positive_count": 0,
+      "positive_count": 1,
       "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20260825",
+          "type": "positive",
+          "headline": "오세훈 \"재개발·재건축 권한 자치구 이양은 위험천만 탁상행정\"",
+          "score": 1
+        },
         {
           "date": "20260824",
           "type": "negative",
@@ -79,12 +85,6 @@
           "date": "20260821",
           "type": "negative",
           "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
-          "score": -2
-        },
-        {
-          "date": "20260820",
-          "type": "negative",
-          "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
           "score": -2
         }
       ]
@@ -146,20 +146,14 @@
       ]
     },
     "로봇": {
-      "score": 5,
-      "positive_count": 5,
+      "score": 4,
+      "positive_count": 4,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20260825",
           "type": "positive",
           "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
-          "score": 1
-        },
-        {
-          "date": "20260825",
-          "type": "positive",
-          "headline": "구미시, 피지컬 AI 기반 로봇산업 육성…5개 기관과 협약",
           "score": 1
         },
         {
@@ -183,10 +177,16 @@
       ]
     },
     "금융": {
-      "score": -7,
+      "score": -8,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260825",
+          "type": "negative",
+          "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
+          "score": -1
+        },
         {
           "date": "20260822",
           "type": "negative",
@@ -209,12 +209,6 @@
           "date": "20260818",
           "type": "negative",
           "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
-          "score": -1
-        },
-        {
-          "date": "20260813",
-          "type": "negative",
-          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
           "score": -1
         }
       ]
@@ -259,7 +253,7 @@
           "date": "20260825",
           "type": "negative",
           "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
-          "score": -4
+          "score": -5
         },
         {
           "date": "20260824",
@@ -628,9 +622,17 @@
     },
     {
       "date": "20260825",
-      "headline": "구미시, 피지컬 AI 기반 로봇산업 육성…5개 기관과 협약",
+      "headline": "오세훈 \"재개발·재건축 권한 자치구 이양은 위험천만 탁상행정\"",
       "impacts": {
-        "로봇": 1
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260825",
+      "headline": "삼전닉스 휘청에 코스피 하락 지속…엔비디아 실적 이벤트 주시",
+      "impacts": {
+        "반도체·AI": 1
       },
       "source": "keyword"
     },
@@ -639,13 +641,14 @@
       "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
       "impacts": {
         "방산": 1,
-        "전체시장": -4,
+        "전체시장": -5,
+        "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 51,
-  "total_positives": 30,
+  "total_negatives": 52,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
