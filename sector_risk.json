@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T13:41:38.070352+09:00",
+  "updated_at": "2026-08-25T15:53:35.209637+09:00",
   "date": "20260825",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260825",
           "type": "negative",
-          "headline": "[거시분석] Iran says it is ready for what US calls 'grea...",
+          "headline": "[거시분석] Iran says it is 'fully prepared' to counter w...",
           "score": -2
         },
         {
@@ -97,7 +97,7 @@
         {
           "date": "20260825",
           "type": "positive",
-          "headline": "[거시분석] Iran says it is ready for what US calls 'grea...",
+          "headline": "[거시분석] Iran says it is 'fully prepared' to counter w...",
           "score": 1
         },
         {
@@ -146,20 +146,14 @@
       ]
     },
     "로봇": {
-      "score": 5,
-      "positive_count": 5,
+      "score": 4,
+      "positive_count": 4,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20260825",
           "type": "positive",
           "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
-          "score": 1
-        },
-        {
-          "date": "20260825",
-          "type": "positive",
-          "headline": "[AI픽] 휴머노이드도 '국가대표' 뽑는다…내년 챌린지 개최",
           "score": 1
         },
         {
@@ -246,38 +240,38 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 4,
-      "negative_count": 24,
+      "positive_count": 6,
+      "negative_count": 25,
       "recent_events": [
         {
           "date": "20260825",
           "type": "negative",
-          "headline": "'Half my business will be gone' - firms in Canada and US fear trade war",
+          "headline": "US-Canada trade war escalates as Trump threatens tariff hike on vehicles",
           "score": -1
         },
         {
           "date": "20260825",
           "type": "negative",
-          "headline": "[거시분석] Iran says it is ready for what US calls 'grea...",
-          "score": -4
-        },
-        {
-          "date": "20260824",
-          "type": "negative",
           "headline": "'Half my business will be gone' - firms in Canada and US fear trade war",
           "score": -1
         },
         {
-          "date": "20260824",
-          "type": "negative",
-          "headline": "WSJ, 트럼프의 캐나다 관세전에 \"가장 어리석은 무역전쟁\"",
-          "score": -1
+          "date": "20260825",
+          "type": "positive",
+          "headline": "[표] 코스닥 외국인 순매수도 상위종목(25일)",
+          "score": 1
         },
         {
-          "date": "20260824",
+          "date": "20260825",
+          "type": "positive",
+          "headline": "[표] 거래소 외국인 순매수도 상위종목(25일)",
+          "score": 1
+        },
+        {
+          "date": "20260825",
           "type": "negative",
-          "headline": "트럼프, 보복관세 캐나다에 \"내년부터 자동차 관세 50%로\" 반격",
-          "score": -1
+          "headline": "[거시분석] Iran says it is 'fully prepared' to counter w...",
+          "score": -4
         }
       ]
     }
@@ -612,6 +606,14 @@
     },
     {
       "date": "20260825",
+      "headline": "US-Canada trade war escalates as Trump threatens tariff hike on vehicles",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260825",
       "headline": "'Half my business will be gone' - firms in Canada and US fear trade war",
       "impacts": {
         "전체시장": -1
@@ -628,15 +630,23 @@
     },
     {
       "date": "20260825",
-      "headline": "[AI픽] 휴머노이드도 '국가대표' 뽑는다…내년 챌린지 개최",
+      "headline": "[표] 코스닥 외국인 순매수도 상위종목(25일)",
       "impacts": {
-        "로봇": 1
+        "전체시장": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260825",
-      "headline": "[거시분석] Iran says it is ready for what US calls 'grea...",
+      "headline": "[표] 거래소 외국인 순매수도 상위종목(25일)",
+      "impacts": {
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260825",
+      "headline": "[거시분석] Iran says it is 'fully prepared' to counter w...",
       "impacts": {
         "방산": 1,
         "전체시장": -4,
@@ -645,7 +655,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 51,
-  "total_positives": 30,
+  "total_negatives": 52,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
