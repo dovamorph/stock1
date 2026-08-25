@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T07:29:24.951903+09:00",
+  "updated_at": "2026-08-25T10:25:08.959824+09:00",
   "date": "20260825",
   "window_days": 14,
   "sectors": [
@@ -146,14 +146,20 @@
       ]
     },
     "로봇": {
-      "score": 4,
-      "positive_count": 4,
+      "score": 5,
+      "positive_count": 5,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20260825",
           "type": "positive",
           "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
+          "score": 1
+        },
+        {
+          "date": "20260825",
+          "type": "positive",
+          "headline": "구미시, 피지컬 AI 기반 로봇산업 육성…5개 기관과 협약",
           "score": 1
         },
         {
@@ -177,16 +183,10 @@
       ]
     },
     "금융": {
-      "score": -8,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20260825",
-          "type": "negative",
-          "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
-          "score": -1
-        },
         {
           "date": "20260822",
           "type": "negative",
@@ -209,6 +209,12 @@
           "date": "20260818",
           "type": "negative",
           "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
+          "score": -1
+        },
+        {
+          "date": "20260813",
+          "type": "negative",
+          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
           "score": -1
         }
       ]
@@ -253,7 +259,7 @@
           "date": "20260825",
           "type": "negative",
           "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
-          "score": -5
+          "score": -4
         },
         {
           "date": "20260824",
@@ -622,17 +628,24 @@
     },
     {
       "date": "20260825",
+      "headline": "구미시, 피지컬 AI 기반 로봇산업 육성…5개 기관과 협약",
+      "impacts": {
+        "로봇": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260825",
       "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
       "impacts": {
         "방산": 1,
-        "전체시장": -5,
-        "금융": -1,
+        "전체시장": -4,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 52,
-  "total_positives": 29,
+  "total_negatives": 51,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
