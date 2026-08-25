@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-26 01:40",
-  "news_count": 82,
-  "intl_count": 52,
+  "updated": "2026-08-26 03:42",
+  "news_count": 83,
+  "intl_count": 53,
   "domestic_count": 30,
   "source_stats": {
-    "BBC World": 26,
+    "BBC World": 27,
     "Al Jazeera": 26,
     "연합뉴스": 30,
     "한국경제": 0,
@@ -13,16 +13,17 @@
     "StockPlus": 0
   },
   "news_sample": [
+    "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
     "China hits out at 'illegal' new US sanctions on Iran and trading partners",
+    "CIA chief travels to Moscow for unannounced talks, US media reports",
     "Brain disease in dead NFL players 'higher than previously shown'",
-    "CIA chief in Moscow for unannounced talks, US media reports",
-    "Tornado tears through French village, leaving dozens hurt and homes ravaged",
-    "Two unvaccinated people die of measles in Pennsylvania"
+    "Tornado tears through French village, leaving dozens hurt and homes ravaged"
   ],
   "all_headlines": [
+    "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
     "China hits out at 'illegal' new US sanctions on Iran and trading partners",
+    "CIA chief travels to Moscow for unannounced talks, US media reports",
     "Brain disease in dead NFL players 'higher than previously shown'",
-    "CIA chief in Moscow for unannounced talks, US media reports",
     "Tornado tears through French village, leaving dozens hurt and homes ravaged",
     "Two unvaccinated people die of measles in Pennsylvania",
     "European rights court orders Turkey to free imprisoned businessman",
@@ -47,6 +48,16 @@
     "What do locals think of IndyCar in Washington DC?",
     "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Syria ‘shakes off’ past with removal from US ‘terror’ list, says al-Sharaa",
+    "Kremlin denies planned talks with US envoys amid reports CIA head in Russia",
+    "Fatah, Dahlan bloc hold reconciliation talks ahead of Palestinian elections",
+    "Spain requests emergency funding from the EU over Ceuta migrants",
+    "Most US Democrats in early 2028 primary states oppose aid to Israel: Poll",
+    "Canada hits US with counter-tariffs on more than 700 products",
+    "US judge denies Ghislaine Maxwell’s ‘frivolous’ bid to throw out conviction",
+    "Carlos Baleba joins Manchester United in transfer from Brighton",
+    "Sanctions or missiles? How Gulf will view Trump’s new Iran approach",
+    "Photos: Rohingya refugees rally nine years after Myanmar exodus",
     "Students clash with police in India in a new protest over exam leaks",
     "Nevada wildfire contained to 27 percent as thousands still displaced",
     "Chinese robot Tiangong clocks sub-9-second 100 metres in Beijing",
@@ -62,16 +73,13 @@
     "China says will safeguard its own interests as US expands Iran sanctions",
     "Trump’s latest wave of Iran sanctions: Which 60 entities are targeted?",
     "US military transport plane arrives in Moscow in rare occurrence",
-    "How can a heavily indebted football club afford Mo Salah?",
-    "Trump plans largest mass visa cancellation in history: Who will it affect?",
-    "Real Madrid’s Mourinho ‘happy’ with transfers despite Rodri miss",
-    "How Israel’s Netanyahu weaponises religion in his war rhetoric",
-    "Popcorn and cartoons: A Gaza cinema gives girls a brief escape from war",
-    "Gaza child breaks down in tears after an Israeli threat over kites",
-    "Two killed, refinery on fire in Russia’s Krasnodar after drone attack",
-    "‘We can’t breathe’: Indonesians battle wildfire haze",
-    "Israeli forces raid UNRWA training centre in occupied East Jerusalem",
-    "What to expect in elections in South Carolina, Georgia and Oklahoma",
+    "트럼프 \"온타리오호, 아메리카호로 변경 검토\" 캐나다에 도발(종합)",
+    "젤렌스키가 쫓아낸 우크라 전 국방 \"러에 패전하는 중\"",
+    "美전문가 \"북미회담 가능성 희박…한미일에 최대 도전은 트럼프\"",
+    "이란, 트럼프 막내아들 암살위협 방송…美경호국 \"알고 있다\"",
+    "여성 800원, 남성은 공짜…오스트리아 화장실 차별금지 소송",
+    "'대통령과 갈등설' 탄자니아 부통령 사임",
+    "'관세' 넘어 '주권'으로 번진 쟁점…미·캐나다 협상 결렬 내막",
     "이란 \"美 대이란 경제전쟁은 전세계 주권에 대한 공격\"",
     "브라질, 틱톡에 400억원대 과징금…'디지털 아동보호' 규제 강화",
     "캐나다, 美에 200억달러 보복관세…700개 품목에 15~50%(종합)",
@@ -94,14 +102,7 @@
     "스웨덴 핵심 해군기지 인근에 푸틴 연계 러 부동산…\"압류해야\"",
     "중국인 여대생 실종 닷새 만에 숨진 채 발견…30대男 체포(종합)",
     "끝내기 만루포에 운 KIA '대타 굿바이 역전 만루포'로 대반전(종합)",
-    "실종 中유학생 살해피의자가 112에 실종신고…수사혼선 노린 듯",
-    "對캐나다 관세전쟁에 美북부 술렁…중간선거 영향 주시",
-    "\"이란, 파키스탄 통해 호르무즈 등 관련 입장 美에 명확히 전달\"",
-    "하늘의 할머니께 바친 클리말라의 10호골…\"팀을 위해 집중했다\"",
-    "뉴욕증시, 美-이란 갈등 완화 기대감·기술주 강세에 상승 출발",
-    "[속보] 사망한 중국인 유학생 살해 피의자 112에 실종 신고도 해",
-    "[프로야구] 26일 선발투수",
-    "[프로야구 중간순위] 25일"
+    "실종 中유학생 살해피의자가 112에 실종신고…수사혼선 노린 듯"
   ],
   "categories": {
     "geopolitical": {
@@ -110,8 +111,8 @@
       "signal": "🔴",
       "summary": "China hits out at 'illegal' new US sanctions ...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 19,
-      "score": 3.0
+      "matched": 17,
+      "score": 1.5
     },
     "macro": {
       "level": "안전",
@@ -135,10 +136,10 @@
       "level": "위험",
       "color": "red",
       "signal": "🔴",
-      "summary": "China hits out at 'illegal' new US sanctions ...",
+      "summary": "Canada announces 'dollar-for-dollar' retaliat...",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 13,
-      "score": 8.6
+      "matched": 15,
+      "score": 10.0
     },
     "policy": {
       "level": "안전",
