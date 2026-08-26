@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T07:30:29.593954+09:00",
+  "updated_at": "2026-08-26T10:34:45.937873+09:00",
   "date": "20260826",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260826",
           "type": "negative",
-          "headline": "[거시분석] China hits out at 'illegal' new US sanctions ...",
+          "headline": "[거시분석] Canada announces 'dollar-for-dollar' retaliat...",
           "score": -2
         },
         {
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 12,
+      "negative_count": 11,
       "recent_events": [
-        {
-          "date": "20260826",
-          "type": "negative",
-          "headline": "[거시분석] China hits out at 'illegal' new US sanctions ...",
-          "score": -2
-        },
         {
           "date": "20260825",
           "type": "negative",
@@ -86,25 +80,25 @@
           "type": "negative",
           "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
           "score": -2
+        },
+        {
+          "date": "20260821",
+          "type": "negative",
+          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
+          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 6,
+      "negative_count": 5,
       "recent_events": [
         {
           "date": "20260826",
-          "type": "negative",
-          "headline": "PGA 투어 2028시즌 최종전은 2주간 열리는 매치플레이",
-          "score": -1
-        },
-        {
-          "date": "20260826",
           "type": "positive",
-          "headline": "[거시분석] China hits out at 'illegal' new US sanctions ...",
-          "score": 3
+          "headline": "[거시분석] Canada announces 'dollar-for-dollar' retaliat...",
+          "score": 1
         },
         {
           "date": "20260825",
@@ -123,6 +117,12 @@
           "type": "negative",
           "headline": "DR Congo and M23 rebels agree roadmap for peace talks",
           "score": -1
+        },
+        {
+          "date": "20260823",
+          "type": "positive",
+          "headline": "물대포에 실사격 훈련까지…中·필리핀, 남중국해 군사긴장 고조",
+          "score": 1
         }
       ]
     },
@@ -190,7 +190,7 @@
         {
           "date": "20260826",
           "type": "negative",
-          "headline": "[거시분석] China hits out at 'illegal' new US sanctions ...",
+          "headline": "[거시분석] Canada announces 'dollar-for-dollar' retaliat...",
           "score": -1
         },
         {
@@ -240,8 +240,8 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 5,
-      "negative_count": 27,
+      "positive_count": 4,
+      "negative_count": 26,
       "recent_events": [
         {
           "date": "20260826",
@@ -251,27 +251,27 @@
         },
         {
           "date": "20260826",
-          "type": "positive",
-          "headline": "PGA 투어 2028시즌 최종전은 2주간 열리는 매치플레이",
-          "score": 1
-        },
-        {
-          "date": "20260826",
           "type": "negative",
-          "headline": "미·캐나다 관세전쟁, 화장품에도 파장…K뷰티에 변수되나",
-          "score": -1
-        },
-        {
-          "date": "20260826",
-          "type": "negative",
-          "headline": "[거시분석] China hits out at 'illegal' new US sanctions ...",
-          "score": -8
+          "headline": "[거시분석] Canada announces 'dollar-for-dollar' retaliat...",
+          "score": -5
         },
         {
           "date": "20260825",
           "type": "negative",
           "headline": "'Half my business will be gone' - firms in Canada and US fear trade war",
           "score": -1
+        },
+        {
+          "date": "20260825",
+          "type": "negative",
+          "headline": "對캐나다 관세전쟁에 美북부 술렁…중간선거 영향 주시",
+          "score": -1
+        },
+        {
+          "date": "20260825",
+          "type": "negative",
+          "headline": "[거시분석] China hits out at 'illegal' new US sanctions ...",
+          "score": -6
         }
       ]
     }
@@ -631,35 +631,17 @@
     },
     {
       "date": "20260826",
-      "headline": "PGA 투어 2028시즌 최종전은 2주간 열리는 매치플레이",
+      "headline": "[거시분석] Canada announces 'dollar-for-dollar' retaliat...",
       "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260826",
-      "headline": "미·캐나다 관세전쟁, 화장품에도 파장…K뷰티에 변수되나",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260826",
-      "headline": "[거시분석] China hits out at 'illegal' new US sanctions ...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -8,
+        "방산": 1,
+        "전체시장": -5,
         "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 58,
-  "total_positives": 29,
+  "total_negatives": 55,
+  "total_positives": 28,
   "risk_level": "EXTREME"
 }
