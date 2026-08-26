@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T21:58:05.469625+09:00",
+  "updated_at": "2026-08-26T23:47:50.275705+09:00",
   "date": "20260826",
   "window_days": 14,
   "sectors": [
@@ -18,14 +18,8 @@
     "반도체·AI": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 6,
+      "negative_count": 5,
       "recent_events": [
-        {
-          "date": "20260826",
-          "type": "negative",
-          "headline": "[거시분석] Canada announces 'dollar-for-dollar' retaliat...",
-          "score": -2
-        },
         {
           "date": "20260825",
           "type": "negative",
@@ -49,14 +43,26 @@
           "type": "negative",
           "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
           "score": -2
+        },
+        {
+          "date": "20260819",
+          "type": "negative",
+          "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
+          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 12,
       "recent_events": [
+        {
+          "date": "20260826",
+          "type": "negative",
+          "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
+          "score": -2
+        },
         {
           "date": "20260825",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
           "score": -2
-        },
-        {
-          "date": "20260821",
-          "type": "negative",
-          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
-          "score": -2
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20260826",
           "type": "positive",
-          "headline": "[거시분석] Canada announces 'dollar-for-dollar' retaliat...",
-          "score": 1
+          "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
+          "score": 3
         },
         {
           "date": "20260825",
@@ -190,7 +190,7 @@
         {
           "date": "20260826",
           "type": "negative",
-          "headline": "[거시분석] Canada announces 'dollar-for-dollar' retaliat...",
+          "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
           "score": -1
         },
         {
@@ -239,17 +239,10 @@
       ]
     },
     "양자컴퓨팅": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 0,
+      "positive_count": 0,
       "negative_count": 0,
-      "recent_events": [
-        {
-          "date": "20260826",
-          "type": "positive",
-          "headline": "양자컴퓨터 활용해 산업현장 난제 푼다…리프레이밍 챌린지 개최",
-          "score": 1
-        }
-      ]
+      "recent_events": []
     },
     "전체시장": {
       "score": -10,
@@ -259,7 +252,7 @@
         {
           "date": "20260826",
           "type": "negative",
-          "headline": "[거시분석] Canada announces 'dollar-for-dollar' retaliat...",
+          "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
           "score": -5
         },
         {
@@ -644,25 +637,17 @@
     },
     {
       "date": "20260826",
-      "headline": "양자컴퓨터 활용해 산업현장 난제 푼다…리프레이밍 챌린지 개최",
+      "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
       "impacts": {
-        "양자컴퓨팅": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260826",
-      "headline": "[거시분석] Canada announces 'dollar-for-dollar' retaliat...",
-      "impacts": {
-        "방산": 1,
+        "방산": 3,
+        "건설": -2,
         "전체시장": -5,
-        "금융": -1,
-        "반도체·AI": -2
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 54,
-  "total_positives": 30,
+  "total_positives": 29,
   "risk_level": "EXTREME"
 }
