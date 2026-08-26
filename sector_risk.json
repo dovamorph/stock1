@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-26T23:47:50.275705+09:00",
-  "date": "20260826",
+  "updated_at": "2026-08-27T01:49:53.698150+09:00",
+  "date": "20260827",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 12,
+      "negative_count": 13,
       "recent_events": [
+        {
+          "date": "20260827",
+          "type": "negative",
+          "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
+          "score": -2
+        },
         {
           "date": "20260826",
           "type": "negative",
@@ -80,20 +86,26 @@
           "type": "negative",
           "headline": "[거시분석] DR Congo and M23 rebels agree roadmap for pea...",
           "score": -1
-        },
-        {
-          "date": "20260822",
-          "type": "negative",
-          "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 16,
-      "negative_count": 5,
+      "positive_count": 17,
+      "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20260827",
+          "type": "positive",
+          "headline": "우크라 수도에 고강도 공습…러 점령지서는 버스 폭발",
+          "score": 1
+        },
+        {
+          "date": "20260827",
+          "type": "positive",
+          "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
+          "score": 3
+        },
         {
           "date": "20260826",
           "type": "positive",
@@ -111,18 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
           "score": 3
-        },
-        {
-          "date": "20260823",
-          "type": "negative",
-          "headline": "DR Congo and M23 rebels agree roadmap for peace talks",
-          "score": -1
-        },
-        {
-          "date": "20260823",
-          "type": "positive",
-          "headline": "물대포에 실사격 훈련까지…中·필리핀, 남중국해 군사긴장 고조",
-          "score": 1
         }
       ]
     },
@@ -146,10 +146,16 @@
       ]
     },
     "로봇": {
-      "score": 5,
-      "positive_count": 5,
+      "score": 6,
+      "positive_count": 6,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260827",
+          "type": "positive",
+          "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
+          "score": 1
+        },
         {
           "date": "20260826",
           "type": "positive",
@@ -173,19 +179,13 @@
           "type": "positive",
           "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
           "score": 1
-        },
-        {
-          "date": "20260822",
-          "type": "positive",
-          "headline": "Usain Bolt’s 100m record broken at World Humanoid Robot Games",
-          "score": 1
         }
       ]
     },
     "금융": {
-      "score": -7,
+      "score": -6,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
         {
           "date": "20260826",
@@ -220,10 +220,16 @@
       ]
     },
     "우주ETF": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 3,
+      "positive_count": 3,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260827",
+          "type": "positive",
+          "headline": "Musk's SpaceX to build $100bn launch facility in Louisiana",
+          "score": 1
+        },
         {
           "date": "20260826",
           "type": "positive",
@@ -246,9 +252,15 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 4,
+      "positive_count": 3,
       "negative_count": 25,
       "recent_events": [
+        {
+          "date": "20260827",
+          "type": "negative",
+          "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
+          "score": -4
+        },
         {
           "date": "20260826",
           "type": "negative",
@@ -272,36 +284,11 @@
           "type": "negative",
           "headline": "[거시분석] China hits out at 'illegal' new US sanctions ...",
           "score": -6
-        },
-        {
-          "date": "20260824",
-          "type": "negative",
-          "headline": "'Half my business will be gone' - firms in Canada and US fear trade war",
-          "score": -1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260812",
-      "headline": "튀르키예 국영통신 \"美·이란, 휴전 연장 합의\"",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260812",
-      "headline": "[거시분석] Trump's dramatic plane swap hints at personal...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -4,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260813",
       "headline": "미 7월 생산자물가 전달 대비 보합…전망치 하회",
@@ -645,9 +632,43 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260827",
+      "headline": "Musk's SpaceX to build $100bn launch facility in Louisiana",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260827",
+      "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
+      "impacts": {
+        "로봇": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260827",
+      "headline": "우크라 수도에 고강도 공습…러 점령지서는 버스 폭발",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260827",
+      "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -4
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 54,
-  "total_positives": 29,
+  "total_negatives": 53,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
