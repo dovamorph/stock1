@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T01:49:53.698150+09:00",
+  "updated_at": "2026-08-27T04:49:37.748860+09:00",
   "date": "20260827",
   "window_days": 14,
   "sectors": [
@@ -18,8 +18,14 @@
     "반도체·AI": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 5,
+      "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20260827",
+          "type": "negative",
+          "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
+          "score": -2
+        },
         {
           "date": "20260825",
           "type": "negative",
@@ -42,12 +48,6 @@
           "date": "20260821",
           "type": "negative",
           "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
-          "score": -2
-        },
-        {
-          "date": "20260819",
-          "type": "negative",
-          "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
           "score": -2
         }
       ]
@@ -183,10 +183,16 @@
       ]
     },
     "금융": {
-      "score": -6,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260827",
+          "type": "negative",
+          "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
+          "score": -1
+        },
         {
           "date": "20260826",
           "type": "negative",
@@ -209,12 +215,6 @@
           "date": "20260820",
           "type": "negative",
           "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
-          "score": -1
-        },
-        {
-          "date": "20260818",
-          "type": "negative",
-          "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
           "score": -1
         }
       ]
@@ -259,7 +259,7 @@
           "date": "20260827",
           "type": "negative",
           "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
-          "score": -4
+          "score": -7
         },
         {
           "date": "20260826",
@@ -663,12 +663,14 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -4
+        "전체시장": -7,
+        "금융": -1,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 53,
+  "total_negatives": 55,
   "total_positives": 31,
   "risk_level": "EXTREME"
 }
