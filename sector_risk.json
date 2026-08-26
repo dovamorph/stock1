@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T13:42:37.633733+09:00",
+  "updated_at": "2026-08-26T15:54:39.416114+09:00",
   "date": "20260826",
   "window_days": 14,
   "sectors": [
@@ -54,9 +54,15 @@
     },
     "건설": {
       "score": -10,
-      "positive_count": 0,
+      "positive_count": 1,
       "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260826",
+          "type": "positive",
+          "headline": "[특징주] 재건주, 러 통신사 '미·이란 휴전 합의' 보도에 상승(종합)",
+          "score": 1
+        },
         {
           "date": "20260825",
           "type": "negative",
@@ -80,20 +86,20 @@
           "type": "negative",
           "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
           "score": -2
-        },
-        {
-          "date": "20260821",
-          "type": "negative",
-          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 5,
+      "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20260826",
+          "type": "negative",
+          "headline": "[특징주] 재건주, 러 통신사 '미·이란 휴전 합의' 보도에 상승(종합)",
+          "score": -1
+        },
         {
           "date": "20260826",
           "type": "positive",
@@ -117,12 +123,6 @@
           "type": "negative",
           "headline": "DR Congo and M23 rebels agree roadmap for peace talks",
           "score": -1
-        },
-        {
-          "date": "20260823",
-          "type": "positive",
-          "headline": "물대포에 실사격 훈련까지…中·필리핀, 남중국해 군사긴장 고조",
-          "score": 1
         }
       ]
     },
@@ -183,10 +183,16 @@
       ]
     },
     "금융": {
-      "score": -6,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260826",
+          "type": "negative",
+          "headline": "[거시분석] Canada announces 'dollar-for-dollar' retaliat...",
+          "score": -1
+        },
         {
           "date": "20260822",
           "type": "negative",
@@ -209,12 +215,6 @@
           "date": "20260818",
           "type": "negative",
           "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
-          "score": -1
-        },
-        {
-          "date": "20260813",
-          "type": "negative",
-          "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
           "score": -1
         }
       ]
@@ -240,8 +240,8 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 4,
-      "negative_count": 26,
+      "positive_count": 7,
+      "negative_count": 27,
       "recent_events": [
         {
           "date": "20260826",
@@ -251,27 +251,27 @@
         },
         {
           "date": "20260826",
-          "type": "negative",
-          "headline": "[거시분석] Canada announces 'dollar-for-dollar' retaliat...",
-          "score": -4
+          "type": "positive",
+          "headline": "[특징주] 재건주, 러 통신사 '미·이란 휴전 합의' 보도에 상승(종합)",
+          "score": 1
         },
         {
-          "date": "20260825",
+          "date": "20260826",
+          "type": "positive",
+          "headline": "[표] 코스닥 외국인 순매수도 상위종목(26일)",
+          "score": 1
+        },
+        {
+          "date": "20260826",
+          "type": "positive",
+          "headline": "[표] 거래소 외국인 순매수도 상위종목(26일)",
+          "score": 1
+        },
+        {
+          "date": "20260826",
           "type": "negative",
-          "headline": "'Half my business will be gone' - firms in Canada and US fear trade war",
+          "headline": "'물가안정 위해 소고기 관세 면제'…트럼프-집권 공화당 내분",
           "score": -1
-        },
-        {
-          "date": "20260825",
-          "type": "negative",
-          "headline": "對캐나다 관세전쟁에 美북부 술렁…중간선거 영향 주시",
-          "score": -1
-        },
-        {
-          "date": "20260825",
-          "type": "negative",
-          "headline": "[거시분석] China hits out at 'illegal' new US sanctions ...",
-          "score": -6
         }
       ]
     }
@@ -631,16 +631,51 @@
     },
     {
       "date": "20260826",
+      "headline": "[특징주] 재건주, 러 통신사 '미·이란 휴전 합의' 보도에 상승(종합)",
+      "impacts": {
+        "건설": 1,
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260826",
+      "headline": "[표] 코스닥 외국인 순매수도 상위종목(26일)",
+      "impacts": {
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260826",
+      "headline": "[표] 거래소 외국인 순매수도 상위종목(26일)",
+      "impacts": {
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260826",
+      "headline": "'물가안정 위해 소고기 관세 면제'…트럼프-집권 공화당 내분",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260826",
       "headline": "[거시분석] Canada announces 'dollar-for-dollar' retaliat...",
       "impacts": {
         "방산": 1,
-        "전체시장": -4,
+        "전체시장": -5,
+        "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 54,
-  "total_positives": 28,
+  "total_negatives": 57,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
