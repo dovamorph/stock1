@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T07:54:11.300913+09:00",
+  "updated_at": "2026-08-27T17:20:22.249550+09:00",
   "date": "20260827",
   "window_days": 14,
   "sectors": [
@@ -16,15 +16,15 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -10,
-      "positive_count": 0,
-      "negative_count": 6,
+      "score": -9,
+      "positive_count": 1,
+      "negative_count": 5,
       "recent_events": [
         {
           "date": "20260827",
-          "type": "negative",
-          "headline": "[거시분석] Canada announces 'dollar-for-dollar' retaliat...",
-          "score": -2
+          "type": "positive",
+          "headline": "OpenAI says it detected malign activity months before Hugging Face attack",
+          "score": 1
         },
         {
           "date": "20260825",
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 12,
+      "negative_count": 13,
       "recent_events": [
+        {
+          "date": "20260827",
+          "type": "negative",
+          "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
+          "score": -2
+        },
         {
           "date": "20260826",
           "type": "negative",
@@ -80,31 +86,19 @@
           "type": "negative",
           "headline": "[거시분석] DR Congo and M23 rebels agree roadmap for pea...",
           "score": -1
-        },
-        {
-          "date": "20260822",
-          "type": "negative",
-          "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 5,
+      "negative_count": 4,
       "recent_events": [
         {
           "date": "20260827",
-          "type": "negative",
-          "headline": "Israel-Hamas truce failure ‘point of no return’, envoy warns",
-          "score": -1
-        },
-        {
-          "date": "20260827",
           "type": "positive",
-          "headline": "[거시분석] Canada announces 'dollar-for-dollar' retaliat...",
-          "score": 1
+          "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
+          "score": 3
         },
         {
           "date": "20260826",
@@ -123,6 +117,12 @@
           "type": "positive",
           "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
           "score": 3
+        },
+        {
+          "date": "20260823",
+          "type": "negative",
+          "headline": "DR Congo and M23 rebels agree roadmap for peace talks",
+          "score": -1
         }
       ]
     },
@@ -190,7 +190,7 @@
         {
           "date": "20260827",
           "type": "negative",
-          "headline": "[거시분석] Canada announces 'dollar-for-dollar' retaliat...",
+          "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
           "score": -1
         },
         {
@@ -220,22 +220,10 @@
       ]
     },
     "우주ETF": {
-      "score": 4,
-      "positive_count": 4,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260827",
-          "type": "positive",
-          "headline": "Musk's SpaceX to build $100bn launch facility in Louisiana",
-          "score": 1
-        },
-        {
-          "date": "20260827",
-          "type": "positive",
-          "headline": "US says Chinese-linked hackers attacked NASA, Senate, and gov’t agencies",
-          "score": 1
-        },
         {
           "date": "20260826",
           "type": "positive",
@@ -258,19 +246,13 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 4,
+      "positive_count": 3,
       "negative_count": 25,
       "recent_events": [
         {
           "date": "20260827",
-          "type": "positive",
-          "headline": "Israel-Hamas truce failure ‘point of no return’, envoy warns",
-          "score": 1
-        },
-        {
-          "date": "20260827",
           "type": "negative",
-          "headline": "[거시분석] Canada announces 'dollar-for-dollar' retaliat...",
+          "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
           "score": -5
         },
         {
@@ -290,6 +272,12 @@
           "type": "negative",
           "headline": "對캐나다 관세전쟁에 美북부 술렁…중간선거 영향 주시",
           "score": -1
+        },
+        {
+          "date": "20260825",
+          "type": "negative",
+          "headline": "[거시분석] China hits out at 'illegal' new US sanctions ...",
+          "score": -6
         }
       ]
     }
@@ -641,14 +629,6 @@
     },
     {
       "date": "20260827",
-      "headline": "Musk's SpaceX to build $100bn launch facility in Louisiana",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260827",
       "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
       "impacts": {
         "로봇": 1
@@ -657,34 +637,25 @@
     },
     {
       "date": "20260827",
-      "headline": "US says Chinese-linked hackers attacked NASA, Senate, and gov’t agencies",
+      "headline": "OpenAI says it detected malign activity months before Hugging Face attack",
       "impacts": {
-        "우주ETF": 1
+        "반도체·AI": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260827",
-      "headline": "Israel-Hamas truce failure ‘point of no return’, envoy warns",
+      "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
       "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260827",
-      "headline": "[거시분석] Canada announces 'dollar-for-dollar' retaliat...",
-      "impacts": {
-        "방산": 1,
+        "방산": 3,
+        "건설": -2,
         "전체시장": -5,
-        "금융": -1,
-        "반도체·AI": -2
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 55,
-  "total_positives": 32,
+  "total_negatives": 54,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
