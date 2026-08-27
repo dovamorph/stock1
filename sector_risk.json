@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-27T17:20:22.249550+09:00",
-  "date": "20260827",
+  "updated_at": "2026-08-28T05:13:01.343997+09:00",
+  "date": "20260828",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,10 +16,22 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -9,
-      "positive_count": 1,
+      "score": -7,
+      "positive_count": 3,
       "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20260828",
+          "type": "positive",
+          "headline": "SK하이닉스, 美인디애나팹 착공…年수십만장 7세대 HBM 생산(종합2보)",
+          "score": 1
+        },
+        {
+          "date": "20260828",
+          "type": "positive",
+          "headline": "[르포] 옥수수밭에 첨단 HBM 기지 구축…인디애나 터잡는 SK하이닉스 팹",
+          "score": 1
+        },
         {
           "date": "20260827",
           "type": "positive",
@@ -37,18 +49,6 @@
           "type": "negative",
           "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
           "score": -2
-        },
-        {
-          "date": "20260822",
-          "type": "negative",
-          "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
-          "score": -2
-        },
-        {
-          "date": "20260821",
-          "type": "negative",
-          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
-          "score": -2
         }
       ]
     },
@@ -58,6 +58,12 @@
       "negative_count": 13,
       "recent_events": [
         {
+          "date": "20260828",
+          "type": "negative",
+          "headline": "[거시분석] Board of Peace's Gaza envoy criticises Israel...",
+          "score": -2
+        },
+        {
           "date": "20260827",
           "type": "negative",
           "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
           "score": -2
-        },
-        {
-          "date": "20260823",
-          "type": "negative",
-          "headline": "[거시분석] DR Congo and M23 rebels agree roadmap for pea...",
-          "score": -1
         }
       ]
     },
@@ -95,6 +95,12 @@
       "negative_count": 4,
       "recent_events": [
         {
+          "date": "20260828",
+          "type": "positive",
+          "headline": "[거시분석] Board of Peace's Gaza envoy criticises Israel...",
+          "score": 3
+        },
+        {
           "date": "20260827",
           "type": "positive",
           "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
@@ -117,33 +123,14 @@
           "type": "positive",
           "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
           "score": 3
-        },
-        {
-          "date": "20260823",
-          "type": "negative",
-          "headline": "DR Congo and M23 rebels agree roadmap for peace talks",
-          "score": -1
         }
       ]
     },
     "전력·에너지": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 0,
+      "positive_count": 0,
       "negative_count": 0,
-      "recent_events": [
-        {
-          "date": "20260813",
-          "type": "positive",
-          "headline": "빌 게이츠 1년 만에 방한…정·재계와 SMR 협력 논의",
-          "score": 1
-        },
-        {
-          "date": "20260813",
-          "type": "positive",
-          "headline": "[속보] 빌 게이츠 1년 만에 방한…정·재계와 SMR 협력 논의 예정",
-          "score": 1
-        }
-      ]
+      "recent_events": []
     },
     "로봇": {
       "score": 6,
@@ -188,6 +175,12 @@
       "negative_count": 7,
       "recent_events": [
         {
+          "date": "20260828",
+          "type": "negative",
+          "headline": "[거시분석] Board of Peace's Gaza envoy criticises Israel...",
+          "score": -1
+        },
+        {
           "date": "20260827",
           "type": "negative",
           "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
@@ -209,12 +202,6 @@
           "date": "20260821",
           "type": "negative",
           "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
-          "score": -1
-        },
-        {
-          "date": "20260820",
-          "type": "negative",
-          "headline": "[거시분석] At least 15 killed in Kyiv as Ukraine grapple...",
           "score": -1
         }
       ]
@@ -247,8 +234,14 @@
     "전체시장": {
       "score": -10,
       "positive_count": 3,
-      "negative_count": 25,
+      "negative_count": 23,
       "recent_events": [
+        {
+          "date": "20260828",
+          "type": "negative",
+          "headline": "[거시분석] Board of Peace's Gaza envoy criticises Israel...",
+          "score": -4
+        },
         {
           "date": "20260827",
           "type": "negative",
@@ -272,60 +265,11 @@
           "type": "negative",
           "headline": "對캐나다 관세전쟁에 美북부 술렁…중간선거 영향 주시",
           "score": -1
-        },
-        {
-          "date": "20260825",
-          "type": "negative",
-          "headline": "[거시분석] China hits out at 'illegal' new US sanctions ...",
-          "score": -6
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260813",
-      "headline": "미 7월 생산자물가 전달 대비 보합…전망치 하회",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260813",
-      "headline": "빌 게이츠 1년 만에 방한…정·재계와 SMR 협력 논의",
-      "impacts": {
-        "전력·에너지": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260813",
-      "headline": "[속보] 빌 게이츠 1년 만에 방한…정·재계와 SMR 협력 논의 예정",
-      "impacts": {
-        "전력·에너지": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260813",
-      "headline": "美 \"중국산 상품 40여개국 통해 불법 관세회피\"…한국도 거론",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260813",
-      "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-      "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -5,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260814",
       "headline": "中관영지, 美 드론 최대 100% 관세에 \"중국 겨냥한 보호주의\"",
@@ -653,9 +597,36 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260828",
+      "headline": "SK하이닉스, 美인디애나팹 착공…年수십만장 7세대 HBM 생산(종합2보)",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260828",
+      "headline": "[르포] 옥수수밭에 첨단 HBM 기지 구축…인디애나 터잡는 SK하이닉스 팹",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260828",
+      "headline": "[거시분석] Board of Peace's Gaza envoy criticises Israel...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -4,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 54,
+  "total_negatives": 52,
   "total_positives": 30,
   "risk_level": "EXTREME"
 }
