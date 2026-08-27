@@ -1,6 +1,6 @@
 {
   "date": "20260827",
-  "generated_at": "2026-08-27T20:00:47+09:00",
+  "generated_at": "2026-08-27T20:30:37+09:00",
   "reference_date": "20260826",
   "reference_ranks": {
     "005930": 1,
@@ -61,9 +61,9 @@
     "rsi_14": 63.9,
     "basis": null,
     "basis_signal": "조회불가",
-    "usdkrw": 1381.38,
-    "usdkrw_ch1": -0.01,
-    "usdkrw_ch5": -0.68,
+    "usdkrw": 1380.62,
+    "usdkrw_ch1": -0.06,
+    "usdkrw_ch5": -0.73,
     "kosdaq_ch1": 0.39,
     "kospi_ch1": 1.53,
     "kospi_ch2": 2.52,
@@ -96,9 +96,9 @@
       "ndx_ch1": -0.08,
       "ndx_ma60": 25984.23
     },
-    "adr": 50.8,
-    "adr_advances": 236,
-    "adr_declines": 229,
+    "adr": 51.3,
+    "adr_advances": 248,
+    "adr_declines": 235,
     "adr_signal": "🟠",
     "adr_desc": "약세 (51%) — 속에서 썩는 중",
     "breadth": {
@@ -107,7 +107,7 @@
       "desc": "지수↑·폭 넓음 — 전 종목 건강",
       "kospi_ch1": 1.53,
       "kosdaq_ch1": 0.39,
-      "adr": 50.8
+      "adr": 51.3
     },
     "pool_flow": {
       "total": 40,
