@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-28T15:00:52.453469+09:00",
-  "date": "20260828",
+  "updated_at": "2026-08-29T05:01:14.061158+09:00",
+  "date": "20260829",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -55,7 +55,7 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 12,
+      "negative_count": 11,
       "recent_events": [
         {
           "date": "20260827",
@@ -92,8 +92,26 @@
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 4,
+      "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20260829",
+          "type": "negative",
+          "headline": "Oslo mayor calls off wedding ceremony after death of Norway's king",
+          "score": -1
+        },
+        {
+          "date": "20260829",
+          "type": "negative",
+          "headline": "\"트럼프, 김정은과 북핵용인·종전·한미훈련 중단 논의할 듯\"",
+          "score": -1
+        },
+        {
+          "date": "20260829",
+          "type": "positive",
+          "headline": "[거시분석] Fed has 'work to do' if price rises don't eas...",
+          "score": 1
+        },
         {
           "date": "20260828",
           "type": "positive",
@@ -104,24 +122,6 @@
           "date": "20260827",
           "type": "positive",
           "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
-          "score": 3
-        },
-        {
-          "date": "20260826",
-          "type": "positive",
-          "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
-          "score": 3
-        },
-        {
-          "date": "20260825",
-          "type": "positive",
-          "headline": "[거시분석] China hits out at 'illegal' new US sanctions ...",
-          "score": 3
-        },
-        {
-          "date": "20260824",
-          "type": "positive",
-          "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
           "score": 3
         }
       ]
@@ -170,10 +170,16 @@
       ]
     },
     "금융": {
-      "score": -7,
+      "score": -10,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260829",
+          "type": "negative",
+          "headline": "[거시분석] Fed has 'work to do' if price rises don't eas...",
+          "score": -3
+        },
         {
           "date": "20260828",
           "type": "negative",
@@ -196,12 +202,6 @@
           "date": "20260822",
           "type": "negative",
           "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
-          "score": -1
-        },
-        {
-          "date": "20260821",
-          "type": "negative",
-          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
           "score": -1
         }
       ]
@@ -233,9 +233,21 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 3,
-      "negative_count": 23,
+      "positive_count": 4,
+      "negative_count": 22,
       "recent_events": [
+        {
+          "date": "20260829",
+          "type": "positive",
+          "headline": "\"트럼프, 김정은과 북핵용인·종전·한미훈련 중단 논의할 듯\"",
+          "score": 1
+        },
+        {
+          "date": "20260829",
+          "type": "negative",
+          "headline": "[거시분석] Fed has 'work to do' if price rises don't eas...",
+          "score": -5
+        },
         {
           "date": "20260828",
           "type": "negative",
@@ -253,41 +265,11 @@
           "type": "negative",
           "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
           "score": -5
-        },
-        {
-          "date": "20260825",
-          "type": "negative",
-          "headline": "'Half my business will be gone' - firms in Canada and US fear trade war",
-          "score": -1
-        },
-        {
-          "date": "20260825",
-          "type": "negative",
-          "headline": "對캐나다 관세전쟁에 美북부 술렁…중간선거 영향 주시",
-          "score": -1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260814",
-      "headline": "中관영지, 美 드론 최대 100% 관세에 \"중국 겨냥한 보호주의\"",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260814",
-      "headline": "[거시분석] Putin can no longer claim victory in Ukraine,...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260815",
       "headline": "이스라엘 공격에 레바논서 9명 사망…\"6월 휴전 이후 최다\"(종합)",
@@ -607,9 +589,36 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260829",
+      "headline": "Oslo mayor calls off wedding ceremony after death of Norway's king",
+      "impacts": {
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260829",
+      "headline": "\"트럼프, 김정은과 북핵용인·종전·한미훈련 중단 논의할 듯\"",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260829",
+      "headline": "[거시분석] Fed has 'work to do' if price rises don't eas...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -5,
+        "금융": -3
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 51,
-  "total_positives": 28,
+  "total_negatives": 52,
+  "total_positives": 29,
   "risk_level": "EXTREME"
 }
