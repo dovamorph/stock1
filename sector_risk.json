@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T05:13:01.343997+09:00",
+  "updated_at": "2026-08-28T15:00:52.453469+09:00",
   "date": "20260828",
   "window_days": 14,
   "sectors": [
@@ -16,22 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -7,
-      "positive_count": 3,
+      "score": -9,
+      "positive_count": 1,
       "negative_count": 5,
       "recent_events": [
-        {
-          "date": "20260828",
-          "type": "positive",
-          "headline": "SK하이닉스, 美인디애나팹 착공…年수십만장 7세대 HBM 생산(종합2보)",
-          "score": 1
-        },
-        {
-          "date": "20260828",
-          "type": "positive",
-          "headline": "[르포] 옥수수밭에 첨단 HBM 기지 구축…인디애나 터잡는 SK하이닉스 팹",
-          "score": 1
-        },
         {
           "date": "20260827",
           "type": "positive",
@@ -49,20 +37,26 @@
           "type": "negative",
           "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
           "score": -2
+        },
+        {
+          "date": "20260822",
+          "type": "negative",
+          "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
+          "score": -2
+        },
+        {
+          "date": "20260821",
+          "type": "negative",
+          "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
+          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 13,
+      "negative_count": 12,
       "recent_events": [
-        {
-          "date": "20260828",
-          "type": "negative",
-          "headline": "[거시분석] Board of Peace's Gaza envoy criticises Israel...",
-          "score": -2
-        },
         {
           "date": "20260827",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
           "score": -2
+        },
+        {
+          "date": "20260823",
+          "type": "negative",
+          "headline": "[거시분석] DR Congo and M23 rebels agree roadmap for pea...",
+          "score": -1
         }
       ]
     },
@@ -98,7 +98,7 @@
           "date": "20260828",
           "type": "positive",
           "headline": "[거시분석] Board of Peace's Gaza envoy criticises Israel...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260827",
@@ -240,7 +240,7 @@
           "date": "20260828",
           "type": "negative",
           "headline": "[거시분석] Board of Peace's Gaza envoy criticises Israel...",
-          "score": -4
+          "score": -3
         },
         {
           "date": "20260827",
@@ -600,33 +600,16 @@
     },
     {
       "date": "20260828",
-      "headline": "SK하이닉스, 美인디애나팹 착공…年수십만장 7세대 HBM 생산(종합2보)",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260828",
-      "headline": "[르포] 옥수수밭에 첨단 HBM 기지 구축…인디애나 터잡는 SK하이닉스 팹",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260828",
       "headline": "[거시분석] Board of Peace's Gaza envoy criticises Israel...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -4,
+        "방산": 1,
+        "전체시장": -3,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 52,
-  "total_positives": 30,
+  "total_negatives": 51,
+  "total_positives": 28,
   "risk_level": "EXTREME"
 }
