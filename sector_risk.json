@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-29T19:55:29.981920+09:00",
-  "date": "20260829",
+  "updated_at": "2026-08-30T01:26:52.738337+09:00",
+  "date": "20260830",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -95,6 +95,18 @@
       "negative_count": 5,
       "recent_events": [
         {
+          "date": "20260830",
+          "type": "negative",
+          "headline": "Oslo mayor calls off wedding ceremony after death of Norway's king",
+          "score": -1
+        },
+        {
+          "date": "20260830",
+          "type": "positive",
+          "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
+          "score": 1
+        },
+        {
           "date": "20260829",
           "type": "negative",
           "headline": "Oslo mayor calls off wedding ceremony after death of Norway's king",
@@ -111,18 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] Board of Peace's Gaza envoy criticises Israel...",
           "score": 1
-        },
-        {
-          "date": "20260827",
-          "type": "positive",
-          "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
-          "score": 3
-        },
-        {
-          "date": "20260826",
-          "type": "positive",
-          "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
-          "score": 3
         }
       ]
     },
@@ -233,9 +233,15 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 3,
+      "positive_count": 2,
       "negative_count": 22,
       "recent_events": [
+        {
+          "date": "20260830",
+          "type": "negative",
+          "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
+          "score": -2
+        },
         {
           "date": "20260829",
           "type": "negative",
@@ -259,35 +265,11 @@
           "type": "negative",
           "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
           "score": -5
-        },
-        {
-          "date": "20260825",
-          "type": "negative",
-          "headline": "'Half my business will be gone' - firms in Canada and US fear trade war",
-          "score": -1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260815",
-      "headline": "이스라엘 공격에 레바논서 9명 사망…\"6월 휴전 이후 최다\"(종합)",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260815",
-      "headline": "[거시분석] Is China seeking to copy Iran’s Strait of Hor...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260816",
       "headline": "[거시분석] Five killed as Russia launches fresh aerial a...",
@@ -608,9 +590,26 @@
         "반도체·AI": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260830",
+      "headline": "Oslo mayor calls off wedding ceremony after death of Norway's king",
+      "impacts": {
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260830",
+      "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -2
+      },
+      "source": "geo_categories"
     }
   ],
   "total_negatives": 52,
-  "total_positives": 28,
+  "total_positives": 27,
   "risk_level": "EXTREME"
 }
