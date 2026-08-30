@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-30T20:32:57.438367+09:00",
-  "date": "20260830",
+  "updated_at": "2026-08-31T01:20:00.566275+09:00",
+  "date": "20260831",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -18,8 +18,14 @@
     "반도체·AI": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260831",
+          "type": "negative",
+          "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
+          "score": -2
+        },
         {
           "date": "20260829",
           "type": "negative",
@@ -43,20 +49,20 @@
           "type": "negative",
           "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
           "score": -2
-        },
-        {
-          "date": "20260822",
-          "type": "negative",
-          "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
-          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 11,
+      "negative_count": 12,
       "recent_events": [
+        {
+          "date": "20260831",
+          "type": "negative",
+          "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
+          "score": -2
+        },
         {
           "date": "20260830",
           "type": "positive",
@@ -80,21 +86,27 @@
           "type": "negative",
           "headline": "[거시분석] China hits out at 'illegal' new US sanctions ...",
           "score": -2
-        },
-        {
-          "date": "20260824",
-          "type": "negative",
-          "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 5,
+      "negative_count": 6,
       "recent_events": [
         {
+          "date": "20260831",
+          "type": "negative",
+          "headline": "Oslo mayor calls off wedding ceremony after death of Norway's king",
+          "score": -1
+        },
+        {
+          "date": "20260831",
+          "type": "positive",
+          "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
+          "score": 3
+        },
+        {
           "date": "20260830",
           "type": "negative",
           "headline": "Oslo mayor calls off wedding ceremony after death of Norway's king",
@@ -111,18 +123,6 @@
           "type": "negative",
           "headline": "Oslo mayor calls off wedding ceremony after death of Norway's king",
           "score": -1
-        },
-        {
-          "date": "20260829",
-          "type": "positive",
-          "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
-          "score": 1
-        },
-        {
-          "date": "20260828",
-          "type": "positive",
-          "headline": "[거시분석] Board of Peace's Gaza envoy criticises Israel...",
-          "score": 1
         }
       ]
     },
@@ -170,10 +170,16 @@
       ]
     },
     "금융": {
-      "score": -9,
+      "score": -10,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20260831",
+          "type": "negative",
+          "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
+          "score": -1
+        },
         {
           "date": "20260830",
           "type": "negative",
@@ -194,12 +200,6 @@
         },
         {
           "date": "20260827",
-          "type": "negative",
-          "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
-          "score": -1
-        },
-        {
-          "date": "20260826",
           "type": "negative",
           "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
           "score": -1
@@ -244,6 +244,12 @@
       "negative_count": 22,
       "recent_events": [
         {
+          "date": "20260831",
+          "type": "negative",
+          "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
+          "score": -7
+        },
+        {
           "date": "20260830",
           "type": "negative",
           "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
@@ -266,26 +272,11 @@
           "type": "negative",
           "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
           "score": -5
-        },
-        {
-          "date": "20260826",
-          "type": "negative",
-          "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
-          "score": -5
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260816",
-      "headline": "[거시분석] Five killed as Russia launches fresh aerial a...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260817",
       "headline": "[거시분석] Trump says US to reduce military drills with ...",
@@ -631,9 +622,29 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260831",
+      "headline": "Oslo mayor calls off wedding ceremony after death of Norway's king",
+      "impacts": {
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260831",
+      "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -7,
+        "금융": -1,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 53,
+  "total_negatives": 57,
   "total_positives": 29,
   "risk_level": "EXTREME"
 }
