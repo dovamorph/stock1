@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T14:11:34.346243+09:00",
+  "updated_at": "2026-08-30T20:32:57.438367+09:00",
   "date": "20260830",
   "window_days": 14,
   "sectors": [
@@ -54,9 +54,15 @@
     },
     "건설": {
       "score": -10,
-      "positive_count": 0,
+      "positive_count": 1,
       "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260830",
+          "type": "positive",
+          "headline": "이준석 사퇴에 갈 길 잃은 개혁신당…재건 일정 불투명(종합)",
+          "score": 1
+        },
         {
           "date": "20260827",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
           "score": -2
-        },
-        {
-          "date": "20260823",
-          "type": "negative",
-          "headline": "[거시분석] DR Congo and M23 rebels agree roadmap for pea...",
-          "score": -1
         }
       ]
     },
@@ -170,10 +170,16 @@
       ]
     },
     "금융": {
-      "score": -8,
+      "score": -9,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20260830",
+          "type": "negative",
+          "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
+          "score": -1
+        },
         {
           "date": "20260829",
           "type": "negative",
@@ -196,12 +202,6 @@
           "date": "20260826",
           "type": "negative",
           "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
-          "score": -1
-        },
-        {
-          "date": "20260822",
-          "type": "negative",
-          "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
           "score": -1
         }
       ]
@@ -226,10 +226,17 @@
       ]
     },
     "양자컴퓨팅": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20260830",
+          "type": "positive",
+          "headline": "신영수 CJ대한통운 대표 \"글로벌에서 퀀텀점프 해법 찾아야\"",
+          "score": 1
+        }
+      ]
     },
     "전체시장": {
       "score": -10,
@@ -240,7 +247,7 @@
           "date": "20260830",
           "type": "negative",
           "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
-          "score": -2
+          "score": -3
         },
         {
           "date": "20260829",
@@ -601,15 +608,32 @@
     },
     {
       "date": "20260830",
+      "headline": "신영수 CJ대한통운 대표 \"글로벌에서 퀀텀점프 해법 찾아야\"",
+      "impacts": {
+        "양자컴퓨팅": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260830",
+      "headline": "이준석 사퇴에 갈 길 잃은 개혁신당…재건 일정 불투명(종합)",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260830",
       "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
       "impacts": {
         "방산": 1,
-        "전체시장": -2
+        "전체시장": -3,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 52,
-  "total_positives": 27,
+  "total_negatives": 53,
+  "total_positives": 29,
   "risk_level": "EXTREME"
 }
