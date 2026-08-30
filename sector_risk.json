@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T08:57:33.091088+09:00",
+  "updated_at": "2026-08-30T14:11:34.346243+09:00",
   "date": "20260830",
   "window_days": 14,
   "sectors": [
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 12,
+      "negative_count": 11,
       "recent_events": [
-        {
-          "date": "20260830",
-          "type": "negative",
-          "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
-          "score": -2
-        },
         {
           "date": "20260827",
           "type": "negative",
@@ -86,13 +80,19 @@
           "type": "negative",
           "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
           "score": -2
+        },
+        {
+          "date": "20260823",
+          "type": "negative",
+          "headline": "[거시분석] DR Congo and M23 rebels agree roadmap for pea...",
+          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 6,
+      "negative_count": 5,
       "recent_events": [
         {
           "date": "20260830",
@@ -102,15 +102,9 @@
         },
         {
           "date": "20260830",
-          "type": "negative",
-          "headline": "이란 대통령, 전쟁 6개월째 美에 종전 MOU 이행 촉구",
-          "score": -1
-        },
-        {
-          "date": "20260830",
           "type": "positive",
           "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260829",
@@ -122,6 +116,12 @@
           "date": "20260829",
           "type": "positive",
           "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
+          "score": 1
+        },
+        {
+          "date": "20260828",
+          "type": "positive",
+          "headline": "[거시분석] Board of Peace's Gaza envoy criticises Israel...",
           "score": 1
         }
       ]
@@ -170,16 +170,10 @@
       ]
     },
     "금융": {
-      "score": -9,
+      "score": -8,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 8,
       "recent_events": [
-        {
-          "date": "20260830",
-          "type": "negative",
-          "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
-          "score": -1
-        },
         {
           "date": "20260829",
           "type": "negative",
@@ -202,6 +196,12 @@
           "date": "20260826",
           "type": "negative",
           "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
+          "score": -1
+        },
+        {
+          "date": "20260822",
+          "type": "negative",
+          "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
           "score": -1
         }
       ]
@@ -233,20 +233,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 3,
+      "positive_count": 2,
       "negative_count": 22,
       "recent_events": [
         {
           "date": "20260830",
-          "type": "positive",
-          "headline": "이란 대통령, 전쟁 6개월째 美에 종전 MOU 이행 촉구",
-          "score": 1
-        },
-        {
-          "date": "20260830",
           "type": "negative",
           "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
-          "score": -5
+          "score": -2
         },
         {
           "date": "20260829",
@@ -262,6 +256,12 @@
         },
         {
           "date": "20260827",
+          "type": "negative",
+          "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
+          "score": -5
+        },
+        {
+          "date": "20260826",
           "type": "negative",
           "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
           "score": -5
@@ -601,26 +601,15 @@
     },
     {
       "date": "20260830",
-      "headline": "이란 대통령, 전쟁 6개월째 美에 종전 MOU 이행 촉구",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260830",
       "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
-        "금융": -1
+        "방산": 1,
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 55,
-  "total_positives": 28,
+  "total_negatives": 52,
+  "total_positives": 27,
   "risk_level": "EXTREME"
 }
