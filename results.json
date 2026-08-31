@@ -1,6 +1,6 @@
 {
   "date": "20260831",
-  "generated_at": "2026-08-31T20:30:45+09:00",
+  "generated_at": "2026-08-31T20:32:07+09:00",
   "reference_date": "20260828",
   "reference_ranks": {
     "000660": 1,
@@ -61,9 +61,9 @@
     "rsi_14": 61.8,
     "basis": null,
     "basis_signal": "조회불가",
-    "usdkrw": 1366.98,
+    "usdkrw": 1366.88,
     "usdkrw_ch1": -0.98,
-    "usdkrw_ch5": -1.0,
+    "usdkrw_ch5": -1.01,
     "kosdaq_ch1": -0.49,
     "kospi_ch1": 0.46,
     "kospi_ch2": -1.34,
@@ -96,9 +96,9 @@
       "ndx_ch1": -0.52,
       "ndx_ma60": 25967.49
     },
-    "adr": 39.8,
-    "adr_advances": 191,
-    "adr_declines": 289,
+    "adr": 39.7,
+    "adr_advances": 190,
+    "adr_declines": 288,
     "adr_signal": "🔴",
     "adr_desc": "투매권 (40%) — 바닥 근접 가능",
     "breadth": {
@@ -107,7 +107,7 @@
       "desc": "뚜렷한 쏠림 없음",
       "kospi_ch1": 0.46,
       "kosdaq_ch1": -0.49,
-      "adr": 39.8
+      "adr": 39.7
     },
     "pool_flow": {
       "total": 40,
@@ -115,10 +115,10 @@
       "sell_led": 6,
       "up_follow": 13,
       "down_follow": 7,
-      "frgn_pos": 15,
+      "frgn_pos": 16,
       "frgn_neg": 24,
       "orgn_pos": 20,
-      "orgn_neg": 19,
+      "orgn_neg": 20,
       "large_cap": 38
     },
     "core_flow": [
@@ -1753,9 +1753,9 @@
       "macd_line": 0.0,
       "signal_line": 0.0,
       "macd_bull": null,
-      "frgn_net": 0,
-      "orgn_net": 0,
-      "frgn_basis": "",
+      "frgn_net": 17316,
+      "orgn_net": -1837,
+      "frgn_basis": "당일",
       "filters": {
         "roe_ok": false,
         "per_ok": true,
@@ -1776,9 +1776,9 @@
       "vol_char": "상승동반 🟡",
       "ch1": 0.37,
       "cap_class": "대형",
-      "entry_score": 5,
-      "entry_stars": "★★★",
-      "entry_label": "보통"
+      "entry_score": 7,
+      "entry_stars": "★★★★",
+      "entry_label": "좋은 타이밍"
     },
     {
       "rank": 32,
@@ -2213,7 +2213,7 @@
       "rank_change": null,
       "eps_trend": "부진",
       "eps_growth": 0.0,
-      "debt_ratio": null,
+      "debt_ratio": 8.7,
       "ch20": 60.4,
       "ch5": 25.5,
       "vol_trend": 50.4,
@@ -2229,9 +2229,9 @@
         "per_ok": false,
         "eps_ok": false,
         "eps_up": false,
-        "debt_ok": false,
+        "debt_ok": true,
         "is_finance": false,
-        "score": 0,
+        "score": 1,
         "grade": "F",
         "recommended": false,
         "is_growth_exception": false,
@@ -2239,7 +2239,7 @@
         "data_missing": false
       },
       "grade": "F",
-      "score": 0,
+      "score": 1,
       "recommended": false,
       "vol_char": "매수주도 🟢",
       "ch1": 22.07,
@@ -2379,9 +2379,9 @@
       "macd_line": 0.0,
       "signal_line": 0.0,
       "macd_bull": null,
-      "frgn_net": 0,
-      "orgn_net": 0,
-      "frgn_basis": "",
+      "frgn_net": 17316,
+      "orgn_net": -1837,
+      "frgn_basis": "당일",
       "filters": {
         "roe_ok": false,
         "per_ok": true,
@@ -2402,9 +2402,9 @@
       "vol_char": "상승동반 🟡",
       "ch1": 0.37,
       "cap_class": "대형",
-      "entry_score": 5,
-      "entry_stars": "★★★",
-      "entry_label": "보통"
+      "entry_score": 7,
+      "entry_stars": "★★★★",
+      "entry_label": "좋은 타이밍"
     },
     {
       "rank": 36,
