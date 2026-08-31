@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T05:46:25.967472+09:00",
+  "updated_at": "2026-08-31T09:17:11.462982+09:00",
   "date": "20260831",
   "window_days": 14,
   "sectors": [
@@ -97,7 +97,7 @@
         {
           "date": "20260831",
           "type": "positive",
-          "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
+          "headline": "[거시분석] US strikes Iranian launchers on Larak Island ...",
           "score": 1
         },
         {
@@ -177,7 +177,7 @@
         {
           "date": "20260831",
           "type": "negative",
-          "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
+          "headline": "[거시분석] US strikes Iranian launchers on Larak Island ...",
           "score": -1
         },
         {
@@ -258,7 +258,7 @@
         {
           "date": "20260831",
           "type": "negative",
-          "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
+          "headline": "[거시분석] US strikes Iranian launchers on Larak Island ...",
           "score": -3
         },
         {
@@ -653,7 +653,7 @@
     },
     {
       "date": "20260831",
-      "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
+      "headline": "[거시분석] US strikes Iranian launchers on Larak Island ...",
       "impacts": {
         "방산": 1,
         "전체시장": -3,
