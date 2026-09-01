@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T05:46:22.896358+09:00",
+  "updated_at": "2026-09-02T08:53:01.426823+09:00",
   "date": "20260902",
   "window_days": 14,
   "sectors": [
@@ -60,7 +60,7 @@
         {
           "date": "20260902",
           "type": "negative",
-          "headline": "[거시분석] US launches more strikes on Iran as state med...",
+          "headline": "[거시분석] US strikes Iran as state media reports four k...",
           "score": -2
         },
         {
@@ -91,38 +91,38 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 20,
+      "positive_count": 16,
       "negative_count": 5,
       "recent_events": [
         {
           "date": "20260902",
           "type": "positive",
-          "headline": "미·이란 교전 재개에 국제유가 5% 안팎 급등…WTI 90달러 돌파",
-          "score": 1
-        },
-        {
-          "date": "20260902",
-          "type": "positive",
-          "headline": "이란 혁명수비대 \"미군 공습에 보복 작전 개시\"(종합)",
-          "score": 1
-        },
-        {
-          "date": "20260902",
-          "type": "positive",
-          "headline": "美, 이틀만에 또 이란 공습…\"호르무즈 섬·민간공항 피격\"(종합2보)",
-          "score": 1
-        },
-        {
-          "date": "20260902",
-          "type": "positive",
-          "headline": "美, 이틀만에 또 이란 공습…\"호르무즈섬·반다르아바스 폭발음\"(종합)",
-          "score": 1
-        },
-        {
-          "date": "20260902",
-          "type": "positive",
-          "headline": "[거시분석] US launches more strikes on Iran as state med...",
+          "headline": "[거시분석] US strikes Iran as state media reports four k...",
           "score": 3
+        },
+        {
+          "date": "20260901",
+          "type": "positive",
+          "headline": "[거시분석] US and Iran trade strikes for first time in w...",
+          "score": 2
+        },
+        {
+          "date": "20260831",
+          "type": "positive",
+          "headline": "[거시분석] 美 기준금리 인상 가능성에 국고채 금리↑…상승폭은 줄어(종합)",
+          "score": 2
+        },
+        {
+          "date": "20260830",
+          "type": "negative",
+          "headline": "Oslo mayor calls off wedding ceremony after death of Norway's king",
+          "score": -1
+        },
+        {
+          "date": "20260830",
+          "type": "positive",
+          "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
+          "score": 1
         }
       ]
     },
@@ -177,7 +177,7 @@
         {
           "date": "20260902",
           "type": "negative",
-          "headline": "[거시분석] US launches more strikes on Iran as state med...",
+          "headline": "[거시분석] US strikes Iran as state media reports four k...",
           "score": -1
         },
         {
@@ -252,7 +252,7 @@
         {
           "date": "20260902",
           "type": "negative",
-          "headline": "[거시분석] US launches more strikes on Iran as state med...",
+          "headline": "[거시분석] US strikes Iran as state media reports four k...",
           "score": -5
         },
         {
@@ -657,39 +657,7 @@
     },
     {
       "date": "20260902",
-      "headline": "미·이란 교전 재개에 국제유가 5% 안팎 급등…WTI 90달러 돌파",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260902",
-      "headline": "이란 혁명수비대 \"미군 공습에 보복 작전 개시\"(종합)",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260902",
-      "headline": "美, 이틀만에 또 이란 공습…\"호르무즈 섬·민간공항 피격\"(종합2보)",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260902",
-      "headline": "美, 이틀만에 또 이란 공습…\"호르무즈섬·반다르아바스 폭발음\"(종합)",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260902",
-      "headline": "[거시분석] US launches more strikes on Iran as state med...",
+      "headline": "[거시분석] US strikes Iran as state media reports four k...",
       "impacts": {
         "방산": 3,
         "건설": -2,
@@ -700,6 +668,6 @@
     }
   ],
   "total_negatives": 59,
-  "total_positives": 34,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
