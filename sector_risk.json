@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T13:17:36.409349+09:00",
+  "updated_at": "2026-09-01T20:21:01.165946+09:00",
   "date": "20260901",
   "window_days": 14,
   "sectors": [
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 11,
+      "negative_count": 12,
       "recent_events": [
+        {
+          "date": "20260901",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran trade strikes for first time in w...",
+          "score": -1
+        },
         {
           "date": "20260831",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
           "score": -2
-        },
-        {
-          "date": "20260825",
-          "type": "negative",
-          "headline": "[거시분석] China hits out at 'illegal' new US sanctions ...",
-          "score": -2
         }
       ]
     },
@@ -98,7 +98,7 @@
           "date": "20260901",
           "type": "positive",
           "headline": "[거시분석] US and Iran trade strikes for first time in w...",
-          "score": 1
+          "score": 2
         },
         {
           "date": "20260831",
@@ -172,8 +172,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 12,
       "recent_events": [
+        {
+          "date": "20260901",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran trade strikes for first time in w...",
+          "score": -1
+        },
         {
           "date": "20260831",
           "type": "negative",
@@ -196,12 +202,6 @@
           "date": "20260829",
           "type": "negative",
           "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
-          "score": -1
-        },
-        {
-          "date": "20260828",
-          "type": "negative",
-          "headline": "[거시분석] Board of Peace's Gaza envoy criticises Israel...",
           "score": -1
         }
       ]
@@ -247,7 +247,7 @@
     "전체시장": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 24,
+      "negative_count": 23,
       "recent_events": [
         {
           "date": "20260901",
@@ -258,14 +258,8 @@
         {
           "date": "20260901",
           "type": "negative",
-          "headline": "관세청, 내년 예산 7천284억원…마약단속에 213억원 투입",
-          "score": -1
-        },
-        {
-          "date": "20260901",
-          "type": "negative",
           "headline": "[거시분석] US and Iran trade strikes for first time in w...",
-          "score": -4
+          "score": -6
         },
         {
           "date": "20260831",
@@ -278,6 +272,12 @@
           "type": "negative",
           "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
           "score": -3
+        },
+        {
+          "date": "20260829",
+          "type": "negative",
+          "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
+          "score": -5
         }
       ]
     }
@@ -656,24 +656,18 @@
     },
     {
       "date": "20260901",
-      "headline": "관세청, 내년 예산 7천284억원…마약단속에 213억원 투입",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260901",
       "headline": "[거시분석] US and Iran trade strikes for first time in w...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -4,
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -6,
+        "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 58,
+  "total_negatives": 59,
   "total_positives": 30,
   "risk_level": "EXTREME"
 }
