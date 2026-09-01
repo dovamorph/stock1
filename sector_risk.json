@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T07:38:59.422961+09:00",
+  "updated_at": "2026-09-01T13:17:36.409349+09:00",
   "date": "20260901",
   "window_days": 14,
   "sectors": [
@@ -172,14 +172,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 12,
+      "negative_count": 11,
       "recent_events": [
-        {
-          "date": "20260901",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran trade strikes for first time in w...",
-          "score": -2
-        },
         {
           "date": "20260831",
           "type": "negative",
@@ -202,6 +196,12 @@
           "date": "20260829",
           "type": "negative",
           "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
+          "score": -1
+        },
+        {
+          "date": "20260828",
+          "type": "negative",
+          "headline": "[거시분석] Board of Peace's Gaza envoy criticises Israel...",
           "score": -1
         }
       ]
@@ -247,7 +247,7 @@
     "전체시장": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 23,
+      "negative_count": 24,
       "recent_events": [
         {
           "date": "20260901",
@@ -258,8 +258,14 @@
         {
           "date": "20260901",
           "type": "negative",
+          "headline": "관세청, 내년 예산 7천284억원…마약단속에 213억원 투입",
+          "score": -1
+        },
+        {
+          "date": "20260901",
+          "type": "negative",
           "headline": "[거시분석] US and Iran trade strikes for first time in w...",
-          "score": -6
+          "score": -4
         },
         {
           "date": "20260831",
@@ -272,12 +278,6 @@
           "type": "negative",
           "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
           "score": -3
-        },
-        {
-          "date": "20260829",
-          "type": "negative",
-          "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
-          "score": -5
         }
       ]
     }
@@ -656,11 +656,18 @@
     },
     {
       "date": "20260901",
+      "headline": "관세청, 내년 예산 7천284억원…마약단속에 213억원 투입",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260901",
       "headline": "[거시분석] US and Iran trade strikes for first time in w...",
       "impacts": {
         "방산": 1,
-        "전체시장": -6,
-        "금융": -2,
+        "전체시장": -4,
         "반도체·AI": -2
       },
       "source": "geo_categories"
