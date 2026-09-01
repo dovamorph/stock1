@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-01T20:21:01.165946+09:00",
-  "date": "20260901",
+  "updated_at": "2026-09-02T01:17:49.137327+09:00",
+  "date": "20260902",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -18,8 +18,14 @@
     "반도체·AI": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260902",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran trade strikes for first time in w...",
+          "score": -2
+        },
         {
           "date": "20260901",
           "type": "negative",
@@ -43,12 +49,6 @@
           "type": "negative",
           "headline": "[거시분석] China hits out at 'illegal' new US sanctions ...",
           "score": -2
-        },
-        {
-          "date": "20260824",
-          "type": "negative",
-          "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
-          "score": -2
         }
       ]
     },
@@ -57,6 +57,12 @@
       "positive_count": 1,
       "negative_count": 12,
       "recent_events": [
+        {
+          "date": "20260902",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran trade strikes for first time in w...",
+          "score": -1
+        },
         {
           "date": "20260901",
           "type": "negative",
@@ -80,20 +86,26 @@
           "type": "negative",
           "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
           "score": -2
-        },
-        {
-          "date": "20260826",
-          "type": "negative",
-          "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 5,
+      "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20260902",
+          "type": "negative",
+          "headline": "이란 외무부 \"美 파기한 종전 MOU 유지 여부 정세 따라 결정\"",
+          "score": -1
+        },
+        {
+          "date": "20260902",
+          "type": "positive",
+          "headline": "[거시분석] US and Iran trade strikes for first time in w...",
+          "score": 2
+        },
         {
           "date": "20260901",
           "type": "positive",
@@ -111,26 +123,21 @@
           "type": "negative",
           "headline": "Oslo mayor calls off wedding ceremony after death of Norway's king",
           "score": -1
-        },
-        {
-          "date": "20260830",
-          "type": "positive",
-          "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
-          "score": 1
-        },
-        {
-          "date": "20260829",
-          "type": "negative",
-          "headline": "Oslo mayor calls off wedding ceremony after death of Norway's king",
-          "score": -1
         }
       ]
     },
     "전력·에너지": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20260902",
+          "type": "positive",
+          "headline": "뉴욕증시, 국채금리·유가 상승에 하락 출발",
+          "score": 1
+        }
+      ]
     },
     "로봇": {
       "score": 6,
@@ -175,6 +182,12 @@
       "negative_count": 12,
       "recent_events": [
         {
+          "date": "20260902",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran trade strikes for first time in w...",
+          "score": -1
+        },
+        {
           "date": "20260901",
           "type": "negative",
           "headline": "[거시분석] US and Iran trade strikes for first time in w...",
@@ -194,12 +207,6 @@
         },
         {
           "date": "20260830",
-          "type": "negative",
-          "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
-          "score": -1
-        },
-        {
-          "date": "20260829",
           "type": "negative",
           "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
           "score": -1
@@ -246,9 +253,21 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 2,
+      "positive_count": 3,
       "negative_count": 23,
       "recent_events": [
+        {
+          "date": "20260902",
+          "type": "positive",
+          "headline": "이란 외무부 \"美 파기한 종전 MOU 유지 여부 정세 따라 결정\"",
+          "score": 1
+        },
+        {
+          "date": "20260902",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran trade strikes for first time in w...",
+          "score": -7
+        },
         {
           "date": "20260901",
           "type": "negative",
@@ -266,34 +285,11 @@
           "type": "negative",
           "headline": "[거시분석] 美 기준금리 인상 가능성에 국고채 금리↑…상승폭은 줄어(종합)",
           "score": -6
-        },
-        {
-          "date": "20260830",
-          "type": "negative",
-          "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
-          "score": -3
-        },
-        {
-          "date": "20260829",
-          "type": "negative",
-          "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
-          "score": -5
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260818",
-      "headline": "[거시분석] UK 'supports Ukraine 100%', Burnham says, aft...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260819",
       "headline": "임성재 \"8년 연속 PGA 투어 최종전 진출, 이루겠다\"",
@@ -665,9 +661,38 @@
         "반도체·AI": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260902",
+      "headline": "뉴욕증시, 국채금리·유가 상승에 하락 출발",
+      "impacts": {
+        "전력·에너지": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260902",
+      "headline": "이란 외무부 \"美 파기한 종전 MOU 유지 여부 정세 따라 결정\"",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260902",
+      "headline": "[거시분석] US and Iran trade strikes for first time in w...",
+      "impacts": {
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -7,
+        "금융": -1,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 59,
-  "total_positives": 30,
+  "total_negatives": 61,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
