@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T08:53:01.426823+09:00",
+  "updated_at": "2026-09-02T12:40:15.736344+09:00",
   "date": "20260902",
   "window_days": 14,
   "sectors": [
@@ -17,9 +17,21 @@
   "sector_stats": {
     "반도체·AI": {
       "score": -10,
-      "positive_count": 1,
-      "negative_count": 7,
+      "positive_count": 2,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260902",
+          "type": "negative",
+          "headline": "US pushes looser approach to AI regulation, while EU pushes new law",
+          "score": -1
+        },
+        {
+          "date": "20260902",
+          "type": "positive",
+          "headline": "19개국 ICT 인증 전문가 송도 집결…AI·사이버보안 논의",
+          "score": 1
+        },
         {
           "date": "20260901",
           "type": "negative",
@@ -37,18 +49,6 @@
           "type": "positive",
           "headline": "OpenAI says it detected malign activity months before Hugging Face attack",
           "score": 1
-        },
-        {
-          "date": "20260825",
-          "type": "negative",
-          "headline": "[거시분석] China hits out at 'illegal' new US sanctions ...",
-          "score": -2
-        },
-        {
-          "date": "20260824",
-          "type": "negative",
-          "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
-          "score": -2
         }
       ]
     },
@@ -60,7 +60,7 @@
         {
           "date": "20260902",
           "type": "negative",
-          "headline": "[거시분석] US strikes Iran as state media reports four k...",
+          "headline": "[거시분석] Iran retaliates after US strikes kill four at...",
           "score": -2
         },
         {
@@ -97,7 +97,7 @@
         {
           "date": "20260902",
           "type": "positive",
-          "headline": "[거시분석] US strikes Iran as state media reports four k...",
+          "headline": "[거시분석] Iran retaliates after US strikes kill four at...",
           "score": 3
         },
         {
@@ -172,14 +172,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 12,
+      "negative_count": 11,
       "recent_events": [
-        {
-          "date": "20260902",
-          "type": "negative",
-          "headline": "[거시분석] US strikes Iran as state media reports four k...",
-          "score": -1
-        },
         {
           "date": "20260901",
           "type": "negative",
@@ -200,6 +194,12 @@
         },
         {
           "date": "20260830",
+          "type": "negative",
+          "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
+          "score": -1
+        },
+        {
+          "date": "20260829",
           "type": "negative",
           "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
           "score": -1
@@ -252,8 +252,8 @@
         {
           "date": "20260902",
           "type": "negative",
-          "headline": "[거시분석] US strikes Iran as state media reports four k...",
-          "score": -5
+          "headline": "[거시분석] Iran retaliates after US strikes kill four at...",
+          "score": -4
         },
         {
           "date": "20260901",
@@ -657,17 +657,32 @@
     },
     {
       "date": "20260902",
-      "headline": "[거시분석] US strikes Iran as state media reports four k...",
+      "headline": "US pushes looser approach to AI regulation, while EU pushes new law",
+      "impacts": {
+        "반도체·AI": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260902",
+      "headline": "19개국 ICT 인증 전문가 송도 집결…AI·사이버보안 논의",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260902",
+      "headline": "[거시분석] Iran retaliates after US strikes kill four at...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -5,
-        "금융": -1
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 59,
-  "total_positives": 30,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
