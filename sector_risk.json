@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T04:17:04.517064+09:00",
+  "updated_at": "2026-09-03T07:27:34.887496+09:00",
   "date": "20260903",
   "window_days": 14,
   "sectors": [
@@ -17,9 +17,21 @@
   "sector_stats": {
     "반도체·AI": {
       "score": -10,
-      "positive_count": 1,
-      "negative_count": 6,
+      "positive_count": 2,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260903",
+          "type": "positive",
+          "headline": "OpenAI faces new lawsuits over Tumbler Ridge mass shooting tragedy",
+          "score": 1
+        },
+        {
+          "date": "20260903",
+          "type": "negative",
+          "headline": "[거시분석] Iranian attack on Saudi tanker killed two Fil...",
+          "score": -2
+        },
         {
           "date": "20260901",
           "type": "negative",
@@ -37,18 +49,6 @@
           "type": "positive",
           "headline": "OpenAI says it detected malign activity months before Hugging Face attack",
           "score": 1
-        },
-        {
-          "date": "20260825",
-          "type": "negative",
-          "headline": "[거시분석] China hits out at 'illegal' new US sanctions ...",
-          "score": -2
-        },
-        {
-          "date": "20260824",
-          "type": "negative",
-          "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
-          "score": -2
         }
       ]
     },
@@ -60,8 +60,8 @@
         {
           "date": "20260903",
           "type": "negative",
-          "headline": "[거시분석] Iran says US strike killed four at wedding in...",
-          "score": -4
+          "headline": "[거시분석] Iranian attack on Saudi tanker killed two Fil...",
+          "score": -2
         },
         {
           "date": "20260902",
@@ -91,19 +91,13 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 18,
+      "positive_count": 17,
       "negative_count": 3,
       "recent_events": [
         {
           "date": "20260903",
           "type": "positive",
-          "headline": "뉴욕증시, 이어지는 美-이란 교전 속 혼조 출발",
-          "score": 1
-        },
-        {
-          "date": "20260903",
-          "type": "positive",
-          "headline": "[거시분석] Iran says US strike killed four at wedding in...",
+          "headline": "[거시분석] Iranian attack on Saudi tanker killed two Fil...",
           "score": 3
         },
         {
@@ -122,6 +116,12 @@
           "date": "20260901",
           "type": "positive",
           "headline": "[거시분석] US and Iran trade strikes for first time in w...",
+          "score": 2
+        },
+        {
+          "date": "20260831",
+          "type": "positive",
+          "headline": "[거시분석] 美 기준금리 인상 가능성에 국고채 금리↑…상승폭은 줄어(종합)",
           "score": 2
         }
       ]
@@ -177,8 +177,8 @@
         {
           "date": "20260903",
           "type": "negative",
-          "headline": "[거시분석] Iran says US strike killed four at wedding in...",
-          "score": -2
+          "headline": "[거시분석] Iranian attack on Saudi tanker killed two Fil...",
+          "score": -1
         },
         {
           "date": "20260901",
@@ -247,25 +247,13 @@
     "전체시장": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 25,
+      "negative_count": 23,
       "recent_events": [
         {
           "date": "20260903",
           "type": "negative",
-          "headline": "캐나다, 대미 관세전쟁 속 기준금리 7회 연속 2.25%로 동결",
-          "score": -1
-        },
-        {
-          "date": "20260903",
-          "type": "negative",
-          "headline": "美상무장관, '반도체 표적관세' 예고…\"美서 안만들면 대가\"",
-          "score": -1
-        },
-        {
-          "date": "20260903",
-          "type": "negative",
-          "headline": "[거시분석] Iran says US strike killed four at wedding in...",
-          "score": -9
+          "headline": "[거시분석] Iranian attack on Saudi tanker killed two Fil...",
+          "score": -7
         },
         {
           "date": "20260902",
@@ -278,6 +266,18 @@
           "type": "negative",
           "headline": "How the US-Canada trade war is being felt on both sides of the border",
           "score": -1
+        },
+        {
+          "date": "20260901",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran trade strikes for first time in w...",
+          "score": -6
+        },
+        {
+          "date": "20260831",
+          "type": "negative",
+          "headline": "[거시분석] 美 기준금리 인상 가능성에 국고채 금리↑…상승폭은 줄어(종합)",
+          "score": -6
         }
       ]
     }
@@ -646,41 +646,26 @@
     },
     {
       "date": "20260903",
-      "headline": "캐나다, 대미 관세전쟁 속 기준금리 7회 연속 2.25%로 동결",
+      "headline": "OpenAI faces new lawsuits over Tumbler Ridge mass shooting tragedy",
       "impacts": {
-        "전체시장": -1
+        "반도체·AI": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260903",
-      "headline": "美상무장관, '반도체 표적관세' 예고…\"美서 안만들면 대가\"",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260903",
-      "headline": "뉴욕증시, 이어지는 美-이란 교전 속 혼조 출발",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260903",
-      "headline": "[거시분석] Iran says US strike killed four at wedding in...",
+      "headline": "[거시분석] Iranian attack on Saudi tanker killed two Fil...",
       "impacts": {
         "방산": 3,
-        "건설": -4,
-        "전체시장": -9,
-        "금융": -2
+        "건설": -2,
+        "전체시장": -7,
+        "금융": -1,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 58,
+  "total_negatives": 57,
   "total_positives": 30,
   "risk_level": "EXTREME"
 }
