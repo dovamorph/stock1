@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-02T23:11:42.039175+09:00",
-  "date": "20260902",
+  "updated_at": "2026-09-03T04:17:04.517064+09:00",
+  "date": "20260903",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -18,7 +18,7 @@
     "반도체·AI": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
         {
           "date": "20260901",
@@ -58,6 +58,12 @@
       "negative_count": 12,
       "recent_events": [
         {
+          "date": "20260903",
+          "type": "negative",
+          "headline": "[거시분석] Iran says US strike killed four at wedding in...",
+          "score": -4
+        },
+        {
           "date": "20260902",
           "type": "negative",
           "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
@@ -80,20 +86,26 @@
           "type": "positive",
           "headline": "이준석 사퇴에 갈 길 잃은 개혁신당…재건 일정 불투명(종합)",
           "score": 1
-        },
-        {
-          "date": "20260827",
-          "type": "negative",
-          "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 17,
-      "negative_count": 5,
+      "positive_count": 18,
+      "negative_count": 3,
       "recent_events": [
+        {
+          "date": "20260903",
+          "type": "positive",
+          "headline": "뉴욕증시, 이어지는 美-이란 교전 속 혼조 출발",
+          "score": 1
+        },
+        {
+          "date": "20260903",
+          "type": "positive",
+          "headline": "[거시분석] Iran says US strike killed four at wedding in...",
+          "score": 3
+        },
         {
           "date": "20260902",
           "type": "positive",
@@ -111,18 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] US and Iran trade strikes for first time in w...",
           "score": 2
-        },
-        {
-          "date": "20260831",
-          "type": "positive",
-          "headline": "[거시분석] 美 기준금리 인상 가능성에 국고채 금리↑…상승폭은 줄어(종합)",
-          "score": 2
-        },
-        {
-          "date": "20260830",
-          "type": "negative",
-          "headline": "Oslo mayor calls off wedding ceremony after death of Norway's king",
-          "score": -1
         }
       ]
     },
@@ -172,8 +172,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 12,
       "recent_events": [
+        {
+          "date": "20260903",
+          "type": "negative",
+          "headline": "[거시분석] Iran says US strike killed four at wedding in...",
+          "score": -2
+        },
         {
           "date": "20260901",
           "type": "negative",
@@ -194,12 +200,6 @@
         },
         {
           "date": "20260830",
-          "type": "negative",
-          "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
-          "score": -1
-        },
-        {
-          "date": "20260829",
           "type": "negative",
           "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
           "score": -1
@@ -246,9 +246,27 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 2,
-      "negative_count": 23,
+      "positive_count": 0,
+      "negative_count": 25,
       "recent_events": [
+        {
+          "date": "20260903",
+          "type": "negative",
+          "headline": "캐나다, 대미 관세전쟁 속 기준금리 7회 연속 2.25%로 동결",
+          "score": -1
+        },
+        {
+          "date": "20260903",
+          "type": "negative",
+          "headline": "美상무장관, '반도체 표적관세' 예고…\"美서 안만들면 대가\"",
+          "score": -1
+        },
+        {
+          "date": "20260903",
+          "type": "negative",
+          "headline": "[거시분석] Iran says US strike killed four at wedding in...",
+          "score": -9
+        },
         {
           "date": "20260902",
           "type": "negative",
@@ -260,58 +278,11 @@
           "type": "negative",
           "headline": "How the US-Canada trade war is being felt on both sides of the border",
           "score": -1
-        },
-        {
-          "date": "20260901",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran trade strikes for first time in w...",
-          "score": -6
-        },
-        {
-          "date": "20260831",
-          "type": "negative",
-          "headline": "[거시분석] 美 기준금리 인상 가능성에 국고채 금리↑…상승폭은 줄어(종합)",
-          "score": -6
-        },
-        {
-          "date": "20260830",
-          "type": "negative",
-          "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
-          "score": -3
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260819",
-      "headline": "임성재 \"8년 연속 PGA 투어 최종전 진출, 이루겠다\"",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260819",
-      "headline": "종전 협상은 멈췄지만…러·우크라, 포로 103명씩 맞교환",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260819",
-      "headline": "[거시분석] Israel confirms it opened fire on vehicle car...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -7,
-        "반도체·AI": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260820",
       "headline": "'Incredible': SpaceX rocket spotted off Christmas Island coast",
@@ -672,9 +643,44 @@
         "전체시장": -5
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260903",
+      "headline": "캐나다, 대미 관세전쟁 속 기준금리 7회 연속 2.25%로 동결",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260903",
+      "headline": "美상무장관, '반도체 표적관세' 예고…\"美서 안만들면 대가\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260903",
+      "headline": "뉴욕증시, 이어지는 美-이란 교전 속 혼조 출발",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260903",
+      "headline": "[거시분석] Iran says US strike killed four at wedding in...",
+      "impacts": {
+        "방산": 3,
+        "건설": -4,
+        "전체시장": -9,
+        "금융": -2
+      },
+      "source": "geo_categories"
     }
   ],
   "total_negatives": 58,
-  "total_positives": 31,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
