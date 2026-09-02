@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T12:40:15.736344+09:00",
+  "updated_at": "2026-09-02T17:35:22.163324+09:00",
   "date": "20260902",
   "window_days": 14,
   "sectors": [
@@ -17,7 +17,7 @@
   "sector_stats": {
     "반도체·AI": {
       "score": -10,
-      "positive_count": 2,
+      "positive_count": 1,
       "negative_count": 8,
       "recent_events": [
         {
@@ -25,12 +25,6 @@
           "type": "negative",
           "headline": "US pushes looser approach to AI regulation, while EU pushes new law",
           "score": -1
-        },
-        {
-          "date": "20260902",
-          "type": "positive",
-          "headline": "19개국 ICT 인증 전문가 송도 집결…AI·사이버보안 논의",
-          "score": 1
         },
         {
           "date": "20260901",
@@ -49,20 +43,20 @@
           "type": "positive",
           "headline": "OpenAI says it detected malign activity months before Hugging Face attack",
           "score": 1
+        },
+        {
+          "date": "20260825",
+          "type": "negative",
+          "headline": "[거시분석] China hits out at 'illegal' new US sanctions ...",
+          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 12,
+      "negative_count": 11,
       "recent_events": [
-        {
-          "date": "20260902",
-          "type": "negative",
-          "headline": "[거시분석] Iran retaliates after US strikes kill four at...",
-          "score": -2
-        },
         {
           "date": "20260901",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
           "score": -2
+        },
+        {
+          "date": "20260826",
+          "type": "negative",
+          "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
+          "score": -2
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20260902",
           "type": "positive",
-          "headline": "[거시분석] Iran retaliates after US strikes kill four at...",
-          "score": 3
+          "headline": "[거시분석] Zelensky says airlines should avoid Russian a...",
+          "score": 1
         },
         {
           "date": "20260901",
@@ -252,8 +252,8 @@
         {
           "date": "20260902",
           "type": "negative",
-          "headline": "[거시분석] Iran retaliates after US strikes kill four at...",
-          "score": -4
+          "headline": "[거시분석] Zelensky says airlines should avoid Russian a...",
+          "score": -1
         },
         {
           "date": "20260901",
@@ -665,24 +665,15 @@
     },
     {
       "date": "20260902",
-      "headline": "19개국 ICT 인증 전문가 송도 집결…AI·사이버보안 논의",
+      "headline": "[거시분석] Zelensky says airlines should avoid Russian a...",
       "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260902",
-      "headline": "[거시분석] Iran retaliates after US strikes kill four at...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -4
+        "방산": 1,
+        "전체시장": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 59,
-  "total_positives": 31,
+  "total_negatives": 58,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
