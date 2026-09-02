@@ -1,7 +1,7 @@
 {
   "expiry_date": "2026-09-10",
-  "d_day": 9,
-  "updated": "2026-09-01 20:32",
+  "d_day": 8,
+  "updated": "2026-09-02 09:03",
   "deadline_time": "15:20",
   "deadline_str": "",
   "guard": {
@@ -10,7 +10,7 @@
     "sell_priority": false,
     "score_penalty": 0,
     "pos_mult_adj": 0.0,
-    "note": "만기일 D-9 — 영향 없음",
-    "action_note": "✅ 전략대로 진행하세요. 만기일까지 9일 여유가 있어 만기 영향은 없습니다."
+    "note": "만기일 D-8 — 영향 없음",
+    "action_note": "✅ 전략대로 진행하세요. 만기일까지 8일 여유가 있어 만기 영향은 없습니다."
   }
 }
