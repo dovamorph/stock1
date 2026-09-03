@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T07:27:34.887496+09:00",
+  "updated_at": "2026-09-03T12:39:36.994461+09:00",
   "date": "20260903",
   "window_days": 14,
   "sectors": [
@@ -18,19 +18,13 @@
     "반도체·AI": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
         {
           "date": "20260903",
           "type": "positive",
           "headline": "OpenAI faces new lawsuits over Tumbler Ridge mass shooting tragedy",
           "score": 1
-        },
-        {
-          "date": "20260903",
-          "type": "negative",
-          "headline": "[거시분석] Iranian attack on Saudi tanker killed two Fil...",
-          "score": -2
         },
         {
           "date": "20260901",
@@ -49,6 +43,12 @@
           "type": "positive",
           "headline": "OpenAI says it detected malign activity months before Hugging Face attack",
           "score": 1
+        },
+        {
+          "date": "20260825",
+          "type": "negative",
+          "headline": "[거시분석] China hits out at 'illegal' new US sanctions ...",
+          "score": -2
         }
       ]
     },
@@ -61,7 +61,7 @@
           "date": "20260903",
           "type": "negative",
           "headline": "[거시분석] Iranian attack on Saudi tanker killed two Fil...",
-          "score": -2
+          "score": -1
         },
         {
           "date": "20260902",
@@ -98,7 +98,7 @@
           "date": "20260903",
           "type": "positive",
           "headline": "[거시분석] Iranian attack on Saudi tanker killed two Fil...",
-          "score": 3
+          "score": 2
         },
         {
           "date": "20260902",
@@ -172,14 +172,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 12,
+      "negative_count": 11,
       "recent_events": [
-        {
-          "date": "20260903",
-          "type": "negative",
-          "headline": "[거시분석] Iranian attack on Saudi tanker killed two Fil...",
-          "score": -1
-        },
         {
           "date": "20260901",
           "type": "negative",
@@ -200,6 +194,12 @@
         },
         {
           "date": "20260830",
+          "type": "negative",
+          "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
+          "score": -1
+        },
+        {
+          "date": "20260829",
           "type": "negative",
           "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
           "score": -1
@@ -253,7 +253,7 @@
           "date": "20260903",
           "type": "negative",
           "headline": "[거시분석] Iranian attack on Saudi tanker killed two Fil...",
-          "score": -7
+          "score": -2
         },
         {
           "date": "20260902",
@@ -656,16 +656,14 @@
       "date": "20260903",
       "headline": "[거시분석] Iranian attack on Saudi tanker killed two Fil...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -7,
-        "금융": -1,
-        "반도체·AI": -2
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 57,
+  "total_negatives": 55,
   "total_positives": 30,
   "risk_level": "EXTREME"
 }
