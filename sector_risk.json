@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T17:43:33.401760+09:00",
+  "updated_at": "2026-09-03T23:14:27.440735+09:00",
   "date": "20260903",
   "window_days": 14,
   "sectors": [
@@ -17,21 +17,9 @@
   "sector_stats": {
     "반도체·AI": {
       "score": -10,
-      "positive_count": 2,
-      "negative_count": 7,
+      "positive_count": 1,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20260903",
-          "type": "positive",
-          "headline": "OpenAI’s Sam Altman tells G20 AI will be as essential as electricity",
-          "score": 1
-        },
-        {
-          "date": "20260903",
-          "type": "negative",
-          "headline": "[거시분석] Iranian attack on Saudi tanker killed two Fil...",
-          "score": -2
-        },
         {
           "date": "20260901",
           "type": "negative",
@@ -49,19 +37,37 @@
           "type": "positive",
           "headline": "OpenAI says it detected malign activity months before Hugging Face attack",
           "score": 1
+        },
+        {
+          "date": "20260825",
+          "type": "negative",
+          "headline": "[거시분석] China hits out at 'illegal' new US sanctions ...",
+          "score": -2
+        },
+        {
+          "date": "20260824",
+          "type": "negative",
+          "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
+          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
-      "positive_count": 1,
+      "positive_count": 2,
       "negative_count": 12,
       "recent_events": [
         {
           "date": "20260903",
+          "type": "positive",
+          "headline": "美, AI인프라 투자 열풍에 7월 무역적자 작년 3월 이후 최대",
+          "score": 1
+        },
+        {
+          "date": "20260903",
           "type": "negative",
-          "headline": "[거시분석] Iranian attack on Saudi tanker killed two Fil...",
-          "score": -1
+          "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
+          "score": -2
         },
         {
           "date": "20260902",
@@ -80,25 +86,25 @@
           "type": "negative",
           "headline": "[거시분석] 美 기준금리 인상 가능성에 국고채 금리↑…상승폭은 줄어(종합)",
           "score": -1
-        },
-        {
-          "date": "20260830",
-          "type": "positive",
-          "headline": "이준석 사퇴에 갈 길 잃은 개혁신당…재건 일정 불투명(종합)",
-          "score": 1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 17,
+      "positive_count": 18,
       "negative_count": 3,
       "recent_events": [
         {
           "date": "20260903",
           "type": "positive",
-          "headline": "[거시분석] Iranian attack on Saudi tanker killed two Fil...",
-          "score": 2
+          "headline": "이란 혁명수비대 \"美 결혼식장 공습 테러, 반드시 책임 묻겠다\"",
+          "score": 1
+        },
+        {
+          "date": "20260903",
+          "type": "positive",
+          "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
+          "score": 3
         },
         {
           "date": "20260902",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] US and Iran trade strikes for first time in w...",
           "score": 2
-        },
-        {
-          "date": "20260831",
-          "type": "positive",
-          "headline": "[거시분석] 美 기준금리 인상 가능성에 국고채 금리↑…상승폭은 줄어(종합)",
-          "score": 2
         }
       ]
     },
@@ -133,16 +133,10 @@
       "recent_events": []
     },
     "로봇": {
-      "score": 7,
-      "positive_count": 7,
+      "score": 6,
+      "positive_count": 6,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260903",
-          "type": "positive",
-          "headline": "샤오미, IFA서 휴머노이드 로봇 공개…\"전기차 공장서 검증\"",
-          "score": 1
-        },
         {
           "date": "20260827",
           "type": "positive",
@@ -166,6 +160,12 @@
           "type": "positive",
           "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
           "score": 1
+        },
+        {
+          "date": "20260823",
+          "type": "positive",
+          "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
+          "score": 1
         }
       ]
     },
@@ -177,7 +177,7 @@
         {
           "date": "20260903",
           "type": "negative",
-          "headline": "[거시분석] Iranian attack on Saudi tanker killed two Fil...",
+          "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
           "score": -1
         },
         {
@@ -252,7 +252,7 @@
         {
           "date": "20260903",
           "type": "negative",
-          "headline": "[거시분석] Iranian attack on Saudi tanker killed two Fil...",
+          "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
           "score": -6
         },
         {
@@ -646,34 +646,33 @@
     },
     {
       "date": "20260903",
-      "headline": "OpenAI’s Sam Altman tells G20 AI will be as essential as electricity",
+      "headline": "美, AI인프라 투자 열풍에 7월 무역적자 작년 3월 이후 최대",
       "impacts": {
-        "반도체·AI": 1
+        "건설": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260903",
-      "headline": "샤오미, IFA서 휴머노이드 로봇 공개…\"전기차 공장서 검증\"",
+      "headline": "이란 혁명수비대 \"美 결혼식장 공습 테러, 반드시 책임 묻겠다\"",
       "impacts": {
-        "로봇": 1
+        "방산": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260903",
-      "headline": "[거시분석] Iranian attack on Saudi tanker killed two Fil...",
+      "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
+        "방산": 3,
+        "건설": -2,
         "전체시장": -6,
-        "금융": -1,
-        "반도체·AI": -2
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 57,
+  "total_negatives": 56,
   "total_positives": 31,
   "risk_level": "EXTREME"
 }
