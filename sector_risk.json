@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T04:11:27.108349+09:00",
+  "updated_at": "2026-09-04T07:24:41.541373+09:00",
   "date": "20260904",
   "window_days": 14,
   "sectors": [
@@ -18,8 +18,14 @@
     "반도체·AI": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260904",
+          "type": "negative",
+          "headline": "NYC’s AI ban through grade 8 sets stage for rest of US, experts say",
+          "score": -1
+        },
         {
           "date": "20260901",
           "type": "negative",
@@ -43,30 +49,18 @@
           "type": "negative",
           "headline": "[거시분석] China hits out at 'illegal' new US sanctions ...",
           "score": -2
-        },
-        {
-          "date": "20260824",
-          "type": "negative",
-          "headline": "[거시분석] Iran faces 'greatest financial offensive ever...",
-          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
-      "positive_count": 3,
+      "positive_count": 2,
       "negative_count": 12,
       "recent_events": [
         {
           "date": "20260904",
-          "type": "positive",
-          "headline": "美, AI인프라 투자 열풍에 7월 무역적자 작년 3월 이후 최대",
-          "score": 1
-        },
-        {
-          "date": "20260904",
           "type": "negative",
-          "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
+          "headline": "[거시분석] US sailors go shopping before hitting the bar...",
           "score": -1
         },
         {
@@ -86,24 +80,24 @@
           "type": "negative",
           "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
           "score": -2
+        },
+        {
+          "date": "20260901",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran trade strikes for first time in w...",
+          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 18,
-      "negative_count": 4,
+      "negative_count": 3,
       "recent_events": [
         {
           "date": "20260904",
-          "type": "negative",
-          "headline": "美밴스 \"상선 공격 중단없인 이란과 대화안해…추가 수단 많아\"",
-          "score": -1
-        },
-        {
-          "date": "20260904",
           "type": "positive",
-          "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
+          "headline": "[거시분석] US sailors go shopping before hitting the bar...",
           "score": 2
         },
         {
@@ -123,6 +117,12 @@
           "type": "positive",
           "headline": "뉴욕증시, 이어지는 美-이란 교전 속 혼조 출발",
           "score": 1
+        },
+        {
+          "date": "20260902",
+          "type": "positive",
+          "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
+          "score": 3
         }
       ]
     },
@@ -172,13 +172,19 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 12,
+      "negative_count": 13,
       "recent_events": [
         {
           "date": "20260904",
           "type": "negative",
-          "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
+          "headline": "뉴욕증시, 금리 인상 우려 완화에 일제히 1%대 상승(종합)",
           "score": -1
+        },
+        {
+          "date": "20260904",
+          "type": "negative",
+          "headline": "[거시분석] US sailors go shopping before hitting the bar...",
+          "score": -3
         },
         {
           "date": "20260903",
@@ -197,12 +203,6 @@
           "type": "negative",
           "headline": "美 기준금리 인상 가능성에 국고채 금리↑…상승폭은 줄어(종합)",
           "score": -1
-        },
-        {
-          "date": "20260831",
-          "type": "negative",
-          "headline": "[거시분석] 美 기준금리 인상 가능성에 국고채 금리↑…상승폭은 줄어(종합)",
-          "score": -3
         }
       ]
     },
@@ -240,19 +240,13 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 1,
+      "positive_count": 0,
       "negative_count": 23,
       "recent_events": [
         {
           "date": "20260904",
-          "type": "positive",
-          "headline": "Canada ready for a trade deal with US that benefits both, Carney says",
-          "score": 1
-        },
-        {
-          "date": "20260904",
           "type": "negative",
-          "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
+          "headline": "[거시분석] US sailors go shopping before hitting the bar...",
           "score": -5
         },
         {
@@ -272,6 +266,12 @@
           "type": "negative",
           "headline": "How the US-Canada trade war is being felt on both sides of the border",
           "score": -1
+        },
+        {
+          "date": "20260901",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran trade strikes for first time in w...",
+          "score": -6
         }
       ]
     }
@@ -648,41 +648,33 @@
     },
     {
       "date": "20260904",
-      "headline": "Canada ready for a trade deal with US that benefits both, Carney says",
+      "headline": "NYC’s AI ban through grade 8 sets stage for rest of US, experts say",
       "impacts": {
-        "전체시장": 1
+        "반도체·AI": -1
       },
       "source": "keyword"
     },
     {
       "date": "20260904",
-      "headline": "美밴스 \"상선 공격 중단없인 이란과 대화안해…추가 수단 많아\"",
+      "headline": "뉴욕증시, 금리 인상 우려 완화에 일제히 1%대 상승(종합)",
       "impacts": {
-        "방산": -1
+        "금융": -1
       },
       "source": "keyword"
     },
     {
       "date": "20260904",
-      "headline": "美, AI인프라 투자 열풍에 7월 무역적자 작년 3월 이후 최대",
-      "impacts": {
-        "건설": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260904",
-      "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
+      "headline": "[거시분석] US sailors go shopping before hitting the bar...",
       "impacts": {
         "방산": 2,
         "건설": -1,
         "전체시장": -5,
-        "금융": -1
+        "금융": -3
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 57,
-  "total_positives": 32,
+  "total_negatives": 58,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
