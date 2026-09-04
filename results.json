@@ -1,6 +1,6 @@
 {
   "date": "20260904",
-  "generated_at": "2026-09-04T20:00:54+09:00",
+  "generated_at": "2026-09-04T20:30:41+09:00",
   "reference_date": "20260903",
   "reference_ranks": {
     "000660": 1,
@@ -61,7 +61,7 @@
     "rsi_14": 42.5,
     "basis": null,
     "basis_signal": "조회불가",
-    "usdkrw": 1350.98,
+    "usdkrw": 1350.93,
     "usdkrw_ch1": -0.55,
     "usdkrw_ch5": -1.9,
     "kosdaq_ch1": 2.95,
@@ -96,9 +96,9 @@
       "ndx_ch1": 1.4,
       "ndx_ma60": 25986.22
     },
-    "adr": 70.7,
-    "adr_advances": 325,
-    "adr_declines": 135,
+    "adr": 71.2,
+    "adr_advances": 337,
+    "adr_declines": 136,
     "adr_signal": "🟡",
     "adr_desc": "경계 (71%) — 이탈 징후 점검",
     "breadth": {
@@ -107,7 +107,7 @@
       "desc": "지수↑·폭 넓음 — 전 종목 건강",
       "kospi_ch1": 1.64,
       "kosdaq_ch1": 2.95,
-      "adr": 70.7
+      "adr": 71.2
     },
     "pool_flow": {
       "total": 40,
