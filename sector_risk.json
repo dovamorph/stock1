@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-04T23:05:27.817646+09:00",
-  "date": "20260904",
+  "updated_at": "2026-09-05T03:54:15.556977+09:00",
+  "date": "20260905",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -18,7 +18,7 @@
     "반도체·AI": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
         {
           "date": "20260904",
@@ -55,7 +55,7 @@
     "건설": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
         {
           "date": "20260903",
@@ -95,6 +95,12 @@
       "negative_count": 3,
       "recent_events": [
         {
+          "date": "20260905",
+          "type": "positive",
+          "headline": "[거시분석] US adds 162,000 jobs in August, raising Fed r...",
+          "score": 1
+        },
+        {
           "date": "20260904",
           "type": "positive",
           "headline": "[거시분석] Philippine court orders arrest of VP Duterte ...",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "뉴욕증시, 이어지는 美-이란 교전 속 혼조 출발",
           "score": 1
-        },
-        {
-          "date": "20260902",
-          "type": "positive",
-          "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
-          "score": 3
         }
       ]
     },
@@ -172,8 +172,20 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 13,
+      "negative_count": 14,
       "recent_events": [
+        {
+          "date": "20260905",
+          "type": "negative",
+          "headline": "US adds 162,000 jobs in August, raising Fed rate hike expectations",
+          "score": -1
+        },
+        {
+          "date": "20260905",
+          "type": "negative",
+          "headline": "[거시분석] US adds 162,000 jobs in August, raising Fed r...",
+          "score": -3
+        },
         {
           "date": "20260904",
           "type": "negative",
@@ -190,18 +202,6 @@
           "date": "20260903",
           "type": "negative",
           "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
-          "score": -1
-        },
-        {
-          "date": "20260901",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran trade strikes for first time in w...",
-          "score": -1
-        },
-        {
-          "date": "20260831",
-          "type": "negative",
-          "headline": "美 기준금리 인상 가능성에 국고채 금리↑…상승폭은 줄어(종합)",
           "score": -1
         }
       ]
@@ -244,6 +244,12 @@
       "negative_count": 23,
       "recent_events": [
         {
+          "date": "20260905",
+          "type": "negative",
+          "headline": "[거시분석] US adds 162,000 jobs in August, raising Fed r...",
+          "score": -5
+        },
+        {
           "date": "20260904",
           "type": "negative",
           "headline": "[거시분석] Philippine court orders arrest of VP Duterte ...",
@@ -266,29 +272,11 @@
           "type": "negative",
           "headline": "How the US-Canada trade war is being felt on both sides of the border",
           "score": -1
-        },
-        {
-          "date": "20260901",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran trade strikes for first time in w...",
-          "score": -6
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260821",
-      "headline": "[거시분석] How much could Trump's 'economic D-Day' hurt ...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -8,
-        "금융": -1,
-        "반도체·AI": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260822",
       "headline": "Usain Bolt’s 100m record broken at World Humanoid Robot Games",
@@ -664,9 +652,27 @@
         "반도체·AI": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260905",
+      "headline": "US adds 162,000 jobs in August, raising Fed rate hike expectations",
+      "impacts": {
+        "금융": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260905",
+      "headline": "[거시분석] US adds 162,000 jobs in August, raising Fed r...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -5,
+        "금융": -3
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 57,
+  "total_negatives": 56,
   "total_positives": 30,
   "risk_level": "EXTREME"
 }
