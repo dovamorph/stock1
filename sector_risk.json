@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T07:24:41.541373+09:00",
+  "updated_at": "2026-09-04T12:40:22.261473+09:00",
   "date": "20260904",
   "window_days": 14,
   "sectors": [
@@ -18,13 +18,19 @@
     "반도체·AI": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
         {
           "date": "20260904",
           "type": "negative",
           "headline": "NYC’s AI ban through grade 8 sets stage for rest of US, experts say",
           "score": -1
+        },
+        {
+          "date": "20260904",
+          "type": "negative",
+          "headline": "[거시분석] Argentine leader says oil firms working off F...",
+          "score": -2
         },
         {
           "date": "20260901",
@@ -43,26 +49,14 @@
           "type": "positive",
           "headline": "OpenAI says it detected malign activity months before Hugging Face attack",
           "score": 1
-        },
-        {
-          "date": "20260825",
-          "type": "negative",
-          "headline": "[거시분석] China hits out at 'illegal' new US sanctions ...",
-          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 12,
+      "negative_count": 11,
       "recent_events": [
-        {
-          "date": "20260904",
-          "type": "negative",
-          "headline": "[거시분석] US sailors go shopping before hitting the bar...",
-          "score": -1
-        },
         {
           "date": "20260903",
           "type": "positive",
@@ -86,19 +80,31 @@
           "type": "negative",
           "headline": "[거시분석] US and Iran trade strikes for first time in w...",
           "score": -1
+        },
+        {
+          "date": "20260831",
+          "type": "negative",
+          "headline": "[거시분석] 美 기준금리 인상 가능성에 국고채 금리↑…상승폭은 줄어(종합)",
+          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 18,
+      "positive_count": 19,
       "negative_count": 3,
       "recent_events": [
         {
           "date": "20260904",
           "type": "positive",
-          "headline": "[거시분석] US sailors go shopping before hitting the bar...",
-          "score": 2
+          "headline": "Are Trump’s AI videos just memes or psychological warfare?",
+          "score": 1
+        },
+        {
+          "date": "20260904",
+          "type": "positive",
+          "headline": "[거시분석] Argentine leader says oil firms working off F...",
+          "score": 1
         },
         {
           "date": "20260903",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "뉴욕증시, 이어지는 美-이란 교전 속 혼조 출발",
           "score": 1
-        },
-        {
-          "date": "20260902",
-          "type": "positive",
-          "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
-          "score": 3
         }
       ]
     },
@@ -172,19 +172,13 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 13,
+      "negative_count": 12,
       "recent_events": [
         {
           "date": "20260904",
           "type": "negative",
-          "headline": "뉴욕증시, 금리 인상 우려 완화에 일제히 1%대 상승(종합)",
+          "headline": "[거시분석] Argentine leader says oil firms working off F...",
           "score": -1
-        },
-        {
-          "date": "20260904",
-          "type": "negative",
-          "headline": "[거시분석] US sailors go shopping before hitting the bar...",
-          "score": -3
         },
         {
           "date": "20260903",
@@ -203,6 +197,12 @@
           "type": "negative",
           "headline": "美 기준금리 인상 가능성에 국고채 금리↑…상승폭은 줄어(종합)",
           "score": -1
+        },
+        {
+          "date": "20260831",
+          "type": "negative",
+          "headline": "[거시분석] 美 기준금리 인상 가능성에 국고채 금리↑…상승폭은 줄어(종합)",
+          "score": -3
         }
       ]
     },
@@ -246,7 +246,7 @@
         {
           "date": "20260904",
           "type": "negative",
-          "headline": "[거시분석] US sailors go shopping before hitting the bar...",
+          "headline": "[거시분석] Argentine leader says oil firms working off F...",
           "score": -5
         },
         {
@@ -648,6 +648,14 @@
     },
     {
       "date": "20260904",
+      "headline": "Are Trump’s AI videos just memes or psychological warfare?",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260904",
       "headline": "NYC’s AI ban through grade 8 sets stage for rest of US, experts say",
       "impacts": {
         "반도체·AI": -1
@@ -656,25 +664,17 @@
     },
     {
       "date": "20260904",
-      "headline": "뉴욕증시, 금리 인상 우려 완화에 일제히 1%대 상승(종합)",
+      "headline": "[거시분석] Argentine leader says oil firms working off F...",
       "impacts": {
-        "금융": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260904",
-      "headline": "[거시분석] US sailors go shopping before hitting the bar...",
-      "impacts": {
-        "방산": 2,
-        "건설": -1,
+        "방산": 1,
         "전체시장": -5,
-        "금융": -3
+        "금융": -1,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 58,
-  "total_positives": 30,
+  "total_negatives": 57,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
