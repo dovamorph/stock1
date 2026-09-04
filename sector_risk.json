@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T12:40:22.261473+09:00",
+  "updated_at": "2026-09-04T17:38:50.161959+09:00",
   "date": "20260904",
   "window_days": 14,
   "sectors": [
@@ -17,19 +17,19 @@
   "sector_stats": {
     "반도체·AI": {
       "score": -10,
-      "positive_count": 1,
-      "negative_count": 8,
+      "positive_count": 2,
+      "negative_count": 7,
       "recent_events": [
         {
           "date": "20260904",
-          "type": "negative",
-          "headline": "NYC’s AI ban through grade 8 sets stage for rest of US, experts say",
-          "score": -1
+          "type": "positive",
+          "headline": "OpenAI unveils GPT‑6 Astra amid rising scrutiny and safety concerns",
+          "score": 1
         },
         {
           "date": "20260904",
           "type": "negative",
-          "headline": "[거시분석] Argentine leader says oil firms working off F...",
+          "headline": "[거시분석] Argentine leader threatens to sanction oil fi...",
           "score": -2
         },
         {
@@ -103,7 +103,7 @@
         {
           "date": "20260904",
           "type": "positive",
-          "headline": "[거시분석] Argentine leader says oil firms working off F...",
+          "headline": "[거시분석] Argentine leader threatens to sanction oil fi...",
           "score": 1
         },
         {
@@ -177,7 +177,7 @@
         {
           "date": "20260904",
           "type": "negative",
-          "headline": "[거시분석] Argentine leader says oil firms working off F...",
+          "headline": "[거시분석] Argentine leader threatens to sanction oil fi...",
           "score": -1
         },
         {
@@ -246,7 +246,7 @@
         {
           "date": "20260904",
           "type": "negative",
-          "headline": "[거시분석] Argentine leader says oil firms working off F...",
+          "headline": "[거시분석] Argentine leader threatens to sanction oil fi...",
           "score": -5
         },
         {
@@ -648,6 +648,14 @@
     },
     {
       "date": "20260904",
+      "headline": "OpenAI unveils GPT‑6 Astra amid rising scrutiny and safety concerns",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260904",
       "headline": "Are Trump’s AI videos just memes or psychological warfare?",
       "impacts": {
         "방산": 1
@@ -656,15 +664,7 @@
     },
     {
       "date": "20260904",
-      "headline": "NYC’s AI ban through grade 8 sets stage for rest of US, experts say",
-      "impacts": {
-        "반도체·AI": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260904",
-      "headline": "[거시분석] Argentine leader says oil firms working off F...",
+      "headline": "[거시분석] Argentine leader threatens to sanction oil fi...",
       "impacts": {
         "방산": 1,
         "전체시장": -5,
@@ -674,7 +674,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 57,
-  "total_positives": 31,
+  "total_negatives": 56,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
