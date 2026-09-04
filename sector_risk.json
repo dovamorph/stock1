@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T03:54:15.556977+09:00",
+  "updated_at": "2026-09-05T07:13:42.057485+09:00",
   "date": "20260905",
   "window_days": 14,
   "sectors": [
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260905",
+          "type": "negative",
+          "headline": "[거시분석] US adds 162,000 jobs in August, raising Fed r...",
+          "score": -1
+        },
         {
           "date": "20260903",
           "type": "positive",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] US and Iran trade strikes for first time in w...",
           "score": -1
-        },
-        {
-          "date": "20260831",
-          "type": "negative",
-          "headline": "[거시분석] 美 기준금리 인상 가능성에 국고채 금리↑…상승폭은 줄어(종합)",
-          "score": -1
         }
       ]
     },
@@ -98,7 +98,7 @@
           "date": "20260905",
           "type": "positive",
           "headline": "[거시분석] US adds 162,000 jobs in August, raising Fed r...",
-          "score": 1
+          "score": 2
         },
         {
           "date": "20260904",
@@ -665,14 +665,15 @@
       "date": "20260905",
       "headline": "[거시분석] US adds 162,000 jobs in August, raising Fed r...",
       "impacts": {
-        "방산": 1,
+        "방산": 2,
+        "건설": -1,
         "전체시장": -5,
         "금융": -3
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 56,
+  "total_negatives": 57,
   "total_positives": 30,
   "risk_level": "EXTREME"
 }
