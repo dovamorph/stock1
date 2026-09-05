@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-05T22:18:29.968941+09:00",
-  "date": "20260905",
+  "updated_at": "2026-09-06T01:38:58.666697+09:00",
+  "date": "20260906",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -20,6 +20,12 @@
       "positive_count": 1,
       "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260906",
+          "type": "negative",
+          "headline": "[거시분석] US hits three Iranian oil tankers after sayin...",
+          "score": -2
+        },
         {
           "date": "20260905",
           "type": "negative",
@@ -43,12 +49,6 @@
           "type": "negative",
           "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
           "score": -2
-        },
-        {
-          "date": "20260827",
-          "type": "positive",
-          "headline": "OpenAI says it detected malign activity months before Hugging Face attack",
-          "score": 1
         }
       ]
     },
@@ -57,6 +57,12 @@
       "positive_count": 2,
       "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260906",
+          "type": "negative",
+          "headline": "[거시분석] US hits three Iranian oil tankers after sayin...",
+          "score": -2
+        },
         {
           "date": "20260905",
           "type": "negative",
@@ -80,20 +86,26 @@
           "type": "negative",
           "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
           "score": -2
-        },
-        {
-          "date": "20260901",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran trade strikes for first time in w...",
-          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 19,
+      "positive_count": 20,
       "negative_count": 3,
       "recent_events": [
+        {
+          "date": "20260906",
+          "type": "positive",
+          "headline": "푸틴, 트럼프 특사 만난다…\"키이우 공습 사흘간 중단\"",
+          "score": 1
+        },
+        {
+          "date": "20260906",
+          "type": "positive",
+          "headline": "[거시분석] US hits three Iranian oil tankers after sayin...",
+          "score": 3
+        },
         {
           "date": "20260905",
           "type": "positive",
@@ -111,18 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] Philippine court orders arrest of VP Duterte ...",
           "score": 1
-        },
-        {
-          "date": "20260903",
-          "type": "positive",
-          "headline": "이란 혁명수비대 \"美 결혼식장 공습 테러, 반드시 책임 묻겠다\"",
-          "score": 1
-        },
-        {
-          "date": "20260903",
-          "type": "positive",
-          "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
-          "score": 3
         }
       ]
     },
@@ -133,8 +133,8 @@
       "recent_events": []
     },
     "로봇": {
-      "score": 6,
-      "positive_count": 6,
+      "score": 5,
+      "positive_count": 5,
       "negative_count": 0,
       "recent_events": [
         {
@@ -172,7 +172,7 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 12,
+      "negative_count": 11,
       "recent_events": [
         {
           "date": "20260904",
@@ -241,8 +241,20 @@
     "전체시장": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 24,
+      "negative_count": 25,
       "recent_events": [
+        {
+          "date": "20260906",
+          "type": "negative",
+          "headline": "How much can Canada fight back in its trade war with the US?",
+          "score": -1
+        },
+        {
+          "date": "20260906",
+          "type": "negative",
+          "headline": "[거시분석] US hits three Iranian oil tankers after sayin...",
+          "score": -6
+        },
         {
           "date": "20260905",
           "type": "negative",
@@ -260,43 +272,11 @@
           "type": "negative",
           "headline": "[거시분석] Philippine court orders arrest of VP Duterte ...",
           "score": -7
-        },
-        {
-          "date": "20260903",
-          "type": "negative",
-          "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
-          "score": -6
-        },
-        {
-          "date": "20260902",
-          "type": "negative",
-          "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
-          "score": -5
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260822",
-      "headline": "Usain Bolt’s 100m record broken at World Humanoid Robot Games",
-      "impacts": {
-        "로봇": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260822",
-      "headline": "[거시분석] Rescuers dig through Ukraine mall wreckage as...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -8,
-        "금융": -1,
-        "반도체·AI": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260823",
       "headline": "DR Congo and M23 rebels agree roadmap for peace talks",
@@ -672,6 +652,33 @@
     {
       "date": "20260905",
       "headline": "[거시분석] US envoys arrive in Moscow ahead of Ukraine t...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -6,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
+    },
+    {
+      "date": "20260906",
+      "headline": "How much can Canada fight back in its trade war with the US?",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260906",
+      "headline": "푸틴, 트럼프 특사 만난다…\"키이우 공습 사흘간 중단\"",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260906",
+      "headline": "[거시분석] US hits three Iranian oil tankers after sayin...",
       "impacts": {
         "방산": 3,
         "건설": -2,
