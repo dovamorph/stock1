@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T01:38:58.666697+09:00",
+  "updated_at": "2026-09-06T05:06:24.112142+09:00",
   "date": "20260906",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260906",
           "type": "negative",
-          "headline": "[거시분석] US hits three Iranian oil tankers after sayin...",
+          "headline": "[거시분석] US envoys meet Putin in Moscow for Ukraine ta...",
           "score": -2
         },
         {
@@ -60,7 +60,7 @@
         {
           "date": "20260906",
           "type": "negative",
-          "headline": "[거시분석] US hits three Iranian oil tankers after sayin...",
+          "headline": "[거시분석] US envoys meet Putin in Moscow for Ukraine ta...",
           "score": -2
         },
         {
@@ -103,7 +103,7 @@
         {
           "date": "20260906",
           "type": "positive",
-          "headline": "[거시분석] US hits three Iranian oil tankers after sayin...",
+          "headline": "[거시분석] US envoys meet Putin in Moscow for Ukraine ta...",
           "score": 3
         },
         {
@@ -252,7 +252,7 @@
         {
           "date": "20260906",
           "type": "negative",
-          "headline": "[거시분석] US hits three Iranian oil tankers after sayin...",
+          "headline": "[거시분석] US envoys meet Putin in Moscow for Ukraine ta...",
           "score": -6
         },
         {
@@ -678,7 +678,7 @@
     },
     {
       "date": "20260906",
-      "headline": "[거시분석] US hits three Iranian oil tankers after sayin...",
+      "headline": "[거시분석] US envoys meet Putin in Moscow for Ukraine ta...",
       "impacts": {
         "방산": 3,
         "건설": -2,
