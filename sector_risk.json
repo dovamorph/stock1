@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T07:13:42.057485+09:00",
+  "updated_at": "2026-09-05T12:40:16.195151+09:00",
   "date": "20260905",
   "window_days": 14,
   "sectors": [
@@ -18,8 +18,14 @@
     "반도체·AI": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260905",
+          "type": "negative",
+          "headline": "[거시분석] Europe targeted by spiralling campaign of sab...",
+          "score": -2
+        },
         {
           "date": "20260904",
           "type": "negative",
@@ -43,12 +49,6 @@
           "type": "positive",
           "headline": "OpenAI says it detected malign activity months before Hugging Face attack",
           "score": 1
-        },
-        {
-          "date": "20260825",
-          "type": "negative",
-          "headline": "[거시분석] China hits out at 'illegal' new US sanctions ...",
-          "score": -2
         }
       ]
     },
@@ -60,7 +60,7 @@
         {
           "date": "20260905",
           "type": "negative",
-          "headline": "[거시분석] US adds 162,000 jobs in August, raising Fed r...",
+          "headline": "[거시분석] Europe targeted by spiralling campaign of sab...",
           "score": -1
         },
         {
@@ -97,7 +97,7 @@
         {
           "date": "20260905",
           "type": "positive",
-          "headline": "[거시분석] US adds 162,000 jobs in August, raising Fed r...",
+          "headline": "[거시분석] Europe targeted by spiralling campaign of sab...",
           "score": 2
         },
         {
@@ -172,20 +172,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 14,
+      "negative_count": 12,
       "recent_events": [
-        {
-          "date": "20260905",
-          "type": "negative",
-          "headline": "US adds 162,000 jobs in August, raising Fed rate hike expectations",
-          "score": -1
-        },
-        {
-          "date": "20260905",
-          "type": "negative",
-          "headline": "[거시분석] US adds 162,000 jobs in August, raising Fed r...",
-          "score": -3
-        },
         {
           "date": "20260904",
           "type": "negative",
@@ -202,6 +190,18 @@
           "date": "20260903",
           "type": "negative",
           "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
+          "score": -1
+        },
+        {
+          "date": "20260901",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran trade strikes for first time in w...",
+          "score": -1
+        },
+        {
+          "date": "20260831",
+          "type": "negative",
+          "headline": "美 기준금리 인상 가능성에 국고채 금리↑…상승폭은 줄어(종합)",
           "score": -1
         }
       ]
@@ -241,12 +241,24 @@
     "전체시장": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 23,
+      "negative_count": 25,
       "recent_events": [
         {
           "date": "20260905",
           "type": "negative",
-          "headline": "[거시분석] US adds 162,000 jobs in August, raising Fed r...",
+          "headline": "How much can Canada fight back in its trade war with the US?",
+          "score": -1
+        },
+        {
+          "date": "20260905",
+          "type": "negative",
+          "headline": "미일, '관세 15% 상한' 합의 준수 재확인…\"추가 관세 차단\"",
+          "score": -1
+        },
+        {
+          "date": "20260905",
+          "type": "negative",
+          "headline": "[거시분석] Europe targeted by spiralling campaign of sab...",
           "score": -5
         },
         {
@@ -260,18 +272,6 @@
           "type": "negative",
           "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
           "score": -6
-        },
-        {
-          "date": "20260902",
-          "type": "negative",
-          "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
-          "score": -5
-        },
-        {
-          "date": "20260901",
-          "type": "negative",
-          "headline": "How the US-Canada trade war is being felt on both sides of the border",
-          "score": -1
         }
       ]
     }
@@ -655,25 +655,33 @@
     },
     {
       "date": "20260905",
-      "headline": "US adds 162,000 jobs in August, raising Fed rate hike expectations",
+      "headline": "How much can Canada fight back in its trade war with the US?",
       "impacts": {
-        "금융": -1
+        "전체시장": -1
       },
       "source": "keyword"
     },
     {
       "date": "20260905",
-      "headline": "[거시분석] US adds 162,000 jobs in August, raising Fed r...",
+      "headline": "미일, '관세 15% 상한' 합의 준수 재확인…\"추가 관세 차단\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260905",
+      "headline": "[거시분석] Europe targeted by spiralling campaign of sab...",
       "impacts": {
         "방산": 2,
         "건설": -1,
         "전체시장": -5,
-        "금융": -3
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 57,
+  "total_negatives": 58,
   "total_positives": 30,
   "risk_level": "EXTREME"
 }
