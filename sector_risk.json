@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T17:11:44.244661+09:00",
+  "updated_at": "2026-09-05T22:18:29.968941+09:00",
   "date": "20260905",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260905",
           "type": "negative",
-          "headline": "[거시분석] Europe targeted by spiralling campaign of sab...",
+          "headline": "[거시분석] US envoys arrive in Moscow ahead of Ukraine t...",
           "score": -2
         },
         {
@@ -60,8 +60,8 @@
         {
           "date": "20260905",
           "type": "negative",
-          "headline": "[거시분석] Europe targeted by spiralling campaign of sab...",
-          "score": -1
+          "headline": "[거시분석] US envoys arrive in Moscow ahead of Ukraine t...",
+          "score": -2
         },
         {
           "date": "20260903",
@@ -91,14 +91,20 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 18,
+      "positive_count": 19,
       "negative_count": 3,
       "recent_events": [
         {
           "date": "20260905",
           "type": "positive",
-          "headline": "[거시분석] Europe targeted by spiralling campaign of sab...",
-          "score": 2
+          "headline": "푸틴, 트럼프 특사 만난다…\"키이우 공습 사흘간 중단\"",
+          "score": 1
+        },
+        {
+          "date": "20260905",
+          "type": "positive",
+          "headline": "[거시분석] US envoys arrive in Moscow ahead of Ukraine t...",
+          "score": 3
         },
         {
           "date": "20260904",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
           "score": 3
-        },
-        {
-          "date": "20260902",
-          "type": "positive",
-          "headline": "뉴욕증시, 이어지는 美-이란 교전 속 혼조 출발",
-          "score": 1
         }
       ]
     },
@@ -252,8 +252,8 @@
         {
           "date": "20260905",
           "type": "negative",
-          "headline": "[거시분석] Europe targeted by spiralling campaign of sab...",
-          "score": -5
+          "headline": "[거시분석] US envoys arrive in Moscow ahead of Ukraine t...",
+          "score": -6
         },
         {
           "date": "20260904",
@@ -663,17 +663,25 @@
     },
     {
       "date": "20260905",
-      "headline": "[거시분석] Europe targeted by spiralling campaign of sab...",
+      "headline": "푸틴, 트럼프 특사 만난다…\"키이우 공습 사흘간 중단\"",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -5,
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260905",
+      "headline": "[거시분석] US envoys arrive in Moscow ahead of Ukraine t...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -6,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 57,
-  "total_positives": 30,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
