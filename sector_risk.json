@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T01:46:22.395740+09:00",
+  "updated_at": "2026-09-07T05:11:06.294807+09:00",
   "date": "20260907",
   "window_days": 14,
   "sectors": [
@@ -60,7 +60,7 @@
         {
           "date": "20260907",
           "type": "negative",
-          "headline": "[거시분석] US and Iran trade retaliatory attacks on ship...",
+          "headline": "[거시분석] Iran warns of 'faster, heavier, more painful ...",
           "score": -2
         },
         {
@@ -91,9 +91,15 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 20,
-      "negative_count": 5,
+      "positive_count": 19,
+      "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20260907",
+          "type": "negative",
+          "headline": "Witkoff says peace talks have been ‘very meaningful’ in Ukraine",
+          "score": -1
+        },
         {
           "date": "20260907",
           "type": "negative",
@@ -109,13 +115,7 @@
         {
           "date": "20260907",
           "type": "positive",
-          "headline": "이스라엘, 레바논 남부 공습해 4명 사망… 레바논, 美 개입 촉구",
-          "score": 1
-        },
-        {
-          "date": "20260907",
-          "type": "positive",
-          "headline": "[거시분석] US and Iran trade retaliatory attacks on ship...",
+          "headline": "[거시분석] Iran warns of 'faster, heavier, more painful ...",
           "score": 3
         },
         {
@@ -171,7 +171,7 @@
         {
           "date": "20260907",
           "type": "negative",
-          "headline": "[거시분석] US and Iran trade retaliatory attacks on ship...",
+          "headline": "[거시분석] Iran warns of 'faster, heavier, more painful ...",
           "score": -1
         },
         {
@@ -258,7 +258,7 @@
         {
           "date": "20260907",
           "type": "negative",
-          "headline": "[거시분석] US and Iran trade retaliatory attacks on ship...",
+          "headline": "[거시분석] Iran warns of 'faster, heavier, more painful ...",
           "score": -5
         },
         {
@@ -649,6 +649,14 @@
     },
     {
       "date": "20260907",
+      "headline": "Witkoff says peace talks have been ‘very meaningful’ in Ukraine",
+      "impacts": {
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260907",
       "headline": "트럼프 \"美-캐나다 달러 불균형\"…관세 이어 환율 건드리나",
       "impacts": {
         "전체시장": -1
@@ -675,15 +683,7 @@
     },
     {
       "date": "20260907",
-      "headline": "이스라엘, 레바논 남부 공습해 4명 사망… 레바논, 美 개입 촉구",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260907",
-      "headline": "[거시분석] US and Iran trade retaliatory attacks on ship...",
+      "headline": "[거시분석] Iran warns of 'faster, heavier, more painful ...",
       "impacts": {
         "방산": 3,
         "건설": -2,
@@ -693,7 +693,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 59,
-  "total_positives": 33,
+  "total_negatives": 60,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
