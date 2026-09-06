@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T12:42:12.455650+09:00",
+  "updated_at": "2026-09-06T17:28:52.358515+09:00",
   "date": "20260906",
   "window_days": 14,
   "sectors": [
@@ -18,14 +18,8 @@
     "반도체·AI": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20260906",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran trade retaliatory attacks on ship...",
-          "score": -2
-        },
         {
           "date": "20260905",
           "type": "negative",
@@ -49,6 +43,12 @@
           "type": "negative",
           "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
           "score": -2
+        },
+        {
+          "date": "20260827",
+          "type": "positive",
+          "headline": "OpenAI says it detected malign activity months before Hugging Face attack",
+          "score": 1
         }
       ]
     },
@@ -97,7 +97,7 @@
         {
           "date": "20260906",
           "type": "positive",
-          "headline": "[거시분석] US and Iran trade retaliatory attacks on ship...",
+          "headline": "[거시분석] US envoys set for Ukraine talks after meeting...",
           "score": 1
         },
         {
@@ -172,14 +172,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 12,
+      "negative_count": 11,
       "recent_events": [
-        {
-          "date": "20260906",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran trade retaliatory attacks on ship...",
-          "score": -1
-        },
         {
           "date": "20260904",
           "type": "negative",
@@ -202,6 +196,12 @@
           "date": "20260901",
           "type": "negative",
           "headline": "[거시분석] US and Iran trade strikes for first time in w...",
+          "score": -1
+        },
+        {
+          "date": "20260831",
+          "type": "negative",
+          "headline": "美 기준금리 인상 가능성에 국고채 금리↑…상승폭은 줄어(종합)",
           "score": -1
         }
       ]
@@ -246,14 +246,14 @@
         {
           "date": "20260906",
           "type": "negative",
-          "headline": "How much can Canada fight back in its trade war with the US?",
+          "headline": "이란 제재망 '뜻밖의 구멍'은 美 은행…연간 수십억달러 통과",
           "score": -1
         },
         {
           "date": "20260906",
           "type": "negative",
-          "headline": "[거시분석] US and Iran trade retaliatory attacks on ship...",
-          "score": -5
+          "headline": "[거시분석] US envoys set for Ukraine talks after meeting...",
+          "score": -2
         },
         {
           "date": "20260905",
@@ -662,7 +662,7 @@
     },
     {
       "date": "20260906",
-      "headline": "How much can Canada fight back in its trade war with the US?",
+      "headline": "이란 제재망 '뜻밖의 구멍'은 美 은행…연간 수십억달러 통과",
       "impacts": {
         "전체시장": -1
       },
@@ -670,17 +670,15 @@
     },
     {
       "date": "20260906",
-      "headline": "[거시분석] US and Iran trade retaliatory attacks on ship...",
+      "headline": "[거시분석] US envoys set for Ukraine talks after meeting...",
       "impacts": {
         "방산": 1,
-        "전체시장": -5,
-        "금융": -1,
-        "반도체·AI": -2
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 57,
+  "total_negatives": 55,
   "total_positives": 30,
   "risk_level": "EXTREME"
 }
