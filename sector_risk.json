@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T05:11:06.294807+09:00",
+  "updated_at": "2026-09-07T08:36:48.863447+09:00",
   "date": "20260907",
   "window_days": 14,
   "sectors": [
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20260907",
-          "type": "negative",
-          "headline": "[거시분석] Iran warns of 'faster, heavier, more painful ...",
-          "score": -2
-        },
         {
           "date": "20260906",
           "type": "negative",
@@ -86,14 +80,26 @@
           "type": "negative",
           "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
           "score": -2
+        },
+        {
+          "date": "20260902",
+          "type": "negative",
+          "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
+          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 19,
-      "negative_count": 6,
+      "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20260907",
+          "type": "negative",
+          "headline": "Peace talks rich in symbolism but fundamental differences between Russia and Ukraine remain",
+          "score": -1
+        },
         {
           "date": "20260907",
           "type": "negative",
@@ -102,41 +108,48 @@
         },
         {
           "date": "20260907",
-          "type": "negative",
-          "headline": "트럼프 특사, 키이우서 젤렌스키와 종전 논의…영·프·독 참여(종합)",
-          "score": -1
-        },
-        {
-          "date": "20260907",
-          "type": "negative",
-          "headline": "트럼프 특사, 우크라 첫 방문…젤렌스키와 종전 논의",
-          "score": -1
-        },
-        {
-          "date": "20260907",
           "type": "positive",
-          "headline": "[거시분석] Iran warns of 'faster, heavier, more painful ...",
-          "score": 3
+          "headline": "[거시분석] Peace talks rich in symbolism but fundamental...",
+          "score": 1
         },
         {
           "date": "20260906",
           "type": "negative",
           "headline": "트럼프 특사, 우크라 첫 방문…젤렌스키와 종전 논의",
           "score": -1
+        },
+        {
+          "date": "20260906",
+          "type": "positive",
+          "headline": "이스라엘, 레바논 남부 공습해 4명 사망… 레바논, 美 개입 촉구",
+          "score": 1
         }
       ]
     },
     "전력·에너지": {
-      "score": 0,
-      "positive_count": 0,
-      "negative_count": 0,
-      "recent_events": []
-    },
-    "로봇": {
-      "score": 4,
-      "positive_count": 4,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260907",
+          "type": "positive",
+          "headline": "한투증권, S-Oil 목표가↑…\"정유가 상승에 실적 가시성 높아져\"",
+          "score": 1
+        }
+      ]
+    },
+    "로봇": {
+      "score": 5,
+      "positive_count": 5,
+      "negative_count": 0,
+      "recent_events": [
+        {
+          "date": "20260907",
+          "type": "positive",
+          "headline": "IBK증권, 디케이티 기업분석 개시…\"휴머노이드 탈중국 수혜주\"",
+          "score": 1
+        },
         {
           "date": "20260827",
           "type": "positive",
@@ -171,7 +184,7 @@
         {
           "date": "20260907",
           "type": "negative",
-          "headline": "[거시분석] Iran warns of 'faster, heavier, more painful ...",
+          "headline": "[거시분석] Peace talks rich in symbolism but fundamental...",
           "score": -1
         },
         {
@@ -234,38 +247,38 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 3,
-      "negative_count": 25,
+      "positive_count": 1,
+      "negative_count": 24,
       "recent_events": [
         {
           "date": "20260907",
           "type": "negative",
-          "headline": "트럼프 \"美-캐나다 달러 불균형\"…관세 이어 환율 건드리나",
-          "score": -1
-        },
-        {
-          "date": "20260907",
-          "type": "positive",
-          "headline": "트럼프 특사, 키이우서 젤렌스키와 종전 논의…영·프·독 참여(종합)",
-          "score": 1
-        },
-        {
-          "date": "20260907",
-          "type": "positive",
-          "headline": "트럼프 특사, 우크라 첫 방문…젤렌스키와 종전 논의",
-          "score": 1
-        },
-        {
-          "date": "20260907",
-          "type": "negative",
-          "headline": "[거시분석] Iran warns of 'faster, heavier, more painful ...",
-          "score": -5
+          "headline": "[거시분석] Peace talks rich in symbolism but fundamental...",
+          "score": -3
         },
         {
           "date": "20260906",
           "type": "positive",
           "headline": "트럼프 특사, 우크라 첫 방문…젤렌스키와 종전 논의",
           "score": 1
+        },
+        {
+          "date": "20260906",
+          "type": "negative",
+          "headline": "[거시분석] US envoys meet Zelensky in Ukraine after talk...",
+          "score": -4
+        },
+        {
+          "date": "20260905",
+          "type": "negative",
+          "headline": "How much can Canada fight back in its trade war with the US?",
+          "score": -1
+        },
+        {
+          "date": "20260905",
+          "type": "negative",
+          "headline": "[거시분석] US envoys arrive in Moscow ahead of Ukraine t...",
+          "score": -6
         }
       ]
     }
@@ -649,6 +662,14 @@
     },
     {
       "date": "20260907",
+      "headline": "Peace talks rich in symbolism but fundamental differences between Russia and Ukraine remain",
+      "impacts": {
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260907",
       "headline": "Witkoff says peace talks have been ‘very meaningful’ in Ukraine",
       "impacts": {
         "방산": -1
@@ -657,43 +678,32 @@
     },
     {
       "date": "20260907",
-      "headline": "트럼프 \"美-캐나다 달러 불균형\"…관세 이어 환율 건드리나",
+      "headline": "IBK증권, 디케이티 기업분석 개시…\"휴머노이드 탈중국 수혜주\"",
       "impacts": {
-        "전체시장": -1
+        "로봇": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260907",
-      "headline": "트럼프 특사, 키이우서 젤렌스키와 종전 논의…영·프·독 참여(종합)",
+      "headline": "한투증권, S-Oil 목표가↑…\"정유가 상승에 실적 가시성 높아져\"",
       "impacts": {
-        "방산": -1,
-        "전체시장": 1
+        "전력·에너지": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260907",
-      "headline": "트럼프 특사, 우크라 첫 방문…젤렌스키와 종전 논의",
+      "headline": "[거시분석] Peace talks rich in symbolism but fundamental...",
       "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260907",
-      "headline": "[거시분석] Iran warns of 'faster, heavier, more painful ...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
+        "방산": 1,
+        "전체시장": -3,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 60,
+  "total_negatives": 57,
   "total_positives": 32,
   "risk_level": "EXTREME"
 }
