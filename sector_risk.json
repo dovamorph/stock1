@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-06T22:28:09.724104+09:00",
-  "date": "20260906",
+  "updated_at": "2026-09-07T01:46:22.395740+09:00",
+  "date": "20260907",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -58,6 +58,12 @@
       "negative_count": 11,
       "recent_events": [
         {
+          "date": "20260907",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran trade retaliatory attacks on ship...",
+          "score": -2
+        },
+        {
           "date": "20260906",
           "type": "negative",
           "headline": "[거시분석] US envoys meet Zelensky in Ukraine after talk...",
@@ -80,49 +86,43 @@
           "type": "negative",
           "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
           "score": -2
-        },
-        {
-          "date": "20260902",
-          "type": "negative",
-          "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 20,
-      "negative_count": 4,
+      "negative_count": 5,
       "recent_events": [
         {
-          "date": "20260906",
+          "date": "20260907",
+          "type": "negative",
+          "headline": "트럼프 특사, 키이우서 젤렌스키와 종전 논의…영·프·독 참여(종합)",
+          "score": -1
+        },
+        {
+          "date": "20260907",
           "type": "negative",
           "headline": "트럼프 특사, 우크라 첫 방문…젤렌스키와 종전 논의",
           "score": -1
         },
         {
-          "date": "20260906",
+          "date": "20260907",
           "type": "positive",
           "headline": "이스라엘, 레바논 남부 공습해 4명 사망… 레바논, 美 개입 촉구",
           "score": 1
         },
         {
+          "date": "20260907",
+          "type": "positive",
+          "headline": "[거시분석] US and Iran trade retaliatory attacks on ship...",
+          "score": 3
+        },
+        {
           "date": "20260906",
-          "type": "positive",
-          "headline": "[거시분석] US envoys meet Zelensky in Ukraine after talk...",
-          "score": 3
-        },
-        {
-          "date": "20260905",
-          "type": "positive",
-          "headline": "푸틴, 트럼프 특사 만난다…\"키이우 공습 사흘간 중단\"",
-          "score": 1
-        },
-        {
-          "date": "20260905",
-          "type": "positive",
-          "headline": "[거시분석] US envoys arrive in Moscow ahead of Ukraine t...",
-          "score": 3
+          "type": "negative",
+          "headline": "트럼프 특사, 우크라 첫 방문…젤렌스키와 종전 논의",
+          "score": -1
         }
       ]
     },
@@ -133,8 +133,8 @@
       "recent_events": []
     },
     "로봇": {
-      "score": 5,
-      "positive_count": 5,
+      "score": 4,
+      "positive_count": 4,
       "negative_count": 0,
       "recent_events": [
         {
@@ -160,20 +160,20 @@
           "type": "positive",
           "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
           "score": 1
-        },
-        {
-          "date": "20260823",
-          "type": "positive",
-          "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
-          "score": 1
         }
       ]
     },
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 12,
       "recent_events": [
+        {
+          "date": "20260907",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran trade retaliatory attacks on ship...",
+          "score": -1
+        },
         {
           "date": "20260904",
           "type": "negative",
@@ -196,12 +196,6 @@
           "date": "20260901",
           "type": "negative",
           "headline": "[거시분석] US and Iran trade strikes for first time in w...",
-          "score": -1
-        },
-        {
-          "date": "20260831",
-          "type": "negative",
-          "headline": "美 기준금리 인상 가능성에 국고채 금리↑…상승폭은 줄어(종합)",
           "score": -1
         }
       ]
@@ -240,77 +234,43 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 1,
-      "negative_count": 24,
+      "positive_count": 3,
+      "negative_count": 25,
       "recent_events": [
         {
-          "date": "20260906",
+          "date": "20260907",
+          "type": "negative",
+          "headline": "트럼프 \"美-캐나다 달러 불균형\"…관세 이어 환율 건드리나",
+          "score": -1
+        },
+        {
+          "date": "20260907",
+          "type": "positive",
+          "headline": "트럼프 특사, 키이우서 젤렌스키와 종전 논의…영·프·독 참여(종합)",
+          "score": 1
+        },
+        {
+          "date": "20260907",
           "type": "positive",
           "headline": "트럼프 특사, 우크라 첫 방문…젤렌스키와 종전 논의",
           "score": 1
         },
         {
+          "date": "20260907",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran trade retaliatory attacks on ship...",
+          "score": -5
+        },
+        {
           "date": "20260906",
-          "type": "negative",
-          "headline": "[거시분석] US envoys meet Zelensky in Ukraine after talk...",
-          "score": -4
-        },
-        {
-          "date": "20260905",
-          "type": "negative",
-          "headline": "How much can Canada fight back in its trade war with the US?",
-          "score": -1
-        },
-        {
-          "date": "20260905",
-          "type": "negative",
-          "headline": "[거시분석] US envoys arrive in Moscow ahead of Ukraine t...",
-          "score": -6
-        },
-        {
-          "date": "20260904",
-          "type": "negative",
-          "headline": "[거시분석] Philippine court orders arrest of VP Duterte ...",
-          "score": -7
+          "type": "positive",
+          "headline": "트럼프 특사, 우크라 첫 방문…젤렌스키와 종전 논의",
+          "score": 1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260823",
-      "headline": "DR Congo and M23 rebels agree roadmap for peace talks",
-      "impacts": {
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260823",
-      "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
-      "impacts": {
-        "로봇": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260823",
-      "headline": "물대포에 실사격 훈련까지…中·필리핀, 남중국해 군사긴장 고조",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260823",
-      "headline": "[거시분석] DR Congo and M23 rebels agree roadmap for pea...",
-      "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -4
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260824",
       "headline": "'Half my business will be gone' - firms in Canada and US fear trade war",
@@ -686,9 +646,54 @@
         "전체시장": -4
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260907",
+      "headline": "트럼프 \"美-캐나다 달러 불균형\"…관세 이어 환율 건드리나",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260907",
+      "headline": "트럼프 특사, 키이우서 젤렌스키와 종전 논의…영·프·독 참여(종합)",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260907",
+      "headline": "트럼프 특사, 우크라 첫 방문…젤렌스키와 종전 논의",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260907",
+      "headline": "이스라엘, 레바논 남부 공습해 4명 사망… 레바논, 美 개입 촉구",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260907",
+      "headline": "[거시분석] US and Iran trade retaliatory attacks on ship...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 56,
-  "total_positives": 32,
+  "total_negatives": 59,
+  "total_positives": 33,
   "risk_level": "EXTREME"
 }
