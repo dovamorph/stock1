@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T17:28:52.358515+09:00",
+  "updated_at": "2026-09-06T22:28:09.724104+09:00",
   "date": "20260906",
   "window_days": 14,
   "sectors": [
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260906",
+          "type": "negative",
+          "headline": "[거시분석] US envoys meet Zelensky in Ukraine after talk...",
+          "score": -2
+        },
         {
           "date": "20260905",
           "type": "negative",
@@ -80,25 +86,31 @@
           "type": "negative",
           "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
           "score": -2
-        },
-        {
-          "date": "20260901",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran trade strikes for first time in w...",
-          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 19,
-      "negative_count": 3,
+      "positive_count": 20,
+      "negative_count": 4,
       "recent_events": [
         {
           "date": "20260906",
+          "type": "negative",
+          "headline": "트럼프 특사, 우크라 첫 방문…젤렌스키와 종전 논의",
+          "score": -1
+        },
+        {
+          "date": "20260906",
           "type": "positive",
-          "headline": "[거시분석] US envoys set for Ukraine talks after meeting...",
+          "headline": "이스라엘, 레바논 남부 공습해 4명 사망… 레바논, 美 개입 촉구",
           "score": 1
+        },
+        {
+          "date": "20260906",
+          "type": "positive",
+          "headline": "[거시분석] US envoys meet Zelensky in Ukraine after talk...",
+          "score": 3
         },
         {
           "date": "20260905",
@@ -111,18 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] US envoys arrive in Moscow ahead of Ukraine t...",
           "score": 3
-        },
-        {
-          "date": "20260904",
-          "type": "positive",
-          "headline": "[거시분석] Philippine court orders arrest of VP Duterte ...",
-          "score": 1
-        },
-        {
-          "date": "20260903",
-          "type": "positive",
-          "headline": "이란 혁명수비대 \"美 결혼식장 공습 테러, 반드시 책임 묻겠다\"",
-          "score": 1
         }
       ]
     },
@@ -240,20 +240,20 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 0,
-      "negative_count": 25,
+      "positive_count": 1,
+      "negative_count": 24,
       "recent_events": [
         {
           "date": "20260906",
-          "type": "negative",
-          "headline": "이란 제재망 '뜻밖의 구멍'은 美 은행…연간 수십억달러 통과",
-          "score": -1
+          "type": "positive",
+          "headline": "트럼프 특사, 우크라 첫 방문…젤렌스키와 종전 논의",
+          "score": 1
         },
         {
           "date": "20260906",
           "type": "negative",
-          "headline": "[거시분석] US envoys set for Ukraine talks after meeting...",
-          "score": -2
+          "headline": "[거시분석] US envoys meet Zelensky in Ukraine after talk...",
+          "score": -4
         },
         {
           "date": "20260905",
@@ -662,23 +662,33 @@
     },
     {
       "date": "20260906",
-      "headline": "이란 제재망 '뜻밖의 구멍'은 美 은행…연간 수십억달러 통과",
+      "headline": "트럼프 특사, 우크라 첫 방문…젤렌스키와 종전 논의",
       "impacts": {
-        "전체시장": -1
+        "방산": -1,
+        "전체시장": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260906",
-      "headline": "[거시분석] US envoys set for Ukraine talks after meeting...",
+      "headline": "이스라엘, 레바논 남부 공습해 4명 사망… 레바논, 美 개입 촉구",
       "impacts": {
-        "방산": 1,
-        "전체시장": -2
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260906",
+      "headline": "[거시분석] US envoys meet Zelensky in Ukraine after talk...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 55,
-  "total_positives": 30,
+  "total_negatives": 56,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
