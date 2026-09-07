@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T08:36:48.863447+09:00",
+  "updated_at": "2026-09-07T12:41:38.434437+09:00",
   "date": "20260907",
   "window_days": 14,
   "sectors": [
@@ -127,29 +127,16 @@
       ]
     },
     "전력·에너지": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 0,
+      "positive_count": 0,
       "negative_count": 0,
-      "recent_events": [
-        {
-          "date": "20260907",
-          "type": "positive",
-          "headline": "한투증권, S-Oil 목표가↑…\"정유가 상승에 실적 가시성 높아져\"",
-          "score": 1
-        }
-      ]
+      "recent_events": []
     },
     "로봇": {
-      "score": 5,
-      "positive_count": 5,
+      "score": 4,
+      "positive_count": 4,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260907",
-          "type": "positive",
-          "headline": "IBK증권, 디케이티 기업분석 개시…\"휴머노이드 탈중국 수혜주\"",
-          "score": 1
-        },
         {
           "date": "20260827",
           "type": "positive",
@@ -678,22 +665,6 @@
     },
     {
       "date": "20260907",
-      "headline": "IBK증권, 디케이티 기업분석 개시…\"휴머노이드 탈중국 수혜주\"",
-      "impacts": {
-        "로봇": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260907",
-      "headline": "한투증권, S-Oil 목표가↑…\"정유가 상승에 실적 가시성 높아져\"",
-      "impacts": {
-        "전력·에너지": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260907",
       "headline": "[거시분석] Peace talks rich in symbolism but fundamental...",
       "impacts": {
         "방산": 1,
@@ -704,6 +675,6 @@
     }
   ],
   "total_negatives": 57,
-  "total_positives": 32,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
