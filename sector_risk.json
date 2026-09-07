@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T00:37:02.380742+09:00",
+  "updated_at": "2026-09-08T04:42:05.305600+09:00",
   "date": "20260908",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -10,
+      "score": -9,
       "positive_count": 1,
-      "negative_count": 6,
+      "negative_count": 5,
       "recent_events": [
-        {
-          "date": "20260908",
-          "type": "negative",
-          "headline": "[거시분석] Peace talks rich in symbolism but fundamental...",
-          "score": -2
-        },
         {
           "date": "20260905",
           "type": "negative",
@@ -49,6 +43,12 @@
           "type": "negative",
           "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
           "score": -2
+        },
+        {
+          "date": "20260827",
+          "type": "positive",
+          "headline": "OpenAI says it detected malign activity months before Hugging Face attack",
+          "score": 1
         }
       ]
     },
@@ -92,18 +92,12 @@
     "방산": {
       "score": 10,
       "positive_count": 20,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
         {
           "date": "20260908",
           "type": "negative",
           "headline": "Peace talks rich in symbolism but fundamental differences between Russia and Ukraine remain",
-          "score": -1
-        },
-        {
-          "date": "20260908",
-          "type": "negative",
-          "headline": "Will Trump succeed in restarting Russia-Ukraine peace talks?",
           "score": -1
         },
         {
@@ -123,6 +117,12 @@
           "type": "positive",
           "headline": "[거시분석] Peace talks rich in symbolism but fundamental...",
           "score": 3
+        },
+        {
+          "date": "20260907",
+          "type": "negative",
+          "headline": "Peace talks rich in symbolism but fundamental differences between Russia and Ukraine remain",
+          "score": -1
         }
       ]
     },
@@ -179,7 +179,7 @@
           "date": "20260908",
           "type": "negative",
           "headline": "[거시분석] Peace talks rich in symbolism but fundamental...",
-          "score": -1
+          "score": -2
         },
         {
           "date": "20260907",
@@ -242,14 +242,8 @@
     "전체시장": {
       "score": -10,
       "positive_count": 3,
-      "negative_count": 20,
+      "negative_count": 19,
       "recent_events": [
-        {
-          "date": "20260908",
-          "type": "negative",
-          "headline": "Could Trump’s Iran trade war threaten Spain’s saffron-infused paella?",
-          "score": -1
-        },
         {
           "date": "20260908",
           "type": "positive",
@@ -260,7 +254,7 @@
           "date": "20260908",
           "type": "negative",
           "headline": "[거시분석] Peace talks rich in symbolism but fundamental...",
-          "score": -7
+          "score": -6
         },
         {
           "date": "20260907",
@@ -273,6 +267,12 @@
           "type": "negative",
           "headline": "[거시분석] Iran warns of 'faster, heavier, more painful ...",
           "score": -3
+        },
+        {
+          "date": "20260906",
+          "type": "positive",
+          "headline": "트럼프 특사, 우크라 첫 방문…젤렌스키와 종전 논의",
+          "score": 1
         }
       ]
     }
@@ -648,22 +648,6 @@
     },
     {
       "date": "20260908",
-      "headline": "Will Trump succeed in restarting Russia-Ukraine peace talks?",
-      "impacts": {
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260908",
-      "headline": "Could Trump’s Iran trade war threaten Spain’s saffron-infused paella?",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260908",
       "headline": "이스라엘, 또 레바논 남부 공습…어린이 등 최소 12명 사망",
       "impacts": {
         "방산": 1
@@ -685,14 +669,13 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -7,
-        "금융": -1,
-        "반도체·AI": -2
+        "전체시장": -6,
+        "금융": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 57,
+  "total_negatives": 54,
   "total_positives": 34,
   "risk_level": "EXTREME"
 }
