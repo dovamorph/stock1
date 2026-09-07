@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T12:41:38.434437+09:00",
+  "updated_at": "2026-09-07T18:06:24.599882+09:00",
   "date": "20260907",
   "window_days": 14,
   "sectors": [
@@ -103,13 +103,13 @@
         {
           "date": "20260907",
           "type": "negative",
-          "headline": "Witkoff says peace talks have been ‘very meaningful’ in Ukraine",
+          "headline": "젤렌스키 \"너무 자신만만한 러, 어떤 종전협상도 고려 안해\"",
           "score": -1
         },
         {
           "date": "20260907",
           "type": "positive",
-          "headline": "[거시분석] Peace talks rich in symbolism but fundamental...",
+          "headline": "[거시분석] Iran warns of 'faster, heavier, more painful ...",
           "score": 1
         },
         {
@@ -127,16 +127,29 @@
       ]
     },
     "전력·에너지": {
-      "score": 0,
-      "positive_count": 0,
-      "negative_count": 0,
-      "recent_events": []
-    },
-    "로봇": {
-      "score": 4,
-      "positive_count": 4,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260907",
+          "type": "positive",
+          "headline": "우상호 지사 \"원주 KT·춘천 신세계와 AI 데이터센터 투자 협의\"(종합)",
+          "score": 1
+        }
+      ]
+    },
+    "로봇": {
+      "score": 5,
+      "positive_count": 5,
+      "negative_count": 0,
+      "recent_events": [
+        {
+          "date": "20260907",
+          "type": "positive",
+          "headline": "\"AI 공장장이 간다\"…중소 제조현장 '피지컬 AI' 시동",
+          "score": 1
+        },
         {
           "date": "20260827",
           "type": "positive",
@@ -171,7 +184,7 @@
         {
           "date": "20260907",
           "type": "negative",
-          "headline": "[거시분석] Peace talks rich in symbolism but fundamental...",
+          "headline": "[거시분석] Iran warns of 'faster, heavier, more painful ...",
           "score": -1
         },
         {
@@ -234,13 +247,19 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 1,
+      "positive_count": 2,
       "negative_count": 24,
       "recent_events": [
         {
           "date": "20260907",
+          "type": "positive",
+          "headline": "젤렌스키 \"너무 자신만만한 러, 어떤 종전협상도 고려 안해\"",
+          "score": 1
+        },
+        {
+          "date": "20260907",
           "type": "negative",
-          "headline": "[거시분석] Peace talks rich in symbolism but fundamental...",
+          "headline": "[거시분석] Iran warns of 'faster, heavier, more painful ...",
           "score": -3
         },
         {
@@ -260,12 +279,6 @@
           "type": "negative",
           "headline": "How much can Canada fight back in its trade war with the US?",
           "score": -1
-        },
-        {
-          "date": "20260905",
-          "type": "negative",
-          "headline": "[거시분석] US envoys arrive in Moscow ahead of Ukraine t...",
-          "score": -6
         }
       ]
     }
@@ -657,15 +670,32 @@
     },
     {
       "date": "20260907",
-      "headline": "Witkoff says peace talks have been ‘very meaningful’ in Ukraine",
+      "headline": "젤렌스키 \"너무 자신만만한 러, 어떤 종전협상도 고려 안해\"",
       "impacts": {
-        "방산": -1
+        "방산": -1,
+        "전체시장": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260907",
-      "headline": "[거시분석] Peace talks rich in symbolism but fundamental...",
+      "headline": "우상호 지사 \"원주 KT·춘천 신세계와 AI 데이터센터 투자 협의\"(종합)",
+      "impacts": {
+        "전력·에너지": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260907",
+      "headline": "\"AI 공장장이 간다\"…중소 제조현장 '피지컬 AI' 시동",
+      "impacts": {
+        "로봇": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260907",
+      "headline": "[거시분석] Iran warns of 'faster, heavier, more painful ...",
       "impacts": {
         "방산": 1,
         "전체시장": -3,
@@ -675,6 +705,6 @@
     }
   ],
   "total_negatives": 57,
-  "total_positives": 30,
+  "total_positives": 33,
   "risk_level": "EXTREME"
 }
