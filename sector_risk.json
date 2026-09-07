@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T04:42:05.305600+09:00",
+  "updated_at": "2026-09-08T07:38:09.474399+09:00",
   "date": "20260908",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -9,
+      "score": -10,
       "positive_count": 1,
-      "negative_count": 5,
+      "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20260908",
+          "type": "negative",
+          "headline": "Robots protest in Poland over AI regulation concerns",
+          "score": -1
+        },
         {
           "date": "20260905",
           "type": "negative",
@@ -43,26 +49,14 @@
           "type": "negative",
           "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
           "score": -2
-        },
-        {
-          "date": "20260827",
-          "type": "positive",
-          "headline": "OpenAI says it detected malign activity months before Hugging Face attack",
-          "score": 1
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 10,
+      "negative_count": 9,
       "recent_events": [
-        {
-          "date": "20260908",
-          "type": "negative",
-          "headline": "[거시분석] Peace talks rich in symbolism but fundamental...",
-          "score": -2
-        },
         {
           "date": "20260906",
           "type": "negative",
@@ -86,13 +80,19 @@
           "type": "negative",
           "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
           "score": -2
+        },
+        {
+          "date": "20260902",
+          "type": "negative",
+          "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
+          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 20,
-      "negative_count": 7,
+      "positive_count": 19,
+      "negative_count": 6,
       "recent_events": [
         {
           "date": "20260908",
@@ -103,26 +103,26 @@
         {
           "date": "20260908",
           "type": "positive",
-          "headline": "이스라엘, 또 레바논 남부 공습…어린이 등 최소 12명 사망",
-          "score": 1
-        },
-        {
-          "date": "20260908",
-          "type": "negative",
-          "headline": "한국 여자농구, 월드컵 조별리그 최종전 헝가리에 석패",
-          "score": -1
-        },
-        {
-          "date": "20260908",
-          "type": "positive",
           "headline": "[거시분석] Peace talks rich in symbolism but fundamental...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260907",
           "type": "negative",
           "headline": "Peace talks rich in symbolism but fundamental differences between Russia and Ukraine remain",
           "score": -1
+        },
+        {
+          "date": "20260907",
+          "type": "negative",
+          "headline": "젤렌스키 \"너무 자신만만한 러, 어떤 종전협상도 고려 안해\"",
+          "score": -1
+        },
+        {
+          "date": "20260907",
+          "type": "positive",
+          "headline": "[거시분석] Iran warns of 'faster, heavier, more painful ...",
+          "score": 1
         }
       ]
     },
@@ -173,14 +173,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 13,
+      "negative_count": 12,
       "recent_events": [
-        {
-          "date": "20260908",
-          "type": "negative",
-          "headline": "[거시분석] Peace talks rich in symbolism but fundamental...",
-          "score": -2
-        },
         {
           "date": "20260907",
           "type": "negative",
@@ -203,6 +197,12 @@
           "date": "20260903",
           "type": "negative",
           "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
+          "score": -1
+        },
+        {
+          "date": "20260901",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran trade strikes for first time in w...",
           "score": -1
         }
       ]
@@ -241,20 +241,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 3,
+      "positive_count": 2,
       "negative_count": 19,
       "recent_events": [
         {
           "date": "20260908",
-          "type": "positive",
-          "headline": "한국 여자농구, 월드컵 조별리그 최종전 헝가리에 석패",
-          "score": 1
-        },
-        {
-          "date": "20260908",
           "type": "negative",
           "headline": "[거시분석] Peace talks rich in symbolism but fundamental...",
-          "score": -6
+          "score": -2
         },
         {
           "date": "20260907",
@@ -273,6 +267,12 @@
           "type": "positive",
           "headline": "트럼프 특사, 우크라 첫 방문…젤렌스키와 종전 논의",
           "score": 1
+        },
+        {
+          "date": "20260906",
+          "type": "negative",
+          "headline": "[거시분석] US envoys meet Zelensky in Ukraine after talk...",
+          "score": -4
         }
       ]
     }
@@ -648,18 +648,9 @@
     },
     {
       "date": "20260908",
-      "headline": "이스라엘, 또 레바논 남부 공습…어린이 등 최소 12명 사망",
+      "headline": "Robots protest in Poland over AI regulation concerns",
       "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260908",
-      "headline": "한국 여자농구, 월드컵 조별리그 최종전 헝가리에 석패",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
+        "반도체·AI": -1
       },
       "source": "keyword"
     },
@@ -667,15 +658,13 @@
       "date": "20260908",
       "headline": "[거시분석] Peace talks rich in symbolism but fundamental...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -6,
-        "금융": -2
+        "방산": 1,
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 54,
-  "total_positives": 34,
+  "total_negatives": 52,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
