@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T04:19:33.926727+09:00",
+  "updated_at": "2026-09-09T07:27:54.310484+09:00",
   "date": "20260909",
   "window_days": 14,
   "sectors": [
@@ -91,15 +91,9 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 20,
+      "positive_count": 19,
       "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20260909",
-          "type": "positive",
-          "headline": "美국무, 사우디-후티 교전에 \"배후에 이란 손길 있어\"",
-          "score": 1
-        },
         {
           "date": "20260909",
           "type": "positive",
@@ -122,6 +116,12 @@
           "date": "20260907",
           "type": "negative",
           "headline": "Peace talks rich in symbolism but fundamental differences between Russia and Ukraine remain",
+          "score": -1
+        },
+        {
+          "date": "20260907",
+          "type": "negative",
+          "headline": "젤렌스키 \"너무 자신만만한 러, 어떤 종전협상도 고려 안해\"",
           "score": -1
         }
       ]
@@ -173,8 +173,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 13,
+      "negative_count": 14,
       "recent_events": [
+        {
+          "date": "20260909",
+          "type": "negative",
+          "headline": "[거시분석] Trump, Putin hold ‘frank’ phone call as US re...",
+          "score": -1
+        },
         {
           "date": "20260908",
           "type": "negative",
@@ -198,12 +204,6 @@
           "type": "negative",
           "headline": "[거시분석] Philippine court orders arrest of VP Duterte ...",
           "score": -3
-        },
-        {
-          "date": "20260903",
-          "type": "negative",
-          "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
-          "score": -1
         }
       ]
     },
@@ -242,7 +242,7 @@
     "전체시장": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 20,
+      "negative_count": 21,
       "recent_events": [
         {
           "date": "20260909",
@@ -253,26 +253,26 @@
         {
           "date": "20260909",
           "type": "negative",
-          "headline": "美와 관세전쟁 속 캐나다, EU와 '전방위 협력' 추진",
+          "headline": "트럼프, 캐나다 관세에 보복…\"정부조달 계약서 캐나다산 제외\"(종합)",
+          "score": -1
+        },
+        {
+          "date": "20260909",
+          "type": "negative",
+          "headline": "'대미 관세전쟁' 카니 캐나다 총리 지지율 급등…최고치 근접",
           "score": -1
         },
         {
           "date": "20260909",
           "type": "negative",
           "headline": "[거시분석] Trump, Putin hold ‘frank’ phone call as US re...",
-          "score": -6
+          "score": -7
         },
         {
           "date": "20260908",
           "type": "negative",
           "headline": "Canada braces for prolonged trade war as counter-tariffs on US take effect",
           "score": -1
-        },
-        {
-          "date": "20260908",
-          "type": "negative",
-          "headline": "[거시분석] Canada braces for prolonged trade war as coun...",
-          "score": -6
         }
       ]
     }
@@ -648,15 +648,15 @@
     },
     {
       "date": "20260909",
-      "headline": "美국무, 사우디-후티 교전에 \"배후에 이란 손길 있어\"",
+      "headline": "트럼프, 캐나다 관세에 보복…\"정부조달 계약서 캐나다산 제외\"(종합)",
       "impacts": {
-        "방산": 1
+        "전체시장": -1
       },
       "source": "keyword"
     },
     {
       "date": "20260909",
-      "headline": "美와 관세전쟁 속 캐나다, EU와 '전방위 협력' 추진",
+      "headline": "'대미 관세전쟁' 카니 캐나다 총리 지지율 급등…최고치 근접",
       "impacts": {
         "전체시장": -1
       },
@@ -668,13 +668,14 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -6,
+        "전체시장": -7,
+        "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 54,
-  "total_positives": 33,
+  "total_negatives": 56,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
