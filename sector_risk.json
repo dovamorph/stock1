@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T12:46:38.014721+09:00",
+  "updated_at": "2026-09-08T17:43:37.119477+09:00",
   "date": "20260908",
   "window_days": 14,
   "sectors": [
@@ -23,8 +23,8 @@
         {
           "date": "20260908",
           "type": "negative",
-          "headline": "Robots protest in Poland over AI regulation concerns",
-          "score": -1
+          "headline": "[거시분석] Canada braces for prolonged trade war as coun...",
+          "score": -2
         },
         {
           "date": "20260905",
@@ -103,7 +103,7 @@
         {
           "date": "20260908",
           "type": "positive",
-          "headline": "[거시분석] Ukraine's chief prosecutor resigns over call ...",
+          "headline": "[거시분석] Canada braces for prolonged trade war as coun...",
           "score": 1
         },
         {
@@ -173,14 +173,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 13,
+      "negative_count": 12,
       "recent_events": [
-        {
-          "date": "20260908",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine's chief prosecutor resigns over call ...",
-          "score": -1
-        },
         {
           "date": "20260907",
           "type": "negative",
@@ -203,6 +197,12 @@
           "date": "20260903",
           "type": "negative",
           "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
+          "score": -1
+        },
+        {
+          "date": "20260901",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran trade strikes for first time in w...",
           "score": -1
         }
       ]
@@ -242,13 +242,19 @@
     "전체시장": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 19,
+      "negative_count": 20,
       "recent_events": [
         {
           "date": "20260908",
           "type": "negative",
-          "headline": "[거시분석] Ukraine's chief prosecutor resigns over call ...",
-          "score": -3
+          "headline": "Canada braces for prolonged trade war as counter-tariffs on US take effect",
+          "score": -1
+        },
+        {
+          "date": "20260908",
+          "type": "negative",
+          "headline": "[거시분석] Canada braces for prolonged trade war as coun...",
+          "score": -4
         },
         {
           "date": "20260907",
@@ -267,12 +273,6 @@
           "type": "positive",
           "headline": "트럼프 특사, 우크라 첫 방문…젤렌스키와 종전 논의",
           "score": 1
-        },
-        {
-          "date": "20260906",
-          "type": "negative",
-          "headline": "[거시분석] US envoys meet Zelensky in Ukraine after talk...",
-          "score": -4
         }
       ]
     }
@@ -640,6 +640,14 @@
     },
     {
       "date": "20260908",
+      "headline": "Canada braces for prolonged trade war as counter-tariffs on US take effect",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260908",
       "headline": "Peace talks rich in symbolism but fundamental differences between Russia and Ukraine remain",
       "impacts": {
         "방산": -1
@@ -648,19 +656,11 @@
     },
     {
       "date": "20260908",
-      "headline": "Robots protest in Poland over AI regulation concerns",
-      "impacts": {
-        "반도체·AI": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260908",
-      "headline": "[거시분석] Ukraine's chief prosecutor resigns over call ...",
+      "headline": "[거시분석] Canada braces for prolonged trade war as coun...",
       "impacts": {
         "방산": 1,
-        "전체시장": -3,
-        "금융": -1
+        "전체시장": -4,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
