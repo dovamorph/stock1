@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-08T23:15:00.665034+09:00",
-  "date": "20260908",
+  "updated_at": "2026-09-09T04:19:33.926727+09:00",
+  "date": "20260909",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -20,6 +20,12 @@
       "positive_count": 1,
       "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20260909",
+          "type": "negative",
+          "headline": "[거시분석] Trump, Putin hold ‘frank’ phone call as US re...",
+          "score": -2
+        },
         {
           "date": "20260908",
           "type": "negative",
@@ -43,12 +49,6 @@
           "type": "negative",
           "headline": "[거시분석] US and Iran trade strikes for first time in w...",
           "score": -2
-        },
-        {
-          "date": "20260829",
-          "type": "negative",
-          "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
-          "score": -2
         }
       ]
     },
@@ -57,6 +57,12 @@
       "positive_count": 2,
       "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20260909",
+          "type": "negative",
+          "headline": "[거시분석] Trump, Putin hold ‘frank’ phone call as US re...",
+          "score": -2
+        },
         {
           "date": "20260906",
           "type": "negative",
@@ -80,20 +86,26 @@
           "type": "negative",
           "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
           "score": -2
-        },
-        {
-          "date": "20260902",
-          "type": "negative",
-          "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 19,
+      "positive_count": 20,
       "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20260909",
+          "type": "positive",
+          "headline": "美국무, 사우디-후티 교전에 \"배후에 이란 손길 있어\"",
+          "score": 1
+        },
+        {
+          "date": "20260909",
+          "type": "positive",
+          "headline": "[거시분석] Trump, Putin hold ‘frank’ phone call as US re...",
+          "score": 3
+        },
         {
           "date": "20260908",
           "type": "negative",
@@ -111,18 +123,6 @@
           "type": "negative",
           "headline": "Peace talks rich in symbolism but fundamental differences between Russia and Ukraine remain",
           "score": -1
-        },
-        {
-          "date": "20260907",
-          "type": "negative",
-          "headline": "젤렌스키 \"너무 자신만만한 러, 어떤 종전협상도 고려 안해\"",
-          "score": -1
-        },
-        {
-          "date": "20260907",
-          "type": "positive",
-          "headline": "[거시분석] Iran warns of 'faster, heavier, more painful ...",
-          "score": 1
         }
       ]
     },
@@ -140,8 +140,8 @@
       ]
     },
     "로봇": {
-      "score": 5,
-      "positive_count": 5,
+      "score": 4,
+      "positive_count": 4,
       "negative_count": 0,
       "recent_events": [
         {
@@ -164,12 +164,6 @@
         },
         {
           "date": "20260826",
-          "type": "positive",
-          "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
-          "score": 1
-        },
-        {
-          "date": "20260825",
           "type": "positive",
           "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
           "score": 1
@@ -251,6 +245,24 @@
       "negative_count": 20,
       "recent_events": [
         {
+          "date": "20260909",
+          "type": "negative",
+          "headline": "Carney says US trade war 'will come at a cost' as Canada strikes back on tariffs",
+          "score": -1
+        },
+        {
+          "date": "20260909",
+          "type": "negative",
+          "headline": "美와 관세전쟁 속 캐나다, EU와 '전방위 협력' 추진",
+          "score": -1
+        },
+        {
+          "date": "20260909",
+          "type": "negative",
+          "headline": "[거시분석] Trump, Putin hold ‘frank’ phone call as US re...",
+          "score": -6
+        },
+        {
           "date": "20260908",
           "type": "negative",
           "headline": "Canada braces for prolonged trade war as counter-tariffs on US take effect",
@@ -261,64 +273,11 @@
           "type": "negative",
           "headline": "[거시분석] Canada braces for prolonged trade war as coun...",
           "score": -6
-        },
-        {
-          "date": "20260907",
-          "type": "positive",
-          "headline": "젤렌스키 \"너무 자신만만한 러, 어떤 종전협상도 고려 안해\"",
-          "score": 1
-        },
-        {
-          "date": "20260907",
-          "type": "negative",
-          "headline": "[거시분석] Iran warns of 'faster, heavier, more painful ...",
-          "score": -3
-        },
-        {
-          "date": "20260906",
-          "type": "positive",
-          "headline": "트럼프 특사, 우크라 첫 방문…젤렌스키와 종전 논의",
-          "score": 1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260825",
-      "headline": "'Half my business will be gone' - firms in Canada and US fear trade war",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260825",
-      "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
-      "impacts": {
-        "로봇": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260825",
-      "headline": "對캐나다 관세전쟁에 美북부 술렁…중간선거 영향 주시",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260825",
-      "headline": "[거시분석] China hits out at 'illegal' new US sanctions ...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -6,
-        "반도체·AI": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260826",
       "headline": "Musk's SpaceX to build $100bn launch facility in Louisiana",
@@ -675,6 +634,41 @@
         "방산": 1,
         "전체시장": -6,
         "금융": -1,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
+    },
+    {
+      "date": "20260909",
+      "headline": "Carney says US trade war 'will come at a cost' as Canada strikes back on tariffs",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260909",
+      "headline": "美국무, 사우디-후티 교전에 \"배후에 이란 손길 있어\"",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260909",
+      "headline": "美와 관세전쟁 속 캐나다, EU와 '전방위 협력' 추진",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260909",
+      "headline": "[거시분석] Trump, Putin hold ‘frank’ phone call as US re...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -6,
         "반도체·AI": -2
       },
       "source": "geo_categories"
