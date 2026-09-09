@@ -1,6 +1,6 @@
 {
   "date": "20260909",
-  "generated_at": "2026-09-09T19:00:51+09:00",
+  "generated_at": "2026-09-09T19:30:49+09:00",
   "reference_date": "20260908",
   "reference_ranks": {
     "000660": 1,
@@ -61,9 +61,9 @@
     "rsi_14": 52.9,
     "basis": null,
     "basis_signal": "조회불가",
-    "usdkrw": 1338.12,
-    "usdkrw_ch1": -0.41,
-    "usdkrw_ch5": -1.49,
+    "usdkrw": 1338.51,
+    "usdkrw_ch1": -0.38,
+    "usdkrw_ch5": -1.46,
     "kosdaq_ch1": 0.99,
     "kospi_ch1": 0.8,
     "kospi_ch2": 7.18,
@@ -96,9 +96,9 @@
       "ndx_ch1": -0.32,
       "ndx_ma60": 26018.71
     },
-    "adr": 60.8,
+    "adr": 60.6,
     "adr_advances": 292,
-    "adr_declines": 188,
+    "adr_declines": 190,
     "adr_signal": "🟠",
     "adr_desc": "약세 (61%) — 속에서 썩는 중",
     "breadth": {
@@ -107,19 +107,19 @@
       "desc": "지수↑·폭 넓음 — 전 종목 건강",
       "kospi_ch1": 0.8,
       "kosdaq_ch1": 0.99,
-      "adr": 60.8
+      "adr": 60.6
     },
     "pool_flow": {
       "total": 40,
-      "buy_led": 25,
+      "buy_led": 24,
       "sell_led": 5,
-      "up_follow": 7,
+      "up_follow": 8,
       "down_follow": 2,
       "frgn_pos": 26,
       "frgn_neg": 14,
-      "orgn_pos": 30,
-      "orgn_neg": 10,
-      "large_cap": 37
+      "orgn_pos": 29,
+      "orgn_neg": 11,
+      "large_cap": 38
     },
     "core_flow": [
       {
@@ -1469,6 +1469,58 @@
     },
     {
       "rank": 26,
+      "ticker": "052690",
+      "name": "한전기술",
+      "market": "KOSPI",
+      "tvol": 1370,
+      "per": 64.06,
+      "pbr": 8.71,
+      "eps": 2234.0,
+      "bps": 16428.0,
+      "roe": 13.6,
+      "close": 143100.0,
+      "prdy_ctrt": 0.35,
+      "mktcap": 54693.0,
+      "rank_change": -17,
+      "eps_trend": "유지",
+      "eps_growth": 0.0,
+      "debt_ratio": 33.5,
+      "ch20": 44.3,
+      "ch5": 33.2,
+      "vol_trend": 73.7,
+      "rsi": 75.0,
+      "macd_line": 0.0,
+      "signal_line": 0.0,
+      "macd_bull": null,
+      "frgn_net": -117631,
+      "orgn_net": -23255,
+      "frgn_basis": "당일",
+      "filters": {
+        "roe_ok": false,
+        "per_ok": false,
+        "eps_ok": true,
+        "eps_up": false,
+        "debt_ok": true,
+        "is_finance": false,
+        "score": 2,
+        "grade": "D",
+        "recommended": false,
+        "is_growth_exception": false,
+        "per_limit": 35,
+        "data_missing": false
+      },
+      "grade": "D",
+      "score": 2,
+      "recommended": false,
+      "vol_char": "상승동반 🟡",
+      "ch1": 0.35,
+      "cap_class": "대형",
+      "entry_score": 0,
+      "entry_stars": "–",
+      "entry_label": "등급 부적격"
+    },
+    {
+      "rank": 27,
       "ticker": "329180",
       "name": "HD현대중공업",
       "market": "KOSPI",
@@ -1481,7 +1533,7 @@
       "close": 463500.0,
       "prdy_ctrt": 4.27,
       "mktcap": 486495.0,
-      "rank_change": 7,
+      "rank_change": 6,
       "eps_trend": "유지",
       "eps_growth": 0.0,
       "debt_ratio": 178.6,
@@ -1520,7 +1572,7 @@
       "entry_label": "주의"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "ticker": "005380",
       "name": "현대차",
       "market": "KOSPI",
@@ -1533,7 +1585,7 @@
       "close": 388000.0,
       "prdy_ctrt": 0.78,
       "mktcap": 794460.0,
-      "rank_change": -13,
+      "rank_change": -14,
       "eps_trend": "유지",
       "eps_growth": 0.0,
       "debt_ratio": 191.3,
@@ -1572,7 +1624,7 @@
       "entry_label": "주의"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "ticker": "001440",
       "name": "대한전선",
       "market": "KOSPI",
@@ -1624,7 +1676,7 @@
       "entry_label": "등급 부적격"
     },
     {
-      "rank": 29,
+      "rank": 30,
       "ticker": "000720",
       "name": "현대건설",
       "market": "KOSPI",
@@ -1637,7 +1689,7 @@
       "close": 133600.0,
       "prdy_ctrt": 1.67,
       "mktcap": 148771.0,
-      "rank_change": -17,
+      "rank_change": -18,
       "eps_trend": "유지",
       "eps_growth": 0.0,
       "debt_ratio": 155.2,
@@ -1676,7 +1728,7 @@
       "entry_label": "등급 부적격"
     },
     {
-      "rank": 30,
+      "rank": 31,
       "ticker": "010120",
       "name": "LS ELECTRIC",
       "market": "KOSPI",
@@ -1728,7 +1780,7 @@
       "entry_label": "등급 부적격"
     },
     {
-      "rank": 31,
+      "rank": 32,
       "ticker": "043260",
       "name": "성호전자",
       "market": "KOSDAQ",
@@ -1780,7 +1832,7 @@
       "entry_label": "좋은 타이밍"
     },
     {
-      "rank": 32,
+      "rank": 33,
       "ticker": "222800",
       "name": "심텍",
       "market": "KOSDAQ",
@@ -1793,7 +1845,7 @@
       "close": 132600.0,
       "prdy_ctrt": 8.87,
       "mktcap": 50354.0,
-      "rank_change": -1,
+      "rank_change": -2,
       "eps_trend": "상승",
       "eps_growth": 306.1,
       "debt_ratio": 183.1,
@@ -1832,7 +1884,7 @@
       "entry_label": "등급 부적격"
     },
     {
-      "rank": 33,
+      "rank": 34,
       "ticker": "000150",
       "name": "두산",
       "market": "KOSPI",
@@ -1845,7 +1897,7 @@
       "close": 1299000.0,
       "prdy_ctrt": 4.17,
       "mktcap": 210358.0,
-      "rank_change": 3,
+      "rank_change": 2,
       "eps_trend": "유지",
       "eps_growth": 0.0,
       "debt_ratio": 161.3,
@@ -1879,12 +1931,12 @@
       "vol_char": "매수주도 🟢",
       "ch1": 4.17,
       "cap_class": "대형",
-      "entry_score": 1,
+      "entry_score": 0,
       "entry_stars": "–",
       "entry_label": "등급 부적격"
     },
     {
-      "rank": 34,
+      "rank": 35,
       "ticker": "086790",
       "name": "하나금융지주",
       "market": "KOSPI",
@@ -1936,7 +1988,7 @@
       "entry_label": "보통"
     },
     {
-      "rank": 35,
+      "rank": 36,
       "ticker": "055550",
       "name": "신한지주",
       "market": "KOSPI",
@@ -1988,7 +2040,7 @@
       "entry_label": "늦음"
     },
     {
-      "rank": 36,
+      "rank": 37,
       "ticker": "000270",
       "name": "기아",
       "market": "KOSPI",
@@ -2038,58 +2090,6 @@
       "entry_score": 9,
       "entry_stars": "★★★★★",
       "entry_label": "지금 진입"
-    },
-    {
-      "rank": 37,
-      "ticker": "0220W0",
-      "name": "한화머시너리앤서비스홀딩스",
-      "market": "KOSPI",
-      "tvol": 1031,
-      "per": 0.0,
-      "pbr": 0.0,
-      "eps": 0.0,
-      "bps": 0.0,
-      "roe": 0.0,
-      "close": 6860.0,
-      "prdy_ctrt": 6.69,
-      "mktcap": 5798.0,
-      "rank_change": null,
-      "eps_trend": "부진",
-      "eps_growth": 0.0,
-      "debt_ratio": null,
-      "ch20": 0.0,
-      "ch5": 10.8,
-      "vol_trend": 0.0,
-      "rsi": 50.0,
-      "macd_line": 0.0,
-      "signal_line": 0.0,
-      "macd_bull": null,
-      "frgn_net": -849976,
-      "orgn_net": 135202,
-      "frgn_basis": "당일",
-      "filters": {
-        "roe_ok": false,
-        "per_ok": false,
-        "eps_ok": false,
-        "eps_up": false,
-        "debt_ok": false,
-        "is_finance": false,
-        "score": 0,
-        "grade": "F",
-        "recommended": false,
-        "is_growth_exception": false,
-        "per_limit": 35,
-        "data_missing": false
-      },
-      "grade": "F",
-      "score": 0,
-      "recommended": false,
-      "vol_char": "매수주도 🟢",
-      "ch1": 6.69,
-      "cap_class": "중형",
-      "entry_score": 0,
-      "entry_stars": "–",
-      "entry_label": "등급 부적격"
     },
     {
       "rank": 38,
@@ -2354,7 +2354,7 @@
       "entry_label": "늦음"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "ticker": "329180",
       "name": "HD현대중공업",
       "market": "KOSPI",
@@ -2367,7 +2367,7 @@
       "close": 463500.0,
       "prdy_ctrt": 4.27,
       "mktcap": 486495.0,
-      "rank_change": 7,
+      "rank_change": 6,
       "eps_trend": "유지",
       "eps_growth": 0.0,
       "debt_ratio": 178.6,
