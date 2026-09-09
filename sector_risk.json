@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T04:09:06.909415+09:00",
+  "updated_at": "2026-09-10T07:21:43.089794+09:00",
   "date": "20260910",
   "window_days": 14,
   "sectors": [
@@ -18,14 +18,8 @@
     "반도체·AI": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20260910",
-          "type": "negative",
-          "headline": "[거시분석] Two die at Moldovan border as Russia-Ukraine ...",
-          "score": -2
-        },
         {
           "date": "20260909",
           "type": "negative",
@@ -49,20 +43,20 @@
           "type": "negative",
           "headline": "[거시분석] Philippine court orders arrest of VP Duterte ...",
           "score": -2
+        },
+        {
+          "date": "20260901",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran trade strikes for first time in w...",
+          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20260910",
-          "type": "negative",
-          "headline": "[거시분석] Two die at Moldovan border as Russia-Ukraine ...",
-          "score": -2
-        },
         {
           "date": "20260906",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
           "score": -2
+        },
+        {
+          "date": "20260902",
+          "type": "negative",
+          "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
+          "score": -2
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20260910",
           "type": "positive",
-          "headline": "[거시분석] Two die at Moldovan border as Russia-Ukraine ...",
-          "score": 3
+          "headline": "[거시분석] Iran referred to UN Security Council for nucl...",
+          "score": 1
         },
         {
           "date": "20260909",
@@ -172,7 +172,7 @@
         {
           "date": "20260910",
           "type": "negative",
-          "headline": "[거시분석] Two die at Moldovan border as Russia-Ukraine ...",
+          "headline": "[거시분석] Iran referred to UN Security Council for nucl...",
           "score": -1
         },
         {
@@ -230,25 +230,13 @@
     "전체시장": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 21,
+      "negative_count": 19,
       "recent_events": [
         {
           "date": "20260910",
           "type": "negative",
-          "headline": "IAEA 이사회, 20년만에 이란 핵 문제 유엔 안보리 회부 결의(종합)",
-          "score": -1
-        },
-        {
-          "date": "20260910",
-          "type": "negative",
-          "headline": "IAEA 이사회, 20년만에 이란 핵 문제 유엔 안보리 회부",
-          "score": -1
-        },
-        {
-          "date": "20260910",
-          "type": "negative",
-          "headline": "[거시분석] Two die at Moldovan border as Russia-Ukraine ...",
-          "score": -8
+          "headline": "[거시분석] Iran referred to UN Security Council for nucl...",
+          "score": -3
         },
         {
           "date": "20260909",
@@ -261,6 +249,18 @@
           "type": "negative",
           "headline": "[거시분석] Brent crude surpasses $100 a barrel as Iran, ...",
           "score": -4
+        },
+        {
+          "date": "20260908",
+          "type": "negative",
+          "headline": "Canada braces for prolonged trade war as counter-tariffs on US take effect",
+          "score": -1
+        },
+        {
+          "date": "20260908",
+          "type": "negative",
+          "headline": "[거시분석] Canada braces for prolonged trade war as coun...",
+          "score": -6
         }
       ]
     }
@@ -619,34 +619,16 @@
     },
     {
       "date": "20260910",
-      "headline": "IAEA 이사회, 20년만에 이란 핵 문제 유엔 안보리 회부 결의(종합)",
+      "headline": "[거시분석] Iran referred to UN Security Council for nucl...",
       "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260910",
-      "headline": "IAEA 이사회, 20년만에 이란 핵 문제 유엔 안보리 회부",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260910",
-      "headline": "[거시분석] Two die at Moldovan border as Russia-Ukraine ...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -8,
-        "금융": -1,
-        "반도체·AI": -2
+        "방산": 1,
+        "전체시장": -3,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 55,
+  "total_negatives": 51,
   "total_positives": 30,
   "risk_level": "EXTREME"
 }
