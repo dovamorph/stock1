@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T12:51:11.546011+09:00",
+  "updated_at": "2026-09-09T17:49:37.225605+09:00",
   "date": "20260909",
   "window_days": 14,
   "sectors": [
@@ -17,13 +17,19 @@
   "sector_stats": {
     "반도체·AI": {
       "score": -10,
-      "positive_count": 1,
+      "positive_count": 2,
       "negative_count": 6,
       "recent_events": [
         {
           "date": "20260909",
+          "type": "positive",
+          "headline": "2분기 전세계 파운드리 매출 11.5%↑…TSMC·삼성 격차 확대",
+          "score": 1
+        },
+        {
+          "date": "20260909",
           "type": "negative",
-          "headline": "[거시분석] Jordanian air defences intercept Iranian miss...",
+          "headline": "[거시분석] In West Bank, date farmers weigh impact of UK...",
           "score": -2
         },
         {
@@ -43,26 +49,14 @@
           "type": "negative",
           "headline": "[거시분석] Philippine court orders arrest of VP Duterte ...",
           "score": -2
-        },
-        {
-          "date": "20260901",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran trade strikes for first time in w...",
-          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 9,
+      "negative_count": 8,
       "recent_events": [
-        {
-          "date": "20260909",
-          "type": "negative",
-          "headline": "[거시분석] Jordanian air defences intercept Iranian miss...",
-          "score": -2
-        },
         {
           "date": "20260906",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
           "score": -2
+        },
+        {
+          "date": "20260902",
+          "type": "negative",
+          "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
+          "score": -2
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20260909",
           "type": "positive",
-          "headline": "[거시분석] Jordanian air defences intercept Iranian miss...",
-          "score": 3
+          "headline": "[거시분석] In West Bank, date farmers weigh impact of UK...",
+          "score": 1
         },
         {
           "date": "20260908",
@@ -247,8 +247,8 @@
         {
           "date": "20260909",
           "type": "negative",
-          "headline": "[거시분석] Jordanian air defences intercept Iranian miss...",
-          "score": -6
+          "headline": "[거시분석] In West Bank, date farmers weigh impact of UK...",
+          "score": -5
         },
         {
           "date": "20260908",
@@ -640,17 +640,24 @@
     },
     {
       "date": "20260909",
-      "headline": "[거시분석] Jordanian air defences intercept Iranian miss...",
+      "headline": "2분기 전세계 파운드리 매출 11.5%↑…TSMC·삼성 격차 확대",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -6,
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260909",
+      "headline": "[거시분석] In West Bank, date farmers weigh impact of UK...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -5,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 52,
-  "total_positives": 32,
+  "total_negatives": 51,
+  "total_positives": 33,
   "risk_level": "EXTREME"
 }
