@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-09T23:15:12.656702+09:00",
-  "date": "20260909",
+  "updated_at": "2026-09-10T04:09:06.909415+09:00",
+  "date": "20260910",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -18,8 +18,14 @@
     "반도체·AI": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260910",
+          "type": "negative",
+          "headline": "[거시분석] Two die at Moldovan border as Russia-Ukraine ...",
+          "score": -2
+        },
         {
           "date": "20260909",
           "type": "negative",
@@ -43,12 +49,6 @@
           "type": "negative",
           "headline": "[거시분석] Philippine court orders arrest of VP Duterte ...",
           "score": -2
-        },
-        {
-          "date": "20260901",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran trade strikes for first time in w...",
-          "score": -2
         }
       ]
     },
@@ -57,6 +57,12 @@
       "positive_count": 2,
       "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260910",
+          "type": "negative",
+          "headline": "[거시분석] Two die at Moldovan border as Russia-Ukraine ...",
+          "score": -2
+        },
         {
           "date": "20260906",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
           "score": -2
-        },
-        {
-          "date": "20260902",
-          "type": "negative",
-          "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
-          "score": -2
         }
       ]
     },
@@ -94,6 +94,12 @@
       "positive_count": 19,
       "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20260910",
+          "type": "positive",
+          "headline": "[거시분석] Two die at Moldovan border as Russia-Ukraine ...",
+          "score": 3
+        },
         {
           "date": "20260909",
           "type": "positive",
@@ -117,12 +123,6 @@
           "type": "negative",
           "headline": "Peace talks rich in symbolism but fundamental differences between Russia and Ukraine remain",
           "score": -1
-        },
-        {
-          "date": "20260907",
-          "type": "negative",
-          "headline": "젤렌스키 \"너무 자신만만한 러, 어떤 종전협상도 고려 안해\"",
-          "score": -1
         }
       ]
     },
@@ -140,8 +140,8 @@
       ]
     },
     "로봇": {
-      "score": 4,
-      "positive_count": 4,
+      "score": 3,
+      "positive_count": 3,
       "negative_count": 0,
       "recent_events": [
         {
@@ -161,12 +161,6 @@
           "type": "positive",
           "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
           "score": 1
-        },
-        {
-          "date": "20260826",
-          "type": "positive",
-          "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
-          "score": 1
         }
       ]
     },
@@ -175,6 +169,12 @@
       "positive_count": 0,
       "negative_count": 13,
       "recent_events": [
+        {
+          "date": "20260910",
+          "type": "negative",
+          "headline": "[거시분석] Two die at Moldovan border as Russia-Ukraine ...",
+          "score": -1
+        },
         {
           "date": "20260908",
           "type": "negative",
@@ -198,30 +198,18 @@
           "type": "negative",
           "headline": "[거시분석] Philippine court orders arrest of VP Duterte ...",
           "score": -3
-        },
-        {
-          "date": "20260903",
-          "type": "negative",
-          "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20260831",
           "type": "positive",
           "headline": "'A giant leap forward': Nasa launches powerful new space telescope",
-          "score": 1
-        },
-        {
-          "date": "20260826",
-          "type": "positive",
-          "headline": "Musk's SpaceX to build $100bn launch facility in Louisiana",
           "score": 1
         }
       ]
@@ -242,8 +230,26 @@
     "전체시장": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 19,
+      "negative_count": 21,
       "recent_events": [
+        {
+          "date": "20260910",
+          "type": "negative",
+          "headline": "IAEA 이사회, 20년만에 이란 핵 문제 유엔 안보리 회부 결의(종합)",
+          "score": -1
+        },
+        {
+          "date": "20260910",
+          "type": "negative",
+          "headline": "IAEA 이사회, 20년만에 이란 핵 문제 유엔 안보리 회부",
+          "score": -1
+        },
+        {
+          "date": "20260910",
+          "type": "negative",
+          "headline": "[거시분석] Two die at Moldovan border as Russia-Ukraine ...",
+          "score": -8
+        },
         {
           "date": "20260909",
           "type": "negative",
@@ -255,56 +261,11 @@
           "type": "negative",
           "headline": "[거시분석] Brent crude surpasses $100 a barrel as Iran, ...",
           "score": -4
-        },
-        {
-          "date": "20260908",
-          "type": "negative",
-          "headline": "Canada braces for prolonged trade war as counter-tariffs on US take effect",
-          "score": -1
-        },
-        {
-          "date": "20260908",
-          "type": "negative",
-          "headline": "[거시분석] Canada braces for prolonged trade war as coun...",
-          "score": -6
-        },
-        {
-          "date": "20260907",
-          "type": "positive",
-          "headline": "젤렌스키 \"너무 자신만만한 러, 어떤 종전협상도 고려 안해\"",
-          "score": 1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260826",
-      "headline": "Musk's SpaceX to build $100bn launch facility in Louisiana",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260826",
-      "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
-      "impacts": {
-        "로봇": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260826",
-      "headline": "[거시분석] China advises its citizens to leave Taiwan al...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260827",
       "headline": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
@@ -655,9 +616,37 @@
         "반도체·AI": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260910",
+      "headline": "IAEA 이사회, 20년만에 이란 핵 문제 유엔 안보리 회부 결의(종합)",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260910",
+      "headline": "IAEA 이사회, 20년만에 이란 핵 문제 유엔 안보리 회부",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260910",
+      "headline": "[거시분석] Two die at Moldovan border as Russia-Ukraine ...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -8,
+        "금융": -1,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 52,
-  "total_positives": 32,
+  "total_negatives": 55,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
