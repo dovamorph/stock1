@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T17:49:37.225605+09:00",
+  "updated_at": "2026-09-09T23:15:12.656702+09:00",
   "date": "20260909",
   "window_days": 14,
   "sectors": [
@@ -17,19 +17,13 @@
   "sector_stats": {
     "반도체·AI": {
       "score": -10,
-      "positive_count": 2,
+      "positive_count": 1,
       "negative_count": 6,
       "recent_events": [
         {
           "date": "20260909",
-          "type": "positive",
-          "headline": "2분기 전세계 파운드리 매출 11.5%↑…TSMC·삼성 격차 확대",
-          "score": 1
-        },
-        {
-          "date": "20260909",
           "type": "negative",
-          "headline": "[거시분석] In West Bank, date farmers weigh impact of UK...",
+          "headline": "[거시분석] Brent crude surpasses $100 a barrel as Iran, ...",
           "score": -2
         },
         {
@@ -48,6 +42,12 @@
           "date": "20260904",
           "type": "negative",
           "headline": "[거시분석] Philippine court orders arrest of VP Duterte ...",
+          "score": -2
+        },
+        {
+          "date": "20260901",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran trade strikes for first time in w...",
           "score": -2
         }
       ]
@@ -97,7 +97,7 @@
         {
           "date": "20260909",
           "type": "positive",
-          "headline": "[거시분석] In West Bank, date farmers weigh impact of UK...",
+          "headline": "[거시분석] Brent crude surpasses $100 a barrel as Iran, ...",
           "score": 1
         },
         {
@@ -242,13 +242,19 @@
     "전체시장": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 18,
+      "negative_count": 19,
       "recent_events": [
         {
           "date": "20260909",
           "type": "negative",
-          "headline": "[거시분석] In West Bank, date farmers weigh impact of UK...",
-          "score": -5
+          "headline": "The losers of the US-Canada trade war",
+          "score": -1
+        },
+        {
+          "date": "20260909",
+          "type": "negative",
+          "headline": "[거시분석] Brent crude surpasses $100 a barrel as Iran, ...",
+          "score": -4
         },
         {
           "date": "20260908",
@@ -267,12 +273,6 @@
           "type": "positive",
           "headline": "젤렌스키 \"너무 자신만만한 러, 어떤 종전협상도 고려 안해\"",
           "score": 1
-        },
-        {
-          "date": "20260907",
-          "type": "negative",
-          "headline": "[거시분석] Iran warns of 'faster, heavier, more painful ...",
-          "score": -3
         }
       ]
     }
@@ -640,24 +640,24 @@
     },
     {
       "date": "20260909",
-      "headline": "2분기 전세계 파운드리 매출 11.5%↑…TSMC·삼성 격차 확대",
+      "headline": "The losers of the US-Canada trade war",
       "impacts": {
-        "반도체·AI": 1
+        "전체시장": -1
       },
       "source": "keyword"
     },
     {
       "date": "20260909",
-      "headline": "[거시분석] In West Bank, date farmers weigh impact of UK...",
+      "headline": "[거시분석] Brent crude surpasses $100 a barrel as Iran, ...",
       "impacts": {
         "방산": 1,
-        "전체시장": -5,
+        "전체시장": -4,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 51,
-  "total_positives": 33,
+  "total_negatives": 52,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
