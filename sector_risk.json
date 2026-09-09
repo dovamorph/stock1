@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T07:27:54.310484+09:00",
+  "updated_at": "2026-09-09T12:51:11.546011+09:00",
   "date": "20260909",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260909",
           "type": "negative",
-          "headline": "[거시분석] Trump, Putin hold ‘frank’ phone call as US re...",
+          "headline": "[거시분석] Jordanian air defences intercept Iranian miss...",
           "score": -2
         },
         {
@@ -60,7 +60,7 @@
         {
           "date": "20260909",
           "type": "negative",
-          "headline": "[거시분석] Trump, Putin hold ‘frank’ phone call as US re...",
+          "headline": "[거시분석] Jordanian air defences intercept Iranian miss...",
           "score": -2
         },
         {
@@ -97,7 +97,7 @@
         {
           "date": "20260909",
           "type": "positive",
-          "headline": "[거시분석] Trump, Putin hold ‘frank’ phone call as US re...",
+          "headline": "[거시분석] Jordanian air defences intercept Iranian miss...",
           "score": 3
         },
         {
@@ -173,14 +173,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 14,
+      "negative_count": 13,
       "recent_events": [
-        {
-          "date": "20260909",
-          "type": "negative",
-          "headline": "[거시분석] Trump, Putin hold ‘frank’ phone call as US re...",
-          "score": -1
-        },
         {
           "date": "20260908",
           "type": "negative",
@@ -204,6 +198,12 @@
           "type": "negative",
           "headline": "[거시분석] Philippine court orders arrest of VP Duterte ...",
           "score": -3
+        },
+        {
+          "date": "20260903",
+          "type": "negative",
+          "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
+          "score": -1
         }
       ]
     },
@@ -242,37 +242,37 @@
     "전체시장": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 21,
+      "negative_count": 18,
       "recent_events": [
         {
           "date": "20260909",
           "type": "negative",
-          "headline": "Carney says US trade war 'will come at a cost' as Canada strikes back on tariffs",
-          "score": -1
-        },
-        {
-          "date": "20260909",
-          "type": "negative",
-          "headline": "트럼프, 캐나다 관세에 보복…\"정부조달 계약서 캐나다산 제외\"(종합)",
-          "score": -1
-        },
-        {
-          "date": "20260909",
-          "type": "negative",
-          "headline": "'대미 관세전쟁' 카니 캐나다 총리 지지율 급등…최고치 근접",
-          "score": -1
-        },
-        {
-          "date": "20260909",
-          "type": "negative",
-          "headline": "[거시분석] Trump, Putin hold ‘frank’ phone call as US re...",
-          "score": -7
+          "headline": "[거시분석] Jordanian air defences intercept Iranian miss...",
+          "score": -6
         },
         {
           "date": "20260908",
           "type": "negative",
           "headline": "Canada braces for prolonged trade war as counter-tariffs on US take effect",
           "score": -1
+        },
+        {
+          "date": "20260908",
+          "type": "negative",
+          "headline": "[거시분석] Canada braces for prolonged trade war as coun...",
+          "score": -6
+        },
+        {
+          "date": "20260907",
+          "type": "positive",
+          "headline": "젤렌스키 \"너무 자신만만한 러, 어떤 종전협상도 고려 안해\"",
+          "score": 1
+        },
+        {
+          "date": "20260907",
+          "type": "negative",
+          "headline": "[거시분석] Iran warns of 'faster, heavier, more painful ...",
+          "score": -3
         }
       ]
     }
@@ -640,42 +640,17 @@
     },
     {
       "date": "20260909",
-      "headline": "Carney says US trade war 'will come at a cost' as Canada strikes back on tariffs",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260909",
-      "headline": "트럼프, 캐나다 관세에 보복…\"정부조달 계약서 캐나다산 제외\"(종합)",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260909",
-      "headline": "'대미 관세전쟁' 카니 캐나다 총리 지지율 급등…최고치 근접",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260909",
-      "headline": "[거시분석] Trump, Putin hold ‘frank’ phone call as US re...",
+      "headline": "[거시분석] Jordanian air defences intercept Iranian miss...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -7,
-        "금융": -1,
+        "전체시장": -6,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 56,
+  "total_negatives": 52,
   "total_positives": 32,
   "risk_level": "EXTREME"
 }
