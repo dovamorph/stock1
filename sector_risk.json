@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T07:21:43.089794+09:00",
+  "updated_at": "2026-09-10T12:50:30.510521+09:00",
   "date": "20260910",
   "window_days": 14,
   "sectors": [
@@ -236,7 +236,7 @@
           "date": "20260910",
           "type": "negative",
           "headline": "[거시분석] Iran referred to UN Security Council for nucl...",
-          "score": -3
+          "score": -2
         },
         {
           "date": "20260909",
@@ -622,7 +622,7 @@
       "headline": "[거시분석] Iran referred to UN Security Council for nucl...",
       "impacts": {
         "방산": 1,
-        "전체시장": -3,
+        "전체시장": -2,
         "금융": -1
       },
       "source": "geo_categories"
