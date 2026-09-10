@@ -1,6 +1,6 @@
 {
   "date": "20260910",
-  "generated_at": "2026-09-10T18:00:56+09:00",
+  "generated_at": "2026-09-10T18:05:19+09:00",
   "reference_date": "20260909",
   "reference_ranks": {
     "000660": 1,
@@ -61,7 +61,7 @@
     "rsi_14": 52.9,
     "basis": null,
     "basis_signal": "조회불가",
-    "usdkrw": 1341.48,
+    "usdkrw": 1341.45,
     "usdkrw_ch1": 0.17,
     "usdkrw_ch5": -1.03,
     "kosdaq_ch1": 1.79,
@@ -96,9 +96,9 @@
       "ndx_ch1": -0.64,
       "ndx_ma60": 26024.78
     },
-    "adr": 53.7,
-    "adr_advances": 254,
-    "adr_declines": 219,
+    "adr": 53.8,
+    "adr_advances": 249,
+    "adr_declines": 214,
     "adr_signal": "🟠",
     "adr_desc": "약세 (54%) — 속에서 썩는 중",
     "breadth": {
@@ -107,18 +107,18 @@
       "desc": "지수↑·폭 넓음 — 전 종목 건강",
       "kospi_ch1": 0.55,
       "kosdaq_ch1": 1.79,
-      "adr": 53.7
+      "adr": 53.8
     },
     "pool_flow": {
       "total": 40,
-      "buy_led": 6,
+      "buy_led": 5,
       "sell_led": 5,
-      "up_follow": 12,
+      "up_follow": 13,
       "down_follow": 10,
-      "frgn_pos": 15,
-      "frgn_neg": 25,
-      "orgn_pos": 21,
-      "orgn_neg": 19,
+      "frgn_pos": 16,
+      "frgn_neg": 24,
+      "orgn_pos": 20,
+      "orgn_neg": 20,
       "large_cap": 39
     },
     "core_flow": [
@@ -1053,58 +1053,6 @@
     },
     {
       "rank": 18,
-      "ticker": "131290",
-      "name": "티에스이",
-      "market": "KOSDAQ",
-      "tvol": 2368,
-      "per": 88.69,
-      "pbr": 8.66,
-      "eps": 3456.0,
-      "bps": 35375.0,
-      "roe": 9.8,
-      "close": 306500.0,
-      "prdy_ctrt": 14.15,
-      "mktcap": 33903.0,
-      "rank_change": null,
-      "eps_trend": "유지",
-      "eps_growth": 0.0,
-      "debt_ratio": 35.7,
-      "ch20": 18.3,
-      "ch5": 29.6,
-      "vol_trend": 63.2,
-      "rsi": 74.1,
-      "macd_line": 0.0,
-      "signal_line": 0.0,
-      "macd_bull": null,
-      "frgn_net": -346565,
-      "orgn_net": 441910,
-      "frgn_basis": "당일",
-      "filters": {
-        "roe_ok": false,
-        "per_ok": false,
-        "eps_ok": true,
-        "eps_up": false,
-        "debt_ok": true,
-        "is_finance": false,
-        "score": 2,
-        "grade": "D",
-        "recommended": false,
-        "is_growth_exception": false,
-        "per_limit": 35,
-        "data_missing": false
-      },
-      "grade": "D",
-      "score": 2,
-      "recommended": false,
-      "vol_char": "매수주도 🟢",
-      "ch1": 14.15,
-      "cap_class": "대형",
-      "entry_score": 0,
-      "entry_stars": "–",
-      "entry_label": "등급 부적격"
-    },
-    {
-      "rank": 19,
       "ticker": "005380",
       "name": "현대차",
       "market": "KOSPI",
@@ -1117,7 +1065,7 @@
       "close": 389000.0,
       "prdy_ctrt": 0.26,
       "mktcap": 796508.0,
-      "rank_change": 9,
+      "rank_change": 10,
       "eps_trend": "유지",
       "eps_growth": 0.0,
       "debt_ratio": 191.3,
@@ -1151,12 +1099,12 @@
       "vol_char": "혼조 ⚪",
       "ch1": 0.26,
       "cap_class": "대형",
-      "entry_score": 6,
+      "entry_score": 7,
       "entry_stars": "★★★★",
       "entry_label": "좋은 타이밍"
     },
     {
-      "rank": 20,
+      "rank": 19,
       "ticker": "039030",
       "name": "이오테크닉스",
       "market": "KOSDAQ",
@@ -1208,7 +1156,7 @@
       "entry_label": "등급 부적격"
     },
     {
-      "rank": 21,
+      "rank": 20,
       "ticker": "105560",
       "name": "KB금융",
       "market": "KOSPI",
@@ -1221,7 +1169,7 @@
       "close": 173400.0,
       "prdy_ctrt": 0.81,
       "mktcap": 615029.0,
-      "rank_change": -6,
+      "rank_change": -5,
       "eps_trend": "유지",
       "eps_growth": 0.0,
       "debt_ratio": 1282.6,
@@ -1260,7 +1208,7 @@
       "entry_label": "주의"
     },
     {
-      "rank": 22,
+      "rank": 21,
       "ticker": "108490",
       "name": "로보티즈",
       "market": "KOSDAQ",
@@ -1273,7 +1221,7 @@
       "close": 323500.0,
       "prdy_ctrt": 4.35,
       "mktcap": 47448.0,
-      "rank_change": -9,
+      "rank_change": -8,
       "eps_trend": "부진",
       "eps_growth": 0.0,
       "debt_ratio": 3.0,
@@ -1312,7 +1260,7 @@
       "entry_label": "등급 부적격"
     },
     {
-      "rank": 23,
+      "rank": 22,
       "ticker": "058470",
       "name": "리노공업",
       "market": "KOSDAQ",
@@ -1364,7 +1312,7 @@
       "entry_label": "등급 부적격"
     },
     {
-      "rank": 24,
+      "rank": 23,
       "ticker": "012450",
       "name": "한화에어로스페이스",
       "market": "KOSPI",
@@ -1377,7 +1325,7 @@
       "close": 1067000.0,
       "prdy_ctrt": 1.91,
       "mktcap": 550181.0,
-      "rank_change": 15,
+      "rank_change": 16,
       "eps_trend": "유지",
       "eps_growth": 0.0,
       "debt_ratio": 190.3,
@@ -1416,7 +1364,7 @@
       "entry_label": "보통"
     },
     {
-      "rank": 25,
+      "rank": 24,
       "ticker": "196170",
       "name": "알테오젠",
       "market": "KOSDAQ",
@@ -1429,7 +1377,7 @@
       "close": 277000.0,
       "prdy_ctrt": -0.89,
       "mktcap": 192945.0,
-      "rank_change": -4,
+      "rank_change": -3,
       "eps_trend": "유지",
       "eps_growth": 0.0,
       "debt_ratio": 35.2,
@@ -1468,7 +1416,7 @@
       "entry_label": "보통"
     },
     {
-      "rank": 26,
+      "rank": 25,
       "ticker": "035420",
       "name": "NAVER",
       "market": "KOSPI",
@@ -1481,7 +1429,7 @@
       "close": 208000.0,
       "prdy_ctrt": -0.95,
       "mktcap": 316319.0,
-      "rank_change": -6,
+      "rank_change": -5,
       "eps_trend": "유지",
       "eps_growth": 0.0,
       "debt_ratio": 43.9,
@@ -1520,7 +1468,7 @@
       "entry_label": "주의"
     },
     {
-      "rank": 27,
+      "rank": 26,
       "ticker": "028260",
       "name": "삼성물산",
       "market": "KOSPI",
@@ -1533,7 +1481,7 @@
       "close": 379500.0,
       "prdy_ctrt": 0.93,
       "mktcap": 615426.0,
-      "rank_change": -5,
+      "rank_change": -4,
       "eps_trend": "유지",
       "eps_growth": 0.0,
       "debt_ratio": 44.0,
@@ -1572,7 +1520,7 @@
       "entry_label": "주의"
     },
     {
-      "rank": 28,
+      "rank": 27,
       "ticker": "386380",
       "name": "스카이랩스",
       "market": "KOSDAQ",
@@ -1585,7 +1533,7 @@
       "close": 26100.0,
       "prdy_ctrt": -13.86,
       "mktcap": 4897.0,
-      "rank_change": -24,
+      "rank_change": -23,
       "eps_trend": "부진",
       "eps_growth": 0.0,
       "debt_ratio": null,
@@ -1624,7 +1572,7 @@
       "entry_label": "등급 부적격"
     },
     {
-      "rank": 29,
+      "rank": 28,
       "ticker": "010950",
       "name": "S-Oil",
       "market": "KOSPI",
@@ -1676,7 +1624,7 @@
       "entry_label": "보통"
     },
     {
-      "rank": 30,
+      "rank": 29,
       "ticker": "047040",
       "name": "대우건설",
       "market": "KOSPI",
@@ -1689,7 +1637,7 @@
       "close": 19750.0,
       "prdy_ctrt": 1.54,
       "mktcap": 81154.0,
-      "rank_change": -19,
+      "rank_change": -18,
       "eps_trend": "상승",
       "eps_growth": 86.5,
       "debt_ratio": 266.5,
@@ -1728,7 +1676,7 @@
       "entry_label": "등급 부적격"
     },
     {
-      "rank": 31,
+      "rank": 30,
       "ticker": "319660",
       "name": "피에스케이",
       "market": "KOSDAQ",
@@ -1780,7 +1728,7 @@
       "entry_label": "등급 부적격"
     },
     {
-      "rank": 32,
+      "rank": 31,
       "ticker": "012330",
       "name": "현대모비스",
       "market": "KOSPI",
@@ -1832,7 +1780,7 @@
       "entry_label": "지금 진입"
     },
     {
-      "rank": 33,
+      "rank": 32,
       "ticker": "055550",
       "name": "신한지주",
       "market": "KOSPI",
@@ -1845,7 +1793,7 @@
       "close": 110300.0,
       "prdy_ctrt": -0.27,
       "mktcap": 517804.0,
-      "rank_change": 3,
+      "rank_change": 4,
       "eps_trend": "유지",
       "eps_growth": 0.0,
       "debt_ratio": 1245.0,
@@ -1884,7 +1832,7 @@
       "entry_label": "보통"
     },
     {
-      "rank": 34,
+      "rank": 33,
       "ticker": "440110",
       "name": "파두",
       "market": "KOSDAQ",
@@ -1936,7 +1884,7 @@
       "entry_label": "등급 부적격"
     },
     {
-      "rank": 35,
+      "rank": 34,
       "ticker": "373220",
       "name": "LG에너지솔루션",
       "market": "KOSPI",
@@ -1949,7 +1897,7 @@
       "close": 365000.0,
       "prdy_ctrt": -1.62,
       "mktcap": 854100.0,
-      "rank_change": -16,
+      "rank_change": -15,
       "eps_trend": "부진",
       "eps_growth": 0.0,
       "debt_ratio": 157.1,
@@ -1988,7 +1936,7 @@
       "entry_label": "등급 부적격"
     },
     {
-      "rank": 36,
+      "rank": 35,
       "ticker": "066570",
       "name": "LG전자",
       "market": "KOSPI",
@@ -2040,7 +1988,7 @@
       "entry_label": "등급 부적격"
     },
     {
-      "rank": 37,
+      "rank": 36,
       "ticker": "067310",
       "name": "하나마이크론",
       "market": "KOSDAQ",
@@ -2092,7 +2040,7 @@
       "entry_label": "주의"
     },
     {
-      "rank": 38,
+      "rank": 37,
       "ticker": "086790",
       "name": "하나금융지주",
       "market": "KOSPI",
@@ -2105,7 +2053,7 @@
       "close": 135300.0,
       "prdy_ctrt": 0.97,
       "mktcap": 371220.0,
-      "rank_change": -3,
+      "rank_change": -2,
       "eps_trend": "유지",
       "eps_growth": 0.0,
       "debt_ratio": 1372.7,
@@ -2144,7 +2092,7 @@
       "entry_label": "주의"
     },
     {
-      "rank": 39,
+      "rank": 38,
       "ticker": "068270",
       "name": "셀트리온",
       "market": "KOSPI",
@@ -2196,7 +2144,7 @@
       "entry_label": "등급 부적격"
     },
     {
-      "rank": 40,
+      "rank": 39,
       "ticker": "032830",
       "name": "삼성생명",
       "market": "KOSPI",
@@ -2246,6 +2194,58 @@
       "entry_score": 8,
       "entry_stars": "★★★★★",
       "entry_label": "지금 진입"
+    },
+    {
+      "rank": 40,
+      "ticker": "316140",
+      "name": "우리금융지주",
+      "market": "KOSPI",
+      "tvol": 1293,
+      "per": 8.05,
+      "pbr": 0.69,
+      "eps": 4221.0,
+      "bps": 49068.0,
+      "roe": 8.6,
+      "close": 34000.0,
+      "prdy_ctrt": 1.49,
+      "mktcap": 250507.0,
+      "rank_change": null,
+      "eps_trend": "유지",
+      "eps_growth": 0.0,
+      "debt_ratio": 1453.8,
+      "ch20": 2.1,
+      "ch5": 2.4,
+      "vol_trend": -2.2,
+      "rsi": 66.2,
+      "macd_line": 0.0,
+      "signal_line": 0.0,
+      "macd_bull": null,
+      "frgn_net": 1089494,
+      "orgn_net": -618984,
+      "frgn_basis": "당일",
+      "filters": {
+        "roe_ok": false,
+        "per_ok": true,
+        "eps_ok": true,
+        "eps_up": false,
+        "debt_ok": true,
+        "is_finance": true,
+        "score": 3,
+        "grade": "C",
+        "recommended": false,
+        "is_growth_exception": false,
+        "per_limit": 35,
+        "data_missing": false
+      },
+      "grade": "C",
+      "score": 3,
+      "recommended": false,
+      "vol_char": "상승동반 🟡",
+      "ch1": 1.49,
+      "cap_class": "대형",
+      "entry_score": 5,
+      "entry_stars": "★★★",
+      "entry_label": "보통"
     }
   ],
   "recommended": [
