@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T12:50:30.510521+09:00",
+  "updated_at": "2026-09-10T17:48:05.469984+09:00",
   "date": "20260910",
   "window_days": 14,
   "sectors": [
@@ -97,7 +97,7 @@
         {
           "date": "20260910",
           "type": "positive",
-          "headline": "[거시분석] Iran referred to UN Security Council for nucl...",
+          "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
           "score": 1
         },
         {
@@ -172,7 +172,7 @@
         {
           "date": "20260910",
           "type": "negative",
-          "headline": "[거시분석] Iran referred to UN Security Council for nucl...",
+          "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
           "score": -1
         },
         {
@@ -230,13 +230,19 @@
     "전체시장": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 19,
+      "negative_count": 20,
       "recent_events": [
         {
           "date": "20260910",
           "type": "negative",
-          "headline": "[거시분석] Iran referred to UN Security Council for nucl...",
-          "score": -2
+          "headline": "中 \"美와 300억달러 상호 관세인하 협상…조속 시행 추진\"",
+          "score": -1
+        },
+        {
+          "date": "20260910",
+          "type": "negative",
+          "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
+          "score": -3
         },
         {
           "date": "20260909",
@@ -255,12 +261,6 @@
           "type": "negative",
           "headline": "Canada braces for prolonged trade war as counter-tariffs on US take effect",
           "score": -1
-        },
-        {
-          "date": "20260908",
-          "type": "negative",
-          "headline": "[거시분석] Canada braces for prolonged trade war as coun...",
-          "score": -6
         }
       ]
     }
@@ -619,16 +619,24 @@
     },
     {
       "date": "20260910",
-      "headline": "[거시분석] Iran referred to UN Security Council for nucl...",
+      "headline": "中 \"美와 300억달러 상호 관세인하 협상…조속 시행 추진\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260910",
+      "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
       "impacts": {
         "방산": 1,
-        "전체시장": -2,
+        "전체시장": -3,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 51,
+  "total_negatives": 52,
   "total_positives": 30,
   "risk_level": "EXTREME"
 }
