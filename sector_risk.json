@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T17:48:05.469984+09:00",
+  "updated_at": "2026-09-10T23:09:04.037686+09:00",
   "date": "20260910",
   "window_days": 14,
   "sectors": [
@@ -18,8 +18,14 @@
     "반도체·AI": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260910",
+          "type": "negative",
+          "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
+          "score": -2
+        },
         {
           "date": "20260909",
           "type": "negative",
@@ -43,20 +49,20 @@
           "type": "negative",
           "headline": "[거시분석] Philippine court orders arrest of VP Duterte ...",
           "score": -2
-        },
-        {
-          "date": "20260901",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran trade strikes for first time in w...",
-          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260910",
+          "type": "negative",
+          "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
+          "score": -2
+        },
         {
           "date": "20260906",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
           "score": -2
-        },
-        {
-          "date": "20260902",
-          "type": "negative",
-          "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
-          "score": -2
         }
       ]
     },
@@ -98,7 +98,7 @@
           "date": "20260910",
           "type": "positive",
           "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
-          "score": 1
+          "score": 3
         },
         {
           "date": "20260909",
@@ -167,37 +167,37 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 13,
+      "negative_count": 16,
       "recent_events": [
         {
           "date": "20260910",
           "type": "negative",
-          "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
+          "headline": "ECB 올해 두번째 금리 인상…\"중동전쟁 물가 압박 계속\"(종합)",
           "score": -1
+        },
+        {
+          "date": "20260910",
+          "type": "negative",
+          "headline": "[2보] ECB 올해 두번째 금리 인상…예금금리 연 2.50%로 0.25%p↑",
+          "score": -1
+        },
+        {
+          "date": "20260910",
+          "type": "negative",
+          "headline": "[1보] ECB 금리 인상…예금금리 연 2.50%로 0.25%p↑",
+          "score": -1
+        },
+        {
+          "date": "20260910",
+          "type": "negative",
+          "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
+          "score": -3
         },
         {
           "date": "20260908",
           "type": "negative",
           "headline": "[거시분석] Canada braces for prolonged trade war as coun...",
           "score": -1
-        },
-        {
-          "date": "20260907",
-          "type": "negative",
-          "headline": "[거시분석] Iran warns of 'faster, heavier, more painful ...",
-          "score": -1
-        },
-        {
-          "date": "20260904",
-          "type": "negative",
-          "headline": "美 8월 고용 16만2천명 '깜짝 증가'…금리 인상 베팅 늘어(종합)",
-          "score": -1
-        },
-        {
-          "date": "20260904",
-          "type": "negative",
-          "headline": "[거시분석] Philippine court orders arrest of VP Duterte ...",
-          "score": -3
         }
       ]
     },
@@ -230,19 +230,25 @@
     "전체시장": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 20,
+      "negative_count": 21,
       "recent_events": [
         {
           "date": "20260910",
           "type": "negative",
-          "headline": "中 \"美와 300억달러 상호 관세인하 협상…조속 시행 추진\"",
+          "headline": "美부통령, '트럼프 5천달러 배당금'에 관세로 충당 시사",
+          "score": -1
+        },
+        {
+          "date": "20260910",
+          "type": "negative",
+          "headline": "美 8월 생산자물가 전년 대비 5.4%↑…전망치 소폭 상회",
           "score": -1
         },
         {
           "date": "20260910",
           "type": "negative",
           "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
-          "score": -3
+          "score": -9
         },
         {
           "date": "20260909",
@@ -255,12 +261,6 @@
           "type": "negative",
           "headline": "[거시분석] Brent crude surpasses $100 a barrel as Iran, ...",
           "score": -4
-        },
-        {
-          "date": "20260908",
-          "type": "negative",
-          "headline": "Canada braces for prolonged trade war as counter-tariffs on US take effect",
-          "score": -1
         }
       ]
     }
@@ -619,7 +619,7 @@
     },
     {
       "date": "20260910",
-      "headline": "中 \"美와 300억달러 상호 관세인하 협상…조속 시행 추진\"",
+      "headline": "美부통령, '트럼프 5천달러 배당금'에 관세로 충당 시사",
       "impacts": {
         "전체시장": -1
       },
@@ -627,16 +627,50 @@
     },
     {
       "date": "20260910",
+      "headline": "ECB 올해 두번째 금리 인상…\"중동전쟁 물가 압박 계속\"(종합)",
+      "impacts": {
+        "금융": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260910",
+      "headline": "美 8월 생산자물가 전년 대비 5.4%↑…전망치 소폭 상회",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260910",
+      "headline": "[2보] ECB 올해 두번째 금리 인상…예금금리 연 2.50%로 0.25%p↑",
+      "impacts": {
+        "금융": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260910",
+      "headline": "[1보] ECB 금리 인상…예금금리 연 2.50%로 0.25%p↑",
+      "impacts": {
+        "금융": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260910",
       "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -3,
-        "금융": -1
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -9,
+        "금융": -3,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 52,
+  "total_negatives": 58,
   "total_positives": 30,
   "risk_level": "EXTREME"
 }
