@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T04:00:48.977455+09:00",
+  "updated_at": "2026-09-11T07:21:00.361267+09:00",
   "date": "20260911",
   "window_days": 14,
   "sectors": [
@@ -91,15 +91,9 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 20,
+      "positive_count": 19,
       "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20260911",
-          "type": "positive",
-          "headline": "\"이란의 요르단 美기지 공습에 F-15·A-10 전투기 9대 손상\"",
-          "score": 1
-        },
         {
           "date": "20260911",
           "type": "positive",
@@ -123,6 +117,12 @@
           "type": "negative",
           "headline": "Peace talks rich in symbolism but fundamental differences between Russia and Ukraine remain",
           "score": -1
+        },
+        {
+          "date": "20260908",
+          "type": "positive",
+          "headline": "[거시분석] Canada braces for prolonged trade war as coun...",
+          "score": 1
         }
       ]
     },
@@ -161,25 +161,13 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 18,
+      "negative_count": 16,
       "recent_events": [
         {
           "date": "20260911",
           "type": "negative",
-          "headline": "ECB 올해 두번째 금리 인상…유럽 국채금리 급등(종합2보)",
-          "score": -1
-        },
-        {
-          "date": "20260911",
-          "type": "negative",
-          "headline": "ECB 올해 두번째 금리 인상…\"중동전쟁 물가 압박 계속\"(종합)",
-          "score": -1
-        },
-        {
-          "date": "20260911",
-          "type": "negative",
           "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
-          "score": -3
+          "score": -1
         },
         {
           "date": "20260910",
@@ -192,6 +180,18 @@
           "type": "negative",
           "headline": "[2보] ECB 올해 두번째 금리 인상…예금금리 연 2.50%로 0.25%p↑",
           "score": -1
+        },
+        {
+          "date": "20260910",
+          "type": "negative",
+          "headline": "[1보] ECB 금리 인상…예금금리 연 2.50%로 0.25%p↑",
+          "score": -1
+        },
+        {
+          "date": "20260910",
+          "type": "negative",
+          "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
+          "score": -3
         }
       ]
     },
@@ -224,25 +224,13 @@
     "전체시장": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 23,
+      "negative_count": 21,
       "recent_events": [
         {
           "date": "20260911",
           "type": "negative",
-          "headline": "美 8월 생산자물가 0.4%↑…유가 급등에 인플레 압력 지속(종합)",
-          "score": -1
-        },
-        {
-          "date": "20260911",
-          "type": "negative",
-          "headline": "美부통령, '트럼프 5천달러 배당금'에 관세로 충당 시사",
-          "score": -1
-        },
-        {
-          "date": "20260911",
-          "type": "negative",
           "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
-          "score": -9
+          "score": -7
         },
         {
           "date": "20260910",
@@ -254,6 +242,18 @@
           "date": "20260910",
           "type": "negative",
           "headline": "美 8월 생산자물가 전년 대비 5.4%↑…전망치 소폭 상회",
+          "score": -1
+        },
+        {
+          "date": "20260910",
+          "type": "negative",
+          "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
+          "score": -9
+        },
+        {
+          "date": "20260909",
+          "type": "negative",
+          "headline": "The losers of the US-Canada trade war",
           "score": -1
         }
       ]
@@ -638,58 +638,18 @@
     },
     {
       "date": "20260911",
-      "headline": "ECB 올해 두번째 금리 인상…유럽 국채금리 급등(종합2보)",
-      "impacts": {
-        "금융": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260911",
-      "headline": "\"이란의 요르단 美기지 공습에 F-15·A-10 전투기 9대 손상\"",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260911",
-      "headline": "美 8월 생산자물가 0.4%↑…유가 급등에 인플레 압력 지속(종합)",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260911",
-      "headline": "美부통령, '트럼프 5천달러 배당금'에 관세로 충당 시사",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260911",
-      "headline": "ECB 올해 두번째 금리 인상…\"중동전쟁 물가 압박 계속\"(종합)",
-      "impacts": {
-        "금융": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260911",
       "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -9,
-        "금융": -3,
+        "전체시장": -7,
+        "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 63,
-  "total_positives": 29,
+  "total_negatives": 59,
+  "total_positives": 28,
   "risk_level": "EXTREME"
 }
