@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-11T23:08:27.395794+09:00",
-  "date": "20260911",
+  "updated_at": "2026-09-12T04:03:00.467298+09:00",
+  "date": "20260912",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 8,
+      "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20260912",
+          "type": "negative",
+          "headline": "[거시분석] Civilians told to flee Ukraine's fortress cit...",
+          "score": -2
+        },
         {
           "date": "20260911",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] US envoys arrive in Moscow ahead of Ukraine t...",
           "score": -2
-        },
-        {
-          "date": "20260903",
-          "type": "positive",
-          "headline": "美, AI인프라 투자 열풍에 7월 무역적자 작년 3월 이후 최대",
-          "score": 1
         }
       ]
     },
@@ -94,6 +94,12 @@
       "positive_count": 20,
       "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20260912",
+          "type": "positive",
+          "headline": "[거시분석] Civilians told to flee Ukraine's fortress cit...",
+          "score": 3
+        },
         {
           "date": "20260911",
           "type": "positive",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] Brent crude surpasses $100 a barrel as Iran, ...",
           "score": 1
-        },
-        {
-          "date": "20260908",
-          "type": "negative",
-          "headline": "Peace talks rich in symbolism but fundamental differences between Russia and Ukraine remain",
-          "score": -1
         }
       ]
     },
@@ -164,6 +164,12 @@
       "negative_count": 16,
       "recent_events": [
         {
+          "date": "20260912",
+          "type": "negative",
+          "headline": "[거시분석] Civilians told to flee Ukraine's fortress cit...",
+          "score": -1
+        },
+        {
           "date": "20260911",
           "type": "negative",
           "headline": "[거시분석] Civilians told to flee Ukraine's fortress cit...",
@@ -186,12 +192,6 @@
           "type": "negative",
           "headline": "[1보] ECB 금리 인상…예금금리 연 2.50%로 0.25%p↑",
           "score": -1
-        },
-        {
-          "date": "20260910",
-          "type": "negative",
-          "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
-          "score": -3
         }
       ]
     },
@@ -227,6 +227,12 @@
       "negative_count": 21,
       "recent_events": [
         {
+          "date": "20260912",
+          "type": "negative",
+          "headline": "[거시분석] Civilians told to flee Ukraine's fortress cit...",
+          "score": -5
+        },
+        {
           "date": "20260911",
           "type": "negative",
           "headline": "[거시분석] Civilians told to flee Ukraine's fortress cit...",
@@ -249,27 +255,11 @@
           "type": "negative",
           "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
           "score": -9
-        },
-        {
-          "date": "20260909",
-          "type": "negative",
-          "headline": "The losers of the US-Canada trade war",
-          "score": -1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260828",
-      "headline": "[거시분석] Board of Peace's Gaza envoy criticises Israel...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -3,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260829",
       "headline": "Oslo mayor calls off wedding ceremony after death of Norway's king",
@@ -654,9 +644,20 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260912",
+      "headline": "[거시분석] Civilians told to flee Ukraine's fortress cit...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 58,
+  "total_negatives": 59,
   "total_positives": 29,
   "risk_level": "EXTREME"
 }
