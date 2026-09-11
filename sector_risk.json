@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T17:45:09.041968+09:00",
+  "updated_at": "2026-09-11T23:08:27.395794+09:00",
   "date": "20260911",
   "window_days": 14,
   "sectors": [
@@ -54,25 +54,13 @@
     },
     "건설": {
       "score": -10,
-      "positive_count": 4,
+      "positive_count": 2,
       "negative_count": 8,
       "recent_events": [
         {
           "date": "20260911",
-          "type": "positive",
-          "headline": "[네팔 대홍수] 韓구호대 2진 네팔 도착…재건·복구 사전조사 예정(종합)",
-          "score": 1
-        },
-        {
-          "date": "20260911",
-          "type": "positive",
-          "headline": "\"미래기금, 단기사업보다 인프라 투자에 집중…운용원칙 명확히\"",
-          "score": 1
-        },
-        {
-          "date": "20260911",
           "type": "negative",
-          "headline": "[거시분석] Five killed and 67 injured in Russian strike ...",
+          "headline": "[거시분석] Civilians told to flee Ukraine's fortress cit...",
           "score": -2
         },
         {
@@ -86,18 +74,36 @@
           "type": "negative",
           "headline": "[거시분석] US envoys meet Zelensky in Ukraine after talk...",
           "score": -2
+        },
+        {
+          "date": "20260905",
+          "type": "negative",
+          "headline": "[거시분석] US envoys arrive in Moscow ahead of Ukraine t...",
+          "score": -2
+        },
+        {
+          "date": "20260903",
+          "type": "positive",
+          "headline": "美, AI인프라 투자 열풍에 7월 무역적자 작년 3월 이후 최대",
+          "score": 1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 19,
+      "positive_count": 20,
       "negative_count": 6,
       "recent_events": [
         {
           "date": "20260911",
           "type": "positive",
-          "headline": "[거시분석] Five killed and 67 injured in Russian strike ...",
+          "headline": "\"후티, 바브엘만데브 해협 요충지 섬 장악…사우디, 모카공항 공습\"(종합)",
+          "score": 1
+        },
+        {
+          "date": "20260911",
+          "type": "positive",
+          "headline": "[거시분석] Civilians told to flee Ukraine's fortress cit...",
           "score": 3
         },
         {
@@ -117,12 +123,6 @@
           "type": "negative",
           "headline": "Peace talks rich in symbolism but fundamental differences between Russia and Ukraine remain",
           "score": -1
-        },
-        {
-          "date": "20260908",
-          "type": "positive",
-          "headline": "[거시분석] Canada braces for prolonged trade war as coun...",
-          "score": 1
         }
       ]
     },
@@ -166,7 +166,7 @@
         {
           "date": "20260911",
           "type": "negative",
-          "headline": "[거시분석] Five killed and 67 injured in Russian strike ...",
+          "headline": "[거시분석] Civilians told to flee Ukraine's fortress cit...",
           "score": -1
         },
         {
@@ -229,8 +229,8 @@
         {
           "date": "20260911",
           "type": "negative",
-          "headline": "[거시분석] Five killed and 67 injured in Russian strike ...",
-          "score": -6
+          "headline": "[거시분석] Civilians told to flee Ukraine's fortress cit...",
+          "score": -4
         },
         {
           "date": "20260910",
@@ -638,33 +638,25 @@
     },
     {
       "date": "20260911",
-      "headline": "[네팔 대홍수] 韓구호대 2진 네팔 도착…재건·복구 사전조사 예정(종합)",
+      "headline": "\"후티, 바브엘만데브 해협 요충지 섬 장악…사우디, 모카공항 공습\"(종합)",
       "impacts": {
-        "건설": 1
+        "방산": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260911",
-      "headline": "\"미래기금, 단기사업보다 인프라 투자에 집중…운용원칙 명확히\"",
-      "impacts": {
-        "건설": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260911",
-      "headline": "[거시분석] Five killed and 67 injured in Russian strike ...",
+      "headline": "[거시분석] Civilians told to flee Ukraine's fortress cit...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -6,
+        "전체시장": -4,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 58,
-  "total_positives": 30,
+  "total_positives": 29,
   "risk_level": "EXTREME"
 }
