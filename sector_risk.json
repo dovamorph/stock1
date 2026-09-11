@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T12:46:49.540843+09:00",
+  "updated_at": "2026-09-11T17:45:09.041968+09:00",
   "date": "20260911",
   "window_days": 14,
   "sectors": [
@@ -18,14 +18,8 @@
     "반도체·AI": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20260911",
-          "type": "negative",
-          "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
-          "score": -2
-        },
         {
           "date": "20260910",
           "type": "negative",
@@ -49,14 +43,38 @@
           "type": "negative",
           "headline": "[거시분석] US envoys arrive in Moscow ahead of Ukraine t...",
           "score": -2
+        },
+        {
+          "date": "20260904",
+          "type": "negative",
+          "headline": "[거시분석] Philippine court orders arrest of VP Duterte ...",
+          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
-      "positive_count": 2,
-      "negative_count": 7,
+      "positive_count": 4,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260911",
+          "type": "positive",
+          "headline": "[네팔 대홍수] 韓구호대 2진 네팔 도착…재건·복구 사전조사 예정(종합)",
+          "score": 1
+        },
+        {
+          "date": "20260911",
+          "type": "positive",
+          "headline": "\"미래기금, 단기사업보다 인프라 투자에 집중…운용원칙 명확히\"",
+          "score": 1
+        },
+        {
+          "date": "20260911",
+          "type": "negative",
+          "headline": "[거시분석] Five killed and 67 injured in Russian strike ...",
+          "score": -2
+        },
         {
           "date": "20260910",
           "type": "negative",
@@ -67,24 +85,6 @@
           "date": "20260906",
           "type": "negative",
           "headline": "[거시분석] US envoys meet Zelensky in Ukraine after talk...",
-          "score": -2
-        },
-        {
-          "date": "20260905",
-          "type": "negative",
-          "headline": "[거시분석] US envoys arrive in Moscow ahead of Ukraine t...",
-          "score": -2
-        },
-        {
-          "date": "20260903",
-          "type": "positive",
-          "headline": "美, AI인프라 투자 열풍에 7월 무역적자 작년 3월 이후 최대",
-          "score": 1
-        },
-        {
-          "date": "20260903",
-          "type": "negative",
-          "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
           "score": -2
         }
       ]
@@ -97,8 +97,8 @@
         {
           "date": "20260911",
           "type": "positive",
-          "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
-          "score": 1
+          "headline": "[거시분석] Five killed and 67 injured in Russian strike ...",
+          "score": 3
         },
         {
           "date": "20260910",
@@ -166,7 +166,7 @@
         {
           "date": "20260911",
           "type": "negative",
-          "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
+          "headline": "[거시분석] Five killed and 67 injured in Russian strike ...",
           "score": -1
         },
         {
@@ -224,19 +224,13 @@
     "전체시장": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 22,
+      "negative_count": 21,
       "recent_events": [
         {
           "date": "20260911",
           "type": "negative",
-          "headline": "트럼프 \"선거 이기면 5천달러\" 재확인…재원 질문에 \"관세\"(종합)",
-          "score": -1
-        },
-        {
-          "date": "20260911",
-          "type": "negative",
-          "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
-          "score": -5
+          "headline": "[거시분석] Five killed and 67 injured in Russian strike ...",
+          "score": -6
         },
         {
           "date": "20260910",
@@ -255,6 +249,12 @@
           "type": "negative",
           "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
           "score": -9
+        },
+        {
+          "date": "20260909",
+          "type": "negative",
+          "headline": "The losers of the US-Canada trade war",
+          "score": -1
         }
       ]
     }
@@ -638,25 +638,33 @@
     },
     {
       "date": "20260911",
-      "headline": "트럼프 \"선거 이기면 5천달러\" 재확인…재원 질문에 \"관세\"(종합)",
+      "headline": "[네팔 대홍수] 韓구호대 2진 네팔 도착…재건·복구 사전조사 예정(종합)",
       "impacts": {
-        "전체시장": -1
+        "건설": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260911",
-      "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
+      "headline": "\"미래기금, 단기사업보다 인프라 투자에 집중…운용원칙 명확히\"",
       "impacts": {
-        "방산": 1,
-        "전체시장": -5,
-        "금융": -1,
-        "반도체·AI": -2
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260911",
+      "headline": "[거시분석] Five killed and 67 injured in Russian strike ...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -6,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 59,
-  "total_positives": 28,
+  "total_negatives": 58,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
