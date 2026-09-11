@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T07:21:00.361267+09:00",
+  "updated_at": "2026-09-11T12:46:49.540843+09:00",
   "date": "20260911",
   "window_days": 14,
   "sectors": [
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20260911",
-          "type": "negative",
-          "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
-          "score": -2
-        },
         {
           "date": "20260910",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "positive",
           "headline": "美, AI인프라 투자 열풍에 7월 무역적자 작년 3월 이후 최대",
           "score": 1
+        },
+        {
+          "date": "20260903",
+          "type": "negative",
+          "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
+          "score": -2
         }
       ]
     },
@@ -98,7 +98,7 @@
           "date": "20260911",
           "type": "positive",
           "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260910",
@@ -224,13 +224,19 @@
     "전체시장": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 21,
+      "negative_count": 22,
       "recent_events": [
         {
           "date": "20260911",
           "type": "negative",
+          "headline": "트럼프 \"선거 이기면 5천달러\" 재확인…재원 질문에 \"관세\"(종합)",
+          "score": -1
+        },
+        {
+          "date": "20260911",
+          "type": "negative",
           "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
-          "score": -7
+          "score": -5
         },
         {
           "date": "20260910",
@@ -249,12 +255,6 @@
           "type": "negative",
           "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
           "score": -9
-        },
-        {
-          "date": "20260909",
-          "type": "negative",
-          "headline": "The losers of the US-Canada trade war",
-          "score": -1
         }
       ]
     }
@@ -638,11 +638,18 @@
     },
     {
       "date": "20260911",
+      "headline": "트럼프 \"선거 이기면 5천달러\" 재확인…재원 질문에 \"관세\"(종합)",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260911",
       "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -7,
+        "방산": 1,
+        "전체시장": -5,
         "금융": -1,
         "반도체·AI": -2
       },
