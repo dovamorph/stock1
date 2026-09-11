@@ -90,8 +90,8 @@
       "reason": "손절 -8.2%"
     }
   ],
-  "_kospi_ch5": 2.9,
-  "_kospi_ch1": 0.55,
+  "_kospi_ch5": 1.86,
+  "_kospi_ch1": -3.16,
   "_regime": "SIDEWAYS",
   "recent_exits": {
     "064350": {
@@ -125,5 +125,5 @@
       "is_loss": true
     }
   },
-  "updated_at": "2026-09-10T20:33:11.385574+09:00"
+  "updated_at": "2026-09-11T09:03:08.459418+09:00"
 }
