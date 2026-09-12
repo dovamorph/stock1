@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-12T22:26:27.956837+09:00",
-  "date": "20260912",
+  "updated_at": "2026-09-13T01:50:57.536202+09:00",
+  "date": "20260913",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -18,7 +18,7 @@
     "반도체·AI": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
         {
           "date": "20260910",
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20260913",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
+          "score": -2
+        },
         {
           "date": "20260912",
           "type": "negative",
@@ -80,20 +86,20 @@
           "type": "negative",
           "headline": "[거시분석] US envoys meet Zelensky in Ukraine after talk...",
           "score": -2
-        },
-        {
-          "date": "20260905",
-          "type": "negative",
-          "headline": "[거시분석] US envoys arrive in Moscow ahead of Ukraine t...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 20,
-      "negative_count": 6,
+      "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20260913",
+          "type": "positive",
+          "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
+          "score": 3
+        },
         {
           "date": "20260912",
           "type": "positive",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
           "score": 3
-        },
-        {
-          "date": "20260909",
-          "type": "positive",
-          "headline": "[거시분석] Brent crude surpasses $100 a barrel as Iran, ...",
-          "score": 1
         }
       ]
     },
@@ -164,6 +164,12 @@
       "negative_count": 16,
       "recent_events": [
         {
+          "date": "20260913",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
+          "score": -1
+        },
+        {
           "date": "20260912",
           "type": "negative",
           "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
@@ -185,12 +191,6 @@
           "date": "20260910",
           "type": "negative",
           "headline": "[2보] ECB 올해 두번째 금리 인상…예금금리 연 2.50%로 0.25%p↑",
-          "score": -1
-        },
-        {
-          "date": "20260910",
-          "type": "negative",
-          "headline": "[1보] ECB 금리 인상…예금금리 연 2.50%로 0.25%p↑",
           "score": -1
         }
       ]
@@ -227,6 +227,12 @@
       "negative_count": 21,
       "recent_events": [
         {
+          "date": "20260913",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
+          "score": -5
+        },
+        {
           "date": "20260912",
           "type": "negative",
           "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
@@ -249,36 +255,11 @@
           "type": "negative",
           "headline": "美 8월 생산자물가 전년 대비 5.4%↑…전망치 소폭 상회",
           "score": -1
-        },
-        {
-          "date": "20260910",
-          "type": "negative",
-          "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
-          "score": -9
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260829",
-      "headline": "Oslo mayor calls off wedding ceremony after death of Norway's king",
-      "impacts": {
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260829",
-      "headline": "[거시분석] Somali piracy surges as the impact of the US-...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -5,
-        "금융": -1,
-        "반도체·AI": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260830",
       "headline": "Oslo mayor calls off wedding ceremony after death of Norway's king",
@@ -655,9 +636,20 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260913",
+      "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 59,
+  "total_negatives": 58,
   "total_positives": 29,
   "risk_level": "EXTREME"
 }
