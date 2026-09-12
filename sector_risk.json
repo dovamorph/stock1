@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T12:50:15.211952+09:00",
+  "updated_at": "2026-09-12T17:29:46.060108+09:00",
   "date": "20260912",
   "window_days": 14,
   "sectors": [
@@ -17,19 +17,13 @@
   "sector_stats": {
     "반도체·AI": {
       "score": -10,
-      "positive_count": 1,
+      "positive_count": 0,
       "negative_count": 8,
       "recent_events": [
         {
           "date": "20260912",
-          "type": "positive",
-          "headline": "US lawyer cites fake witnesses in murder case, blames ChatGPT",
-          "score": 1
-        },
-        {
-          "date": "20260912",
           "type": "negative",
-          "headline": "[거시분석] Lightning Houthi advance in Yemen may bring d...",
+          "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
           "score": -2
         },
         {
@@ -49,14 +43,26 @@
           "type": "negative",
           "headline": "[거시분석] Canada braces for prolonged trade war as coun...",
           "score": -2
+        },
+        {
+          "date": "20260905",
+          "type": "negative",
+          "headline": "[거시분석] US envoys arrive in Moscow ahead of Ukraine t...",
+          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 8,
+      "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20260912",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
+          "score": -2
+        },
         {
           "date": "20260911",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] US envoys arrive in Moscow ahead of Ukraine t...",
           "score": -2
-        },
-        {
-          "date": "20260903",
-          "type": "positive",
-          "headline": "美, AI인프라 투자 열풍에 7월 무역적자 작년 3월 이후 최대",
-          "score": 1
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20260912",
           "type": "positive",
-          "headline": "[거시분석] Lightning Houthi advance in Yemen may bring d...",
-          "score": 1
+          "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
+          "score": 3
         },
         {
           "date": "20260911",
@@ -127,10 +127,16 @@
       ]
     },
     "전력·에너지": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260912",
+          "type": "positive",
+          "headline": "창원 도심서 기후정의행진…\"재생에너지 전환 서둘러야\"",
+          "score": 1
+        },
         {
           "date": "20260907",
           "type": "positive",
@@ -166,7 +172,7 @@
         {
           "date": "20260912",
           "type": "negative",
-          "headline": "[거시분석] Lightning Houthi advance in Yemen may bring d...",
+          "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
           "score": -1
         },
         {
@@ -235,8 +241,8 @@
         {
           "date": "20260912",
           "type": "negative",
-          "headline": "[거시분석] Lightning Houthi advance in Yemen may bring d...",
-          "score": -5
+          "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
+          "score": -7
         },
         {
           "date": "20260911",
@@ -655,25 +661,26 @@
     },
     {
       "date": "20260912",
-      "headline": "US lawyer cites fake witnesses in murder case, blames ChatGPT",
+      "headline": "창원 도심서 기후정의행진…\"재생에너지 전환 서둘러야\"",
       "impacts": {
-        "반도체·AI": 1
+        "전력·에너지": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260912",
-      "headline": "[거시분석] Lightning Houthi advance in Yemen may bring d...",
+      "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -5,
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -7,
         "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 60,
+  "total_negatives": 61,
   "total_positives": 30,
   "risk_level": "EXTREME"
 }
