@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T07:20:40.119459+09:00",
+  "updated_at": "2026-09-12T12:50:15.211952+09:00",
   "date": "20260912",
   "window_days": 14,
   "sectors": [
@@ -18,13 +18,19 @@
     "반도체·AI": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
         {
           "date": "20260912",
           "type": "positive",
           "headline": "US lawyer cites fake witnesses in murder case, blames ChatGPT",
           "score": 1
+        },
+        {
+          "date": "20260912",
+          "type": "negative",
+          "headline": "[거시분석] Lightning Houthi advance in Yemen may bring d...",
+          "score": -2
         },
         {
           "date": "20260910",
@@ -43,26 +49,14 @@
           "type": "negative",
           "headline": "[거시분석] Canada braces for prolonged trade war as coun...",
           "score": -2
-        },
-        {
-          "date": "20260905",
-          "type": "negative",
-          "headline": "[거시분석] US envoys arrive in Moscow ahead of Ukraine t...",
-          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 9,
+      "negative_count": 8,
       "recent_events": [
-        {
-          "date": "20260912",
-          "type": "negative",
-          "headline": "[거시분석] Lightning Houthi advance in Yemen may bring d...",
-          "score": -2
-        },
         {
           "date": "20260911",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] US envoys arrive in Moscow ahead of Ukraine t...",
           "score": -2
+        },
+        {
+          "date": "20260903",
+          "type": "positive",
+          "headline": "美, AI인프라 투자 열풍에 7월 무역적자 작년 3월 이후 최대",
+          "score": 1
         }
       ]
     },
@@ -98,7 +98,7 @@
           "date": "20260912",
           "type": "positive",
           "headline": "[거시분석] Lightning Houthi advance in Yemen may bring d...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260911",
@@ -127,16 +127,10 @@
       ]
     },
     "전력·에너지": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260912",
-          "type": "positive",
-          "headline": "주유소 기름값 17주째 하락…국제유가 상승에도 1천800원대",
-          "score": 1
-        },
         {
           "date": "20260907",
           "type": "positive",
@@ -230,8 +224,14 @@
     "전체시장": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 21,
+      "negative_count": 22,
       "recent_events": [
+        {
+          "date": "20260912",
+          "type": "negative",
+          "headline": "How Canadians are bracing for the impact of Trump’s trade war",
+          "score": -1
+        },
         {
           "date": "20260912",
           "type": "negative",
@@ -255,12 +255,6 @@
           "type": "negative",
           "headline": "美 8월 생산자물가 전년 대비 5.4%↑…전망치 소폭 상회",
           "score": -1
-        },
-        {
-          "date": "20260910",
-          "type": "negative",
-          "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
-          "score": -9
         }
       ]
     }
@@ -653,6 +647,14 @@
     },
     {
       "date": "20260912",
+      "headline": "How Canadians are bracing for the impact of Trump’s trade war",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260912",
       "headline": "US lawyer cites fake witnesses in murder case, blames ChatGPT",
       "impacts": {
         "반도체·AI": 1
@@ -661,25 +663,17 @@
     },
     {
       "date": "20260912",
-      "headline": "주유소 기름값 17주째 하락…국제유가 상승에도 1천800원대",
-      "impacts": {
-        "전력·에너지": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260912",
       "headline": "[거시분석] Lightning Houthi advance in Yemen may bring d...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
+        "방산": 1,
         "전체시장": -5,
-        "금융": -1
+        "금융": -1,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 59,
-  "total_positives": 31,
+  "total_negatives": 60,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
