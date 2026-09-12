@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T17:29:46.060108+09:00",
+  "updated_at": "2026-09-12T22:26:27.956837+09:00",
   "date": "20260912",
   "window_days": 14,
   "sectors": [
@@ -18,14 +18,8 @@
     "반도체·AI": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20260912",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
-          "score": -2
-        },
         {
           "date": "20260910",
           "type": "negative",
@@ -48,6 +42,12 @@
           "date": "20260905",
           "type": "negative",
           "headline": "[거시분석] US envoys arrive in Moscow ahead of Ukraine t...",
+          "score": -2
+        },
+        {
+          "date": "20260904",
+          "type": "negative",
+          "headline": "[거시분석] Philippine court orders arrest of VP Duterte ...",
           "score": -2
         }
       ]
@@ -127,16 +127,10 @@
       ]
     },
     "전력·에너지": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260912",
-          "type": "positive",
-          "headline": "창원 도심서 기후정의행진…\"재생에너지 전환 서둘러야\"",
-          "score": 1
-        },
         {
           "date": "20260907",
           "type": "positive",
@@ -230,19 +224,13 @@
     "전체시장": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 22,
+      "negative_count": 21,
       "recent_events": [
         {
           "date": "20260912",
           "type": "negative",
-          "headline": "How Canadians are bracing for the impact of Trump’s trade war",
-          "score": -1
-        },
-        {
-          "date": "20260912",
-          "type": "negative",
           "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
-          "score": -7
+          "score": -6
         },
         {
           "date": "20260911",
@@ -261,6 +249,12 @@
           "type": "negative",
           "headline": "美 8월 생산자물가 전년 대비 5.4%↑…전망치 소폭 상회",
           "score": -1
+        },
+        {
+          "date": "20260910",
+          "type": "negative",
+          "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
+          "score": -9
         }
       ]
     }
@@ -653,34 +647,17 @@
     },
     {
       "date": "20260912",
-      "headline": "How Canadians are bracing for the impact of Trump’s trade war",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260912",
-      "headline": "창원 도심서 기후정의행진…\"재생에너지 전환 서둘러야\"",
-      "impacts": {
-        "전력·에너지": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260912",
       "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -7,
-        "금융": -1,
-        "반도체·AI": -2
+        "전체시장": -6,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 61,
-  "total_positives": 30,
+  "total_negatives": 59,
+  "total_positives": 29,
   "risk_level": "EXTREME"
 }
