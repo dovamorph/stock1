@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T12:58:22.686428+09:00",
+  "updated_at": "2026-09-13T18:25:38.543568+09:00",
   "date": "20260913",
   "window_days": 14,
   "sectors": [
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 10,
+      "negative_count": 9,
       "recent_events": [
-        {
-          "date": "20260913",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
-          "score": -2
-        },
         {
           "date": "20260912",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] US envoys meet Zelensky in Ukraine after talk...",
           "score": -2
+        },
+        {
+          "date": "20260905",
+          "type": "negative",
+          "headline": "[거시분석] US envoys arrive in Moscow ahead of Ukraine t...",
+          "score": -2
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20260913",
           "type": "positive",
-          "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
-          "score": 3
+          "headline": "[거시분석] Russians seek answers over hundreds missing a...",
+          "score": 1
         },
         {
           "date": "20260912",
@@ -166,7 +166,7 @@
         {
           "date": "20260913",
           "type": "negative",
-          "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
+          "headline": "[거시분석] Russians seek answers over hundreds missing a...",
           "score": -1
         },
         {
@@ -229,8 +229,8 @@
         {
           "date": "20260913",
           "type": "negative",
-          "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
-          "score": -5
+          "headline": "[거시분석] Russians seek answers over hundreds missing a...",
+          "score": -3
         },
         {
           "date": "20260912",
@@ -639,17 +639,16 @@
     },
     {
       "date": "20260913",
-      "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
+      "headline": "[거시분석] Russians seek answers over hundreds missing a...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
+        "방산": 1,
+        "전체시장": -3,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 58,
+  "total_negatives": 57,
   "total_positives": 29,
   "risk_level": "EXTREME"
 }
