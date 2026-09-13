@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T18:25:38.543568+09:00",
+  "updated_at": "2026-09-13T23:10:56.093998+09:00",
   "date": "20260913",
   "window_days": 14,
   "sectors": [
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20260913",
+          "type": "negative",
+          "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
+          "score": -2
+        },
         {
           "date": "20260912",
           "type": "negative",
@@ -80,25 +86,25 @@
           "type": "negative",
           "headline": "[거시분석] US envoys meet Zelensky in Ukraine after talk...",
           "score": -2
-        },
-        {
-          "date": "20260905",
-          "type": "negative",
-          "headline": "[거시분석] US envoys arrive in Moscow ahead of Ukraine t...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 20,
+      "positive_count": 21,
       "negative_count": 5,
       "recent_events": [
         {
           "date": "20260913",
           "type": "positive",
-          "headline": "[거시분석] Russians seek answers over hundreds missing a...",
+          "headline": "러, 폴란드 코앞 철도시설 공습…우크라 \"EU·나토 겨냥하나\"",
           "score": 1
+        },
+        {
+          "date": "20260913",
+          "type": "positive",
+          "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
+          "score": 3
         },
         {
           "date": "20260912",
@@ -116,12 +122,6 @@
           "date": "20260911",
           "type": "positive",
           "headline": "[거시분석] Civilians told to flee Ukraine's fortress cit...",
-          "score": 3
-        },
-        {
-          "date": "20260910",
-          "type": "positive",
-          "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
           "score": 3
         }
       ]
@@ -166,7 +166,7 @@
         {
           "date": "20260913",
           "type": "negative",
-          "headline": "[거시분석] Russians seek answers over hundreds missing a...",
+          "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
           "score": -1
         },
         {
@@ -229,8 +229,8 @@
         {
           "date": "20260913",
           "type": "negative",
-          "headline": "[거시분석] Russians seek answers over hundreds missing a...",
-          "score": -3
+          "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
+          "score": -5
         },
         {
           "date": "20260912",
@@ -639,16 +639,25 @@
     },
     {
       "date": "20260913",
-      "headline": "[거시분석] Russians seek answers over hundreds missing a...",
+      "headline": "러, 폴란드 코앞 철도시설 공습…우크라 \"EU·나토 겨냥하나\"",
       "impacts": {
-        "방산": 1,
-        "전체시장": -3,
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260913",
+      "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 57,
-  "total_positives": 29,
+  "total_negatives": 58,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
