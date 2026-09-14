@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T07:13:48.229678+09:00",
+  "updated_at": "2026-09-14T13:05:56.819285+09:00",
   "date": "20260914",
   "window_days": 14,
   "sectors": [
@@ -17,15 +17,9 @@
   "sector_stats": {
     "반도체·AI": {
       "score": -10,
-      "positive_count": 1,
+      "positive_count": 0,
       "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20260914",
-          "type": "positive",
-          "headline": "무신사, 정보보호 인증 두 달 만에 유출 사고…\"ISMS 보완해야\"",
-          "score": 1
-        },
         {
           "date": "20260910",
           "type": "negative",
@@ -49,6 +43,12 @@
           "type": "negative",
           "headline": "[거시분석] US envoys arrive in Moscow ahead of Ukraine t...",
           "score": -2
+        },
+        {
+          "date": "20260904",
+          "type": "negative",
+          "headline": "[거시분석] Philippine court orders arrest of VP Duterte ...",
+          "score": -2
         }
       ]
     },
@@ -61,7 +61,7 @@
           "date": "20260914",
           "type": "negative",
           "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
-          "score": -1
+          "score": -2
         },
         {
           "date": "20260913",
@@ -91,14 +91,20 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 21,
+      "positive_count": 22,
       "negative_count": 4,
       "recent_events": [
         {
           "date": "20260914",
           "type": "positive",
+          "headline": "[영상] 러, 폴란드 보란 듯 코앞서 드론 공습…CIA 전 국장 맞을 뻔",
+          "score": 1
+        },
+        {
+          "date": "20260914",
+          "type": "positive",
           "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
-          "score": 2
+          "score": 3
         },
         {
           "date": "20260913",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
           "score": 3
-        },
-        {
-          "date": "20260911",
-          "type": "positive",
-          "headline": "\"후티, 바브엘만데브 해협 요충지 섬 장악…사우디, 모카공항 공습\"(종합)",
-          "score": 1
         }
       ]
     },
@@ -161,8 +161,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 15,
+      "negative_count": 16,
       "recent_events": [
+        {
+          "date": "20260914",
+          "type": "negative",
+          "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
+          "score": -1
+        },
         {
           "date": "20260913",
           "type": "negative",
@@ -185,12 +191,6 @@
           "date": "20260910",
           "type": "negative",
           "headline": "ECB 올해 두번째 금리 인상…\"중동전쟁 물가 압박 계속\"(종합)",
-          "score": -1
-        },
-        {
-          "date": "20260910",
-          "type": "negative",
-          "headline": "[2보] ECB 올해 두번째 금리 인상…예금금리 연 2.50%로 0.25%p↑",
           "score": -1
         }
       ]
@@ -217,19 +217,13 @@
     "전체시장": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 22,
+      "negative_count": 21,
       "recent_events": [
         {
           "date": "20260914",
           "type": "negative",
-          "headline": "US will scrap Irish whisky tariff, Trump says",
-          "score": -1
-        },
-        {
-          "date": "20260914",
-          "type": "negative",
           "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
-          "score": -3
+          "score": -5
         },
         {
           "date": "20260913",
@@ -248,6 +242,12 @@
           "type": "negative",
           "headline": "[거시분석] Civilians told to flee Ukraine's fortress cit...",
           "score": -4
+        },
+        {
+          "date": "20260910",
+          "type": "negative",
+          "headline": "美부통령, '트럼프 5천달러 배당금'에 관세로 충당 시사",
+          "score": -1
         }
       ]
     }
@@ -617,17 +617,9 @@
     },
     {
       "date": "20260914",
-      "headline": "US will scrap Irish whisky tariff, Trump says",
+      "headline": "[영상] 러, 폴란드 보란 듯 코앞서 드론 공습…CIA 전 국장 맞을 뻔",
       "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260914",
-      "headline": "무신사, 정보보호 인증 두 달 만에 유출 사고…\"ISMS 보완해야\"",
-      "impacts": {
-        "반도체·AI": 1
+        "방산": 1
       },
       "source": "keyword"
     },
@@ -635,9 +627,10 @@
       "date": "20260914",
       "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -3
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
+        "금융": -1
       },
       "source": "geo_categories"
     }
