@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T04:06:26.612859+09:00",
+  "updated_at": "2026-09-15T08:00:33.849581+09:00",
   "date": "20260915",
   "window_days": 14,
   "sectors": [
@@ -17,19 +17,19 @@
   "sector_stats": {
     "반도체·AI": {
       "score": -10,
-      "positive_count": 0,
-      "negative_count": 8,
+      "positive_count": 1,
+      "negative_count": 7,
       "recent_events": [
         {
           "date": "20260915",
-          "type": "negative",
-          "headline": "AI 개발 제동론에 반도체주 급락…엔비디아·브로드컴 동반 하락",
-          "score": -1
+          "type": "positive",
+          "headline": "美 사이버보안주 급등…AI 속도조절론에 반사이익",
+          "score": 1
         },
         {
           "date": "20260915",
           "type": "negative",
-          "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
+          "headline": "[거시분석] Trump says he will remove all Irish whiskey t...",
           "score": -2
         },
         {
@@ -60,8 +60,8 @@
         {
           "date": "20260915",
           "type": "negative",
-          "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
-          "score": -2
+          "headline": "[거시분석] Trump says he will remove all Irish whiskey t...",
+          "score": -1
         },
         {
           "date": "20260914",
@@ -91,20 +91,14 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 22,
+      "positive_count": 21,
       "negative_count": 4,
       "recent_events": [
         {
           "date": "20260915",
           "type": "positive",
-          "headline": "‘Attacks will be fully autonomous’: Russia, Ukraine race towards AI warfare",
-          "score": 1
-        },
-        {
-          "date": "20260915",
-          "type": "positive",
-          "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
-          "score": 3
+          "headline": "[거시분석] Trump says he will remove all Irish whiskey t...",
+          "score": 2
         },
         {
           "date": "20260914",
@@ -122,6 +116,12 @@
           "date": "20260913",
           "type": "positive",
           "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
+          "score": 3
+        },
+        {
+          "date": "20260912",
+          "type": "positive",
+          "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
           "score": 3
         }
       ]
@@ -166,7 +166,7 @@
         {
           "date": "20260915",
           "type": "negative",
-          "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
+          "headline": "[거시분석] Trump says he will remove all Irish whiskey t...",
           "score": -1
         },
         {
@@ -215,14 +215,14 @@
         {
           "date": "20260915",
           "type": "negative",
-          "headline": "Carney pitches Canada to global investors amid US trade war",
+          "headline": "Mark Carney pitches Canada to global investors amid US trade war",
           "score": -1
         },
         {
           "date": "20260915",
           "type": "negative",
-          "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
-          "score": -7
+          "headline": "[거시분석] Trump says he will remove all Irish whiskey t...",
+          "score": -6
         },
         {
           "date": "20260914",
@@ -594,7 +594,7 @@
     },
     {
       "date": "20260915",
-      "headline": "Carney pitches Canada to global investors amid US trade war",
+      "headline": "Mark Carney pitches Canada to global investors amid US trade war",
       "impacts": {
         "전체시장": -1
       },
@@ -602,34 +602,26 @@
     },
     {
       "date": "20260915",
-      "headline": "‘Attacks will be fully autonomous’: Russia, Ukraine race towards AI warfare",
+      "headline": "美 사이버보안주 급등…AI 속도조절론에 반사이익",
       "impacts": {
-        "방산": 1
+        "반도체·AI": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260915",
-      "headline": "AI 개발 제동론에 반도체주 급락…엔비디아·브로드컴 동반 하락",
+      "headline": "[거시분석] Trump says he will remove all Irish whiskey t...",
       "impacts": {
-        "반도체·AI": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260915",
-      "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -7,
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -6,
         "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 60,
+  "total_negatives": 59,
   "total_positives": 28,
   "risk_level": "EXTREME"
 }
