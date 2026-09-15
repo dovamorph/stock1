@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T13:05:05.765250+09:00",
+  "updated_at": "2026-09-15T20:22:57.799115+09:00",
   "date": "20260915",
   "window_days": 14,
   "sectors": [
@@ -18,13 +18,25 @@
     "반도체·AI": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 6,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260915",
+          "type": "negative",
+          "headline": "AI regulation faces political deadlock as calls grow for Congress to act",
+          "score": -1
+        },
         {
           "date": "20260915",
           "type": "positive",
           "headline": "Trump calls, interrupts Nvidia CEO to say AI fears are ‘a hoax’",
           "score": 1
+        },
+        {
+          "date": "20260915",
+          "type": "negative",
+          "headline": "[거시분석] Palestine weekly: Settlement sanctions spark ...",
+          "score": -2
         },
         {
           "date": "20260910",
@@ -37,32 +49,14 @@
           "type": "negative",
           "headline": "[거시분석] Brent crude surpasses $100 a barrel as Iran, ...",
           "score": -2
-        },
-        {
-          "date": "20260908",
-          "type": "negative",
-          "headline": "[거시분석] Canada braces for prolonged trade war as coun...",
-          "score": -2
-        },
-        {
-          "date": "20260905",
-          "type": "negative",
-          "headline": "[거시분석] US envoys arrive in Moscow ahead of Ukraine t...",
-          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20260915",
-          "type": "negative",
-          "headline": "[거시분석] Israeli minister threatens to revoke filmmake...",
-          "score": -1
-        },
         {
           "date": "20260914",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] Civilians told to flee Ukraine's fortress cit...",
           "score": -2
+        },
+        {
+          "date": "20260910",
+          "type": "negative",
+          "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
+          "score": -2
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20260915",
           "type": "positive",
-          "headline": "[거시분석] Israeli minister threatens to revoke filmmake...",
-          "score": 2
+          "headline": "[거시분석] Palestine weekly: Settlement sanctions spark ...",
+          "score": 1
         },
         {
           "date": "20260914",
@@ -161,14 +161,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 15,
+      "negative_count": 14,
       "recent_events": [
-        {
-          "date": "20260915",
-          "type": "negative",
-          "headline": "[거시분석] Israeli minister threatens to revoke filmmake...",
-          "score": -1
-        },
         {
           "date": "20260914",
           "type": "negative",
@@ -191,6 +185,12 @@
           "date": "20260911",
           "type": "negative",
           "headline": "[거시분석] Civilians told to flee Ukraine's fortress cit...",
+          "score": -1
+        },
+        {
+          "date": "20260910",
+          "type": "negative",
+          "headline": "ECB 올해 두번째 금리 인상…\"중동전쟁 물가 압박 계속\"(종합)",
           "score": -1
         }
       ]
@@ -215,7 +215,7 @@
         {
           "date": "20260915",
           "type": "negative",
-          "headline": "[거시분석] Israeli minister threatens to revoke filmmake...",
+          "headline": "[거시분석] Palestine weekly: Settlement sanctions spark ...",
           "score": -4
         },
         {
@@ -594,6 +594,14 @@
     },
     {
       "date": "20260915",
+      "headline": "AI regulation faces political deadlock as calls grow for Congress to act",
+      "impacts": {
+        "반도체·AI": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260915",
       "headline": "Trump calls, interrupts Nvidia CEO to say AI fears are ‘a hoax’",
       "impacts": {
         "반도체·AI": 1
@@ -602,12 +610,11 @@
     },
     {
       "date": "20260915",
-      "headline": "[거시분석] Israeli minister threatens to revoke filmmake...",
+      "headline": "[거시분석] Palestine weekly: Settlement sanctions spark ...",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
+        "방산": 1,
         "전체시장": -4,
-        "금융": -1
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
