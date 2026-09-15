@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T01:35:02.354035+09:00",
+  "updated_at": "2026-09-16T06:00:57.587738+09:00",
   "date": "20260916",
   "window_days": 14,
   "sectors": [
@@ -18,19 +18,13 @@
     "반도체·AI": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 9,
+      "negative_count": 8,
       "recent_events": [
         {
           "date": "20260916",
           "type": "negative",
           "headline": "AI regulation faces political deadlock as calls grow for Congress to act",
           "score": -1
-        },
-        {
-          "date": "20260916",
-          "type": "negative",
-          "headline": "[거시분석] Iran war has led to US munitions shortfalls, ...",
-          "score": -2
         },
         {
           "date": "20260915",
@@ -48,6 +42,12 @@
           "date": "20260915",
           "type": "negative",
           "headline": "[거시분석] Palestine weekly: Settlement sanctions spark ...",
+          "score": -2
+        },
+        {
+          "date": "20260910",
+          "type": "negative",
+          "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
           "score": -2
         }
       ]
@@ -127,10 +127,16 @@
       ]
     },
     "전력·에너지": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260916",
+          "type": "positive",
+          "headline": "美국채 금리·유가 상승 지속…뉴욕증시 일제히 하락",
+          "score": 1
+        },
         {
           "date": "20260907",
           "type": "positive",
@@ -215,14 +221,14 @@
         {
           "date": "20260916",
           "type": "negative",
-          "headline": "Carney visits Europe: Can Canada seek refuge with the EU amid US trade war?",
+          "headline": "Kennedy Center closes amid financial crisis and Trump name dispute",
           "score": -1
         },
         {
           "date": "20260916",
           "type": "negative",
           "headline": "[거시분석] Iran war has led to US munitions shortfalls, ...",
-          "score": -5
+          "score": -3
         },
         {
           "date": "20260915",
@@ -608,9 +614,17 @@
     },
     {
       "date": "20260916",
-      "headline": "Carney visits Europe: Can Canada seek refuge with the EU amid US trade war?",
+      "headline": "Kennedy Center closes amid financial crisis and Trump name dispute",
       "impacts": {
         "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260916",
+      "headline": "美국채 금리·유가 상승 지속…뉴욕증시 일제히 하락",
+      "impacts": {
+        "전력·에너지": 1
       },
       "source": "keyword"
     },
@@ -619,14 +633,13 @@
       "headline": "[거시분석] Iran war has led to US munitions shortfalls, ...",
       "impacts": {
         "방산": 1,
-        "전체시장": -5,
-        "금융": -1,
-        "반도체·AI": -2
+        "전체시장": -3,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 57,
-  "total_positives": 28,
+  "total_negatives": 56,
+  "total_positives": 29,
   "risk_level": "EXTREME"
 }
