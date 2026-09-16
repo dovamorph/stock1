@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T03:00:56.446881+09:00",
+  "updated_at": "2026-09-17T07:44:46.411190+09:00",
   "date": "20260917",
   "window_days": 14,
   "sectors": [
@@ -29,7 +29,7 @@
         {
           "date": "20260917",
           "type": "negative",
-          "headline": "[거시분석] Eight children among 21 killed after war-dama...",
+          "headline": "[거시분석] Photos show widespread damage at US sites fro...",
           "score": -2
         },
         {
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 10,
+      "negative_count": 9,
       "recent_events": [
-        {
-          "date": "20260917",
-          "type": "negative",
-          "headline": "[거시분석] Eight children among 21 killed after war-dama...",
-          "score": -2
-        },
         {
           "date": "20260916",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
           "score": -2
+        },
+        {
+          "date": "20260911",
+          "type": "negative",
+          "headline": "[거시분석] Civilians told to flee Ukraine's fortress cit...",
+          "score": -2
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20260917",
           "type": "positive",
-          "headline": "[거시분석] Eight children among 21 killed after war-dama...",
-          "score": 3
+          "headline": "[거시분석] Photos show widespread damage at US sites fro...",
+          "score": 1
         },
         {
           "date": "20260916",
@@ -166,7 +166,7 @@
         {
           "date": "20260917",
           "type": "negative",
-          "headline": "[거시분석] Eight children among 21 killed after war-dama...",
+          "headline": "[거시분석] Photos show widespread damage at US sites fro...",
           "score": -1
         },
         {
@@ -215,8 +215,8 @@
         {
           "date": "20260917",
           "type": "negative",
-          "headline": "[거시분석] Eight children among 21 killed after war-dama...",
-          "score": -7
+          "headline": "[거시분석] Photos show widespread damage at US sites fro...",
+          "score": -5
         },
         {
           "date": "20260916",
@@ -609,18 +609,17 @@
     },
     {
       "date": "20260917",
-      "headline": "[거시분석] Eight children among 21 killed after war-dama...",
+      "headline": "[거시분석] Photos show widespread damage at US sites fro...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -7,
+        "방산": 1,
+        "전체시장": -5,
         "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 57,
+  "total_negatives": 56,
   "total_positives": 29,
   "risk_level": "EXTREME"
 }
