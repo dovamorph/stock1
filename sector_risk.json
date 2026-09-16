@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T09:03:06.119333+09:00",
+  "updated_at": "2026-09-16T16:25:29.636427+09:00",
   "date": "20260916",
   "window_days": 14,
   "sectors": [
@@ -17,9 +17,15 @@
   "sector_stats": {
     "반도체·AI": {
       "score": -10,
-      "positive_count": 1,
+      "positive_count": 2,
       "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260916",
+          "type": "positive",
+          "headline": "OpenAI boss says world 'right to be afraid' but should trust AI firms",
+          "score": 1
+        },
         {
           "date": "20260916",
           "type": "negative",
@@ -42,12 +48,6 @@
           "date": "20260915",
           "type": "negative",
           "headline": "[거시분석] Palestine weekly: Settlement sanctions spark ...",
-          "score": -2
-        },
-        {
-          "date": "20260910",
-          "type": "negative",
-          "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
           "score": -2
         }
       ]
@@ -210,19 +210,13 @@
     "전체시장": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 21,
+      "negative_count": 20,
       "recent_events": [
         {
           "date": "20260916",
           "type": "negative",
-          "headline": "Kennedy Center closes amid financial crisis and Trump name dispute",
-          "score": -1
-        },
-        {
-          "date": "20260916",
-          "type": "negative",
           "headline": "[거시분석] Iran war has led to US munitions shortfalls, ...",
-          "score": -2
+          "score": -3
         },
         {
           "date": "20260915",
@@ -241,6 +235,12 @@
           "type": "negative",
           "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
           "score": -5
+        },
+        {
+          "date": "20260912",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
+          "score": -6
         }
       ]
     }
@@ -600,6 +600,14 @@
     },
     {
       "date": "20260916",
+      "headline": "OpenAI boss says world 'right to be afraid' but should trust AI firms",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260916",
       "headline": "AI regulation faces political deadlock as calls grow for Congress to act",
       "impacts": {
         "반도체·AI": -1
@@ -608,24 +616,16 @@
     },
     {
       "date": "20260916",
-      "headline": "Kennedy Center closes amid financial crisis and Trump name dispute",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260916",
       "headline": "[거시분석] Iran war has led to US munitions shortfalls, ...",
       "impacts": {
         "방산": 1,
-        "전체시장": -2,
+        "전체시장": -3,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 56,
-  "total_positives": 28,
+  "total_negatives": 55,
+  "total_positives": 29,
   "risk_level": "EXTREME"
 }
