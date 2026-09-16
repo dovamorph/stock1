@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T16:25:29.636427+09:00",
+  "updated_at": "2026-09-16T22:15:30.565398+09:00",
   "date": "20260916",
   "window_days": 14,
   "sectors": [
@@ -18,19 +18,13 @@
     "반도체·AI": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
         {
           "date": "20260916",
           "type": "positive",
           "headline": "OpenAI boss says world 'right to be afraid' but should trust AI firms",
           "score": 1
-        },
-        {
-          "date": "20260916",
-          "type": "negative",
-          "headline": "AI regulation faces political deadlock as calls grow for Congress to act",
-          "score": -1
         },
         {
           "date": "20260915",
@@ -49,14 +43,26 @@
           "type": "negative",
           "headline": "[거시분석] Palestine weekly: Settlement sanctions spark ...",
           "score": -2
+        },
+        {
+          "date": "20260910",
+          "type": "negative",
+          "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
+          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20260916",
+          "type": "negative",
+          "headline": "[거시분석] Eight children among 21 killed after war-dama...",
+          "score": -2
+        },
         {
           "date": "20260914",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] Civilians told to flee Ukraine's fortress cit...",
           "score": -2
-        },
-        {
-          "date": "20260910",
-          "type": "negative",
-          "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
-          "score": -2
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20260916",
           "type": "positive",
-          "headline": "[거시분석] Iran war has led to US munitions shortfalls, ...",
-          "score": 1
+          "headline": "[거시분석] Eight children among 21 killed after war-dama...",
+          "score": 3
         },
         {
           "date": "20260915",
@@ -166,7 +166,7 @@
         {
           "date": "20260916",
           "type": "negative",
-          "headline": "[거시분석] Iran war has led to US munitions shortfalls, ...",
+          "headline": "[거시분석] Eight children among 21 killed after war-dama...",
           "score": -1
         },
         {
@@ -215,8 +215,8 @@
         {
           "date": "20260916",
           "type": "negative",
-          "headline": "[거시분석] Iran war has led to US munitions shortfalls, ...",
-          "score": -3
+          "headline": "[거시분석] Eight children among 21 killed after war-dama...",
+          "score": -6
         },
         {
           "date": "20260915",
@@ -608,18 +608,11 @@
     },
     {
       "date": "20260916",
-      "headline": "AI regulation faces political deadlock as calls grow for Congress to act",
+      "headline": "[거시분석] Eight children among 21 killed after war-dama...",
       "impacts": {
-        "반도체·AI": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260916",
-      "headline": "[거시분석] Iran war has led to US munitions shortfalls, ...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -3,
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -6,
         "금융": -1
       },
       "source": "geo_categories"
