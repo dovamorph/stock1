@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-16T22:15:30.565398+09:00",
-  "date": "20260916",
+  "updated_at": "2026-09-17T03:00:56.446881+09:00",
+  "date": "20260917",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -17,9 +17,21 @@
   "sector_stats": {
     "반도체·AI": {
       "score": -10,
-      "positive_count": 2,
-      "negative_count": 7,
+      "positive_count": 3,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260917",
+          "type": "positive",
+          "headline": "OpenAI boss says world 'right to be afraid' but should trust AI firms",
+          "score": 1
+        },
+        {
+          "date": "20260917",
+          "type": "negative",
+          "headline": "[거시분석] Eight children among 21 killed after war-dama...",
+          "score": -2
+        },
         {
           "date": "20260916",
           "type": "positive",
@@ -37,18 +49,6 @@
           "type": "positive",
           "headline": "Trump calls, interrupts Nvidia CEO to say AI fears are ‘a hoax’",
           "score": 1
-        },
-        {
-          "date": "20260915",
-          "type": "negative",
-          "headline": "[거시분석] Palestine weekly: Settlement sanctions spark ...",
-          "score": -2
-        },
-        {
-          "date": "20260910",
-          "type": "negative",
-          "headline": "[거시분석] Iran war won't end until after crucial Novemb...",
-          "score": -2
         }
       ]
     },
@@ -57,6 +57,12 @@
       "positive_count": 1,
       "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20260917",
+          "type": "negative",
+          "headline": "[거시분석] Eight children among 21 killed after war-dama...",
+          "score": -2
+        },
         {
           "date": "20260916",
           "type": "negative",
@@ -80,20 +86,20 @@
           "type": "negative",
           "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
           "score": -2
-        },
-        {
-          "date": "20260911",
-          "type": "negative",
-          "headline": "[거시분석] Civilians told to flee Ukraine's fortress cit...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 21,
+      "positive_count": 20,
       "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20260917",
+          "type": "positive",
+          "headline": "[거시분석] Eight children among 21 killed after war-dama...",
+          "score": 3
+        },
         {
           "date": "20260916",
           "type": "positive",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "러, 폴란드 코앞 철도시설 공습…우크라 \"EU·나토 겨냥하나\"",
           "score": 1
-        },
-        {
-          "date": "20260913",
-          "type": "positive",
-          "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
-          "score": 3
         }
       ]
     },
@@ -161,8 +161,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 14,
+      "negative_count": 15,
       "recent_events": [
+        {
+          "date": "20260917",
+          "type": "negative",
+          "headline": "[거시분석] Eight children among 21 killed after war-dama...",
+          "score": -1
+        },
         {
           "date": "20260916",
           "type": "negative",
@@ -186,12 +192,6 @@
           "type": "negative",
           "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
           "score": -1
-        },
-        {
-          "date": "20260911",
-          "type": "negative",
-          "headline": "[거시분석] Civilians told to flee Ukraine's fortress cit...",
-          "score": -1
         }
       ]
     },
@@ -212,6 +212,12 @@
       "positive_count": 2,
       "negative_count": 20,
       "recent_events": [
+        {
+          "date": "20260917",
+          "type": "negative",
+          "headline": "[거시분석] Eight children among 21 killed after war-dama...",
+          "score": -7
+        },
         {
           "date": "20260916",
           "type": "negative",
@@ -235,35 +241,11 @@
           "type": "negative",
           "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
           "score": -5
-        },
-        {
-          "date": "20260912",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
-          "score": -6
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260902",
-      "headline": "뉴욕증시, 이어지는 美-이란 교전 속 혼조 출발",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260902",
-      "headline": "[거시분석] EU and Nato vow to step up pressure on Russia...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260903",
       "headline": "美, AI인프라 투자 열풍에 7월 무역적자 작년 3월 이후 최대",
@@ -616,9 +598,29 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260917",
+      "headline": "OpenAI boss says world 'right to be afraid' but should trust AI firms",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260917",
+      "headline": "[거시분석] Eight children among 21 killed after war-dama...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -7,
+        "금융": -1,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 55,
+  "total_negatives": 57,
   "total_positives": 29,
   "risk_level": "EXTREME"
 }
