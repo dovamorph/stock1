@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T07:44:46.411190+09:00",
+  "updated_at": "2026-09-17T13:09:04.729776+09:00",
   "date": "20260917",
   "window_days": 14,
   "sectors": [
@@ -29,7 +29,7 @@
         {
           "date": "20260917",
           "type": "negative",
-          "headline": "[거시분석] Photos show widespread damage at US sites fro...",
+          "headline": "[거시분석] US interest rates raised for first time in th...",
           "score": -2
         },
         {
@@ -97,7 +97,7 @@
         {
           "date": "20260917",
           "type": "positive",
-          "headline": "[거시분석] Photos show widespread damage at US sites fro...",
+          "headline": "[거시분석] US interest rates raised for first time in th...",
           "score": 1
         },
         {
@@ -161,13 +161,19 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 15,
+      "negative_count": 16,
       "recent_events": [
         {
           "date": "20260917",
           "type": "negative",
-          "headline": "[거시분석] Photos show widespread damage at US sites fro...",
+          "headline": "What to know about US Federal Reserve’s first interest rate hike in 3 years",
           "score": -1
+        },
+        {
+          "date": "20260917",
+          "type": "negative",
+          "headline": "[거시분석] US interest rates raised for first time in th...",
+          "score": -3
         },
         {
           "date": "20260916",
@@ -185,12 +191,6 @@
           "date": "20260913",
           "type": "negative",
           "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
-          "score": -1
-        },
-        {
-          "date": "20260912",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
           "score": -1
         }
       ]
@@ -215,8 +215,8 @@
         {
           "date": "20260917",
           "type": "negative",
-          "headline": "[거시분석] Photos show widespread damage at US sites fro...",
-          "score": -5
+          "headline": "[거시분석] US interest rates raised for first time in th...",
+          "score": -7
         },
         {
           "date": "20260916",
@@ -609,17 +609,25 @@
     },
     {
       "date": "20260917",
-      "headline": "[거시분석] Photos show widespread damage at US sites fro...",
+      "headline": "What to know about US Federal Reserve’s first interest rate hike in 3 years",
+      "impacts": {
+        "금융": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260917",
+      "headline": "[거시분석] US interest rates raised for first time in th...",
       "impacts": {
         "방산": 1,
-        "전체시장": -5,
-        "금융": -1,
+        "전체시장": -7,
+        "금융": -3,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 56,
+  "total_negatives": 57,
   "total_positives": 29,
   "risk_level": "EXTREME"
 }
