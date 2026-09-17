@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T13:09:04.729776+09:00",
+  "updated_at": "2026-09-17T20:16:39.961690+09:00",
   "date": "20260917",
   "window_days": 14,
   "sectors": [
@@ -17,14 +17,26 @@
   "sector_stats": {
     "반도체·AI": {
       "score": -10,
-      "positive_count": 3,
-      "negative_count": 8,
+      "positive_count": 4,
+      "negative_count": 9,
       "recent_events": [
         {
           "date": "20260917",
           "type": "positive",
           "headline": "OpenAI boss says world 'right to be afraid' but should trust AI firms",
           "score": 1
+        },
+        {
+          "date": "20260917",
+          "type": "positive",
+          "headline": "OpenAI reports more incidents of models acting deceptively",
+          "score": 1
+        },
+        {
+          "date": "20260917",
+          "type": "negative",
+          "headline": "Can AI regulation keep America ahead of China?",
+          "score": -1
         },
         {
           "date": "20260917",
@@ -36,18 +48,6 @@
           "date": "20260916",
           "type": "positive",
           "headline": "OpenAI boss says world 'right to be afraid' but should trust AI firms",
-          "score": 1
-        },
-        {
-          "date": "20260915",
-          "type": "negative",
-          "headline": "AI regulation faces political deadlock as calls grow for Congress to act",
-          "score": -1
-        },
-        {
-          "date": "20260915",
-          "type": "positive",
-          "headline": "Trump calls, interrupts Nvidia CEO to say AI fears are ‘a hoax’",
           "score": 1
         }
       ]
@@ -166,7 +166,7 @@
         {
           "date": "20260917",
           "type": "negative",
-          "headline": "What to know about US Federal Reserve’s first interest rate hike in 3 years",
+          "headline": "Trump threatens to end trade with Mexico and Europe after rate hike",
           "score": -1
         },
         {
@@ -210,13 +210,19 @@
     "전체시장": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 20,
+      "negative_count": 21,
       "recent_events": [
         {
           "date": "20260917",
           "type": "negative",
+          "headline": "India faces 100% tariff threat over Russian oil after US House vote",
+          "score": -1
+        },
+        {
+          "date": "20260917",
+          "type": "negative",
           "headline": "[거시분석] US interest rates raised for first time in th...",
-          "score": -7
+          "score": -8
         },
         {
           "date": "20260916",
@@ -235,12 +241,6 @@
           "type": "negative",
           "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
           "score": -6
-        },
-        {
-          "date": "20260913",
-          "type": "negative",
-          "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
-          "score": -5
         }
       ]
     }
@@ -601,6 +601,14 @@
     },
     {
       "date": "20260917",
+      "headline": "India faces 100% tariff threat over Russian oil after US House vote",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260917",
       "headline": "OpenAI boss says world 'right to be afraid' but should trust AI firms",
       "impacts": {
         "반도체·AI": 1
@@ -609,9 +617,25 @@
     },
     {
       "date": "20260917",
-      "headline": "What to know about US Federal Reserve’s first interest rate hike in 3 years",
+      "headline": "OpenAI reports more incidents of models acting deceptively",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260917",
+      "headline": "Trump threatens to end trade with Mexico and Europe after rate hike",
       "impacts": {
         "금융": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260917",
+      "headline": "Can AI regulation keep America ahead of China?",
+      "impacts": {
+        "반도체·AI": -1
       },
       "source": "keyword"
     },
@@ -620,14 +644,14 @@
       "headline": "[거시분석] US interest rates raised for first time in th...",
       "impacts": {
         "방산": 1,
-        "전체시장": -7,
+        "전체시장": -8,
         "금융": -3,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 57,
-  "total_positives": 29,
+  "total_negatives": 59,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
