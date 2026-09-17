@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T06:05:58.634581+09:00",
+  "updated_at": "2026-09-18T08:59:38.432282+09:00",
   "date": "20260918",
   "window_days": 14,
   "sectors": [
@@ -18,13 +18,19 @@
     "반도체·AI": {
       "score": -10,
       "positive_count": 5,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
         {
           "date": "20260918",
           "type": "positive",
           "headline": "OpenAI boss says world 'right to be afraid' but should trust AI firms",
           "score": 1
+        },
+        {
+          "date": "20260918",
+          "type": "negative",
+          "headline": "[거시분석] UN experts say grounds to believe US committe...",
+          "score": -2
         },
         {
           "date": "20260917",
@@ -43,12 +49,6 @@
           "type": "negative",
           "headline": "Can AI regulation keep America ahead of China?",
           "score": -1
-        },
-        {
-          "date": "20260917",
-          "type": "negative",
-          "headline": "[거시분석] US interest rates raised for first time in th...",
-          "score": -2
         }
       ]
     },
@@ -127,16 +127,10 @@
       ]
     },
     "전력·에너지": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260918",
-          "type": "positive",
-          "headline": "생산자물가 한 달 만에 반등…8월 폭염·유가 상승에 0.2%↑",
-          "score": 1
-        },
         {
           "date": "20260907",
           "type": "positive",
@@ -216,7 +210,7 @@
     "전체시장": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 23,
+      "negative_count": 22,
       "recent_events": [
         {
           "date": "20260918",
@@ -227,14 +221,8 @@
         {
           "date": "20260918",
           "type": "negative",
-          "headline": "생산자물가 한 달 만에 반등…8월 폭염·유가 상승에 0.2%↑",
-          "score": -1
-        },
-        {
-          "date": "20260918",
-          "type": "negative",
           "headline": "[거시분석] UN experts say grounds to believe US committe...",
-          "score": -3
+          "score": -5
         },
         {
           "date": "20260917",
@@ -247,6 +235,12 @@
           "type": "negative",
           "headline": "[거시분석] US interest rates raised for first time in th...",
           "score": -8
+        },
+        {
+          "date": "20260916",
+          "type": "negative",
+          "headline": "[거시분석] Eight children among 21 killed after war-dama...",
+          "score": -6
         }
       ]
     }
@@ -647,25 +641,17 @@
     },
     {
       "date": "20260918",
-      "headline": "생산자물가 한 달 만에 반등…8월 폭염·유가 상승에 0.2%↑",
-      "impacts": {
-        "전력·에너지": 1,
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260918",
       "headline": "[거시분석] UN experts say grounds to believe US committe...",
       "impacts": {
         "방산": 1,
-        "전체시장": -3,
-        "금융": -1
+        "전체시장": -5,
+        "금융": -1,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 60,
-  "total_positives": 30,
+  "total_positives": 29,
   "risk_level": "EXTREME"
 }
