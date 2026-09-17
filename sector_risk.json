@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T01:33:33.590481+09:00",
+  "updated_at": "2026-09-18T06:05:58.634581+09:00",
   "date": "20260918",
   "window_days": 14,
   "sectors": [
@@ -18,19 +18,13 @@
     "반도체·AI": {
       "score": -10,
       "positive_count": 5,
-      "negative_count": 10,
+      "negative_count": 9,
       "recent_events": [
         {
           "date": "20260918",
           "type": "positive",
           "headline": "OpenAI boss says world 'right to be afraid' but should trust AI firms",
           "score": 1
-        },
-        {
-          "date": "20260918",
-          "type": "negative",
-          "headline": "[거시분석] Photos show widespread damage at US sites fro...",
-          "score": -2
         },
         {
           "date": "20260917",
@@ -49,20 +43,20 @@
           "type": "negative",
           "headline": "Can AI regulation keep America ahead of China?",
           "score": -1
+        },
+        {
+          "date": "20260917",
+          "type": "negative",
+          "headline": "[거시분석] US interest rates raised for first time in th...",
+          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 8,
       "recent_events": [
-        {
-          "date": "20260918",
-          "type": "negative",
-          "headline": "[거시분석] Photos show widespread damage at US sites fro...",
-          "score": -2
-        },
         {
           "date": "20260916",
           "type": "negative",
@@ -86,31 +80,25 @@
           "type": "negative",
           "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
           "score": -2
+        },
+        {
+          "date": "20260911",
+          "type": "negative",
+          "headline": "[거시분석] Civilians told to flee Ukraine's fortress cit...",
+          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 20,
-      "negative_count": 5,
+      "positive_count": 19,
+      "negative_count": 4,
       "recent_events": [
         {
           "date": "20260918",
-          "type": "negative",
-          "headline": "\"사우디, 오만 통해 후티 반군에 '2주 휴전' 제안\"",
-          "score": -1
-        },
-        {
-          "date": "20260918",
           "type": "positive",
-          "headline": "폴란드 \"러, 국경 4㎞ 앞 우크라 서부 또 공습\"",
+          "headline": "[거시분석] UN experts say grounds to believe US committe...",
           "score": 1
-        },
-        {
-          "date": "20260918",
-          "type": "positive",
-          "headline": "[거시분석] Photos show widespread damage at US sites fro...",
-          "score": 3
         },
         {
           "date": "20260917",
@@ -123,14 +111,32 @@
           "type": "positive",
           "headline": "[거시분석] Eight children among 21 killed after war-dama...",
           "score": 3
+        },
+        {
+          "date": "20260915",
+          "type": "positive",
+          "headline": "[거시분석] Palestine weekly: Settlement sanctions spark ...",
+          "score": 1
+        },
+        {
+          "date": "20260914",
+          "type": "positive",
+          "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
+          "score": 3
         }
       ]
     },
     "전력·에너지": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260918",
+          "type": "positive",
+          "headline": "생산자물가 한 달 만에 반등…8월 폭염·유가 상승에 0.2%↑",
+          "score": 1
+        },
         {
           "date": "20260907",
           "type": "positive",
@@ -166,7 +172,7 @@
         {
           "date": "20260918",
           "type": "negative",
-          "headline": "[거시분석] Photos show widespread damage at US sites fro...",
+          "headline": "[거시분석] UN experts say grounds to believe US committe...",
           "score": -1
         },
         {
@@ -209,7 +215,7 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 3,
+      "positive_count": 2,
       "negative_count": 23,
       "recent_events": [
         {
@@ -220,27 +226,27 @@
         },
         {
           "date": "20260918",
-          "type": "positive",
-          "headline": "\"사우디, 오만 통해 후티 반군에 '2주 휴전' 제안\"",
-          "score": 1
-        },
-        {
-          "date": "20260918",
           "type": "negative",
-          "headline": "미국 못 믿는 중견국들의 밀착…고율관세로 찢어놓겠다는 트럼프",
+          "headline": "생산자물가 한 달 만에 반등…8월 폭염·유가 상승에 0.2%↑",
           "score": -1
         },
         {
           "date": "20260918",
           "type": "negative",
-          "headline": "[거시분석] Photos show widespread damage at US sites fro...",
-          "score": -7
+          "headline": "[거시분석] UN experts say grounds to believe US committe...",
+          "score": -3
         },
         {
           "date": "20260917",
           "type": "negative",
           "headline": "India faces 100% tariff threat over Russian oil after US House vote",
           "score": -1
+        },
+        {
+          "date": "20260917",
+          "type": "negative",
+          "headline": "[거시분석] US interest rates raised for first time in th...",
+          "score": -8
         }
       ]
     }
@@ -641,43 +647,25 @@
     },
     {
       "date": "20260918",
-      "headline": "\"사우디, 오만 통해 후티 반군에 '2주 휴전' 제안\"",
+      "headline": "생산자물가 한 달 만에 반등…8월 폭염·유가 상승에 0.2%↑",
       "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260918",
-      "headline": "미국 못 믿는 중견국들의 밀착…고율관세로 찢어놓겠다는 트럼프",
-      "impacts": {
+        "전력·에너지": 1,
         "전체시장": -1
       },
       "source": "keyword"
     },
     {
       "date": "20260918",
-      "headline": "폴란드 \"러, 국경 4㎞ 앞 우크라 서부 또 공습\"",
+      "headline": "[거시분석] UN experts say grounds to believe US committe...",
       "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260918",
-      "headline": "[거시분석] Photos show widespread damage at US sites fro...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -7,
-        "금융": -1,
-        "반도체·AI": -2
+        "방산": 1,
+        "전체시장": -3,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 63,
-  "total_positives": 31,
+  "total_negatives": 60,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
