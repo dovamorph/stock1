@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T13:31:30.749954+09:00",
+  "updated_at": "2026-09-18T19:50:02.557198+09:00",
   "date": "20260918",
   "window_days": 14,
   "sectors": [
@@ -17,15 +17,9 @@
   "sector_stats": {
     "반도체·AI": {
       "score": -10,
-      "positive_count": 5,
+      "positive_count": 4,
       "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20260918",
-          "type": "positive",
-          "headline": "OpenAI boss says world 'right to be afraid' but should trust AI firms",
-          "score": 1
-        },
         {
           "date": "20260918",
           "type": "negative",
@@ -49,6 +43,12 @@
           "type": "negative",
           "headline": "Can AI regulation keep America ahead of China?",
           "score": -1
+        },
+        {
+          "date": "20260917",
+          "type": "negative",
+          "headline": "[거시분석] US interest rates raised for first time in th...",
+          "score": -2
         }
       ]
     },
@@ -209,14 +209,20 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 2,
-      "negative_count": 22,
+      "positive_count": 4,
+      "negative_count": 21,
       "recent_events": [
         {
           "date": "20260918",
-          "type": "negative",
-          "headline": "India faces 100% tariff threat over Russian oil after US House vote",
-          "score": -1
+          "type": "positive",
+          "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
+          "score": 1
+        },
+        {
+          "date": "20260918",
+          "type": "positive",
+          "headline": "[표] 주간 거래소 외국인 순매수도 상위종목",
+          "score": 1
         },
         {
           "date": "20260918",
@@ -235,12 +241,6 @@
           "type": "negative",
           "headline": "[거시분석] US interest rates raised for first time in th...",
           "score": -8
-        },
-        {
-          "date": "20260916",
-          "type": "negative",
-          "headline": "[거시분석] Eight children among 21 killed after war-dama...",
-          "score": -6
         }
       ]
     }
@@ -625,17 +625,17 @@
     },
     {
       "date": "20260918",
-      "headline": "India faces 100% tariff threat over Russian oil after US House vote",
+      "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
       "impacts": {
-        "전체시장": -1
+        "전체시장": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260918",
-      "headline": "OpenAI boss says world 'right to be afraid' but should trust AI firms",
+      "headline": "[표] 주간 거래소 외국인 순매수도 상위종목",
       "impacts": {
-        "반도체·AI": 1
+        "전체시장": 1
       },
       "source": "keyword"
     },
@@ -651,7 +651,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 60,
-  "total_positives": 29,
+  "total_negatives": 59,
+  "total_positives": 30,
   "risk_level": "EXTREME"
 }
