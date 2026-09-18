@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T01:05:06.212052+09:00",
+  "updated_at": "2026-09-19T05:38:19.840057+09:00",
   "date": "20260919",
   "window_days": 14,
   "sectors": [
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20260919",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine's postal workers deliver lifeline und...",
+          "score": -2
+        },
         {
           "date": "20260916",
           "type": "negative",
@@ -80,31 +86,19 @@
           "type": "negative",
           "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
           "score": -2
-        },
-        {
-          "date": "20260911",
-          "type": "negative",
-          "headline": "[거시분석] Civilians told to flee Ukraine's fortress cit...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 19,
-      "negative_count": 5,
+      "negative_count": 4,
       "recent_events": [
         {
           "date": "20260919",
-          "type": "negative",
-          "headline": "Thailand’s Malay-Muslim separatists vow to fight as peace talks stall",
-          "score": -1
-        },
-        {
-          "date": "20260919",
           "type": "positive",
-          "headline": "[거시분석] UN experts say grounds to believe US committe...",
-          "score": 1
+          "headline": "[거시분석] Ukraine's postal workers deliver lifeline und...",
+          "score": 3
         },
         {
           "date": "20260918",
@@ -123,6 +117,12 @@
           "type": "positive",
           "headline": "[거시분석] Eight children among 21 killed after war-dama...",
           "score": 3
+        },
+        {
+          "date": "20260915",
+          "type": "positive",
+          "headline": "[거시분석] Palestine weekly: Settlement sanctions spark ...",
+          "score": 1
         }
       ]
     },
@@ -166,7 +166,7 @@
         {
           "date": "20260919",
           "type": "negative",
-          "headline": "[거시분석] UN experts say grounds to believe US committe...",
+          "headline": "[거시분석] Ukraine's postal workers deliver lifeline und...",
           "score": -1
         },
         {
@@ -215,8 +215,8 @@
         {
           "date": "20260919",
           "type": "negative",
-          "headline": "[거시분석] UN experts say grounds to believe US committe...",
-          "score": -3
+          "headline": "[거시분석] Ukraine's postal workers deliver lifeline und...",
+          "score": -6
         },
         {
           "date": "20260918",
@@ -633,18 +633,11 @@
     },
     {
       "date": "20260919",
-      "headline": "Thailand’s Malay-Muslim separatists vow to fight as peace talks stall",
+      "headline": "[거시분석] Ukraine's postal workers deliver lifeline und...",
       "impacts": {
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260919",
-      "headline": "[거시분석] UN experts say grounds to believe US committe...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -3,
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -6,
         "금융": -1
       },
       "source": "geo_categories"
