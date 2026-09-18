@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T05:38:19.840057+09:00",
+  "updated_at": "2026-09-19T08:59:32.409618+09:00",
   "date": "20260919",
   "window_days": 14,
   "sectors": [
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 8,
       "recent_events": [
-        {
-          "date": "20260919",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine's postal workers deliver lifeline und...",
-          "score": -2
-        },
         {
           "date": "20260916",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
           "score": -2
+        },
+        {
+          "date": "20260911",
+          "type": "negative",
+          "headline": "[거시분석] Civilians told to flee Ukraine's fortress cit...",
+          "score": -2
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20260919",
           "type": "positive",
-          "headline": "[거시분석] Ukraine's postal workers deliver lifeline und...",
-          "score": 3
+          "headline": "[거시분석] 'We simply don't know' - JP Morgan struggling...",
+          "score": 1
         },
         {
           "date": "20260918",
@@ -166,7 +166,7 @@
         {
           "date": "20260919",
           "type": "negative",
-          "headline": "[거시분석] Ukraine's postal workers deliver lifeline und...",
+          "headline": "[거시분석] 'We simply don't know' - JP Morgan struggling...",
           "score": -1
         },
         {
@@ -210,13 +210,19 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 21,
+      "negative_count": 22,
       "recent_events": [
         {
           "date": "20260919",
           "type": "negative",
-          "headline": "[거시분석] Ukraine's postal workers deliver lifeline und...",
-          "score": -6
+          "headline": "미중정상회담 의제로 AI·관세 오른다…만찬에 美 AI CEO들 참석",
+          "score": -1
+        },
+        {
+          "date": "20260919",
+          "type": "negative",
+          "headline": "[거시분석] 'We simply don't know' - JP Morgan struggling...",
+          "score": -3
         },
         {
           "date": "20260918",
@@ -235,12 +241,6 @@
           "type": "negative",
           "headline": "[거시분석] UN experts say grounds to believe US committe...",
           "score": -5
-        },
-        {
-          "date": "20260917",
-          "type": "negative",
-          "headline": "India faces 100% tariff threat over Russian oil after US House vote",
-          "score": -1
         }
       ]
     }
@@ -633,11 +633,18 @@
     },
     {
       "date": "20260919",
-      "headline": "[거시분석] Ukraine's postal workers deliver lifeline und...",
+      "headline": "미중정상회담 의제로 AI·관세 오른다…만찬에 美 AI CEO들 참석",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -6,
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260919",
+      "headline": "[거시분석] 'We simply don't know' - JP Morgan struggling...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -3,
         "금융": -1
       },
       "source": "geo_categories"
