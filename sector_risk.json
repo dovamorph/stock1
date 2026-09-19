@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T08:59:32.409618+09:00",
+  "updated_at": "2026-09-19T13:28:05.871076+09:00",
   "date": "20260919",
   "window_days": 14,
   "sectors": [
@@ -18,8 +18,14 @@
     "반도체·AI": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20260919",
+          "type": "negative",
+          "headline": "[거시분석] 'We simply don't know' - JP Morgan struggling...",
+          "score": -2
+        },
         {
           "date": "20260918",
           "type": "negative",
@@ -43,12 +49,6 @@
           "type": "negative",
           "headline": "Can AI regulation keep America ahead of China?",
           "score": -1
-        },
-        {
-          "date": "20260917",
-          "type": "negative",
-          "headline": "[거시분석] US interest rates raised for first time in th...",
-          "score": -2
         }
       ]
     },
@@ -210,19 +210,13 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 22,
+      "negative_count": 21,
       "recent_events": [
         {
           "date": "20260919",
           "type": "negative",
-          "headline": "미중정상회담 의제로 AI·관세 오른다…만찬에 美 AI CEO들 참석",
-          "score": -1
-        },
-        {
-          "date": "20260919",
-          "type": "negative",
           "headline": "[거시분석] 'We simply don't know' - JP Morgan struggling...",
-          "score": -3
+          "score": -5
         },
         {
           "date": "20260918",
@@ -241,6 +235,12 @@
           "type": "negative",
           "headline": "[거시분석] UN experts say grounds to believe US committe...",
           "score": -5
+        },
+        {
+          "date": "20260917",
+          "type": "negative",
+          "headline": "India faces 100% tariff threat over Russian oil after US House vote",
+          "score": -1
         }
       ]
     }
@@ -633,19 +633,12 @@
     },
     {
       "date": "20260919",
-      "headline": "미중정상회담 의제로 AI·관세 오른다…만찬에 美 AI CEO들 참석",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260919",
       "headline": "[거시분석] 'We simply don't know' - JP Morgan struggling...",
       "impacts": {
         "방산": 1,
-        "전체시장": -3,
-        "금융": -1
+        "전체시장": -5,
+        "금융": -1,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
