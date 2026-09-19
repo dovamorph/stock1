@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T03:29:36.906085+09:00",
+  "updated_at": "2026-09-20T07:14:32.038639+09:00",
   "date": "20260920",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260920",
           "type": "negative",
-          "headline": "[거시분석] Ed Sheeran concert set to go ahead after outc...",
+          "headline": "[거시분석] Lacking equipment, but not ambition: Gaza stu...",
           "score": -2
         },
         {
@@ -60,7 +60,7 @@
         {
           "date": "20260920",
           "type": "negative",
-          "headline": "[거시분석] Ed Sheeran concert set to go ahead after outc...",
+          "headline": "[거시분석] Lacking equipment, but not ambition: Gaza stu...",
           "score": -2
         },
         {
@@ -91,19 +91,13 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 19,
+      "positive_count": 18,
       "negative_count": 4,
       "recent_events": [
         {
           "date": "20260920",
           "type": "positive",
-          "headline": "사우디 수도 첫 공습경보…\"리야드 공항 인근 연료탱크서 불길\"(종합2보)",
-          "score": 1
-        },
-        {
-          "date": "20260920",
-          "type": "positive",
-          "headline": "[거시분석] Ed Sheeran concert set to go ahead after outc...",
+          "headline": "[거시분석] Lacking equipment, but not ambition: Gaza stu...",
           "score": 3
         },
         {
@@ -123,6 +117,12 @@
           "type": "positive",
           "headline": "[거시분석] US interest rates raised for first time in th...",
           "score": 1
+        },
+        {
+          "date": "20260916",
+          "type": "positive",
+          "headline": "[거시분석] Eight children among 21 killed after war-dama...",
+          "score": 3
         }
       ]
     },
@@ -215,7 +215,7 @@
         {
           "date": "20260920",
           "type": "negative",
-          "headline": "[거시분석] Ed Sheeran concert set to go ahead after outc...",
+          "headline": "[거시분석] Lacking equipment, but not ambition: Gaza stu...",
           "score": -6
         },
         {
@@ -617,15 +617,7 @@
     },
     {
       "date": "20260920",
-      "headline": "사우디 수도 첫 공습경보…\"리야드 공항 인근 연료탱크서 불길\"(종합2보)",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260920",
-      "headline": "[거시분석] Ed Sheeran concert set to go ahead after outc...",
+      "headline": "[거시분석] Lacking equipment, but not ambition: Gaza stu...",
       "impacts": {
         "방산": 3,
         "건설": -2,
@@ -636,6 +628,6 @@
     }
   ],
   "total_negatives": 57,
-  "total_positives": 30,
+  "total_positives": 29,
   "risk_level": "EXTREME"
 }
