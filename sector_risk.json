@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T13:28:05.871076+09:00",
+  "updated_at": "2026-09-19T19:33:41.425712+09:00",
   "date": "20260919",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260919",
           "type": "negative",
-          "headline": "[거시분석] 'We simply don't know' - JP Morgan struggling...",
+          "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
           "score": -2
         },
         {
@@ -97,7 +97,7 @@
         {
           "date": "20260919",
           "type": "positive",
-          "headline": "[거시분석] 'We simply don't know' - JP Morgan struggling...",
+          "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
           "score": 1
         },
         {
@@ -166,7 +166,7 @@
         {
           "date": "20260919",
           "type": "negative",
-          "headline": "[거시분석] 'We simply don't know' - JP Morgan struggling...",
+          "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
           "score": -1
         },
         {
@@ -215,7 +215,7 @@
         {
           "date": "20260919",
           "type": "negative",
-          "headline": "[거시분석] 'We simply don't know' - JP Morgan struggling...",
+          "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
           "score": -5
         },
         {
@@ -633,7 +633,7 @@
     },
     {
       "date": "20260919",
-      "headline": "[거시분석] 'We simply don't know' - JP Morgan struggling...",
+      "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
       "impacts": {
         "방산": 1,
         "전체시장": -5,
