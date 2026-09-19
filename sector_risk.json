@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T00:37:36.667502+09:00",
+  "updated_at": "2026-09-20T03:29:36.906085+09:00",
   "date": "20260920",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260920",
           "type": "negative",
-          "headline": "[거시분석] An unaffordable car market highlights Iran’s ...",
+          "headline": "[거시분석] Ed Sheeran concert set to go ahead after outc...",
           "score": -2
         },
         {
@@ -60,7 +60,7 @@
         {
           "date": "20260920",
           "type": "negative",
-          "headline": "[거시분석] An unaffordable car market highlights Iran’s ...",
+          "headline": "[거시분석] Ed Sheeran concert set to go ahead after outc...",
           "score": -2
         },
         {
@@ -103,7 +103,7 @@
         {
           "date": "20260920",
           "type": "positive",
-          "headline": "[거시분석] An unaffordable car market highlights Iran’s ...",
+          "headline": "[거시분석] Ed Sheeran concert set to go ahead after outc...",
           "score": 3
         },
         {
@@ -161,14 +161,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 16,
+      "negative_count": 15,
       "recent_events": [
-        {
-          "date": "20260920",
-          "type": "negative",
-          "headline": "[거시분석] An unaffordable car market highlights Iran’s ...",
-          "score": -1
-        },
         {
           "date": "20260919",
           "type": "negative",
@@ -192,6 +186,12 @@
           "type": "negative",
           "headline": "[거시분석] US interest rates raised for first time in th...",
           "score": -3
+        },
+        {
+          "date": "20260916",
+          "type": "negative",
+          "headline": "[거시분석] Eight children among 21 killed after war-dama...",
+          "score": -1
         }
       ]
     },
@@ -215,8 +215,8 @@
         {
           "date": "20260920",
           "type": "negative",
-          "headline": "[거시분석] An unaffordable car market highlights Iran’s ...",
-          "score": -8
+          "headline": "[거시분석] Ed Sheeran concert set to go ahead after outc...",
+          "score": -6
         },
         {
           "date": "20260919",
@@ -625,18 +625,17 @@
     },
     {
       "date": "20260920",
-      "headline": "[거시분석] An unaffordable car market highlights Iran’s ...",
+      "headline": "[거시분석] Ed Sheeran concert set to go ahead after outc...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -8,
-        "금융": -1,
+        "전체시장": -6,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 58,
+  "total_negatives": 57,
   "total_positives": 30,
   "risk_level": "EXTREME"
 }
