@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-20T19:56:32.201524+09:00",
-  "date": "20260920",
+  "updated_at": "2026-09-21T00:43:14.752880+09:00",
+  "date": "20260921",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -18,8 +18,14 @@
     "반도체·AI": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 11,
+      "negative_count": 12,
       "recent_events": [
+        {
+          "date": "20260921",
+          "type": "negative",
+          "headline": "[거시분석] Largest attack on Moscow sees Ukraine fire hu...",
+          "score": -2
+        },
         {
           "date": "20260920",
           "type": "negative",
@@ -43,12 +49,6 @@
           "type": "negative",
           "headline": "[거시분석] UN experts say grounds to believe US committe...",
           "score": -2
-        },
-        {
-          "date": "20260917",
-          "type": "positive",
-          "headline": "OpenAI boss says world 'right to be afraid' but should trust AI firms",
-          "score": 1
         }
       ]
     },
@@ -57,6 +57,12 @@
       "positive_count": 0,
       "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260921",
+          "type": "negative",
+          "headline": "[거시분석] Largest attack on Moscow sees Ukraine fire hu...",
+          "score": -2
+        },
         {
           "date": "20260916",
           "type": "negative",
@@ -80,20 +86,26 @@
           "type": "negative",
           "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
           "score": -2
-        },
-        {
-          "date": "20260911",
-          "type": "negative",
-          "headline": "[거시분석] Civilians told to flee Ukraine's fortress cit...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 18,
-      "negative_count": 4,
+      "negative_count": 3,
       "recent_events": [
+        {
+          "date": "20260921",
+          "type": "positive",
+          "headline": "[르포] 러 총선 노린 '역대급 공습'에도 모스크바 도심은 평온",
+          "score": 1
+        },
+        {
+          "date": "20260921",
+          "type": "positive",
+          "headline": "[거시분석] Largest attack on Moscow sees Ukraine fire hu...",
+          "score": 3
+        },
         {
           "date": "20260920",
           "type": "positive",
@@ -111,18 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] UN experts say grounds to believe US committe...",
           "score": 1
-        },
-        {
-          "date": "20260917",
-          "type": "positive",
-          "headline": "[거시분석] US interest rates raised for first time in th...",
-          "score": 1
-        },
-        {
-          "date": "20260916",
-          "type": "positive",
-          "headline": "[거시분석] Eight children among 21 killed after war-dama...",
-          "score": 3
         }
       ]
     },
@@ -161,8 +161,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 15,
+      "negative_count": 16,
       "recent_events": [
+        {
+          "date": "20260921",
+          "type": "negative",
+          "headline": "[거시분석] Largest attack on Moscow sees Ukraine fire hu...",
+          "score": -1
+        },
         {
           "date": "20260919",
           "type": "negative",
@@ -186,12 +192,6 @@
           "type": "negative",
           "headline": "[거시분석] US interest rates raised for first time in th...",
           "score": -3
-        },
-        {
-          "date": "20260916",
-          "type": "negative",
-          "headline": "[거시분석] Eight children among 21 killed after war-dama...",
-          "score": -1
         }
       ]
     },
@@ -209,9 +209,21 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 4,
-      "negative_count": 20,
+      "positive_count": 3,
+      "negative_count": 21,
       "recent_events": [
+        {
+          "date": "20260921",
+          "type": "negative",
+          "headline": "中 상반기 조선 수주량, 전년 대비 3배로…중동 전쟁 반사이익",
+          "score": -1
+        },
+        {
+          "date": "20260921",
+          "type": "negative",
+          "headline": "[거시분석] Largest attack on Moscow sees Ukraine fire hu...",
+          "score": -8
+        },
         {
           "date": "20260920",
           "type": "negative",
@@ -229,50 +241,11 @@
           "type": "positive",
           "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
           "score": 1
-        },
-        {
-          "date": "20260918",
-          "type": "positive",
-          "headline": "[표] 주간 거래소 외국인 순매수도 상위종목",
-          "score": 1
-        },
-        {
-          "date": "20260918",
-          "type": "negative",
-          "headline": "[거시분석] UN experts say grounds to believe US committe...",
-          "score": -5
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260906",
-      "headline": "트럼프 특사, 우크라 첫 방문…젤렌스키와 종전 논의",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260906",
-      "headline": "이스라엘, 레바논 남부 공습해 4명 사망… 레바논, 美 개입 촉구",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260906",
-      "headline": "[거시분석] US envoys meet Zelensky in Ukraine after talk...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -4
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260907",
       "headline": "Peace talks rich in symbolism but fundamental differences between Russia and Ukraine remain",
@@ -632,9 +605,37 @@
         "반도체·AI": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260921",
+      "headline": "中 상반기 조선 수주량, 전년 대비 3배로…중동 전쟁 반사이익",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260921",
+      "headline": "[르포] 러 총선 노린 '역대급 공습'에도 모스크바 도심은 평온",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260921",
+      "headline": "[거시분석] Largest attack on Moscow sees Ukraine fire hu...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -8,
+        "금융": -1,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 57,
-  "total_positives": 29,
+  "total_negatives": 59,
+  "total_positives": 28,
   "risk_level": "EXTREME"
 }
