@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T00:43:14.752880+09:00",
+  "updated_at": "2026-09-21T03:34:05.265518+09:00",
   "date": "20260921",
   "window_days": 14,
   "sectors": [
@@ -91,15 +91,9 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 18,
+      "positive_count": 17,
       "negative_count": 3,
       "recent_events": [
-        {
-          "date": "20260921",
-          "type": "positive",
-          "headline": "[르포] 러 총선 노린 '역대급 공습'에도 모스크바 도심은 평온",
-          "score": 1
-        },
         {
           "date": "20260921",
           "type": "positive",
@@ -122,6 +116,12 @@
           "date": "20260918",
           "type": "positive",
           "headline": "[거시분석] UN experts say grounds to believe US committe...",
+          "score": 1
+        },
+        {
+          "date": "20260917",
+          "type": "positive",
+          "headline": "[거시분석] US interest rates raised for first time in th...",
           "score": 1
         }
       ]
@@ -222,7 +222,7 @@
           "date": "20260921",
           "type": "negative",
           "headline": "[거시분석] Largest attack on Moscow sees Ukraine fire hu...",
-          "score": -8
+          "score": -9
         },
         {
           "date": "20260920",
@@ -616,19 +616,11 @@
     },
     {
       "date": "20260921",
-      "headline": "[르포] 러 총선 노린 '역대급 공습'에도 모스크바 도심은 평온",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260921",
       "headline": "[거시분석] Largest attack on Moscow sees Ukraine fire hu...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -8,
+        "전체시장": -9,
         "금융": -1,
         "반도체·AI": -2
       },
@@ -636,6 +628,6 @@
     }
   ],
   "total_negatives": 59,
-  "total_positives": 28,
+  "total_positives": 27,
   "risk_level": "EXTREME"
 }

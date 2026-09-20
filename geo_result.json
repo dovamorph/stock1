@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21 00:43",
+  "updated": "2026-09-21 03:33",
   "news_count": 81,
   "intl_count": 51,
   "domestic_count": 30,
@@ -13,29 +13,29 @@
     "StockPlus": 0
   },
   "news_sample": [
+    "German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on",
     "Largest attack on Moscow sees Ukraine fire hundreds of drones, mayor says",
     "Ed Sheeran admits 'mistakes' at first show since Macklemore controversy",
-    "German elections under way which could decide fate of Chancellor Merz",
-    "Trump says his planned triumphal arch will double as a military complex to store ammunition",
+    "Trump says triumphal arch will be military complex with drones and snipers",
     "Houthis say they targeted Saudi capital with ballistic missiles"
   ],
   "all_headlines": [
+    "German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on",
     "Largest attack on Moscow sees Ukraine fire hundreds of drones, mayor says",
     "Ed Sheeran admits 'mistakes' at first show since Macklemore controversy",
-    "German elections under way which could decide fate of Chancellor Merz",
-    "Trump says his planned triumphal arch will double as a military complex to store ammunition",
+    "Trump says triumphal arch will be military complex with drones and snipers",
     "Houthis say they targeted Saudi capital with ballistic missiles",
+    "Converse pulls 'deeply upsetting' advert after backlash",
     "Our head teacher was an abuser. We joined forces to get justice - now we're married",
-    "Cultural treasures are being destroyed worldwide - so why is no-one being punished?",
     "Nato welcomes Greenland deal as Trump says it will give US 'permanent security control'",
     "Journalists denied White House access after Trump banned some media outlets",
-    "Converse pulls 'deeply upsetting' advert after backlash",
     "Google's Gemini AI hacked three companies in security test",
     "Grim discoveries of murdered women spark fear in South Africa",
     "Trump says US will form 'AI Force' and appoint an artificial intelligence tsar",
     "Trump signs sweeping Russia sanctions bill",
     "Shark attack prompts rare kill order in Western Australia as victim named",
     "Millions without power as Cuba hit by latest major blackout",
+    "Cultural treasures are being destroyed worldwide - so why is no-one being punished?",
     "'I don't even know if my parents are alive' - the war heroes jailed 25 years ago",
     "Trump escalates media fight after week of setbacks",
     "Mum's viral barefoot race sparks debate over India's education crisis",
@@ -46,6 +46,15 @@
     "'Enough is enough': Women protest after string of murders near Johannesburg",
     "Is the Kennedy Center losing 'hundreds of millions of dollars'?",
     "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+    "Gaza artists honour Macklemore for supporting Palestine",
+    "Jerusalem Daily: Israel pardons soldier Elor Azaria",
+    "Trump tariffs hit Canada’s dairy farmers as US sales stall",
+    "Meloni promises to ban burqas, niqabs in Italy’s schools",
+    "Central Colombia forest fire threatens tourist town of Villa de Leyva",
+    "Atletico Madrid beat 10-man Real Madrid 2-1 in feisty La Liga derby",
+    "Photos: Nepal flood survivors find little trace of former lives",
+    "Why have US prosecutors labelled China’s Huawei a criminal enterprise?",
+    "Kenya’s Ngetich breaks women-only half-marathon world record by a second",
     "Trump says monumental arch in Washington, DC will also be military complex",
     "Venezuela quakes rescue dog ‘Tsunami’ honoured with statue",
     "Hundreds protest in Tunisia for release of jailed Gaza flotilla activists",
@@ -62,15 +71,15 @@
     "LIVE: Fulham vs Manchester United – Premier League",
     "Israeli forces kill Palestinian near Jenin in occupied West Bank",
     "Pro-Palestine protesters demonstrate outside Ed Sheeran concert",
-    "Israeli settlers storm Al-Aqsa in latest targeting of East Jerusalem sites",
-    "Back to school in Gaza: Learning in tents after years of disruption",
-    "What are Iran’s latest conditions to end its war with the US?",
-    "Anthems, transport, housing: What’s gone wrong at the Asian Games in Japan?",
-    "LIVE: Atletico Madrid vs Real Madrid – La Liga",
-    "Trump’s Greenland deal: A triumph of optics?",
-    "Turkish FM says ready to meet Saudi defence needs – what does that mean?",
-    "Salah scores hat-trick as Trabzonspor beat Galatasaray in Turkish league",
-    "Asian Games: Smriti Mandhana breaks T20 record as India beat Bangladesh",
+    "차기 유엔총장 후보군에 속속 반대표…강대국 선호 새후보 등판?",
+    "[게시판] SF한인회, 광복 81주년 기념 손흥민 경기 응원전",
+    "백악관서 쫓겨난 美매체들 \"트럼프의 기행\" \"미국인 모두 피해\"",
+    "독일 극우 AfD, 옛 동독 주의회 선거 또 1위 예측",
+    "美연준 매파 카시카리 \"인플레, 경제 전반서 여전히 너무 높다\"",
+    "쿠바 전력망 32시간 만에 복구됐지만…美는 봉쇄 강화",
+    "'우크라 사태' 속 러 총선 투표율 50% 넘겨…푸틴 장악력 강화",
+    "트럼프 \"대이란 대응 결정중…이란 대통령 만나는데 열려있다\"",
+    "美태평양사령부, 北미사일에 \"발사 인지…동맹과 긴밀 협의\"",
     "[아시안게임] \"지면 죽자\"…'결승날 훈련 무산' 황당 악재가 깨운 금빛 투혼",
     "[아시안게임] 12년 만의 남자농구 금 이끈 마줄스 감독 \"새로운 시작\"",
     "이란, 자국 주재 프랑스어 교육센터 폐쇄…\"불법 행위\" 주장",
@@ -91,16 +100,7 @@
     "멜로니 \"이탈리아 학교서 부르카·니캅 착용 금지 추진\"",
     "[아시안게임] 첫날 근대5종·테크볼·남자농구서 '금빛 낭보'…3위로 출발(종합)",
     "[아시안게임] 의구심 딛고 아시아 제패…빛 발한 마줄스의 '시스템 농구'",
-    "中 상반기 조선 수주량, 전년 대비 3배로…중동 전쟁 반사이익",
-    "[아시안게임] 이현중 '더블더블' 한국농구, 일본 꺾고 12년 만에 정상 탈환(종합)",
-    "베트남 선수 '방플' 논란에 PUBG 대회 취소…\"재발 방지책 마련\"(종합)",
-    "[1보] 한국 남자농구, 개최국 일본 꺾고 12년 만에 아시안게임 금메달",
-    "日정부 \"北, 탄도미사일 2차례 발사, EEZ밖 낙하…강력 규탄\"(종합2보)",
-    "[프로축구 중간순위] 20일",
-    "강북구 근린공원 모노레일 선로작업 중 60대 남성 중상",
-    "'7명 사상' 안성 나눔장터 돌진사고 운전자 내일 구속심사",
-    "'티아고 2골에도' 전북, 광주와 2-2 비겨…서울은 포항에 덜미(종합)",
-    "[르포] 러 총선 노린 '역대급 공습'에도 모스크바 도심은 평온"
+    "中 상반기 조선 수주량, 전년 대비 3배로…중동 전쟁 반사이익"
   ],
   "categories": {
     "geopolitical": {
@@ -110,7 +110,7 @@
       "summary": "Largest attack on Moscow sees Ukraine fire hu...",
       "action": "포지션 현금화 고려 / 즉각 대응",
       "matched": 12,
-      "score": 3.0
+      "score": 1.5
     },
     "macro": {
       "level": "주의",
@@ -118,8 +118,8 @@
       "signal": "🟡",
       "summary": "Postponing the future: War and inflation redr...",
       "action": "신규 매수 자제 / 추이 관찰",
-      "matched": 1,
-      "score": 1.4
+      "matched": 2,
+      "score": 4.4
     },
     "disaster": {
       "level": "주의",
@@ -136,23 +136,23 @@
       "signal": "🔴",
       "summary": "Trump signs sweeping Russia sanctions bill",
       "action": "포지션 현금화 고려 / 즉각 대응",
-      "matched": 6,
+      "matched": 7,
       "score": 1.5
     },
     "policy": {
-      "level": "신호",
+      "level": "주의",
       "color": "yellow",
       "signal": "🟡",
-      "summary": "中 상반기 조선 수주량, 전년 대비 3배로…중동 전쟁 반사이익",
-      "action": "관련 지표 추가 확인 후 판단",
-      "matched": 1,
+      "summary": "[게시판] SF한인회, 광복 81주년 기념 손흥민 경기 응원전",
+      "action": "신규 매수 자제 / 추이 관찰",
+      "matched": 2,
       "score": 1.5
     }
   },
   "overall": {
-    "level": "위험",
-    "color": "red",
+    "level": "주의",
+    "color": "yellow",
     "summary": "주의 필요: 지정학적 충돌, 보호무역·공급망",
-    "action": "포지션 현금화 고려 / 즉각 대응"
+    "action": "신규 매수 자제 / 추이 관찰"
   }
 }
