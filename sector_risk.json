@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T03:34:05.265518+09:00",
+  "updated_at": "2026-09-21T07:16:44.389531+09:00",
   "date": "20260921",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260921",
           "type": "negative",
-          "headline": "[거시분석] Largest attack on Moscow sees Ukraine fire hu...",
+          "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
           "score": -2
         },
         {
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20260921",
-          "type": "negative",
-          "headline": "[거시분석] Largest attack on Moscow sees Ukraine fire hu...",
-          "score": -2
-        },
         {
           "date": "20260916",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
           "score": -2
+        },
+        {
+          "date": "20260911",
+          "type": "negative",
+          "headline": "[거시분석] Civilians told to flee Ukraine's fortress cit...",
+          "score": -2
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20260921",
           "type": "positive",
-          "headline": "[거시분석] Largest attack on Moscow sees Ukraine fire hu...",
-          "score": 3
+          "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
+          "score": 1
         },
         {
           "date": "20260920",
@@ -161,14 +161,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 16,
+      "negative_count": 15,
       "recent_events": [
-        {
-          "date": "20260921",
-          "type": "negative",
-          "headline": "[거시분석] Largest attack on Moscow sees Ukraine fire hu...",
-          "score": -1
-        },
         {
           "date": "20260919",
           "type": "negative",
@@ -192,6 +186,12 @@
           "type": "negative",
           "headline": "[거시분석] US interest rates raised for first time in th...",
           "score": -3
+        },
+        {
+          "date": "20260916",
+          "type": "negative",
+          "headline": "[거시분석] Eight children among 21 killed after war-dama...",
+          "score": -1
         }
       ]
     },
@@ -210,19 +210,13 @@
     "전체시장": {
       "score": -10,
       "positive_count": 3,
-      "negative_count": 21,
+      "negative_count": 20,
       "recent_events": [
         {
           "date": "20260921",
           "type": "negative",
-          "headline": "中 상반기 조선 수주량, 전년 대비 3배로…중동 전쟁 반사이익",
-          "score": -1
-        },
-        {
-          "date": "20260921",
-          "type": "negative",
-          "headline": "[거시분석] Largest attack on Moscow sees Ukraine fire hu...",
-          "score": -9
+          "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
+          "score": -5
         },
         {
           "date": "20260920",
@@ -240,6 +234,12 @@
           "date": "20260918",
           "type": "positive",
           "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
+          "score": 1
+        },
+        {
+          "date": "20260918",
+          "type": "positive",
+          "headline": "[표] 주간 거래소 외국인 순매수도 상위종목",
           "score": 1
         }
       ]
@@ -608,26 +608,16 @@
     },
     {
       "date": "20260921",
-      "headline": "中 상반기 조선 수주량, 전년 대비 3배로…중동 전쟁 반사이익",
+      "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
       "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260921",
-      "headline": "[거시분석] Largest attack on Moscow sees Ukraine fire hu...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -9,
-        "금융": -1,
+        "방산": 1,
+        "전체시장": -5,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 59,
+  "total_negatives": 56,
   "total_positives": 27,
   "risk_level": "EXTREME"
 }
