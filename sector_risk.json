@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T07:14:32.038639+09:00",
+  "updated_at": "2026-09-20T13:08:17.006790+09:00",
   "date": "20260920",
   "window_days": 14,
   "sectors": [
@@ -18,12 +18,18 @@
     "반도체·AI": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
         {
           "date": "20260920",
           "type": "negative",
-          "headline": "[거시분석] Lacking equipment, but not ambition: Gaza stu...",
+          "headline": "Australia seeks big tech support for internet safety, AI regulation",
+          "score": -1
+        },
+        {
+          "date": "20260920",
+          "type": "negative",
+          "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
           "score": -2
         },
         {
@@ -43,26 +49,14 @@
           "type": "positive",
           "headline": "OpenAI boss says world 'right to be afraid' but should trust AI firms",
           "score": 1
-        },
-        {
-          "date": "20260917",
-          "type": "positive",
-          "headline": "OpenAI reports more incidents of models acting deceptively",
-          "score": 1
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20260920",
-          "type": "negative",
-          "headline": "[거시분석] Lacking equipment, but not ambition: Gaza stu...",
-          "score": -2
-        },
         {
           "date": "20260916",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
           "score": -2
+        },
+        {
+          "date": "20260911",
+          "type": "negative",
+          "headline": "[거시분석] Civilians told to flee Ukraine's fortress cit...",
+          "score": -2
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20260920",
           "type": "positive",
-          "headline": "[거시분석] Lacking equipment, but not ambition: Gaza stu...",
-          "score": 3
+          "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
+          "score": 1
         },
         {
           "date": "20260919",
@@ -161,8 +161,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 15,
+      "negative_count": 16,
       "recent_events": [
+        {
+          "date": "20260920",
+          "type": "negative",
+          "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
+          "score": -1
+        },
         {
           "date": "20260919",
           "type": "negative",
@@ -186,12 +192,6 @@
           "type": "negative",
           "headline": "[거시분석] US interest rates raised for first time in th...",
           "score": -3
-        },
-        {
-          "date": "20260916",
-          "type": "negative",
-          "headline": "[거시분석] Eight children among 21 killed after war-dama...",
-          "score": -1
         }
       ]
     },
@@ -215,8 +215,8 @@
         {
           "date": "20260920",
           "type": "negative",
-          "headline": "[거시분석] Lacking equipment, but not ambition: Gaza stu...",
-          "score": -6
+          "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
+          "score": -5
         },
         {
           "date": "20260919",
@@ -617,17 +617,25 @@
     },
     {
       "date": "20260920",
-      "headline": "[거시분석] Lacking equipment, but not ambition: Gaza stu...",
+      "headline": "Australia seeks big tech support for internet safety, AI regulation",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -6,
+        "반도체·AI": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260920",
+      "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -5,
+        "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 57,
+  "total_negatives": 58,
   "total_positives": 29,
   "risk_level": "EXTREME"
 }
