@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-21T21:22:01.664099+09:00",
-  "date": "20260921",
+  "updated_at": "2026-09-22T04:08:44.716509+09:00",
+  "date": "20260922",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -92,8 +92,14 @@
     "방산": {
       "score": 10,
       "positive_count": 17,
-      "negative_count": 3,
+      "negative_count": 1,
       "recent_events": [
+        {
+          "date": "20260922",
+          "type": "positive",
+          "headline": "[거시분석] Largest attack on Moscow sees Ukraine fire hu...",
+          "score": 1
+        },
         {
           "date": "20260921",
           "type": "positive",
@@ -117,43 +123,24 @@
           "type": "positive",
           "headline": "[거시분석] UN experts say grounds to believe US committe...",
           "score": 1
-        },
-        {
-          "date": "20260917",
-          "type": "positive",
-          "headline": "[거시분석] US interest rates raised for first time in th...",
-          "score": 1
         }
       ]
     },
     "전력·에너지": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 0,
+      "positive_count": 0,
       "negative_count": 0,
-      "recent_events": [
-        {
-          "date": "20260907",
-          "type": "positive",
-          "headline": "우상호 지사 \"원주 KT·춘천 신세계와 AI 데이터센터 투자 협의\"(종합)",
-          "score": 1
-        }
-      ]
+      "recent_events": []
     },
     "로봇": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20260908",
           "type": "positive",
           "headline": "\"中, 휴머노이드 로봇 군사적 활용 연구 가속\"",
-          "score": 1
-        },
-        {
-          "date": "20260907",
-          "type": "positive",
-          "headline": "\"AI 공장장이 간다\"…중소 제조현장 '피지컬 AI' 시동",
           "score": 1
         }
       ]
@@ -163,6 +150,12 @@
       "positive_count": 0,
       "negative_count": 15,
       "recent_events": [
+        {
+          "date": "20260922",
+          "type": "negative",
+          "headline": "[거시분석] Largest attack on Moscow sees Ukraine fire hu...",
+          "score": -1
+        },
         {
           "date": "20260919",
           "type": "negative",
@@ -186,12 +179,6 @@
           "type": "negative",
           "headline": "[거시분석] US interest rates raised for first time in th...",
           "score": -3
-        },
-        {
-          "date": "20260916",
-          "type": "negative",
-          "headline": "[거시분석] Eight children among 21 killed after war-dama...",
-          "score": -1
         }
       ]
     },
@@ -209,9 +196,21 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 3,
-      "negative_count": 20,
+      "positive_count": 2,
+      "negative_count": 21,
       "recent_events": [
+        {
+          "date": "20260922",
+          "type": "negative",
+          "headline": "美 \"'미중 AI 대화' 공식화…中금융당국, 이란 제재 많이 관여\"",
+          "score": -1
+        },
+        {
+          "date": "20260922",
+          "type": "negative",
+          "headline": "[거시분석] Largest attack on Moscow sees Ukraine fire hu...",
+          "score": -3
+        },
         {
           "date": "20260921",
           "type": "negative",
@@ -229,66 +228,11 @@
           "type": "negative",
           "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
           "score": -5
-        },
-        {
-          "date": "20260918",
-          "type": "positive",
-          "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
-          "score": 1
-        },
-        {
-          "date": "20260918",
-          "type": "positive",
-          "headline": "[표] 주간 거래소 외국인 순매수도 상위종목",
-          "score": 1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260907",
-      "headline": "Peace talks rich in symbolism but fundamental differences between Russia and Ukraine remain",
-      "impacts": {
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260907",
-      "headline": "젤렌스키 \"너무 자신만만한 러, 어떤 종전협상도 고려 안해\"",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260907",
-      "headline": "우상호 지사 \"원주 KT·춘천 신세계와 AI 데이터센터 투자 협의\"(종합)",
-      "impacts": {
-        "전력·에너지": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260907",
-      "headline": "\"AI 공장장이 간다\"…중소 제조현장 '피지컬 AI' 시동",
-      "impacts": {
-        "로봇": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260907",
-      "headline": "[거시분석] Iran warns of 'faster, heavier, more painful ...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -3,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260908",
       "headline": "Canada braces for prolonged trade war as counter-tariffs on US take effect",
@@ -615,9 +559,27 @@
         "반도체·AI": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260922",
+      "headline": "美 \"'미중 AI 대화' 공식화…中금융당국, 이란 제재 많이 관여\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260922",
+      "headline": "[거시분석] Largest attack on Moscow sees Ukraine fire hu...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -3,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 56,
-  "total_positives": 27,
+  "total_negatives": 55,
+  "total_positives": 24,
   "risk_level": "EXTREME"
 }
