@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T04:08:44.716509+09:00",
+  "updated_at": "2026-09-22T08:04:29.643863+09:00",
   "date": "20260922",
   "window_days": 14,
   "sectors": [
@@ -92,8 +92,20 @@
     "방산": {
       "score": 10,
       "positive_count": 17,
-      "negative_count": 1,
+      "negative_count": 3,
       "recent_events": [
+        {
+          "date": "20260922",
+          "type": "negative",
+          "headline": "美 \"中과 무역휴전 연장 계속 논의\"…미중회담서 발표 없을수도(종합)",
+          "score": -1
+        },
+        {
+          "date": "20260922",
+          "type": "negative",
+          "headline": "美 \"中과 무역휴전 연장 계속 논의\"…미중회담서 발표 없을수도",
+          "score": -1
+        },
         {
           "date": "20260922",
           "type": "positive",
@@ -110,18 +122,6 @@
           "date": "20260920",
           "type": "positive",
           "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
-          "score": 1
-        },
-        {
-          "date": "20260919",
-          "type": "positive",
-          "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
-          "score": 1
-        },
-        {
-          "date": "20260918",
-          "type": "positive",
-          "headline": "[거시분석] UN experts say grounds to believe US committe...",
           "score": 1
         }
       ]
@@ -196,14 +196,20 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 2,
-      "negative_count": 21,
+      "positive_count": 4,
+      "negative_count": 20,
       "recent_events": [
         {
           "date": "20260922",
-          "type": "negative",
-          "headline": "美 \"'미중 AI 대화' 공식화…中금융당국, 이란 제재 많이 관여\"",
-          "score": -1
+          "type": "positive",
+          "headline": "美 \"中과 무역휴전 연장 계속 논의\"…미중회담서 발표 없을수도(종합)",
+          "score": 1
+        },
+        {
+          "date": "20260922",
+          "type": "positive",
+          "headline": "美 \"中과 무역휴전 연장 계속 논의\"…미중회담서 발표 없을수도",
+          "score": 1
         },
         {
           "date": "20260922",
@@ -219,12 +225,6 @@
         },
         {
           "date": "20260920",
-          "type": "negative",
-          "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
-          "score": -5
-        },
-        {
-          "date": "20260919",
           "type": "negative",
           "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
           "score": -5
@@ -562,9 +562,19 @@
     },
     {
       "date": "20260922",
-      "headline": "美 \"'미중 AI 대화' 공식화…中금융당국, 이란 제재 많이 관여\"",
+      "headline": "美 \"中과 무역휴전 연장 계속 논의\"…미중회담서 발표 없을수도(종합)",
       "impacts": {
-        "전체시장": -1
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260922",
+      "headline": "美 \"中과 무역휴전 연장 계속 논의\"…미중회담서 발표 없을수도",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
       },
       "source": "keyword"
     },
@@ -579,7 +589,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 55,
-  "total_positives": 24,
+  "total_negatives": 56,
+  "total_positives": 26,
   "risk_level": "EXTREME"
 }
