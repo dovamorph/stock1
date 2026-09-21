@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T07:16:44.389531+09:00",
+  "updated_at": "2026-09-21T13:05:53.525293+09:00",
   "date": "20260921",
   "window_days": 14,
   "sectors": [
@@ -216,7 +216,7 @@
           "date": "20260921",
           "type": "negative",
           "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
-          "score": -5
+          "score": -4
         },
         {
           "date": "20260920",
@@ -611,7 +611,7 @@
       "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
       "impacts": {
         "방산": 1,
-        "전체시장": -5,
+        "전체시장": -4,
         "반도체·AI": -2
       },
       "source": "geo_categories"
