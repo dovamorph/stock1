@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T01:35:10.712119+09:00",
+  "updated_at": "2026-09-23T06:02:32.295097+09:00",
   "date": "20260923",
   "window_days": 14,
   "sectors": [
@@ -17,14 +17,14 @@
   "sector_stats": {
     "반도체·AI": {
       "score": -10,
-      "positive_count": 6,
-      "negative_count": 11,
+      "positive_count": 5,
+      "negative_count": 12,
       "recent_events": [
         {
           "date": "20260923",
-          "type": "positive",
-          "headline": "Canadian province sues OpenAI over Tumbler Ridge school shooting",
-          "score": 1
+          "type": "negative",
+          "headline": "[거시분석] Ukraine anger as EU removes Russian oligarchs...",
+          "score": -2
         },
         {
           "date": "20260922",
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260923",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine anger as EU removes Russian oligarchs...",
+          "score": -1
+        },
         {
           "date": "20260916",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
           "score": -2
-        },
-        {
-          "date": "20260911",
-          "type": "negative",
-          "headline": "[거시분석] Civilians told to flee Ukraine's fortress cit...",
-          "score": -2
         }
       ]
     },
@@ -97,14 +97,14 @@
         {
           "date": "20260923",
           "type": "negative",
-          "headline": "이란 혁수대 대변인 \"美 합의 파기 후 종전 조건 강화\"",
+          "headline": "젤렌스키 \"어떤 형태의 에너지 휴전도 준비돼 있어\"",
           "score": -1
         },
         {
           "date": "20260923",
           "type": "positive",
-          "headline": "[거시분석] Iran must stop arming Houthis in Yemen, G7 sa...",
-          "score": 1
+          "headline": "[거시분석] Ukraine anger as EU removes Russian oligarchs...",
+          "score": 2
         },
         {
           "date": "20260922",
@@ -195,14 +195,14 @@
         {
           "date": "20260923",
           "type": "positive",
-          "headline": "이란 혁수대 대변인 \"美 합의 파기 후 종전 조건 강화\"",
+          "headline": "젤렌스키 \"어떤 형태의 에너지 휴전도 준비돼 있어\"",
           "score": 1
         },
         {
           "date": "20260923",
           "type": "negative",
-          "headline": "[거시분석] Iran must stop arming Houthis in Yemen, G7 sa...",
-          "score": -2
+          "headline": "[거시분석] Ukraine anger as EU removes Russian oligarchs...",
+          "score": -5
         },
         {
           "date": "20260922",
@@ -537,15 +537,7 @@
     },
     {
       "date": "20260923",
-      "headline": "Canadian province sues OpenAI over Tumbler Ridge school shooting",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260923",
-      "headline": "이란 혁수대 대변인 \"美 합의 파기 후 종전 조건 강화\"",
+      "headline": "젤렌스키 \"어떤 형태의 에너지 휴전도 준비돼 있어\"",
       "impacts": {
         "방산": -1,
         "전체시장": 1
@@ -554,15 +546,17 @@
     },
     {
       "date": "20260923",
-      "headline": "[거시분석] Iran must stop arming Houthis in Yemen, G7 sa...",
+      "headline": "[거시분석] Ukraine anger as EU removes Russian oligarchs...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -2
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -5,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 50,
-  "total_positives": 26,
+  "total_negatives": 52,
+  "total_positives": 25,
   "risk_level": "EXTREME"
 }
