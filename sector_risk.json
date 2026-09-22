@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T13:02:24.170392+09:00",
+  "updated_at": "2026-09-22T20:12:57.026082+09:00",
   "date": "20260922",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260922",
           "type": "positive",
-          "headline": "Canada’s BC sues OpenAI over ChatGPT role in Tumbler Ridge school shooting",
+          "headline": "Canadian province sues OpenAI over Tumbler Ridge school shooting",
           "score": 1
         },
         {
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20260922",
-          "type": "negative",
-          "headline": "[거시분석] 日, 팬데믹 대비 백신 국내생산망 유지…법 개정 추진",
-          "score": -2
-        },
         {
           "date": "20260916",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
           "score": -2
+        },
+        {
+          "date": "20260911",
+          "type": "negative",
+          "headline": "[거시분석] Civilians told to flee Ukraine's fortress cit...",
+          "score": -2
         }
       ]
     },
@@ -97,7 +97,7 @@
         {
           "date": "20260922",
           "type": "positive",
-          "headline": "[거시분석] 日, 팬데믹 대비 백신 국내생산망 유지…법 개정 추진",
+          "headline": "[거시분석] Iran must stop arming Houthis in Yemen, G7 sa...",
           "score": 1
         },
         {
@@ -202,8 +202,8 @@
         {
           "date": "20260922",
           "type": "negative",
-          "headline": "[거시분석] 日, 팬데믹 대비 백신 국내생산망 유지…법 개정 추진",
-          "score": -6
+          "headline": "[거시분석] Iran must stop arming Houthis in Yemen, G7 sa...",
+          "score": -1
         },
         {
           "date": "20260921",
@@ -562,7 +562,7 @@
     },
     {
       "date": "20260922",
-      "headline": "Canada’s BC sues OpenAI over ChatGPT role in Tumbler Ridge school shooting",
+      "headline": "Canadian province sues OpenAI over Tumbler Ridge school shooting",
       "impacts": {
         "반도체·AI": 1
       },
@@ -570,16 +570,15 @@
     },
     {
       "date": "20260922",
-      "headline": "[거시분석] 日, 팬데믹 대비 백신 국내생산망 유지…법 개정 추진",
+      "headline": "[거시분석] Iran must stop arming Houthis in Yemen, G7 sa...",
       "impacts": {
         "방산": 1,
-        "전체시장": -6,
-        "건설": -2
+        "전체시장": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 54,
+  "total_negatives": 53,
   "total_positives": 25,
   "risk_level": "EXTREME"
 }
