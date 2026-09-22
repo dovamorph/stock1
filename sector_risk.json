@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-22T20:12:57.026082+09:00",
-  "date": "20260922",
+  "updated_at": "2026-09-23T01:35:10.712119+09:00",
+  "date": "20260923",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -17,9 +17,15 @@
   "sector_stats": {
     "반도체·AI": {
       "score": -10,
-      "positive_count": 5,
-      "negative_count": 12,
+      "positive_count": 6,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260923",
+          "type": "positive",
+          "headline": "Canadian province sues OpenAI over Tumbler Ridge school shooting",
+          "score": 1
+        },
         {
           "date": "20260922",
           "type": "positive",
@@ -40,12 +46,6 @@
         },
         {
           "date": "20260920",
-          "type": "negative",
-          "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
-          "score": -2
-        },
-        {
-          "date": "20260919",
           "type": "negative",
           "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
           "score": -2
@@ -95,6 +95,18 @@
       "negative_count": 1,
       "recent_events": [
         {
+          "date": "20260923",
+          "type": "negative",
+          "headline": "이란 혁수대 대변인 \"美 합의 파기 후 종전 조건 강화\"",
+          "score": -1
+        },
+        {
+          "date": "20260923",
+          "type": "positive",
+          "headline": "[거시분석] Iran must stop arming Houthis in Yemen, G7 sa...",
+          "score": 1
+        },
+        {
           "date": "20260922",
           "type": "positive",
           "headline": "[거시분석] Iran must stop arming Houthis in Yemen, G7 sa...",
@@ -111,18 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
           "score": 1
-        },
-        {
-          "date": "20260919",
-          "type": "positive",
-          "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
-          "score": 1
-        },
-        {
-          "date": "20260918",
-          "type": "positive",
-          "headline": "[거시분석] UN experts say grounds to believe US committe...",
-          "score": 1
         }
       ]
     },
@@ -133,22 +133,15 @@
       "recent_events": []
     },
     "로봇": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 0,
+      "positive_count": 0,
       "negative_count": 0,
-      "recent_events": [
-        {
-          "date": "20260908",
-          "type": "positive",
-          "headline": "\"中, 휴머노이드 로봇 군사적 활용 연구 가속\"",
-          "score": 1
-        }
-      ]
+      "recent_events": []
     },
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 14,
+      "negative_count": 13,
       "recent_events": [
         {
           "date": "20260919",
@@ -196,9 +189,21 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 2,
-      "negative_count": 20,
+      "positive_count": 3,
+      "negative_count": 19,
       "recent_events": [
+        {
+          "date": "20260923",
+          "type": "positive",
+          "headline": "이란 혁수대 대변인 \"美 합의 파기 후 종전 조건 강화\"",
+          "score": 1
+        },
+        {
+          "date": "20260923",
+          "type": "negative",
+          "headline": "[거시분석] Iran must stop arming Houthis in Yemen, G7 sa...",
+          "score": -2
+        },
         {
           "date": "20260922",
           "type": "negative",
@@ -216,58 +221,11 @@
           "type": "negative",
           "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
           "score": -5
-        },
-        {
-          "date": "20260919",
-          "type": "negative",
-          "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
-          "score": -5
-        },
-        {
-          "date": "20260918",
-          "type": "positive",
-          "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
-          "score": 1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260908",
-      "headline": "Canada braces for prolonged trade war as counter-tariffs on US take effect",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260908",
-      "headline": "Peace talks rich in symbolism but fundamental differences between Russia and Ukraine remain",
-      "impacts": {
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260908",
-      "headline": "\"中, 휴머노이드 로봇 군사적 활용 연구 가속\"",
-      "impacts": {
-        "로봇": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260908",
-      "headline": "[거시분석] Canada braces for prolonged trade war as coun...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -6,
-        "금융": -1,
-        "반도체·AI": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260909",
       "headline": "The losers of the US-Canada trade war",
@@ -576,9 +534,35 @@
         "전체시장": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260923",
+      "headline": "Canadian province sues OpenAI over Tumbler Ridge school shooting",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260923",
+      "headline": "이란 혁수대 대변인 \"美 합의 파기 후 종전 조건 강화\"",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260923",
+      "headline": "[거시분석] Iran must stop arming Houthis in Yemen, G7 sa...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 53,
-  "total_positives": 25,
+  "total_negatives": 50,
+  "total_positives": 26,
   "risk_level": "EXTREME"
 }
