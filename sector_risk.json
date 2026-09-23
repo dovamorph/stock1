@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T09:08:31.912613+09:00",
+  "updated_at": "2026-09-23T16:32:26.145953+09:00",
   "date": "20260923",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260923",
           "type": "negative",
-          "headline": "[거시분석] Trump threatens to 'annihilate' Iran in UN sp...",
+          "headline": "[거시분석] US and Iran hold first talks since June after...",
           "score": -2
         },
         {
@@ -92,12 +92,18 @@
     "방산": {
       "score": 10,
       "positive_count": 17,
-      "negative_count": 0,
+      "negative_count": 1,
       "recent_events": [
         {
           "date": "20260923",
+          "type": "negative",
+          "headline": "Zelenskyy says Ukraine ready for energy truce with Russia after Trump talks",
+          "score": -1
+        },
+        {
+          "date": "20260923",
           "type": "positive",
-          "headline": "[거시분석] Trump threatens to 'annihilate' Iran in UN sp...",
+          "headline": "[거시분석] US and Iran hold first talks since June after...",
           "score": 1
         },
         {
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
           "score": 1
-        },
-        {
-          "date": "20260919",
-          "type": "positive",
-          "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
-          "score": 1
         }
       ]
     },
@@ -133,23 +133,22 @@
       "recent_events": []
     },
     "로봇": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 0,
+      "positive_count": 0,
       "negative_count": 0,
-      "recent_events": [
-        {
-          "date": "20260923",
-          "type": "positive",
-          "headline": "HL로보틱스·삼성물산, 주차로봇 기반 미래 주거 솔루션 개발",
-          "score": 1
-        }
-      ]
+      "recent_events": []
     },
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 13,
+      "negative_count": 14,
       "recent_events": [
+        {
+          "date": "20260923",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran hold first talks since June after...",
+          "score": -1
+        },
         {
           "date": "20260919",
           "type": "negative",
@@ -173,12 +172,6 @@
           "type": "negative",
           "headline": "[거시분석] US interest rates raised for first time in th...",
           "score": -3
-        },
-        {
-          "date": "20260916",
-          "type": "negative",
-          "headline": "[거시분석] Eight children among 21 killed after war-dama...",
-          "score": -1
         }
       ]
     },
@@ -196,14 +189,20 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 2,
+      "positive_count": 3,
       "negative_count": 19,
       "recent_events": [
         {
           "date": "20260923",
+          "type": "positive",
+          "headline": "Zelenskyy says Ukraine ready for energy truce with Russia after Trump talks",
+          "score": 1
+        },
+        {
+          "date": "20260923",
           "type": "negative",
-          "headline": "[거시분석] Trump threatens to 'annihilate' Iran in UN sp...",
-          "score": -4
+          "headline": "[거시분석] US and Iran hold first talks since June after...",
+          "score": -5
         },
         {
           "date": "20260922",
@@ -219,12 +218,6 @@
         },
         {
           "date": "20260920",
-          "type": "negative",
-          "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
-          "score": -5
-        },
-        {
-          "date": "20260919",
           "type": "negative",
           "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
           "score": -5
@@ -544,24 +537,26 @@
     },
     {
       "date": "20260923",
-      "headline": "HL로보틱스·삼성물산, 주차로봇 기반 미래 주거 솔루션 개발",
+      "headline": "Zelenskyy says Ukraine ready for energy truce with Russia after Trump talks",
       "impacts": {
-        "로봇": 1
+        "방산": -1,
+        "전체시장": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260923",
-      "headline": "[거시분석] Trump threatens to 'annihilate' Iran in UN sp...",
+      "headline": "[거시분석] US and Iran hold first talks since June after...",
       "impacts": {
         "방산": 1,
-        "전체시장": -4,
+        "전체시장": -5,
+        "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 50,
+  "total_negatives": 52,
   "total_positives": 25,
   "risk_level": "EXTREME"
 }
