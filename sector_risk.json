@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T03:18:56.617467+09:00",
+  "updated_at": "2026-09-24T07:49:11.992288+09:00",
   "date": "20260924",
   "window_days": 14,
   "sectors": [
@@ -17,15 +17,9 @@
   "sector_stats": {
     "반도체·AI": {
       "score": -10,
-      "positive_count": 7,
+      "positive_count": 6,
       "negative_count": 12,
       "recent_events": [
-        {
-          "date": "20260924",
-          "type": "positive",
-          "headline": "OpenAI gives cyber defence tools to Ukraine",
-          "score": 1
-        },
         {
           "date": "20260924",
           "type": "negative",
@@ -49,25 +43,31 @@
           "type": "positive",
           "headline": "Canadian province sues OpenAI over Tumbler Ridge school shooting",
           "score": 1
+        },
+        {
+          "date": "20260921",
+          "type": "negative",
+          "headline": "[거시분석] Mum's viral barefoot race sparks debate over ...",
+          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
-      "positive_count": 1,
-      "negative_count": 8,
+      "positive_count": 2,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20260924",
+          "type": "positive",
+          "headline": "Trump's Board of Peace unveils $2.45bn plan to begin Gaza's reconstruction",
+          "score": 1
+        },
         {
           "date": "20260924",
           "type": "positive",
           "headline": "Board of Peace plans $2.4bn Gaza reconstruction as Israel kills seven",
           "score": 1
-        },
-        {
-          "date": "20260924",
-          "type": "negative",
-          "headline": "[거시분석] Iran's president tells Trump it will never 'b...",
-          "score": -2
         },
         {
           "date": "20260923",
@@ -97,14 +97,14 @@
         {
           "date": "20260924",
           "type": "negative",
-          "headline": "Trump pushes Russia-Ukraine ‘energy truce’: Can it work?",
+          "headline": "[속보] 베선트 미 재무 \"미·중 무역 휴전 2개월 연장키로 합의\"",
           "score": -1
         },
         {
           "date": "20260924",
           "type": "positive",
           "headline": "[거시분석] Iran's president tells Trump it will never 'b...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260923",
@@ -195,14 +195,14 @@
         {
           "date": "20260924",
           "type": "positive",
-          "headline": "Trump pushes Russia-Ukraine ‘energy truce’: Can it work?",
+          "headline": "[속보] 베선트 미 재무 \"미·중 무역 휴전 2개월 연장키로 합의\"",
           "score": 1
         },
         {
           "date": "20260924",
           "type": "negative",
           "headline": "[거시분석] Iran's president tells Trump it will never 'b...",
-          "score": -8
+          "score": -5
         },
         {
           "date": "20260923",
@@ -546,9 +546,9 @@
     },
     {
       "date": "20260924",
-      "headline": "OpenAI gives cyber defence tools to Ukraine",
+      "headline": "Trump's Board of Peace unveils $2.45bn plan to begin Gaza's reconstruction",
       "impacts": {
-        "반도체·AI": 1
+        "건설": 1
       },
       "source": "keyword"
     },
@@ -562,7 +562,7 @@
     },
     {
       "date": "20260924",
-      "headline": "Trump pushes Russia-Ukraine ‘energy truce’: Can it work?",
+      "headline": "[속보] 베선트 미 재무 \"미·중 무역 휴전 2개월 연장키로 합의\"",
       "impacts": {
         "방산": -1,
         "전체시장": 1
@@ -573,16 +573,15 @@
       "date": "20260924",
       "headline": "[거시분석] Iran's president tells Trump it will never 'b...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -8,
+        "방산": 1,
+        "전체시장": -5,
         "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 54,
+  "total_negatives": 53,
   "total_positives": 28,
   "risk_level": "EXTREME"
 }
