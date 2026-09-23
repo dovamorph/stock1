@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-23T22:27:54.278208+09:00",
-  "date": "20260923",
+  "updated_at": "2026-09-24T03:18:56.617467+09:00",
+  "date": "20260924",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -17,9 +17,21 @@
   "sector_stats": {
     "반도체·AI": {
       "score": -10,
-      "positive_count": 6,
+      "positive_count": 7,
       "negative_count": 12,
       "recent_events": [
+        {
+          "date": "20260924",
+          "type": "positive",
+          "headline": "OpenAI gives cyber defence tools to Ukraine",
+          "score": 1
+        },
+        {
+          "date": "20260924",
+          "type": "negative",
+          "headline": "[거시분석] Iran's president tells Trump it will never 'b...",
+          "score": -2
+        },
         {
           "date": "20260923",
           "type": "positive",
@@ -37,26 +49,26 @@
           "type": "positive",
           "headline": "Canadian province sues OpenAI over Tumbler Ridge school shooting",
           "score": 1
-        },
-        {
-          "date": "20260921",
-          "type": "negative",
-          "headline": "[거시분석] Mum's viral barefoot race sparks debate over ...",
-          "score": -2
-        },
-        {
-          "date": "20260920",
-          "type": "negative",
-          "headline": "Australia seeks big tech support for internet safety, AI regulation",
-          "score": -1
         }
       ]
     },
     "건설": {
       "score": -10,
-      "positive_count": 0,
-      "negative_count": 7,
+      "positive_count": 1,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20260924",
+          "type": "positive",
+          "headline": "Board of Peace plans $2.4bn Gaza reconstruction as Israel kills seven",
+          "score": 1
+        },
+        {
+          "date": "20260924",
+          "type": "negative",
+          "headline": "[거시분석] Iran's president tells Trump it will never 'b...",
+          "score": -2
+        },
         {
           "date": "20260923",
           "type": "negative",
@@ -74,26 +86,26 @@
           "type": "negative",
           "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
           "score": -2
-        },
-        {
-          "date": "20260913",
-          "type": "negative",
-          "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
-          "score": -2
-        },
-        {
-          "date": "20260912",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 17,
-      "negative_count": 0,
+      "negative_count": 1,
       "recent_events": [
+        {
+          "date": "20260924",
+          "type": "negative",
+          "headline": "Trump pushes Russia-Ukraine ‘energy truce’: Can it work?",
+          "score": -1
+        },
+        {
+          "date": "20260924",
+          "type": "positive",
+          "headline": "[거시분석] Iran's president tells Trump it will never 'b...",
+          "score": 3
+        },
         {
           "date": "20260923",
           "type": "positive",
@@ -110,18 +122,6 @@
           "date": "20260921",
           "type": "positive",
           "headline": "[거시분석] Mum's viral barefoot race sparks debate over ...",
-          "score": 1
-        },
-        {
-          "date": "20260920",
-          "type": "positive",
-          "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
-          "score": 1
-        },
-        {
-          "date": "20260919",
-          "type": "positive",
-          "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
           "score": 1
         }
       ]
@@ -141,8 +141,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 13,
+      "negative_count": 14,
       "recent_events": [
+        {
+          "date": "20260924",
+          "type": "negative",
+          "headline": "[거시분석] Iran's president tells Trump it will never 'b...",
+          "score": -1
+        },
         {
           "date": "20260919",
           "type": "negative",
@@ -166,12 +172,6 @@
           "type": "negative",
           "headline": "[거시분석] US interest rates raised for first time in th...",
           "score": -3
-        },
-        {
-          "date": "20260916",
-          "type": "negative",
-          "headline": "[거시분석] Eight children among 21 killed after war-dama...",
-          "score": -1
         }
       ]
     },
@@ -189,9 +189,21 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 2,
-      "negative_count": 20,
+      "positive_count": 3,
+      "negative_count": 19,
       "recent_events": [
+        {
+          "date": "20260924",
+          "type": "positive",
+          "headline": "Trump pushes Russia-Ukraine ‘energy truce’: Can it work?",
+          "score": 1
+        },
+        {
+          "date": "20260924",
+          "type": "negative",
+          "headline": "[거시분석] Iran's president tells Trump it will never 'b...",
+          "score": -8
+        },
         {
           "date": "20260923",
           "type": "negative",
@@ -209,41 +221,11 @@
           "type": "negative",
           "headline": "[거시분석] Iran must stop arming Houthis in Yemen, G7 sa...",
           "score": -1
-        },
-        {
-          "date": "20260921",
-          "type": "negative",
-          "headline": "[거시분석] Mum's viral barefoot race sparks debate over ...",
-          "score": -4
-        },
-        {
-          "date": "20260920",
-          "type": "negative",
-          "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
-          "score": -5
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260909",
-      "headline": "The losers of the US-Canada trade war",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260909",
-      "headline": "[거시분석] Brent crude surpasses $100 a barrel as Iran, ...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -4,
-        "반도체·AI": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260910",
       "headline": "美부통령, '트럼프 5천달러 배당금'에 관세로 충당 시사",
@@ -561,9 +543,46 @@
         "반도체·AI": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260924",
+      "headline": "OpenAI gives cyber defence tools to Ukraine",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260924",
+      "headline": "Board of Peace plans $2.4bn Gaza reconstruction as Israel kills seven",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260924",
+      "headline": "Trump pushes Russia-Ukraine ‘energy truce’: Can it work?",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260924",
+      "headline": "[거시분석] Iran's president tells Trump it will never 'b...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -8,
+        "금융": -1,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 52,
-  "total_positives": 25,
+  "total_negatives": 54,
+  "total_positives": 28,
   "risk_level": "EXTREME"
 }
