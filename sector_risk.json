@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T06:02:32.295097+09:00",
+  "updated_at": "2026-09-23T09:08:31.912613+09:00",
   "date": "20260923",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260923",
           "type": "negative",
-          "headline": "[거시분석] Ukraine anger as EU removes Russian oligarchs...",
+          "headline": "[거시분석] Trump threatens to 'annihilate' Iran in UN sp...",
           "score": -2
         },
         {
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20260923",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine anger as EU removes Russian oligarchs...",
-          "score": -1
-        },
         {
           "date": "20260916",
           "type": "negative",
@@ -86,25 +80,25 @@
           "type": "negative",
           "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
           "score": -2
+        },
+        {
+          "date": "20260911",
+          "type": "negative",
+          "headline": "[거시분석] Civilians told to flee Ukraine's fortress cit...",
+          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 17,
-      "negative_count": 1,
+      "negative_count": 0,
       "recent_events": [
         {
           "date": "20260923",
-          "type": "negative",
-          "headline": "젤렌스키 \"어떤 형태의 에너지 휴전도 준비돼 있어\"",
-          "score": -1
-        },
-        {
-          "date": "20260923",
           "type": "positive",
-          "headline": "[거시분석] Ukraine anger as EU removes Russian oligarchs...",
-          "score": 2
+          "headline": "[거시분석] Trump threatens to 'annihilate' Iran in UN sp...",
+          "score": 1
         },
         {
           "date": "20260922",
@@ -123,6 +117,12 @@
           "type": "positive",
           "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
           "score": 1
+        },
+        {
+          "date": "20260919",
+          "type": "positive",
+          "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
+          "score": 1
         }
       ]
     },
@@ -133,10 +133,17 @@
       "recent_events": []
     },
     "로봇": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20260923",
+          "type": "positive",
+          "headline": "HL로보틱스·삼성물산, 주차로봇 기반 미래 주거 솔루션 개발",
+          "score": 1
+        }
+      ]
     },
     "금융": {
       "score": -10,
@@ -189,20 +196,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 3,
+      "positive_count": 2,
       "negative_count": 19,
       "recent_events": [
         {
           "date": "20260923",
-          "type": "positive",
-          "headline": "젤렌스키 \"어떤 형태의 에너지 휴전도 준비돼 있어\"",
-          "score": 1
-        },
-        {
-          "date": "20260923",
           "type": "negative",
-          "headline": "[거시분석] Ukraine anger as EU removes Russian oligarchs...",
-          "score": -5
+          "headline": "[거시분석] Trump threatens to 'annihilate' Iran in UN sp...",
+          "score": -4
         },
         {
           "date": "20260922",
@@ -218,6 +219,12 @@
         },
         {
           "date": "20260920",
+          "type": "negative",
+          "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
+          "score": -5
+        },
+        {
+          "date": "20260919",
           "type": "negative",
           "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
           "score": -5
@@ -537,26 +544,24 @@
     },
     {
       "date": "20260923",
-      "headline": "젤렌스키 \"어떤 형태의 에너지 휴전도 준비돼 있어\"",
+      "headline": "HL로보틱스·삼성물산, 주차로봇 기반 미래 주거 솔루션 개발",
       "impacts": {
-        "방산": -1,
-        "전체시장": 1
+        "로봇": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260923",
-      "headline": "[거시분석] Ukraine anger as EU removes Russian oligarchs...",
+      "headline": "[거시분석] Trump threatens to 'annihilate' Iran in UN sp...",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -5,
+        "방산": 1,
+        "전체시장": -4,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 52,
+  "total_negatives": 50,
   "total_positives": 25,
   "risk_level": "EXTREME"
 }
