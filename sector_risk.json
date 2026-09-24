@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T18:08:25.784093+09:00",
+  "updated_at": "2026-09-24T23:43:15.613118+09:00",
   "date": "20260924",
   "window_days": 14,
   "sectors": [
@@ -29,13 +29,13 @@
         {
           "date": "20260924",
           "type": "positive",
-          "headline": "OpenAI CEO: Tech companies don’t ‘have all the answers’ on AI policy",
+          "headline": "OpenAI agents hack Australian government health data",
           "score": 1
         },
         {
           "date": "20260924",
           "type": "positive",
-          "headline": "Australia says OpenAI agent hacked Medicare portal",
+          "headline": "How an OpenAI ‘agent’ hacked Australia’s Medicare and what that means",
           "score": 1
         },
         {
@@ -54,27 +54,9 @@
     },
     "건설": {
       "score": -10,
-      "positive_count": 2,
-      "negative_count": 8,
+      "positive_count": 0,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20260924",
-          "type": "positive",
-          "headline": "Trump's Board of Peace unveils $2.45bn plan to begin Gaza's reconstruction",
-          "score": 1
-        },
-        {
-          "date": "20260924",
-          "type": "positive",
-          "headline": "Gaza $2.45 billion reconstruction plan. Who decides its future?",
-          "score": 1
-        },
-        {
-          "date": "20260924",
-          "type": "negative",
-          "headline": "[거시분석] Iran's president tells Trump it will never 'b...",
-          "score": -2
-        },
         {
           "date": "20260923",
           "type": "negative",
@@ -86,25 +68,37 @@
           "type": "negative",
           "headline": "[거시분석] Eight children among 21 killed after war-dama...",
           "score": -2
+        },
+        {
+          "date": "20260914",
+          "type": "negative",
+          "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
+          "score": -2
+        },
+        {
+          "date": "20260913",
+          "type": "negative",
+          "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
+          "score": -2
+        },
+        {
+          "date": "20260912",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
+          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 17,
-      "negative_count": 1,
+      "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260924",
-          "type": "negative",
-          "headline": "Outcry in Sudan as US reportedly holds al-Burhan’s UN visa over truce plan",
-          "score": -1
-        },
         {
           "date": "20260924",
           "type": "positive",
           "headline": "[거시분석] Iran's president tells Trump it will never 'b...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260923",
@@ -122,6 +116,12 @@
           "date": "20260921",
           "type": "positive",
           "headline": "[거시분석] Mum's viral barefoot race sparks debate over ...",
+          "score": 1
+        },
+        {
+          "date": "20260920",
+          "type": "positive",
+          "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
           "score": 1
         }
       ]
@@ -176,10 +176,17 @@
       ]
     },
     "우주ETF": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20260924",
+          "type": "positive",
+          "headline": "Poland says fire at Starlink station is sabotage as Denmark warns of rising Russian threat",
+          "score": 1
+        }
+      ]
     },
     "양자컴퓨팅": {
       "score": 0,
@@ -189,26 +196,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 4,
+      "positive_count": 2,
       "negative_count": 19,
       "recent_events": [
         {
           "date": "20260924",
-          "type": "positive",
-          "headline": "Outcry in Sudan as US reportedly holds al-Burhan’s UN visa over truce plan",
-          "score": 1
-        },
-        {
-          "date": "20260924",
-          "type": "positive",
-          "headline": "러, 키이우에 또 미사일 공격…젤렌스키는 유엔서 종전 외교전",
-          "score": 1
-        },
-        {
-          "date": "20260924",
           "type": "negative",
           "headline": "[거시분석] Iran's president tells Trump it will never 'b...",
-          "score": -5
+          "score": -3
         },
         {
           "date": "20260923",
@@ -221,6 +216,18 @@
           "type": "negative",
           "headline": "[거시분석] US and Iran hold first talks since June after...",
           "score": -7
+        },
+        {
+          "date": "20260922",
+          "type": "negative",
+          "headline": "[거시분석] Iran must stop arming Houthis in Yemen, G7 sa...",
+          "score": -1
+        },
+        {
+          "date": "20260921",
+          "type": "negative",
+          "headline": "[거시분석] Mum's viral barefoot race sparks debate over ...",
+          "score": -4
         }
       ]
     }
@@ -554,32 +561,15 @@
     },
     {
       "date": "20260924",
-      "headline": "Trump's Board of Peace unveils $2.45bn plan to begin Gaza's reconstruction",
+      "headline": "Poland says fire at Starlink station is sabotage as Denmark warns of rising Russian threat",
       "impacts": {
-        "건설": 1
+        "우주ETF": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260924",
-      "headline": "Outcry in Sudan as US reportedly holds al-Burhan’s UN visa over truce plan",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260924",
-      "headline": "Gaza $2.45 billion reconstruction plan. Who decides its future?",
-      "impacts": {
-        "건설": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260924",
-      "headline": "OpenAI CEO: Tech companies don’t ‘have all the answers’ on AI policy",
+      "headline": "OpenAI agents hack Australian government health data",
       "impacts": {
         "반도체·AI": 1
       },
@@ -587,17 +577,9 @@
     },
     {
       "date": "20260924",
-      "headline": "Australia says OpenAI agent hacked Medicare portal",
+      "headline": "How an OpenAI ‘agent’ hacked Australia’s Medicare and what that means",
       "impacts": {
         "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260924",
-      "headline": "러, 키이우에 또 미사일 공격…젤렌스키는 유엔서 종전 외교전",
-      "impacts": {
-        "전체시장": 1
       },
       "source": "keyword"
     },
@@ -605,15 +587,14 @@
       "date": "20260924",
       "headline": "[거시분석] Iran's president tells Trump it will never 'b...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
+        "방산": 1,
+        "전체시장": -3,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 53,
-  "total_positives": 32,
+  "total_negatives": 51,
+  "total_positives": 29,
   "risk_level": "EXTREME"
 }
