@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T04:52:50.297295+09:00",
+  "updated_at": "2026-09-25T08:05:55.008112+09:00",
   "date": "20260925",
   "window_days": 14,
   "sectors": [
@@ -54,21 +54,9 @@
     },
     "건설": {
       "score": -10,
-      "positive_count": 1,
-      "negative_count": 7,
+      "positive_count": 0,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20260925",
-          "type": "positive",
-          "headline": "美 AI인프라 투자, 향후 8년간 1경4천조원…\"철도 붐 넘어선다\"",
-          "score": 1
-        },
-        {
-          "date": "20260925",
-          "type": "negative",
-          "headline": "[거시분석] Trump's Board of Peace unveils $2.45bn Gaza r...",
-          "score": -2
-        },
         {
           "date": "20260923",
           "type": "negative",
@@ -86,31 +74,31 @@
           "type": "negative",
           "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
           "score": -2
+        },
+        {
+          "date": "20260913",
+          "type": "negative",
+          "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
+          "score": -2
+        },
+        {
+          "date": "20260912",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
+          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 18,
-      "negative_count": 1,
+      "positive_count": 17,
+      "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260925",
-          "type": "negative",
-          "headline": "‘Hostile, but hooked’: What’s behind the US-China trade truce extension?",
-          "score": -1
-        },
-        {
-          "date": "20260925",
-          "type": "positive",
-          "headline": "에티오피아서 다시 대규모 교전…평화협정 사실상 붕괴",
-          "score": 1
-        },
         {
           "date": "20260925",
           "type": "positive",
           "headline": "[거시분석] Trump's Board of Peace unveils $2.45bn Gaza r...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260924",
@@ -123,6 +111,18 @@
           "type": "positive",
           "headline": "[거시분석] US and Iran hold first talks since June after...",
           "score": 3
+        },
+        {
+          "date": "20260922",
+          "type": "positive",
+          "headline": "[거시분석] Iran must stop arming Houthis in Yemen, G7 sa...",
+          "score": 1
+        },
+        {
+          "date": "20260921",
+          "type": "positive",
+          "headline": "[거시분석] Mum's viral barefoot race sparks debate over ...",
+          "score": 1
         }
       ]
     },
@@ -202,20 +202,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 3,
+      "positive_count": 2,
       "negative_count": 17,
       "recent_events": [
         {
           "date": "20260925",
-          "type": "positive",
-          "headline": "‘Hostile, but hooked’: What’s behind the US-China trade truce extension?",
-          "score": 1
-        },
-        {
-          "date": "20260925",
           "type": "negative",
           "headline": "[거시분석] Trump's Board of Peace unveils $2.45bn Gaza r...",
-          "score": -6
+          "score": -3
         },
         {
           "date": "20260924",
@@ -234,6 +228,12 @@
           "type": "negative",
           "headline": "[거시분석] US and Iran hold first talks since June after...",
           "score": -7
+        },
+        {
+          "date": "20260922",
+          "type": "negative",
+          "headline": "[거시분석] Iran must stop arming Houthis in Yemen, G7 sa...",
+          "score": -1
         }
       ]
     }
@@ -581,42 +581,16 @@
     },
     {
       "date": "20260925",
-      "headline": "‘Hostile, but hooked’: What’s behind the US-China trade truce extension?",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260925",
-      "headline": "美 AI인프라 투자, 향후 8년간 1경4천조원…\"철도 붐 넘어선다\"",
-      "impacts": {
-        "건설": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260925",
-      "headline": "에티오피아서 다시 대규모 교전…평화협정 사실상 붕괴",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260925",
       "headline": "[거시분석] Trump's Board of Peace unveils $2.45bn Gaza r...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -6,
+        "방산": 1,
+        "전체시장": -3,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 46,
-  "total_positives": 36,
+  "total_negatives": 44,
+  "total_positives": 33,
   "risk_level": "EXTREME"
 }
