@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T12:53:56.723041+09:00",
+  "updated_at": "2026-09-24T18:08:25.784093+09:00",
   "date": "20260924",
   "window_days": 14,
   "sectors": [
@@ -17,13 +17,19 @@
   "sector_stats": {
     "반도체·AI": {
       "score": -10,
-      "positive_count": 8,
-      "negative_count": 12,
+      "positive_count": 9,
+      "negative_count": 11,
       "recent_events": [
         {
           "date": "20260924",
           "type": "positive",
-          "headline": "OpenAI agent 'infiltrated' Australian government website, PM says",
+          "headline": "Rogue OpenAI agent 'infiltrated' Australian government website in world first",
+          "score": 1
+        },
+        {
+          "date": "20260924",
+          "type": "positive",
+          "headline": "OpenAI CEO: Tech companies don’t ‘have all the answers’ on AI policy",
           "score": 1
         },
         {
@@ -31,12 +37,6 @@
           "type": "positive",
           "headline": "Australia says OpenAI agent hacked Medicare portal",
           "score": 1
-        },
-        {
-          "date": "20260924",
-          "type": "negative",
-          "headline": "[거시분석] Iran's president tells Trump it will never 'b...",
-          "score": -2
         },
         {
           "date": "20260923",
@@ -54,14 +54,26 @@
     },
     "건설": {
       "score": -10,
-      "positive_count": 1,
-      "negative_count": 7,
+      "positive_count": 2,
+      "negative_count": 8,
       "recent_events": [
         {
           "date": "20260924",
           "type": "positive",
           "headline": "Trump's Board of Peace unveils $2.45bn plan to begin Gaza's reconstruction",
           "score": 1
+        },
+        {
+          "date": "20260924",
+          "type": "positive",
+          "headline": "Gaza $2.45 billion reconstruction plan. Who decides its future?",
+          "score": 1
+        },
+        {
+          "date": "20260924",
+          "type": "negative",
+          "headline": "[거시분석] Iran's president tells Trump it will never 'b...",
+          "score": -2
         },
         {
           "date": "20260923",
@@ -74,18 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] Eight children among 21 killed after war-dama...",
           "score": -2
-        },
-        {
-          "date": "20260914",
-          "type": "negative",
-          "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
-          "score": -2
-        },
-        {
-          "date": "20260913",
-          "type": "negative",
-          "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
-          "score": -2
         }
       ]
     },
@@ -97,14 +97,14 @@
         {
           "date": "20260924",
           "type": "negative",
-          "headline": "Trump welcomes Xi to Washington as US, China agree to extend trade truce",
+          "headline": "Outcry in Sudan as US reportedly holds al-Burhan’s UN visa over truce plan",
           "score": -1
         },
         {
           "date": "20260924",
           "type": "positive",
           "headline": "[거시분석] Iran's president tells Trump it will never 'b...",
-          "score": 1
+          "score": 3
         },
         {
           "date": "20260923",
@@ -189,13 +189,19 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 3,
+      "positive_count": 4,
       "negative_count": 19,
       "recent_events": [
         {
           "date": "20260924",
           "type": "positive",
-          "headline": "Trump welcomes Xi to Washington as US, China agree to extend trade truce",
+          "headline": "Outcry in Sudan as US reportedly holds al-Burhan’s UN visa over truce plan",
+          "score": 1
+        },
+        {
+          "date": "20260924",
+          "type": "positive",
+          "headline": "러, 키이우에 또 미사일 공격…젤렌스키는 유엔서 종전 외교전",
           "score": 1
         },
         {
@@ -215,12 +221,6 @@
           "type": "negative",
           "headline": "[거시분석] US and Iran hold first talks since June after...",
           "score": -7
-        },
-        {
-          "date": "20260922",
-          "type": "negative",
-          "headline": "[거시분석] Iran must stop arming Houthis in Yemen, G7 sa...",
-          "score": -1
         }
       ]
     }
@@ -546,7 +546,7 @@
     },
     {
       "date": "20260924",
-      "headline": "OpenAI agent 'infiltrated' Australian government website, PM says",
+      "headline": "Rogue OpenAI agent 'infiltrated' Australian government website in world first",
       "impacts": {
         "반도체·AI": 1
       },
@@ -562,15 +562,7 @@
     },
     {
       "date": "20260924",
-      "headline": "Australia says OpenAI agent hacked Medicare portal",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260924",
-      "headline": "Trump welcomes Xi to Washington as US, China agree to extend trade truce",
+      "headline": "Outcry in Sudan as US reportedly holds al-Burhan’s UN visa over truce plan",
       "impacts": {
         "방산": -1,
         "전체시장": 1
@@ -579,17 +571,49 @@
     },
     {
       "date": "20260924",
+      "headline": "Gaza $2.45 billion reconstruction plan. Who decides its future?",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260924",
+      "headline": "OpenAI CEO: Tech companies don’t ‘have all the answers’ on AI policy",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260924",
+      "headline": "Australia says OpenAI agent hacked Medicare portal",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260924",
+      "headline": "러, 키이우에 또 미사일 공격…젤렌스키는 유엔서 종전 외교전",
+      "impacts": {
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260924",
       "headline": "[거시분석] Iran's president tells Trump it will never 'b...",
       "impacts": {
-        "방산": 1,
+        "방산": 3,
+        "건설": -2,
         "전체시장": -5,
-        "금융": -1,
-        "반도체·AI": -2
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 53,
-  "total_positives": 29,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
