@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T08:05:55.008112+09:00",
+  "updated_at": "2026-09-25T13:08:40.022166+09:00",
   "date": "20260925",
   "window_days": 14,
   "sectors": [
@@ -16,9 +16,9 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -5,
+      "score": -7,
       "positive_count": 12,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
         {
           "date": "20260925",
@@ -39,15 +39,15 @@
           "score": 1
         },
         {
-          "date": "20260924",
-          "type": "positive",
-          "headline": "Rogue OpenAI agent 'infiltrated' Australian government website in world first",
-          "score": 1
+          "date": "20260925",
+          "type": "negative",
+          "headline": "[거시분석] Iran's president tells Trump it will never 'b...",
+          "score": -2
         },
         {
           "date": "20260924",
           "type": "positive",
-          "headline": "OpenAI agents hack Australian government health data",
+          "headline": "Rogue OpenAI agent 'infiltrated' Australian government website in world first",
           "score": 1
         }
       ]
@@ -92,12 +92,18 @@
     "방산": {
       "score": 10,
       "positive_count": 17,
-      "negative_count": 0,
+      "negative_count": 1,
       "recent_events": [
         {
           "date": "20260925",
+          "type": "negative",
+          "headline": "[미중정상회담] '안정'에 방점…'고작 두달' 무역휴전 연장이 성과 가능성",
+          "score": -1
+        },
+        {
+          "date": "20260925",
           "type": "positive",
-          "headline": "[거시분석] Trump's Board of Peace unveils $2.45bn Gaza r...",
+          "headline": "[거시분석] Iran's president tells Trump it will never 'b...",
           "score": 1
         },
         {
@@ -116,12 +122,6 @@
           "date": "20260922",
           "type": "positive",
           "headline": "[거시분석] Iran must stop arming Houthis in Yemen, G7 sa...",
-          "score": 1
-        },
-        {
-          "date": "20260921",
-          "type": "positive",
-          "headline": "[거시분석] Mum's viral barefoot race sparks debate over ...",
           "score": 1
         }
       ]
@@ -146,7 +146,7 @@
         {
           "date": "20260925",
           "type": "negative",
-          "headline": "[거시분석] Trump's Board of Peace unveils $2.45bn Gaza r...",
+          "headline": "[거시분석] Iran's president tells Trump it will never 'b...",
           "score": -1
         },
         {
@@ -202,14 +202,20 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 2,
+      "positive_count": 3,
       "negative_count": 17,
       "recent_events": [
         {
           "date": "20260925",
+          "type": "positive",
+          "headline": "[미중정상회담] '안정'에 방점…'고작 두달' 무역휴전 연장이 성과 가능성",
+          "score": 1
+        },
+        {
+          "date": "20260925",
           "type": "negative",
-          "headline": "[거시분석] Trump's Board of Peace unveils $2.45bn Gaza r...",
-          "score": -3
+          "headline": "[거시분석] Iran's president tells Trump it will never 'b...",
+          "score": -5
         },
         {
           "date": "20260924",
@@ -228,12 +234,6 @@
           "type": "negative",
           "headline": "[거시분석] US and Iran hold first talks since June after...",
           "score": -7
-        },
-        {
-          "date": "20260922",
-          "type": "negative",
-          "headline": "[거시분석] Iran must stop arming Houthis in Yemen, G7 sa...",
-          "score": -1
         }
       ]
     }
@@ -581,16 +581,26 @@
     },
     {
       "date": "20260925",
-      "headline": "[거시분석] Trump's Board of Peace unveils $2.45bn Gaza r...",
+      "headline": "[미중정상회담] '안정'에 방점…'고작 두달' 무역휴전 연장이 성과 가능성",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260925",
+      "headline": "[거시분석] Iran's president tells Trump it will never 'b...",
       "impacts": {
         "방산": 1,
-        "전체시장": -3,
-        "금융": -1
+        "전체시장": -5,
+        "금융": -1,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 44,
-  "total_positives": 33,
+  "total_negatives": 46,
+  "total_positives": 34,
   "risk_level": "EXTREME"
 }
