@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T01:52:13.746365+09:00",
+  "updated_at": "2026-09-26T06:16:31.403421+09:00",
   "date": "20260926",
   "window_days": 14,
   "sectors": [
@@ -16,15 +16,21 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -4,
+      "score": -6,
       "positive_count": 13,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
         {
           "date": "20260926",
           "type": "positive",
           "headline": "Why Australia chose the world's biggest political stage to reveal OpenAI hack",
           "score": 1
+        },
+        {
+          "date": "20260926",
+          "type": "negative",
+          "headline": "[거시분석] Iran threatens widespread disruption as Iraq ...",
+          "score": -2
         },
         {
           "date": "20260925",
@@ -42,12 +48,6 @@
           "date": "20260925",
           "type": "positive",
           "headline": "Why did an OpenAI system hack Australia's health system - and can it be stopped in the future?",
-          "score": 1
-        },
-        {
-          "date": "20260924",
-          "type": "positive",
-          "headline": "Rogue OpenAI agent 'infiltrated' Australian government website in world first",
           "score": 1
         }
       ]
@@ -92,12 +92,18 @@
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 0,
+      "negative_count": 1,
       "recent_events": [
         {
           "date": "20260926",
+          "type": "negative",
+          "headline": "[미중정상회담] 美전문가들 \"취약한 휴전 연장…AI경쟁 본능 억제못해\"(종합)",
+          "score": -1
+        },
+        {
+          "date": "20260926",
           "type": "positive",
-          "headline": "[거시분석] US seeking to revive Russia-Ukraine ceasefire...",
+          "headline": "[거시분석] Iran threatens widespread disruption as Iraq ...",
           "score": 1
         },
         {
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] US and Iran hold first talks since June after...",
           "score": 3
-        },
-        {
-          "date": "20260922",
-          "type": "positive",
-          "headline": "[거시분석] Iran must stop arming Houthis in Yemen, G7 sa...",
-          "score": 1
         }
       ]
     },
@@ -202,14 +202,20 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 2,
+      "positive_count": 3,
       "negative_count": 17,
       "recent_events": [
         {
           "date": "20260926",
+          "type": "positive",
+          "headline": "[미중정상회담] 美전문가들 \"취약한 휴전 연장…AI경쟁 본능 억제못해\"(종합)",
+          "score": 1
+        },
+        {
+          "date": "20260926",
           "type": "negative",
-          "headline": "[거시분석] US seeking to revive Russia-Ukraine ceasefire...",
-          "score": -2
+          "headline": "[거시분석] Iran threatens widespread disruption as Iraq ...",
+          "score": -4
         },
         {
           "date": "20260925",
@@ -228,12 +234,6 @@
           "type": "negative",
           "headline": "As Xi meets Trump, who’s winning their trade war?",
           "score": -1
-        },
-        {
-          "date": "20260923",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran hold first talks since June after...",
-          "score": -7
         }
       ]
     }
@@ -581,15 +581,25 @@
     },
     {
       "date": "20260926",
-      "headline": "[거시분석] US seeking to revive Russia-Ukraine ceasefire...",
+      "headline": "[미중정상회담] 美전문가들 \"취약한 휴전 연장…AI경쟁 본능 억제못해\"(종합)",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260926",
+      "headline": "[거시분석] Iran threatens widespread disruption as Iraq ...",
       "impacts": {
         "방산": 1,
-        "전체시장": -2
+        "전체시장": -4,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 43,
-  "total_positives": 33,
+  "total_negatives": 45,
+  "total_positives": 34,
   "risk_level": "EXTREME"
 }
