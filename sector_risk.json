@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-25T20:27:51.822335+09:00",
-  "date": "20260925",
+  "updated_at": "2026-09-26T01:52:13.746365+09:00",
+  "date": "20260926",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -5,
-      "positive_count": 12,
+      "score": -4,
+      "positive_count": 13,
       "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20260926",
+          "type": "positive",
+          "headline": "Why Australia chose the world's biggest political stage to reveal OpenAI hack",
+          "score": 1
+        },
         {
           "date": "20260925",
           "type": "positive",
@@ -43,19 +49,13 @@
           "type": "positive",
           "headline": "Rogue OpenAI agent 'infiltrated' Australian government website in world first",
           "score": 1
-        },
-        {
-          "date": "20260924",
-          "type": "positive",
-          "headline": "OpenAI agents hack Australian government health data",
-          "score": 1
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
         {
           "date": "20260925",
@@ -91,9 +91,15 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 17,
+      "positive_count": 16,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260926",
+          "type": "positive",
+          "headline": "[거시분석] US seeking to revive Russia-Ukraine ceasefire...",
+          "score": 1
+        },
         {
           "date": "20260925",
           "type": "positive",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] Iran must stop arming Houthis in Yemen, G7 sa...",
           "score": 1
-        },
-        {
-          "date": "20260921",
-          "type": "positive",
-          "headline": "[거시분석] Mum's viral barefoot race sparks debate over ...",
-          "score": 1
         }
       ]
     },
@@ -141,7 +141,7 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
         {
           "date": "20260925",
@@ -206,6 +206,12 @@
       "negative_count": 17,
       "recent_events": [
         {
+          "date": "20260926",
+          "type": "negative",
+          "headline": "[거시분석] US seeking to revive Russia-Ukraine ceasefire...",
+          "score": -2
+        },
+        {
           "date": "20260925",
           "type": "negative",
           "headline": "[거시분석] What’s in Iran’s seven-day plan to reopen the...",
@@ -228,36 +234,11 @@
           "type": "negative",
           "headline": "[거시분석] US and Iran hold first talks since June after...",
           "score": -7
-        },
-        {
-          "date": "20260922",
-          "type": "negative",
-          "headline": "[거시분석] Iran must stop arming Houthis in Yemen, G7 sa...",
-          "score": -1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260911",
-      "headline": "\"후티, 바브엘만데브 해협 요충지 섬 장악…사우디, 모카공항 공습\"(종합)",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260911",
-      "headline": "[거시분석] Civilians told to flee Ukraine's fortress cit...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -4,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260912",
       "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
@@ -589,9 +570,26 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260926",
+      "headline": "Why Australia chose the world's biggest political stage to reveal OpenAI hack",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260926",
+      "headline": "[거시분석] US seeking to revive Russia-Ukraine ceasefire...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 45,
+  "total_negatives": 43,
   "total_positives": 33,
   "risk_level": "EXTREME"
 }
