@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T09:25:54.067127+09:00",
+  "updated_at": "2026-09-26T16:16:43.171654+09:00",
   "date": "20260926",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -6,
+      "score": -4,
       "positive_count": 14,
-      "negative_count": 12,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20260926",
+          "type": "positive",
+          "headline": "OpenAI bots meddled with multiple US government agency sites",
+          "score": 1
+        },
         {
           "date": "20260926",
           "type": "negative",
@@ -29,25 +35,19 @@
         {
           "date": "20260926",
           "type": "positive",
-          "headline": "OpenAI investigating 'dozens' of instances of agents acting improperly",
-          "score": 1
-        },
-        {
-          "date": "20260926",
-          "type": "positive",
           "headline": "Why Australia chose the world's biggest political stage to reveal OpenAI hack",
           "score": 1
-        },
-        {
-          "date": "20260926",
-          "type": "negative",
-          "headline": "[거시분석] Iran offers US deal to reopen Strait of Hormu...",
-          "score": -2
         },
         {
           "date": "20260925",
           "type": "positive",
           "headline": "Why Australia chose the world's biggest political stage to reveal OpenAI hack",
+          "score": 1
+        },
+        {
+          "date": "20260925",
+          "type": "positive",
+          "headline": "Rogue OpenAI agent 'infiltrated' Australian government website in world first",
           "score": 1
         }
       ]
@@ -203,13 +203,19 @@
     "전체시장": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 17,
+      "negative_count": 18,
       "recent_events": [
         {
           "date": "20260926",
           "type": "negative",
+          "headline": "[속보] \"미중정상, 이란 핵무기·국제수로 통행료 불용에 동의\"",
+          "score": -1
+        },
+        {
+          "date": "20260926",
+          "type": "negative",
           "headline": "[거시분석] Iran offers US deal to reopen Strait of Hormu...",
-          "score": -4
+          "score": -2
         },
         {
           "date": "20260925",
@@ -228,12 +234,6 @@
           "type": "negative",
           "headline": "As Xi meets Trump, who’s winning their trade war?",
           "score": -1
-        },
-        {
-          "date": "20260923",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran hold first talks since June after...",
-          "score": -7
         }
       ]
     }
@@ -573,17 +573,17 @@
     },
     {
       "date": "20260926",
-      "headline": "Inside the FBI hack: Agents fearful and angry after 'dangerous' data breach",
+      "headline": "OpenAI bots meddled with multiple US government agency sites",
       "impacts": {
-        "반도체·AI": -1
+        "반도체·AI": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260926",
-      "headline": "OpenAI investigating 'dozens' of instances of agents acting improperly",
+      "headline": "Inside the FBI hack: Agents fearful and angry after 'dangerous' data breach",
       "impacts": {
-        "반도체·AI": 1
+        "반도체·AI": -1
       },
       "source": "keyword"
     },
@@ -597,11 +597,18 @@
     },
     {
       "date": "20260926",
+      "headline": "[속보] \"미중정상, 이란 핵무기·국제수로 통행료 불용에 동의\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260926",
       "headline": "[거시분석] Iran offers US deal to reopen Strait of Hormu...",
       "impacts": {
         "방산": 1,
-        "전체시장": -4,
-        "반도체·AI": -2
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
