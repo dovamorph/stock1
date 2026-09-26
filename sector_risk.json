@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-26T21:48:04.559398+09:00",
-  "date": "20260926",
+  "updated_at": "2026-09-27T02:40:00.403562+09:00",
+  "date": "20260927",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,10 +16,28 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -5,
-      "positive_count": 13,
-      "negative_count": 11,
+      "score": -7,
+      "positive_count": 14,
+      "negative_count": 13,
       "recent_events": [
+        {
+          "date": "20260927",
+          "type": "positive",
+          "headline": "OpenAI bots meddled with multiple US government agency sites",
+          "score": 1
+        },
+        {
+          "date": "20260927",
+          "type": "negative",
+          "headline": "Inside the FBI hack: Agents fearful and angry after 'dangerous' data breach",
+          "score": -1
+        },
+        {
+          "date": "20260927",
+          "type": "negative",
+          "headline": "[거시분석] 미국·EU, 유엔 '팬데믹 대비 선언' 반대…합의 채택 불발",
+          "score": -2
+        },
         {
           "date": "20260926",
           "type": "positive",
@@ -31,24 +49,6 @@
           "type": "negative",
           "headline": "Inside the FBI hack: Agents fearful and angry after 'dangerous' data breach",
           "score": -1
-        },
-        {
-          "date": "20260925",
-          "type": "positive",
-          "headline": "Why Australia chose the world's biggest political stage to reveal OpenAI hack",
-          "score": 1
-        },
-        {
-          "date": "20260925",
-          "type": "positive",
-          "headline": "Rogue OpenAI agent 'infiltrated' Australian government website in world first",
-          "score": 1
-        },
-        {
-          "date": "20260925",
-          "type": "positive",
-          "headline": "Why did an OpenAI system hack Australia's health system - and can it be stopped in the future?",
-          "score": 1
         }
       ]
     },
@@ -57,6 +57,12 @@
       "positive_count": 0,
       "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20260927",
+          "type": "negative",
+          "headline": "[거시분석] 미국·EU, 유엔 '팬데믹 대비 선언' 반대…합의 채택 불발",
+          "score": -3
+        },
         {
           "date": "20260925",
           "type": "negative",
@@ -80,20 +86,26 @@
           "type": "negative",
           "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
           "score": -2
-        },
-        {
-          "date": "20260913",
-          "type": "negative",
-          "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 16,
+      "positive_count": 17,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260927",
+          "type": "positive",
+          "headline": "독 외무, 우크라전 발발 후 러와 첫 회담…\"긴장 고조 말라\"(종합)",
+          "score": 1
+        },
+        {
+          "date": "20260927",
+          "type": "positive",
+          "headline": "[거시분석] 미국·EU, 유엔 '팬데믹 대비 선언' 반대…합의 채택 불발",
+          "score": 2
+        },
         {
           "date": "20260926",
           "type": "positive",
@@ -110,18 +122,6 @@
           "date": "20260924",
           "type": "positive",
           "headline": "[거시분석] Iran's president tells Trump it will never 'b...",
-          "score": 1
-        },
-        {
-          "date": "20260923",
-          "type": "positive",
-          "headline": "[거시분석] US and Iran hold first talks since June after...",
-          "score": 3
-        },
-        {
-          "date": "20260922",
-          "type": "positive",
-          "headline": "[거시분석] Iran must stop arming Houthis in Yemen, G7 sa...",
           "score": 1
         }
       ]
@@ -141,7 +141,7 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 9,
       "recent_events": [
         {
           "date": "20260925",
@@ -206,6 +206,12 @@
       "negative_count": 17,
       "recent_events": [
         {
+          "date": "20260927",
+          "type": "negative",
+          "headline": "[거시분석] 미국·EU, 유엔 '팬데믹 대비 선언' 반대…합의 채택 불발",
+          "score": -8
+        },
+        {
           "date": "20260926",
           "type": "negative",
           "headline": "[거시분석] Iran offers US deal to reopen Strait of Hormu...",
@@ -228,28 +234,11 @@
           "type": "negative",
           "headline": "As Xi meets Trump, who’s winning their trade war?",
           "score": -1
-        },
-        {
-          "date": "20260923",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran hold first talks since June after...",
-          "score": -7
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260912",
-      "headline": "[거시분석] Ukraine faces 'toughest winter' since Russia'...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -6,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260913",
       "headline": "러, 폴란드 코앞 철도시설 공습…우크라 \"EU·나토 겨냥하나\"",
@@ -595,9 +584,44 @@
         "전체시장": -3
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260927",
+      "headline": "OpenAI bots meddled with multiple US government agency sites",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260927",
+      "headline": "Inside the FBI hack: Agents fearful and angry after 'dangerous' data breach",
+      "impacts": {
+        "반도체·AI": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260927",
+      "headline": "독 외무, 우크라전 발발 후 러와 첫 회담…\"긴장 고조 말라\"(종합)",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260927",
+      "headline": "[거시분석] 미국·EU, 유엔 '팬데믹 대비 선언' 반대…합의 채택 불발",
+      "impacts": {
+        "방산": 2,
+        "건설": -3,
+        "전체시장": -8,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 44,
-  "total_positives": 33,
+  "total_negatives": 45,
+  "total_positives": 35,
   "risk_level": "EXTREME"
 }
