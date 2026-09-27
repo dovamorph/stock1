@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T03:08:19.901248+09:00",
+  "updated_at": "2026-09-28T07:53:09.851292+09:00",
   "date": "20260928",
   "window_days": 14,
   "sectors": [
@@ -16,15 +16,15 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -3,
-      "positive_count": 16,
-      "negative_count": 12,
+      "score": -6,
+      "positive_count": 15,
+      "negative_count": 13,
       "recent_events": [
         {
           "date": "20260928",
-          "type": "positive",
-          "headline": "\"고가 AI모델·서버 무단 탈취…다크웹서 'LLM 재킹' 범죄 급증\"",
-          "score": 1
+          "type": "negative",
+          "headline": "[거시분석] Iranian minister says only negotiation can en...",
+          "score": -2
         },
         {
           "date": "20260927",
@@ -53,16 +53,10 @@
       ]
     },
     "건설": {
-      "score": -9,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 5,
+      "negative_count": 4,
       "recent_events": [
-        {
-          "date": "20260928",
-          "type": "negative",
-          "headline": "[거시분석] Iranian minister says only negotiation can en...",
-          "score": -2
-        },
         {
           "date": "20260925",
           "type": "negative",
@@ -91,26 +85,14 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 16,
-      "negative_count": 2,
+      "positive_count": 15,
+      "negative_count": 1,
       "recent_events": [
         {
           "date": "20260928",
-          "type": "negative",
-          "headline": "‘Better deal’: What’s behind Trump’s rejection of Iran’s truce offer?",
-          "score": -1
-        },
-        {
-          "date": "20260928",
-          "type": "positive",
-          "headline": "우크라이나 곳곳 러시아 공습으로 6명 사망",
-          "score": 1
-        },
-        {
-          "date": "20260928",
           "type": "positive",
           "headline": "[거시분석] Iranian minister says only negotiation can en...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20260927",
@@ -123,6 +105,18 @@
           "type": "positive",
           "headline": "[거시분석] Iranian minister says only negotiation can en...",
           "score": 1
+        },
+        {
+          "date": "20260926",
+          "type": "positive",
+          "headline": "[거시분석] Iran offers US deal to reopen Strait of Hormu...",
+          "score": 1
+        },
+        {
+          "date": "20260925",
+          "type": "positive",
+          "headline": "[거시분석] What’s in Iran’s seven-day plan to reopen the...",
+          "score": 2
         }
       ]
     },
@@ -176,10 +170,16 @@
       ]
     },
     "우주ETF": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 3,
+      "positive_count": 3,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260928",
+          "type": "positive",
+          "headline": "Watch: The ups and downs of SpaceX's 13 Starship test flights",
+          "score": 1
+        },
         {
           "date": "20260925",
           "type": "positive",
@@ -202,15 +202,9 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 4,
+      "positive_count": 3,
       "negative_count": 17,
       "recent_events": [
-        {
-          "date": "20260928",
-          "type": "positive",
-          "headline": "‘Better deal’: What’s behind Trump’s rejection of Iran’s truce offer?",
-          "score": 1
-        },
         {
           "date": "20260928",
           "type": "negative",
@@ -234,6 +228,12 @@
           "type": "negative",
           "headline": "[거시분석] Iran offers US deal to reopen Strait of Hormu...",
           "score": -3
+        },
+        {
+          "date": "20260925",
+          "type": "negative",
+          "headline": "[거시분석] What’s in Iran’s seven-day plan to reopen the...",
+          "score": -4
         }
       ]
     }
@@ -610,26 +610,9 @@
     },
     {
       "date": "20260928",
-      "headline": "‘Better deal’: What’s behind Trump’s rejection of Iran’s truce offer?",
+      "headline": "Watch: The ups and downs of SpaceX's 13 Starship test flights",
       "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260928",
-      "headline": "\"고가 AI모델·서버 무단 탈취…다크웹서 'LLM 재킹' 범죄 급증\"",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260928",
-      "headline": "우크라이나 곳곳 러시아 공습으로 6명 사망",
-      "impacts": {
-        "방산": 1
+        "우주ETF": 1
       },
       "source": "keyword"
     },
@@ -637,14 +620,14 @@
       "date": "20260928",
       "headline": "[거시분석] Iranian minister says only negotiation can en...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -4
+        "방산": 1,
+        "전체시장": -4,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 44,
-  "total_positives": 38,
+  "total_negatives": 43,
+  "total_positives": 36,
   "risk_level": "EXTREME"
 }
