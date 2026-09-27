@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T09:20:59.507141+09:00",
+  "updated_at": "2026-09-27T16:48:28.453522+09:00",
   "date": "20260927",
   "window_days": 14,
   "sectors": [
@@ -16,8 +16,8 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -4,
-      "positive_count": 15,
+      "score": -3,
+      "positive_count": 16,
       "negative_count": 12,
       "recent_events": [
         {
@@ -35,6 +35,12 @@
         {
           "date": "20260927",
           "type": "positive",
+          "headline": "Australia summons OpenAI and Anthropic CEOs to appear at AI inquiry",
+          "score": 1
+        },
+        {
+          "date": "20260927",
+          "type": "positive",
           "headline": "Student protesters disrupt NVIDIA AI climate panel",
           "score": 1
         },
@@ -43,12 +49,6 @@
           "type": "positive",
           "headline": "OpenAI bots meddled with multiple US government agency sites",
           "score": 1
-        },
-        {
-          "date": "20260926",
-          "type": "negative",
-          "headline": "Inside the FBI hack: Agents fearful and angry after 'dangerous' data breach",
-          "score": -1
         }
       ]
     },
@@ -97,7 +97,7 @@
         {
           "date": "20260927",
           "type": "positive",
-          "headline": "[거시분석] Trump rejects Iran deal to reopen Strait of H...",
+          "headline": "[거시분석] Iranian minister says only negotiation can en...",
           "score": 1
         },
         {
@@ -208,7 +208,7 @@
         {
           "date": "20260927",
           "type": "negative",
-          "headline": "[거시분석] Trump rejects Iran deal to reopen Strait of H...",
+          "headline": "[거시분석] Iranian minister says only negotiation can en...",
           "score": -2
         },
         {
@@ -603,6 +603,14 @@
     },
     {
       "date": "20260927",
+      "headline": "Australia summons OpenAI and Anthropic CEOs to appear at AI inquiry",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260927",
       "headline": "Student protesters disrupt NVIDIA AI climate panel",
       "impacts": {
         "반도체·AI": 1
@@ -611,7 +619,7 @@
     },
     {
       "date": "20260927",
-      "headline": "[거시분석] Trump rejects Iran deal to reopen Strait of H...",
+      "headline": "[거시분석] Iranian minister says only negotiation can en...",
       "impacts": {
         "방산": 1,
         "전체시장": -2
@@ -620,6 +628,6 @@
     }
   ],
   "total_negatives": 43,
-  "total_positives": 35,
+  "total_positives": 36,
   "risk_level": "EXTREME"
 }
