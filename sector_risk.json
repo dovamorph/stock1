@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T05:49:14.548955+09:00",
+  "updated_at": "2026-09-27T09:20:59.507141+09:00",
   "date": "20260927",
   "window_days": 14,
   "sectors": [
@@ -16,8 +16,8 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -5,
-      "positive_count": 14,
+      "score": -4,
+      "positive_count": 15,
       "negative_count": 12,
       "recent_events": [
         {
@@ -33,6 +33,12 @@
           "score": -1
         },
         {
+          "date": "20260927",
+          "type": "positive",
+          "headline": "Student protesters disrupt NVIDIA AI climate panel",
+          "score": 1
+        },
+        {
           "date": "20260926",
           "type": "positive",
           "headline": "OpenAI bots meddled with multiple US government agency sites",
@@ -43,26 +49,14 @@
           "type": "negative",
           "headline": "Inside the FBI hack: Agents fearful and angry after 'dangerous' data breach",
           "score": -1
-        },
-        {
-          "date": "20260925",
-          "type": "positive",
-          "headline": "Why Australia chose the world's biggest political stage to reveal OpenAI hack",
-          "score": 1
         }
       ]
     },
     "건설": {
-      "score": -10,
+      "score": -9,
       "positive_count": 0,
-      "negative_count": 6,
+      "negative_count": 5,
       "recent_events": [
-        {
-          "date": "20260927",
-          "type": "negative",
-          "headline": "[거시분석] 미국·EU, 유엔 '팬데믹 대비 선언' 반대…합의 채택 불발",
-          "score": -3
-        },
         {
           "date": "20260925",
           "type": "negative",
@@ -86,25 +80,25 @@
           "type": "negative",
           "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
           "score": -2
+        },
+        {
+          "date": "20260913",
+          "type": "negative",
+          "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
+          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 17,
+      "positive_count": 16,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20260927",
           "type": "positive",
-          "headline": "독 외무, 우크라전 발발 후 러와 첫 회담…\"긴장 고조 말라\"(종합)",
+          "headline": "[거시분석] Trump rejects Iran deal to reopen Strait of H...",
           "score": 1
-        },
-        {
-          "date": "20260927",
-          "type": "positive",
-          "headline": "[거시분석] 미국·EU, 유엔 '팬데믹 대비 선언' 반대…합의 채택 불발",
-          "score": 2
         },
         {
           "date": "20260926",
@@ -123,6 +117,12 @@
           "type": "positive",
           "headline": "[거시분석] Iran's president tells Trump it will never 'b...",
           "score": 1
+        },
+        {
+          "date": "20260923",
+          "type": "positive",
+          "headline": "[거시분석] US and Iran hold first talks since June after...",
+          "score": 3
         }
       ]
     },
@@ -208,8 +208,8 @@
         {
           "date": "20260927",
           "type": "negative",
-          "headline": "[거시분석] 미국·EU, 유엔 '팬데믹 대비 선언' 반대…합의 채택 불발",
-          "score": -6
+          "headline": "[거시분석] Trump rejects Iran deal to reopen Strait of H...",
+          "score": -2
         },
         {
           "date": "20260926",
@@ -603,24 +603,23 @@
     },
     {
       "date": "20260927",
-      "headline": "독 외무, 우크라전 발발 후 러와 첫 회담…\"긴장 고조 말라\"(종합)",
+      "headline": "Student protesters disrupt NVIDIA AI climate panel",
       "impacts": {
-        "방산": 1
+        "반도체·AI": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260927",
-      "headline": "[거시분석] 미국·EU, 유엔 '팬데믹 대비 선언' 반대…합의 채택 불발",
+      "headline": "[거시분석] Trump rejects Iran deal to reopen Strait of H...",
       "impacts": {
-        "방산": 2,
-        "건설": -3,
-        "전체시장": -6
+        "방산": 1,
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 44,
+  "total_negatives": 43,
   "total_positives": 35,
   "risk_level": "EXTREME"
 }
