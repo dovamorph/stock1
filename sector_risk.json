@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T16:48:28.453522+09:00",
+  "updated_at": "2026-09-27T22:40:25.703163+09:00",
   "date": "20260927",
   "window_days": 14,
   "sectors": [
@@ -16,8 +16,8 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -3,
-      "positive_count": 16,
+      "score": -4,
+      "positive_count": 15,
       "negative_count": 12,
       "recent_events": [
         {
@@ -39,16 +39,16 @@
           "score": 1
         },
         {
-          "date": "20260927",
-          "type": "positive",
-          "headline": "Student protesters disrupt NVIDIA AI climate panel",
-          "score": 1
-        },
-        {
           "date": "20260926",
           "type": "positive",
           "headline": "OpenAI bots meddled with multiple US government agency sites",
           "score": 1
+        },
+        {
+          "date": "20260926",
+          "type": "negative",
+          "headline": "Inside the FBI hack: Agents fearful and angry after 'dangerous' data breach",
+          "score": -1
         }
       ]
     },
@@ -92,8 +92,14 @@
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 0,
+      "negative_count": 1,
       "recent_events": [
+        {
+          "date": "20260927",
+          "type": "negative",
+          "headline": "‘Better deal’: What’s behind Trump’s rejection of Iran’s truce offer?",
+          "score": -1
+        },
         {
           "date": "20260927",
           "type": "positive",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] Iran's president tells Trump it will never 'b...",
           "score": 1
-        },
-        {
-          "date": "20260923",
-          "type": "positive",
-          "headline": "[거시분석] US and Iran hold first talks since June after...",
-          "score": 3
         }
       ]
     },
@@ -202,9 +202,15 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 2,
+      "positive_count": 3,
       "negative_count": 17,
       "recent_events": [
+        {
+          "date": "20260927",
+          "type": "positive",
+          "headline": "‘Better deal’: What’s behind Trump’s rejection of Iran’s truce offer?",
+          "score": 1
+        },
         {
           "date": "20260927",
           "type": "negative",
@@ -228,12 +234,6 @@
           "type": "negative",
           "headline": "[거시분석] Iran's president tells Trump it will never 'b...",
           "score": -3
-        },
-        {
-          "date": "20260923",
-          "type": "negative",
-          "headline": "As Xi meets Trump, who’s winning their trade war?",
-          "score": -1
         }
       ]
     }
@@ -603,15 +603,16 @@
     },
     {
       "date": "20260927",
-      "headline": "Australia summons OpenAI and Anthropic CEOs to appear at AI inquiry",
+      "headline": "‘Better deal’: What’s behind Trump’s rejection of Iran’s truce offer?",
       "impacts": {
-        "반도체·AI": 1
+        "방산": -1,
+        "전체시장": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260927",
-      "headline": "Student protesters disrupt NVIDIA AI climate panel",
+      "headline": "Australia summons OpenAI and Anthropic CEOs to appear at AI inquiry",
       "impacts": {
         "반도체·AI": 1
       },
@@ -627,7 +628,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 43,
+  "total_negatives": 44,
   "total_positives": 36,
   "risk_level": "EXTREME"
 }
