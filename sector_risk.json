@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-28T22:18:53.543273+09:00",
-  "date": "20260928",
+  "updated_at": "2026-09-29T05:25:47.604231+09:00",
+  "date": "20260929",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -6,
-      "positive_count": 15,
+      "score": -5,
+      "positive_count": 16,
       "negative_count": 13,
       "recent_events": [
+        {
+          "date": "20260929",
+          "type": "positive",
+          "headline": "Florida authorities ask court to block OpenAI’s ChatGPT over safety issues",
+          "score": 1
+        },
         {
           "date": "20260928",
           "type": "negative",
@@ -43,19 +49,13 @@
           "type": "positive",
           "headline": "Australia summons OpenAI and Anthropic CEOs to appear at AI inquiry",
           "score": 1
-        },
-        {
-          "date": "20260926",
-          "type": "positive",
-          "headline": "OpenAI bots meddled with multiple US government agency sites",
-          "score": 1
         }
       ]
     },
     "건설": {
-      "score": -9,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 5,
+      "negative_count": 4,
       "recent_events": [
         {
           "date": "20260928",
@@ -80,12 +80,6 @@
           "type": "negative",
           "headline": "[거시분석] Eight children among 21 killed after war-dama...",
           "score": -2
-        },
-        {
-          "date": "20260914",
-          "type": "negative",
-          "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
-          "score": -2
         }
       ]
     },
@@ -94,6 +88,12 @@
       "positive_count": 15,
       "negative_count": 1,
       "recent_events": [
+        {
+          "date": "20260929",
+          "type": "positive",
+          "headline": "[거시분석] Seoul summons Ukraine envoy over North Korean...",
+          "score": 1
+        },
         {
           "date": "20260928",
           "type": "positive",
@@ -117,12 +117,6 @@
           "type": "positive",
           "headline": "[거시분석] Iran offers US deal to reopen Strait of Hormu...",
           "score": 1
-        },
-        {
-          "date": "20260925",
-          "type": "positive",
-          "headline": "[거시분석] What’s in Iran’s seven-day plan to reopen the...",
-          "score": 2
         }
       ]
     },
@@ -143,6 +137,12 @@
       "positive_count": 0,
       "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20260929",
+          "type": "negative",
+          "headline": "[거시분석] Seoul summons Ukraine envoy over North Korean...",
+          "score": -1
+        },
         {
           "date": "20260928",
           "type": "negative",
@@ -166,20 +166,20 @@
           "type": "negative",
           "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
           "score": -1
-        },
-        {
-          "date": "20260918",
-          "type": "negative",
-          "headline": "[거시분석] UN experts say grounds to believe US committe...",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 3,
+      "positive_count": 3,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260929",
+          "type": "positive",
+          "headline": "Watch: From launch to fiery splashdown, SpaceX's Starship completes orbit test",
+          "score": 1
+        },
         {
           "date": "20260925",
           "type": "positive",
@@ -206,6 +206,12 @@
       "negative_count": 18,
       "recent_events": [
         {
+          "date": "20260929",
+          "type": "negative",
+          "headline": "[거시분석] Seoul summons Ukraine envoy over North Korean...",
+          "score": -3
+        },
+        {
           "date": "20260928",
           "type": "negative",
           "headline": "US, China list goods recommended for tariff cuts following Trump-Xi summit",
@@ -228,28 +234,11 @@
           "type": "negative",
           "headline": "[거시분석] Iranian minister says only negotiation can en...",
           "score": -2
-        },
-        {
-          "date": "20260926",
-          "type": "negative",
-          "headline": "[거시분석] Iran offers US deal to reopen Strait of Hormu...",
-          "score": -3
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260914",
-      "headline": "[거시분석] Iran war reshapes Brics ties but also exposes...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -6,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260915",
       "headline": "AI regulation faces political deadlock as calls grow for Congress to act",
@@ -627,9 +616,35 @@
         "반도체·AI": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260929",
+      "headline": "Watch: From launch to fiery splashdown, SpaceX's Starship completes orbit test",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260929",
+      "headline": "Florida authorities ask court to block OpenAI’s ChatGPT over safety issues",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260929",
+      "headline": "[거시분석] Seoul summons Ukraine envoy over North Korean...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -3,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 46,
-  "total_positives": 35,
+  "total_negatives": 45,
+  "total_positives": 37,
   "risk_level": "EXTREME"
 }
