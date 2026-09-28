@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T13:30:04.648793+09:00",
+  "updated_at": "2026-09-28T22:18:53.543273+09:00",
   "date": "20260928",
   "window_days": 14,
   "sectors": [
@@ -16,20 +16,14 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -5,
-      "positive_count": 16,
+      "score": -6,
+      "positive_count": 15,
       "negative_count": 13,
       "recent_events": [
         {
           "date": "20260928",
-          "type": "positive",
-          "headline": "TSMC, 대만 남부에 최첨단 패키징 공장 5개 추가 건설 추진",
-          "score": 1
-        },
-        {
-          "date": "20260928",
           "type": "negative",
-          "headline": "[거시분석] Iranian minister says only negotiation can en...",
+          "headline": "[거시분석] ‘Still a lockdown’: Deadly floods hit Nepal t...",
           "score": -2
         },
         {
@@ -49,14 +43,26 @@
           "type": "positive",
           "headline": "Australia summons OpenAI and Anthropic CEOs to appear at AI inquiry",
           "score": 1
+        },
+        {
+          "date": "20260926",
+          "type": "positive",
+          "headline": "OpenAI bots meddled with multiple US government agency sites",
+          "score": 1
         }
       ]
     },
     "건설": {
-      "score": -7,
+      "score": -9,
       "positive_count": 0,
-      "negative_count": 4,
+      "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20260928",
+          "type": "negative",
+          "headline": "[거시분석] ‘Still a lockdown’: Deadly floods hit Nepal t...",
+          "score": -2
+        },
         {
           "date": "20260925",
           "type": "negative",
@@ -91,7 +97,7 @@
         {
           "date": "20260928",
           "type": "positive",
-          "headline": "[거시분석] Iranian minister says only negotiation can en...",
+          "headline": "[거시분석] ‘Still a lockdown’: Deadly floods hit Nepal t...",
           "score": 1
         },
         {
@@ -135,8 +141,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20260928",
+          "type": "negative",
+          "headline": "[거시분석] ‘Still a lockdown’: Deadly floods hit Nepal t...",
+          "score": -1
+        },
         {
           "date": "20260925",
           "type": "negative",
@@ -160,26 +172,14 @@
           "type": "negative",
           "headline": "[거시분석] UN experts say grounds to believe US committe...",
           "score": -1
-        },
-        {
-          "date": "20260917",
-          "type": "negative",
-          "headline": "Trump threatens to end trade with Mexico and Europe after rate hike",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 3,
-      "positive_count": 3,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260928",
-          "type": "positive",
-          "headline": "Watch: The ups and downs of SpaceX's 13 Starship test flights",
-          "score": 1
-        },
         {
           "date": "20260925",
           "type": "positive",
@@ -203,13 +203,19 @@
     "전체시장": {
       "score": -10,
       "positive_count": 3,
-      "negative_count": 17,
+      "negative_count": 18,
       "recent_events": [
         {
           "date": "20260928",
           "type": "negative",
-          "headline": "[거시분석] Iranian minister says only negotiation can en...",
-          "score": -4
+          "headline": "US, China list goods recommended for tariff cuts following Trump-Xi summit",
+          "score": -1
+        },
+        {
+          "date": "20260928",
+          "type": "negative",
+          "headline": "[거시분석] ‘Still a lockdown’: Deadly floods hit Nepal t...",
+          "score": -8
         },
         {
           "date": "20260927",
@@ -228,12 +234,6 @@
           "type": "negative",
           "headline": "[거시분석] Iran offers US deal to reopen Strait of Hormu...",
           "score": -3
-        },
-        {
-          "date": "20260925",
-          "type": "negative",
-          "headline": "[거시분석] What’s in Iran’s seven-day plan to reopen the...",
-          "score": -4
         }
       ]
     }
@@ -610,32 +610,26 @@
     },
     {
       "date": "20260928",
-      "headline": "Watch: The ups and downs of SpaceX's 13 Starship test flights",
+      "headline": "US, China list goods recommended for tariff cuts following Trump-Xi summit",
       "impacts": {
-        "우주ETF": 1
+        "전체시장": -1
       },
       "source": "keyword"
     },
     {
       "date": "20260928",
-      "headline": "TSMC, 대만 남부에 최첨단 패키징 공장 5개 추가 건설 추진",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260928",
-      "headline": "[거시분석] Iranian minister says only negotiation can en...",
+      "headline": "[거시분석] ‘Still a lockdown’: Deadly floods hit Nepal t...",
       "impacts": {
         "방산": 1,
-        "전체시장": -4,
+        "전체시장": -8,
+        "금융": -1,
+        "건설": -2,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 43,
-  "total_positives": 37,
+  "total_negatives": 46,
+  "total_positives": 35,
   "risk_level": "EXTREME"
 }
