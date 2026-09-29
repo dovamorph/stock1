@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T05:25:47.604231+09:00",
+  "updated_at": "2026-09-29T10:36:07.918729+09:00",
   "date": "20260929",
   "window_days": 14,
   "sectors": [
@@ -16,15 +16,27 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -5,
-      "positive_count": 16,
-      "negative_count": 13,
+      "score": -6,
+      "positive_count": 17,
+      "negative_count": 14,
       "recent_events": [
         {
           "date": "20260929",
           "type": "positive",
-          "headline": "Florida authorities ask court to block OpenAI’s ChatGPT over safety issues",
+          "headline": "OpenAI scraps rollout of new model over safety concerns",
           "score": 1
+        },
+        {
+          "date": "20260929",
+          "type": "positive",
+          "headline": "OpenAI scraps release of latest AI model over safety concerns",
+          "score": 1
+        },
+        {
+          "date": "20260929",
+          "type": "negative",
+          "headline": "[거시분석] Iran court upholds lashes sentence for singer...",
+          "score": -2
         },
         {
           "date": "20260928",
@@ -37,26 +49,20 @@
           "type": "positive",
           "headline": "OpenAI bots meddled with multiple US government agency sites",
           "score": 1
-        },
-        {
-          "date": "20260927",
-          "type": "negative",
-          "headline": "Inside the FBI hack: Agents fearful and angry after 'dangerous' data breach",
-          "score": -1
-        },
-        {
-          "date": "20260927",
-          "type": "positive",
-          "headline": "Australia summons OpenAI and Anthropic CEOs to appear at AI inquiry",
-          "score": 1
         }
       ]
     },
     "건설": {
-      "score": -7,
+      "score": -8,
       "positive_count": 0,
-      "negative_count": 4,
+      "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20260929",
+          "type": "negative",
+          "headline": "[거시분석] Iran court upholds lashes sentence for singer...",
+          "score": -1
+        },
         {
           "date": "20260928",
           "type": "negative",
@@ -91,8 +97,8 @@
         {
           "date": "20260929",
           "type": "positive",
-          "headline": "[거시분석] Seoul summons Ukraine envoy over North Korean...",
-          "score": 1
+          "headline": "[거시분석] Iran court upholds lashes sentence for singer...",
+          "score": 2
         },
         {
           "date": "20260928",
@@ -135,14 +141,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 8,
       "recent_events": [
-        {
-          "date": "20260929",
-          "type": "negative",
-          "headline": "[거시분석] Seoul summons Ukraine envoy over North Korean...",
-          "score": -1
-        },
         {
           "date": "20260928",
           "type": "negative",
@@ -166,18 +166,30 @@
           "type": "negative",
           "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
           "score": -1
+        },
+        {
+          "date": "20260918",
+          "type": "negative",
+          "headline": "[거시분석] UN experts say grounds to believe US committe...",
+          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 3,
-      "positive_count": 3,
+      "score": 4,
+      "positive_count": 4,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20260929",
           "type": "positive",
           "headline": "Watch: From launch to fiery splashdown, SpaceX's Starship completes orbit test",
+          "score": 1
+        },
+        {
+          "date": "20260929",
+          "type": "positive",
+          "headline": "Fiery end for SpaceX Starship mission",
           "score": 1
         },
         {
@@ -208,8 +220,8 @@
         {
           "date": "20260929",
           "type": "negative",
-          "headline": "[거시분석] Seoul summons Ukraine envoy over North Korean...",
-          "score": -3
+          "headline": "[거시분석] Iran court upholds lashes sentence for singer...",
+          "score": -5
         },
         {
           "date": "20260928",
@@ -619,6 +631,14 @@
     },
     {
       "date": "20260929",
+      "headline": "OpenAI scraps rollout of new model over safety concerns",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260929",
       "headline": "Watch: From launch to fiery splashdown, SpaceX's Starship completes orbit test",
       "impacts": {
         "우주ETF": 1
@@ -627,7 +647,7 @@
     },
     {
       "date": "20260929",
-      "headline": "Florida authorities ask court to block OpenAI’s ChatGPT over safety issues",
+      "headline": "OpenAI scraps release of latest AI model over safety concerns",
       "impacts": {
         "반도체·AI": 1
       },
@@ -635,16 +655,25 @@
     },
     {
       "date": "20260929",
-      "headline": "[거시분석] Seoul summons Ukraine envoy over North Korean...",
+      "headline": "Fiery end for SpaceX Starship mission",
       "impacts": {
-        "방산": 1,
-        "전체시장": -3,
-        "금융": -1
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260929",
+      "headline": "[거시분석] Iran court upholds lashes sentence for singer...",
+      "impacts": {
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -5,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 45,
-  "total_positives": 37,
+  "total_negatives": 46,
+  "total_positives": 39,
   "risk_level": "EXTREME"
 }
