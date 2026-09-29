@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-29T17:05:33.920464+09:00",
-  "date": "20260929",
+  "updated_at": "2026-09-30T01:23:30.882747+09:00",
+  "date": "20260930",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -17,9 +17,15 @@
   "sector_stats": {
     "반도체·AI": {
       "score": -6,
-      "positive_count": 17,
-      "negative_count": 14,
+      "positive_count": 16,
+      "negative_count": 13,
       "recent_events": [
+        {
+          "date": "20260930",
+          "type": "negative",
+          "headline": "[거시분석] Estonia blames Russia for arson at defence co...",
+          "score": -2
+        },
         {
           "date": "20260929",
           "type": "positive",
@@ -43,20 +49,20 @@
           "type": "negative",
           "headline": "[거시분석] ‘Still a lockdown’: Deadly floods hit Nepal t...",
           "score": -2
-        },
-        {
-          "date": "20260927",
-          "type": "positive",
-          "headline": "OpenAI bots meddled with multiple US government agency sites",
-          "score": 1
         }
       ]
     },
     "건설": {
-      "score": -8,
+      "score": -10,
       "positive_count": 0,
-      "negative_count": 5,
+      "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20260930",
+          "type": "negative",
+          "headline": "[거시분석] Estonia blames Russia for arson at defence co...",
+          "score": -2
+        },
         {
           "date": "20260929",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] US and Iran hold first talks since June after...",
           "score": -2
-        },
-        {
-          "date": "20260916",
-          "type": "negative",
-          "headline": "[거시분석] Eight children among 21 killed after war-dama...",
-          "score": -2
         }
       ]
     },
@@ -94,6 +94,12 @@
       "positive_count": 15,
       "negative_count": 1,
       "recent_events": [
+        {
+          "date": "20260930",
+          "type": "positive",
+          "headline": "[거시분석] Estonia blames Russia for arson at defence co...",
+          "score": 3
+        },
         {
           "date": "20260929",
           "type": "positive",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] Iranian minister says only negotiation can en...",
           "score": 1
-        },
-        {
-          "date": "20260926",
-          "type": "positive",
-          "headline": "[거시분석] Iran offers US deal to reopen Strait of Hormu...",
-          "score": 1
         }
       ]
     },
@@ -141,8 +141,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20260930",
+          "type": "negative",
+          "headline": "[거시분석] Estonia blames Russia for arson at defence co...",
+          "score": -1
+        },
         {
           "date": "20260929",
           "type": "negative",
@@ -166,20 +172,20 @@
           "type": "negative",
           "headline": "[거시분석] Iran's president tells Trump it will never 'b...",
           "score": -1
-        },
-        {
-          "date": "20260919",
-          "type": "negative",
-          "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 4,
-      "positive_count": 4,
+      "score": 5,
+      "positive_count": 5,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20260930",
+          "type": "positive",
+          "headline": "Watch: From launch to fiery splashdown, SpaceX's Starship completes orbit test",
+          "score": 1
+        },
         {
           "date": "20260929",
           "type": "positive",
@@ -215,8 +221,20 @@
     "전체시장": {
       "score": -10,
       "positive_count": 3,
-      "negative_count": 19,
+      "negative_count": 20,
       "recent_events": [
+        {
+          "date": "20260930",
+          "type": "negative",
+          "headline": "US ban on Canadian alcohol and dairy takes effect as trade war drags on",
+          "score": -1
+        },
+        {
+          "date": "20260930",
+          "type": "negative",
+          "headline": "[거시분석] Estonia blames Russia for arson at defence co...",
+          "score": -7
+        },
         {
           "date": "20260929",
           "type": "negative",
@@ -234,49 +252,11 @@
           "type": "negative",
           "headline": "US, China list goods recommended for tariff cuts following Trump-Xi summit",
           "score": -1
-        },
-        {
-          "date": "20260928",
-          "type": "negative",
-          "headline": "[거시분석] ‘Still a lockdown’: Deadly floods hit Nepal t...",
-          "score": -8
-        },
-        {
-          "date": "20260927",
-          "type": "positive",
-          "headline": "‘Better deal’: What’s behind Trump’s rejection of Iran’s truce offer?",
-          "score": 1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260915",
-      "headline": "AI regulation faces political deadlock as calls grow for Congress to act",
-      "impacts": {
-        "반도체·AI": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260915",
-      "headline": "Trump calls, interrupts Nvidia CEO to say AI fears are ‘a hoax’",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260915",
-      "headline": "[거시분석] Palestine weekly: Settlement sanctions spark ...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -4,
-        "반도체·AI": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260916",
       "headline": "OpenAI boss says world 'right to be afraid' but should trust AI firms",
@@ -680,9 +660,37 @@
         "반도체·AI": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20260930",
+      "headline": "US ban on Canadian alcohol and dairy takes effect as trade war drags on",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260930",
+      "headline": "Watch: From launch to fiery splashdown, SpaceX's Starship completes orbit test",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260930",
+      "headline": "[거시분석] Estonia blames Russia for arson at defence co...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -7,
+        "금융": -1,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 48,
+  "total_negatives": 50,
   "total_positives": 39,
   "risk_level": "EXTREME"
 }
