@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T10:36:07.918729+09:00",
+  "updated_at": "2026-09-29T17:05:33.920464+09:00",
   "date": "20260929",
   "window_days": 14,
   "sectors": [
@@ -29,13 +29,13 @@
         {
           "date": "20260929",
           "type": "positive",
-          "headline": "OpenAI scraps release of latest AI model over safety concerns",
+          "headline": "OpenAI cancels release of AI model GPT-6.1 Astra, citing safety concerns",
           "score": 1
         },
         {
           "date": "20260929",
           "type": "negative",
-          "headline": "[거시분석] Iran court upholds lashes sentence for singer...",
+          "headline": "[거시분석] US ban on Canadian alcohol and dairy comes in...",
           "score": -2
         },
         {
@@ -60,7 +60,7 @@
         {
           "date": "20260929",
           "type": "negative",
-          "headline": "[거시분석] Iran court upholds lashes sentence for singer...",
+          "headline": "[거시분석] US ban on Canadian alcohol and dairy comes in...",
           "score": -1
         },
         {
@@ -97,7 +97,7 @@
         {
           "date": "20260929",
           "type": "positive",
-          "headline": "[거시분석] Iran court upholds lashes sentence for singer...",
+          "headline": "[거시분석] US ban on Canadian alcohol and dairy comes in...",
           "score": 2
         },
         {
@@ -141,8 +141,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20260929",
+          "type": "negative",
+          "headline": "[거시분석] US ban on Canadian alcohol and dairy comes in...",
+          "score": -1
+        },
         {
           "date": "20260928",
           "type": "negative",
@@ -165,12 +171,6 @@
           "date": "20260919",
           "type": "negative",
           "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
-          "score": -1
-        },
-        {
-          "date": "20260918",
-          "type": "negative",
-          "headline": "[거시분석] UN experts say grounds to believe US committe...",
           "score": -1
         }
       ]
@@ -215,13 +215,19 @@
     "전체시장": {
       "score": -10,
       "positive_count": 3,
-      "negative_count": 18,
+      "negative_count": 19,
       "recent_events": [
         {
           "date": "20260929",
           "type": "negative",
-          "headline": "[거시분석] Iran court upholds lashes sentence for singer...",
-          "score": -5
+          "headline": "US ban on Canadian alcohol and dairy comes into effect as trade war drags on",
+          "score": -1
+        },
+        {
+          "date": "20260929",
+          "type": "negative",
+          "headline": "[거시분석] US ban on Canadian alcohol and dairy comes in...",
+          "score": -7
         },
         {
           "date": "20260928",
@@ -240,12 +246,6 @@
           "type": "positive",
           "headline": "‘Better deal’: What’s behind Trump’s rejection of Iran’s truce offer?",
           "score": 1
-        },
-        {
-          "date": "20260927",
-          "type": "negative",
-          "headline": "[거시분석] Iranian minister says only negotiation can en...",
-          "score": -2
         }
       ]
     }
@@ -639,6 +639,14 @@
     },
     {
       "date": "20260929",
+      "headline": "US ban on Canadian alcohol and dairy comes into effect as trade war drags on",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20260929",
       "headline": "Watch: From launch to fiery splashdown, SpaceX's Starship completes orbit test",
       "impacts": {
         "우주ETF": 1
@@ -647,7 +655,7 @@
     },
     {
       "date": "20260929",
-      "headline": "OpenAI scraps release of latest AI model over safety concerns",
+      "headline": "OpenAI cancels release of AI model GPT-6.1 Astra, citing safety concerns",
       "impacts": {
         "반도체·AI": 1
       },
@@ -663,17 +671,18 @@
     },
     {
       "date": "20260929",
-      "headline": "[거시분석] Iran court upholds lashes sentence for singer...",
+      "headline": "[거시분석] US ban on Canadian alcohol and dairy comes in...",
       "impacts": {
         "방산": 2,
         "건설": -1,
-        "전체시장": -5,
+        "전체시장": -7,
+        "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 46,
+  "total_negatives": 48,
   "total_positives": 39,
   "risk_level": "EXTREME"
 }
