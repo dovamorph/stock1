@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T01:23:30.882747+09:00",
+  "updated_at": "2026-09-30T07:01:55.692301+09:00",
   "date": "20260930",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20260930",
           "type": "negative",
-          "headline": "[거시분석] Estonia blames Russia for arson at defence co...",
+          "headline": "[거시분석] Trump rules out joint US-China venture to dev...",
           "score": -2
         },
         {
@@ -53,16 +53,10 @@
       ]
     },
     "건설": {
-      "score": -10,
+      "score": -8,
       "positive_count": 0,
-      "negative_count": 6,
+      "negative_count": 5,
       "recent_events": [
-        {
-          "date": "20260930",
-          "type": "negative",
-          "headline": "[거시분석] Estonia blames Russia for arson at defence co...",
-          "score": -2
-        },
         {
           "date": "20260929",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] US and Iran hold first talks since June after...",
           "score": -2
+        },
+        {
+          "date": "20260916",
+          "type": "negative",
+          "headline": "[거시분석] Eight children among 21 killed after war-dama...",
+          "score": -2
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20260930",
           "type": "positive",
-          "headline": "[거시분석] Estonia blames Russia for arson at defence co...",
-          "score": 3
+          "headline": "[거시분석] Trump rules out joint US-China venture to dev...",
+          "score": 1
         },
         {
           "date": "20260929",
@@ -146,7 +146,7 @@
         {
           "date": "20260930",
           "type": "negative",
-          "headline": "[거시분석] Estonia blames Russia for arson at defence co...",
+          "headline": "[거시분석] Trump rules out joint US-China venture to dev...",
           "score": -1
         },
         {
@@ -176,16 +176,10 @@
       ]
     },
     "우주ETF": {
-      "score": 5,
-      "positive_count": 5,
+      "score": 4,
+      "positive_count": 4,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20260930",
-          "type": "positive",
-          "headline": "Watch: From launch to fiery splashdown, SpaceX's Starship completes orbit test",
-          "score": 1
-        },
         {
           "date": "20260929",
           "type": "positive",
@@ -232,8 +226,8 @@
         {
           "date": "20260930",
           "type": "negative",
-          "headline": "[거시분석] Estonia blames Russia for arson at defence co...",
-          "score": -7
+          "headline": "[거시분석] Trump rules out joint US-China venture to dev...",
+          "score": -5
         },
         {
           "date": "20260929",
@@ -671,26 +665,17 @@
     },
     {
       "date": "20260930",
-      "headline": "Watch: From launch to fiery splashdown, SpaceX's Starship completes orbit test",
+      "headline": "[거시분석] Trump rules out joint US-China venture to dev...",
       "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260930",
-      "headline": "[거시분석] Estonia blames Russia for arson at defence co...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -7,
+        "방산": 1,
+        "전체시장": -5,
         "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 50,
-  "total_positives": 39,
+  "total_negatives": 49,
+  "total_positives": 38,
   "risk_level": "EXTREME"
 }
