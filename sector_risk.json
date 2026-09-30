@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T13:45:40.395494+09:00",
+  "updated_at": "2026-09-30T21:10:10.227073+09:00",
   "date": "20260930",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -4,
-      "positive_count": 16,
+      "score": -3,
+      "positive_count": 17,
       "negative_count": 12,
       "recent_events": [
+        {
+          "date": "20260930",
+          "type": "positive",
+          "headline": "OpenAI launches ‘dots,’ personal AI assistant ‘built to handle everything’",
+          "score": 1
+        },
         {
           "date": "20260929",
           "type": "positive",
@@ -43,25 +49,19 @@
           "type": "negative",
           "headline": "[거시분석] ‘Still a lockdown’: Deadly floods hit Nepal t...",
           "score": -2
-        },
-        {
-          "date": "20260927",
-          "type": "positive",
-          "headline": "OpenAI bots meddled with multiple US government agency sites",
-          "score": 1
         }
       ]
     },
     "건설": {
-      "score": -7,
-      "positive_count": 1,
-      "negative_count": 5,
+      "score": -10,
+      "positive_count": 0,
+      "negative_count": 6,
       "recent_events": [
         {
           "date": "20260930",
-          "type": "positive",
-          "headline": "\"AI 인프라 투자는 낭비…비트코인, 10년 뒤 100만달러 갈 것\"",
-          "score": 1
+          "type": "negative",
+          "headline": "[거시분석] Russia launches largest attack on Ukraine ene...",
+          "score": -2
         },
         {
           "date": "20260929",
@@ -97,8 +97,8 @@
         {
           "date": "20260930",
           "type": "positive",
-          "headline": "[거시분석] Estonia blames Russia for arson at defence co...",
-          "score": 1
+          "headline": "[거시분석] Russia launches largest attack on Ukraine ene...",
+          "score": 3
         },
         {
           "date": "20260929",
@@ -220,8 +220,8 @@
         {
           "date": "20260930",
           "type": "negative",
-          "headline": "[거시분석] Estonia blames Russia for arson at defence co...",
-          "score": -2
+          "headline": "[거시분석] Russia launches largest attack on Ukraine ene...",
+          "score": -3
         },
         {
           "date": "20260929",
@@ -657,23 +657,24 @@
     },
     {
       "date": "20260930",
-      "headline": "\"AI 인프라 투자는 낭비…비트코인, 10년 뒤 100만달러 갈 것\"",
+      "headline": "OpenAI launches ‘dots,’ personal AI assistant ‘built to handle everything’",
       "impacts": {
-        "건설": 1
+        "반도체·AI": 1
       },
       "source": "keyword"
     },
     {
       "date": "20260930",
-      "headline": "[거시분석] Estonia blames Russia for arson at defence co...",
+      "headline": "[거시분석] Russia launches largest attack on Ukraine ene...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -2
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -3
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 46,
+  "total_negatives": 47,
   "total_positives": 39,
   "risk_level": "EXTREME"
 }
