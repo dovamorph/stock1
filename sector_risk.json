@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T03:55:29.801435+09:00",
+  "updated_at": "2026-10-01T08:34:18.903413+09:00",
   "date": "20261001",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -6,
+      "score": -4,
       "positive_count": 16,
-      "negative_count": 13,
+      "negative_count": 12,
       "recent_events": [
-        {
-          "date": "20261001",
-          "type": "negative",
-          "headline": "[거시분석] Last UK and US troops leave Iraq as anti-Isla...",
-          "score": -2
-        },
         {
           "date": "20260930",
           "type": "positive",
@@ -49,20 +43,20 @@
           "type": "negative",
           "headline": "[거시분석] US ban on Canadian alcohol and dairy comes in...",
           "score": -2
+        },
+        {
+          "date": "20260928",
+          "type": "negative",
+          "headline": "[거시분석] ‘Still a lockdown’: Deadly floods hit Nepal t...",
+          "score": -2
         }
       ]
     },
     "건설": {
-      "score": -9,
+      "score": -8,
       "positive_count": 0,
-      "negative_count": 6,
+      "negative_count": 5,
       "recent_events": [
-        {
-          "date": "20261001",
-          "type": "negative",
-          "headline": "[거시분석] Last UK and US troops leave Iraq as anti-Isla...",
-          "score": -1
-        },
         {
           "date": "20260930",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] What’s in Iran’s seven-day plan to reopen the...",
           "score": -1
+        },
+        {
+          "date": "20260923",
+          "type": "negative",
+          "headline": "[거시분석] US and Iran hold first talks since June after...",
+          "score": -2
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20261001",
           "type": "positive",
-          "headline": "[거시분석] Last UK and US troops leave Iraq as anti-Isla...",
-          "score": 2
+          "headline": "[거시분석] Russia launches largest attack on Ukraine ene...",
+          "score": 1
         },
         {
           "date": "20260930",
@@ -146,7 +146,7 @@
         {
           "date": "20261001",
           "type": "negative",
-          "headline": "[거시분석] Last UK and US troops leave Iraq as anti-Isla...",
+          "headline": "[거시분석] Russia launches largest attack on Ukraine ene...",
           "score": -1
         },
         {
@@ -220,8 +220,8 @@
         {
           "date": "20261001",
           "type": "negative",
-          "headline": "[거시분석] Last UK and US troops leave Iraq as anti-Isla...",
-          "score": -7
+          "headline": "[거시분석] Russia launches largest attack on Ukraine ene...",
+          "score": -3
         },
         {
           "date": "20260930",
@@ -656,18 +656,16 @@
     },
     {
       "date": "20261001",
-      "headline": "[거시분석] Last UK and US troops leave Iraq as anti-Isla...",
+      "headline": "[거시분석] Russia launches largest attack on Ukraine ene...",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -7,
-        "금융": -1,
-        "반도체·AI": -2
+        "방산": 1,
+        "전체시장": -3,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 48,
+  "total_negatives": 46,
   "total_positives": 38,
   "risk_level": "EXTREME"
 }
