@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-01T21:44:28.360461+09:00",
-  "date": "20261001",
+  "updated_at": "2026-10-02T04:20:08.508103+09:00",
+  "date": "20261002",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,9 +16,9 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -3,
-      "positive_count": 17,
-      "negative_count": 12,
+      "score": -2,
+      "positive_count": 15,
+      "negative_count": 10,
       "recent_events": [
         {
           "date": "20261001",
@@ -95,6 +95,12 @@
       "negative_count": 1,
       "recent_events": [
         {
+          "date": "20261002",
+          "type": "positive",
+          "headline": "[거시분석] Rosenberg: Putin shows no sign of stopping th...",
+          "score": 1
+        },
+        {
           "date": "20261001",
           "type": "positive",
           "headline": "[거시분석] Too early to say if Iran involved in Dubai-Te...",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] ‘Still a lockdown’: Deadly floods hit Nepal t...",
           "score": 1
-        },
-        {
-          "date": "20260927",
-          "type": "negative",
-          "headline": "‘Better deal’: What’s behind Trump’s rejection of Iran’s truce offer?",
-          "score": -1
         }
       ]
     },
@@ -139,10 +139,16 @@
       "recent_events": []
     },
     "금융": {
-      "score": -10,
+      "score": -8,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20261002",
+          "type": "negative",
+          "headline": "[거시분석] Rosenberg: Putin shows no sign of stopping th...",
+          "score": -1
+        },
         {
           "date": "20261001",
           "type": "negative",
@@ -165,12 +171,6 @@
           "date": "20260925",
           "type": "negative",
           "headline": "[거시분석] What’s in Iran’s seven-day plan to reopen the...",
-          "score": -1
-        },
-        {
-          "date": "20260924",
-          "type": "negative",
-          "headline": "[거시분석] Iran's president tells Trump it will never 'b...",
           "score": -1
         }
       ]
@@ -215,8 +215,14 @@
     "전체시장": {
       "score": -10,
       "positive_count": 3,
-      "negative_count": 19,
+      "negative_count": 18,
       "recent_events": [
+        {
+          "date": "20261002",
+          "type": "negative",
+          "headline": "[거시분석] Rosenberg: Putin shows no sign of stopping th...",
+          "score": -3
+        },
         {
           "date": "20261001",
           "type": "negative",
@@ -240,68 +246,11 @@
           "type": "negative",
           "headline": "[거시분석] US ban on Canadian alcohol and dairy comes in...",
           "score": -7
-        },
-        {
-          "date": "20260928",
-          "type": "negative",
-          "headline": "US, China list goods recommended for tariff cuts following Trump-Xi summit",
-          "score": -1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260917",
-      "headline": "India faces 100% tariff threat over Russian oil after US House vote",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260917",
-      "headline": "OpenAI boss says world 'right to be afraid' but should trust AI firms",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260917",
-      "headline": "OpenAI reports more incidents of models acting deceptively",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260917",
-      "headline": "Trump threatens to end trade with Mexico and Europe after rate hike",
-      "impacts": {
-        "금융": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260917",
-      "headline": "Can AI regulation keep America ahead of China?",
-      "impacts": {
-        "반도체·AI": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260917",
-      "headline": "[거시분석] US interest rates raised for first time in th...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -8,
-        "금융": -3,
-        "반도체·AI": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260918",
       "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
@@ -672,9 +621,19 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261002",
+      "headline": "[거시분석] Rosenberg: Putin shows no sign of stopping th...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -3,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 47,
-  "total_positives": 39,
+  "total_negatives": 43,
+  "total_positives": 37,
   "risk_level": "EXTREME"
 }
