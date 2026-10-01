@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T13:58:10.689593+09:00",
+  "updated_at": "2026-10-01T21:44:28.360461+09:00",
   "date": "20261001",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -4,
-      "positive_count": 16,
+      "score": -3,
+      "positive_count": 17,
       "negative_count": 12,
       "recent_events": [
+        {
+          "date": "20261001",
+          "type": "positive",
+          "headline": "OpenAI ‘reviewing’ report of failed hacking attempt against Canada’s gov’t",
+          "score": 1
+        },
         {
           "date": "20260930",
           "type": "positive",
@@ -43,20 +49,20 @@
           "type": "negative",
           "headline": "[거시분석] US ban on Canadian alcohol and dairy comes in...",
           "score": -2
-        },
-        {
-          "date": "20260928",
-          "type": "negative",
-          "headline": "[거시분석] ‘Still a lockdown’: Deadly floods hit Nepal t...",
-          "score": -2
         }
       ]
     },
     "건설": {
-      "score": -8,
+      "score": -10,
       "positive_count": 0,
-      "negative_count": 5,
+      "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20261001",
+          "type": "negative",
+          "headline": "[거시분석] Too early to say if Iran involved in Dubai-Te...",
+          "score": -2
+        },
         {
           "date": "20260930",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] What’s in Iran’s seven-day plan to reopen the...",
           "score": -1
-        },
-        {
-          "date": "20260923",
-          "type": "negative",
-          "headline": "[거시분석] US and Iran hold first talks since June after...",
-          "score": -2
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20261001",
           "type": "positive",
-          "headline": "[거시분석] Putin shows no sign of stopping the war as Ru...",
-          "score": 1
+          "headline": "[거시분석] Too early to say if Iran involved in Dubai-Te...",
+          "score": 3
         },
         {
           "date": "20260930",
@@ -146,7 +146,7 @@
         {
           "date": "20261001",
           "type": "negative",
-          "headline": "[거시분석] Putin shows no sign of stopping the war as Ru...",
+          "headline": "[거시분석] Too early to say if Iran involved in Dubai-Te...",
           "score": -1
         },
         {
@@ -220,8 +220,8 @@
         {
           "date": "20261001",
           "type": "negative",
-          "headline": "[거시분석] Putin shows no sign of stopping the war as Ru...",
-          "score": -3
+          "headline": "[거시분석] Too early to say if Iran involved in Dubai-Te...",
+          "score": -5
         },
         {
           "date": "20260930",
@@ -656,16 +656,25 @@
     },
     {
       "date": "20261001",
-      "headline": "[거시분석] Putin shows no sign of stopping the war as Ru...",
+      "headline": "OpenAI ‘reviewing’ report of failed hacking attempt against Canada’s gov’t",
       "impacts": {
-        "방산": 1,
-        "전체시장": -3,
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261001",
+      "headline": "[거시분석] Too early to say if Iran involved in Dubai-Te...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 46,
-  "total_positives": 38,
+  "total_negatives": 47,
+  "total_positives": 39,
   "risk_level": "EXTREME"
 }
