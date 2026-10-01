@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T04:20:08.508103+09:00",
+  "updated_at": "2026-10-02T08:46:33.706026+09:00",
   "date": "20261002",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -2,
+      "score": -4,
       "positive_count": 15,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20261002",
+          "type": "negative",
+          "headline": "[거시분석] Most Americans say US-Israel war on Iran not ...",
+          "score": -2
+        },
         {
           "date": "20261001",
           "type": "positive",
@@ -43,12 +49,6 @@
           "type": "positive",
           "headline": "OpenAI cancels release of AI model GPT-6.1 Astra, citing safety concerns",
           "score": 1
-        },
-        {
-          "date": "20260929",
-          "type": "negative",
-          "headline": "[거시분석] US ban on Canadian alcohol and dairy comes in...",
-          "score": -2
         }
       ]
     },
@@ -97,7 +97,7 @@
         {
           "date": "20261002",
           "type": "positive",
-          "headline": "[거시분석] Rosenberg: Putin shows no sign of stopping th...",
+          "headline": "[거시분석] Most Americans say US-Israel war on Iran not ...",
           "score": 1
         },
         {
@@ -146,7 +146,7 @@
         {
           "date": "20261002",
           "type": "negative",
-          "headline": "[거시분석] Rosenberg: Putin shows no sign of stopping th...",
+          "headline": "[거시분석] Most Americans say US-Israel war on Iran not ...",
           "score": -1
         },
         {
@@ -176,10 +176,16 @@
       ]
     },
     "우주ETF": {
-      "score": 4,
-      "positive_count": 4,
+      "score": 5,
+      "positive_count": 5,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20261002",
+          "type": "positive",
+          "headline": "머스크, '스타링크 외면' 델타 CEO에 \"직 잃게 될 것\" 독설",
+          "score": 1
+        },
         {
           "date": "20260929",
           "type": "positive",
@@ -220,8 +226,8 @@
         {
           "date": "20261002",
           "type": "negative",
-          "headline": "[거시분석] Rosenberg: Putin shows no sign of stopping th...",
-          "score": -3
+          "headline": "[거시분석] Most Americans say US-Israel war on Iran not ...",
+          "score": -5
         },
         {
           "date": "20261001",
@@ -624,16 +630,25 @@
     },
     {
       "date": "20261002",
-      "headline": "[거시분석] Rosenberg: Putin shows no sign of stopping th...",
+      "headline": "머스크, '스타링크 외면' 델타 CEO에 \"직 잃게 될 것\" 독설",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261002",
+      "headline": "[거시분석] Most Americans say US-Israel war on Iran not ...",
       "impacts": {
         "방산": 1,
-        "전체시장": -3,
-        "금융": -1
+        "전체시장": -5,
+        "금융": -1,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 43,
-  "total_positives": 37,
+  "total_negatives": 44,
+  "total_positives": 38,
   "risk_level": "EXTREME"
 }
