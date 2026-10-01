@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T08:34:18.903413+09:00",
+  "updated_at": "2026-10-01T13:58:10.689593+09:00",
   "date": "20261001",
   "window_days": 14,
   "sectors": [
@@ -97,7 +97,7 @@
         {
           "date": "20261001",
           "type": "positive",
-          "headline": "[거시분석] Russia launches largest attack on Ukraine ene...",
+          "headline": "[거시분석] Putin shows no sign of stopping the war as Ru...",
           "score": 1
         },
         {
@@ -146,7 +146,7 @@
         {
           "date": "20261001",
           "type": "negative",
-          "headline": "[거시분석] Russia launches largest attack on Ukraine ene...",
+          "headline": "[거시분석] Putin shows no sign of stopping the war as Ru...",
           "score": -1
         },
         {
@@ -220,7 +220,7 @@
         {
           "date": "20261001",
           "type": "negative",
-          "headline": "[거시분석] Russia launches largest attack on Ukraine ene...",
+          "headline": "[거시분석] Putin shows no sign of stopping the war as Ru...",
           "score": -3
         },
         {
@@ -656,7 +656,7 @@
     },
     {
       "date": "20261001",
-      "headline": "[거시분석] Russia launches largest attack on Ukraine ene...",
+      "headline": "[거시분석] Putin shows no sign of stopping the war as Ru...",
       "impacts": {
         "방산": 1,
         "전체시장": -3,
