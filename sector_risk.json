@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T13:48:18.514258+09:00",
+  "updated_at": "2026-10-02T21:08:29.976541+09:00",
   "date": "20261002",
   "window_days": 14,
   "sectors": [
@@ -16,21 +16,15 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -3,
+      "score": -1,
       "positive_count": 16,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
         {
           "date": "20261002",
           "type": "positive",
-          "headline": "OpenAI fires workers for mishandling 'sensitive information'",
+          "headline": "OpenAI fires workers for 'mishandling sensitive information'",
           "score": 1
-        },
-        {
-          "date": "20261002",
-          "type": "negative",
-          "headline": "[거시분석] US pressures Europe over diesel reserves as T...",
-          "score": -2
         },
         {
           "date": "20261001",
@@ -49,14 +43,26 @@
           "type": "positive",
           "headline": "OpenAI scraps rollout of new model over safety concerns",
           "score": 1
+        },
+        {
+          "date": "20260929",
+          "type": "positive",
+          "headline": "OpenAI cancels release of AI model GPT-6.1 Astra, citing safety concerns",
+          "score": 1
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20261002",
+          "type": "negative",
+          "headline": "[거시분석] ‘Containerabad’: Pakistan’s capital and truck...",
+          "score": -3
+        },
         {
           "date": "20261001",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] ‘Still a lockdown’: Deadly floods hit Nepal t...",
           "score": -2
-        },
-        {
-          "date": "20260925",
-          "type": "negative",
-          "headline": "[거시분석] What’s in Iran’s seven-day plan to reopen the...",
-          "score": -1
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20261002",
           "type": "positive",
-          "headline": "[거시분석] US pressures Europe over diesel reserves as T...",
-          "score": 1
+          "headline": "[거시분석] ‘Containerabad’: Pakistan’s capital and truck...",
+          "score": 2
         },
         {
           "date": "20261001",
@@ -139,10 +139,16 @@
       "recent_events": []
     },
     "금융": {
-      "score": -7,
+      "score": -8,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20261002",
+          "type": "negative",
+          "headline": "[거시분석] ‘Containerabad’: Pakistan’s capital and truck...",
+          "score": -1
+        },
         {
           "date": "20261001",
           "type": "negative",
@@ -166,26 +172,14 @@
           "type": "negative",
           "headline": "[거시분석] What’s in Iran’s seven-day plan to reopen the...",
           "score": -1
-        },
-        {
-          "date": "20260924",
-          "type": "negative",
-          "headline": "[거시분석] Iran's president tells Trump it will never 'b...",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 5,
-      "positive_count": 5,
+      "score": 4,
+      "positive_count": 4,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20261002",
-          "type": "positive",
-          "headline": "SpaceX launches crew to ISS",
-          "score": 1
-        },
         {
           "date": "20260929",
           "type": "positive",
@@ -220,14 +214,26 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 3,
+      "positive_count": 5,
       "negative_count": 18,
       "recent_events": [
         {
           "date": "20261002",
+          "type": "positive",
+          "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
+          "score": 1
+        },
+        {
+          "date": "20261002",
+          "type": "positive",
+          "headline": "[표] 주간 거래소 외국인 순매수도 상위종목",
+          "score": 1
+        },
+        {
+          "date": "20261002",
           "type": "negative",
-          "headline": "[거시분석] US pressures Europe over diesel reserves as T...",
-          "score": -4
+          "headline": "[거시분석] ‘Containerabad’: Pakistan’s capital and truck...",
+          "score": -7
         },
         {
           "date": "20261001",
@@ -240,18 +246,6 @@
           "type": "negative",
           "headline": "[거시분석] Russia launches largest attack on Ukraine ene...",
           "score": -3
-        },
-        {
-          "date": "20260929",
-          "type": "negative",
-          "headline": "US ban on Canadian alcohol and dairy comes into effect as trade war drags on",
-          "score": -1
-        },
-        {
-          "date": "20260929",
-          "type": "negative",
-          "headline": "[거시분석] US ban on Canadian alcohol and dairy comes in...",
-          "score": -7
         }
       ]
     }
@@ -630,7 +624,7 @@
     },
     {
       "date": "20261002",
-      "headline": "OpenAI fires workers for mishandling 'sensitive information'",
+      "headline": "OpenAI fires workers for 'mishandling sensitive information'",
       "impacts": {
         "반도체·AI": 1
       },
@@ -638,24 +632,33 @@
     },
     {
       "date": "20261002",
-      "headline": "SpaceX launches crew to ISS",
+      "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
       "impacts": {
-        "우주ETF": 1
+        "전체시장": 1
       },
       "source": "keyword"
     },
     {
       "date": "20261002",
-      "headline": "[거시분석] US pressures Europe over diesel reserves as T...",
+      "headline": "[표] 주간 거래소 외국인 순매수도 상위종목",
       "impacts": {
-        "방산": 1,
-        "전체시장": -4,
-        "반도체·AI": -2
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261002",
+      "headline": "[거시분석] ‘Containerabad’: Pakistan’s capital and truck...",
+      "impacts": {
+        "방산": 2,
+        "건설": -3,
+        "전체시장": -7,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 43,
-  "total_positives": 39,
+  "total_negatives": 44,
+  "total_positives": 40,
   "risk_level": "EXTREME"
 }
