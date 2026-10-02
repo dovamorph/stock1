@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-02T21:08:29.976541+09:00",
-  "date": "20261002",
+  "updated_at": "2026-10-03T04:03:25.669441+09:00",
+  "date": "20261003",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,10 +16,22 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -1,
-      "positive_count": 16,
+      "score": 0,
+      "positive_count": 17,
       "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20261003",
+          "type": "positive",
+          "headline": "OpenAI fires workers for 'mishandling sensitive information'",
+          "score": 1
+        },
+        {
+          "date": "20261003",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine calls for tighter sanctions as Russia...",
+          "score": -2
+        },
         {
           "date": "20261002",
           "type": "positive",
@@ -36,18 +48,6 @@
           "date": "20260930",
           "type": "positive",
           "headline": "OpenAI launches ‘dots,’ personal AI assistant ‘built to handle everything’",
-          "score": 1
-        },
-        {
-          "date": "20260929",
-          "type": "positive",
-          "headline": "OpenAI scraps rollout of new model over safety concerns",
-          "score": 1
-        },
-        {
-          "date": "20260929",
-          "type": "positive",
-          "headline": "OpenAI cancels release of AI model GPT-6.1 Astra, citing safety concerns",
           "score": 1
         }
       ]
@@ -95,6 +95,12 @@
       "negative_count": 1,
       "recent_events": [
         {
+          "date": "20261003",
+          "type": "positive",
+          "headline": "[거시분석] Ukraine calls for tighter sanctions as Russia...",
+          "score": 1
+        },
+        {
           "date": "20261002",
           "type": "positive",
           "headline": "[거시분석] ‘Containerabad’: Pakistan’s capital and truck...",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] US ban on Canadian alcohol and dairy comes in...",
           "score": 2
-        },
-        {
-          "date": "20260928",
-          "type": "positive",
-          "headline": "[거시분석] ‘Still a lockdown’: Deadly floods hit Nepal t...",
-          "score": 1
         }
       ]
     },
@@ -139,9 +139,9 @@
       "recent_events": []
     },
     "금융": {
-      "score": -8,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
         {
           "date": "20261002",
@@ -214,9 +214,15 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 5,
+      "positive_count": 3,
       "negative_count": 18,
       "recent_events": [
+        {
+          "date": "20261003",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine calls for tighter sanctions as Russia...",
+          "score": -4
+        },
         {
           "date": "20261002",
           "type": "positive",
@@ -240,44 +246,11 @@
           "type": "negative",
           "headline": "[거시분석] Too early to say if Iran involved in Dubai-Te...",
           "score": -5
-        },
-        {
-          "date": "20260930",
-          "type": "negative",
-          "headline": "[거시분석] Russia launches largest attack on Ukraine ene...",
-          "score": -3
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260918",
-      "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
-      "impacts": {
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260918",
-      "headline": "[표] 주간 거래소 외국인 순매수도 상위종목",
-      "impacts": {
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260918",
-      "headline": "[거시분석] UN experts say grounds to believe US committe...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -5,
-        "금융": -1,
-        "반도체·AI": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260919",
       "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
@@ -656,9 +629,27 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261003",
+      "headline": "OpenAI fires workers for 'mishandling sensitive information'",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261003",
+      "headline": "[거시분석] Ukraine calls for tighter sanctions as Russia...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -4,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 44,
-  "total_positives": 40,
+  "total_negatives": 43,
+  "total_positives": 39,
   "risk_level": "EXTREME"
 }
