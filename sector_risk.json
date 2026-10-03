@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T04:09:43.726384+09:00",
+  "updated_at": "2026-10-04T07:45:43.774749+09:00",
   "date": "20261004",
   "window_days": 14,
   "sectors": [
@@ -133,10 +133,17 @@
       "recent_events": []
     },
     "로봇": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20261004",
+          "type": "positive",
+          "headline": "화려한 미중 휴머노이드 뒤에서…日, '손끝 정밀도'로 조용히 승부",
+          "score": 1
+        }
+      ]
     },
     "금융": {
       "score": -7,
@@ -647,6 +654,14 @@
     },
     {
       "date": "20261004",
+      "headline": "화려한 미중 휴머노이드 뒤에서…日, '손끝 정밀도'로 조용히 승부",
+      "impacts": {
+        "로봇": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261004",
       "headline": "[거시분석] Russia hits second major bridge in Ukraine's ...",
       "impacts": {
         "방산": 3,
@@ -658,6 +673,6 @@
     }
   ],
   "total_negatives": 43,
-  "total_positives": 40,
+  "total_positives": 41,
   "risk_level": "EXTREME"
 }
