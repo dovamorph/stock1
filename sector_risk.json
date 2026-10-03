@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T08:37:29.462375+09:00",
+  "updated_at": "2026-10-03T13:31:07.802935+09:00",
   "date": "20261003",
   "window_days": 14,
   "sectors": [
@@ -29,7 +29,7 @@
         {
           "date": "20261003",
           "type": "negative",
-          "headline": "[거시분석] G7 to release 100 million barrels of oil and ...",
+          "headline": "[거시분석] Seoul warns 'further action' if Ukraine does ...",
           "score": -2
         },
         {
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20261003",
+          "type": "negative",
+          "headline": "[거시분석] Seoul warns 'further action' if Ukraine does ...",
+          "score": -2
+        },
         {
           "date": "20261002",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] US ban on Canadian alcohol and dairy comes in...",
           "score": -1
-        },
-        {
-          "date": "20260928",
-          "type": "negative",
-          "headline": "[거시분석] ‘Still a lockdown’: Deadly floods hit Nepal t...",
-          "score": -2
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20261003",
           "type": "positive",
-          "headline": "[거시분석] G7 to release 100 million barrels of oil and ...",
-          "score": 1
+          "headline": "[거시분석] Seoul warns 'further action' if Ukraine does ...",
+          "score": 3
         },
         {
           "date": "20261002",
@@ -139,16 +139,10 @@
       "recent_events": []
     },
     "금융": {
-      "score": -8,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20261003",
-          "type": "negative",
-          "headline": "[거시분석] G7 to release 100 million barrels of oil and ...",
-          "score": -1
-        },
         {
           "date": "20261002",
           "type": "negative",
@@ -171,6 +165,12 @@
           "date": "20260928",
           "type": "negative",
           "headline": "[거시분석] ‘Still a lockdown’: Deadly floods hit Nepal t...",
+          "score": -1
+        },
+        {
+          "date": "20260925",
+          "type": "negative",
+          "headline": "[거시분석] What’s in Iran’s seven-day plan to reopen the...",
           "score": -1
         }
       ]
@@ -215,19 +215,13 @@
     "전체시장": {
       "score": -10,
       "positive_count": 3,
-      "negative_count": 19,
+      "negative_count": 18,
       "recent_events": [
         {
           "date": "20261003",
           "type": "negative",
-          "headline": "트럼프, 선거용 '알래스카 투자' 관철하려 韓에 관세카드 꺼낼까",
-          "score": -1
-        },
-        {
-          "date": "20261003",
-          "type": "negative",
-          "headline": "[거시분석] G7 to release 100 million barrels of oil and ...",
-          "score": -5
+          "headline": "[거시분석] Seoul warns 'further action' if Ukraine does ...",
+          "score": -6
         },
         {
           "date": "20261002",
@@ -246,6 +240,12 @@
           "type": "negative",
           "headline": "[거시분석] ‘Containerabad’: Pakistan’s capital and truck...",
           "score": -7
+        },
+        {
+          "date": "20261001",
+          "type": "negative",
+          "headline": "[거시분석] Too early to say if Iran involved in Dubai-Te...",
+          "score": -5
         }
       ]
     }
@@ -640,25 +640,17 @@
     },
     {
       "date": "20261003",
-      "headline": "트럼프, 선거용 '알래스카 투자' 관철하려 韓에 관세카드 꺼낼까",
+      "headline": "[거시분석] Seoul warns 'further action' if Ukraine does ...",
       "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261003",
-      "headline": "[거시분석] G7 to release 100 million barrels of oil and ...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -5,
-        "금융": -1,
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -6,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 45,
+  "total_negatives": 44,
   "total_positives": 39,
   "risk_level": "EXTREME"
 }
