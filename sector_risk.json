@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-03T20:19:21.510049+09:00",
-  "date": "20261003",
+  "updated_at": "2026-10-04T00:57:08.793907+09:00",
+  "date": "20261004",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 2,
-      "positive_count": 17,
-      "negative_count": 9,
+      "score": 5,
+      "positive_count": 18,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20261004",
+          "type": "positive",
+          "headline": "OpenAI fires workers for 'mishandling sensitive information'",
+          "score": 1
+        },
         {
           "date": "20261003",
           "type": "positive",
@@ -43,20 +49,20 @@
           "type": "positive",
           "headline": "OpenAI launches ‘dots,’ personal AI assistant ‘built to handle everything’",
           "score": 1
-        },
-        {
-          "date": "20260929",
-          "type": "positive",
-          "headline": "OpenAI scraps rollout of new model over safety concerns",
-          "score": 1
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20261004",
+          "type": "negative",
+          "headline": "[거시분석] Russia hits second major bridge in Ukraine's ...",
+          "score": -2
+        },
         {
           "date": "20261003",
           "type": "negative",
@@ -80,20 +86,26 @@
           "type": "negative",
           "headline": "[거시분석] Russia launches largest attack on Ukraine ene...",
           "score": -2
-        },
-        {
-          "date": "20260929",
-          "type": "negative",
-          "headline": "[거시분석] US ban on Canadian alcohol and dairy comes in...",
-          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 15,
-      "negative_count": 1,
+      "negative_count": 2,
       "recent_events": [
+        {
+          "date": "20261004",
+          "type": "negative",
+          "headline": "트럼프 특사-푸틴, 종전안 뒤에서 '러 석유업체 빅딜' 밀담",
+          "score": -1
+        },
+        {
+          "date": "20261004",
+          "type": "positive",
+          "headline": "[거시분석] Russia hits second major bridge in Ukraine's ...",
+          "score": 3
+        },
         {
           "date": "20261003",
           "type": "positive",
@@ -111,18 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] Too early to say if Iran involved in Dubai-Te...",
           "score": 3
-        },
-        {
-          "date": "20260930",
-          "type": "positive",
-          "headline": "[거시분석] Russia launches largest attack on Ukraine ene...",
-          "score": 3
-        },
-        {
-          "date": "20260929",
-          "type": "positive",
-          "headline": "[거시분석] US ban on Canadian alcohol and dairy comes in...",
-          "score": 2
         }
       ]
     },
@@ -143,6 +143,12 @@
       "positive_count": 0,
       "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20261004",
+          "type": "negative",
+          "headline": "[거시분석] Russia hits second major bridge in Ukraine's ...",
+          "score": -1
+        },
         {
           "date": "20261002",
           "type": "negative",
@@ -165,12 +171,6 @@
           "date": "20260928",
           "type": "negative",
           "headline": "[거시분석] ‘Still a lockdown’: Deadly floods hit Nepal t...",
-          "score": -1
-        },
-        {
-          "date": "20260925",
-          "type": "negative",
-          "headline": "[거시분석] What’s in Iran’s seven-day plan to reopen the...",
           "score": -1
         }
       ]
@@ -214,9 +214,21 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 3,
+      "positive_count": 4,
       "negative_count": 18,
       "recent_events": [
+        {
+          "date": "20261004",
+          "type": "positive",
+          "headline": "트럼프 특사-푸틴, 종전안 뒤에서 '러 석유업체 빅딜' 밀담",
+          "score": 1
+        },
+        {
+          "date": "20261004",
+          "type": "negative",
+          "headline": "[거시분석] Russia hits second major bridge in Ukraine's ...",
+          "score": -5
+        },
         {
           "date": "20261003",
           "type": "negative",
@@ -234,34 +246,11 @@
           "type": "positive",
           "headline": "[표] 주간 거래소 외국인 순매수도 상위종목",
           "score": 1
-        },
-        {
-          "date": "20261002",
-          "type": "negative",
-          "headline": "[거시분석] ‘Containerabad’: Pakistan’s capital and truck...",
-          "score": -7
-        },
-        {
-          "date": "20261001",
-          "type": "negative",
-          "headline": "[거시분석] Too early to say if Iran involved in Dubai-Te...",
-          "score": -5
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260919",
-      "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -5,
-        "금융": -1,
-        "반도체·AI": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260920",
       "headline": "Australia seeks big tech support for internet safety, AI regulation",
@@ -647,9 +636,37 @@
         "전체시장": -3
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261004",
+      "headline": "OpenAI fires workers for 'mishandling sensitive information'",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261004",
+      "headline": "트럼프 특사-푸틴, 종전안 뒤에서 '러 석유업체 빅딜' 밀담",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261004",
+      "headline": "[거시분석] Russia hits second major bridge in Ukraine's ...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 43,
-  "total_positives": 39,
+  "total_negatives": 44,
+  "total_positives": 41,
   "risk_level": "EXTREME"
 }
