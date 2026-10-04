@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T07:45:43.774749+09:00",
+  "updated_at": "2026-10-04T14:01:36.673209+09:00",
   "date": "20261004",
   "window_days": 14,
   "sectors": [
@@ -133,29 +133,16 @@
       "recent_events": []
     },
     "로봇": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 0,
+      "positive_count": 0,
       "negative_count": 0,
-      "recent_events": [
-        {
-          "date": "20261004",
-          "type": "positive",
-          "headline": "화려한 미중 휴머노이드 뒤에서…日, '손끝 정밀도'로 조용히 승부",
-          "score": 1
-        }
-      ]
+      "recent_events": []
     },
     "금융": {
-      "score": -7,
+      "score": -6,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20261004",
-          "type": "negative",
-          "headline": "[거시분석] Russia hits second major bridge in Ukraine's ...",
-          "score": -1
-        },
         {
           "date": "20261002",
           "type": "negative",
@@ -178,6 +165,12 @@
           "date": "20260928",
           "type": "negative",
           "headline": "[거시분석] ‘Still a lockdown’: Deadly floods hit Nepal t...",
+          "score": -1
+        },
+        {
+          "date": "20260925",
+          "type": "negative",
+          "headline": "[거시분석] What’s in Iran’s seven-day plan to reopen the...",
           "score": -1
         }
       ]
@@ -228,7 +221,7 @@
           "date": "20261004",
           "type": "negative",
           "headline": "[거시분석] Russia hits second major bridge in Ukraine's ...",
-          "score": -5
+          "score": -3
         },
         {
           "date": "20261003",
@@ -654,25 +647,16 @@
     },
     {
       "date": "20261004",
-      "headline": "화려한 미중 휴머노이드 뒤에서…日, '손끝 정밀도'로 조용히 승부",
-      "impacts": {
-        "로봇": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261004",
       "headline": "[거시분석] Russia hits second major bridge in Ukraine's ...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -5,
-        "금융": -1
+        "전체시장": -3
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 43,
-  "total_positives": 41,
+  "total_negatives": 42,
+  "total_positives": 40,
   "risk_level": "EXTREME"
 }
