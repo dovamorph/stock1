@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T01:48:51.728631+09:00",
+  "updated_at": "2026-10-05T06:02:22.229705+09:00",
   "date": "20261005",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 7,
-      "positive_count": 17,
+      "score": 8,
+      "positive_count": 18,
       "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20261005",
+          "type": "positive",
+          "headline": "'정보보호 100점'이라더니…AI 해킹에 민망해진 은행들",
+          "score": 1
+        },
         {
           "date": "20261003",
           "type": "positive",
@@ -43,12 +49,6 @@
           "type": "positive",
           "headline": "OpenAI launches ‘dots,’ personal AI assistant ‘built to handle everything’",
           "score": 1
-        },
-        {
-          "date": "20260929",
-          "type": "positive",
-          "headline": "OpenAI scraps rollout of new model over safety concerns",
-          "score": 1
         }
       ]
     },
@@ -60,7 +60,7 @@
         {
           "date": "20261005",
           "type": "negative",
-          "headline": "[거시분석] Yemen announces military campaign to reclaim ...",
+          "headline": "[거시분석] Why Canada is wargaming a (long shot) US inva...",
           "score": -2
         },
         {
@@ -97,7 +97,7 @@
         {
           "date": "20261005",
           "type": "positive",
-          "headline": "[거시분석] Yemen announces military campaign to reclaim ...",
+          "headline": "[거시분석] Why Canada is wargaming a (long shot) US inva...",
           "score": 3
         },
         {
@@ -146,7 +146,7 @@
         {
           "date": "20261005",
           "type": "negative",
-          "headline": "[거시분석] Yemen announces military campaign to reclaim ...",
+          "headline": "[거시분석] Why Canada is wargaming a (long shot) US inva...",
           "score": -1
         },
         {
@@ -220,8 +220,8 @@
         {
           "date": "20261005",
           "type": "negative",
-          "headline": "[거시분석] Yemen announces military campaign to reclaim ...",
-          "score": -5
+          "headline": "[거시분석] Why Canada is wargaming a (long shot) US inva...",
+          "score": -4
         },
         {
           "date": "20261004",
@@ -631,17 +631,25 @@
     },
     {
       "date": "20261005",
-      "headline": "[거시분석] Yemen announces military campaign to reclaim ...",
+      "headline": "'정보보호 100점'이라더니…AI 해킹에 민망해진 은행들",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261005",
+      "headline": "[거시분석] Why Canada is wargaming a (long shot) US inva...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -5,
+        "전체시장": -4,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 42,
-  "total_positives": 39,
+  "total_positives": 40,
   "risk_level": "EXTREME"
 }
