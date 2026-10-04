@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-04T21:01:11.185629+09:00",
-  "date": "20261004",
+  "updated_at": "2026-10-05T01:48:51.728631+09:00",
+  "date": "20261005",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,9 +16,9 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 4,
+      "score": 7,
       "positive_count": 17,
-      "negative_count": 8,
+      "negative_count": 6,
       "recent_events": [
         {
           "date": "20261003",
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20261005",
+          "type": "negative",
+          "headline": "[거시분석] Yemen announces military campaign to reclaim ...",
+          "score": -2
+        },
         {
           "date": "20261004",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] Too early to say if Iran involved in Dubai-Te...",
           "score": -2
-        },
-        {
-          "date": "20260930",
-          "type": "negative",
-          "headline": "[거시분석] Russia launches largest attack on Ukraine ene...",
-          "score": -2
         }
       ]
     },
@@ -94,6 +94,12 @@
       "positive_count": 15,
       "negative_count": 1,
       "recent_events": [
+        {
+          "date": "20261005",
+          "type": "positive",
+          "headline": "[거시분석] Yemen announces military campaign to reclaim ...",
+          "score": 3
+        },
         {
           "date": "20261004",
           "type": "positive",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] Too early to say if Iran involved in Dubai-Te...",
           "score": 3
-        },
-        {
-          "date": "20260930",
-          "type": "positive",
-          "headline": "[거시분석] Russia launches largest attack on Ukraine ene...",
-          "score": 3
         }
       ]
     },
@@ -139,10 +139,16 @@
       "recent_events": []
     },
     "금융": {
-      "score": -6,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20261005",
+          "type": "negative",
+          "headline": "[거시분석] Yemen announces military campaign to reclaim ...",
+          "score": -1
+        },
         {
           "date": "20261002",
           "type": "negative",
@@ -165,12 +171,6 @@
           "date": "20260928",
           "type": "negative",
           "headline": "[거시분석] ‘Still a lockdown’: Deadly floods hit Nepal t...",
-          "score": -1
-        },
-        {
-          "date": "20260925",
-          "type": "negative",
-          "headline": "[거시분석] What’s in Iran’s seven-day plan to reopen the...",
           "score": -1
         }
       ]
@@ -218,6 +218,12 @@
       "negative_count": 18,
       "recent_events": [
         {
+          "date": "20261005",
+          "type": "negative",
+          "headline": "[거시분석] Yemen announces military campaign to reclaim ...",
+          "score": -5
+        },
+        {
           "date": "20261004",
           "type": "negative",
           "headline": "[거시분석] UK-Iranian dual national bailed after RAF Fai...",
@@ -240,35 +246,11 @@
           "type": "positive",
           "headline": "[표] 주간 거래소 외국인 순매수도 상위종목",
           "score": 1
-        },
-        {
-          "date": "20261002",
-          "type": "negative",
-          "headline": "[거시분석] ‘Containerabad’: Pakistan’s capital and truck...",
-          "score": -7
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260920",
-      "headline": "Australia seeks big tech support for internet safety, AI regulation",
-      "impacts": {
-        "반도체·AI": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260920",
-      "headline": "[거시분석] Trump signs sweeping Russia sanctions bill",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -5,
-        "반도체·AI": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260921",
       "headline": "[거시분석] Mum's viral barefoot race sparks debate over ...",
@@ -644,6 +626,17 @@
         "방산": 3,
         "건설": -2,
         "전체시장": -4
+      },
+      "source": "geo_categories"
+    },
+    {
+      "date": "20261005",
+      "headline": "[거시분석] Yemen announces military campaign to reclaim ...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
+        "금융": -1
       },
       "source": "geo_categories"
     }
