@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T14:01:36.673209+09:00",
+  "updated_at": "2026-10-04T21:01:11.185629+09:00",
   "date": "20261004",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 5,
-      "positive_count": 18,
+      "score": 4,
+      "positive_count": 17,
       "negative_count": 8,
       "recent_events": [
-        {
-          "date": "20261004",
-          "type": "positive",
-          "headline": "OpenAI fires workers for 'mishandling sensitive information'",
-          "score": 1
-        },
         {
           "date": "20261003",
           "type": "positive",
@@ -49,6 +43,12 @@
           "type": "positive",
           "headline": "OpenAI launches ‘dots,’ personal AI assistant ‘built to handle everything’",
           "score": 1
+        },
+        {
+          "date": "20260929",
+          "type": "positive",
+          "headline": "OpenAI scraps rollout of new model over safety concerns",
+          "score": 1
         }
       ]
     },
@@ -60,7 +60,7 @@
         {
           "date": "20261004",
           "type": "negative",
-          "headline": "[거시분석] Russia hits second major bridge in Ukraine's ...",
+          "headline": "[거시분석] UK-Iranian dual national bailed after RAF Fai...",
           "score": -2
         },
         {
@@ -97,7 +97,7 @@
         {
           "date": "20261004",
           "type": "positive",
-          "headline": "[거시분석] Russia hits second major bridge in Ukraine's ...",
+          "headline": "[거시분석] UK-Iranian dual national bailed after RAF Fai...",
           "score": 3
         },
         {
@@ -220,8 +220,8 @@
         {
           "date": "20261004",
           "type": "negative",
-          "headline": "[거시분석] Russia hits second major bridge in Ukraine's ...",
-          "score": -3
+          "headline": "[거시분석] UK-Iranian dual national bailed after RAF Fai...",
+          "score": -4
         },
         {
           "date": "20261003",
@@ -639,24 +639,16 @@
     },
     {
       "date": "20261004",
-      "headline": "OpenAI fires workers for 'mishandling sensitive information'",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261004",
-      "headline": "[거시분석] Russia hits second major bridge in Ukraine's ...",
+      "headline": "[거시분석] UK-Iranian dual national bailed after RAF Fai...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -3
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 42,
-  "total_positives": 40,
+  "total_positives": 39,
   "risk_level": "EXTREME"
 }
