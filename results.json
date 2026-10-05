@@ -1,6 +1,6 @@
 {
   "date": "20261005",
-  "generated_at": "2026-10-05T09:30:49+09:00",
+  "generated_at": "2026-10-05T10:00:51+09:00",
   "reference_date": "20261002",
   "reference_ranks": {
     "000660": 1,
@@ -61,9 +61,9 @@
     "rsi_14": 47.7,
     "basis": null,
     "basis_signal": "조회불가",
-    "usdkrw": 1344.08,
-    "usdkrw_ch1": -1.21,
-    "usdkrw_ch5": -1.14,
+    "usdkrw": 1341.59,
+    "usdkrw_ch1": -1.4,
+    "usdkrw_ch5": -1.32,
     "kosdaq_ch1": 0.7,
     "kospi_ch1": 0.09,
     "kospi_ch2": 1.46,
@@ -96,9 +96,9 @@
       "ndx_ch1": 1.19,
       "ndx_ma60": 26223.84
     },
-    "adr": 62.4,
-    "adr_advances": 299,
-    "adr_declines": 180,
+    "adr": 61.6,
+    "adr_advances": 293,
+    "adr_declines": 183,
     "adr_signal": "🟠",
     "adr_desc": "약세 (62%) — 속에서 썩는 중",
     "breadth": {
@@ -107,7 +107,7 @@
       "desc": "코스닥>코스피 — 중소형/테마 장",
       "kospi_ch1": 0.09,
       "kosdaq_ch1": 0.7,
-      "adr": 62.4
+      "adr": 61.6
     },
     "pool_flow": {
       "total": 40,
