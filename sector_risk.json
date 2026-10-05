@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-05T17:39:21.630848+09:00",
-  "date": "20261005",
+  "updated_at": "2026-10-06T04:08:22.564663+09:00",
+  "date": "20261006",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,9 +16,9 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 7,
+      "score": 9,
       "positive_count": 17,
-      "negative_count": 6,
+      "negative_count": 5,
       "recent_events": [
         {
           "date": "20261003",
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20261006",
+          "type": "negative",
+          "headline": "[거시분석] Why Canada is wargaming a (long shot) US inva...",
+          "score": -2
+        },
         {
           "date": "20261005",
           "type": "negative",
@@ -80,20 +86,26 @@
           "type": "negative",
           "headline": "[거시분석] ‘Containerabad’: Pakistan’s capital and truck...",
           "score": -3
-        },
-        {
-          "date": "20261001",
-          "type": "negative",
-          "headline": "[거시분석] Too early to say if Iran involved in Dubai-Te...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 15,
+      "positive_count": 16,
       "negative_count": 1,
       "recent_events": [
+        {
+          "date": "20261006",
+          "type": "positive",
+          "headline": "Latest US military strike on alleged drug boat kills four in Caribbean",
+          "score": 1
+        },
+        {
+          "date": "20261006",
+          "type": "positive",
+          "headline": "[거시분석] Why Canada is wargaming a (long shot) US inva...",
+          "score": 3
+        },
         {
           "date": "20261005",
           "type": "positive",
@@ -111,18 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] UK-Iranian dual national bailed after RAF Fai...",
           "score": 3
-        },
-        {
-          "date": "20261002",
-          "type": "positive",
-          "headline": "[거시분석] ‘Containerabad’: Pakistan’s capital and truck...",
-          "score": 2
-        },
-        {
-          "date": "20261001",
-          "type": "positive",
-          "headline": "[거시분석] Too early to say if Iran involved in Dubai-Te...",
-          "score": 3
         }
       ]
     },
@@ -139,10 +139,16 @@
       "recent_events": []
     },
     "금융": {
-      "score": -6,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20261006",
+          "type": "negative",
+          "headline": "[거시분석] Why Canada is wargaming a (long shot) US inva...",
+          "score": -1
+        },
         {
           "date": "20261002",
           "type": "negative",
@@ -165,12 +171,6 @@
           "date": "20260928",
           "type": "negative",
           "headline": "[거시분석] ‘Still a lockdown’: Deadly floods hit Nepal t...",
-          "score": -1
-        },
-        {
-          "date": "20260925",
-          "type": "negative",
-          "headline": "[거시분석] What’s in Iran’s seven-day plan to reopen the...",
           "score": -1
         }
       ]
@@ -218,6 +218,12 @@
       "negative_count": 18,
       "recent_events": [
         {
+          "date": "20261006",
+          "type": "negative",
+          "headline": "[거시분석] Why Canada is wargaming a (long shot) US inva...",
+          "score": -5
+        },
+        {
           "date": "20261005",
           "type": "negative",
           "headline": "[거시분석] Why Canada is wargaming a (long shot) US inva...",
@@ -240,27 +246,11 @@
           "type": "positive",
           "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
           "score": 1
-        },
-        {
-          "date": "20261002",
-          "type": "positive",
-          "headline": "[표] 주간 거래소 외국인 순매수도 상위종목",
-          "score": 1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260921",
-      "headline": "[거시분석] Mum's viral barefoot race sparks debate over ...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -4,
-        "반도체·AI": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260922",
       "headline": "Canadian province sues OpenAI over Tumbler Ridge school shooting",
@@ -638,9 +628,28 @@
         "전체시장": -5
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261006",
+      "headline": "Latest US military strike on alleged drug boat kills four in Caribbean",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261006",
+      "headline": "[거시분석] Why Canada is wargaming a (long shot) US inva...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 41,
-  "total_positives": 39,
+  "total_negatives": 42,
+  "total_positives": 40,
   "risk_level": "EXTREME"
 }
