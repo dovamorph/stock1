@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T09:33:28.160224+09:00",
+  "updated_at": "2026-10-05T17:39:21.630848+09:00",
   "date": "20261005",
   "window_days": 14,
   "sectors": [
@@ -139,16 +139,10 @@
       "recent_events": []
     },
     "금융": {
-      "score": -7,
+      "score": -6,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20261005",
-          "type": "negative",
-          "headline": "[거시분석] Why Canada is wargaming a (long shot) US inva...",
-          "score": -1
-        },
         {
           "date": "20261002",
           "type": "negative",
@@ -171,6 +165,12 @@
           "date": "20260928",
           "type": "negative",
           "headline": "[거시분석] ‘Still a lockdown’: Deadly floods hit Nepal t...",
+          "score": -1
+        },
+        {
+          "date": "20260925",
+          "type": "negative",
+          "headline": "[거시분석] What’s in Iran’s seven-day plan to reopen the...",
           "score": -1
         }
       ]
@@ -221,7 +221,7 @@
           "date": "20261005",
           "type": "negative",
           "headline": "[거시분석] Why Canada is wargaming a (long shot) US inva...",
-          "score": -4
+          "score": -5
         },
         {
           "date": "20261004",
@@ -635,13 +635,12 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -4,
-        "금융": -1
+        "전체시장": -5
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
+  "total_negatives": 41,
   "total_positives": 39,
   "risk_level": "EXTREME"
 }
