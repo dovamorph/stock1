@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T04:08:22.564663+09:00",
+  "updated_at": "2026-10-06T10:12:35.288804+09:00",
   "date": "20261006",
   "window_days": 14,
   "sectors": [
@@ -91,15 +91,9 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 16,
+      "positive_count": 15,
       "negative_count": 1,
       "recent_events": [
-        {
-          "date": "20261006",
-          "type": "positive",
-          "headline": "Latest US military strike on alleged drug boat kills four in Caribbean",
-          "score": 1
-        },
         {
           "date": "20261006",
           "type": "positive",
@@ -123,6 +117,12 @@
           "type": "positive",
           "headline": "[거시분석] UK-Iranian dual national bailed after RAF Fai...",
           "score": 3
+        },
+        {
+          "date": "20261002",
+          "type": "positive",
+          "headline": "[거시분석] ‘Containerabad’: Pakistan’s capital and truck...",
+          "score": 2
         }
       ]
     },
@@ -139,16 +139,10 @@
       "recent_events": []
     },
     "금융": {
-      "score": -7,
+      "score": -6,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20261006",
-          "type": "negative",
-          "headline": "[거시분석] Why Canada is wargaming a (long shot) US inva...",
-          "score": -1
-        },
         {
           "date": "20261002",
           "type": "negative",
@@ -171,6 +165,12 @@
           "date": "20260928",
           "type": "negative",
           "headline": "[거시분석] ‘Still a lockdown’: Deadly floods hit Nepal t...",
+          "score": -1
+        },
+        {
+          "date": "20260925",
+          "type": "negative",
+          "headline": "[거시분석] What’s in Iran’s seven-day plan to reopen the...",
           "score": -1
         }
       ]
@@ -221,7 +221,7 @@
           "date": "20261006",
           "type": "negative",
           "headline": "[거시분석] Why Canada is wargaming a (long shot) US inva...",
-          "score": -5
+          "score": -4
         },
         {
           "date": "20261005",
@@ -631,25 +631,16 @@
     },
     {
       "date": "20261006",
-      "headline": "Latest US military strike on alleged drug boat kills four in Caribbean",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261006",
       "headline": "[거시분석] Why Canada is wargaming a (long shot) US inva...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -5,
-        "금융": -1
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
-  "total_positives": 40,
+  "total_negatives": 41,
+  "total_positives": 39,
   "risk_level": "EXTREME"
 }
