@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T10:12:35.288804+09:00",
+  "updated_at": "2026-10-06T17:44:37.397241+09:00",
   "date": "20261006",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 9,
-      "positive_count": 17,
+      "score": 10,
+      "positive_count": 18,
       "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20261006",
+          "type": "positive",
+          "headline": "OpenAI admits response to Australian government hacks 'not good enough'",
+          "score": 1
+        },
         {
           "date": "20261003",
           "type": "positive",
@@ -43,25 +49,19 @@
           "type": "positive",
           "headline": "OpenAI launches ‘dots,’ personal AI assistant ‘built to handle everything’",
           "score": 1
-        },
-        {
-          "date": "20260929",
-          "type": "positive",
-          "headline": "OpenAI scraps rollout of new model over safety concerns",
-          "score": 1
         }
       ]
     },
     "건설": {
       "score": -10,
-      "positive_count": 0,
-      "negative_count": 11,
+      "positive_count": 1,
+      "negative_count": 10,
       "recent_events": [
         {
           "date": "20261006",
-          "type": "negative",
-          "headline": "[거시분석] Why Canada is wargaming a (long shot) US inva...",
-          "score": -2
+          "type": "positive",
+          "headline": "대구 서문시장 4지구 재건축 또 늦어지나…\"시공사 교체 논의\"",
+          "score": 1
         },
         {
           "date": "20261005",
@@ -92,13 +92,19 @@
     "방산": {
       "score": 10,
       "positive_count": 15,
-      "negative_count": 1,
+      "negative_count": 2,
       "recent_events": [
         {
           "date": "20261006",
+          "type": "negative",
+          "headline": "UN rights council condemns attacks on civilians in Sudan, calls for truce",
+          "score": -1
+        },
+        {
+          "date": "20261006",
           "type": "positive",
-          "headline": "[거시분석] Why Canada is wargaming a (long shot) US inva...",
-          "score": 3
+          "headline": "[거시분석] Trump jokes about letting Iran bomb Los Angel...",
+          "score": 1
         },
         {
           "date": "20261005",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] UK-Iranian dual national bailed after RAF Fai...",
           "score": 3
-        },
-        {
-          "date": "20261002",
-          "type": "positive",
-          "headline": "[거시분석] ‘Containerabad’: Pakistan’s capital and truck...",
-          "score": 2
         }
       ]
     },
@@ -139,10 +139,16 @@
       "recent_events": []
     },
     "금융": {
-      "score": -6,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20261006",
+          "type": "negative",
+          "headline": "[거시분석] Trump jokes about letting Iran bomb Los Angel...",
+          "score": -1
+        },
         {
           "date": "20261002",
           "type": "negative",
@@ -165,12 +171,6 @@
           "date": "20260928",
           "type": "negative",
           "headline": "[거시분석] ‘Still a lockdown’: Deadly floods hit Nepal t...",
-          "score": -1
-        },
-        {
-          "date": "20260925",
-          "type": "negative",
-          "headline": "[거시분석] What’s in Iran’s seven-day plan to reopen the...",
           "score": -1
         }
       ]
@@ -214,14 +214,20 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 3,
+      "positive_count": 4,
       "negative_count": 18,
       "recent_events": [
         {
           "date": "20261006",
+          "type": "positive",
+          "headline": "UN rights council condemns attacks on civilians in Sudan, calls for truce",
+          "score": 1
+        },
+        {
+          "date": "20261006",
           "type": "negative",
-          "headline": "[거시분석] Why Canada is wargaming a (long shot) US inva...",
-          "score": -4
+          "headline": "[거시분석] Trump jokes about letting Iran bomb Los Angel...",
+          "score": -3
         },
         {
           "date": "20261005",
@@ -240,12 +246,6 @@
           "type": "negative",
           "headline": "[거시분석] UK-Iranian dual national bailed after RAF Fai...",
           "score": -3
-        },
-        {
-          "date": "20261002",
-          "type": "positive",
-          "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
-          "score": 1
         }
       ]
     }
@@ -631,16 +631,41 @@
     },
     {
       "date": "20261006",
-      "headline": "[거시분석] Why Canada is wargaming a (long shot) US inva...",
+      "headline": "OpenAI admits response to Australian government hacks 'not good enough'",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -4
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261006",
+      "headline": "UN rights council condemns attacks on civilians in Sudan, calls for truce",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261006",
+      "headline": "대구 서문시장 4지구 재건축 또 늦어지나…\"시공사 교체 논의\"",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261006",
+      "headline": "[거시분석] Trump jokes about letting Iran bomb Los Angel...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -3,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 41,
-  "total_positives": 39,
+  "total_negatives": 42,
+  "total_positives": 42,
   "risk_level": "EXTREME"
 }
