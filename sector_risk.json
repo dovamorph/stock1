@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-06T17:44:37.397241+09:00",
-  "date": "20261006",
+  "updated_at": "2026-10-07T01:34:32.094469+09:00",
+  "date": "20261007",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -20,6 +20,12 @@
       "positive_count": 18,
       "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20261007",
+          "type": "positive",
+          "headline": "OpenAI admits response to Australian government hacks 'not good enough'",
+          "score": 1
+        },
         {
           "date": "20261006",
           "type": "positive",
@@ -43,20 +49,20 @@
           "type": "positive",
           "headline": "OpenAI ‘reviewing’ report of failed hacking attempt against Canada’s gov’t",
           "score": 1
-        },
-        {
-          "date": "20260930",
-          "type": "positive",
-          "headline": "OpenAI launches ‘dots,’ personal AI assistant ‘built to handle everything’",
-          "score": 1
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20261007",
+          "type": "negative",
+          "headline": "[거시분석] White House defends Trump comment to let Iran...",
+          "score": -2
+        },
         {
           "date": "20261006",
           "type": "positive",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] UK-Iranian dual national bailed after RAF Fai...",
           "score": -2
-        },
-        {
-          "date": "20261002",
-          "type": "negative",
-          "headline": "[거시분석] ‘Containerabad’: Pakistan’s capital and truck...",
-          "score": -3
         }
       ]
     },
@@ -94,6 +94,12 @@
       "positive_count": 15,
       "negative_count": 2,
       "recent_events": [
+        {
+          "date": "20261007",
+          "type": "positive",
+          "headline": "[거시분석] White House defends Trump comment to let Iran...",
+          "score": 3
+        },
         {
           "date": "20261006",
           "type": "negative",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] UK-Iranian dual national bailed after RAF Fai...",
           "score": 3
-        },
-        {
-          "date": "20261003",
-          "type": "positive",
-          "headline": "[거시분석] UK-Iranian dual national bailed after RAF Fai...",
-          "score": 3
         }
       ]
     },
@@ -139,10 +139,16 @@
       "recent_events": []
     },
     "금융": {
-      "score": -7,
+      "score": -8,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20261007",
+          "type": "negative",
+          "headline": "[거시분석] White House defends Trump comment to let Iran...",
+          "score": -1
+        },
         {
           "date": "20261006",
           "type": "negative",
@@ -165,12 +171,6 @@
           "date": "20260929",
           "type": "negative",
           "headline": "[거시분석] US ban on Canadian alcohol and dairy comes in...",
-          "score": -1
-        },
-        {
-          "date": "20260928",
-          "type": "negative",
-          "headline": "[거시분석] ‘Still a lockdown’: Deadly floods hit Nepal t...",
           "score": -1
         }
       ]
@@ -215,8 +215,20 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 18,
+      "negative_count": 19,
       "recent_events": [
+        {
+          "date": "20261007",
+          "type": "negative",
+          "headline": "캐나다 8월 무역흑자 4년만에 최대…관세 앞두고 대미수출 급증",
+          "score": -1
+        },
+        {
+          "date": "20261007",
+          "type": "negative",
+          "headline": "[거시분석] White House defends Trump comment to let Iran...",
+          "score": -5
+        },
         {
           "date": "20261006",
           "type": "positive",
@@ -234,40 +246,11 @@
           "type": "negative",
           "headline": "[거시분석] Why Canada is wargaming a (long shot) US inva...",
           "score": -5
-        },
-        {
-          "date": "20261004",
-          "type": "negative",
-          "headline": "[거시분석] UK-Iranian dual national bailed after RAF Fai...",
-          "score": -4
-        },
-        {
-          "date": "20261003",
-          "type": "negative",
-          "headline": "[거시분석] UK-Iranian dual national bailed after RAF Fai...",
-          "score": -3
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260922",
-      "headline": "Canadian province sues OpenAI over Tumbler Ridge school shooting",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260922",
-      "headline": "[거시분석] Iran must stop arming Houthis in Yemen, G7 sa...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260923",
       "headline": "OpenAI gives cyber defence tools to Ukraine",
@@ -663,9 +646,36 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261007",
+      "headline": "OpenAI admits response to Australian government hacks 'not good enough'",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261007",
+      "headline": "캐나다 8월 무역흑자 4년만에 최대…관세 앞두고 대미수출 급증",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261007",
+      "headline": "[거시분석] White House defends Trump comment to let Iran...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
+  "total_negatives": 45,
   "total_positives": 42,
   "risk_level": "EXTREME"
 }
