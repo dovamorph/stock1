@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T07:29:58.371306+09:00",
+  "updated_at": "2026-10-07T14:05:19.315054+09:00",
   "date": "20261007",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 10,
-      "positive_count": 18,
+      "score": 9,
+      "positive_count": 17,
       "negative_count": 5,
       "recent_events": [
-        {
-          "date": "20261007",
-          "type": "positive",
-          "headline": "OpenAI admits response to Australian government hacks 'not good enough'",
-          "score": 1
-        },
         {
           "date": "20261006",
           "type": "positive",
@@ -48,6 +42,12 @@
           "date": "20261001",
           "type": "positive",
           "headline": "OpenAI ‘reviewing’ report of failed hacking attempt against Canada’s gov’t",
+          "score": 1
+        },
+        {
+          "date": "20260930",
+          "type": "positive",
+          "headline": "OpenAI launches ‘dots,’ personal AI assistant ‘built to handle everything’",
           "score": 1
         }
       ]
@@ -215,14 +215,8 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 19,
+      "negative_count": 18,
       "recent_events": [
-        {
-          "date": "20261007",
-          "type": "negative",
-          "headline": "트럼프 \"한국에 관세 낮추려면 대가 지불해야 한다고 말해\"",
-          "score": -1
-        },
         {
           "date": "20261007",
           "type": "negative",
@@ -246,6 +240,12 @@
           "type": "negative",
           "headline": "[거시분석] Why Canada is wargaming a (long shot) US inva...",
           "score": -5
+        },
+        {
+          "date": "20261004",
+          "type": "negative",
+          "headline": "[거시분석] UK-Iranian dual national bailed after RAF Fai...",
+          "score": -4
         }
       ]
     }
@@ -649,22 +649,6 @@
     },
     {
       "date": "20261007",
-      "headline": "OpenAI admits response to Australian government hacks 'not good enough'",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261007",
-      "headline": "트럼프 \"한국에 관세 낮추려면 대가 지불해야 한다고 말해\"",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261007",
       "headline": "[거시분석] White House defends Trump comment to let Iran...",
       "impacts": {
         "방산": 1,
@@ -673,7 +657,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 43,
-  "total_positives": 42,
+  "total_negatives": 42,
+  "total_positives": 41,
   "risk_level": "EXTREME"
 }
