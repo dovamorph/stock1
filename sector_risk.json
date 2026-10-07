@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T14:05:19.315054+09:00",
+  "updated_at": "2026-10-07T21:55:41.221362+09:00",
   "date": "20261007",
   "window_days": 14,
   "sectors": [
@@ -97,7 +97,7 @@
         {
           "date": "20261007",
           "type": "positive",
-          "headline": "[거시분석] White House defends Trump comment to let Iran...",
+          "headline": "[거시분석] 인도중앙은행, 3년8개월만 첫 기준금리 인상…\"인플레 대응\"",
           "score": 1
         },
         {
@@ -139,10 +139,22 @@
       "recent_events": []
     },
     "금융": {
-      "score": -7,
+      "score": -10,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20261007",
+          "type": "negative",
+          "headline": "인도중앙은행, 3년8개월만 첫 기준금리 인상…\"인플레 대응\"",
+          "score": -1
+        },
+        {
+          "date": "20261007",
+          "type": "negative",
+          "headline": "[거시분석] 인도중앙은행, 3년8개월만 첫 기준금리 인상…\"인플레 대응\"",
+          "score": -3
+        },
         {
           "date": "20261006",
           "type": "negative",
@@ -159,18 +171,6 @@
           "date": "20261001",
           "type": "negative",
           "headline": "[거시분석] Too early to say if Iran involved in Dubai-Te...",
-          "score": -1
-        },
-        {
-          "date": "20260929",
-          "type": "negative",
-          "headline": "[거시분석] US ban on Canadian alcohol and dairy comes in...",
-          "score": -1
-        },
-        {
-          "date": "20260928",
-          "type": "negative",
-          "headline": "[거시분석] ‘Still a lockdown’: Deadly floods hit Nepal t...",
           "score": -1
         }
       ]
@@ -220,8 +220,8 @@
         {
           "date": "20261007",
           "type": "negative",
-          "headline": "[거시분석] White House defends Trump comment to let Iran...",
-          "score": -2
+          "headline": "[거시분석] 인도중앙은행, 3년8개월만 첫 기준금리 인상…\"인플레 대응\"",
+          "score": -4
         },
         {
           "date": "20261006",
@@ -649,15 +649,24 @@
     },
     {
       "date": "20261007",
-      "headline": "[거시분석] White House defends Trump comment to let Iran...",
+      "headline": "인도중앙은행, 3년8개월만 첫 기준금리 인상…\"인플레 대응\"",
+      "impacts": {
+        "금융": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261007",
+      "headline": "[거시분석] 인도중앙은행, 3년8개월만 첫 기준금리 인상…\"인플레 대응\"",
       "impacts": {
         "방산": 1,
-        "전체시장": -2
+        "전체시장": -4,
+        "금융": -3
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
+  "total_negatives": 44,
   "total_positives": 41,
   "risk_level": "EXTREME"
 }
