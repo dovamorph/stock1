@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-08T17:35:00.879945+09:00",
-  "date": "20261008",
+  "updated_at": "2026-10-09T02:16:27.358136+09:00",
+  "date": "20261009",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,8 +16,8 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 10,
-      "positive_count": 16,
+      "score": 7,
+      "positive_count": 13,
       "negative_count": 4,
       "recent_events": [
         {
@@ -95,6 +95,12 @@
       "negative_count": 2,
       "recent_events": [
         {
+          "date": "20261009",
+          "type": "positive",
+          "headline": "[거시분석] Russian strike on buses kills at least 30, sa...",
+          "score": 1
+        },
+        {
           "date": "20261008",
           "type": "positive",
           "headline": "[거시분석] Global protests mark October 7 attack with ca...",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] Trump jokes about letting Iran bomb Los Angel...",
           "score": 1
-        },
-        {
-          "date": "20261005",
-          "type": "positive",
-          "headline": "[거시분석] Why Canada is wargaming a (long shot) US inva...",
-          "score": 3
         }
       ]
     },
@@ -143,6 +143,12 @@
       "positive_count": 0,
       "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20261009",
+          "type": "negative",
+          "headline": "[거시분석] Russian strike on buses kills at least 30, sa...",
+          "score": -1
+        },
         {
           "date": "20261008",
           "type": "negative",
@@ -166,18 +172,12 @@
           "type": "negative",
           "headline": "[거시분석] Trump jokes about letting Iran bomb Los Angel...",
           "score": -1
-        },
-        {
-          "date": "20261002",
-          "type": "negative",
-          "headline": "[거시분석] ‘Containerabad’: Pakistan’s capital and truck...",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 4,
-      "positive_count": 4,
+      "score": 3,
+      "positive_count": 3,
       "negative_count": 0,
       "recent_events": [
         {
@@ -197,12 +197,6 @@
           "type": "positive",
           "headline": "Poland says fire at Starlink station is sabotage as Denmark warns of rising Russian threat",
           "score": 1
-        },
-        {
-          "date": "20260924",
-          "type": "positive",
-          "headline": "Poland says fire at Starlink station is sabotage as Denmark warns of rising Russian threat",
-          "score": 1
         }
       ]
     },
@@ -215,8 +209,20 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 17,
+      "negative_count": 18,
       "recent_events": [
+        {
+          "date": "20261009",
+          "type": "negative",
+          "headline": "트럼프 관세, 美소비재 물가 2.9%p 올려…뉴욕연은 보고서",
+          "score": -1
+        },
+        {
+          "date": "20261009",
+          "type": "negative",
+          "headline": "[거시분석] Russian strike on buses kills at least 30, sa...",
+          "score": -3
+        },
         {
           "date": "20261008",
           "type": "negative",
@@ -234,65 +240,11 @@
           "type": "positive",
           "headline": "UN rights council condemns attacks on civilians in Sudan, calls for truce",
           "score": 1
-        },
-        {
-          "date": "20261006",
-          "type": "negative",
-          "headline": "[거시분석] Trump jokes about letting Iran bomb Los Angel...",
-          "score": -3
-        },
-        {
-          "date": "20261005",
-          "type": "negative",
-          "headline": "[거시분석] Why Canada is wargaming a (long shot) US inva...",
-          "score": -5
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260924",
-      "headline": "Rogue OpenAI agent 'infiltrated' Australian government website in world first",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260924",
-      "headline": "Poland says fire at Starlink station is sabotage as Denmark warns of rising Russian threat",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260924",
-      "headline": "OpenAI agents hack Australian government health data",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260924",
-      "headline": "How an OpenAI ‘agent’ hacked Australia’s Medicare and what that means",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260924",
-      "headline": "[거시분석] Iran's president tells Trump it will never 'b...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -3,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260925",
       "headline": "Why Australia chose the world's biggest political stage to reveal OpenAI hack",
@@ -647,9 +599,27 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261009",
+      "headline": "트럼프 관세, 美소비재 물가 2.9%p 올려…뉴욕연은 보고서",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261009",
+      "headline": "[거시분석] Russian strike on buses kills at least 30, sa...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -3,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
-  "total_positives": 40,
+  "total_negatives": 43,
+  "total_positives": 36,
   "risk_level": "EXTREME"
 }
