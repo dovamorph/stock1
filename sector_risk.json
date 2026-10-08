@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T04:48:08.090576+09:00",
+  "updated_at": "2026-10-08T09:03:59.454888+09:00",
   "date": "20261008",
   "window_days": 14,
   "sectors": [
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 10,
+      "negative_count": 9,
       "recent_events": [
-        {
-          "date": "20261008",
-          "type": "negative",
-          "headline": "[거시분석] At least 24 killed as Russia launches massive...",
-          "score": -2
-        },
         {
           "date": "20261006",
           "type": "positive",
@@ -86,25 +80,25 @@
           "type": "negative",
           "headline": "[거시분석] UK-Iranian dual national bailed after RAF Fai...",
           "score": -2
+        },
+        {
+          "date": "20261002",
+          "type": "negative",
+          "headline": "[거시분석] ‘Containerabad’: Pakistan’s capital and truck...",
+          "score": -3
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 16,
+      "positive_count": 15,
       "negative_count": 2,
       "recent_events": [
         {
           "date": "20261008",
           "type": "positive",
-          "headline": "사우디 \"리야드·아브하 공항서 3명 사망\"…후티 잇단 공습 주장(종합)",
+          "headline": "[거시분석] Gaza child’s autoimmune condition triggered a...",
           "score": 1
-        },
-        {
-          "date": "20261008",
-          "type": "positive",
-          "headline": "[거시분석] At least 24 killed as Russia launches massive...",
-          "score": 3
         },
         {
           "date": "20261007",
@@ -123,6 +117,12 @@
           "type": "positive",
           "headline": "[거시분석] Trump jokes about letting Iran bomb Los Angel...",
           "score": 1
+        },
+        {
+          "date": "20261005",
+          "type": "positive",
+          "headline": "[거시분석] Why Canada is wargaming a (long shot) US inva...",
+          "score": 3
         }
       ]
     },
@@ -146,8 +146,8 @@
         {
           "date": "20261008",
           "type": "negative",
-          "headline": "[거시분석] At least 24 killed as Russia launches massive...",
-          "score": -2
+          "headline": "[거시분석] Gaza child’s autoimmune condition triggered a...",
+          "score": -1
         },
         {
           "date": "20261007",
@@ -176,10 +176,16 @@
       ]
     },
     "우주ETF": {
-      "score": 4,
-      "positive_count": 4,
+      "score": 5,
+      "positive_count": 5,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20261008",
+          "type": "positive",
+          "headline": "Inside SpaceX’s new look for AI data centres in orbit",
+          "score": 1
+        },
         {
           "date": "20260929",
           "type": "positive",
@@ -215,19 +221,13 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 18,
+      "negative_count": 17,
       "recent_events": [
         {
           "date": "20261008",
           "type": "negative",
-          "headline": "트럼프, 또 노벨평화상 타령…\"관세로 많은 전쟁 막았다\"",
-          "score": -1
-        },
-        {
-          "date": "20261008",
-          "type": "negative",
-          "headline": "[거시분석] At least 24 killed as Russia launches massive...",
-          "score": -6
+          "headline": "[거시분석] Gaza child’s autoimmune condition triggered a...",
+          "score": -3
         },
         {
           "date": "20261007",
@@ -246,6 +246,12 @@
           "type": "negative",
           "headline": "[거시분석] Trump jokes about letting Iran bomb Los Angel...",
           "score": -3
+        },
+        {
+          "date": "20261005",
+          "type": "negative",
+          "headline": "[거시분석] Why Canada is wargaming a (long shot) US inva...",
+          "score": -5
         }
       ]
     }
@@ -640,33 +646,24 @@
     },
     {
       "date": "20261008",
-      "headline": "트럼프, 또 노벨평화상 타령…\"관세로 많은 전쟁 막았다\"",
+      "headline": "Inside SpaceX’s new look for AI data centres in orbit",
       "impacts": {
-        "전체시장": -1
+        "우주ETF": 1
       },
       "source": "keyword"
     },
     {
       "date": "20261008",
-      "headline": "사우디 \"리야드·아브하 공항서 3명 사망\"…후티 잇단 공습 주장(종합)",
+      "headline": "[거시분석] Gaza child’s autoimmune condition triggered a...",
       "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261008",
-      "headline": "[거시분석] At least 24 killed as Russia launches massive...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -6,
-        "금융": -2
+        "방산": 1,
+        "전체시장": -3,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 44,
+  "total_negatives": 42,
   "total_positives": 41,
   "risk_level": "EXTREME"
 }
