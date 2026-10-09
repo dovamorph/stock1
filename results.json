@@ -1,6 +1,6 @@
 {
   "date": "20261009",
-  "generated_at": "2026-10-09T18:30:50+09:00",
+  "generated_at": "2026-10-09T19:00:51+09:00",
   "reference_date": "20261008",
   "reference_ranks": {
     "005930": 1,
@@ -96,8 +96,8 @@
       "ndx_ch1": -1.25,
       "ndx_ma60": 26311.81
     },
-    "adr": 23.5,
-    "adr_advances": 112,
+    "adr": 24.0,
+    "adr_advances": 115,
     "adr_declines": 365,
     "adr_signal": "🔴",
     "adr_desc": "투매권 (24%) — 바닥 근접 가능",
@@ -107,7 +107,7 @@
       "desc": "코스닥>코스피 — 중소형/테마 장",
       "kospi_ch1": 0.09,
       "kosdaq_ch1": 0.7,
-      "adr": 23.5
+      "adr": 24.0
     },
     "pool_flow": {
       "total": 40,
