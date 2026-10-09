@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-09T21:50:40.923227+09:00",
-  "date": "20261009",
+  "updated_at": "2026-10-10T04:20:27.043654+09:00",
+  "date": "20261010",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,10 +16,22 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 9,
-      "positive_count": 15,
-      "negative_count": 4,
+      "score": 5,
+      "positive_count": 13,
+      "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20261010",
+          "type": "positive",
+          "headline": "Fired OpenAI researchers say they were let go for 'prioritising safety'",
+          "score": 1
+        },
+        {
+          "date": "20261010",
+          "type": "negative",
+          "headline": "[거시분석] US unveils sanctions on ICC in move court con...",
+          "score": -2
+        },
         {
           "date": "20261009",
           "type": "positive",
@@ -37,18 +49,6 @@
           "type": "positive",
           "headline": "OpenAI admits response to Australian government hacks 'not good enough'",
           "score": 1
-        },
-        {
-          "date": "20261003",
-          "type": "positive",
-          "headline": "OpenAI fires workers for 'mishandling sensitive information'",
-          "score": 1
-        },
-        {
-          "date": "20261002",
-          "type": "positive",
-          "headline": "OpenAI fires workers for 'mishandling sensitive information'",
-          "score": 1
         }
       ]
     },
@@ -57,6 +57,12 @@
       "positive_count": 1,
       "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20261010",
+          "type": "negative",
+          "headline": "[거시분석] US unveils sanctions on ICC in move court con...",
+          "score": -1
+        },
         {
           "date": "20261009",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] UK-Iranian dual national bailed after RAF Fai...",
           "score": -2
-        },
-        {
-          "date": "20261003",
-          "type": "negative",
-          "headline": "[거시분석] UK-Iranian dual national bailed after RAF Fai...",
-          "score": -2
         }
       ]
     },
@@ -94,6 +94,12 @@
       "positive_count": 15,
       "negative_count": 2,
       "recent_events": [
+        {
+          "date": "20261010",
+          "type": "positive",
+          "headline": "[거시분석] US unveils sanctions on ICC in move court con...",
+          "score": 2
+        },
         {
           "date": "20261009",
           "type": "positive",
@@ -117,12 +123,6 @@
           "type": "negative",
           "headline": "UN rights council condemns attacks on civilians in Sudan, calls for truce",
           "score": -1
-        },
-        {
-          "date": "20261006",
-          "type": "positive",
-          "headline": "[거시분석] Trump jokes about letting Iran bomb Los Angel...",
-          "score": 1
         }
       ]
     },
@@ -143,6 +143,12 @@
       "positive_count": 0,
       "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20261010",
+          "type": "negative",
+          "headline": "[거시분석] US unveils sanctions on ICC in move court con...",
+          "score": -1
+        },
         {
           "date": "20261009",
           "type": "negative",
@@ -166,12 +172,6 @@
           "type": "negative",
           "headline": "[거시분석] 인도중앙은행, 3년8개월만 첫 기준금리 인상…\"인플레 대응\"",
           "score": -3
-        },
-        {
-          "date": "20261006",
-          "type": "negative",
-          "headline": "[거시분석] Trump jokes about letting Iran bomb Los Angel...",
-          "score": -1
         }
       ]
     },
@@ -180,6 +180,12 @@
       "positive_count": 4,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20261010",
+          "type": "positive",
+          "headline": "Why Elon Musk is taking on India's richest man over Starlink",
+          "score": 1
+        },
         {
           "date": "20261009",
           "type": "positive",
@@ -197,12 +203,6 @@
           "type": "positive",
           "headline": "Fiery end for SpaceX Starship mission",
           "score": 1
-        },
-        {
-          "date": "20260925",
-          "type": "positive",
-          "headline": "Poland says fire at Starlink station is sabotage as Denmark warns of rising Russian threat",
-          "score": 1
         }
       ]
     },
@@ -217,6 +217,12 @@
       "positive_count": 4,
       "negative_count": 17,
       "recent_events": [
+        {
+          "date": "20261010",
+          "type": "negative",
+          "headline": "[거시분석] US unveils sanctions on ICC in move court con...",
+          "score": -7
+        },
         {
           "date": "20261009",
           "type": "negative",
@@ -240,60 +246,11 @@
           "type": "positive",
           "headline": "UN rights council condemns attacks on civilians in Sudan, calls for truce",
           "score": 1
-        },
-        {
-          "date": "20261006",
-          "type": "negative",
-          "headline": "[거시분석] Trump jokes about letting Iran bomb Los Angel...",
-          "score": -3
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260925",
-      "headline": "Why Australia chose the world's biggest political stage to reveal OpenAI hack",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260925",
-      "headline": "Poland says fire at Starlink station is sabotage as Denmark warns of rising Russian threat",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260925",
-      "headline": "Rogue OpenAI agent 'infiltrated' Australian government website in world first",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260925",
-      "headline": "Why did an OpenAI system hack Australia's health system - and can it be stopped in the future?",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260925",
-      "headline": "[거시분석] What’s in Iran’s seven-day plan to reopen the...",
-      "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -4,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260926",
       "headline": "OpenAI bots meddled with multiple US government agency sites",
@@ -640,9 +597,37 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261010",
+      "headline": "Fired OpenAI researchers say they were let go for 'prioritising safety'",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261010",
+      "headline": "Why Elon Musk is taking on India's richest man over Starlink",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261010",
+      "headline": "[거시분석] US unveils sanctions on ICC in move court con...",
+      "impacts": {
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -7,
+        "금융": -1,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 43,
-  "total_positives": 39,
+  "total_negatives": 44,
+  "total_positives": 37,
   "risk_level": "EXTREME"
 }
