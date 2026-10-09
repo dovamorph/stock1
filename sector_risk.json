@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T04:20:27.043654+09:00",
+  "updated_at": "2026-10-10T08:53:09.157733+09:00",
   "date": "20261010",
   "window_days": 14,
   "sectors": [
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 10,
+      "negative_count": 9,
       "recent_events": [
-        {
-          "date": "20261010",
-          "type": "negative",
-          "headline": "[거시분석] US unveils sanctions on ICC in move court con...",
-          "score": -1
-        },
         {
           "date": "20261009",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] UK-Iranian dual national bailed after RAF Fai...",
           "score": -2
+        },
+        {
+          "date": "20261003",
+          "type": "negative",
+          "headline": "[거시분석] UK-Iranian dual national bailed after RAF Fai...",
+          "score": -2
         }
       ]
     },
@@ -98,7 +98,7 @@
           "date": "20261010",
           "type": "positive",
           "headline": "[거시분석] US unveils sanctions on ICC in move court con...",
-          "score": 2
+          "score": 1
         },
         {
           "date": "20261009",
@@ -141,14 +141,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 9,
       "recent_events": [
-        {
-          "date": "20261010",
-          "type": "negative",
-          "headline": "[거시분석] US unveils sanctions on ICC in move court con...",
-          "score": -1
-        },
         {
           "date": "20261009",
           "type": "negative",
@@ -172,6 +166,12 @@
           "type": "negative",
           "headline": "[거시분석] 인도중앙은행, 3년8개월만 첫 기준금리 인상…\"인플레 대응\"",
           "score": -3
+        },
+        {
+          "date": "20261006",
+          "type": "negative",
+          "headline": "[거시분석] Trump jokes about letting Iran bomb Los Angel...",
+          "score": -1
         }
       ]
     },
@@ -221,7 +221,7 @@
           "date": "20261010",
           "type": "negative",
           "headline": "[거시분석] US unveils sanctions on ICC in move court con...",
-          "score": -7
+          "score": -5
         },
         {
           "date": "20261009",
@@ -618,16 +618,14 @@
       "date": "20261010",
       "headline": "[거시분석] US unveils sanctions on ICC in move court con...",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -7,
-        "금융": -1,
+        "방산": 1,
+        "전체시장": -5,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 44,
+  "total_negatives": 42,
   "total_positives": 37,
   "risk_level": "EXTREME"
 }
