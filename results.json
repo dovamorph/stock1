@@ -1,6 +1,6 @@
 {
   "date": "20261009",
-  "generated_at": "2026-10-09T14:00:52+09:00",
+  "generated_at": "2026-10-09T14:30:40+09:00",
   "reference_date": "20261008",
   "reference_ranks": {
     "005930": 1,
@@ -96,18 +96,18 @@
       "ndx_ch1": -1.25,
       "ndx_ma60": 26311.81
     },
-    "adr": 23.3,
-    "adr_advances": 113,
-    "adr_declines": 372,
+    "adr": 23.5,
+    "adr_advances": 114,
+    "adr_declines": 371,
     "adr_signal": "🔴",
-    "adr_desc": "투매권 (23%) — 바닥 근접 가능",
+    "adr_desc": "투매권 (24%) — 바닥 근접 가능",
     "breadth": {
       "regime": "중소형우위",
       "label": "중소형우위 🟡",
       "desc": "코스닥>코스피 — 중소형/테마 장",
       "kospi_ch1": 0.09,
       "kosdaq_ch1": 0.7,
-      "adr": 23.3
+      "adr": 23.5
     },
     "pool_flow": {
       "total": 40,
