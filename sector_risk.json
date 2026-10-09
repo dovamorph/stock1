@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T08:06:02.786379+09:00",
+  "updated_at": "2026-10-09T14:18:56.293157+09:00",
   "date": "20261009",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 7,
+      "score": 5,
       "positive_count": 13,
-      "negative_count": 4,
+      "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20261009",
+          "type": "negative",
+          "headline": "[거시분석] Venezuela's ex-leader Nicolás Maduro charged ...",
+          "score": -2
+        },
         {
           "date": "20261006",
           "type": "positive",
@@ -43,26 +49,14 @@
           "type": "positive",
           "headline": "OpenAI ‘reviewing’ report of failed hacking attempt against Canada’s gov’t",
           "score": 1
-        },
-        {
-          "date": "20260930",
-          "type": "positive",
-          "headline": "OpenAI launches ‘dots,’ personal AI assistant ‘built to handle everything’",
-          "score": 1
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 10,
+      "negative_count": 9,
       "recent_events": [
-        {
-          "date": "20261009",
-          "type": "negative",
-          "headline": "[거시분석] Russian strike on buses kills at least 30, sa...",
-          "score": -2
-        },
         {
           "date": "20261006",
           "type": "positive",
@@ -86,19 +80,31 @@
           "type": "negative",
           "headline": "[거시분석] UK-Iranian dual national bailed after RAF Fai...",
           "score": -2
+        },
+        {
+          "date": "20261002",
+          "type": "negative",
+          "headline": "[거시분석] ‘Containerabad’: Pakistan’s capital and truck...",
+          "score": -3
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 15,
-      "negative_count": 2,
+      "negative_count": 3,
       "recent_events": [
         {
           "date": "20261009",
+          "type": "negative",
+          "headline": "'라미레스 3타점' 클리블랜드, ALDS 2승 2패…승부는 최종전으로",
+          "score": -1
+        },
+        {
+          "date": "20261009",
           "type": "positive",
-          "headline": "[거시분석] Russian strike on buses kills at least 30, sa...",
-          "score": 3
+          "headline": "[거시분석] Venezuela's ex-leader Nicolás Maduro charged ...",
+          "score": 1
         },
         {
           "date": "20261008",
@@ -117,12 +123,6 @@
           "type": "negative",
           "headline": "UN rights council condemns attacks on civilians in Sudan, calls for truce",
           "score": -1
-        },
-        {
-          "date": "20261006",
-          "type": "positive",
-          "headline": "[거시분석] Trump jokes about letting Iran bomb Los Angel...",
-          "score": 1
         }
       ]
     },
@@ -141,14 +141,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 9,
       "recent_events": [
-        {
-          "date": "20261009",
-          "type": "negative",
-          "headline": "[거시분석] Russian strike on buses kills at least 30, sa...",
-          "score": -1
-        },
         {
           "date": "20261008",
           "type": "negative",
@@ -171,6 +165,12 @@
           "date": "20261006",
           "type": "negative",
           "headline": "[거시분석] Trump jokes about letting Iran bomb Los Angel...",
+          "score": -1
+        },
+        {
+          "date": "20261002",
+          "type": "negative",
+          "headline": "[거시분석] ‘Containerabad’: Pakistan’s capital and truck...",
           "score": -1
         }
       ]
@@ -208,13 +208,19 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 4,
+      "positive_count": 5,
       "negative_count": 17,
       "recent_events": [
         {
           "date": "20261009",
+          "type": "positive",
+          "headline": "'라미레스 3타점' 클리블랜드, ALDS 2승 2패…승부는 최종전으로",
+          "score": 1
+        },
+        {
+          "date": "20261009",
           "type": "negative",
-          "headline": "[거시분석] Russian strike on buses kills at least 30, sa...",
+          "headline": "[거시분석] Venezuela's ex-leader Nicolás Maduro charged ...",
           "score": -5
         },
         {
@@ -234,12 +240,6 @@
           "type": "positive",
           "headline": "UN rights council condemns attacks on civilians in Sudan, calls for truce",
           "score": 1
-        },
-        {
-          "date": "20261006",
-          "type": "negative",
-          "headline": "[거시분석] Trump jokes about letting Iran bomb Los Angel...",
-          "score": -3
         }
       ]
     }
@@ -602,17 +602,25 @@
     },
     {
       "date": "20261009",
-      "headline": "[거시분석] Russian strike on buses kills at least 30, sa...",
+      "headline": "'라미레스 3타점' 클리블랜드, ALDS 2승 2패…승부는 최종전으로",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261009",
+      "headline": "[거시분석] Venezuela's ex-leader Nicolás Maduro charged ...",
+      "impacts": {
+        "방산": 1,
         "전체시장": -5,
-        "금융": -1
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 43,
-  "total_positives": 36,
+  "total_positives": 37,
   "risk_level": "EXTREME"
 }
