@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T14:18:56.293157+09:00",
+  "updated_at": "2026-10-09T21:50:40.923227+09:00",
   "date": "20261009",
   "window_days": 14,
   "sectors": [
@@ -16,15 +16,21 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 5,
-      "positive_count": 13,
-      "negative_count": 5,
+      "score": 9,
+      "positive_count": 15,
+      "negative_count": 4,
       "recent_events": [
         {
           "date": "20261009",
-          "type": "negative",
-          "headline": "[거시분석] Venezuela's ex-leader Nicolás Maduro charged ...",
-          "score": -2
+          "type": "positive",
+          "headline": "Fired OpenAI researchers say they were let go for 'prioritising safety'",
+          "score": 1
+        },
+        {
+          "date": "20261009",
+          "type": "positive",
+          "headline": "Ex-OpenAI staff say they were fired for raising safety concerns",
+          "score": 1
         },
         {
           "date": "20261006",
@@ -43,20 +49,20 @@
           "type": "positive",
           "headline": "OpenAI fires workers for 'mishandling sensitive information'",
           "score": 1
-        },
-        {
-          "date": "20261001",
-          "type": "positive",
-          "headline": "OpenAI ‘reviewing’ report of failed hacking attempt against Canada’s gov’t",
-          "score": 1
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20261009",
+          "type": "negative",
+          "headline": "[거시분석] South Korea recalls Ukraine envoy over prison...",
+          "score": -2
+        },
         {
           "date": "20261006",
           "type": "positive",
@@ -80,31 +86,19 @@
           "type": "negative",
           "headline": "[거시분석] UK-Iranian dual national bailed after RAF Fai...",
           "score": -2
-        },
-        {
-          "date": "20261002",
-          "type": "negative",
-          "headline": "[거시분석] ‘Containerabad’: Pakistan’s capital and truck...",
-          "score": -3
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 15,
-      "negative_count": 3,
+      "negative_count": 2,
       "recent_events": [
         {
           "date": "20261009",
-          "type": "negative",
-          "headline": "'라미레스 3타점' 클리블랜드, ALDS 2승 2패…승부는 최종전으로",
-          "score": -1
-        },
-        {
-          "date": "20261009",
           "type": "positive",
-          "headline": "[거시분석] Venezuela's ex-leader Nicolás Maduro charged ...",
-          "score": 1
+          "headline": "[거시분석] South Korea recalls Ukraine envoy over prison...",
+          "score": 3
         },
         {
           "date": "20261008",
@@ -123,6 +117,12 @@
           "type": "negative",
           "headline": "UN rights council condemns attacks on civilians in Sudan, calls for truce",
           "score": -1
+        },
+        {
+          "date": "20261006",
+          "type": "positive",
+          "headline": "[거시분석] Trump jokes about letting Iran bomb Los Angel...",
+          "score": 1
         }
       ]
     },
@@ -141,8 +141,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20261009",
+          "type": "negative",
+          "headline": "[거시분석] South Korea recalls Ukraine envoy over prison...",
+          "score": -1
+        },
         {
           "date": "20261008",
           "type": "negative",
@@ -166,20 +172,20 @@
           "type": "negative",
           "headline": "[거시분석] Trump jokes about letting Iran bomb Los Angel...",
           "score": -1
-        },
-        {
-          "date": "20261002",
-          "type": "negative",
-          "headline": "[거시분석] ‘Containerabad’: Pakistan’s capital and truck...",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 3,
-      "positive_count": 3,
+      "score": 4,
+      "positive_count": 4,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20261009",
+          "type": "positive",
+          "headline": "Why Elon Musk is taking on India's richest man over Starlink",
+          "score": 1
+        },
         {
           "date": "20260929",
           "type": "positive",
@@ -208,19 +214,13 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 5,
+      "positive_count": 4,
       "negative_count": 17,
       "recent_events": [
         {
           "date": "20261009",
-          "type": "positive",
-          "headline": "'라미레스 3타점' 클리블랜드, ALDS 2승 2패…승부는 최종전으로",
-          "score": 1
-        },
-        {
-          "date": "20261009",
           "type": "negative",
-          "headline": "[거시분석] Venezuela's ex-leader Nicolás Maduro charged ...",
+          "headline": "[거시분석] South Korea recalls Ukraine envoy over prison...",
           "score": -5
         },
         {
@@ -240,6 +240,12 @@
           "type": "positive",
           "headline": "UN rights council condemns attacks on civilians in Sudan, calls for truce",
           "score": 1
+        },
+        {
+          "date": "20261006",
+          "type": "negative",
+          "headline": "[거시분석] Trump jokes about letting Iran bomb Los Angel...",
+          "score": -3
         }
       ]
     }
@@ -602,25 +608,41 @@
     },
     {
       "date": "20261009",
-      "headline": "'라미레스 3타점' 클리블랜드, ALDS 2승 2패…승부는 최종전으로",
+      "headline": "Fired OpenAI researchers say they were let go for 'prioritising safety'",
       "impacts": {
-        "방산": -1,
-        "전체시장": 1
+        "반도체·AI": 1
       },
       "source": "keyword"
     },
     {
       "date": "20261009",
-      "headline": "[거시분석] Venezuela's ex-leader Nicolás Maduro charged ...",
+      "headline": "Why Elon Musk is taking on India's richest man over Starlink",
       "impacts": {
-        "방산": 1,
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261009",
+      "headline": "Ex-OpenAI staff say they were fired for raising safety concerns",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261009",
+      "headline": "[거시분석] South Korea recalls Ukraine envoy over prison...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
         "전체시장": -5,
-        "반도체·AI": -2
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 43,
-  "total_positives": 37,
+  "total_positives": 39,
   "risk_level": "EXTREME"
 }
