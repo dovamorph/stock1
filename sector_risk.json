@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-10T21:08:43.942635+09:00",
-  "date": "20261010",
+  "updated_at": "2026-10-11T03:18:53.901462+09:00",
+  "date": "20261011",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 4,
-      "positive_count": 12,
+      "score": 2,
+      "positive_count": 11,
       "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20261011",
+          "type": "negative",
+          "headline": "[거시분석] 'Time for Ukraine to get new president,' says...",
+          "score": -2
+        },
         {
           "date": "20261010",
           "type": "negative",
@@ -43,20 +49,20 @@
           "type": "positive",
           "headline": "OpenAI admits response to Australian government hacks 'not good enough'",
           "score": 1
-        },
-        {
-          "date": "20261003",
-          "type": "positive",
-          "headline": "OpenAI fires workers for 'mishandling sensitive information'",
-          "score": 1
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20261011",
+          "type": "negative",
+          "headline": "[거시분석] 'Time for Ukraine to get new president,' says...",
+          "score": -4
+        },
         {
           "date": "20261010",
           "type": "negative",
@@ -80,20 +86,26 @@
           "type": "negative",
           "headline": "[거시분석] Why Canada is wargaming a (long shot) US inva...",
           "score": -2
-        },
-        {
-          "date": "20261004",
-          "type": "negative",
-          "headline": "[거시분석] UK-Iranian dual national bailed after RAF Fai...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 15,
-      "negative_count": 2,
+      "negative_count": 3,
       "recent_events": [
+        {
+          "date": "20261011",
+          "type": "negative",
+          "headline": "\"푸틴, 트럼프의 우크라전 긴장 완화 제안에 '이해' 표명\"",
+          "score": -1
+        },
+        {
+          "date": "20261011",
+          "type": "positive",
+          "headline": "[거시분석] 'Time for Ukraine to get new president,' says...",
+          "score": 3
+        },
         {
           "date": "20261010",
           "type": "positive",
@@ -111,18 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] Global protests mark October 7 attack with ca...",
           "score": 1
-        },
-        {
-          "date": "20261007",
-          "type": "positive",
-          "headline": "[거시분석] 인도중앙은행, 3년8개월만 첫 기준금리 인상…\"인플레 대응\"",
-          "score": 1
-        },
-        {
-          "date": "20261006",
-          "type": "negative",
-          "headline": "UN rights council condemns attacks on civilians in Sudan, calls for truce",
-          "score": -1
         }
       ]
     },
@@ -208,9 +208,21 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 4,
+      "positive_count": 5,
       "negative_count": 17,
       "recent_events": [
+        {
+          "date": "20261011",
+          "type": "positive",
+          "headline": "\"푸틴, 트럼프의 우크라전 긴장 완화 제안에 '이해' 표명\"",
+          "score": 1
+        },
+        {
+          "date": "20261011",
+          "type": "negative",
+          "headline": "[거시분석] 'Time for Ukraine to get new president,' says...",
+          "score": -9
+        },
         {
           "date": "20261010",
           "type": "negative",
@@ -228,48 +240,11 @@
           "type": "negative",
           "headline": "[거시분석] Global protests mark October 7 attack with ca...",
           "score": -3
-        },
-        {
-          "date": "20261007",
-          "type": "negative",
-          "headline": "[거시분석] 인도중앙은행, 3년8개월만 첫 기준금리 인상…\"인플레 대응\"",
-          "score": -4
-        },
-        {
-          "date": "20261006",
-          "type": "positive",
-          "headline": "UN rights council condemns attacks on civilians in Sudan, calls for truce",
-          "score": 1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260926",
-      "headline": "OpenAI bots meddled with multiple US government agency sites",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260926",
-      "headline": "Inside the FBI hack: Agents fearful and angry after 'dangerous' data breach",
-      "impacts": {
-        "반도체·AI": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260926",
-      "headline": "[거시분석] Iran offers US deal to reopen Strait of Hormu...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -3
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260927",
       "headline": "OpenAI bots meddled with multiple US government agency sites",
@@ -602,9 +577,29 @@
         "반도체·AI": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261011",
+      "headline": "\"푸틴, 트럼프의 우크라전 긴장 완화 제안에 '이해' 표명\"",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261011",
+      "headline": "[거시분석] 'Time for Ukraine to get new president,' says...",
+      "impacts": {
+        "방산": 3,
+        "건설": -4,
+        "전체시장": -9,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 43,
+  "total_negatives": 45,
   "total_positives": 35,
   "risk_level": "EXTREME"
 }
