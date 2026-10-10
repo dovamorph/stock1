@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T14:03:28.271031+09:00",
+  "updated_at": "2026-10-10T21:08:43.942635+09:00",
   "date": "20261010",
   "window_days": 14,
   "sectors": [
@@ -16,20 +16,14 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 5,
-      "positive_count": 13,
+      "score": 4,
+      "positive_count": 12,
       "negative_count": 5,
       "recent_events": [
         {
           "date": "20261010",
-          "type": "positive",
-          "headline": "Fired OpenAI researchers say they were let go for 'prioritising safety'",
-          "score": 1
-        },
-        {
-          "date": "20261010",
           "type": "negative",
-          "headline": "[거시분석] Hours after Trump-Putin diesel deal, Ukraine ...",
+          "headline": "[거시분석] ‘How can you stop these kids?’ Indian capital...",
           "score": -2
         },
         {
@@ -49,6 +43,12 @@
           "type": "positive",
           "headline": "OpenAI admits response to Australian government hacks 'not good enough'",
           "score": 1
+        },
+        {
+          "date": "20261003",
+          "type": "positive",
+          "headline": "OpenAI fires workers for 'mishandling sensitive information'",
+          "score": 1
         }
       ]
     },
@@ -60,7 +60,7 @@
         {
           "date": "20261010",
           "type": "negative",
-          "headline": "[거시분석] Hours after Trump-Putin diesel deal, Ukraine ...",
+          "headline": "[거시분석] ‘How can you stop these kids?’ Indian capital...",
           "score": -2
         },
         {
@@ -92,19 +92,13 @@
     "방산": {
       "score": 10,
       "positive_count": 15,
-      "negative_count": 3,
+      "negative_count": 2,
       "recent_events": [
         {
           "date": "20261010",
-          "type": "negative",
-          "headline": "Putin tells Trump peace talks are unlikely, cites Ukraine drone attacks",
-          "score": -1
-        },
-        {
-          "date": "20261010",
           "type": "positive",
-          "headline": "[거시분석] Hours after Trump-Putin diesel deal, Ukraine ...",
-          "score": 3
+          "headline": "[거시분석] ‘How can you stop these kids?’ Indian capital...",
+          "score": 1
         },
         {
           "date": "20261009",
@@ -123,6 +117,12 @@
           "type": "positive",
           "headline": "[거시분석] 인도중앙은행, 3년8개월만 첫 기준금리 인상…\"인플레 대응\"",
           "score": 1
+        },
+        {
+          "date": "20261006",
+          "type": "negative",
+          "headline": "UN rights council condemns attacks on civilians in Sudan, calls for truce",
+          "score": -1
         }
       ]
     },
@@ -176,16 +176,10 @@
       ]
     },
     "우주ETF": {
-      "score": 4,
-      "positive_count": 4,
+      "score": 3,
+      "positive_count": 3,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20261010",
-          "type": "positive",
-          "headline": "Elon Musk lashes out at Indian ‘Prime Minister’ Mukesh Ambani in Starlink",
-          "score": 1
-        },
         {
           "date": "20261009",
           "type": "positive",
@@ -220,7 +214,7 @@
         {
           "date": "20261010",
           "type": "negative",
-          "headline": "[거시분석] Hours after Trump-Putin diesel deal, Ukraine ...",
+          "headline": "[거시분석] ‘How can you stop these kids?’ Indian capital...",
           "score": -7
         },
         {
@@ -600,41 +594,17 @@
     },
     {
       "date": "20261010",
-      "headline": "Fired OpenAI researchers say they were let go for 'prioritising safety'",
+      "headline": "[거시분석] ‘How can you stop these kids?’ Indian capital...",
       "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261010",
-      "headline": "Elon Musk lashes out at Indian ‘Prime Minister’ Mukesh Ambani in Starlink",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261010",
-      "headline": "Putin tells Trump peace talks are unlikely, cites Ukraine drone attacks",
-      "impacts": {
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261010",
-      "headline": "[거시분석] Hours after Trump-Putin diesel deal, Ukraine ...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
+        "방산": 1,
         "전체시장": -7,
+        "건설": -2,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 44,
-  "total_positives": 37,
+  "total_negatives": 43,
+  "total_positives": 35,
   "risk_level": "EXTREME"
 }
