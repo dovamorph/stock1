@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T03:18:53.901462+09:00",
+  "updated_at": "2026-10-11T08:20:30.359851+09:00",
   "date": "20261011",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20261011",
           "type": "negative",
-          "headline": "[거시분석] 'Time for Ukraine to get new president,' says...",
+          "headline": "[거시분석] Nobel peace laureate says US sanctions on ICC...",
           "score": -2
         },
         {
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20261011",
-          "type": "negative",
-          "headline": "[거시분석] 'Time for Ukraine to get new president,' says...",
-          "score": -4
-        },
         {
           "date": "20261010",
           "type": "negative",
@@ -86,25 +80,25 @@
           "type": "negative",
           "headline": "[거시분석] Why Canada is wargaming a (long shot) US inva...",
           "score": -2
+        },
+        {
+          "date": "20261004",
+          "type": "negative",
+          "headline": "[거시분석] UK-Iranian dual national bailed after RAF Fai...",
+          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 15,
-      "negative_count": 3,
+      "negative_count": 2,
       "recent_events": [
         {
           "date": "20261011",
-          "type": "negative",
-          "headline": "\"푸틴, 트럼프의 우크라전 긴장 완화 제안에 '이해' 표명\"",
-          "score": -1
-        },
-        {
-          "date": "20261011",
           "type": "positive",
-          "headline": "[거시분석] 'Time for Ukraine to get new president,' says...",
-          "score": 3
+          "headline": "[거시분석] Nobel peace laureate says US sanctions on ICC...",
+          "score": 1
         },
         {
           "date": "20261010",
@@ -123,6 +117,12 @@
           "type": "positive",
           "headline": "[거시분석] Global protests mark October 7 attack with ca...",
           "score": 1
+        },
+        {
+          "date": "20261007",
+          "type": "positive",
+          "headline": "[거시분석] 인도중앙은행, 3년8개월만 첫 기준금리 인상…\"인플레 대응\"",
+          "score": 1
         }
       ]
     },
@@ -133,16 +133,29 @@
       "recent_events": []
     },
     "로봇": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20261011",
+          "type": "positive",
+          "headline": "취임 6주년 맞은 정의선…피지컬 AI 설루션 기업 전환 속도",
+          "score": 1
+        }
+      ]
     },
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20261011",
+          "type": "negative",
+          "headline": "[거시분석] Nobel peace laureate says US sanctions on ICC...",
+          "score": -1
+        },
         {
           "date": "20261009",
           "type": "negative",
@@ -166,12 +179,6 @@
           "type": "negative",
           "headline": "[거시분석] 인도중앙은행, 3년8개월만 첫 기준금리 인상…\"인플레 대응\"",
           "score": -3
-        },
-        {
-          "date": "20261006",
-          "type": "negative",
-          "headline": "[거시분석] Trump jokes about letting Iran bomb Los Angel...",
-          "score": -1
         }
       ]
     },
@@ -208,20 +215,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 5,
+      "positive_count": 4,
       "negative_count": 17,
       "recent_events": [
         {
           "date": "20261011",
-          "type": "positive",
-          "headline": "\"푸틴, 트럼프의 우크라전 긴장 완화 제안에 '이해' 표명\"",
-          "score": 1
-        },
-        {
-          "date": "20261011",
           "type": "negative",
-          "headline": "[거시분석] 'Time for Ukraine to get new president,' says...",
-          "score": -9
+          "headline": "[거시분석] Nobel peace laureate says US sanctions on ICC...",
+          "score": -5
         },
         {
           "date": "20261010",
@@ -240,6 +241,12 @@
           "type": "negative",
           "headline": "[거시분석] Global protests mark October 7 attack with ca...",
           "score": -3
+        },
+        {
+          "date": "20261007",
+          "type": "negative",
+          "headline": "[거시분석] 인도중앙은행, 3년8개월만 첫 기준금리 인상…\"인플레 대응\"",
+          "score": -4
         }
       ]
     }
@@ -580,26 +587,25 @@
     },
     {
       "date": "20261011",
-      "headline": "\"푸틴, 트럼프의 우크라전 긴장 완화 제안에 '이해' 표명\"",
+      "headline": "취임 6주년 맞은 정의선…피지컬 AI 설루션 기업 전환 속도",
       "impacts": {
-        "방산": -1,
-        "전체시장": 1
+        "로봇": 1
       },
       "source": "keyword"
     },
     {
       "date": "20261011",
-      "headline": "[거시분석] 'Time for Ukraine to get new president,' says...",
+      "headline": "[거시분석] Nobel peace laureate says US sanctions on ICC...",
       "impacts": {
-        "방산": 3,
-        "건설": -4,
-        "전체시장": -9,
+        "방산": 1,
+        "전체시장": -5,
+        "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 45,
+  "total_negatives": 44,
   "total_positives": 35,
   "risk_level": "EXTREME"
 }
