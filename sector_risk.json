@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T08:53:09.157733+09:00",
+  "updated_at": "2026-10-10T14:03:28.271031+09:00",
   "date": "20261010",
   "window_days": 14,
   "sectors": [
@@ -29,7 +29,7 @@
         {
           "date": "20261010",
           "type": "negative",
-          "headline": "[거시분석] US unveils sanctions on ICC in move court con...",
+          "headline": "[거시분석] Hours after Trump-Putin diesel deal, Ukraine ...",
           "score": -2
         },
         {
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20261010",
+          "type": "negative",
+          "headline": "[거시분석] Hours after Trump-Putin diesel deal, Ukraine ...",
+          "score": -2
+        },
         {
           "date": "20261009",
           "type": "negative",
@@ -80,25 +86,25 @@
           "type": "negative",
           "headline": "[거시분석] UK-Iranian dual national bailed after RAF Fai...",
           "score": -2
-        },
-        {
-          "date": "20261003",
-          "type": "negative",
-          "headline": "[거시분석] UK-Iranian dual national bailed after RAF Fai...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 15,
-      "negative_count": 2,
+      "negative_count": 3,
       "recent_events": [
         {
           "date": "20261010",
+          "type": "negative",
+          "headline": "Putin tells Trump peace talks are unlikely, cites Ukraine drone attacks",
+          "score": -1
+        },
+        {
+          "date": "20261010",
           "type": "positive",
-          "headline": "[거시분석] US unveils sanctions on ICC in move court con...",
-          "score": 1
+          "headline": "[거시분석] Hours after Trump-Putin diesel deal, Ukraine ...",
+          "score": 3
         },
         {
           "date": "20261009",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] 인도중앙은행, 3년8개월만 첫 기준금리 인상…\"인플레 대응\"",
           "score": 1
-        },
-        {
-          "date": "20261006",
-          "type": "negative",
-          "headline": "UN rights council condemns attacks on civilians in Sudan, calls for truce",
-          "score": -1
         }
       ]
     },
@@ -183,7 +183,7 @@
         {
           "date": "20261010",
           "type": "positive",
-          "headline": "Why Elon Musk is taking on India's richest man over Starlink",
+          "headline": "Elon Musk lashes out at Indian ‘Prime Minister’ Mukesh Ambani in Starlink",
           "score": 1
         },
         {
@@ -220,8 +220,8 @@
         {
           "date": "20261010",
           "type": "negative",
-          "headline": "[거시분석] US unveils sanctions on ICC in move court con...",
-          "score": -5
+          "headline": "[거시분석] Hours after Trump-Putin diesel deal, Ukraine ...",
+          "score": -7
         },
         {
           "date": "20261009",
@@ -608,7 +608,7 @@
     },
     {
       "date": "20261010",
-      "headline": "Why Elon Musk is taking on India's richest man over Starlink",
+      "headline": "Elon Musk lashes out at Indian ‘Prime Minister’ Mukesh Ambani in Starlink",
       "impacts": {
         "우주ETF": 1
       },
@@ -616,16 +616,25 @@
     },
     {
       "date": "20261010",
-      "headline": "[거시분석] US unveils sanctions on ICC in move court con...",
+      "headline": "Putin tells Trump peace talks are unlikely, cites Ukraine drone attacks",
       "impacts": {
-        "방산": 1,
-        "전체시장": -5,
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261010",
+      "headline": "[거시분석] Hours after Trump-Putin diesel deal, Ukraine ...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -7,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
+  "total_negatives": 44,
   "total_positives": 37,
   "risk_level": "EXTREME"
 }
