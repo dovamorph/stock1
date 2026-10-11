@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T03:42:03.190718+09:00",
+  "updated_at": "2026-10-12T08:30:36.646559+09:00",
   "date": "20261012",
   "window_days": 14,
   "sectors": [
@@ -92,36 +92,36 @@
     "방산": {
       "score": 10,
       "positive_count": 15,
-      "negative_count": 5,
+      "negative_count": 1,
       "recent_events": [
-        {
-          "date": "20261012",
-          "type": "negative",
-          "headline": "트럼프 \"러-우크라, 에너지 휴전\"…젤렌스키 \"처음 듣는 내용\"(종합)",
-          "score": -1
-        },
-        {
-          "date": "20261012",
-          "type": "negative",
-          "headline": "젤렌스키 \"푸틴이 60일 완전히 휴전한다면 선거 치르겠다\"",
-          "score": -1
-        },
-        {
-          "date": "20261012",
-          "type": "negative",
-          "headline": "트럼프 \"러-우크라, 에너지 부문 휴전 합의…즉각 발효\"",
-          "score": -1
-        },
-        {
-          "date": "20261012",
-          "type": "negative",
-          "headline": "[속보] 트럼프 \"러시아-우크라이나, 에너지 휴전에 합의\"",
-          "score": -1
-        },
         {
           "date": "20261012",
           "type": "positive",
           "headline": "[거시분석] Nobel peace laureate says US sanctions on ICC...",
+          "score": 1
+        },
+        {
+          "date": "20261011",
+          "type": "positive",
+          "headline": "[거시분석] Nobel peace laureate says US sanctions on ICC...",
+          "score": 1
+        },
+        {
+          "date": "20261010",
+          "type": "positive",
+          "headline": "[거시분석] ‘How can you stop these kids?’ Indian capital...",
+          "score": 1
+        },
+        {
+          "date": "20261009",
+          "type": "positive",
+          "headline": "[거시분석] South Korea recalls Ukraine envoy over prison...",
+          "score": 3
+        },
+        {
+          "date": "20261008",
+          "type": "positive",
+          "headline": "[거시분석] Global protests mark October 7 attack with ca...",
           "score": 1
         }
       ]
@@ -214,38 +214,38 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 7,
+      "positive_count": 3,
       "negative_count": 17,
       "recent_events": [
-        {
-          "date": "20261012",
-          "type": "positive",
-          "headline": "트럼프 \"러-우크라, 에너지 휴전\"…젤렌스키 \"처음 듣는 내용\"(종합)",
-          "score": 1
-        },
-        {
-          "date": "20261012",
-          "type": "positive",
-          "headline": "젤렌스키 \"푸틴이 60일 완전히 휴전한다면 선거 치르겠다\"",
-          "score": 1
-        },
-        {
-          "date": "20261012",
-          "type": "positive",
-          "headline": "트럼프 \"러-우크라, 에너지 부문 휴전 합의…즉각 발효\"",
-          "score": 1
-        },
-        {
-          "date": "20261012",
-          "type": "positive",
-          "headline": "[속보] 트럼프 \"러시아-우크라이나, 에너지 휴전에 합의\"",
-          "score": 1
-        },
         {
           "date": "20261012",
           "type": "negative",
           "headline": "[거시분석] Nobel peace laureate says US sanctions on ICC...",
           "score": -4
+        },
+        {
+          "date": "20261011",
+          "type": "negative",
+          "headline": "[거시분석] Nobel peace laureate says US sanctions on ICC...",
+          "score": -5
+        },
+        {
+          "date": "20261010",
+          "type": "negative",
+          "headline": "[거시분석] ‘How can you stop these kids?’ Indian capital...",
+          "score": -7
+        },
+        {
+          "date": "20261009",
+          "type": "negative",
+          "headline": "[거시분석] South Korea recalls Ukraine envoy over prison...",
+          "score": -5
+        },
+        {
+          "date": "20261008",
+          "type": "negative",
+          "headline": "[거시분석] Global protests mark October 7 attack with ca...",
+          "score": -3
         }
       ]
     }
@@ -563,42 +563,6 @@
     },
     {
       "date": "20261012",
-      "headline": "트럼프 \"러-우크라, 에너지 휴전\"…젤렌스키 \"처음 듣는 내용\"(종합)",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261012",
-      "headline": "젤렌스키 \"푸틴이 60일 완전히 휴전한다면 선거 치르겠다\"",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261012",
-      "headline": "트럼프 \"러-우크라, 에너지 부문 휴전 합의…즉각 발효\"",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261012",
-      "headline": "[속보] 트럼프 \"러시아-우크라이나, 에너지 휴전에 합의\"",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261012",
       "headline": "[거시분석] Nobel peace laureate says US sanctions on ICC...",
       "impacts": {
         "방산": 1,
@@ -608,7 +572,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 47,
-  "total_positives": 36,
+  "total_negatives": 43,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
