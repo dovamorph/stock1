@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T14:07:21.856653+09:00",
+  "updated_at": "2026-10-12T23:50:46.828123+09:00",
   "date": "20261012",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -1,
+      "score": 1,
       "positive_count": 9,
-      "negative_count": 5,
+      "negative_count": 4,
       "recent_events": [
-        {
-          "date": "20261012",
-          "type": "negative",
-          "headline": "[거시분석] Nobel peace laureate says US sanctions on ICC...",
-          "score": -2
-        },
         {
           "date": "20261011",
           "type": "negative",
@@ -49,14 +43,26 @@
           "type": "positive",
           "headline": "Ex-OpenAI staff say they were fired for raising safety concerns",
           "score": 1
+        },
+        {
+          "date": "20261006",
+          "type": "positive",
+          "headline": "OpenAI admits response to Australian government hacks 'not good enough'",
+          "score": 1
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20261012",
+          "type": "negative",
+          "headline": "[거시분석] Indian opposition defies lockdown, marches to...",
+          "score": -2
+        },
         {
           "date": "20261010",
           "type": "negative",
@@ -80,24 +86,24 @@
           "type": "negative",
           "headline": "[거시분석] Why Canada is wargaming a (long shot) US inva...",
           "score": -2
-        },
-        {
-          "date": "20261004",
-          "type": "negative",
-          "headline": "[거시분석] UK-Iranian dual national bailed after RAF Fai...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 15,
-      "negative_count": 1,
+      "negative_count": 2,
       "recent_events": [
         {
           "date": "20261012",
+          "type": "negative",
+          "headline": "롯데, '잠실 정규시즌 최종전'에서 두산 꺾고 7위로 마감",
+          "score": -1
+        },
+        {
+          "date": "20261012",
           "type": "positive",
-          "headline": "[거시분석] Nobel peace laureate says US sanctions on ICC...",
+          "headline": "[거시분석] Indian opposition defies lockdown, marches to...",
           "score": 1
         },
         {
@@ -117,20 +123,21 @@
           "type": "positive",
           "headline": "[거시분석] South Korea recalls Ukraine envoy over prison...",
           "score": 3
-        },
-        {
-          "date": "20261008",
-          "type": "positive",
-          "headline": "[거시분석] Global protests mark October 7 attack with ca...",
-          "score": 1
         }
       ]
     },
     "전력·에너지": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20261012",
+          "type": "positive",
+          "headline": "뉴욕증시, 유가 상승 속 혼조 출발",
+          "score": 1
+        }
+      ]
     },
     "로봇": {
       "score": 0,
@@ -214,14 +221,20 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 3,
+      "positive_count": 4,
       "negative_count": 17,
       "recent_events": [
         {
           "date": "20261012",
+          "type": "positive",
+          "headline": "롯데, '잠실 정규시즌 최종전'에서 두산 꺾고 7위로 마감",
+          "score": 1
+        },
+        {
+          "date": "20261012",
           "type": "negative",
-          "headline": "[거시분석] Nobel peace laureate says US sanctions on ICC...",
-          "score": -4
+          "headline": "[거시분석] Indian opposition defies lockdown, marches to...",
+          "score": -5
         },
         {
           "date": "20261011",
@@ -240,12 +253,6 @@
           "type": "negative",
           "headline": "[거시분석] South Korea recalls Ukraine envoy over prison...",
           "score": -5
-        },
-        {
-          "date": "20261008",
-          "type": "negative",
-          "headline": "[거시분석] Global protests mark October 7 attack with ca...",
-          "score": -3
         }
       ]
     }
@@ -563,16 +570,33 @@
     },
     {
       "date": "20261012",
-      "headline": "[거시분석] Nobel peace laureate says US sanctions on ICC...",
+      "headline": "뉴욕증시, 유가 상승 속 혼조 출발",
+      "impacts": {
+        "전력·에너지": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261012",
+      "headline": "롯데, '잠실 정규시즌 최종전'에서 두산 꺾고 7위로 마감",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261012",
+      "headline": "[거시분석] Indian opposition defies lockdown, marches to...",
       "impacts": {
         "방산": 1,
-        "전체시장": -4,
-        "반도체·AI": -2
+        "전체시장": -5,
+        "건설": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 43,
-  "total_positives": 32,
+  "total_negatives": 44,
+  "total_positives": 34,
   "risk_level": "EXTREME"
 }
