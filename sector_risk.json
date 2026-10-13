@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T00:42:20.775463+09:00",
+  "updated_at": "2026-10-14T06:03:21.201889+09:00",
   "date": "20261014",
   "window_days": 14,
   "sectors": [
@@ -60,7 +60,7 @@
         {
           "date": "20261014",
           "type": "negative",
-          "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
+          "headline": "[거시분석] MI5 chief warns of threats to UK from Russia,...",
           "score": -2
         },
         {
@@ -97,13 +97,13 @@
         {
           "date": "20261014",
           "type": "positive",
-          "headline": "'난타전' 사우디-후티, 석유시설 공습 맞경고",
+          "headline": "사우디, 후티 반군 연료·군사시설에 대대적 보복 공습(종합)",
           "score": 1
         },
         {
           "date": "20261014",
           "type": "positive",
-          "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
+          "headline": "[거시분석] MI5 chief warns of threats to UK from Russia,...",
           "score": 3
         },
         {
@@ -183,16 +183,10 @@
       ]
     },
     "우주ETF": {
-      "score": 4,
-      "positive_count": 4,
+      "score": 3,
+      "positive_count": 3,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20261014",
-          "type": "positive",
-          "headline": "폴란드 스타링크 통신시설에 방화공작…러시아 의심(종합)",
-          "score": 1
-        },
         {
           "date": "20261013",
           "type": "positive",
@@ -227,7 +221,7 @@
         {
           "date": "20261014",
           "type": "negative",
-          "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
+          "headline": "[거시분석] MI5 chief warns of threats to UK from Russia,...",
           "score": -3
         },
         {
@@ -568,15 +562,7 @@
     },
     {
       "date": "20261014",
-      "headline": "폴란드 스타링크 통신시설에 방화공작…러시아 의심(종합)",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261014",
-      "headline": "'난타전' 사우디-후티, 석유시설 공습 맞경고",
+      "headline": "사우디, 후티 반군 연료·군사시설에 대대적 보복 공습(종합)",
       "impacts": {
         "방산": 1
       },
@@ -584,7 +570,7 @@
     },
     {
       "date": "20261014",
-      "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
+      "headline": "[거시분석] MI5 chief warns of threats to UK from Russia,...",
       "impacts": {
         "방산": 3,
         "건설": -2,
@@ -594,6 +580,6 @@
     }
   ],
   "total_negatives": 41,
-  "total_positives": 34,
+  "total_positives": 33,
   "risk_level": "EXTREME"
 }
