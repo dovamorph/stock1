@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T07:48:04.028849+09:00",
+  "updated_at": "2026-10-13T15:06:50.966261+09:00",
   "date": "20261013",
   "window_days": 14,
   "sectors": [
@@ -18,13 +18,19 @@
     "반도체·AI": {
       "score": 1,
       "positive_count": 9,
-      "negative_count": 4,
+      "negative_count": 5,
       "recent_events": [
         {
           "date": "20261013",
           "type": "negative",
-          "headline": "[거시분석] Why do Iran’s oil ‘intermediaries’ owe the go...",
-          "score": -2
+          "headline": "Cyberattack on French supermarkets causes fires, millions in losses",
+          "score": -1
+        },
+        {
+          "date": "20261013",
+          "type": "negative",
+          "headline": "Hundreds of supermarkets in France hit by ‘unprecedented’ cyberattack",
+          "score": -1
         },
         {
           "date": "20261011",
@@ -43,20 +49,20 @@
           "type": "positive",
           "headline": "Fired OpenAI researchers say they were let go for 'prioritising safety'",
           "score": 1
-        },
-        {
-          "date": "20261009",
-          "type": "positive",
-          "headline": "Ex-OpenAI staff say they were fired for raising safety concerns",
-          "score": 1
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20261013",
+          "type": "negative",
+          "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
+          "score": -2
+        },
         {
           "date": "20261012",
           "type": "negative",
@@ -80,25 +86,25 @@
           "type": "positive",
           "headline": "대구 서문시장 4지구 재건축 또 늦어지나…\"시공사 교체 논의\"",
           "score": 1
-        },
-        {
-          "date": "20261005",
-          "type": "negative",
-          "headline": "[거시분석] Why Canada is wargaming a (long shot) US inva...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 15,
+      "positive_count": 16,
       "negative_count": 2,
       "recent_events": [
         {
           "date": "20261013",
           "type": "positive",
-          "headline": "[거시분석] Why do Iran’s oil ‘intermediaries’ owe the go...",
+          "headline": "Houthi missile attack targets Saudi capital Riyadh for third day in a row",
           "score": 1
+        },
+        {
+          "date": "20261013",
+          "type": "positive",
+          "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
+          "score": 3
         },
         {
           "date": "20261012",
@@ -116,12 +122,6 @@
           "date": "20261011",
           "type": "positive",
           "headline": "[거시분석] Nobel peace laureate says US sanctions on ICC...",
-          "score": 1
-        },
-        {
-          "date": "20261010",
-          "type": "positive",
-          "headline": "[거시분석] ‘How can you stop these kids?’ Indian capital...",
           "score": 1
         }
       ]
@@ -153,7 +153,7 @@
         {
           "date": "20261013",
           "type": "negative",
-          "headline": "[거시분석] Why do Iran’s oil ‘intermediaries’ owe the go...",
+          "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
           "score": -1
         },
         {
@@ -233,7 +233,7 @@
         {
           "date": "20261013",
           "type": "negative",
-          "headline": "[거시분석] Why do Iran’s oil ‘intermediaries’ owe the go...",
+          "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
           "score": -5
         },
         {
@@ -583,6 +583,30 @@
     },
     {
       "date": "20261013",
+      "headline": "Cyberattack on French supermarkets causes fires, millions in losses",
+      "impacts": {
+        "반도체·AI": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261013",
+      "headline": "Hundreds of supermarkets in France hit by ‘unprecedented’ cyberattack",
+      "impacts": {
+        "반도체·AI": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261013",
+      "headline": "Houthi missile attack targets Saudi capital Riyadh for third day in a row",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261013",
       "headline": "Poland says two Turks arrested over Russia-linked Starlink station fire",
       "impacts": {
         "우주ETF": 1
@@ -591,17 +615,17 @@
     },
     {
       "date": "20261013",
-      "headline": "[거시분석] Why do Iran’s oil ‘intermediaries’ owe the go...",
+      "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
       "impacts": {
-        "방산": 1,
+        "방산": 3,
+        "건설": -2,
         "전체시장": -5,
-        "금융": -1,
-        "반도체·AI": -2
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
-  "total_positives": 35,
+  "total_negatives": 44,
+  "total_positives": 36,
   "risk_level": "EXTREME"
 }
