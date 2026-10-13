@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-13T15:06:50.966261+09:00",
-  "date": "20261013",
+  "updated_at": "2026-10-14T00:42:20.775463+09:00",
+  "date": "20261014",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -17,8 +17,8 @@
   "sector_stats": {
     "반도체·AI": {
       "score": 1,
-      "positive_count": 9,
-      "negative_count": 5,
+      "positive_count": 7,
+      "negative_count": 4,
       "recent_events": [
         {
           "date": "20261013",
@@ -58,6 +58,12 @@
       "negative_count": 11,
       "recent_events": [
         {
+          "date": "20261014",
+          "type": "negative",
+          "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
+          "score": -2
+        },
+        {
           "date": "20261013",
           "type": "negative",
           "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
@@ -80,20 +86,26 @@
           "type": "negative",
           "headline": "[거시분석] South Korea recalls Ukraine envoy over prison...",
           "score": -2
-        },
-        {
-          "date": "20261006",
-          "type": "positive",
-          "headline": "대구 서문시장 4지구 재건축 또 늦어지나…\"시공사 교체 논의\"",
-          "score": 1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 16,
+      "positive_count": 17,
       "negative_count": 2,
       "recent_events": [
+        {
+          "date": "20261014",
+          "type": "positive",
+          "headline": "'난타전' 사우디-후티, 석유시설 공습 맞경고",
+          "score": 1
+        },
+        {
+          "date": "20261014",
+          "type": "positive",
+          "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
+          "score": 3
+        },
         {
           "date": "20261013",
           "type": "positive",
@@ -111,18 +123,6 @@
           "type": "negative",
           "headline": "롯데, '잠실 정규시즌 최종전'에서 두산 꺾고 7위로 마감",
           "score": -1
-        },
-        {
-          "date": "20261012",
-          "type": "positive",
-          "headline": "[거시분석] Indian opposition defies lockdown, marches to...",
-          "score": 1
-        },
-        {
-          "date": "20261011",
-          "type": "positive",
-          "headline": "[거시분석] Nobel peace laureate says US sanctions on ICC...",
-          "score": 1
         }
       ]
     },
@@ -148,7 +148,7 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 9,
       "recent_events": [
         {
           "date": "20261013",
@@ -183,10 +183,16 @@
       ]
     },
     "우주ETF": {
-      "score": 5,
-      "positive_count": 5,
+      "score": 4,
+      "positive_count": 4,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20261014",
+          "type": "positive",
+          "headline": "폴란드 스타링크 통신시설에 방화공작…러시아 의심(종합)",
+          "score": 1
+        },
         {
           "date": "20261013",
           "type": "positive",
@@ -204,18 +210,6 @@
           "type": "positive",
           "headline": "Why Elon Musk is taking on India's richest man over Starlink",
           "score": 1
-        },
-        {
-          "date": "20260929",
-          "type": "positive",
-          "headline": "Watch: From launch to fiery splashdown, SpaceX's Starship completes orbit test",
-          "score": 1
-        },
-        {
-          "date": "20260929",
-          "type": "positive",
-          "headline": "Fiery end for SpaceX Starship mission",
-          "score": 1
         }
       ]
     },
@@ -228,8 +222,14 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 16,
+      "negative_count": 15,
       "recent_events": [
+        {
+          "date": "20261014",
+          "type": "negative",
+          "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
+          "score": -3
+        },
         {
           "date": "20261013",
           "type": "negative",
@@ -253,69 +253,11 @@
           "type": "negative",
           "headline": "[거시분석] Nobel peace laureate says US sanctions on ICC...",
           "score": -5
-        },
-        {
-          "date": "20261010",
-          "type": "negative",
-          "headline": "[거시분석] ‘How can you stop these kids?’ Indian capital...",
-          "score": -7
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260929",
-      "headline": "OpenAI scraps rollout of new model over safety concerns",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260929",
-      "headline": "US ban on Canadian alcohol and dairy comes into effect as trade war drags on",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260929",
-      "headline": "Watch: From launch to fiery splashdown, SpaceX's Starship completes orbit test",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260929",
-      "headline": "OpenAI cancels release of AI model GPT-6.1 Astra, citing safety concerns",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260929",
-      "headline": "Fiery end for SpaceX Starship mission",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260929",
-      "headline": "[거시분석] US ban on Canadian alcohol and dairy comes in...",
-      "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -7,
-        "금융": -1,
-        "반도체·AI": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20260930",
       "headline": "OpenAI launches ‘dots,’ personal AI assistant ‘built to handle everything’",
@@ -623,9 +565,35 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261014",
+      "headline": "폴란드 스타링크 통신시설에 방화공작…러시아 의심(종합)",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261014",
+      "headline": "'난타전' 사우디-후티, 석유시설 공습 맞경고",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261014",
+      "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -3
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 44,
-  "total_positives": 36,
+  "total_negatives": 41,
+  "total_positives": 34,
   "risk_level": "EXTREME"
 }
