@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T06:03:21.201889+09:00",
+  "updated_at": "2026-10-14T09:57:57.924339+09:00",
   "date": "20261014",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,22 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 1,
-      "positive_count": 7,
+      "score": 3,
+      "positive_count": 9,
       "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20261014",
+          "type": "positive",
+          "headline": "Saudi man charged with planting 'sophisticated' recording device in OpenAI office",
+          "score": 1
+        },
+        {
+          "date": "20261014",
+          "type": "positive",
+          "headline": "OpenAI engineer charged after listening device found in meeting room",
+          "score": 1
+        },
         {
           "date": "20261013",
           "type": "negative",
@@ -37,32 +49,14 @@
           "type": "negative",
           "headline": "[거시분석] Nobel peace laureate says US sanctions on ICC...",
           "score": -2
-        },
-        {
-          "date": "20261010",
-          "type": "negative",
-          "headline": "[거시분석] ‘How can you stop these kids?’ Indian capital...",
-          "score": -2
-        },
-        {
-          "date": "20261009",
-          "type": "positive",
-          "headline": "Fired OpenAI researchers say they were let go for 'prioritising safety'",
-          "score": 1
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20261014",
-          "type": "negative",
-          "headline": "[거시분석] MI5 chief warns of threats to UK from Russia,...",
-          "score": -2
-        },
         {
           "date": "20261013",
           "type": "negative",
@@ -86,25 +80,25 @@
           "type": "negative",
           "headline": "[거시분석] South Korea recalls Ukraine envoy over prison...",
           "score": -2
+        },
+        {
+          "date": "20261006",
+          "type": "positive",
+          "headline": "대구 서문시장 4지구 재건축 또 늦어지나…\"시공사 교체 논의\"",
+          "score": 1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 17,
+      "positive_count": 16,
       "negative_count": 2,
       "recent_events": [
         {
           "date": "20261014",
           "type": "positive",
-          "headline": "사우디, 후티 반군 연료·군사시설에 대대적 보복 공습(종합)",
-          "score": 1
-        },
-        {
-          "date": "20261014",
-          "type": "positive",
           "headline": "[거시분석] MI5 chief warns of threats to UK from Russia,...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20261013",
@@ -123,6 +117,12 @@
           "type": "negative",
           "headline": "롯데, '잠실 정규시즌 최종전'에서 두산 꺾고 7위로 마감",
           "score": -1
+        },
+        {
+          "date": "20261012",
+          "type": "positive",
+          "headline": "[거시분석] Indian opposition defies lockdown, marches to...",
+          "score": 1
         }
       ]
     },
@@ -216,13 +216,19 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 15,
+      "negative_count": 16,
       "recent_events": [
         {
           "date": "20261014",
           "type": "negative",
+          "headline": "관세청 \"최근 5년 국회 반복지적 전면 점검…8건 개선 완료\"",
+          "score": -1
+        },
+        {
+          "date": "20261014",
+          "type": "negative",
           "headline": "[거시분석] MI5 chief warns of threats to UK from Russia,...",
-          "score": -3
+          "score": -2
         },
         {
           "date": "20261013",
@@ -240,12 +246,6 @@
           "date": "20261012",
           "type": "negative",
           "headline": "[거시분석] Indian opposition defies lockdown, marches to...",
-          "score": -5
-        },
-        {
-          "date": "20261011",
-          "type": "negative",
-          "headline": "[거시분석] Nobel peace laureate says US sanctions on ICC...",
           "score": -5
         }
       ]
@@ -562,9 +562,25 @@
     },
     {
       "date": "20261014",
-      "headline": "사우디, 후티 반군 연료·군사시설에 대대적 보복 공습(종합)",
+      "headline": "Saudi man charged with planting 'sophisticated' recording device in OpenAI office",
       "impacts": {
-        "방산": 1
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261014",
+      "headline": "OpenAI engineer charged after listening device found in meeting room",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261014",
+      "headline": "관세청 \"최근 5년 국회 반복지적 전면 점검…8건 개선 완료\"",
+      "impacts": {
+        "전체시장": -1
       },
       "source": "keyword"
     },
@@ -572,14 +588,13 @@
       "date": "20261014",
       "headline": "[거시분석] MI5 chief warns of threats to UK from Russia,...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -3
+        "방산": 1,
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 41,
-  "total_positives": 33,
+  "total_positives": 34,
   "risk_level": "EXTREME"
 }
