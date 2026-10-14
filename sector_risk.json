@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-14T22:26:46.906281+09:00",
-  "date": "20261014",
+  "updated_at": "2026-10-15T03:23:22.886755+09:00",
+  "date": "20261015",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,10 +16,28 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 0,
-      "positive_count": 8,
+      "score": 2,
+      "positive_count": 10,
       "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20261015",
+          "type": "positive",
+          "headline": "Saudi employee charged with planting recording device in OpenAI office",
+          "score": 1
+        },
+        {
+          "date": "20261015",
+          "type": "positive",
+          "headline": "Toilet paper and secret recorders: What we know about the arrest of the Saudi OpenAI engineer",
+          "score": 1
+        },
+        {
+          "date": "20261015",
+          "type": "positive",
+          "headline": "Saudi national charged with planting a listening device at OpenAI offices",
+          "score": 1
+        },
         {
           "date": "20261014",
           "type": "positive",
@@ -31,31 +49,13 @@
           "type": "negative",
           "headline": "[거시분석] Iraq PM tells Saudi Crown Prince Iraqi territ...",
           "score": -2
-        },
-        {
-          "date": "20261013",
-          "type": "negative",
-          "headline": "Cyberattack on French supermarkets causes fires, millions in losses",
-          "score": -1
-        },
-        {
-          "date": "20261013",
-          "type": "negative",
-          "headline": "Hundreds of supermarkets in France hit by ‘unprecedented’ cyberattack",
-          "score": -1
-        },
-        {
-          "date": "20261011",
-          "type": "negative",
-          "headline": "[거시분석] Nobel peace laureate says US sanctions on ICC...",
-          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 10,
+      "negative_count": 9,
       "recent_events": [
         {
           "date": "20261013",
@@ -95,6 +95,12 @@
       "negative_count": 2,
       "recent_events": [
         {
+          "date": "20261015",
+          "type": "positive",
+          "headline": "[거시분석] US inflation rises more than expected - here'...",
+          "score": 1
+        },
+        {
           "date": "20261014",
           "type": "positive",
           "headline": "[거시분석] Iraq PM tells Saudi Crown Prince Iraqi territ...",
@@ -117,12 +123,6 @@
           "type": "negative",
           "headline": "롯데, '잠실 정규시즌 최종전'에서 두산 꺾고 7위로 마감",
           "score": -1
-        },
-        {
-          "date": "20261012",
-          "type": "positive",
-          "headline": "[거시분석] Indian opposition defies lockdown, marches to...",
-          "score": 1
         }
       ]
     },
@@ -148,8 +148,20 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 12,
       "recent_events": [
+        {
+          "date": "20261015",
+          "type": "negative",
+          "headline": "US inflation rises before midterm elections, fuelling rate hike fears",
+          "score": -1
+        },
+        {
+          "date": "20261015",
+          "type": "negative",
+          "headline": "[거시분석] US inflation rises more than expected - here'...",
+          "score": -3
+        },
         {
           "date": "20261014",
           "type": "negative",
@@ -167,26 +179,32 @@
           "type": "negative",
           "headline": "[거시분석] Nobel peace laureate says US sanctions on ICC...",
           "score": -1
-        },
-        {
-          "date": "20261009",
-          "type": "negative",
-          "headline": "[거시분석] South Korea recalls Ukraine envoy over prison...",
-          "score": -1
-        },
-        {
-          "date": "20261008",
-          "type": "negative",
-          "headline": "[거시분석] Global protests mark October 7 attack with ca...",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 4,
-      "positive_count": 4,
+      "score": 7,
+      "positive_count": 7,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20261015",
+          "type": "positive",
+          "headline": "Starlink restrictions in Ukraine war linked to political situation, Zelensky aide says",
+          "score": 1
+        },
+        {
+          "date": "20261015",
+          "type": "positive",
+          "headline": "Ukraine accuses Elon Musk’s SpaceX of throttling Starlink terminals",
+          "score": 1
+        },
+        {
+          "date": "20261015",
+          "type": "positive",
+          "headline": "우크라 \"스타링크 속도 제한돼 작전 차질…정치적 조치\"",
+          "score": 1
+        },
         {
           "date": "20261014",
           "type": "positive",
@@ -197,18 +215,6 @@
           "date": "20261013",
           "type": "positive",
           "headline": "Poland says two Turks arrested over Russia-linked Starlink station fire",
-          "score": 1
-        },
-        {
-          "date": "20261011",
-          "type": "positive",
-          "headline": "Musk vows ‘affordable’ Starlink in India as he escalates feud with Ambani",
-          "score": 1
-        },
-        {
-          "date": "20261009",
-          "type": "positive",
-          "headline": "Why Elon Musk is taking on India's richest man over Starlink",
           "score": 1
         }
       ]
@@ -224,6 +230,12 @@
       "positive_count": 4,
       "negative_count": 15,
       "recent_events": [
+        {
+          "date": "20261015",
+          "type": "negative",
+          "headline": "[거시분석] US inflation rises more than expected - here'...",
+          "score": -5
+        },
         {
           "date": "20261014",
           "type": "negative",
@@ -247,35 +259,11 @@
           "type": "negative",
           "headline": "[거시분석] Indian opposition defies lockdown, marches to...",
           "score": -5
-        },
-        {
-          "date": "20261011",
-          "type": "negative",
-          "headline": "[거시분석] Nobel peace laureate says US sanctions on ICC...",
-          "score": -5
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20260930",
-      "headline": "OpenAI launches ‘dots,’ personal AI assistant ‘built to handle everything’",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20260930",
-      "headline": "[거시분석] Russia launches largest attack on Ukraine ene...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -3
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261001",
       "headline": "OpenAI ‘reviewing’ report of failed hacking attempt against Canada’s gov’t",
@@ -592,9 +580,75 @@
         "반도체·AI": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261015",
+      "headline": "Starlink restrictions in Ukraine war linked to political situation, Zelensky aide says",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261015",
+      "headline": "Saudi employee charged with planting recording device in OpenAI office",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261015",
+      "headline": "Toilet paper and secret recorders: What we know about the arrest of the Saudi OpenAI engineer",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261015",
+      "headline": "Ukraine accuses Elon Musk’s SpaceX of throttling Starlink terminals",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261015",
+      "headline": "US inflation rises before midterm elections, fuelling rate hike fears",
+      "impacts": {
+        "금융": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261015",
+      "headline": "Saudi national charged with planting a listening device at OpenAI offices",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261015",
+      "headline": "우크라 \"스타링크 속도 제한돼 작전 차질…정치적 조치\"",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261015",
+      "headline": "[거시분석] US inflation rises more than expected - here'...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -5,
+        "금융": -3
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
-  "total_positives": 34,
+  "total_negatives": 43,
+  "total_positives": 39,
   "risk_level": "EXTREME"
 }
