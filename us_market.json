@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-14 08:32",
+  "updated": "2026-10-14 09:12",
   "sp500": {
-    "close": 7807.24,
-    "change": 0.0,
-    "change_pct": 0.0
+    "close": 7805.45,
+    "change": -1.79,
+    "change_pct": -0.02
   },
   "nasdaq": {
     "close": 27204.38,
