@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-15T23:45:21.191565+09:00",
-  "date": "20261015",
+  "updated_at": "2026-10-16T04:45:33.601471+09:00",
+  "date": "20261016",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -20,6 +20,12 @@
       "positive_count": 9,
       "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20261016",
+          "type": "positive",
+          "headline": "Why are eight US states suing OpenAI?",
+          "score": 1
+        },
         {
           "date": "20261015",
           "type": "positive",
@@ -43,12 +49,6 @@
           "type": "negative",
           "headline": "[거시분석] Iraq PM tells Saudi Crown Prince Iraqi territ...",
           "score": -2
-        },
-        {
-          "date": "20261013",
-          "type": "negative",
-          "headline": "Cyberattack on French supermarkets causes fires, millions in losses",
-          "score": -1
         }
       ]
     },
@@ -57,6 +57,12 @@
       "positive_count": 1,
       "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20261016",
+          "type": "negative",
+          "headline": "[거시분석] Houthi missile attack on Yemeni presidential ...",
+          "score": -2
+        },
         {
           "date": "20261015",
           "type": "negative",
@@ -80,20 +86,32 @@
           "type": "negative",
           "headline": "[거시분석] ‘How can you stop these kids?’ Indian capital...",
           "score": -2
-        },
-        {
-          "date": "20261009",
-          "type": "negative",
-          "headline": "[거시분석] South Korea recalls Ukraine envoy over prison...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 16,
-      "negative_count": 3,
+      "positive_count": 17,
+      "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20261016",
+          "type": "negative",
+          "headline": "Trump calls off livestream of Fort Hood attacker's execution by firing squad",
+          "score": -1
+        },
+        {
+          "date": "20261016",
+          "type": "positive",
+          "headline": "Houthi missile attack on Yemeni presidential palace kills two, minister says",
+          "score": 1
+        },
+        {
+          "date": "20261016",
+          "type": "positive",
+          "headline": "[거시분석] Houthi missile attack on Yemeni presidential ...",
+          "score": 3
+        },
         {
           "date": "20261015",
           "type": "negative",
@@ -104,24 +122,6 @@
           "date": "20261015",
           "type": "positive",
           "headline": "[거시분석] Russia accuses Ukraine of attacking oil refin...",
-          "score": 3
-        },
-        {
-          "date": "20261014",
-          "type": "positive",
-          "headline": "[거시분석] Iraq PM tells Saudi Crown Prince Iraqi territ...",
-          "score": 1
-        },
-        {
-          "date": "20261013",
-          "type": "positive",
-          "headline": "Houthi missile attack targets Saudi capital Riyadh for third day in a row",
-          "score": 1
-        },
-        {
-          "date": "20261013",
-          "type": "positive",
-          "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
           "score": 3
         }
       ]
@@ -151,6 +151,12 @@
       "negative_count": 11,
       "recent_events": [
         {
+          "date": "20261016",
+          "type": "negative",
+          "headline": "[거시분석] Houthi missile attack on Yemeni presidential ...",
+          "score": -1
+        },
+        {
           "date": "20261015",
           "type": "negative",
           "headline": "[거시분석] Russia accuses Ukraine of attacking oil refin...",
@@ -173,20 +179,26 @@
           "type": "negative",
           "headline": "[거시분석] Nobel peace laureate says US sanctions on ICC...",
           "score": -1
-        },
-        {
-          "date": "20261009",
-          "type": "negative",
-          "headline": "[거시분석] South Korea recalls Ukraine envoy over prison...",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 5,
-      "positive_count": 5,
+      "score": 7,
+      "positive_count": 7,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20261016",
+          "type": "positive",
+          "headline": "Why is Starlink internet so important on the battlefield in Ukraine?",
+          "score": 1
+        },
+        {
+          "date": "20261016",
+          "type": "positive",
+          "headline": "Watch: What does Starlink have to do with the Ukraine-Russia war?",
+          "score": 1
+        },
         {
           "date": "20261015",
           "type": "positive",
@@ -204,18 +216,6 @@
           "type": "positive",
           "headline": "Poland says two Turks arrested over Russia-linked Starlink station fire",
           "score": 1
-        },
-        {
-          "date": "20261011",
-          "type": "positive",
-          "headline": "Musk vows ‘affordable’ Starlink in India as he escalates feud with Ambani",
-          "score": 1
-        },
-        {
-          "date": "20261009",
-          "type": "positive",
-          "headline": "Why Elon Musk is taking on India's richest man over Starlink",
-          "score": 1
         }
       ]
     },
@@ -230,6 +230,12 @@
       "positive_count": 4,
       "negative_count": 17,
       "recent_events": [
+        {
+          "date": "20261016",
+          "type": "negative",
+          "headline": "[거시분석] Houthi missile attack on Yemeni presidential ...",
+          "score": -5
+        },
         {
           "date": "20261015",
           "type": "negative",
@@ -253,36 +259,11 @@
           "type": "negative",
           "headline": "[거시분석] Iraq PM tells Saudi Crown Prince Iraqi territ...",
           "score": -5
-        },
-        {
-          "date": "20261013",
-          "type": "negative",
-          "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
-          "score": -5
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20261001",
-      "headline": "OpenAI ‘reviewing’ report of failed hacking attempt against Canada’s gov’t",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261001",
-      "headline": "[거시분석] Too early to say if Iran involved in Dubai-Te...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261002",
       "headline": "OpenAI fires workers for 'mishandling sensitive information'",
@@ -639,9 +620,60 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261016",
+      "headline": "Trump calls off livestream of Fort Hood attacker's execution by firing squad",
+      "impacts": {
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261016",
+      "headline": "Houthi missile attack on Yemeni presidential palace kills two, minister says",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261016",
+      "headline": "Why is Starlink internet so important on the battlefield in Ukraine?",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261016",
+      "headline": "Watch: What does Starlink have to do with the Ukraine-Russia war?",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261016",
+      "headline": "Why are eight US states suing OpenAI?",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261016",
+      "headline": "[거시분석] Houthi missile attack on Yemeni presidential ...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 46,
-  "total_positives": 36,
+  "total_negatives": 47,
+  "total_positives": 39,
   "risk_level": "EXTREME"
 }
