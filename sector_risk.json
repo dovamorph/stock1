@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T08:03:31.056776+09:00",
+  "updated_at": "2026-10-15T12:52:28.882428+09:00",
   "date": "20261015",
   "window_days": 14,
   "sectors": [
@@ -16,9 +16,9 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -1,
-      "positive_count": 9,
-      "negative_count": 6,
+      "score": 2,
+      "positive_count": 10,
+      "negative_count": 5,
       "recent_events": [
         {
           "date": "20261015",
@@ -34,9 +34,9 @@
         },
         {
           "date": "20261015",
-          "type": "negative",
-          "headline": "[거시분석] Student protesters attack government building...",
-          "score": -2
+          "type": "positive",
+          "headline": "OpenAI bugging suspect allegedly booked one-way trip to Saudi Arabia",
+          "score": 1
         },
         {
           "date": "20261014",
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20261015",
+          "type": "negative",
+          "headline": "[거시분석] Musk says US government may be behind slowdow...",
+          "score": -2
+        },
         {
           "date": "20261013",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] South Korea recalls Ukraine envoy over prison...",
           "score": -2
-        },
-        {
-          "date": "20261006",
-          "type": "positive",
-          "headline": "대구 서문시장 4지구 재건축 또 늦어지나…\"시공사 교체 논의\"",
-          "score": 1
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20261015",
           "type": "positive",
-          "headline": "[거시분석] Student protesters attack government building...",
-          "score": 1
+          "headline": "[거시분석] Musk says US government may be behind slowdow...",
+          "score": 3
         },
         {
           "date": "20261014",
@@ -153,7 +153,7 @@
         {
           "date": "20261015",
           "type": "negative",
-          "headline": "[거시분석] Student protesters attack government building...",
+          "headline": "[거시분석] Musk says US government may be behind slowdow...",
           "score": -1
         },
         {
@@ -183,16 +183,10 @@
       ]
     },
     "우주ETF": {
-      "score": 6,
-      "positive_count": 6,
+      "score": 5,
+      "positive_count": 5,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20261015",
-          "type": "positive",
-          "headline": "Musk says any limits on Ukraine's Starlink access down to US, not his firm",
-          "score": 1
-        },
         {
           "date": "20261015",
           "type": "positive",
@@ -216,6 +210,12 @@
           "type": "positive",
           "headline": "Musk vows ‘affordable’ Starlink in India as he escalates feud with Ambani",
           "score": 1
+        },
+        {
+          "date": "20261009",
+          "type": "positive",
+          "headline": "Why Elon Musk is taking on India's richest man over Starlink",
+          "score": 1
         }
       ]
     },
@@ -233,8 +233,8 @@
         {
           "date": "20261015",
           "type": "negative",
-          "headline": "[거시분석] Student protesters attack government building...",
-          "score": -5
+          "headline": "[거시분석] Musk says US government may be behind slowdow...",
+          "score": -4
         },
         {
           "date": "20261014",
@@ -583,14 +583,6 @@
     },
     {
       "date": "20261015",
-      "headline": "Musk says any limits on Ukraine's Starlink access down to US, not his firm",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261015",
       "headline": "Saudi employee charged with planting recording device in OpenAI office",
       "impacts": {
         "반도체·AI": 1
@@ -615,12 +607,20 @@
     },
     {
       "date": "20261015",
-      "headline": "[거시분석] Student protesters attack government building...",
+      "headline": "OpenAI bugging suspect allegedly booked one-way trip to Saudi Arabia",
       "impacts": {
-        "방산": 1,
-        "전체시장": -5,
-        "금융": -1,
-        "반도체·AI": -2
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261015",
+      "headline": "[거시분석] Musk says US government may be behind slowdow...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -4,
+        "금융": -1
       },
       "source": "geo_categories"
     }
