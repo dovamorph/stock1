@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T18:00:17.416501+09:00",
+  "updated_at": "2026-10-15T23:45:21.191565+09:00",
   "date": "20261015",
   "window_days": 14,
   "sectors": [
@@ -23,13 +23,13 @@
         {
           "date": "20261015",
           "type": "positive",
-          "headline": "Toilet paper and secret recorders: What we know about the arrest of the Saudi OpenAI engineer",
+          "headline": "The irony of OpenAI crying foul over spying",
           "score": 1
         },
         {
           "date": "20261015",
           "type": "positive",
-          "headline": "OpenAI bugging suspect allegedly booked one-way trip to Saudi Arabia",
+          "headline": "TSMC, 6분기 연속 순이익 신기록…美텍사스 투자 검토(종합2보)",
           "score": 1
         },
         {
@@ -54,14 +54,14 @@
     },
     "건설": {
       "score": -10,
-      "positive_count": 2,
-      "negative_count": 9,
+      "positive_count": 1,
+      "negative_count": 10,
       "recent_events": [
         {
           "date": "20261015",
-          "type": "positive",
-          "headline": "울산 노동계·진보당 \"현대차 공장 재건축, 고용안정 보장해야\"",
-          "score": 1
+          "type": "negative",
+          "headline": "[거시분석] Russia accuses Ukraine of attacking oil refin...",
+          "score": -2
         },
         {
           "date": "20261013",
@@ -92,13 +92,19 @@
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 2,
+      "negative_count": 3,
       "recent_events": [
         {
           "date": "20261015",
+          "type": "negative",
+          "headline": "Trump calls off livestream for Fort Hood shooter's execution by firing squad",
+          "score": -1
+        },
+        {
+          "date": "20261015",
           "type": "positive",
-          "headline": "[거시분석] Musk says US government may be behind slowdow...",
-          "score": 1
+          "headline": "[거시분석] Russia accuses Ukraine of attacking oil refin...",
+          "score": 3
         },
         {
           "date": "20261014",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
           "score": 3
-        },
-        {
-          "date": "20261012",
-          "type": "negative",
-          "headline": "롯데, '잠실 정규시즌 최종전'에서 두산 꺾고 7위로 마감",
-          "score": -1
         }
       ]
     },
@@ -153,7 +153,7 @@
         {
           "date": "20261015",
           "type": "negative",
-          "headline": "[거시분석] Musk says US government may be behind slowdow...",
+          "headline": "[거시분석] Russia accuses Ukraine of attacking oil refin...",
           "score": -1
         },
         {
@@ -228,13 +228,25 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 15,
+      "negative_count": 17,
       "recent_events": [
         {
           "date": "20261015",
           "type": "negative",
-          "headline": "[거시분석] Musk says US government may be behind slowdow...",
-          "score": -2
+          "headline": "美 9월 생산자물가 전월 대비 1.3% 급등…4년6개월만에 최대(종합)",
+          "score": -1
+        },
+        {
+          "date": "20261015",
+          "type": "negative",
+          "headline": "美 9월 생산자물가 전월 대비 1.3% 급등…전망치 큰폭 상회",
+          "score": -1
+        },
+        {
+          "date": "20261015",
+          "type": "negative",
+          "headline": "[거시분석] Russia accuses Ukraine of attacking oil refin...",
+          "score": -5
         },
         {
           "date": "20261014",
@@ -246,18 +258,6 @@
           "date": "20261013",
           "type": "negative",
           "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
-          "score": -5
-        },
-        {
-          "date": "20261012",
-          "type": "positive",
-          "headline": "롯데, '잠실 정규시즌 최종전'에서 두산 꺾고 7위로 마감",
-          "score": 1
-        },
-        {
-          "date": "20261012",
-          "type": "negative",
-          "headline": "[거시분석] Indian opposition defies lockdown, marches to...",
           "score": -5
         }
       ]
@@ -583,6 +583,14 @@
     },
     {
       "date": "20261015",
+      "headline": "Trump calls off livestream for Fort Hood shooter's execution by firing squad",
+      "impacts": {
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261015",
       "headline": "Why is Starlink internet so important on the battlefield in Ukraine?",
       "impacts": {
         "우주ETF": 1
@@ -591,7 +599,7 @@
     },
     {
       "date": "20261015",
-      "headline": "Toilet paper and secret recorders: What we know about the arrest of the Saudi OpenAI engineer",
+      "headline": "The irony of OpenAI crying foul over spying",
       "impacts": {
         "반도체·AI": 1
       },
@@ -599,7 +607,15 @@
     },
     {
       "date": "20261015",
-      "headline": "OpenAI bugging suspect allegedly booked one-way trip to Saudi Arabia",
+      "headline": "美 9월 생산자물가 전월 대비 1.3% 급등…4년6개월만에 최대(종합)",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261015",
+      "headline": "TSMC, 6분기 연속 순이익 신기록…美텍사스 투자 검토(종합2보)",
       "impacts": {
         "반도체·AI": 1
       },
@@ -607,24 +623,25 @@
     },
     {
       "date": "20261015",
-      "headline": "울산 노동계·진보당 \"현대차 공장 재건축, 고용안정 보장해야\"",
+      "headline": "美 9월 생산자물가 전월 대비 1.3% 급등…전망치 큰폭 상회",
       "impacts": {
-        "건설": 1
+        "전체시장": -1
       },
       "source": "keyword"
     },
     {
       "date": "20261015",
-      "headline": "[거시분석] Musk says US government may be behind slowdow...",
+      "headline": "[거시분석] Russia accuses Ukraine of attacking oil refin...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -2,
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
-  "total_positives": 37,
+  "total_negatives": 46,
+  "total_positives": 36,
   "risk_level": "EXTREME"
 }
