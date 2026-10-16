@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-16T23:39:34.398604+09:00",
-  "date": "20261016",
+  "updated_at": "2026-10-17T04:26:35.168564+09:00",
+  "date": "20261017",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,8 +16,8 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 0,
-      "positive_count": 8,
+      "score": -1,
+      "positive_count": 7,
       "negative_count": 5,
       "recent_events": [
         {
@@ -58,6 +58,12 @@
       "negative_count": 10,
       "recent_events": [
         {
+          "date": "20261017",
+          "type": "negative",
+          "headline": "[거시분석] Zelensky says Ukraine has right to defend its...",
+          "score": -2
+        },
+        {
           "date": "20261016",
           "type": "negative",
           "headline": "[거시분석] Zelensky says Ukraine has right to defend its...",
@@ -80,20 +86,32 @@
           "type": "negative",
           "headline": "[거시분석] Indian opposition defies lockdown, marches to...",
           "score": -2
-        },
-        {
-          "date": "20261010",
-          "type": "negative",
-          "headline": "[거시분석] ‘How can you stop these kids?’ Indian capital...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 18,
-      "negative_count": 4,
+      "positive_count": 19,
+      "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20261017",
+          "type": "negative",
+          "headline": "Trump calls off livestream of Fort Hood attacker's execution by firing squad",
+          "score": -1
+        },
+        {
+          "date": "20261017",
+          "type": "positive",
+          "headline": "Houthi missile attack on Yemeni presidential palace kills five, minister says",
+          "score": 1
+        },
+        {
+          "date": "20261017",
+          "type": "positive",
+          "headline": "[거시분석] Zelensky says Ukraine has right to defend its...",
+          "score": 3
+        },
         {
           "date": "20261016",
           "type": "negative",
@@ -105,24 +123,6 @@
           "type": "positive",
           "headline": "Houthi missile attack on Yemeni presidential palace kills five, minister says",
           "score": 1
-        },
-        {
-          "date": "20261016",
-          "type": "positive",
-          "headline": "\"베를린 소녀상 철거, 한일 외교전 실패\"…외통위 국감서 지적",
-          "score": 1
-        },
-        {
-          "date": "20261016",
-          "type": "positive",
-          "headline": "[거시분석] Zelensky says Ukraine has right to defend its...",
-          "score": 3
-        },
-        {
-          "date": "20261015",
-          "type": "negative",
-          "headline": "Trump calls off livestream for Fort Hood shooter's execution by firing squad",
-          "score": -1
         }
       ]
     },
@@ -151,6 +151,12 @@
       "negative_count": 10,
       "recent_events": [
         {
+          "date": "20261017",
+          "type": "negative",
+          "headline": "[거시분석] Zelensky says Ukraine has right to defend its...",
+          "score": -1
+        },
+        {
           "date": "20261015",
           "type": "negative",
           "headline": "[거시분석] Russia accuses Ukraine of attacking oil refin...",
@@ -173,20 +179,32 @@
           "type": "negative",
           "headline": "[거시분석] Nobel peace laureate says US sanctions on ICC...",
           "score": -1
-        },
-        {
-          "date": "20261009",
-          "type": "negative",
-          "headline": "[거시분석] South Korea recalls Ukraine envoy over prison...",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 7,
-      "positive_count": 7,
+      "score": 10,
+      "positive_count": 10,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20261017",
+          "type": "positive",
+          "headline": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
+          "score": 1
+        },
+        {
+          "date": "20261017",
+          "type": "positive",
+          "headline": "US senators call for investigation into Ukraine's Starlink restrictions",
+          "score": 1
+        },
+        {
+          "date": "20261017",
+          "type": "positive",
+          "headline": "Why is Starlink internet so important on the battlefield in Ukraine?",
+          "score": 1
+        },
         {
           "date": "20261016",
           "type": "positive",
@@ -197,24 +215,6 @@
           "date": "20261016",
           "type": "positive",
           "headline": "Why is Starlink internet so important on the battlefield in Ukraine?",
-          "score": 1
-        },
-        {
-          "date": "20261015",
-          "type": "positive",
-          "headline": "Why is Starlink internet so important on the battlefield in Ukraine?",
-          "score": 1
-        },
-        {
-          "date": "20261014",
-          "type": "positive",
-          "headline": "Starlink restrictions affecting Ukraine's front line operations, Kyiv says",
-          "score": 1
-        },
-        {
-          "date": "20261013",
-          "type": "positive",
-          "headline": "Poland says two Turks arrested over Russia-linked Starlink station fire",
           "score": 1
         }
       ]
@@ -227,9 +227,15 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 4,
+      "positive_count": 2,
       "negative_count": 17,
       "recent_events": [
+        {
+          "date": "20261017",
+          "type": "negative",
+          "headline": "[거시분석] Zelensky says Ukraine has right to defend its...",
+          "score": -5
+        },
         {
           "date": "20261016",
           "type": "negative",
@@ -253,52 +259,11 @@
           "type": "negative",
           "headline": "[거시분석] Russia accuses Ukraine of attacking oil refin...",
           "score": -5
-        },
-        {
-          "date": "20261014",
-          "type": "negative",
-          "headline": "[거시분석] Iraq PM tells Saudi Crown Prince Iraqi territ...",
-          "score": -5
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20261002",
-      "headline": "OpenAI fires workers for 'mishandling sensitive information'",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261002",
-      "headline": "[표] 주간 코스닥 외국인 순매수도 상위종목",
-      "impacts": {
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261002",
-      "headline": "[표] 주간 거래소 외국인 순매수도 상위종목",
-      "impacts": {
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261002",
-      "headline": "[거시분석] ‘Containerabad’: Pakistan’s capital and truck...",
-      "impacts": {
-        "방산": 2,
-        "건설": -3,
-        "전체시장": -7,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261003",
       "headline": "OpenAI fires workers for 'mishandling sensitive information'",
@@ -670,9 +635,60 @@
         "전체시장": -3
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261017",
+      "headline": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261017",
+      "headline": "US senators call for investigation into Ukraine's Starlink restrictions",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261017",
+      "headline": "Trump calls off livestream of Fort Hood attacker's execution by firing squad",
+      "impacts": {
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261017",
+      "headline": "Houthi missile attack on Yemeni presidential palace kills five, minister says",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261017",
+      "headline": "Why is Starlink internet so important on the battlefield in Ukraine?",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261017",
+      "headline": "[거시분석] Zelensky says Ukraine has right to defend its...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 46,
-  "total_positives": 39,
+  "total_negatives": 47,
+  "total_positives": 40,
   "risk_level": "EXTREME"
 }
