@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T07:56:54.739219+09:00",
+  "updated_at": "2026-10-16T12:48:09.109747+09:00",
   "date": "20261016",
   "window_days": 14,
   "sectors": [
@@ -92,7 +92,7 @@
     "방산": {
       "score": 10,
       "positive_count": 17,
-      "negative_count": 5,
+      "negative_count": 4,
       "recent_events": [
         {
           "date": "20261016",
@@ -103,14 +103,8 @@
         {
           "date": "20261016",
           "type": "positive",
-          "headline": "Houthi missile attack on Yemeni presidential palace kills two, minister says",
+          "headline": "Houthi missile attack on Yemeni presidential palace kills five, minister says",
           "score": 1
-        },
-        {
-          "date": "20261016",
-          "type": "negative",
-          "headline": "아시안투어 시즌 최종전 사우디 대회, 중동 전쟁 여파로 연기",
-          "score": -1
         },
         {
           "date": "20261016",
@@ -123,6 +117,12 @@
           "type": "negative",
           "headline": "Trump calls off livestream for Fort Hood shooter's execution by firing squad",
           "score": -1
+        },
+        {
+          "date": "20261015",
+          "type": "positive",
+          "headline": "[거시분석] Russia accuses Ukraine of attacking oil refin...",
+          "score": 3
         }
       ]
     },
@@ -234,7 +234,7 @@
           "date": "20261016",
           "type": "negative",
           "headline": "[거시분석] Russia accuses Ukraine of attacking oil refin...",
-          "score": -3
+          "score": -4
         },
         {
           "date": "20261015",
@@ -631,7 +631,7 @@
     },
     {
       "date": "20261016",
-      "headline": "Houthi missile attack on Yemeni presidential palace kills two, minister says",
+      "headline": "Houthi missile attack on Yemeni presidential palace kills five, minister says",
       "impacts": {
         "방산": 1
       },
@@ -655,24 +655,16 @@
     },
     {
       "date": "20261016",
-      "headline": "아시안투어 시즌 최종전 사우디 대회, 중동 전쟁 여파로 연기",
-      "impacts": {
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261016",
       "headline": "[거시분석] Russia accuses Ukraine of attacking oil refin...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -3
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 47,
+  "total_negatives": 46,
   "total_positives": 38,
   "risk_level": "EXTREME"
 }
