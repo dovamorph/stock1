@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T05:19:18.963586+09:00",
+  "updated_at": "2026-10-18T08:51:32.724792+09:00",
   "date": "20261018",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -7,
+      "score": -6,
       "positive_count": 6,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20261018",
-          "type": "negative",
-          "headline": "California Gov Newsom boosts AI regulation as he eyes 2028 presidential run",
-          "score": -1
-        },
         {
           "date": "20261018",
           "type": "negative",
@@ -48,6 +42,12 @@
           "date": "20261015",
           "type": "positive",
           "headline": "TSMC, 6분기 연속 순이익 신기록…美텍사스 투자 검토(종합2보)",
+          "score": 1
+        },
+        {
+          "date": "20261014",
+          "type": "positive",
+          "headline": "Saudi employee charged with planting recording device in OpenAI office",
           "score": 1
         }
       ]
@@ -148,14 +148,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20261018",
-          "type": "negative",
-          "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
-          "score": -1
-        },
         {
           "date": "20261017",
           "type": "negative",
@@ -179,24 +173,24 @@
           "type": "negative",
           "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
           "score": -1
+        },
+        {
+          "date": "20261011",
+          "type": "negative",
+          "headline": "[거시분석] Nobel peace laureate says US sanctions on ICC...",
+          "score": -1
         }
       ]
     },
     "우주ETF": {
       "score": 10,
-      "positive_count": 12,
+      "positive_count": 11,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20261018",
           "type": "positive",
           "headline": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
-          "score": 1
-        },
-        {
-          "date": "20261018",
-          "type": "positive",
-          "headline": "Watch: What does Starlink have to do with the Ukraine-Russia war?",
           "score": 1
         },
         {
@@ -216,6 +210,12 @@
           "type": "positive",
           "headline": "Watch: What does Starlink have to do with the Ukraine-Russia war?",
           "score": 1
+        },
+        {
+          "date": "20261016",
+          "type": "positive",
+          "headline": "US senators call for investigation into Ukraine's Starlink restrictions",
+          "score": 1
         }
       ]
     },
@@ -234,7 +234,7 @@
           "date": "20261018",
           "type": "negative",
           "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
-          "score": -5
+          "score": -4
         },
         {
           "date": "20261017",
@@ -663,33 +663,16 @@
     },
     {
       "date": "20261018",
-      "headline": "Watch: What does Starlink have to do with the Ukraine-Russia war?",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261018",
-      "headline": "California Gov Newsom boosts AI regulation as he eyes 2028 presidential run",
-      "impacts": {
-        "반도체·AI": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261018",
       "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
       "impacts": {
         "방산": 1,
-        "전체시장": -5,
-        "금융": -1,
+        "전체시장": -4,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 48,
-  "total_positives": 40,
+  "total_negatives": 46,
+  "total_positives": 39,
   "risk_level": "EXTREME"
 }
