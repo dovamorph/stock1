@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T12:38:20.392814+09:00",
+  "updated_at": "2026-10-17T17:22:21.205568+09:00",
   "date": "20261017",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20261017",
           "type": "negative",
-          "headline": "[거시분석] Trump 'completely wrong' to restrict support ...",
+          "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
           "score": -2
         },
         {
@@ -60,8 +60,8 @@
         {
           "date": "20261017",
           "type": "negative",
-          "headline": "[거시분석] Trump 'completely wrong' to restrict support ...",
-          "score": -2
+          "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
+          "score": -1
         },
         {
           "date": "20261016",
@@ -91,38 +91,38 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 19,
-      "negative_count": 5,
+      "positive_count": 18,
+      "negative_count": 4,
       "recent_events": [
         {
           "date": "20261017",
+          "type": "positive",
+          "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
+          "score": 2
+        },
+        {
+          "date": "20261016",
           "type": "negative",
           "headline": "Trump calls off livestream of Fort Hood attacker's execution by firing squad",
           "score": -1
         },
         {
-          "date": "20261017",
+          "date": "20261016",
           "type": "positive",
           "headline": "Houthi missile attack on Yemeni presidential palace kills five, minister says",
           "score": 1
         },
         {
-          "date": "20261017",
+          "date": "20261016",
           "type": "positive",
-          "headline": "[거시분석] Trump 'completely wrong' to restrict support ...",
+          "headline": "\"베를린 소녀상 철거, 한일 외교전 실패\"…외통위 국감서 지적",
+          "score": 1
+        },
+        {
+          "date": "20261016",
+          "type": "positive",
+          "headline": "[거시분석] Zelensky says Ukraine has right to defend its...",
           "score": 3
-        },
-        {
-          "date": "20261016",
-          "type": "negative",
-          "headline": "Trump calls off livestream of Fort Hood attacker's execution by firing squad",
-          "score": -1
-        },
-        {
-          "date": "20261016",
-          "type": "positive",
-          "headline": "Houthi missile attack on Yemeni presidential palace kills five, minister says",
-          "score": 1
         }
       ]
     },
@@ -183,8 +183,8 @@
       ]
     },
     "우주ETF": {
-      "score": 9,
-      "positive_count": 9,
+      "score": 10,
+      "positive_count": 10,
       "negative_count": 0,
       "recent_events": [
         {
@@ -200,6 +200,12 @@
           "score": 1
         },
         {
+          "date": "20261017",
+          "type": "positive",
+          "headline": "Watch: What does Starlink have to do with the Ukraine-Russia war?",
+          "score": 1
+        },
+        {
           "date": "20261016",
           "type": "positive",
           "headline": "US senators call for investigation into Ukraine's Starlink restrictions",
@@ -207,12 +213,6 @@
         },
         {
           "date": "20261016",
-          "type": "positive",
-          "headline": "Why is Starlink internet so important on the battlefield in Ukraine?",
-          "score": 1
-        },
-        {
-          "date": "20261015",
           "type": "positive",
           "headline": "Why is Starlink internet so important on the battlefield in Ukraine?",
           "score": 1
@@ -228,19 +228,13 @@
     "전체시장": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 18,
+      "negative_count": 17,
       "recent_events": [
         {
           "date": "20261017",
           "type": "negative",
-          "headline": "트럼프, '그레이엄법' 대러제재·고율관세 시행 않고 면제 발표",
-          "score": -1
-        },
-        {
-          "date": "20261017",
-          "type": "negative",
-          "headline": "[거시분석] Trump 'completely wrong' to restrict support ...",
-          "score": -6
+          "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
+          "score": -5
         },
         {
           "date": "20261016",
@@ -259,6 +253,12 @@
           "type": "negative",
           "headline": "美 9월 생산자물가 전월 대비 1.3% 급등…전망치 큰폭 상회",
           "score": -1
+        },
+        {
+          "date": "20261015",
+          "type": "negative",
+          "headline": "[거시분석] Russia accuses Ukraine of attacking oil refin...",
+          "score": -5
         }
       ]
     }
@@ -654,41 +654,25 @@
     },
     {
       "date": "20261017",
-      "headline": "Trump calls off livestream of Fort Hood attacker's execution by firing squad",
+      "headline": "Watch: What does Starlink have to do with the Ukraine-Russia war?",
       "impacts": {
-        "방산": -1
+        "우주ETF": 1
       },
       "source": "keyword"
     },
     {
       "date": "20261017",
-      "headline": "Houthi missile attack on Yemeni presidential palace kills five, minister says",
+      "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
       "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261017",
-      "headline": "트럼프, '그레이엄법' 대러제재·고율관세 시행 않고 면제 발표",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261017",
-      "headline": "[거시분석] Trump 'completely wrong' to restrict support ...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -6,
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -5,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 48,
+  "total_negatives": 46,
   "total_positives": 39,
   "risk_level": "EXTREME"
 }
