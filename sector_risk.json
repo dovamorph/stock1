@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T17:42:10.321426+09:00",
+  "updated_at": "2026-10-18T22:50:04.653723+09:00",
   "date": "20261018",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20261018",
           "type": "negative",
-          "headline": "[거시분석] Watch: Will Ukraine get the support needed as...",
+          "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
           "score": -2
         },
         {
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 9,
+      "negative_count": 8,
       "recent_events": [
-        {
-          "date": "20261018",
-          "type": "negative",
-          "headline": "[거시분석] Watch: Will Ukraine get the support needed as...",
-          "score": -2
-        },
         {
           "date": "20261016",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] Indian opposition defies lockdown, marches to...",
           "score": -2
+        },
+        {
+          "date": "20261010",
+          "type": "negative",
+          "headline": "[거시분석] ‘How can you stop these kids?’ Indian capital...",
+          "score": -2
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20261018",
           "type": "positive",
-          "headline": "[거시분석] Watch: Will Ukraine get the support needed as...",
-          "score": 3
+          "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
+          "score": 1
         },
         {
           "date": "20261017",
@@ -148,8 +148,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20261018",
+          "type": "negative",
+          "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
+          "score": -1
+        },
         {
           "date": "20261017",
           "type": "negative",
@@ -172,12 +178,6 @@
           "date": "20261013",
           "type": "negative",
           "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
-          "score": -1
-        },
-        {
-          "date": "20261011",
-          "type": "negative",
-          "headline": "[거시분석] Nobel peace laureate says US sanctions on ICC...",
           "score": -1
         }
       ]
@@ -233,8 +233,8 @@
         {
           "date": "20261018",
           "type": "negative",
-          "headline": "[거시분석] Watch: Will Ukraine get the support needed as...",
-          "score": -6
+          "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
+          "score": -5
         },
         {
           "date": "20261017",
@@ -663,11 +663,11 @@
     },
     {
       "date": "20261018",
-      "headline": "[거시분석] Watch: Will Ukraine get the support needed as...",
+      "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -6,
+        "방산": 1,
+        "전체시장": -5,
+        "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
