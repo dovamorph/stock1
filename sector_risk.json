@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T08:51:32.724792+09:00",
+  "updated_at": "2026-10-18T12:44:38.721361+09:00",
   "date": "20261018",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20261018",
           "type": "negative",
-          "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
+          "headline": "[거시분석] Trump 'completely wrong' to restrict support ...",
           "score": -2
         },
         {
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 8,
+      "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20261018",
+          "type": "negative",
+          "headline": "[거시분석] Trump 'completely wrong' to restrict support ...",
+          "score": -2
+        },
         {
           "date": "20261016",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] Indian opposition defies lockdown, marches to...",
           "score": -2
-        },
-        {
-          "date": "20261010",
-          "type": "negative",
-          "headline": "[거시분석] ‘How can you stop these kids?’ Indian capital...",
-          "score": -2
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20261018",
           "type": "positive",
-          "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
-          "score": 1
+          "headline": "[거시분석] Trump 'completely wrong' to restrict support ...",
+          "score": 3
         },
         {
           "date": "20261017",
@@ -233,8 +233,8 @@
         {
           "date": "20261018",
           "type": "negative",
-          "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
-          "score": -4
+          "headline": "[거시분석] Trump 'completely wrong' to restrict support ...",
+          "score": -6
         },
         {
           "date": "20261017",
@@ -663,16 +663,17 @@
     },
     {
       "date": "20261018",
-      "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
+      "headline": "[거시분석] Trump 'completely wrong' to restrict support ...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -4,
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -6,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 46,
+  "total_negatives": 47,
   "total_positives": 39,
   "risk_level": "EXTREME"
 }
