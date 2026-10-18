@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T02:09:25.422923+09:00",
+  "updated_at": "2026-10-19T05:19:01.735233+09:00",
   "date": "20261019",
   "window_days": 14,
   "sectors": [
@@ -148,14 +148,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 12,
+      "negative_count": 11,
       "recent_events": [
-        {
-          "date": "20261019",
-          "type": "negative",
-          "headline": "[거시분석] Watch: Will Ukraine get the support needed as...",
-          "score": -1
-        },
         {
           "date": "20261018",
           "type": "negative",
@@ -178,6 +172,12 @@
           "date": "20261014",
           "type": "negative",
           "headline": "[거시분석] Iraq PM tells Saudi Crown Prince Iraqi territ...",
+          "score": -1
+        },
+        {
+          "date": "20261013",
+          "type": "negative",
+          "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
           "score": -1
         }
       ]
@@ -234,7 +234,7 @@
           "date": "20261019",
           "type": "negative",
           "headline": "[거시분석] Watch: Will Ukraine get the support needed as...",
-          "score": -7
+          "score": -6
         },
         {
           "date": "20261018",
@@ -684,14 +684,13 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -7,
-        "금융": -1,
+        "전체시장": -6,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 49,
+  "total_negatives": 48,
   "total_positives": 41,
   "risk_level": "EXTREME"
 }
