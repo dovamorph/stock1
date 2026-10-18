@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T12:44:38.721361+09:00",
+  "updated_at": "2026-10-18T17:42:10.321426+09:00",
   "date": "20261018",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20261018",
           "type": "negative",
-          "headline": "[거시분석] Trump 'completely wrong' to restrict support ...",
+          "headline": "[거시분석] Watch: Will Ukraine get the support needed as...",
           "score": -2
         },
         {
@@ -60,7 +60,7 @@
         {
           "date": "20261018",
           "type": "negative",
-          "headline": "[거시분석] Trump 'completely wrong' to restrict support ...",
+          "headline": "[거시분석] Watch: Will Ukraine get the support needed as...",
           "score": -2
         },
         {
@@ -97,7 +97,7 @@
         {
           "date": "20261018",
           "type": "positive",
-          "headline": "[거시분석] Trump 'completely wrong' to restrict support ...",
+          "headline": "[거시분석] Watch: Will Ukraine get the support needed as...",
           "score": 3
         },
         {
@@ -233,7 +233,7 @@
         {
           "date": "20261018",
           "type": "negative",
-          "headline": "[거시분석] Trump 'completely wrong' to restrict support ...",
+          "headline": "[거시분석] Watch: Will Ukraine get the support needed as...",
           "score": -6
         },
         {
@@ -663,7 +663,7 @@
     },
     {
       "date": "20261018",
-      "headline": "[거시분석] Trump 'completely wrong' to restrict support ...",
+      "headline": "[거시분석] Watch: Will Ukraine get the support needed as...",
       "impacts": {
         "방산": 3,
         "건설": -2,
