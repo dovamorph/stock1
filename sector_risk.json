@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T05:19:01.735233+09:00",
+  "updated_at": "2026-10-19T08:59:29.302821+09:00",
   "date": "20261019",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20261019",
           "type": "negative",
-          "headline": "[거시분석] Watch: Will Ukraine get the support needed as...",
+          "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
           "score": -2
         },
         {
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20261019",
-          "type": "negative",
-          "headline": "[거시분석] Watch: Will Ukraine get the support needed as...",
-          "score": -2
-        },
         {
           "date": "20261016",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] Indian opposition defies lockdown, marches to...",
           "score": -2
+        },
+        {
+          "date": "20261010",
+          "type": "negative",
+          "headline": "[거시분석] ‘How can you stop these kids?’ Indian capital...",
+          "score": -2
         }
       ]
     },
@@ -103,8 +103,8 @@
         {
           "date": "20261019",
           "type": "positive",
-          "headline": "[거시분석] Watch: Will Ukraine get the support needed as...",
-          "score": 3
+          "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
+          "score": 1
         },
         {
           "date": "20261018",
@@ -148,8 +148,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 12,
       "recent_events": [
+        {
+          "date": "20261019",
+          "type": "negative",
+          "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
+          "score": -1
+        },
         {
           "date": "20261018",
           "type": "negative",
@@ -172,12 +178,6 @@
           "date": "20261014",
           "type": "negative",
           "headline": "[거시분석] Iraq PM tells Saudi Crown Prince Iraqi territ...",
-          "score": -1
-        },
-        {
-          "date": "20261013",
-          "type": "negative",
-          "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
           "score": -1
         }
       ]
@@ -228,13 +228,19 @@
     "전체시장": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 17,
+      "negative_count": 18,
       "recent_events": [
         {
           "date": "20261019",
           "type": "negative",
-          "headline": "[거시분석] Watch: Will Ukraine get the support needed as...",
-          "score": -6
+          "headline": "하나증권, 금호타이어 목표가↓…\"환율·관세 영향에 실적부진\"",
+          "score": -1
+        },
+        {
+          "date": "20261019",
+          "type": "negative",
+          "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
+          "score": -5
         },
         {
           "date": "20261018",
@@ -253,12 +259,6 @@
           "type": "negative",
           "headline": "[거시분석] Zelensky says Ukraine has right to defend its...",
           "score": -3
-        },
-        {
-          "date": "20261015",
-          "type": "negative",
-          "headline": "美 9월 생산자물가 전월 대비 1.3% 급등…4년6개월만에 최대(종합)",
-          "score": -1
         }
       ]
     }
@@ -680,17 +680,25 @@
     },
     {
       "date": "20261019",
-      "headline": "[거시분석] Watch: Will Ukraine get the support needed as...",
+      "headline": "하나증권, 금호타이어 목표가↓…\"환율·관세 영향에 실적부진\"",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -6,
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261019",
+      "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -5,
+        "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 48,
+  "total_negatives": 49,
   "total_positives": 41,
   "risk_level": "EXTREME"
 }
