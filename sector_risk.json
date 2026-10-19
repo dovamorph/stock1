@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T13:28:03.562980+09:00",
+  "updated_at": "2026-10-19T21:35:35.686830+09:00",
   "date": "20261019",
   "window_days": 14,
   "sectors": [
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20261019",
+          "type": "negative",
+          "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
+          "score": -1
+        },
         {
           "date": "20261016",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] Indian opposition defies lockdown, marches to...",
           "score": -2
-        },
-        {
-          "date": "20261010",
-          "type": "negative",
-          "headline": "[거시분석] ‘How can you stop these kids?’ Indian capital...",
-          "score": -2
         }
       ]
     },
@@ -98,7 +98,7 @@
           "date": "20261019",
           "type": "positive",
           "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
-          "score": 1
+          "score": 2
         },
         {
           "date": "20261018",
@@ -148,8 +148,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 12,
       "recent_events": [
+        {
+          "date": "20261019",
+          "type": "negative",
+          "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
+          "score": -2
+        },
         {
           "date": "20261018",
           "type": "negative",
@@ -173,26 +179,14 @@
           "type": "negative",
           "headline": "[거시분석] Iraq PM tells Saudi Crown Prince Iraqi territ...",
           "score": -1
-        },
-        {
-          "date": "20261013",
-          "type": "negative",
-          "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
       "score": 10,
-      "positive_count": 12,
+      "positive_count": 11,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20261019",
-          "type": "positive",
-          "headline": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
-          "score": 1
-        },
         {
           "date": "20261018",
           "type": "positive",
@@ -216,6 +210,12 @@
           "type": "positive",
           "headline": "Watch: What does Starlink have to do with the Ukraine-Russia war?",
           "score": 1
+        },
+        {
+          "date": "20261016",
+          "type": "positive",
+          "headline": "US senators call for investigation into Ukraine's Starlink restrictions",
+          "score": 1
         }
       ]
     },
@@ -234,7 +234,7 @@
           "date": "20261019",
           "type": "negative",
           "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
-          "score": -4
+          "score": -7
         },
         {
           "date": "20261018",
@@ -664,24 +664,18 @@
     },
     {
       "date": "20261019",
-      "headline": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261019",
       "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -4,
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -7,
+        "금융": -2,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 47,
-  "total_positives": 40,
+  "total_negatives": 49,
+  "total_positives": 39,
   "risk_level": "EXTREME"
 }
