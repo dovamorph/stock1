@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T08:27:06.043446+09:00",
+  "updated_at": "2026-10-20T13:06:31.571934+09:00",
   "date": "20261020",
   "window_days": 14,
   "sectors": [
@@ -17,8 +17,8 @@
   "sector_stats": {
     "반도체·AI": {
       "score": -9,
-      "positive_count": 8,
-      "negative_count": 10,
+      "positive_count": 7,
+      "negative_count": 9,
       "recent_events": [
         {
           "date": "20261020",
@@ -28,20 +28,8 @@
         },
         {
           "date": "20261020",
-          "type": "positive",
-          "headline": "Ex-OpenAI employee accused of planting device has Saudi backing: Prosecutor",
-          "score": 1
-        },
-        {
-          "date": "20261020",
           "type": "negative",
-          "headline": "Chuck Schumer urges FCC to block AI robocalls before elections",
-          "score": -1
-        },
-        {
-          "date": "20261020",
-          "type": "negative",
-          "headline": "[거시분석] Tennis star Svitolina says emotional toll of ...",
+          "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
           "score": -2
         },
         {
@@ -49,20 +37,26 @@
           "type": "negative",
           "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
           "score": -2
+        },
+        {
+          "date": "20261018",
+          "type": "negative",
+          "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
+          "score": -2
+        },
+        {
+          "date": "20261017",
+          "type": "negative",
+          "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
+          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20261020",
-          "type": "negative",
-          "headline": "[거시분석] Tennis star Svitolina says emotional toll of ...",
-          "score": -2
-        },
         {
           "date": "20261019",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
           "score": -2
+        },
+        {
+          "date": "20261012",
+          "type": "negative",
+          "headline": "[거시분석] Indian opposition defies lockdown, marches to...",
+          "score": -2
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20261020",
           "type": "positive",
-          "headline": "[거시분석] Tennis star Svitolina says emotional toll of ...",
-          "score": 3
+          "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
+          "score": 1
         },
         {
           "date": "20261019",
@@ -140,10 +140,17 @@
       ]
     },
     "로봇": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20261020",
+          "type": "positive",
+          "headline": "국감장에서 문워크?…KAIST 휴머노이드에 \"와∼!\"",
+          "score": 1
+        }
+      ]
     },
     "금융": {
       "score": -10,
@@ -153,7 +160,7 @@
         {
           "date": "20261020",
           "type": "negative",
-          "headline": "[거시분석] Tennis star Svitolina says emotional toll of ...",
+          "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
           "score": -1
         },
         {
@@ -184,9 +191,15 @@
     },
     "우주ETF": {
       "score": 10,
-      "positive_count": 11,
+      "positive_count": 12,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20261020",
+          "type": "positive",
+          "headline": "Zelenskyy seeks answers to why SpaceX Starshield defence is failing",
+          "score": 1
+        },
         {
           "date": "20261018",
           "type": "positive",
@@ -210,12 +223,6 @@
           "type": "positive",
           "headline": "Watch: What does Starlink have to do with the Ukraine-Russia war?",
           "score": 1
-        },
-        {
-          "date": "20261016",
-          "type": "positive",
-          "headline": "US senators call for investigation into Ukraine's Starlink restrictions",
-          "score": 1
         }
       ]
     },
@@ -233,8 +240,8 @@
         {
           "date": "20261020",
           "type": "negative",
-          "headline": "[거시분석] Tennis star Svitolina says emotional toll of ...",
-          "score": -7
+          "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
+          "score": -5
         },
         {
           "date": "20261019",
@@ -674,34 +681,33 @@
     },
     {
       "date": "20261020",
-      "headline": "Ex-OpenAI employee accused of planting device has Saudi backing: Prosecutor",
+      "headline": "Zelenskyy seeks answers to why SpaceX Starshield defence is failing",
       "impacts": {
-        "반도체·AI": 1
+        "우주ETF": 1
       },
       "source": "keyword"
     },
     {
       "date": "20261020",
-      "headline": "Chuck Schumer urges FCC to block AI robocalls before elections",
+      "headline": "국감장에서 문워크?…KAIST 휴머노이드에 \"와∼!\"",
       "impacts": {
-        "반도체·AI": -1
+        "로봇": 1
       },
       "source": "keyword"
     },
     {
       "date": "20261020",
-      "headline": "[거시분석] Tennis star Svitolina says emotional toll of ...",
+      "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -7,
+        "방산": 1,
+        "전체시장": -5,
         "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 52,
-  "total_positives": 41,
+  "total_negatives": 50,
+  "total_positives": 42,
   "risk_level": "EXTREME"
 }
