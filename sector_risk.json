@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-20T20:09:17.480761+09:00",
-  "date": "20261020",
+  "updated_at": "2026-10-21T01:34:04.922346+09:00",
+  "date": "20261021",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -20,6 +20,12 @@
       "positive_count": 7,
       "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20261021",
+          "type": "positive",
+          "headline": "Ex-OpenAI worker accused of planting bug had Saudi support, claims prosecutors",
+          "score": 1
+        },
         {
           "date": "20261020",
           "type": "positive",
@@ -43,18 +49,12 @@
           "type": "negative",
           "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
           "score": -2
-        },
-        {
-          "date": "20261017",
-          "type": "negative",
-          "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
-          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
-      "positive_count": 1,
+      "positive_count": 0,
       "negative_count": 7,
       "recent_events": [
         {
@@ -95,6 +95,18 @@
       "negative_count": 4,
       "recent_events": [
         {
+          "date": "20261021",
+          "type": "negative",
+          "headline": "\"이란, 중간선거 앞둔 트럼프에 타격 주려 종전협상 지연\"",
+          "score": -1
+        },
+        {
+          "date": "20261021",
+          "type": "positive",
+          "headline": "[거시분석] Tennis star Svitolina says emotional toll of ...",
+          "score": 1
+        },
+        {
           "date": "20261020",
           "type": "positive",
           "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
@@ -111,26 +123,20 @@
           "type": "positive",
           "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
           "score": 1
-        },
-        {
-          "date": "20261017",
-          "type": "positive",
-          "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
-          "score": 1
-        },
-        {
-          "date": "20261016",
-          "type": "negative",
-          "headline": "Trump calls off livestream of Fort Hood attacker's execution by firing squad",
-          "score": -1
         }
       ]
     },
     "전력·에너지": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20261021",
+          "type": "positive",
+          "headline": "뉴욕증시, AI 불안·유가 상승 속 혼조 출발",
+          "score": 1
+        },
         {
           "date": "20261012",
           "type": "positive",
@@ -150,6 +156,12 @@
       "positive_count": 0,
       "negative_count": 13,
       "recent_events": [
+        {
+          "date": "20261021",
+          "type": "negative",
+          "headline": "[거시분석] Tennis star Svitolina says emotional toll of ...",
+          "score": -1
+        },
         {
           "date": "20261020",
           "type": "negative",
@@ -172,12 +184,6 @@
           "date": "20261017",
           "type": "negative",
           "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
-          "score": -1
-        },
-        {
-          "date": "20261015",
-          "type": "negative",
-          "headline": "[거시분석] Russia accuses Ukraine of attacking oil refin...",
           "score": -1
         }
       ]
@@ -228,8 +234,26 @@
     "전체시장": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 17,
+      "negative_count": 18,
       "recent_events": [
+        {
+          "date": "20261021",
+          "type": "negative",
+          "headline": "美재무 \"野주도 의회, 국정저지 못해…행정부 관세권한 견고\"",
+          "score": -1
+        },
+        {
+          "date": "20261021",
+          "type": "positive",
+          "headline": "\"이란, 중간선거 앞둔 트럼프에 타격 주려 종전협상 지연\"",
+          "score": 1
+        },
+        {
+          "date": "20261021",
+          "type": "negative",
+          "headline": "[거시분석] Tennis star Svitolina says emotional toll of ...",
+          "score": -3
+        },
         {
           "date": "20261020",
           "type": "negative",
@@ -241,64 +265,11 @@
           "type": "negative",
           "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
           "score": -7
-        },
-        {
-          "date": "20261018",
-          "type": "negative",
-          "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
-          "score": -5
-        },
-        {
-          "date": "20261017",
-          "type": "negative",
-          "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
-          "score": -5
-        },
-        {
-          "date": "20261016",
-          "type": "negative",
-          "headline": "[거시분석] Zelensky says Ukraine has right to defend its...",
-          "score": -3
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20261006",
-      "headline": "OpenAI admits response to Australian government hacks 'not good enough'",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261006",
-      "headline": "UN rights council condemns attacks on civilians in Sudan, calls for truce",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261006",
-      "headline": "대구 서문시장 4지구 재건축 또 늦어지나…\"시공사 교체 논의\"",
-      "impacts": {
-        "건설": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261006",
-      "headline": "[거시분석] Trump jokes about letting Iran bomb Los Angel...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -3,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261007",
       "headline": "인도중앙은행, 3년8개월만 첫 기준금리 인상…\"인플레 대응\"",
@@ -682,9 +653,52 @@
         "반도체·AI": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261021",
+      "headline": "Ex-OpenAI worker accused of planting bug had Saudi support, claims prosecutors",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261021",
+      "headline": "美재무 \"野주도 의회, 국정저지 못해…행정부 관세권한 견고\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261021",
+      "headline": "\"이란, 중간선거 앞둔 트럼프에 타격 주려 종전협상 지연\"",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261021",
+      "headline": "뉴욕증시, AI 불안·유가 상승 속 혼조 출발",
+      "impacts": {
+        "전력·에너지": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261021",
+      "headline": "[거시분석] Tennis star Svitolina says emotional toll of ...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -3,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 50,
+  "total_negatives": 51,
   "total_positives": 40,
   "risk_level": "EXTREME"
 }
