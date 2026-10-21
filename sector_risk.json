@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-21T22:35:06.166811+09:00",
-  "date": "20261021",
+  "updated_at": "2026-10-22T03:29:19.229637+09:00",
+  "date": "20261022",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -9,
-      "positive_count": 7,
+      "score": -8,
+      "positive_count": 8,
       "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20261022",
+          "type": "positive",
+          "headline": "Ex-OpenAI worker accused of planting bug had Saudi support, claims prosecutors",
+          "score": 1
+        },
         {
           "date": "20261021",
           "type": "positive",
@@ -42,12 +48,6 @@
           "date": "20261019",
           "type": "negative",
           "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
-          "score": -2
-        },
-        {
-          "date": "20261018",
-          "type": "negative",
-          "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
           "score": -2
         }
       ]
@@ -95,6 +95,12 @@
       "negative_count": 3,
       "recent_events": [
         {
+          "date": "20261022",
+          "type": "positive",
+          "headline": "[거시분석] Russia says it is ready to resume talks with ...",
+          "score": 1
+        },
+        {
           "date": "20261021",
           "type": "positive",
           "headline": "[거시분석] Tennis star Svitolina says emotional toll of ...",
@@ -114,12 +120,6 @@
         },
         {
           "date": "20261018",
-          "type": "positive",
-          "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
-          "score": 1
-        },
-        {
-          "date": "20261017",
           "type": "positive",
           "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
           "score": 1
@@ -148,8 +148,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 13,
+      "negative_count": 12,
       "recent_events": [
+        {
+          "date": "20261022",
+          "type": "negative",
+          "headline": "[거시분석] Russia says it is ready to resume talks with ...",
+          "score": -1
+        },
         {
           "date": "20261021",
           "type": "negative",
@@ -173,20 +179,32 @@
           "type": "negative",
           "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
           "score": -1
-        },
-        {
-          "date": "20261017",
-          "type": "negative",
-          "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
       "score": 10,
-      "positive_count": 13,
+      "positive_count": 16,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20261022",
+          "type": "positive",
+          "headline": "Elon Musk confirms he is considering merging Tesla and SpaceX",
+          "score": 1
+        },
+        {
+          "date": "20261022",
+          "type": "positive",
+          "headline": "Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?",
+          "score": 1
+        },
+        {
+          "date": "20261022",
+          "type": "positive",
+          "headline": "Musk pledges $10bn in SpaceX shares for US children: Who really gains?",
+          "score": 1
+        },
         {
           "date": "20261021",
           "type": "positive",
@@ -197,24 +215,6 @@
           "date": "20261021",
           "type": "positive",
           "headline": "Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?",
-          "score": 1
-        },
-        {
-          "date": "20261018",
-          "type": "positive",
-          "headline": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
-          "score": 1
-        },
-        {
-          "date": "20261017",
-          "type": "positive",
-          "headline": "Trump denies limiting Ukraine access to Starlink network",
-          "score": 1
-        },
-        {
-          "date": "20261017",
-          "type": "positive",
-          "headline": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
           "score": 1
         }
       ]
@@ -230,6 +230,12 @@
       "positive_count": 1,
       "negative_count": 17,
       "recent_events": [
+        {
+          "date": "20261022",
+          "type": "negative",
+          "headline": "[거시분석] Russia says it is ready to resume talks with ...",
+          "score": -3
+        },
         {
           "date": "20261021",
           "type": "negative",
@@ -253,35 +259,11 @@
           "type": "negative",
           "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
           "score": -5
-        },
-        {
-          "date": "20261017",
-          "type": "negative",
-          "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
-          "score": -5
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20261007",
-      "headline": "인도중앙은행, 3년8개월만 첫 기준금리 인상…\"인플레 대응\"",
-      "impacts": {
-        "금융": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261007",
-      "headline": "[거시분석] 인도중앙은행, 3년8개월만 첫 기준금리 인상…\"인플레 대응\"",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -4,
-        "금융": -3
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261008",
       "headline": "[거시분석] Global protests mark October 7 attack with ca...",
@@ -681,9 +663,51 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261022",
+      "headline": "Elon Musk confirms he is considering merging Tesla and SpaceX",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261022",
+      "headline": "Ex-OpenAI worker accused of planting bug had Saudi support, claims prosecutors",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261022",
+      "headline": "Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261022",
+      "headline": "Musk pledges $10bn in SpaceX shares for US children: Who really gains?",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261022",
+      "headline": "[거시분석] Russia says it is ready to resume talks with ...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -3,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 49,
-  "total_positives": 40,
+  "total_negatives": 48,
+  "total_positives": 44,
   "risk_level": "EXTREME"
 }
