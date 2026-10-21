@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T06:23:36.360400+09:00",
+  "updated_at": "2026-10-21T09:26:31.559219+09:00",
   "date": "20261021",
   "window_days": 14,
   "sectors": [
@@ -184,9 +184,15 @@
     },
     "우주ETF": {
       "score": 10,
-      "positive_count": 11,
+      "positive_count": 12,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20261021",
+          "type": "positive",
+          "headline": "Elon Musk says Tesla-SpaceX merger being considered",
+          "score": 1
+        },
         {
           "date": "20261018",
           "type": "positive",
@@ -210,12 +216,6 @@
           "type": "positive",
           "headline": "Watch: What does Starlink have to do with the Ukraine-Russia war?",
           "score": 1
-        },
-        {
-          "date": "20261016",
-          "type": "positive",
-          "headline": "US senators call for investigation into Ukraine's Starlink restrictions",
-          "score": 1
         }
       ]
     },
@@ -234,7 +234,7 @@
           "date": "20261021",
           "type": "negative",
           "headline": "[거시분석] Tennis star Svitolina says emotional toll of ...",
-          "score": -4
+          "score": -3
         },
         {
           "date": "20261020",
@@ -650,6 +650,14 @@
     },
     {
       "date": "20261021",
+      "headline": "Elon Musk says Tesla-SpaceX merger being considered",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261021",
       "headline": "Ex-OpenAI worker accused of planting bug had Saudi support, claims prosecutors",
       "impacts": {
         "반도체·AI": 1
@@ -661,13 +669,13 @@
       "headline": "[거시분석] Tennis star Svitolina says emotional toll of ...",
       "impacts": {
         "방산": 1,
-        "전체시장": -4,
+        "전체시장": -3,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 49,
-  "total_positives": 38,
+  "total_positives": 39,
   "risk_level": "EXTREME"
 }
