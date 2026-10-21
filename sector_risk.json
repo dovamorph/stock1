@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T16:16:58.974037+09:00",
+  "updated_at": "2026-10-21T22:35:06.166811+09:00",
   "date": "20261021",
   "window_days": 14,
   "sectors": [
@@ -16,20 +16,14 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -8,
-      "positive_count": 8,
+      "score": -9,
+      "positive_count": 7,
       "negative_count": 9,
       "recent_events": [
         {
           "date": "20261021",
           "type": "positive",
           "headline": "Ex-OpenAI worker accused of planting bug had Saudi support, claims prosecutors",
-          "score": 1
-        },
-        {
-          "date": "20261021",
-          "type": "positive",
-          "headline": "OpenAI says its agents turned off own safeguards",
           "score": 1
         },
         {
@@ -49,20 +43,20 @@
           "type": "negative",
           "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
           "score": -2
+        },
+        {
+          "date": "20261018",
+          "type": "negative",
+          "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
+          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20261021",
-          "type": "negative",
-          "headline": "[거시분석] Tennis star Svitolina says emotional toll of ...",
-          "score": -1
-        },
         {
           "date": "20261019",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
           "score": -2
+        },
+        {
+          "date": "20261012",
+          "type": "negative",
+          "headline": "[거시분석] Indian opposition defies lockdown, marches to...",
+          "score": -2
         }
       ]
     },
@@ -98,7 +98,7 @@
           "date": "20261021",
           "type": "positive",
           "headline": "[거시분석] Tennis star Svitolina says emotional toll of ...",
-          "score": 2
+          "score": 1
         },
         {
           "date": "20261020",
@@ -140,17 +140,10 @@
       ]
     },
     "로봇": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 0,
+      "positive_count": 0,
       "negative_count": 0,
-      "recent_events": [
-        {
-          "date": "20261021",
-          "type": "positive",
-          "headline": "K팝에 '둠칫'…제주 '리더스포럼' 무대 누빈 휴머노이드",
-          "score": 1
-        }
-      ]
+      "recent_events": []
     },
     "금융": {
       "score": -10,
@@ -191,35 +184,35 @@
     },
     "우주ETF": {
       "score": 10,
-      "positive_count": 15,
+      "positive_count": 13,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20261021",
           "type": "positive",
-          "headline": "Elon Musk confirms talks to merge Tesla and SpaceX",
+          "headline": "Elon Musk confirms he is considering merging Tesla and SpaceX",
           "score": 1
         },
         {
           "date": "20261021",
           "type": "positive",
-          "headline": "Elon Musk says merging Tesla and SpaceX is a good idea. Why?",
-          "score": 1
-        },
-        {
-          "date": "20261021",
-          "type": "positive",
-          "headline": "Elon Musk says SpaceX and Tesla exploring largest merger in history",
-          "score": 1
-        },
-        {
-          "date": "20261021",
-          "type": "positive",
-          "headline": "Musk confirms SpaceX and Tesla exploring merger",
+          "headline": "Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?",
           "score": 1
         },
         {
           "date": "20261018",
+          "type": "positive",
+          "headline": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
+          "score": 1
+        },
+        {
+          "date": "20261017",
+          "type": "positive",
+          "headline": "Trump denies limiting Ukraine access to Starlink network",
+          "score": 1
+        },
+        {
+          "date": "20261017",
           "type": "positive",
           "headline": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
           "score": 1
@@ -241,7 +234,7 @@
           "date": "20261021",
           "type": "negative",
           "headline": "[거시분석] Tennis star Svitolina says emotional toll of ...",
-          "score": -4
+          "score": -3
         },
         {
           "date": "20261020",
@@ -657,7 +650,7 @@
     },
     {
       "date": "20261021",
-      "headline": "Elon Musk confirms talks to merge Tesla and SpaceX",
+      "headline": "Elon Musk confirms he is considering merging Tesla and SpaceX",
       "impacts": {
         "우주ETF": 1
       },
@@ -673,41 +666,9 @@
     },
     {
       "date": "20261021",
-      "headline": "Elon Musk says merging Tesla and SpaceX is a good idea. Why?",
+      "headline": "Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?",
       "impacts": {
         "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261021",
-      "headline": "OpenAI says its agents turned off own safeguards",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261021",
-      "headline": "Elon Musk says SpaceX and Tesla exploring largest merger in history",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261021",
-      "headline": "Musk confirms SpaceX and Tesla exploring merger",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261021",
-      "headline": "K팝에 '둠칫'…제주 '리더스포럼' 무대 누빈 휴머노이드",
-      "impacts": {
-        "로봇": 1
       },
       "source": "keyword"
     },
@@ -715,15 +676,14 @@
       "date": "20261021",
       "headline": "[거시분석] Tennis star Svitolina says emotional toll of ...",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -4,
+        "방산": 1,
+        "전체시장": -3,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 50,
-  "total_positives": 44,
+  "total_negatives": 49,
+  "total_positives": 40,
   "risk_level": "EXTREME"
 }
