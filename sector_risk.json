@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T03:29:19.229637+09:00",
+  "updated_at": "2026-10-22T08:04:50.444481+09:00",
   "date": "20261022",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -8,
-      "positive_count": 8,
+      "score": -9,
+      "positive_count": 7,
       "negative_count": 9,
       "recent_events": [
-        {
-          "date": "20261022",
-          "type": "positive",
-          "headline": "Ex-OpenAI worker accused of planting bug had Saudi support, claims prosecutors",
-          "score": 1
-        },
         {
           "date": "20261021",
           "type": "positive",
@@ -48,6 +42,12 @@
           "date": "20261019",
           "type": "negative",
           "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
+          "score": -2
+        },
+        {
+          "date": "20261018",
+          "type": "negative",
+          "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
           "score": -2
         }
       ]
@@ -92,12 +92,24 @@
     "방산": {
       "score": 10,
       "positive_count": 18,
-      "negative_count": 3,
+      "negative_count": 5,
       "recent_events": [
         {
           "date": "20261022",
+          "type": "negative",
+          "headline": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
+          "score": -1
+        },
+        {
+          "date": "20261022",
+          "type": "negative",
+          "headline": "Russia willing to resume peace talks with Ukraine, US after Witkoff visit",
+          "score": -1
+        },
+        {
+          "date": "20261022",
           "type": "positive",
-          "headline": "[거시분석] Russia says it is ready to resume talks with ...",
+          "headline": "[거시분석] Missiles hit Kyiv after Russia agrees to US c...",
           "score": 1
         },
         {
@@ -110,18 +122,6 @@
           "date": "20261020",
           "type": "positive",
           "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
-          "score": 1
-        },
-        {
-          "date": "20261019",
-          "type": "positive",
-          "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
-          "score": 2
-        },
-        {
-          "date": "20261018",
-          "type": "positive",
-          "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
           "score": 1
         }
       ]
@@ -148,14 +148,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 12,
+      "negative_count": 11,
       "recent_events": [
-        {
-          "date": "20261022",
-          "type": "negative",
-          "headline": "[거시분석] Russia says it is ready to resume talks with ...",
-          "score": -1
-        },
         {
           "date": "20261021",
           "type": "negative",
@@ -179,12 +173,18 @@
           "type": "negative",
           "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
           "score": -1
+        },
+        {
+          "date": "20261017",
+          "type": "negative",
+          "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
+          "score": -1
         }
       ]
     },
     "우주ETF": {
       "score": 10,
-      "positive_count": 16,
+      "positive_count": 15,
       "negative_count": 0,
       "recent_events": [
         {
@@ -200,12 +200,6 @@
           "score": 1
         },
         {
-          "date": "20261022",
-          "type": "positive",
-          "headline": "Musk pledges $10bn in SpaceX shares for US children: Who really gains?",
-          "score": 1
-        },
-        {
           "date": "20261021",
           "type": "positive",
           "headline": "Elon Musk confirms he is considering merging Tesla and SpaceX",
@@ -215,6 +209,12 @@
           "date": "20261021",
           "type": "positive",
           "headline": "Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?",
+          "score": 1
+        },
+        {
+          "date": "20261018",
+          "type": "positive",
+          "headline": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
           "score": 1
         }
       ]
@@ -233,8 +233,8 @@
         {
           "date": "20261022",
           "type": "negative",
-          "headline": "[거시분석] Russia says it is ready to resume talks with ...",
-          "score": -3
+          "headline": "[거시분석] Missiles hit Kyiv after Russia agrees to US c...",
+          "score": -2
         },
         {
           "date": "20261021",
@@ -666,17 +666,17 @@
     },
     {
       "date": "20261022",
-      "headline": "Elon Musk confirms he is considering merging Tesla and SpaceX",
+      "headline": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
       "impacts": {
-        "우주ETF": 1
+        "방산": -1
       },
       "source": "keyword"
     },
     {
       "date": "20261022",
-      "headline": "Ex-OpenAI worker accused of planting bug had Saudi support, claims prosecutors",
+      "headline": "Elon Musk confirms he is considering merging Tesla and SpaceX",
       "impacts": {
-        "반도체·AI": 1
+        "우주ETF": 1
       },
       "source": "keyword"
     },
@@ -690,24 +690,23 @@
     },
     {
       "date": "20261022",
-      "headline": "Musk pledges $10bn in SpaceX shares for US children: Who really gains?",
+      "headline": "Russia willing to resume peace talks with Ukraine, US after Witkoff visit",
       "impacts": {
-        "우주ETF": 1
+        "방산": -1
       },
       "source": "keyword"
     },
     {
       "date": "20261022",
-      "headline": "[거시분석] Russia says it is ready to resume talks with ...",
+      "headline": "[거시분석] Missiles hit Kyiv after Russia agrees to US c...",
       "impacts": {
         "방산": 1,
-        "전체시장": -3,
-        "금융": -1
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 48,
-  "total_positives": 44,
+  "total_negatives": 49,
+  "total_positives": 42,
   "risk_level": "EXTREME"
 }
