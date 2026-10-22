@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T12:55:22.522971+09:00",
+  "updated_at": "2026-10-22T18:16:22.482046+09:00",
   "date": "20261022",
   "window_days": 14,
   "sectors": [
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20261022",
-          "type": "negative",
-          "headline": "[거시분석] Missiles hit Kyiv after Russia agrees to US c...",
-          "score": -2
-        },
         {
           "date": "20261019",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
           "score": -2
+        },
+        {
+          "date": "20261012",
+          "type": "negative",
+          "headline": "[거시분석] Indian opposition defies lockdown, marches to...",
+          "score": -2
         }
       ]
     },
@@ -104,7 +104,7 @@
           "date": "20261022",
           "type": "positive",
           "headline": "[거시분석] Missiles hit Kyiv after Russia agrees to US c...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20261021",
@@ -148,14 +148,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 12,
+      "negative_count": 11,
       "recent_events": [
-        {
-          "date": "20261022",
-          "type": "negative",
-          "headline": "[거시분석] Missiles hit Kyiv after Russia agrees to US c...",
-          "score": -1
-        },
         {
           "date": "20261021",
           "type": "negative",
@@ -179,18 +173,30 @@
           "type": "negative",
           "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
           "score": -1
+        },
+        {
+          "date": "20261017",
+          "type": "negative",
+          "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
+          "score": -1
         }
       ]
     },
     "우주ETF": {
       "score": 10,
-      "positive_count": 14,
+      "positive_count": 15,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20261022",
           "type": "positive",
           "headline": "Elon Musk confirms he is considering merging Tesla and SpaceX",
+          "score": 1
+        },
+        {
+          "date": "20261022",
+          "type": "positive",
+          "headline": "Ukraine’s access to Starlink a decision for Elon Musk, Rubio says",
           "score": 1
         },
         {
@@ -210,12 +216,6 @@
           "type": "positive",
           "headline": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
           "score": 1
-        },
-        {
-          "date": "20261017",
-          "type": "positive",
-          "headline": "Trump denies limiting Ukraine access to Starlink network",
-          "score": 1
         }
       ]
     },
@@ -234,7 +234,7 @@
           "date": "20261022",
           "type": "negative",
           "headline": "[거시분석] Missiles hit Kyiv after Russia agrees to US c...",
-          "score": -5
+          "score": -2
         },
         {
           "date": "20261021",
@@ -682,17 +682,23 @@
     },
     {
       "date": "20261022",
+      "headline": "Ukraine’s access to Starlink a decision for Elon Musk, Rubio says",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261022",
       "headline": "[거시분석] Missiles hit Kyiv after Russia agrees to US c...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
-        "금융": -1
+        "방산": 1,
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 50,
-  "total_positives": 41,
+  "total_negatives": 48,
+  "total_positives": 42,
   "risk_level": "EXTREME"
 }
