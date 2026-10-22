@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T18:16:22.482046+09:00",
+  "updated_at": "2026-10-22T23:56:42.227274+09:00",
   "date": "20261022",
   "window_days": 14,
   "sectors": [
@@ -91,13 +91,25 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 18,
-      "negative_count": 4,
+      "positive_count": 19,
+      "negative_count": 5,
       "recent_events": [
         {
           "date": "20261022",
           "type": "negative",
           "headline": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
+          "score": -1
+        },
+        {
+          "date": "20261022",
+          "type": "positive",
+          "headline": "How Sudan’s shift to drone warfare is fuelling a civilian crisis",
+          "score": 1
+        },
+        {
+          "date": "20261022",
+          "type": "negative",
+          "headline": "Russia and Ukraine trade attacks despite pledging to resume peace talks",
           "score": -1
         },
         {
@@ -111,18 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] Tennis star Svitolina says emotional toll of ...",
           "score": 1
-        },
-        {
-          "date": "20261020",
-          "type": "positive",
-          "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
-          "score": 1
-        },
-        {
-          "date": "20261019",
-          "type": "positive",
-          "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
-          "score": 2
         }
       ]
     },
@@ -184,21 +184,9 @@
     },
     "우주ETF": {
       "score": 10,
-      "positive_count": 15,
+      "positive_count": 13,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20261022",
-          "type": "positive",
-          "headline": "Elon Musk confirms he is considering merging Tesla and SpaceX",
-          "score": 1
-        },
-        {
-          "date": "20261022",
-          "type": "positive",
-          "headline": "Ukraine’s access to Starlink a decision for Elon Musk, Rubio says",
-          "score": 1
-        },
         {
           "date": "20261021",
           "type": "positive",
@@ -213,6 +201,18 @@
         },
         {
           "date": "20261018",
+          "type": "positive",
+          "headline": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
+          "score": 1
+        },
+        {
+          "date": "20261017",
+          "type": "positive",
+          "headline": "Trump denies limiting Ukraine access to Starlink network",
+          "score": 1
+        },
+        {
+          "date": "20261017",
           "type": "positive",
           "headline": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
           "score": 1
@@ -674,17 +674,17 @@
     },
     {
       "date": "20261022",
-      "headline": "Elon Musk confirms he is considering merging Tesla and SpaceX",
+      "headline": "How Sudan’s shift to drone warfare is fuelling a civilian crisis",
       "impacts": {
-        "우주ETF": 1
+        "방산": 1
       },
       "source": "keyword"
     },
     {
       "date": "20261022",
-      "headline": "Ukraine’s access to Starlink a decision for Elon Musk, Rubio says",
+      "headline": "Russia and Ukraine trade attacks despite pledging to resume peace talks",
       "impacts": {
-        "우주ETF": 1
+        "방산": -1
       },
       "source": "keyword"
     },
@@ -698,7 +698,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 48,
-  "total_positives": 42,
+  "total_negatives": 49,
+  "total_positives": 41,
   "risk_level": "EXTREME"
 }
