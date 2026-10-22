@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T04:50:01.433539+09:00",
+  "updated_at": "2026-10-23T08:03:57.550902+09:00",
   "date": "20261023",
   "window_days": 14,
   "sectors": [
@@ -109,7 +109,7 @@
         {
           "date": "20261023",
           "type": "positive",
-          "headline": "[거시분석] Missiles hit Kyiv after Russia agrees to US c...",
+          "headline": "[거시분석] Trump says Musk has restored access to Ukrain...",
           "score": 1
         },
         {
@@ -148,8 +148,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20261023",
+          "type": "negative",
+          "headline": "[거시분석] Trump says Musk has restored access to Ukrain...",
+          "score": -1
+        },
         {
           "date": "20261021",
           "type": "negative",
@@ -173,20 +179,20 @@
           "type": "negative",
           "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
           "score": -1
-        },
-        {
-          "date": "20261017",
-          "type": "negative",
-          "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
       "score": 10,
-      "positive_count": 13,
+      "positive_count": 14,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20261023",
+          "type": "positive",
+          "headline": "Trump says Musk has restored access to Ukraine's Starlink network",
+          "score": 1
+        },
         {
           "date": "20261021",
           "type": "positive",
@@ -210,12 +216,6 @@
           "type": "positive",
           "headline": "Trump denies limiting Ukraine access to Starlink network",
           "score": 1
-        },
-        {
-          "date": "20261017",
-          "type": "positive",
-          "headline": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
-          "score": 1
         }
       ]
     },
@@ -233,8 +233,8 @@
         {
           "date": "20261023",
           "type": "negative",
-          "headline": "[거시분석] Missiles hit Kyiv after Russia agrees to US c...",
-          "score": -2
+          "headline": "[거시분석] Trump says Musk has restored access to Ukrain...",
+          "score": -4
         },
         {
           "date": "20261022",
@@ -689,6 +689,14 @@
     },
     {
       "date": "20261023",
+      "headline": "Trump says Musk has restored access to Ukraine's Starlink network",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261023",
       "headline": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
       "impacts": {
         "방산": -1
@@ -705,15 +713,16 @@
     },
     {
       "date": "20261023",
-      "headline": "[거시분석] Missiles hit Kyiv after Russia agrees to US c...",
+      "headline": "[거시분석] Trump says Musk has restored access to Ukrain...",
       "impacts": {
         "방산": 1,
-        "전체시장": -2
+        "전체시장": -4,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 50,
-  "total_positives": 41,
+  "total_negatives": 51,
+  "total_positives": 42,
   "risk_level": "EXTREME"
 }
