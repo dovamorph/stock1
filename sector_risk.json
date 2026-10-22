@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-22T23:56:42.227274+09:00",
-  "date": "20261022",
+  "updated_at": "2026-10-23T04:50:01.433539+09:00",
+  "date": "20261023",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -92,8 +92,26 @@
     "방산": {
       "score": 10,
       "positive_count": 19,
-      "negative_count": 5,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20261023",
+          "type": "negative",
+          "headline": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
+          "score": -1
+        },
+        {
+          "date": "20261023",
+          "type": "negative",
+          "headline": "Ukraine hit by strikes after Russia agrees to new peace talks",
+          "score": -1
+        },
+        {
+          "date": "20261023",
+          "type": "positive",
+          "headline": "[거시분석] Missiles hit Kyiv after Russia agrees to US c...",
+          "score": 1
+        },
         {
           "date": "20261022",
           "type": "negative",
@@ -104,24 +122,6 @@
           "date": "20261022",
           "type": "positive",
           "headline": "How Sudan’s shift to drone warfare is fuelling a civilian crisis",
-          "score": 1
-        },
-        {
-          "date": "20261022",
-          "type": "negative",
-          "headline": "Russia and Ukraine trade attacks despite pledging to resume peace talks",
-          "score": -1
-        },
-        {
-          "date": "20261022",
-          "type": "positive",
-          "headline": "[거시분석] Missiles hit Kyiv after Russia agrees to US c...",
-          "score": 1
-        },
-        {
-          "date": "20261021",
-          "type": "positive",
-          "headline": "[거시분석] Tennis star Svitolina says emotional toll of ...",
           "score": 1
         }
       ]
@@ -148,7 +148,7 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
         {
           "date": "20261021",
@@ -231,6 +231,12 @@
       "negative_count": 17,
       "recent_events": [
         {
+          "date": "20261023",
+          "type": "negative",
+          "headline": "[거시분석] Missiles hit Kyiv after Russia agrees to US c...",
+          "score": -2
+        },
+        {
           "date": "20261022",
           "type": "negative",
           "headline": "[거시분석] Missiles hit Kyiv after Russia agrees to US c...",
@@ -253,27 +259,11 @@
           "type": "negative",
           "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
           "score": -7
-        },
-        {
-          "date": "20261018",
-          "type": "negative",
-          "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
-          "score": -5
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20261008",
-      "headline": "[거시분석] Global protests mark October 7 attack with ca...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -3,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261009",
       "headline": "Fired OpenAI researchers say they were let go for 'prioritising safety'",
@@ -696,9 +686,34 @@
         "전체시장": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261023",
+      "headline": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
+      "impacts": {
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261023",
+      "headline": "Ukraine hit by strikes after Russia agrees to new peace talks",
+      "impacts": {
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261023",
+      "headline": "[거시분석] Missiles hit Kyiv after Russia agrees to US c...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 49,
+  "total_negatives": 50,
   "total_positives": 41,
   "risk_level": "EXTREME"
 }
