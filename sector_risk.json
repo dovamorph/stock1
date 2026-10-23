@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-23T23:45:03.316892+09:00",
-  "date": "20261023",
+  "updated_at": "2026-10-24T04:51:17.045933+09:00",
+  "date": "20261024",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,8 +16,8 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -9,
-      "positive_count": 7,
+      "score": -10,
+      "positive_count": 5,
       "negative_count": 9,
       "recent_events": [
         {
@@ -58,6 +58,12 @@
       "negative_count": 7,
       "recent_events": [
         {
+          "date": "20261024",
+          "type": "negative",
+          "headline": "[거시분석] White House says Melania Trump brokers truce ...",
+          "score": -2
+        },
+        {
           "date": "20261019",
           "type": "negative",
           "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
@@ -80,48 +86,42 @@
           "type": "negative",
           "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
           "score": -2
-        },
-        {
-          "date": "20261012",
-          "type": "negative",
-          "headline": "[거시분석] Indian opposition defies lockdown, marches to...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 20,
-      "negative_count": 7,
+      "positive_count": 21,
+      "negative_count": 9,
       "recent_events": [
         {
-          "date": "20261023",
+          "date": "20261024",
           "type": "negative",
-          "headline": "Melania Trump brokers truce for Ukraine city 'on brink of disaster', White House says",
+          "headline": "White House says Melania Trump brokers truce for Ukraine city 'on brink of disaster'",
           "score": -1
         },
         {
-          "date": "20261023",
+          "date": "20261024",
           "type": "negative",
-          "headline": "Ukraine hit by strikes after Russia agrees to new peace talks",
+          "headline": "젤렌스키 \"내달 초 아부다비서 美 중재 3자 종전협상\"",
           "score": -1
         },
         {
-          "date": "20261023",
+          "date": "20261024",
           "type": "positive",
           "headline": "백악관 \"우크라 올레시키서 29일부터 교전중단…멜라니아 중재\"",
           "score": 1
         },
         {
-          "date": "20261023",
+          "date": "20261024",
           "type": "positive",
-          "headline": "[거시분석] Ukraine says Starlink still restricted after ...",
-          "score": 1
+          "headline": "[거시분석] White House says Melania Trump brokers truce ...",
+          "score": 3
         },
         {
-          "date": "20261022",
+          "date": "20261023",
           "type": "negative",
-          "headline": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
+          "headline": "Melania Trump brokers truce for Ukraine city 'on brink of disaster', White House says",
           "score": -1
         }
       ]
@@ -151,6 +151,12 @@
       "negative_count": 11,
       "recent_events": [
         {
+          "date": "20261024",
+          "type": "negative",
+          "headline": "[거시분석] White House says Melania Trump brokers truce ...",
+          "score": -1
+        },
+        {
           "date": "20261023",
           "type": "negative",
           "headline": "[거시분석] Ukraine says Starlink still restricted after ...",
@@ -173,12 +179,6 @@
           "type": "negative",
           "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
           "score": -2
-        },
-        {
-          "date": "20261018",
-          "type": "negative",
-          "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
-          "score": -1
         }
       ]
     },
@@ -187,6 +187,12 @@
       "positive_count": 15,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20261024",
+          "type": "positive",
+          "headline": "Ukraine says Starlink still restricted after Trump says limits lifted",
+          "score": 1
+        },
         {
           "date": "20261023",
           "type": "positive",
@@ -210,12 +216,6 @@
           "type": "positive",
           "headline": "Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?",
           "score": 1
-        },
-        {
-          "date": "20261018",
-          "type": "positive",
-          "headline": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
-          "score": 1
         }
       ]
     },
@@ -227,78 +227,43 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 2,
-      "negative_count": 17,
+      "positive_count": 4,
+      "negative_count": 19,
       "recent_events": [
         {
-          "date": "20261023",
+          "date": "20261024",
           "type": "positive",
-          "headline": "Melania Trump brokers truce for Ukraine city 'on brink of disaster', White House says",
+          "headline": "White House says Melania Trump brokers truce for Ukraine city 'on brink of disaster'",
           "score": 1
         },
         {
-          "date": "20261023",
+          "date": "20261024",
           "type": "negative",
-          "headline": "[거시분석] Ukraine says Starlink still restricted after ...",
-          "score": -4
+          "headline": "\"트럼프, 캐나다 관세 일부 철폐 추진…공화당 선거 지원 포석\"",
+          "score": -1
         },
         {
-          "date": "20261022",
+          "date": "20261024",
           "type": "negative",
-          "headline": "[거시분석] Missiles hit Kyiv after Russia agrees to US c...",
-          "score": -2
+          "headline": "美민주당 전국위원장 \"의회 탈환하면 트럼프 관세 뒤집을 것\"",
+          "score": -1
         },
         {
-          "date": "20261021",
-          "type": "negative",
-          "headline": "[거시분석] Tennis star Svitolina says emotional toll of ...",
-          "score": -3
+          "date": "20261024",
+          "type": "positive",
+          "headline": "젤렌스키 \"내달 초 아부다비서 美 중재 3자 종전협상\"",
+          "score": 1
         },
         {
-          "date": "20261020",
+          "date": "20261024",
           "type": "negative",
-          "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
+          "headline": "[거시분석] White House says Melania Trump brokers truce ...",
           "score": -5
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20261009",
-      "headline": "Fired OpenAI researchers say they were let go for 'prioritising safety'",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261009",
-      "headline": "Why Elon Musk is taking on India's richest man over Starlink",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261009",
-      "headline": "Ex-OpenAI staff say they were fired for raising safety concerns",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261009",
-      "headline": "[거시분석] South Korea recalls Ukraine envoy over prison...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261010",
       "headline": "[거시분석] ‘How can you stop these kids?’ Indian capital...",
@@ -737,9 +702,70 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261024",
+      "headline": "White House says Melania Trump brokers truce for Ukraine city 'on brink of disaster'",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261024",
+      "headline": "Ukraine says Starlink still restricted after Trump says limits lifted",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261024",
+      "headline": "\"트럼프, 캐나다 관세 일부 철폐 추진…공화당 선거 지원 포석\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261024",
+      "headline": "美민주당 전국위원장 \"의회 탈환하면 트럼프 관세 뒤집을 것\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261024",
+      "headline": "젤렌스키 \"내달 초 아부다비서 美 중재 3자 종전협상\"",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261024",
+      "headline": "백악관 \"우크라 올레시키서 29일부터 교전중단…멜라니아 중재\"",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261024",
+      "headline": "[거시분석] White House says Melania Trump brokers truce ...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 51,
-  "total_positives": 45,
+  "total_negatives": 55,
+  "total_positives": 46,
   "risk_level": "EXTREME"
 }
