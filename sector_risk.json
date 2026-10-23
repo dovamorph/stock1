@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T08:03:57.550902+09:00",
+  "updated_at": "2026-10-23T12:59:23.069986+09:00",
   "date": "20261023",
   "window_days": 14,
   "sectors": [
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20261023",
+          "type": "negative",
+          "headline": "[거시분석] Trump says Musk has restored access to Ukrain...",
+          "score": -2
+        },
         {
           "date": "20261019",
           "type": "negative",
@@ -79,12 +85,6 @@
           "date": "20261013",
           "type": "negative",
           "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
-          "score": -2
-        },
-        {
-          "date": "20261012",
-          "type": "negative",
-          "headline": "[거시분석] Indian opposition defies lockdown, marches to...",
           "score": -2
         }
       ]
@@ -110,7 +110,7 @@
           "date": "20261023",
           "type": "positive",
           "headline": "[거시분석] Trump says Musk has restored access to Ukrain...",
-          "score": 1
+          "score": 3
         },
         {
           "date": "20261022",
@@ -184,13 +184,19 @@
     },
     "우주ETF": {
       "score": 10,
-      "positive_count": 14,
+      "positive_count": 15,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20261023",
           "type": "positive",
           "headline": "Trump says Musk has restored access to Ukraine's Starlink network",
+          "score": 1
+        },
+        {
+          "date": "20261023",
+          "type": "positive",
+          "headline": "Trump says Musk restored Ukraine’s Starlink access amid Russia war",
           "score": 1
         },
         {
@@ -210,12 +216,6 @@
           "type": "positive",
           "headline": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
           "score": 1
-        },
-        {
-          "date": "20261017",
-          "type": "positive",
-          "headline": "Trump denies limiting Ukraine access to Starlink network",
-          "score": 1
         }
       ]
     },
@@ -234,7 +234,7 @@
           "date": "20261023",
           "type": "negative",
           "headline": "[거시분석] Trump says Musk has restored access to Ukrain...",
-          "score": -4
+          "score": -5
         },
         {
           "date": "20261022",
@@ -713,16 +713,25 @@
     },
     {
       "date": "20261023",
+      "headline": "Trump says Musk restored Ukraine’s Starlink access amid Russia war",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261023",
       "headline": "[거시분석] Trump says Musk has restored access to Ukrain...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -4,
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 51,
-  "total_positives": 42,
+  "total_negatives": 52,
+  "total_positives": 43,
   "risk_level": "EXTREME"
 }
