@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T04:51:17.045933+09:00",
+  "updated_at": "2026-10-24T07:57:39.484158+09:00",
   "date": "20261024",
   "window_days": 14,
   "sectors": [
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20261024",
-          "type": "negative",
-          "headline": "[거시분석] White House says Melania Trump brokers truce ...",
-          "score": -2
-        },
         {
           "date": "20261019",
           "type": "negative",
@@ -86,43 +80,49 @@
           "type": "negative",
           "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
           "score": -2
+        },
+        {
+          "date": "20261012",
+          "type": "negative",
+          "headline": "[거시분석] Indian opposition defies lockdown, marches to...",
+          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 21,
-      "negative_count": 9,
+      "positive_count": 20,
+      "negative_count": 8,
       "recent_events": [
         {
           "date": "20261024",
           "type": "negative",
-          "headline": "White House says Melania Trump brokers truce for Ukraine city 'on brink of disaster'",
-          "score": -1
-        },
-        {
-          "date": "20261024",
-          "type": "negative",
-          "headline": "젤렌스키 \"내달 초 아부다비서 美 중재 3자 종전협상\"",
+          "headline": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
           "score": -1
         },
         {
           "date": "20261024",
           "type": "positive",
-          "headline": "백악관 \"우크라 올레시키서 29일부터 교전중단…멜라니아 중재\"",
+          "headline": "[거시분석] White House says Melania Trump brokered truce...",
           "score": 1
-        },
-        {
-          "date": "20261024",
-          "type": "positive",
-          "headline": "[거시분석] White House says Melania Trump brokers truce ...",
-          "score": 3
         },
         {
           "date": "20261023",
           "type": "negative",
           "headline": "Melania Trump brokers truce for Ukraine city 'on brink of disaster', White House says",
           "score": -1
+        },
+        {
+          "date": "20261023",
+          "type": "negative",
+          "headline": "Ukraine hit by strikes after Russia agrees to new peace talks",
+          "score": -1
+        },
+        {
+          "date": "20261023",
+          "type": "positive",
+          "headline": "백악관 \"우크라 올레시키서 29일부터 교전중단…멜라니아 중재\"",
+          "score": 1
         }
       ]
     },
@@ -148,14 +148,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
-        {
-          "date": "20261024",
-          "type": "negative",
-          "headline": "[거시분석] White House says Melania Trump brokers truce ...",
-          "score": -1
-        },
         {
           "date": "20261023",
           "type": "negative",
@@ -179,6 +173,12 @@
           "type": "negative",
           "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
           "score": -2
+        },
+        {
+          "date": "20261018",
+          "type": "negative",
+          "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
+          "score": -1
         }
       ]
     },
@@ -227,38 +227,38 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 4,
-      "negative_count": 19,
+      "positive_count": 3,
+      "negative_count": 17,
       "recent_events": [
         {
           "date": "20261024",
           "type": "positive",
-          "headline": "White House says Melania Trump brokers truce for Ukraine city 'on brink of disaster'",
+          "headline": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
           "score": 1
         },
         {
           "date": "20261024",
           "type": "negative",
-          "headline": "\"트럼프, 캐나다 관세 일부 철폐 추진…공화당 선거 지원 포석\"",
-          "score": -1
+          "headline": "[거시분석] White House says Melania Trump brokered truce...",
+          "score": -2
         },
         {
-          "date": "20261024",
-          "type": "negative",
-          "headline": "美민주당 전국위원장 \"의회 탈환하면 트럼프 관세 뒤집을 것\"",
-          "score": -1
-        },
-        {
-          "date": "20261024",
+          "date": "20261023",
           "type": "positive",
-          "headline": "젤렌스키 \"내달 초 아부다비서 美 중재 3자 종전협상\"",
+          "headline": "Melania Trump brokers truce for Ukraine city 'on brink of disaster', White House says",
           "score": 1
         },
         {
-          "date": "20261024",
+          "date": "20261023",
           "type": "negative",
-          "headline": "[거시분석] White House says Melania Trump brokers truce ...",
-          "score": -5
+          "headline": "[거시분석] Ukraine says Starlink still restricted after ...",
+          "score": -4
+        },
+        {
+          "date": "20261022",
+          "type": "negative",
+          "headline": "[거시분석] Missiles hit Kyiv after Russia agrees to US c...",
+          "score": -2
         }
       ]
     }
@@ -705,7 +705,7 @@
     },
     {
       "date": "20261024",
-      "headline": "White House says Melania Trump brokers truce for Ukraine city 'on brink of disaster'",
+      "headline": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
       "impacts": {
         "방산": -1,
         "전체시장": 1
@@ -722,50 +722,15 @@
     },
     {
       "date": "20261024",
-      "headline": "\"트럼프, 캐나다 관세 일부 철폐 추진…공화당 선거 지원 포석\"",
+      "headline": "[거시분석] White House says Melania Trump brokered truce...",
       "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261024",
-      "headline": "美민주당 전국위원장 \"의회 탈환하면 트럼프 관세 뒤집을 것\"",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261024",
-      "headline": "젤렌스키 \"내달 초 아부다비서 美 중재 3자 종전협상\"",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261024",
-      "headline": "백악관 \"우크라 올레시키서 29일부터 교전중단…멜라니아 중재\"",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261024",
-      "headline": "[거시분석] White House says Melania Trump brokers truce ...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
-        "금융": -1
+        "방산": 1,
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 55,
-  "total_positives": 46,
+  "total_negatives": 50,
+  "total_positives": 44,
   "risk_level": "EXTREME"
 }
