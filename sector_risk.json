@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T18:16:12.203067+09:00",
+  "updated_at": "2026-10-23T23:45:03.316892+09:00",
   "date": "20261023",
   "window_days": 14,
   "sectors": [
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20261023",
-          "type": "negative",
-          "headline": "[거시분석] Israel preparing full lockdown of occupied We...",
-          "score": -2
-        },
         {
           "date": "20261019",
           "type": "negative",
@@ -86,14 +80,26 @@
           "type": "negative",
           "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
           "score": -2
+        },
+        {
+          "date": "20261012",
+          "type": "negative",
+          "headline": "[거시분석] Indian opposition defies lockdown, marches to...",
+          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 19,
-      "negative_count": 6,
+      "positive_count": 20,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20261023",
+          "type": "negative",
+          "headline": "Melania Trump brokers truce for Ukraine city 'on brink of disaster', White House says",
+          "score": -1
+        },
         {
           "date": "20261023",
           "type": "negative",
@@ -103,25 +109,19 @@
         {
           "date": "20261023",
           "type": "positive",
-          "headline": "[거시분석] Israel preparing full lockdown of occupied We...",
+          "headline": "백악관 \"우크라 올레시키서 29일부터 교전중단…멜라니아 중재\"",
+          "score": 1
+        },
+        {
+          "date": "20261023",
+          "type": "positive",
+          "headline": "[거시분석] Ukraine says Starlink still restricted after ...",
           "score": 1
         },
         {
           "date": "20261022",
           "type": "negative",
           "headline": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
-          "score": -1
-        },
-        {
-          "date": "20261022",
-          "type": "positive",
-          "headline": "How Sudan’s shift to drone warfare is fuelling a civilian crisis",
-          "score": 1
-        },
-        {
-          "date": "20261022",
-          "type": "negative",
-          "headline": "Russia and Ukraine trade attacks despite pledging to resume peace talks",
           "score": -1
         }
       ]
@@ -153,7 +153,7 @@
         {
           "date": "20261023",
           "type": "negative",
-          "headline": "[거시분석] Israel preparing full lockdown of occupied We...",
+          "headline": "[거시분석] Ukraine says Starlink still restricted after ...",
           "score": -1
         },
         {
@@ -196,7 +196,7 @@
         {
           "date": "20261023",
           "type": "positive",
-          "headline": "Trump says Musk restored Ukraine’s Starlink access amid Russia war",
+          "headline": "Ukraine plans independent satellite system as Starlink issues persist",
           "score": 1
         },
         {
@@ -227,20 +227,20 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 1,
-      "negative_count": 18,
+      "positive_count": 2,
+      "negative_count": 17,
       "recent_events": [
         {
           "date": "20261023",
-          "type": "negative",
-          "headline": "무역위원회, 중국산 아연도금냉연에 최대 33.67％ 덤핑방지관세",
-          "score": -1
+          "type": "positive",
+          "headline": "Melania Trump brokers truce for Ukraine city 'on brink of disaster', White House says",
+          "score": 1
         },
         {
           "date": "20261023",
           "type": "negative",
-          "headline": "[거시분석] Israel preparing full lockdown of occupied We...",
-          "score": -6
+          "headline": "[거시분석] Ukraine says Starlink still restricted after ...",
+          "score": -4
         },
         {
           "date": "20261022",
@@ -697,6 +697,15 @@
     },
     {
       "date": "20261023",
+      "headline": "Melania Trump brokers truce for Ukraine city 'on brink of disaster', White House says",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261023",
       "headline": "Ukraine hit by strikes after Russia agrees to new peace talks",
       "impacts": {
         "방산": -1
@@ -705,7 +714,7 @@
     },
     {
       "date": "20261023",
-      "headline": "Trump says Musk restored Ukraine’s Starlink access amid Russia war",
+      "headline": "Ukraine plans independent satellite system as Starlink issues persist",
       "impacts": {
         "우주ETF": 1
       },
@@ -713,25 +722,24 @@
     },
     {
       "date": "20261023",
-      "headline": "무역위원회, 중국산 아연도금냉연에 최대 33.67％ 덤핑방지관세",
+      "headline": "백악관 \"우크라 올레시키서 29일부터 교전중단…멜라니아 중재\"",
       "impacts": {
-        "전체시장": -1
+        "방산": 1
       },
       "source": "keyword"
     },
     {
       "date": "20261023",
-      "headline": "[거시분석] Israel preparing full lockdown of occupied We...",
+      "headline": "[거시분석] Ukraine says Starlink still restricted after ...",
       "impacts": {
         "방산": 1,
-        "전체시장": -6,
-        "금융": -1,
-        "건설": -2
+        "전체시장": -4,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 52,
-  "total_positives": 43,
+  "total_negatives": 51,
+  "total_positives": 45,
   "risk_level": "EXTREME"
 }
