@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T12:53:26.474009+09:00",
+  "updated_at": "2026-10-24T17:45:36.534305+09:00",
   "date": "20261024",
   "window_days": 14,
   "sectors": [
@@ -184,13 +184,19 @@
     },
     "우주ETF": {
       "score": 10,
-      "positive_count": 15,
+      "positive_count": 16,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20261024",
           "type": "positive",
           "headline": "Ukraine says Starlink still restricted after Trump says limits lifted",
+          "score": 1
+        },
+        {
+          "date": "20261024",
+          "type": "positive",
+          "headline": "Who actually controls Ukraine's access to Starlink?",
           "score": 1
         },
         {
@@ -209,12 +215,6 @@
           "date": "20261021",
           "type": "positive",
           "headline": "Elon Musk confirms he is considering merging Tesla and SpaceX",
-          "score": 1
-        },
-        {
-          "date": "20261021",
-          "type": "positive",
-          "headline": "Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?",
           "score": 1
         }
       ]
@@ -722,6 +722,14 @@
     },
     {
       "date": "20261024",
+      "headline": "Who actually controls Ukraine's access to Starlink?",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261024",
       "headline": "[거시분석] White House says Melania Trump brokered truce...",
       "impacts": {
         "방산": 1,
@@ -731,6 +739,6 @@
     }
   ],
   "total_negatives": 50,
-  "total_positives": 44,
+  "total_positives": 45,
   "risk_level": "EXTREME"
 }
