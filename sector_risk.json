@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T17:45:36.534305+09:00",
+  "updated_at": "2026-10-24T22:53:20.711458+09:00",
   "date": "20261024",
   "window_days": 14,
   "sectors": [
@@ -18,8 +18,14 @@
     "반도체·AI": {
       "score": -10,
       "positive_count": 5,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20261024",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
+          "score": -2
+        },
         {
           "date": "20261021",
           "type": "positive",
@@ -43,20 +49,20 @@
           "type": "negative",
           "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
           "score": -2
-        },
-        {
-          "date": "20261018",
-          "type": "negative",
-          "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
-          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20261024",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
+          "score": -2
+        },
         {
           "date": "20261019",
           "type": "negative",
@@ -80,18 +86,12 @@
           "type": "negative",
           "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
           "score": -2
-        },
-        {
-          "date": "20261012",
-          "type": "negative",
-          "headline": "[거시분석] Indian opposition defies lockdown, marches to...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 20,
+      "positive_count": 21,
       "negative_count": 8,
       "recent_events": [
         {
@@ -103,8 +103,14 @@
         {
           "date": "20261024",
           "type": "positive",
-          "headline": "[거시분석] White House says Melania Trump brokered truce...",
+          "headline": "후티 반군, 사우디 주요 거점 연쇄 타격…사우디도 보복공습",
           "score": 1
+        },
+        {
+          "date": "20261024",
+          "type": "positive",
+          "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
+          "score": 3
         },
         {
           "date": "20261023",
@@ -117,12 +123,6 @@
           "type": "negative",
           "headline": "Ukraine hit by strikes after Russia agrees to new peace talks",
           "score": -1
-        },
-        {
-          "date": "20261023",
-          "type": "positive",
-          "headline": "백악관 \"우크라 올레시키서 29일부터 교전중단…멜라니아 중재\"",
-          "score": 1
         }
       ]
     },
@@ -148,8 +148,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20261024",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
+          "score": -1
+        },
         {
           "date": "20261023",
           "type": "negative",
@@ -173,12 +179,6 @@
           "type": "negative",
           "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
           "score": -2
-        },
-        {
-          "date": "20261018",
-          "type": "negative",
-          "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
-          "score": -1
         }
       ]
     },
@@ -190,7 +190,7 @@
         {
           "date": "20261024",
           "type": "positive",
-          "headline": "Ukraine says Starlink still restricted after Trump says limits lifted",
+          "headline": "Ukraine says Starlink connection 'now stable' after network limits",
           "score": 1
         },
         {
@@ -239,8 +239,8 @@
         {
           "date": "20261024",
           "type": "negative",
-          "headline": "[거시분석] White House says Melania Trump brokered truce...",
-          "score": -2
+          "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
+          "score": -7
         },
         {
           "date": "20261023",
@@ -705,18 +705,18 @@
     },
     {
       "date": "20261024",
-      "headline": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
+      "headline": "Ukraine says Starlink connection 'now stable' after network limits",
       "impacts": {
-        "방산": -1,
-        "전체시장": 1
+        "우주ETF": 1
       },
       "source": "keyword"
     },
     {
       "date": "20261024",
-      "headline": "Ukraine says Starlink still restricted after Trump says limits lifted",
+      "headline": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
       "impacts": {
-        "우주ETF": 1
+        "방산": -1,
+        "전체시장": 1
       },
       "source": "keyword"
     },
@@ -730,15 +730,26 @@
     },
     {
       "date": "20261024",
-      "headline": "[거시분석] White House says Melania Trump brokered truce...",
+      "headline": "후티 반군, 사우디 주요 거점 연쇄 타격…사우디도 보복공습",
       "impacts": {
-        "방산": 1,
-        "전체시장": -2
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261024",
+      "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -7,
+        "금융": -1,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 50,
-  "total_positives": 45,
+  "total_negatives": 53,
+  "total_positives": 46,
   "risk_level": "EXTREME"
 }
