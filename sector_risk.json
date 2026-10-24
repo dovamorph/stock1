@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T02:15:44.806526+09:00",
+  "updated_at": "2026-10-25T05:27:25.097005+09:00",
   "date": "20261025",
   "window_days": 14,
   "sectors": [
@@ -184,7 +184,7 @@
     },
     "우주ETF": {
       "score": 10,
-      "positive_count": 19,
+      "positive_count": 20,
       "negative_count": 0,
       "recent_events": [
         {
@@ -206,15 +206,15 @@
           "score": 1
         },
         {
-          "date": "20261024",
+          "date": "20261025",
           "type": "positive",
-          "headline": "Ukraine says Starlink connection 'now stable' after network limits",
+          "headline": "머스크 변심에 놀란 美동맹들…'스타링크 탈출' 위성 독립 경쟁",
           "score": 1
         },
         {
           "date": "20261024",
           "type": "positive",
-          "headline": "Who actually controls Ukraine's access to Starlink?",
+          "headline": "Ukraine says Starlink connection 'now stable' after network limits",
           "score": 1
         }
       ]
@@ -772,6 +772,14 @@
     },
     {
       "date": "20261025",
+      "headline": "머스크 변심에 놀란 美동맹들…'스타링크 탈출' 위성 독립 경쟁",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261025",
       "headline": "후티 반군, 사우디 주요 거점 연쇄 타격…사우디도 보복공습",
       "impacts": {
         "방산": 1
@@ -792,6 +800,6 @@
     }
   ],
   "total_negatives": 55,
-  "total_positives": 51,
+  "total_positives": 52,
   "risk_level": "EXTREME"
 }
