@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T05:35:06.958548+09:00",
+  "updated_at": "2026-10-26T08:57:06.518075+09:00",
   "date": "20261026",
   "window_days": 14,
   "sectors": [
@@ -54,14 +54,14 @@
     },
     "건설": {
       "score": -10,
-      "positive_count": 0,
-      "negative_count": 8,
+      "positive_count": 1,
+      "negative_count": 7,
       "recent_events": [
         {
           "date": "20261026",
-          "type": "negative",
-          "headline": "[거시분석] Musk says SpaceX restricted Ukraine's Starlin...",
-          "score": -2
+          "type": "positive",
+          "headline": "삼성물산, 7천381억원 규모 창원 용호1구역 재건축 수주",
+          "score": 1
         },
         {
           "date": "20261025",
@@ -98,7 +98,7 @@
           "date": "20261026",
           "type": "positive",
           "headline": "[거시분석] Musk says SpaceX restricted Ukraine's Starlin...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20261025",
@@ -228,7 +228,7 @@
     "전체시장": {
       "score": -10,
       "positive_count": 3,
-      "negative_count": 19,
+      "negative_count": 18,
       "recent_events": [
         {
           "date": "20261026",
@@ -239,14 +239,8 @@
         {
           "date": "20261026",
           "type": "negative",
-          "headline": "트럼프 \"미국 온 기업들 우리 이용하면 관세 50%로 올릴 수도\"",
-          "score": -1
-        },
-        {
-          "date": "20261026",
-          "type": "negative",
           "headline": "[거시분석] Musk says SpaceX restricted Ukraine's Starlin...",
-          "score": -4
+          "score": -2
         },
         {
           "date": "20261025",
@@ -259,6 +253,12 @@
           "type": "positive",
           "headline": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
           "score": 1
+        },
+        {
+          "date": "20261024",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
+          "score": -7
         }
       ]
     }
@@ -787,9 +787,9 @@
     },
     {
       "date": "20261026",
-      "headline": "트럼프 \"미국 온 기업들 우리 이용하면 관세 50%로 올릴 수도\"",
+      "headline": "삼성물산, 7천381억원 규모 창원 용호1구역 재건축 수주",
       "impacts": {
-        "전체시장": -1
+        "건설": 1
       },
       "source": "keyword"
     },
@@ -797,14 +797,13 @@
       "date": "20261026",
       "headline": "[거시분석] Musk says SpaceX restricted Ukraine's Starlin...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -4
+        "방산": 1,
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 54,
-  "total_positives": 51,
+  "total_negatives": 52,
+  "total_positives": 52,
   "risk_level": "EXTREME"
 }
