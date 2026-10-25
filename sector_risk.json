@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T09:05:45.789944+09:00",
+  "updated_at": "2026-10-25T16:24:37.847045+09:00",
   "date": "20261025",
   "window_days": 14,
   "sectors": [
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20261025",
-          "type": "negative",
-          "headline": "[거시분석] Full lockdown of occupied West Bank begins",
-          "score": -2
-        },
         {
           "date": "20261024",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] Russia accuses Ukraine of attacking oil refin...",
           "score": -2
+        },
+        {
+          "date": "20261013",
+          "type": "negative",
+          "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
+          "score": -2
         }
       ]
     },
@@ -103,7 +103,7 @@
         {
           "date": "20261025",
           "type": "positive",
-          "headline": "[거시분석] Full lockdown of occupied West Bank begins",
+          "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
           "score": 1
         },
         {
@@ -140,17 +140,10 @@
       ]
     },
     "로봇": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 0,
+      "positive_count": 0,
       "negative_count": 0,
-      "recent_events": [
-        {
-          "date": "20261025",
-          "type": "positive",
-          "headline": "경북 'AI 로봇 기업협의회' 출범…부품 공급망 참여 지원",
-          "score": 1
-        }
-      ]
+      "recent_events": []
     },
     "금융": {
       "score": -10,
@@ -246,8 +239,8 @@
         {
           "date": "20261025",
           "type": "negative",
-          "headline": "[거시분석] Full lockdown of occupied West Bank begins",
-          "score": -5
+          "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
+          "score": -2
         },
         {
           "date": "20261024",
@@ -771,24 +764,15 @@
     },
     {
       "date": "20261025",
-      "headline": "경북 'AI 로봇 기업협의회' 출범…부품 공급망 참여 지원",
-      "impacts": {
-        "로봇": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261025",
-      "headline": "[거시분석] Full lockdown of occupied West Bank begins",
+      "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
       "impacts": {
         "방산": 1,
-        "전체시장": -5,
-        "건설": -2
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 53,
-  "total_positives": 50,
+  "total_negatives": 52,
+  "total_positives": 49,
   "risk_level": "EXTREME"
 }
