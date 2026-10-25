@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T16:24:37.847045+09:00",
+  "updated_at": "2026-10-25T22:02:57.243268+09:00",
   "date": "20261025",
   "window_days": 14,
   "sectors": [
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20261025",
+          "type": "negative",
+          "headline": "[거시분석] Musk says SpaceX restricted Ukraine's Starlin...",
+          "score": -4
+        },
         {
           "date": "20261024",
           "type": "negative",
@@ -80,31 +86,19 @@
           "type": "negative",
           "headline": "[거시분석] Russia accuses Ukraine of attacking oil refin...",
           "score": -2
-        },
-        {
-          "date": "20261013",
-          "type": "negative",
-          "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 21,
-      "negative_count": 9,
+      "negative_count": 8,
       "recent_events": [
         {
           "date": "20261025",
-          "type": "negative",
-          "headline": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
-          "score": -1
-        },
-        {
-          "date": "20261025",
           "type": "positive",
-          "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
-          "score": 1
+          "headline": "[거시분석] Musk says SpaceX restricted Ukraine's Starlin...",
+          "score": 3
         },
         {
           "date": "20261024",
@@ -123,6 +117,12 @@
           "type": "positive",
           "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
           "score": 3
+        },
+        {
+          "date": "20261023",
+          "type": "negative",
+          "headline": "Melania Trump brokers truce for Ukraine city 'on brink of disaster', White House says",
+          "score": -1
         }
       ]
     },
@@ -148,8 +148,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 12,
       "recent_events": [
+        {
+          "date": "20261025",
+          "type": "negative",
+          "headline": "[거시분석] Musk says SpaceX restricted Ukraine's Starlin...",
+          "score": -1
+        },
         {
           "date": "20261024",
           "type": "negative",
@@ -173,24 +179,18 @@
           "type": "negative",
           "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
           "score": -1
-        },
-        {
-          "date": "20261019",
-          "type": "negative",
-          "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
-          "score": -2
         }
       ]
     },
     "우주ETF": {
       "score": 10,
-      "positive_count": 18,
+      "positive_count": 19,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20261025",
           "type": "positive",
-          "headline": "Ukraine says Starlink connection 'now stable' after network limits",
+          "headline": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
           "score": 1
         },
         {
@@ -200,6 +200,12 @@
           "score": 1
         },
         {
+          "date": "20261025",
+          "type": "positive",
+          "headline": "Why is Ukraine so reliant on Starlink and can Europe plug the gap?",
+          "score": 1
+        },
+        {
           "date": "20261024",
           "type": "positive",
           "headline": "Ukraine says Starlink connection 'now stable' after network limits",
@@ -209,12 +215,6 @@
           "date": "20261024",
           "type": "positive",
           "headline": "Who actually controls Ukraine's access to Starlink?",
-          "score": 1
-        },
-        {
-          "date": "20261023",
-          "type": "positive",
-          "headline": "Ukraine says Starlink still restricted after Trump says limits lifted",
           "score": 1
         }
       ]
@@ -227,20 +227,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 4,
+      "positive_count": 3,
       "negative_count": 17,
       "recent_events": [
         {
           "date": "20261025",
-          "type": "positive",
-          "headline": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
-          "score": 1
-        },
-        {
-          "date": "20261025",
           "type": "negative",
-          "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
-          "score": -2
+          "headline": "[거시분석] Musk says SpaceX restricted Ukraine's Starlin...",
+          "score": -9
         },
         {
           "date": "20261024",
@@ -259,6 +253,12 @@
           "type": "positive",
           "headline": "Melania Trump brokers truce for Ukraine city 'on brink of disaster', White House says",
           "score": 1
+        },
+        {
+          "date": "20261023",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine says Starlink still restricted after ...",
+          "score": -4
         }
       ]
     }
@@ -739,18 +739,9 @@
     },
     {
       "date": "20261025",
-      "headline": "Ukraine says Starlink connection 'now stable' after network limits",
+      "headline": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
       "impacts": {
         "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261025",
-      "headline": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
       },
       "source": "keyword"
     },
@@ -764,15 +755,25 @@
     },
     {
       "date": "20261025",
-      "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
+      "headline": "Why is Ukraine so reliant on Starlink and can Europe plug the gap?",
       "impacts": {
-        "방산": 1,
-        "전체시장": -2
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261025",
+      "headline": "[거시분석] Musk says SpaceX restricted Ukraine's Starlin...",
+      "impacts": {
+        "방산": 3,
+        "건설": -4,
+        "전체시장": -9,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 52,
+  "total_negatives": 53,
   "total_positives": 49,
   "risk_level": "EXTREME"
 }
