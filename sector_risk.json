@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T05:27:25.097005+09:00",
+  "updated_at": "2026-10-25T09:05:45.789944+09:00",
   "date": "20261025",
   "window_days": 14,
   "sectors": [
@@ -18,14 +18,8 @@
     "반도체·AI": {
       "score": -10,
       "positive_count": 5,
-      "negative_count": 10,
+      "negative_count": 9,
       "recent_events": [
-        {
-          "date": "20261025",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
-          "score": -2
-        },
         {
           "date": "20261024",
           "type": "negative",
@@ -49,6 +43,12 @@
           "type": "negative",
           "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
           "score": -2
+        },
+        {
+          "date": "20261019",
+          "type": "negative",
+          "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
+          "score": -2
         }
       ]
     },
@@ -60,8 +60,8 @@
         {
           "date": "20261025",
           "type": "negative",
-          "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
-          "score": -4
+          "headline": "[거시분석] Full lockdown of occupied West Bank begins",
+          "score": -2
         },
         {
           "date": "20261024",
@@ -91,7 +91,7 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 22,
+      "positive_count": 21,
       "negative_count": 9,
       "recent_events": [
         {
@@ -103,14 +103,8 @@
         {
           "date": "20261025",
           "type": "positive",
-          "headline": "후티 반군, 사우디 주요 거점 연쇄 타격…사우디도 보복공습",
+          "headline": "[거시분석] Full lockdown of occupied West Bank begins",
           "score": 1
-        },
-        {
-          "date": "20261025",
-          "type": "positive",
-          "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
-          "score": 3
         },
         {
           "date": "20261024",
@@ -123,6 +117,12 @@
           "type": "positive",
           "headline": "후티 반군, 사우디 주요 거점 연쇄 타격…사우디도 보복공습",
           "score": 1
+        },
+        {
+          "date": "20261024",
+          "type": "positive",
+          "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
+          "score": 3
         }
       ]
     },
@@ -140,22 +140,23 @@
       ]
     },
     "로봇": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20261025",
+          "type": "positive",
+          "headline": "경북 'AI 로봇 기업협의회' 출범…부품 공급망 참여 지원",
+          "score": 1
+        }
+      ]
     },
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 12,
+      "negative_count": 11,
       "recent_events": [
-        {
-          "date": "20261025",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
-          "score": -2
-        },
         {
           "date": "20261024",
           "type": "negative",
@@ -179,12 +180,18 @@
           "type": "negative",
           "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
           "score": -1
+        },
+        {
+          "date": "20261019",
+          "type": "negative",
+          "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
+          "score": -2
         }
       ]
     },
     "우주ETF": {
       "score": 10,
-      "positive_count": 20,
+      "positive_count": 18,
       "negative_count": 0,
       "recent_events": [
         {
@@ -200,21 +207,21 @@
           "score": 1
         },
         {
-          "date": "20261025",
+          "date": "20261024",
           "type": "positive",
-          "headline": "Ukraine says Starlink restored as attacks continue in Russia and Ukraine",
-          "score": 1
-        },
-        {
-          "date": "20261025",
-          "type": "positive",
-          "headline": "머스크 변심에 놀란 美동맹들…'스타링크 탈출' 위성 독립 경쟁",
+          "headline": "Ukraine says Starlink connection 'now stable' after network limits",
           "score": 1
         },
         {
           "date": "20261024",
           "type": "positive",
-          "headline": "Ukraine says Starlink connection 'now stable' after network limits",
+          "headline": "Who actually controls Ukraine's access to Starlink?",
+          "score": 1
+        },
+        {
+          "date": "20261023",
+          "type": "positive",
+          "headline": "Ukraine says Starlink still restricted after Trump says limits lifted",
           "score": 1
         }
       ]
@@ -239,8 +246,8 @@
         {
           "date": "20261025",
           "type": "negative",
-          "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
-          "score": -11
+          "headline": "[거시분석] Full lockdown of occupied West Bank begins",
+          "score": -5
         },
         {
           "date": "20261024",
@@ -764,42 +771,24 @@
     },
     {
       "date": "20261025",
-      "headline": "Ukraine says Starlink restored as attacks continue in Russia and Ukraine",
+      "headline": "경북 'AI 로봇 기업협의회' 출범…부품 공급망 참여 지원",
       "impacts": {
-        "우주ETF": 1
+        "로봇": 1
       },
       "source": "keyword"
     },
     {
       "date": "20261025",
-      "headline": "머스크 변심에 놀란 美동맹들…'스타링크 탈출' 위성 독립 경쟁",
+      "headline": "[거시분석] Full lockdown of occupied West Bank begins",
       "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261025",
-      "headline": "후티 반군, 사우디 주요 거점 연쇄 타격…사우디도 보복공습",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261025",
-      "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
-      "impacts": {
-        "방산": 3,
-        "건설": -4,
-        "전체시장": -11,
-        "금융": -2,
-        "반도체·AI": -2
+        "방산": 1,
+        "전체시장": -5,
+        "건설": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 55,
-  "total_positives": 52,
+  "total_negatives": 53,
+  "total_positives": 50,
   "risk_level": "EXTREME"
 }
