@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T02:29:39.523174+09:00",
+  "updated_at": "2026-10-26T05:35:06.958548+09:00",
   "date": "20261026",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -10,
+      "score": -9,
       "positive_count": 5,
-      "negative_count": 9,
+      "negative_count": 8,
       "recent_events": [
-        {
-          "date": "20261026",
-          "type": "negative",
-          "headline": "[거시분석] Musk says SpaceX restricted Ukraine's Starlin...",
-          "score": -2
-        },
         {
           "date": "20261024",
           "type": "negative",
@@ -46,6 +40,12 @@
         },
         {
           "date": "20261020",
+          "type": "negative",
+          "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
+          "score": -2
+        },
+        {
+          "date": "20261019",
           "type": "negative",
           "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
           "score": -2
@@ -228,19 +228,25 @@
     "전체시장": {
       "score": -10,
       "positive_count": 3,
-      "negative_count": 18,
+      "negative_count": 19,
       "recent_events": [
         {
           "date": "20261026",
           "type": "negative",
-          "headline": "Trump’s tariff pause angers some US ranchers, boosts Brazil beef imports",
+          "headline": "Trump’s tariff pause angers some US ranchers, boosts Brazilian beef imports",
+          "score": -1
+        },
+        {
+          "date": "20261026",
+          "type": "negative",
+          "headline": "트럼프 \"미국 온 기업들 우리 이용하면 관세 50%로 올릴 수도\"",
           "score": -1
         },
         {
           "date": "20261026",
           "type": "negative",
           "headline": "[거시분석] Musk says SpaceX restricted Ukraine's Starlin...",
-          "score": -6
+          "score": -4
         },
         {
           "date": "20261025",
@@ -253,12 +259,6 @@
           "type": "positive",
           "headline": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
           "score": 1
-        },
-        {
-          "date": "20261024",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
-          "score": -7
         }
       ]
     }
@@ -779,7 +779,15 @@
     },
     {
       "date": "20261026",
-      "headline": "Trump’s tariff pause angers some US ranchers, boosts Brazil beef imports",
+      "headline": "Trump’s tariff pause angers some US ranchers, boosts Brazilian beef imports",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261026",
+      "headline": "트럼프 \"미국 온 기업들 우리 이용하면 관세 50%로 올릴 수도\"",
       "impacts": {
         "전체시장": -1
       },
@@ -791,8 +799,7 @@
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -6,
-        "반도체·AI": -2
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
