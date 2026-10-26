@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-26T21:31:14.401862+09:00",
-  "date": "20261026",
+  "updated_at": "2026-10-27T04:47:29.310393+09:00",
+  "date": "20261027",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -9,
+      "score": -10,
       "positive_count": 5,
-      "negative_count": 8,
+      "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20261027",
+          "type": "negative",
+          "headline": "[거시분석] Britain sanctions Sudanese commanders over we...",
+          "score": -2
+        },
         {
           "date": "20261024",
           "type": "negative",
@@ -43,12 +49,6 @@
           "type": "negative",
           "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
           "score": -2
-        },
-        {
-          "date": "20261019",
-          "type": "negative",
-          "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
-          "score": -2
         }
       ]
     },
@@ -57,6 +57,12 @@
       "positive_count": 0,
       "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20261027",
+          "type": "negative",
+          "headline": "[거시분석] Britain sanctions Sudanese commanders over we...",
+          "score": -1
+        },
         {
           "date": "20261026",
           "type": "negative",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
           "score": -1
-        },
-        {
-          "date": "20261016",
-          "type": "negative",
-          "headline": "[거시분석] Zelensky says Ukraine has right to defend its...",
-          "score": -2
         }
       ]
     },
@@ -94,6 +94,18 @@
       "positive_count": 23,
       "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20261027",
+          "type": "negative",
+          "headline": "Zelenskyy says peace talks with Russia, US to restart",
+          "score": -1
+        },
+        {
+          "date": "20261027",
+          "type": "positive",
+          "headline": "[거시분석] Britain sanctions Sudanese commanders over we...",
+          "score": 2
+        },
         {
           "date": "20261026",
           "type": "positive",
@@ -111,33 +123,14 @@
           "type": "positive",
           "headline": "[거시분석] Russia to host first Olympic federation world...",
           "score": 3
-        },
-        {
-          "date": "20261025",
-          "type": "positive",
-          "headline": "[거시분석] Musk says SpaceX restricted Ukraine's Starlin...",
-          "score": 3
-        },
-        {
-          "date": "20261024",
-          "type": "negative",
-          "headline": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
-          "score": -1
         }
       ]
     },
     "전력·에너지": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 0,
+      "positive_count": 0,
       "negative_count": 0,
-      "recent_events": [
-        {
-          "date": "20261012",
-          "type": "positive",
-          "headline": "뉴욕증시, 유가 상승 속 혼조 출발",
-          "score": 1
-        }
-      ]
+      "recent_events": []
     },
     "로봇": {
       "score": 0,
@@ -148,8 +141,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 12,
+      "negative_count": 13,
       "recent_events": [
+        {
+          "date": "20261027",
+          "type": "negative",
+          "headline": "[거시분석] Britain sanctions Sudanese commanders over we...",
+          "score": -1
+        },
         {
           "date": "20261026",
           "type": "negative",
@@ -172,12 +171,6 @@
           "date": "20261023",
           "type": "negative",
           "headline": "[거시분석] Ukraine says Starlink still restricted after ...",
-          "score": -1
-        },
-        {
-          "date": "20261021",
-          "type": "negative",
-          "headline": "[거시분석] Tennis star Svitolina says emotional toll of ...",
           "score": -1
         }
       ]
@@ -227,9 +220,15 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 3,
+      "positive_count": 2,
       "negative_count": 17,
       "recent_events": [
+        {
+          "date": "20261027",
+          "type": "negative",
+          "headline": "[거시분석] Britain sanctions Sudanese commanders over we...",
+          "score": -6
+        },
         {
           "date": "20261026",
           "type": "negative",
@@ -253,44 +252,11 @@
           "type": "negative",
           "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
           "score": -7
-        },
-        {
-          "date": "20261023",
-          "type": "positive",
-          "headline": "Melania Trump brokers truce for Ukraine city 'on brink of disaster', White House says",
-          "score": 1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20261012",
-      "headline": "뉴욕증시, 유가 상승 속 혼조 출발",
-      "impacts": {
-        "전력·에너지": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261012",
-      "headline": "롯데, '잠실 정규시즌 최종전'에서 두산 꺾고 7위로 마감",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261012",
-      "headline": "[거시분석] Indian opposition defies lockdown, marches to...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -5,
-        "건설": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261013",
       "headline": "Cyberattack on French supermarkets causes fires, millions in losses",
@@ -787,9 +753,29 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261027",
+      "headline": "Zelenskyy says peace talks with Russia, US to restart",
+      "impacts": {
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261027",
+      "headline": "[거시분석] Britain sanctions Sudanese commanders over we...",
+      "impacts": {
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -6,
+        "금융": -1,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 53,
-  "total_positives": 51,
+  "total_negatives": 55,
+  "total_positives": 49,
   "risk_level": "EXTREME"
 }
