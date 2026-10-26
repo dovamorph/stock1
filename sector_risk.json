@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T13:28:44.688182+09:00",
+  "updated_at": "2026-10-26T21:31:14.401862+09:00",
   "date": "20261026",
   "window_days": 14,
   "sectors": [
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20261026",
+          "type": "negative",
+          "headline": "[거시분석] Russia to host first Olympic federation world...",
+          "score": -2
+        },
         {
           "date": "20261025",
           "type": "negative",
@@ -80,25 +86,31 @@
           "type": "negative",
           "headline": "[거시분석] Zelensky says Ukraine has right to defend its...",
           "score": -2
-        },
-        {
-          "date": "20261015",
-          "type": "negative",
-          "headline": "[거시분석] Russia accuses Ukraine of attacking oil refin...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 21,
+      "positive_count": 23,
       "negative_count": 8,
       "recent_events": [
         {
           "date": "20261026",
           "type": "positive",
-          "headline": "[거시분석] Musk says SpaceX restricted Ukraine's Starlin...",
+          "headline": "日, 핀란드와 방위장비 이전 협정…무기 수출 길 열어",
           "score": 1
+        },
+        {
+          "date": "20261026",
+          "type": "positive",
+          "headline": "'리야드 공습 여파' 사우디 실내무도AG, 내년 3월로 연기",
+          "score": 1
+        },
+        {
+          "date": "20261026",
+          "type": "positive",
+          "headline": "[거시분석] Russia to host first Olympic federation world...",
+          "score": 3
         },
         {
           "date": "20261025",
@@ -111,32 +123,14 @@
           "type": "negative",
           "headline": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
           "score": -1
-        },
-        {
-          "date": "20261024",
-          "type": "positive",
-          "headline": "후티 반군, 사우디 주요 거점 연쇄 타격…사우디도 보복공습",
-          "score": 1
-        },
-        {
-          "date": "20261024",
-          "type": "positive",
-          "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
-          "score": 3
         }
       ]
     },
     "전력·에너지": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20261026",
-          "type": "positive",
-          "headline": "\"한미일, 인태지역 SMR 첫 공동 진출 후보로 인도네시아 검토\"",
-          "score": 1
-        },
         {
           "date": "20261012",
           "type": "positive",
@@ -154,8 +148,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 12,
       "recent_events": [
+        {
+          "date": "20261026",
+          "type": "negative",
+          "headline": "[거시분석] Russia to host first Olympic federation world...",
+          "score": -1
+        },
         {
           "date": "20261025",
           "type": "negative",
@@ -179,18 +179,12 @@
           "type": "negative",
           "headline": "[거시분석] Tennis star Svitolina says emotional toll of ...",
           "score": -1
-        },
-        {
-          "date": "20261020",
-          "type": "negative",
-          "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
       "score": 10,
-      "positive_count": 21,
+      "positive_count": 19,
       "negative_count": 0,
       "recent_events": [
         {
@@ -200,18 +194,6 @@
           "score": 1
         },
         {
-          "date": "20261026",
-          "type": "positive",
-          "headline": "Who actually controls Ukraine's access to Starlink?",
-          "score": 1
-        },
-        {
-          "date": "20261026",
-          "type": "positive",
-          "headline": "Why is Ukraine so reliant on Starlink and can Europe plug the gap?",
-          "score": 1
-        },
-        {
           "date": "20261025",
           "type": "positive",
           "headline": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
@@ -221,6 +203,18 @@
           "date": "20261025",
           "type": "positive",
           "headline": "Who actually controls Ukraine's access to Starlink?",
+          "score": 1
+        },
+        {
+          "date": "20261025",
+          "type": "positive",
+          "headline": "Why is Ukraine so reliant on Starlink and can Europe plug the gap?",
+          "score": 1
+        },
+        {
+          "date": "20261024",
+          "type": "positive",
+          "headline": "Ukraine says Starlink connection 'now stable' after network limits",
           "score": 1
         }
       ]
@@ -239,8 +233,8 @@
         {
           "date": "20261026",
           "type": "negative",
-          "headline": "[거시분석] Musk says SpaceX restricted Ukraine's Starlin...",
-          "score": -2
+          "headline": "[거시분석] Russia to host first Olympic federation world...",
+          "score": -5
         },
         {
           "date": "20261025",
@@ -769,39 +763,33 @@
     },
     {
       "date": "20261026",
-      "headline": "Who actually controls Ukraine's access to Starlink?",
+      "headline": "日, 핀란드와 방위장비 이전 협정…무기 수출 길 열어",
       "impacts": {
-        "우주ETF": 1
+        "방산": 1
       },
       "source": "keyword"
     },
     {
       "date": "20261026",
-      "headline": "Why is Ukraine so reliant on Starlink and can Europe plug the gap?",
+      "headline": "'리야드 공습 여파' 사우디 실내무도AG, 내년 3월로 연기",
       "impacts": {
-        "우주ETF": 1
+        "방산": 1
       },
       "source": "keyword"
     },
     {
       "date": "20261026",
-      "headline": "\"한미일, 인태지역 SMR 첫 공동 진출 후보로 인도네시아 검토\"",
+      "headline": "[거시분석] Russia to host first Olympic federation world...",
       "impacts": {
-        "전력·에너지": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261026",
-      "headline": "[거시분석] Musk says SpaceX restricted Ukraine's Starlin...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -2
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 51,
-  "total_positives": 52,
+  "total_negatives": 53,
+  "total_positives": 51,
   "risk_level": "EXTREME"
 }
