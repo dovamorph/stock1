@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T04:47:29.310393+09:00",
+  "updated_at": "2026-10-27T08:38:42.107917+09:00",
   "date": "20261027",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20261027",
           "type": "negative",
-          "headline": "[거시분석] Britain sanctions Sudanese commanders over we...",
+          "headline": "[거시분석] Africa food security under threat due to Iran...",
           "score": -2
         },
         {
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20261027",
-          "type": "negative",
-          "headline": "[거시분석] Britain sanctions Sudanese commanders over we...",
-          "score": -1
-        },
         {
           "date": "20261026",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
           "score": -1
+        },
+        {
+          "date": "20261016",
+          "type": "negative",
+          "headline": "[거시분석] Zelensky says Ukraine has right to defend its...",
+          "score": -2
         }
       ]
     },
@@ -103,8 +103,8 @@
         {
           "date": "20261027",
           "type": "positive",
-          "headline": "[거시분석] Britain sanctions Sudanese commanders over we...",
-          "score": 2
+          "headline": "[거시분석] Africa food security under threat due to Iran...",
+          "score": 1
         },
         {
           "date": "20261026",
@@ -146,7 +146,7 @@
         {
           "date": "20261027",
           "type": "negative",
-          "headline": "[거시분석] Britain sanctions Sudanese commanders over we...",
+          "headline": "[거시분석] Africa food security under threat due to Iran...",
           "score": -1
         },
         {
@@ -226,8 +226,8 @@
         {
           "date": "20261027",
           "type": "negative",
-          "headline": "[거시분석] Britain sanctions Sudanese commanders over we...",
-          "score": -6
+          "headline": "[거시분석] Africa food security under threat due to Iran...",
+          "score": -5
         },
         {
           "date": "20261026",
@@ -764,18 +764,17 @@
     },
     {
       "date": "20261027",
-      "headline": "[거시분석] Britain sanctions Sudanese commanders over we...",
+      "headline": "[거시분석] Africa food security under threat due to Iran...",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -6,
+        "방산": 1,
+        "전체시장": -5,
         "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 55,
+  "total_negatives": 54,
   "total_positives": 49,
   "risk_level": "EXTREME"
 }
