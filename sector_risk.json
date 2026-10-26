@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T08:57:06.518075+09:00",
+  "updated_at": "2026-10-26T13:28:44.688182+09:00",
   "date": "20261026",
   "window_days": 14,
   "sectors": [
@@ -54,15 +54,9 @@
     },
     "건설": {
       "score": -10,
-      "positive_count": 1,
+      "positive_count": 0,
       "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20261026",
-          "type": "positive",
-          "headline": "삼성물산, 7천381억원 규모 창원 용호1구역 재건축 수주",
-          "score": 1
-        },
         {
           "date": "20261025",
           "type": "negative",
@@ -85,6 +79,12 @@
           "date": "20261016",
           "type": "negative",
           "headline": "[거시분석] Zelensky says Ukraine has right to defend its...",
+          "score": -2
+        },
+        {
+          "date": "20261015",
+          "type": "negative",
+          "headline": "[거시분석] Russia accuses Ukraine of attacking oil refin...",
           "score": -2
         }
       ]
@@ -127,10 +127,16 @@
       ]
     },
     "전력·에너지": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20261026",
+          "type": "positive",
+          "headline": "\"한미일, 인태지역 SMR 첫 공동 진출 후보로 인도네시아 검토\"",
+          "score": 1
+        },
         {
           "date": "20261012",
           "type": "positive",
@@ -228,14 +234,8 @@
     "전체시장": {
       "score": -10,
       "positive_count": 3,
-      "negative_count": 18,
+      "negative_count": 17,
       "recent_events": [
-        {
-          "date": "20261026",
-          "type": "negative",
-          "headline": "Trump’s tariff pause angers some US ranchers, boosts Brazilian beef imports",
-          "score": -1
-        },
         {
           "date": "20261026",
           "type": "negative",
@@ -259,6 +259,12 @@
           "type": "negative",
           "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
           "score": -7
+        },
+        {
+          "date": "20261023",
+          "type": "positive",
+          "headline": "Melania Trump brokers truce for Ukraine city 'on brink of disaster', White House says",
+          "score": 1
         }
       ]
     }
@@ -779,17 +785,9 @@
     },
     {
       "date": "20261026",
-      "headline": "Trump’s tariff pause angers some US ranchers, boosts Brazilian beef imports",
+      "headline": "\"한미일, 인태지역 SMR 첫 공동 진출 후보로 인도네시아 검토\"",
       "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261026",
-      "headline": "삼성물산, 7천381억원 규모 창원 용호1구역 재건축 수주",
-      "impacts": {
-        "건설": 1
+        "전력·에너지": 1
       },
       "source": "keyword"
     },
@@ -803,7 +801,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 52,
+  "total_negatives": 51,
   "total_positives": 52,
   "risk_level": "EXTREME"
 }
