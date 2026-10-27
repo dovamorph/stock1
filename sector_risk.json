@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T08:38:42.107917+09:00",
+  "updated_at": "2026-10-27T13:18:01.609883+09:00",
   "date": "20261027",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -10,
+      "score": -9,
       "positive_count": 5,
-      "negative_count": 9,
+      "negative_count": 8,
       "recent_events": [
-        {
-          "date": "20261027",
-          "type": "negative",
-          "headline": "[거시분석] Africa food security under threat due to Iran...",
-          "score": -2
-        },
         {
           "date": "20261024",
           "type": "negative",
@@ -49,14 +43,26 @@
           "type": "negative",
           "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
           "score": -2
+        },
+        {
+          "date": "20261019",
+          "type": "negative",
+          "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
+          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20261027",
+          "type": "negative",
+          "headline": "[거시분석] Russia halts strikes on Ukraine’s Kherson as ...",
+          "score": -2
+        },
         {
           "date": "20261026",
           "type": "negative",
@@ -80,31 +86,19 @@
           "type": "negative",
           "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
           "score": -1
-        },
-        {
-          "date": "20261016",
-          "type": "negative",
-          "headline": "[거시분석] Zelensky says Ukraine has right to defend its...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 23,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
         {
           "date": "20261027",
-          "type": "negative",
-          "headline": "Zelenskyy says peace talks with Russia, US to restart",
-          "score": -1
-        },
-        {
-          "date": "20261027",
           "type": "positive",
-          "headline": "[거시분석] Africa food security under threat due to Iran...",
-          "score": 1
+          "headline": "[거시분석] Russia halts strikes on Ukraine’s Kherson as ...",
+          "score": 3
         },
         {
           "date": "20261026",
@@ -122,6 +116,12 @@
           "date": "20261026",
           "type": "positive",
           "headline": "[거시분석] Russia to host first Olympic federation world...",
+          "score": 3
+        },
+        {
+          "date": "20261025",
+          "type": "positive",
+          "headline": "[거시분석] Musk says SpaceX restricted Ukraine's Starlin...",
           "score": 3
         }
       ]
@@ -146,7 +146,7 @@
         {
           "date": "20261027",
           "type": "negative",
-          "headline": "[거시분석] Africa food security under threat due to Iran...",
+          "headline": "[거시분석] Russia halts strikes on Ukraine’s Kherson as ...",
           "score": -1
         },
         {
@@ -226,7 +226,7 @@
         {
           "date": "20261027",
           "type": "negative",
-          "headline": "[거시분석] Africa food security under threat due to Iran...",
+          "headline": "[거시분석] Russia halts strikes on Ukraine’s Kherson as ...",
           "score": -5
         },
         {
@@ -756,25 +756,17 @@
     },
     {
       "date": "20261027",
-      "headline": "Zelenskyy says peace talks with Russia, US to restart",
+      "headline": "[거시분석] Russia halts strikes on Ukraine’s Kherson as ...",
       "impacts": {
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261027",
-      "headline": "[거시분석] Africa food security under threat due to Iran...",
-      "impacts": {
-        "방산": 1,
+        "방산": 3,
+        "건설": -2,
         "전체시장": -5,
-        "금융": -1,
-        "반도체·AI": -2
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 54,
+  "total_negatives": 53,
   "total_positives": 49,
   "risk_level": "EXTREME"
 }
