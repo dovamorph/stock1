@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-27T20:49:11.665903+09:00",
-  "date": "20261027",
+  "updated_at": "2026-10-28T02:43:06.902339+09:00",
+  "date": "20261028",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,9 +16,9 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -9,
+      "score": -7,
       "positive_count": 5,
-      "negative_count": 8,
+      "negative_count": 6,
       "recent_events": [
         {
           "date": "20261024",
@@ -58,6 +58,12 @@
       "negative_count": 7,
       "recent_events": [
         {
+          "date": "20261028",
+          "type": "negative",
+          "headline": "[거시분석] Truce begins in Ukraine city where residents ...",
+          "score": -2
+        },
+        {
           "date": "20261026",
           "type": "negative",
           "headline": "[거시분석] Russia to host first Olympic federation world...",
@@ -80,20 +86,26 @@
           "type": "negative",
           "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
           "score": -1
-        },
-        {
-          "date": "20261016",
-          "type": "negative",
-          "headline": "[거시분석] Zelensky says Ukraine has right to defend its...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 23,
-      "negative_count": 8,
+      "positive_count": 22,
+      "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20261028",
+          "type": "negative",
+          "headline": "Truce begins in Ukraine city where residents ate weeds to survive",
+          "score": -1
+        },
+        {
+          "date": "20261028",
+          "type": "positive",
+          "headline": "[거시분석] Truce begins in Ukraine city where residents ...",
+          "score": 3
+        },
         {
           "date": "20261027",
           "type": "negative",
@@ -111,18 +123,6 @@
           "type": "positive",
           "headline": "日, 핀란드와 방위장비 이전 협정…무기 수출 길 열어",
           "score": 1
-        },
-        {
-          "date": "20261026",
-          "type": "positive",
-          "headline": "'리야드 공습 여파' 사우디 실내무도AG, 내년 3월로 연기",
-          "score": 1
-        },
-        {
-          "date": "20261026",
-          "type": "positive",
-          "headline": "[거시분석] Russia to host first Olympic federation world...",
-          "score": 3
         }
       ]
     },
@@ -143,6 +143,12 @@
       "positive_count": 0,
       "negative_count": 13,
       "recent_events": [
+        {
+          "date": "20261028",
+          "type": "negative",
+          "headline": "[거시분석] Truce begins in Ukraine city where residents ...",
+          "score": -1
+        },
         {
           "date": "20261027",
           "type": "negative",
@@ -166,18 +172,12 @@
           "type": "negative",
           "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
           "score": -1
-        },
-        {
-          "date": "20261023",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine says Starlink still restricted after ...",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
       "score": 10,
-      "positive_count": 19,
+      "positive_count": 18,
       "negative_count": 0,
       "recent_events": [
         {
@@ -220,9 +220,27 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 3,
-      "negative_count": 17,
+      "positive_count": 4,
+      "negative_count": 18,
       "recent_events": [
+        {
+          "date": "20261028",
+          "type": "positive",
+          "headline": "Truce begins in Ukraine city where residents ate weeds to survive",
+          "score": 1
+        },
+        {
+          "date": "20261028",
+          "type": "negative",
+          "headline": "트럼프, 대캐나다 관세 부메랑…미국 내 알루미늄 가격 급등",
+          "score": -1
+        },
+        {
+          "date": "20261028",
+          "type": "negative",
+          "headline": "[거시분석] Truce begins in Ukraine city where residents ...",
+          "score": -5
+        },
         {
           "date": "20261027",
           "type": "positive",
@@ -234,72 +252,11 @@
           "type": "negative",
           "headline": "[거시분석] Truce begins in Ukraine city where residents ...",
           "score": -4
-        },
-        {
-          "date": "20261026",
-          "type": "negative",
-          "headline": "[거시분석] Russia to host first Olympic federation world...",
-          "score": -5
-        },
-        {
-          "date": "20261025",
-          "type": "negative",
-          "headline": "[거시분석] Musk says SpaceX restricted Ukraine's Starlin...",
-          "score": -9
-        },
-        {
-          "date": "20261024",
-          "type": "positive",
-          "headline": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
-          "score": 1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20261013",
-      "headline": "Cyberattack on French supermarkets causes fires, millions in losses",
-      "impacts": {
-        "반도체·AI": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261013",
-      "headline": "Hundreds of supermarkets in France hit by ‘unprecedented’ cyberattack",
-      "impacts": {
-        "반도체·AI": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261013",
-      "headline": "Houthi missile attack targets Saudi capital Riyadh for third day in a row",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261013",
-      "headline": "Poland says two Turks arrested over Russia-linked Starlink station fire",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261013",
-      "headline": "[거시분석] Six Ukrainian energy sites hit by Russia sinc...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261014",
       "headline": "Starlink restrictions affecting Ukraine's front line operations, Kyiv says",
@@ -772,9 +729,37 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261028",
+      "headline": "Truce begins in Ukraine city where residents ate weeds to survive",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261028",
+      "headline": "트럼프, 대캐나다 관세 부메랑…미국 내 알루미늄 가격 급등",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261028",
+      "headline": "[거시분석] Truce begins in Ukraine city where residents ...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
   "total_negatives": 53,
-  "total_positives": 50,
+  "total_positives": 49,
   "risk_level": "EXTREME"
 }
