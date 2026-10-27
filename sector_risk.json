@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T02:43:06.902339+09:00",
+  "updated_at": "2026-10-28T06:57:11.183309+09:00",
   "date": "20261028",
   "window_days": 14,
   "sectors": [
@@ -60,7 +60,7 @@
         {
           "date": "20261028",
           "type": "negative",
-          "headline": "[거시분석] Truce begins in Ukraine city where residents ...",
+          "headline": "[거시분석] Dream postponed: Hebron groom caught in Israe...",
           "score": -2
         },
         {
@@ -92,19 +92,13 @@
     "방산": {
       "score": 10,
       "positive_count": 22,
-      "negative_count": 9,
+      "negative_count": 8,
       "recent_events": [
         {
           "date": "20261028",
-          "type": "negative",
-          "headline": "Truce begins in Ukraine city where residents ate weeds to survive",
-          "score": -1
-        },
-        {
-          "date": "20261028",
           "type": "positive",
-          "headline": "[거시분석] Truce begins in Ukraine city where residents ...",
-          "score": 3
+          "headline": "[거시분석] Dream postponed: Hebron groom caught in Israe...",
+          "score": 1
         },
         {
           "date": "20261027",
@@ -123,6 +117,12 @@
           "type": "positive",
           "headline": "日, 핀란드와 방위장비 이전 협정…무기 수출 길 열어",
           "score": 1
+        },
+        {
+          "date": "20261026",
+          "type": "positive",
+          "headline": "'리야드 공습 여파' 사우디 실내무도AG, 내년 3월로 연기",
+          "score": 1
         }
       ]
     },
@@ -133,10 +133,17 @@
       "recent_events": []
     },
     "로봇": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20261028",
+          "type": "positive",
+          "headline": "엔비디아 매디슨 황, 내달 한국 또 찾는다…피지컬 AI 협력 주목",
+          "score": 1
+        }
+      ]
     },
     "금융": {
       "score": -10,
@@ -146,7 +153,7 @@
         {
           "date": "20261028",
           "type": "negative",
-          "headline": "[거시분석] Truce begins in Ukraine city where residents ...",
+          "headline": "[거시분석] Dream postponed: Hebron groom caught in Israe...",
           "score": -1
         },
         {
@@ -220,26 +227,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 4,
-      "negative_count": 18,
+      "positive_count": 3,
+      "negative_count": 17,
       "recent_events": [
         {
           "date": "20261028",
-          "type": "positive",
-          "headline": "Truce begins in Ukraine city where residents ate weeds to survive",
-          "score": 1
-        },
-        {
-          "date": "20261028",
           "type": "negative",
-          "headline": "트럼프, 대캐나다 관세 부메랑…미국 내 알루미늄 가격 급등",
-          "score": -1
-        },
-        {
-          "date": "20261028",
-          "type": "negative",
-          "headline": "[거시분석] Truce begins in Ukraine city where residents ...",
-          "score": -5
+          "headline": "[거시분석] Dream postponed: Hebron groom caught in Israe...",
+          "score": -6
         },
         {
           "date": "20261027",
@@ -252,6 +247,18 @@
           "type": "negative",
           "headline": "[거시분석] Truce begins in Ukraine city where residents ...",
           "score": -4
+        },
+        {
+          "date": "20261026",
+          "type": "negative",
+          "headline": "[거시분석] Russia to host first Olympic federation world...",
+          "score": -5
+        },
+        {
+          "date": "20261025",
+          "type": "negative",
+          "headline": "[거시분석] Musk says SpaceX restricted Ukraine's Starlin...",
+          "score": -9
         }
       ]
     }
@@ -732,34 +739,25 @@
     },
     {
       "date": "20261028",
-      "headline": "Truce begins in Ukraine city where residents ate weeds to survive",
+      "headline": "엔비디아 매디슨 황, 내달 한국 또 찾는다…피지컬 AI 협력 주목",
       "impacts": {
-        "방산": -1,
-        "전체시장": 1
+        "로봇": 1
       },
       "source": "keyword"
     },
     {
       "date": "20261028",
-      "headline": "트럼프, 대캐나다 관세 부메랑…미국 내 알루미늄 가격 급등",
+      "headline": "[거시분석] Dream postponed: Hebron groom caught in Israe...",
       "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261028",
-      "headline": "[거시분석] Truce begins in Ukraine city where residents ...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
-        "금융": -1
+        "방산": 1,
+        "전체시장": -6,
+        "금융": -1,
+        "건설": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 53,
+  "total_negatives": 51,
   "total_positives": 49,
   "risk_level": "EXTREME"
 }
