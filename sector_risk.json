@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T13:18:01.609883+09:00",
+  "updated_at": "2026-10-27T20:49:11.665903+09:00",
   "date": "20261027",
   "window_days": 14,
   "sectors": [
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
-        {
-          "date": "20261027",
-          "type": "negative",
-          "headline": "[거시분석] Russia halts strikes on Ukraine’s Kherson as ...",
-          "score": -2
-        },
         {
           "date": "20261026",
           "type": "negative",
@@ -86,19 +80,31 @@
           "type": "negative",
           "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
           "score": -1
+        },
+        {
+          "date": "20261016",
+          "type": "negative",
+          "headline": "[거시분석] Zelensky says Ukraine has right to defend its...",
+          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 23,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
         {
           "date": "20261027",
+          "type": "negative",
+          "headline": "Truce begins in Ukraine city where residents ate weeds to survive",
+          "score": -1
+        },
+        {
+          "date": "20261027",
           "type": "positive",
-          "headline": "[거시분석] Russia halts strikes on Ukraine’s Kherson as ...",
-          "score": 3
+          "headline": "[거시분석] Truce begins in Ukraine city where residents ...",
+          "score": 1
         },
         {
           "date": "20261026",
@@ -116,12 +122,6 @@
           "date": "20261026",
           "type": "positive",
           "headline": "[거시분석] Russia to host first Olympic federation world...",
-          "score": 3
-        },
-        {
-          "date": "20261025",
-          "type": "positive",
-          "headline": "[거시분석] Musk says SpaceX restricted Ukraine's Starlin...",
           "score": 3
         }
       ]
@@ -146,7 +146,7 @@
         {
           "date": "20261027",
           "type": "negative",
-          "headline": "[거시분석] Russia halts strikes on Ukraine’s Kherson as ...",
+          "headline": "[거시분석] Truce begins in Ukraine city where residents ...",
           "score": -1
         },
         {
@@ -220,14 +220,20 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 2,
+      "positive_count": 3,
       "negative_count": 17,
       "recent_events": [
         {
           "date": "20261027",
+          "type": "positive",
+          "headline": "Truce begins in Ukraine city where residents ate weeds to survive",
+          "score": 1
+        },
+        {
+          "date": "20261027",
           "type": "negative",
-          "headline": "[거시분석] Russia halts strikes on Ukraine’s Kherson as ...",
-          "score": -5
+          "headline": "[거시분석] Truce begins in Ukraine city where residents ...",
+          "score": -4
         },
         {
           "date": "20261026",
@@ -246,12 +252,6 @@
           "type": "positive",
           "headline": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
           "score": 1
-        },
-        {
-          "date": "20261024",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
-          "score": -7
         }
       ]
     }
@@ -756,17 +756,25 @@
     },
     {
       "date": "20261027",
-      "headline": "[거시분석] Russia halts strikes on Ukraine’s Kherson as ...",
+      "headline": "Truce begins in Ukraine city where residents ate weeds to survive",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261027",
+      "headline": "[거시분석] Truce begins in Ukraine city where residents ...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -4,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 53,
-  "total_positives": 49,
+  "total_positives": 50,
   "risk_level": "EXTREME"
 }
