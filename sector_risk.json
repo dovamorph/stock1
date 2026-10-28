@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T10:08:13.364812+09:00",
+  "updated_at": "2026-10-28T17:03:11.218658+09:00",
   "date": "20261028",
   "window_days": 14,
   "sectors": [
@@ -60,7 +60,7 @@
         {
           "date": "20261028",
           "type": "negative",
-          "headline": "[거시분석] Dream postponed: Hebron groom caught in Israe...",
+          "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
           "score": -2
         },
         {
@@ -103,8 +103,8 @@
         {
           "date": "20261028",
           "type": "positive",
-          "headline": "[거시분석] Dream postponed: Hebron groom caught in Israe...",
-          "score": 1
+          "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
+          "score": 3
         },
         {
           "date": "20261027",
@@ -127,17 +127,10 @@
       ]
     },
     "전력·에너지": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 0,
+      "positive_count": 0,
       "negative_count": 0,
-      "recent_events": [
-        {
-          "date": "20261028",
-          "type": "positive",
-          "headline": "정부, 절차 간소화로 포항 AI 데이터센터 건설 속도 높여",
-          "score": 1
-        }
-      ]
+      "recent_events": []
     },
     "로봇": {
       "score": 0,
@@ -153,7 +146,7 @@
         {
           "date": "20261028",
           "type": "negative",
-          "headline": "[거시분석] Dream postponed: Hebron groom caught in Israe...",
+          "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
           "score": -1
         },
         {
@@ -239,8 +232,8 @@
         {
           "date": "20261028",
           "type": "negative",
-          "headline": "[거시분석] Dream postponed: Hebron groom caught in Israe...",
-          "score": -5
+          "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
+          "score": -6
         },
         {
           "date": "20261027",
@@ -748,25 +741,17 @@
     },
     {
       "date": "20261028",
-      "headline": "정부, 절차 간소화로 포항 AI 데이터센터 건설 속도 높여",
+      "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
       "impacts": {
-        "전력·에너지": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261028",
-      "headline": "[거시분석] Dream postponed: Hebron groom caught in Israe...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -5,
-        "금융": -1,
-        "건설": -2
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -6,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 52,
-  "total_positives": 50,
+  "total_positives": 49,
   "risk_level": "EXTREME"
 }
