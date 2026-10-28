@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T06:57:11.183309+09:00",
+  "updated_at": "2026-10-28T10:08:13.364812+09:00",
   "date": "20261028",
   "window_days": 14,
   "sectors": [
@@ -92,8 +92,14 @@
     "방산": {
       "score": 10,
       "positive_count": 22,
-      "negative_count": 8,
+      "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20261028",
+          "type": "negative",
+          "headline": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
+          "score": -1
+        },
         {
           "date": "20261028",
           "type": "positive",
@@ -117,22 +123,10 @@
           "type": "positive",
           "headline": "日, 핀란드와 방위장비 이전 협정…무기 수출 길 열어",
           "score": 1
-        },
-        {
-          "date": "20261026",
-          "type": "positive",
-          "headline": "'리야드 공습 여파' 사우디 실내무도AG, 내년 3월로 연기",
-          "score": 1
         }
       ]
     },
     "전력·에너지": {
-      "score": 0,
-      "positive_count": 0,
-      "negative_count": 0,
-      "recent_events": []
-    },
-    "로봇": {
       "score": 1,
       "positive_count": 1,
       "negative_count": 0,
@@ -140,10 +134,16 @@
         {
           "date": "20261028",
           "type": "positive",
-          "headline": "엔비디아 매디슨 황, 내달 한국 또 찾는다…피지컬 AI 협력 주목",
+          "headline": "정부, 절차 간소화로 포항 AI 데이터센터 건설 속도 높여",
           "score": 1
         }
       ]
+    },
+    "로봇": {
+      "score": 0,
+      "positive_count": 0,
+      "negative_count": 0,
+      "recent_events": []
     },
     "금융": {
       "score": -10,
@@ -227,14 +227,20 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 3,
+      "positive_count": 4,
       "negative_count": 17,
       "recent_events": [
         {
           "date": "20261028",
+          "type": "positive",
+          "headline": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
+          "score": 1
+        },
+        {
+          "date": "20261028",
           "type": "negative",
           "headline": "[거시분석] Dream postponed: Hebron groom caught in Israe...",
-          "score": -6
+          "score": -5
         },
         {
           "date": "20261027",
@@ -253,12 +259,6 @@
           "type": "negative",
           "headline": "[거시분석] Russia to host first Olympic federation world...",
           "score": -5
-        },
-        {
-          "date": "20261025",
-          "type": "negative",
-          "headline": "[거시분석] Musk says SpaceX restricted Ukraine's Starlin...",
-          "score": -9
         }
       ]
     }
@@ -739,9 +739,18 @@
     },
     {
       "date": "20261028",
-      "headline": "엔비디아 매디슨 황, 내달 한국 또 찾는다…피지컬 AI 협력 주목",
+      "headline": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
       "impacts": {
-        "로봇": 1
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261028",
+      "headline": "정부, 절차 간소화로 포항 AI 데이터센터 건설 속도 높여",
+      "impacts": {
+        "전력·에너지": 1
       },
       "source": "keyword"
     },
@@ -750,14 +759,14 @@
       "headline": "[거시분석] Dream postponed: Hebron groom caught in Israe...",
       "impacts": {
         "방산": 1,
-        "전체시장": -6,
+        "전체시장": -5,
         "금융": -1,
         "건설": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 51,
-  "total_positives": 49,
+  "total_negatives": 52,
+  "total_positives": 50,
   "risk_level": "EXTREME"
 }
