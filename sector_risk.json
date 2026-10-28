@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-28T17:03:11.218658+09:00",
-  "date": "20261028",
+  "updated_at": "2026-10-29T01:29:27.750686+09:00",
+  "date": "20261029",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,9 +16,9 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -7,
-      "positive_count": 5,
-      "negative_count": 6,
+      "score": -6,
+      "positive_count": 4,
+      "negative_count": 5,
       "recent_events": [
         {
           "date": "20261024",
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20261029",
+          "type": "negative",
+          "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
+          "score": -2
+        },
         {
           "date": "20261028",
           "type": "negative",
@@ -80,20 +86,26 @@
           "type": "negative",
           "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
           "score": -2
-        },
-        {
-          "date": "20261019",
-          "type": "negative",
-          "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
-          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 22,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20261029",
+          "type": "negative",
+          "headline": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
+          "score": -1
+        },
+        {
+          "date": "20261029",
+          "type": "positive",
+          "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
+          "score": 3
+        },
         {
           "date": "20261028",
           "type": "negative",
@@ -111,18 +123,6 @@
           "type": "negative",
           "headline": "Truce begins in Ukraine city where residents ate weeds to survive",
           "score": -1
-        },
-        {
-          "date": "20261027",
-          "type": "positive",
-          "headline": "[거시분석] Truce begins in Ukraine city where residents ...",
-          "score": 1
-        },
-        {
-          "date": "20261026",
-          "type": "positive",
-          "headline": "日, 핀란드와 방위장비 이전 협정…무기 수출 길 열어",
-          "score": 1
         }
       ]
     },
@@ -141,8 +141,20 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 13,
+      "negative_count": 14,
       "recent_events": [
+        {
+          "date": "20261029",
+          "type": "negative",
+          "headline": "캐나다, 3년 3개월 만에 금리 인상…기준금리 연 2.50%로 상향",
+          "score": -1
+        },
+        {
+          "date": "20261029",
+          "type": "negative",
+          "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
+          "score": -3
+        },
         {
           "date": "20261028",
           "type": "negative",
@@ -160,24 +172,12 @@
           "type": "negative",
           "headline": "[거시분석] Russia to host first Olympic federation world...",
           "score": -1
-        },
-        {
-          "date": "20261025",
-          "type": "negative",
-          "headline": "[거시분석] Musk says SpaceX restricted Ukraine's Starlin...",
-          "score": -1
-        },
-        {
-          "date": "20261024",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
       "score": 10,
-      "positive_count": 18,
+      "positive_count": 17,
       "negative_count": 0,
       "recent_events": [
         {
@@ -220,9 +220,21 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 4,
+      "positive_count": 5,
       "negative_count": 17,
       "recent_events": [
+        {
+          "date": "20261029",
+          "type": "positive",
+          "headline": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
+          "score": 1
+        },
+        {
+          "date": "20261029",
+          "type": "negative",
+          "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
+          "score": -8
+        },
         {
           "date": "20261028",
           "type": "positive",
@@ -240,50 +252,11 @@
           "type": "positive",
           "headline": "Truce begins in Ukraine city where residents ate weeds to survive",
           "score": 1
-        },
-        {
-          "date": "20261027",
-          "type": "negative",
-          "headline": "[거시분석] Truce begins in Ukraine city where residents ...",
-          "score": -4
-        },
-        {
-          "date": "20261026",
-          "type": "negative",
-          "headline": "[거시분석] Russia to host first Olympic federation world...",
-          "score": -5
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20261014",
-      "headline": "Starlink restrictions affecting Ukraine's front line operations, Kyiv says",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261014",
-      "headline": "Saudi employee charged with planting recording device in OpenAI office",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261014",
-      "headline": "[거시분석] Iraq PM tells Saudi Crown Prince Iraqi territ...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -5,
-        "금융": -1,
-        "반도체·AI": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261015",
       "headline": "Trump calls off livestream for Fort Hood shooter's execution by firing squad",
@@ -749,9 +722,37 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261029",
+      "headline": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261029",
+      "headline": "캐나다, 3년 3개월 만에 금리 인상…기준금리 연 2.50%로 상향",
+      "impacts": {
+        "금융": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261029",
+      "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -8,
+        "금융": -3
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 52,
-  "total_positives": 49,
+  "total_negatives": 54,
+  "total_positives": 48,
   "risk_level": "EXTREME"
 }
