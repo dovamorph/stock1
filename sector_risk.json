@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T04:27:20.215477+09:00",
+  "updated_at": "2026-10-30T08:50:50.786914+09:00",
   "date": "20261030",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20261030",
           "type": "negative",
-          "headline": "[거시분석] At least 14 people killed in attack on Ukrain...",
+          "headline": "[거시분석] US sanctions Rwanda's defence ministry over D...",
           "score": -2
         },
         {
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20261030",
-          "type": "negative",
-          "headline": "[거시분석] At least 14 people killed in attack on Ukrain...",
-          "score": -2
-        },
         {
           "date": "20261028",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
           "score": -2
+        },
+        {
+          "date": "20261019",
+          "type": "negative",
+          "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
+          "score": -1
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20261030",
           "type": "positive",
-          "headline": "[거시분석] At least 14 people killed in attack on Ukrain...",
-          "score": 3
+          "headline": "[거시분석] US sanctions Rwanda's defence ministry over D...",
+          "score": 1
         },
         {
           "date": "20261029",
@@ -146,8 +146,8 @@
         {
           "date": "20261030",
           "type": "negative",
-          "headline": "[거시분석] At least 14 people killed in attack on Ukrain...",
-          "score": -2
+          "headline": "[거시분석] US sanctions Rwanda's defence ministry over D...",
+          "score": -1
         },
         {
           "date": "20261029",
@@ -221,25 +221,13 @@
     "전체시장": {
       "score": -10,
       "positive_count": 4,
-      "negative_count": 17,
+      "negative_count": 15,
       "recent_events": [
         {
           "date": "20261030",
           "type": "negative",
-          "headline": "\"민주당이 중간선거 이겨도 2년간 美관세율 달라지지 않을것\"",
-          "score": -1
-        },
-        {
-          "date": "20261030",
-          "type": "negative",
-          "headline": "\"美, 국내 생산확대 車업체에 관세완화 방침…아우디에 확약\"",
-          "score": -1
-        },
-        {
-          "date": "20261030",
-          "type": "negative",
-          "headline": "[거시분석] At least 14 people killed in attack on Ukrain...",
-          "score": -8
+          "headline": "[거시분석] US sanctions Rwanda's defence ministry over D...",
+          "score": -6
         },
         {
           "date": "20261029",
@@ -251,6 +239,18 @@
           "date": "20261028",
           "type": "positive",
           "headline": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
+          "score": 1
+        },
+        {
+          "date": "20261028",
+          "type": "negative",
+          "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
+          "score": -6
+        },
+        {
+          "date": "20261027",
+          "type": "positive",
+          "headline": "Truce begins in Ukraine city where residents ate weeds to survive",
           "score": 1
         }
       ]
@@ -692,34 +692,17 @@
     },
     {
       "date": "20261030",
-      "headline": "\"민주당이 중간선거 이겨도 2년간 美관세율 달라지지 않을것\"",
+      "headline": "[거시분석] US sanctions Rwanda's defence ministry over D...",
       "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261030",
-      "headline": "\"美, 국내 생산확대 車업체에 관세완화 방침…아우디에 확약\"",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261030",
-      "headline": "[거시분석] At least 14 people killed in attack on Ukrain...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -8,
-        "금융": -2,
+        "방산": 1,
+        "전체시장": -6,
+        "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 51,
+  "total_negatives": 48,
   "total_positives": 46,
   "risk_level": "EXTREME"
 }
