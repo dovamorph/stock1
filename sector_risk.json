@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T13:59:00.783340+09:00",
+  "updated_at": "2026-10-29T21:33:00.514965+09:00",
   "date": "20261029",
   "window_days": 14,
   "sectors": [
@@ -92,18 +92,12 @@
     "방산": {
       "score": 10,
       "positive_count": 22,
-      "negative_count": 10,
+      "negative_count": 9,
       "recent_events": [
         {
           "date": "20261029",
-          "type": "negative",
-          "headline": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
-          "score": -1
-        },
-        {
-          "date": "20261029",
           "type": "positive",
-          "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
+          "headline": "[거시분석] Pentagon says Iran war has cost US taxpayers ...",
           "score": 1
         },
         {
@@ -123,6 +117,12 @@
           "type": "negative",
           "headline": "Truce begins in Ukraine city where residents ate weeds to survive",
           "score": -1
+        },
+        {
+          "date": "20261027",
+          "type": "positive",
+          "headline": "[거시분석] Truce begins in Ukraine city where residents ...",
+          "score": 1
         }
       ]
     },
@@ -146,7 +146,7 @@
         {
           "date": "20261029",
           "type": "negative",
-          "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
+          "headline": "[거시분석] Pentagon says Iran war has cost US taxpayers ...",
           "score": -1
         },
         {
@@ -177,9 +177,15 @@
     },
     "우주ETF": {
       "score": 10,
-      "positive_count": 17,
+      "positive_count": 18,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20261029",
+          "type": "positive",
+          "headline": "Elon Musk is a 'real genius', Putin says after satellite talks with SpaceX boss",
+          "score": 1
+        },
         {
           "date": "20261026",
           "type": "positive",
@@ -203,12 +209,6 @@
           "type": "positive",
           "headline": "Why is Ukraine so reliant on Starlink and can Europe plug the gap?",
           "score": 1
-        },
-        {
-          "date": "20261024",
-          "type": "positive",
-          "headline": "Ukraine says Starlink connection 'now stable' after network limits",
-          "score": 1
         }
       ]
     },
@@ -220,20 +220,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 5,
+      "positive_count": 4,
       "negative_count": 17,
       "recent_events": [
         {
           "date": "20261029",
-          "type": "positive",
-          "headline": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
-          "score": 1
-        },
-        {
-          "date": "20261029",
           "type": "negative",
-          "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
-          "score": -2
+          "headline": "[거시분석] Pentagon says Iran war has cost US taxpayers ...",
+          "score": -3
         },
         {
           "date": "20261028",
@@ -252,6 +246,12 @@
           "type": "positive",
           "headline": "Truce begins in Ukraine city where residents ate weeds to survive",
           "score": 1
+        },
+        {
+          "date": "20261027",
+          "type": "negative",
+          "headline": "[거시분석] Truce begins in Ukraine city where residents ...",
+          "score": -4
         }
       ]
     }
@@ -725,25 +725,24 @@
     },
     {
       "date": "20261029",
-      "headline": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
+      "headline": "Elon Musk is a 'real genius', Putin says after satellite talks with SpaceX boss",
       "impacts": {
-        "방산": -1,
-        "전체시장": 1
+        "우주ETF": 1
       },
       "source": "keyword"
     },
     {
       "date": "20261029",
-      "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
+      "headline": "[거시분석] Pentagon says Iran war has cost US taxpayers ...",
       "impacts": {
         "방산": 1,
-        "전체시장": -2,
+        "전체시장": -3,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 52,
+  "total_negatives": 51,
   "total_positives": 48,
   "risk_level": "EXTREME"
 }
