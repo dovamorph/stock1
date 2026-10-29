@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-29T21:33:00.514965+09:00",
-  "date": "20261029",
+  "updated_at": "2026-10-30T04:27:20.215477+09:00",
+  "date": "20261030",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -6,
-      "positive_count": 4,
-      "negative_count": 5,
+      "score": -10,
+      "positive_count": 2,
+      "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20261030",
+          "type": "negative",
+          "headline": "[거시분석] At least 14 people killed in attack on Ukrain...",
+          "score": -2
+        },
         {
           "date": "20261024",
           "type": "negative",
@@ -43,12 +49,6 @@
           "type": "negative",
           "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
           "score": -2
-        },
-        {
-          "date": "20261019",
-          "type": "negative",
-          "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
-          "score": -2
         }
       ]
     },
@@ -57,6 +57,12 @@
       "positive_count": 0,
       "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20261030",
+          "type": "negative",
+          "headline": "[거시분석] At least 14 people killed in attack on Ukrain...",
+          "score": -2
+        },
         {
           "date": "20261028",
           "type": "negative",
@@ -80,20 +86,20 @@
           "type": "negative",
           "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
           "score": -2
-        },
-        {
-          "date": "20261019",
-          "type": "negative",
-          "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
-          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 22,
-      "negative_count": 9,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20261030",
+          "type": "positive",
+          "headline": "[거시분석] At least 14 people killed in attack on Ukrain...",
+          "score": 3
+        },
         {
           "date": "20261029",
           "type": "positive",
@@ -117,12 +123,6 @@
           "type": "negative",
           "headline": "Truce begins in Ukraine city where residents ate weeds to survive",
           "score": -1
-        },
-        {
-          "date": "20261027",
-          "type": "positive",
-          "headline": "[거시분석] Truce begins in Ukraine city where residents ...",
-          "score": 1
         }
       ]
     },
@@ -143,6 +143,12 @@
       "positive_count": 0,
       "negative_count": 13,
       "recent_events": [
+        {
+          "date": "20261030",
+          "type": "negative",
+          "headline": "[거시분석] At least 14 people killed in attack on Ukrain...",
+          "score": -2
+        },
         {
           "date": "20261029",
           "type": "negative",
@@ -166,12 +172,6 @@
           "type": "negative",
           "headline": "[거시분석] Russia to host first Olympic federation world...",
           "score": -1
-        },
-        {
-          "date": "20261025",
-          "type": "negative",
-          "headline": "[거시분석] Musk says SpaceX restricted Ukraine's Starlin...",
-          "score": -1
         }
       ]
     },
@@ -180,6 +180,12 @@
       "positive_count": 18,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20261030",
+          "type": "positive",
+          "headline": "Elon Musk is a 'real genius', Putin says after satellite talks with SpaceX boss",
+          "score": 1
+        },
         {
           "date": "20261029",
           "type": "positive",
@@ -203,12 +209,6 @@
           "type": "positive",
           "headline": "Who actually controls Ukraine's access to Starlink?",
           "score": 1
-        },
-        {
-          "date": "20261025",
-          "type": "positive",
-          "headline": "Why is Ukraine so reliant on Starlink and can Europe plug the gap?",
-          "score": 1
         }
       ]
     },
@@ -224,6 +224,24 @@
       "negative_count": 17,
       "recent_events": [
         {
+          "date": "20261030",
+          "type": "negative",
+          "headline": "\"민주당이 중간선거 이겨도 2년간 美관세율 달라지지 않을것\"",
+          "score": -1
+        },
+        {
+          "date": "20261030",
+          "type": "negative",
+          "headline": "\"美, 국내 생산확대 車업체에 관세완화 방침…아우디에 확약\"",
+          "score": -1
+        },
+        {
+          "date": "20261030",
+          "type": "negative",
+          "headline": "[거시분석] At least 14 people killed in attack on Ukrain...",
+          "score": -8
+        },
+        {
           "date": "20261029",
           "type": "negative",
           "headline": "[거시분석] Pentagon says Iran war has cost US taxpayers ...",
@@ -234,88 +252,11 @@
           "type": "positive",
           "headline": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
           "score": 1
-        },
-        {
-          "date": "20261028",
-          "type": "negative",
-          "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
-          "score": -6
-        },
-        {
-          "date": "20261027",
-          "type": "positive",
-          "headline": "Truce begins in Ukraine city where residents ate weeds to survive",
-          "score": 1
-        },
-        {
-          "date": "20261027",
-          "type": "negative",
-          "headline": "[거시분석] Truce begins in Ukraine city where residents ...",
-          "score": -4
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20261015",
-      "headline": "Trump calls off livestream for Fort Hood shooter's execution by firing squad",
-      "impacts": {
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261015",
-      "headline": "Why is Starlink internet so important on the battlefield in Ukraine?",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261015",
-      "headline": "The irony of OpenAI crying foul over spying",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261015",
-      "headline": "美 9월 생산자물가 전월 대비 1.3% 급등…4년6개월만에 최대(종합)",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261015",
-      "headline": "TSMC, 6분기 연속 순이익 신기록…美텍사스 투자 검토(종합2보)",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261015",
-      "headline": "美 9월 생산자물가 전월 대비 1.3% 급등…전망치 큰폭 상회",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261015",
-      "headline": "[거시분석] Russia accuses Ukraine of attacking oil refin...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261016",
       "headline": "US senators call for investigation into Ukraine's Starlink restrictions",
@@ -740,9 +681,45 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261030",
+      "headline": "Elon Musk is a 'real genius', Putin says after satellite talks with SpaceX boss",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261030",
+      "headline": "\"민주당이 중간선거 이겨도 2년간 美관세율 달라지지 않을것\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261030",
+      "headline": "\"美, 국내 생산확대 車업체에 관세완화 방침…아우디에 확약\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261030",
+      "headline": "[거시분석] At least 14 people killed in attack on Ukrain...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -8,
+        "금융": -2,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
   "total_negatives": 51,
-  "total_positives": 48,
+  "total_positives": 46,
   "risk_level": "EXTREME"
 }
