@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T04:03:02.290684+09:00",
+  "updated_at": "2026-10-31T08:31:04.051140+09:00",
   "date": "20261031",
   "window_days": 14,
   "sectors": [
@@ -92,18 +92,12 @@
     "방산": {
       "score": 10,
       "positive_count": 20,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
         {
           "date": "20261031",
-          "type": "negative",
-          "headline": "러·우크라 국지휴전 나흘째 올레시키 고립 주민들 대피 시작",
-          "score": -1
-        },
-        {
-          "date": "20261031",
           "type": "positive",
-          "headline": "[거시분석] Hundreds evacuated from Russian-occupied Oles...",
+          "headline": "[거시분석] US approves sale of 500 Patriot missiles to U...",
           "score": 1
         },
         {
@@ -123,6 +117,12 @@
           "type": "negative",
           "headline": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
           "score": -1
+        },
+        {
+          "date": "20261028",
+          "type": "positive",
+          "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
+          "score": 3
         }
       ]
     },
@@ -141,14 +141,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 14,
+      "negative_count": 13,
       "recent_events": [
-        {
-          "date": "20261031",
-          "type": "negative",
-          "headline": "[거시분석] Hundreds evacuated from Russian-occupied Oles...",
-          "score": -1
-        },
         {
           "date": "20261030",
           "type": "negative",
@@ -171,6 +165,12 @@
           "date": "20261027",
           "type": "negative",
           "headline": "[거시분석] Truce begins in Ukraine city where residents ...",
+          "score": -1
+        },
+        {
+          "date": "20261026",
+          "type": "negative",
+          "headline": "[거시분석] Russia to host first Olympic federation world...",
           "score": -1
         }
       ]
@@ -220,19 +220,13 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 5,
+      "positive_count": 4,
       "negative_count": 15,
       "recent_events": [
         {
           "date": "20261031",
-          "type": "positive",
-          "headline": "러·우크라 국지휴전 나흘째 올레시키 고립 주민들 대피 시작",
-          "score": 1
-        },
-        {
-          "date": "20261031",
           "type": "negative",
-          "headline": "[거시분석] Hundreds evacuated from Russian-occupied Oles...",
+          "headline": "[거시분석] US approves sale of 500 Patriot missiles to U...",
           "score": -2
         },
         {
@@ -252,6 +246,12 @@
           "type": "positive",
           "headline": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
           "score": 1
+        },
+        {
+          "date": "20261028",
+          "type": "negative",
+          "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
+          "score": -6
         }
       ]
     }
@@ -662,25 +662,15 @@
     },
     {
       "date": "20261031",
-      "headline": "러·우크라 국지휴전 나흘째 올레시키 고립 주민들 대피 시작",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261031",
-      "headline": "[거시분석] Hundreds evacuated from Russian-occupied Oles...",
+      "headline": "[거시분석] US approves sale of 500 Patriot missiles to U...",
       "impacts": {
         "방산": 1,
-        "전체시장": -2,
-        "금융": -1
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 49,
-  "total_positives": 44,
+  "total_negatives": 47,
+  "total_positives": 43,
   "risk_level": "EXTREME"
 }
