@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T13:58:52.821690+09:00",
+  "updated_at": "2026-10-30T21:24:15.343856+09:00",
   "date": "20261030",
   "window_days": 14,
   "sectors": [
@@ -16,20 +16,14 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -9,
-      "positive_count": 3,
+      "score": -10,
+      "positive_count": 2,
       "negative_count": 6,
       "recent_events": [
         {
           "date": "20261030",
-          "type": "positive",
-          "headline": "TSMC, LCD패널 AUO 타이중공장 1조5천억원에 인수",
-          "score": 1
-        },
-        {
-          "date": "20261030",
           "type": "negative",
-          "headline": "[거시분석] US sanctions Rwanda's defence ministry over D...",
+          "headline": "[거시분석] US weighs new Iran strikes as Vance reaches o...",
           "score": -2
         },
         {
@@ -49,14 +43,32 @@
           "type": "positive",
           "headline": "Ex-OpenAI worker accused of planting bug had Saudi support, claims prosecutors",
           "score": 1
+        },
+        {
+          "date": "20261020",
+          "type": "negative",
+          "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
+          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
-      "positive_count": 0,
-      "negative_count": 6,
+      "positive_count": 1,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20261030",
+          "type": "positive",
+          "headline": "강남 은마 795㎡ 소유권 정태수 상속인에…\"재건축엔 지장 없어\"",
+          "score": 1
+        },
+        {
+          "date": "20261030",
+          "type": "negative",
+          "headline": "[거시분석] US weighs new Iran strikes as Vance reaches o...",
+          "score": -2
+        },
         {
           "date": "20261028",
           "type": "negative",
@@ -74,18 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] Musk says SpaceX restricted Ukraine's Starlin...",
           "score": -4
-        },
-        {
-          "date": "20261024",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
-          "score": -2
-        },
-        {
-          "date": "20261019",
-          "type": "negative",
-          "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
-          "score": -1
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20261030",
           "type": "positive",
-          "headline": "[거시분석] US sanctions Rwanda's defence ministry over D...",
-          "score": 1
+          "headline": "[거시분석] US weighs new Iran strikes as Vance reaches o...",
+          "score": 3
         },
         {
           "date": "20261029",
@@ -146,7 +146,7 @@
         {
           "date": "20261030",
           "type": "negative",
-          "headline": "[거시분석] US sanctions Rwanda's defence ministry over D...",
+          "headline": "[거시분석] US weighs new Iran strikes as Vance reaches o...",
           "score": -1
         },
         {
@@ -177,15 +177,9 @@
     },
     "우주ETF": {
       "score": 10,
-      "positive_count": 18,
+      "positive_count": 17,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20261030",
-          "type": "positive",
-          "headline": "Elon Musk is a 'real genius', Putin says after satellite talks with SpaceX boss",
-          "score": 1
-        },
         {
           "date": "20261029",
           "type": "positive",
@@ -209,6 +203,12 @@
           "type": "positive",
           "headline": "Who actually controls Ukraine's access to Starlink?",
           "score": 1
+        },
+        {
+          "date": "20261025",
+          "type": "positive",
+          "headline": "Why is Ukraine so reliant on Starlink and can Europe plug the gap?",
+          "score": 1
         }
       ]
     },
@@ -226,8 +226,8 @@
         {
           "date": "20261030",
           "type": "negative",
-          "headline": "[거시분석] US sanctions Rwanda's defence ministry over D...",
-          "score": -5
+          "headline": "[거시분석] US weighs new Iran strikes as Vance reaches o...",
+          "score": -7
         },
         {
           "date": "20261029",
@@ -684,33 +684,26 @@
     },
     {
       "date": "20261030",
-      "headline": "Elon Musk is a 'real genius', Putin says after satellite talks with SpaceX boss",
+      "headline": "강남 은마 795㎡ 소유권 정태수 상속인에…\"재건축엔 지장 없어\"",
       "impacts": {
-        "우주ETF": 1
+        "건설": 1
       },
       "source": "keyword"
     },
     {
       "date": "20261030",
-      "headline": "TSMC, LCD패널 AUO 타이중공장 1조5천억원에 인수",
+      "headline": "[거시분석] US weighs new Iran strikes as Vance reaches o...",
       "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261030",
-      "headline": "[거시분석] US sanctions Rwanda's defence ministry over D...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -5,
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -7,
         "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 48,
-  "total_positives": 47,
+  "total_negatives": 49,
+  "total_positives": 46,
   "risk_level": "EXTREME"
 }
