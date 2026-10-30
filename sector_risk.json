@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T08:50:50.786914+09:00",
+  "updated_at": "2026-10-30T13:58:52.821690+09:00",
   "date": "20261030",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -10,
-      "positive_count": 2,
+      "score": -9,
+      "positive_count": 3,
       "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20261030",
+          "type": "positive",
+          "headline": "TSMC, LCD패널 AUO 타이중공장 1조5천억원에 인수",
+          "score": 1
+        },
         {
           "date": "20261030",
           "type": "negative",
@@ -43,12 +49,6 @@
           "type": "positive",
           "headline": "Ex-OpenAI worker accused of planting bug had Saudi support, claims prosecutors",
           "score": 1
-        },
-        {
-          "date": "20261020",
-          "type": "negative",
-          "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
-          "score": -2
         }
       ]
     },
@@ -227,7 +227,7 @@
           "date": "20261030",
           "type": "negative",
           "headline": "[거시분석] US sanctions Rwanda's defence ministry over D...",
-          "score": -6
+          "score": -5
         },
         {
           "date": "20261029",
@@ -692,10 +692,18 @@
     },
     {
       "date": "20261030",
+      "headline": "TSMC, LCD패널 AUO 타이중공장 1조5천억원에 인수",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261030",
       "headline": "[거시분석] US sanctions Rwanda's defence ministry over D...",
       "impacts": {
         "방산": 1,
-        "전체시장": -6,
+        "전체시장": -5,
         "금융": -1,
         "반도체·AI": -2
       },
@@ -703,6 +711,6 @@
     }
   ],
   "total_negatives": 48,
-  "total_positives": 46,
+  "total_positives": 47,
   "risk_level": "EXTREME"
 }
