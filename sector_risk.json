@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-30T21:24:15.343856+09:00",
-  "date": "20261030",
+  "updated_at": "2026-10-31T04:03:02.290684+09:00",
+  "date": "20261031",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -10,
-      "positive_count": 2,
+      "score": -9,
+      "positive_count": 3,
       "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20261031",
+          "type": "positive",
+          "headline": "China denies allegations of spy operation targeting Nvidia CEO",
+          "score": 1
+        },
         {
           "date": "20261030",
           "type": "negative",
@@ -43,19 +49,13 @@
           "type": "positive",
           "headline": "Ex-OpenAI worker accused of planting bug had Saudi support, claims prosecutors",
           "score": 1
-        },
-        {
-          "date": "20261020",
-          "type": "negative",
-          "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
-          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
         {
           "date": "20261030",
@@ -91,9 +91,21 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 22,
+      "positive_count": 20,
       "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20261031",
+          "type": "negative",
+          "headline": "러·우크라 국지휴전 나흘째 올레시키 고립 주민들 대피 시작",
+          "score": -1
+        },
+        {
+          "date": "20261031",
+          "type": "positive",
+          "headline": "[거시분석] Hundreds evacuated from Russian-occupied Oles...",
+          "score": 1
+        },
         {
           "date": "20261030",
           "type": "positive",
@@ -110,18 +122,6 @@
           "date": "20261028",
           "type": "negative",
           "headline": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
-          "score": -1
-        },
-        {
-          "date": "20261028",
-          "type": "positive",
-          "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
-          "score": 3
-        },
-        {
-          "date": "20261027",
-          "type": "negative",
-          "headline": "Truce begins in Ukraine city where residents ate weeds to survive",
           "score": -1
         }
       ]
@@ -141,8 +141,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 13,
+      "negative_count": 14,
       "recent_events": [
+        {
+          "date": "20261031",
+          "type": "negative",
+          "headline": "[거시분석] Hundreds evacuated from Russian-occupied Oles...",
+          "score": -1
+        },
         {
           "date": "20261030",
           "type": "negative",
@@ -166,18 +172,12 @@
           "type": "negative",
           "headline": "[거시분석] Truce begins in Ukraine city where residents ...",
           "score": -1
-        },
-        {
-          "date": "20261026",
-          "type": "negative",
-          "headline": "[거시분석] Russia to host first Olympic federation world...",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
       "score": 10,
-      "positive_count": 17,
+      "positive_count": 15,
       "negative_count": 0,
       "recent_events": [
         {
@@ -220,9 +220,21 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 4,
+      "positive_count": 5,
       "negative_count": 15,
       "recent_events": [
+        {
+          "date": "20261031",
+          "type": "positive",
+          "headline": "러·우크라 국지휴전 나흘째 올레시키 고립 주민들 대피 시작",
+          "score": 1
+        },
+        {
+          "date": "20261031",
+          "type": "negative",
+          "headline": "[거시분석] Hundreds evacuated from Russian-occupied Oles...",
+          "score": -2
+        },
         {
           "date": "20261030",
           "type": "negative",
@@ -240,73 +252,11 @@
           "type": "positive",
           "headline": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
           "score": 1
-        },
-        {
-          "date": "20261028",
-          "type": "negative",
-          "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
-          "score": -6
-        },
-        {
-          "date": "20261027",
-          "type": "positive",
-          "headline": "Truce begins in Ukraine city where residents ate weeds to survive",
-          "score": 1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20261016",
-      "headline": "US senators call for investigation into Ukraine's Starlink restrictions",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261016",
-      "headline": "Trump calls off livestream of Fort Hood attacker's execution by firing squad",
-      "impacts": {
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261016",
-      "headline": "Houthi missile attack on Yemeni presidential palace kills five, minister says",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261016",
-      "headline": "Why is Starlink internet so important on the battlefield in Ukraine?",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261016",
-      "headline": "\"베를린 소녀상 철거, 한일 외교전 실패\"…외통위 국감서 지적",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261016",
-      "headline": "[거시분석] Zelensky says Ukraine has right to defend its...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -3
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261017",
       "headline": "Trump denies limiting Ukraine access to Starlink network",
@@ -701,9 +651,36 @@
         "반도체·AI": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261031",
+      "headline": "China denies allegations of spy operation targeting Nvidia CEO",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261031",
+      "headline": "러·우크라 국지휴전 나흘째 올레시키 고립 주민들 대피 시작",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261031",
+      "headline": "[거시분석] Hundreds evacuated from Russian-occupied Oles...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -2,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
   "total_negatives": 49,
-  "total_positives": 46,
+  "total_positives": 44,
   "risk_level": "EXTREME"
 }
