@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-31T20:54:38.135098+09:00",
-  "date": "20261031",
+  "updated_at": "2026-11-01T02:00:57.987717+09:00",
+  "date": "20261101",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,9 +16,9 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -9,
+      "score": -7,
       "positive_count": 3,
-      "negative_count": 6,
+      "negative_count": 5,
       "recent_events": [
         {
           "date": "20261031",
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20261101",
+          "type": "negative",
+          "headline": "[거시분석] US approves sale of 500 Patriot missiles to U...",
+          "score": -2
+        },
         {
           "date": "20261030",
           "type": "positive",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] Russia to host first Olympic federation world...",
           "score": -2
-        },
-        {
-          "date": "20261025",
-          "type": "negative",
-          "headline": "[거시분석] Musk says SpaceX restricted Ukraine's Starlin...",
-          "score": -4
         }
       ]
     },
@@ -94,6 +94,12 @@
       "positive_count": 20,
       "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20261101",
+          "type": "positive",
+          "headline": "[거시분석] US approves sale of 500 Patriot missiles to U...",
+          "score": 3
+        },
         {
           "date": "20261031",
           "type": "positive",
@@ -117,12 +123,6 @@
           "type": "negative",
           "headline": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
           "score": -1
-        },
-        {
-          "date": "20261028",
-          "type": "positive",
-          "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
-          "score": 3
         }
       ]
     },
@@ -143,6 +143,12 @@
       "positive_count": 0,
       "negative_count": 13,
       "recent_events": [
+        {
+          "date": "20261101",
+          "type": "negative",
+          "headline": "[거시분석] US approves sale of 500 Patriot missiles to U...",
+          "score": -1
+        },
         {
           "date": "20261030",
           "type": "negative",
@@ -166,18 +172,12 @@
           "type": "negative",
           "headline": "[거시분석] Truce begins in Ukraine city where residents ...",
           "score": -1
-        },
-        {
-          "date": "20261026",
-          "type": "negative",
-          "headline": "[거시분석] Russia to host first Olympic federation world...",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
       "score": 10,
-      "positive_count": 15,
+      "positive_count": 12,
       "negative_count": 0,
       "recent_events": [
         {
@@ -224,6 +224,12 @@
       "negative_count": 15,
       "recent_events": [
         {
+          "date": "20261101",
+          "type": "negative",
+          "headline": "[거시분석] US approves sale of 500 Patriot missiles to U...",
+          "score": -5
+        },
+        {
           "date": "20261031",
           "type": "negative",
           "headline": "[거시분석] US approves sale of 500 Patriot missiles to U...",
@@ -246,52 +252,11 @@
           "type": "positive",
           "headline": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
           "score": 1
-        },
-        {
-          "date": "20261028",
-          "type": "negative",
-          "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
-          "score": -6
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20261017",
-      "headline": "Trump denies limiting Ukraine access to Starlink network",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261017",
-      "headline": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261017",
-      "headline": "Watch: What does Starlink have to do with the Ukraine-Russia war?",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261017",
-      "headline": "[거시분석] Trump waives several Russia sanctions as row ...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -5,
-        "금융": -1,
-        "반도체·AI": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261018",
       "headline": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
@@ -668,9 +633,20 @@
         "전체시장": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261101",
+      "headline": "[거시분석] US approves sale of 500 Patriot missiles to U...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
   "total_negatives": 47,
-  "total_positives": 43,
+  "total_positives": 40,
   "risk_level": "EXTREME"
 }
