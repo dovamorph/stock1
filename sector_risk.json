@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T02:00:57.987717+09:00",
+  "updated_at": "2026-11-01T06:12:53.715935+09:00",
   "date": "20261101",
   "window_days": 14,
   "sectors": [
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20261101",
-          "type": "negative",
-          "headline": "[거시분석] US approves sale of 500 Patriot missiles to U...",
-          "score": -2
-        },
         {
           "date": "20261030",
           "type": "positive",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] Russia to host first Olympic federation world...",
           "score": -2
+        },
+        {
+          "date": "20261025",
+          "type": "negative",
+          "headline": "[거시분석] Musk says SpaceX restricted Ukraine's Starlin...",
+          "score": -4
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20261101",
           "type": "positive",
-          "headline": "[거시분석] US approves sale of 500 Patriot missiles to U...",
-          "score": 3
+          "headline": "[거시분석] How has the ceasefire in Russian-occupied Ole...",
+          "score": 1
         },
         {
           "date": "20261031",
@@ -141,14 +141,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 13,
+      "negative_count": 12,
       "recent_events": [
-        {
-          "date": "20261101",
-          "type": "negative",
-          "headline": "[거시분석] US approves sale of 500 Patriot missiles to U...",
-          "score": -1
-        },
         {
           "date": "20261030",
           "type": "negative",
@@ -171,6 +165,12 @@
           "date": "20261027",
           "type": "negative",
           "headline": "[거시분석] Truce begins in Ukraine city where residents ...",
+          "score": -1
+        },
+        {
+          "date": "20261026",
+          "type": "negative",
+          "headline": "[거시분석] Russia to host first Olympic federation world...",
           "score": -1
         }
       ]
@@ -226,8 +226,8 @@
         {
           "date": "20261101",
           "type": "negative",
-          "headline": "[거시분석] US approves sale of 500 Patriot missiles to U...",
-          "score": -5
+          "headline": "[거시분석] How has the ceasefire in Russian-occupied Ole...",
+          "score": -2
         },
         {
           "date": "20261031",
@@ -636,17 +636,15 @@
     },
     {
       "date": "20261101",
-      "headline": "[거시분석] US approves sale of 500 Patriot missiles to U...",
+      "headline": "[거시분석] How has the ceasefire in Russian-occupied Ole...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
-        "금융": -1
+        "방산": 1,
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 47,
+  "total_negatives": 45,
   "total_positives": 40,
   "risk_level": "EXTREME"
 }
