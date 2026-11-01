@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T06:12:53.715935+09:00",
+  "updated_at": "2026-11-01T09:48:19.572971+09:00",
   "date": "20261101",
   "window_days": 14,
   "sectors": [
@@ -97,7 +97,7 @@
         {
           "date": "20261101",
           "type": "positive",
-          "headline": "[거시분석] How has the ceasefire in Russian-occupied Ole...",
+          "headline": "[거시분석] Iran war live: Araghchi says talks under way ...",
           "score": 1
         },
         {
@@ -133,10 +133,17 @@
       "recent_events": []
     },
     "로봇": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20261101",
+          "type": "positive",
+          "headline": "HD현대로보틱스, 팔란티어와 피지컬 AI 설루션 고도화",
+          "score": 1
+        }
+      ]
     },
     "금융": {
       "score": -10,
@@ -226,7 +233,7 @@
         {
           "date": "20261101",
           "type": "negative",
-          "headline": "[거시분석] How has the ceasefire in Russian-occupied Ole...",
+          "headline": "[거시분석] Iran war live: Araghchi says talks under way ...",
           "score": -2
         },
         {
@@ -636,7 +643,15 @@
     },
     {
       "date": "20261101",
-      "headline": "[거시분석] How has the ceasefire in Russian-occupied Ole...",
+      "headline": "HD현대로보틱스, 팔란티어와 피지컬 AI 설루션 고도화",
+      "impacts": {
+        "로봇": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261101",
+      "headline": "[거시분석] Iran war live: Araghchi says talks under way ...",
       "impacts": {
         "방산": 1,
         "전체시장": -2
@@ -645,6 +660,6 @@
     }
   ],
   "total_negatives": 45,
-  "total_positives": 40,
+  "total_positives": 41,
   "risk_level": "EXTREME"
 }
