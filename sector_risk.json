@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T01:39:24.536965+09:00",
+  "updated_at": "2026-11-02T06:50:19.537088+09:00",
   "date": "20261102",
   "window_days": 14,
   "sectors": [
@@ -54,9 +54,21 @@
     },
     "건설": {
       "score": -10,
-      "positive_count": 1,
-      "negative_count": 6,
+      "positive_count": 2,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20261102",
+          "type": "positive",
+          "headline": "[일문일답] 국빈방한 에르도안 \"가자지구 재건에 韓과 공동사업 가능\"",
+          "score": 1
+        },
+        {
+          "date": "20261102",
+          "type": "negative",
+          "headline": "[거시분석] Russian strikes cut power to thousands in Ukr...",
+          "score": -2
+        },
         {
           "date": "20261030",
           "type": "positive",
@@ -74,43 +86,19 @@
           "type": "negative",
           "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
           "score": -2
-        },
-        {
-          "date": "20261026",
-          "type": "negative",
-          "headline": "[거시분석] Russia to host first Olympic federation world...",
-          "score": -2
-        },
-        {
-          "date": "20261025",
-          "type": "negative",
-          "headline": "[거시분석] Musk says SpaceX restricted Ukraine's Starlin...",
-          "score": -4
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 20,
-      "negative_count": 9,
+      "negative_count": 7,
       "recent_events": [
         {
           "date": "20261102",
-          "type": "negative",
-          "headline": "연장없는 국지휴전…러·우크라, 에너지시설 난타전(종합)",
-          "score": -1
-        },
-        {
-          "date": "20261102",
-          "type": "negative",
-          "headline": "교황 \"러·우크라 올레시키 휴전, 평화 조치로 이어지길\"",
-          "score": -1
-        },
-        {
-          "date": "20261102",
           "type": "positive",
-          "headline": "[거시분석] Israeli attacks on Gaza kill at least nine pe...",
-          "score": 1
+          "headline": "[거시분석] Russian strikes cut power to thousands in Ukr...",
+          "score": 3
         },
         {
           "date": "20261101",
@@ -122,6 +110,18 @@
           "date": "20261031",
           "type": "positive",
           "headline": "[거시분석] US approves sale of 500 Patriot missiles to U...",
+          "score": 1
+        },
+        {
+          "date": "20261030",
+          "type": "positive",
+          "headline": "[거시분석] US weighs new Iran strikes as Vance reaches o...",
+          "score": 3
+        },
+        {
+          "date": "20261029",
+          "type": "positive",
+          "headline": "[거시분석] Pentagon says Iran war has cost US taxpayers ...",
           "score": 1
         }
       ]
@@ -141,14 +141,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 12,
+      "negative_count": 11,
       "recent_events": [
-        {
-          "date": "20261102",
-          "type": "negative",
-          "headline": "[거시분석] Israeli attacks on Gaza kill at least nine pe...",
-          "score": -1
-        },
         {
           "date": "20261030",
           "type": "negative",
@@ -171,6 +165,12 @@
           "date": "20261027",
           "type": "negative",
           "headline": "[거시분석] Truce begins in Ukraine city where residents ...",
+          "score": -1
+        },
+        {
+          "date": "20261026",
+          "type": "negative",
+          "headline": "[거시분석] Russia to host first Olympic federation world...",
           "score": -1
         }
       ]
@@ -220,26 +220,20 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 6,
+      "positive_count": 5,
       "negative_count": 15,
       "recent_events": [
         {
           "date": "20261102",
           "type": "positive",
-          "headline": "연장없는 국지휴전…러·우크라, 에너지시설 난타전(종합)",
-          "score": 1
-        },
-        {
-          "date": "20261102",
-          "type": "positive",
-          "headline": "교황 \"러·우크라 올레시키 휴전, 평화 조치로 이어지길\"",
+          "headline": "Carney signals progress on Canada-US trade deal talks as midterms loom",
           "score": 1
         },
         {
           "date": "20261102",
           "type": "negative",
-          "headline": "[거시분석] Israeli attacks on Gaza kill at least nine pe...",
-          "score": -3
+          "headline": "[거시분석] Russian strikes cut power to thousands in Ukr...",
+          "score": -5
         },
         {
           "date": "20261101",
@@ -252,6 +246,12 @@
           "type": "negative",
           "headline": "[거시분석] US approves sale of 500 Patriot missiles to U...",
           "score": -2
+        },
+        {
+          "date": "20261030",
+          "type": "negative",
+          "headline": "[거시분석] US weighs new Iran strikes as Vance reaches o...",
+          "score": -7
         }
       ]
     }
@@ -642,34 +642,32 @@
     },
     {
       "date": "20261102",
-      "headline": "연장없는 국지휴전…러·우크라, 에너지시설 난타전(종합)",
+      "headline": "Carney signals progress on Canada-US trade deal talks as midterms loom",
       "impacts": {
-        "방산": -1,
         "전체시장": 1
       },
       "source": "keyword"
     },
     {
       "date": "20261102",
-      "headline": "교황 \"러·우크라 올레시키 휴전, 평화 조치로 이어지길\"",
+      "headline": "[일문일답] 국빈방한 에르도안 \"가자지구 재건에 韓과 공동사업 가능\"",
       "impacts": {
-        "방산": -1,
-        "전체시장": 1
+        "건설": 1
       },
       "source": "keyword"
     },
     {
       "date": "20261102",
-      "headline": "[거시분석] Israeli attacks on Gaza kill at least nine pe...",
+      "headline": "[거시분석] Russian strikes cut power to thousands in Ukr...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -3,
-        "금융": -1
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 48,
+  "total_negatives": 46,
   "total_positives": 41,
   "risk_level": "EXTREME"
 }
