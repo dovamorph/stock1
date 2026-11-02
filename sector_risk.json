@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-02T18:02:34.709508+09:00",
-  "date": "20261102",
+  "updated_at": "2026-11-03T05:04:10.326697+09:00",
+  "date": "20261103",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,9 +16,9 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -6,
+      "score": -4,
       "positive_count": 3,
-      "negative_count": 5,
+      "negative_count": 4,
       "recent_events": [
         {
           "date": "20261101",
@@ -58,6 +58,12 @@
       "negative_count": 6,
       "recent_events": [
         {
+          "date": "20261103",
+          "type": "negative",
+          "headline": "[거시분석] Jerusalem Daily: Israel’s lockdown of Hebron ...",
+          "score": -3
+        },
+        {
           "date": "20261030",
           "type": "positive",
           "headline": "강남 은마 795㎡ 소유권 정태수 상속인에…\"재건축엔 지장 없어\"",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] Russia to host first Olympic federation world...",
           "score": -2
-        },
-        {
-          "date": "20261025",
-          "type": "negative",
-          "headline": "[거시분석] Musk says SpaceX restricted Ukraine's Starlin...",
-          "score": -4
         }
       ]
     },
@@ -94,6 +94,12 @@
       "positive_count": 20,
       "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20261103",
+          "type": "positive",
+          "headline": "[거시분석] Jerusalem Daily: Israel’s lockdown of Hebron ...",
+          "score": 2
+        },
         {
           "date": "20261102",
           "type": "negative",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] US approves sale of 500 Patriot missiles to U...",
           "score": 1
-        },
-        {
-          "date": "20261030",
-          "type": "positive",
-          "headline": "[거시분석] US weighs new Iran strikes as Vance reaches o...",
-          "score": 3
         }
       ]
     },
@@ -148,7 +148,7 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 12,
+      "negative_count": 11,
       "recent_events": [
         {
           "date": "20261102",
@@ -231,6 +231,12 @@
       "negative_count": 15,
       "recent_events": [
         {
+          "date": "20261103",
+          "type": "negative",
+          "headline": "[거시분석] Jerusalem Daily: Israel’s lockdown of Hebron ...",
+          "score": -5
+        },
+        {
           "date": "20261102",
           "type": "positive",
           "headline": "Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends",
@@ -253,29 +259,11 @@
           "type": "negative",
           "headline": "[거시분석] US approves sale of 500 Patriot missiles to U...",
           "score": -2
-        },
-        {
-          "date": "20261030",
-          "type": "negative",
-          "headline": "[거시분석] US weighs new Iran strikes as Vance reaches o...",
-          "score": -7
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20261019",
-      "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
-      "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -7,
-        "금융": -2,
-        "반도체·AI": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261020",
       "headline": "Ex-OpenAI worker accused of planting bug had Saudi support, claims prosecutors",
@@ -665,9 +653,19 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261103",
+      "headline": "[거시분석] Jerusalem Daily: Israel’s lockdown of Hebron ...",
+      "impacts": {
+        "방산": 2,
+        "건설": -3,
+        "전체시장": -5
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 46,
+  "total_negatives": 44,
   "total_positives": 41,
   "risk_level": "EXTREME"
 }
