@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T06:50:19.537088+09:00",
+  "updated_at": "2026-11-02T10:21:03.246150+09:00",
   "date": "20261102",
   "window_days": 14,
   "sectors": [
@@ -54,21 +54,9 @@
     },
     "건설": {
       "score": -10,
-      "positive_count": 2,
-      "negative_count": 7,
+      "positive_count": 1,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20261102",
-          "type": "positive",
-          "headline": "[일문일답] 국빈방한 에르도안 \"가자지구 재건에 韓과 공동사업 가능\"",
-          "score": 1
-        },
-        {
-          "date": "20261102",
-          "type": "negative",
-          "headline": "[거시분석] Russian strikes cut power to thousands in Ukr...",
-          "score": -2
-        },
         {
           "date": "20261030",
           "type": "positive",
@@ -86,19 +74,37 @@
           "type": "negative",
           "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
           "score": -2
+        },
+        {
+          "date": "20261026",
+          "type": "negative",
+          "headline": "[거시분석] Russia to host first Olympic federation world...",
+          "score": -2
+        },
+        {
+          "date": "20261025",
+          "type": "negative",
+          "headline": "[거시분석] Musk says SpaceX restricted Ukraine's Starlin...",
+          "score": -4
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 20,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
         {
           "date": "20261102",
+          "type": "negative",
+          "headline": "Kherson braces for return of war as localised Russia-Ukraine truce ends",
+          "score": -1
+        },
+        {
+          "date": "20261102",
           "type": "positive",
-          "headline": "[거시분석] Russian strikes cut power to thousands in Ukr...",
-          "score": 3
+          "headline": "[거시분석] Ukraine air raid app apparently hacked as use...",
+          "score": 1
         },
         {
           "date": "20261101",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] US weighs new Iran strikes as Vance reaches o...",
           "score": 3
-        },
-        {
-          "date": "20261029",
-          "type": "positive",
-          "headline": "[거시분석] Pentagon says Iran war has cost US taxpayers ...",
-          "score": 1
         }
       ]
     },
@@ -220,9 +220,15 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 5,
+      "positive_count": 6,
       "negative_count": 15,
       "recent_events": [
+        {
+          "date": "20261102",
+          "type": "positive",
+          "headline": "Kherson braces for return of war as localised Russia-Ukraine truce ends",
+          "score": 1
+        },
         {
           "date": "20261102",
           "type": "positive",
@@ -232,8 +238,8 @@
         {
           "date": "20261102",
           "type": "negative",
-          "headline": "[거시분석] Russian strikes cut power to thousands in Ukr...",
-          "score": -5
+          "headline": "[거시분석] Ukraine air raid app apparently hacked as use...",
+          "score": -3
         },
         {
           "date": "20261101",
@@ -246,12 +252,6 @@
           "type": "negative",
           "headline": "[거시분석] US approves sale of 500 Patriot missiles to U...",
           "score": -2
-        },
-        {
-          "date": "20261030",
-          "type": "negative",
-          "headline": "[거시분석] US weighs new Iran strikes as Vance reaches o...",
-          "score": -7
         }
       ]
     }
@@ -642,6 +642,15 @@
     },
     {
       "date": "20261102",
+      "headline": "Kherson braces for return of war as localised Russia-Ukraine truce ends",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261102",
       "headline": "Carney signals progress on Canada-US trade deal talks as midterms loom",
       "impacts": {
         "전체시장": 1
@@ -650,19 +659,10 @@
     },
     {
       "date": "20261102",
-      "headline": "[일문일답] 국빈방한 에르도안 \"가자지구 재건에 韓과 공동사업 가능\"",
+      "headline": "[거시분석] Ukraine air raid app apparently hacked as use...",
       "impacts": {
-        "건설": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261102",
-      "headline": "[거시분석] Russian strikes cut power to thousands in Ukr...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5
+        "방산": 1,
+        "전체시장": -3
       },
       "source": "geo_categories"
     }
