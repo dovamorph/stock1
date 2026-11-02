@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T10:21:03.246150+09:00",
+  "updated_at": "2026-11-02T18:02:34.709508+09:00",
   "date": "20261102",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -7,
+      "score": -6,
       "positive_count": 3,
-      "negative_count": 6,
+      "negative_count": 5,
       "recent_events": [
-        {
-          "date": "20261102",
-          "type": "negative",
-          "headline": "These firms you've never heard of are feeding fears the AI bubble could burst",
-          "score": -1
-        },
         {
           "date": "20261101",
           "type": "negative",
@@ -49,6 +43,12 @@
           "type": "negative",
           "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
           "score": -2
+        },
+        {
+          "date": "20261021",
+          "type": "positive",
+          "headline": "Ex-OpenAI worker accused of planting bug had Saudi support, claims prosecutors",
+          "score": 1
         }
       ]
     },
@@ -97,13 +97,13 @@
         {
           "date": "20261102",
           "type": "negative",
-          "headline": "Kherson braces for return of war as localised Russia-Ukraine truce ends",
+          "headline": "Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends",
           "score": -1
         },
         {
           "date": "20261102",
           "type": "positive",
-          "headline": "[거시분석] Ukraine air raid app apparently hacked as use...",
+          "headline": "[거시분석] Israeli strikes in Gaza kill eight including ...",
           "score": 1
         },
         {
@@ -133,16 +133,29 @@
       "recent_events": []
     },
     "로봇": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20261102",
+          "type": "positive",
+          "headline": "국회에 누리호 모형·휴머노이드가…'입법·정책 제안부스' 운영",
+          "score": 1
+        }
+      ]
     },
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 12,
       "recent_events": [
+        {
+          "date": "20261102",
+          "type": "negative",
+          "headline": "[거시분석] Israeli strikes in Gaza kill eight including ...",
+          "score": -1
+        },
         {
           "date": "20261030",
           "type": "negative",
@@ -165,12 +178,6 @@
           "date": "20261027",
           "type": "negative",
           "headline": "[거시분석] Truce begins in Ukraine city where residents ...",
-          "score": -1
-        },
-        {
-          "date": "20261026",
-          "type": "negative",
-          "headline": "[거시분석] Russia to host first Olympic federation world...",
           "score": -1
         }
       ]
@@ -220,26 +227,20 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 6,
+      "positive_count": 5,
       "negative_count": 15,
       "recent_events": [
         {
           "date": "20261102",
           "type": "positive",
-          "headline": "Kherson braces for return of war as localised Russia-Ukraine truce ends",
-          "score": 1
-        },
-        {
-          "date": "20261102",
-          "type": "positive",
-          "headline": "Carney signals progress on Canada-US trade deal talks as midterms loom",
+          "headline": "Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends",
           "score": 1
         },
         {
           "date": "20261102",
           "type": "negative",
-          "headline": "[거시분석] Ukraine air raid app apparently hacked as use...",
-          "score": -3
+          "headline": "[거시분석] Israeli strikes in Gaza kill eight including ...",
+          "score": -2
         },
         {
           "date": "20261101",
@@ -252,6 +253,12 @@
           "type": "negative",
           "headline": "[거시분석] US approves sale of 500 Patriot missiles to U...",
           "score": -2
+        },
+        {
+          "date": "20261030",
+          "type": "negative",
+          "headline": "[거시분석] US weighs new Iran strikes as Vance reaches o...",
+          "score": -7
         }
       ]
     }
@@ -634,15 +641,7 @@
     },
     {
       "date": "20261102",
-      "headline": "These firms you've never heard of are feeding fears the AI bubble could burst",
-      "impacts": {
-        "반도체·AI": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261102",
-      "headline": "Kherson braces for return of war as localised Russia-Ukraine truce ends",
+      "headline": "Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends",
       "impacts": {
         "방산": -1,
         "전체시장": 1
@@ -651,18 +650,19 @@
     },
     {
       "date": "20261102",
-      "headline": "Carney signals progress on Canada-US trade deal talks as midterms loom",
+      "headline": "국회에 누리호 모형·휴머노이드가…'입법·정책 제안부스' 운영",
       "impacts": {
-        "전체시장": 1
+        "로봇": 1
       },
       "source": "keyword"
     },
     {
       "date": "20261102",
-      "headline": "[거시분석] Ukraine air raid app apparently hacked as use...",
+      "headline": "[거시분석] Israeli strikes in Gaza kill eight including ...",
       "impacts": {
         "방산": 1,
-        "전체시장": -3
+        "전체시장": -2,
+        "금융": -1
       },
       "source": "geo_categories"
     }
