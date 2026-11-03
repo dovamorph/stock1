@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-03T20:43:40.454633+09:00",
-  "date": "20261103",
+  "updated_at": "2026-11-04T04:16:12.537684+09:00",
+  "date": "20261104",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,9 +16,9 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -4,
-      "positive_count": 3,
-      "negative_count": 4,
+      "score": -3,
+      "positive_count": 2,
+      "negative_count": 3,
       "recent_events": [
         {
           "date": "20261101",
@@ -54,9 +54,27 @@
     },
     "건설": {
       "score": -10,
-      "positive_count": 1,
-      "negative_count": 5,
+      "positive_count": 3,
+      "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20261104",
+          "type": "positive",
+          "headline": "우크라, 종전협상 앞서 유럽과 안보·재건 논의(종합)",
+          "score": 1
+        },
+        {
+          "date": "20261104",
+          "type": "positive",
+          "headline": "EU, 4일 미·우크라와 안보·전후 재건 회의…영국·나토도 참석",
+          "score": 1
+        },
+        {
+          "date": "20261104",
+          "type": "negative",
+          "headline": "[거시분석] Death toll rises in Ukraine after Russia atta...",
+          "score": -1
+        },
         {
           "date": "20261030",
           "type": "positive",
@@ -68,32 +86,32 @@
           "type": "negative",
           "headline": "[거시분석] US weighs new Iran strikes as Vance reaches o...",
           "score": -2
-        },
-        {
-          "date": "20261028",
-          "type": "negative",
-          "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
-          "score": -2
-        },
-        {
-          "date": "20261026",
-          "type": "negative",
-          "headline": "[거시분석] Russia to host first Olympic federation world...",
-          "score": -2
-        },
-        {
-          "date": "20261025",
-          "type": "negative",
-          "headline": "[거시분석] Musk says SpaceX restricted Ukraine's Starlin...",
-          "score": -4
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 20,
-      "negative_count": 8,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20261104",
+          "type": "negative",
+          "headline": "우크라, 종전협상 앞서 유럽과 안보·재건 논의(종합)",
+          "score": -1
+        },
+        {
+          "date": "20261104",
+          "type": "negative",
+          "headline": "국지휴전 중재한 멜라니아, 러·우크라 대표 백악관 초청",
+          "score": -1
+        },
+        {
+          "date": "20261104",
+          "type": "positive",
+          "headline": "[거시분석] Death toll rises in Ukraine after Russia atta...",
+          "score": 2
+        },
         {
           "date": "20261103",
           "type": "positive",
@@ -105,24 +123,6 @@
           "type": "negative",
           "headline": "Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends",
           "score": -1
-        },
-        {
-          "date": "20261102",
-          "type": "positive",
-          "headline": "[거시분석] Israeli strikes in Gaza kill eight including ...",
-          "score": 1
-        },
-        {
-          "date": "20261101",
-          "type": "positive",
-          "headline": "[거시분석] Trump at Halloween party ‘as himself’ says he...",
-          "score": 1
-        },
-        {
-          "date": "20261031",
-          "type": "positive",
-          "headline": "[거시분석] US approves sale of 500 Patriot missiles to U...",
-          "score": 1
         }
       ]
     },
@@ -133,10 +133,16 @@
       "recent_events": []
     },
     "로봇": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20261104",
+          "type": "positive",
+          "headline": "스노우플레이크, 기업용 AI 에이전트 공개…\"업무흐름 자동화\"",
+          "score": 1
+        },
         {
           "date": "20261102",
           "type": "positive",
@@ -148,7 +154,7 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 10,
       "recent_events": [
         {
           "date": "20261102",
@@ -227,62 +233,43 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 6,
-      "negative_count": 15,
+      "positive_count": 9,
+      "negative_count": 16,
       "recent_events": [
         {
-          "date": "20261103",
+          "date": "20261104",
           "type": "positive",
           "headline": "Trump to remove Rwanda and South Africa from US trade deal",
           "score": 1
         },
         {
-          "date": "20261103",
-          "type": "negative",
-          "headline": "[거시분석] US strikes Iranian island ahead of midterm el...",
-          "score": -3
-        },
-        {
-          "date": "20261102",
+          "date": "20261104",
           "type": "positive",
-          "headline": "Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends",
+          "headline": "우크라, 종전협상 앞서 유럽과 안보·재건 논의(종합)",
           "score": 1
         },
         {
-          "date": "20261102",
+          "date": "20261104",
           "type": "negative",
-          "headline": "[거시분석] Israeli strikes in Gaza kill eight including ...",
-          "score": -2
+          "headline": "남아공, 美 무관세 특혜 중단에 \"영향 제한적\"…일자리 감소 우려",
+          "score": -1
         },
         {
-          "date": "20261101",
+          "date": "20261104",
+          "type": "positive",
+          "headline": "국지휴전 중재한 멜라니아, 러·우크라 대표 백악관 초청",
+          "score": 1
+        },
+        {
+          "date": "20261104",
           "type": "negative",
-          "headline": "[거시분석] Trump at Halloween party ‘as himself’ says he...",
-          "score": -2
+          "headline": "[거시분석] Death toll rises in Ukraine after Russia atta...",
+          "score": -3
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20261020",
-      "headline": "Ex-OpenAI worker accused of planting bug had Saudi support, claims prosecutors",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261020",
-      "headline": "[거시분석] Trump says suspension of Russia sanctions is ...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -5,
-        "금융": -1,
-        "반도체·AI": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261021",
       "headline": "Elon Musk confirms he is considering merging Tesla and SpaceX",
@@ -670,9 +657,70 @@
         "전체시장": -3
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261104",
+      "headline": "Trump to remove Rwanda and South Africa from US trade deal",
+      "impacts": {
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261104",
+      "headline": "우크라, 종전협상 앞서 유럽과 안보·재건 논의(종합)",
+      "impacts": {
+        "건설": 1,
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261104",
+      "headline": "남아공, 美 무관세 특혜 중단에 \"영향 제한적\"…일자리 감소 우려",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261104",
+      "headline": "국지휴전 중재한 멜라니아, 러·우크라 대표 백악관 초청",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261104",
+      "headline": "EU, 4일 미·우크라와 안보·전후 재건 회의…영국·나토도 참석",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261104",
+      "headline": "스노우플레이크, 기업용 AI 에이전트 공개…\"업무흐름 자동화\"",
+      "impacts": {
+        "로봇": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261104",
+      "headline": "[거시분석] Death toll rises in Ukraine after Russia atta...",
+      "impacts": {
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -3
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 43,
-  "total_positives": 42,
+  "total_negatives": 45,
+  "total_positives": 47,
   "risk_level": "EXTREME"
 }
