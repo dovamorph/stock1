@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T12:21:42.431314+09:00",
+  "updated_at": "2026-11-03T20:43:40.454633+09:00",
   "date": "20261103",
   "window_days": 14,
   "sectors": [
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 6,
+      "negative_count": 5,
       "recent_events": [
-        {
-          "date": "20261103",
-          "type": "negative",
-          "headline": "[거시분석] Russian bombing kills 26 people at Ukraine ai...",
-          "score": -1
-        },
         {
           "date": "20261030",
           "type": "positive",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] Russia to host first Olympic federation world...",
           "score": -2
+        },
+        {
+          "date": "20261025",
+          "type": "negative",
+          "headline": "[거시분석] Musk says SpaceX restricted Ukraine's Starlin...",
+          "score": -4
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20261103",
           "type": "positive",
-          "headline": "[거시분석] Russian bombing kills 26 people at Ukraine ai...",
-          "score": 2
+          "headline": "[거시분석] US strikes Iranian island ahead of midterm el...",
+          "score": 1
         },
         {
           "date": "20261102",
@@ -148,14 +148,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 12,
+      "negative_count": 11,
       "recent_events": [
-        {
-          "date": "20261103",
-          "type": "negative",
-          "headline": "[거시분석] Russian bombing kills 26 people at Ukraine ai...",
-          "score": -1
-        },
         {
           "date": "20261102",
           "type": "negative",
@@ -178,6 +172,12 @@
           "date": "20261028",
           "type": "negative",
           "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
+          "score": -1
+        },
+        {
+          "date": "20261027",
+          "type": "negative",
+          "headline": "[거시분석] Truce begins in Ukraine city where residents ...",
           "score": -1
         }
       ]
@@ -239,8 +239,8 @@
         {
           "date": "20261103",
           "type": "negative",
-          "headline": "[거시분석] Russian bombing kills 26 people at Ukraine ai...",
-          "score": -5
+          "headline": "[거시분석] US strikes Iranian island ahead of midterm el...",
+          "score": -3
         },
         {
           "date": "20261102",
@@ -664,17 +664,15 @@
     },
     {
       "date": "20261103",
-      "headline": "[거시분석] Russian bombing kills 26 people at Ukraine ai...",
+      "headline": "[거시분석] US strikes Iranian island ahead of midterm el...",
       "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -5,
-        "금융": -1
+        "방산": 1,
+        "전체시장": -3
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 45,
+  "total_negatives": 43,
   "total_positives": 42,
   "risk_level": "EXTREME"
 }
