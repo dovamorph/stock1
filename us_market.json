@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-03 07:02",
+  "updated": "2026-11-03 11:50",
   "sp500": {
     "close": 7541.4,
     "change": -38.67,
     "change_pct": -0.51
   },
   "nasdaq": {
-    "close": 25164.32,
-    "change": -272.68,
+    "close": 25164.36,
+    "change": -272.64,
     "change_pct": -1.07
   },
   "vix": {
