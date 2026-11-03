@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T05:04:10.326697+09:00",
+  "updated_at": "2026-11-03T12:21:42.431314+09:00",
   "date": "20261103",
   "window_days": 14,
   "sectors": [
@@ -60,8 +60,8 @@
         {
           "date": "20261103",
           "type": "negative",
-          "headline": "[거시분석] Jerusalem Daily: Israel’s lockdown of Hebron ...",
-          "score": -3
+          "headline": "[거시분석] Russian bombing kills 26 people at Ukraine ai...",
+          "score": -1
         },
         {
           "date": "20261030",
@@ -97,7 +97,7 @@
         {
           "date": "20261103",
           "type": "positive",
-          "headline": "[거시분석] Jerusalem Daily: Israel’s lockdown of Hebron ...",
+          "headline": "[거시분석] Russian bombing kills 26 people at Ukraine ai...",
           "score": 2
         },
         {
@@ -148,8 +148,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 12,
       "recent_events": [
+        {
+          "date": "20261103",
+          "type": "negative",
+          "headline": "[거시분석] Russian bombing kills 26 people at Ukraine ai...",
+          "score": -1
+        },
         {
           "date": "20261102",
           "type": "negative",
@@ -172,12 +178,6 @@
           "date": "20261028",
           "type": "negative",
           "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
-          "score": -1
-        },
-        {
-          "date": "20261027",
-          "type": "negative",
-          "headline": "[거시분석] Truce begins in Ukraine city where residents ...",
           "score": -1
         }
       ]
@@ -227,13 +227,19 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 5,
+      "positive_count": 6,
       "negative_count": 15,
       "recent_events": [
         {
           "date": "20261103",
+          "type": "positive",
+          "headline": "Trump to remove Rwanda and South Africa from US trade deal",
+          "score": 1
+        },
+        {
+          "date": "20261103",
           "type": "negative",
-          "headline": "[거시분석] Jerusalem Daily: Israel’s lockdown of Hebron ...",
+          "headline": "[거시분석] Russian bombing kills 26 people at Ukraine ai...",
           "score": -5
         },
         {
@@ -252,12 +258,6 @@
           "date": "20261101",
           "type": "negative",
           "headline": "[거시분석] Trump at Halloween party ‘as himself’ says he...",
-          "score": -2
-        },
-        {
-          "date": "20261031",
-          "type": "negative",
-          "headline": "[거시분석] US approves sale of 500 Patriot missiles to U...",
           "score": -2
         }
       ]
@@ -656,16 +656,25 @@
     },
     {
       "date": "20261103",
-      "headline": "[거시분석] Jerusalem Daily: Israel’s lockdown of Hebron ...",
+      "headline": "Trump to remove Rwanda and South Africa from US trade deal",
+      "impacts": {
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261103",
+      "headline": "[거시분석] Russian bombing kills 26 people at Ukraine ai...",
       "impacts": {
         "방산": 2,
-        "건설": -3,
-        "전체시장": -5
+        "건설": -1,
+        "전체시장": -5,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 44,
-  "total_positives": 41,
+  "total_negatives": 45,
+  "total_positives": 42,
   "risk_level": "EXTREME"
 }
