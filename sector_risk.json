@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-04T17:47:29.605142+09:00",
-  "date": "20261104",
+  "updated_at": "2026-11-05T02:50:50.917303+09:00",
+  "date": "20261105",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -3,
-      "positive_count": 2,
-      "negative_count": 3,
+      "score": -6,
+      "positive_count": 1,
+      "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20261105",
+          "type": "negative",
+          "headline": "[거시분석] US midterm results a 'victory' for Canadians ...",
+          "score": -2
+        },
         {
           "date": "20261101",
           "type": "negative",
@@ -43,12 +49,6 @@
           "type": "negative",
           "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
           "score": -2
-        },
-        {
-          "date": "20261021",
-          "type": "positive",
-          "headline": "Ex-OpenAI worker accused of planting bug had Saudi support, claims prosecutors",
-          "score": 1
         }
       ]
     },
@@ -95,6 +95,12 @@
       "negative_count": 8,
       "recent_events": [
         {
+          "date": "20261105",
+          "type": "positive",
+          "headline": "[거시분석] US midterm results a 'victory' for Canadians ...",
+          "score": 1
+        },
+        {
           "date": "20261104",
           "type": "positive",
           "headline": "[거시분석] Four tankers destroyed by naval mines in Stra...",
@@ -116,12 +122,6 @@
           "date": "20261102",
           "type": "positive",
           "headline": "[거시분석] Israeli strikes in Gaza kill eight including ...",
-          "score": 1
-        },
-        {
-          "date": "20261101",
-          "type": "positive",
-          "headline": "[거시분석] Trump at Halloween party ‘as himself’ says he...",
           "score": 1
         }
       ]
@@ -151,6 +151,12 @@
       "negative_count": 11,
       "recent_events": [
         {
+          "date": "20261105",
+          "type": "negative",
+          "headline": "[거시분석] US midterm results a 'victory' for Canadians ...",
+          "score": -1
+        },
+        {
           "date": "20261104",
           "type": "negative",
           "headline": "[거시분석] Four tankers destroyed by naval mines in Stra...",
@@ -173,18 +179,12 @@
           "type": "negative",
           "headline": "[거시분석] Pentagon says Iran war has cost US taxpayers ...",
           "score": -1
-        },
-        {
-          "date": "20261028",
-          "type": "negative",
-          "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 10,
-      "positive_count": 11,
+      "score": 9,
+      "positive_count": 9,
       "negative_count": 0,
       "recent_events": [
         {
@@ -228,76 +228,42 @@
     "전체시장": {
       "score": -10,
       "positive_count": 6,
-      "negative_count": 15,
+      "negative_count": 18,
       "recent_events": [
+        {
+          "date": "20261105",
+          "type": "negative",
+          "headline": "US midterm results a 'victory' for Canadians hopeful of tariff relief",
+          "score": -1
+        },
+        {
+          "date": "20261105",
+          "type": "negative",
+          "headline": "[美중간선거] 트럼프, 대외정책서 폭주하나…이란공격·추가관세 우려",
+          "score": -1
+        },
+        {
+          "date": "20261105",
+          "type": "negative",
+          "headline": "코트라 \"미국 관세정책 유지 전망…쟁점법안 거부권 가능성\"",
+          "score": -1
+        },
+        {
+          "date": "20261105",
+          "type": "negative",
+          "headline": "[거시분석] US midterm results a 'victory' for Canadians ...",
+          "score": -5
+        },
         {
           "date": "20261104",
           "type": "negative",
           "headline": "[거시분석] Four tankers destroyed by naval mines in Stra...",
           "score": -3
-        },
-        {
-          "date": "20261103",
-          "type": "positive",
-          "headline": "Trump to remove Rwanda and South Africa from US trade deal",
-          "score": 1
-        },
-        {
-          "date": "20261103",
-          "type": "negative",
-          "headline": "[거시분석] US strikes Iranian island ahead of midterm el...",
-          "score": -3
-        },
-        {
-          "date": "20261102",
-          "type": "positive",
-          "headline": "Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends",
-          "score": 1
-        },
-        {
-          "date": "20261102",
-          "type": "negative",
-          "headline": "[거시분석] Israeli strikes in Gaza kill eight including ...",
-          "score": -2
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20261021",
-      "headline": "Elon Musk confirms he is considering merging Tesla and SpaceX",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261021",
-      "headline": "Ex-OpenAI worker accused of planting bug had Saudi support, claims prosecutors",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261021",
-      "headline": "Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261021",
-      "headline": "[거시분석] Tennis star Svitolina says emotional toll of ...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -3,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261022",
       "headline": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
@@ -661,9 +627,44 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261105",
+      "headline": "US midterm results a 'victory' for Canadians hopeful of tariff relief",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261105",
+      "headline": "[美중간선거] 트럼프, 대외정책서 폭주하나…이란공격·추가관세 우려",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261105",
+      "headline": "코트라 \"미국 관세정책 유지 전망…쟁점법안 거부권 가능성\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261105",
+      "headline": "[거시분석] US midterm results a 'victory' for Canadians ...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -5,
+        "금융": -1,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
-  "total_positives": 41,
+  "total_negatives": 46,
+  "total_positives": 38,
   "risk_level": "EXTREME"
 }
