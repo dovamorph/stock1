@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T08:24:49.669348+09:00",
+  "updated_at": "2026-11-05T14:49:55.008890+09:00",
   "date": "20261105",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -6,
+      "score": -4,
       "positive_count": 1,
-      "negative_count": 4,
+      "negative_count": 3,
       "recent_events": [
-        {
-          "date": "20261105",
-          "type": "negative",
-          "headline": "[거시분석] US midterm results a 'victory' for Canadians ...",
-          "score": -2
-        },
         {
           "date": "20261101",
           "type": "negative",
@@ -97,7 +91,7 @@
         {
           "date": "20261105",
           "type": "positive",
-          "headline": "[거시분석] US midterm results a 'victory' for Canadians ...",
+          "headline": "[거시분석] Vance walks Trump tightrope with scathing ele...",
           "score": 1
         },
         {
@@ -127,17 +121,10 @@
       ]
     },
     "전력·에너지": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 0,
+      "positive_count": 0,
       "negative_count": 0,
-      "recent_events": [
-        {
-          "date": "20261105",
-          "type": "positive",
-          "headline": "IBK증권, LG유플러스 목표가↑…\"AI 데이터센터 중심 고성장\"",
-          "score": 1
-        }
-      ]
+      "recent_events": []
     },
     "로봇": {
       "score": 1,
@@ -155,8 +142,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 11,
       "recent_events": [
+        {
+          "date": "20261105",
+          "type": "negative",
+          "headline": "[거시분석] Vance walks Trump tightrope with scathing ele...",
+          "score": -1
+        },
         {
           "date": "20261104",
           "type": "negative",
@@ -179,12 +172,6 @@
           "date": "20261029",
           "type": "negative",
           "headline": "[거시분석] Pentagon says Iran war has cost US taxpayers ...",
-          "score": -1
-        },
-        {
-          "date": "20261028",
-          "type": "negative",
-          "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
           "score": -1
         }
       ]
@@ -235,19 +222,13 @@
     "전체시장": {
       "score": -10,
       "positive_count": 6,
-      "negative_count": 16,
+      "negative_count": 15,
       "recent_events": [
         {
           "date": "20261105",
           "type": "negative",
-          "headline": "US midterm results a 'victory' for Canadians hopeful of tariff relief",
-          "score": -1
-        },
-        {
-          "date": "20261105",
-          "type": "negative",
-          "headline": "[거시분석] US midterm results a 'victory' for Canadians ...",
-          "score": -4
+          "headline": "[거시분석] Vance walks Trump tightrope with scathing ele...",
+          "score": -2
         },
         {
           "date": "20261104",
@@ -266,6 +247,12 @@
           "type": "negative",
           "headline": "[거시분석] US strikes Iranian island ahead of midterm el...",
           "score": -3
+        },
+        {
+          "date": "20261102",
+          "type": "positive",
+          "headline": "Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends",
+          "score": 1
         }
       ]
     }
@@ -637,32 +624,16 @@
     },
     {
       "date": "20261105",
-      "headline": "US midterm results a 'victory' for Canadians hopeful of tariff relief",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261105",
-      "headline": "IBK증권, LG유플러스 목표가↑…\"AI 데이터센터 중심 고성장\"",
-      "impacts": {
-        "전력·에너지": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261105",
-      "headline": "[거시분석] US midterm results a 'victory' for Canadians ...",
+      "headline": "[거시분석] Vance walks Trump tightrope with scathing ele...",
       "impacts": {
         "방산": 1,
-        "전체시장": -4,
-        "반도체·AI": -2
+        "전체시장": -2,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 43,
-  "total_positives": 39,
+  "total_negatives": 42,
+  "total_positives": 38,
   "risk_level": "EXTREME"
 }
