@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-05T23:19:28.824463+09:00",
-  "date": "20261105",
+  "updated_at": "2026-11-06T06:49:43.212962+09:00",
+  "date": "20261106",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -91,9 +91,21 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 20,
-      "negative_count": 8,
+      "positive_count": 19,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20261106",
+          "type": "negative",
+          "headline": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
+          "score": -1
+        },
+        {
+          "date": "20261106",
+          "type": "positive",
+          "headline": "[거시분석] Melania Trump calls for lasting Ukraine truce...",
+          "score": 1
+        },
         {
           "date": "20261105",
           "type": "positive",
@@ -110,18 +122,6 @@
           "date": "20261103",
           "type": "positive",
           "headline": "[거시분석] US strikes Iranian island ahead of midterm el...",
-          "score": 1
-        },
-        {
-          "date": "20261102",
-          "type": "negative",
-          "headline": "Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends",
-          "score": -1
-        },
-        {
-          "date": "20261102",
-          "type": "positive",
-          "headline": "[거시분석] Israeli strikes in Gaza kill eight including ...",
           "score": 1
         }
       ]
@@ -227,9 +227,21 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 6,
+      "positive_count": 7,
       "negative_count": 15,
       "recent_events": [
+        {
+          "date": "20261106",
+          "type": "positive",
+          "headline": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
+          "score": 1
+        },
+        {
+          "date": "20261106",
+          "type": "negative",
+          "headline": "[거시분석] Melania Trump calls for lasting Ukraine truce...",
+          "score": -1
+        },
         {
           "date": "20261105",
           "type": "negative",
@@ -247,56 +259,11 @@
           "type": "positive",
           "headline": "Trump to remove Rwanda and South Africa from US trade deal",
           "score": 1
-        },
-        {
-          "date": "20261103",
-          "type": "negative",
-          "headline": "[거시분석] US strikes Iranian island ahead of midterm el...",
-          "score": -3
-        },
-        {
-          "date": "20261102",
-          "type": "positive",
-          "headline": "Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends",
-          "score": 1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20261022",
-      "headline": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
-      "impacts": {
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261022",
-      "headline": "How Sudan’s shift to drone warfare is fuelling a civilian crisis",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261022",
-      "headline": "Russia and Ukraine trade attacks despite pledging to resume peace talks",
-      "impacts": {
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261022",
-      "headline": "[거시분석] Missiles hit Kyiv after Russia agrees to US c...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261023",
       "headline": "Ukraine says Starlink still restricted after Trump says limits lifted",
@@ -662,9 +629,27 @@
         "반도체·AI": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261106",
+      "headline": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261106",
+      "headline": "[거시분석] Melania Trump calls for lasting Ukraine truce...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 46,
+  "total_negatives": 45,
   "total_positives": 38,
   "risk_level": "EXTREME"
 }
