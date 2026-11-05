@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T14:49:55.008890+09:00",
+  "updated_at": "2026-11-05T23:19:28.824463+09:00",
   "date": "20261105",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -4,
+      "score": -6,
       "positive_count": 1,
-      "negative_count": 3,
+      "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20261105",
+          "type": "negative",
+          "headline": "[거시분석] 영국, 3년만에 금리 인상…BOE 총재 \"추가 인상도 가능\"(종합)",
+          "score": -2
+        },
         {
           "date": "20261101",
           "type": "negative",
@@ -91,7 +97,7 @@
         {
           "date": "20261105",
           "type": "positive",
-          "headline": "[거시분석] Vance walks Trump tightrope with scathing ele...",
+          "headline": "[거시분석] 영국, 3년만에 금리 인상…BOE 총재 \"추가 인상도 가능\"(종합)",
           "score": 1
         },
         {
@@ -142,36 +148,36 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 11,
+      "negative_count": 14,
       "recent_events": [
         {
           "date": "20261105",
           "type": "negative",
-          "headline": "[거시분석] Vance walks Trump tightrope with scathing ele...",
+          "headline": "영국, 3년만에 금리 인상…BOE 총재 \"추가 인상도 가능\"(종합)",
           "score": -1
+        },
+        {
+          "date": "20261105",
+          "type": "negative",
+          "headline": "[2보] 영국, 3년여만에 기준금리 인상…연 4%로 0.25%p↑",
+          "score": -1
+        },
+        {
+          "date": "20261105",
+          "type": "negative",
+          "headline": "[1보] 영국, 3년여만에 기준금리 인상…연 4%로 0.25%p↑",
+          "score": -1
+        },
+        {
+          "date": "20261105",
+          "type": "negative",
+          "headline": "[거시분석] 영국, 3년만에 금리 인상…BOE 총재 \"추가 인상도 가능\"(종합)",
+          "score": -3
         },
         {
           "date": "20261104",
           "type": "negative",
           "headline": "[거시분석] Four tankers destroyed by naval mines in Stra...",
-          "score": -1
-        },
-        {
-          "date": "20261102",
-          "type": "negative",
-          "headline": "[거시분석] Israeli strikes in Gaza kill eight including ...",
-          "score": -1
-        },
-        {
-          "date": "20261030",
-          "type": "negative",
-          "headline": "[거시분석] US weighs new Iran strikes as Vance reaches o...",
-          "score": -1
-        },
-        {
-          "date": "20261029",
-          "type": "negative",
-          "headline": "[거시분석] Pentagon says Iran war has cost US taxpayers ...",
           "score": -1
         }
       ]
@@ -227,8 +233,8 @@
         {
           "date": "20261105",
           "type": "negative",
-          "headline": "[거시분석] Vance walks Trump tightrope with scathing ele...",
-          "score": -2
+          "headline": "[거시분석] 영국, 3년만에 금리 인상…BOE 총재 \"추가 인상도 가능\"(종합)",
+          "score": -8
         },
         {
           "date": "20261104",
@@ -624,16 +630,41 @@
     },
     {
       "date": "20261105",
-      "headline": "[거시분석] Vance walks Trump tightrope with scathing ele...",
+      "headline": "영국, 3년만에 금리 인상…BOE 총재 \"추가 인상도 가능\"(종합)",
+      "impacts": {
+        "금융": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261105",
+      "headline": "[2보] 영국, 3년여만에 기준금리 인상…연 4%로 0.25%p↑",
+      "impacts": {
+        "금융": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261105",
+      "headline": "[1보] 영국, 3년여만에 기준금리 인상…연 4%로 0.25%p↑",
+      "impacts": {
+        "금융": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261105",
+      "headline": "[거시분석] 영국, 3년만에 금리 인상…BOE 총재 \"추가 인상도 가능\"(종합)",
       "impacts": {
         "방산": 1,
-        "전체시장": -2,
-        "금융": -1
+        "전체시장": -8,
+        "금융": -3,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
+  "total_negatives": 46,
   "total_positives": 38,
   "risk_level": "EXTREME"
 }
