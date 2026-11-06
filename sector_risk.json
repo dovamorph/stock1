@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T06:49:43.212962+09:00",
+  "updated_at": "2026-11-06T11:04:19.904448+09:00",
   "date": "20261106",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -6,
-      "positive_count": 1,
+      "score": -5,
+      "positive_count": 2,
       "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20261106",
+          "type": "positive",
+          "headline": "중화권 증시도 '블루웨이브 충격'…반도체주 CXMT·TSMC 급락",
+          "score": 1
+        },
         {
           "date": "20261105",
           "type": "negative",
@@ -43,20 +49,20 @@
           "type": "negative",
           "headline": "[거시분석] US weighs new Iran strikes as Vance reaches o...",
           "score": -2
-        },
-        {
-          "date": "20261024",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
-          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 5,
+      "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20261106",
+          "type": "negative",
+          "headline": "[거시분석] '지역사회 감염병 확산 막는다'…시흥시, 소방·병원 등과 협약",
+          "score": -1
+        },
         {
           "date": "20261030",
           "type": "positive",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] Russia to host first Olympic federation world...",
           "score": -2
-        },
-        {
-          "date": "20261025",
-          "type": "negative",
-          "headline": "[거시분석] Musk says SpaceX restricted Ukraine's Starlin...",
-          "score": -4
         }
       ]
     },
@@ -103,7 +103,7 @@
         {
           "date": "20261106",
           "type": "positive",
-          "headline": "[거시분석] Melania Trump calls for lasting Ukraine truce...",
+          "headline": "[거시분석] '지역사회 감염병 확산 막는다'…시흥시, 소방·병원 등과 협약",
           "score": 1
         },
         {
@@ -239,8 +239,8 @@
         {
           "date": "20261106",
           "type": "negative",
-          "headline": "[거시분석] Melania Trump calls for lasting Ukraine truce...",
-          "score": -1
+          "headline": "[거시분석] '지역사회 감염병 확산 막는다'…시흥시, 소방·병원 등과 협약",
+          "score": -3
         },
         {
           "date": "20261105",
@@ -641,15 +641,24 @@
     },
     {
       "date": "20261106",
-      "headline": "[거시분석] Melania Trump calls for lasting Ukraine truce...",
+      "headline": "중화권 증시도 '블루웨이브 충격'…반도체주 CXMT·TSMC 급락",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261106",
+      "headline": "[거시분석] '지역사회 감염병 확산 막는다'…시흥시, 소방·병원 등과 협약",
       "impacts": {
         "방산": 1,
-        "전체시장": -1
+        "전체시장": -3,
+        "건설": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 45,
-  "total_positives": 38,
+  "total_negatives": 46,
+  "total_positives": 39,
   "risk_level": "EXTREME"
 }
