@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-06T20:55:19.374661+09:00",
-  "date": "20261106",
+  "updated_at": "2026-11-07T04:04:17.863447+09:00",
+  "date": "20261107",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20261107",
+          "type": "negative",
+          "headline": "[거시분석] Major construction ongoing near Iran missile ...",
+          "score": -2
+        },
         {
           "date": "20261106",
           "type": "negative",
@@ -80,20 +86,26 @@
           "type": "negative",
           "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
           "score": -2
-        },
-        {
-          "date": "20261026",
-          "type": "negative",
-          "headline": "[거시분석] Russia to host first Olympic federation world...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 19,
-      "negative_count": 8,
+      "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20261107",
+          "type": "positive",
+          "headline": "\"예멘 시장서 공습으로 30명 사망\"…사우디·후티 책임 공방",
+          "score": 1
+        },
+        {
+          "date": "20261107",
+          "type": "positive",
+          "headline": "[거시분석] Major construction ongoing near Iran missile ...",
+          "score": 3
+        },
         {
           "date": "20261106",
           "type": "negative",
@@ -111,18 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] Major construction ongoing near Iran missile ...",
           "score": 2
-        },
-        {
-          "date": "20261105",
-          "type": "positive",
-          "headline": "[거시분석] 영국, 3년만에 금리 인상…BOE 총재 \"추가 인상도 가능\"(종합)",
-          "score": 1
-        },
-        {
-          "date": "20261104",
-          "type": "positive",
-          "headline": "[거시분석] Four tankers destroyed by naval mines in Stra...",
-          "score": 1
         }
       ]
     },
@@ -151,6 +151,12 @@
       "negative_count": 15,
       "recent_events": [
         {
+          "date": "20261107",
+          "type": "negative",
+          "headline": "[거시분석] Major construction ongoing near Iran missile ...",
+          "score": -1
+        },
+        {
           "date": "20261106",
           "type": "negative",
           "headline": "[거시분석] Major construction ongoing near Iran missile ...",
@@ -173,18 +179,12 @@
           "type": "negative",
           "headline": "[1보] 영국, 3년여만에 기준금리 인상…연 4%로 0.25%p↑",
           "score": -1
-        },
-        {
-          "date": "20261105",
-          "type": "negative",
-          "headline": "[거시분석] 영국, 3년만에 금리 인상…BOE 총재 \"추가 인상도 가능\"(종합)",
-          "score": -3
         }
       ]
     },
     "우주ETF": {
-      "score": 9,
-      "positive_count": 9,
+      "score": 7,
+      "positive_count": 7,
       "negative_count": 0,
       "recent_events": [
         {
@@ -227,9 +227,21 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 8,
-      "negative_count": 15,
+      "positive_count": 7,
+      "negative_count": 16,
       "recent_events": [
+        {
+          "date": "20261107",
+          "type": "negative",
+          "headline": "Paraguay resumes Pena impeachment proceedings as financial crisis deepens",
+          "score": -1
+        },
+        {
+          "date": "20261107",
+          "type": "negative",
+          "headline": "[거시분석] Major construction ongoing near Iran missile ...",
+          "score": -5
+        },
         {
           "date": "20261106",
           "type": "positive",
@@ -247,74 +259,11 @@
           "type": "negative",
           "headline": "[거시분석] Major construction ongoing near Iran missile ...",
           "score": -7
-        },
-        {
-          "date": "20261105",
-          "type": "negative",
-          "headline": "[거시분석] 영국, 3년만에 금리 인상…BOE 총재 \"추가 인상도 가능\"(종합)",
-          "score": -8
-        },
-        {
-          "date": "20261104",
-          "type": "negative",
-          "headline": "[거시분석] Four tankers destroyed by naval mines in Stra...",
-          "score": -3
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20261023",
-      "headline": "Ukraine says Starlink still restricted after Trump says limits lifted",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261023",
-      "headline": "Melania Trump brokers truce for Ukraine city 'on brink of disaster', White House says",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261023",
-      "headline": "Ukraine hit by strikes after Russia agrees to new peace talks",
-      "impacts": {
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261023",
-      "headline": "Ukraine plans independent satellite system as Starlink issues persist",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261023",
-      "headline": "백악관 \"우크라 올레시키서 29일부터 교전중단…멜라니아 중재\"",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261023",
-      "headline": "[거시분석] Ukraine says Starlink still restricted after ...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -4,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261024",
       "headline": "Ukraine says Starlink connection 'now stable' after network limits",
@@ -659,9 +608,36 @@
         "반도체·AI": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261107",
+      "headline": "Paraguay resumes Pena impeachment proceedings as financial crisis deepens",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261107",
+      "headline": "\"예멘 시장서 공습으로 30명 사망\"…사우디·후티 책임 공방",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261107",
+      "headline": "[거시분석] Major construction ongoing near Iran missile ...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -5,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
   "total_negatives": 49,
-  "total_positives": 39,
+  "total_positives": 36,
   "risk_level": "EXTREME"
 }
