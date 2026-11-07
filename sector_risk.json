@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T14:47:28.575678+09:00",
+  "updated_at": "2026-11-07T21:41:10.530002+09:00",
   "date": "20261107",
   "window_days": 14,
   "sectors": [
@@ -16,16 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -10,
+      "score": -8,
       "positive_count": 1,
-      "negative_count": 6,
+      "negative_count": 5,
       "recent_events": [
-        {
-          "date": "20261107",
-          "type": "negative",
-          "headline": "[거시분석] Major construction ongoing near Iran missile ...",
-          "score": -2
-        },
         {
           "date": "20261106",
           "type": "negative",
@@ -49,6 +43,12 @@
           "type": "positive",
           "headline": "China denies allegations of spy operation targeting Nvidia CEO",
           "score": 1
+        },
+        {
+          "date": "20261030",
+          "type": "negative",
+          "headline": "[거시분석] US weighs new Iran strikes as Vance reaches o...",
+          "score": -2
         }
       ]
     },
@@ -60,8 +60,8 @@
         {
           "date": "20261107",
           "type": "negative",
-          "headline": "[거시분석] Major construction ongoing near Iran missile ...",
-          "score": -2
+          "headline": "[거시분석] Qeshm island and Hormuz hit, as mediators try...",
+          "score": -1
         },
         {
           "date": "20261106",
@@ -91,26 +91,26 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 20,
-      "negative_count": 6,
+      "positive_count": 19,
+      "negative_count": 7,
       "recent_events": [
         {
           "date": "20261107",
           "type": "positive",
-          "headline": "Russia launches missile attack on Kyiv, injuring residents",
+          "headline": "Will Trump strike nuclear sites again as Iran engages ‘cognitive warfare’?",
           "score": 1
         },
         {
           "date": "20261107",
-          "type": "positive",
-          "headline": "美, 이란과 간접대화 중 또 호르무즈 제한공습…\"방공시설 무력화\"(종합)",
-          "score": 1
+          "type": "negative",
+          "headline": "종전 협상 앞두고도…러·우크라, 대규모 미사일·드론 공격",
+          "score": -1
         },
         {
           "date": "20261107",
           "type": "positive",
-          "headline": "[거시분석] Major construction ongoing near Iran missile ...",
-          "score": 3
+          "headline": "[거시분석] Qeshm island and Hormuz hit, as mediators try...",
+          "score": 2
         },
         {
           "date": "20261106",
@@ -153,7 +153,7 @@
         {
           "date": "20261107",
           "type": "negative",
-          "headline": "[거시분석] Major construction ongoing near Iran missile ...",
+          "headline": "[거시분석] Qeshm island and Hormuz hit, as mediators try...",
           "score": -1
         },
         {
@@ -233,14 +233,14 @@
         {
           "date": "20261107",
           "type": "positive",
-          "headline": "US urges China to honour Busan trade deal commitments",
+          "headline": "종전 협상 앞두고도…러·우크라, 대규모 미사일·드론 공격",
           "score": 1
         },
         {
           "date": "20261107",
           "type": "negative",
-          "headline": "[거시분석] Major construction ongoing near Iran missile ...",
-          "score": -7
+          "headline": "[거시분석] Qeshm island and Hormuz hit, as mediators try...",
+          "score": -5
         },
         {
           "date": "20261106",
@@ -611,7 +611,7 @@
     },
     {
       "date": "20261107",
-      "headline": "Russia launches missile attack on Kyiv, injuring residents",
+      "headline": "Will Trump strike nuclear sites again as Iran engages ‘cognitive warfare’?",
       "impacts": {
         "방산": 1
       },
@@ -619,34 +619,26 @@
     },
     {
       "date": "20261107",
-      "headline": "US urges China to honour Busan trade deal commitments",
+      "headline": "종전 협상 앞두고도…러·우크라, 대규모 미사일·드론 공격",
       "impacts": {
+        "방산": -1,
         "전체시장": 1
       },
       "source": "keyword"
     },
     {
       "date": "20261107",
-      "headline": "美, 이란과 간접대화 중 또 호르무즈 제한공습…\"방공시설 무력화\"(종합)",
+      "headline": "[거시분석] Qeshm island and Hormuz hit, as mediators try...",
       "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261107",
-      "headline": "[거시분석] Major construction ongoing near Iran missile ...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -7,
-        "금융": -1,
-        "반도체·AI": -2
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -5,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 49,
-  "total_positives": 38,
+  "total_positives": 37,
   "risk_level": "EXTREME"
 }
