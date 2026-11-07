@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T08:59:44.156043+09:00",
+  "updated_at": "2026-11-07T14:47:28.575678+09:00",
   "date": "20261107",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -8,
+      "score": -10,
       "positive_count": 1,
-      "negative_count": 5,
+      "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20261107",
+          "type": "negative",
+          "headline": "[거시분석] Major construction ongoing near Iran missile ...",
+          "score": -2
+        },
         {
           "date": "20261106",
           "type": "negative",
@@ -43,20 +49,20 @@
           "type": "positive",
           "headline": "China denies allegations of spy operation targeting Nvidia CEO",
           "score": 1
-        },
-        {
-          "date": "20261030",
-          "type": "negative",
-          "headline": "[거시분석] US weighs new Iran strikes as Vance reaches o...",
-          "score": -2
         }
       ]
     },
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20261107",
+          "type": "negative",
+          "headline": "[거시분석] Major construction ongoing near Iran missile ...",
+          "score": -2
+        },
         {
           "date": "20261106",
           "type": "negative",
@@ -80,25 +86,31 @@
           "type": "negative",
           "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
           "score": -2
-        },
-        {
-          "date": "20261026",
-          "type": "negative",
-          "headline": "[거시분석] Russia to host first Olympic federation world...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 18,
+      "positive_count": 20,
       "negative_count": 6,
       "recent_events": [
         {
           "date": "20261107",
           "type": "positive",
-          "headline": "[거시분석] Major construction ongoing near Iran missile ...",
+          "headline": "Russia launches missile attack on Kyiv, injuring residents",
           "score": 1
+        },
+        {
+          "date": "20261107",
+          "type": "positive",
+          "headline": "美, 이란과 간접대화 중 또 호르무즈 제한공습…\"방공시설 무력화\"(종합)",
+          "score": 1
+        },
+        {
+          "date": "20261107",
+          "type": "positive",
+          "headline": "[거시분석] Major construction ongoing near Iran missile ...",
+          "score": 3
         },
         {
           "date": "20261106",
@@ -111,18 +123,6 @@
           "type": "negative",
           "headline": "카타르 군주, 트럼프와 통화…\"역내 긴장 완화 중재 노력\"",
           "score": -1
-        },
-        {
-          "date": "20261106",
-          "type": "positive",
-          "headline": "[거시분석] Major construction ongoing near Iran missile ...",
-          "score": 2
-        },
-        {
-          "date": "20261105",
-          "type": "positive",
-          "headline": "[거시분석] 영국, 3년만에 금리 인상…BOE 총재 \"추가 인상도 가능\"(종합)",
-          "score": 1
         }
       ]
     },
@@ -240,7 +240,7 @@
           "date": "20261107",
           "type": "negative",
           "headline": "[거시분석] Major construction ongoing near Iran missile ...",
-          "score": -3
+          "score": -7
         },
         {
           "date": "20261106",
@@ -611,6 +611,14 @@
     },
     {
       "date": "20261107",
+      "headline": "Russia launches missile attack on Kyiv, injuring residents",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261107",
       "headline": "US urges China to honour Busan trade deal commitments",
       "impacts": {
         "전체시장": 1
@@ -619,16 +627,26 @@
     },
     {
       "date": "20261107",
+      "headline": "美, 이란과 간접대화 중 또 호르무즈 제한공습…\"방공시설 무력화\"(종합)",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261107",
       "headline": "[거시분석] Major construction ongoing near Iran missile ...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -3,
-        "금융": -1
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -7,
+        "금융": -1,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 47,
-  "total_positives": 36,
+  "total_negatives": 49,
+  "total_positives": 38,
   "risk_level": "EXTREME"
 }
