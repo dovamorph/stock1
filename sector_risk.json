@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-07T21:41:10.530002+09:00",
-  "date": "20261107",
+  "updated_at": "2026-11-08T03:30:52.046157+09:00",
+  "date": "20261108",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,9 +16,9 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -8,
+      "score": -6,
       "positive_count": 1,
-      "negative_count": 5,
+      "negative_count": 4,
       "recent_events": [
         {
           "date": "20261106",
@@ -58,6 +58,12 @@
       "negative_count": 7,
       "recent_events": [
         {
+          "date": "20261108",
+          "type": "negative",
+          "headline": "[거시분석] US offers $20m reward for information about I...",
+          "score": -2
+        },
+        {
           "date": "20261107",
           "type": "negative",
           "headline": "[거시분석] Qeshm island and Hormuz hit, as mediators try...",
@@ -80,12 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] US weighs new Iran strikes as Vance reaches o...",
           "score": -2
-        },
-        {
-          "date": "20261028",
-          "type": "negative",
-          "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
-          "score": -2
         }
       ]
     },
@@ -94,6 +94,24 @@
       "positive_count": 19,
       "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20261108",
+          "type": "positive",
+          "headline": "후티 \"사우디 공습으로 예멘 수도 인근서 22명 사망\" 주장",
+          "score": 1
+        },
+        {
+          "date": "20261108",
+          "type": "negative",
+          "headline": "종전 협상 앞두고도…러·우크라, 대규모 미사일·드론 공격",
+          "score": -1
+        },
+        {
+          "date": "20261108",
+          "type": "positive",
+          "headline": "[거시분석] US offers $20m reward for information about I...",
+          "score": 3
+        },
         {
           "date": "20261107",
           "type": "positive",
@@ -104,24 +122,6 @@
           "date": "20261107",
           "type": "negative",
           "headline": "종전 협상 앞두고도…러·우크라, 대규모 미사일·드론 공격",
-          "score": -1
-        },
-        {
-          "date": "20261107",
-          "type": "positive",
-          "headline": "[거시분석] Qeshm island and Hormuz hit, as mediators try...",
-          "score": 2
-        },
-        {
-          "date": "20261106",
-          "type": "negative",
-          "headline": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
-          "score": -1
-        },
-        {
-          "date": "20261106",
-          "type": "negative",
-          "headline": "카타르 군주, 트럼프와 통화…\"역내 긴장 완화 중재 노력\"",
           "score": -1
         }
       ]
@@ -148,7 +148,7 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 15,
+      "negative_count": 14,
       "recent_events": [
         {
           "date": "20261107",
@@ -183,8 +183,8 @@
       ]
     },
     "우주ETF": {
-      "score": 7,
-      "positive_count": 7,
+      "score": 5,
+      "positive_count": 5,
       "negative_count": 0,
       "recent_events": [
         {
@@ -231,6 +231,18 @@
       "negative_count": 15,
       "recent_events": [
         {
+          "date": "20261108",
+          "type": "positive",
+          "headline": "종전 협상 앞두고도…러·우크라, 대규모 미사일·드론 공격",
+          "score": 1
+        },
+        {
+          "date": "20261108",
+          "type": "negative",
+          "headline": "[거시분석] US offers $20m reward for information about I...",
+          "score": -4
+        },
+        {
           "date": "20261107",
           "type": "positive",
           "headline": "종전 협상 앞두고도…러·우크라, 대규모 미사일·드론 공격",
@@ -247,68 +259,11 @@
           "type": "positive",
           "headline": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
           "score": 1
-        },
-        {
-          "date": "20261106",
-          "type": "positive",
-          "headline": "카타르 군주, 트럼프와 통화…\"역내 긴장 완화 중재 노력\"",
-          "score": 1
-        },
-        {
-          "date": "20261106",
-          "type": "negative",
-          "headline": "[거시분석] Major construction ongoing near Iran missile ...",
-          "score": -7
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20261024",
-      "headline": "Ukraine says Starlink connection 'now stable' after network limits",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261024",
-      "headline": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261024",
-      "headline": "Who actually controls Ukraine's access to Starlink?",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261024",
-      "headline": "후티 반군, 사우디 주요 거점 연쇄 타격…사우디도 보복공습",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261024",
-      "headline": "[거시분석] Ukraine says Starlink connection 'now stable'...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -7,
-        "금융": -1,
-        "반도체·AI": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261025",
       "headline": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
@@ -636,9 +591,36 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261108",
+      "headline": "후티 \"사우디 공습으로 예멘 수도 인근서 22명 사망\" 주장",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261108",
+      "headline": "종전 협상 앞두고도…러·우크라, 대규모 미사일·드론 공격",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261108",
+      "headline": "[거시분석] US offers $20m reward for information about I...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -4
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 49,
-  "total_positives": 37,
+  "total_negatives": 47,
+  "total_positives": 35,
   "risk_level": "EXTREME"
 }
