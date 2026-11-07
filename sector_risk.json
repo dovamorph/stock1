@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T03:30:52.046157+09:00",
+  "updated_at": "2026-11-08T08:30:23.612497+09:00",
   "date": "20261108",
   "window_days": 14,
   "sectors": [
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20261108",
-          "type": "negative",
-          "headline": "[거시분석] US offers $20m reward for information about I...",
-          "score": -2
-        },
         {
           "date": "20261107",
           "type": "negative",
@@ -86,31 +80,25 @@
           "type": "negative",
           "headline": "[거시분석] US weighs new Iran strikes as Vance reaches o...",
           "score": -2
+        },
+        {
+          "date": "20261028",
+          "type": "negative",
+          "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
+          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 19,
-      "negative_count": 7,
+      "positive_count": 18,
+      "negative_count": 6,
       "recent_events": [
         {
           "date": "20261108",
           "type": "positive",
-          "headline": "후티 \"사우디 공습으로 예멘 수도 인근서 22명 사망\" 주장",
-          "score": 1
-        },
-        {
-          "date": "20261108",
-          "type": "negative",
-          "headline": "종전 협상 앞두고도…러·우크라, 대규모 미사일·드론 공격",
-          "score": -1
-        },
-        {
-          "date": "20261108",
-          "type": "positive",
           "headline": "[거시분석] US offers $20m reward for information about I...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20261107",
@@ -123,14 +111,33 @@
           "type": "negative",
           "headline": "종전 협상 앞두고도…러·우크라, 대규모 미사일·드론 공격",
           "score": -1
+        },
+        {
+          "date": "20261107",
+          "type": "positive",
+          "headline": "[거시분석] Qeshm island and Hormuz hit, as mediators try...",
+          "score": 2
+        },
+        {
+          "date": "20261106",
+          "type": "negative",
+          "headline": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
+          "score": -1
         }
       ]
     },
     "전력·에너지": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20261108",
+          "type": "positive",
+          "headline": "미국발 AI 데이터센터 불안…국내 업계 \"사업 추진 문제없어\"",
+          "score": 1
+        }
+      ]
     },
     "로봇": {
       "score": 1,
@@ -227,20 +234,20 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 8,
-      "negative_count": 15,
+      "positive_count": 7,
+      "negative_count": 16,
       "recent_events": [
         {
           "date": "20261108",
-          "type": "positive",
-          "headline": "종전 협상 앞두고도…러·우크라, 대규모 미사일·드론 공격",
-          "score": 1
+          "type": "negative",
+          "headline": "Abdul El-Sayed slams Trump’s tariff war with Canada",
+          "score": -1
         },
         {
           "date": "20261108",
           "type": "negative",
           "headline": "[거시분석] US offers $20m reward for information about I...",
-          "score": -4
+          "score": -2
         },
         {
           "date": "20261107",
@@ -594,18 +601,17 @@
     },
     {
       "date": "20261108",
-      "headline": "후티 \"사우디 공습으로 예멘 수도 인근서 22명 사망\" 주장",
+      "headline": "Abdul El-Sayed slams Trump’s tariff war with Canada",
       "impacts": {
-        "방산": 1
+        "전체시장": -1
       },
       "source": "keyword"
     },
     {
       "date": "20261108",
-      "headline": "종전 협상 앞두고도…러·우크라, 대규모 미사일·드론 공격",
+      "headline": "미국발 AI 데이터센터 불안…국내 업계 \"사업 추진 문제없어\"",
       "impacts": {
-        "방산": -1,
-        "전체시장": 1
+        "전력·에너지": 1
       },
       "source": "keyword"
     },
@@ -613,14 +619,13 @@
       "date": "20261108",
       "headline": "[거시분석] US offers $20m reward for information about I...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -4
+        "방산": 1,
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 47,
-  "total_positives": 35,
+  "total_negatives": 46,
+  "total_positives": 34,
   "risk_level": "EXTREME"
 }
