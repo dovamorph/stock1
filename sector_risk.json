@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T03:42:23.684668+09:00",
+  "updated_at": "2026-11-09T08:29:44.472567+09:00",
   "date": "20261109",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,22 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -6,
-      "positive_count": 1,
+      "score": -4,
+      "positive_count": 3,
       "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20261109",
+          "type": "positive",
+          "headline": "US chipmaker Nvidia investigates CEO Jensen Huang over affair",
+          "score": 1
+        },
+        {
+          "date": "20261109",
+          "type": "positive",
+          "headline": "\"TSMC, 메모리 사업 진출 검토…엔비디아 요청\"",
+          "score": 1
+        },
         {
           "date": "20261106",
           "type": "negative",
@@ -37,18 +49,6 @@
           "type": "negative",
           "headline": "These firms you've never heard of are feeding fears the AI bubble could burst",
           "score": -1
-        },
-        {
-          "date": "20261031",
-          "type": "positive",
-          "headline": "China denies allegations of spy operation targeting Nvidia CEO",
-          "score": 1
-        },
-        {
-          "date": "20261030",
-          "type": "negative",
-          "headline": "[거시분석] US weighs new Iran strikes as Vance reaches o...",
-          "score": -2
         }
       ]
     },
@@ -92,14 +92,8 @@
     "방산": {
       "score": 10,
       "positive_count": 18,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20261109",
-          "type": "negative",
-          "headline": "프랑스 외무 \"아부다비 종전협상에 유럽도 참여\"",
-          "score": -1
-        },
         {
           "date": "20261109",
           "type": "positive",
@@ -123,6 +117,12 @@
           "type": "negative",
           "headline": "종전 협상 앞두고도…러·우크라, 대규모 미사일·드론 공격",
           "score": -1
+        },
+        {
+          "date": "20261107",
+          "type": "positive",
+          "headline": "[거시분석] Qeshm island and Hormuz hit, as mediators try...",
+          "score": 2
         }
       ]
     },
@@ -148,8 +148,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 14,
+      "negative_count": 15,
       "recent_events": [
+        {
+          "date": "20261109",
+          "type": "negative",
+          "headline": "[거시분석] Iran executes three men for 'armed unrest' af...",
+          "score": -1
+        },
         {
           "date": "20261108",
           "type": "negative",
@@ -172,12 +178,6 @@
           "date": "20261105",
           "type": "negative",
           "headline": "영국, 3년만에 금리 인상…BOE 총재 \"추가 인상도 가능\"(종합)",
-          "score": -1
-        },
-        {
-          "date": "20261105",
-          "type": "negative",
-          "headline": "[2보] 영국, 3년여만에 기준금리 인상…연 4%로 0.25%p↑",
           "score": -1
         }
       ]
@@ -209,15 +209,9 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 8,
+      "positive_count": 7,
       "negative_count": 15,
       "recent_events": [
-        {
-          "date": "20261109",
-          "type": "positive",
-          "headline": "프랑스 외무 \"아부다비 종전협상에 유럽도 참여\"",
-          "score": 1
-        },
         {
           "date": "20261109",
           "type": "negative",
@@ -241,6 +235,12 @@
           "type": "negative",
           "headline": "[거시분석] Qeshm island and Hormuz hit, as mediators try...",
           "score": -5
+        },
+        {
+          "date": "20261106",
+          "type": "positive",
+          "headline": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
+          "score": 1
         }
       ]
     }
@@ -551,10 +551,17 @@
     },
     {
       "date": "20261109",
-      "headline": "프랑스 외무 \"아부다비 종전협상에 유럽도 참여\"",
+      "headline": "US chipmaker Nvidia investigates CEO Jensen Huang over affair",
       "impacts": {
-        "방산": -1,
-        "전체시장": 1
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261109",
+      "headline": "\"TSMC, 메모리 사업 진출 검토…엔비디아 요청\"",
+      "impacts": {
+        "반도체·AI": 1
       },
       "source": "keyword"
     },
@@ -563,12 +570,13 @@
       "headline": "[거시분석] Iran executes three men for 'armed unrest' af...",
       "impacts": {
         "방산": 1,
-        "전체시장": -2
+        "전체시장": -2,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 45,
-  "total_positives": 31,
+  "total_positives": 32,
   "risk_level": "EXTREME"
 }
