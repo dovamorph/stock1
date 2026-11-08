@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-08T21:58:29.535414+09:00",
-  "date": "20261108",
+  "updated_at": "2026-11-09T03:42:23.684668+09:00",
+  "date": "20261109",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -53,9 +53,9 @@
       ]
     },
     "건설": {
-      "score": -10,
+      "score": -7,
       "positive_count": 1,
-      "negative_count": 6,
+      "negative_count": 5,
       "recent_events": [
         {
           "date": "20261107",
@@ -92,8 +92,20 @@
     "방산": {
       "score": 10,
       "positive_count": 18,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20261109",
+          "type": "negative",
+          "headline": "프랑스 외무 \"아부다비 종전협상에 유럽도 참여\"",
+          "score": -1
+        },
+        {
+          "date": "20261109",
+          "type": "positive",
+          "headline": "[거시분석] Iran executes three men for 'armed unrest' af...",
+          "score": 1
+        },
         {
           "date": "20261108",
           "type": "positive",
@@ -110,18 +122,6 @@
           "date": "20261107",
           "type": "negative",
           "headline": "종전 협상 앞두고도…러·우크라, 대규모 미사일·드론 공격",
-          "score": -1
-        },
-        {
-          "date": "20261107",
-          "type": "positive",
-          "headline": "[거시분석] Qeshm island and Hormuz hit, as mediators try...",
-          "score": 2
-        },
-        {
-          "date": "20261106",
-          "type": "negative",
-          "headline": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
           "score": -1
         }
       ]
@@ -148,7 +148,7 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 15,
+      "negative_count": 14,
       "recent_events": [
         {
           "date": "20261108",
@@ -183,8 +183,8 @@
       ]
     },
     "우주ETF": {
-      "score": 5,
-      "positive_count": 5,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
         {
@@ -198,24 +198,6 @@
           "type": "positive",
           "headline": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
           "score": 1
-        },
-        {
-          "date": "20261025",
-          "type": "positive",
-          "headline": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
-          "score": 1
-        },
-        {
-          "date": "20261025",
-          "type": "positive",
-          "headline": "Who actually controls Ukraine's access to Starlink?",
-          "score": 1
-        },
-        {
-          "date": "20261025",
-          "type": "positive",
-          "headline": "Why is Ukraine so reliant on Starlink and can Europe plug the gap?",
-          "score": 1
         }
       ]
     },
@@ -227,9 +209,21 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 7,
+      "positive_count": 8,
       "negative_count": 15,
       "recent_events": [
+        {
+          "date": "20261109",
+          "type": "positive",
+          "headline": "프랑스 외무 \"아부다비 종전협상에 유럽도 참여\"",
+          "score": 1
+        },
+        {
+          "date": "20261109",
+          "type": "negative",
+          "headline": "[거시분석] Iran executes three men for 'armed unrest' af...",
+          "score": -2
+        },
         {
           "date": "20261108",
           "type": "negative",
@@ -247,58 +241,11 @@
           "type": "negative",
           "headline": "[거시분석] Qeshm island and Hormuz hit, as mediators try...",
           "score": -5
-        },
-        {
-          "date": "20261106",
-          "type": "positive",
-          "headline": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
-          "score": 1
-        },
-        {
-          "date": "20261106",
-          "type": "positive",
-          "headline": "카타르 군주, 트럼프와 통화…\"역내 긴장 완화 중재 노력\"",
-          "score": 1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20261025",
-      "headline": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261025",
-      "headline": "Who actually controls Ukraine's access to Starlink?",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261025",
-      "headline": "Why is Ukraine so reliant on Starlink and can Europe plug the gap?",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261025",
-      "headline": "[거시분석] Musk says SpaceX restricted Ukraine's Starlin...",
-      "impacts": {
-        "방산": 3,
-        "건설": -4,
-        "전체시장": -9,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261026",
       "headline": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
@@ -601,9 +548,27 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261109",
+      "headline": "프랑스 외무 \"아부다비 종전협상에 유럽도 참여\"",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261109",
+      "headline": "[거시분석] Iran executes three men for 'armed unrest' af...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 46,
-  "total_positives": 33,
+  "total_negatives": 45,
+  "total_positives": 31,
   "risk_level": "EXTREME"
 }
