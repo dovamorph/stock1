@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T08:30:23.612497+09:00",
+  "updated_at": "2026-11-08T14:13:27.179533+09:00",
   "date": "20261108",
   "window_days": 14,
   "sectors": [
@@ -55,8 +55,14 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20261108",
+          "type": "negative",
+          "headline": "[거시분석] US offers $20m reward for information about I...",
+          "score": -2
+        },
         {
           "date": "20261107",
           "type": "negative",
@@ -80,25 +86,25 @@
           "type": "negative",
           "headline": "[거시분석] US weighs new Iran strikes as Vance reaches o...",
           "score": -2
-        },
-        {
-          "date": "20261028",
-          "type": "negative",
-          "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 18,
+      "positive_count": 19,
       "negative_count": 6,
       "recent_events": [
         {
           "date": "20261108",
           "type": "positive",
-          "headline": "[거시분석] US offers $20m reward for information about I...",
+          "headline": "[영상] 후티 \"사우디 공습으로 33명 사망\"…석유시설·공항 공격 맞불",
           "score": 1
+        },
+        {
+          "date": "20261108",
+          "type": "positive",
+          "headline": "[거시분석] US offers $20m reward for information about I...",
+          "score": 3
         },
         {
           "date": "20261107",
@@ -117,27 +123,14 @@
           "type": "positive",
           "headline": "[거시분석] Qeshm island and Hormuz hit, as mediators try...",
           "score": 2
-        },
-        {
-          "date": "20261106",
-          "type": "negative",
-          "headline": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
-          "score": -1
         }
       ]
     },
     "전력·에너지": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 0,
+      "positive_count": 0,
       "negative_count": 0,
-      "recent_events": [
-        {
-          "date": "20261108",
-          "type": "positive",
-          "headline": "미국발 AI 데이터센터 불안…국내 업계 \"사업 추진 문제없어\"",
-          "score": 1
-        }
-      ]
+      "recent_events": []
     },
     "로봇": {
       "score": 1,
@@ -247,7 +240,7 @@
           "date": "20261108",
           "type": "negative",
           "headline": "[거시분석] US offers $20m reward for information about I...",
-          "score": -2
+          "score": -4
         },
         {
           "date": "20261107",
@@ -609,9 +602,9 @@
     },
     {
       "date": "20261108",
-      "headline": "미국발 AI 데이터센터 불안…국내 업계 \"사업 추진 문제없어\"",
+      "headline": "[영상] 후티 \"사우디 공습으로 33명 사망\"…석유시설·공항 공격 맞불",
       "impacts": {
-        "전력·에너지": 1
+        "방산": 1
       },
       "source": "keyword"
     },
@@ -619,13 +612,14 @@
       "date": "20261108",
       "headline": "[거시분석] US offers $20m reward for information about I...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -2
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 46,
+  "total_negatives": 47,
   "total_positives": 34,
   "risk_level": "EXTREME"
 }
