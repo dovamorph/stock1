@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T14:13:27.179533+09:00",
+  "updated_at": "2026-11-08T21:58:29.535414+09:00",
   "date": "20261108",
   "window_days": 14,
   "sectors": [
@@ -55,14 +55,8 @@
     "건설": {
       "score": -10,
       "positive_count": 1,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20261108",
-          "type": "negative",
-          "headline": "[거시분석] US offers $20m reward for information about I...",
-          "score": -2
-        },
         {
           "date": "20261107",
           "type": "negative",
@@ -86,25 +80,25 @@
           "type": "negative",
           "headline": "[거시분석] US weighs new Iran strikes as Vance reaches o...",
           "score": -2
+        },
+        {
+          "date": "20261028",
+          "type": "negative",
+          "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
+          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 19,
+      "positive_count": 18,
       "negative_count": 6,
       "recent_events": [
         {
           "date": "20261108",
           "type": "positive",
-          "headline": "[영상] 후티 \"사우디 공습으로 33명 사망\"…석유시설·공항 공격 맞불",
-          "score": 1
-        },
-        {
-          "date": "20261108",
-          "type": "positive",
           "headline": "[거시분석] US offers $20m reward for information about I...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20261107",
@@ -123,6 +117,12 @@
           "type": "positive",
           "headline": "[거시분석] Qeshm island and Hormuz hit, as mediators try...",
           "score": 2
+        },
+        {
+          "date": "20261106",
+          "type": "negative",
+          "headline": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
+          "score": -1
         }
       ]
     },
@@ -148,8 +148,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 14,
+      "negative_count": 15,
       "recent_events": [
+        {
+          "date": "20261108",
+          "type": "negative",
+          "headline": "[거시분석] US offers $20m reward for information about I...",
+          "score": -1
+        },
         {
           "date": "20261107",
           "type": "negative",
@@ -172,12 +178,6 @@
           "date": "20261105",
           "type": "negative",
           "headline": "[2보] 영국, 3년여만에 기준금리 인상…연 4%로 0.25%p↑",
-          "score": -1
-        },
-        {
-          "date": "20261105",
-          "type": "negative",
-          "headline": "[1보] 영국, 3년여만에 기준금리 인상…연 4%로 0.25%p↑",
           "score": -1
         }
       ]
@@ -228,14 +228,8 @@
     "전체시장": {
       "score": -10,
       "positive_count": 7,
-      "negative_count": 16,
+      "negative_count": 15,
       "recent_events": [
-        {
-          "date": "20261108",
-          "type": "negative",
-          "headline": "Abdul El-Sayed slams Trump’s tariff war with Canada",
-          "score": -1
-        },
         {
           "date": "20261108",
           "type": "negative",
@@ -258,6 +252,12 @@
           "date": "20261106",
           "type": "positive",
           "headline": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
+          "score": 1
+        },
+        {
+          "date": "20261106",
+          "type": "positive",
+          "headline": "카타르 군주, 트럼프와 통화…\"역내 긴장 완화 중재 노력\"",
           "score": 1
         }
       ]
@@ -594,32 +594,16 @@
     },
     {
       "date": "20261108",
-      "headline": "Abdul El-Sayed slams Trump’s tariff war with Canada",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261108",
-      "headline": "[영상] 후티 \"사우디 공습으로 33명 사망\"…석유시설·공항 공격 맞불",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261108",
       "headline": "[거시분석] US offers $20m reward for information about I...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -4
+        "방산": 1,
+        "전체시장": -4,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 47,
-  "total_positives": 34,
+  "total_negatives": 46,
+  "total_positives": 33,
   "risk_level": "EXTREME"
 }
