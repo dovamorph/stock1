@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-09T14:25:27.879326+09:00",
-  "date": "20261109",
+  "updated_at": "2026-11-10T00:38:55.110025+09:00",
+  "date": "20261110",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,39 +16,39 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": -3,
-      "positive_count": 4,
+      "score": 1,
+      "positive_count": 8,
       "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20261110",
+          "type": "positive",
+          "headline": "Who is the suspected Chinese spy at centre of the Nvidia investigation?",
+          "score": 1
+        },
+        {
+          "date": "20261110",
+          "type": "positive",
+          "headline": "What do we know about Nvidia CEO’s affair with a suspected Chinese spy?",
+          "score": 1
+        },
+        {
+          "date": "20261110",
+          "type": "positive",
+          "headline": "China rejects ‘baseless’ claims it spied on Nvidia boss",
+          "score": 1
+        },
+        {
+          "date": "20261110",
+          "type": "positive",
+          "headline": "Why is Nvidia’s Jensen Huang at the centre of a US-China spy scandal?",
+          "score": 1
+        },
         {
           "date": "20261109",
           "type": "positive",
           "headline": "Trump defends Nvidia CEO amid Chinese spying allegations",
           "score": 1
-        },
-        {
-          "date": "20261109",
-          "type": "positive",
-          "headline": "Nvidia CEO’s affair sparks Chinese espionage probe",
-          "score": 1
-        },
-        {
-          "date": "20261109",
-          "type": "positive",
-          "headline": "US chipmaker Nvidia investigates CEO Jensen Huang over affair",
-          "score": 1
-        },
-        {
-          "date": "20261106",
-          "type": "negative",
-          "headline": "[거시분석] Major construction ongoing near Iran missile ...",
-          "score": -2
-        },
-        {
-          "date": "20261105",
-          "type": "negative",
-          "headline": "[거시분석] 영국, 3년만에 금리 인상…BOE 총재 \"추가 인상도 가능\"(종합)",
-          "score": -2
         }
       ]
     },
@@ -57,6 +57,12 @@
       "positive_count": 1,
       "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20261110",
+          "type": "negative",
+          "headline": "[거시분석] Nine foreigners caught allegedly trying to le...",
+          "score": -2
+        },
         {
           "date": "20261109",
           "type": "negative",
@@ -80,20 +86,26 @@
           "type": "positive",
           "headline": "강남 은마 795㎡ 소유권 정태수 상속인에…\"재건축엔 지장 없어\"",
           "score": 1
-        },
-        {
-          "date": "20261030",
-          "type": "negative",
-          "headline": "[거시분석] US weighs new Iran strikes as Vance reaches o...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 18,
-      "negative_count": 6,
+      "positive_count": 16,
+      "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20261110",
+          "type": "negative",
+          "headline": "러, '종전협상 유럽 참여' 거부…\"미·러·우크라 3자회담\"(종합)",
+          "score": -1
+        },
+        {
+          "date": "20261110",
+          "type": "positive",
+          "headline": "[거시분석] Nine foreigners caught allegedly trying to le...",
+          "score": 3
+        },
         {
           "date": "20261109",
           "type": "positive",
@@ -111,18 +123,6 @@
           "type": "positive",
           "headline": "Will Trump strike nuclear sites again as Iran engages ‘cognitive warfare’?",
           "score": 1
-        },
-        {
-          "date": "20261107",
-          "type": "negative",
-          "headline": "종전 협상 앞두고도…러·우크라, 대규모 미사일·드론 공격",
-          "score": -1
-        },
-        {
-          "date": "20261107",
-          "type": "positive",
-          "headline": "[거시분석] Qeshm island and Hormuz hit, as mediators try...",
-          "score": 2
         }
       ]
     },
@@ -151,6 +151,12 @@
       "negative_count": 14,
       "recent_events": [
         {
+          "date": "20261110",
+          "type": "negative",
+          "headline": "[거시분석] Nine foreigners caught allegedly trying to le...",
+          "score": -1
+        },
+        {
           "date": "20261108",
           "type": "negative",
           "headline": "[거시분석] US offers $20m reward for information about I...",
@@ -173,30 +179,18 @@
           "type": "negative",
           "headline": "영국, 3년만에 금리 인상…BOE 총재 \"추가 인상도 가능\"(종합)",
           "score": -1
-        },
-        {
-          "date": "20261105",
-          "type": "negative",
-          "headline": "[2보] 영국, 3년여만에 기준금리 인상…연 4%로 0.25%p↑",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20261029",
           "type": "positive",
           "headline": "Elon Musk is a 'real genius', Putin says after satellite talks with SpaceX boss",
-          "score": 1
-        },
-        {
-          "date": "20261026",
-          "type": "positive",
-          "headline": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
           "score": 1
         }
       ]
@@ -209,9 +203,21 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 7,
+      "positive_count": 8,
       "negative_count": 15,
       "recent_events": [
+        {
+          "date": "20261110",
+          "type": "positive",
+          "headline": "러, '종전협상 유럽 참여' 거부…\"미·러·우크라 3자회담\"(종합)",
+          "score": 1
+        },
+        {
+          "date": "20261110",
+          "type": "negative",
+          "headline": "[거시분석] Nine foreigners caught allegedly trying to le...",
+          "score": -6
+        },
         {
           "date": "20261109",
           "type": "negative",
@@ -229,58 +235,11 @@
           "type": "positive",
           "headline": "종전 협상 앞두고도…러·우크라, 대규모 미사일·드론 공격",
           "score": 1
-        },
-        {
-          "date": "20261107",
-          "type": "negative",
-          "headline": "[거시분석] Qeshm island and Hormuz hit, as mediators try...",
-          "score": -5
-        },
-        {
-          "date": "20261106",
-          "type": "positive",
-          "headline": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
-          "score": 1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20261026",
-      "headline": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261026",
-      "headline": "日, 핀란드와 방위장비 이전 협정…무기 수출 길 열어",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261026",
-      "headline": "'리야드 공습 여파' 사우디 실내무도AG, 내년 3월로 연기",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261026",
-      "headline": "[거시분석] Russia to host first Olympic federation world...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261027",
       "headline": "Truce begins in Ukraine city where residents ate weeds to survive",
@@ -582,9 +541,61 @@
         "전체시장": -3
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261110",
+      "headline": "Who is the suspected Chinese spy at centre of the Nvidia investigation?",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261110",
+      "headline": "What do we know about Nvidia CEO’s affair with a suspected Chinese spy?",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261110",
+      "headline": "China rejects ‘baseless’ claims it spied on Nvidia boss",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261110",
+      "headline": "Why is Nvidia’s Jensen Huang at the centre of a US-China spy scandal?",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261110",
+      "headline": "러, '종전협상 유럽 참여' 거부…\"미·러·우크라 3자회담\"(종합)",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261110",
+      "headline": "[거시분석] Nine foreigners caught allegedly trying to le...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -6,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 45,
-  "total_positives": 33,
+  "total_negatives": 46,
+  "total_positives": 35,
   "risk_level": "EXTREME"
 }
