@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T09:00:39.093710+09:00",
+  "updated_at": "2026-11-10T18:27:45.833773+09:00",
   "date": "20261110",
   "window_days": 14,
   "sectors": [
@@ -16,9 +16,9 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 3,
-      "positive_count": 10,
-      "negative_count": 4,
+      "score": -1,
+      "positive_count": 8,
+      "negative_count": 5,
       "recent_events": [
         {
           "date": "20261110",
@@ -29,19 +29,7 @@
         {
           "date": "20261110",
           "type": "positive",
-          "headline": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
-          "score": 1
-        },
-        {
-          "date": "20261110",
-          "type": "positive",
-          "headline": "Who is the suspected Chinese spy at centre of the Nvidia investigation?",
-          "score": 1
-        },
-        {
-          "date": "20261110",
-          "type": "positive",
-          "headline": "What do we know about Nvidia CEO’s affair with a suspected Chinese spy?",
+          "headline": "Australia considers criminal penalties for rogue AI in wake of OpenAI hack",
           "score": 1
         },
         {
@@ -49,20 +37,26 @@
           "type": "positive",
           "headline": "Zoe Kleinman: Nvidia CEO's affair will cause ripples across US and beyond",
           "score": 1
+        },
+        {
+          "date": "20261110",
+          "type": "positive",
+          "headline": "Australia tightens AI oversight rules after OpenAI government breach",
+          "score": 1
+        },
+        {
+          "date": "20261110",
+          "type": "negative",
+          "headline": "[거시분석] Trump says more US attacks on Iran 'highly un...",
+          "score": -2
         }
       ]
     },
     "건설": {
-      "score": -9,
+      "score": -7,
       "positive_count": 1,
-      "negative_count": 6,
+      "negative_count": 5,
       "recent_events": [
-        {
-          "date": "20261110",
-          "type": "negative",
-          "headline": "[거시분석] Two security breaches near White House prompt...",
-          "score": -2
-        },
         {
           "date": "20261109",
           "type": "negative",
@@ -86,18 +80,30 @@
           "type": "positive",
           "headline": "강남 은마 795㎡ 소유권 정태수 상속인에…\"재건축엔 지장 없어\"",
           "score": 1
+        },
+        {
+          "date": "20261030",
+          "type": "negative",
+          "headline": "[거시분석] US weighs new Iran strikes as Vance reaches o...",
+          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
         {
           "date": "20261110",
+          "type": "negative",
+          "headline": "Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say",
+          "score": -1
+        },
+        {
+          "date": "20261110",
           "type": "positive",
-          "headline": "[거시분석] Two security breaches near White House prompt...",
+          "headline": "[거시분석] Trump says more US attacks on Iran 'highly un...",
           "score": 1
         },
         {
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "Will Trump strike nuclear sites again as Iran engages ‘cognitive warfare’?",
           "score": 1
-        },
-        {
-          "date": "20261107",
-          "type": "negative",
-          "headline": "종전 협상 앞두고도…러·우크라, 대규모 미사일·드론 공격",
-          "score": -1
         }
       ]
     },
@@ -209,8 +209,8 @@
         {
           "date": "20261110",
           "type": "negative",
-          "headline": "[거시분석] Two security breaches near White House prompt...",
-          "score": -5
+          "headline": "[거시분석] Trump says more US attacks on Iran 'highly un...",
+          "score": -4
         },
         {
           "date": "20261109",
@@ -552,23 +552,15 @@
     },
     {
       "date": "20261110",
-      "headline": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
+      "headline": "Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say",
       "impacts": {
-        "반도체·AI": 1
+        "방산": -1
       },
       "source": "keyword"
     },
     {
       "date": "20261110",
-      "headline": "Who is the suspected Chinese spy at centre of the Nvidia investigation?",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261110",
-      "headline": "What do we know about Nvidia CEO’s affair with a suspected Chinese spy?",
+      "headline": "Australia considers criminal penalties for rogue AI in wake of OpenAI hack",
       "impacts": {
         "반도체·AI": 1
       },
@@ -584,7 +576,7 @@
     },
     {
       "date": "20261110",
-      "headline": "Trump defends Nvidia’s Huang after calling about spy scandal",
+      "headline": "Australia tightens AI oversight rules after OpenAI government breach",
       "impacts": {
         "반도체·AI": 1
       },
@@ -592,16 +584,16 @@
     },
     {
       "date": "20261110",
-      "headline": "[거시분석] Two security breaches near White House prompt...",
+      "headline": "[거시분석] Trump says more US attacks on Iran 'highly un...",
       "impacts": {
         "방산": 1,
-        "전체시장": -5,
-        "건설": -2
+        "전체시장": -4,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 44,
-  "total_positives": 36,
+  "total_negatives": 45,
+  "total_positives": 34,
   "risk_level": "EXTREME"
 }
