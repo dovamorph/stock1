@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T00:38:55.110025+09:00",
+  "updated_at": "2026-11-10T09:00:39.093710+09:00",
   "date": "20261110",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,22 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 1,
-      "positive_count": 8,
+      "score": 3,
+      "positive_count": 10,
       "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20261110",
+          "type": "positive",
+          "headline": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+          "score": 1
+        },
+        {
+          "date": "20261110",
+          "type": "positive",
+          "headline": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
+          "score": 1
+        },
         {
           "date": "20261110",
           "type": "positive",
@@ -35,19 +47,7 @@
         {
           "date": "20261110",
           "type": "positive",
-          "headline": "China rejects ‘baseless’ claims it spied on Nvidia boss",
-          "score": 1
-        },
-        {
-          "date": "20261110",
-          "type": "positive",
-          "headline": "Why is Nvidia’s Jensen Huang at the centre of a US-China spy scandal?",
-          "score": 1
-        },
-        {
-          "date": "20261109",
-          "type": "positive",
-          "headline": "Trump defends Nvidia CEO amid Chinese spying allegations",
+          "headline": "Zoe Kleinman: Nvidia CEO's affair will cause ripples across US and beyond",
           "score": 1
         }
       ]
@@ -60,7 +60,7 @@
         {
           "date": "20261110",
           "type": "negative",
-          "headline": "[거시분석] Nine foreigners caught allegedly trying to le...",
+          "headline": "[거시분석] Two security breaches near White House prompt...",
           "score": -2
         },
         {
@@ -92,19 +92,13 @@
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
         {
           "date": "20261110",
-          "type": "negative",
-          "headline": "러, '종전협상 유럽 참여' 거부…\"미·러·우크라 3자회담\"(종합)",
-          "score": -1
-        },
-        {
-          "date": "20261110",
           "type": "positive",
-          "headline": "[거시분석] Nine foreigners caught allegedly trying to le...",
-          "score": 3
+          "headline": "[거시분석] Two security breaches near White House prompt...",
+          "score": 1
         },
         {
           "date": "20261109",
@@ -123,6 +117,12 @@
           "type": "positive",
           "headline": "Will Trump strike nuclear sites again as Iran engages ‘cognitive warfare’?",
           "score": 1
+        },
+        {
+          "date": "20261107",
+          "type": "negative",
+          "headline": "종전 협상 앞두고도…러·우크라, 대규모 미사일·드론 공격",
+          "score": -1
         }
       ]
     },
@@ -148,14 +148,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 14,
+      "negative_count": 13,
       "recent_events": [
-        {
-          "date": "20261110",
-          "type": "negative",
-          "headline": "[거시분석] Nine foreigners caught allegedly trying to le...",
-          "score": -1
-        },
         {
           "date": "20261108",
           "type": "negative",
@@ -178,6 +172,12 @@
           "date": "20261105",
           "type": "negative",
           "headline": "영국, 3년만에 금리 인상…BOE 총재 \"추가 인상도 가능\"(종합)",
+          "score": -1
+        },
+        {
+          "date": "20261105",
+          "type": "negative",
+          "headline": "[2보] 영국, 3년여만에 기준금리 인상…연 4%로 0.25%p↑",
           "score": -1
         }
       ]
@@ -203,20 +203,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 8,
+      "positive_count": 7,
       "negative_count": 15,
       "recent_events": [
         {
           "date": "20261110",
-          "type": "positive",
-          "headline": "러, '종전협상 유럽 참여' 거부…\"미·러·우크라 3자회담\"(종합)",
-          "score": 1
-        },
-        {
-          "date": "20261110",
           "type": "negative",
-          "headline": "[거시분석] Nine foreigners caught allegedly trying to le...",
-          "score": -6
+          "headline": "[거시분석] Two security breaches near White House prompt...",
+          "score": -5
         },
         {
           "date": "20261109",
@@ -235,6 +229,12 @@
           "type": "positive",
           "headline": "종전 협상 앞두고도…러·우크라, 대규모 미사일·드론 공격",
           "score": 1
+        },
+        {
+          "date": "20261107",
+          "type": "negative",
+          "headline": "[거시분석] Qeshm island and Hormuz hit, as mediators try...",
+          "score": -5
         }
       ]
     }
@@ -544,6 +544,22 @@
     },
     {
       "date": "20261110",
+      "headline": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261110",
+      "headline": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261110",
       "headline": "Who is the suspected Chinese spy at centre of the Nvidia investigation?",
       "impacts": {
         "반도체·AI": 1
@@ -560,7 +576,7 @@
     },
     {
       "date": "20261110",
-      "headline": "China rejects ‘baseless’ claims it spied on Nvidia boss",
+      "headline": "Zoe Kleinman: Nvidia CEO's affair will cause ripples across US and beyond",
       "impacts": {
         "반도체·AI": 1
       },
@@ -568,7 +584,7 @@
     },
     {
       "date": "20261110",
-      "headline": "Why is Nvidia’s Jensen Huang at the centre of a US-China spy scandal?",
+      "headline": "Trump defends Nvidia’s Huang after calling about spy scandal",
       "impacts": {
         "반도체·AI": 1
       },
@@ -576,26 +592,16 @@
     },
     {
       "date": "20261110",
-      "headline": "러, '종전협상 유럽 참여' 거부…\"미·러·우크라 3자회담\"(종합)",
+      "headline": "[거시분석] Two security breaches near White House prompt...",
       "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261110",
-      "headline": "[거시분석] Nine foreigners caught allegedly trying to le...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -6,
-        "금융": -1
+        "방산": 1,
+        "전체시장": -5,
+        "건설": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 46,
-  "total_positives": 35,
+  "total_negatives": 44,
+  "total_positives": 36,
   "risk_level": "EXTREME"
 }
