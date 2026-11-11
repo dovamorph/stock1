@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-11T22:48:28.896213+09:00",
-  "date": "20261111",
+  "updated_at": "2026-11-12T06:07:16.469246+09:00",
+  "date": "20261112",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -53,9 +53,9 @@
       ]
     },
     "건설": {
-      "score": -7,
+      "score": -5,
       "positive_count": 1,
-      "negative_count": 5,
+      "negative_count": 4,
       "recent_events": [
         {
           "date": "20261109",
@@ -92,8 +92,14 @@
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 6,
+      "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20261112",
+          "type": "positive",
+          "headline": "[거시분석] Russia-Ukraine talks turn to post-war securit...",
+          "score": 1
+        },
         {
           "date": "20261111",
           "type": "positive",
@@ -117,20 +123,21 @@
           "type": "positive",
           "headline": "[거시분석] Iran executes three men for 'armed unrest' af...",
           "score": 3
-        },
-        {
-          "date": "20261108",
-          "type": "positive",
-          "headline": "[거시분석] US offers $20m reward for information about I...",
-          "score": 1
         }
       ]
     },
     "전력·에너지": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20261112",
+          "type": "positive",
+          "headline": "미·이란 협상 기대 후퇴에 국제유가 상승…브렌트유 1.4%↑",
+          "score": 1
+        }
+      ]
     },
     "로봇": {
       "score": 1,
@@ -150,6 +157,12 @@
       "positive_count": 0,
       "negative_count": 13,
       "recent_events": [
+        {
+          "date": "20261112",
+          "type": "negative",
+          "headline": "[거시분석] Russia-Ukraine talks turn to post-war securit...",
+          "score": -1
+        },
         {
           "date": "20261111",
           "type": "negative",
@@ -172,12 +185,6 @@
           "date": "20261106",
           "type": "negative",
           "headline": "[거시분석] Major construction ongoing near Iran missile ...",
-          "score": -1
-        },
-        {
-          "date": "20261105",
-          "type": "negative",
-          "headline": "영국, 3년만에 금리 인상…BOE 총재 \"추가 인상도 가능\"(종합)",
           "score": -1
         }
       ]
@@ -203,9 +210,15 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 6,
+      "positive_count": 5,
       "negative_count": 15,
       "recent_events": [
+        {
+          "date": "20261112",
+          "type": "negative",
+          "headline": "[거시분석] Russia-Ukraine talks turn to post-war securit...",
+          "score": -3
+        },
         {
           "date": "20261111",
           "type": "negative",
@@ -229,37 +242,11 @@
           "type": "negative",
           "headline": "[거시분석] US offers $20m reward for information about I...",
           "score": -4
-        },
-        {
-          "date": "20261107",
-          "type": "positive",
-          "headline": "종전 협상 앞두고도…러·우크라, 대규모 미사일·드론 공격",
-          "score": 1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20261028",
-      "headline": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261028",
-      "headline": "[거시분석] Ceasefire extended across Ukraine's Kherson r...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -6,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261029",
       "headline": "Elon Musk is a 'real genius', Putin says after satellite talks with SpaceX boss",
@@ -582,9 +569,27 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261112",
+      "headline": "미·이란 협상 기대 후퇴에 국제유가 상승…브렌트유 1.4%↑",
+      "impacts": {
+        "전력·에너지": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261112",
+      "headline": "[거시분석] Russia-Ukraine talks turn to post-war securit...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -3,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 44,
+  "total_negatives": 42,
   "total_positives": 33,
   "risk_level": "EXTREME"
 }
