@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T07:58:49.867000+09:00",
+  "updated_at": "2026-11-11T14:23:40.045555+09:00",
   "date": "20261111",
   "window_days": 14,
   "sectors": [
@@ -16,9 +16,9 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 0,
-      "positive_count": 11,
-      "negative_count": 6,
+      "score": 1,
+      "positive_count": 10,
+      "negative_count": 5,
       "recent_events": [
         {
           "date": "20261111",
@@ -33,36 +33,30 @@
           "score": 1
         },
         {
-          "date": "20261111",
+          "date": "20261110",
+          "type": "positive",
+          "headline": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+          "score": 1
+        },
+        {
+          "date": "20261110",
           "type": "positive",
           "headline": "Australia considers criminal penalties for rogue AI in wake of OpenAI hack",
           "score": 1
         },
         {
-          "date": "20261111",
-          "type": "negative",
-          "headline": "[거시분석] Board of Peace says Israel's aid response aft...",
-          "score": -2
-        },
-        {
           "date": "20261110",
           "type": "positive",
-          "headline": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+          "headline": "Zoe Kleinman: Nvidia CEO's affair will cause ripples across US and beyond",
           "score": 1
         }
       ]
     },
     "건설": {
-      "score": -9,
+      "score": -7,
       "positive_count": 1,
-      "negative_count": 6,
+      "negative_count": 5,
       "recent_events": [
-        {
-          "date": "20261111",
-          "type": "negative",
-          "headline": "[거시분석] Board of Peace says Israel's aid response aft...",
-          "score": -2
-        },
         {
           "date": "20261109",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "positive",
           "headline": "강남 은마 795㎡ 소유권 정태수 상속인에…\"재건축엔 지장 없어\"",
           "score": 1
+        },
+        {
+          "date": "20261030",
+          "type": "negative",
+          "headline": "[거시분석] US weighs new Iran strikes as Vance reaches o...",
+          "score": -2
         }
       ]
     },
@@ -103,8 +103,8 @@
         {
           "date": "20261111",
           "type": "positive",
-          "headline": "[거시분석] Board of Peace says Israel's aid response aft...",
-          "score": 3
+          "headline": "[거시분석] Three Iran-backed suspects plotted attacks in...",
+          "score": 1
         },
         {
           "date": "20261110",
@@ -153,7 +153,7 @@
         {
           "date": "20261111",
           "type": "negative",
-          "headline": "[거시분석] Board of Peace says Israel's aid response aft...",
+          "headline": "[거시분석] Three Iran-backed suspects plotted attacks in...",
           "score": -1
         },
         {
@@ -209,8 +209,8 @@
         {
           "date": "20261111",
           "type": "negative",
-          "headline": "[거시분석] Board of Peace says Israel's aid response aft...",
-          "score": -7
+          "headline": "[거시분석] Three Iran-backed suspects plotted attacks in...",
+          "score": -2
         },
         {
           "date": "20261110",
@@ -599,26 +599,16 @@
     },
     {
       "date": "20261111",
-      "headline": "Australia considers criminal penalties for rogue AI in wake of OpenAI hack",
+      "headline": "[거시분석] Three Iran-backed suspects plotted attacks in...",
       "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261111",
-      "headline": "[거시분석] Board of Peace says Israel's aid response aft...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -7,
-        "금융": -1,
-        "반도체·AI": -2
+        "방산": 1,
+        "전체시장": -2,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 47,
-  "total_positives": 36,
+  "total_negatives": 45,
+  "total_positives": 35,
   "risk_level": "EXTREME"
 }
