@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T14:23:40.045555+09:00",
+  "updated_at": "2026-11-11T22:48:28.896213+09:00",
   "date": "20261111",
   "window_days": 14,
   "sectors": [
@@ -16,22 +16,10 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 1,
-      "positive_count": 10,
+      "score": -1,
+      "positive_count": 8,
       "negative_count": 5,
       "recent_events": [
-        {
-          "date": "20261111",
-          "type": "positive",
-          "headline": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
-          "score": 1
-        },
-        {
-          "date": "20261111",
-          "type": "positive",
-          "headline": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
-          "score": 1
-        },
         {
           "date": "20261110",
           "type": "positive",
@@ -49,6 +37,18 @@
           "type": "positive",
           "headline": "Zoe Kleinman: Nvidia CEO's affair will cause ripples across US and beyond",
           "score": 1
+        },
+        {
+          "date": "20261110",
+          "type": "positive",
+          "headline": "Australia tightens AI oversight rules after OpenAI government breach",
+          "score": 1
+        },
+        {
+          "date": "20261110",
+          "type": "negative",
+          "headline": "[거시분석] Trump says more US attacks on Iran 'highly un...",
+          "score": -2
         }
       ]
     },
@@ -92,14 +92,8 @@
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
-        {
-          "date": "20261111",
-          "type": "negative",
-          "headline": "First day of Ukraine peace talks constructive, Zelensky says",
-          "score": -1
-        },
         {
           "date": "20261111",
           "type": "positive",
@@ -123,6 +117,12 @@
           "type": "positive",
           "headline": "[거시분석] Iran executes three men for 'armed unrest' af...",
           "score": 3
+        },
+        {
+          "date": "20261108",
+          "type": "positive",
+          "headline": "[거시분석] US offers $20m reward for information about I...",
+          "score": 1
         }
       ]
     },
@@ -210,7 +210,7 @@
           "date": "20261111",
           "type": "negative",
           "headline": "[거시분석] Three Iran-backed suspects plotted attacks in...",
-          "score": -2
+          "score": -4
         },
         {
           "date": "20261110",
@@ -575,40 +575,16 @@
     },
     {
       "date": "20261111",
-      "headline": "First day of Ukraine peace talks constructive, Zelensky says",
-      "impacts": {
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261111",
-      "headline": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261111",
-      "headline": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261111",
       "headline": "[거시분석] Three Iran-backed suspects plotted attacks in...",
       "impacts": {
         "방산": 1,
-        "전체시장": -2,
+        "전체시장": -4,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 45,
-  "total_positives": 35,
+  "total_negatives": 44,
+  "total_positives": 33,
   "risk_level": "EXTREME"
 }
