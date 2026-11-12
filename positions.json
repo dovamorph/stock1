@@ -90,9 +90,9 @@
       "reason": "손절 -8.2%"
     }
   ],
-  "_kospi_ch5": 0.04,
-  "_kospi_ch1": 0.2,
-  "_regime": "BEAR",
+  "_kospi_ch5": 0.2,
+  "_kospi_ch1": 0.36,
+  "_regime": "SIDEWAYS",
   "recent_exits": {
     "064350": {
       "sell_price": 217000,
@@ -125,5 +125,5 @@
       "is_loss": true
     }
   },
-  "updated_at": "2026-11-12T09:32:27.275416+09:00"
+  "updated_at": "2026-11-12T10:03:00.428482+09:00"
 }
