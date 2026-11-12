@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-12T21:21:05.496756+09:00",
-  "date": "20261112",
+  "updated_at": "2026-11-13T06:21:25.972793+09:00",
+  "date": "20261113",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,10 +16,28 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 2,
-      "positive_count": 11,
+      "score": 5,
+      "positive_count": 14,
       "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20261113",
+          "type": "positive",
+          "headline": "Jensen Huang has resigned, what's next for Nvidia?",
+          "score": 1
+        },
+        {
+          "date": "20261113",
+          "type": "positive",
+          "headline": "Why did Nvidia CEO Jensen Huang resign, and who is Colette Kress?",
+          "score": 1
+        },
+        {
+          "date": "20261113",
+          "type": "positive",
+          "headline": "Nvidia CEO Jensen Huang steps down, more affair details revealed",
+          "score": 1
+        },
         {
           "date": "20261112",
           "type": "positive",
@@ -31,32 +49,26 @@
           "type": "positive",
           "headline": "Nvidia board weighs Jensen Huang’s future: Can it remove its founder?",
           "score": 1
-        },
-        {
-          "date": "20261112",
-          "type": "positive",
-          "headline": "China says US ‘fabricating’ Nvidia spy claims to justify tech ‘blockade’",
-          "score": 1
-        },
-        {
-          "date": "20261110",
-          "type": "positive",
-          "headline": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
-          "score": 1
-        },
-        {
-          "date": "20261110",
-          "type": "positive",
-          "headline": "Australia considers criminal penalties for rogue AI in wake of OpenAI hack",
-          "score": 1
         }
       ]
     },
     "건설": {
       "score": -5,
-      "positive_count": 1,
-      "negative_count": 4,
+      "positive_count": 2,
+      "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20261113",
+          "type": "positive",
+          "headline": "'재건축 부담금' 법적 분쟁 조짐에…대형 로펌들 TF 속속 가동",
+          "score": 1
+        },
+        {
+          "date": "20261113",
+          "type": "negative",
+          "headline": "[거시분석] Israeli strike on Gaza hospital kills six Pal...",
+          "score": -1
+        },
         {
           "date": "20261109",
           "type": "negative",
@@ -74,18 +86,6 @@
           "type": "negative",
           "headline": "[거시분석] Major construction ongoing near Iran missile ...",
           "score": -1
-        },
-        {
-          "date": "20261030",
-          "type": "positive",
-          "headline": "강남 은마 795㎡ 소유권 정태수 상속인에…\"재건축엔 지장 없어\"",
-          "score": 1
-        },
-        {
-          "date": "20261030",
-          "type": "negative",
-          "headline": "[거시분석] US weighs new Iran strikes as Vance reaches o...",
-          "score": -2
         }
       ]
     },
@@ -94,6 +94,12 @@
       "positive_count": 16,
       "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20261113",
+          "type": "positive",
+          "headline": "[거시분석] Israeli strike on Gaza hospital kills six Pal...",
+          "score": 2
+        },
         {
           "date": "20261112",
           "type": "positive",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] Trump says more US attacks on Iran 'highly un...",
           "score": 1
-        },
-        {
-          "date": "20261109",
-          "type": "positive",
-          "headline": "[거시분석] Iran executes three men for 'armed unrest' af...",
-          "score": 3
         }
       ]
     },
@@ -151,6 +151,12 @@
       "negative_count": 13,
       "recent_events": [
         {
+          "date": "20261113",
+          "type": "negative",
+          "headline": "[거시분석] Israeli strike on Gaza hospital kills six Pal...",
+          "score": -1
+        },
+        {
           "date": "20261112",
           "type": "negative",
           "headline": "[거시분석] Israeli strike on Gaza hospital kills six Pal...",
@@ -173,30 +179,18 @@
           "type": "negative",
           "headline": "[거시분석] Qeshm island and Hormuz hit, as mediators try...",
           "score": -1
-        },
-        {
-          "date": "20261106",
-          "type": "negative",
-          "headline": "[거시분석] Major construction ongoing near Iran missile ...",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 2,
-      "positive_count": 2,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20261112",
           "type": "positive",
           "headline": "Ukraine says military Starlink disrupted again as US envoys meet Putin in Moscow",
-          "score": 1
-        },
-        {
-          "date": "20261029",
-          "type": "positive",
-          "headline": "Elon Musk is a 'real genius', Putin says after satellite talks with SpaceX boss",
           "score": 1
         }
       ]
@@ -212,6 +206,12 @@
       "positive_count": 5,
       "negative_count": 15,
       "recent_events": [
+        {
+          "date": "20261113",
+          "type": "negative",
+          "headline": "[거시분석] Israeli strike on Gaza hospital kills six Pal...",
+          "score": -4
+        },
         {
           "date": "20261112",
           "type": "negative",
@@ -235,35 +235,11 @@
           "type": "negative",
           "headline": "[거시분석] Iran executes three men for 'armed unrest' af...",
           "score": -3
-        },
-        {
-          "date": "20261108",
-          "type": "negative",
-          "headline": "[거시분석] US offers $20m reward for information about I...",
-          "score": -4
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20261029",
-      "headline": "Elon Musk is a 'real genius', Putin says after satellite talks with SpaceX boss",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261029",
-      "headline": "[거시분석] Pentagon says Iran war has cost US taxpayers ...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -3,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261030",
       "headline": "강남 은마 795㎡ 소유권 정태수 상속인에…\"재건축엔 지장 없어\"",
@@ -610,9 +586,52 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261113",
+      "headline": "Jensen Huang has resigned, what's next for Nvidia?",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261113",
+      "headline": "Why did Nvidia CEO Jensen Huang resign, and who is Colette Kress?",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261113",
+      "headline": "Nvidia CEO Jensen Huang steps down, more affair details revealed",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261113",
+      "headline": "'재건축 부담금' 법적 분쟁 조짐에…대형 로펌들 TF 속속 가동",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261113",
+      "headline": "[거시분석] Israeli strike on Gaza hospital kills six Pal...",
+      "impacts": {
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -4,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
-  "total_positives": 36,
+  "total_negatives": 43,
+  "total_positives": 39,
   "risk_level": "EXTREME"
 }
