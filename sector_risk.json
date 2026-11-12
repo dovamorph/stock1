@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T11:45:10.282191+09:00",
+  "updated_at": "2026-11-12T21:21:05.496756+09:00",
   "date": "20261112",
   "window_days": 14,
   "sectors": [
@@ -16,20 +16,26 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 1,
-      "positive_count": 10,
+      "score": 2,
+      "positive_count": 11,
       "negative_count": 5,
       "recent_events": [
         {
           "date": "20261112",
           "type": "positive",
-          "headline": "What could Chinese intelligence have learned from Nvidia CEO’s affair?",
+          "headline": "Who could replace Jensen Huang as Nvidia's chief executive?",
           "score": 1
         },
         {
           "date": "20261112",
           "type": "positive",
-          "headline": "Nvidia shares plunge amid reports board to discuss CEO Huang’s future",
+          "headline": "Nvidia board weighs Jensen Huang’s future: Can it remove its founder?",
+          "score": 1
+        },
+        {
+          "date": "20261112",
+          "type": "positive",
+          "headline": "China says US ‘fabricating’ Nvidia spy claims to justify tech ‘blockade’",
           "score": 1
         },
         {
@@ -42,12 +48,6 @@
           "date": "20261110",
           "type": "positive",
           "headline": "Australia considers criminal penalties for rogue AI in wake of OpenAI hack",
-          "score": 1
-        },
-        {
-          "date": "20261110",
-          "type": "positive",
-          "headline": "Zoe Kleinman: Nvidia CEO's affair will cause ripples across US and beyond",
           "score": 1
         }
       ]
@@ -97,7 +97,7 @@
         {
           "date": "20261112",
           "type": "positive",
-          "headline": "[거시분석] Russia-Ukraine talks turn to post-war securit...",
+          "headline": "[거시분석] Israeli strike on Gaza hospital kills six Pal...",
           "score": 1
         },
         {
@@ -153,7 +153,7 @@
         {
           "date": "20261112",
           "type": "negative",
-          "headline": "[거시분석] Russia-Ukraine talks turn to post-war securit...",
+          "headline": "[거시분석] Israeli strike on Gaza hospital kills six Pal...",
           "score": -1
         },
         {
@@ -183,10 +183,16 @@
       ]
     },
     "우주ETF": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 2,
+      "positive_count": 2,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20261112",
+          "type": "positive",
+          "headline": "Ukraine says military Starlink disrupted again as US envoys meet Putin in Moscow",
+          "score": 1
+        },
         {
           "date": "20261029",
           "type": "positive",
@@ -209,7 +215,7 @@
         {
           "date": "20261112",
           "type": "negative",
-          "headline": "[거시분석] Russia-Ukraine talks turn to post-war securit...",
+          "headline": "[거시분석] Israeli strike on Gaza hospital kills six Pal...",
           "score": -2
         },
         {
@@ -565,7 +571,15 @@
     },
     {
       "date": "20261112",
-      "headline": "What could Chinese intelligence have learned from Nvidia CEO’s affair?",
+      "headline": "Ukraine says military Starlink disrupted again as US envoys meet Putin in Moscow",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261112",
+      "headline": "Who could replace Jensen Huang as Nvidia's chief executive?",
       "impacts": {
         "반도체·AI": 1
       },
@@ -573,7 +587,7 @@
     },
     {
       "date": "20261112",
-      "headline": "Nvidia shares plunge amid reports board to discuss CEO Huang’s future",
+      "headline": "Nvidia board weighs Jensen Huang’s future: Can it remove its founder?",
       "impacts": {
         "반도체·AI": 1
       },
@@ -581,7 +595,15 @@
     },
     {
       "date": "20261112",
-      "headline": "[거시분석] Russia-Ukraine talks turn to post-war securit...",
+      "headline": "China says US ‘fabricating’ Nvidia spy claims to justify tech ‘blockade’",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261112",
+      "headline": "[거시분석] Israeli strike on Gaza hospital kills six Pal...",
       "impacts": {
         "방산": 1,
         "전체시장": -2,
@@ -591,6 +613,6 @@
     }
   ],
   "total_negatives": 42,
-  "total_positives": 34,
+  "total_positives": 36,
   "risk_level": "EXTREME"
 }
