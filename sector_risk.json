@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T11:28:34.871474+09:00",
+  "updated_at": "2026-11-13T20:58:04.402767+09:00",
   "date": "20261113",
   "window_days": 14,
   "sectors": [
@@ -16,14 +16,14 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 3,
+      "score": 5,
       "positive_count": 14,
-      "negative_count": 6,
+      "negative_count": 5,
       "recent_events": [
         {
           "date": "20261113",
           "type": "positive",
-          "headline": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil",
+          "headline": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
           "score": 1
         },
         {
@@ -35,19 +35,19 @@
         {
           "date": "20261113",
           "type": "positive",
-          "headline": "Why did Nvidia CEO Jensen Huang resign, and who is Colette Kress?",
+          "headline": "US Senate summons Nvidia’s Huang, Lutnick to testify",
           "score": 1
-        },
-        {
-          "date": "20261113",
-          "type": "negative",
-          "headline": "[거시분석] US Treasury Secretary Scott Bessent relocated...",
-          "score": -2
         },
         {
           "date": "20261112",
           "type": "positive",
           "headline": "Who could replace Jensen Huang as Nvidia's chief executive?",
+          "score": 1
+        },
+        {
+          "date": "20261112",
+          "type": "positive",
+          "headline": "Nvidia board weighs Jensen Huang’s future: Can it remove its founder?",
           "score": 1
         }
       ]
@@ -92,7 +92,7 @@
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 6,
+      "negative_count": 7,
       "recent_events": [
         {
           "date": "20261113",
@@ -102,8 +102,14 @@
         },
         {
           "date": "20261113",
+          "type": "negative",
+          "headline": "종전협상 나설 유럽 대표 누구?…EU 의장 부상, 독·프 '떨떠름'",
+          "score": -1
+        },
+        {
+          "date": "20261113",
           "type": "positive",
-          "headline": "[거시분석] US Treasury Secretary Scott Bessent relocated...",
+          "headline": "[거시분석] Zelensky welcomes US bringing Europe into Rus...",
           "score": 1
         },
         {
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] Three Iran-backed suspects plotted attacks in...",
           "score": 1
-        },
-        {
-          "date": "20261110",
-          "type": "negative",
-          "headline": "Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say",
-          "score": -1
         }
       ]
     },
@@ -153,7 +153,7 @@
         {
           "date": "20261113",
           "type": "negative",
-          "headline": "[거시분석] US Treasury Secretary Scott Bessent relocated...",
+          "headline": "[거시분석] Zelensky welcomes US bringing Europe into Rus...",
           "score": -1
         },
         {
@@ -203,14 +203,20 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 5,
+      "positive_count": 6,
       "negative_count": 15,
       "recent_events": [
         {
           "date": "20261113",
+          "type": "positive",
+          "headline": "종전협상 나설 유럽 대표 누구?…EU 의장 부상, 독·프 '떨떠름'",
+          "score": 1
+        },
+        {
+          "date": "20261113",
           "type": "negative",
-          "headline": "[거시분석] US Treasury Secretary Scott Bessent relocated...",
-          "score": -5
+          "headline": "[거시분석] Zelensky welcomes US bringing Europe into Rus...",
+          "score": -2
         },
         {
           "date": "20261112",
@@ -229,12 +235,6 @@
           "type": "negative",
           "headline": "[거시분석] Trump says more US attacks on Iran 'highly un...",
           "score": -4
-        },
-        {
-          "date": "20261109",
-          "type": "negative",
-          "headline": "[거시분석] Iran executes three men for 'armed unrest' af...",
-          "score": -3
         }
       ]
     }
@@ -589,7 +589,7 @@
     },
     {
       "date": "20261113",
-      "headline": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil",
+      "headline": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
       "impacts": {
         "반도체·AI": 1
       },
@@ -613,7 +613,7 @@
     },
     {
       "date": "20261113",
-      "headline": "Why did Nvidia CEO Jensen Huang resign, and who is Colette Kress?",
+      "headline": "US Senate summons Nvidia’s Huang, Lutnick to testify",
       "impacts": {
         "반도체·AI": 1
       },
@@ -621,17 +621,25 @@
     },
     {
       "date": "20261113",
-      "headline": "[거시분석] US Treasury Secretary Scott Bessent relocated...",
+      "headline": "종전협상 나설 유럽 대표 누구?…EU 의장 부상, 독·프 '떨떠름'",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261113",
+      "headline": "[거시분석] Zelensky welcomes US bringing Europe into Rus...",
       "impacts": {
         "방산": 1,
-        "전체시장": -5,
-        "금융": -1,
-        "반도체·AI": -2
+        "전체시장": -2,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 44,
-  "total_positives": 38,
+  "total_positives": 39,
   "risk_level": "EXTREME"
 }
