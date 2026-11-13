@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T06:21:25.972793+09:00",
+  "updated_at": "2026-11-13T11:28:34.871474+09:00",
   "date": "20261113",
   "window_days": 14,
   "sectors": [
@@ -16,10 +16,16 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 5,
+      "score": 3,
       "positive_count": 14,
-      "negative_count": 5,
+      "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20261113",
+          "type": "positive",
+          "headline": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil",
+          "score": 1
+        },
         {
           "date": "20261113",
           "type": "positive",
@@ -34,41 +40,23 @@
         },
         {
           "date": "20261113",
-          "type": "positive",
-          "headline": "Nvidia CEO Jensen Huang steps down, more affair details revealed",
-          "score": 1
+          "type": "negative",
+          "headline": "[거시분석] US Treasury Secretary Scott Bessent relocated...",
+          "score": -2
         },
         {
           "date": "20261112",
           "type": "positive",
           "headline": "Who could replace Jensen Huang as Nvidia's chief executive?",
           "score": 1
-        },
-        {
-          "date": "20261112",
-          "type": "positive",
-          "headline": "Nvidia board weighs Jensen Huang’s future: Can it remove its founder?",
-          "score": 1
         }
       ]
     },
     "건설": {
       "score": -5,
-      "positive_count": 2,
-      "negative_count": 5,
+      "positive_count": 1,
+      "negative_count": 4,
       "recent_events": [
-        {
-          "date": "20261113",
-          "type": "positive",
-          "headline": "'재건축 부담금' 법적 분쟁 조짐에…대형 로펌들 TF 속속 가동",
-          "score": 1
-        },
-        {
-          "date": "20261113",
-          "type": "negative",
-          "headline": "[거시분석] Israeli strike on Gaza hospital kills six Pal...",
-          "score": -1
-        },
         {
           "date": "20261109",
           "type": "negative",
@@ -86,19 +74,37 @@
           "type": "negative",
           "headline": "[거시분석] Major construction ongoing near Iran missile ...",
           "score": -1
+        },
+        {
+          "date": "20261030",
+          "type": "positive",
+          "headline": "강남 은마 795㎡ 소유권 정태수 상속인에…\"재건축엔 지장 없어\"",
+          "score": 1
+        },
+        {
+          "date": "20261030",
+          "type": "negative",
+          "headline": "[거시분석] US weighs new Iran strikes as Vance reaches o...",
+          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 5,
+      "negative_count": 6,
       "recent_events": [
         {
           "date": "20261113",
+          "type": "negative",
+          "headline": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
+          "score": -1
+        },
+        {
+          "date": "20261113",
           "type": "positive",
-          "headline": "[거시분석] Israeli strike on Gaza hospital kills six Pal...",
-          "score": 2
+          "headline": "[거시분석] US Treasury Secretary Scott Bessent relocated...",
+          "score": 1
         },
         {
           "date": "20261112",
@@ -117,12 +123,6 @@
           "type": "negative",
           "headline": "Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say",
           "score": -1
-        },
-        {
-          "date": "20261110",
-          "type": "positive",
-          "headline": "[거시분석] Trump says more US attacks on Iran 'highly un...",
-          "score": 1
         }
       ]
     },
@@ -153,7 +153,7 @@
         {
           "date": "20261113",
           "type": "negative",
-          "headline": "[거시분석] Israeli strike on Gaza hospital kills six Pal...",
+          "headline": "[거시분석] US Treasury Secretary Scott Bessent relocated...",
           "score": -1
         },
         {
@@ -209,8 +209,8 @@
         {
           "date": "20261113",
           "type": "negative",
-          "headline": "[거시분석] Israeli strike on Gaza hospital kills six Pal...",
-          "score": -4
+          "headline": "[거시분석] US Treasury Secretary Scott Bessent relocated...",
+          "score": -5
         },
         {
           "date": "20261112",
@@ -589,6 +589,22 @@
     },
     {
       "date": "20261113",
+      "headline": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261113",
+      "headline": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
+      "impacts": {
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261113",
       "headline": "Jensen Huang has resigned, what's next for Nvidia?",
       "impacts": {
         "반도체·AI": 1
@@ -605,33 +621,17 @@
     },
     {
       "date": "20261113",
-      "headline": "Nvidia CEO Jensen Huang steps down, more affair details revealed",
+      "headline": "[거시분석] US Treasury Secretary Scott Bessent relocated...",
       "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261113",
-      "headline": "'재건축 부담금' 법적 분쟁 조짐에…대형 로펌들 TF 속속 가동",
-      "impacts": {
-        "건설": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261113",
-      "headline": "[거시분석] Israeli strike on Gaza hospital kills six Pal...",
-      "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -4,
-        "금융": -1
+        "방산": 1,
+        "전체시장": -5,
+        "금융": -1,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 43,
-  "total_positives": 39,
+  "total_negatives": 44,
+  "total_positives": 38,
   "risk_level": "EXTREME"
 }
