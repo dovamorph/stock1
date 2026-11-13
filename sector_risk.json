@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-13T20:58:04.402767+09:00",
-  "date": "20261113",
+  "updated_at": "2026-11-14T04:31:40.898619+09:00",
+  "date": "20261114",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,46 +16,46 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 5,
-      "positive_count": 14,
-      "negative_count": 5,
+      "score": 10,
+      "positive_count": 18,
+      "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20261114",
+          "type": "positive",
+          "headline": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
+          "score": 1
+        },
+        {
+          "date": "20261114",
+          "type": "positive",
+          "headline": "How a sex scandal at Nvidia is putting pressure on the White House",
+          "score": 1
+        },
+        {
+          "date": "20261114",
+          "type": "positive",
+          "headline": "How will the US deal with Nvidia scandal?",
+          "score": 1
+        },
+        {
+          "date": "20261114",
+          "type": "positive",
+          "headline": "Nvidia scandal: What’s next for the US tech company?",
+          "score": 1
+        },
         {
           "date": "20261113",
           "type": "positive",
           "headline": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
           "score": 1
-        },
-        {
-          "date": "20261113",
-          "type": "positive",
-          "headline": "Jensen Huang has resigned, what's next for Nvidia?",
-          "score": 1
-        },
-        {
-          "date": "20261113",
-          "type": "positive",
-          "headline": "US Senate summons Nvidia’s Huang, Lutnick to testify",
-          "score": 1
-        },
-        {
-          "date": "20261112",
-          "type": "positive",
-          "headline": "Who could replace Jensen Huang as Nvidia's chief executive?",
-          "score": 1
-        },
-        {
-          "date": "20261112",
-          "type": "positive",
-          "headline": "Nvidia board weighs Jensen Huang’s future: Can it remove its founder?",
-          "score": 1
         }
       ]
     },
     "건설": {
-      "score": -5,
-      "positive_count": 1,
-      "negative_count": 4,
+      "score": -4,
+      "positive_count": 0,
+      "negative_count": 3,
       "recent_events": [
         {
           "date": "20261109",
@@ -74,26 +74,32 @@
           "type": "negative",
           "headline": "[거시분석] Major construction ongoing near Iran missile ...",
           "score": -1
-        },
-        {
-          "date": "20261030",
-          "type": "positive",
-          "headline": "강남 은마 795㎡ 소유권 정태수 상속인에…\"재건축엔 지장 없어\"",
-          "score": 1
-        },
-        {
-          "date": "20261030",
-          "type": "negative",
-          "headline": "[거시분석] US weighs new Iran strikes as Vance reaches o...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 7,
+      "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20261114",
+          "type": "negative",
+          "headline": "Europe seeks seat at Ukraine peace talks but lacks unified voice",
+          "score": -1
+        },
+        {
+          "date": "20261114",
+          "type": "negative",
+          "headline": "EU \"우크라 종전협상에 독일 등 5개국·EU가 유럽 대표로 참여\"",
+          "score": -1
+        },
+        {
+          "date": "20261114",
+          "type": "positive",
+          "headline": "[거시분석] Nvidia scandal fallout widens as Trump's trea...",
+          "score": 1
+        },
         {
           "date": "20261113",
           "type": "negative",
@@ -105,24 +111,6 @@
           "type": "negative",
           "headline": "종전협상 나설 유럽 대표 누구?…EU 의장 부상, 독·프 '떨떠름'",
           "score": -1
-        },
-        {
-          "date": "20261113",
-          "type": "positive",
-          "headline": "[거시분석] Zelensky welcomes US bringing Europe into Rus...",
-          "score": 1
-        },
-        {
-          "date": "20261112",
-          "type": "positive",
-          "headline": "[거시분석] Israeli strike on Gaza hospital kills six Pal...",
-          "score": 1
-        },
-        {
-          "date": "20261111",
-          "type": "positive",
-          "headline": "[거시분석] Three Iran-backed suspects plotted attacks in...",
-          "score": 1
         }
       ]
     },
@@ -148,8 +136,20 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 13,
+      "negative_count": 14,
       "recent_events": [
+        {
+          "date": "20261114",
+          "type": "negative",
+          "headline": "'엘니뇨 타격' 페루…중앙은행, 약 4년 만에 금리 인상",
+          "score": -1
+        },
+        {
+          "date": "20261114",
+          "type": "negative",
+          "headline": "[거시분석] Nvidia scandal fallout widens as Trump's trea...",
+          "score": -3
+        },
         {
           "date": "20261113",
           "type": "negative",
@@ -166,18 +166,6 @@
           "date": "20261111",
           "type": "negative",
           "headline": "[거시분석] Three Iran-backed suspects plotted attacks in...",
-          "score": -1
-        },
-        {
-          "date": "20261108",
-          "type": "negative",
-          "headline": "[거시분석] US offers $20m reward for information about I...",
-          "score": -1
-        },
-        {
-          "date": "20261107",
-          "type": "negative",
-          "headline": "[거시분석] Qeshm island and Hormuz hit, as mediators try...",
           "score": -1
         }
       ]
@@ -203,9 +191,21 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 6,
+      "positive_count": 7,
       "negative_count": 15,
       "recent_events": [
+        {
+          "date": "20261114",
+          "type": "positive",
+          "headline": "EU \"우크라 종전협상에 독일 등 5개국·EU가 유럽 대표로 참여\"",
+          "score": 1
+        },
+        {
+          "date": "20261114",
+          "type": "negative",
+          "headline": "[거시분석] Nvidia scandal fallout widens as Trump's trea...",
+          "score": -6
+        },
         {
           "date": "20261113",
           "type": "positive",
@@ -223,43 +223,11 @@
           "type": "negative",
           "headline": "[거시분석] Israeli strike on Gaza hospital kills six Pal...",
           "score": -2
-        },
-        {
-          "date": "20261111",
-          "type": "negative",
-          "headline": "[거시분석] Three Iran-backed suspects plotted attacks in...",
-          "score": -4
-        },
-        {
-          "date": "20261110",
-          "type": "negative",
-          "headline": "[거시분석] Trump says more US attacks on Iran 'highly un...",
-          "score": -4
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20261030",
-      "headline": "강남 은마 795㎡ 소유권 정태수 상속인에…\"재건축엔 지장 없어\"",
-      "impacts": {
-        "건설": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261030",
-      "headline": "[거시분석] US weighs new Iran strikes as Vance reaches o...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -7,
-        "금융": -1,
-        "반도체·AI": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261031",
       "headline": "China denies allegations of spy operation targeting Nvidia CEO",
@@ -637,9 +605,76 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261114",
+      "headline": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261114",
+      "headline": "How a sex scandal at Nvidia is putting pressure on the White House",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261114",
+      "headline": "How will the US deal with Nvidia scandal?",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261114",
+      "headline": "Europe seeks seat at Ukraine peace talks but lacks unified voice",
+      "impacts": {
+        "방산": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261114",
+      "headline": "Nvidia scandal: What’s next for the US tech company?",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261114",
+      "headline": "EU \"우크라 종전협상에 독일 등 5개국·EU가 유럽 대표로 참여\"",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261114",
+      "headline": "'엘니뇨 타격' 페루…중앙은행, 약 4년 만에 금리 인상",
+      "impacts": {
+        "금융": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261114",
+      "headline": "[거시분석] Nvidia scandal fallout widens as Trump's trea...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -6,
+        "금융": -3
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 44,
-  "total_positives": 39,
+  "total_negatives": 45,
+  "total_positives": 43,
   "risk_level": "EXTREME"
 }
