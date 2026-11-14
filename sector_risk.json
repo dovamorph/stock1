@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T09:46:46.716384+09:00",
+  "updated_at": "2026-11-14T17:45:11.962819+09:00",
   "date": "20261114",
   "window_days": 14,
   "sectors": [
@@ -16,8 +16,8 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 10,
-      "positive_count": 17,
+      "score": 9,
+      "positive_count": 16,
       "negative_count": 4,
       "recent_events": [
         {
@@ -33,12 +33,6 @@
           "score": 1
         },
         {
-          "date": "20261114",
-          "type": "positive",
-          "headline": "How will the US deal with Nvidia scandal?",
-          "score": 1
-        },
-        {
           "date": "20261113",
           "type": "positive",
           "headline": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
@@ -48,6 +42,12 @@
           "date": "20261113",
           "type": "positive",
           "headline": "Jensen Huang has resigned, what's next for Nvidia?",
+          "score": 1
+        },
+        {
+          "date": "20261113",
+          "type": "positive",
+          "headline": "US Senate summons Nvidia’s Huang, Lutnick to testify",
           "score": 1
         }
       ]
@@ -204,7 +204,7 @@
           "date": "20261114",
           "type": "negative",
           "headline": "[거시분석] Rosenberg: Uncompromising Putin ups demands f...",
-          "score": -2
+          "score": -4
         },
         {
           "date": "20261113",
@@ -638,24 +638,16 @@
     },
     {
       "date": "20261114",
-      "headline": "How will the US deal with Nvidia scandal?",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261114",
       "headline": "[거시분석] Rosenberg: Uncompromising Putin ups demands f...",
       "impacts": {
         "방산": 1,
-        "전체시장": -2,
+        "전체시장": -4,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 42,
-  "total_positives": 42,
+  "total_positives": 41,
   "risk_level": "EXTREME"
 }
