@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T01:27:00.698820+09:00",
+  "updated_at": "2026-11-15T07:07:17.793142+09:00",
   "date": "20261115",
   "window_days": 14,
   "sectors": [
@@ -23,7 +23,7 @@
         {
           "date": "20261115",
           "type": "positive",
-          "headline": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
+          "headline": "[뉴욕증시-주간전망] 엔비디아 실적에 앤트로픽 상장…'AI 빅위크'",
           "score": 1
         },
         {
@@ -177,16 +177,10 @@
       ]
     },
     "우주ETF": {
-      "score": 4,
-      "positive_count": 4,
+      "score": 3,
+      "positive_count": 3,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20261115",
-          "type": "positive",
-          "headline": "Second catch attempt for SpaceX Starship rocket",
-          "score": 1
-        },
         {
           "date": "20261115",
           "type": "positive",
@@ -222,7 +216,7 @@
           "date": "20261115",
           "type": "negative",
           "headline": "[거시분석] US has floated Ukraine ceding Donbas for Nato...",
-          "score": -5
+          "score": -4
         },
         {
           "date": "20261114",
@@ -649,22 +643,6 @@
     },
     {
       "date": "20261115",
-      "headline": "Second catch attempt for SpaceX Starship rocket",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261115",
-      "headline": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261115",
       "headline": "Myanmar airstrike kills 12 at displacement camp in Rakhine state",
       "impacts": {
         "방산": 1
@@ -681,17 +659,25 @@
     },
     {
       "date": "20261115",
+      "headline": "[뉴욕증시-주간전망] 엔비디아 실적에 앤트로픽 상장…'AI 빅위크'",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261115",
       "headline": "[거시분석] US has floated Ukraine ceding Donbas for Nato...",
       "impacts": {
         "방산": 3,
         "건설": -2,
-        "전체시장": -5,
+        "전체시장": -4,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 44,
-  "total_positives": 44,
+  "total_positives": 43,
   "risk_level": "EXTREME"
 }
