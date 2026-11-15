@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-15T22:40:39.632780+09:00",
-  "date": "20261115",
+  "updated_at": "2026-11-16T04:38:02.823540+09:00",
+  "date": "20261116",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -16,10 +16,22 @@
   "calendar_events": [],
   "sector_stats": {
     "반도체·AI": {
-      "score": 8,
-      "positive_count": 15,
+      "score": 9,
+      "positive_count": 16,
       "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20261116",
+          "type": "positive",
+          "headline": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+          "score": 1
+        },
+        {
+          "date": "20261116",
+          "type": "negative",
+          "headline": "Fascism built the AI bubble. What will burst it?",
+          "score": -1
+        },
         {
           "date": "20261114",
           "type": "positive",
@@ -36,18 +48,6 @@
           "date": "20261113",
           "type": "positive",
           "headline": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
-          "score": 1
-        },
-        {
-          "date": "20261113",
-          "type": "positive",
-          "headline": "Jensen Huang has resigned, what's next for Nvidia?",
-          "score": 1
-        },
-        {
-          "date": "20261113",
-          "type": "positive",
-          "headline": "US Senate summons Nvidia’s Huang, Lutnick to testify",
           "score": 1
         }
       ]
@@ -83,6 +83,12 @@
       "negative_count": 8,
       "recent_events": [
         {
+          "date": "20261116",
+          "type": "positive",
+          "headline": "[거시분석] Iran targets US military base in Bahrain with...",
+          "score": 1
+        },
+        {
           "date": "20261115",
           "type": "negative",
           "headline": "\"러, 우크라 종전협상 유럽 참여에 전향적 입장으로 선회\"",
@@ -104,12 +110,6 @@
           "date": "20261113",
           "type": "negative",
           "headline": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
-          "score": -1
-        },
-        {
-          "date": "20261113",
-          "type": "negative",
-          "headline": "종전협상 나설 유럽 대표 누구?…EU 의장 부상, 독·프 '떨떠름'",
           "score": -1
         }
       ]
@@ -136,8 +136,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 14,
+      "negative_count": 15,
       "recent_events": [
+        {
+          "date": "20261116",
+          "type": "negative",
+          "headline": "[거시분석] Iran targets US military base in Bahrain with...",
+          "score": -1
+        },
         {
           "date": "20261115",
           "type": "negative",
@@ -161,20 +167,32 @@
           "type": "negative",
           "headline": "[거시분석] Israeli strike on Gaza hospital kills six Pal...",
           "score": -1
-        },
-        {
-          "date": "20261111",
-          "type": "negative",
-          "headline": "[거시분석] Three Iran-backed suspects plotted attacks in...",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 3,
-      "positive_count": 3,
+      "score": 6,
+      "positive_count": 6,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20261116",
+          "type": "positive",
+          "headline": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
+          "score": 1
+        },
+        {
+          "date": "20261116",
+          "type": "positive",
+          "headline": "'Can you believe it?': SpaceX catches part of its Starship rocket on return to Earth",
+          "score": 1
+        },
+        {
+          "date": "20261116",
+          "type": "positive",
+          "headline": "‘Almost magic’ as SpaceX craft caught mid-air: Why it matters",
+          "score": 1
+        },
         {
           "date": "20261115",
           "type": "positive",
@@ -185,12 +203,6 @@
           "date": "20261114",
           "type": "positive",
           "headline": "Setback for SpaceX Starship rocket's double-catch test",
-          "score": 1
-        },
-        {
-          "date": "20261112",
-          "type": "positive",
-          "headline": "Ukraine says military Starlink disrupted again as US envoys meet Putin in Moscow",
           "score": 1
         }
       ]
@@ -206,6 +218,12 @@
       "positive_count": 7,
       "negative_count": 15,
       "recent_events": [
+        {
+          "date": "20261116",
+          "type": "negative",
+          "headline": "[거시분석] Iran targets US military base in Bahrain with...",
+          "score": -3
+        },
         {
           "date": "20261115",
           "type": "positive",
@@ -229,34 +247,11 @@
           "type": "positive",
           "headline": "종전협상 나설 유럽 대표 누구?…EU 의장 부상, 독·프 '떨떠름'",
           "score": 1
-        },
-        {
-          "date": "20261113",
-          "type": "negative",
-          "headline": "[거시분석] Zelensky welcomes US bringing Europe into Rus...",
-          "score": -2
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20261101",
-      "headline": "These firms you've never heard of are feeding fears the AI bubble could burst",
-      "impacts": {
-        "반도체·AI": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261101",
-      "headline": "[거시분석] Trump at Halloween party ‘as himself’ says he...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261102",
       "headline": "Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends",
@@ -661,9 +656,59 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261116",
+      "headline": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261116",
+      "headline": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261116",
+      "headline": "'Can you believe it?': SpaceX catches part of its Starship rocket on return to Earth",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261116",
+      "headline": "Fascism built the AI bubble. What will burst it?",
+      "impacts": {
+        "반도체·AI": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261116",
+      "headline": "‘Almost magic’ as SpaceX craft caught mid-air: Why it matters",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261116",
+      "headline": "[거시분석] Iran targets US military base in Bahrain with...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -3,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 44,
-  "total_positives": 42,
+  "total_negatives": 45,
+  "total_positives": 46,
   "risk_level": "EXTREME"
 }
