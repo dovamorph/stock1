@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T14:35:15.252584+09:00",
+  "updated_at": "2026-11-15T22:40:39.632780+09:00",
   "date": "20261115",
   "window_days": 14,
   "sectors": [
@@ -80,12 +80,18 @@
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
         {
           "date": "20261115",
+          "type": "negative",
+          "headline": "\"러, 우크라 종전협상 유럽 참여에 전향적 입장으로 선회\"",
+          "score": -1
+        },
+        {
+          "date": "20261115",
           "type": "positive",
-          "headline": "[거시분석] US has floated Ukraine ceding Donbas for Nato...",
+          "headline": "[거시분석] Israel kills Hamas commander in strike on Gaz...",
           "score": 1
         },
         {
@@ -105,12 +111,6 @@
           "type": "negative",
           "headline": "종전협상 나설 유럽 대표 누구?…EU 의장 부상, 독·프 '떨떠름'",
           "score": -1
-        },
-        {
-          "date": "20261113",
-          "type": "positive",
-          "headline": "[거시분석] Zelensky welcomes US bringing Europe into Rus...",
-          "score": 1
         }
       ]
     },
@@ -141,7 +141,7 @@
         {
           "date": "20261115",
           "type": "negative",
-          "headline": "[거시분석] US has floated Ukraine ceding Donbas for Nato...",
+          "headline": "[거시분석] Israel kills Hamas commander in strike on Gaz...",
           "score": -1
         },
         {
@@ -171,26 +171,14 @@
       ]
     },
     "우주ETF": {
-      "score": 5,
-      "positive_count": 5,
+      "score": 3,
+      "positive_count": 3,
       "negative_count": 0,
       "recent_events": [
         {
           "date": "20261115",
           "type": "positive",
           "headline": "'Can you believe it?': SpaceX catches part of its Starship rocket on return to Earth",
-          "score": 1
-        },
-        {
-          "date": "20261115",
-          "type": "positive",
-          "headline": "SpaceX’s Starship nails a smooth return with historic catch",
-          "score": 1
-        },
-        {
-          "date": "20261115",
-          "type": "positive",
-          "headline": "SpaceX’s Starship captured by launchpad arms in dramatic first",
           "score": 1
         },
         {
@@ -215,13 +203,19 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 6,
+      "positive_count": 7,
       "negative_count": 15,
       "recent_events": [
         {
           "date": "20261115",
+          "type": "positive",
+          "headline": "\"러, 우크라 종전협상 유럽 참여에 전향적 입장으로 선회\"",
+          "score": 1
+        },
+        {
+          "date": "20261115",
           "type": "negative",
-          "headline": "[거시분석] US has floated Ukraine ceding Donbas for Nato...",
+          "headline": "[거시분석] Israel kills Hamas commander in strike on Gaz...",
           "score": -3
         },
         {
@@ -240,12 +234,6 @@
           "date": "20261113",
           "type": "negative",
           "headline": "[거시분석] Zelensky welcomes US bringing Europe into Rus...",
-          "score": -2
-        },
-        {
-          "date": "20261112",
-          "type": "negative",
-          "headline": "[거시분석] Israeli strike on Gaza hospital kills six Pal...",
           "score": -2
         }
       ]
@@ -657,23 +645,16 @@
     },
     {
       "date": "20261115",
-      "headline": "SpaceX’s Starship nails a smooth return with historic catch",
+      "headline": "\"러, 우크라 종전협상 유럽 참여에 전향적 입장으로 선회\"",
       "impacts": {
-        "우주ETF": 1
+        "방산": -1,
+        "전체시장": 1
       },
       "source": "keyword"
     },
     {
       "date": "20261115",
-      "headline": "SpaceX’s Starship captured by launchpad arms in dramatic first",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261115",
-      "headline": "[거시분석] US has floated Ukraine ceding Donbas for Nato...",
+      "headline": "[거시분석] Israel kills Hamas commander in strike on Gaz...",
       "impacts": {
         "방산": 1,
         "전체시장": -3,
@@ -682,7 +663,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 43,
-  "total_positives": 43,
+  "total_negatives": 44,
+  "total_positives": 42,
   "risk_level": "EXTREME"
 }
