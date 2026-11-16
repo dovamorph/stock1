@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T08:51:10.435488+09:00",
+  "updated_at": "2026-11-16T14:34:35.393533+09:00",
   "date": "20261116",
   "window_days": 14,
   "sectors": [
@@ -17,13 +17,19 @@
   "sector_stats": {
     "반도체·AI": {
       "score": 10,
-      "positive_count": 17,
+      "positive_count": 18,
       "negative_count": 3,
       "recent_events": [
         {
           "date": "20261116",
           "type": "positive",
           "headline": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+          "score": 1
+        },
+        {
+          "date": "20261116",
+          "type": "positive",
+          "headline": "Megaspeed, firm at centre of Nvidia scandal, says Alice Huang left in 2025",
           "score": 1
         },
         {
@@ -42,12 +48,6 @@
           "date": "20261114",
           "type": "positive",
           "headline": "How a sex scandal at Nvidia is putting pressure on the White House",
-          "score": 1
-        },
-        {
-          "date": "20261113",
-          "type": "positive",
-          "headline": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
           "score": 1
         }
       ]
@@ -85,7 +85,7 @@
         {
           "date": "20261116",
           "type": "positive",
-          "headline": "[거시분석] Iran targets US military base in Bahrain with...",
+          "headline": "[거시분석] Prince Harry praises war veterans on surprise...",
           "score": 1
         },
         {
@@ -221,7 +221,7 @@
         {
           "date": "20261116",
           "type": "negative",
-          "headline": "[거시분석] Iran targets US military base in Bahrain with...",
+          "headline": "[거시분석] Prince Harry praises war veterans on surprise...",
           "score": -2
         },
         {
@@ -683,6 +683,14 @@
     },
     {
       "date": "20261116",
+      "headline": "Megaspeed, firm at centre of Nvidia scandal, says Alice Huang left in 2025",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261116",
       "headline": "US Treasury chief calls for outsider to lead embattled tech firm Nvidia",
       "impacts": {
         "반도체·AI": 1
@@ -691,7 +699,7 @@
     },
     {
       "date": "20261116",
-      "headline": "[거시분석] Iran targets US military base in Bahrain with...",
+      "headline": "[거시분석] Prince Harry praises war veterans on surprise...",
       "impacts": {
         "방산": 1,
         "전체시장": -2
@@ -700,6 +708,6 @@
     }
   ],
   "total_negatives": 43,
-  "total_positives": 46,
+  "total_positives": 47,
   "risk_level": "EXTREME"
 }
