@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T09:03:35.833618+09:00",
+  "updated_at": "2026-11-17T19:23:08.328546+09:00",
   "date": "20261117",
   "window_days": 14,
   "sectors": [
@@ -23,19 +23,19 @@
         {
           "date": "20261117",
           "type": "positive",
-          "headline": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
+          "headline": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex boss",
           "score": 1
         },
         {
           "date": "20261117",
           "type": "positive",
-          "headline": "California files lawsuit against OpenAI alleging lack of proper safeguards",
+          "headline": "OpenAI sued by California over Hugging Face attack",
           "score": 1
         },
         {
           "date": "20261117",
           "type": "positive",
-          "headline": "Musk, Silicon Valley insiders urge Nvidia to restore Jensen Huang as CEO",
+          "headline": "US moves to block China’s remote access to AI chips amid Nvidia scandal",
           "score": 1
         },
         {
@@ -53,10 +53,16 @@
       ]
     },
     "건설": {
-      "score": -4,
+      "score": -6,
       "positive_count": 0,
-      "negative_count": 3,
+      "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20261117",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine accuses Russia of targeting rescue op...",
+          "score": -2
+        },
         {
           "date": "20261109",
           "type": "negative",
@@ -80,19 +86,13 @@
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 8,
+      "negative_count": 7,
       "recent_events": [
         {
           "date": "20261117",
-          "type": "negative",
-          "headline": "우승 상금 400만 달러 LPGA 최종전 투어 챔피언십 19일 개막",
-          "score": -1
-        },
-        {
-          "date": "20261117",
           "type": "positive",
-          "headline": "[거시분석] What will Europe do next in Ukraine?",
-          "score": 1
+          "headline": "[거시분석] Ukraine accuses Russia of targeting rescue op...",
+          "score": 3
         },
         {
           "date": "20261116",
@@ -110,6 +110,12 @@
           "date": "20261115",
           "type": "positive",
           "headline": "[거시분석] Israel kills Hamas commander in strike on Gaz...",
+          "score": 1
+        },
+        {
+          "date": "20261114",
+          "type": "positive",
+          "headline": "[거시분석] Rosenberg: Uncompromising Putin ups demands f...",
           "score": 1
         }
       ]
@@ -208,20 +214,14 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 7,
+      "positive_count": 6,
       "negative_count": 15,
       "recent_events": [
         {
           "date": "20261117",
-          "type": "positive",
-          "headline": "우승 상금 400만 달러 LPGA 최종전 투어 챔피언십 19일 개막",
-          "score": 1
-        },
-        {
-          "date": "20261117",
           "type": "negative",
-          "headline": "[거시분석] What will Europe do next in Ukraine?",
-          "score": -2
+          "headline": "[거시분석] Ukraine accuses Russia of targeting rescue op...",
+          "score": -4
         },
         {
           "date": "20261116",
@@ -240,6 +240,12 @@
           "type": "negative",
           "headline": "[거시분석] Israel kills Hamas commander in strike on Gaz...",
           "score": -3
+        },
+        {
+          "date": "20261114",
+          "type": "negative",
+          "headline": "[거시분석] Rosenberg: Uncompromising Putin ups demands f...",
+          "score": -4
         }
       ]
     }
@@ -674,7 +680,15 @@
     },
     {
       "date": "20261117",
-      "headline": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
+      "headline": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex boss",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261117",
+      "headline": "OpenAI sued by California over Hugging Face attack",
       "impacts": {
         "반도체·AI": 1
       },
@@ -690,7 +704,7 @@
     },
     {
       "date": "20261117",
-      "headline": "California files lawsuit against OpenAI alleging lack of proper safeguards",
+      "headline": "US moves to block China’s remote access to AI chips amid Nvidia scandal",
       "impacts": {
         "반도체·AI": 1
       },
@@ -698,32 +712,16 @@
     },
     {
       "date": "20261117",
-      "headline": "Musk, Silicon Valley insiders urge Nvidia to restore Jensen Huang as CEO",
+      "headline": "[거시분석] Ukraine accuses Russia of targeting rescue op...",
       "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261117",
-      "headline": "우승 상금 400만 달러 LPGA 최종전 투어 챔피언십 19일 개막",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261117",
-      "headline": "[거시분석] What will Europe do next in Ukraine?",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -2
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 42,
-  "total_positives": 50,
+  "total_positives": 49,
   "risk_level": "EXTREME"
 }
