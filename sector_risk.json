@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T00:14:12.127952+09:00",
+  "updated_at": "2026-11-17T09:03:35.833618+09:00",
   "date": "20261117",
   "window_days": 14,
   "sectors": [
@@ -17,19 +17,25 @@
   "sector_stats": {
     "반도체·AI": {
       "score": 10,
-      "positive_count": 20,
+      "positive_count": 21,
       "negative_count": 3,
       "recent_events": [
         {
           "date": "20261117",
           "type": "positive",
-          "headline": "Elon Musk joins 'Bring Jensen Back' campaign to reinstate the ex-Nvidia boss",
+          "headline": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
           "score": 1
         },
         {
           "date": "20261117",
           "type": "positive",
-          "headline": "Why Silicon Valley is backing Nvidia ex-CEO Jensen Huang after his ouster",
+          "headline": "California files lawsuit against OpenAI alleging lack of proper safeguards",
+          "score": 1
+        },
+        {
+          "date": "20261117",
+          "type": "positive",
+          "headline": "Musk, Silicon Valley insiders urge Nvidia to restore Jensen Huang as CEO",
           "score": 1
         },
         {
@@ -42,12 +48,6 @@
           "date": "20261116",
           "type": "positive",
           "headline": "Megaspeed, firm at centre of Nvidia scandal, says Alice Huang left in 2025",
-          "score": 1
-        },
-        {
-          "date": "20261116",
-          "type": "positive",
-          "headline": "US Treasury chief calls for outsider to lead embattled tech firm Nvidia",
           "score": 1
         }
       ]
@@ -80,12 +80,18 @@
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
         {
           "date": "20261117",
+          "type": "negative",
+          "headline": "우승 상금 400만 달러 LPGA 최종전 투어 챔피언십 19일 개막",
+          "score": -1
+        },
+        {
+          "date": "20261117",
           "type": "positive",
-          "headline": "[거시분석] UK and allies call on Israel to allow rapid h...",
+          "headline": "[거시분석] What will Europe do next in Ukraine?",
           "score": 1
         },
         {
@@ -104,12 +110,6 @@
           "date": "20261115",
           "type": "positive",
           "headline": "[거시분석] Israel kills Hamas commander in strike on Gaz...",
-          "score": 1
-        },
-        {
-          "date": "20261114",
-          "type": "positive",
-          "headline": "[거시분석] Rosenberg: Uncompromising Putin ups demands f...",
           "score": 1
         }
       ]
@@ -208,14 +208,20 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 6,
+      "positive_count": 7,
       "negative_count": 15,
       "recent_events": [
         {
           "date": "20261117",
+          "type": "positive",
+          "headline": "우승 상금 400만 달러 LPGA 최종전 투어 챔피언십 19일 개막",
+          "score": 1
+        },
+        {
+          "date": "20261117",
           "type": "negative",
-          "headline": "[거시분석] UK and allies call on Israel to allow rapid h...",
-          "score": -3
+          "headline": "[거시분석] What will Europe do next in Ukraine?",
+          "score": -2
         },
         {
           "date": "20261116",
@@ -234,12 +240,6 @@
           "type": "negative",
           "headline": "[거시분석] Israel kills Hamas commander in strike on Gaz...",
           "score": -3
-        },
-        {
-          "date": "20261114",
-          "type": "negative",
-          "headline": "[거시분석] Rosenberg: Uncompromising Putin ups demands f...",
-          "score": -4
         }
       ]
     }
@@ -674,7 +674,7 @@
     },
     {
       "date": "20261117",
-      "headline": "Elon Musk joins 'Bring Jensen Back' campaign to reinstate the ex-Nvidia boss",
+      "headline": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
       "impacts": {
         "반도체·AI": 1
       },
@@ -690,7 +690,7 @@
     },
     {
       "date": "20261117",
-      "headline": "Why Silicon Valley is backing Nvidia ex-CEO Jensen Huang after his ouster",
+      "headline": "California files lawsuit against OpenAI alleging lack of proper safeguards",
       "impacts": {
         "반도체·AI": 1
       },
@@ -698,15 +698,32 @@
     },
     {
       "date": "20261117",
-      "headline": "[거시분석] UK and allies call on Israel to allow rapid h...",
+      "headline": "Musk, Silicon Valley insiders urge Nvidia to restore Jensen Huang as CEO",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261117",
+      "headline": "우승 상금 400만 달러 LPGA 최종전 투어 챔피언십 19일 개막",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261117",
+      "headline": "[거시분석] What will Europe do next in Ukraine?",
       "impacts": {
         "방산": 1,
-        "전체시장": -3
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 41,
-  "total_positives": 48,
+  "total_negatives": 42,
+  "total_positives": 50,
   "risk_level": "EXTREME"
 }
