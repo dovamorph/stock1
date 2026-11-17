@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-17T19:23:08.328546+09:00",
-  "date": "20261117",
+  "updated_at": "2026-11-18T05:38:26.919162+09:00",
+  "date": "20261118",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -17,9 +17,27 @@
   "sector_stats": {
     "반도체·AI": {
       "score": 10,
-      "positive_count": 21,
-      "negative_count": 3,
+      "positive_count": 23,
+      "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20261118",
+          "type": "positive",
+          "headline": "Jensen Huang says he would be 'honoured' to return as Nvidia CEO if board asked him",
+          "score": 1
+        },
+        {
+          "date": "20261118",
+          "type": "positive",
+          "headline": "Nvidia partner Megaspeed being investigated by US government over chip exports",
+          "score": 1
+        },
+        {
+          "date": "20261118",
+          "type": "negative",
+          "headline": "[거시분석] Putin's Crimean Bridge partly collapses as Ze...",
+          "score": -2
+        },
         {
           "date": "20261117",
           "type": "positive",
@@ -31,32 +49,20 @@
           "type": "positive",
           "headline": "OpenAI sued by California over Hugging Face attack",
           "score": 1
-        },
-        {
-          "date": "20261117",
-          "type": "positive",
-          "headline": "US moves to block China’s remote access to AI chips amid Nvidia scandal",
-          "score": 1
-        },
-        {
-          "date": "20261116",
-          "type": "positive",
-          "headline": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
-          "score": 1
-        },
-        {
-          "date": "20261116",
-          "type": "positive",
-          "headline": "Megaspeed, firm at centre of Nvidia scandal, says Alice Huang left in 2025",
-          "score": 1
         }
       ]
     },
     "건설": {
-      "score": -6,
+      "score": -8,
       "positive_count": 0,
-      "negative_count": 4,
+      "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20261118",
+          "type": "negative",
+          "headline": "[거시분석] Putin's Crimean Bridge partly collapses as Ze...",
+          "score": -2
+        },
         {
           "date": "20261117",
           "type": "negative",
@@ -85,9 +91,21 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 16,
+      "positive_count": 17,
       "negative_count": 7,
       "recent_events": [
+        {
+          "date": "20261118",
+          "type": "positive",
+          "headline": "이란 매체 \"미군, 게슘섬 공습…심각한 피해는 없어\"(종합)",
+          "score": 1
+        },
+        {
+          "date": "20261118",
+          "type": "positive",
+          "headline": "[거시분석] Putin's Crimean Bridge partly collapses as Ze...",
+          "score": 3
+        },
         {
           "date": "20261117",
           "type": "positive",
@@ -105,18 +123,6 @@
           "type": "negative",
           "headline": "\"러, 우크라 종전협상 유럽 참여에 전향적 입장으로 선회\"",
           "score": -1
-        },
-        {
-          "date": "20261115",
-          "type": "positive",
-          "headline": "[거시분석] Israel kills Hamas commander in strike on Gaz...",
-          "score": 1
-        },
-        {
-          "date": "20261114",
-          "type": "positive",
-          "headline": "[거시분석] Rosenberg: Uncompromising Putin ups demands f...",
-          "score": 1
         }
       ]
     },
@@ -135,8 +141,14 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 13,
+      "negative_count": 14,
       "recent_events": [
+        {
+          "date": "20261118",
+          "type": "negative",
+          "headline": "[거시분석] Putin's Crimean Bridge partly collapses as Ze...",
+          "score": -1
+        },
         {
           "date": "20261115",
           "type": "negative",
@@ -159,12 +171,6 @@
           "date": "20261112",
           "type": "negative",
           "headline": "[거시분석] Israeli strike on Gaza hospital kills six Pal...",
-          "score": -1
-        },
-        {
-          "date": "20261111",
-          "type": "negative",
-          "headline": "[거시분석] Three Iran-backed suspects plotted attacks in...",
           "score": -1
         }
       ]
@@ -214,9 +220,27 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 6,
-      "negative_count": 15,
+      "positive_count": 5,
+      "negative_count": 17,
       "recent_events": [
+        {
+          "date": "20261118",
+          "type": "negative",
+          "headline": "China, Canada expand tariff relief after Carney-Xi meeting",
+          "score": -1
+        },
+        {
+          "date": "20261118",
+          "type": "negative",
+          "headline": "Companies get billions in tariff refunds. Consumers are left with the bill.",
+          "score": -1
+        },
+        {
+          "date": "20261118",
+          "type": "negative",
+          "headline": "[거시분석] Putin's Crimean Bridge partly collapses as Ze...",
+          "score": -7
+        },
         {
           "date": "20261117",
           "type": "negative",
@@ -228,46 +252,11 @@
           "type": "negative",
           "headline": "[거시분석] Prince Harry praises war veterans on surprise...",
           "score": -2
-        },
-        {
-          "date": "20261115",
-          "type": "positive",
-          "headline": "\"러, 우크라 종전협상 유럽 참여에 전향적 입장으로 선회\"",
-          "score": 1
-        },
-        {
-          "date": "20261115",
-          "type": "negative",
-          "headline": "[거시분석] Israel kills Hamas commander in strike on Gaz...",
-          "score": -3
-        },
-        {
-          "date": "20261114",
-          "type": "negative",
-          "headline": "[거시분석] Rosenberg: Uncompromising Putin ups demands f...",
-          "score": -4
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20261103",
-      "headline": "Trump to remove Rwanda and South Africa from US trade deal",
-      "impacts": {
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261103",
-      "headline": "[거시분석] US strikes Iranian island ahead of midterm el...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -3
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261104",
       "headline": "[거시분석] Four tankers destroyed by naval mines in Stra...",
@@ -719,9 +708,61 @@
         "전체시장": -4
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261118",
+      "headline": "Jensen Huang says he would be 'honoured' to return as Nvidia CEO if board asked him",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261118",
+      "headline": "Nvidia partner Megaspeed being investigated by US government over chip exports",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261118",
+      "headline": "China, Canada expand tariff relief after Carney-Xi meeting",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261118",
+      "headline": "Companies get billions in tariff refunds. Consumers are left with the bill.",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261118",
+      "headline": "이란 매체 \"미군, 게슘섬 공습…심각한 피해는 없어\"(종합)",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261118",
+      "headline": "[거시분석] Putin's Crimean Bridge partly collapses as Ze...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -7,
+        "금융": -1,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
-  "total_positives": 49,
+  "total_negatives": 47,
+  "total_positives": 51,
   "risk_level": "EXTREME"
 }
