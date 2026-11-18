@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T05:38:26.919162+09:00",
+  "updated_at": "2026-11-18T12:25:24.314775+09:00",
   "date": "20261118",
   "window_days": 14,
   "sectors": [
@@ -17,13 +17,13 @@
   "sector_stats": {
     "반도체·AI": {
       "score": 10,
-      "positive_count": 23,
+      "positive_count": 25,
       "negative_count": 4,
       "recent_events": [
         {
           "date": "20261118",
           "type": "positive",
-          "headline": "Jensen Huang says he would be 'honoured' to return as Nvidia CEO if board asked him",
+          "headline": "Nvidia says it won't reinstate Huang as firm reports bumper results",
           "score": 1
         },
         {
@@ -34,35 +34,29 @@
         },
         {
           "date": "20261118",
+          "type": "positive",
+          "headline": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
+          "score": 1
+        },
+        {
+          "date": "20261118",
+          "type": "positive",
+          "headline": "Nvidia shoots down calls for Jensen Huang’s return amid strong earnings",
+          "score": 1
+        },
+        {
+          "date": "20261118",
           "type": "negative",
-          "headline": "[거시분석] Putin's Crimean Bridge partly collapses as Ze...",
+          "headline": "[거시분석] Trump says US taking 'very seriously' any Ira...",
           "score": -2
-        },
-        {
-          "date": "20261117",
-          "type": "positive",
-          "headline": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex boss",
-          "score": 1
-        },
-        {
-          "date": "20261117",
-          "type": "positive",
-          "headline": "OpenAI sued by California over Hugging Face attack",
-          "score": 1
         }
       ]
     },
     "건설": {
-      "score": -8,
+      "score": -6,
       "positive_count": 0,
-      "negative_count": 5,
+      "negative_count": 4,
       "recent_events": [
-        {
-          "date": "20261118",
-          "type": "negative",
-          "headline": "[거시분석] Putin's Crimean Bridge partly collapses as Ze...",
-          "score": -2
-        },
         {
           "date": "20261117",
           "type": "negative",
@@ -91,20 +85,14 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 17,
+      "positive_count": 16,
       "negative_count": 7,
       "recent_events": [
         {
           "date": "20261118",
           "type": "positive",
-          "headline": "이란 매체 \"미군, 게슘섬 공습…심각한 피해는 없어\"(종합)",
+          "headline": "[거시분석] Trump says US taking 'very seriously' any Ira...",
           "score": 1
-        },
-        {
-          "date": "20261118",
-          "type": "positive",
-          "headline": "[거시분석] Putin's Crimean Bridge partly collapses as Ze...",
-          "score": 3
         },
         {
           "date": "20261117",
@@ -123,6 +111,12 @@
           "type": "negative",
           "headline": "\"러, 우크라 종전협상 유럽 참여에 전향적 입장으로 선회\"",
           "score": -1
+        },
+        {
+          "date": "20261115",
+          "type": "positive",
+          "headline": "[거시분석] Israel kills Hamas commander in strike on Gaz...",
+          "score": 1
         }
       ]
     },
@@ -146,7 +140,7 @@
         {
           "date": "20261118",
           "type": "negative",
-          "headline": "[거시분석] Putin's Crimean Bridge partly collapses as Ze...",
+          "headline": "[거시분석] Trump says US taking 'very seriously' any Ira...",
           "score": -1
         },
         {
@@ -221,25 +215,13 @@
     "전체시장": {
       "score": -10,
       "positive_count": 5,
-      "negative_count": 17,
+      "negative_count": 15,
       "recent_events": [
         {
           "date": "20261118",
           "type": "negative",
-          "headline": "China, Canada expand tariff relief after Carney-Xi meeting",
-          "score": -1
-        },
-        {
-          "date": "20261118",
-          "type": "negative",
-          "headline": "Companies get billions in tariff refunds. Consumers are left with the bill.",
-          "score": -1
-        },
-        {
-          "date": "20261118",
-          "type": "negative",
-          "headline": "[거시분석] Putin's Crimean Bridge partly collapses as Ze...",
-          "score": -7
+          "headline": "[거시분석] Trump says US taking 'very seriously' any Ira...",
+          "score": -5
         },
         {
           "date": "20261117",
@@ -252,6 +234,18 @@
           "type": "negative",
           "headline": "[거시분석] Prince Harry praises war veterans on surprise...",
           "score": -2
+        },
+        {
+          "date": "20261115",
+          "type": "positive",
+          "headline": "\"러, 우크라 종전협상 유럽 참여에 전향적 입장으로 선회\"",
+          "score": 1
+        },
+        {
+          "date": "20261115",
+          "type": "negative",
+          "headline": "[거시분석] Israel kills Hamas commander in strike on Gaz...",
+          "score": -3
         }
       ]
     }
@@ -711,7 +705,7 @@
     },
     {
       "date": "20261118",
-      "headline": "Jensen Huang says he would be 'honoured' to return as Nvidia CEO if board asked him",
+      "headline": "Nvidia says it won't reinstate Huang as firm reports bumper results",
       "impacts": {
         "반도체·AI": 1
       },
@@ -727,42 +721,33 @@
     },
     {
       "date": "20261118",
-      "headline": "China, Canada expand tariff relief after Carney-Xi meeting",
+      "headline": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
       "impacts": {
-        "전체시장": -1
+        "반도체·AI": 1
       },
       "source": "keyword"
     },
     {
       "date": "20261118",
-      "headline": "Companies get billions in tariff refunds. Consumers are left with the bill.",
+      "headline": "Nvidia shoots down calls for Jensen Huang’s return amid strong earnings",
       "impacts": {
-        "전체시장": -1
+        "반도체·AI": 1
       },
       "source": "keyword"
     },
     {
       "date": "20261118",
-      "headline": "이란 매체 \"미군, 게슘섬 공습…심각한 피해는 없어\"(종합)",
+      "headline": "[거시분석] Trump says US taking 'very seriously' any Ira...",
       "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261118",
-      "headline": "[거시분석] Putin's Crimean Bridge partly collapses as Ze...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -7,
+        "방산": 1,
+        "전체시장": -5,
         "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 47,
-  "total_positives": 51,
+  "total_negatives": 44,
+  "total_positives": 52,
   "risk_level": "EXTREME"
 }
