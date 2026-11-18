@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-18T21:46:31.661490+09:00",
-  "date": "20261118",
+  "updated_at": "2026-11-19T06:44:22.611530+09:00",
+  "date": "20261119",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -17,46 +17,52 @@
   "sector_stats": {
     "반도체·AI": {
       "score": 10,
-      "positive_count": 24,
-      "negative_count": 3,
+      "positive_count": 27,
+      "negative_count": 4,
       "recent_events": [
         {
-          "date": "20261118",
-          "type": "positive",
-          "headline": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
-          "score": 1
-        },
-        {
-          "date": "20261118",
+          "date": "20261119",
           "type": "positive",
           "headline": "Nvidia says it won't reinstate Huang as it reports soaring sales",
           "score": 1
         },
         {
+          "date": "20261119",
+          "type": "positive",
+          "headline": "US lawmakers launch probe into Lutnick’s actions amid Nvidia scandal",
+          "score": 1
+        },
+        {
+          "date": "20261119",
+          "type": "positive",
+          "headline": "엔비디아 호실적에도 S&P500 5일연속 하락…나스닥만 0.4%↑",
+          "score": 1
+        },
+        {
+          "date": "20261119",
+          "type": "negative",
+          "headline": "[거시분석] Kuwait says it repelled first Iranian attack ...",
+          "score": -2
+        },
+        {
           "date": "20261118",
           "type": "positive",
-          "headline": "Nvidia partner Megaspeed being investigated by US government over chip exports",
-          "score": 1
-        },
-        {
-          "date": "20261117",
-          "type": "positive",
-          "headline": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex boss",
-          "score": 1
-        },
-        {
-          "date": "20261117",
-          "type": "positive",
-          "headline": "OpenAI sued by California over Hugging Face attack",
+          "headline": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
           "score": 1
         }
       ]
     },
     "건설": {
-      "score": -6,
-      "positive_count": 0,
+      "score": -5,
+      "positive_count": 1,
       "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20261119",
+          "type": "positive",
+          "headline": "World Bank official says Lebanon reconstruction making slow progress",
+          "score": 1
+        },
         {
           "date": "20261117",
           "type": "negative",
@@ -89,6 +95,12 @@
       "negative_count": 7,
       "recent_events": [
         {
+          "date": "20261119",
+          "type": "positive",
+          "headline": "[거시분석] Kuwait says it repelled first Iranian attack ...",
+          "score": 1
+        },
+        {
           "date": "20261118",
           "type": "positive",
           "headline": "[거시분석] Putin's Crimean Bridge partly collapses as Ze...",
@@ -111,12 +123,6 @@
           "type": "negative",
           "headline": "\"러, 우크라 종전협상 유럽 참여에 전향적 입장으로 선회\"",
           "score": -1
-        },
-        {
-          "date": "20261115",
-          "type": "positive",
-          "headline": "[거시분석] Israel kills Hamas commander in strike on Gaz...",
-          "score": 1
         }
       ]
     },
@@ -137,6 +143,12 @@
       "positive_count": 0,
       "negative_count": 14,
       "recent_events": [
+        {
+          "date": "20261119",
+          "type": "negative",
+          "headline": "[거시분석] Kuwait says it repelled first Iranian attack ...",
+          "score": -1
+        },
         {
           "date": "20261118",
           "type": "negative",
@@ -159,12 +171,6 @@
           "date": "20261113",
           "type": "negative",
           "headline": "[거시분석] Zelensky welcomes US bringing Europe into Rus...",
-          "score": -1
-        },
-        {
-          "date": "20261112",
-          "type": "negative",
-          "headline": "[거시분석] Israeli strike on Gaza hospital kills six Pal...",
           "score": -1
         }
       ]
@@ -218,6 +224,12 @@
       "negative_count": 15,
       "recent_events": [
         {
+          "date": "20261119",
+          "type": "negative",
+          "headline": "[거시분석] Kuwait says it repelled first Iranian attack ...",
+          "score": -5
+        },
+        {
           "date": "20261118",
           "type": "negative",
           "headline": "[거시분석] Putin's Crimean Bridge partly collapses as Ze...",
@@ -240,27 +252,11 @@
           "type": "positive",
           "headline": "\"러, 우크라 종전협상 유럽 참여에 전향적 입장으로 선회\"",
           "score": 1
-        },
-        {
-          "date": "20261115",
-          "type": "negative",
-          "headline": "[거시분석] Israel kills Hamas commander in strike on Gaz...",
-          "score": -3
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20261104",
-      "headline": "[거시분석] Four tankers destroyed by naval mines in Stra...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -3,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261105",
       "headline": "영국, 3년만에 금리 인상…BOE 총재 \"추가 인상도 가능\"(종합)",
@@ -736,9 +732,52 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261119",
+      "headline": "Nvidia says it won't reinstate Huang as it reports soaring sales",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261119",
+      "headline": "US lawmakers launch probe into Lutnick’s actions amid Nvidia scandal",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261119",
+      "headline": "World Bank official says Lebanon reconstruction making slow progress",
+      "impacts": {
+        "건설": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261119",
+      "headline": "엔비디아 호실적에도 S&P500 5일연속 하락…나스닥만 0.4%↑",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261119",
+      "headline": "[거시분석] Kuwait says it repelled first Iranian attack ...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -5,
+        "금융": -1,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 43,
-  "total_positives": 51,
+  "total_negatives": 44,
+  "total_positives": 55,
   "risk_level": "EXTREME"
 }
