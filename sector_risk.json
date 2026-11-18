@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T12:25:24.314775+09:00",
+  "updated_at": "2026-11-18T21:46:31.661490+09:00",
   "date": "20261118",
   "window_days": 14,
   "sectors": [
@@ -17,21 +17,9 @@
   "sector_stats": {
     "반도체·AI": {
       "score": 10,
-      "positive_count": 25,
-      "negative_count": 4,
+      "positive_count": 24,
+      "negative_count": 3,
       "recent_events": [
-        {
-          "date": "20261118",
-          "type": "positive",
-          "headline": "Nvidia says it won't reinstate Huang as firm reports bumper results",
-          "score": 1
-        },
-        {
-          "date": "20261118",
-          "type": "positive",
-          "headline": "Nvidia partner Megaspeed being investigated by US government over chip exports",
-          "score": 1
-        },
         {
           "date": "20261118",
           "type": "positive",
@@ -41,14 +29,26 @@
         {
           "date": "20261118",
           "type": "positive",
-          "headline": "Nvidia shoots down calls for Jensen Huang’s return amid strong earnings",
+          "headline": "Nvidia says it won't reinstate Huang as it reports soaring sales",
           "score": 1
         },
         {
           "date": "20261118",
-          "type": "negative",
-          "headline": "[거시분석] Trump says US taking 'very seriously' any Ira...",
-          "score": -2
+          "type": "positive",
+          "headline": "Nvidia partner Megaspeed being investigated by US government over chip exports",
+          "score": 1
+        },
+        {
+          "date": "20261117",
+          "type": "positive",
+          "headline": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex boss",
+          "score": 1
+        },
+        {
+          "date": "20261117",
+          "type": "positive",
+          "headline": "OpenAI sued by California over Hugging Face attack",
+          "score": 1
         }
       ]
     },
@@ -91,7 +91,7 @@
         {
           "date": "20261118",
           "type": "positive",
-          "headline": "[거시분석] Trump says US taking 'very seriously' any Ira...",
+          "headline": "[거시분석] Putin's Crimean Bridge partly collapses as Ze...",
           "score": 1
         },
         {
@@ -140,7 +140,7 @@
         {
           "date": "20261118",
           "type": "negative",
-          "headline": "[거시분석] Trump says US taking 'very seriously' any Ira...",
+          "headline": "[거시분석] Putin's Crimean Bridge partly collapses as Ze...",
           "score": -1
         },
         {
@@ -220,8 +220,8 @@
         {
           "date": "20261118",
           "type": "negative",
-          "headline": "[거시분석] Trump says US taking 'very seriously' any Ira...",
-          "score": -5
+          "headline": "[거시분석] Putin's Crimean Bridge partly collapses as Ze...",
+          "score": -3
         },
         {
           "date": "20261117",
@@ -705,7 +705,15 @@
     },
     {
       "date": "20261118",
-      "headline": "Nvidia says it won't reinstate Huang as firm reports bumper results",
+      "headline": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261118",
+      "headline": "Nvidia says it won't reinstate Huang as it reports soaring sales",
       "impacts": {
         "반도체·AI": 1
       },
@@ -721,33 +729,16 @@
     },
     {
       "date": "20261118",
-      "headline": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261118",
-      "headline": "Nvidia shoots down calls for Jensen Huang’s return amid strong earnings",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261118",
-      "headline": "[거시분석] Trump says US taking 'very seriously' any Ira...",
+      "headline": "[거시분석] Putin's Crimean Bridge partly collapses as Ze...",
       "impacts": {
         "방산": 1,
-        "전체시장": -5,
-        "금융": -1,
-        "반도체·AI": -2
+        "전체시장": -3,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 44,
-  "total_positives": 52,
+  "total_negatives": 43,
+  "total_positives": 51,
   "risk_level": "EXTREME"
 }
