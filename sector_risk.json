@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-19T21:37:50.314263+09:00",
-  "date": "20261119",
+  "updated_at": "2026-11-20T07:00:25.228470+09:00",
+  "date": "20261120",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -17,9 +17,15 @@
   "sector_stats": {
     "반도체·AI": {
       "score": 10,
-      "positive_count": 25,
-      "negative_count": 4,
+      "positive_count": 26,
+      "negative_count": 3,
       "recent_events": [
+        {
+          "date": "20261120",
+          "type": "positive",
+          "headline": "FT \"삼성전자·TSMC, 중국에 일부 칩 출하 중단\"",
+          "score": 1
+        },
         {
           "date": "20261119",
           "type": "positive",
@@ -42,12 +48,6 @@
           "date": "20261118",
           "type": "positive",
           "headline": "Nvidia says it won't reinstate Huang as it reports soaring sales",
-          "score": 1
-        },
-        {
-          "date": "20261118",
-          "type": "positive",
-          "headline": "Nvidia partner Megaspeed being investigated by US government over chip exports",
           "score": 1
         }
       ]
@@ -95,6 +95,12 @@
       "negative_count": 7,
       "recent_events": [
         {
+          "date": "20261120",
+          "type": "positive",
+          "headline": "[거시분석] Europe ready for talks with Russia on ending ...",
+          "score": 1
+        },
+        {
           "date": "20261119",
           "type": "positive",
           "headline": "Will laser weapons change warfare?",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] Ukraine accuses Russia of targeting rescue op...",
           "score": 3
-        },
-        {
-          "date": "20261116",
-          "type": "positive",
-          "headline": "[거시분석] Prince Harry praises war veterans on surprise...",
-          "score": 1
         }
       ]
     },
@@ -139,9 +139,9 @@
       "recent_events": []
     },
     "금융": {
-      "score": -10,
+      "score": -9,
       "positive_count": 0,
-      "negative_count": 13,
+      "negative_count": 9,
       "recent_events": [
         {
           "date": "20261118",
@@ -224,6 +224,12 @@
       "negative_count": 16,
       "recent_events": [
         {
+          "date": "20261120",
+          "type": "negative",
+          "headline": "[거시분석] Europe ready for talks with Russia on ending ...",
+          "score": -2
+        },
+        {
           "date": "20261119",
           "type": "negative",
           "headline": "태국 \"美, 태국산 제품 강제노동 추가 관세 12.5%→10% 인하\"",
@@ -246,52 +252,11 @@
           "type": "negative",
           "headline": "[거시분석] Ukraine accuses Russia of targeting rescue op...",
           "score": -4
-        },
-        {
-          "date": "20261116",
-          "type": "negative",
-          "headline": "[거시분석] Prince Harry praises war veterans on surprise...",
-          "score": -2
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20261105",
-      "headline": "영국, 3년만에 금리 인상…BOE 총재 \"추가 인상도 가능\"(종합)",
-      "impacts": {
-        "금융": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261105",
-      "headline": "[2보] 영국, 3년여만에 기준금리 인상…연 4%로 0.25%p↑",
-      "impacts": {
-        "금융": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261105",
-      "headline": "[1보] 영국, 3년여만에 기준금리 인상…연 4%로 0.25%p↑",
-      "impacts": {
-        "금융": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261105",
-      "headline": "[거시분석] 영국, 3년만에 금리 인상…BOE 총재 \"추가 인상도 가능\"(종합)",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -8,
-        "금융": -3,
-        "반도체·AI": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261106",
       "headline": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
@@ -782,9 +747,26 @@
         "전체시장": -4
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261120",
+      "headline": "FT \"삼성전자·TSMC, 중국에 일부 칩 출하 중단\"",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261120",
+      "headline": "[거시분석] Europe ready for talks with Russia on ending ...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 45,
-  "total_positives": 54,
+  "total_negatives": 40,
+  "total_positives": 55,
   "risk_level": "EXTREME"
 }
