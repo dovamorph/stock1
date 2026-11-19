@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T11:59:19.685933+09:00",
+  "updated_at": "2026-11-19T21:37:50.314263+09:00",
   "date": "20261119",
   "window_days": 14,
   "sectors": [
@@ -18,7 +18,7 @@
     "반도체·AI": {
       "score": 10,
       "positive_count": 25,
-      "negative_count": 5,
+      "negative_count": 4,
       "recent_events": [
         {
           "date": "20261119",
@@ -29,14 +29,8 @@
         {
           "date": "20261119",
           "type": "negative",
-          "headline": "Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
+          "headline": "Simon Jack: Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
           "score": -1
-        },
-        {
-          "date": "20261119",
-          "type": "negative",
-          "headline": "[거시분석] Inside the old gas pipeline where Ukraine is ...",
-          "score": -2
         },
         {
           "date": "20261118",
@@ -49,11 +43,17 @@
           "type": "positive",
           "headline": "Nvidia says it won't reinstate Huang as it reports soaring sales",
           "score": 1
+        },
+        {
+          "date": "20261118",
+          "type": "positive",
+          "headline": "Nvidia partner Megaspeed being investigated by US government over chip exports",
+          "score": 1
         }
       ]
     },
     "건설": {
-      "score": -8,
+      "score": -7,
       "positive_count": 0,
       "negative_count": 5,
       "recent_events": [
@@ -61,7 +61,7 @@
           "date": "20261119",
           "type": "negative",
           "headline": "[거시분석] Inside the old gas pipeline where Ukraine is ...",
-          "score": -2
+          "score": -1
         },
         {
           "date": "20261117",
@@ -91,14 +91,20 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 16,
+      "positive_count": 17,
       "negative_count": 7,
       "recent_events": [
         {
           "date": "20261119",
           "type": "positive",
+          "headline": "Will laser weapons change warfare?",
+          "score": 1
+        },
+        {
+          "date": "20261119",
+          "type": "positive",
           "headline": "[거시분석] Inside the old gas pipeline where Ukraine is ...",
-          "score": 3
+          "score": 2
         },
         {
           "date": "20261118",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] Prince Harry praises war veterans on surprise...",
           "score": 1
-        },
-        {
-          "date": "20261115",
-          "type": "negative",
-          "headline": "\"러, 우크라 종전협상 유럽 참여에 전향적 입장으로 선회\"",
-          "score": -1
         }
       ]
     },
@@ -141,14 +141,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 14,
+      "negative_count": 13,
       "recent_events": [
-        {
-          "date": "20261119",
-          "type": "negative",
-          "headline": "[거시분석] Inside the old gas pipeline where Ukraine is ...",
-          "score": -1
-        },
         {
           "date": "20261118",
           "type": "negative",
@@ -172,6 +166,12 @@
           "type": "negative",
           "headline": "[거시분석] Zelensky welcomes US bringing Europe into Rus...",
           "score": -1
+        },
+        {
+          "date": "20261112",
+          "type": "negative",
+          "headline": "[거시분석] Israeli strike on Gaza hospital kills six Pal...",
+          "score": -1
         }
       ]
     },
@@ -183,7 +183,7 @@
         {
           "date": "20261119",
           "type": "positive",
-          "headline": "NASA’s Voyager 1 hits record one light-day distance, 50 years after launch",
+          "headline": "Charting the world’s biggest IPOs as Anthropic overtakes SpaceX",
           "score": 1
         },
         {
@@ -220,20 +220,20 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 6,
-      "negative_count": 15,
+      "positive_count": 5,
+      "negative_count": 16,
       "recent_events": [
         {
           "date": "20261119",
-          "type": "positive",
-          "headline": "EU governments approve trade deal with Indonesia to offset Trump tariffs",
-          "score": 1
+          "type": "negative",
+          "headline": "태국 \"美, 태국산 제품 강제노동 추가 관세 12.5%→10% 인하\"",
+          "score": -1
         },
         {
           "date": "20261119",
           "type": "negative",
           "headline": "[거시분석] Inside the old gas pipeline where Ukraine is ...",
-          "score": -7
+          "score": -4
         },
         {
           "date": "20261118",
@@ -743,7 +743,7 @@
     },
     {
       "date": "20261119",
-      "headline": "Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
+      "headline": "Simon Jack: Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
       "impacts": {
         "반도체·AI": -1
       },
@@ -751,15 +751,15 @@
     },
     {
       "date": "20261119",
-      "headline": "EU governments approve trade deal with Indonesia to offset Trump tariffs",
+      "headline": "Will laser weapons change warfare?",
       "impacts": {
-        "전체시장": 1
+        "방산": 1
       },
       "source": "keyword"
     },
     {
       "date": "20261119",
-      "headline": "NASA’s Voyager 1 hits record one light-day distance, 50 years after launch",
+      "headline": "Charting the world’s biggest IPOs as Anthropic overtakes SpaceX",
       "impacts": {
         "우주ETF": 1
       },
@@ -767,18 +767,24 @@
     },
     {
       "date": "20261119",
+      "headline": "태국 \"美, 태국산 제품 강제노동 추가 관세 12.5%→10% 인하\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261119",
       "headline": "[거시분석] Inside the old gas pipeline where Ukraine is ...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -7,
-        "금융": -1,
-        "반도체·AI": -2
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -4
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 46,
+  "total_negatives": 45,
   "total_positives": 54,
   "risk_level": "EXTREME"
 }
