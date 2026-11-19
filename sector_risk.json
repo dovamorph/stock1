@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T06:44:22.611530+09:00",
+  "updated_at": "2026-11-19T11:59:19.685933+09:00",
   "date": "20261119",
   "window_days": 14,
   "sectors": [
@@ -17,8 +17,8 @@
   "sector_stats": {
     "반도체·AI": {
       "score": 10,
-      "positive_count": 27,
-      "negative_count": 4,
+      "positive_count": 25,
+      "negative_count": 5,
       "recent_events": [
         {
           "date": "20261119",
@@ -28,20 +28,14 @@
         },
         {
           "date": "20261119",
-          "type": "positive",
-          "headline": "US lawmakers launch probe into Lutnick’s actions amid Nvidia scandal",
-          "score": 1
-        },
-        {
-          "date": "20261119",
-          "type": "positive",
-          "headline": "엔비디아 호실적에도 S&P500 5일연속 하락…나스닥만 0.4%↑",
-          "score": 1
+          "type": "negative",
+          "headline": "Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
+          "score": -1
         },
         {
           "date": "20261119",
           "type": "negative",
-          "headline": "[거시분석] Kuwait says it repelled first Iranian attack ...",
+          "headline": "[거시분석] Inside the old gas pipeline where Ukraine is ...",
           "score": -2
         },
         {
@@ -49,19 +43,25 @@
           "type": "positive",
           "headline": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
           "score": 1
+        },
+        {
+          "date": "20261118",
+          "type": "positive",
+          "headline": "Nvidia says it won't reinstate Huang as it reports soaring sales",
+          "score": 1
         }
       ]
     },
     "건설": {
-      "score": -5,
-      "positive_count": 1,
-      "negative_count": 4,
+      "score": -8,
+      "positive_count": 0,
+      "negative_count": 5,
       "recent_events": [
         {
           "date": "20261119",
-          "type": "positive",
-          "headline": "World Bank official says Lebanon reconstruction making slow progress",
-          "score": 1
+          "type": "negative",
+          "headline": "[거시분석] Inside the old gas pipeline where Ukraine is ...",
+          "score": -2
         },
         {
           "date": "20261117",
@@ -97,8 +97,8 @@
         {
           "date": "20261119",
           "type": "positive",
-          "headline": "[거시분석] Kuwait says it repelled first Iranian attack ...",
-          "score": 1
+          "headline": "[거시분석] Inside the old gas pipeline where Ukraine is ...",
+          "score": 3
         },
         {
           "date": "20261118",
@@ -146,7 +146,7 @@
         {
           "date": "20261119",
           "type": "negative",
-          "headline": "[거시분석] Kuwait says it repelled first Iranian attack ...",
+          "headline": "[거시분석] Inside the old gas pipeline where Ukraine is ...",
           "score": -1
         },
         {
@@ -176,10 +176,16 @@
       ]
     },
     "우주ETF": {
-      "score": 6,
-      "positive_count": 6,
+      "score": 7,
+      "positive_count": 7,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20261119",
+          "type": "positive",
+          "headline": "NASA’s Voyager 1 hits record one light-day distance, 50 years after launch",
+          "score": 1
+        },
         {
           "date": "20261117",
           "type": "positive",
@@ -203,12 +209,6 @@
           "type": "positive",
           "headline": "'Can you believe it?': SpaceX catches part of its Starship rocket on return to Earth",
           "score": 1
-        },
-        {
-          "date": "20261114",
-          "type": "positive",
-          "headline": "Setback for SpaceX Starship rocket's double-catch test",
-          "score": 1
         }
       ]
     },
@@ -220,14 +220,20 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 5,
+      "positive_count": 6,
       "negative_count": 15,
       "recent_events": [
         {
           "date": "20261119",
+          "type": "positive",
+          "headline": "EU governments approve trade deal with Indonesia to offset Trump tariffs",
+          "score": 1
+        },
+        {
+          "date": "20261119",
           "type": "negative",
-          "headline": "[거시분석] Kuwait says it repelled first Iranian attack ...",
-          "score": -5
+          "headline": "[거시분석] Inside the old gas pipeline where Ukraine is ...",
+          "score": -7
         },
         {
           "date": "20261118",
@@ -246,12 +252,6 @@
           "type": "negative",
           "headline": "[거시분석] Prince Harry praises war veterans on surprise...",
           "score": -2
-        },
-        {
-          "date": "20261115",
-          "type": "positive",
-          "headline": "\"러, 우크라 종전협상 유럽 참여에 전향적 입장으로 선회\"",
-          "score": 1
         }
       ]
     }
@@ -743,41 +743,42 @@
     },
     {
       "date": "20261119",
-      "headline": "US lawmakers launch probe into Lutnick’s actions amid Nvidia scandal",
+      "headline": "Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
       "impacts": {
-        "반도체·AI": 1
+        "반도체·AI": -1
       },
       "source": "keyword"
     },
     {
       "date": "20261119",
-      "headline": "World Bank official says Lebanon reconstruction making slow progress",
+      "headline": "EU governments approve trade deal with Indonesia to offset Trump tariffs",
       "impacts": {
-        "건설": 1
+        "전체시장": 1
       },
       "source": "keyword"
     },
     {
       "date": "20261119",
-      "headline": "엔비디아 호실적에도 S&P500 5일연속 하락…나스닥만 0.4%↑",
+      "headline": "NASA’s Voyager 1 hits record one light-day distance, 50 years after launch",
       "impacts": {
-        "반도체·AI": 1
+        "우주ETF": 1
       },
       "source": "keyword"
     },
     {
       "date": "20261119",
-      "headline": "[거시분석] Kuwait says it repelled first Iranian attack ...",
+      "headline": "[거시분석] Inside the old gas pipeline where Ukraine is ...",
       "impacts": {
-        "방산": 1,
-        "전체시장": -5,
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -7,
         "금융": -1,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 44,
-  "total_positives": 55,
+  "total_negatives": 46,
+  "total_positives": 54,
   "risk_level": "EXTREME"
 }
