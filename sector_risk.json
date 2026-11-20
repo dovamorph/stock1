@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-20T21:37:41.856744+09:00",
-  "date": "20261120",
+  "updated_at": "2026-11-21T06:42:58.909786+09:00",
+  "date": "20261121",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -18,7 +18,7 @@
     "반도체·AI": {
       "score": 10,
       "positive_count": 27,
-      "negative_count": 3,
+      "negative_count": 2,
       "recent_events": [
         {
           "date": "20261120",
@@ -53,9 +53,9 @@
       ]
     },
     "건설": {
-      "score": -8,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 6,
+      "negative_count": 5,
       "recent_events": [
         {
           "date": "20261120",
@@ -92,8 +92,14 @@
     "방산": {
       "score": 10,
       "positive_count": 17,
-      "negative_count": 7,
+      "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20261121",
+          "type": "positive",
+          "headline": "[거시분석] Russian missile hits Poland as Ukraine's alli...",
+          "score": 1
+        },
         {
           "date": "20261120",
           "type": "positive",
@@ -117,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] Putin's Crimean Bridge partly collapses as Ze...",
           "score": 1
-        },
-        {
-          "date": "20261117",
-          "type": "positive",
-          "headline": "[거시분석] Ukraine accuses Russia of targeting rescue op...",
-          "score": 3
         }
       ]
     },
@@ -139,9 +139,9 @@
       "recent_events": []
     },
     "금융": {
-      "score": -9,
+      "score": -8,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 8,
       "recent_events": [
         {
           "date": "20261118",
@@ -220,9 +220,15 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 5,
+      "positive_count": 3,
       "negative_count": 16,
       "recent_events": [
+        {
+          "date": "20261121",
+          "type": "negative",
+          "headline": "[거시분석] Russian missile hits Poland as Ukraine's alli...",
+          "score": -1
+        },
         {
           "date": "20261120",
           "type": "negative",
@@ -246,47 +252,11 @@
           "type": "negative",
           "headline": "[거시분석] Putin's Crimean Bridge partly collapses as Ze...",
           "score": -3
-        },
-        {
-          "date": "20261117",
-          "type": "negative",
-          "headline": "[거시분석] Ukraine accuses Russia of targeting rescue op...",
-          "score": -4
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20261106",
-      "headline": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261106",
-      "headline": "카타르 군주, 트럼프와 통화…\"역내 긴장 완화 중재 노력\"",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261106",
-      "headline": "[거시분석] Major construction ongoing near Iran missile ...",
-      "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -7,
-        "금융": -1,
-        "반도체·AI": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261107",
       "headline": "Will Trump strike nuclear sites again as Iran engages ‘cognitive warfare’?",
@@ -773,9 +743,18 @@
         "전체시장": -3
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261121",
+      "headline": "[거시분석] Russian missile hits Poland as Ukraine's alli...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 41,
-  "total_positives": 56,
+  "total_negatives": 36,
+  "total_positives": 54,
   "risk_level": "EXTREME"
 }
