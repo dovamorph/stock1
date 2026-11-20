@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T07:00:25.228470+09:00",
+  "updated_at": "2026-11-20T12:01:07.458935+09:00",
   "date": "20261120",
   "window_days": 14,
   "sectors": [
@@ -18,13 +18,19 @@
     "반도체·AI": {
       "score": 10,
       "positive_count": 26,
-      "negative_count": 3,
+      "negative_count": 4,
       "recent_events": [
         {
           "date": "20261120",
           "type": "positive",
-          "headline": "FT \"삼성전자·TSMC, 중국에 일부 칩 출하 중단\"",
+          "headline": "California targets Nvidia in China AI chip probe",
           "score": 1
+        },
+        {
+          "date": "20261120",
+          "type": "negative",
+          "headline": "Asia’s stock markets dive as Anthropic debut fails to allay AI bubble fears",
+          "score": -1
         },
         {
           "date": "20261119",
@@ -42,12 +48,6 @@
           "date": "20261118",
           "type": "positive",
           "headline": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
-          "score": 1
-        },
-        {
-          "date": "20261118",
-          "type": "positive",
-          "headline": "Nvidia says it won't reinstate Huang as it reports soaring sales",
           "score": 1
         }
       ]
@@ -139,10 +139,16 @@
       "recent_events": []
     },
     "금융": {
-      "score": -9,
+      "score": -10,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
+        {
+          "date": "20261120",
+          "type": "negative",
+          "headline": "[거시분석] Europe ready for talks with Russia on ending ...",
+          "score": -1
+        },
         {
           "date": "20261118",
           "type": "negative",
@@ -166,20 +172,20 @@
           "type": "negative",
           "headline": "[거시분석] Zelensky welcomes US bringing Europe into Rus...",
           "score": -1
-        },
-        {
-          "date": "20261112",
-          "type": "negative",
-          "headline": "[거시분석] Israeli strike on Gaza hospital kills six Pal...",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 7,
-      "positive_count": 7,
+      "score": 8,
+      "positive_count": 8,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20261120",
+          "type": "positive",
+          "headline": "1광일 거리에서 날아온 전파…NASA, 보이저 1호 신호 수신",
+          "score": 1
+        },
         {
           "date": "20261119",
           "type": "positive",
@@ -203,12 +209,6 @@
           "type": "positive",
           "headline": "'Can you believe it?': SpaceX catches part of its Starship rocket on return to Earth",
           "score": 1
-        },
-        {
-          "date": "20261115",
-          "type": "positive",
-          "headline": "'Can you believe it?': SpaceX catches part of its Starship rocket on return to Earth",
-          "score": 1
         }
       ]
     },
@@ -227,7 +227,7 @@
           "date": "20261120",
           "type": "negative",
           "headline": "[거시분석] Europe ready for talks with Russia on ending ...",
-          "score": -2
+          "score": -3
         },
         {
           "date": "20261119",
@@ -750,9 +750,25 @@
     },
     {
       "date": "20261120",
-      "headline": "FT \"삼성전자·TSMC, 중국에 일부 칩 출하 중단\"",
+      "headline": "California targets Nvidia in China AI chip probe",
       "impacts": {
         "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261120",
+      "headline": "Asia’s stock markets dive as Anthropic debut fails to allay AI bubble fears",
+      "impacts": {
+        "반도체·AI": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261120",
+      "headline": "1광일 거리에서 날아온 전파…NASA, 보이저 1호 신호 수신",
+      "impacts": {
+        "우주ETF": 1
       },
       "source": "keyword"
     },
@@ -761,12 +777,13 @@
       "headline": "[거시분석] Europe ready for talks with Russia on ending ...",
       "impacts": {
         "방산": 1,
-        "전체시장": -2
+        "전체시장": -3,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 40,
-  "total_positives": 55,
+  "total_negatives": 42,
+  "total_positives": 56,
   "risk_level": "EXTREME"
 }
