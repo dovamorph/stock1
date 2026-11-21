@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T06:42:58.909786+09:00",
+  "updated_at": "2026-11-21T12:01:15.032485+09:00",
   "date": "20261121",
   "window_days": 14,
   "sectors": [
@@ -17,9 +17,21 @@
   "sector_stats": {
     "반도체·AI": {
       "score": 10,
-      "positive_count": 27,
+      "positive_count": 29,
       "negative_count": 2,
       "recent_events": [
+        {
+          "date": "20261121",
+          "type": "positive",
+          "headline": "Trump calls for Nvidia to reinstate ‘brilliant’ Jensen Huang",
+          "score": 1
+        },
+        {
+          "date": "20261121",
+          "type": "positive",
+          "headline": "US lawmakers push for tougher AI chip rules amid China export crackdown",
+          "score": 1
+        },
         {
           "date": "20261120",
           "type": "positive",
@@ -36,18 +48,6 @@
           "date": "20261119",
           "type": "positive",
           "headline": "Nvidia says it won't reinstate Huang as it reports soaring sales",
-          "score": 1
-        },
-        {
-          "date": "20261119",
-          "type": "negative",
-          "headline": "Simon Jack: Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
-          "score": -1
-        },
-        {
-          "date": "20261118",
-          "type": "positive",
-          "headline": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
           "score": 1
         }
       ]
@@ -133,10 +133,17 @@
       "recent_events": []
     },
     "로봇": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20261121",
+          "type": "positive",
+          "headline": "청소년이 만든 로봇으로 응급상황 해결…로보틱스 대회 결선",
+          "score": 1
+        }
+      ]
     },
     "금융": {
       "score": -8,
@@ -227,7 +234,7 @@
           "date": "20261121",
           "type": "negative",
           "headline": "[거시분석] Russian missile hits Poland as Ukraine's alli...",
-          "score": -1
+          "score": -2
         },
         {
           "date": "20261120",
@@ -746,15 +753,39 @@
     },
     {
       "date": "20261121",
+      "headline": "Trump calls for Nvidia to reinstate ‘brilliant’ Jensen Huang",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261121",
+      "headline": "US lawmakers push for tougher AI chip rules amid China export crackdown",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261121",
+      "headline": "청소년이 만든 로봇으로 응급상황 해결…로보틱스 대회 결선",
+      "impacts": {
+        "로봇": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261121",
       "headline": "[거시분석] Russian missile hits Poland as Ukraine's alli...",
       "impacts": {
         "방산": 1,
-        "전체시장": -1
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
   "total_negatives": 36,
-  "total_positives": 54,
+  "total_positives": 57,
   "risk_level": "EXTREME"
 }
