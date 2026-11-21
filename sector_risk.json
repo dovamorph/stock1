@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-21T21:17:36.384807+09:00",
-  "date": "20261121",
+  "updated_at": "2026-11-22T05:24:47.657918+09:00",
+  "date": "20261122",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -58,6 +58,12 @@
       "negative_count": 5,
       "recent_events": [
         {
+          "date": "20261122",
+          "type": "negative",
+          "headline": "[거시분석] What we know about the latest Russian missile...",
+          "score": -1
+        },
+        {
           "date": "20261120",
           "type": "negative",
           "headline": "[거시분석] Russia targets Kyiv crossings days after Ukra...",
@@ -80,20 +86,32 @@
           "type": "negative",
           "headline": "[거시분석] Iran executes three men for 'armed unrest' af...",
           "score": -2
-        },
-        {
-          "date": "20261107",
-          "type": "negative",
-          "headline": "[거시분석] Qeshm island and Hormuz hit, as mediators try...",
-          "score": -1
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 17,
-      "negative_count": 5,
+      "positive_count": 18,
+      "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20261122",
+          "type": "positive",
+          "headline": "긴장 고조되는 발트해…\"러 화물선 드론에 피격\"(종합)",
+          "score": 1
+        },
+        {
+          "date": "20261122",
+          "type": "positive",
+          "headline": "긴장 고조되는 발트해…\"러 화물선 드론에 피격\"",
+          "score": 1
+        },
+        {
+          "date": "20261122",
+          "type": "positive",
+          "headline": "[거시분석] What we know about the latest Russian missile...",
+          "score": 2
+        },
         {
           "date": "20261121",
           "type": "positive",
@@ -105,24 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] Russia targets Kyiv crossings days after Ukra...",
           "score": 2
-        },
-        {
-          "date": "20261119",
-          "type": "positive",
-          "headline": "Will laser weapons change warfare?",
-          "score": 1
-        },
-        {
-          "date": "20261119",
-          "type": "positive",
-          "headline": "[거시분석] Inside the old gas pipeline where Ukraine is ...",
-          "score": 2
-        },
-        {
-          "date": "20261118",
-          "type": "positive",
-          "headline": "[거시분석] Putin's Crimean Bridge partly collapses as Ze...",
-          "score": 1
         }
       ]
     },
@@ -143,6 +143,12 @@
       "positive_count": 0,
       "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20261122",
+          "type": "negative",
+          "headline": "[거시분석] What we know about the latest Russian missile...",
+          "score": -1
+        },
         {
           "date": "20261118",
           "type": "negative",
@@ -165,12 +171,6 @@
           "date": "20261113",
           "type": "negative",
           "headline": "[거시분석] Zelensky welcomes US bringing Europe into Rus...",
-          "score": -1
-        },
-        {
-          "date": "20261112",
-          "type": "negative",
-          "headline": "[거시분석] Israeli strike on Gaza hospital kills six Pal...",
           "score": -1
         }
       ]
@@ -220,9 +220,27 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 3,
-      "negative_count": 16,
+      "positive_count": 2,
+      "negative_count": 18,
       "recent_events": [
+        {
+          "date": "20261122",
+          "type": "negative",
+          "headline": "트럼프 \"이란 핵보유 막을 수 있는 영구적인 합의 할 것\"",
+          "score": -1
+        },
+        {
+          "date": "20261122",
+          "type": "negative",
+          "headline": "EU·인도네시아 무역협정 체결…관세 90％ 이상 철폐",
+          "score": -1
+        },
+        {
+          "date": "20261122",
+          "type": "negative",
+          "headline": "[거시분석] What we know about the latest Russian missile...",
+          "score": -5
+        },
         {
           "date": "20261121",
           "type": "negative",
@@ -234,57 +252,11 @@
           "type": "negative",
           "headline": "[거시분석] Russia targets Kyiv crossings days after Ukra...",
           "score": -3
-        },
-        {
-          "date": "20261119",
-          "type": "negative",
-          "headline": "태국 \"美, 태국산 제품 강제노동 추가 관세 12.5%→10% 인하\"",
-          "score": -1
-        },
-        {
-          "date": "20261119",
-          "type": "negative",
-          "headline": "[거시분석] Inside the old gas pipeline where Ukraine is ...",
-          "score": -4
-        },
-        {
-          "date": "20261118",
-          "type": "negative",
-          "headline": "[거시분석] Putin's Crimean Bridge partly collapses as Ze...",
-          "score": -3
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20261107",
-      "headline": "Will Trump strike nuclear sites again as Iran engages ‘cognitive warfare’?",
-      "impacts": {
-        "방산": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261107",
-      "headline": "종전 협상 앞두고도…러·우크라, 대규모 미사일·드론 공격",
-      "impacts": {
-        "방산": -1,
-        "전체시장": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261107",
-      "headline": "[거시분석] Qeshm island and Hormuz hit, as mediators try...",
-      "impacts": {
-        "방산": 2,
-        "건설": -1,
-        "전체시장": -5,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261108",
       "headline": "[거시분석] US offers $20m reward for information about I...",
@@ -752,9 +724,52 @@
         "전체시장": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261122",
+      "headline": "긴장 고조되는 발트해…\"러 화물선 드론에 피격\"(종합)",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261122",
+      "headline": "트럼프 \"이란 핵보유 막을 수 있는 영구적인 합의 할 것\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261122",
+      "headline": "EU·인도네시아 무역협정 체결…관세 90％ 이상 철폐",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261122",
+      "headline": "긴장 고조되는 발트해…\"러 화물선 드론에 피격\"",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261122",
+      "headline": "[거시분석] What we know about the latest Russian missile...",
+      "impacts": {
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -5,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 36,
+  "total_negatives": 37,
   "total_positives": 54,
   "risk_level": "EXTREME"
 }
