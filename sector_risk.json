@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-22T18:39:01.745036+09:00",
-  "date": "20261122",
+  "updated_at": "2026-11-23T02:40:46.536953+09:00",
+  "date": "20261123",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -53,10 +53,16 @@
       ]
     },
     "건설": {
-      "score": -6,
+      "score": -8,
       "positive_count": 0,
-      "negative_count": 4,
+      "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20261123",
+          "type": "negative",
+          "headline": "[거시분석] What we know about the latest Russian missile...",
+          "score": -2
+        },
         {
           "date": "20261120",
           "type": "negative",
@@ -85,9 +91,27 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 16,
-      "negative_count": 4,
+      "positive_count": 17,
+      "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20261123",
+          "type": "negative",
+          "headline": "\"'엔비디아 사태', 휴전 두달 남은 美中 무역전쟁 재점화할수도\"",
+          "score": -1
+        },
+        {
+          "date": "20261123",
+          "type": "positive",
+          "headline": "바레인 \"이란, 민간시설 공습해 2명 부상…범죄적 공격\"",
+          "score": 1
+        },
+        {
+          "date": "20261123",
+          "type": "positive",
+          "headline": "[거시분석] What we know about the latest Russian missile...",
+          "score": 3
+        },
         {
           "date": "20261122",
           "type": "positive",
@@ -99,24 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] What we know about the latest Russian missile...",
           "score": 1
-        },
-        {
-          "date": "20261120",
-          "type": "positive",
-          "headline": "[거시분석] Russia targets Kyiv crossings days after Ukra...",
-          "score": 2
-        },
-        {
-          "date": "20261119",
-          "type": "positive",
-          "headline": "Will laser weapons change warfare?",
-          "score": 1
-        },
-        {
-          "date": "20261119",
-          "type": "positive",
-          "headline": "[거시분석] Inside the old gas pipeline where Ukraine is ...",
-          "score": 2
         }
       ]
     },
@@ -133,9 +139,9 @@
       "recent_events": []
     },
     "금융": {
-      "score": -7,
+      "score": -6,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 6,
       "recent_events": [
         {
           "date": "20261118",
@@ -214,9 +220,27 @@
     },
     "전체시장": {
       "score": -10,
-      "positive_count": 2,
-      "negative_count": 16,
+      "positive_count": 3,
+      "negative_count": 17,
       "recent_events": [
+        {
+          "date": "20261123",
+          "type": "positive",
+          "headline": "\"'엔비디아 사태', 휴전 두달 남은 美中 무역전쟁 재점화할수도\"",
+          "score": 1
+        },
+        {
+          "date": "20261123",
+          "type": "negative",
+          "headline": "블랙먼데이 우려에 증안펀드 18년만에 가동되나…F4 \"준비 착수\"(종합)",
+          "score": -1
+        },
+        {
+          "date": "20261123",
+          "type": "negative",
+          "headline": "[거시분석] What we know about the latest Russian missile...",
+          "score": -4
+        },
         {
           "date": "20261122",
           "type": "negative",
@@ -228,39 +252,11 @@
           "type": "negative",
           "headline": "[거시분석] What we know about the latest Russian missile...",
           "score": -1
-        },
-        {
-          "date": "20261120",
-          "type": "negative",
-          "headline": "[거시분석] Russia targets Kyiv crossings days after Ukra...",
-          "score": -3
-        },
-        {
-          "date": "20261119",
-          "type": "negative",
-          "headline": "태국 \"美, 태국산 제품 강제노동 추가 관세 12.5%→10% 인하\"",
-          "score": -1
-        },
-        {
-          "date": "20261119",
-          "type": "negative",
-          "headline": "[거시분석] Inside the old gas pipeline where Ukraine is ...",
-          "score": -4
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20261108",
-      "headline": "[거시분석] US offers $20m reward for information about I...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -4,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261109",
       "headline": "Trump defends Nvidia CEO amid Chinese spying allegations",
@@ -727,9 +723,44 @@
         "전체시장": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261123",
+      "headline": "\"'엔비디아 사태', 휴전 두달 남은 美中 무역전쟁 재점화할수도\"",
+      "impacts": {
+        "방산": -1,
+        "전체시장": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261123",
+      "headline": "바레인 \"이란, 민간시설 공습해 2명 부상…범죄적 공격\"",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261123",
+      "headline": "블랙먼데이 우려에 증안펀드 18년만에 가동되나…F4 \"준비 착수\"(종합)",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261123",
+      "headline": "[거시분석] What we know about the latest Russian missile...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -4
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 33,
-  "total_positives": 52,
+  "total_negatives": 35,
+  "total_positives": 54,
   "risk_level": "EXTREME"
 }
