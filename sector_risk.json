@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T10:57:49.352332+09:00",
+  "updated_at": "2026-11-22T18:39:01.745036+09:00",
   "date": "20261122",
   "window_days": 14,
   "sectors": [
@@ -215,14 +215,8 @@
     "전체시장": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 17,
+      "negative_count": 16,
       "recent_events": [
-        {
-          "date": "20261122",
-          "type": "negative",
-          "headline": "정점식 \"정부, 블랙먼데이 가능성 대비 긴급조치 준비해야\"",
-          "score": -1
-        },
         {
           "date": "20261122",
           "type": "negative",
@@ -246,6 +240,12 @@
           "type": "negative",
           "headline": "태국 \"美, 태국산 제품 강제노동 추가 관세 12.5%→10% 인하\"",
           "score": -1
+        },
+        {
+          "date": "20261119",
+          "type": "negative",
+          "headline": "[거시분석] Inside the old gas pipeline where Ukraine is ...",
+          "score": -4
         }
       ]
     }
@@ -721,14 +721,6 @@
     },
     {
       "date": "20261122",
-      "headline": "정점식 \"정부, 블랙먼데이 가능성 대비 긴급조치 준비해야\"",
-      "impacts": {
-        "전체시장": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261122",
       "headline": "[거시분석] What we know about the latest Russian missile...",
       "impacts": {
         "방산": 1,
@@ -737,7 +729,7 @@
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 34,
+  "total_negatives": 33,
   "total_positives": 52,
   "risk_level": "EXTREME"
 }
