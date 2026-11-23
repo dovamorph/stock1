@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T08:24:40.091337+09:00",
+  "updated_at": "2026-11-23T15:35:33.280697+09:00",
   "date": "20261123",
   "window_days": 14,
   "sectors": [
@@ -18,8 +18,14 @@
     "반도체·AI": {
       "score": 10,
       "positive_count": 27,
-      "negative_count": 2,
+      "negative_count": 3,
       "recent_events": [
+        {
+          "date": "20261123",
+          "type": "negative",
+          "headline": "Asian stock markets tumble as AI bubble fears mount",
+          "score": -1
+        },
         {
           "date": "20261120",
           "type": "positive",
@@ -43,12 +49,6 @@
           "type": "negative",
           "headline": "Simon Jack: Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
           "score": -1
-        },
-        {
-          "date": "20261118",
-          "type": "positive",
-          "headline": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
-          "score": 1
         }
       ]
     },
@@ -85,9 +85,15 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 15,
+      "positive_count": 16,
       "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20261123",
+          "type": "positive",
+          "headline": "[거시분석] Boy, 7, pulled alive from rubble hours after ...",
+          "score": 1
+        },
         {
           "date": "20261122",
           "type": "positive",
@@ -111,12 +117,6 @@
           "type": "positive",
           "headline": "Will laser weapons change warfare?",
           "score": 1
-        },
-        {
-          "date": "20261119",
-          "type": "positive",
-          "headline": "[거시분석] Inside the old gas pipeline where Ukraine is ...",
-          "score": 2
         }
       ]
     },
@@ -140,7 +140,7 @@
         {
           "date": "20261123",
           "type": "negative",
-          "headline": "[거시분석] Democrats win largest House majority since 19...",
+          "headline": "[거시분석] Boy, 7, pulled alive from rubble hours after ...",
           "score": -1
         },
         {
@@ -220,7 +220,7 @@
         {
           "date": "20261123",
           "type": "negative",
-          "headline": "[거시분석] Democrats win largest House majority since 19...",
+          "headline": "[거시분석] Boy, 7, pulled alive from rubble hours after ...",
           "score": -2
         },
         {
@@ -720,15 +720,24 @@
     },
     {
       "date": "20261123",
-      "headline": "[거시분석] Democrats win largest House majority since 19...",
+      "headline": "Asian stock markets tumble as AI bubble fears mount",
       "impacts": {
-        "금융": -1,
-        "전체시장": -2
+        "반도체·AI": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261123",
+      "headline": "[거시분석] Boy, 7, pulled alive from rubble hours after ...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -2,
+        "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 33,
-  "total_positives": 51,
+  "total_negatives": 34,
+  "total_positives": 52,
   "risk_level": "EXTREME"
 }
