@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-23T15:35:33.280697+09:00",
-  "date": "20261123",
+  "updated_at": "2026-11-24T04:57:54.136783+09:00",
+  "date": "20261124",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -21,6 +21,24 @@
       "negative_count": 3,
       "recent_events": [
         {
+          "date": "20261124",
+          "type": "positive",
+          "headline": "CEO Jensen Huang returns to Nvidia’s office",
+          "score": 1
+        },
+        {
+          "date": "20261124",
+          "type": "positive",
+          "headline": "Jensen Huang returns as NVIDIA CEO after intelligence scandal",
+          "score": 1
+        },
+        {
+          "date": "20261124",
+          "type": "positive",
+          "headline": "Nvidia board reinstates Jensen Huang as CEO",
+          "score": 1
+        },
+        {
           "date": "20261123",
           "type": "negative",
           "headline": "Asian stock markets tumble as AI bubble fears mount",
@@ -31,32 +49,20 @@
           "type": "positive",
           "headline": "California targets Nvidia in China AI chip probe",
           "score": 1
-        },
-        {
-          "date": "20261120",
-          "type": "positive",
-          "headline": "US appoints new cybersecurity chief after series of tech failures",
-          "score": 1
-        },
-        {
-          "date": "20261119",
-          "type": "positive",
-          "headline": "Nvidia says it won't reinstate Huang as it reports soaring sales",
-          "score": 1
-        },
-        {
-          "date": "20261119",
-          "type": "negative",
-          "headline": "Simon Jack: Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
-          "score": -1
         }
       ]
     },
     "건설": {
-      "score": -6,
+      "score": -5,
       "positive_count": 0,
       "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20261124",
+          "type": "negative",
+          "headline": "[거시분석] Iranian authorities flog singer who performed...",
+          "score": -1
+        },
         {
           "date": "20261120",
           "type": "negative",
@@ -74,20 +80,26 @@
           "type": "negative",
           "headline": "[거시분석] Ukraine accuses Russia of targeting rescue op...",
           "score": -2
-        },
-        {
-          "date": "20261109",
-          "type": "negative",
-          "headline": "[거시분석] Iran executes three men for 'armed unrest' af...",
-          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
-      "positive_count": 16,
+      "positive_count": 17,
       "negative_count": 4,
       "recent_events": [
+        {
+          "date": "20261124",
+          "type": "positive",
+          "headline": "Iran threatens response to any attack amid naval blockade",
+          "score": 1
+        },
+        {
+          "date": "20261124",
+          "type": "positive",
+          "headline": "[거시분석] Iranian authorities flog singer who performed...",
+          "score": 2
+        },
         {
           "date": "20261123",
           "type": "positive",
@@ -105,18 +117,6 @@
           "type": "positive",
           "headline": "[거시분석] What we know about the latest Russian missile...",
           "score": 1
-        },
-        {
-          "date": "20261120",
-          "type": "positive",
-          "headline": "[거시분석] Russia targets Kyiv crossings days after Ukra...",
-          "score": 2
-        },
-        {
-          "date": "20261119",
-          "type": "positive",
-          "headline": "Will laser weapons change warfare?",
-          "score": 1
         }
       ]
     },
@@ -133,10 +133,16 @@
       "recent_events": []
     },
     "금융": {
-      "score": -7,
+      "score": -8,
       "positive_count": 0,
-      "negative_count": 7,
+      "negative_count": 8,
       "recent_events": [
+        {
+          "date": "20261124",
+          "type": "negative",
+          "headline": "[거시분석] Iranian authorities flog singer who performed...",
+          "score": -1
+        },
         {
           "date": "20261123",
           "type": "negative",
@@ -159,12 +165,6 @@
           "date": "20261114",
           "type": "negative",
           "headline": "[거시분석] Rosenberg: Uncompromising Putin ups demands f...",
-          "score": -1
-        },
-        {
-          "date": "20261113",
-          "type": "negative",
-          "headline": "[거시분석] Zelensky welcomes US bringing Europe into Rus...",
           "score": -1
         }
       ]
@@ -218,6 +218,12 @@
       "negative_count": 16,
       "recent_events": [
         {
+          "date": "20261124",
+          "type": "negative",
+          "headline": "[거시분석] Iranian authorities flog singer who performed...",
+          "score": -4
+        },
+        {
           "date": "20261123",
           "type": "negative",
           "headline": "[거시분석] Boy, 7, pulled alive from rubble hours after ...",
@@ -240,51 +246,11 @@
           "type": "negative",
           "headline": "[거시분석] Russia targets Kyiv crossings days after Ukra...",
           "score": -3
-        },
-        {
-          "date": "20261119",
-          "type": "negative",
-          "headline": "태국 \"美, 태국산 제품 강제노동 추가 관세 12.5%→10% 인하\"",
-          "score": -1
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20261109",
-      "headline": "Trump defends Nvidia CEO amid Chinese spying allegations",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261109",
-      "headline": "Nvidia CEO’s affair sparks Chinese espionage probe",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261109",
-      "headline": "US chipmaker Nvidia investigates CEO Jensen Huang over affair",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261109",
-      "headline": "[거시분석] Iran executes three men for 'armed unrest' af...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -3
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261110",
       "headline": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
@@ -735,9 +701,52 @@
         "금융": -1
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261124",
+      "headline": "CEO Jensen Huang returns to Nvidia’s office",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261124",
+      "headline": "Jensen Huang returns as NVIDIA CEO after intelligence scandal",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261124",
+      "headline": "Nvidia board reinstates Jensen Huang as CEO",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261124",
+      "headline": "Iran threatens response to any attack amid naval blockade",
+      "impacts": {
+        "방산": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261124",
+      "headline": "[거시분석] Iranian authorities flog singer who performed...",
+      "impacts": {
+        "방산": 2,
+        "건설": -1,
+        "전체시장": -4,
+        "금융": -1
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 34,
-  "total_positives": 52,
+  "total_negatives": 35,
+  "total_positives": 53,
   "risk_level": "EXTREME"
 }
