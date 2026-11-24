@@ -1,17 +1,17 @@
 {
-  "updated": "2026-11-21 11:02",
+  "updated": "2026-11-24 09:31",
   "sp500": {
-    "close": 6910.39,
-    "change": -265.44,
-    "change_pct": -3.7
+    "close": 7237.17,
+    "change": 326.78,
+    "change_pct": 4.73
   },
   "nasdaq": {
-    "close": 22617.73,
-    "change": -1261.47,
-    "change_pct": -5.28
+    "close": 24089.56,
+    "change": 1471.83,
+    "change_pct": 6.51
   },
   "vix": {
-    "close": 35.89,
-    "level": "극공포"
+    "close": 26.62,
+    "level": "공포"
   }
 }
