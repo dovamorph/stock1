@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T04:57:54.136783+09:00",
+  "updated_at": "2026-11-24T13:41:47.529554+09:00",
   "date": "20261124",
   "window_days": 14,
   "sectors": [
@@ -17,37 +17,37 @@
   "sector_stats": {
     "반도체·AI": {
       "score": 10,
-      "positive_count": 27,
-      "negative_count": 3,
+      "positive_count": 29,
+      "negative_count": 4,
       "recent_events": [
         {
           "date": "20261124",
           "type": "positive",
-          "headline": "CEO Jensen Huang returns to Nvidia’s office",
+          "headline": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
           "score": 1
         },
         {
           "date": "20261124",
           "type": "positive",
-          "headline": "Jensen Huang returns as NVIDIA CEO after intelligence scandal",
+          "headline": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
           "score": 1
         },
         {
           "date": "20261124",
           "type": "positive",
-          "headline": "Nvidia board reinstates Jensen Huang as CEO",
+          "headline": "How Nvidia is reacting to Jensen Huang's return as CEO",
           "score": 1
         },
         {
-          "date": "20261123",
-          "type": "negative",
-          "headline": "Asian stock markets tumble as AI bubble fears mount",
-          "score": -1
+          "date": "20261124",
+          "type": "positive",
+          "headline": "US adds Megaspeed to trade blacklist after Nvidia spy scandal",
+          "score": 1
         },
         {
-          "date": "20261120",
+          "date": "20261124",
           "type": "positive",
-          "headline": "California targets Nvidia in China AI chip probe",
+          "headline": "What Nvidia’s Jensen Huang’s return means for Washington and Wall Street?",
           "score": 1
         }
       ]
@@ -60,7 +60,7 @@
         {
           "date": "20261124",
           "type": "negative",
-          "headline": "[거시분석] Iranian authorities flog singer who performed...",
+          "headline": "[거시분석] UK sanctions top Myanmar military leaders aft...",
           "score": -1
         },
         {
@@ -85,19 +85,13 @@
     },
     "방산": {
       "score": 10,
-      "positive_count": 17,
+      "positive_count": 16,
       "negative_count": 4,
       "recent_events": [
         {
           "date": "20261124",
           "type": "positive",
-          "headline": "Iran threatens response to any attack amid naval blockade",
-          "score": 1
-        },
-        {
-          "date": "20261124",
-          "type": "positive",
-          "headline": "[거시분석] Iranian authorities flog singer who performed...",
+          "headline": "[거시분석] UK sanctions top Myanmar military leaders aft...",
           "score": 2
         },
         {
@@ -117,6 +111,12 @@
           "type": "positive",
           "headline": "[거시분석] What we know about the latest Russian missile...",
           "score": 1
+        },
+        {
+          "date": "20261120",
+          "type": "positive",
+          "headline": "[거시분석] Russia targets Kyiv crossings days after Ukra...",
+          "score": 2
         }
       ]
     },
@@ -140,7 +140,7 @@
         {
           "date": "20261124",
           "type": "negative",
-          "headline": "[거시분석] Iranian authorities flog singer who performed...",
+          "headline": "[거시분석] UK sanctions top Myanmar military leaders aft...",
           "score": -1
         },
         {
@@ -170,10 +170,16 @@
       ]
     },
     "우주ETF": {
-      "score": 7,
-      "positive_count": 7,
+      "score": 8,
+      "positive_count": 8,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20261124",
+          "type": "positive",
+          "headline": "US states sue SpaceX over Grok AI’s creation of child sexual abuse material",
+          "score": 1
+        },
         {
           "date": "20261119",
           "type": "positive",
@@ -197,12 +203,6 @@
           "type": "positive",
           "headline": "'Can you believe it?': SpaceX catches part of its Starship rocket on return to Earth",
           "score": 1
-        },
-        {
-          "date": "20261115",
-          "type": "positive",
-          "headline": "'Can you believe it?': SpaceX catches part of its Starship rocket on return to Earth",
-          "score": 1
         }
       ]
     },
@@ -220,8 +220,8 @@
         {
           "date": "20261124",
           "type": "negative",
-          "headline": "[거시분석] Iranian authorities flog singer who performed...",
-          "score": -4
+          "headline": "[거시분석] UK sanctions top Myanmar military leaders aft...",
+          "score": -6
         },
         {
           "date": "20261123",
@@ -704,7 +704,7 @@
     },
     {
       "date": "20261124",
-      "headline": "CEO Jensen Huang returns to Nvidia’s office",
+      "headline": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
       "impacts": {
         "반도체·AI": 1
       },
@@ -712,7 +712,7 @@
     },
     {
       "date": "20261124",
-      "headline": "Jensen Huang returns as NVIDIA CEO after intelligence scandal",
+      "headline": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
       "impacts": {
         "반도체·AI": 1
       },
@@ -720,7 +720,7 @@
     },
     {
       "date": "20261124",
-      "headline": "Nvidia board reinstates Jensen Huang as CEO",
+      "headline": "How Nvidia is reacting to Jensen Huang's return as CEO",
       "impacts": {
         "반도체·AI": 1
       },
@@ -728,25 +728,42 @@
     },
     {
       "date": "20261124",
-      "headline": "Iran threatens response to any attack amid naval blockade",
+      "headline": "US adds Megaspeed to trade blacklist after Nvidia spy scandal",
       "impacts": {
-        "방산": 1
+        "반도체·AI": 1
       },
       "source": "keyword"
     },
     {
       "date": "20261124",
-      "headline": "[거시분석] Iranian authorities flog singer who performed...",
+      "headline": "What Nvidia’s Jensen Huang’s return means for Washington and Wall Street?",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261124",
+      "headline": "US states sue SpaceX over Grok AI’s creation of child sexual abuse material",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261124",
+      "headline": "[거시분석] UK sanctions top Myanmar military leaders aft...",
       "impacts": {
         "방산": 2,
         "건설": -1,
-        "전체시장": -4,
-        "금융": -1
+        "전체시장": -6,
+        "금융": -1,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 35,
-  "total_positives": 53,
+  "total_negatives": 36,
+  "total_positives": 55,
   "risk_level": "EXTREME"
 }
