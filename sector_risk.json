@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-24T13:41:47.529554+09:00",
-  "date": "20261124",
+  "updated_at": "2026-11-25T02:13:04.019930+09:00",
+  "date": "20261125",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -18,45 +18,51 @@
     "반도체·AI": {
       "score": 10,
       "positive_count": 29,
-      "negative_count": 4,
+      "negative_count": 3,
       "recent_events": [
         {
-          "date": "20261124",
+          "date": "20261125",
           "type": "positive",
           "headline": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
           "score": 1
         },
         {
-          "date": "20261124",
+          "date": "20261125",
           "type": "positive",
-          "headline": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
+          "headline": "Cheers and applause as Jensen Huang returns to Nvidia office",
+          "score": 1
+        },
+        {
+          "date": "20261125",
+          "type": "positive",
+          "headline": "Nvidia stock cools after Huang’s return-driven surge",
+          "score": 1
+        },
+        {
+          "date": "20261125",
+          "type": "positive",
+          "headline": "Jensen Huang’s Nvidia return: Who are the big winners and losers?",
           "score": 1
         },
         {
           "date": "20261124",
           "type": "positive",
-          "headline": "How Nvidia is reacting to Jensen Huang's return as CEO",
-          "score": 1
-        },
-        {
-          "date": "20261124",
-          "type": "positive",
-          "headline": "US adds Megaspeed to trade blacklist after Nvidia spy scandal",
-          "score": 1
-        },
-        {
-          "date": "20261124",
-          "type": "positive",
-          "headline": "What Nvidia’s Jensen Huang’s return means for Washington and Wall Street?",
+          "headline": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
           "score": 1
         }
       ]
     },
     "건설": {
-      "score": -5,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 4,
+      "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20261125",
+          "type": "negative",
+          "headline": "[거시분석] Israeli air strike kills Hamas internal secur...",
+          "score": -2
+        },
         {
           "date": "20261124",
           "type": "negative",
@@ -86,8 +92,14 @@
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 4,
+      "negative_count": 3,
       "recent_events": [
+        {
+          "date": "20261125",
+          "type": "positive",
+          "headline": "[거시분석] Israeli air strike kills Hamas internal secur...",
+          "score": 3
+        },
         {
           "date": "20261124",
           "type": "positive",
@@ -111,12 +123,6 @@
           "type": "positive",
           "headline": "[거시분석] What we know about the latest Russian missile...",
           "score": 1
-        },
-        {
-          "date": "20261120",
-          "type": "positive",
-          "headline": "[거시분석] Russia targets Kyiv crossings days after Ukra...",
-          "score": 2
         }
       ]
     },
@@ -215,8 +221,26 @@
     "전체시장": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 16,
+      "negative_count": 18,
       "recent_events": [
+        {
+          "date": "20261125",
+          "type": "negative",
+          "headline": "\"美USTR, 이르면 이번주 '과잉생산 관세' 조사 결과 발표\"(종합)",
+          "score": -1
+        },
+        {
+          "date": "20261125",
+          "type": "negative",
+          "headline": "\"美USTR, 이르면 이번주 '과잉생산 관세' 조사 결과 발표\"",
+          "score": -1
+        },
+        {
+          "date": "20261125",
+          "type": "negative",
+          "headline": "[거시분석] Israeli air strike kills Hamas internal secur...",
+          "score": -4
+        },
         {
           "date": "20261124",
           "type": "negative",
@@ -228,79 +252,11 @@
           "type": "negative",
           "headline": "[거시분석] Boy, 7, pulled alive from rubble hours after ...",
           "score": -2
-        },
-        {
-          "date": "20261122",
-          "type": "negative",
-          "headline": "[거시분석] What we know about the latest Russian missile...",
-          "score": -1
-        },
-        {
-          "date": "20261121",
-          "type": "negative",
-          "headline": "[거시분석] What we know about the latest Russian missile...",
-          "score": -1
-        },
-        {
-          "date": "20261120",
-          "type": "negative",
-          "headline": "[거시분석] Russia targets Kyiv crossings days after Ukra...",
-          "score": -3
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20261110",
-      "headline": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261110",
-      "headline": "Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say",
-      "impacts": {
-        "방산": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261110",
-      "headline": "Australia considers criminal penalties for rogue AI in wake of OpenAI hack",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261110",
-      "headline": "Zoe Kleinman: Nvidia CEO's affair will cause ripples across US and beyond",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261110",
-      "headline": "Australia tightens AI oversight rules after OpenAI government breach",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261110",
-      "headline": "[거시분석] Trump says more US attacks on Iran 'highly un...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -4,
-        "반도체·AI": -2
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261111",
       "headline": "[거시분석] Three Iran-backed suspects plotted attacks in...",
@@ -761,9 +717,67 @@
         "반도체·AI": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261125",
+      "headline": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261125",
+      "headline": "Cheers and applause as Jensen Huang returns to Nvidia office",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261125",
+      "headline": "Nvidia stock cools after Huang’s return-driven surge",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261125",
+      "headline": "Jensen Huang’s Nvidia return: Who are the big winners and losers?",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261125",
+      "headline": "\"美USTR, 이르면 이번주 '과잉생산 관세' 조사 결과 발표\"(종합)",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261125",
+      "headline": "\"美USTR, 이르면 이번주 '과잉생산 관세' 조사 결과 발표\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261125",
+      "headline": "[거시분석] Israeli air strike kills Hamas internal secur...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -4
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 36,
+  "total_negatives": 37,
   "total_positives": 55,
   "risk_level": "EXTREME"
 }
