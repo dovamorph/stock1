@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T11:01:30.963269+09:00",
+  "updated_at": "2026-11-25T22:59:54.139459+09:00",
   "date": "20261125",
   "window_days": 14,
   "sectors": [
@@ -17,8 +17,8 @@
   "sector_stats": {
     "반도체·AI": {
       "score": 10,
-      "positive_count": 28,
-      "negative_count": 3,
+      "positive_count": 29,
+      "negative_count": 4,
       "recent_events": [
         {
           "date": "20261125",
@@ -35,28 +35,34 @@
         {
           "date": "20261125",
           "type": "positive",
-          "headline": "Todd Blanche declines to confirm if Nvidia’s Jensen Huang was investigated",
+          "headline": "Trump's rescue of Nvidia's Huang brings political risks",
           "score": 1
         },
         {
-          "date": "20261124",
+          "date": "20261125",
           "type": "positive",
-          "headline": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
+          "headline": "‘Second home’: Why Israel is celebrating Jensen Huang’s return to Nvidia",
           "score": 1
         },
         {
-          "date": "20261124",
-          "type": "positive",
-          "headline": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
-          "score": 1
+          "date": "20261125",
+          "type": "negative",
+          "headline": "[거시분석] Russia's own figures show it has lost nearly ...",
+          "score": -2
         }
       ]
     },
     "건설": {
-      "score": -5,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 4,
+      "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20261125",
+          "type": "negative",
+          "headline": "[거시분석] Russia's own figures show it has lost nearly ...",
+          "score": -2
+        },
         {
           "date": "20261124",
           "type": "negative",
@@ -91,8 +97,8 @@
         {
           "date": "20261125",
           "type": "positive",
-          "headline": "[거시분석] Israeli air strike kills Hamas internal secur...",
-          "score": 1
+          "headline": "[거시분석] Russia's own figures show it has lost nearly ...",
+          "score": 3
         },
         {
           "date": "20261124",
@@ -133,10 +139,16 @@
       "recent_events": []
     },
     "금융": {
-      "score": -8,
+      "score": -9,
       "positive_count": 0,
-      "negative_count": 8,
+      "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20261125",
+          "type": "negative",
+          "headline": "[거시분석] Russia's own figures show it has lost nearly ...",
+          "score": -1
+        },
         {
           "date": "20261124",
           "type": "negative",
@@ -159,12 +171,6 @@
           "date": "20261115",
           "type": "negative",
           "headline": "[거시분석] Israel kills Hamas commander in strike on Gaz...",
-          "score": -1
-        },
-        {
-          "date": "20261114",
-          "type": "negative",
-          "headline": "[거시분석] Rosenberg: Uncompromising Putin ups demands f...",
           "score": -1
         }
       ]
@@ -215,37 +221,37 @@
     "전체시장": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 16,
+      "negative_count": 19,
       "recent_events": [
         {
           "date": "20261125",
           "type": "negative",
-          "headline": "[거시분석] Israeli air strike kills Hamas internal secur...",
-          "score": -2
+          "headline": "美USTR, 14개 경제주체에 과잉생산 관세…\"韓 15% 상한 유지\"",
+          "score": -1
+        },
+        {
+          "date": "20261125",
+          "type": "negative",
+          "headline": "[속보] 美 USTR \"한국, 일본, EU 등 관세 15% 상한 유지\"",
+          "score": -1
+        },
+        {
+          "date": "20261125",
+          "type": "negative",
+          "headline": "[속보] 美, 한국 등 14개 경제주체에 '과잉생산 관세' 예고",
+          "score": -1
+        },
+        {
+          "date": "20261125",
+          "type": "negative",
+          "headline": "[거시분석] Russia's own figures show it has lost nearly ...",
+          "score": -7
         },
         {
           "date": "20261124",
           "type": "negative",
           "headline": "[거시분석] UK sanctions top Myanmar military leaders aft...",
           "score": -6
-        },
-        {
-          "date": "20261123",
-          "type": "negative",
-          "headline": "[거시분석] Boy, 7, pulled alive from rubble hours after ...",
-          "score": -2
-        },
-        {
-          "date": "20261122",
-          "type": "negative",
-          "headline": "[거시분석] What we know about the latest Russian missile...",
-          "score": -1
-        },
-        {
-          "date": "20261121",
-          "type": "negative",
-          "headline": "[거시분석] What we know about the latest Russian missile...",
-          "score": -1
         }
       ]
     }
@@ -730,7 +736,7 @@
     },
     {
       "date": "20261125",
-      "headline": "Todd Blanche declines to confirm if Nvidia’s Jensen Huang was investigated",
+      "headline": "Trump's rescue of Nvidia's Huang brings political risks",
       "impacts": {
         "반도체·AI": 1
       },
@@ -738,15 +744,50 @@
     },
     {
       "date": "20261125",
-      "headline": "[거시분석] Israeli air strike kills Hamas internal secur...",
+      "headline": "‘Second home’: Why Israel is celebrating Jensen Huang’s return to Nvidia",
       "impacts": {
-        "방산": 1,
-        "전체시장": -2
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261125",
+      "headline": "美USTR, 14개 경제주체에 과잉생산 관세…\"韓 15% 상한 유지\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261125",
+      "headline": "[속보] 美 USTR \"한국, 일본, EU 등 관세 15% 상한 유지\"",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261125",
+      "headline": "[속보] 美, 한국 등 14개 경제주체에 '과잉생산 관세' 예고",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261125",
+      "headline": "[거시분석] Russia's own figures show it has lost nearly ...",
+      "impacts": {
+        "방산": 3,
+        "건설": -2,
+        "전체시장": -7,
+        "금융": -1,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 34,
-  "total_positives": 54,
+  "total_negatives": 40,
+  "total_positives": 55,
   "risk_level": "EXTREME"
 }
