@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-25T22:59:54.139459+09:00",
-  "date": "20261125",
+  "updated_at": "2026-11-26T08:01:29.007893+09:00",
+  "date": "20261126",
   "window_days": 14,
   "sectors": [
     "반도체·AI",
@@ -17,9 +17,27 @@
   "sector_stats": {
     "반도체·AI": {
       "score": 10,
-      "positive_count": 29,
-      "negative_count": 4,
+      "positive_count": 31,
+      "negative_count": 5,
       "recent_events": [
+        {
+          "date": "20261126",
+          "type": "positive",
+          "headline": "Cheers and applause as Jensen Huang returns to Nvidia office",
+          "score": 1
+        },
+        {
+          "date": "20261126",
+          "type": "positive",
+          "headline": "Trump's rescue of Nvidia's Huang brings political risks",
+          "score": 1
+        },
+        {
+          "date": "20261126",
+          "type": "negative",
+          "headline": "[거시분석] US announces new tariffs on host of countries...",
+          "score": -2
+        },
         {
           "date": "20261125",
           "type": "positive",
@@ -31,24 +49,6 @@
           "type": "positive",
           "headline": "Cheers and applause as Jensen Huang returns to Nvidia office",
           "score": 1
-        },
-        {
-          "date": "20261125",
-          "type": "positive",
-          "headline": "Trump's rescue of Nvidia's Huang brings political risks",
-          "score": 1
-        },
-        {
-          "date": "20261125",
-          "type": "positive",
-          "headline": "‘Second home’: Why Israel is celebrating Jensen Huang’s return to Nvidia",
-          "score": 1
-        },
-        {
-          "date": "20261125",
-          "type": "negative",
-          "headline": "[거시분석] Russia's own figures show it has lost nearly ...",
-          "score": -2
         }
       ]
     },
@@ -95,6 +95,12 @@
       "negative_count": 3,
       "recent_events": [
         {
+          "date": "20261126",
+          "type": "positive",
+          "headline": "[거시분석] US announces new tariffs on host of countries...",
+          "score": 1
+        },
+        {
           "date": "20261125",
           "type": "positive",
           "headline": "[거시분석] Russia's own figures show it has lost nearly ...",
@@ -117,20 +123,21 @@
           "type": "positive",
           "headline": "[거시분석] What we know about the latest Russian missile...",
           "score": 1
-        },
-        {
-          "date": "20261121",
-          "type": "positive",
-          "headline": "[거시분석] What we know about the latest Russian missile...",
-          "score": 1
         }
       ]
     },
     "전력·에너지": {
-      "score": 0,
-      "positive_count": 0,
+      "score": 1,
+      "positive_count": 1,
       "negative_count": 0,
-      "recent_events": []
+      "recent_events": [
+        {
+          "date": "20261126",
+          "type": "positive",
+          "headline": "AI 데이터센터 IPO 주춤…엔스케일, \"비상장 유지\"도 검토",
+          "score": 1
+        }
+      ]
     },
     "로봇": {
       "score": 0,
@@ -143,6 +150,12 @@
       "positive_count": 0,
       "negative_count": 9,
       "recent_events": [
+        {
+          "date": "20261126",
+          "type": "negative",
+          "headline": "[거시분석] US announces new tariffs on host of countries...",
+          "score": -1
+        },
         {
           "date": "20261125",
           "type": "negative",
@@ -166,20 +179,20 @@
           "type": "negative",
           "headline": "[거시분석] Putin's Crimean Bridge partly collapses as Ze...",
           "score": -1
-        },
-        {
-          "date": "20261115",
-          "type": "negative",
-          "headline": "[거시분석] Israel kills Hamas commander in strike on Gaz...",
-          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 8,
-      "positive_count": 8,
+      "score": 9,
+      "positive_count": 9,
       "negative_count": 0,
       "recent_events": [
+        {
+          "date": "20261126",
+          "type": "positive",
+          "headline": "US grants SpaceX approval for 1 million space data centres",
+          "score": 1
+        },
         {
           "date": "20261124",
           "type": "positive",
@@ -203,12 +216,6 @@
           "type": "positive",
           "headline": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
           "score": 1
-        },
-        {
-          "date": "20261116",
-          "type": "positive",
-          "headline": "'Can you believe it?': SpaceX catches part of its Starship rocket on return to Earth",
-          "score": 1
         }
       ]
     },
@@ -221,8 +228,20 @@
     "전체시장": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 19,
+      "negative_count": 20,
       "recent_events": [
+        {
+          "date": "20261126",
+          "type": "negative",
+          "headline": "관세로 美증시 부담 주더니…트럼프, 주가하락 또 중간선거탓",
+          "score": -1
+        },
+        {
+          "date": "20261126",
+          "type": "negative",
+          "headline": "[거시분석] US announces new tariffs on host of countries...",
+          "score": -5
+        },
         {
           "date": "20261125",
           "type": "negative",
@@ -240,33 +259,11 @@
           "type": "negative",
           "headline": "[속보] 美, 한국 등 14개 경제주체에 '과잉생산 관세' 예고",
           "score": -1
-        },
-        {
-          "date": "20261125",
-          "type": "negative",
-          "headline": "[거시분석] Russia's own figures show it has lost nearly ...",
-          "score": -7
-        },
-        {
-          "date": "20261124",
-          "type": "negative",
-          "headline": "[거시분석] UK sanctions top Myanmar military leaders aft...",
-          "score": -6
         }
       ]
     }
   },
   "event_history": [
-    {
-      "date": "20261111",
-      "headline": "[거시분석] Three Iran-backed suspects plotted attacks in...",
-      "impacts": {
-        "방산": 1,
-        "전체시장": -4,
-        "금융": -1
-      },
-      "source": "geo_categories"
-    },
     {
       "date": "20261112",
       "headline": "Ukraine says military Starlink disrupted again as US envoys meet Putin in Moscow",
@@ -785,9 +782,60 @@
         "반도체·AI": -2
       },
       "source": "geo_categories"
+    },
+    {
+      "date": "20261126",
+      "headline": "Cheers and applause as Jensen Huang returns to Nvidia office",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261126",
+      "headline": "Trump's rescue of Nvidia's Huang brings political risks",
+      "impacts": {
+        "반도체·AI": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261126",
+      "headline": "US grants SpaceX approval for 1 million space data centres",
+      "impacts": {
+        "우주ETF": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261126",
+      "headline": "AI 데이터센터 IPO 주춤…엔스케일, \"비상장 유지\"도 검토",
+      "impacts": {
+        "전력·에너지": 1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261126",
+      "headline": "관세로 美증시 부담 주더니…트럼프, 주가하락 또 중간선거탓",
+      "impacts": {
+        "전체시장": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261126",
+      "headline": "[거시분석] US announces new tariffs on host of countries...",
+      "impacts": {
+        "방산": 1,
+        "전체시장": -5,
+        "금융": -1,
+        "반도체·AI": -2
+      },
+      "source": "geo_categories"
     }
   ],
-  "total_negatives": 40,
-  "total_positives": 55,
+  "total_negatives": 42,
+  "total_positives": 59,
   "risk_level": "EXTREME"
 }
