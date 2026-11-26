@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T08:01:29.007893+09:00",
+  "updated_at": "2026-11-26T16:31:37.432039+09:00",
   "date": "20261126",
   "window_days": 14,
   "sectors": [
@@ -17,25 +17,19 @@
   "sector_stats": {
     "반도체·AI": {
       "score": 10,
-      "positive_count": 31,
+      "positive_count": 30,
       "negative_count": 5,
       "recent_events": [
         {
           "date": "20261126",
           "type": "positive",
-          "headline": "Cheers and applause as Jensen Huang returns to Nvidia office",
-          "score": 1
-        },
-        {
-          "date": "20261126",
-          "type": "positive",
-          "headline": "Trump's rescue of Nvidia's Huang brings political risks",
+          "headline": "Trump's accounts traded Nvidia shares 44 times this year, records show",
           "score": 1
         },
         {
           "date": "20261126",
           "type": "negative",
-          "headline": "[거시분석] US announces new tariffs on host of countries...",
+          "headline": "[거시분석] Israeli judges recommend dropping most seriou...",
           "score": -2
         },
         {
@@ -48,6 +42,12 @@
           "date": "20261125",
           "type": "positive",
           "headline": "Cheers and applause as Jensen Huang returns to Nvidia office",
+          "score": 1
+        },
+        {
+          "date": "20261125",
+          "type": "positive",
+          "headline": "Trump's rescue of Nvidia's Huang brings political risks",
           "score": 1
         }
       ]
@@ -97,7 +97,7 @@
         {
           "date": "20261126",
           "type": "positive",
-          "headline": "[거시분석] US announces new tariffs on host of countries...",
+          "headline": "[거시분석] Israeli judges recommend dropping most seriou...",
           "score": 1
         },
         {
@@ -127,17 +127,10 @@
       ]
     },
     "전력·에너지": {
-      "score": 1,
-      "positive_count": 1,
+      "score": 0,
+      "positive_count": 0,
       "negative_count": 0,
-      "recent_events": [
-        {
-          "date": "20261126",
-          "type": "positive",
-          "headline": "AI 데이터센터 IPO 주춤…엔스케일, \"비상장 유지\"도 검토",
-          "score": 1
-        }
-      ]
+      "recent_events": []
     },
     "로봇": {
       "score": 0,
@@ -146,15 +139,21 @@
       "recent_events": []
     },
     "금융": {
-      "score": -9,
+      "score": -10,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 10,
       "recent_events": [
         {
           "date": "20261126",
           "type": "negative",
-          "headline": "[거시분석] US announces new tariffs on host of countries...",
+          "headline": "원/달러 환율, 금리 인상에도 보합권…전날보다 0.5원↓(종합)",
           "score": -1
+        },
+        {
+          "date": "20261126",
+          "type": "negative",
+          "headline": "[거시분석] Israeli judges recommend dropping most seriou...",
+          "score": -3
         },
         {
           "date": "20261125",
@@ -173,12 +172,6 @@
           "type": "negative",
           "headline": "[거시분석] Boy, 7, pulled alive from rubble hours after ...",
           "score": -1
-        },
-        {
-          "date": "20261118",
-          "type": "negative",
-          "headline": "[거시분석] Putin's Crimean Bridge partly collapses as Ze...",
-          "score": -1
         }
       ]
     },
@@ -190,7 +183,7 @@
         {
           "date": "20261126",
           "type": "positive",
-          "headline": "US grants SpaceX approval for 1 million space data centres",
+          "headline": "Moment Nasa spacecraft hit asteroid - and what happened next",
           "score": 1
         },
         {
@@ -233,14 +226,14 @@
         {
           "date": "20261126",
           "type": "negative",
-          "headline": "관세로 美증시 부담 주더니…트럼프, 주가하락 또 중간선거탓",
+          "headline": "Brazil blasts ‘unacceptable’ new US tariff proposals",
           "score": -1
         },
         {
           "date": "20261126",
           "type": "negative",
-          "headline": "[거시분석] US announces new tariffs on host of countries...",
-          "score": -5
+          "headline": "[거시분석] Israeli judges recommend dropping most seriou...",
+          "score": -7
         },
         {
           "date": "20261125",
@@ -785,7 +778,7 @@
     },
     {
       "date": "20261126",
-      "headline": "Cheers and applause as Jensen Huang returns to Nvidia office",
+      "headline": "Trump's accounts traded Nvidia shares 44 times this year, records show",
       "impacts": {
         "반도체·AI": 1
       },
@@ -793,15 +786,7 @@
     },
     {
       "date": "20261126",
-      "headline": "Trump's rescue of Nvidia's Huang brings political risks",
-      "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261126",
-      "headline": "US grants SpaceX approval for 1 million space data centres",
+      "headline": "Moment Nasa spacecraft hit asteroid - and what happened next",
       "impacts": {
         "우주ETF": 1
       },
@@ -809,15 +794,7 @@
     },
     {
       "date": "20261126",
-      "headline": "AI 데이터센터 IPO 주춤…엔스케일, \"비상장 유지\"도 검토",
-      "impacts": {
-        "전력·에너지": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261126",
-      "headline": "관세로 美증시 부담 주더니…트럼프, 주가하락 또 중간선거탓",
+      "headline": "Brazil blasts ‘unacceptable’ new US tariff proposals",
       "impacts": {
         "전체시장": -1
       },
@@ -825,17 +802,25 @@
     },
     {
       "date": "20261126",
-      "headline": "[거시분석] US announces new tariffs on host of countries...",
+      "headline": "원/달러 환율, 금리 인상에도 보합권…전날보다 0.5원↓(종합)",
+      "impacts": {
+        "금융": -1
+      },
+      "source": "keyword"
+    },
+    {
+      "date": "20261126",
+      "headline": "[거시분석] Israeli judges recommend dropping most seriou...",
       "impacts": {
         "방산": 1,
-        "전체시장": -5,
-        "금융": -1,
+        "전체시장": -7,
+        "금융": -3,
         "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
-  "total_positives": 59,
+  "total_negatives": 43,
+  "total_positives": 57,
   "risk_level": "EXTREME"
 }
