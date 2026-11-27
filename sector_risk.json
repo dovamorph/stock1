@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T11:42:12.859716+09:00",
+  "updated_at": "2026-11-27T22:35:47.164720+09:00",
   "date": "20261127",
   "window_days": 14,
   "sectors": [
@@ -23,8 +23,8 @@
         {
           "date": "20261127",
           "type": "negative",
-          "headline": "Global news agency AFP reports cyberattack, shuts down content platform",
-          "score": -1
+          "headline": "[거시분석] Two Italians killed in strike in Kuwait, as I...",
+          "score": -2
         },
         {
           "date": "20261126",
@@ -141,14 +141,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 10,
+      "negative_count": 9,
       "recent_events": [
-        {
-          "date": "20261127",
-          "type": "negative",
-          "headline": "[거시분석] Two Italians killed in strike in Kuwait, as I...",
-          "score": -1
-        },
         {
           "date": "20261126",
           "type": "negative",
@@ -172,42 +166,48 @@
           "type": "negative",
           "headline": "[거시분석] UK sanctions top Myanmar military leaders aft...",
           "score": -1
+        },
+        {
+          "date": "20261123",
+          "type": "negative",
+          "headline": "[거시분석] Boy, 7, pulled alive from rubble hours after ...",
+          "score": -1
         }
       ]
     },
     "우주ETF": {
-      "score": 10,
-      "positive_count": 12,
+      "score": 8,
+      "positive_count": 8,
       "negative_count": 0,
       "recent_events": [
-        {
-          "date": "20261127",
-          "type": "positive",
-          "headline": "Musk's plan to send a million SpaceX data satellites into space approved",
-          "score": 1
-        },
-        {
-          "date": "20261127",
-          "type": "positive",
-          "headline": "Moment Nasa spacecraft hit asteroid - and what happened next",
-          "score": 1
-        },
-        {
-          "date": "20261127",
-          "type": "positive",
-          "headline": "Mexico seeks US talks about suspected SpaceX debris",
-          "score": 1
-        },
-        {
-          "date": "20261127",
-          "type": "positive",
-          "headline": "Musk pledges two SpaceX shares for every US child",
-          "score": 1
-        },
         {
           "date": "20261126",
           "type": "positive",
           "headline": "Moment Nasa spacecraft hit asteroid - and what happened next",
+          "score": 1
+        },
+        {
+          "date": "20261124",
+          "type": "positive",
+          "headline": "US states sue SpaceX over Grok AI’s creation of child sexual abuse material",
+          "score": 1
+        },
+        {
+          "date": "20261119",
+          "type": "positive",
+          "headline": "Charting the world’s biggest IPOs as Anthropic overtakes SpaceX",
+          "score": 1
+        },
+        {
+          "date": "20261117",
+          "type": "positive",
+          "headline": "'Can you believe it?': SpaceX catches part of its Starship rocket on return to Earth",
+          "score": 1
+        },
+        {
+          "date": "20261116",
+          "type": "positive",
+          "headline": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
           "score": 1
         }
       ]
@@ -227,7 +227,7 @@
           "date": "20261127",
           "type": "negative",
           "headline": "[거시분석] Two Italians killed in strike in Kuwait, as I...",
-          "score": -3
+          "score": -4
         },
         {
           "date": "20261126",
@@ -779,56 +779,16 @@
     },
     {
       "date": "20261127",
-      "headline": "Musk's plan to send a million SpaceX data satellites into space approved",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261127",
-      "headline": "Moment Nasa spacecraft hit asteroid - and what happened next",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261127",
-      "headline": "Global news agency AFP reports cyberattack, shuts down content platform",
-      "impacts": {
-        "반도체·AI": -1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261127",
-      "headline": "Mexico seeks US talks about suspected SpaceX debris",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261127",
-      "headline": "Musk pledges two SpaceX shares for every US child",
-      "impacts": {
-        "우주ETF": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261127",
       "headline": "[거시분석] Two Italians killed in strike in Kuwait, as I...",
       "impacts": {
         "방산": 1,
-        "전체시장": -3,
-        "금융": -1
+        "전체시장": -4,
+        "반도체·AI": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 44,
-  "total_positives": 57,
+  "total_negatives": 43,
+  "total_positives": 53,
   "risk_level": "EXTREME"
 }
