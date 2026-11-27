@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T03:13:57.399523+09:00",
+  "updated_at": "2026-11-27T11:42:12.859716+09:00",
   "date": "20261127",
   "window_days": 14,
   "sectors": [
@@ -18,8 +18,14 @@
     "반도체·AI": {
       "score": 10,
       "positive_count": 27,
-      "negative_count": 5,
+      "negative_count": 6,
       "recent_events": [
+        {
+          "date": "20261127",
+          "type": "negative",
+          "headline": "Global news agency AFP reports cyberattack, shuts down content platform",
+          "score": -1
+        },
         {
           "date": "20261126",
           "type": "positive",
@@ -43,26 +49,14 @@
           "type": "positive",
           "headline": "Cheers and applause as Jensen Huang returns to Nvidia office",
           "score": 1
-        },
-        {
-          "date": "20261125",
-          "type": "positive",
-          "headline": "Trump's rescue of Nvidia's Huang brings political risks",
-          "score": 1
         }
       ]
     },
     "건설": {
-      "score": -9,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 6,
+      "negative_count": 5,
       "recent_events": [
-        {
-          "date": "20261127",
-          "type": "negative",
-          "headline": "[거시분석] Two Italians killed in strike in Kuwait, as I...",
-          "score": -2
-        },
         {
           "date": "20261125",
           "type": "negative",
@@ -86,25 +80,25 @@
           "type": "negative",
           "headline": "[거시분석] Inside the old gas pipeline where Ukraine is ...",
           "score": -1
+        },
+        {
+          "date": "20261117",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine accuses Russia of targeting rescue op...",
+          "score": -2
         }
       ]
     },
     "방산": {
       "score": 10,
       "positive_count": 16,
-      "negative_count": 4,
+      "negative_count": 3,
       "recent_events": [
-        {
-          "date": "20261127",
-          "type": "negative",
-          "headline": "美 과잉생산 관세에 中 반발…미중 무역휴전 다시 '시험대'",
-          "score": -1
-        },
         {
           "date": "20261127",
           "type": "positive",
           "headline": "[거시분석] Two Italians killed in strike in Kuwait, as I...",
-          "score": 3
+          "score": 1
         },
         {
           "date": "20261126",
@@ -123,6 +117,12 @@
           "type": "positive",
           "headline": "[거시분석] UK sanctions top Myanmar military leaders aft...",
           "score": 2
+        },
+        {
+          "date": "20261123",
+          "type": "positive",
+          "headline": "[거시분석] Boy, 7, pulled alive from rubble hours after ...",
+          "score": 1
         }
       ]
     },
@@ -177,7 +177,7 @@
     },
     "우주ETF": {
       "score": 10,
-      "positive_count": 10,
+      "positive_count": 12,
       "negative_count": 0,
       "recent_events": [
         {
@@ -193,21 +193,21 @@
           "score": 1
         },
         {
+          "date": "20261127",
+          "type": "positive",
+          "headline": "Mexico seeks US talks about suspected SpaceX debris",
+          "score": 1
+        },
+        {
+          "date": "20261127",
+          "type": "positive",
+          "headline": "Musk pledges two SpaceX shares for every US child",
+          "score": 1
+        },
+        {
           "date": "20261126",
           "type": "positive",
           "headline": "Moment Nasa spacecraft hit asteroid - and what happened next",
-          "score": 1
-        },
-        {
-          "date": "20261124",
-          "type": "positive",
-          "headline": "US states sue SpaceX over Grok AI’s creation of child sexual abuse material",
-          "score": 1
-        },
-        {
-          "date": "20261119",
-          "type": "positive",
-          "headline": "Charting the world’s biggest IPOs as Anthropic overtakes SpaceX",
           "score": 1
         }
       ]
@@ -221,25 +221,13 @@
     "전체시장": {
       "score": -10,
       "positive_count": 2,
-      "negative_count": 22,
+      "negative_count": 20,
       "recent_events": [
         {
           "date": "20261127",
           "type": "negative",
-          "headline": "美기술패권 진력하는 트럼프…교역국엔 '깨알 트집' 관세 칼날",
-          "score": -1
-        },
-        {
-          "date": "20261127",
-          "type": "negative",
-          "headline": "美 새 관세 시행땐 평균관세율 13.9%…상호관세 무효화 전으로",
-          "score": -1
-        },
-        {
-          "date": "20261127",
-          "type": "negative",
           "headline": "[거시분석] Two Italians killed in strike in Kuwait, as I...",
-          "score": -5
+          "score": -3
         },
         {
           "date": "20261126",
@@ -252,6 +240,18 @@
           "type": "negative",
           "headline": "[거시분석] Israeli judges recommend dropping most seriou...",
           "score": -7
+        },
+        {
+          "date": "20261125",
+          "type": "negative",
+          "headline": "美USTR, 14개 경제주체에 과잉생산 관세…\"韓 15% 상한 유지\"",
+          "score": -1
+        },
+        {
+          "date": "20261125",
+          "type": "negative",
+          "headline": "[속보] 美 USTR \"한국, 일본, EU 등 관세 15% 상한 유지\"",
+          "score": -1
         }
       ]
     }
@@ -795,25 +795,25 @@
     },
     {
       "date": "20261127",
-      "headline": "美기술패권 진력하는 트럼프…교역국엔 '깨알 트집' 관세 칼날",
+      "headline": "Global news agency AFP reports cyberattack, shuts down content platform",
       "impacts": {
-        "전체시장": -1
+        "반도체·AI": -1
       },
       "source": "keyword"
     },
     {
       "date": "20261127",
-      "headline": "美 새 관세 시행땐 평균관세율 13.9%…상호관세 무효화 전으로",
+      "headline": "Mexico seeks US talks about suspected SpaceX debris",
       "impacts": {
-        "전체시장": -1
+        "우주ETF": 1
       },
       "source": "keyword"
     },
     {
       "date": "20261127",
-      "headline": "美 과잉생산 관세에 中 반발…미중 무역휴전 다시 '시험대'",
+      "headline": "Musk pledges two SpaceX shares for every US child",
       "impacts": {
-        "방산": -1
+        "우주ETF": 1
       },
       "source": "keyword"
     },
@@ -821,15 +821,14 @@
       "date": "20261127",
       "headline": "[거시분석] Two Italians killed in strike in Kuwait, as I...",
       "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
+        "방산": 1,
+        "전체시장": -3,
         "금융": -1
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 47,
-  "total_positives": 55,
+  "total_negatives": 44,
+  "total_positives": 57,
   "risk_level": "EXTREME"
 }
