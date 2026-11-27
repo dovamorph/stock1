@@ -1,11 +1,11 @@
 {
   "regime": "BEAR",
   "label": "약세장 🔴",
-  "kospi": 4858.38,
-  "ma20": 5151.38,
-  "ma60": 6015.15,
-  "ret_5d": 3.18,
-  "ret_20d": -17.08,
+  "kospi": 4873.1,
+  "ma20": 5152.12,
+  "ma60": 6015.39,
+  "ret_5d": 3.49,
+  "ret_20d": -16.83,
   "vol_trend": false,
   "cycle_stage": "recovery",
   "cycle_multiplier_adj": 0.2,
@@ -30,5 +30,5 @@
     "trailing_stop": 0.1
   },
   "effective_position_multiplier": 0.2,
-  "cached_at": "2026-11-27T03:32:21.021375"
+  "cached_at": "2026-11-27T04:02:37.441535"
 }
