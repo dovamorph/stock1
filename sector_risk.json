@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T07:32:52.170643+09:00",
+  "updated_at": "2026-11-28T15:58:27.311605+09:00",
   "date": "20261128",
   "window_days": 14,
   "sectors": [
@@ -17,19 +17,13 @@
   "sector_stats": {
     "반도체·AI": {
       "score": 10,
-      "positive_count": 26,
+      "positive_count": 25,
       "negative_count": 6,
       "recent_events": [
         {
           "date": "20261128",
           "type": "positive",
           "headline": "OpenAI countersues Apple over trade secrets as AI race heats up",
-          "score": 1
-        },
-        {
-          "date": "20261128",
-          "type": "positive",
-          "headline": "‘Playing with fire’: Trump faces GOP backlash over Nvidia CEO’s return",
           "score": 1
         },
         {
@@ -49,20 +43,20 @@
           "type": "negative",
           "headline": "[거시분석] Israeli judges recommend dropping most seriou...",
           "score": -2
+        },
+        {
+          "date": "20261125",
+          "type": "positive",
+          "headline": "US attorney general dodges questions about Nvidia investigation",
+          "score": 1
         }
       ]
     },
     "건설": {
-      "score": -9,
+      "score": -7,
       "positive_count": 0,
-      "negative_count": 6,
+      "negative_count": 5,
       "recent_events": [
-        {
-          "date": "20261128",
-          "type": "negative",
-          "headline": "[거시분석] Desperate appeals from women on death row in ...",
-          "score": -2
-        },
         {
           "date": "20261125",
           "type": "negative",
@@ -86,6 +80,12 @@
           "type": "negative",
           "headline": "[거시분석] Inside the old gas pipeline where Ukraine is ...",
           "score": -1
+        },
+        {
+          "date": "20261117",
+          "type": "negative",
+          "headline": "[거시분석] Ukraine accuses Russia of targeting rescue op...",
+          "score": -2
         }
       ]
     },
@@ -97,8 +97,8 @@
         {
           "date": "20261128",
           "type": "positive",
-          "headline": "[거시분석] Desperate appeals from women on death row in ...",
-          "score": 3
+          "headline": "[거시분석] Israeli ‘direct hit ‘on Doctors Without Borde...",
+          "score": 1
         },
         {
           "date": "20261127",
@@ -141,14 +141,8 @@
     "금융": {
       "score": -10,
       "positive_count": 0,
-      "negative_count": 9,
+      "negative_count": 8,
       "recent_events": [
-        {
-          "date": "20261128",
-          "type": "negative",
-          "headline": "[거시분석] Desperate appeals from women on death row in ...",
-          "score": -1
-        },
         {
           "date": "20261126",
           "type": "negative",
@@ -171,6 +165,12 @@
           "date": "20261124",
           "type": "negative",
           "headline": "[거시분석] UK sanctions top Myanmar military leaders aft...",
+          "score": -1
+        },
+        {
+          "date": "20261123",
+          "type": "negative",
+          "headline": "[거시분석] Boy, 7, pulled alive from rubble hours after ...",
           "score": -1
         }
       ]
@@ -226,8 +226,8 @@
         {
           "date": "20261128",
           "type": "negative",
-          "headline": "[거시분석] Desperate appeals from women on death row in ...",
-          "score": -5
+          "headline": "[거시분석] Israeli ‘direct hit ‘on Doctors Without Borde...",
+          "score": -2
         },
         {
           "date": "20261127",
@@ -746,25 +746,15 @@
     },
     {
       "date": "20261128",
-      "headline": "‘Playing with fire’: Trump faces GOP backlash over Nvidia CEO’s return",
+      "headline": "[거시분석] Israeli ‘direct hit ‘on Doctors Without Borde...",
       "impacts": {
-        "반도체·AI": 1
-      },
-      "source": "keyword"
-    },
-    {
-      "date": "20261128",
-      "headline": "[거시분석] Desperate appeals from women on death row in ...",
-      "impacts": {
-        "방산": 3,
-        "건설": -2,
-        "전체시장": -5,
-        "금융": -1
+        "방산": 1,
+        "전체시장": -2
       },
       "source": "geo_categories"
     }
   ],
-  "total_negatives": 42,
-  "total_positives": 51,
+  "total_negatives": 40,
+  "total_positives": 50,
   "risk_level": "EXTREME"
 }
